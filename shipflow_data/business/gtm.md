@@ -22,22 +22,22 @@ evidence:
   - "Le projet expose des pages quiz et progression dans `src/pages`"
   - "La documentation de marque et business fixe déjà les limites de promesse et le positionnement"
 linked_artifacts:
-  - "BUSINESS.md"
-  - "BRANDING.md"
-  - "PRODUCT.md"
+  - "shipflow_data/business/business.md"
+  - "shipflow_data/business/branding.md"
+  - "shipflow_data/business/product.md"
 depends_on:
-  - artifact: "BUSINESS.md"
+  - artifact: "shipflow_data/business/business.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
-  - artifact: "PRODUCT.md"
+  - artifact: "shipflow_data/business/product.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
-  - artifact: "BRANDING.md"
+  - artifact: "shipflow_data/business/branding.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
 supersedes: []
 next_review: "2026-05-26"
-next_step: "/sf-docs verify GTM.md"
+next_step: "/sf-docs verify shipflow_data/business/gtm.md"
 ---
 
 # GTM Context
@@ -77,7 +77,7 @@ GoCharbon se positionne comme un accélérateur d'exécution : moins d'infos inu
 
 - Produit éditorial déjà dense : `src/pages/parcours.astro` + nombreuses pages métier.
 - Parcours d'activation structurés, quiz et logique de progression en place.
-- Alignement de marque sur la voix anti-bullshit déjà documenté dans BRANDING.md.
+- Alignement de marque sur la voix anti-bullshit déjà documenté dans `shipflow_data/business/branding.md`.
 
 ## Objections courantes
 

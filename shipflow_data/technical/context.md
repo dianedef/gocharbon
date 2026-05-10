@@ -16,9 +16,9 @@ docs_impact: "yes"
 evidence:
   - "README.md"
   - "CLAUDE.md"
-  - "BRANDING.md"
-  - "BUSINESS.md"
-  - "GUIDELINES.md"
+  - "shipflow_data/business/branding.md"
+  - "shipflow_data/business/business.md"
+  - "shipflow_data/technical/README.md"
   - "package.json"
   - "astro.config.mjs"
   - "src/content.config.ts"
@@ -27,13 +27,12 @@ evidence:
   - "src/utils"
 linked_systems:
   - "AGENT.md"
-  - "CONTEXT.md"
-  - "CONTEXT-FUNCTION-TREE.md"
+  - "shipflow_data/technical/context-function-tree.md"
   - "README.md"
   - "CLAUDE.md"
-  - "BRANDING.md"
-  - "BUSINESS.md"
-  - "GUIDELINES.md"
+  - "shipflow_data/business/branding.md"
+  - "shipflow_data/business/business.md"
+  - "shipflow_data/technical/README.md"
   - "src/content.config.ts"
   - "src/components"
   - "src/utils"
@@ -57,11 +56,14 @@ invariants:
   - "La navigation principale doit toujours exposer les sections `blog`, `outils`, `tutos`, `parcours`."
 depends_on:
   - "/home/claude/gocharbon/AGENT.md"
-  - "/home/claude/gocharbon/CONTEXT.md"
-  - "/home/claude/gocharbon/CONTEXT-FUNCTION-TREE.md"
+  - "/home/claude/gocharbon/shipflow_data/business/business.md"
+  - "/home/claude/gocharbon/shipflow_data/business/branding.md"
+  - "/home/claude/gocharbon/shipflow_data/business/gtm.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/README.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/context-function-tree.md"
 supersedes: []
 next_review: "2026-07-26"
-next_step: "/sf-docs audit ARCHITECTURE.md"
+next_step: /sf-docs audit shipflow_data/technical/context.md
 ---
 
 # Architecture — gocharbon

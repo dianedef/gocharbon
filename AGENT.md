@@ -23,9 +23,9 @@ linked_systems:
 evidence:
   - "README.md"
   - "CLAUDE.md"
-  - "BRANDING.md"
-  - "BUSINESS.md"
-  - "GUIDELINES.md"
+  - "shipflow_data/business/branding.md"
+  - "shipflow_data/business/business.md"
+  - "shipflow_data/technical/README.md"
   - "AGENTS.md"
   - "package.json"
   - "astro.config.mjs"
@@ -42,11 +42,11 @@ Ce document est le point d'entrée opérationnel pour démarrer une tâche dans 
 ## Ordre de lecture rapide (obligatoire)
 
 1. Lire `CLAUDE.md` (contraintes humaines et règles d'écriture).
-2. Lire `GUIDELINES.md` (conventions éditoriales).
-3. Lire `BUSINESS.md` (positionnement produit/audience).
+2. Lire `shipflow_data/technical/README.md` (conventions éditoriales).
+3. Lire `shipflow_data/business/business.md` (positionnement produit/audience).
 4. Lire `AGENTS.md` (règles d'agent déjà présentes).
 5. Lire ce document.
-6. Lire ensuite `CONTEXT.md`, `CONTEXT-FUNCTION-TREE.md` et `ARCHITECTURE.md`.
+6. Lire ensuite `CONTEXT.md`, `shipflow_data/technical/context-function-tree.md` et `shipflow_data/technical/context.md`.
 
 ## Priorités de la plateforme
 

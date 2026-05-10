@@ -18,9 +18,9 @@ depends_on: []
 supersedes: []
 evidence: []
 next_review: "2026-07-27"
-next_step: /sf-docs audit GUIDELINES.md
+next_step: /sf-docs audit shipflow_data/technical/README.md
 ---
-# GUIDELINES.md - Charte Éditoriale & Règles de Contenu
+# TECHNICAL GUIDELINES — Charte éditoriale & Règles opérationnelles
 
 Ce document définit les règles éditoriales, le ton, le formatage et les bonnes pratiques pour tout contenu publié sur GoCharbon. C'est la référence pour quiconque rédige, édite ou contribue au site.
 

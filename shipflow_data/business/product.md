@@ -18,23 +18,23 @@ non_goals: "former tout un cursus long, remplacer la validation terrain par de l
 security_impact: unknown
 docs_impact: yes
 evidence:
-  - "BUSINESS.md pose les personas, objectifs et modèle de revenus"
-  - "BRANDING.md fixe ton attendu de voix cash, anti-bullshit et actionnable"
+  - "shipflow_data/business/business.md pose les personas, objectifs et modèle de revenus"
+  - "shipflow_data/business/branding.md fixe ton attendu de voix cash, anti-bullshit et actionnable"
   - "src/content/parcours contient 43 fichiers de contenu orientés parcours métiers et démarrage"
   - "src/pages/parcours.astro centralise la logique de découverte et de progression"
 linked_artifacts:
-  - "BUSINESS.md"
-  - "BRANDING.md"
+  - "shipflow_data/business/business.md"
+  - "shipflow_data/business/branding.md"
 depends_on:
-  - artifact: "BUSINESS.md"
+  - artifact: "shipflow_data/business/business.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
-  - artifact: "BRANDING.md"
+  - artifact: "shipflow_data/business/branding.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
 supersedes: []
 next_review: "2026-05-26"
-next_step: "/sf-docs verify PRODUCT.md"
+next_step: "/sf-docs verify shipflow_data/business/product.md"
 ---
 
 # Product Context

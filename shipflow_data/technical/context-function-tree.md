@@ -13,6 +13,8 @@ confidence: "medium"
 risk_level: "medium"
 security_impact: "none"
 docs_impact: "yes"
+linked_systems: []
+supersedes: []
 evidence:
   - "src/pages/index.astro"
   - "src/pages/parcours/[id].astro"
@@ -25,11 +27,10 @@ evidence:
 depends_on:
   - "/home/claude/gocharbon/AGENT.md"
   - "/home/claude/gocharbon/CONTEXT.md"
-  - "/home/claude/gocharbon/ARCHITECTURE.md"
-supersedes: []
-next_step: "/sf-docs update CONTEXT-FUNCTION-TREE.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/context.md"
+next_step: /sf-docs audit shipflow_data/technical/context-function-tree.md
+# NOTE: This artifact was migrated from CONTEXT-FUNCTION-TREE.md
 ---
-
 # CONTEXT-FUNCTION-TREE.md — gocharbon
 
 ## `src/pages` (routes principales)

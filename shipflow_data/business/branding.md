@@ -19,7 +19,7 @@ depends_on: []
 supersedes: []
 evidence: []
 next_review: "unknown"
-next_step: /sf-docs verify BRANDING.md
+next_step: /sf-docs verify shipflow_data/business/branding.md
 ---
 # 🎨 CHARBON - Brand Guidelines
 
@@ -268,7 +268,7 @@ Imagine un ami entrepreneur expérimenté qui :
 ## 🎨 Identité Visuelle
 
 ### 📌 Source de Vérité (Branding Centralisé)
-Ce fichier `BRANDING.md` est la **source de vérité** pour tout le branding.
+Ce fichier `shipflow_data/business/branding.md` est la **source de vérité** pour tout le branding.
 On y stocke systématiquement :
 - Palette de couleurs officielle
 - Typographies (fonts)
