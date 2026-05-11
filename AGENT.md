@@ -1,10 +1,10 @@
 ---
 artifact: agent_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.1.0"
 project: "gocharbon"
 created: "2026-04-26"
-updated: "2026-04-27"
+updated: "2026-05-11"
 status: reviewed
 source_skill: manual
 scope: agent
@@ -26,10 +26,11 @@ evidence:
   - "shipflow_data/business/branding.md"
   - "shipflow_data/business/business.md"
   - "shipflow_data/technical/README.md"
-  - "AGENTS.md"
+  - "AGENTS.md compatibility symlink"
   - "package.json"
   - "astro.config.mjs"
   - "src/content.config.ts"
+  - "Legacy AGENTS.md agent rules folded into this canonical entrypoint."
 depends_on: []
 supersedes: []
 next_step: "/sf-docs update AGENT.md"
@@ -44,9 +45,8 @@ Ce document est le point d'entrée opérationnel pour démarrer une tâche dans 
 1. Lire `CLAUDE.md` (contraintes humaines et règles d'écriture).
 2. Lire `shipflow_data/technical/README.md` (conventions éditoriales).
 3. Lire `shipflow_data/business/business.md` (positionnement produit/audience).
-4. Lire `AGENTS.md` (règles d'agent déjà présentes).
-5. Lire ce document.
-6. Lire ensuite `CONTEXT.md`, `shipflow_data/technical/context-function-tree.md` et `shipflow_data/technical/context.md`.
+4. Lire ce document.
+5. Lire ensuite `shipflow_data/technical/context.md`, `shipflow_data/technical/context-function-tree.md` et `shipflow_data/technical/architecture.md`.
 
 ## Priorités de la plateforme
 
@@ -67,8 +67,12 @@ Ce document est le point d'entrée opérationnel pour démarrer une tâche dans 
   - Toujours respecter les contraintes de ton, source, preuve, et anti-marketing.
   - Ne pas modifier l'essence technique sans raison métier explicite.
 - Pour la qualification des outils :
-  - Suivre `AGENTS.md` + `skills/outils-qualification-locale/SKILL.md`.
+  - Suivre ce fichier + `skills/outils-qualification-locale/SKILL.md`.
   - Utiliser les scripts dédiés (`qa`, `audit`, `prioritize`) avant de valider des lots.
+  - Mettre à jour uniquement les champs de frontmatter de qualification sauf demande explicite de réécriture éditoriale.
+  - Renseigner `sourcesVerification`.
+  - Préférer `indetermine` ou `partiel` quand la preuve est incomplète.
+  - Garder une fiche canonique par outil par défaut; maintenir deux fiches seulement quand l'intention de recherche est vraiment différente.
 - Pour la maintenance de performance :
   - Vérifier l'impact de build (scripts/build mode) avant d'étendre les pré-rendus.
 
@@ -83,5 +87,13 @@ Ce document est le point d'entrée opérationnel pour démarrer une tâche dans 
 
 - `section` taxonomie `blog/outils/tutos/parcours` doit rester cohérente.
 - Ne pas inventer de label "French" sans preuve.
+- Ne pas réintroduire `apps` comme section ou route.
+- Traiter catégorisation de contenu, qualification locale et niveau de responsabilité comme des décisions séparées.
 - Les métadonnées de qualification influencent un badge public (`Engagement français`) : rester prudent.
-- Si la règle métier change, mettre à jour la doc (`AGENTS.md`, `CONTEXT*`, `ARCHITECTURE`) avant de valider.
+- Si la règle métier change, mettre à jour la doc (`AGENT.md`, `shipflow_data/technical/context.md`, `shipflow_data/technical/context-function-tree.md`, `shipflow_data/technical/architecture.md`) avant de valider.
+
+## Mémoire éditoriale
+
+- GoCharbon est porté par Diane, fondatrice française, product-minded, avec une voix humaine, claire, directe et anti-bullshit.
+- Éviter la prose IA, le storytelling startup générique et les promesses gonflées.
+- Pour les contenus founder, marque ou manifeste, partir de `src/data/_founder.md` et `src/data/_vision.md` quand ils existent.

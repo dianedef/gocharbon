@@ -1,152 +1,106 @@
 ---
-artifact: architecture_context
+artifact: technical_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.0.1"
 project: "gocharbon"
 created: "2026-04-26"
-updated: "2026-04-27"
+updated: "2026-05-11"
 status: reviewed
 source_skill: manual
-scope: architecture
+scope: technical
 owner: "dianedef"
 confidence: "medium"
 risk_level: "medium"
-security_impact: "low"
+security_impact: "none"
 docs_impact: "yes"
 evidence:
-  - "README.md"
-  - "CLAUDE.md"
-  - "shipflow_data/business/branding.md"
-  - "shipflow_data/business/business.md"
-  - "shipflow_data/technical/README.md"
   - "package.json"
   - "astro.config.mjs"
   - "src/content.config.ts"
-  - "src/components"
-  - "src/data"
-  - "src/utils"
-linked_systems:
-  - "AGENT.md"
-  - "shipflow_data/technical/context-function-tree.md"
-  - "README.md"
-  - "CLAUDE.md"
-  - "shipflow_data/business/branding.md"
-  - "shipflow_data/business/business.md"
-  - "shipflow_data/technical/README.md"
-  - "src/content.config.ts"
+  - "src/pages"
   - "src/components"
   - "src/utils"
   - "src/data"
   - "src/gamification"
   - "scripts"
-external_dependencies:
-  - "Astro 5 (static build, file-based routes)"
-  - "Vue 3.5 via @astrojs/vue"
-  - "UnoCSS 66"
-  - "Node.js + pnpm"
-  - "@diane-winflowz/gamification"
-  - "satori / resvg-js"
-  - "Sharp"
-invariants:
-  - "Le mode build doit respecter les filtres `PARCOURS_ONLY_BUILD` et `EXCLUDE_OUTILS_FROM_BUILD`."
-  - "Les collections de contenu (`posts`, `parcours`) restent source de vérité pour les pages dynamiques."
-  - "La qualification locale d'outil ne doit pas être inférée sans preuve."
-  - "La structure de tags hiérarchique doit rester cohérente pour la recherche, l'indexation et les filtres."
-  - "La progression gamifiée doit conserver la source locale de vérité (`localStorage`) avec sync optionnelle."
-  - "La navigation principale doit toujours exposer les sections `blog`, `outils`, `tutos`, `parcours`."
 depends_on:
   - "/home/claude/gocharbon/AGENT.md"
-  - "/home/claude/gocharbon/shipflow_data/business/business.md"
-  - "/home/claude/gocharbon/shipflow_data/business/branding.md"
-  - "/home/claude/gocharbon/shipflow_data/business/gtm.md"
   - "/home/claude/gocharbon/shipflow_data/technical/README.md"
-  - "/home/claude/gocharbon/shipflow_data/technical/context-function-tree.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/architecture.md"
 supersedes: []
-next_review: "2026-07-26"
-next_step: /sf-docs audit shipflow_data/technical/context.md
+next_step: "/sf-docs update shipflow_data/technical/context.md"
 ---
 
-# Architecture — gocharbon
+# CONTEXT — gocharbon
 
-## 1) Vue d'ensemble
+## Positionnement
 
-GoCharbon est une application de génération de contenu statique (SSG) basée sur Astro 5, avec pages dynamiques pré-rendues et islands Vue 3 pour les interactions ciblées.
+GoCharbon est une plateforme éditoriale française pour entrepreneurs (site Astro static), orientée :
+- parcours d'activation métier,
+- catalogue d'outils qualifiés,
+- tutoriels/actionnables,
+- gamification de progression personnelle.
 
-```text
-Auteur/éditeur (src/data + compétences SKILL)
-        │
-        ▼
-Astro Content Collections (src/content.config.ts)
-        │
-        ▼
-Routes Astro (`src/pages/*`) ──────┬────> Layouts (`src/layouts/*`)
-                                  │
-                                  └────> Islands Vue (`src/components/vue/*`)
-                                           │
-                                           ▼
-Gamification locale (localStorage + xp/pathProgress)
-```
+Le repo est principalement un site marketing/SEO + contenu, avec génération statique.
 
-## 2) Couche de contenu
+## Entrypoints
 
-- `src/content.config.ts` :
-  - collection `posts` : frontmatter validé (tags, auteur, section, métadonnées d'outils)
-  - collection `parcours` : définition des profils/séries d'activation
-- `src/data` :
-  - fichiers markdown éditoriaux (hundreds of files)
-  - données structurées de navigation (`parcoursData`, `profileTaxonomy`, `launchSignals`)
-- `scripts/` :
-  - audits, normalisation, qualification, priorisation et qualité des contenus
+- `pnpm dev` / `pnpm start` → `astro dev`
+- `pnpm build` → build de lancement (parcours + périmètre principal)
+- `pnpm build:full` → build complet
+- `pnpm preview` → prévisualisation du build
 
-## 3) Système de build/rendus
+## Architecture réelle
 
-- `astro.config.mjs` active :
-  - intégration Vue
-  - UnoCSS
-  - sitemap
-  - intégration personnalisée `createParcoursLaunchBuildIntegration`
-- Flux de build principal :
-  1. Collecte `posts` + `parcours`
-  2. Génération routes statiques via `getStaticPaths`
-  3. Application filtres de visibilité:
-     - suppression `draft`
-     - retrait des posts futurs
-     - modes spéciaux de lancement
-  4. Exécution hooks de fin de build pour pruner la sortie en mode lancement
+### Couche route/page (Astro)
+- `src/pages/index.astro` → home
+- `src/pages/blog.astro` → liste blog
+- `src/pages/outils.astro`, `src/pages/outils/[category].astro`, `src/pages/tag/[tag].astro` → navigation outil/tags
+- `src/pages/parcours.astro`, `src/pages/parcours/[id].astro` → offre d'activation business
+- `src/pages/quiz.astro`, `src/pages/quiz-rapide.astro`, `src/pages/quiz-avance.astro`
+- `src/pages/progression.astro` + `src/pages/gamification.astro`
+- `src/pages/[...slug].astro` → rendu d'article/fiches
+- `src/pages/api/filter-posts.json.ts` → filtrage multi-tags (API statique + dynamique)
+- `src/pages/feed.xml.js` → flux RSS
 
-## 4) Règles de fonctionnement métier
+### Couche données et configuration
+- `src/content.config.ts` définit deux collections Astro:
+  - `posts` (slug glob, frontmatter étendu et validation Zod)
+  - `parcours` (données YAML-like pour parcours)
+- `src/data` contient la majorité du contenu Markdown + méta business (parcours, articles, notes)
+- `src/config` centralise routes, site, tags, navigation, sections
+- `src/utils` centralise logique métier partagée:
+  - sélection/tagging contenu
+  - scopes de build et filtres publication
+  - taxonomy outil
+  - pré-génération / cache de filtres
+  - qualification metadata d'outils
 
-### 4.1 Parcours / Build launch
-- Env var `PARCOURS_ONLY_BUILD=1` active le périmètre réduit.
-- Les routes non-prioritaires peuvent être supprimées ou désactivées côté HTML.
-- Les XML du sitemap sont filtrés pour conserver un index cohérent.
+### Couche UI
+- `src/layouts` : shell commun et layout article
+- `src/components/components` : composants Astro/JS
+- `src/components/vue` : islands Vue 3 (quiz, progression, toggles)
+- `src/components/ParcoursCallToAction.astro`, `src/gamification/*` pour la logique de parcours
 
-### 4.2 Filtres tags
-- `src/components/tagHierarchy.ts` + `static-responses.ts` : logique hiérarchique et normalisation
-- `src/pages/api/filter-posts.json.ts` :
-  - pré-génération des combinaisons courantes (`common combinations`)
-  - cache-control long pour routes pré-générées, court pour routes dynamiques
+### Couche gamification
+- Stockage local via `localStorage` avec clés `charbon_*` (`src/gamification/storageKeys.ts`)
+- Tracking d'XP/progression (`src/gamification/xp.ts`, `src/gamification/pathProgress.ts`)
+- Sync optionnelle Convex côté navigateur (`src/gamification/convexSync.ts`) en fallback local
 
-### 4.3 Qualification outil
-- Les champs `qualificationLocale`, `ancrageEconomique`, `niveauResponsabilite`...
-  orientent le badge public “Engagement français”.
-- Les scripts de skill `outils-qualification-locale` opèrent sur ces champs.
+### Couche outils/scripts
+- `scripts/*.py|.ts|.mjs` : audits qualité, duplication, qualification, ordonnancement
+- `skills/*/SKILL.md` : workflows de contenu dédiés (qualification/outils/article research)
 
-## 5) Gamification / progression
+## Contraintes métier clés
 
-- Composants Vue (`PathProgressTracker`, `CharbonGamificationDashboard`) lisent/écrivent dans `localStorage`.
-- Calcul XP et niveaux dans `src/gamification/xp.ts`.
-- Option de synchronisation distante via endpoints Convex (facultatif), avec fallback local robuste.
+- La taxonomie de tags est hiérarchique (`src/components/tagHierarchy.ts`) et doit rester cohérente.
+- Les flux de build doivent respecter les modes `PARCOURS_ONLY_BUILD` / `EXCLUDE_OUTILS_FROM_BUILD`.
+- `AGENTS.md` et `shipflow_data/technical/README.md` imposent un ton direct, anti-bullshit, en français.
+- Les décisions de qualification locale ne doivent pas être inférées par branding.
 
-## 6) Dépendances d'exécution
+## Invariants à surveiller
 
-- `pnpm` (workflow recommandé), Node, TypeScript.
-- `sharp`/`satori` pour génération d’assets/image dynamiques OG.
-- CDN et cache HTTP sur la route API en fonction du mode de routage.
-
-## 7) Risques techniques
-
-- Le couplage entre frontmatter, taxonomie tags et scripts de build est sensible :
-  une incohérence casse routage, filtrage et sitemap.
-- Le build launch manipule la sortie HTML ; les règles doivent rester testées sur la surface de production attendue.
-- Les modifications de qualification d'outil ont un impact direct sur badge/UX et conformité éditoriale.
+- Si la structure `src/content.config.ts` change, la logique de route/tags doit être réconciliée.
+- Les changements de metadata outils impactent l'affichage public (badges, classement).
+- Une route dynamique API doit rester compatible cache/static-generation actuelle pour ne pas casser le SEO.
+- `shipflow_data/technical/context-function-tree.md` doit être mis à jour pour tout hotspot fonctionnel nouveau.
