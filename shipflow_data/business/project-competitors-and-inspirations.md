@@ -1,7 +1,7 @@
 ---
 artifact: competitive_intelligence
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.1.0"
 project: "gocharbon"
 created: "2026-05-11"
 updated: "2026-05-11"
@@ -18,16 +18,21 @@ reference_categories:
   - inspirations
   - content-opportunities
   - tool-benchmarks
-source_policy: "Use listed sources as inspiration or benchmark candidates; verify factual claims and current product state before public publication."
+source_policy: "Utiliser ce registre comme outil interne de veille, d'inspiration et de cadrage. Toute affirmation publique doit être vérifiée à la source avant publication."
 target_projects:
   - gocharbon
 evidence:
-  - "concurrent.md"
-  - "shipflow_data/research/INSPIRATION.md"
+  - "shipflow_data/business/business.md"
+  - "shipflow_data/business/product.md"
+  - "shipflow_data/business/gtm.md"
+  - "shipflow_data/editorial/content-map.md"
+  - "shipflow_data/research/SOURCE.md"
+  - "shipflow_data/research/SPEC-roadmap.md"
 depends_on:
-  - "/home/claude/gocharbon/shipflow_data/business/business.md"
-  - "/home/claude/gocharbon/shipflow_data/business/product.md"
-  - "/home/claude/gocharbon/shipflow_data/business/gtm.md"
+  - "shipflow_data/business/business.md"
+  - "shipflow_data/business/product.md"
+  - "shipflow_data/business/gtm.md"
+  - "shipflow_data/editorial/content-map.md"
 supersedes:
   - "/home/claude/gocharbon/concurrent.md"
   - "/home/claude/gocharbon/INSPIRATION.md"
@@ -38,16 +43,36 @@ next_step: "/sf-market-study update shipflow_data/business/project-competitors-a
 
 # Concurrents et inspirations — GoCharbon
 
-## Lecture projet
+## Rôle
 
-GoCharbon est un média/outillage éducatif pour entrepreneurs. Les liens utiles sont surtout des sujets d'articles, des fiches outils, des benchmarks SEO/GEO et des inspirations de validation produit.
+Ce registre sert à cadrer la veille concurrentielle, les inspirations éditoriales et les opportunités de contenu de GoCharbon. Il n'est pas une page publique et ne doit pas être utilisé comme source de vérité commerciale sans vérification fraîche.
 
-## Benchmarks structurels
+GoCharbon est un média/outillage éducatif pour entrepreneurs. Les entrées utiles sont donc surtout :
 
-- Marketing Mania (`https://marketingmania.fr/accueil`) est une inspiration de clarté : promesse simple, preuve média, puis choix par objectif. C'est moins riche que GoCharbon, mais plus lisible.
-- LiveMentor (`https://www.livementor.com/application/`) est le meilleur benchmark fonctionnel : suivi d'objectif, bibliothèque, mentor, communauté, messagerie, accès à vie et preuve de satisfaction.
-- Foundr (`https://foundr.com/`) est un benchmark de crédibilité : logos, success stories, free training, coaching, Trustpilot et experts connus.
-- GoCharbon se différencie par l'expérience gratuite et interactive : parcours, gamification et angle francophone. Le concurrent réel n'est pas seulement le blog business, mais le coach produit qui aide à passer à l'action.
+- des concurrents d'attention : médias, formations, newsletters et créateurs qui captent la même audience ;
+- des concurrents fonctionnels : parcours, quiz, coaching, bibliothèques de ressources et communautés ;
+- des inspirations de contenu : sujets, formats, architectures éditoriales et angles de preuve ;
+- des signaux d'outils : fiches, benchmarks SEO/GEO, validation marché, analytics et productivité.
+
+## Règles de doctrine
+
+- Séparer clairement observation, inférence et inspiration.
+- Ne jamais copier une structure, une promesse, un texte ou une mécanique propriétaire sans réinterprétation GoCharbon.
+- Vérifier les URLs, offres, prix, fonctionnalités et claims avant toute publication publique.
+- Ne pas transformer une inspiration en recommandation outil sans preuve, test ou source officielle.
+- Marquer les sujets récents ou issus de plateformes de veille comme `à vérifier` tant qu'ils n'ont pas été relus.
+- Utiliser ce registre pour nourrir `shipflow_data/editorial/content-map.md`, pas pour contourner les règles de source des fiches outils.
+
+## Benchmarks structurants
+
+| Source | Type | Observation | Inférence GoCharbon | Inspiration exploitable | Statut preuve |
+|---|---|---|---|---|---|
+| Marketing Mania (`https://marketingmania.fr/accueil`) | Média/formation marketing | Promesse simple, tunnel par objectif, présence YouTube. | Benchmark de clarté d'entrée et de packaging d'offres. | Simplifier les choix de parcours et rendre la promesse plus lisible. | À vérifier avant citation publique |
+| LiveMentor (`https://www.livementor.com/application/`) | Formation/coaching entrepreneurial | Parcours d'objectif, bibliothèque, mentorat, communauté et espace applicatif. | Benchmark fonctionnel plus proche qu'un blog classique. | Penser GoCharbon comme une expérience d'activation, pas seulement comme des articles. | À vérifier avant citation publique |
+| Foundr (`https://foundr.com/`) | Média/formation entrepreneuriale | Crédibilité par experts, success stories, contenus gratuits et preuves sociales. | Benchmark de confiance et de preuve. | Mieux matérialiser preuves, résultats et parcours selon maturité lecteur. | À vérifier avant citation publique |
+| Web & SEO (`https://www.webandseo.fr/plan-de-site/`) | Média SEO/affiliation | Architecture riche de contenus SEO, affiliation et business web. | Benchmark de profondeur éditoriale. | Identifier les clusters à compléter côté affiliation, SEO et monétisation. | À vérifier avant citation publique |
+| Korben (`https://korben.info/feed/`) | Veille tech francophone | Flux de veille rapide sur outils, culture web et sécurité. | Inspiration de rythme et de découverte. | Alimenter la veille outils sans sacrifier la qualification locale. | À vérifier avant citation publique |
+| Jean-Charles Kurdali (`https://jeancharleskurdali.substack.com/`) | Créateur/newsletter business | Contenu founder-led et distribution newsletter. | Inspiration de voix indépendante et de relation audience. | Nourrir les formats newsletter et analyses personnelles. | À vérifier avant citation publique |
 
 ## Sources d'inspiration existantes
 
@@ -79,6 +104,16 @@ GoCharbon est un média/outillage éducatif pour entrepreneurs. Les liens utiles
 | [Spec27](https://betalist.com/startups/spec27) | Article agents IA | 5/10 | Peut nourrir un article sur les specs comme garde-fous des agents IA. |
 | [BundleUp](https://betalist.com/startups/bundleup) | Article API | 5/10 | Sujet "API unifiée vs intégrations maison". |
 | [Impulse AI](https://betalist.com/startups/impulse-ai) | Article IA production | 5/10 | Bon prétexte pour parler du vrai coût de déployer une IA en prod. |
+
+## Règle de passage vers contenu public
+
+Avant de publier une fiche, un comparatif ou une mention concurrente issue de ce registre :
+
+1. Vérifier la page officielle ou la source primaire.
+2. Ajouter les sources utiles dans `sourcesVerification` si cela concerne une fiche outil.
+3. Distinguer l'alternative française, européenne ou étrangère selon la méthode locale.
+4. Écrire les limites et les biais possibles, surtout si l'angle touche l'affiliation.
+5. Relier le sujet au bon pilier dans `shipflow_data/editorial/content-map.md`.
 
 ## Question ouverte
 
