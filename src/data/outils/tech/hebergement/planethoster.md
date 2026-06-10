@@ -3,9 +3,9 @@ section: outils
 toolCategoryPrimary: tech
 toolSubcategoryPrimary: hebergement
 toolFacets:
-  - cloud
-  - email
-  - wordpress
+- cloud
+- email
+- wordpress
 type: outil
 qualificationLocale: hors-union-europeenne
 ancrageEconomique: partiel
@@ -13,23 +13,31 @@ niveauResponsabilite: partiel
 paysSiege: Canada
 paysFiscal: Canada
 paysFondateurs:
-  - Canada
+- Canada
 hebergementDonnees: multi-region
 sourcesVerification:
-  - "https://www.planethoster.fr/"
-  - "https://www.planethoster.fr/a-propos"
-notesQualification: "PlanetHoster Inc. est une entreprise canadienne fondee en 2007 au Quebec. Siege social au Canada. Datacenters en France (Paris), Suisse (Lausanne) et Canada (Quebec). Ancrage economique partiel : operations internationales avec bureaux en France depuis 2012, mais siege et incorporation au Canada. Niveau de responsabilite partiel : transparence correcte, engagement ecologique documente (energie verte), support internalise, mais pas de certifications souveraines europeennes (pas de SecNumCloud). Conforme RGPD. Certifie ISO 27001, SOC 2, SSAE 16."
-methodologieVersion: "gocharbon-v1"
+- https://www.planethoster.fr/
+- https://www.planethoster.fr/a-propos
+notesQualification: 'PlanetHoster Inc. est une entreprise canadienne fondee en 2007
+  au Quebec. Siege social au Canada. Datacenters en France (Paris), Suisse (Lausanne)
+  et Canada (Quebec). Ancrage economique partiel : operations internationales avec
+  bureaux en France depuis 2012, mais siege et incorporation au Canada. Niveau de
+  responsabilite partiel : transparence correcte, engagement ecologique documente
+  (energie verte), support internalise, mais pas de certifications souveraines europeennes
+  (pas de SecNumCloud). Conforme RGPD. Certifie ISO 27001, SOC 2, SSAE 16.'
+methodologieVersion: gocharbon-v1
 title: PlanetHoster
 author: Diane
 tags:
-  - Outils
-description: "PlanetHoster est un hébergeur web francophone fondé au Québec en 2007. 60 000+ clients, datacenters France/Suisse/Canada, panneau N0C maison. Dès 6€/mois."
+- Outils
+description: PlanetHoster est un hébergeur web francophone fondé au Québec en 2007.
+  60 000+ clients, datacenters France/Suisse/Canada, panneau N0C maison. Dès 6€/mois.
 pubDate: '2026-03-28'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.planethoster.fr
 u_origine: CA
 u_langue_fr: true
+metadataEnrichedAt: '2026-05-13'
 ---
 
 # PlanetHoster

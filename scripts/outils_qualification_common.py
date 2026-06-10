@@ -15,7 +15,7 @@ import unicodedata
 
 import yaml
 
-ROOT = Path("/home/claude/GoCharbon")
+ROOT = Path(__file__).resolve().parents[1]
 TOOLS_DIR = ROOT / "src" / "data" / "outils"
 
 QUAL_FIELDS = [

@@ -8,18 +8,18 @@ toolFacets:
 - google-maps
 metadataEnrichedAt: '2026-04-09'
 type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
+qualificationLocale: indetermine
+ancrageEconomique: indetermine
+niveauResponsabilite: indetermine
+paysSiege: indetermine
 paysFondateurs:
 - France
 hebergementDonnees: inconnu
 sourcesVerification:
 - https://www.infiniteleads.fr
-notesQualification: Service français de génération de leads B2B. Domaine .fr, positionnement
-  marché français. Mentions légales à vérifier. Opéré en France selon les signaux
-  disponibles.
+notesQualification: Les preuves publiques sont insuffisantes pour qualifier l'outil
+  comme français au-delà du positionnement commercial et du domaine. Qualification
+  repassée en indéterminé par prudence.
 methodologieVersion: gocharbon-v1
 title: Infinite Leads
 author: Diane

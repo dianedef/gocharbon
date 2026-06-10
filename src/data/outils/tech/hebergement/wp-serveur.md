@@ -3,32 +3,36 @@ section: outils
 title: WP Serveur
 author: Diane
 tags:
-  - 'Outils Français'
-  - 'Hébergement'
-  - 'Tech'
-  - Outils
-description: "WP Serveur est l'hébergeur 100% WordPress français, infrastructure Celeste, serveurs Nginx + Varnish. SAS fondée en 2015, 1,6M€ de CA. À partir de 9,90€ HT/mois."
-pubDate: "2026-03-28"
+- Outils Français
+- Hébergement
+- Tech
+- Outils
+description: WP Serveur est l'hébergeur 100% WordPress français, infrastructure Celeste,
+  serveurs Nginx + Varnish. SAS fondée en 2015, 1,6M€ de CA. À partir de 9,90€ HT/mois.
+pubDate: '2026-03-28'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.wpserveur.net
-u_origine: "FR"
+u_origine: FR
 u_langue_fr: true
-u_derniere_maj: "2026-03-28"
+u_derniere_maj: '2026-03-28'
 qualificationLocale: france
 ancrageEconomique: fort
 niveauResponsabilite: fort
-paysSiege: "France"
-paysFiscal: "France"
+paysSiege: France
+paysFiscal: France
 paysFondateurs:
-  - "France"
+- France
 hebergementDonnees: france
-societeMere: "Groupe Celeste"
+societeMere: Groupe Celeste
 sourcesVerification:
-  - "https://www.wpserveur.net/mentions-legales/"
-  - "https://www.societe.com/societe/wp-serveur-808840474.html"
-notesQualification: "SAS française (RCS Meaux 808 840 474), siège à Champs-sur-Marne, infrastructure Celeste (opérateur télécom français), serveurs en France, données hébergées en France."
-methodologieVersion: "gocharbon-v1"
+- https://www.wpserveur.net/mentions-legales/
+- https://www.societe.com/societe/wp-serveur-808840474.html
+notesQualification: SAS française (RCS Meaux 808 840 474), siège à Champs-sur-Marne,
+  infrastructure Celeste (opérateur télécom français), serveurs en France, données
+  hébergées en France.
+methodologieVersion: gocharbon-v1
 type: outil
+metadataEnrichedAt: '2026-05-13'
 ---
 
 # WP Serveur

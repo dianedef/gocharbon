@@ -3,20 +3,35 @@ section: outils
 title: Mistral AI
 author: Diane
 tags:
-  - 'Outils Français'
-  - 'IA'
-  - 'Tech'
-  - Outils
-description: "Mistral AI est le champion français de l'IA générative. Modèles open source, API, et Le Chat (assistant gratuit). Alternative européenne souveraine à OpenAI. Valorisation 12 Mds EUR."
-pubDate: "2026-03-29"
+- Outils Français
+- IA
+- Tech
+- Outils
+description: Mistral AI est le champion français de l'IA générative. Modèles open
+  source, API, et Le Chat (assistant gratuit). Alternative européenne souveraine à
+  OpenAI. Valorisation 12 Mds EUR.
+pubDate: '2026-03-29'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://mistral.ai/
-u_origine: "FR"
+u_origine: FR
 u_langue_fr: true
-u_derniere_maj: "2026-03-29"
+u_derniere_maj: '2026-03-29'
 qualificationLocale: france
 ancrageEconomique: fort
 niveauResponsabilite: fort
+metadataEnrichedAt: '2026-05-13'
+type: outil
+paysSiege: France
+hebergementDonnees: multi-region
+sourcesVerification:
+- https://mistral.ai/legal/
+- https://legal.mistral.ai/terms/privacy-policy?language=fr-FR
+- https://mistral.ai/company/
+notesQualification: Mistral AI est une SAS immatriculée à Paris avec siège documenté
+  dans les mentions légales. La responsabilité est forte sur la transparence légale,
+  mais l'hébergement est qualifié multi-région car les offres et déploiements peuvent
+  dépendre du contexte cloud/API.
+methodologieVersion: gocharbon-v1
 ---
 
 # Mistral AI

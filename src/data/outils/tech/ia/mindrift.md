@@ -1,30 +1,37 @@
 ---
-title: "Mindrift"
+title: Mindrift
 author: Diane
 section: outils
 type: outil
 tags:
-  - 'Outils'
-  - 'IA'
-  - 'Tech'
-description: "Mindrift (by Toloka) connecte des experts freelances avec des projets d'entraînement IA spécialisés. De 15 à 100+$/h selon le domaine."
-pubDate: "2026-03-19"
+- Outils
+- IA
+- Tech
+description: Mindrift (by Toloka) connecte des experts freelances avec des projets
+  d'entraînement IA spécialisés. De 15 à 100+$/h selon le domaine.
+pubDate: '2026-03-19'
 imgUrl: ../../../../assets/astro.jpeg
-u_site: "https://mindrift.ai"
-u_origine: "NL"
+u_site: https://mindrift.ai
+u_origine: NL
 u_langue_fr: false
 qualificationLocale: union-europeenne
 ancrageEconomique: partiel
 niveauResponsabilite: partiel
-paysSiege: "Pays-Bas"
-paysFiscal: "Pays-Bas"
+paysSiege: Pays-Bas
+paysFiscal: Pays-Bas
 paysFondateurs:
-  - "Russie"
+- Russie
 hebergementDonnees: union-europeenne
-societeMere: "Toloka"
-notesQualification: "Toloka était initialement une filiale de Yandex (Russie), désormais basée aux Pays-Bas. Mindrift est la marque freelance orientée experts."
-methodologieVersion: "gocharbon-v1"
-u_derniere_maj: "2026-03-19"
+societeMere: Toloka
+notesQualification: Toloka était initialement une filiale de Yandex (Russie), désormais
+  basée aux Pays-Bas. Mindrift est la marque freelance orientée experts.
+methodologieVersion: gocharbon-v1
+u_derniere_maj: '2026-03-19'
+metadataEnrichedAt: '2026-05-13'
+sourcesVerification:
+- https://mindrift.ai/about
+- https://mindrift.ai/legal/privacy
+- https://mindrift.ai/legal/terms
 ---
 
 # Mindrift

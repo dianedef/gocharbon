@@ -1,28 +1,36 @@
 ---
-title: "Wirk.io"
+title: Wirk.io
 author: Diane
 section: outils
 type: outil
 tags:
-  - 'Outils Français'
-  - 'IA'
-  - 'Tech'
-description: "Wirk.io (ex-Foule Factory) : plateforme française de micro-travail avec 50 000 contributeurs. Annotation IA, modération, catégorisation — 100% francophone."
-pubDate: "2026-03-19"
+- Outils Français
+- IA
+- Tech
+description: 'Wirk.io (ex-Foule Factory) : plateforme française de micro-travail avec
+  50 000 contributeurs. Annotation IA, modération, catégorisation — 100% francophone.'
+pubDate: '2026-03-19'
 imgUrl: ../../../../assets/astro.jpeg
-u_site: "https://www.wirk.io"
-u_origine: "FR"
+u_site: https://www.wirk.io
+u_origine: FR
 u_langue_fr: true
 qualificationLocale: france
 ancrageEconomique: fort
 niveauResponsabilite: fort
-paysSiege: "France"
-paysFiscal: "France"
+paysSiege: France
+paysFiscal: France
 paysFondateurs:
-  - "France"
+- France
 hebergementDonnees: france
-methodologieVersion: "gocharbon-v1"
-u_derniere_maj: "2026-03-19"
+methodologieVersion: gocharbon-v1
+u_derniere_maj: '2026-03-19'
+metadataEnrichedAt: '2026-05-13'
+sourcesVerification:
+- https://www.wirk.io/mentions-legales/
+- https://www.wirk.io/foule-factory-lance-wirk-io/
+notesQualification: Wirk.io est une marque de Lotomate SAS, société française immatriculée
+  à Paris. Les mentions légales indiquent un hébergement OVH pour wirk.io et app.wirk.io,
+  ce qui justifie une qualification française forte.
 ---
 
 # Wirk.io

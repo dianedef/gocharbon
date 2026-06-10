@@ -16,7 +16,9 @@ paysSiege: France
 paysFiscal: France
 hebergementDonnees: france
 sourcesVerification:
-- https://www.magileads.com
+- https://www.magileads.com/mentions-legales/
+- https://www.magileads.com/magileads-respecte-la-reglementation-rgpd/
+- https://www.magileads.com/accord-de-confidentialite/
 notesQualification: Startup française. Données hébergées sur OVH (France). Co-fondateur
   Nicolas mentionné. 15 000+ utilisateurs.
 methodologieVersion: gocharbon-v1

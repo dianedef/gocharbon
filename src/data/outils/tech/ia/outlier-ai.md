@@ -1,30 +1,36 @@
 ---
-title: "Outlier AI"
+title: Outlier AI
 author: Diane
 section: outils
 type: outil
 tags:
-  - 'Outils'
-  - 'IA'
-  - 'Tech'
-description: "Outlier AI (Scale AI) connecte 100 000+ experts avec OpenAI, Google et Meta pour entraîner l'IA. De 10 à 120$/h selon ton expertise."
-pubDate: "2026-03-19"
+- Outils
+- IA
+- Tech
+description: Outlier AI (Scale AI) connecte 100 000+ experts avec OpenAI, Google et
+  Meta pour entraîner l'IA. De 10 à 120$/h selon ton expertise.
+pubDate: '2026-03-19'
 imgUrl: ../../../../assets/astro.jpeg
-u_site: "https://outlier.ai"
-u_origine: "US"
+u_site: https://outlier.ai
+u_origine: US
 u_langue_fr: false
 qualificationLocale: hors-union-europeenne
 ancrageEconomique: faible
 niveauResponsabilite: faible
-paysSiege: "États-Unis"
-paysFiscal: "États-Unis"
+paysSiege: États-Unis
+paysFiscal: États-Unis
 paysFondateurs:
-  - "États-Unis"
+- États-Unis
 hebergementDonnees: hors-union-europeenne
-societeMere: "Scale AI"
-notesQualification: "Filiale de Scale AI (valorisée $14Mds). Plateforme américaine, accessible depuis la France. Paiements en USD via PayPal."
-methodologieVersion: "gocharbon-v1"
-u_derniere_maj: "2026-03-19"
+societeMere: Scale AI
+notesQualification: Filiale de Scale AI (valorisée $14Mds). Plateforme américaine,
+  accessible depuis la France. Paiements en USD via PayPal.
+methodologieVersion: gocharbon-v1
+u_derniere_maj: '2026-03-19'
+metadataEnrichedAt: '2026-05-13'
+sourcesVerification:
+- https://outlier.ai/legal/terms-of-use
+- https://outlier.ai/legal-pages/privacy-policy
 ---
 
 # Outlier AI

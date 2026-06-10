@@ -34,3 +34,5 @@ Le sujet utile ici n'est pas “voyager moins cher”. Le sujet utile, c'est un 
 ## Verdict GoCharbon
 
 À garder comme étude de cas marketing, pas comme outil. Intéressant pour réfléchir à une offre éditoriale claire, utile et mémorable.
+
+CocoRoam provides travel eSIMs that connect you to local 4G/5G networks worldwide with no roaming or SIM swapping. Install a QR code in minutes, keep your personal number for calls and texts, and use hotspot and tethering as usual. Choose single-country or multi-country plans that switch carriers automatically for the best coverage. CocoRoam also offers CocoCall, a browser calling service with pay-as-you-go rates and optional virtual numbers so you can call home from anywhere

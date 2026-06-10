@@ -10,6 +10,8 @@ description: 'Découvre 59 Vidéo : outil français pour entrepreneurs, fonction
 pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
+MkAnime is an AI anime production platform for creators who want to go from idea to finished scenes in the browser. Describe your story and it builds outlines, episodes, scripts, characters, and scenes, then turns them into editable storyboards and shots you can regenerate one by one. Use reusable character sheets for consistency, plan in 9:16 or 16:9, add multilingual dubbing with lip sync, and export final videos with all assets organized in one project.
+https://mkanime.ai/fr
 
 # 59 Vidéo
 

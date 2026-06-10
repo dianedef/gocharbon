@@ -9,16 +9,18 @@ toolFacets:
 metadataEnrichedAt: '2026-04-09'
 type: outil
 qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
+ancrageEconomique: partiel
+niveauResponsabilite: partiel
 paysSiege: France
 paysFondateurs:
 - France
 hebergementDonnees: inconnu
 sourcesVerification:
 - https://uncoflow.com
-notesQualification: Plateforme française fondée par Maëlane Faure, basée à Bordeaux.
-  180+ formateurs, 1600+ apprenants documentés sur le site. Mentions légales françaises.
+- https://uncoflow.com/contact
+notesQualification: Uncoflow présente un ancrage français et une fondatrice basée
+  en France, mais les preuves légales et d'hébergement restent trop limitées pour
+  conserver un niveau fort.
 methodologieVersion: gocharbon-v1
 title: Uncoflow
 author: Diane

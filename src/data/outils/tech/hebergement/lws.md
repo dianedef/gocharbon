@@ -3,8 +3,8 @@ section: outils
 toolCategoryPrimary: tech
 toolSubcategoryPrimary: hebergement
 toolFacets:
-  - mutualisé
-  - vps
+- mutualisé
+- vps
 type: outil
 qualificationLocale: france
 ancrageEconomique: fort
@@ -12,25 +12,34 @@ niveauResponsabilite: partiel
 paysSiege: France
 paysFiscal: France
 paysFondateurs:
-  - France
+- France
 hebergementDonnees: france
 societeMere: Groupe LWS
 sourcesVerification:
-  - "https://www.lws.fr/"
-  - "https://www.societe.com/societe/ligne-web-services-450453881.html"
-  - "https://www.lws.fr/hebergement_web.php"
-notesQualification: "SARL au RCS d'Epinal (transfere depuis Paris en 2020), SIREN 450 453 881, capital 1 000 000 euros. Fondee en 1999 par Nicolas Depredurand, dirigeant depuis 2003. Siege social au 2 rue Jules Ferry, 88190 Golbey (Vosges). Datacenters en France certifies ISO 27001. Societe independante sans rachat par un groupe etranger connu. Ancrage economique fort : siege, datacenters, equipe et capital en France. Responsabilite partielle car les donnees financieres publiques sont anciennes et la structure actionnariale precise n'est pas entierement verifiable."
-methodologieVersion: "gocharbon-v1"
+- https://www.lws.fr/
+- https://www.societe.com/societe/ligne-web-services-450453881.html
+- https://www.lws.fr/hebergement_web.php
+notesQualification: 'SARL au RCS d''Epinal (transfere depuis Paris en 2020), SIREN
+  450 453 881, capital 1 000 000 euros. Fondee en 1999 par Nicolas Depredurand, dirigeant
+  depuis 2003. Siege social au 2 rue Jules Ferry, 88190 Golbey (Vosges). Datacenters
+  en France certifies ISO 27001. Societe independante sans rachat par un groupe etranger
+  connu. Ancrage economique fort : siege, datacenters, equipe et capital en France.
+  Responsabilite partielle car les donnees financieres publiques sont anciennes et
+  la structure actionnariale precise n''est pas entierement verifiable.'
+methodologieVersion: gocharbon-v1
 title: LWS
 author: Diane
 tags:
-  - Outils
-description: "LWS (Ligne Web Services) est un hébergeur web français fondé en 1999. 680 000+ sites hébergés, datacenters ISO 27001 en France, 4.6/5 sur Trustpilot. Dès 1.49€ HT/mois."
+- Outils
+description: LWS (Ligne Web Services) est un hébergeur web français fondé en 1999.
+  680 000+ sites hébergés, datacenters ISO 27001 en France, 4.6/5 sur Trustpilot.
+  Dès 1.49€ HT/mois.
 pubDate: '2026-03-28'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.lws.fr
 u_origine: FR
 u_langue_fr: true
+metadataEnrichedAt: '2026-05-13'
 ---
 
 # LWS

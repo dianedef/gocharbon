@@ -3,24 +3,38 @@ section: outils
 toolCategoryPrimary: marketing
 toolSubcategoryPrimary: seo
 toolFacets:
-  - saas
-  - netlinking
+- saas
+- netlinking
 title: Linksgarden
 author: Diane
 tags:
-  - 'Outils Français'
-  - 'SEO'
-  - Outils
-description: "Linksgarden est la plateforme française d'acquisition de backlinks de qualité. Fondée par Jacky Giang. Liens éditoriaux sur des sites thématiques vérifiés. Alternative française à Getfluence et SEMJuice."
-pubDate: "2026-03-29"
+- Outils Français
+- SEO
+- Outils
+description: Linksgarden est la plateforme française d'acquisition de backlinks de
+  qualité. Fondée par Jacky Giang. Liens éditoriaux sur des sites thématiques vérifiés.
+  Alternative française à Getfluence et SEMJuice.
+pubDate: '2026-03-29'
 imgUrl: ../../../../../assets/astro.jpeg
 u_site: https://www.linksgarden.com/
-u_origine: "FR"
+u_origine: FR
 u_langue_fr: true
-u_derniere_maj: "2026-03-29"
+u_derniere_maj: '2026-03-29'
 qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
+ancrageEconomique: partiel
+niveauResponsabilite: partiel
+metadataEnrichedAt: '2026-05-13'
+type: outil
+paysSiege: France
+hebergementDonnees: inconnu
+sourcesVerification:
+- https://www.linksgarden.com/
+- https://www.linksgarden.com/agence-g2-edition/
+notesQualification: Linksgarden est une plateforme française portée publiquement par
+  Jacky Giang/G2 Edition. Les preuves publiques consultées confirment l'ancrage français
+  éditorial, mais pas assez l'entité légale complète ni l'hébergement; qualification
+  conservatrice.
+methodologieVersion: gocharbon-v1
 ---
 
 # Linksgarden

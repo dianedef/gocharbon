@@ -6,21 +6,20 @@ toolFacets:
 - crowdfunding
 - don
 - recompense
-metadataEnrichedAt: '2026-04-08'
+metadataEnrichedAt: '2026-03-18'
 type: outil
 qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
+ancrageEconomique: partiel
+niveauResponsabilite: partiel
 paysSiege: France
-paysFiscal: France
-paysFondateurs:
-- France
-hebergementDonnees: union-europeenne
+hebergementDonnees: inconnu
 sourcesVerification:
-- https://www.kisskissbankbank.com
-- https://www.kisskissbankbank.com/fr/pages/about
-notesQualification: Plateforme française fondée à Paris en 2009, rachetée par La Banque
-  Postale en 2020. Siège, équipe et opérations en France.
+- https://www.kisskissbankbank.com/fr/pages/legal
+- https://www.kisskissbankbank.com/fr/pages/privacy
+- https://www.kisskissbankbank.com/
+notesQualification: KissKissBankBank reste un service tres ancre en France mais il
+  est aujourd'hui exploite dans le cadre Ulule; la ligne d'impact citoyen est publique,
+  tandis que la documentation accessible ne permet pas de qualifier finement l'hebergement.
 methodologieVersion: gocharbon-v1
 title: KissKissBankBank
 author: Diane
@@ -36,6 +35,7 @@ imgUrl: ../../../../../assets/astro.jpeg
 u_site: https://www.kisskissbankbank.com
 u_origine: FR
 u_langue_fr: true
+societeMere: Ulule SAS
 ---
 
 # KissKissBankBank

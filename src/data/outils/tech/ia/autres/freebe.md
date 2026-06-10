@@ -10,7 +10,7 @@ metadataEnrichedAt: '2026-04-08'
 type: outil
 qualificationLocale: france
 ancrageEconomique: fort
-niveauResponsabilite: fort
+niveauResponsabilite: partiel
 paysSiege: France
 paysFiscal: France
 paysFondateurs:
@@ -18,8 +18,11 @@ paysFondateurs:
 hebergementDonnees: union-europeenne
 sourcesVerification:
 - https://www.freebe.me
-notesQualification: Startup française lancée en 2018. Équipe et siège en France. Hébergement
-  présumé UE (non confirmé explicitement sur mentions légales visitées).
+- https://www.freebe.me/mentions-legales
+- https://www.freebe.me/cgu
+notesQualification: Freebe.me est une SAS française documentée par ses mentions légales
+  et CGU. L'ancrage économique est fort, mais l'hébergement reste seulement présumé
+  UE, donc responsabilité partielle.
 methodologieVersion: gocharbon-v1
 title: Freebe
 author: Diane

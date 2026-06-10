@@ -3,10 +3,10 @@ section: outils
 toolCategoryPrimary: tech
 toolSubcategoryPrimary: hebergement
 toolFacets:
-  - domaines
-  - email
-  - ssl
-  - cloud
+- domaines
+- email
+- ssl
+- cloud
 type: outil
 qualificationLocale: france
 ancrageEconomique: partiel
@@ -14,25 +14,32 @@ niveauResponsabilite: partiel
 paysSiege: France
 paysFiscal: France
 paysFondateurs:
-  - France
+- France
 hebergementDonnees: union-europeenne
-societeMere: "Total Webhosting Solutions (Your.Online)"
+societeMere: Total Webhosting Solutions (Your.Online)
 sourcesVerification:
-  - "https://www.gandi.net/fr/about-us"
-  - "https://www.societe.com/societe/gandi-sas-423093459.html"
-  - "https://en.wikipedia.org/wiki/Gandi"
-notesQualification: "SAS au RCS de Paris, SIREN 423 093 459, siege au 63 boulevard Massena 75013 Paris. Fondee en 1999 par Pierre Beyssac, Laurent Chemla, David Nahmias et Valentin Lacambre. Rachetee par Montefiore Investment en 2019, puis par Total Webhosting Solutions (groupe neerlandais Your.Online) en fevrier 2023. Ancrage economique partiel : fondation et siege francais, mais capital desormais detenu par un groupe neerlandais. Donnees hebergees en France et Luxembourg. Certifiee ISO 27001:2022."
-methodologieVersion: "gocharbon-v1"
+- https://www.gandi.net/fr/about-us
+- https://www.societe.com/societe/gandi-sas-423093459.html
+- https://en.wikipedia.org/wiki/Gandi
+notesQualification: 'SAS au RCS de Paris, SIREN 423 093 459, siege au 63 boulevard
+  Massena 75013 Paris. Fondee en 1999 par Pierre Beyssac, Laurent Chemla, David Nahmias
+  et Valentin Lacambre. Rachetee par Montefiore Investment en 2019, puis par Total
+  Webhosting Solutions (groupe neerlandais Your.Online) en fevrier 2023. Ancrage economique
+  partiel : fondation et siege francais, mais capital desormais detenu par un groupe
+  neerlandais. Donnees hebergees en France et Luxembourg. Certifiee ISO 27001:2022.'
+methodologieVersion: gocharbon-v1
 title: Gandi
 author: Diane
 tags:
-  - Outils
-description: "Gandi est un registrar historique du web francophone pour domaines, emails, certificats et services d'hébergement associés."
+- Outils
+description: Gandi est un registrar historique du web francophone pour domaines, emails,
+  certificats et services d'hébergement associés.
 pubDate: '2026-03-28'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.gandi.net/fr/
 u_origine: FR
 u_langue_fr: true
+metadataEnrichedAt: '2026-05-13'
 ---
 
 # Gandi

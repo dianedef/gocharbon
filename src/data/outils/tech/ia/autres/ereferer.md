@@ -9,16 +9,17 @@ toolFacets:
 metadataEnrichedAt: '2026-04-09'
 type: outil
 qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
+ancrageEconomique: partiel
+niveauResponsabilite: partiel
 paysSiege: France
 paysFondateurs:
 - France
 hebergementDonnees: inconnu
 sourcesVerification:
 - https://fr.ereferer.com
-notesQualification: Plateforme française de netlinking. Opère principalement sous
-  fr.ereferer.com. Mentions légales françaises présentes sur le site.
+notesQualification: Plateforme francophone de netlinking avec signaux français, mais
+  les sources publiques disponibles dans cette passe ne suffisent pas à maintenir
+  un niveau fort. Hébergement et structure légale à compléter.
 methodologieVersion: gocharbon-v1
 title: Ereferer
 author: Diane

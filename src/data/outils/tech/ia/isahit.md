@@ -1,28 +1,36 @@
 ---
-title: "Isahit"
+title: Isahit
 author: Diane
 section: outils
 type: outil
 tags:
-  - 'Outils Français'
-  - 'IA'
-  - 'Tech'
-description: "Isahit : plateforme française d'annotation IA éthique fondée à Paris. 3 000+ contributeurs, focus impact social et économie inclusive."
-pubDate: "2026-03-19"
+- Outils Français
+- IA
+- Tech
+description: 'Isahit : plateforme française d''annotation IA éthique fondée à Paris.
+  3 000+ contributeurs, focus impact social et économie inclusive.'
+pubDate: '2026-03-19'
 imgUrl: ../../../../assets/astro.jpeg
-u_site: "https://www.isahit.com"
-u_origine: "FR"
+u_site: https://www.isahit.com
+u_origine: FR
 u_langue_fr: true
 qualificationLocale: france
 ancrageEconomique: fort
 niveauResponsabilite: fort
-paysSiege: "France"
-paysFiscal: "France"
+paysSiege: France
+paysFiscal: France
 paysFondateurs:
-  - "France"
+- France
 hebergementDonnees: union-europeenne
-methodologieVersion: "gocharbon-v1"
-u_derniere_maj: "2026-03-19"
+methodologieVersion: gocharbon-v1
+u_derniere_maj: '2026-03-19'
+metadataEnrichedAt: '2026-05-13'
+sourcesVerification:
+- https://www.isahit.com/legal/legal-notice
+- https://fr.isahit.com/legal/legal-notice
+notesQualification: Isahit SAS est documentée comme l'éditeur du site dans les mentions
+  légales officielles. L'ancrage français est clair; l'hébergement reste qualifié
+  UE faute de meilleure preuve applicative publique dans cette passe.
 ---
 
 # Isahit

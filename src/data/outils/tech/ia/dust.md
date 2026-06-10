@@ -3,20 +3,35 @@ section: outils
 title: Dust
 author: Diane
 tags:
-  - 'Outils Français'
-  - 'IA'
-  - 'Tech'
-  - Outils
-description: "Dust est la plateforme française d'agents IA pour entreprises. Connecte les LLMs (Claude, GPT, Mistral) aux outils internes (Slack, Notion, Drive). Par Stanislas Polu (ex-OpenAI) et Gabriel Hubert. Backed by Sequoia."
-pubDate: "2026-03-28"
+- Outils Français
+- IA
+- Tech
+- Outils
+description: Dust est la plateforme française d'agents IA pour entreprises. Connecte
+  les LLMs (Claude, GPT, Mistral) aux outils internes (Slack, Notion, Drive). Par
+  Stanislas Polu (ex-OpenAI) et Gabriel Hubert. Backed by Sequoia.
+pubDate: '2026-03-28'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://dust.tt/
-u_origine: "FR"
+u_origine: FR
 u_langue_fr: true
-u_derniere_maj: "2026-03-28"
+u_derniere_maj: '2026-03-28'
 qualificationLocale: france
 ancrageEconomique: fort
 niveauResponsabilite: fort
+metadataEnrichedAt: '2026-05-13'
+type: outil
+paysSiege: France
+hebergementDonnees: multi-region
+sourcesVerification:
+- https://dust.tt/home/platform-privacy
+- https://dust.tt/home/security
+- https://dust.tt/home/enterprise
+notesQualification: Dust est exploité par Permutation Labs à Paris d'après la politique
+  de confidentialité officielle. La documentation sécurité indique un hébergement
+  régional EU ou US et des contrôles enterprise, d'où une responsabilité forte mais
+  un hébergement multi-région.
+methodologieVersion: gocharbon-v1
 ---
 
 # Dust

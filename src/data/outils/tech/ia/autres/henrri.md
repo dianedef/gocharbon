@@ -19,6 +19,8 @@ hebergementDonnees: france
 societeMere: Groupe Rivalis
 sourcesVerification:
 - https://www.henrri.com
+- https://www.henrri.com/mentions-legales
+- https://www.henrri.com/qui-sommes-nous/
 notesQualification: Logiciel édité par le Groupe Rivalis (entreprise française depuis
   1994). Serveurs hébergés en France. 226 590 entreprises utilisatrices.
 methodologieVersion: gocharbon-v1

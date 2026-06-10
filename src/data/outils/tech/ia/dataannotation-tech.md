@@ -1,29 +1,35 @@
 ---
-title: "DataAnnotation Tech"
+title: DataAnnotation Tech
 author: Diane
 section: outils
 type: outil
 tags:
-  - 'Outils'
-  - 'IA'
-  - 'Tech'
-description: "DataAnnotation.tech recrute activement des francophones pour entraîner des chatbots IA. Dès 25$/h, sans expérience requise, 100% remote."
-pubDate: "2026-03-19"
+- Outils
+- IA
+- Tech
+description: DataAnnotation.tech recrute activement des francophones pour entraîner
+  des chatbots IA. Dès 25$/h, sans expérience requise, 100% remote.
+pubDate: '2026-03-19'
 imgUrl: ../../../../assets/astro.jpeg
-u_site: "https://www.dataannotation.tech"
-u_origine: "US"
+u_site: https://www.dataannotation.tech
+u_origine: US
 u_langue_fr: false
 qualificationLocale: hors-union-europeenne
 ancrageEconomique: faible
 niveauResponsabilite: faible
-paysSiege: "États-Unis"
-paysFiscal: "États-Unis"
+paysSiege: États-Unis
+paysFiscal: États-Unis
 paysFondateurs:
-  - "États-Unis"
+- États-Unis
 hebergementDonnees: hors-union-europeenne
-notesQualification: "Plateforme américaine avec recrutement actif de francophones bilingues. Page dédiée : dataannotation.tech/frenchbilingual"
-methodologieVersion: "gocharbon-v1"
-u_derniere_maj: "2026-03-19"
+notesQualification: 'Plateforme américaine avec recrutement actif de francophones
+  bilingues. Page dédiée : dataannotation.tech/frenchbilingual'
+methodologieVersion: gocharbon-v1
+u_derniere_maj: '2026-03-19'
+metadataEnrichedAt: '2026-05-13'
+sourcesVerification:
+- https://www.dataannotation.tech
+- https://dataannotation.tech/blog/is-dataannotation-scam
 ---
 
 # DataAnnotation Tech
