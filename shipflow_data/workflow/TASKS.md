@@ -6,6 +6,14 @@
   - findings: 0 critical / 0 high / 0 moderate / 0 low
   - action: applied non-major fixes (`astro@6.3.7`, override `unstorage>h3` -> `^1.15.10`) to remove all current advisories
 🟢 [gocharbon] task: sf-deps remediation | status: done | area: deps | id: gocharbon-deps-2026-05-24
+- [ ] gocharbon: design-system authority hardening
+  - status: todo
+  - area: design
+  - scope: website
+  - action: harden design rules so UI changes must use centralized tokens from `src/styles/global.css` and `shipflow_data/technical/design-system-authority.md`
+  - linked_specs:
+    - shipflow_data/workflow/specs/gocharbon-design-system-authority-hardening.md
+    - shipflow_data/workflow/verification/gocharbon-design-system-authority-hardening.md
 - [x] sf-deps migration run (2026-05-25): major lane bump (`eslint@10.4.0`, `satori@0.26.0`, `vue@3.5.34`) completed; audit clean. Remaining: `eslint-plugin-jsx-a11y@6.10.2` peer mismatch with ESLint 10.
 🟡 [gocharbon] task: Handoff contenu OpenPostern pour fiche outil ou comparatif: surveiller les risques de ses fournisseurs SaaS sans RSSI | status: todo | area: content-tools-saas-security | source: veille utilisateur https://betalist.com/startups/openpostern et https://openpostern.com/ 2026-06-10
 
