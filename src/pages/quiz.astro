@@ -47,13 +47,13 @@ import { ROUTES } from "../config/routes";
 
 <style>
   .container {
-    max-width: 1280px;
+    max-width: var(--sf-auto-global2-quiz-max-width-9b141aa3);
   }
 
   .quiz-chooser-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1.25rem;
+    gap: var(--sf-auto-global2-quiz-gap-90ad884a);
   }
 
   .quiz-choice-card {
@@ -62,9 +62,9 @@ import { ROUTES } from "../config/routes";
     background: var(--brand-cream);
     border: 3px solid var(--brand-black);
     box-shadow: 6px 6px 0 var(--brand-black);
-    padding: 1.5rem;
+    padding: var(--sf-auto-global2-quiz-padding-239652f6);
     color: var(--brand-black);
-    transition: all 0.2s ease-in-out;
+    transition: var(--sf-auto-global2-quiz-transition-58e743a2);
   }
 
   .quiz-choice-card:hover {
@@ -78,25 +78,25 @@ import { ROUTES } from "../config/routes";
     font-family: "Sanchez", serif;
     font-weight: 700;
     border: 2px solid var(--brand-black);
-    padding: 0.2rem 0.6rem;
+    padding: var(--sf-auto-global2-quiz-padding-d4aa3cac);
     margin: 0 0 0.75rem;
   }
 
   .quiz-choice-card h2 {
     margin: 0 0 0.75rem;
-    font-size: 1.5rem;
+    font-size: var(--sf-auto-global2-quiz-font-size-f7ab4e5a);
   }
 
   .quiz-choice-card p {
     margin: 0 0 0.8rem;
-    line-height: 1.5;
+    line-height: var(--sf-auto-global2-quiz-line-height-439fc4fc);
   }
 
   .choice-cta {
     font-weight: 700;
   }
 
-  @media (max-width: 768px) {
+  @media (width <= 768px) {
     .quiz-chooser-grid {
       grid-template-columns: 1fr;
     }

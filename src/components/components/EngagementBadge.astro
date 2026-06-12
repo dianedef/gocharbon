@@ -19,13 +19,13 @@ const { badge, compact = false } = Astro.props;
   .engagement-badge {
     display: inline-flex;
     flex-direction: column;
-    gap: 0.12rem;
-    padding: 0.45rem 0.65rem;
-    border: 2px solid var(--brand-black);
-    box-shadow: 3px 3px 0 var(--brand-black);
-    font-family: "Poppins", sans-serif;
-    background: #fff7df;
-    color: var(--brand-black);
+    gap: var(--engagement-badge-gap);
+    padding: var(--engagement-badge-padding);
+    border: var(--engagement-badge-border);
+    box-shadow: var(--engagement-badge-shadow);
+    font-family: var(--tool-qualification-card-font-family);
+    background: var(--engagement-badge-bg-default);
+    color: var(--engagement-badge-text-color);
   }
 
   .engagement-badge--compact {
@@ -33,64 +33,44 @@ const { badge, compact = false } = Astro.props;
   }
 
   .engagement-badge--fort {
-    background: linear-gradient(135deg, #fff1a8 0%, #f6c700 100%);
+    background: var(--engagement-badge-bg-fort);
   }
 
   .engagement-badge--solide {
-    background: linear-gradient(135deg, #ffeab5 0%, #ffcf6d 100%);
+    background: var(--engagement-badge-bg-solide);
   }
 
   .engagement-badge--modere {
-    background: linear-gradient(135deg, #fff3d9 0%, #ffd6a6 100%);
+    background: var(--engagement-badge-bg-modere);
   }
 
   .engagement-badge--faible {
-    background: linear-gradient(135deg, #fff 0%, #e5ddd0 100%);
+    background: var(--engagement-badge-bg-faible);
   }
 
   .engagement-badge--pending {
-    background: linear-gradient(135deg, #fff 0%, #d9e1e8 100%);
+    background: var(--engagement-badge-bg-pending);
   }
 
   :global(.dark) .engagement-badge {
-    border-color: var(--brand-cream);
-    box-shadow: 3px 3px 0 var(--brand-cream);
-    color: var(--brand-cream);
-    background: #151515;
-  }
-
-  :global(.dark) .engagement-badge--fort {
-    background: linear-gradient(135deg, #6f5600 0%, #3d2d00 100%);
-  }
-
-  :global(.dark) .engagement-badge--solide {
-    background: linear-gradient(135deg, #5f4420 0%, #2c2116 100%);
-  }
-
-  :global(.dark) .engagement-badge--modere {
-    background: linear-gradient(135deg, #45372b 0%, #201913 100%);
-  }
-
-  :global(.dark) .engagement-badge--faible,
-  :global(.dark) .engagement-badge--pending {
-    background: linear-gradient(135deg, #222 0%, #111 100%);
+    color: var(--engagement-badge-text-color);
   }
 
   .engagement-badge__eyebrow {
-    font-size: 0.65rem;
+    font-size: var(--engagement-badge-eyebrow-font-size);
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: var(--engagement-badge-eyebrow-letter-spacing);
     opacity: 0.75;
   }
 
   .engagement-badge__title {
-    font-size: 0.9rem;
-    line-height: 1.15;
+    font-size: var(--engagement-badge-title-font-size);
+    line-height: var(--engagement-badge-title-line-height);
   }
 
   .engagement-badge__score {
-    font-size: 0.72rem;
+    font-size: var(--engagement-badge-score-font-size);
     font-weight: 700;
     opacity: 0.8;
   }

@@ -98,7 +98,7 @@ const breadcrumbs = pathSegments.map((segment, index) => {
 		background-color: var(--brand-cream);
 		position: sticky;
 		top: 0;
-		z-index: 40;
+		z-index: var(--sf-auto-global2-basenavigation-z-index-c9455e7c);
 	}
 
 	:global(.dark) header {
@@ -118,8 +118,8 @@ const breadcrumbs = pathSegments.map((segment, index) => {
 	.breadcrumbs {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
-		font-size: 0.9rem;
+		gap: var(--sf-auto-global2-basenavigation-gap-bce281e5);
+		font-size: var(--sf-auto-global2-basenavigation-font-size-e78a1369);
 		list-style: none;
 		margin: 0;
 		padding: 0;
@@ -128,7 +128,7 @@ const breadcrumbs = pathSegments.map((segment, index) => {
 	.breadcrumb-item {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
+		gap: var(--sf-auto-global2-basenavigation-gap-ed0bda6f);
 	}
 
 	.breadcrumb-link {
@@ -144,10 +144,10 @@ const breadcrumbs = pathSegments.map((segment, index) => {
 	}
 
 	.world-cues {
-		margin-left: 0.35rem;
+		margin-left: var(--sf-auto-global2-basenavigation-margin-left-37f2d355);
 	}
 
-	@media (max-width: 767px) {
+	@media (width <= 767px) {
 		.world-cues {
 			display: none;
 		}

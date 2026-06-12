@@ -171,24 +171,25 @@ const spotlights = [
           </p>
         </div>
         <div class="filters-toolbar">
-          <label class="filter-field">
-            <span>Recherche</span>
-            <input
-              id="path-search"
-              type="search"
-              placeholder="freelance, e-commerce, SEO, contenu..."
-              autocomplete="off"
-            />
-          </label>
-          <label class="filter-field">
-            <span>Niveau</span>
-            <select id="level-filter">
-              <option value="all">Tous les niveaux</option>
-              <option value="debutant">Débutant</option>
-              <option value="intermediaire">Intermédiaire</option>
-              <option value="avance">Avancé</option>
-            </select>
-          </label>
+            <label class="filter-field">
+              <span>Recherche</span>
+              <input
+                class="w-full"
+                id="path-search"
+                type="search"
+                placeholder="freelance, e-commerce, SEO, contenu..."
+                autocomplete="off"
+              />
+            </label>
+            <label class="filter-field">
+              <span>Niveau</span>
+              <select id="level-filter" class="w-full">
+                <option value="all">Tous les niveaux</option>
+                <option value="debutant">Débutant</option>
+                <option value="intermediaire">Intermédiaire</option>
+                <option value="avance">Avancé</option>
+              </select>
+            </label>
         </div>
         <div class="category-row" aria-label="Filtrer par catégorie">
           <button type="button" class="category-btn active" data-category-filter="all">Tout</button>
@@ -198,7 +199,7 @@ const spotlights = [
             </button>
           ))}
         </div>
-        <div class="results-meta">
+        <div class="results-meta flex flex-col md:flex-row items-start md:items-center">
           <p id="results-count">{sortedPaths.length} parcours affichés</p>
           <button type="button" class="reset-btn" id="reset-filters">Réinitialiser</button>
         </div>
@@ -238,7 +239,7 @@ const spotlights = [
 
 <style>
   .parcours-shell {
-    background: transparent;
+    background: var(--parcours-shell-bg);
   }
 
   .browser-hero-inner,
@@ -248,46 +249,46 @@ const spotlights = [
   .source-links,
   .paths-grid {
     display: grid;
-    gap: 1rem;
+    gap: var(--parcours-grid-gap);
   }
 
   .browser-hero-inner {
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    grid-template-columns: var(--parcours-template-main);
     align-items: stretch;
   }
 
   .hero-copy,
   .section-heading {
     display: grid;
-    gap: 0.75rem;
+    gap: var(--parcours-category-gap);
   }
 
   .hero-kicker,
   .section-kicker,
   .spotlight-kicker {
     margin: 0;
-    font-size: 0.8rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
+    font-size: var(--parcours-kicker-font-size);
+    font-weight: var(--parcours-kicker-font-weight);
+    letter-spacing: var(--parcours-kicker-letter-spacing);
     text-transform: uppercase;
-    opacity: 0.74;
+    opacity: var(--parcours-kicker-opacity);
   }
 
   .hero-title,
   .section-title {
     margin: 0;
-    line-height: 0.98;
+    line-height: var(--parcours-title-line-height);
   }
 
   .hero-title {
-    font-size: clamp(2.4rem, 5vw, 4.6rem);
+    font-size: var(--parcours-hero-title-size);
   }
 
   .hero-copy-text {
     margin: 0;
-    font-size: 1.08rem;
-    line-height: 1.6;
-    max-width: 56rem;
+    font-size: var(--parcours-copy-font-size);
+    line-height: var(--parcours-copy-line-height);
+    max-width: var(--parcours-copy-max-width);
   }
 
   .hero-stats {
@@ -299,75 +300,75 @@ const spotlights = [
   .family-card,
   .filter-field,
   .path-card {
-    border: 3px solid var(--brand-black);
-    border-radius: 0.45rem;
-    background: rgb(245 245 242 / 0.92);
-    box-shadow: 6px 6px 0 var(--brand-black);
+    border: var(--parcours-card-border-width) solid var(--parcours-card-border-color);
+    border-radius: var(--parcours-card-border-radius);
+    background: var(--parcours-card-bg);
+    box-shadow: var(--parcours-card-shadow);
   }
 
   .hero-stat {
     display: grid;
-    gap: 0.2rem;
-    padding: 1rem 1.1rem;
+    gap: var(--parcours-stat-gap);
+    padding: var(--parcours-stat-padding);
   }
 
   .hero-stat strong {
-    font-size: 2rem;
-    line-height: 1;
+    font-size: var(--parcours-stat-font-size);
+    line-height: var(--parcours-stat-line-height);
   }
 
   .spotlight-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: var(--parcours-grid-repeat-3);
   }
 
   .family-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
+    grid-template-columns: var(--parcours-family-grid-columns);
+    gap: var(--parcours-grid-gap);
   }
 
   .spotlight-card,
   .family-card,
   .path-card {
     display: grid;
-    gap: 0.65rem;
-    padding: 1.1rem;
+    gap: var(--parcours-card-inner-gap);
+    padding: var(--parcours-card-padding);
   }
 
   .spotlight-card:hover,
   .family-card:hover,
   .path-card:hover,
   .path-neighbor-card:hover {
-    transform: translate(2px, 2px);
-    box-shadow: 2px 2px 0 var(--brand-black);
+    transform: translate(var(--parcours-hover-offset), var(--parcours-hover-offset));
+    box-shadow: var(--parcours-shadow-color-muted);
   }
 
   .path-card:focus-visible,
   .path-card:focus-within {
-    outline: 3px solid var(--brand-orange);
-    outline-offset: 3px;
-    box-shadow: 2px 2px 0 var(--brand-black);
+    outline: var(--parcours-focus-outline-width) solid var(--brand-orange);
+    outline-offset: var(--parcours-focus-outline-width);
+    box-shadow: var(--parcours-shadow-color-muted);
   }
 
   .filters-section {
-    border: 3px solid rgb(0 0 0 / 0.08);
-    background: rgb(255 255 255 / 0.62);
-    box-shadow: 0 0 0 1px var(--brand-black) inset;
-    margin-bottom: 0.4rem;
+    border: var(--parcours-filters-border);
+    background: var(--parcours-filters-bg);
+    box-shadow: var(--parcours-filters-shadow);
+    margin-bottom: var(--parcours-filters-margin-bottom);
   }
 
   .spotlight-card h3,
   .family-card h3,
   .path-card h2 {
     margin: 0;
-    font-size: 1.45rem;
+    font-size: var(--parcours-card-title-size);
   }
 
   .spotlight-card p,
   .family-card p,
   .path-card p {
     margin: 0;
-    line-height: 1.55;
+    line-height: var(--parcours-card-body-line-height);
   }
 
   .spotlight-card span,
@@ -378,24 +379,24 @@ const spotlights = [
 
   .family-label,
   .family-examples {
-    font-size: 0.9rem;
+    font-size: var(--parcours-labels-font-size);
   }
 
   .source-links {
-    grid-template-columns: repeat(auto-fit, minmax(110px, max-content));
-    gap: 0.55rem;
+    grid-template-columns: var(--parcours-source-grid);
+    gap: var(--parcours-path-meta-gap);
   }
 
   .source-links a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    min-height: 2.2rem;
-    padding: 0.35rem 0.7rem;
-    border: 2px solid var(--brand-black);
-    background: rgb(255 255 255 / 0.75);
+    min-height: var(--parcours-link-min-height);
+    padding: var(--parcours-link-padding);
+    border: var(--parcours-input-border-width) solid var(--brand-black);
+    background: var(--parcours-link-bg);
     color: inherit;
-    font-size: 0.9rem;
+    font-size: var(--parcours-labels-font-size);
     font-weight: 700;
     text-decoration: none;
   }
@@ -410,48 +411,47 @@ const spotlights = [
   }
 
   .filters-toolbar {
-    grid-template-columns: minmax(0, 1fr) 240px;
-    margin-bottom: 1rem;
+    grid-template-columns: var(--parcours-toolbar-template);
+    margin-bottom: var(--parcours-toolbar-margin-bottom);
   }
 
   .filter-field {
     display: grid;
-    gap: 0.5rem;
-    padding: 0.9rem;
+    gap: var(--parcours-field-gap);
+    padding: var(--parcours-field-padding);
   }
 
   .filter-field span {
-    font-size: 0.9rem;
+    font-size: var(--parcours-labels-font-size);
     font-weight: 700;
   }
 
   .filter-field input,
   .filter-field select {
-    width: 100%;
-    min-height: 3rem;
-    border: 2px solid var(--brand-black);
-    background: rgb(255 255 255 / 0.72);
-    padding: 0.75rem 0.9rem;
-    font-family: "Sanchez", serif;
-    font-size: 1rem;
+    min-height: var(--parcours-input-min-height);
+    border: var(--parcours-input-border-width) solid var(--brand-black);
+    background: var(--parcours-input-bg);
+    padding: var(--parcours-input-padding);
+    font-family: var(--parcours-font-family);
+    font-size: var(--parcours-no-results-font-size);
     color: var(--brand-black);
   }
 
   .category-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem;
-    margin-bottom: 1rem;
+    gap: var(--parcours-category-gap);
+    margin-bottom: var(--parcours-toolbar-margin-bottom);
   }
 
   .category-btn,
   .reset-btn {
-    border: 3px solid var(--brand-black);
+    border: var(--parcours-card-border-width) solid var(--parcours-card-border-color);
     background: var(--brand-cream);
-    box-shadow: 4px 4px 0 var(--brand-black);
-    padding: 0.7rem 0.95rem;
-    font-family: "Sanchez", serif;
-    font-size: 0.95rem;
+    box-shadow: var(--parcours-button-shadow);
+    padding: var(--parcours-button-padding);
+    font-family: var(--parcours-font-family);
+    font-size: var(--parcours-category-font-size);
     font-weight: 700;
     cursor: pointer;
     text-transform: uppercase;
@@ -459,14 +459,14 @@ const spotlights = [
 
   .category-btn.active {
     background: var(--brand-yellow);
-    transform: translate(1px, 1px);
-    box-shadow: 3px 3px 0 var(--brand-black);
+    transform: translate(var(--parcours-active-translate), var(--parcours-active-translate));
+    box-shadow: var(--parcours-active-shadow);
   }
 
   .results-meta {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: var(--parcours-grid-gap);
     align-items: center;
   }
 
@@ -476,7 +476,7 @@ const spotlights = [
   }
 
   .paths-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: var(--parcours-path-columns);
   }
 
   .path-category {
@@ -484,19 +484,19 @@ const spotlights = [
     justify-content: center;
     align-items: center;
     width: fit-content;
-    border: 2px solid var(--brand-black);
-    padding: 0.15rem 0.45rem;
-    font-size: 0.78rem;
-    font-weight: 800;
+    border: var(--parcours-input-border-width) solid var(--brand-black);
+    padding: var(--parcours-path-category-padding);
+    font-size: var(--parcours-path-category-font-size);
+    font-weight: var(--parcours-kicker-font-weight);
     text-transform: uppercase;
   }
 
   .path-meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.55rem;
-    font-size: 0.92rem;
-    opacity: 0.82;
+    gap: var(--parcours-path-meta-gap);
+    font-size: var(--parcours-path-meta-font-size);
+    opacity: var(--parcours-path-meta-opacity);
   }
 
   .path-card.hidden,
@@ -505,15 +505,15 @@ const spotlights = [
   }
 
   .no-results {
-    margin: 1rem 0 0;
-    font-size: 1rem;
+    margin: var(--parcours-no-results-margin);
+    font-size: var(--parcours-no-results-font-size);
     font-weight: 700;
   }
 
   :global(.dark) .filters-section {
-    border-color: var(--brand-cream);
-    background: rgb(255 255 255 / 0.03);
-    box-shadow: 0 0 0 1px var(--brand-cream) inset;
+    border-color: var(--parcours-card-border-color);
+    background: var(--parcours-dark-filters-bg);
+    box-shadow: var(--parcours-filters-shadow);
   }
 
   :global(.dark) .hero-stat,
@@ -521,14 +521,14 @@ const spotlights = [
   :global(.dark) .family-card,
   :global(.dark) .filter-field,
   :global(.dark) .path-card {
-    border-color: var(--brand-cream);
-    background: rgb(11 11 11 / 0.9);
-    box-shadow: 6px 6px 0 var(--brand-cream);
+    border-color: var(--parcours-card-border-color);
+    background: var(--parcours-dark-card-bg);
+    box-shadow: var(--ui-shadow-strong);
   }
 
   :global(.dark) .source-links a {
-    border-color: var(--brand-cream);
-    background: rgb(255 255 255 / 0.04);
+    border-color: var(--parcours-card-border-color);
+    background: var(--parcours-dark-link-bg);
   }
 
   :global(.dark) .filter-field input,
@@ -536,16 +536,16 @@ const spotlights = [
   :global(.dark) .category-btn,
   :global(.dark) .reset-btn,
   :global(.dark) .path-category {
-    border-color: var(--brand-cream);
-    background: rgb(255 255 255 / 0.04);
-    box-shadow: none;
+    border-color: var(--parcours-card-border-color);
+    background: var(--parcours-dark-link-bg);
+    box-shadow: var(--parcours-transparent-bg);
     color: var(--brand-cream);
   }
 
   :global(.dark) .category-btn.active {
     background: var(--brand-yellow);
     color: var(--brand-black);
-    box-shadow: 3px 3px 0 var(--brand-cream);
+    box-shadow: var(--parcours-button-shadow-dark);
   }
 
   :global(.dark) .spotlight-card:hover,
@@ -554,27 +554,9 @@ const spotlights = [
   :global(.dark) .path-neighbor-card:hover,
   :global(.dark) .path-card:focus-visible,
   :global(.dark) .path-card:focus-within {
-    box-shadow: 2px 2px 0 var(--brand-cream);
+    box-shadow: var(--parcours-hover-shadow);
   }
 
-  @media (max-width: 1023px) {
-    .browser-hero-inner,
-    .spotlight-grid,
-    .filters-toolbar {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  @media (max-width: 767px) {
-    .results-meta {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .category-row {
-      gap: 0.5rem;
-    }
-  }
 </style>
 
 <script is:inline>

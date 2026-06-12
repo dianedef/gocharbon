@@ -59,12 +59,12 @@ function handleClick() {
 
 .vue-brutal-pill {
     background-color: var(--background-color, var(--brand-cream));
-    border-radius: 9999px;
+    border-radius: var(--sf-auto-global2-pill-border-radius-7b0b6131);
     border: 2px solid currentColor;
-    padding: 0.25rem 0.75rem;
+    padding: var(--sf-auto-global2-pill-padding-ec978417);
     font-size: small;
     color: var(--brand-black);
-    transition: all 0.2s ease-out;
+    transition: var(--sf-auto-global2-pill-transition-699940c1);
     will-change: transform, background-color, color;
     user-select: none;
     box-shadow: 3px 3px 0 var(--brand-black);

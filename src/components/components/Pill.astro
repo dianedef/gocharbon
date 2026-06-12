@@ -14,19 +14,19 @@ const { color = lightColor, darkColor = darkColorRandom } = Astro.props;
 
 <style define:vars={{ color, darkColor, shadowColor: 'var(--brand-yellow)' }}>
 	span.brutal-pill {
-		filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
+		filter: var(--sf-auto-global2-pill-filter-cf0e3b17);
 		user-select: none;
 		background-color: var(--background-color, var(--brand-cream));
-		border-radius: 9999px;
+		border-radius: var(--sf-auto-global2-pill-border-radius-1afca461);
 		border: 2px solid var(--border-color, var(--brand-black));
-		padding: 0.25rem 0.75rem;
-		transition: all 0.3s ease-in-out;
+		padding: var(--sf-auto-global2-pill-padding-e9030e6c);
+		transition: var(--sf-auto-global2-pill-transition-9a52202a);
 		font-size: small;
 		color: var(--text-color, var(--brand-black));
 	}
 
 	span.brutal-pill:hover {
-		filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+		filter: var(--sf-auto-global2-pill-filter-b7c7e271);
 		background-color: var(--color);
 		transform: translateY(-2px);
 	}

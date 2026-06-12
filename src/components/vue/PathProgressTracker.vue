@@ -194,38 +194,38 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .path-progress {
-  --pp-surface: var(--brand-cream);
-  --pp-surface-muted: var(--brand-cream);
-  --pp-border: var(--brand-black);
-  --pp-shadow: var(--brand-black);
-  --pp-text: var(--brand-black);
-  --pp-link: var(--brand-black);
-  --pp-link-hover: var(--brand-orange);
-  --pp-progress-track: var(--brand-cream-warm);
-  --pp-progress-fill: var(--brand-orange);
-  --pp-badge-text: var(--brand-black);
-  --pp-module-stats-bg: var(--brand-cream);
-  --pp-module-stats-border: var(--pp-border);
-  --pp-module-stats-text: var(--pp-text);
+  --pp-surface: var(--progress-tracker-surface);
+  --pp-surface-muted: var(--progress-tracker-surface-muted);
+  --pp-border: var(--progress-tracker-border);
+  --pp-shadow: var(--progress-tracker-shadow);
+  --pp-text: var(--progress-tracker-text);
+  --pp-link: var(--progress-tracker-link);
+  --pp-link-hover: var(--progress-tracker-link-hover);
+  --pp-progress-track: var(--progress-tracker-progress-track);
+  --pp-progress-fill: var(--progress-tracker-progress-fill);
+  --pp-badge-text: var(--progress-tracker-badge-text);
+  --pp-module-stats-bg: var(--progress-tracker-module-stats-bg);
+  --pp-module-stats-border: var(--progress-tracker-module-stats-border);
+  --pp-module-stats-text: var(--progress-tracker-module-stats-text);
 
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: var(--home-grid-gap);
 }
 
 .progress-overview {
   background: var(--pp-surface);
-  border: 3px solid var(--pp-border);
-  box-shadow: none;
-  filter: drop-shadow(6px 6px 0 var(--pp-shadow));
+  border: var(--path-page-surface-border-width) solid var(--pp-border);
+  box-shadow: var(--progress-tracker-overview-shadow);
+  filter: var(--progress-tracker-overview-shadow-filter);
   color: var(--pp-text);
-  padding: 0.75rem 0.85rem !important;
+  padding: var(--progress-tracker-overview-padding) !important;
   position: sticky;
-  top: 4.6rem;
-  z-index: 35;
+  top: var(--progress-tracker-overview-top);
+  z-index: var(--sf-auto-pathprogresstracker-z-index-33d6419f);
   overflow: visible;
-  margin-bottom: 30px;
-  padding-bottom: 20px !important;
+  margin-bottom: var(--progress-tracker-module-margin-bottom);
+  padding-bottom: var(--progress-tracker-module-padding-bottom) !important;
 }
 
 .progress-overview::after {
@@ -233,10 +233,10 @@ onBeforeUnmount(() => {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -30px;
-  height: 30px;
+  bottom: var(--progress-tracker-overview-after-offset);
+  height: var(--progress-tracker-overview-after-height);
   background-color: inherit;
-  border-bottom: 5px solid var(--pp-border);
+  border-bottom: var(--progress-tracker-overview-after-border-width) solid var(--pp-border);
   clip-path: polygon(
     0 0,
     100% 0,
@@ -262,15 +262,15 @@ onBeforeUnmount(() => {
     0 0
   );
   pointer-events: none;
-  z-index: 2;
+  z-index: var(--sf-auto-pathprogresstracker-z-index-96cd7dc2);
 }
 
 .progress-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
-  margin-bottom: 0.5rem;
+  gap: var(--progress-tracker-overview-gap);
+  margin-bottom: var(--sf-auto-pathprogresstracker-margin-bottom-56d323ef);
 }
 
 .progress-title-wrap {
@@ -279,21 +279,21 @@ onBeforeUnmount(() => {
 
 .progress-overview h2 {
   margin: 0;
-  font-size: 1rem;
-  line-height: 1.2;
+  font-size: var(--sf-auto-pathprogresstracker-font-size-754019a3);
+  line-height: var(--sf-auto-pathprogresstracker-line-height-ea624fbd);
 }
 
 .progress-summary {
-  margin: 0.12rem 0 0;
-  font-size: 0.88rem;
+  margin: var(--sf-auto-pathprogresstracker-margin-c64b19bc);
+  font-size: var(--sf-auto-pathprogresstracker-font-size-0d49a72e);
   opacity: 0.85;
-  line-height: 1.2;
+  line-height: var(--sf-auto-pathprogresstracker-line-height-b511f5dc);
 }
 
 .progress-badges {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: var(--sf-auto-pathprogresstracker-gap-a922c8b0);
   flex-wrap: wrap;
   justify-content: flex-end;
 }
@@ -302,11 +302,11 @@ onBeforeUnmount(() => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--pp-border);
-  padding: 0.16rem 0.52rem;
-  font-size: 0.78rem;
+  border: var(--progress-tracker-track-border-width) solid var(--pp-border);
+  padding: var(--progress-tracker-badge-padding);
+  font-size: var(--progress-tracker-badge-font-size);
   font-weight: 800;
-  line-height: 1.15;
+  line-height: var(--sf-auto-pathprogresstracker-line-height-8979aed8);
   white-space: nowrap;
 }
 
@@ -321,42 +321,42 @@ onBeforeUnmount(() => {
 }
 
 .progress-track {
-  height: 0.58rem;
-  border: 2px solid var(--pp-border);
+  height: var(--progress-tracker-track-height);
+  border: var(--progress-tracker-track-border-width) solid var(--pp-border);
   background: var(--pp-progress-track);
-  border-radius: 0;
+  border-radius: var(--progress-tracker-track-radius);
   overflow: hidden;
 }
 
-@media (min-width: 768px) {
+@media (min-width: var(--progress-tracker-desktop-breakpoint)) {
   .progress-overview {
-    top: 5.6rem;
+    top: var(--progress-tracker-overview-top-desktop);
   }
 }
 
 .progress-fill {
-  height: 100%;
+  height: var(--sf-auto-pathprogresstracker-height-61e33e1c);
   background: var(--pp-progress-fill);
-  transition: width 0.25s ease;
+  transition: var(--sf-auto-pathprogresstracker-transition-4d6f3c1c);
 }
 
 .modules-list {
   display: flex;
   flex-direction: column;
-  gap: 0.9rem;
+  gap: var(--progress-tracker-module-gap);
 }
 
 .module-card {
   background: var(--pp-surface);
-  border: 3px solid var(--pp-border);
-  box-shadow: none;
-  filter: drop-shadow(5px 5px 0 var(--pp-shadow));
+  border: var(--path-page-surface-border-width) solid var(--pp-border);
+  box-shadow: var(--progress-tracker-overview-shadow);
+  filter: var(--progress-tracker-module-shadow-filter);
   color: var(--pp-text);
-  padding: 1rem;
+  padding: var(--progress-tracker-module-padding);
   position: relative;
   overflow: visible;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
+  margin-bottom: var(--progress-tracker-module-margin-bottom);
+  padding-bottom: var(--progress-tracker-module-padding-bottom);
 }
 
 .module-card::after {
@@ -364,10 +364,10 @@ onBeforeUnmount(() => {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -30px;
-  height: 30px;
+  bottom: var(--progress-tracker-module-after-offset);
+  height: var(--progress-tracker-module-after-height);
   background-color: inherit;
-  border-bottom: 5px solid var(--pp-border);
+  border-bottom: var(--progress-tracker-module-after-border-width) solid var(--pp-border);
   clip-path: polygon(
     0 0,
     100% 0,
@@ -393,12 +393,12 @@ onBeforeUnmount(() => {
     0 0
   );
   pointer-events: none;
-  z-index: 2;
+  z-index: var(--sf-auto-pathprogresstracker-z-index-c1e6785d);
 }
 
 .modules-list .module-card:last-child {
   margin-bottom: 0;
-  padding-bottom: 1rem;
+  padding-bottom: var(--progress-tracker-module-padding);
 }
 
 .modules-list .module-card:last-child::after {
@@ -408,84 +408,84 @@ onBeforeUnmount(() => {
 .module-header {
   display: flex;
   flex-direction: column;
-  gap: 0.48rem;
+  gap: var(--progress-tracker-module-header-gap);
   padding: 0;
-  margin-bottom: 0.65rem;
+  margin-bottom: var(--sf-auto-pathprogresstracker-margin-bottom-25ed0a7b);
 }
 
 .module-header-top {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  gap: 0.55rem;
+  gap: var(--progress-tracker-module-header-top-gap);
 }
 
 .module-index-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--pp-border);
+  border: var(--progress-tracker-step-link-border-width) solid var(--pp-border);
   background: var(--brand-yellow);
   color: var(--brand-black);
-  font-size: 0.82rem;
+  font-size: var(--progress-tracker-module-index-font-size);
   font-weight: 800;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-95e2c949);
   text-transform: uppercase;
   white-space: nowrap;
-  padding: 0.18rem 0.48rem;
-  line-height: 1.2;
+  padding: var(--progress-tracker-module-index-padding);
+  line-height: var(--sf-auto-pathprogresstracker-line-height-34192a71);
 }
 
 .module-title-center {
   margin: 0;
-  font-size: 1.22rem;
-  line-height: 1.25;
+  font-size: var(--progress-tracker-module-title-size);
+  line-height: var(--sf-auto-pathprogresstracker-line-height-06381467);
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-fe635cb6);
   text-align: center;
   min-width: 0;
 }
 
 .module-objective {
-  margin: 0.24rem 0 0;
-  line-height: 1.35;
-  font-size: 1rem;
+  margin: var(--sf-auto-pathprogresstracker-margin-f9db4eaa);
+  line-height: var(--sf-auto-pathprogresstracker-line-height-bc97f313);
+  font-size: var(--progress-tracker-module-objective-size);
 }
 
 .module-stats {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--pp-module-stats-border);
+  border: var(--progress-tracker-module-stats-border-width) solid var(--pp-module-stats-border);
   background: var(--pp-module-stats-bg);
   color: var(--pp-module-stats-text);
-  font-size: 0.9rem;
+  font-size: var(--progress-tracker-module-stats-font-size);
   font-weight: 800;
   white-space: nowrap;
   margin: 0;
-  padding: 0.2rem 0.55rem;
-  line-height: 1.2;
+  padding: var(--progress-tracker-module-stats-padding);
+  line-height: var(--sf-auto-pathprogresstracker-line-height-85c49ac5);
 }
 
 .module-card ol {
-  margin: 0.6rem 0 0;
+  margin: var(--sf-auto-pathprogresstracker-margin-e566b09e);
   padding: 0;
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: var(--progress-tracker-module-gap);
 }
 
 .module-card li {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: flex-start;
-  gap: 0.8rem;
+  gap: var(--progress-tracker-step-gap);
   background: var(--pp-surface-muted);
-  border: 2px solid var(--pp-border);
-  padding: 0.6rem;
-  transition: border-color 0.16s ease, background-color 0.16s ease;
+  border: var(--progress-tracker-step-border-width) solid var(--pp-border);
+  padding: var(--progress-tracker-step-padding);
+  transition: var(--sf-auto-pathprogresstracker-transition-70639100);
 }
 
 .module-card li:hover {
@@ -504,54 +504,54 @@ onBeforeUnmount(() => {
 .step-check {
   display: flex;
   align-items: flex-start;
-  gap: 0.5rem;
-  width: 100%;
+  gap: var(--sf-auto-pathprogresstracker-gap-335f2e6c);
+  width: var(--sf-auto-pathprogresstracker-width-b863cba6);
   min-width: 0;
 }
 
 .step-content {
   display: block;
-  width: 100%;
+  width: var(--sf-auto-pathprogresstracker-width-b1bbef59);
 }
 
 .step-meta {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
-  margin-top: 0.2rem;
+  gap: var(--sf-auto-pathprogresstracker-gap-6508a947);
+  margin-top: var(--sf-auto-pathprogresstracker-margin-top-c100b580);
 }
 
 .step-type,
 .step-xp {
   display: inline-block;
-  font-size: 0.82rem;
+  font-size: var(--progress-tracker-step-type-font-size);
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  border: 2px solid var(--pp-border);
-  padding: 0.12rem 0.52rem;
-  line-height: 1.2;
+  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-615ed24d);
+  border: var(--progress-tracker-step-link-border-width) solid var(--pp-border);
+  padding: var(--progress-tracker-step-type-padding);
+  line-height: var(--sf-auto-pathprogresstracker-line-height-207e7fcd);
   text-align: center;
 }
 
 .step-type.quiz {
-  background: #bfd8ff;
-  color: #0e2b4d;
+  background: var(--progress-tracker-step-quiz-bg);
+  color: var(--progress-tracker-step-quiz-color);
 }
 
 .step-type.guide {
-  background: #c9efcd;
-  color: #12381f;
+  background: var(--progress-tracker-step-guide-bg);
+  color: var(--progress-tracker-step-guide-color);
 }
 
 .step-type.tuto {
-  background: #ffd8b2;
-  color: #4a2b0f;
+  background: var(--progress-tracker-step-tuto-bg);
+  color: var(--progress-tracker-step-tuto-color);
 }
 
 .step-type.action {
-  background: #ffc2c2;
-  color: #4e1313;
+  background: var(--progress-tracker-step-action-bg);
+  color: var(--progress-tracker-step-action-color);
 }
 
 .step-xp {
@@ -570,13 +570,13 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: center;
   align-self: flex-start;
-  min-width: 5.5rem;
-  padding: 0.35rem 0.6rem;
-  border: 2px solid var(--pp-border);
+  min-width: var(--progress-tracker-step-link-min-width);
+  padding: var(--progress-tracker-step-link-padding);
+  border: var(--progress-tracker-step-link-border-width) solid var(--pp-border);
   background: var(--pp-surface);
   text-decoration: none;
-  line-height: 1.2;
-  transition: transform 0.16s ease, box-shadow 0.16s ease, background-color 0.16s ease;
+  line-height: var(--sf-auto-pathprogresstracker-line-height-73a5bd5a);
+  transition: var(--sf-auto-pathprogresstracker-transition-04ffd4a0);
 }
 
 .step-open-link-disabled {
@@ -586,7 +586,7 @@ onBeforeUnmount(() => {
 
 .step-open-link:hover {
   transform: translate(1px, 1px);
-  box-shadow: 2px 2px 0 var(--pp-border);
+  box-shadow: var(--progress-tracker-step-link-shadow-hover);
 }
 
 .step-open-link:focus-visible {
@@ -619,41 +619,41 @@ onBeforeUnmount(() => {
 }
 
 :global(.dark) .step-type.quiz {
-  background: #0f4c81;
-  color: #f5f5f2;
+  background: var(--progress-tracker-step-quiz-bg-dark);
+  color: var(--progress-tracker-step-quiz-color-dark);
 }
 
 :global(.dark) .step-type.guide {
-  background: #1f6b3a;
-  color: #f5f5f2;
+  background: var(--progress-tracker-step-guide-bg-dark);
+  color: var(--progress-tracker-step-guide-color-dark);
 }
 
 :global(.dark) .step-type.tuto {
-  background: #8a4b11;
-  color: #f5f5f2;
+  background: var(--progress-tracker-step-tuto-bg-dark);
+  color: var(--progress-tracker-step-tuto-color-dark);
 }
 
 :global(.dark) .step-type.action {
-  background: #8b1f1f;
-  color: #f5f5f2;
+  background: var(--progress-tracker-step-action-bg-dark);
+  color: var(--progress-tracker-step-action-color-dark);
 }
 
 :global(.dark) .step-xp {
   color: var(--brand-black);
 }
 
-@media (max-width: 780px) {
+@media (max-width: var(--progress-tracker-mobile-breakpoint)) {
   .module-stats {
-    font-size: 0.84rem;
-    padding: 0.18rem 0.45rem;
+    font-size: var(--progress-tracker-module-stats-font-size-mobile);
+    padding: var(--sf-auto-pathprogresstracker-padding-ab85bc1d);
   }
 
   .module-title-center {
-    font-size: 1.05rem;
+    font-size: var(--progress-tracker-module-title-size-mobile);
   }
 
   .module-objective {
-    font-size: 0.94rem;
+    font-size: var(--progress-tracker-module-objective-size-mobile);
   }
 }
 
@@ -662,18 +662,18 @@ onBeforeUnmount(() => {
 <style>
 html.dark .path-progress,
 .dark .path-progress {
-  --pp-surface: var(--brand-ink);
-  --pp-surface-muted: var(--brand-charcoal);
-  --pp-border: var(--brand-cream);
-  --pp-shadow: var(--brand-cream);
-  --pp-text: var(--brand-cream);
-  --pp-link: var(--brand-yellow);
-  --pp-link-hover: var(--brand-cream);
-  --pp-progress-track: var(--brand-soot);
-  --pp-progress-fill: var(--brand-yellow);
-  --pp-badge-text: var(--brand-cream);
-  --pp-module-stats-bg: var(--brand-charcoal);
-  --pp-module-stats-border: var(--brand-yellow);
-  --pp-module-stats-text: var(--brand-yellow);
+  --pp-surface: var(--progress-tracker-surface-dark);
+  --pp-surface-muted: var(--progress-tracker-surface-muted-dark);
+  --pp-border: var(--progress-tracker-border-dark);
+  --pp-shadow: var(--progress-tracker-shadow-dark);
+  --pp-text: var(--progress-tracker-text-dark);
+  --pp-link: var(--progress-tracker-link-dark);
+  --pp-link-hover: var(--progress-tracker-link-hover-dark);
+  --pp-progress-track: var(--progress-tracker-progress-track-dark);
+  --pp-progress-fill: var(--progress-tracker-progress-fill-dark);
+  --pp-badge-text: var(--progress-tracker-badge-text-dark);
+  --pp-module-stats-bg: var(--progress-tracker-module-stats-bg-dark);
+  --pp-module-stats-border: var(--progress-tracker-module-stats-border-dark);
+  --pp-module-stats-text: var(--progress-tracker-module-stats-text-dark);
 }
 </style>

@@ -2,6 +2,7 @@
 import { SITE, getSiteUrl } from "../config/site";
 import { ROUTES, getBlogTagRoute } from "../config/routes";
 import { resolveMetaRobots } from "../utils/indexation";
+import "../styles/global.css";
 
 const title = `${SITE.name} | Diane`
 const description = `Diane construit ${SITE.name} pour aider les francophones à lancer des projets utiles, solides et moins bullshit.`
@@ -38,121 +39,116 @@ const metaRobots = resolveMetaRobots("/bio");
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Sanchez&display=swap" rel="stylesheet" />
 
 	<style>
-		:root {
-			--brand-yellow: #f6c700;
-			--brand-orange: #e2572d;
-			--brand-black: #1e1b16;
-			--brand-ink: #0b0b0b;
-			--brand-cream: #f2eee6;
-			--brand-surface: #2f2f2f;
+		* {
+			margin: var(--bio-page-reset-space);
+			padding: var(--bio-page-reset-space);
+			box-sizing: border-box;
 		}
 
-		* { margin: 0; padding: 0; box-sizing: border-box; }
-
 		body {
-			font-family: 'Sanchez', serif;
-			background: var(--brand-ink);
-			color: var(--brand-cream);
-			min-height: 100vh;
+			font-family: var(--bio-page-body-font);
+			background: var(--bio-page-background);
+			color: var(--bio-page-text);
+			min-height: var(--bio-page-min-height);
 			display: flex;
 			justify-content: center;
-			padding: 2rem 1rem;
+			padding: var(--bio-page-padding);
 		}
 
 		.bio-container {
-			width: 100%;
-			max-width: 480px;
+			width: var(--bio-page-container-width);
+			max-width: var(--bio-page-container-max-width);
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap: 1.5rem;
+			gap: var(--bio-page-container-gap);
 		}
 
 		.bio-avatar {
-			width: 96px;
-			height: 96px;
-			border-radius: 50%;
-			border: 3px solid var(--brand-yellow);
+			width: var(--bio-page-avatar-size);
+			height: var(--bio-page-avatar-size);
+			border-radius: var(--bio-page-avatar-radius);
+			border: var(--bio-page-avatar-border);
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			font-size: 2.5rem;
-			background: var(--brand-surface);
+			font-size: var(--bio-page-avatar-font-size);
+			background: var(--bio-page-surface);
 		}
 
 		.bio-name {
-			font-family: 'Poppins', sans-serif;
-			font-size: 1.5rem;
-			font-weight: 700;
-			color: var(--brand-yellow);
-			text-align: center;
+			font-family: var(--bio-page-heading-font);
+			font-size: var(--bio-page-name-size);
+			font-weight: var(--bio-page-name-weight);
+			color: var(--bio-page-name-color);
+			text-align: var(--bio-page-name-align);
 		}
 
 		.bio-tagline {
-			font-size: 0.95rem;
+			font-size: var(--bio-page-tagline-size);
 			text-align: center;
-			color: var(--brand-cream);
-			line-height: 1.5;
-			max-width: 340px;
+			color: var(--bio-page-text);
+			line-height: var(--bio-page-tagline-line-height);
+			max-width: var(--bio-page-tagline-max-width);
 		}
 
 		.bio-intro {
-			font-size: 0.92rem;
+			font-size: var(--bio-page-intro-size);
 			text-align: center;
-			color: var(--brand-cream);
-			line-height: 1.65;
-			max-width: 390px;
-			opacity: 0.92;
+			color: var(--bio-page-text);
+			line-height: var(--bio-page-intro-line-height);
+			max-width: var(--bio-page-intro-max-width);
+			opacity: var(--bio-page-intro-opacity);
 		}
 
 		.bio-links {
-			width: 100%;
+			width: var(--bio-page-container-width);
 			display: flex;
 			flex-direction: column;
-			gap: 0.75rem;
+			gap: var(--bio-page-links-gap);
 		}
 
 		.bio-link {
 			display: block;
-			width: 100%;
-			padding: 1rem 1.25rem;
+			width: var(--bio-page-link-width);
+			padding: var(--bio-page-link-padding);
 			text-align: center;
 			text-decoration: none;
-			font-family: 'Poppins', sans-serif;
-			font-weight: 600;
-			font-size: 1rem;
-			color: var(--brand-black);
-			background: var(--brand-yellow);
-			border: 3px solid var(--brand-black);
-			filter: drop-shadow(4px 4px 0 var(--brand-orange));
-			transition: all 0.2s ease;
+			font-family: var(--bio-page-heading-font);
+			font-weight: var(--bio-page-link-font-weight);
+			font-size: var(--bio-page-link-size);
+			color: var(--bio-page-link-color);
+			background: var(--bio-page-link-background);
+			border: var(--bio-page-link-border);
+			filter: drop-shadow(var(--bio-page-link-shadow));
+			transition: all var(--bio-page-link-transition);
 		}
 
 		.bio-link:hover {
-			filter: drop-shadow(2px 2px 0 var(--brand-orange));
-			transform: translate(2px, 2px);
+			filter: drop-shadow(var(--bio-page-link-shadow-hover));
+			transform: translate(var(--bio-page-link-transform), var(--bio-page-link-transform));
 		}
 
 		.bio-link.accent {
-			background: var(--brand-orange);
-			color: var(--brand-cream);
-			filter: drop-shadow(4px 4px 0 var(--brand-yellow));
+			background: var(--bio-page-accent-background);
+			color: var(--bio-page-accent-color);
+			filter: drop-shadow(var(--bio-page-link-shadow-accent));
 		}
 
 		.bio-link.accent:hover {
-			filter: drop-shadow(2px 2px 0 var(--brand-yellow));
-			transform: translate(2px, 2px);
+			filter: drop-shadow(var(--bio-page-link-shadow-accent-hover));
+			transform: translate(var(--bio-page-link-transform), var(--bio-page-link-transform));
 		}
 
 		.bio-socials {
 			display: flex;
-			gap: 1.25rem;
-			margin-top: 0.5rem;
+			gap: var(--bio-page-socials-gap);
+			margin-top: var(--bio-page-socials-margin-top);
 		}
 
 		.bio-socials a {
-			color: var(--brand-cream);
-			transition: color 0.2s ease;
+			color: var(--bio-page-social-color);
+			transition: color var(--bio-page-social-transition);
 		}
 
 		.bio-socials a:hover {
@@ -160,24 +156,24 @@ const metaRobots = resolveMetaRobots("/bio");
 		}
 
 		.bio-socials svg {
-			width: 28px;
-			height: 28px;
+			width: var(--bio-page-social-size);
+			height: var(--bio-page-social-size);
 		}
 
 		.bio-footer {
-			font-size: 0.8rem;
-			color: var(--brand-cream);
-			opacity: 0.6;
-			margin-top: 1rem;
+			font-size: var(--bio-page-footer-size);
+			color: var(--bio-page-text);
+			opacity: var(--bio-page-footer-opacity);
+			margin-top: var(--bio-page-footer-margin-top);
 		}
 
 		*,
 		*::before,
 		*::after {
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
+			-webkit-user-select: var(--bio-page-user-select);
+			-moz-user-select: var(--bio-page-user-select);
+			-ms-user-select: var(--bio-page-user-select);
+			user-select: var(--bio-page-user-select);
 		}
 
 	</style>

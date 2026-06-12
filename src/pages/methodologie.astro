@@ -119,7 +119,7 @@ const badges = [
         On calcule un badge visible à partir des métadonnées de qualification. Il ne remplace pas les preuves, il les
         synthétise. Le score reste volontairement conservateur, sur une échelle entière de 20 points.
       </p>
-      <div class="criteria-grid">
+          <div class="criteria-grid md:grid-cols-2">
         <article class="criteria-card">
           <h3>Ce qui pèse le plus</h3>
           <ul>
@@ -137,7 +137,7 @@ const badges = [
           </ul>
         </article>
       </div>
-      <p class="section-intro" style="margin-top: 1rem;">
+      <p class="section-intro" style="margin-top: var(--method-inline-margin-top);">
         Tant qu’une fiche n’est pas auditée, le badge reste en “évaluation en cours”. L’objectif est de montrer notre
         exigence, pas de distribuer des labels patriotiques gratuits.
       </p>
@@ -154,7 +154,7 @@ const badges = [
 
     <section class="method-section mt-10">
       <h2 class="section-title">Quand on écrit “outil français”</h2>
-      <div class="criteria-grid">
+          <div class="criteria-grid md:grid-cols-2">
         <article class="criteria-card">
           <h3>Critères forts</h3>
           <ul>
@@ -215,27 +215,25 @@ const badges = [
   .rule-card,
   .badge-card,
   .criteria-card {
-    border: 3px solid var(--brand-black);
-    box-shadow: 6px 6px 0 var(--brand-black);
+    border: var(--method-panel-border-width) solid var(--method-panel-border-color);
+    box-shadow: var(--method-panel-shadow);
   }
 
   .hero-panel {
-    padding: 2rem;
-    background:
-      radial-gradient(circle at top right, rgb(246 199 0 / 35%), transparent 28%),
-      linear-gradient(135deg, #fff8de 0%, #ffe8a9 55%, #ffd36d 100%);
+    padding: var(--method-panel-padding);
+    background: var(--method-panel-bg);
   }
 
   .method-section {
-    padding: 1.5rem;
-    background: linear-gradient(180deg, #fffdfa 0%, #fff0cc 100%);
+    padding: var(--method-section-padding);
+    background: var(--method-section-bg);
   }
 
   .rule-card,
   .badge-card,
   .criteria-card {
-    padding: 1.25rem;
-    background: rgb(255 255 255 / 82%);
+    padding: var(--method-card-padding);
+    background: var(--method-card-bg);
   }
 
   :global(.dark) .hero-panel,
@@ -244,34 +242,34 @@ const badges = [
   :global(.dark) .badge-card,
   :global(.dark) .criteria-card {
     border-color: var(--brand-cream);
-    box-shadow: 6px 6px 0 var(--brand-cream);
-    background: linear-gradient(180deg, #171717 0%, #0f0f0f 100%);
+    box-shadow: var(--method-panel-shadow-dark);
+    background: var(--method-section-bg-dark);
   }
 
   .eyebrow {
     display: inline-flex;
-    margin-bottom: 1rem;
-    padding: 0.35rem 0.6rem;
-    border: 2px solid var(--brand-black);
-    background: rgb(255 255 255 / 65%);
-    font-family: "Poppins", sans-serif;
+    margin-bottom: var(--method-eyebrow-gap);
+    padding: var(--method-eyebrow-padding);
+    border: var(--method-eyebrow-border-width) solid var(--method-panel-border-color);
+    background: var(--method-eyebrow-bg);
+    font-family: var(--method-font-family);
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: var(--method-letter-spacing);
   }
 
   :global(.dark) .eyebrow {
     border-color: var(--brand-cream);
-    background: rgb(255 255 255 / 6%);
+    background: var(--method-eyebrow-bg-dark);
     color: var(--brand-cream);
   }
 
   .section-title {
-    margin: 0 0 0.75rem;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--brand-black);
+    margin: var(--method-title-margin);
+    font-family: var(--method-font-family);
+    font-size: var(--method-title-font-size);
+    font-weight: var(--method-title-font-weight);
+    color: var(--method-title-color);
   }
 
   :global(.dark) .section-title,
@@ -280,9 +278,9 @@ const badges = [
   }
 
   .section-intro {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.05rem;
-    color: var(--brand-black);
+    font-family: var(--method-font-family);
+    font-size: var(--method-intro-font-size);
+    color: var(--method-intro-color);
   }
 
   :global(.dark) .section-intro {
@@ -292,34 +290,34 @@ const badges = [
   .field-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem;
-    margin-top: 1rem;
+    gap: var(--method-field-gap);
+    margin-top: var(--method-field-margin-top);
   }
 
   .field-chip {
     display: inline-flex;
-    padding: 0.55rem 0.8rem;
-    border: 2px solid var(--brand-black);
-    background: #fff;
-    font-size: 0.95rem;
+    padding: var(--method-field-chip-padding);
+    border: var(--method-field-chip-border-width) solid var(--method-panel-border-color);
+    background: var(--method-field-chip-bg);
+    font-size: var(--method-field-chip-font-size);
   }
 
   :global(.dark) .field-chip {
     border-color: var(--brand-cream);
-    background: rgb(255 255 255 / 5%);
+    background: var(--method-card-bg-dark);
     color: var(--brand-cream);
   }
 
   .criteria-grid {
     display: grid;
-    gap: 1rem;
+    gap: var(--method-grid-gap);
   }
 
   .criteria-card ul {
     margin: 0;
-    padding-left: 1.2rem;
-    font-family: "Poppins", sans-serif;
-    color: var(--brand-black);
+    padding-left: var(--method-criteria-list-pad);
+    font-family: var(--method-font-family);
+    color: var(--method-criteria-list-color);
   }
 
   :global(.dark) .criteria-card ul {
@@ -327,12 +325,10 @@ const badges = [
   }
 
   .criteria-card li + li {
-    margin-top: 0.55rem;
+    margin-top: var(--method-criteria-list-item-gap);
   }
 
-  @media (min-width: 768px) {
-    .criteria-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+  .criteria-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 </style>

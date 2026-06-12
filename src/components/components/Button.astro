@@ -16,62 +16,12 @@ const shadowColor = variant === 'hero' ? 'var(--brand-yellow)' : 'var(--brand-ye
 const rel = target === "_blank" ? "noopener noreferrer" : undefined;
 ---
 
-<style define:vars={{ color, shadowColor }}>
-	a.brutal-btn {
-		filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
-		background-color: var(--brand-cream);
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 1rem 2rem;
-		border: 3px solid var(--brand-black);
-		transition: all;
-		transition-duration: 0.5s;
-		animation: ease-in-out;
-		font-family: "Sanchez", serif;
-		font-size: 1.25rem;
-		font-weight: 700;
-		color: var(--brand-black);
-		cursor: pointer;
-		position: relative;
-		z-index: 3;
-		pointer-events: auto;
-	}
-	a.brutal-btn:hover {
-		filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
-		background-color: var(--color);
-		color: var(--brand-black) !important;
-	}
-
-	:global(.dark) a.brutal-btn {
-		filter: drop-shadow(5px 5px 0 var(--shadowColor));
-		background-color: var(--brand-ink);
-		border: 3px solid var(--shadowColor);
-		color: var(--shadowColor);
-	}
-
-	:global(.dark) a.brutal-btn:hover {
-		background-color: var(--color);
-		color: #fff !important;
-		border-color: #fff;
-		filter: drop-shadow(3px 3px 0 #fff);
-	}
-
-	:global(.dark) a.brutal-btn:active,
-	:global(.dark) a.brutal-btn:focus,
-	:global(.dark) a.brutal-btn:focus-visible {
-		background-color: var(--color);
-		color: #fff !important;
-		border-color: #fff;
-		filter: drop-shadow(3px 3px 0 #fff);
-	}
-</style>
-
 <a
 	href={href}
 	target={target}
 	rel={rel}
-	class="brutal-btn"
+	class="brutal-btn brutal-btn-astro"
+	style={`--button-color: ${color}; --button-shadow-color: ${shadowColor};`}
 >
 	<slot />
 </a>
