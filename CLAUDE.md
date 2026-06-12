@@ -1,10 +1,10 @@
 ---
 artifact: agent_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.0.1"
 project: gocharbon
 created: "2026-04-26"
-updated: "2026-04-27"
+updated: "2026-06-12"
 status: reviewed
 source_skill: sf-docs
 scope: agent
@@ -25,7 +25,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-GoCharbon (gocharbon.com) is a French-language educational blog platform for entrepreneurs, built with Astro 5. It uses the "Brutal" neobrutalist theme as a base. The site is fully static (SSG) with a large Markdown corpus organized in a hierarchical tag system.
+GoCharbon (gocharbon.com) is a French-language educational blog platform for entrepreneurs, built with Astro 6. It uses the "Brutal" neobrutalist theme as a base. The site is fully static (SSG) with a large Markdown corpus organized in a hierarchical tag system.
 
 ## Founder Memory
 
@@ -67,10 +67,16 @@ Package manager: **pnpm** (v8.6.0). No test suite is configured.
 ## Architecture
 
 ### Framework & Integrations
-- **Astro 5** (static output, directory format, no trailing slashes)
+- **Astro 6** (static output, directory format, no trailing slashes)
 - **Vue 3** for interactive components (quiz, theme toggle) via `@astrojs/vue`
 - **UnoCSS** (Tailwind-compatible utility CSS) configured in `uno.config.ts`
 - **Satori + resvg-js** for dynamic OG image generation at `/v1/generate/og/:slug.png`
+
+### Shared Gamification Dependency
+- Runtime currently stays pinned to `@diane-winflowz/gamification` through the GitHub repo tarball commit recorded in `package.json` and `pnpm-lock.yaml`.
+- The accepted target strategy is a shared GitHub Packages package for `@diane-winflowz/gamification`, with explicit permissive license metadata and repository linkage.
+- Do not switch the consumer from the pinned GitHub source to `npm.pkg.github.com` until the upstream package publication is provable and exposes `license`, `repository`, and GitHub Packages-compatible publish metadata.
+- `.npmrc` maps the future package scope `@diane-winflowz` to `https://npm.pkg.github.com`; `minimum-release-age` was removed because this repo is pinned to `pnpm@8.6.0`, where that supply-chain setting is not a supported project `.npmrc` key.
 
 ### Content System
 Posts live in `src/data/` as Markdown files with required frontmatter:

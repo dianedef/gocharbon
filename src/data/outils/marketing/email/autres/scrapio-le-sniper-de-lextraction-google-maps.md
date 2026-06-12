@@ -183,7 +183,7 @@ Les fondateurs de Scrap.io sont Julien Arcin et Sébastien, deux français nomad
 
 A deux ils ont 13 ans de développement dans les pattes, des milliers d'heures d'expérience à scraper le web, et plusieurs années d'essais et  dans l'entrepreneuriat, des dizaines milliers des lignes de codes jetées à la poubelle, des téraoctets de données scrapées qui dorment et ne serviront probablement jamais… Des mois (voire des années) d'errance, d'efforts gâchés, d'espoirs déçus…
 
-Leur premier SaaS, [Linklead.io]() permettait de scraper des profils de décideurs à partir de Linkedin ( ex : DRH, CEO, Responsable des ventes…).
+Leur premier SaaS, Linklead.io, permettait de scraper des profils de décideurs à partir de Linkedin ( ex : DRH, CEO, Responsable des ventes…).
 
 Fin d’année dernière 2021, Seb a eu l’idée de vendre des fichiers CSV issus de Google Maps à leurs clients, enrichis avec des emails, comptes sociaux, etc.. en s’est débrouillant à la main et avec des outils à droite à gauche.
 

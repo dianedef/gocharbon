@@ -375,7 +375,7 @@ Imprime cette checklist et garde-la quelque part d'accessible :
 - [Bootstrapping](/gestion/financement/bootstrapping) -- Survivre avec le minimum
 - [Subventions et aides](/gestion/financement/subventions) -- Les filets de sécurité publics
 - [Compétences entrepreneuriales](/performance/mental/competences) -- Developper les bons reflexes
-- [Leadership](/performance/mental/leadership) -- Diriger en temps de crise
+- [Performance mentale](/performance/mental) -- Diriger en temps de crise
 
 ---
 

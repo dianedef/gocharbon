@@ -56,7 +56,7 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
-    "@diane-winflowz/gamification": "github:dianedef/gamification",
+    "@diane-winflowz/gamification": "github:dianedef/gamification#35a9f64a8eb03ca6774413beb8ebd92b300ec3d4",
     "@lucide/astro": "^1.16.0",
     "astro": "^6.3.7",
     "astro-font": "^1.1.0",

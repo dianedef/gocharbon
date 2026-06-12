@@ -174,5 +174,5 @@ Les 2 qui te coûtent déjà de l'argent maintenant.
 ## Pour aller plus loin
 
 - [Compétences entrepreneuriales](/performance/mental/competences)
-- [Leadership](/performance/mental/leadership)
+- [Performance mentale](/performance/mental)
 - [Business plan](/performance/plan/business-plan)

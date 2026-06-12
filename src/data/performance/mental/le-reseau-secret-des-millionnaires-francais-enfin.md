@@ -201,6 +201,6 @@ Et dans un business, cette accumulation-là vaut souvent plus qu'une grande opé
 
 ### Pour aller plus loin
 
-- [Leadership](/performance/mental/leadership) pour renforcer ton influence sans jouer un rôle
+- [Performance mentale](/performance/mental) pour renforcer ton influence sans jouer un rôle
 - [Analyse de marque](/performance/mental/analyse-de-marque-la-technique-secrete-des) pour comprendre ce qui rend un positionnement mémorable
 - [Compétences](/performance/mental/competences) pour travailler les compétences qui rendent réellement recommandable

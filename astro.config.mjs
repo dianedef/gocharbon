@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 import { SITE } from './src/config/site.ts';
 import { shouldIncludeInSitemap } from './src/utils/indexation.ts';
 import { createParcoursLaunchBuildIntegration } from './src/utils/launch-build.ts';
+import { remarkInternalLinks } from './src/utils/remark-internal-links.ts';
 
 export default defineConfig({
     server: {
@@ -27,6 +28,9 @@ export default defineConfig({
     ],
     site: SITE.url,
     trailingSlash: 'never',
+    markdown: {
+        remarkPlugins: [remarkInternalLinks],
+    },
     build: {
         format: 'directory',
         inlineStylesheets: 'auto'

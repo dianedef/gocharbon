@@ -280,7 +280,7 @@ En mars 2021, un incendie devastateur detruit le datacenter SBG2 d'OVHcloud a St
 
 - [Stratégies de gestion de crise](/gestion/gestion-crise/strategies) -- Anticiper et reagir face aux crises
 - [Compétences entrepreneuriales](/performance/mental/competences) -- Developper les bons reflexes
-- [Leadership](/performance/mental/leadership) -- Diriger dans l'incertitude
+- [Performance mentale](/performance/mental) -- Diriger dans l'incertitude
 - [Business plan](/performance/plan/business-plan) -- Structurer pour mieux resister
 - [Gestion financiere](/gestion/financement/finances) -- Le nerf de la guerre
 

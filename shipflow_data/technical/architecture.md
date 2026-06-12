@@ -1,10 +1,10 @@
 ---
 artifact: architecture_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.0.1"
 project: "gocharbon"
 created: "2026-04-26"
-updated: "2026-04-27"
+updated: "2026-06-12"
 status: reviewed
 source_skill: manual
 scope: architecture
@@ -40,7 +40,7 @@ linked_systems:
   - "src/gamification"
   - "scripts"
 external_dependencies:
-  - "Astro 5 (static build, file-based routes)"
+  - "Astro 6 (static build, file-based routes)"
   - "Vue 3.5 via @astrojs/vue"
   - "UnoCSS 66"
   - "Node.js + pnpm"
@@ -70,7 +70,7 @@ next_step: /sf-docs audit shipflow_data/technical/context.md
 
 ## 1) Vue d'ensemble
 
-GoCharbon est une application de génération de contenu statique (SSG) basée sur Astro 5, avec pages dynamiques pré-rendues et islands Vue 3 pour les interactions ciblées.
+GoCharbon est une application de génération de contenu statique (SSG) basée sur Astro 6, avec pages dynamiques pré-rendues et islands Vue 3 pour les interactions ciblées.
 
 ```text
 Auteur/éditeur (src/data + compétences SKILL)
@@ -137,10 +137,14 @@ Gamification locale (localStorage + xp/pathProgress)
 - Composants Vue (`PathProgressTracker`, `CharbonGamificationDashboard`) lisent/écrivent dans `localStorage`.
 - Calcul XP et niveaux dans `src/gamification/xp.ts`.
 - Option de synchronisation distante via endpoints Convex (facultatif), avec fallback local robuste.
+- Les surfaces runtime consomment `@diane-winflowz/gamification` comme brique partagée externe.
+- Tant que la publication GitHub Packages n'est pas prouvée avec licence permissive explicite, le consumer reste sur un commit GitHub figé et documenté, sans migration de runtime vers le registry.
+- La cible validée reste un package GitHub Packages scoped, lié à son repository source et publiant des métadonnées de licence exploitables.
 
 ## 6) Dépendances d'exécution
 
 - `pnpm` (workflow recommandé), Node, TypeScript.
+- `@diane-winflowz/gamification` : dépendance runtime partagée, actuellement résolue via commit GitHub figé; migration vers GitHub Packages en attente de preuve amont
 - `sharp`/`satori` pour génération d’assets/image dynamiques OG.
 - CDN et cache HTTP sur la route API en fonction du mode de routage.
 

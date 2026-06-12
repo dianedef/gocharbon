@@ -6,7 +6,7 @@ project: "gocharbon"
 created: "2026-06-12"
 created_at: "2026-06-12 12:56:09 UTC"
 updated: "2026-06-12"
-updated_at: "2026-06-12 14:28:22 UTC"
+updated_at: "2026-06-12 16:00:47 UTC"
 status: ready
 source_skill: 100-sf-spec
 source_model: "GPT-5 Codex"
@@ -46,7 +46,7 @@ evidence:
   - "La dépendance est importée dans `src/gamification/config.ts`, `src/components/vue/GamificationBar.vue`, `src/components/vue/CharbonGamificationDashboard.vue` et `src/components/vue/PathProgressTracker.vue`."
   - "`.npmrc` contient `minimum-release-age=10080`, signalé comme option inconnue par `npm`."
   - "La doc projet mentionne encore Astro 5 alors que `package.json` est sur Astro 6."
-next_step: "/102-sf-start gocharbon gamification dependency provenance and licensing hardening"
+next_step: "publish/prove @diane-winflowz/gamification on GitHub Packages with explicit permissive license, then rerun /103-sf-verify"
 ---
 # Title
 
@@ -275,12 +275,18 @@ None.
 | 2026-06-12 12:58:23 UTC | 101-sf-ready | GPT-5 Codex | Reviewed readiness gate for dependency provenance chantier | Not ready; unresolved sourcing decisions and incomplete proof contract | /100-sf-spec gocharbon gamification dependency provenance and licensing hardening |
 | 2026-06-12 14:26:45 UTC | 100-sf-spec | GPT-5 Codex | Updated spec after operator decisions on shared ownership, GitHub Packages, and permissive open license requirement | Spec revised for renewed readiness review | /101-sf-ready gocharbon gamification dependency provenance and licensing hardening |
 | 2026-06-12 14:28:22 UTC | 101-sf-ready | GPT-5 Codex | Re-ran readiness gate after operator decisions and proof-contract hardening | Ready | /102-sf-start gocharbon gamification dependency provenance and licensing hardening |
+| 2026-06-12 15:44:00 UTC | 001-sf-build | GPT-5 Codex | Tried delegated sequential execution with Spark subagent as requested | Blocked; requested `gpt-5.3-codex-spark` subagent hit provider usage limit before file work started | user decision: allow another subagent model or wait for Spark reset |
+| 2026-06-12 15:57:02 UTC | 102-sf-start | GPT-5 Codex | Hardened the consumer-side dependency contract, `.npmrc`, docs, and verification checklist without faking upstream package publication | Partial; runtime preserved on pinned GitHub commit, but GitHub Packages publication and explicit permissive license are still unproven upstream | upstream package publication proof then rerun /102-sf-start or continue with /103-sf-verify as partial |
+| 2026-06-12 15:59:59 UTC | 001-sf-build | GPT-5 Codex | Continued delegated sequential execution with a non-Spark Codex worker after provider-limit degradation | Partial; consumer-side hardening completed and verified locally, but the upstream shared package publication/licensing proof is still missing | /103-sf-verify gocharbon gamification dependency provenance and licensing hardening |
+| 2026-06-12 15:59:59 UTC | 103-sf-verify | GPT-5 Codex | Verified local implementation, build, metadata, and checklist against the ready spec | Partial; local consumer/doc hardening is verified, but upstream GitHub Packages publication and explicit permissive license proof are still missing, and manual browser scenarios remain unrun | /104-sf-end gocharbon gamification dependency provenance and licensing hardening |
+| 2026-06-12 16:00:47 UTC | 104-sf-end | GPT-5 Codex | Closed the work session without ship by updating trackers and changelog to match the verified proof level | Deferred; local hardening is recorded, but the chantier remains open until upstream package publication/licensing proof and manual runtime scenarios are completed | publish/prove @diane-winflowz/gamification on GitHub Packages with explicit permissive license, then rerun /103-sf-verify |
+| 2026-06-12 16:31:21 UTC | 309-sf-tasks | GPT-5 Codex | Reclassified the remaining gamification dependency provenance work as deferred backlog at user request | Done | Revisit later only when ready to publish or prove the shared package provenance and license |
 
 ## Current Chantier Flow
 
 - 100-sf-spec: complete
 - 101-sf-ready: ready
-- 102-sf-start: pending
-- 103-sf-verify: pending
-- 104-sf-end: pending
+- 102-sf-start: partial
+- 103-sf-verify: partial
+- 104-sf-end: deferred
 - 005-sf-ship: pending

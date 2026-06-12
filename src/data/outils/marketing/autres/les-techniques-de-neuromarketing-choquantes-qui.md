@@ -47,11 +47,7 @@ Ils vont là où vous ne les attendez pas
 - Avez-vous déjà remarqué que les gateaux de notre enfance semblent plus petits, est ce que c’est parce qu’on aa grandi ou eux ont rétrécit ? La taille des produits qui diminuent pendant que le prix reste le même, ça s’appelle la shrinkflation, c’est pas ton imagination c’est un genre de camouflage utilisé dans la vente au détail. Les marques savent que les clients regardent toujours les prix, et plus rarement la contenance ou le grammage, le poids. Donc quand le prix augmente pour la matière première l’entreprise a deux choix : augmenter le prix ou diminuer le contenu
     
 - ## Le produit va pas forcément avoi un packaging qui diminue en lui même, ça va être bien plus subtil :
-    
-    ```
-      []()
-    ```
-    
+
 - Une variante peut être d’augmenter le packaging, ou de lui donner une forme qui prête à confusion ex les rillette et leur cul bombé
     
 

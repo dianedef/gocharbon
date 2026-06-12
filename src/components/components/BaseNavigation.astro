@@ -4,6 +4,7 @@ import { Home, ChevronRight } from "@lucide/astro";
 import { SITE } from "../../config/site";
 import { ROUTES } from "../../config/routes";
 import { isParcoursOnlyBuild } from "../../utils/build-scope";
+import { getResolvedBreadcrumbs } from "../../utils/internal-links";
 import type {
 	BaseNavigationProps,
 	NavigationItem,
@@ -74,22 +75,7 @@ const breadcrumbLabels: Record<string, string> = {
 	marketing: "Marketing",
 };
 
-const pathSegments = Astro.url.pathname.split("/").filter(Boolean);
-const breadcrumbs = pathSegments.map((segment, index) => {
-	const href = `/${pathSegments.slice(0, index + 1).join("/")}`;
-	const decoded = decodeURIComponent(segment);
-	const fallback = decoded.replace(/-/g, " ");
-	const label =
-		breadcrumbLabels[segment] ??
-		breadcrumbLabels[decoded] ??
-		fallback.charAt(0).toUpperCase() + fallback.slice(1);
-
-	return {
-		href,
-		label,
-		isCurrent: index === pathSegments.length - 1,
-	};
-});
+const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels);
 ---
 
 <style define:vars={{ softWhite: 'var(--brand-cream)' }}>

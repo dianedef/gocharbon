@@ -1,10 +1,10 @@
 ---
 artifact: technical_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.1"
+artifact_version: "1.0.2"
 project: "gocharbon"
 created: "2026-04-26"
-updated: "2026-05-11"
+updated: "2026-06-12"
 status: reviewed
 source_skill: manual
 scope: technical
@@ -86,6 +86,9 @@ Le repo est principalement un site marketing/SEO + contenu, avec génération st
 - Stockage local via `localStorage` avec clés `charbon_*` (`src/gamification/storageKeys.ts`)
 - Tracking d'XP/progression (`src/gamification/xp.ts`, `src/gamification/pathProgress.ts`)
 - Sync optionnelle Convex côté navigateur (`src/gamification/convexSync.ts`) en fallback local
+- Dépendance runtime partagée consommée sous le scope `@diane-winflowz/gamification`
+- Source runtime actuelle: tarball GitHub figé sur commit dans `package.json`/`pnpm-lock.yaml`
+- Source de vérité cible acceptée: GitHub Packages pour ce scope, une fois publication amont prouvée avec licence permissive explicite et métadonnées repository/publish cohérentes
 
 ### Couche outils/scripts
 - `scripts/*.py|.ts|.mjs` : audits qualité, duplication, qualification, ordonnancement
