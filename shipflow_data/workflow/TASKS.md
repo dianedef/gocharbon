@@ -6,6 +6,10 @@
   - findings: 0 critical / 0 high / 0 moderate / 0 low
   - action: applied non-major fixes (`astro@6.3.7`, override `unstorage>h3` -> `^1.15.10`) to remove all current advisories
 🟢 [gocharbon] task: sf-deps remediation | status: done | area: deps | id: gocharbon-deps-2026-05-24
+🟢 [gocharbon] task: sf-deps audit 2026-06-12 | status: done | area: deps | id: gocharbon-deps-2026-06-12
+🟠 [gocharbon] task: replace or document GitHub-tarball gamification dependency | status: todo | area: deps | id: gocharbon-deps-gamification-provenance
+🟡 [gocharbon] task: align Astro version docs and package metadata | status: todo | area: deps | id: gocharbon-deps-astro-doc-drift
+🟡 [gocharbon] task: fix `.npmrc` compatibility warning around `minimum-release-age` | status: todo | area: deps | id: gocharbon-deps-npmrc-warning
 - [ ] gocharbon: design-system authority hardening
   - status: todo
   - area: design

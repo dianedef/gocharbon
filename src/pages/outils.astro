@@ -26,18 +26,15 @@ const featuredSubcategories = toolCategories
 	<main class="px-2 md:px-6 py-6 max-w-7xl mx-auto">
 		<h1 class="poppins text-3xl md:text-4xl font-bold mb-6 text-black dark:text-white">Outils pour entrepreneurs</h1>
 		<section class="mb-8 p-4 md:p-6 border-3 border-black dark:border-yellow-soft bg-white-soft dark:bg-black">
-			<h2 class="poppins text-2xl md:text-3xl font-bold mb-3 text-black dark:text-white">Explorer les outils</h2>
+			<h2 class="poppins text-2xl md:text-3xl font-bold mb-3 text-black dark:text-white">Trouver l'outil qui change vraiment ton prochain pas</h2>
 			<p class="poppins text-lg mb-4 text-black dark:text-white">
-				Une seule fiche canonique par outil, puis une navigation par catégorie et sous-catégorie.
+				L'objectif est simple : t'aider à choisir vite le bon outil pour avancer, sans perdre du temps dans des listes infinies.
 			</p>
 			<p class="poppins text-base md:text-lg mb-4 text-black dark:text-white">
-				Notre promesse ne se limite pas à “outil français”. On documente progressivement le siège, le pays fiscal,
-				l’hébergement des données et l’ancrage responsable de chaque fiche.
+				Chaque fiche t'aide à comparer de façon pragmatique : à quoi sert l'outil, pour quel usage et avec quelles limites.
 			</p>
 			<p class="poppins text-base md:text-lg mb-4 text-black dark:text-white">
-				Si tu explores les revenus annexes, on a aussi commencé un cluster dédié aux tests rémunérés, au crowdtesting
-				et aux programmes adjacents comme Amazon Vine. L'idée n'est pas de vendre du rêve, mais de montrer ce qui peut
-				servir de vraie porte d'entrée vers des modèles plus solides.
+				Tu peux filtrer par catégorie, garder la priorité sur ton besoin, et lire la fiche associée avant de sortir une décision.
 			</p>
 			<div class="flex flex-wrap gap-3">
 				{toolCategories.map((category) => (
@@ -45,11 +42,11 @@ const featuredSubcategories = toolCategories
 						{category.label} ({category.count})
 					</Button>
 				))}
-				<Button href="/biz/business-mobile/tests-remuneres" color="var(--brand-orange)">
-					Tests rémunérés
+				<Button href={ROUTES.quiz} color="var(--brand-orange)">
+					J'ai besoin d'orientation
 				</Button>
-				<Button href="/biz/business-mobile/comparatif-plateformes-tests-remuneres" color="var(--brand-copper)">
-					Comparatif plateformes
+				<Button href={ROUTES.parcours} color="var(--brand-yellow)">
+					Recevoir un parcours d'action
 				</Button>
 				<Button href={ROUTES.methodologie} color="var(--brand-yellow)">
 					Notre méthodologie

@@ -5,7 +5,7 @@ import { ROUTES } from "../config/routes";
 
 <Layout
   title="Quiz Business - Rapide ou Avancé | GOCHARBON"
-  description="Choisis ton format: quiz rapide 2 minutes pour une direction immédiate, ou quiz avancé pour un diagnostic business plus précis."
+  description="Choisis un format de quiz selon ton niveau d'urgence : une direction rapide pour démarrer ou un diagnostic plus précis pour verrouiller ton premier plan d'action."
   pageTitle="Quiz Business"
 >
   <main class="min-h-screen bg-yellow-soft dark:bg-black py-12 md:py-20">
@@ -16,12 +16,11 @@ import { ROUTES } from "../config/routes";
             Choisis Ton Format de Quiz
           </h1>
           <p class="text-lg md:text-xl text-gray-700 dark:text-gray-300">
-            Rapide pour démarrer vite, avancé pour une recommandation plus fiable
+            Rapide pour avancer aujourd'hui, avancé pour éviter les faux pas cette semaine
           </p>
           <p class="text-base md:text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mt-4">
-            Le quiz t'oriente vers de grands blocs business, pas vers chaque sous-métier. Par exemple, les tests utilisateurs
-            rémunérés vivent plutôt dans la famille des services et des revenus annexes, comme porte d'entrée vers un profil
-            freelance plus structuré.
+            Les deux versions te renvoient vers une direction concrète :
+            un type de business à prioriser, un premier parcours, et les premiers gestes pour ne pas perdre une semaine.
           </p>
         </div>
 
@@ -29,15 +28,15 @@ import { ROUTES } from "../config/routes";
           <a href={ROUTES.quizRapide} data-astro-prefetch class="quiz-choice-card">
             <p class="choice-badge">2 minutes</p>
             <h2>Quiz Rapide</h2>
-            <p>Direction immédiate, top 2 profils, actions concrètes pour commencer aujourd'hui.</p>
-            <span class="choice-cta">Lancer le quiz rapide →</span>
+            <p>Tu repars avec un type de business et la première étape du parcours conseillé.</p>
+            <span class="choice-cta">Lancer le quiz rapide et passer au premier pas →</span>
           </a>
 
           <a href={ROUTES.quizAvance} data-astro-prefetch class="quiz-choice-card">
             <p class="choice-badge">~15 minutes</p>
             <h2>Quiz Avancé</h2>
-            <p>Diagnostic approfondi basé sur tes compétences, contraintes, objectifs et style de travail.</p>
-            <span class="choice-cta">Lancer le quiz avancé →</span>
+            <p>Tu obtiens une recommandation plus affinée, adaptée à ton profil, ta contrainte de temps et ton niveau réel.</p>
+            <span class="choice-cta">Lancer le quiz avancé et cadrer le plan d'action →</span>
           </a>
         </div>
       </div>

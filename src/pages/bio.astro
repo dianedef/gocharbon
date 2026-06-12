@@ -166,34 +166,9 @@ const metaRobots = resolveMetaRobots("/bio");
 			opacity: var(--bio-page-footer-opacity);
 			margin-top: var(--bio-page-footer-margin-top);
 		}
-
-		*,
-		*::before,
-		*::after {
-			-webkit-user-select: var(--bio-page-user-select);
-			-moz-user-select: var(--bio-page-user-select);
-			-ms-user-select: var(--bio-page-user-select);
-			user-select: var(--bio-page-user-select);
-		}
-
 	</style>
 </head>
 <body>
-	<script>
-		(() => {
-			const blockEvent = (event) => event.preventDefault();
-			document.addEventListener("copy", blockEvent);
-			document.addEventListener("cut", blockEvent);
-			document.addEventListener("contextmenu", blockEvent);
-			document.addEventListener("selectstart", blockEvent);
-			document.addEventListener("dragstart", blockEvent);
-			document.addEventListener("keydown", (event) => {
-				if (!(event.ctrlKey || event.metaKey)) return;
-				const key = event.key.toLowerCase();
-				if (["a", "c", "u", "x"].includes(key)) event.preventDefault();
-			});
-		})();
-	</script>
 	<div class="bio-container">
 		<div class="bio-avatar">
 			<span>&#x1F469;&#x200D;&#x1F4BB;</span>
@@ -206,7 +181,8 @@ const metaRobots = resolveMetaRobots("/bio");
 		</p>
 
 		<p class="bio-intro">
-			{SITE.name}, c'est mon terrain de jeu sérieux : un média utile, des parcours, des outils et des plans d'action pour les francophones qui veulent construire quelque chose de solide. Avec un peu d'humour, un peu de nerfs, et le moins de bullshit possible.
+			{SITE.name}, c'est un terrain de travail utile : parcours, outils et plans d'action pour les francophones qui veulent
+			construire proprement. On ne cache pas les limites, et on avance en choisissant vite ce qui marche vraiment.
 		</p>
 
 		<div class="bio-links">

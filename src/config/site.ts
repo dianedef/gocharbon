@@ -17,7 +17,7 @@ export const SITE = {
     default:
       "Le guide de survie digital pour entrepreneurs francophones. On va au charbon.",
     footer:
-      "Le guide de survie digital pour entrepreneurs francophones qui refusent d'enrichir la Silicon Valley.",
+      "Le guide de survie digital pour entrepreneurs francophones : choisir vite, décider mieux, avancer proprement.",
   },
 } as const;
 
