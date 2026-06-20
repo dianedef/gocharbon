@@ -8,3 +8,9 @@ coucou/
 
 # MCP session cache
 .codebase-mcp/
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# Python cache
+__pycache__/
