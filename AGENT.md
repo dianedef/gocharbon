@@ -23,8 +23,8 @@ linked_systems:
 evidence:
   - "README.md"
   - "CLAUDE.md"
-  - "shipflow_data/business/branding.md"
-  - "shipflow_data/business/business.md"
+  - "shipflow_data/site/business/branding.md"
+  - "shipflow_data/site/business/business.md"
   - "shipflow_data/technical/README.md"
   - "AGENTS.md compatibility symlink"
   - "package.json"
@@ -44,7 +44,7 @@ Ce document est le point d'entrée opérationnel pour démarrer une tâche dans 
 
 1. Lire `CLAUDE.md` (contraintes humaines et règles d'écriture).
 2. Lire `shipflow_data/technical/README.md` (conventions éditoriales).
-3. Lire `shipflow_data/business/business.md` (positionnement produit/audience).
+3. Lire `shipflow_data/site/business/business.md` (positionnement produit/audience).
 4. Lire ce document.
 5. Lire ensuite `shipflow_data/technical/context.md`, `shipflow_data/technical/context-function-tree.md` et `shipflow_data/technical/architecture.md`.
 

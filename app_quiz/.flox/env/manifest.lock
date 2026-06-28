@@ -1,0 +1,132 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "pnpm": {
+        "pkg-path": "pnpm"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/pfqz8hky9sd22fvpqc6q4bbj44z1pvav-pnpm-11.8.0.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "name": "pnpm-11.8.0",
+      "pname": "pnpm",
+      "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "rev_count": 1022855,
+      "rev_date": "2026-06-26T09:58:34Z",
+      "scrape_date": "2026-06-27T03:17:22.316782Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "11.8.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/c0f79dcgvrid88rl89m5ayyda5i83fs7-pnpm-11.8.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/g6i3l90w64cw18bd8xlni5i93lr3zcld-pnpm-11.8.0.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "name": "pnpm-11.8.0",
+      "pname": "pnpm",
+      "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "rev_count": 1022855,
+      "rev_date": "2026-06-26T09:58:34Z",
+      "scrape_date": "2026-06-27T03:50:20.888874Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "11.8.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qrl4zdcbpz6mki81wjsjxjh0v15g5zm7-pnpm-11.8.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/qi2h5a8g2b8bb2lh3533hcan7z0r3awj-pnpm-11.8.0.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "name": "pnpm-11.8.0",
+      "pname": "pnpm",
+      "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "rev_count": 1022855,
+      "rev_date": "2026-06-26T09:58:34Z",
+      "scrape_date": "2026-06-27T04:21:44.533117Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "11.8.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qgxx4ghd4yczdhsk127i90qljzn7dn53-pnpm-11.8.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/rh7fld9235j7i4bhb81l1gxf808wm13h-pnpm-11.8.0.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "name": "pnpm-11.8.0",
+      "pname": "pnpm",
+      "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "rev_count": 1022855,
+      "rev_date": "2026-06-26T09:58:34Z",
+      "scrape_date": "2026-06-27T04:56:46.103341Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "11.8.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/r15rrs7rcl97nli6wi0zk2allfc2g7cm-pnpm-11.8.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

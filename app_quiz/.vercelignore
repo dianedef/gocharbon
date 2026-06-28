@@ -1,0 +1,8 @@
+# Keep Vercel builds lean: only Flutter web + build scripts are needed.
+.flox/
+.emergent/
+.flutter_sdk/
+backend/
+tests/
+test_reports/
+memory/
