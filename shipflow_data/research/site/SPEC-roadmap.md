@@ -32,10 +32,10 @@
 
 ### Contenu & Site
 
-- [ ] Finaliser le quiz business (architecture dans quiz.md, implémentation Vue dans src/components/vue/Quiz.vue)
+- [ ] Finaliser le quiz business (architecture dans quiz.md, implémentation Vue dans site/src/components/vue/Quiz.vue)
 - [ ] Atteindre 500 articles (actuellement ~290)
 - [ ] Mettre en place le tracking analytics (quiz complétions, taux de clic affiliation)
-- [ ] Créer les profils business pour le quiz (ecommerce.md, saas.md, freelance.md, etc. dans src/data/biz/)
+- [ ] Créer les profils business pour le quiz (ecommerce.md, saas.md, freelance.md, etc. dans site/src/data/biz/)
 - [ ] Newsletter : setup + lead magnet "10 outils français indispensables"
 
 ### Branding & Design
@@ -71,7 +71,7 @@
 | `BUSINESS.md` | Personas, objectifs, stratégie, funnel |
 | `NAMES.md` | Résultats vérification domaines + décision finale |
 | `BRANDING.md` | Guidelines visuelles, ton, copywriting |
-| `src/data/CONTENT_GUIDELINES.md` | Règles éditoriales pour les articles |
+| `site/src/data/CONTENT_GUIDELINES.md` | Règles éditoriales pour les articles |
 | `.cursorrules` | Règles rédactionnelles pour Cursor IDE |
 | `quiz.md` | Architecture du quiz business |
 | `.mcp.json` | Config MCP domain-availability |

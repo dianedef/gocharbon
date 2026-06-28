@@ -1,6 +1,6 @@
 # Auth web QA smoke test
 
-Script: `scripts/qa_auth_web_e2e.js`
+Script: `site/scripts/qa_auth_web_e2e.js`
 
 Purpose: lightweight E2E repro for web auth without completing a provider login.
 

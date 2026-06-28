@@ -18,20 +18,20 @@ risk_level: medium
 security_impact: none
 docs_impact: yes
 linked_systems:
-  - "/home/claude/gocharbon/src/pages/index.astro"
-  - "/home/claude/gocharbon/src/pages/blog.astro"
-  - "/home/claude/gocharbon/src/pages/quiz.astro"
-  - "/home/claude/gocharbon/src/pages/outils.astro"
-  - "/home/claude/gocharbon/src/pages/bio.astro"
-  - "/home/claude/gocharbon/src/components/NewsletterSaaS.astro"
-  - "/home/claude/gocharbon/src/config/site.ts"
-  - "/home/claude/gocharbon/shipflow_data/business/site/business.md"
+  - "/home/claude/gocharbon/site/src/pages/index.astro"
+  - "/home/claude/gocharbon/site/src/pages/blog.astro"
+  - "/home/claude/gocharbon/site/src/pages/quiz.astro"
+  - "/home/claude/gocharbon/site/src/pages/outils.astro"
+  - "/home/claude/gocharbon/site/src/pages/bio.astro"
+  - "/home/claude/gocharbon/site/src/components/NewsletterSaaS.astro"
+  - "/home/claude/gocharbon/site/src/config/site.ts"
+  - "/home/claude/gocharbon/shipflow_data/business/business.md"
   - "/home/claude/gocharbon/shipflow_data/branding/branding.md"
   - "/home/claude/gocharbon/shipflow_data/product/site/product.md"
   - "/home/claude/gocharbon/shipflow_data/gtm/site/gtm.md"
   - "/home/claude/gocharbon/shipflow_data/editorial/site/content-map.md"
 depends_on:
-  - artifact: "/home/claude/gocharbon/shipflow_data/business/site/business.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/business/business.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
   - artifact: "/home/claude/gocharbon/shipflow_data/branding/branding.md"
@@ -48,10 +48,10 @@ depends_on:
     required_status: "reviewed"
 supersedes: []
 evidence:
-  - "Audit copy 2026-06-12: src/components/NewsletterSaaS.astro cumule des claims non prouves sur tests, validation, deals exclusifs et base abonnes."
-  - "Audit copy 2026-06-12: src/config/site.ts durcit le footer avec une formule militante non necessaire au contrat produit."
-  - "Audit copy 2026-06-12: src/pages/blog.astro, src/pages/quiz.astro et src/pages/outils.astro perdent une partie de la promesse centrale ou melangent des intentions."
-  - "Audit copy 2026-06-12: src/pages/bio.astro envoie un contresignal de confiance avec un script de blocage de copie/selection."
+  - "Audit copy 2026-06-12: site/src/components/NewsletterSaaS.astro cumule des claims non prouves sur tests, validation, deals exclusifs et base abonnes."
+  - "Audit copy 2026-06-12: site/src/config/site.ts durcit le footer avec une formule militante non necessaire au contrat produit."
+  - "Audit copy 2026-06-12: site/src/pages/blog.astro, site/src/pages/quiz.astro et site/src/pages/outils.astro perdent une partie de la promesse centrale ou melangent des intentions."
+  - "Audit copy 2026-06-12: site/src/pages/bio.astro envoie un contresignal de confiance avec un script de blocage de copie/selection."
 next_step: "/005-sf-ship realigner-copy-entree-et-claims-publics-gocharbon"
 ---
 # Spec: Realigner copy d'entree et claims publics GoCharbon
@@ -91,28 +91,28 @@ L'audit copy du 2026-06-12 montre un site dont la home tient mieux la promesse q
 
 ## Solution
 
-Faire une passe de realignement copy ciblee sur les principales surfaces publiques d'entree et de conversion. Le travail doit partir de la promesse la plus defendable deja visible sur `src/pages/index.astro`, retirer les claims non prouvables, resserrer la hierarchie de message de chaque page et expliciter un prochain pas concret par surface.
+Faire une passe de realignement copy ciblee sur les principales surfaces publiques d'entree et de conversion. Le travail doit partir de la promesse la plus defendable deja visible sur `site/src/pages/index.astro`, retirer les claims non prouvables, resserrer la hierarchie de message de chaque page et expliciter un prochain pas concret par surface.
 
 ## Scope In
 
 - Reecriture ou resserrage de copy sur:
-  - `src/components/NewsletterSaaS.astro`
-  - `src/config/site.ts`
-  - `src/pages/blog.astro`
-  - `src/pages/quiz.astro`
-  - `src/pages/outils.astro`
-  - `src/pages/bio.astro`
-- Verification de coherence avec `src/pages/index.astro` comme reference de promesse.
+  - `site/src/components/NewsletterSaaS.astro`
+  - `site/src/config/site.ts`
+  - `site/src/pages/blog.astro`
+  - `site/src/pages/quiz.astro`
+  - `site/src/pages/outils.astro`
+  - `site/src/pages/bio.astro`
+- Verification de coherence avec `site/src/pages/index.astro` comme reference de promesse.
 - Ajustement des CTA, sous-titres, textes de positionnement et claims de confiance.
 - Suppression ou reformulation des claims non prouvables.
-- Suppression du script de blocage copie/selection dans `src/pages/bio.astro`.
+- Suppression du script de blocage copie/selection dans `site/src/pages/bio.astro`.
 - Harmonisation des slogans globaux du site quand plusieurs formulations sont trop eloignees.
 - Documentation des impacts editoriaux/techniques si la posture publique change.
 
 ## Scope Out
 
 - Refonte visuelle ou design-system.
-- Reecriture massive des articles Markdown dans `src/data/**`.
+- Reecriture massive des articles Markdown dans `site/src/data/**`.
 - Changement de taxonomie, de routes, ou de logique de build.
 - Lancement d'une nouvelle newsletter, capture email fonctionnelle ou integration ESP.
 - Audit legal complet des pages de confiance.
@@ -120,7 +120,7 @@ Faire une passe de realignement copy ciblee sur les principales surfaces publiqu
 
 ## Constraints
 
-- Respecter `AGENTS.md`, `CLAUDE.md`, `shipflow_data/business/site/business.md`, `shipflow_data/branding/branding.md`, `shipflow_data/product/site/product.md`, `shipflow_data/gtm/site/gtm.md`.
+- Respecter `AGENTS.md`, `CLAUDE.md`, `shipflow_data/business/business.md`, `shipflow_data/branding/branding.md`, `shipflow_data/product/site/product.md`, `shipflow_data/gtm/site/gtm.md`.
 - Conserver le ton humain, direct, anti-bullshit, en francais et en tutoiement.
 - Ne pas inventer de preuve, d'usage interne, de chiffre d'audience, de deals exclusifs, de volume d'abonnes, de tests systematiques ou de validation produit si le repo ne le prouve pas.
 - Ne pas transformer le positionnement francophone en militantisme binaire si cette radicalisation n'est pas explicitement supportee par le contrat marque/produit.
@@ -149,7 +149,7 @@ Faire une passe de realignement copy ciblee sur les principales surfaces publiqu
   - `COPY-ENTRY-04` quiz page states expected outcome after each quiz format
   - `COPY-ENTRY-05` outils page keeps tool-choice help as primary intent and secondary clusters as subordinate
   - `COPY-ENTRY-06` bio page removes copy/selection blocking script and strengthens trust posture
-  - `COPY-ENTRY-07` all touched surfaces remain coherent with `src/pages/index.astro`
+  - `COPY-ENTRY-07` all touched surfaces remain coherent with `site/src/pages/index.astro`
 - required_results:
   - build succeeds
   - all targeted claims are either provable or prudently reformulated
@@ -162,7 +162,7 @@ Faire une passe de realignement copy ciblee sur les principales surfaces publiqu
 
 ## Dependencies
 
-- Business contract: `shipflow_data/business/site/business.md` `1.0.0`
+- Business contract: `shipflow_data/business/business.md` `1.0.0`
 - Brand contract: `shipflow_data/branding/branding.md` `1.0.0`
 - Product contract: `shipflow_data/product/site/product.md` `1.0.0`
 - GTM contract: `shipflow_data/gtm/site/gtm.md` `1.0.0`
@@ -203,14 +203,14 @@ Faire une passe de realignement copy ciblee sur les principales surfaces publiqu
 
 ## Implementation Tasks
 
-1. Relire et fixer `src/components/NewsletterSaaS.astro` pour supprimer les claims non prouves et reformuler une proposition d'inscription defendable aujourd'hui.
-2. Revoir `src/config/site.ts` pour adoucir ou resserrer le slogan de footer afin qu'il reste francophone/pragmatique sans militantisme reducteur.
-3. Recrire l'introduction et les CTA de `src/pages/blog.astro` pour reconnecter la page a la promesse produit et a un prochain pas concret.
-4. Recentrer `src/pages/quiz.astro` sur le resultat utile attendu apres chaque format de quiz, pas seulement sur la duree ou le niveau de profondeur.
-5. Rehierarchiser `src/pages/outils.astro` pour garder l'aide au choix d'outils comme message principal et releguer les clusters adjacents au second plan.
-6. Supprimer le script de blocage copie/selection de `src/pages/bio.astro` et resserrer la copy de confiance si necessaire.
+1. Relire et fixer `site/src/components/NewsletterSaaS.astro` pour supprimer les claims non prouves et reformuler une proposition d'inscription defendable aujourd'hui.
+2. Revoir `site/src/config/site.ts` pour adoucir ou resserrer le slogan de footer afin qu'il reste francophone/pragmatique sans militantisme reducteur.
+3. Recrire l'introduction et les CTA de `site/src/pages/blog.astro` pour reconnecter la page a la promesse produit et a un prochain pas concret.
+4. Recentrer `site/src/pages/quiz.astro` sur le resultat utile attendu apres chaque format de quiz, pas seulement sur la duree ou le niveau de profondeur.
+5. Rehierarchiser `site/src/pages/outils.astro` pour garder l'aide au choix d'outils comme message principal et releguer les clusters adjacents au second plan.
+6. Supprimer le script de blocage copie/selection de `site/src/pages/bio.astro` et resserrer la copy de confiance si necessaire.
 7. Harmoniser les slogans globaux du site quand plusieurs formulations se contredisent ou se dispersent.
-8. Faire une passe de coherence avec `src/pages/index.astro` pour verifier que les pages ciblees reprennent la meme promesse sans contradiction.
+8. Faire une passe de coherence avec `site/src/pages/index.astro` pour verifier que les pages ciblees reprennent la meme promesse sans contradiction.
 9. Produire une verification manuelle courte des surfaces modifiees avec notes sur ton, preuves et prochain pas.
 
 ## Acceptance Criteria
@@ -249,11 +249,11 @@ Faire une passe de realignement copy ciblee sur les principales surfaces publiqu
 
 ## Execution Notes
 
-- Baser la reecriture sur la promesse la plus solide deja visible dans `src/pages/index.astro`.
+- Baser la reecriture sur la promesse la plus solide deja visible dans `site/src/pages/index.astro`.
 - Privilegier la suppression ou la concretisation des claims plutot qu'un simple adoucissement cosmetique.
 - Si un point de positionnement semble depasser le contrat disponible, le signaler plutot que le trancher de facon implicite.
-- Ce chantier ne doit pas devenir une refonte generale de tout le corpus `src/data/**`.
-- Lire d'abord `src/pages/index.astro`, `src/components/NewsletterSaaS.astro`, `src/config/site.ts`, `src/pages/blog.astro`, `src/pages/quiz.astro`, `src/pages/outils.astro`, `src/pages/bio.astro`.
+- Ce chantier ne doit pas devenir une refonte generale de tout le corpus `site/src/data/**`.
+- Lire d'abord `site/src/pages/index.astro`, `site/src/components/NewsletterSaaS.astro`, `site/src/config/site.ts`, `site/src/pages/blog.astro`, `site/src/pages/quiz.astro`, `site/src/pages/outils.astro`, `site/src/pages/bio.astro`.
 - Stop condition: si l'harmonisation des slogans force une redefinition du positionnement business au-dela des docs actuelles, arreter et re-router vers une clarification docs/brand.
 - Validation commands:
   - `pnpm build`

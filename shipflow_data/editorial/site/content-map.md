@@ -21,9 +21,9 @@ content_surfaces:
 security_impact: unknown
 docs_impact: yes
 evidence:
-  - "src/pages contient index, parcours, outils, quiz, méthode et pages légales"
-  - "src/content/parcours contient la majorité du contenu SEO métier"
-  - "src/content directory contient des dossiers de stratégie, marketing, tutos, outils et gestion"
+  - "site/src/pages contient index, parcours, outils, quiz, méthode et pages légales"
+  - "site/src/content/parcours contient la majorité du contenu SEO métier"
+  - "site/src/content directory contient des dossiers de stratégie, marketing, tutos, outils et gestion"
   - "scripts et audits dédiés suivent l'état de qualité des contenus"
 linked_artifacts:
   - "README.md"
@@ -52,24 +52,24 @@ Ce document cartographie les surfaces de contenu de GoCharbon et fixe les règle
 
 | Surface | Chemin canonique | Rôle | Format | Référence | Déclencheur |
 |---|---|---|---|---|---|
-| Landing page | `src/pages/index.astro` | Promesse principale, accès aux parcours | Astro | `README.md`, `shipflow_data/product/site/product.md`, `shipflow_data/gtm/site/gtm.md`, `shipflow_data/branding/branding.md` | Changement de positionnement public |
-| Parcours & méthodes | `src/pages/parcours.astro`, `src/pages/parcours/[...].astro` | Conversion éditoriale structurée | Astro + données | `src/content/parcours`, `src/data/parcoursData.ts` | Nouvelle catégorie métier ou refonte méthode |
-| Guides & tutorials | `src/pages/tutos.astro`, `src/pages/v1/*` | Support opérationnel, exemples concrets | Astro | `src/data/tutos` | Mise à jour pédagogique |
-| Outils & comparatifs | `src/pages/outils.astro`, `src/pages/outils/*` | Décision d'outils, recommandations, alternatives | Astro + fiches | `src/content/outils` et `src/pages/tools` | Ajout d'alternative ou mise à jour outil |
-| Blog / contenus éditoriaux | `src/content/parcours`, `src/pages/blog.astro` | Découverte et topo SEO | Markdown + Astro | `src/content/parcours` | Nouveau cluster thématique |
-| Contenus de marque | `src/data/_founder.md`, `src/data/_vision.md`, `src/content/` | Ton, mission, cadre de confiance | Markdown | `shipflow_data/branding/branding.md`, `shipflow_data/technical/site/README.md` | Changement de ton / vision |
-| Pages légales / confiance | `src/pages/cgu.astro`, `src/pages/confidentialite.astro`, `src/pages/mentions-legales.astro` | Transparence, conformité, confiance | Astro | `README.md` | Mise à jour RGPD ou politique |
-| SEO support | `src/data/seo`, `src/data/strategies` | Référencement et architecture sémantique | Markdown | `shipflow_data/technical/site/README.md`, `src/content/parcours` | Nouvel angle de recherche |
+| Landing page | `site/src/pages/index.astro` | Promesse principale, accès aux parcours | Astro | `README.md`, `shipflow_data/product/site/product.md`, `shipflow_data/gtm/site/gtm.md`, `shipflow_data/branding/branding.md` | Changement de positionnement public |
+| Parcours & méthodes | `site/src/pages/parcours.astro`, `site/src/pages/parcours/[...].astro` | Conversion éditoriale structurée | Astro + données | `site/src/content/parcours`, `site/src/data/parcoursData.ts` | Nouvelle catégorie métier ou refonte méthode |
+| Guides & tutorials | `site/src/pages/tutos.astro`, `site/src/pages/v1/*` | Support opérationnel, exemples concrets | Astro | `site/src/data/tutos` | Mise à jour pédagogique |
+| Outils & comparatifs | `site/src/pages/outils.astro`, `site/src/pages/outils/*` | Décision d'outils, recommandations, alternatives | Astro + fiches | `site/src/content/outils` et `site/src/pages/tools` | Ajout d'alternative ou mise à jour outil |
+| Blog / contenus éditoriaux | `site/src/content/parcours`, `site/src/pages/blog.astro` | Découverte et topo SEO | Markdown + Astro | `site/src/content/parcours` | Nouveau cluster thématique |
+| Contenus de marque | `site/src/data/_founder.md`, `site/src/data/_vision.md`, `site/src/content/` | Ton, mission, cadre de confiance | Markdown | `shipflow_data/branding/branding.md`, `shipflow_data/technical/site/README.md` | Changement de ton / vision |
+| Pages légales / confiance | `site/src/pages/cgu.astro`, `site/src/pages/confidentialite.astro`, `site/src/pages/mentions-legales.astro` | Transparence, conformité, confiance | Astro | `README.md` | Mise à jour RGPD ou politique |
+| SEO support | `site/src/data/seo`, `site/src/data/strategies` | Référencement et architecture sémantique | Markdown | `shipflow_data/technical/site/README.md`, `site/src/content/parcours` | Nouvel angle de recherche |
 
 ## Architecture sémantique
 
 | Cluster | Pilier | Pages de support | Intention | Règle interne | Statut |
 |---|---|---|---|---|---|
-| Démarrage business | `src/pages/parcours.astro` | `src/content/parcours/*` | Conversion | Lien de progression obligatoire | live |
-| Outils IA & stack | `src/pages/outils.astro` | `src/data/outils/*` | Décision | Comparatif + alternatives locales | live |
-| Gamification & activation | `src/pages/quiz.astro` | `src/pages/quiz-avance.astro`, `src/pages/progression.astro` | Engagement | Référence claire des prochaines étapes | live |
-| Méthodologie | `src/pages/methodologie.astro` | `src/pages/tutos.astro`, articles d'intro | Compréhension | Liens vers exemples concrets | live |
-| Confiance & marque | `src/pages/bio.astro` | `src/data/_founder.md`, `src/data/_vision.md` | Crédibilité | Ton cohérent avec `shipflow_data/branding/branding.md` | live |
+| Démarrage business | `site/src/pages/parcours.astro` | `site/src/content/parcours/*` | Conversion | Lien de progression obligatoire | live |
+| Outils IA & stack | `site/src/pages/outils.astro` | `site/src/data/outils/*` | Décision | Comparatif + alternatives locales | live |
+| Gamification & activation | `site/src/pages/quiz.astro` | `site/src/pages/quiz-avance.astro`, `site/src/pages/progression.astro` | Engagement | Référence claire des prochaines étapes | live |
+| Méthodologie | `site/src/pages/methodologie.astro` | `site/src/pages/tutos.astro`, articles d'intro | Compréhension | Liens vers exemples concrets | live |
+| Confiance & marque | `site/src/pages/bio.astro` | `site/src/data/_founder.md`, `site/src/data/_vision.md` | Crédibilité | Ton cohérent avec `shipflow_data/branding/branding.md` | live |
 
 ## Rôles de pages
 
@@ -93,8 +93,8 @@ Ce document cartographie les surfaces de contenu de GoCharbon et fixe les règle
 
 | Déclencheur | Cibles à revoir |
 |---|---|
-| Changement de positionnement de marque | `shipflow_data/product/site/product.md`, `shipflow_data/gtm/site/gtm.md`, `shipflow_data/branding/branding.md`, `src/pages/index.astro` |
-| Nouveau parcours métier | `src/content/parcours`, `src/pages/parcours.astro`, `src/pages/blog.astro` |
-| Mise à jour des recommandations outils | `src/pages/outils.astro`, `src/pages/outils/*`, `src/data/outils` |
+| Changement de positionnement de marque | `shipflow_data/product/site/product.md`, `shipflow_data/gtm/site/gtm.md`, `shipflow_data/branding/branding.md`, `site/src/pages/index.astro` |
+| Nouveau parcours métier | `site/src/content/parcours`, `site/src/pages/parcours.astro`, `site/src/pages/blog.astro` |
+| Mise à jour des recommandations outils | `site/src/pages/outils.astro`, `site/src/pages/outils/*`, `site/src/data/outils` |
 | Nouveau bloc de preuve ou source | `shipflow_data/product/site/product.md`, `shipflow_data/gtm/site/gtm.md`, pages liées, audit tracker |
 | Création d'une section blog ou newsletter externe | `CONTENT_MAP.md`, CTA, plan de distribution |

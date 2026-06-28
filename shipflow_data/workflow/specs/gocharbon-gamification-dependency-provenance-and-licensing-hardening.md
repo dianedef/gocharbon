@@ -18,17 +18,17 @@ risk_level: high
 security_impact: yes
 docs_impact: yes
 linked_systems:
-  - "/home/claude/gocharbon/package.json"
-  - "/home/claude/gocharbon/pnpm-lock.yaml"
+  - "/home/claude/gocharbon/site/package.json"
+  - "/home/claude/gocharbon/site/pnpm-lock.yaml"
   - "/home/claude/gocharbon/.npmrc"
-  - "/home/claude/gocharbon/src/gamification/config.ts"
-  - "/home/claude/gocharbon/src/components/vue/GamificationBar.vue"
-  - "/home/claude/gocharbon/src/components/vue/CharbonGamificationDashboard.vue"
-  - "/home/claude/gocharbon/src/components/vue/PathProgressTracker.vue"
+  - "/home/claude/gocharbon/site/src/gamification/config.ts"
+  - "/home/claude/gocharbon/site/src/components/vue/GamificationBar.vue"
+  - "/home/claude/gocharbon/site/src/components/vue/CharbonGamificationDashboard.vue"
+  - "/home/claude/gocharbon/site/src/components/vue/PathProgressTracker.vue"
   - "/home/claude/gocharbon/shipflow_data/technical/site/architecture.md"
   - "/home/claude/gocharbon/shipflow_data/technical/site/context.md"
 depends_on:
-  - artifact: "/home/claude/gocharbon/shipflow_data/business/site/business.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/business/business.md"
     artifact_version: "1.0.0"
     required_status: reviewed
   - artifact: "/home/claude/gocharbon/shipflow_data/technical/site/context.md"
@@ -40,12 +40,12 @@ depends_on:
 supersedes: []
 evidence:
   - "Chantier potentiel: durcir la provenance et la conformité de la dépendance gamification."
-  - "`package.json` référence `@diane-winflowz/gamification` via `github:dianedef/gamification`."
-  - "`pnpm-lock.yaml` verrouille un tarball GitHub `codeload.github.com/dianedef/gamification/tar.gz/35a9f64a8eb03ca6774413beb8ebd92b300ec3d4`."
+  - "`site/package.json` référence `@diane-winflowz/gamification` via `github:dianedef/gamification`."
+  - "`site/pnpm-lock.yaml` verrouille un tarball GitHub `codeload.github.com/dianedef/gamification/tar.gz/35a9f64a8eb03ca6774413beb8ebd92b300ec3d4`."
   - "`license-checker` remonte `@diane-winflowz/gamification@0.1.0` avec `licenses: UNKNOWN`."
-  - "La dépendance est importée dans `src/gamification/config.ts`, `src/components/vue/GamificationBar.vue`, `src/components/vue/CharbonGamificationDashboard.vue` et `src/components/vue/PathProgressTracker.vue`."
+  - "La dépendance est importée dans `site/src/gamification/config.ts`, `site/src/components/vue/GamificationBar.vue`, `site/src/components/vue/CharbonGamificationDashboard.vue` et `site/src/components/vue/PathProgressTracker.vue`."
   - "`.npmrc` contient `minimum-release-age=10080`, signalé comme option inconnue par `npm`."
-  - "La doc projet mentionne encore Astro 5 alors que `package.json` est sur Astro 6."
+  - "La doc projet mentionne encore Astro 5 alors que `site/package.json` est sur Astro 6."
 next_step: "publish/prove @diane-winflowz/gamification on GitHub Packages with explicit permissive license, then rerun /103-sf-verify"
 ---
 # Title
@@ -89,8 +89,8 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
 
 - Stratégie de provenance/licence/versioning pour `@diane-winflowz/gamification`.
 - Publication et consommation via GitHub Packages comme source de vérité runtime partagée.
-- Mise à jour des fichiers d'approvisionnement et de résolution: `package.json`, `pnpm-lock.yaml`, `.npmrc` si nécessaire.
-- Réalignement des consommateurs runtime dans `src/gamification/*` et `src/components/vue/*` touchés par la stratégie retenue.
+- Mise à jour des fichiers d'approvisionnement et de résolution: `site/package.json`, `site/pnpm-lock.yaml`, `.npmrc` si nécessaire.
+- Réalignement des consommateurs runtime dans `site/src/gamification/*` et `site/src/components/vue/*` touchés par la stratégie retenue.
 - Mise à jour des docs techniques/fonctionnelles qui décrivent la dépendance ou le stack runtime (`CLAUDE.md`, `shipflow_data/technical/site/context.md`, `shipflow_data/technical/site/architecture.md`, éventuellement README si impacté).
 - Vérification du build et de la continuité fonctionnelle minimale sur les surfaces gamification.
 
@@ -136,7 +136,7 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
   - `ui-gamification-dashboard-renders`
   - `ui-path-progress-tracker-renders`
 - required_results:
-  - `package.json` resolves the shared package through GitHub Packages-compatible metadata and no longer via `github:` tarball.
+  - `site/package.json` resolves the shared package through GitHub Packages-compatible metadata and no longer via `github:` tarball.
   - Published package source of truth exposes an explicit permissive open-source license and repository link.
   - Lockfile/install path resolves cleanly without opaque git tarball sourcing.
   - `pnpm build` passes on the affected repo state.
@@ -165,8 +165,8 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
 
 ## Links & Consequences
 
-- `src/gamification/config.ts` fixe le contrat de badges et d'options de la lib.
-- `src/components/vue/GamificationBar.vue`, `src/components/vue/CharbonGamificationDashboard.vue`, `src/components/vue/PathProgressTracker.vue` dépendent directement des exports du package.
+- `site/src/gamification/config.ts` fixe le contrat de badges et d'options de la lib.
+- `site/src/components/vue/GamificationBar.vue`, `site/src/components/vue/CharbonGamificationDashboard.vue`, `site/src/components/vue/PathProgressTracker.vue` dépendent directement des exports du package.
 - `shipflow_data/technical/site/context.md` et `shipflow_data/technical/site/architecture.md` décrivent la couche gamification et la dépendance externe.
 - Le warning `.npmrc` autour de `minimum-release-age` touche la crédibilité de la posture supply chain si l'équipe utilise aussi `npm` pour certains diagnostics.
 
@@ -192,11 +192,11 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
    - Exiger une licence permissive explicite sur le package source et des métadonnées `repository` cohérentes.
    - Documenter la décision et les invariants rejetant l'internalisation locale pour GoCharbon.
 2. Réparer l'approvisionnement dépendance.
-   - Mettre à jour `package.json`, `pnpm-lock.yaml`, et la configuration package manager pour refléter la consommation via GitHub Packages.
+   - Mettre à jour `site/package.json`, `site/pnpm-lock.yaml`, et la configuration package manager pour refléter la consommation via GitHub Packages.
    - Éliminer le tarball GitHub opaque.
    - Déplacer ou corriger `minimum-release-age` selon le support pnpm réel retenu par le repo.
 3. Réaligner les consommateurs runtime.
-   - Mettre à jour `src/gamification/config.ts` et les composants Vue qui importent le package.
+   - Mettre à jour `site/src/gamification/config.ts` et les composants Vue qui importent le package.
    - Garantir une API de compatibilité suffisante pour `useGamification`, `AchievementToast`, `fireBadgeConfetti`, `Badge`, `GamificationOptions`.
 4. Réaligner la documentation.
    - Corriger `CLAUDE.md`, `shipflow_data/technical/site/context.md`, `shipflow_data/technical/site/architecture.md`, et tout autre contrat touché.
@@ -244,13 +244,13 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
 - Ce chantier est distinct de `gocharbon-design-system-authority-hardening.md`.
 - Le scope doit rester centré sur la brique gamification et ses métadonnées/runtime proches, pas dériver en audit dépendances global.
 - Fichiers à relire d'abord:
-  - `package.json`
+  - `site/package.json`
   - `.npmrc`
-  - `pnpm-lock.yaml`
-  - `src/gamification/config.ts`
-  - `src/components/vue/GamificationBar.vue`
-  - `src/components/vue/CharbonGamificationDashboard.vue`
-  - `src/components/vue/PathProgressTracker.vue`
+  - `site/pnpm-lock.yaml`
+  - `site/src/gamification/config.ts`
+  - `site/src/components/vue/GamificationBar.vue`
+  - `site/src/components/vue/CharbonGamificationDashboard.vue`
+  - `site/src/components/vue/PathProgressTracker.vue`
   - `shipflow_data/technical/site/context.md`
   - `shipflow_data/technical/site/architecture.md`
 - Commandes de validation à enchaîner:

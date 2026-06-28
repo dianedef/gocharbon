@@ -1,9 +1,30 @@
 ---
 artifact: business_context
+metadata_schema_version: "1.0"
 artifact_version: "1.1.0"
 project: "gocharbon_quiz"
+created: "2026-04-27"
 updated: "2026-04-27"
 status: reviewed
+source_skill: manual
+scope: business
+owner: "dianedef"
+confidence: medium
+risk_level: medium
+security_impact: none
+docs_impact: yes
+target_audience: "débutants business francophones, freelances early-stage, profils en reconversion"
+value_proposition: "qualifier vite un visiteur et le rediriger vers le bon prochain pas GoCharbon"
+business_model: "acquisition et qualification de trafic pour les surfaces éditoriales et offres GoCharbon"
+market: "business en ligne francophone grand public"
+depends_on: []
+supersedes: []
+evidence:
+  - "shipflow_data/business/business.md"
+  - "shipflow_data/branding/branding.md"
+  - "app_quiz/README.md"
+next_review: "2026-07-28"
+next_step: "/sf-docs verify shipflow_data/business/app_quiz/business.md"
 ---
 
 # Business

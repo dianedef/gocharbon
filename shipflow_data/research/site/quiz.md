@@ -14,9 +14,9 @@ Améliorer le quiz pour produire une recommandation business plus crédible qu'u
   - la passion/talent monétisable
 - Scoring pondéré multi-profils à chaque réponse.
 - Mode hybride activé:
-  - scoring conservé dans `src/data/quizData.js`
-  - titres/descriptions des résultats injectés depuis `src/data/biz/profils/*`
-- Taxonomie centralisée ajoutée dans `src/data/profileTaxonomy.ts` pour distinguer:
+  - scoring conservé dans `site/src/data/quizData.js`
+  - titres/descriptions des résultats injectés depuis `site/src/data/biz/profils/*`
+- Taxonomie centralisée ajoutée dans `site/src/data/profileTaxonomy.ts` pour distinguer:
   - archétypes canoniques du quiz
   - profils pivots
   - sous-profils éditoriaux
@@ -29,7 +29,7 @@ Améliorer le quiz pour produire une recommandation business plus crédible qu'u
 - Copie de la page quiz mise à jour (titre + meta description + promesse utilisateur).
 
 ## Structure des données
-Fichier source: `src/data/quizData.js`
+Fichier source: `site/src/data/quizData.js`
 
 - `questions[]`
   - `id`
@@ -45,13 +45,13 @@ Fichier source: `src/data/quizData.js`
   - `strengths[]`
 
 Source CMS des profils (contenu éditorial):
-- `src/pages/quiz.astro` charge via `getCollection("posts")` les entrées:
+- `site/src/pages/quiz.astro` charge via `getCollection("posts")` les entrées:
   - `biz/profils/ecommerce`
   - `biz/profils/saas`
   - `biz/profils/content-creator`
   - `biz/profils/freelance`
   - `biz/profils/formation`
-- Les pivots sont désormais dérivés de `src/data/profileTaxonomy.ts` plutôt que codés en dur.
+- Les pivots sont désormais dérivés de `site/src/data/profileTaxonomy.ts` plutôt que codés en dur.
 
 Le composant `Quiz.vue` reçoit ces données et les utilise en priorité pour les titres + descriptions.
 Si une fiche manque, fallback automatique sur `quizData.results`.
@@ -137,8 +137,8 @@ Ton idée est très bonne: proposer deux formats améliore l'expérience et la f
 
 ## Parcours d'apprentissage (implémenté)
 
-- Tous les profils `src/data/biz/profils/*` ont maintenant un parcours associé.
-- Source centralisée: `src/data/parcoursData.ts` (42 parcours).
+- Tous les profils `site/src/data/biz/profils/*` ont maintenant un parcours associé.
+- Source centralisée: `site/src/data/parcoursData.ts` (42 parcours).
 - Chaque parcours contient:
   - un module fondations communes
   - un module spécialisation métier

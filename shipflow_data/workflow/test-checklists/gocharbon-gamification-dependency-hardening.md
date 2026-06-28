@@ -14,13 +14,13 @@ risk_level: high
 security_impact: yes
 docs_impact: yes
 linked_systems:
-  - "/home/claude/gocharbon/package.json"
+  - "/home/claude/gocharbon/site/package.json"
   - "/home/claude/gocharbon/.npmrc"
-  - "/home/claude/gocharbon/pnpm-lock.yaml"
-  - "/home/claude/gocharbon/src/gamification/config.ts"
-  - "/home/claude/gocharbon/src/components/vue/GamificationBar.vue"
-  - "/home/claude/gocharbon/src/components/vue/CharbonGamificationDashboard.vue"
-  - "/home/claude/gocharbon/src/components/vue/PathProgressTracker.vue"
+  - "/home/claude/gocharbon/site/pnpm-lock.yaml"
+  - "/home/claude/gocharbon/site/src/gamification/config.ts"
+  - "/home/claude/gocharbon/site/src/components/vue/GamificationBar.vue"
+  - "/home/claude/gocharbon/site/src/components/vue/CharbonGamificationDashboard.vue"
+  - "/home/claude/gocharbon/site/src/components/vue/PathProgressTracker.vue"
 depends_on:
   - artifact: "/home/claude/gocharbon/shipflow_data/workflow/specs/gocharbon-gamification-dependency-provenance-and-licensing-hardening.md"
     artifact_version: "1.0.0"
@@ -60,12 +60,12 @@ Preuve locale actuelle:
 - [ ] La documentation consumer cite cette licence sans extrapolation.
 
 Preuve locale actuelle:
-- Le `package.json` installé depuis le tarball GitHub ne contient pas de champ `license`.
+- Le `site/package.json` installé depuis le tarball GitHub ne contient pas de champ `license`.
 
 ### `deps-no-opaque-github-tarball`
 
-- [ ] `package.json` ne référence plus `github:dianedef/gamification`.
-- [ ] `pnpm-lock.yaml` ne résout plus la dépendance via `github.com/dianedef/gamification/...`.
+- [ ] `site/package.json` ne référence plus `github:dianedef/gamification`.
+- [ ] `site/pnpm-lock.yaml` ne résout plus la dépendance via `github.com/dianedef/gamification/...`.
 - [ ] La résolution se fait via GitHub Packages ou autre source explicitement acceptée par le chantier.
 
 Statut actuel:

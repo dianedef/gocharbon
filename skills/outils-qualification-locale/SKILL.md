@@ -10,12 +10,12 @@ Le badge public d’engagement français dépend directement de ces champs. Une 
 
 ## Quick Start
 
-1. Lire la doctrine publique dans [`src/pages/methodologie.astro`](../../src/pages/methodologie.astro).
-2. Lire le template outil dans [`src/data/outils/_template.md`](../../src/data/outils/_template.md).
-3. Si le besoin porte sur un lot, générer une file d’attente avec `scripts/build_qualification_batch.py`.
+1. Lire la doctrine publique dans [`site/src/pages/methodologie.astro`](../../src/pages/methodologie.astro).
+2. Lire le template outil dans [`site/src/data/outils/_template.md`](../../src/data/outils/_template.md).
+3. Si le besoin porte sur un lot, générer une file d’attente avec `site/scripts/build_qualification_batch.py`.
 4. Qualifier seulement quand les preuves sont suffisantes. Sinon écrire `indetermine` ou laisser vide avec une note claire.
-5. Après modification d’un lot, lancer [`scripts/audit_outils_qualification.py`](../../scripts/audit_outils_qualification.py).
-6. Exécuter [`scripts/qa_outils_qualification.py`](../../scripts/qa_outils_qualification.py) avant validation du lot.
+5. Après modification d’un lot, lancer [`site/scripts/audit_outils_qualification.py`](../../scripts/audit_outils_qualification.py).
+6. Exécuter [`site/scripts/qa_outils_qualification.py`](../../scripts/qa_outils_qualification.py) avant validation du lot.
 7. Vérifier que le badge public implicite reste cohérent avec les preuves documentées.
 
 ## Workflow
@@ -78,7 +78,7 @@ Exemples :
 
 ### 5. Penser au badge visible
 
-Le badge public est calculé dans `src/utils/tool-qualification.ts`.
+Le badge public est calculé dans `site/src/utils/tool-qualification.ts`.
 
 Principes :
 

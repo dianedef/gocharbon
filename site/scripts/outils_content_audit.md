@@ -1,7 +1,7 @@
 # Audit Qualité des fiches Outils
 
 - Généré le: 2026-04-27T20:51:16.528629+00:00
-- Scope: `src/data/outils/**/*.md`
+- Scope: `site/src/data/outils/**/*.md`
 - Total: 1574
 - OK: 703
 - Warn: 743
@@ -30,216 +30,216 @@
 
 ## 50 pires fiches (priorité de correction)
 
-- `src/data/outils/business/autres/mon-crm.md` | score=45 | status=fail | mots=0
+- `site/src/data/outils/business/autres/mon-crm.md` | score=45 | status=fail | mots=0
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/10-apps-secretes-que-tous-les-parisiens-branches.md` | score=45 | status=fail | mots=83
+- `site/src/data/outils/marketing/autres/10-apps-secretes-que-tous-les-parisiens-branches.md` | score=45 | status=fail | mots=83
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/10-assistants-ia-qui-vont-rendre-votre-patron.md` | score=45 | status=fail | mots=94
+- `site/src/data/outils/marketing/autres/10-assistants-ia-qui-vont-rendre-votre-patron.md` | score=45 | status=fail | mots=94
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/5-raisons-choquantes-de-ne-jamais-creer-un-site.md` | score=45 | status=fail | mots=59
+- `site/src/data/outils/marketing/autres/5-raisons-choquantes-de-ne-jamais-creer-un-site.md` | score=45 | status=fail | mots=59
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/ab-testing-doublez-vos-ventes-avec-cette.md` | score=45 | status=fail | mots=40
+- `site/src/data/outils/marketing/autres/ab-testing-doublez-vos-ventes-avec-cette.md` | score=45 | status=fail | mots=40
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/devenez-expert-et-gagnez-6-chiffres-la-methode.md` | score=45 | status=fail | mots=99
+- `site/src/data/outils/marketing/autres/devenez-expert-et-gagnez-6-chiffres-la-methode.md` | score=45 | status=fail | mots=99
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/devenez-un-genie-excel-avec-ces-outils.md` | score=45 | status=fail | mots=50
+- `site/src/data/outils/marketing/autres/devenez-un-genie-excel-avec-ces-outils.md` | score=45 | status=fail | mots=50
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/formation-lowfruits.md` | score=45 | status=fail | mots=74
+- `site/src/data/outils/marketing/autres/formation-lowfruits.md` | score=45 | status=fail | mots=74
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/le-logiciel-de-caisse-qui-va-booster-vos-ventes.md` | score=45 | status=fail | mots=97
+- `site/src/data/outils/marketing/autres/le-logiciel-de-caisse-qui-va-booster-vos-ventes.md` | score=45 | status=fail | mots=97
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/lerp-francais-qui-va-faire-de-vous-le-nouveau.md` | score=45 | status=fail | mots=118
+- `site/src/data/outils/marketing/autres/lerp-francais-qui-va-faire-de-vous-le-nouveau.md` | score=45 | status=fail | mots=118
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/les-astuces-seo-choc-des-coachs-qui-cartonnent.md` | score=45 | status=fail | mots=76
+- `site/src/data/outils/marketing/autres/les-astuces-seo-choc-des-coachs-qui-cartonnent.md` | score=45 | status=fail | mots=76
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/les-secrets-choquants-des-seo-derriere-qwant.md` | score=45 | status=fail | mots=16
+- `site/src/data/outils/marketing/autres/les-secrets-choquants-des-seo-derriere-qwant.md` | score=45 | status=fail | mots=16
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/smartvideo-la-technologie-qui-va-rendre-youtube.md` | score=45 | status=fail | mots=26
+- `site/src/data/outils/marketing/autres/smartvideo-la-technologie-qui-va-rendre-youtube.md` | score=45 | status=fail | mots=26
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Description courte (< 60 caractères)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/communication/crisp.md` | score=50 | status=fail | mots=3294
+- `site/src/data/outils/communication/crisp.md` | score=50 | status=fail | mots=3294
   - warn: Artefact de contenu détecté: 'Articles populaires'
   - warn: Artefact de contenu détecté: 'Recevoir la Newsletter'
   - warn: Artefact de contenu détecté: 'Obtenez une estimation de prix'
-- `src/data/outils/business/autres/logiciels-pour-creer-une-communaute.md` | score=55 | status=fail | mots=79
+- `site/src/data/outils/business/autres/logiciels-pour-creer-une-communaute.md` | score=55 | status=fail | mots=79
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/business/autres/site-funs.md` | score=55 | status=fail | mots=51
+- `site/src/data/outils/business/autres/site-funs.md` | score=55 | status=fail | mots=51
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/communication/autres/reddit.md` | score=55 | status=fail | mots=50
+- `site/src/data/outils/communication/autres/reddit.md` | score=55 | status=fail | mots=50
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/10-plugins-secrets-pour-transformer-obsidian-en.md` | score=55 | status=fail | mots=84
+- `site/src/data/outils/creation/autres/10-plugins-secrets-pour-transformer-obsidian-en.md` | score=55 | status=fail | mots=84
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/5-plugins-obsidian-pour-travailler-10x-plus-vite.md` | score=55 | status=fail | mots=72
+- `site/src/data/outils/creation/autres/5-plugins-obsidian-pour-travailler-10x-plus-vite.md` | score=55 | status=fail | mots=72
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/apprendre-a-apprendre-finir-ses-formations.md` | score=55 | status=fail | mots=54
+- `site/src/data/outils/creation/autres/apprendre-a-apprendre-finir-ses-formations.md` | score=55 | status=fail | mots=54
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/arrete-de-procrastiner-lapp-de-notes-qui-va.md` | score=55 | status=fail | mots=16
+- `site/src/data/outils/creation/autres/arrete-de-procrastiner-lapp-de-notes-qui-va.md` | score=55 | status=fail | mots=16
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/aspirez-toutes-les-videos-youtube-en-un-clic.md` | score=55 | status=fail | mots=21
+- `site/src/data/outils/creation/autres/aspirez-toutes-les-videos-youtube-en-un-clic.md` | score=55 | status=fail | mots=21
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/cette-competence-paye-plus-que-le-prompt.md` | score=55 | status=fail | mots=18
+- `site/src/data/outils/creation/autres/cette-competence-paye-plus-que-le-prompt.md` | score=55 | status=fail | mots=18
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/comment-reussir-sur-youtube.md` | score=55 | status=fail | mots=18
+- `site/src/data/outils/creation/autres/comment-reussir-sur-youtube.md` | score=55 | status=fail | mots=18
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/goalflowz.md` | score=55 | status=fail | mots=19
+- `site/src/data/outils/creation/autres/goalflowz.md` | score=55 | status=fail | mots=19
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/nomore-boring-stuff.md` | score=55 | status=fail | mots=12
+- `site/src/data/outils/creation/autres/nomore-boring-stuff.md` | score=55 | status=fail | mots=12
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/creation/autres/prison.md` | score=55 | status=fail | mots=112
+- `site/src/data/outils/creation/autres/prison.md` | score=55 | status=fail | mots=112
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/10-apps-qui-vont-faire-de-nos-seniors-des-geeks.md` | score=55 | status=fail | mots=75
+- `site/src/data/outils/marketing/autres/10-apps-qui-vont-faire-de-nos-seniors-des-geeks.md` | score=55 | status=fail | mots=75
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/10-idees-dactivites-de-team-building-qui-vont.md` | score=55 | status=fail | mots=30
+- `site/src/data/outils/marketing/autres/10-idees-dactivites-de-team-building-qui-vont.md` | score=55 | status=fail | mots=30
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/10-raisons-pour-acheter-francais-et-devenir-un.md` | score=55 | status=fail | mots=47
+- `site/src/data/outils/marketing/autres/10-raisons-pour-acheter-francais-et-devenir-un.md` | score=55 | status=fail | mots=47
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/5-signes-terrifiants-que-vous-etes-victime-dune.md` | score=55 | status=fail | mots=91
+- `site/src/data/outils/marketing/autres/5-signes-terrifiants-que-vous-etes-victime-dune.md` | score=55 | status=fail | mots=91
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/apprenez-une-langue-en-30-jours-la-methode-choc.md` | score=55 | status=fail | mots=43
+- `site/src/data/outils/marketing/autres/apprenez-une-langue-en-30-jours-la-methode-choc.md` | score=55 | status=fail | mots=43
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/comment-jai-gagne-mon-premier-million-grace-a-mon.md` | score=55 | status=fail | mots=32
+- `site/src/data/outils/marketing/autres/comment-jai-gagne-mon-premier-million-grace-a-mon.md` | score=55 | status=fail | mots=32
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/construisez-un-crm-surpuissant-sans-coder-les.md` | score=55 | status=fail | mots=28
+- `site/src/data/outils/marketing/autres/construisez-un-crm-surpuissant-sans-coder-les.md` | score=55 | status=fail | mots=28
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/creez-1000-articles-instantanement-la-verite.md` | score=55 | status=fail | mots=1
+- `site/src/data/outils/marketing/autres/creez-1000-articles-instantanement-la-verite.md` | score=55 | status=fail | mots=1
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/creez-des-landing-pages-gratuites-qui.md` | score=55 | status=fail | mots=70
+- `site/src/data/outils/marketing/autres/creez-des-landing-pages-gratuites-qui.md` | score=55 | status=fail | mots=70
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/designs-si-fous-quils-vont-rendre-vos-concurrents.md` | score=55 | status=fail | mots=117
+- `site/src/data/outils/marketing/autres/designs-si-fous-quils-vont-rendre-vos-concurrents.md` | score=55 | status=fail | mots=117
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/devenez-invisible-en-ligne-la-methode-secrete.md` | score=55 | status=fail | mots=49
+- `site/src/data/outils/marketing/autres/devenez-invisible-en-ligne-la-methode-secrete.md` | score=55 | status=fail | mots=49
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/devenez-un-monstre-de-productivite-la-methode-qui.md` | score=55 | status=fail | mots=95
+- `site/src/data/outils/marketing/autres/devenez-un-monstre-de-productivite-la-methode-qui.md` | score=55 | status=fail | mots=95
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/devenez-viral-sur-google-discover-la-methode.md` | score=55 | status=fail | mots=63
+- `site/src/data/outils/marketing/autres/devenez-viral-sur-google-discover-la-methode.md` | score=55 | status=fail | mots=63
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/emrys-nutrition-le-plan-minceur-qui-fait-trembler.md` | score=55 | status=fail | mots=18
+- `site/src/data/outils/marketing/autres/emrys-nutrition-le-plan-minceur-qui-fait-trembler.md` | score=55 | status=fail | mots=18
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/faites-parler-vos-clients-et-triplez-vos-ventes.md` | score=55 | status=fail | mots=46
+- `site/src/data/outils/marketing/autres/faites-parler-vos-clients-et-triplez-vos-ventes.md` | score=55 | status=fail | mots=46
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/financez-votre-projet-comme-un-pro-les-secrets.md` | score=55 | status=fail | mots=30
+- `site/src/data/outils/marketing/autres/financez-votre-projet-comme-un-pro-les-secrets.md` | score=55 | status=fail | mots=30
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/jean-marie-corda-les-secrets-marketing-du-gourou.md` | score=55 | status=fail | mots=57
+- `site/src/data/outils/marketing/autres/jean-marie-corda-les-secrets-marketing-du-gourou.md` | score=55 | status=fail | mots=57
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/la-marque-de-vetements-pret-a-porter-qui-affole.md` | score=55 | status=fail | mots=33
+- `site/src/data/outils/marketing/autres/la-marque-de-vetements-pret-a-porter-qui-affole.md` | score=55 | status=fail | mots=33
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/la-methode-incroyable-pour-regarder-netflix-a.md` | score=55 | status=fail | mots=25
+- `site/src/data/outils/marketing/autres/la-methode-incroyable-pour-regarder-netflix-a.md` | score=55 | status=fail | mots=25
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/la-methode-revolutionnaire-pour-sortir-des-dettes.md` | score=55 | status=fail | mots=47
+- `site/src/data/outils/marketing/autres/la-methode-revolutionnaire-pour-sortir-des-dettes.md` | score=55 | status=fail | mots=47
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/la-pub-la-plus-puissante-au-monde-comment.md` | score=55 | status=fail | mots=16
+- `site/src/data/outils/marketing/autres/la-pub-la-plus-puissante-au-monde-comment.md` | score=55 | status=fail | mots=16
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/la-technique-doutreach-qui-va-faire-exploser.md` | score=55 | status=fail | mots=67
+- `site/src/data/outils/marketing/autres/la-technique-doutreach-qui-va-faire-exploser.md` | score=55 | status=fail | mots=67
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté
-- `src/data/outils/marketing/autres/lapp-calendrier-secrete-utilisee-par-les-pdg.md` | score=55 | status=fail | mots=30
+- `site/src/data/outils/marketing/autres/lapp-calendrier-secrete-utilisee-par-les-pdg.md` | score=55 | status=fail | mots=30
   - issue: u_site manquant ou URL invalide
   - issue: Contenu trop court (< 120 mots)
   - warn: Aucun titre H1 (# ...) détecté

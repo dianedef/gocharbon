@@ -281,13 +281,13 @@ Toute nouvelle décision visuelle doit être ajoutée ici pour éviter les déri
 
 **Philosophie :** Audacieux, direct, impossible à ignorer. Comme notre ton.
 
-**⚠️ RÈGLE D'OR : utiliser uniquement les tokens définis dans `src/styles/global.css`.**
+**⚠️ RÈGLE D'OR : utiliser uniquement les tokens définis dans `site/src/styles/global.css`.**
 
 ### Palette de Couleurs
 
 #### Palette de Couleurs Officielle (implémentée)
 
-**Source technique :** `src/styles/global.css` (variables CSS `--brand-*`).
+**Source technique :** `site/src/styles/global.css` (variables CSS `--brand-*`).
 
 ```
 🎨 COULEURS DE BASE

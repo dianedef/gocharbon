@@ -10,6 +10,7 @@ source_skill: manual
 scope: supabase
 owner: "team"
 confidence: medium
+risk_level: high
 security_impact: yes
 docs_impact: yes
 linked_systems:
@@ -17,7 +18,7 @@ linked_systems:
   - "Supabase Postgres"
   - "Supabase RLS"
   - "flutter_app"
-  - "docs/API.md"
+  - "shipflow_data/technical/app_quiz/API.md"
 depends_on: []
 supersedes: []
 evidence: []
@@ -153,5 +154,5 @@ Signaux d'alerte :
 Avant merge d'un lot migration :
 
 1. `README.md` et `flutter_app/README.md` alignés sur les variables/callbacks.
-2. `docs/API.md` aligné sur la frontière Supabase vs legacy.
+2. `shipflow_data/technical/app_quiz/API.md` aligné sur la frontière Supabase vs legacy.
 3. ce document mis à jour si un flux provider, une policy RLS ou une règle anti-abus change.

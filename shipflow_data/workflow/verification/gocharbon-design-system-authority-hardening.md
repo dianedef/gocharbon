@@ -18,7 +18,7 @@ docs_impact: yes
 linked_systems:
   - "/home/claude/gocharbon/shipflow_data/technical/site/design-system-authority.md"
   - "/home/claude/gocharbon/shipflow_data/workflow/specs/gocharbon-design-system-authority-hardening.md"
-  - "/home/claude/gocharbon/src/styles/global.css"
+  - "/home/claude/gocharbon/site/src/styles/global.css"
 depends_on:
   - artifact: "/home/claude/gocharbon/shipflow_data/technical/site/design-system-authority.md"
     artifact_version: "1.0.0"

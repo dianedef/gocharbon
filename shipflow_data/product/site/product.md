@@ -18,15 +18,15 @@ non_goals: "former tout un cursus long, remplacer la validation terrain par de l
 security_impact: unknown
 docs_impact: yes
 evidence:
-  - "shipflow_data/business/site/business.md pose les personas, objectifs et modele de revenus"
+  - "shipflow_data/business/business.md pose les personas, objectifs et modele de revenus"
   - "shipflow_data/branding/branding.md fixe ton attendu de voix cash, anti-bullshit et actionnable"
-  - "src/content/parcours contient 43 fichiers de contenu orientés parcours métiers et démarrage"
-  - "src/pages/parcours.astro centralise la logique de découverte et de progression"
+  - "site/src/content/parcours contient 43 fichiers de contenu orientés parcours métiers et démarrage"
+  - "site/src/pages/parcours.astro centralise la logique de découverte et de progression"
 linked_artifacts:
-  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/business/business.md"
   - "shipflow_data/branding/branding.md"
 depends_on:
-  - artifact: "shipflow_data/business/site/business.md"
+  - artifact: "shipflow_data/business/business.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
   - artifact: "shipflow_data/branding/branding.md"
@@ -64,7 +64,7 @@ next_step: "/sf-docs verify shipflow_data/product/site/product.md"
 - Découverte SEO/social → qualification via parcours ou quiz → activation dans un parcours court.
 - Activation → guidance étape par étape avec actions immédiates → orientation vers expert, outil ou programme approprié.
 - Qualification continue du public via profil, progrès et intérêts réels.
-- Référencement pratique via pages `src/pages` + contenus métiers détaillés.
+- Référencement pratique via pages `site/src/pages` + contenus métiers détaillés.
 
 ## Portée incluse
 

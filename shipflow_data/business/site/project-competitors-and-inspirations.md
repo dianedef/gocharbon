@@ -22,14 +22,14 @@ source_policy: "Utiliser ce registre comme outil interne de veille, d'inspiratio
 target_projects:
   - gocharbon
 evidence:
-  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/business/business.md"
   - "shipflow_data/product/site/product.md"
   - "shipflow_data/gtm/site/gtm.md"
   - "shipflow_data/editorial/site/content-map.md"
   - "shipflow_data/research/site/SOURCE.md"
   - "shipflow_data/research/site/SPEC-roadmap.md"
 depends_on:
-  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/business/business.md"
   - "shipflow_data/product/site/product.md"
   - "shipflow_data/gtm/site/gtm.md"
   - "shipflow_data/editorial/site/content-map.md"

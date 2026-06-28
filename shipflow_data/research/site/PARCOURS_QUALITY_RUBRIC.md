@@ -44,7 +44,7 @@ Un contenu est prêt pour les parcours si:
 
 ## Outil d'audit
 
-Script: `scripts/audit_parcours_content.mjs`
+Script: `site/scripts/audit_parcours_content.mjs`
 
 Commande:
 
@@ -53,4 +53,4 @@ node scripts/audit_parcours_content.mjs
 ```
 
 Sortie JSON:
-- `scripts/parcours_content_audit.json`
+- `site/scripts/parcours_content_audit.json`

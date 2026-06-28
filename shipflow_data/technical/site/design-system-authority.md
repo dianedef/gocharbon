@@ -15,9 +15,9 @@ security_impact: none
 docs_impact: yes
 linked_systems:
   - "/home/claude/gocharbon/shipflow_data/branding/branding.md"
-  - "/home/claude/gocharbon/src/styles/global.css"
-  - "/home/claude/gocharbon/src/pages/index.astro"
-  - "/home/claude/gocharbon/src/components"
+  - "/home/claude/gocharbon/site/src/styles/global.css"
+  - "/home/claude/gocharbon/site/src/pages/index.astro"
+  - "/home/claude/gocharbon/site/src/components"
 depends_on:
   - artifact: "/home/claude/gocharbon/shipflow_data/branding/branding.md"
     artifact_version: "1.0.0"
@@ -25,7 +25,7 @@ depends_on:
 supersedes: []
 evidence:
   - "Branding and visual conventions are maintained in shipflow_data/branding/branding.md"
-  - "Production styles are currently centralized in src/styles/global.css"
+  - "Production styles are currently centralized in site/src/styles/global.css"
 next_review: "2026-07-11"
 next_step: "/sf-docs update shipflow_data/technical/site/design-system-authority.md"
 ---
@@ -40,8 +40,8 @@ GoCharbon doit rester visuellement cohérent et professionnel. Toute évolution 
 
 - **Contrat de marque**: `/home/claude/gocharbon/shipflow_data/branding/branding.md`  
   Toute décision visuelle doit partir de ce document.
-- **Token carrier unique (site)**: `/home/claude/gocharbon/src/styles/global.css`
-- **Consommation UI (site)**: `src/styles/global.css` + classes utilitaires via `src/components`, `src/pages`
+- **Token carrier unique (site)**: `/home/claude/gocharbon/site/src/styles/global.css`
+- **Consommation UI (site)**: `site/src/styles/global.css` + classes utilitaires via `site/src/components`, `site/src/pages`
 
 ## Règles de non-négociation
 

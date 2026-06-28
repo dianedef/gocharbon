@@ -18,10 +18,10 @@ linked_systems: []
 depends_on: []
 supersedes: []
 evidence:
-  - "src/data/quizData.js"
-  - "src/data/quizQuickData.js"
-  - "src/components/vue/Quiz.vue"
-  - "src/data/parcoursData.ts"
+  - "site/src/data/quizData.js"
+  - "site/src/data/quizQuickData.js"
+  - "site/src/components/vue/Quiz.vue"
+  - "site/src/data/parcoursData.ts"
 next_step: "Implémenter la spec (taxonomie centrale puis alignement scoring et restitution quiz)."
 ---
 # Spec: architecture des profils business et du quiz
@@ -46,17 +46,17 @@ next_step: "Implémenter la spec (taxonomie centrale puis alignement scoring et 
 
 ## Contexte technique constaté
 
-- Le quiz rapide et le quiz avancé reposent sur un scoring plat défini dans [src/data/quizData.js](/home/claude/gocharbon/src/data/quizData.js) et [src/data/quizQuickData.js](/home/claude/gocharbon/src/data/quizQuickData.js).
-- Le composant [Quiz.vue](/home/claude/gocharbon/src/components/vue/Quiz.vue) ne connaît aujourd'hui que 6 résultats de premier niveau :
+- Le quiz rapide et le quiz avancé reposent sur un scoring plat défini dans [src/data/quizData.js](/home/claude/gocharbon/site/src/data/quizData.js) et [src/data/quizQuickData.js](/home/claude/gocharbon/site/src/data/quizQuickData.js).
+- Le composant [Quiz.vue](/home/claude/gocharbon/site/src/components/vue/Quiz.vue) ne connaît aujourd'hui que 6 résultats de premier niveau :
   - `ecommerce`
   - `saas`
   - `content`
   - `service`
   - `formation`
   - `livecommerce`
-- Les pages [quiz-avance.astro](/home/claude/gocharbon/src/pages/quiz-avance.astro) et [quiz-rapide.astro](/home/claude/gocharbon/src/pages/quiz-rapide.astro) injectent ensuite quelques fiches profils pivots seulement.
-- Les parcours sont bien plus fins, centralisés dans [src/data/parcoursData.ts](/home/claude/gocharbon/src/data/parcoursData.ts), avec un parcours par profil.
-- Le nouveau profil [testeur-utilisateur.md](/home/claude/gocharbon/src/data/biz/profils/testeur-utilisateur.md) et son parcours [testeur-utilisateur.md](/home/claude/gocharbon/src/content/parcours/testeur-utilisateur.md) confirment le besoin : c'est un vrai sous-profil utile, mais pas un résultat principal de quiz.
+- Les pages [quiz-avance.astro](/home/claude/gocharbon/site/src/pages/quiz-avance.astro) et [quiz-rapide.astro](/home/claude/gocharbon/site/src/pages/quiz-rapide.astro) injectent ensuite quelques fiches profils pivots seulement.
+- Les parcours sont bien plus fins, centralisés dans [src/data/parcoursData.ts](/home/claude/gocharbon/site/src/data/parcoursData.ts), avec un parcours par profil.
+- Le nouveau profil [testeur-utilisateur.md](/home/claude/gocharbon/site/src/data/biz/profils/testeur-utilisateur.md) et son parcours [testeur-utilisateur.md](/home/claude/gocharbon/site/src/content/parcours/testeur-utilisateur.md) confirment le besoin : c'est un vrai sous-profil utile, mais pas un résultat principal de quiz.
 
 ## Décision d'architecture
 
@@ -269,27 +269,27 @@ Le quiz rapide ou avancé ne doit pas sortir directement `testeur-utilisateur`, 
 
 ## Fichiers à créer ou modifier
 
-- [src/data/profileTaxonomy.ts](/home/claude/gocharbon/src/data/profileTaxonomy.ts)
+- [src/data/profileTaxonomy.ts](/home/claude/gocharbon/site/src/data/profileTaxonomy.ts)
   - Action : créer la source de vérité de la taxonomie et des sous-profils.
-- [src/data/quizData.js](/home/claude/gocharbon/src/data/quizData.js)
+- [src/data/quizData.js](/home/claude/gocharbon/site/src/data/quizData.js)
   - Action : aligner les scores sur les 5 archétypes canoniques.
-- [src/data/quizQuickData.js](/home/claude/gocharbon/src/data/quizQuickData.js)
+- [src/data/quizQuickData.js](/home/claude/gocharbon/site/src/data/quizQuickData.js)
   - Action : même alignement que le quiz avancé.
-- [src/components/vue/Quiz.vue](/home/claude/gocharbon/src/components/vue/Quiz.vue)
+- [src/components/vue/Quiz.vue](/home/claude/gocharbon/site/src/components/vue/Quiz.vue)
   - Action : remplacer la restitution "1 résultat = 1 fiche" par "1 archétype + suggestions de sous-profils".
-- [src/pages/quiz-avance.astro](/home/claude/gocharbon/src/pages/quiz-avance.astro)
+- [src/pages/quiz-avance.astro](/home/claude/gocharbon/site/src/pages/quiz-avance.astro)
   - Action : charger les pivots via la taxonomie centrale.
-- [src/pages/quiz-rapide.astro](/home/claude/gocharbon/src/pages/quiz-rapide.astro)
+- [src/pages/quiz-rapide.astro](/home/claude/gocharbon/site/src/pages/quiz-rapide.astro)
   - Action : charger les pivots via la taxonomie centrale.
-- [src/pages/quiz.astro](/home/claude/gocharbon/src/pages/quiz.astro)
+- [src/pages/quiz.astro](/home/claude/gocharbon/site/src/pages/quiz.astro)
   - Action : clarifier publiquement que le quiz recommande des familles business, puis propose des sous-voies.
-- [src/data/parcoursData.ts](/home/claude/gocharbon/src/data/parcoursData.ts)
+- [src/data/parcoursData.ts](/home/claude/gocharbon/site/src/data/parcoursData.ts)
   - Action : brancher les parcours sur la taxonomie, et permettre d'exposer les sous-profils voisins.
-- [src/data/parcoursSlugs.ts](/home/claude/gocharbon/src/data/parcoursSlugs.ts)
+- [src/data/parcoursSlugs.ts](/home/claude/gocharbon/site/src/data/parcoursSlugs.ts)
   - Action : pas de changement structurel attendu, seulement si un mapping pivot devient nécessaire.
-- [src/pages/parcours.astro](/home/claude/gocharbon/src/pages/parcours.astro)
+- [src/pages/parcours.astro](/home/claude/gocharbon/site/src/pages/parcours.astro)
   - Action : remonter les archétypes pivots et afficher des parcours voisins plus finement.
-- [src/pages/index.astro](/home/claude/gocharbon/src/pages/index.astro)
+- [src/pages/index.astro](/home/claude/gocharbon/site/src/pages/index.astro)
   - Action : vérifier que les entrées grand public renvoient d'abord vers l'archétype, puis vers les sous-profils.
 - [quiz.md](/home/claude/gocharbon/quiz.md)
   - Action : mettre à jour la doc produit du quiz avec cette architecture.
@@ -297,47 +297,47 @@ Le quiz rapide ou avancé ne doit pas sortir directement `testeur-utilisateur`, 
 ## Plan d'implémentation
 
 - [ ] Tâche 1 : créer la taxonomie centrale
-  - Fichier : [src/data/profileTaxonomy.ts](/home/claude/gocharbon/src/data/profileTaxonomy.ts)
+  - Fichier : [src/data/profileTaxonomy.ts](/home/claude/gocharbon/site/src/data/profileTaxonomy.ts)
   - Action : définir les 5 archétypes canoniques, leurs profils pivots, les clusters, et le rattachement de tous les profils existants.
   - Notes : `testeur-utilisateur` doit être marqué comme `primaryArchetype: "service"` et `isSideHustleFriendly: true`.
 
 - [ ] Tâche 2 : normaliser les clés de scoring du quiz
-  - Fichier : [src/data/quizData.js](/home/claude/gocharbon/src/data/quizData.js)
+  - Fichier : [src/data/quizData.js](/home/claude/gocharbon/site/src/data/quizData.js)
   - Action : supprimer `livecommerce` comme résultat primaire et redistribuer ses points vers `content` et `ecommerce` selon les questions.
   - Notes : conserver le comportement existant tant que les labels principaux ne cassent pas.
 
 - [ ] Tâche 3 : normaliser le quiz rapide
-  - Fichier : [src/data/quizQuickData.js](/home/claude/gocharbon/src/data/quizQuickData.js)
+  - Fichier : [src/data/quizQuickData.js](/home/claude/gocharbon/site/src/data/quizQuickData.js)
   - Action : refléter exactement les mêmes archétypes que le quiz avancé.
   - Notes : le rapide doit préparer le même monde conceptuel que l'avancé.
 
 - [ ] Tâche 4 : faire évoluer le composant de résultat
-  - Fichier : [src/components/vue/Quiz.vue](/home/claude/gocharbon/src/components/vue/Quiz.vue)
+  - Fichier : [src/components/vue/Quiz.vue](/home/claude/gocharbon/site/src/components/vue/Quiz.vue)
   - Action : afficher l'archétype principal, l'alternative crédible, puis 2 à 4 sous-profils suggérés issus de la taxonomie.
   - Notes : garder le CTA principal vers la fiche pivot et le parcours pivot.
 
 - [ ] Tâche 5 : centraliser les pages de quiz sur les pivots
-  - Fichier : [src/pages/quiz-avance.astro](/home/claude/gocharbon/src/pages/quiz-avance.astro)
+  - Fichier : [src/pages/quiz-avance.astro](/home/claude/gocharbon/site/src/pages/quiz-avance.astro)
   - Action : remplacer les mappings locaux par des données tirées de la taxonomie.
   - Notes : même logique à reproduire dans le quiz rapide.
 
 - [ ] Tâche 6 : centraliser le quiz rapide
-  - Fichier : [src/pages/quiz-rapide.astro](/home/claude/gocharbon/src/pages/quiz-rapide.astro)
+  - Fichier : [src/pages/quiz-rapide.astro](/home/claude/gocharbon/site/src/pages/quiz-rapide.astro)
   - Action : même branchement que le quiz avancé.
   - Notes : éviter les listes de profils codées en dur à plusieurs endroits.
 
 - [ ] Tâche 7 : enrichir les données de parcours
-  - Fichier : [src/data/parcoursData.ts](/home/claude/gocharbon/src/data/parcoursData.ts)
+  - Fichier : [src/data/parcoursData.ts](/home/claude/gocharbon/site/src/data/parcoursData.ts)
   - Action : rattacher chaque parcours à un archétype et prévoir un bloc "parcours voisins" par sous-profil.
   - Notes : le parcours `testeur-utilisateur` doit apparaître comme voie d'entrée voisine du pivot `freelance`.
 
 - [ ] Tâche 8 : aligner la narration publique
-  - Fichier : [src/pages/quiz.astro](/home/claude/gocharbon/src/pages/quiz.astro)
+  - Fichier : [src/pages/quiz.astro](/home/claude/gocharbon/site/src/pages/quiz.astro)
   - Action : expliciter le fonctionnement en familles business + sous-profils.
   - Notes : reprendre la formulation déjà introduite et la rendre définitive.
 
 - [ ] Tâche 9 : mettre à jour les hubs de navigation
-  - Fichier : [src/pages/parcours.astro](/home/claude/gocharbon/src/pages/parcours.astro)
+  - Fichier : [src/pages/parcours.astro](/home/claude/gocharbon/site/src/pages/parcours.astro)
   - Action : rendre visible le lien entre archétype pivot et voies plus spécifiques.
   - Notes : pas besoin d'exposer tout le catalogue en homepage.
 
@@ -352,7 +352,7 @@ Le quiz rapide ou avancé ne doit pas sortir directement `testeur-utilisateur`, 
 - [ ] CA 2 : Given un utilisateur prudent avec peu de budget et une logique de revenu annexe, when il termine le quiz, then le résultat peut rester `service` tout en suggérant `testeur-utilisateur` comme porte d'entrée.
 - [ ] CA 3 : Given un utilisateur orienté contenu et monétisation média, when il termine le quiz, then `affiliation` peut apparaître comme piste associée sans devenir un résultat primaire.
 - [ ] CA 4 : Given le quiz rapide et le quiz avancé, when on compare leurs clés de scoring, then les deux reposent sur les mêmes archétypes canoniques.
-- [ ] CA 5 : Given un profil existant dans `src/data/biz/profils`, when on consulte la taxonomie centrale, then son archétype principal et son cluster sont explicitement définis.
+- [ ] CA 5 : Given un profil existant dans `site/src/data/biz/profils`, when on consulte la taxonomie centrale, then son archétype principal et son cluster sont explicitement définis.
 - [ ] CA 6 : Given la page parcours ou la restitution du quiz, when un archétype pivot est affiché, then 2 à 4 sous-profils pertinents sont proposés en approfondissement.
 - [ ] CA 7 : Given la disparition de `livecommerce` comme résultat primaire, when on lit les pages quiz et la doc produit, then cette voie reste compréhensible comme angle ou sous-voie, sans casser la compréhension utilisateur.
 
@@ -360,7 +360,7 @@ Le quiz rapide ou avancé ne doit pas sortir directement `testeur-utilisateur`, 
 
 - Astro content collections déjà en place pour les fiches profils
 - composant Vue unique de quiz déjà mutualisé
-- mappings de parcours existants dans [src/data/parcoursData.ts](/home/claude/gocharbon/src/data/parcoursData.ts)
+- mappings de parcours existants dans [src/data/parcoursData.ts](/home/claude/gocharbon/site/src/data/parcoursData.ts)
 
 ## Stratégie de test
 

@@ -353,10 +353,10 @@ def write_outputs(entries: list[Entry]) -> None:
     lines.append("")
     lines.append("### Pages priority lot A (updated)")
     lines.append("")
-    lines.append("- `src/data/tech/ia/llm/choisir-llm.md`")
-    lines.append("- `src/data/tech/ia/llm/introduction-llm.md`")
-    lines.append("- `src/data/tech/ia/llm/llm-hallucinations.md`")
-    lines.append("- `src/data/biz/profils/prompt-engineer.md`")
+    lines.append("- `site/src/data/tech/ia/llm/choisir-llm.md`")
+    lines.append("- `site/src/data/tech/ia/llm/introduction-llm.md`")
+    lines.append("- `site/src/data/tech/ia/llm/llm-hallucinations.md`")
+    lines.append("- `site/src/data/biz/profils/prompt-engineer.md`")
 
     drafted = [e.path for e in lot_b_entries if e.lot_b_decision == "draft"]
     merged = [

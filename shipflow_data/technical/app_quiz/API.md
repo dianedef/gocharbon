@@ -1,14 +1,29 @@
 ---
 artifact: documentation
+metadata_schema_version: "1.0"
 artifact_version: "1.1.0"
 project: "gocharbon_quiz"
+created: "2026-04-27"
 updated: "2026-04-27"
 status: reviewed
 scope: api
+source_skill: manual
+owner: "dianedef"
+confidence: medium
+risk_level: medium
+security_impact: medium
+docs_impact: yes
 linked_systems:
-  - "backend/server.py"
-  - "flutter_app/lib/src/services/api/gocharbon_api.dart"
+  - "app_quiz/backend/server.py"
+  - "app_quiz/flutter_app/lib/src/services/api/gocharbon_api.dart"
   - "Supabase"
+depends_on:
+  - "shipflow_data/technical/app_quiz/architecture.md"
+supersedes: []
+evidence:
+  - "app_quiz/backend/server.py"
+  - "app_quiz/flutter_app/lib/src/services/api/gocharbon_api.dart"
+next_step: "/sf-docs verify shipflow_data/technical/app_quiz/API.md"
 ---
 
 # API

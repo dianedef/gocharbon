@@ -3,24 +3,24 @@
 ## 2026-04-27
 
 ### Added
-- **Audit de fraîcheur OpenAI outillé** — ajout de `scripts/audit_openai_freshness.py` et des rapports `scripts/openai_freshness_audit.{json,md}` pour inventorier et prioriser les claims IA obsolètes.
+- **Audit de fraîcheur OpenAI outillé** — ajout de `site/scripts/audit_openai_freshness.py` et des rapports `site/scripts/openai_freshness_audit.{json,md}` pour inventorier et prioriser les claims IA obsolètes.
 - **Traçabilité des chantiers** — ajout des specs `specs/dependency-security-stabilization.md` et `specs/openai-freshness-audit-gocharbon.md` pour cadrer exécution, validation et risques.
 - **Automatisation de maintenance dépendances** — ajout de `.github/dependabot.yml` (npm/pnpm + GitHub Actions, revue humaine des majors).
 
 ### Changed
 - **Lot IA éditorial modernisé** — mise à jour des pages LLM prioritaires (`choisir-llm`, `introduction-llm`, `llm-hallucinations`) et du profil `prompt-engineer` avec cadrage plus prudent et sources explicites.
-- **Lot B IA marketing rationalisé** — application des décisions `keep/enrich`, `merge` et `draft` sur le corpus `src/data/outils/marketing/autres` lié à OpenAI/ChatGPT.
-- **Script d'audit outils fiabilisé** — `scripts/audit_outils_content.py` utilise désormais la racine projet dynamique au lieu d'un chemin absolu local.
+- **Lot B IA marketing rationalisé** — application des décisions `keep/enrich`, `merge` et `draft` sur le corpus `site/src/data/outils/marketing/autres` lié à OpenAI/ChatGPT.
+- **Script d'audit outils fiabilisé** — `site/scripts/audit_outils_content.py` utilise désormais la racine projet dynamique au lieu d'un chemin absolu local.
 
 ### Fixed
 - **Stabilisation sécurité dépendances** — correction des advisories `pnpm audit` critiques/hautes sévérités (`20` -> `0`) sans migration majeure framework.
-- **Dérive package manager corrigée** — suppression de `package-lock.json` pour garder `pnpm-lock.yaml` comme source unique.
+- **Dérive package manager corrigée** — suppression de `package-lock.json` pour garder `site/pnpm-lock.yaml` comme source unique.
 
 ### Security
 - **Posture supply chain renforcée** — pin Node/pnpm (`engines`, `.node-version`), overrides documentés (`DEPENDENCY_OVERRIDES.md`) et suppression de la dépendance GPL `astro-breadcrumbs` remplacée par un fil d'Ariane local.
 
 ### Removed
-- **Configuration et artefacts obsolètes supprimés** — retrait de `astro.config.ts`, de `src/config/breadcrumbs.ts` et de `src/components/index.d.ts` non utilisés.
+- **Configuration et artefacts obsolètes supprimés** — retrait de `astro.config.ts`, de `site/src/config/breadcrumbs.ts` et de `site/src/components/index.d.ts` non utilisés.
 
 ## 2026-04-20
 
@@ -54,7 +54,7 @@
 
 ### Changed
 - **Pilotage SEO recentré** — les trackers GoCharbon priorisent désormais le nettoyage du contenu anglais inutile encore live, la canonicalisation des doublons `parcours` EN/FR, et un lancement Search Console limité au cluster `parcours` avant toute ouverture plus large
-- **Stock `to_decide` neutralisé pour le build** — confirmation que les 94 fichiers archivés dans `to_decide/` restent hors des collections Astro car stockés hors de `src/data` et `src/content`
+- **Stock `to_decide` neutralisé pour le build** — confirmation que les 94 fichiers archivés dans `to_decide/` restent hors des collections Astro car stockés hors de `site/src/data` et `site/src/content`
 - **Lancement `parcours` verrouillé côté indexation** — seules la homepage, `/parcours`, les fiches parcours et les pages légales restent indexables par défaut; le reste passe en `noindex, follow`, et le sitemap Astro est filtré sur ce même périmètre
 - **Build SEO validé pour le lancement `parcours`** — le build Astro génère bien `index, follow` uniquement sur la homepage, `/parcours`, les fiches parcours et les pages légales, avec un sitemap limité au même périmètre
 - **Build de lancement basculé en `parcours-only`** — `npm run build` purge désormais du `dist` les routes hors lancement (`blog`, `outils`, `tutos`, `quiz`, `progression`, `bio`, `methodologie`, `api`, `feed`) après génération, et neutralise dans le HTML final les liens internes qui pointaient encore vers ces sections
@@ -139,7 +139,7 @@
 ## 2026-03-26
 
 ### Changed
-- **Centralisation du branding et des routes internes** — ajout de `src/config/site.ts` pour le nom de marque, le domaine, le publisher et les URLs absolues, plus `src/config/routes.ts` pour les chemins internes récurrents; recâblage des layouts, métadonnées SEO, navigation, footer, CTA, quiz et pages piliers pour éviter les chaînes `GoCharbon`, `gocharbon.com` et `/quiz|/parcours|/outils|...` dupliquées
+- **Centralisation du branding et des routes internes** — ajout de `site/src/config/site.ts` pour le nom de marque, le domaine, le publisher et les URLs absolues, plus `site/src/config/routes.ts` pour les chemins internes récurrents; recâblage des layouts, métadonnées SEO, navigation, footer, CTA, quiz et pages piliers pour éviter les chaînes `GoCharbon`, `gocharbon.com` et `/quiz|/parcours|/outils|...` dupliquées
 - **Migration du lot `creation/*`** — taxonomie explicite ajoutée sur les fiches directes du dossier creation, avec une catégorisation prudente par usage réel et une seule exception nette (`Praiz` vers `business/crm`)
 - **Migration des lots `formation/*` et `productivite/*`** — taxonomie explicite ajoutée sur les fiches directes, avec des sous-catégories prudentes par usage réel et des facettes limitées aux cas évidents
 - **Migration de `business/helloasso.md`** — rattachement explicite à `business > association`, avec des facettes limitées à son usage principal
@@ -163,17 +163,17 @@
 - **Migration du lot `communication/*`** — les fiches outils directes du dossier communication ont reçu `toolCategoryPrimary` et `toolSubcategoryPrimary`, avec des facettes IA ponctuelles sur les cas évidents
 
 ### Added
-- **Profil business "Testeur Utilisateur / Crowdtester"** (`src/data/biz/profils/testeur-utilisateur.md`) — nouveau profil sur les tests utilisateurs rémunérés, le crowdtesting, uTest comme point d'entrée, et cadrage d'Amazon Vine comme opportunité adjacente plutôt que vrai métier business
-- **Source de vérité de taxonomie profils/quiz** (`src/data/profileTaxonomy.ts`) — registre central des 5 archétypes canoniques, profils pivots, clusters, sous-profils et helpers pour réaligner le quiz, les parcours et la navigation
-- **Réalignement du quiz sur 5 archétypes canoniques** — suppression de `livecommerce` comme résultat primaire, redistribution du scoring dans `src/data/quizData.js` et `src/data/quizQuickData.js`, et mappings pivots branchés sur `src/data/profileTaxonomy.ts`
-- **Restitution du quiz enrichie avec des sous-profils suggérés** — ajout d'un bloc "Voies concrètes à explorer" dans `src/components/vue/Quiz.vue`, alimenté depuis `src/data/profileTaxonomy.ts` via `src/pages/quiz-avance.astro` et `src/pages/quiz-rapide.astro`
-- **Pages parcours enrichies avec des parcours voisins** — ajout d'un bloc "Parcours voisins à explorer ensuite" dans `src/pages/parcours/[id].astro`, plus maillage croisé renforcé entre `freelance` et `testeur-utilisateur`
-- **Navigation globale clarifiée autour des familles business** — ajout d'un bloc "Grandes familles" dans `src/pages/parcours.astro` et enrichissement des cartes d'entrée sur `src/pages/index.astro` avec des exemples concrets de sous-profils
-- **Cluster éditorial "tests rémunérés"** dans `src/data/biz/business-mobile/` :
+- **Profil business "Testeur Utilisateur / Crowdtester"** (`site/src/data/biz/profils/testeur-utilisateur.md`) — nouveau profil sur les tests utilisateurs rémunérés, le crowdtesting, uTest comme point d'entrée, et cadrage d'Amazon Vine comme opportunité adjacente plutôt que vrai métier business
+- **Source de vérité de taxonomie profils/quiz** (`site/src/data/profileTaxonomy.ts`) — registre central des 5 archétypes canoniques, profils pivots, clusters, sous-profils et helpers pour réaligner le quiz, les parcours et la navigation
+- **Réalignement du quiz sur 5 archétypes canoniques** — suppression de `livecommerce` comme résultat primaire, redistribution du scoring dans `site/src/data/quizData.js` et `site/src/data/quizQuickData.js`, et mappings pivots branchés sur `site/src/data/profileTaxonomy.ts`
+- **Restitution du quiz enrichie avec des sous-profils suggérés** — ajout d'un bloc "Voies concrètes à explorer" dans `site/src/components/vue/Quiz.vue`, alimenté depuis `site/src/data/profileTaxonomy.ts` via `site/src/pages/quiz-avance.astro` et `site/src/pages/quiz-rapide.astro`
+- **Pages parcours enrichies avec des parcours voisins** — ajout d'un bloc "Parcours voisins à explorer ensuite" dans `site/src/pages/parcours/[id].astro`, plus maillage croisé renforcé entre `freelance` et `testeur-utilisateur`
+- **Navigation globale clarifiée autour des familles business** — ajout d'un bloc "Grandes familles" dans `site/src/pages/parcours.astro` et enrichissement des cartes d'entrée sur `site/src/pages/index.astro` avec des exemples concrets de sous-profils
+- **Cluster éditorial "tests rémunérés"** dans `site/src/data/biz/business-mobile/` :
   - `tests-remuneres.md` — cadrage honnête des tests utilisateurs rémunérés, gains réalistes, familles de plateformes
   - `comparatif-plateformes-tests-remuneres.md` — comparatif uTest, UserTesting, TRYBER, Userbrain, Respondent, User Interviews, TestingTime
   - `amazon-vine-et-alternatives.md` — Amazon Vine, Influenster, Home Tester Club et programmes adjacents, avec distinction claire entre bonus produit et vrai revenu
-- **8 nouvelles fiches outils liées aux tests rémunérés et programmes adjacents** dans `src/data/outils/marketing/autres/` :
+- **8 nouvelles fiches outils liées aux tests rémunérés et programmes adjacents** dans `site/src/data/outils/marketing/autres/` :
   - `usertesting.md`
   - `user-interviews.md`
   - `respondent.md`
@@ -187,7 +187,7 @@
 ## 2026-03-23
 
 ### Added
-- **Cluster Copywriting complet** — 14 articles (1 pillar + 13 spokes) dans `src/data/marketing/copywriting/` (~25 400 mots) :
+- **Cluster Copywriting complet** — 14 articles (1 pillar + 13 spokes) dans `site/src/data/marketing/copywriting/` (~25 400 mots) :
   - `index.md` — pillar page "Copywriting : Le Guide Complet pour Vendre avec les Mots"
   - `frameworks.md` — PAS, AIDA, PASTOR, 4P, BAB avec exemples FR
   - `niveaux-conscience.md` — les 5 niveaux de conscience de Schwartz
@@ -300,18 +300,18 @@
 
 ### Finitions éditoriales (artefacts)
 - Nettoyage des 3 derniers contenus signalés par l'audit (`editorial_note`):
-  - `src/data/biz/profils/elearning-creator.md`
-  - `src/data/marketing/tunnel/atelier.md`
-  - `src/data/tutos/comment-creer-un-serveur-de-preprod.md`
+  - `site/src/data/biz/profils/elearning-creator.md`
+  - `site/src/data/marketing/tunnel/atelier.md`
+  - `site/src/data/tutos/comment-creer-un-serveur-de-preprod.md`
 - Vérification post-correction: `artifact_flags = 0` sur les contenus actifs parcours.
 
 ### Passe premium conversion (pages pivot)
 - Réécriture orientée conversion et pédagogie de 5 pages à fort impact:
-  - `src/data/biz/index.md`
-  - `src/data/marketing/fondamentaux.md`
-  - `src/data/seo/fondamentaux/bases-seo.md`
-  - `src/data/marketing/analytics/kpis.md`
-  - `src/data/marketing/tunnel/proramme-beta.md`
+  - `site/src/data/biz/index.md`
+  - `site/src/data/marketing/fondamentaux.md`
+  - `site/src/data/seo/fondamentaux/bases-seo.md`
+  - `site/src/data/marketing/analytics/kpis.md`
+  - `site/src/data/marketing/tunnel/proramme-beta.md`
 - Objectif: langage plus accessible, plan d'action plus direct, CTA et KPI plus clairs.
 - Validation post-passe:
   - liens actifs cassés: **0**
@@ -322,7 +322,7 @@
 ## 2026-03-02
 
 ### Parcours: UX + contenu
-- Harmonisation du langage sur 42 fiches parcours (`src/content/parcours/*.md`).
+- Harmonisation du langage sur 42 fiches parcours (`site/src/content/parcours/*.md`).
 - Ton simplifié et amical pour débutants, avec conservation des termes techniques importants quand utiles (SEO + pédagogie).
 - Structure éditoriale alignée sur toutes les fiches:
   - `Ton objectif`
@@ -336,7 +336,7 @@
   - `Idées de contenus pour aller plus loin`
 
 ### Parcours: cohérence vocabulaire modules
-- Renommage des modules/étapes pour cohérence "bases" dans `src/data/parcoursData.ts`:
+- Renommage des modules/étapes pour cohérence "bases" dans `site/src/data/parcoursData.ts`:
   - `Les bases du business en ligne`
   - `Les bases pour trouver des clients`
   - `Les bases du SEO`
@@ -351,22 +351,22 @@
 
 ### Contenus référencés: qualité & complétude
 - Réécriture complète de 9 contenus faibles référencés par les parcours:
-  - `src/data/outils/business/autres/crm.md`
-  - `src/data/tutos/implementer-un-gestionnaire-de-relations-clients.md`
-  - `src/data/tutos/comment-importer-des-produits-amazon-dans.md`
-  - `src/data/tutos/deployer-un-serveur.md`
-  - `src/data/tutos/envoyer-email-a-partir-de-wordpress.md`
-  - `src/data/marketing/email/strategie.md`
-  - `src/data/marketing/email/automation.md`
-  - `src/data/marketing/ads/google.md`
-  - `src/data/outils/creation/index.md`
+  - `site/src/data/outils/business/autres/crm.md`
+  - `site/src/data/tutos/implementer-un-gestionnaire-de-relations-clients.md`
+  - `site/src/data/tutos/comment-importer-des-produits-amazon-dans.md`
+  - `site/src/data/tutos/deployer-un-serveur.md`
+  - `site/src/data/tutos/envoyer-email-a-partir-de-wordpress.md`
+  - `site/src/data/marketing/email/strategie.md`
+  - `site/src/data/marketing/email/automation.md`
+  - `site/src/data/marketing/ads/google.md`
+  - `site/src/data/outils/creation/index.md`
 - Résultat audit après réécriture (contenus actifs référencés): `THIN_LT180 = 0`.
 - Vérification des liens internes sur ces 9 fichiers: `TARGET_FILES_BROKEN_LINKS = 0`.
 
 ### QA continu parcours
 - Ajout d'un audit automatisé des contenus actifs parcours:
-  - `scripts/audit_parcours_content.mjs`
-  - sortie JSON: `scripts/parcours_content_audit.json`
+  - `site/scripts/audit_parcours_content.mjs`
+  - sortie JSON: `site/scripts/parcours_content_audit.json`
   - rapport lisible: `PARCOURS_CONTENT_AUDIT.md`
   - grille: `PARCOURS_QUALITY_RUBRIC.md`
 - Ajout de la commande npm:

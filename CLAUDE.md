@@ -1,10 +1,10 @@
 ---
 artifact: agent_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.1"
+artifact_version: "1.1.0"
 project: gocharbon
 created: "2026-04-26"
-updated: "2026-06-12"
+updated: "2026-06-28"
 status: reviewed
 source_skill: sf-docs
 scope: agent
@@ -25,7 +25,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-GoCharbon (gocharbon.com) is a French-language educational blog platform for entrepreneurs, built with Astro 6. It uses the "Brutal" neobrutalist theme as a base. The site is fully static (SSG) with a large Markdown corpus organized in a hierarchical tag system.
+GoCharbon is a monorepo.
+
+- `site/`: French-language educational Astro surface for entrepreneurs
+- `app_quiz/`: Flutter quiz app with a legacy FastAPI backend
+- `shipflow_data/`: shared governance root
 
 ## Founder Memory
 
@@ -50,59 +54,59 @@ When generating or rewriting editorial content for GoCharbon, keep this founder 
 
 ### Founder reference file
 
-For founder/about/team positioning, use [`src/data/_founder.md`](/home/claude/gocharbon/src/data/_founder.md) as the canonical content reference.
-For entrepreneurial vision content aimed at readers, keep using [`src/data/_vision.md`](/home/claude/gocharbon/src/data/_vision.md).
+For founder/about/team positioning, use [`site/src/data/_founder.md`](/home/claude/gocharbon/site/src/data/_founder.md) as the canonical content reference.
+For entrepreneurial vision content aimed at readers, keep using [`site/src/data/_vision.md`](/home/claude/gocharbon/site/src/data/_vision.md).
 
 ## Commands
 
 ```bash
-pnpm dev          # Start dev server at http://localhost:3000 (network-accessible)
-pnpm build        # Build the current launch perimeter (homepage + 5 launch parcours + legal pages) to ./dist/
-pnpm build:full   # Build the full site to ./dist/
-pnpm preview      # Preview production build locally
+cd site && pnpm dev
+cd site && pnpm build
+cd site && pnpm build:full
+cd site && pnpm preview
 ```
 
-Package manager: **pnpm** (v8.6.0). No test suite is configured.
+Package manager for the site: **pnpm** (v8.6.0). `app_quiz/` keeps its own runtime and scripts.
 
 ## Architecture
 
 ### Framework & Integrations
 - **Astro 6** (static output, directory format, no trailing slashes)
 - **Vue 3** for interactive components (quiz, theme toggle) via `@astrojs/vue`
-- **UnoCSS** (Tailwind-compatible utility CSS) configured in `uno.config.ts`
+- **UnoCSS** (Tailwind-compatible utility CSS) configured in `site/uno.config.ts`
 - **Satori + resvg-js** for dynamic OG image generation at `/v1/generate/og/:slug.png`
 
 ### Shared Gamification Dependency
-- Runtime currently stays pinned to `@diane-winflowz/gamification` through the GitHub repo tarball commit recorded in `package.json` and `pnpm-lock.yaml`.
+- Runtime currently stays pinned to `@diane-winflowz/gamification` through the GitHub repo tarball commit recorded in `site/package.json` and `site/pnpm-lock.yaml`.
 - The accepted target strategy is a shared GitHub Packages package for `@diane-winflowz/gamification`, with explicit permissive license metadata and repository linkage.
 - Do not switch the consumer from the pinned GitHub source to `npm.pkg.github.com` until the upstream package publication is provable and exposes `license`, `repository`, and GitHub Packages-compatible publish metadata.
-- `.npmrc` maps the future package scope `@diane-winflowz` to `https://npm.pkg.github.com`; `minimum-release-age` was removed because this repo is pinned to `pnpm@8.6.0`, where that supply-chain setting is not a supported project `.npmrc` key.
+- `site/.npmrc` maps the future package scope `@diane-winflowz` to `https://npm.pkg.github.com`; `minimum-release-age` was removed because this repo is pinned to `pnpm@8.6.0`, where that supply-chain setting is not a supported project `.npmrc` key.
 
 ### Content System
-Posts live in `src/data/` as Markdown files with required frontmatter:
+Posts live in `site/src/data/` as Markdown files with required frontmatter:
 ```yaml
 title: string
 author: string
-tags: string[]       # Must match tags from src/components/tagHierarchy.ts
+tags: string[]       # Must match tags from site/src/components/tagHierarchy.ts
 description: string
 pubDate: "YYYY-MM-DD"
 imgUrl: ./path.png   # Relative image, processed by Astro
 draft: false         # Optional, defaults to false
 ```
 
-Content collection is defined in `src/content.config.ts` using Zod validation with a glob loader (`**/[^_]*.md` in `./src/data`).
+Content collection is defined in `site/src/content.config.ts` using Zod validation with a glob loader (`**/[^_]*.md` in `./site/src/data`).
 
 ### Routing
-- `src/pages/[...slug].astro` — Dynamic catch-all for blog posts (slug = post ID from collection)
-- `src/pages/blog.astro` — Blog listing with tag filtering
-- `src/pages/quiz.astro` — Interactive business quiz (Vue component)
-- `src/pages/feed.xml.js` — RSS feed
-- `src/pages/api/filter-posts.json.ts` — Tag filtering API endpoint with pagination
+- `site/src/pages/[...slug].astro` — Dynamic catch-all for blog posts (slug = post ID from collection)
+- `site/src/pages/blog.astro` — Blog listing with tag filtering
+- `site/src/pages/quiz.astro` — Interactive business quiz (Vue component)
+- `site/src/pages/feed.xml.js` — RSS feed
+- `site/src/pages/api/filter-posts.json.ts` — Tag filtering API endpoint with pagination
 
 ### Tag System
-Tags use a 3-level hierarchy defined in `src/components/tagHierarchy.ts`. Root categories: business, marketing, tech, contenu, seo, productivite, tutoriels, outils.
+Tags use a 3-level hierarchy defined in `site/src/components/tagHierarchy.ts`. Root categories: business, marketing, tech, contenu, seo, productivite, tutoriels, outils.
 
-Key filtering logic in `src/utils/static-responses.ts`:
+Key filtering logic in `site/src/utils/static-responses.ts`:
 - Parent tags are **ignored** when their subtags are selected (avoids redundancy)
 - All selected tags must match (AND logic)
 - Tag comparison is accent-insensitive and case-insensitive (NFD normalization)
@@ -122,11 +126,11 @@ When working on tool qualification or patriotic/local-economy positioning:
 
 1. Read `AGENTS.md`
 2. Use the skill at `skills/outils-qualification-locale/SKILL.md`
-3. Follow the public doctrine in `src/pages/methodologie.astro`
-4. Use `scripts/audit_outils_qualification.py` for coverage checks
-5. Use `scripts/prioritize_outils_qualification.py` to build the stable backlog
+3. Follow the public doctrine in `site/src/pages/methodologie.astro`
+4. Use `site/scripts/audit_outils_qualification.py` for coverage checks
+5. Use `site/scripts/prioritize_outils_qualification.py` to build the stable backlog
 6. Use `skills/outils-qualification-locale/scripts/build_qualification_batch.py` for lane-specific batches
-7. Run `scripts/qa_outils_qualification.py` before considering a batch complete
+7. Run `site/scripts/qa_outils_qualification.py` before considering a batch complete
 8. Remember that frontmatter decisions affect the public badge shown on tool cards and tool pages
 9. Default to one canonical tool page per product; only keep multiple pages when the editorial angle and search intent are truly distinct
 
@@ -149,11 +153,11 @@ Suggested multi-agent split:
 ```
 
 ### Layouts
-- `src/layouts/Default.astro` — Base layout with nav/footer
-- `src/layouts/Post.astro` — Blog post layout (wraps Default, adds sidebar + ToC)
+- `site/src/layouts/Default.astro` — Base layout with nav/footer
+- `site/src/layouts/Post.astro` — Blog post layout (wraps Default, adds sidebar + ToC)
 
 ### Styling
-UnoCSS shortcuts for the neobrutalist design system: `brutal-card`, `brutal-btn`, `brutal-pill`, `brutal-filter-pill`. Color palette defined in `uno.config.ts` with dark mode support. Primary font: Sanchez (serif).
+UnoCSS shortcuts for the neobrutalist design system: `brutal-card`, `brutal-btn`, `brutal-pill`, `brutal-filter-pill`. Color palette defined in `site/uno.config.ts` with dark mode support. Primary font: Sanchez (serif).
 
 ## Content Guidelines (from .cursorrules)
 
@@ -168,4 +172,4 @@ UnoCSS shortcuts for the neobrutalist design system: `brutal-card`, `brutal-btn`
 
 - Prefer focused reads (`rg` + targeted file sections) over broad scans.
 - Keep claims tied to observable repo evidence (files, scripts, config, routes).
-- When docs change behavior or constraints, update `AGENT.md`, `CONTEXT.md`, `CONTEXT-FUNCTION-TREE.md`, and `ARCHITECTURE.md` together.
+- When docs change behavior or constraints, update the canonical files in `shipflow_data/` together.

@@ -17,11 +17,11 @@ risk_level: "high"
 security_impact: "yes"
 docs_impact: "yes"
 linked_systems:
-  - "package.json"
-  - "pnpm-lock.yaml"
+  - "site/package.json"
+  - "site/pnpm-lock.yaml"
   - "package-lock.json"
   - ".npmrc"
-  - "astro.config.mjs"
+  - "site/astro.config.mjs"
   - "astro.config.ts"
   - ".github/dependabot.yml"
   - "DEPENDENCY_OVERRIDES.md"
@@ -79,7 +79,7 @@ Quand l'agent lance ce chantier, il doit traiter les vulnerabilites et incoheren
 
 # Success Behavior
 
-- Given the current Astro 5 project with `pnpm@8.6.0`, when the fix pass completes, then `package.json` and `pnpm-lock.yaml` are aligned and the dependency graph no longer contains the critical/high advisories that have safe non-major resolutions.
+- Given the current Astro 5 project with `pnpm@8.6.0`, when the fix pass completes, then `site/package.json` and `site/pnpm-lock.yaml` are aligned and the dependency graph no longer contains the critical/high advisories that have safe non-major resolutions.
 - Given GoCharbon builds a limited `parcours` launch perimeter by default, when `pnpm build` is run after dependency changes, then the build succeeds and keeps the intended static output behavior.
 - Given the repo uses pnpm, when dependency metadata is reviewed, then `package-lock.json` is removed or explicitly justified only if an npm workflow is discovered.
 - Given dependency updates remain ongoing operational work, when the spec is implemented, then Dependabot or Renovate is configured for pnpm/npm and GitHub Actions without auto-merging risky majors.
@@ -101,7 +101,7 @@ The dependency audit found a high-risk supply-chain state:
 - `pnpm audit` reports 40 advisories: 1 critical, 19 high, 15 moderate, 5 low.
 - Critical/high findings are mostly transitive through build/static-generation packages: `fast-xml-parser`, `rollup`, `postcss`, `immutable`, `minimatch`, `vite`, and related tooling.
 - Some advisories point toward Astro 6, but Astro 6 is a major migration and official docs list breaking-change categories, including Node version requirements and Vite-related migration concerns.
-- The repo declares `packageManager: pnpm@8.6.0`, but also commits `package-lock.json`, which is stale relative to `package.json` and `pnpm-lock.yaml`.
+- The repo declares `packageManager: pnpm@8.6.0`, but also commits `package-lock.json`, which is stale relative to `site/package.json` and `site/pnpm-lock.yaml`.
 - No update automation is configured.
 - Node runtime is not pinned.
 - `astro-breadcrumbs@3.3.3` appears as GPL-3.0 in local package metadata.
@@ -166,10 +166,10 @@ Run a conservative dependency stabilization pass in two lanes:
 
 # Invariants
 
-- `pnpm-lock.yaml` remains the source of dependency truth.
+- `site/pnpm-lock.yaml` remains the source of dependency truth.
 - `pnpm build` must still run the launch perimeter build with `PARCOURS_ONLY_BUILD=1 astro build`.
 - `pnpm build:full` is desirable validation but can be slower and may expose unrelated content issues; if it fails, classify whether the failure is caused by dependency changes.
-- `astro.config.mjs` is treated as active because project docs and current references point to it.
+- `site/astro.config.mjs` is treated as active because project docs and current references point to it.
 - `astro.config.ts` must not silently diverge further; either remove it if confirmed dead or document why it remains.
 - Public pages must not gain runtime server behavior; output remains `static`.
 
@@ -205,7 +205,7 @@ Run a conservative dependency stabilization pass in two lanes:
 # Implementation Tasks
 
 - [ ] Task 1: Capture a clean baseline
-  - File: `package.json`, `pnpm-lock.yaml`, `.npmrc`
+  - File: `site/package.json`, `site/pnpm-lock.yaml`, `.npmrc`
   - Action: Run `GITHUB_TOKEN=dummy corepack pnpm audit --json`, `GITHUB_TOKEN=dummy corepack pnpm outdated`, `corepack pnpm why fast-xml-parser rollup postcss immutable minimatch vite devalue`, and `pnpm build` if dependencies are currently installable.
   - User story link: proves the starting risk and build state before mutation.
   - Depends on: none
@@ -221,7 +221,7 @@ Run a conservative dependency stabilization pass in two lanes:
   - Notes: If a hidden deployment platform requires npm, stop and ask for an explicit package-manager decision.
 
 - [ ] Task 3: Add runtime and package-manager guardrails
-  - File: `package.json`
+  - File: `site/package.json`
   - Action: Add `engines` for Node and pnpm, using Node `>=22.12.0` and pnpm compatible with `8.6.0`; keep `packageManager: "pnpm@8.6.0"`.
   - User story link: makes installs reproducible across local/dev/deploy.
   - Depends on: Task 2
@@ -229,7 +229,7 @@ Run a conservative dependency stabilization pass in two lanes:
   - Notes: Do not use pnpm 10-only settings in this project unless upgrading pnpm is explicitly scoped.
 
 - [ ] Task 4: Apply safe non-major security updates
-  - File: `package.json`, `pnpm-lock.yaml`
+  - File: `site/package.json`, `site/pnpm-lock.yaml`
   - Action: Update patch/minor direct packages likely to resolve advisories first: `@astrojs/rss`, `@astrojs/sitemap`, `@vitejs/plugin-vue`, `@astrojs/vue` within v5 only if available, Vue patch, UnoCSS patch family, Sass patch/minor, eslint-plugin-astro patch/minor, and related tooling within current majors.
   - User story link: removes known vulnerabilities without a migration-sized blast radius.
   - Depends on: Task 3
@@ -237,7 +237,7 @@ Run a conservative dependency stabilization pass in two lanes:
   - Notes: Do not upgrade `astro` to v6, `@astrojs/vue` to v6, `eslint` to v10, `@eliancodes/brutal-ui` to v1, or `satori` to v0.26 in this task.
 
 - [ ] Task 5: Add targeted pnpm overrides only for unresolved vulnerable transitives
-  - File: `package.json`, `pnpm-lock.yaml`, `DEPENDENCY_OVERRIDES.md`
+  - File: `site/package.json`, `site/pnpm-lock.yaml`, `DEPENDENCY_OVERRIDES.md`
   - Action: If high/critical findings remain and parent updates cannot resolve them inside current majors, add minimal `pnpm.overrides` entries for patched versions listed by `pnpm audit` (`fast-xml-parser`, `devalue`, `minimatch`, `rollup`, `postcss`, `immutable`, etc.) only after checking `pnpm why`; for every override, create or update `DEPENDENCY_OVERRIDES.md` with package, forced version, advisory ID/CVE/GHSA where available, upstream parent, reason, validation command, owner, date, and removal condition.
   - User story link: closes transitive exposure without forcing major framework migration.
   - Depends on: Task 4
@@ -245,15 +245,15 @@ Run a conservative dependency stabilization pass in two lanes:
   - Notes: Do not use `TASKS.md` as the override rationale store; it is for task state only.
 
 - [ ] Task 6: Resolve `astro-breadcrumbs` license risk
-  - File: `src/components/components/BaseNavigation.astro`, `src/config/breadcrumbs.ts`, `package.json`, `pnpm-lock.yaml`
-  - Action: Replace `astro-breadcrumbs` with a tiny local breadcrumb renderer, remove `src/config/breadcrumbs.ts` if it becomes unused, and remove `astro-breadcrumbs` from dependencies.
+  - File: `site/src/components/components/BaseNavigation.astro`, `site/src/config/breadcrumbs.ts`, `site/package.json`, `site/pnpm-lock.yaml`
+  - Action: Replace `astro-breadcrumbs` with a tiny local breadcrumb renderer, remove `site/src/config/breadcrumbs.ts` if it becomes unused, and remove `astro-breadcrumbs` from dependencies.
   - User story link: prevents shipping a license risk as accidental technical debt.
   - Depends on: Task 1
   - Validate with: `rg "astro-breadcrumbs"` returns no runtime imports if replaced, and affected pages render/build.
   - Notes: Keep visual behavior equivalent; do not redesign navigation. If replacement proves larger than this bounded local change, stop and split a new spec rather than accepting GPL-3.0 by default.
 
 - [ ] Task 7: Handle deprecated or unused direct dependencies
-  - File: `package.json`, `pnpm-lock.yaml`, relevant imports
+  - File: `site/package.json`, `site/pnpm-lock.yaml`, relevant imports
   - Action: Verify usage of `lucide-astro`, `@vitejs/plugin-vue`, `@eliancodes/brutal-ui`, and `gsap`; remove unused direct dependencies or leave with a documented reason.
   - User story link: reduces attack surface and maintenance noise.
   - Depends on: Task 4
@@ -261,12 +261,12 @@ Run a conservative dependency stabilization pass in two lanes:
   - Notes: `lucide-astro` is used in `BaseNavigation.astro`; replacing it should be a separate scoped change unless the package creates an audit blocker.
 
 - [ ] Task 8: Clean duplicate Astro config
-  - File: `astro.config.ts`, `astro.config.mjs`
-  - Action: Confirm `astro.config.mjs` is the active config; remove or archive `astro.config.ts` if it is dead and divergent.
+  - File: `astro.config.ts`, `site/astro.config.mjs`
+  - Action: Confirm `site/astro.config.mjs` is the active config; remove or archive `astro.config.ts` if it is dead and divergent.
   - User story link: avoids future dependency/build fixes being applied to the wrong config.
   - Depends on: Task 1
   - Validate with: `corepack pnpm astro check` if available, or `corepack pnpm build`.
-  - Notes: Preserve all active settings in `astro.config.mjs`.
+  - Notes: Preserve all active settings in `site/astro.config.mjs`.
 
 - [ ] Task 9: Add update automation
   - File: `.github/dependabot.yml` or `renovate.json`
@@ -286,7 +286,7 @@ Run a conservative dependency stabilization pass in two lanes:
 
 # Acceptance Criteria
 
-- [ ] CA 1: Given the current repo declares pnpm, when dependency files are inspected, then `pnpm-lock.yaml` is the only committed package-manager lockfile unless an npm workflow is explicitly documented.
+- [ ] CA 1: Given the current repo declares pnpm, when dependency files are inspected, then `site/pnpm-lock.yaml` is the only committed package-manager lockfile unless an npm workflow is explicitly documented.
 - [ ] CA 2: Given the baseline audit has 1 critical and 19 high advisories, when non-major fixes complete, then `pnpm audit --audit-level high` reports zero critical/high advisories or every remaining critical/high item is explicitly classified as major-migration-blocked with evidence.
 - [ ] CA 3: Given the site output is static, when `pnpm build` runs after dependency changes, then it completes successfully and does not change the intended launch perimeter behavior.
 - [ ] CA 4: Given Astro 6 is a major migration, when implementation touches `astro`, then it must not upgrade to v6 inside this spec; any Astro 6 need is routed to `/sf-migrate`.
@@ -329,12 +329,12 @@ Run a conservative dependency stabilization pass in two lanes:
 
 Read first:
 
-- `package.json`
-- `pnpm-lock.yaml`
+- `site/package.json`
+- `site/pnpm-lock.yaml`
 - `.npmrc`
-- `astro.config.mjs`
-- `src/components/components/BaseNavigation.astro`
-- `src/config/breadcrumbs.ts`
+- `site/astro.config.mjs`
+- `site/src/components/components/BaseNavigation.astro`
+- `site/src/config/breadcrumbs.ts`
 - `DEPENDENCY_OVERRIDES.md` if it exists
 - `TASKS.md`
 

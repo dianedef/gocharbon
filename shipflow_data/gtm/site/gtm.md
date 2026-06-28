@@ -18,15 +18,15 @@ proof_points: "contenu anti-bullshit documenté, parcours structurés pour profi
 security_impact: unknown
 docs_impact: yes
 evidence:
-  - "L'architecture `src/pages/parcours.astro` et `src/content/parcours` supporte un parcours de conversion"
-  - "Le projet expose des pages quiz et progression dans `src/pages`"
+  - "L'architecture `site/src/pages/parcours.astro` et `site/src/content/parcours` supporte un parcours de conversion"
+  - "Le projet expose des pages quiz et progression dans `site/src/pages`"
   - "La documentation de marque et business fixe déjà les limites de promesse et le positionnement"
 linked_artifacts:
-  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/business/business.md"
   - "shipflow_data/branding/branding.md"
   - "shipflow_data/product/site/product.md"
 depends_on:
-  - artifact: "shipflow_data/business/site/business.md"
+  - artifact: "shipflow_data/business/business.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
   - artifact: "shipflow_data/product/site/product.md"
@@ -75,7 +75,7 @@ GoCharbon se positionne comme un accélérateur d'exécution : moins d'infos inu
 
 ## Preuves
 
-- Produit éditorial déjà dense : `src/pages/parcours.astro` + nombreuses pages métier.
+- Produit éditorial déjà dense : `site/src/pages/parcours.astro` + nombreuses pages métier.
 - Parcours d'activation structurés, quiz et logique de progression en place.
 - Alignement de marque sur la voix anti-bullshit deja documente dans `shipflow_data/branding/branding.md`.
 

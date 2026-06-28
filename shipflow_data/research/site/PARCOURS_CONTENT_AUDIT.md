@@ -32,5 +32,5 @@ Date audit: 2026-03-03T05:24:15.019Z
 ## Fichiers de référence
 
 - Grille qualité: `PARCOURS_QUALITY_RUBRIC.md`
-- Rapport machine: `scripts/parcours_content_audit.json`
-- Script: `scripts/audit_parcours_content.mjs`
+- Rapport machine: `site/scripts/parcours_content_audit.json`
+- Script: `site/scripts/audit_parcours_content.mjs`

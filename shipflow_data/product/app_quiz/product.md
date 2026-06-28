@@ -1,9 +1,36 @@
 ---
 artifact: product_context
+metadata_schema_version: "1.0"
 artifact_version: "1.1.0"
 project: "gocharbon_quiz"
+created: "2026-04-27"
 updated: "2026-04-27"
 status: reviewed
+source_skill: manual
+scope: product
+owner: "dianedef"
+confidence: medium
+risk_level: medium
+security_impact: low
+docs_impact: yes
+target_user: "visiteur francophone qui veut un diagnostic business rapide et un prochain pas concret"
+user_problem: "l'utilisateur ne sait pas quel type de business ou quelle prochaine action prioriser"
+desired_outcomes: "compléter un quiz court, obtenir un diagnostic utile, cliquer vers la bonne ressource GoCharbon"
+non_goals: "devenir une marque indépendante, remplacer un LMS, ou promettre une transformation complète dans le quiz"
+depends_on:
+  - artifact: "shipflow_data/business/business.md"
+    artifact_version: "1.0.0"
+    required_status: "reviewed"
+  - artifact: "shipflow_data/branding/branding.md"
+    artifact_version: "1.0.0"
+    required_status: "reviewed"
+supersedes: []
+evidence:
+  - "app_quiz/flutter_app"
+  - "app_quiz/backend"
+  - "shipflow_data/business/app_quiz/business.md"
+next_review: "2026-07-28"
+next_step: "/sf-docs verify shipflow_data/product/app_quiz/product.md"
 ---
 
 # Product Context

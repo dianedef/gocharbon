@@ -20,14 +20,14 @@ docs_impact: yes
 linked_systems:
   - "/home/claude/gocharbon/shipflow_data/branding/branding.md"
   - "/home/claude/gocharbon/shipflow_data/technical/site/design-system-authority.md"
-  - "/home/claude/gocharbon/src/styles/global.css"
+  - "/home/claude/gocharbon/site/src/styles/global.css"
 depends_on:
   - artifact: "/home/claude/gocharbon/shipflow_data/technical/site/design-system-authority.md"
     artifact_version: "1.0.0"
     required_status: draft
 supersedes: []
 evidence:
-  - "Color and visual conventions are currently centralized in src/styles/global.css"
+  - "Color and visual conventions are currently centralized in site/src/styles/global.css"
 next_step: "/sf-ready gocharbon gocharbon design-system authority hardening"
 ---
 # Spec: GoCharbon – Design-System Authority Hardening
@@ -46,7 +46,7 @@ GoCharbon est un site web (Astro + Vue). Le contrat visuel doit rester piloté p
 
 - `shipflow_data/branding/branding.md`
 - `shipflow_data/technical/site/design-system-authority.md` (declaratif)
-- `src/styles/global.css` (carrier technique)
+- `site/src/styles/global.css` (carrier technique)
 
 ## Contrat minimal
 
@@ -58,8 +58,8 @@ Toute évolution UI doit :
 
 ## In scope
 
-- `src/styles/global.css`
-- `src/pages/**`, `src/components/**`, `src/layouts/**`
+- `site/src/styles/global.css`
+- `site/src/pages/**`, `site/src/components/**`, `site/src/layouts/**`
 - `shipflow_data/technical/site/design-system-authority.md`
 - `shipflow_data/workflow/verification/gocharbon-design-system-authority-hardening.md`
 

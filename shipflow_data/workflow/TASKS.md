@@ -14,7 +14,7 @@
   - status: todo
   - area: design
   - scope: website
-  - action: harden design rules so UI changes must use centralized tokens from `src/styles/global.css` and `shipflow_data/technical/site/design-system-authority.md`
+  - action: harden design rules so UI changes must use centralized tokens from `site/src/styles/global.css` and `shipflow_data/technical/site/design-system-authority.md`
   - linked_specs:
     - shipflow_data/workflow/specs/gocharbon-design-system-authority-hardening.md
     - shipflow_data/workflow/verification/gocharbon-design-system-authority-hardening.md
@@ -50,7 +50,7 @@ The following content was preserved from `/home/claude/shipflow_data/projects/go
 - [ ] 🟠 Remplacer les visuels faibles, placeholders ou signaux cheap encore visibles sur le périmètre pilote.
 - [ ] 🟠 Ouvrir la propriété Search Console et soumettre le sitemap limité une fois les 5 parcours pilotes validés.
 - [ ] 🟡 Étendre ensuite progressivement la surface indexable `parcours` fiche par fiche, après relecture et validation manuelle.
-- [x] 🟡 Sortir les 94 fichiers `to_decide/` du build Astro en les gardant hors de `src/data` et `src/content` — confirmé, ils ne bloquent plus l'indexation.
+- [x] 🟡 Sortir les 94 fichiers `to_decide/` du build Astro en les gardant hors de `site/src/data` et `site/src/content` — confirmé, ils ne bloquent plus l'indexation.
 - [ ] 🟠 Remplacer l'image placeholder `astro.jpeg` sur les fiches encore exposées.
 - [ ] 🟠 Réécrire les descriptions génériques d'outils et autres métadonnées faibles sur les fiches encore exposées.
 
@@ -58,14 +58,14 @@ The following content was preserved from `/home/claude/shipflow_data/projects/go
 
 - [x] ✅ Chantier `dependency security stabilization` terminé (`/sf-start`, 2026-04-27).
 - [x] 🔴 Corriger les advisories `pnpm audit` sans upgrade majeur automatique: critic/high passés de `1/19` à `0/0`; reste `8 moderate` + `3 low` (majoritairement chaîne Astro 5, à traiter via `/sf-migrate astro@6`).
-- [x] 🟠 Résoudre la dérive de gestionnaire: `package-lock.json` supprimé, `pnpm-lock.yaml` conservé source de vérité.
+- [x] 🟠 Résoudre la dérive de gestionnaire: `package-lock.json` supprimé, `site/pnpm-lock.yaml` conservé source de vérité.
 - [x] 🟠 Ajouter une automatisation de mises à jour dépendances (`dependabot` ou `renovate`) couvrant npm/pnpm et GitHub Actions, avec revue humaine pour les majors.
 - [x] 🟠 Trancher le risque licence: `astro-breadcrumbs@3.3.3` retiré et remplacé par un fil d'Ariane local.
 - [x] 🟡 Épingler la version runtime Node (`engines`, `.nvmrc` ou `.node-version`) et aligner CI/déploiement.
 - [x] 🟡 Vérifier puis supprimer ou reclasser les dépendances directes probablement inutilisées: `@vitejs/plugin-vue`, `@eliancodes/brutal-ui`, `gsap` supprimées.
 - [x] 🟡 Documenter la provenance/licence de `@diane-winflowz/gamification` et surveiller le tarball GitHub direct sans checksum SRI classique (doc + alias de build ajoutés).
 - [x] 🟡 Remplacer ou assumer `lucide-astro`, signalé deprecated par `pnpm outdated` (assumé temporairement; migration non-bloquante vers `@lucide/astro` à planifier).
-- [x] 🟡 Nettoyer la configuration active: `astro.config.mjs` confirmée active, `astro.config.ts` supprimé.
+- [x] 🟡 Nettoyer la configuration active: `site/astro.config.mjs` confirmée active, `astro.config.ts` supprimé.
 
 ### Audit: OpenAI Freshness (2026-04-27)
 
@@ -133,8 +133,8 @@ The following content was preserved from `/home/claude/shipflow_data/projects/go
 ### Centralisation branding + routes (2026-03-26)
 
 **Done:**
-- [x] Ajouter une source de vérité branding (`src/config/site.ts`) pour le nom du site, le domaine, les URLs absolues et les métadonnées globales
-- [x] Ajouter une source de vérité des routes internes (`src/config/routes.ts`) pour les chemins récurrents (`/quiz`, `/parcours`, `/outils`, `/blog`, etc.)
+- [x] Ajouter une source de vérité branding (`site/src/config/site.ts`) pour le nom du site, le domaine, les URLs absolues et les métadonnées globales
+- [x] Ajouter une source de vérité des routes internes (`site/src/config/routes.ts`) pour les chemins récurrents (`/quiz`, `/parcours`, `/outils`, `/blog`, etc.)
 - [x] Rebrancher les composants globaux (SEO, navigation, footer, feed, bio, CTA, quiz, pages piliers) sur ces configurations
 - [x] Valider techniquement le refactor via `npm run build:no-outils`
 
@@ -168,7 +168,7 @@ The following content was preserved from `/home/claude/shipflow_data/projects/go
 ### Cluster Copywriting (2026-03-23)
 
 **Done:**
-- [x] Créer `src/data/marketing/copywriting/` (14 articles, ~25 400 mots)
+- [x] Créer `site/src/data/marketing/copywriting/` (14 articles, ~25 400 mots)
 - [x] Pillar page + 4 spokes P0 (frameworks, niveaux-conscience, big-idea, titres-accroches)
 - [x] 6 spokes P1 (storytelling-vente, email-sequences, croyances, fascinations, offres-irresistibles, landing-pages)
 - [x] 3 spokes P2 (direct-response, polarisation, open-loops)
@@ -190,7 +190,7 @@ The following content was preserved from `/home/claude/shipflow_data/projects/go
 - [x] Harmoniser le ton et le vocabulaire sur 42 fiches parcours (débutant + accompagnement).
 - [x] Conserver la technicité utile avec explication contextuelle (ex: CTR, CPA, ROAS, CVR, MRR, churn).
 - [x] Uniformiser les sections éditoriales de chaque fiche pour améliorer la lecture.
-- [x] Harmoniser les intitulés des modules (`bases`) dans `src/data/parcoursData.ts`.
+- [x] Harmoniser les intitulés des modules (`bases`) dans `site/src/data/parcoursData.ts`.
 - [x] Vérifier les liens actifs parcours (étapes + liens utiles): **0 lien cassé**.
 - [x] Corriger les liens cassés détectés:
   - [x] `/tutos/construire-un-calendrier-editorial-qui` -> `/tutos/comment-construire-un-calendrier-editorial-qui`
@@ -210,8 +210,8 @@ The following content was preserved from `/home/claude/shipflow_data/projects/go
   - [x] contenus actifs faibles `< 180 mots` -> **0**
   - [x] liens internes cassés sur ces 9 contenus -> **0**
 - [x] Mise en place d'un audit automatisé parcours:
-  - [x] script `scripts/audit_parcours_content.mjs`
-  - [x] sortie machine `scripts/parcours_content_audit.json`
+  - [x] script `site/scripts/audit_parcours_content.mjs`
+  - [x] sortie machine `site/scripts/parcours_content_audit.json`
   - [x] grille `PARCOURS_QUALITY_RUBRIC.md`
   - [x] rapport `PARCOURS_CONTENT_AUDIT.md`
 

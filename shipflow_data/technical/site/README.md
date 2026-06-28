@@ -60,8 +60,8 @@ Conséquence directe pour la rédaction :
 
 Fichiers de référence :
 
-- [`src/data/_founder.md`](/home/claude/gocharbon/src/data/_founder.md) pour les textes de présentation fondatrice et d'identité de marque
-- [`src/data/_vision.md`](/home/claude/gocharbon/src/data/_vision.md) pour les textes de vision entrepreneuriale et d'accompagnement business
+- [`site/src/data/_founder.md`](/home/claude/gocharbon/site/src/data/_founder.md) pour les textes de présentation fondatrice et d'identité de marque
+- [`site/src/data/_vision.md`](/home/claude/gocharbon/site/src/data/_vision.md) pour les textes de vision entrepreneuriale et d'accompagnement business
 
 ### Langue
 
@@ -286,7 +286,7 @@ draft: false
 
 ### Tags
 
-- Utiliser uniquement les tags définis dans `src/components/tagHierarchy.ts`
+- Utiliser uniquement les tags définis dans `site/src/components/tagHierarchy.ts`
 - Hiérarchie à 3 niveaux : catégorie racine -> sous-catégorie -> tag spécifique
 - Catégories racines : business, marketing, tech, contenu, seo, productivite, tutoriels, outils
 - Choisir les tags les plus spécifiques possibles (pas juste la catégorie racine)

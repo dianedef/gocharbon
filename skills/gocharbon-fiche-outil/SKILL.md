@@ -19,7 +19,7 @@ Si c'est un nom sans URL, commencer par une recherche web pour trouver le site o
 ## Quick Start
 
 1. Rechercher l'outil sur internet (site officiel, mentions légales, tarifs).
-2. Vérifier s'il existe déjà dans `src/data/outils/`.
+2. Vérifier s'il existe déjà dans `site/src/data/outils/`.
 3. Évaluer la pertinence pour GoCharbon.
 4. Si pertinent : créer la fiche complète avec qualification locale.
 5. Si non pertinent : expliquer pourquoi et s'arrêter.
@@ -40,7 +40,7 @@ Si l'argument est un nom :
 
 #### 1.2 Vérifier les doublons
 
-Chercher dans `src/data/outils/` :
+Chercher dans `site/src/data/outils/` :
 
 ```bash
 grep -ri "nomdeloutil" src/data/outils/
@@ -100,7 +100,7 @@ Attendre la validation de l'utilisateur avant de passer à la Phase 3.
 
 #### 3.1 Catégorie et sous-catégorie
 
-Inspecter les dossiers existants dans `src/data/outils/` :
+Inspecter les dossiers existants dans `site/src/data/outils/` :
 
 ```
 business/     (admin, comptabilite, crm, finance, legal, rh, autres)
@@ -129,7 +129,7 @@ Lire 1-2 fiches dans le même dossier cible pour aligner :
 
 #### 4.1 Structure obligatoire
 
-Suivre le template dans [`src/data/outils/_template.md`](../../src/data/outils/_template.md).
+Suivre le template dans [`site/src/data/outils/_template.md`](../../src/data/outils/_template.md).
 
 Sections dans cet ordre :
 
@@ -221,7 +221,7 @@ Remplir les champs selon les règles du skill [`outils-qualification-locale`](..
 
 Checklist avant de considérer la fiche terminée :
 
-- [ ] Le fichier est au bon emplacement dans `src/data/outils/<categorie>/`
+- [ ] Le fichier est au bon emplacement dans `site/src/data/outils/<categorie>/`
 - [ ] Le frontmatter est complet (toutes les sections obligatoires)
 - [ ] Les champs de qualification locale sont remplis avec des sources
 - [ ] La description fait max 160 caractères
@@ -238,7 +238,7 @@ Ne **jamais** lancer de build (`pnpm build`) à la fin.
 
 ### L'outil existe déjà
 
-Si une fiche existe dans `src/data/outils/` :
+Si une fiche existe dans `site/src/data/outils/` :
 - Informer l'utilisateur : "Cet outil a déjà une fiche : `<chemin>`"
 - Proposer de mettre à jour (enrichir) plutôt que de créer un doublon
 - Si mise à jour demandée : fusionner les nouvelles infos PAR-DESSUS l'existant, ne rien supprimer
@@ -266,12 +266,12 @@ Si l'utilisateur fournit une liste d'outils :
 
 ## Ressources
 
-- Template outil : [`src/data/outils/_template.md`](../../src/data/outils/_template.md)
+- Template outil : [`site/src/data/outils/_template.md`](../../src/data/outils/_template.md)
 - Qualification locale : [`skills/outils-qualification-locale/SKILL.md`](../outils-qualification-locale/SKILL.md)
 - Champs frontmatter : [`skills/outils-qualification-locale/references/frontmatter-fields.md`](../outils-qualification-locale/references/frontmatter-fields.md)
 - Règles de qualification : [`skills/outils-qualification-locale/references/rubric.md`](../outils-qualification-locale/references/rubric.md)
-- Tag hierarchy : [`src/components/tagHierarchy.ts`](../../src/components/tagHierarchy.ts)
+- Tag hierarchy : [`site/src/components/tagHierarchy.ts`](../../src/components/tagHierarchy.ts)
 - Exemples de fiches réussies :
-  - `src/data/outils/ecommerce/innovorder.md` (outil restauration, qualification complète)
-  - `src/data/outils/communication/diabolocom.md` (qualification locale exemplaire)
-  - `src/data/outils/communication/aircall.md` (fiche longue et détaillée)
+  - `site/src/data/outils/ecommerce/innovorder.md` (outil restauration, qualification complète)
+  - `site/src/data/outils/communication/diabolocom.md` (qualification locale exemplaire)
+  - `site/src/data/outils/communication/aircall.md` (fiche longue et détaillée)

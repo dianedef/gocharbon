@@ -139,7 +139,7 @@ layout: "../../layouts/BlogPost.astro"
 
 ### Emplacement des fichiers
 
-Les images doivent être placées dans `src/content/blog/assets/` ou `public/assets/`
+Les images doivent être placées dans `site/src/content/blog/assets/` ou `site/public/assets/`
 
 ## Tone et Style
 
@@ -298,7 +298,7 @@ Voir `alternatives-appsumo.md` pour un exemple complet d'article conforme à ces
 
 ## Notes Astro
 
-- Les fichiers sont placés dans `src/content/blog/`
+- Les fichiers sont placés dans `site/src/content/blog/`
 - Layout utilisé: `layouts/BlogPost.astro`
 - Images optimisées avec la composante Image d'Astro
 - Le frontmatter est validé automatiquement par Astro

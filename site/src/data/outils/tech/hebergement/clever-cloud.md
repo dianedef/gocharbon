@@ -116,7 +116,7 @@ clever env set MY_VAR=value
 ### Runtimes et Langages
 
 - **Java** — JVM, Maven, Gradle, Play Framework. Le runtime historique de Clever Cloud, optimisé pour la performance
-- **Node.js** — Détection automatique via `package.json`, support des dernières versions LTS
+- **Node.js** — Détection automatique via `site/package.json`, support des dernières versions LTS
 - **PHP** — Support natif + FrankenPHP (le nouveau serveur PHP moderne)
 - **Python** — Django, Flask, FastAPI. Détection via `requirements.txt` ou `Pipfile`
 - **Ruby** — Rails, Sinatra. Buildpack Ruby optimisé

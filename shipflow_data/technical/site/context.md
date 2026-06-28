@@ -14,14 +14,14 @@ risk_level: "medium"
 security_impact: "none"
 docs_impact: "yes"
 evidence:
-  - "package.json"
-  - "astro.config.mjs"
-  - "src/content.config.ts"
-  - "src/pages"
-  - "src/components"
-  - "src/utils"
-  - "src/data"
-  - "src/gamification"
+  - "site/package.json"
+  - "site/astro.config.mjs"
+  - "site/src/content.config.ts"
+  - "site/src/pages"
+  - "site/src/components"
+  - "site/src/utils"
+  - "site/src/data"
+  - "site/src/gamification"
   - "scripts"
 depends_on:
   - "/home/claude/gocharbon/AGENT.md"
@@ -53,23 +53,23 @@ Le repo est principalement un site marketing/SEO + contenu, avec génération st
 ## Architecture réelle
 
 ### Couche route/page (Astro)
-- `src/pages/index.astro` → home
-- `src/pages/blog.astro` → liste blog
-- `src/pages/outils.astro`, `src/pages/outils/[category].astro`, `src/pages/tag/[tag].astro` → navigation outil/tags
-- `src/pages/parcours.astro`, `src/pages/parcours/[id].astro` → offre d'activation business
-- `src/pages/quiz.astro`, `src/pages/quiz-rapide.astro`, `src/pages/quiz-avance.astro`
-- `src/pages/progression.astro` + `src/pages/gamification.astro`
-- `src/pages/[...slug].astro` → rendu d'article/fiches
-- `src/pages/api/filter-posts.json.ts` → filtrage multi-tags (API statique + dynamique)
-- `src/pages/feed.xml.js` → flux RSS
+- `site/src/pages/index.astro` → home
+- `site/src/pages/blog.astro` → liste blog
+- `site/src/pages/outils.astro`, `site/src/pages/outils/[category].astro`, `site/src/pages/tag/[tag].astro` → navigation outil/tags
+- `site/src/pages/parcours.astro`, `site/src/pages/parcours/[id].astro` → offre d'activation business
+- `site/src/pages/quiz.astro`, `site/src/pages/quiz-rapide.astro`, `site/src/pages/quiz-avance.astro`
+- `site/src/pages/progression.astro` + `site/src/pages/gamification.astro`
+- `site/src/pages/[...slug].astro` → rendu d'article/fiches
+- `site/src/pages/api/filter-posts.json.ts` → filtrage multi-tags (API statique + dynamique)
+- `site/src/pages/feed.xml.js` → flux RSS
 
 ### Couche données et configuration
-- `src/content.config.ts` définit deux collections Astro:
+- `site/src/content.config.ts` définit deux collections Astro:
   - `posts` (slug glob, frontmatter étendu et validation Zod)
   - `parcours` (données YAML-like pour parcours)
-- `src/data` contient la majorité du contenu Markdown + méta business (parcours, articles, notes)
-- `src/config` centralise routes, site, tags, navigation, sections
-- `src/utils` centralise logique métier partagée:
+- `site/src/data` contient la majorité du contenu Markdown + méta business (parcours, articles, notes)
+- `site/src/config` centralise routes, site, tags, navigation, sections
+- `site/src/utils` centralise logique métier partagée:
   - sélection/tagging contenu
   - scopes de build et filtres publication
   - taxonomy outil
@@ -77,33 +77,33 @@ Le repo est principalement un site marketing/SEO + contenu, avec génération st
   - qualification metadata d'outils
 
 ### Couche UI
-- `src/layouts` : shell commun et layout article
-- `src/components/components` : composants Astro/JS
-- `src/components/vue` : islands Vue 3 (quiz, progression, toggles)
-- `src/components/ParcoursCallToAction.astro`, `src/gamification/*` pour la logique de parcours
+- `site/src/layouts` : shell commun et layout article
+- `site/src/components/components` : composants Astro/JS
+- `site/src/components/vue` : islands Vue 3 (quiz, progression, toggles)
+- `site/src/components/ParcoursCallToAction.astro`, `site/src/gamification/*` pour la logique de parcours
 
 ### Couche gamification
-- Stockage local via `localStorage` avec clés `charbon_*` (`src/gamification/storageKeys.ts`)
-- Tracking d'XP/progression (`src/gamification/xp.ts`, `src/gamification/pathProgress.ts`)
-- Sync optionnelle Convex côté navigateur (`src/gamification/convexSync.ts`) en fallback local
+- Stockage local via `localStorage` avec clés `charbon_*` (`site/src/gamification/storageKeys.ts`)
+- Tracking d'XP/progression (`site/src/gamification/xp.ts`, `site/src/gamification/pathProgress.ts`)
+- Sync optionnelle Convex côté navigateur (`site/src/gamification/convexSync.ts`) en fallback local
 - Dépendance runtime partagée consommée sous le scope `@diane-winflowz/gamification`
-- Source runtime actuelle: tarball GitHub figé sur commit dans `package.json`/`pnpm-lock.yaml`
+- Source runtime actuelle: tarball GitHub figé sur commit dans `site/package.json`/`site/pnpm-lock.yaml`
 - Source de vérité cible acceptée: GitHub Packages pour ce scope, une fois publication amont prouvée avec licence permissive explicite et métadonnées repository/publish cohérentes
 
 ### Couche outils/scripts
-- `scripts/*.py|.ts|.mjs` : audits qualité, duplication, qualification, ordonnancement
+- `site/scripts/*.py|.ts|.mjs` : audits qualité, duplication, qualification, ordonnancement
 - `skills/*/SKILL.md` : workflows de contenu dédiés (qualification/outils/article research)
 
 ## Contraintes métier clés
 
-- La taxonomie de tags est hiérarchique (`src/components/tagHierarchy.ts`) et doit rester cohérente.
+- La taxonomie de tags est hiérarchique (`site/src/components/tagHierarchy.ts`) et doit rester cohérente.
 - Les flux de build doivent respecter les modes `PARCOURS_ONLY_BUILD` / `EXCLUDE_OUTILS_FROM_BUILD`.
 - `AGENTS.md` et `shipflow_data/technical/site/README.md` imposent un ton direct, anti-bullshit, en français.
 - Les décisions de qualification locale ne doivent pas être inférées par branding.
 
 ## Invariants à surveiller
 
-- Si la structure `src/content.config.ts` change, la logique de route/tags doit être réconciliée.
+- Si la structure `site/src/content.config.ts` change, la logique de route/tags doit être réconciliée.
 - Les changements de metadata outils impactent l'affichage public (badges, classement).
 - Une route dynamique API doit rester compatible cache/static-generation actuelle pour ne pas casser le SEO.
 - `shipflow_data/technical/site/context-function-tree.md` doit être mis à jour pour tout hotspot fonctionnel nouveau.

@@ -1,6 +1,6 @@
 ---
 name: gocharbon-article-research
-description: Créer ou mettre à jour un article GoCharbon à partir de recherches, notes, comparatifs, ou conclusions déjà établies dans la conversation. Use when the user wants a new GoCharbon article, a rewritten angle, a comparison piece, an opinionated article, or a small editorial series added under `src/data/**`. This skill is repo-specific: it selects the right content folder, follows GoCharbon tone and frontmatter conventions, and never runs or proposes a build at the end.
+description: Créer ou mettre à jour un article GoCharbon à partir de recherches, notes, comparatifs, ou conclusions déjà établies dans la conversation. Use when the user wants a new GoCharbon article, a rewritten angle, a comparison piece, an opinionated article, or a small editorial series added under `site/src/data/**`. This skill is repo-specific: it selects the right content folder, follows GoCharbon tone and frontmatter conventions, and never runs or proposes a build at the end.
 ---
 
 # GoCharbon Article Research
@@ -9,9 +9,9 @@ Créer un article GoCharbon exploitable directement dans le repo, sans dériver 
 
 ## Quick Start
 
-1. Lire [`src/data/_CONTENT_GUIDELINES.md`](../../src/data/_CONTENT_GUIDELINES.md).
-2. Vérifier le schéma dans [`src/content.config.ts`](../../src/content.config.ts).
-3. Inspecter les articles voisins dans le dossier cible sous `src/data/`.
+1. Lire [`site/src/data/_CONTENT_GUIDELINES.md`](../../src/data/_CONTENT_GUIDELINES.md).
+2. Vérifier le schéma dans [`site/src/content.config.ts`](../../src/content.config.ts).
+3. Inspecter les articles voisins dans le dossier cible sous `site/src/data/`.
 4. Choisir le bon angle éditorial avant d'écrire.
 5. Créer un nouveau fichier ou mettre à jour l'article demandé.
 6. Ne jamais lancer de build à la fin.
@@ -40,7 +40,7 @@ Déterminer d'abord :
 
 - nouveau fichier ou article existant
 - angle exact demandé par le user
-- section cible probable dans `src/data/`
+- section cible probable dans `site/src/data/`
 - niveau de fermeté attendu : explicatif, comparatif, ou opinion assumée
 
 Si le user dit explicitement de ne pas toucher un article existant, respecter ça strictement.
@@ -59,9 +59,9 @@ Si des faits récents doivent être vérifiés, faire la recherche nécessaire. 
 
 Toujours inspecter le repo avant d'écrire :
 
-- `src/data/_CONTENT_GUIDELINES.md`
-- `src/content.config.ts`
-- le dossier thématique pertinent sous `src/data/`
+- `site/src/data/_CONTENT_GUIDELINES.md`
+- `site/src/content.config.ts`
+- le dossier thématique pertinent sous `site/src/data/`
 - 1 ou 2 articles voisins pour aligner ton, frontmatter et profondeur
 
 Favoriser la taxonomie existante plutôt qu'une nouvelle arborescence.

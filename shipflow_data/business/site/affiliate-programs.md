@@ -14,10 +14,10 @@ risk_level: "medium"
 docs_impact: "yes"
 security_impact: "yes"
 monetization_surfaces:
-  - "src/data/outils"
-  - "src/pages/outils.astro"
-  - "src/pages/[...slug].astro"
-  - "src/content/parcours"
+  - "site/src/data/outils"
+  - "site/src/pages/outils.astro"
+  - "site/src/pages/[...slug].astro"
+  - "site/src/content/parcours"
   - "newsletter future"
 disclosure_policy: "Tout lien affilié ou placement rémunéré doit être signalé clairement avant ou autour du lien, avec une justification éditoriale indépendante."
 secrets_policy: "Ne jamais stocker dans ce fichier de token, identifiant de dashboard, lien privé d'administration, coordonnées bancaires, informations fiscales, contrat privé ou contact personnel de partenaire."
@@ -30,23 +30,23 @@ program_statuses:
 target_projects:
   - gocharbon
 evidence:
-  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/business/business.md"
   - "shipflow_data/product/site/product.md"
   - "shipflow_data/gtm/site/gtm.md"
   - "shipflow_data/branding/branding.md"
   - "shipflow_data/technical/site/README.md"
   - "shipflow_data/editorial/site/content-map.md"
   - "shipflow_data/research/site/SPEC-roadmap.md"
-  - "src/content.config.ts"
+  - "site/src/content.config.ts"
   - "scripts/migrate_outils.py"
-  - "src/data/outils/productivite/pcloud.md"
-  - "src/data/outils/formation/coacheasy.md"
-  - "src/data/outils/tech/ia/noota.md"
-  - "src/data/outils/tech/ia/sendshort.md"
-  - "src/data/outils/tech/ia/autres/merciapp.md"
-  - "src/data/outils/tech/ia/autres/novalya.md"
+  - "site/src/data/outils/productivite/pcloud.md"
+  - "site/src/data/outils/formation/coacheasy.md"
+  - "site/src/data/outils/tech/ia/noota.md"
+  - "site/src/data/outils/tech/ia/sendshort.md"
+  - "site/src/data/outils/tech/ia/autres/merciapp.md"
+  - "site/src/data/outils/tech/ia/autres/novalya.md"
 depends_on:
-  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/business/business.md"
   - "shipflow_data/product/site/product.md"
   - "shipflow_data/gtm/site/gtm.md"
   - "shipflow_data/branding/branding.md"
@@ -65,7 +65,7 @@ Ce registre gouverne les programmes d'affiliation, les liens rémunérés, les p
 
 Il ne remplace pas :
 
-- les fiches outils dans `src/data/outils` ;
+- les fiches outils dans `site/src/data/outils` ;
 - les champs de qualification locale (`qualificationLocale`, `ancrageEconomique`, `niveauResponsabilite`, `sourcesVerification`) ;
 - les preuves officielles à vérifier avant publication ;
 - un outil de stockage sécurisé pour secrets, contrats, fiscalité ou paiement.
@@ -120,17 +120,17 @@ Les informations sensibles doivent rester dans un coffre de secrets ou un outil 
 
 | Programme | Type | Statut | Preuve projet | Règle éditoriale |
 |---|---|---|---|---|
-| AppSumo | Lifetime deals / marketplace SaaS | `candidat` | `shipflow_data/business/site/business.md` | Utile pour les freelances équipés, mais toujours vérifier la survie produit, les limites du deal et les alternatives françaises. |
-| Vie De Dingue | Deals / écosystème francophone | `candidat` | `shipflow_data/business/site/business.md` | Intéressant si l'offre aide vraiment les indépendants francophones ; ne pas recommander pour la commission seule. |
-| Brevo | Emailing / CRM français | `candidat` | `shipflow_data/business/site/business.md` | Candidat naturel quand l'usage emailing est réel ; vérifier programme, conditions et fit avec alternatives. |
-| Lemlist | Prospection / outbound | `candidat` | `shipflow_data/business/site/business.md` | À réserver aux cas où le lecteur a déjà une offre et une cible claire ; ne pas vendre comme raccourci magique. |
-| Tolt | Plateforme affiliation SaaS | `candidat` | `shipflow_data/business/site/business.md` | À traiter comme infrastructure partenaire possible, pas comme recommandation grand public sans cas d'usage précis. |
-| pCloud | Stockage cloud | `présent à auditer` | `src/data/outils/productivite/pcloud.md` contient `u_affi` | Vérifier disclosure visible, conformité avec la qualification hors UE et absence de claim souveraineté exagéré. |
-| Coacheasy | Plateforme coaching | `présent à auditer` | `src/data/outils/formation/coacheasy.md` contient `u_site` et `u_affi` affiliés | Vérifier l'offre, le programme et les limites avant amplification publique. |
-| MerciApp | Correcteur français | `présent à auditer` | `src/data/outils/tech/ia/autres/merciapp.md` contient `u_affi` et une source affiliation | Vérifier le programme officiel et ajouter les sources de qualification locale si la fiche devient prioritaire. |
-| Novalya | Outil entrepreneur | `présent à auditer` | `src/data/outils/tech/ia/autres/novalya.md` contient `u_affi` | Fiche pauvre : ne pas pousser sans réécriture, preuve produit et disclosure. |
-| Noota | Transcription réunion | `présent à auditer` | `src/data/outils/tech/ia/noota.md` contient `u_affiAdmin` | Programme repéré, lien public affilié absent ; vérifier source officielle et fit audience. |
-| Sendshort | Création vidéo courte | `présent à auditer` | `src/data/outils/tech/ia/sendshort.md` contient `u_affiAdmin` | Ne recommander qu'avec un cas créateur clair et limites anti-promesse virale. |
+| AppSumo | Lifetime deals / marketplace SaaS | `candidat` | `shipflow_data/business/business.md` | Utile pour les freelances équipés, mais toujours vérifier la survie produit, les limites du deal et les alternatives françaises. |
+| Vie De Dingue | Deals / écosystème francophone | `candidat` | `shipflow_data/business/business.md` | Intéressant si l'offre aide vraiment les indépendants francophones ; ne pas recommander pour la commission seule. |
+| Brevo | Emailing / CRM français | `candidat` | `shipflow_data/business/business.md` | Candidat naturel quand l'usage emailing est réel ; vérifier programme, conditions et fit avec alternatives. |
+| Lemlist | Prospection / outbound | `candidat` | `shipflow_data/business/business.md` | À réserver aux cas où le lecteur a déjà une offre et une cible claire ; ne pas vendre comme raccourci magique. |
+| Tolt | Plateforme affiliation SaaS | `candidat` | `shipflow_data/business/business.md` | À traiter comme infrastructure partenaire possible, pas comme recommandation grand public sans cas d'usage précis. |
+| pCloud | Stockage cloud | `présent à auditer` | `site/src/data/outils/productivite/pcloud.md` contient `u_affi` | Vérifier disclosure visible, conformité avec la qualification hors UE et absence de claim souveraineté exagéré. |
+| Coacheasy | Plateforme coaching | `présent à auditer` | `site/src/data/outils/formation/coacheasy.md` contient `u_site` et `u_affi` affiliés | Vérifier l'offre, le programme et les limites avant amplification publique. |
+| MerciApp | Correcteur français | `présent à auditer` | `site/src/data/outils/tech/ia/autres/merciapp.md` contient `u_affi` et une source affiliation | Vérifier le programme officiel et ajouter les sources de qualification locale si la fiche devient prioritaire. |
+| Novalya | Outil entrepreneur | `présent à auditer` | `site/src/data/outils/tech/ia/autres/novalya.md` contient `u_affi` | Fiche pauvre : ne pas pousser sans réécriture, preuve produit et disclosure. |
+| Noota | Transcription réunion | `présent à auditer` | `site/src/data/outils/tech/ia/noota.md` contient `u_affiAdmin` | Programme repéré, lien public affilié absent ; vérifier source officielle et fit audience. |
+| Sendshort | Création vidéo courte | `présent à auditer` | `site/src/data/outils/tech/ia/sendshort.md` contient `u_affiAdmin` | Ne recommander qu'avec un cas créateur clair et limites anti-promesse virale. |
 
 
 https://scalify.com/affiliate/ 30% recurring
@@ -141,7 +141,7 @@ https://www.pcloud.com/fr/cloud-storage-pricing-plans.html?period=lifetime
 Avant d'ajouter ou promouvoir un lien affilié :
 
 1. Vérifier la page officielle du programme et ses conditions publiques.
-2. Vérifier que la fiche outil respecte le schéma Astro dans `src/content.config.ts`.
+2. Vérifier que la fiche outil respecte le schéma Astro dans `site/src/content.config.ts`.
 3. Ajouter ou compléter `sourcesVerification` quand l'information touche la qualification locale.
 4. Ajouter un disclaimer visible près du lien ou du bloc de recommandation.
 5. Vérifier que le contenu explique pourquoi l'outil est recommandé malgré le biais de commission.

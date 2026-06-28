@@ -18,14 +18,14 @@ risk_level: high
 security_impact: none
 docs_impact: yes
 linked_systems:
-  - "/home/claude/gocharbon/astro.config.mjs"
-  - "/home/claude/gocharbon/src/components/components/BaseNavigation.astro"
-  - "/home/claude/gocharbon/src/pages/[...slug].astro"
-  - "/home/claude/gocharbon/src/layouts/Post.astro"
-  - "/home/claude/gocharbon/src/data/**/*.md"
-  - "/home/claude/gocharbon/src/content/parcours/*.md"
-  - "/home/claude/gocharbon/src/data/parcoursData.ts"
-  - "/home/claude/gocharbon/src/utils"
+  - "/home/claude/gocharbon/site/astro.config.mjs"
+  - "/home/claude/gocharbon/site/src/components/components/BaseNavigation.astro"
+  - "/home/claude/gocharbon/site/src/pages/[...slug].astro"
+  - "/home/claude/gocharbon/site/src/layouts/Post.astro"
+  - "/home/claude/gocharbon/site/src/data/**/*.md"
+  - "/home/claude/gocharbon/site/src/content/parcours/*.md"
+  - "/home/claude/gocharbon/site/src/data/parcoursData.ts"
+  - "/home/claude/gocharbon/site/src/utils"
 depends_on:
   - artifact: "/home/claude/gocharbon/AGENT.md"
     artifact_version: "1.1.0"
