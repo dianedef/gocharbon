@@ -16,17 +16,17 @@ docs_impact: yes
 brand_voice: "Directe, utile, anti-bullshit, orientée action"
 trust_posture: "Promesses réalistes, preuve par usage, pas de posture guru"
 depends_on:
-  - artifact: "BUSINESS.md"
+  - artifact: "shipflow_data/app_quiz/business/business.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
 supersedes: []
 evidence:
-  - "BUSINESS.md"
+  - "shipflow_data/app_quiz/business/business.md"
   - "README.md"
   - "docs/copywriting/persona.md"
   - "docs/copywriting/strategie.md"
 next_review: "2026-05-26"
-next_step: "/sf-docs audit BRANDING.md"
+next_step: "/sf-docs audit shipflow_data/app_quiz/business/branding.md"
 ---
 # Branding — gocharbon_quiz
 

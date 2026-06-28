@@ -62,3 +62,4 @@ Primary flow:
 - Maintain deterministic API contracts between Flutter and FastAPI/Supabase.
 - Course recommendations and CTAs must reinforce the bridge to GoCharbon.
 - Avoid broad visual rewrites unless they improve completion or click-through.
+- Shared governance for this app lives under `../shipflow_data/app_quiz/` at the monorepo root.

@@ -85,7 +85,9 @@ pytest
 
 ## Documentation
 
-- [ARCHITECTURE.md](ARCHITECTURE.md)
+- [shipflow_data/app_quiz/technical/architecture.md](../shipflow_data/app_quiz/technical/architecture.md)
+- [shipflow_data/app_quiz/technical/guidelines.md](../shipflow_data/app_quiz/technical/guidelines.md)
+- [shipflow_data/app_quiz/business/product.md](../shipflow_data/app_quiz/business/product.md)
 - [docs/API.md](docs/API.md)
 - [docs/SUPABASE.md](docs/SUPABASE.md)
 - [flutter_app/README.md](flutter_app/README.md)

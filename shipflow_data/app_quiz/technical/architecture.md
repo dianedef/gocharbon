@@ -8,6 +8,8 @@ status: reviewed
 
 # Architecture
 
+La gouvernance technique partagee de cette application vit a `shipflow_data/app_quiz/technical/`.
+
 ## Cible
 
 - Flutter est la seule surface applicative du dépôt.
