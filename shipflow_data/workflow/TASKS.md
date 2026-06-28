@@ -14,7 +14,7 @@
   - status: todo
   - area: design
   - scope: website
-  - action: harden design rules so UI changes must use centralized tokens from `src/styles/global.css` and `shipflow_data/technical/design-system-authority.md`
+  - action: harden design rules so UI changes must use centralized tokens from `src/styles/global.css` and `shipflow_data/technical/site/design-system-authority.md`
   - linked_specs:
     - shipflow_data/workflow/specs/gocharbon-design-system-authority-hardening.md
     - shipflow_data/workflow/verification/gocharbon-design-system-authority-hardening.md

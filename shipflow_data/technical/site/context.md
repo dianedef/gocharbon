@@ -25,10 +25,10 @@ evidence:
   - "scripts"
 depends_on:
   - "/home/claude/gocharbon/AGENT.md"
-  - "/home/claude/gocharbon/shipflow_data/technical/README.md"
-  - "/home/claude/gocharbon/shipflow_data/technical/architecture.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/site/README.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/site/architecture.md"
 supersedes: []
-next_step: "/sf-docs update shipflow_data/technical/context.md"
+next_step: "/sf-docs update shipflow_data/technical/site/context.md"
 ---
 
 # CONTEXT — gocharbon
@@ -98,7 +98,7 @@ Le repo est principalement un site marketing/SEO + contenu, avec génération st
 
 - La taxonomie de tags est hiérarchique (`src/components/tagHierarchy.ts`) et doit rester cohérente.
 - Les flux de build doivent respecter les modes `PARCOURS_ONLY_BUILD` / `EXCLUDE_OUTILS_FROM_BUILD`.
-- `AGENTS.md` et `shipflow_data/technical/README.md` imposent un ton direct, anti-bullshit, en français.
+- `AGENTS.md` et `shipflow_data/technical/site/README.md` imposent un ton direct, anti-bullshit, en français.
 - Les décisions de qualification locale ne doivent pas être inférées par branding.
 
 ## Invariants à surveiller
@@ -106,4 +106,4 @@ Le repo est principalement un site marketing/SEO + contenu, avec génération st
 - Si la structure `src/content.config.ts` change, la logique de route/tags doit être réconciliée.
 - Les changements de metadata outils impactent l'affichage public (badges, classement).
 - Une route dynamique API doit rester compatible cache/static-generation actuelle pour ne pas casser le SEO.
-- `shipflow_data/technical/context-function-tree.md` doit être mis à jour pour tout hotspot fonctionnel nouveau.
+- `shipflow_data/technical/site/context-function-tree.md` doit être mis à jour pour tout hotspot fonctionnel nouveau.

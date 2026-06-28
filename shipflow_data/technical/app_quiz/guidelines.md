@@ -17,4 +17,4 @@ status: reviewed
 - Si une route ou un payload change, mettre à jour `docs/API.md`.
 - Si une commande change, mettre à jour `README.md`.
 - Si un env change, mettre à jour `.env.example` ou `backend/.env.example`.
-- La gouvernance produit et marque vit dans `shipflow_data/site/business/*.md` et `shipflow_data/app_quiz/*` au niveau du monorepo.
+- La gouvernance produit et marque vit dans `shipflow_data/product/app_quiz/`, `shipflow_data/gtm/app_quiz/`, `shipflow_data/business/app_quiz/`, et `shipflow_data/branding/branding.md` au niveau du monorepo.

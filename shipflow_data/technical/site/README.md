@@ -18,7 +18,7 @@ depends_on: []
 supersedes: []
 evidence: []
 next_review: "2026-07-27"
-next_step: /sf-docs audit shipflow_data/technical/README.md
+next_step: /sf-docs audit shipflow_data/technical/site/README.md
 ---
 # TECHNICAL GUIDELINES — Charte éditoriale & Règles opérationnelles
 

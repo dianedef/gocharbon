@@ -30,13 +30,13 @@ program_statuses:
 target_projects:
   - gocharbon
 evidence:
-  - "shipflow_data/site/business/business.md"
-  - "shipflow_data/site/business/product.md"
-  - "shipflow_data/site/business/gtm.md"
-  - "shipflow_data/site/business/branding.md"
-  - "shipflow_data/technical/README.md"
-  - "shipflow_data/site/editorial/content-map.md"
-  - "shipflow_data/site/research/SPEC-roadmap.md"
+  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/product/site/product.md"
+  - "shipflow_data/gtm/site/gtm.md"
+  - "shipflow_data/branding/branding.md"
+  - "shipflow_data/technical/site/README.md"
+  - "shipflow_data/editorial/site/content-map.md"
+  - "shipflow_data/research/site/SPEC-roadmap.md"
   - "src/content.config.ts"
   - "scripts/migrate_outils.py"
   - "src/data/outils/productivite/pcloud.md"
@@ -46,15 +46,15 @@ evidence:
   - "src/data/outils/tech/ia/autres/merciapp.md"
   - "src/data/outils/tech/ia/autres/novalya.md"
 depends_on:
-  - "shipflow_data/site/business/business.md"
-  - "shipflow_data/site/business/product.md"
-  - "shipflow_data/site/business/gtm.md"
-  - "shipflow_data/site/business/branding.md"
-  - "shipflow_data/technical/README.md"
-  - "shipflow_data/site/editorial/content-map.md"
+  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/product/site/product.md"
+  - "shipflow_data/gtm/site/gtm.md"
+  - "shipflow_data/branding/branding.md"
+  - "shipflow_data/technical/site/README.md"
+  - "shipflow_data/editorial/site/content-map.md"
 supersedes: []
 next_review: "2026-08-11"
-next_step: "/sf-docs audit shipflow_data/site/business/affiliate-programs.md"
+next_step: "/sf-docs audit shipflow_data/business/site/affiliate-programs.md"
 ---
 
 # Registre affiliation — GoCharbon
@@ -120,11 +120,11 @@ Les informations sensibles doivent rester dans un coffre de secrets ou un outil 
 
 | Programme | Type | Statut | Preuve projet | Règle éditoriale |
 |---|---|---|---|---|
-| AppSumo | Lifetime deals / marketplace SaaS | `candidat` | `shipflow_data/site/business/business.md` | Utile pour les freelances équipés, mais toujours vérifier la survie produit, les limites du deal et les alternatives françaises. |
-| Vie De Dingue | Deals / écosystème francophone | `candidat` | `shipflow_data/site/business/business.md` | Intéressant si l'offre aide vraiment les indépendants francophones ; ne pas recommander pour la commission seule. |
-| Brevo | Emailing / CRM français | `candidat` | `shipflow_data/site/business/business.md` | Candidat naturel quand l'usage emailing est réel ; vérifier programme, conditions et fit avec alternatives. |
-| Lemlist | Prospection / outbound | `candidat` | `shipflow_data/site/business/business.md` | À réserver aux cas où le lecteur a déjà une offre et une cible claire ; ne pas vendre comme raccourci magique. |
-| Tolt | Plateforme affiliation SaaS | `candidat` | `shipflow_data/site/business/business.md` | À traiter comme infrastructure partenaire possible, pas comme recommandation grand public sans cas d'usage précis. |
+| AppSumo | Lifetime deals / marketplace SaaS | `candidat` | `shipflow_data/business/site/business.md` | Utile pour les freelances équipés, mais toujours vérifier la survie produit, les limites du deal et les alternatives françaises. |
+| Vie De Dingue | Deals / écosystème francophone | `candidat` | `shipflow_data/business/site/business.md` | Intéressant si l'offre aide vraiment les indépendants francophones ; ne pas recommander pour la commission seule. |
+| Brevo | Emailing / CRM français | `candidat` | `shipflow_data/business/site/business.md` | Candidat naturel quand l'usage emailing est réel ; vérifier programme, conditions et fit avec alternatives. |
+| Lemlist | Prospection / outbound | `candidat` | `shipflow_data/business/site/business.md` | À réserver aux cas où le lecteur a déjà une offre et une cible claire ; ne pas vendre comme raccourci magique. |
+| Tolt | Plateforme affiliation SaaS | `candidat` | `shipflow_data/business/site/business.md` | À traiter comme infrastructure partenaire possible, pas comme recommandation grand public sans cas d'usage précis. |
 | pCloud | Stockage cloud | `présent à auditer` | `src/data/outils/productivite/pcloud.md` contient `u_affi` | Vérifier disclosure visible, conformité avec la qualification hors UE et absence de claim souveraineté exagéré. |
 | Coacheasy | Plateforme coaching | `présent à auditer` | `src/data/outils/formation/coacheasy.md` contient `u_site` et `u_affi` affiliés | Vérifier l'offre, le programme et les limites avant amplification publique. |
 | MerciApp | Correcteur français | `présent à auditer` | `src/data/outils/tech/ia/autres/merciapp.md` contient `u_affi` et une source affiliation | Vérifier le programme officiel et ajouter les sources de qualification locale si la fiche devient prioritaire. |

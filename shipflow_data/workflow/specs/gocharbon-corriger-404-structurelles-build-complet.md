@@ -30,10 +30,10 @@ depends_on:
   - artifact: "/home/claude/gocharbon/AGENT.md"
     artifact_version: "1.1.0"
     required_status: "reviewed"
-  - artifact: "/home/claude/gocharbon/shipflow_data/technical/context.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/technical/site/context.md"
     artifact_version: "1.0.2"
     required_status: "reviewed"
-  - artifact: "/home/claude/gocharbon/shipflow_data/editorial/content-map.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/editorial/site/content-map.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
 evidence:

@@ -18,11 +18,11 @@ risk_level: medium
 security_impact: none
 docs_impact: yes
 linked_systems:
-  - "/home/claude/gocharbon/shipflow_data/business/branding.md"
-  - "/home/claude/gocharbon/shipflow_data/technical/design-system-authority.md"
+  - "/home/claude/gocharbon/shipflow_data/branding/branding.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/site/design-system-authority.md"
   - "/home/claude/gocharbon/src/styles/global.css"
 depends_on:
-  - artifact: "/home/claude/gocharbon/shipflow_data/technical/design-system-authority.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/technical/site/design-system-authority.md"
     artifact_version: "1.0.0"
     required_status: draft
 supersedes: []
@@ -44,8 +44,8 @@ En tant qu'équipe, on veut empêcher que l'UI de GoCharbon soit modifiée avec 
 
 GoCharbon est un site web (Astro + Vue). Le contrat visuel doit rester piloté par:
 
-- `shipflow_data/business/branding.md`
-- `shipflow_data/technical/design-system-authority.md` (déclaratif)
+- `shipflow_data/branding/branding.md`
+- `shipflow_data/technical/site/design-system-authority.md` (declaratif)
 - `src/styles/global.css` (carrier technique)
 
 ## Contrat minimal
@@ -54,13 +54,13 @@ Toute évolution UI doit :
 
 - utiliser des tokens/variables déclarés,
 - ne pas introduire de token visuel local non rattaché à `global.css`,
-- documenter les exceptions dans `shipflow_data/technical/design-system-authority.md`.
+- documenter les exceptions dans `shipflow_data/technical/site/design-system-authority.md`.
 
 ## In scope
 
 - `src/styles/global.css`
 - `src/pages/**`, `src/components/**`, `src/layouts/**`
-- `shipflow_data/technical/design-system-authority.md`
+- `shipflow_data/technical/site/design-system-authority.md`
 - `shipflow_data/workflow/verification/gocharbon-design-system-authority-hardening.md`
 
 ## Out of scope
@@ -81,11 +81,11 @@ Toute évolution UI doit :
 ```bash
 python3 /home/claude/shipflow/tools/design_system_drift_check.py --root /home/claude/gocharbon --changed --warn-only
 python3 /home/claude/shipflow/tools/shipflow_metadata_lint.py \
-  shipflow_data/technical/design-system-authority.md \
+  shipflow_data/technical/site/design-system-authority.md \
   shipflow_data/workflow/specs/gocharbon-design-system-authority-hardening.md \
   shipflow_data/workflow/verification/gocharbon-design-system-authority-hardening.md
 rg -n "design_system_authority|design-system-authority|gocharbon-design-system-authority-hardening" \
-  shipflow_data/technical/design-system-authority.md \
+  shipflow_data/technical/site/design-system-authority.md \
   shipflow_data/workflow/specs/gocharbon-design-system-authority-hardening.md \
   shipflow_data/workflow/verification/gocharbon-design-system-authority-hardening.md
 ```

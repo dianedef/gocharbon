@@ -8,7 +8,7 @@ status: reviewed
 
 # Architecture
 
-La gouvernance technique partagee de cette application vit a `shipflow_data/app_quiz/technical/`.
+La gouvernance technique partagee de cette application vit a `shipflow_data/technical/app_quiz/`.
 
 ## Cible
 

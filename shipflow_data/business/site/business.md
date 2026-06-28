@@ -21,7 +21,7 @@ depends_on: []
 supersedes: []
 evidence: []
 next_review: "unknown"
-next_step: /sf-docs verify shipflow_data/site/business/business.md
+next_step: /sf-docs verify shipflow_data/business/site/business.md
 ---
 # BUSINESS.md - Concept, Objectifs & Stratégie
 

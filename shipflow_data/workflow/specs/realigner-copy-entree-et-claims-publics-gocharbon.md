@@ -25,25 +25,25 @@ linked_systems:
   - "/home/claude/gocharbon/src/pages/bio.astro"
   - "/home/claude/gocharbon/src/components/NewsletterSaaS.astro"
   - "/home/claude/gocharbon/src/config/site.ts"
-  - "/home/claude/gocharbon/shipflow_data/business/business.md"
-  - "/home/claude/gocharbon/shipflow_data/business/branding.md"
-  - "/home/claude/gocharbon/shipflow_data/business/product.md"
-  - "/home/claude/gocharbon/shipflow_data/business/gtm.md"
-  - "/home/claude/gocharbon/shipflow_data/editorial/content-map.md"
+  - "/home/claude/gocharbon/shipflow_data/business/site/business.md"
+  - "/home/claude/gocharbon/shipflow_data/branding/branding.md"
+  - "/home/claude/gocharbon/shipflow_data/product/site/product.md"
+  - "/home/claude/gocharbon/shipflow_data/gtm/site/gtm.md"
+  - "/home/claude/gocharbon/shipflow_data/editorial/site/content-map.md"
 depends_on:
-  - artifact: "/home/claude/gocharbon/shipflow_data/business/business.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/business/site/business.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
-  - artifact: "/home/claude/gocharbon/shipflow_data/business/branding.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/branding/branding.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
-  - artifact: "/home/claude/gocharbon/shipflow_data/business/product.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/product/site/product.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
-  - artifact: "/home/claude/gocharbon/shipflow_data/business/gtm.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/gtm/site/gtm.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
-  - artifact: "/home/claude/gocharbon/shipflow_data/editorial/content-map.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/editorial/site/content-map.md"
     artifact_version: "1.0.0"
     required_status: "reviewed"
 supersedes: []
@@ -120,7 +120,7 @@ Faire une passe de realignement copy ciblee sur les principales surfaces publiqu
 
 ## Constraints
 
-- Respecter `AGENTS.md`, `CLAUDE.md`, `shipflow_data/business/business.md`, `branding.md`, `product.md`, `gtm.md`.
+- Respecter `AGENTS.md`, `CLAUDE.md`, `shipflow_data/business/site/business.md`, `shipflow_data/branding/branding.md`, `shipflow_data/product/site/product.md`, `shipflow_data/gtm/site/gtm.md`.
 - Conserver le ton humain, direct, anti-bullshit, en francais et en tutoiement.
 - Ne pas inventer de preuve, d'usage interne, de chiffre d'audience, de deals exclusifs, de volume d'abonnes, de tests systematiques ou de validation produit si le repo ne le prouve pas.
 - Ne pas transformer le positionnement francophone en militantisme binaire si cette radicalisation n'est pas explicitement supportee par le contrat marque/produit.
@@ -162,11 +162,11 @@ Faire une passe de realignement copy ciblee sur les principales surfaces publiqu
 
 ## Dependencies
 
-- Business contract: `shipflow_data/business/business.md` `1.0.0`
-- Brand contract: `shipflow_data/business/branding.md` `1.0.0`
-- Product contract: `shipflow_data/business/product.md` `1.0.0`
-- GTM contract: `shipflow_data/business/gtm.md` `1.0.0`
-- Content surface map: `shipflow_data/editorial/content-map.md` `1.0.0`
+- Business contract: `shipflow_data/business/site/business.md` `1.0.0`
+- Brand contract: `shipflow_data/branding/branding.md` `1.0.0`
+- Product contract: `shipflow_data/product/site/product.md` `1.0.0`
+- GTM contract: `shipflow_data/gtm/site/gtm.md` `1.0.0`
+- Content surface map: `shipflow_data/editorial/site/content-map.md` `1.0.0`
 - Fresh docs verdict: `fresh-docs not needed`
   - raison: le chantier porte sur la coherence de copy publique et de claims editoriaux internes, sans dependance critique a un comportement externe recent de framework, SDK, auth, build provider ou API tierce.
 
@@ -189,7 +189,7 @@ Faire une passe de realignement copy ciblee sur les principales surfaces publiqu
 ## Documentation Coherence
 
 - Pas de doc technique framework a mettre a jour par defaut.
-- Si la posture publique sur les claims newsletter/footer evolue sensiblement, verifier si `shipflow_data/business/branding.md` ou `shipflow_data/business/gtm.md` doivent etre clarifies dans un chantier docs distinct.
+- Si la posture publique sur les claims newsletter/footer evolue sensiblement, verifier si `shipflow_data/branding/branding.md` ou `shipflow_data/gtm/site/gtm.md` doivent etre clarifies dans un chantier docs distinct.
 - La suppression du script de `bio.astro` doit etre notee dans la verification comme correction de posture confiance/UX.
 - Pas de `TASKS.md` ou `AUDIT_LOG.md` a modifier dans ce chantier spec.
 

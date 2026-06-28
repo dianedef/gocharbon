@@ -23,9 +23,9 @@ linked_systems:
 evidence:
   - "README.md"
   - "CLAUDE.md"
-  - "shipflow_data/site/business/branding.md"
-  - "shipflow_data/site/business/business.md"
-  - "shipflow_data/technical/README.md"
+  - "shipflow_data/branding/branding.md"
+  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/technical/site/README.md"
   - "AGENTS.md compatibility symlink"
   - "package.json"
   - "astro.config.mjs"
@@ -43,10 +43,10 @@ Ce document est le point d'entrée opérationnel pour démarrer une tâche dans 
 ## Ordre de lecture rapide (obligatoire)
 
 1. Lire `CLAUDE.md` (contraintes humaines et règles d'écriture).
-2. Lire `shipflow_data/technical/README.md` (conventions éditoriales).
-3. Lire `shipflow_data/site/business/business.md` (positionnement produit/audience).
+2. Lire `shipflow_data/technical/site/README.md` (conventions éditoriales).
+3. Lire `shipflow_data/business/site/business.md` (positionnement produit/audience).
 4. Lire ce document.
-5. Lire ensuite `shipflow_data/technical/context.md`, `shipflow_data/technical/context-function-tree.md` et `shipflow_data/technical/architecture.md`.
+5. Lire ensuite `shipflow_data/technical/site/context.md`, `shipflow_data/technical/site/context-function-tree.md` et `shipflow_data/technical/site/architecture.md`.
 
 ## Priorités de la plateforme
 
@@ -90,7 +90,7 @@ Ce document est le point d'entrée opérationnel pour démarrer une tâche dans 
 - Ne pas réintroduire `apps` comme section ou route.
 - Traiter catégorisation de contenu, qualification locale et niveau de responsabilité comme des décisions séparées.
 - Les métadonnées de qualification influencent un badge public (`Engagement français`) : rester prudent.
-- Si la règle métier change, mettre à jour la doc (`AGENT.md`, `shipflow_data/technical/context.md`, `shipflow_data/technical/context-function-tree.md`, `shipflow_data/technical/architecture.md`) avant de valider.
+- Si la règle métier change, mettre à jour la doc (`AGENT.md`, `shipflow_data/technical/site/context.md`, `shipflow_data/technical/site/context-function-tree.md`, `shipflow_data/technical/site/architecture.md`) avant de valider.
 
 ## Mémoire éditoriale
 

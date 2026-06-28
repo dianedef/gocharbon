@@ -10,7 +10,7 @@ status: reviewed
 
 `gocharbon_quiz` est une porte d'entrée légère vers l'écosystème GoCharbon.
 
-Le cadrage business partage la gouvernance monorepo avec `shipflow_data/site/business/*.md`.
+Le cadrage business partage la gouvernance monorepo avec `shipflow_data/branding/branding.md`, tout en gardant ses propres contraintes economiques de surface.
 
 ## Promesse
 

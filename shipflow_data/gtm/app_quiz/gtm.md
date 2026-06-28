@@ -10,7 +10,7 @@ status: reviewed
 
 Objectif : transformer une session quiz en trafic qualifié vers `gocharbon.fr`.
 
-Le message et les règles de positionnement doivent rester cohérents avec `shipflow_data/site/business/gtm.md`.
+Le message et les regles de positionnement doivent rester coherents avec `shipflow_data/gtm/site/gtm.md`.
 
 ## Message
 

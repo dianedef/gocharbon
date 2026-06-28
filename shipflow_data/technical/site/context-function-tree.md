@@ -27,8 +27,8 @@ evidence:
 depends_on:
   - "/home/claude/gocharbon/AGENT.md"
   - "/home/claude/gocharbon/CONTEXT.md"
-  - "/home/claude/gocharbon/shipflow_data/technical/context.md"
-next_step: /sf-docs audit shipflow_data/technical/context-function-tree.md
+  - "/home/claude/gocharbon/shipflow_data/technical/site/context.md"
+next_step: /sf-docs audit shipflow_data/technical/site/context-function-tree.md
 # NOTE: This artifact was migrated from CONTEXT-FUNCTION-TREE.md
 ---
 # CONTEXT-FUNCTION-TREE.md — gocharbon

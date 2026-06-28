@@ -25,16 +25,16 @@ linked_systems:
   - "/home/claude/gocharbon/src/components/vue/GamificationBar.vue"
   - "/home/claude/gocharbon/src/components/vue/CharbonGamificationDashboard.vue"
   - "/home/claude/gocharbon/src/components/vue/PathProgressTracker.vue"
-  - "/home/claude/gocharbon/shipflow_data/technical/architecture.md"
-  - "/home/claude/gocharbon/shipflow_data/technical/context.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/site/architecture.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/site/context.md"
 depends_on:
-  - artifact: "/home/claude/gocharbon/shipflow_data/business/business.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/business/site/business.md"
     artifact_version: "1.0.0"
     required_status: reviewed
-  - artifact: "/home/claude/gocharbon/shipflow_data/technical/context.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/technical/site/context.md"
     artifact_version: "1.0.1"
     required_status: reviewed
-  - artifact: "/home/claude/gocharbon/shipflow_data/technical/architecture.md"
+  - artifact: "/home/claude/gocharbon/shipflow_data/technical/site/architecture.md"
     artifact_version: "1.0.0"
     required_status: reviewed
 supersedes: []
@@ -91,7 +91,7 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
 - Publication et consommation via GitHub Packages comme source de vérité runtime partagée.
 - Mise à jour des fichiers d'approvisionnement et de résolution: `package.json`, `pnpm-lock.yaml`, `.npmrc` si nécessaire.
 - Réalignement des consommateurs runtime dans `src/gamification/*` et `src/components/vue/*` touchés par la stratégie retenue.
-- Mise à jour des docs techniques/fonctionnelles qui décrivent la dépendance ou le stack runtime (`CLAUDE.md`, `shipflow_data/technical/context.md`, `shipflow_data/technical/architecture.md`, éventuellement README si impacté).
+- Mise à jour des docs techniques/fonctionnelles qui décrivent la dépendance ou le stack runtime (`CLAUDE.md`, `shipflow_data/technical/site/context.md`, `shipflow_data/technical/site/architecture.md`, éventuellement README si impacté).
 - Vérification du build et de la continuité fonctionnelle minimale sur les surfaces gamification.
 
 ## Scope Out
@@ -167,7 +167,7 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
 
 - `src/gamification/config.ts` fixe le contrat de badges et d'options de la lib.
 - `src/components/vue/GamificationBar.vue`, `src/components/vue/CharbonGamificationDashboard.vue`, `src/components/vue/PathProgressTracker.vue` dépendent directement des exports du package.
-- `shipflow_data/technical/context.md` et `shipflow_data/technical/architecture.md` décrivent la couche gamification et la dépendance externe.
+- `shipflow_data/technical/site/context.md` et `shipflow_data/technical/site/architecture.md` décrivent la couche gamification et la dépendance externe.
 - Le warning `.npmrc` autour de `minimum-release-age` touche la crédibilité de la posture supply chain si l'équipe utilise aussi `npm` pour certains diagnostics.
 
 ## Documentation Coherence
@@ -199,7 +199,7 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
    - Mettre à jour `src/gamification/config.ts` et les composants Vue qui importent le package.
    - Garantir une API de compatibilité suffisante pour `useGamification`, `AchievementToast`, `fireBadgeConfetti`, `Badge`, `GamificationOptions`.
 4. Réaligner la documentation.
-   - Corriger `CLAUDE.md`, `shipflow_data/technical/context.md`, `shipflow_data/technical/architecture.md`, et tout autre contrat touché.
+   - Corriger `CLAUDE.md`, `shipflow_data/technical/site/context.md`, `shipflow_data/technical/site/architecture.md`, et tout autre contrat touché.
    - Ajouter une note explicite sur la provenance/licence/maintenance de la brique gamification.
 5. Vérifier.
    - Prouver l'absence de dépendance ou de référence obsolète via recherche ciblée.
@@ -251,8 +251,8 @@ Créer un chantier de durcissement dédié qui republie `@diane-winflowz/gamific
   - `src/components/vue/GamificationBar.vue`
   - `src/components/vue/CharbonGamificationDashboard.vue`
   - `src/components/vue/PathProgressTracker.vue`
-  - `shipflow_data/technical/context.md`
-  - `shipflow_data/technical/architecture.md`
+  - `shipflow_data/technical/site/context.md`
+  - `shipflow_data/technical/site/architecture.md`
 - Commandes de validation à enchaîner:
   - recherche ciblée `rg`
   - résolution/installation dépendance

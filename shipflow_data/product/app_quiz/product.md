@@ -10,7 +10,7 @@ status: reviewed
 
 `gocharbon_quiz` est un quiz business mobile-first qui qualifie rapidement l'utilisateur puis l'oriente vers `gocharbon.fr`.
 
-Le cadrage produit de référence est maintenant porte par `shipflow_data/site/business/product.md` dans le monorepo.
+Le cadrage produit parent de reference est porte par `shipflow_data/product/site/product.md` dans le monorepo.
 
 Promesse produit : **Teste ton niveau, passe à l'action.**
 

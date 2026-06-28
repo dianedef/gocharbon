@@ -22,23 +22,23 @@ source_policy: "Utiliser ce registre comme outil interne de veille, d'inspiratio
 target_projects:
   - gocharbon
 evidence:
-  - "shipflow_data/site/business/business.md"
-  - "shipflow_data/site/business/product.md"
-  - "shipflow_data/site/business/gtm.md"
-  - "shipflow_data/site/editorial/content-map.md"
-  - "shipflow_data/site/research/SOURCE.md"
-  - "shipflow_data/site/research/SPEC-roadmap.md"
+  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/product/site/product.md"
+  - "shipflow_data/gtm/site/gtm.md"
+  - "shipflow_data/editorial/site/content-map.md"
+  - "shipflow_data/research/site/SOURCE.md"
+  - "shipflow_data/research/site/SPEC-roadmap.md"
 depends_on:
-  - "shipflow_data/site/business/business.md"
-  - "shipflow_data/site/business/product.md"
-  - "shipflow_data/site/business/gtm.md"
-  - "shipflow_data/site/editorial/content-map.md"
+  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/product/site/product.md"
+  - "shipflow_data/gtm/site/gtm.md"
+  - "shipflow_data/editorial/site/content-map.md"
 supersedes:
   - "/home/claude/gocharbon/concurrent.md"
   - "/home/claude/gocharbon/INSPIRATION.md"
-  - "/home/claude/gocharbon/shipflow_data/site/research/INSPIRATION.md"
+  - "/home/claude/gocharbon/shipflow_data/research/site/INSPIRATION.md"
 next_review: "2026-08-11"
-next_step: "/sf-market-study update shipflow_data/site/business/project-competitors-and-inspirations.md"
+next_step: "/sf-market-study update shipflow_data/business/site/project-competitors-and-inspirations.md"
 ---
 
 # Concurrents et inspirations — GoCharbon
@@ -61,7 +61,7 @@ GoCharbon est un média/outillage éducatif pour entrepreneurs. Les entrées uti
 - Vérifier les URLs, offres, prix, fonctionnalités et claims avant toute publication publique.
 - Ne pas transformer une inspiration en recommandation outil sans preuve, test ou source officielle.
 - Marquer les sujets récents ou issus de plateformes de veille comme `à vérifier` tant qu'ils n'ont pas été relus.
-- Utiliser ce registre pour nourrir `shipflow_data/site/editorial/content-map.md`, pas pour contourner les règles de source des fiches outils.
+- Utiliser ce registre pour nourrir `shipflow_data/editorial/site/content-map.md`, pas pour contourner les règles de source des fiches outils.
 
 ## Benchmarks structurants
 
@@ -113,7 +113,7 @@ Avant de publier une fiche, un comparatif ou une mention concurrente issue de ce
 2. Ajouter les sources utiles dans `sourcesVerification` si cela concerne une fiche outil.
 3. Distinguer l'alternative française, européenne ou étrangère selon la méthode locale.
 4. Écrire les limites et les biais possibles, surtout si l'angle touche l'affiliation.
-5. Relier le sujet au bon pilier dans `shipflow_data/site/editorial/content-map.md`.
+5. Relier le sujet au bon pilier dans `shipflow_data/editorial/site/content-map.md`.
 
 ## Question ouverte
 

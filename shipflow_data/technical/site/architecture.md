@@ -16,9 +16,9 @@ docs_impact: "yes"
 evidence:
   - "README.md"
   - "CLAUDE.md"
-  - "shipflow_data/site/business/branding.md"
-  - "shipflow_data/site/business/business.md"
-  - "shipflow_data/technical/README.md"
+  - "shipflow_data/branding/branding.md"
+  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/technical/site/README.md"
   - "package.json"
   - "astro.config.mjs"
   - "src/content.config.ts"
@@ -27,12 +27,12 @@ evidence:
   - "src/utils"
 linked_systems:
   - "AGENT.md"
-  - "shipflow_data/technical/context-function-tree.md"
+  - "shipflow_data/technical/site/context-function-tree.md"
   - "README.md"
   - "CLAUDE.md"
-  - "shipflow_data/site/business/branding.md"
-  - "shipflow_data/site/business/business.md"
-  - "shipflow_data/technical/README.md"
+  - "shipflow_data/branding/branding.md"
+  - "shipflow_data/business/site/business.md"
+  - "shipflow_data/technical/site/README.md"
   - "src/content.config.ts"
   - "src/components"
   - "src/utils"
@@ -56,14 +56,14 @@ invariants:
   - "La navigation principale doit toujours exposer les sections `blog`, `outils`, `tutos`, `parcours`."
 depends_on:
   - "/home/claude/gocharbon/AGENT.md"
-  - "/home/claude/gocharbon/shipflow_data/site/business/business.md"
-  - "/home/claude/gocharbon/shipflow_data/site/business/branding.md"
-  - "/home/claude/gocharbon/shipflow_data/site/business/gtm.md"
-  - "/home/claude/gocharbon/shipflow_data/technical/README.md"
-  - "/home/claude/gocharbon/shipflow_data/technical/context-function-tree.md"
+  - "/home/claude/gocharbon/shipflow_data/business/site/business.md"
+  - "/home/claude/gocharbon/shipflow_data/branding/branding.md"
+  - "/home/claude/gocharbon/shipflow_data/gtm/site/gtm.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/site/README.md"
+  - "/home/claude/gocharbon/shipflow_data/technical/site/context-function-tree.md"
 supersedes: []
 next_review: "2026-07-26"
-next_step: /sf-docs audit shipflow_data/technical/context.md
+next_step: /sf-docs audit shipflow_data/technical/site/context.md
 ---
 
 # Architecture — gocharbon
