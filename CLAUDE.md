@@ -29,7 +29,7 @@ GoCharbon is a monorepo.
 
 - `site/`: French-language educational Astro surface for entrepreneurs
 - `app_quiz/`: Flutter quiz app with a legacy FastAPI backend
-- `shipflow_data/`: shared governance root
+- `shipglowz_data/`: shared governance root
 
 ## Founder Memory
 
@@ -172,4 +172,4 @@ UnoCSS shortcuts for the neobrutalist design system: `brutal-card`, `brutal-btn`
 
 - Prefer focused reads (`rg` + targeted file sections) over broad scans.
 - Keep claims tied to observable repo evidence (files, scripts, config, routes).
-- When docs change behavior or constraints, update the canonical files in `shipflow_data/` together.
+- When docs change behavior or constraints, update the canonical files in `shipglowz_data/` together.
