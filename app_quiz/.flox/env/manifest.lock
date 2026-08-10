@@ -1,8 +1,13 @@
 {
   "lockfile-version": 1,
   "manifest": {
-    "version": 1,
+    "schema-version": "1.12.0",
     "install": {
+      "nodejs": {
+        "pkg-path": "nodejs",
+        "version": "^24",
+        "outputs": "all"
+      },
       "pnpm": {
         "pkg-path": "pnpm"
       }
@@ -12,6 +17,122 @@
     "options": {}
   },
   "packages": [
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/1a0cn85p1mwixhwy16db7v2652pz7l8g-nodejs-24.16.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "name": "nodejs-24.16.0",
+      "pname": "nodejs",
+      "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "rev_count": 1022855,
+      "rev_date": "2026-06-26T09:58:34Z",
+      "scrape_date": "2026-06-27T03:17:08.197943Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1zm1xb652wk1kscxbcvbryq8y45b0gy5-nodejs-24.16.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/aay2n9r5ljwfvlva807p9f0p1vpwg7mb-nodejs-24.16.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "name": "nodejs-24.16.0",
+      "pname": "nodejs",
+      "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "rev_count": 1022855,
+      "rev_date": "2026-06-26T09:58:34Z",
+      "scrape_date": "2026-06-27T03:50:00.922428Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/60vys190zxlx4k1jz0kyvk4vydzr7qml-nodejs-24.16.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/yc1bpd21mkkawwxkq2zskmkqjmzwgv54-nodejs-24.16.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "name": "nodejs-24.16.0",
+      "pname": "nodejs",
+      "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "rev_count": 1022855,
+      "rev_date": "2026-06-26T09:58:34Z",
+      "scrape_date": "2026-06-27T04:21:29.941494Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v04l0kjhdvbzkzrnw6ryf43dp8v0qapv-nodejs-24.16.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/k9jn43g1p70zs7l9vgxh57aarg2s2jkv-nodejs-24.16.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "name": "nodejs-24.16.0",
+      "pname": "nodejs",
+      "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+      "rev_count": 1022855,
+      "rev_date": "2026-06-26T09:58:34Z",
+      "scrape_date": "2026-06-27T04:56:26.345327Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zvj0hl7rhh0ccr5vkcg3ijs3xm3sgyac-nodejs-24.16.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
     {
       "attr_path": "pnpm",
       "broken": false,
