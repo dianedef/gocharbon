@@ -25,6 +25,7 @@ Flutter:
 Backend:
 
 - `cd backend && pip install -r requirements.txt`
+- `cd backend && pip install -r requirements-dev.txt` (development and test tooling)
 - `cd backend && uvicorn server:app --reload --host 0.0.0.0 --port 3001`
 - `cd backend && pytest`
 
