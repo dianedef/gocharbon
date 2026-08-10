@@ -95,6 +95,8 @@ credentials.json
 *.key
 .credentials
 
+!.env.example
+
 # Flutter
 **/.dart_tool/
 **/.flutter-plugins

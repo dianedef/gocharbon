@@ -60,6 +60,21 @@ Il lance `backend/` sur `http://localhost:3001` et Flutter web sur `http://local
 | Build Vercel | `API_BASE_URL` | URL backend injectée au build Flutter web |
 
 Exemple backend : [backend/.env.example](backend/.env.example).
+Le modèle consolidé pour Flutter, Vercel et le backend est disponible dans [.env.example](.env.example).
+
+Pour installer uniquement les dépendances de production du backend :
+
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+Pour le développement et les tests :
+
+```bash
+cd backend
+pip install -r requirements-dev.txt
+```
 
 ## Validation
 
