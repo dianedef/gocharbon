@@ -20,6 +20,7 @@
     - shipglows_data/workflow/verification/gocharbon-design-system-authority-hardening.md
 - [x] sf-deps migration run (2026-05-25): major lane bump (`eslint@10.4.0`, `satori@0.26.0`, `vue@3.5.34`) completed; audit clean. Remaining: `eslint-plugin-jsx-a11y@6.10.2` peer mismatch with ESLint 10.
 🟡 [gocharbon] task: Handoff contenu OpenPostern pour fiche outil ou comparatif: surveiller les risques de ses fournisseurs SaaS sans RSSI | status: todo | area: content-tools-saas-security | source: veille utilisateur https://betalist.com/startups/openpostern et https://openpostern.com/ 2026-06-10
+🟠 [gocharbon_quiz] task: Concevoir et valider une boucle de micro-apprentissage issue des contenus GoCharbon | status: todo | area: app-quiz-learning-loop | id: gocharbon-quiz-bookster-learning-loop | scope: micro-leçon courte, rappel actif, explication immédiate, progression légère et recommandation GoCharbon | constraints: conserver l'entrée anonyme et le format court; exclure LMS complet, blocage d'apps, loterie et gamification punitive | source: inspiration Bookster https://bookster.ai/en/en/home et https://grabltd.com/products/bookster consultée le 2026-08-11 | next: cadrer un MVP mesurable et son test sur un seul thème GoCharbon
 
 
 ---
