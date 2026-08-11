@@ -1,4 +1,13 @@
 class AppConfig {
+  static const String _runtimeRaw = String.fromEnvironment(
+    "GOCHARBON_RUNTIME",
+    defaultValue: "legacy",
+  );
+
+  /// `convex` is deliberately opt-in until the Firebase and Convex projects
+  /// have been configured and validated in each target environment.
+  static bool get useConvexRuntime => _runtimeRaw.trim().toLowerCase() == "convex";
+
   static const String apiBaseUrl = String.fromEnvironment(
     "API_BASE_URL",
     defaultValue: "http://localhost:3001",
@@ -79,4 +88,55 @@ class AppConfig {
 
   static bool get useSupabaseUserScopedData =>
       _supabaseUserScopedDataRaw.trim().toLowerCase() != "false";
+
+  static const String convexHttpUrl = String.fromEnvironment(
+    "CONVEX_HTTP_URL",
+    defaultValue: "",
+  );
+
+  static bool get convexConfigured => convexHttpUrl.trim().isNotEmpty;
+
+  static const String firebaseApiKey = String.fromEnvironment(
+    "FIREBASE_API_KEY",
+    defaultValue: "",
+  );
+
+  static const String firebaseAppId = String.fromEnvironment(
+    "FIREBASE_APP_ID",
+    defaultValue: "",
+  );
+
+  static const String firebaseMessagingSenderId = String.fromEnvironment(
+    "FIREBASE_MESSAGING_SENDER_ID",
+    defaultValue: "",
+  );
+
+  static const String firebaseProjectId = String.fromEnvironment(
+    "FIREBASE_PROJECT_ID",
+    defaultValue: "",
+  );
+
+  static const String firebaseAuthDomain = String.fromEnvironment(
+    "FIREBASE_AUTH_DOMAIN",
+    defaultValue: "",
+  );
+
+  static const String firebaseStorageBucket = String.fromEnvironment(
+    "FIREBASE_STORAGE_BUCKET",
+    defaultValue: "",
+  );
+
+  static const String firebaseMeasurementId = String.fromEnvironment(
+    "FIREBASE_MEASUREMENT_ID",
+    defaultValue: "",
+  );
+
+  static bool get firebaseConfigured =>
+      firebaseApiKey.trim().isNotEmpty &&
+      firebaseAppId.trim().isNotEmpty &&
+      firebaseMessagingSenderId.trim().isNotEmpty &&
+      firebaseProjectId.trim().isNotEmpty;
+
+  static bool get convexRuntimeConfigured =>
+      useConvexRuntime && firebaseConfigured && convexConfigured;
 }

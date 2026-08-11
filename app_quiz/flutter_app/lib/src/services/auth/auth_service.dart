@@ -1,8 +1,13 @@
 import "dart:convert";
 
+import "package:firebase_auth/firebase_auth.dart" as firebase;
+import "package:flutter/foundation.dart";
+import "package:google_sign_in/google_sign_in.dart";
 import "package:shared_preferences/shared_preferences.dart";
 import "package:supabase_flutter/supabase_flutter.dart";
 
+import "../../config/app_config.dart";
+import "firebase_bootstrap_service.dart";
 import "supabase_bootstrap_service.dart";
 
 enum AuthLinkStatus {
@@ -39,9 +44,10 @@ class AuthSessionSnapshot {
 }
 
 class AuthService {
-  const AuthService({required this.supabase});
+  const AuthService({required this.supabase, required this.firebaseBootstrap});
 
   final SupabaseBootstrapService supabase;
+  final FirebaseBootstrapService firebaseBootstrap;
 
   static const _linkLockKey = "gocharbon_supabase_link_lock";
   static const _magicOriginUserIdKey = "gocharbon_magic_origin_user_id";
@@ -50,6 +56,7 @@ class AuthService {
   static const Duration _magicOriginTtl = Duration(hours: 1);
 
   Future<AuthSessionSnapshot> ensureAnonymousSession() async {
+    if (AppConfig.useConvexRuntime) return _ensureFirebaseAnonymousSession();
     await supabase.ensureInitialized();
     final auth = supabase.client.auth;
     Session? session = auth.currentSession;
@@ -71,14 +78,29 @@ class AuthService {
   }
 
   Future<AuthLinkResult> linkWithGoogle() {
+    if (AppConfig.useConvexRuntime) return _linkFirebaseWithGoogle();
     return _linkOAuth(provider: OAuthProvider.google, method: "google");
   }
 
   Future<AuthLinkResult> linkWithFacebook() {
+    if (AppConfig.useConvexRuntime) {
+      return Future.value(const AuthLinkResult(
+        status: AuthLinkStatus.failed,
+        message: "Le linking Facebook n'est pas encore activé avec Firebase.",
+        code: "FIREBASE_PROVIDER_NOT_CONFIGURED",
+      ));
+    }
     return _linkOAuth(provider: OAuthProvider.facebook, method: "facebook");
   }
 
   Future<AuthLinkResult> linkWithMagicLink({required String email}) async {
+    if (AppConfig.useConvexRuntime) {
+      return const AuthLinkResult(
+        status: AuthLinkStatus.failed,
+        message: "Le magic link Firebase n'est pas encore activé.",
+        code: "FIREBASE_PROVIDER_NOT_CONFIGURED",
+      );
+    }
     return _runWithLinkLock(
       method: "magic_link",
       action: (auth, user) async {
@@ -111,6 +133,13 @@ class AuthService {
     required String email,
     required String password,
   }) async {
+    if (AppConfig.useConvexRuntime) {
+      return const AuthLinkResult(
+        status: AuthLinkStatus.failed,
+        message: "Le provider email Firebase n'est pas encore activé.",
+        code: "FIREBASE_PROVIDER_NOT_CONFIGURED",
+      );
+    }
     final normalizedEmail = email.trim().toLowerCase();
     return _runWithLinkLock(
       method: "email_password",
@@ -136,6 +165,12 @@ class AuthService {
   }
 
   Future<AuthLinkResult> validateMagicLinkDeviceBinding() async {
+    if (AppConfig.useConvexRuntime) {
+      return const AuthLinkResult(
+        status: AuthLinkStatus.linked,
+        message: "Aucun linking magic link Firebase en attente.",
+      );
+    }
     final prefs = await SharedPreferences.getInstance();
     final originUid = prefs.getString(_magicOriginUserIdKey);
     final startedAtMs = prefs.getInt(_magicOriginStartedAtKey);
@@ -181,6 +216,81 @@ class AuthService {
       status: AuthLinkStatus.linked,
       message: "Magic link validé sur le device d'origine.",
     );
+  }
+
+  Future<String?> currentAccessToken() async {
+    if (AppConfig.useConvexRuntime) {
+      await firebaseBootstrap.ensureInitialized();
+      return firebase.FirebaseAuth.instance.currentUser?.getIdToken();
+    }
+    await supabase.ensureInitialized();
+    return supabase.client.auth.currentSession?.accessToken;
+  }
+
+  Future<AuthSessionSnapshot> _ensureFirebaseAnonymousSession() async {
+    await firebaseBootstrap.ensureInitialized();
+    final auth = firebase.FirebaseAuth.instance;
+    var user = auth.currentUser;
+    if (user == null) {
+      user = (await auth.signInAnonymously()).user;
+    }
+    final token = await user?.getIdToken();
+    if (user == null || user.uid.isEmpty || token == null || token.isEmpty) {
+      throw StateError("Impossible de créer une session Firebase.");
+    }
+    return AuthSessionSnapshot(
+      userId: user.uid,
+      accessToken: token,
+      isAnonymous: user.isAnonymous,
+    );
+  }
+
+  Future<AuthLinkResult> _linkFirebaseWithGoogle() async {
+    try {
+      await firebaseBootstrap.ensureInitialized();
+      final auth = firebase.FirebaseAuth.instance;
+      if (auth.currentUser == null) await _ensureFirebaseAnonymousSession();
+
+      if (kIsWeb) {
+        await auth.currentUser!.linkWithPopup(firebase.GoogleAuthProvider());
+      } else {
+        final account = await GoogleSignIn().signIn();
+        if (account == null) {
+          return const AuthLinkResult(
+            status: AuthLinkStatus.failed,
+            message: "Connexion Google annulée.",
+            code: "GOOGLE_SIGN_IN_CANCELLED",
+          );
+        }
+        final authentication = await account.authentication;
+        final credential = firebase.GoogleAuthProvider.credential(
+          accessToken: authentication.accessToken,
+          idToken: authentication.idToken,
+        );
+        await auth.currentUser!.linkWithCredential(credential);
+      }
+      return const AuthLinkResult(
+        status: AuthLinkStatus.linked,
+        message: "Compte Google lié.",
+      );
+    } on firebase.FirebaseAuthException catch (error) {
+      if (error.code == "provider-already-linked") {
+        return const AuthLinkResult(
+          status: AuthLinkStatus.alreadyLinked,
+          message: "Ce compte Google est déjà lié.",
+        );
+      }
+      return AuthLinkResult(
+        status: AuthLinkStatus.failed,
+        message: "Échec du linking Google: ${error.message ?? error.code}",
+        code: error.code,
+      );
+    } catch (error) {
+      return AuthLinkResult(
+        status: AuthLinkStatus.failed,
+        message: "Échec du linking Google: $error",
+      );
+    }
   }
 
   Future<AuthLinkResult> _linkOAuth({

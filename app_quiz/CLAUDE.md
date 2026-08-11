@@ -63,4 +63,4 @@ Primary flow:
 - Maintain deterministic API contracts between Flutter and FastAPI/Supabase.
 - Course recommendations and CTAs must reinforce the bridge to GoCharbon.
 - Avoid broad visual rewrites unless they improve completion or click-through.
-- Shared governance for this app lives under the theme-first monorepo root, notably `../shipglowz_data/business/app_quiz/`, `../shipglowz_data/product/app_quiz/`, `../shipglowz_data/gtm/app_quiz/`, and `../shipglowz_data/technical/app_quiz/`.
+- Shared governance for this app lives under the theme-first monorepo root, notably `../shipglows_data/business/app_quiz/`, `../shipglows_data/product/app_quiz/`, `../shipglows_data/gtm/app_quiz/`, and `../shipglows_data/technical/app_quiz/`.

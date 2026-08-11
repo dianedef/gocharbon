@@ -11,10 +11,20 @@ import "../../models/leaderboard_entry.dart";
 import "../../models/quiz_answer.dart";
 import "../../models/quiz_result.dart";
 import "../../models/user_profile.dart";
+import "convex_http_client.dart";
 
 class GoCharbonApi {
-  GoCharbonApi({required String baseUrl})
-    : _dio = Dio(
+  GoCharbonApi({
+    required String baseUrl,
+    String convexHttpUrl = "",
+    Future<String?> Function()? accessToken,
+  }) : _convex = AppConfig.useConvexRuntime
+           ? ConvexHttpClient(
+               baseUrl: convexHttpUrl,
+               accessToken: accessToken ?? (() async => null),
+             )
+           : null,
+       _dio = Dio(
         BaseOptions(
           baseUrl: baseUrl,
           connectTimeout: const Duration(seconds: 10),
@@ -25,6 +35,7 @@ class GoCharbonApi {
       );
 
   final Dio _dio;
+  final ConvexHttpClient? _convex;
 
   Future<UserCreationResponse> createUser({String? username}) async {
     final res = await _dio.post<Map<String, dynamic>>(
@@ -39,6 +50,8 @@ class GoCharbonApi {
   }
 
   Future<UserProfile> getUser(String userId) async {
+    final convex = _convex;
+    if (convex != null) return convex.getProfile();
     if (_shouldUseSupabaseUserScopedData) {
       final client = _supabaseClientOrNull();
       if (client != null) {
@@ -72,6 +85,8 @@ class GoCharbonApi {
     required String category,
     int count = 10,
   }) async {
+    final convex = _convex;
+    if (convex != null) return convex.getQuestions(category: category, count: count);
     final res = await _dio.get<List<dynamic>>(
       "/api/questions",
       queryParameters: {"category": category, "count": count},
@@ -83,6 +98,8 @@ class GoCharbonApi {
   }
 
   Future<DailyChallenge> getDailyChallenge() async {
+    final convex = _convex;
+    if (convex != null) return convex.getDailyChallenge();
     final res = await _dio.get<Map<String, dynamic>>("/api/questions/daily");
     return DailyChallenge.fromJson(_expectJsonMap(res.data));
   }
@@ -94,6 +111,10 @@ class GoCharbonApi {
     required String mode,
     required List<QuizAnswer> answers,
   }) async {
+    final convex = _convex;
+    if (convex != null) {
+      return convex.submitQuiz(category: category, mode: mode, answers: answers);
+    }
     if (_shouldUseSupabaseUserScopedData) {
       final client = _supabaseClientOrNull();
       if (client != null) {
@@ -126,6 +147,8 @@ class GoCharbonApi {
   }
 
   Future<List<LeaderboardEntry>> getLeaderboard({int limit = 50}) async {
+    final convex = _convex;
+    if (convex != null) return convex.getLeaderboard(limit: limit);
     if (_shouldUseSupabaseUserScopedData) {
       final client = _supabaseClientOrNull();
       if (client != null) {
@@ -150,6 +173,8 @@ class GoCharbonApi {
   }
 
   Future<UserRank> getUserRank(String userId) async {
+    final convex = _convex;
+    if (convex != null) return convex.getUserRank();
     if (_shouldUseSupabaseUserScopedData) {
       final client = _supabaseClientOrNull();
       if (client != null) {
@@ -167,6 +192,8 @@ class GoCharbonApi {
   }
 
   Future<Map<String, BadgeDef>> getAllBadges() async {
+    final convex = _convex;
+    if (convex != null) return convex.getAllBadges();
     final res = await _dio.get<Map<String, dynamic>>("/api/badges");
     final map = _expectJsonMap(res.data);
     return map.map(
@@ -179,6 +206,8 @@ class GoCharbonApi {
     required String userId,
     required String userSecret,
   }) async {
+    final convex = _convex;
+    if (convex != null) return convex.checkLeaderboardNotifications();
     if (_shouldUseSupabaseUserScopedData &&
         AppConfig.supabaseLeaderboardNotificationsRpc.trim().isNotEmpty) {
       final client = _supabaseClientOrNull();

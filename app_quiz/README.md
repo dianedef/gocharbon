@@ -100,9 +100,9 @@ pytest
 
 ## Documentation
 
-- [shipglowz_data/technical/app_quiz/architecture.md](../shipglowz_data/technical/app_quiz/architecture.md)
-- [shipglowz_data/technical/app_quiz/guidelines.md](../shipglowz_data/technical/app_quiz/guidelines.md)
-- [shipglowz_data/product/app_quiz/product.md](../shipglowz_data/product/app_quiz/product.md)
-- [shipglowz_data/technical/app_quiz/API.md](../shipglowz_data/technical/app_quiz/API.md)
-- [shipglowz_data/technical/app_quiz/SUPABASE.md](../shipglowz_data/technical/app_quiz/SUPABASE.md)
+- [shipglows_data/technical/app_quiz/architecture.md](../shipglows_data/technical/app_quiz/architecture.md)
+- [shipglows_data/technical/app_quiz/guidelines.md](../shipglows_data/technical/app_quiz/guidelines.md)
+- [shipglows_data/product/app_quiz/product.md](../shipglows_data/product/app_quiz/product.md)
+- [shipglows_data/technical/app_quiz/API.md](../shipglows_data/technical/app_quiz/API.md)
+- [shipglows_data/technical/app_quiz/SUPABASE.md](../shipglows_data/technical/app_quiz/SUPABASE.md)
 - [flutter_app/README.md](flutter_app/README.md)

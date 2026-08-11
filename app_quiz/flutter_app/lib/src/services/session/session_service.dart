@@ -27,7 +27,7 @@ class SessionService {
   final StorageService storage;
 
   Future<UserSession> ensureSession() async {
-    if (AppConfig.supabaseConfigured) {
+    if (AppConfig.useConvexRuntime || AppConfig.supabaseConfigured) {
       final session = await auth.ensureAnonymousSession();
       return UserSession(
         userId: session.userId,

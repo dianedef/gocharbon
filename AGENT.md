@@ -17,14 +17,14 @@ next_review: "2026-07-26"
 linked_systems:
   - "site/"
   - "app_quiz/"
-  - "shipglowz_data/"
+  - "shipglows_data/"
 evidence:
   - "README.md"
   - "CLAUDE.md"
-  - "shipglowz_data/branding/branding.md"
-  - "shipglowz_data/business/business.md"
-  - "shipglowz_data/technical/site/README.md"
-  - "shipglowz_data/technical/app_quiz/architecture.md"
+  - "shipglows_data/branding/branding.md"
+  - "shipglows_data/business/business.md"
+  - "shipglows_data/technical/site/README.md"
+  - "shipglows_data/technical/app_quiz/architecture.md"
   - "site/package.json"
   - "site/astro.config.mjs"
   - "site/src/content.config.ts"
@@ -41,16 +41,16 @@ Point d'entrée opérationnel du monorepo.
 ## Ordre de lecture rapide
 
 1. `CLAUDE.md`
-2. `shipglowz_data/branding/branding.md`
-3. `shipglowz_data/business/business.md`
-4. `shipglowz_data/technical/site/README.md` ou `shipglowz_data/technical/app_quiz/architecture.md` selon la surface
-5. `shipglowz_data/technical/site/context.md`, `shipglowz_data/technical/site/context-function-tree.md`, `shipglowz_data/technical/site/architecture.md` pour le site
+2. `shipglows_data/branding/branding.md`
+3. `shipglows_data/business/business.md`
+4. `shipglows_data/technical/site/README.md` ou `shipglows_data/technical/app_quiz/architecture.md` selon la surface
+5. `shipglows_data/technical/site/context.md`, `shipglows_data/technical/site/context-function-tree.md`, `shipglows_data/technical/site/architecture.md` pour le site
 
 ## Doctrine monorepo
 
 - Le site vit entièrement sous `site/`.
 - L'application quiz vit entièrement sous `app_quiz/`.
-- La gouvernance partagée vit uniquement sous `shipglowz_data/`.
+- La gouvernance partagée vit uniquement sous `shipglows_data/`.
 - Le branding et le business parent sont communs.
 - Le produit, le GTM, l'éditorial et la technique peuvent diverger par surface.
 
@@ -66,4 +66,4 @@ Point d'entrée opérationnel du monorepo.
 - Ne pas recréer de docs de gouvernance dans `site/` ou `app_quiz/`.
 - Ne pas laisser d'artefacts jetables versionnés.
 - Ne pas inventer de qualification locale, de promesse business, ou de claim produit sans preuve.
-- Si une règle métier ou technique change, mettre à jour la doc canonique correspondante dans `shipglowz_data/` avant validation.
+- Si une règle métier ou technique change, mettre à jour la doc canonique correspondante dans `shipglows_data/` avant validation.
