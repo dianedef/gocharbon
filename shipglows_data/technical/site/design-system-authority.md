@@ -38,7 +38,7 @@ GoCharbon doit rester visuellement cohérent et professionnel. Toute évolution 
 
 ## Sources autorisées
 
-- **Contrat de marque**: `/home/claude/gocharbon/shipglows_data/branding/branding.md`  
+- **Contrat de marque**: `/home/claude/gocharbon/shipglows_data/branding/branding.md`
   Toute décision visuelle doit partir de ce document.
 - **Token carrier unique (site)**: `/home/claude/gocharbon/site/src/styles/global.css`
 - **Consommation UI (site)**: `site/src/styles/global.css` + classes utilitaires via `site/src/components`, `site/src/pages`
