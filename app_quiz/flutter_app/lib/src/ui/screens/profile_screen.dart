@@ -3,7 +3,7 @@ import "dart:math";
 
 import "package:flutter/material.dart";
 import "package:flutter_riverpod/flutter_riverpod.dart";
-import "package:material_design_icons_flutter/material_design_icons_flutter.dart";
+import "package:flutter_material_design_icons/flutter_material_design_icons.dart";
 import "package:url_launcher/url_launcher.dart";
 
 import "../../assets/app_images.dart";
@@ -541,7 +541,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                           ),
                         )
                       else
-                        Icon(MdiIcons.google, size: 20, color: Colors.white),
+                        Icon(MdiIcons.account, size: 20, color: Colors.white),
                       const SizedBox(width: 10),
                       Text(
                         _linkingGoogle

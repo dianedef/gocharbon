@@ -2,7 +2,7 @@ import type { Doc } from "./_generated/dataModel";
 
 export const QUIZ_CATEGORIES = ["finance", "marketing", "management", "ecommerce", "random", "daily"] as const;
 export const CONCRETE_CATEGORIES = ["finance", "marketing", "management", "ecommerce"] as const;
-export const LEVELS = [
+export const LEVELS: readonly (readonly [number, number, string])[] = [
   [0, 1, "Débutant"],
   [1000, 2, "Apprenti"],
   [3000, 3, "Intermédiaire"],

@@ -231,9 +231,7 @@ class AuthService {
     await firebaseBootstrap.ensureInitialized();
     final auth = firebase.FirebaseAuth.instance;
     var user = auth.currentUser;
-    if (user == null) {
-      user = (await auth.signInAnonymously()).user;
-    }
+    user ??= (await auth.signInAnonymously()).user;
     final token = await user?.getIdToken();
     if (user == null || user.uid.isEmpty || token == null || token.isEmpty) {
       throw StateError("Impossible de créer une session Firebase.");
