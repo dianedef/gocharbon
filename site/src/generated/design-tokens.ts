@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.1.0 | sha256 dbd3311a15ad6b0faa433ac61876ffbd235e5a4bf182d4186f16105c1120f611
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 bf6c9df39df808a78128e8afd5fd0c614893a1a283309d9b92d0ac02cf4d71c3
 export const designTokens = {
   "light": {
     "component.achievementMedia.compactSize": "70px",
@@ -17,7 +17,7 @@ export const designTokens = {
     },
     "component.card.borderWidth": "3px",
     "component.card.padding": "24px",
-    "component.card.radius": "8px",
+    "component.card.radius": "0px",
     "component.card.shadow": {
       "blur": "0px",
       "color": "#1e1b16",
@@ -48,8 +48,10 @@ export const designTokens = {
     "primitive.color.brand.black": "#1e1b16",
     "primitive.color.brand.charcoal": "#2f2f2f",
     "primitive.color.brand.cream": "#f5f5f2",
+    "primitive.color.brand.goldDeep": "#b87a12",
     "primitive.color.brand.ink": "#0b0b0b",
     "primitive.color.brand.orange": "#e2572d",
+    "primitive.color.brand.rock": "#181714",
     "primitive.color.brand.yellow": "#f6c700",
     "primitive.color.transparent": "transparent",
     "primitive.duration.fast": "150ms",
@@ -166,7 +168,7 @@ export const designTokens = {
     "semantic.color.actionDisabled": "#2f2f2f",
     "semantic.color.actionPrimary": "#f6c700",
     "semantic.color.actionSecondary": "#e2572d",
-    "semantic.color.background": "#f5f5f2",
+    "semantic.color.background": "#f6c700",
     "semantic.color.border": "#1e1b16",
     "semantic.color.feedbackError": "#e2572d",
     "semantic.color.feedbackSuccess": "#f6c700",
@@ -194,9 +196,10 @@ export const designTokens = {
     ],
     "semantic.motion.reducedDuration": "0ms",
     "semantic.shape.borderWidth": "3px",
-    "semantic.shape.cardRadius": "8px",
+    "semantic.shape.cardRadius": "0px",
     "semantic.shape.controlRadius": "4px",
     "semantic.shape.decorativeRailWidth": "4px",
+    "semantic.shape.pixelUnit": "4px",
     "semantic.type.actionFamily": [
       "Sanchez",
       "serif"
@@ -215,7 +218,10 @@ export const designTokens = {
     "surface.web.breakpoint.desktop": "1280px",
     "surface.web.breakpoint.mobile": "480px",
     "surface.web.breakpoint.tablet": "768px",
-    "surface.web.hoverOffset": "2px"
+    "surface.web.heroContentMaximum": "1120px",
+    "surface.web.heroCopyMaximum": "620px",
+    "surface.web.hoverOffset": "2px",
+    "surface.web.mineRailHeight": "96px"
   },
   "dark": {
     "component.achievementMedia.compactSize": "70px",
@@ -234,7 +240,7 @@ export const designTokens = {
     },
     "component.card.borderWidth": "3px",
     "component.card.padding": "24px",
-    "component.card.radius": "8px",
+    "component.card.radius": "0px",
     "component.card.shadow": {
       "blur": "0px",
       "color": "#f6c700",
@@ -265,8 +271,10 @@ export const designTokens = {
     "primitive.color.brand.black": "#1e1b16",
     "primitive.color.brand.charcoal": "#2f2f2f",
     "primitive.color.brand.cream": "#f5f5f2",
+    "primitive.color.brand.goldDeep": "#b87a12",
     "primitive.color.brand.ink": "#0b0b0b",
     "primitive.color.brand.orange": "#e2572d",
+    "primitive.color.brand.rock": "#181714",
     "primitive.color.brand.yellow": "#f6c700",
     "primitive.color.transparent": "transparent",
     "primitive.duration.fast": "150ms",
@@ -392,7 +400,7 @@ export const designTokens = {
     "semantic.color.linkHover": "#f6c700",
     "semantic.color.shadow": "#f6c700",
     "semantic.color.surface": "#2f2f2f",
-    "semantic.color.surfaceStrong": "#2f2f2f",
+    "semantic.color.surfaceStrong": "#181714",
     "semantic.color.text": "#f5f5f2",
     "semantic.color.textMuted": "#f5f5f2",
     "semantic.color.textOnAccent": "#1e1b16",
@@ -411,9 +419,10 @@ export const designTokens = {
     ],
     "semantic.motion.reducedDuration": "0ms",
     "semantic.shape.borderWidth": "3px",
-    "semantic.shape.cardRadius": "8px",
+    "semantic.shape.cardRadius": "0px",
     "semantic.shape.controlRadius": "4px",
     "semantic.shape.decorativeRailWidth": "4px",
+    "semantic.shape.pixelUnit": "4px",
     "semantic.type.actionFamily": [
       "Sanchez",
       "serif"
@@ -432,7 +441,10 @@ export const designTokens = {
     "surface.web.breakpoint.desktop": "1280px",
     "surface.web.breakpoint.mobile": "480px",
     "surface.web.breakpoint.tablet": "768px",
-    "surface.web.hoverOffset": "2px"
+    "surface.web.heroContentMaximum": "1120px",
+    "surface.web.heroCopyMaximum": "620px",
+    "surface.web.hoverOffset": "2px",
+    "surface.web.mineRailHeight": "96px"
   }
 } as const;
 

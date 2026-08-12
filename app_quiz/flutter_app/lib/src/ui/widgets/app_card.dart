@@ -25,6 +25,7 @@ class AppCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: backgroundColor,
         borderRadius: borderRadius,
+        boxShadow: const [GcShadows.medium],
         border: Border.all(
           color: borderColor,
           width: GcDarkTokens.componentCardBorderWidth,

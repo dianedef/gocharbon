@@ -86,73 +86,37 @@ const homeDescription = launchBuild
     <section class="hero-section bg-yellow-primary dark:bg-yellow-dark">
       <div class="hero-grid px-6 py-12 md:py-18 max-w-6xl mx-auto">
         <div class="hero-copy">
-          <p class="hero-kicker poppins">PAS UN ÉNIÈME BLOG BUSINESS</p>
+          <p class="hero-kicker poppins">POUR LES GENS SÉRIEUX QUI PARTENT DE ZÉRO</p>
           <h1 class="hero-title poppins">
-            Trouve un modèle crédible.
-            <span>Reçois un parcours.</span>
-            <span>Coche chaque étape.</span>
+            Trouve ton filon.
+            <span>Puis va au charbon.</span>
           </h1>
           <p class="hero-intro">
-            {launchBuild
-              ? "GoCharbon part petit exprès : cinq parcours pilotes relus à la main, quatre portes d’entrée simples, et un seul objectif sérieux, te faire passer du flou à un premier signal terrain."
-              : "GoCharbon transforme la théorie en exécution : un quiz pour t'orienter, un parcours pour savoir quoi faire, puis une progression visible pour tenir dans la durée."}
+            Réponds à quatre questions. GoCharbon te recommande un modèle crédible selon ton budget, ton temps et ton niveau, puis te donne les étapes pour le tester vraiment.
           </p>
-          <div class="hero-points">
-            <div class="hero-point">
-              <strong>{totalPaths} parcours</strong>
-              <span>{launchBuild ? "pilotes, assumés et relus avant d'ouvrir plus large" : "pour partir d'un profil réel, pas d'un fantasme de business"}</span>
-            </div>
-            <div class="hero-point">
-              <strong>{averageSteps} étapes en moyenne</strong>
-              <span>pour transformer "je me renseigne" en "j'avance vraiment"</span>
-            </div>
-            <div class="hero-point">
-              <strong>Progression sauvegardée</strong>
-              <span>{launchBuild ? "modules, checklists, XP, repères concrets" : "XP, badges, modules, repères concrets"}</span>
-            </div>
+          <div class="hero-proofline" aria-label="Ce que contient GoCharbon">
+            <span><strong>{totalPaths}</strong> parcours</span>
+            <span><strong>{averageSteps}</strong> étapes en moyenne</span>
+            <span><strong>0</strong> promesse magique</span>
           </div>
           <div class="hero-actions">
-            <Button href={ROUTES.parcours} color="var(--brand-orange)" variant="hero">
-              Voir les parcours
+            <Button href={ROUTES.quiz} color="var(--brand-orange)" variant="hero">
+              Trouver mon filon
             </Button>
-            <Button href={launchBuild ? "#entry-points" : ROUTES.quiz} color="var(--brand-yellow)" variant="hero">
-              {launchBuild ? "Choisir une porte d’entrée" : "Faire le quiz"}
-            </Button>
+            <a class="hero-secondary-link" href={ROUTES.parcours}>Voir les parcours →</a>
           </div>
-          <p class="hero-note">
-            {launchBuild
-              ? "Si tu pars de zéro, commence par une porte d’entrée. Si tu sais déjà quel modèle tu veux tester, ouvre directement le parcours correspondant."
-              : "Si tu pars de zéro : commence par le quiz. Si tu sais déjà ce que tu veux vendre : va directement sur les parcours."}
-          </p>
         </div>
 
         <div class="hero-product">
           <div class="hero-panel hero-panel-quiz">
             <div class="panel-header">
-              <p class="panel-kicker">Aperçu du système</p>
-              <h2>{launchBuild ? "Entre par une famille claire avant de t'éparpiller." : "Choisis une direction avant de t'épuiser."}</h2>
+              <p class="panel-kicker">Diagnostic express · 2 minutes</p>
+              <h2>Choisis une direction avant de t’épuiser.</h2>
             </div>
-            {launchBuild ? (
-              <>
-                <p class="panel-copy">
-                  Service, audience, produit ou revenu d’appoint : tu choisis une logique de départ, puis tu ouvres un parcours réellement travaillé. Le site démarre volontairement avec peu de pages, pour que chacune tienne debout.
-                </p>
-                <div class="hero-sentence-quiz">
-                  <p class="hero-launch-summary">
-                    4 entrées lisibles. {totalPaths} parcours pilotes. Une base plus petite, mais beaucoup plus nette.
-                  </p>
-                </div>
-              </>
-            ) : (
-              <>
-                <p class="panel-copy">
-                  Le quiz ne te donne pas une vague idée. Il t'envoie vers un type de business et un plan d'action utilisable.
-                </p>
-                <div class="hero-sentence-quiz">
-                  <SentenceQuiz client:visible />
-                </div>
-              </>
-            )}
+            <p class="panel-copy">Complète la phrase. Tu obtiens immédiatement une première direction, sans inscription.</p>
+            <div class="hero-sentence-quiz">
+              <SentenceQuiz client:visible />
+            </div>
           </div>
 
           <div class="hero-panel hero-panel-preview">
@@ -187,6 +151,12 @@ const homeDescription = launchBuild
             </div>
           </div>
         </div>
+      </div>
+      <div class="mine-rail" aria-hidden="true">
+        <span class="mine-rail-rocks"></span>
+        <span class="pixel-miner"><i></i></span>
+        <span class="mine-track"></span>
+        <span class="gold-vein"></span>
       </div>
     </section>
 
@@ -475,8 +445,10 @@ const homeDescription = launchBuild
   }
 
   .hero-grid {
-    align-items: stretch;
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    align-items: center;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    max-width: var(--gc-surface-web-hero-content-maximum);
+    min-height: min(760px, calc(100vh - 96px));
   }
 
   .hero-copy,
@@ -503,8 +475,10 @@ const homeDescription = launchBuild
   }
 
   .hero-title {
-    font-size: clamp(2.9rem, 6vw, 5.5rem);
-    max-width: 11ch;
+    font-family: var(--gc-semantic-type-display-family);
+    font-size: clamp(3rem, 6vw, var(--gc-primitive-font-size-display-large));
+    max-width: 12ch;
+    letter-spacing: -0.035em;
   }
 
   .hero-title span {
@@ -519,6 +493,24 @@ const homeDescription = launchBuild
     margin: 0;
     font-size: 1.1rem;
     line-height: 1.6;
+  }
+
+  .hero-intro {
+    max-width: var(--gc-surface-web-hero-copy-maximum);
+  }
+
+  .hero-proofline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gc-primitive-space-2) var(--gc-primitive-space-5);
+    padding-block: var(--gc-primitive-space-3);
+    border-block: var(--gc-primitive-border-medium) solid currentColor;
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-caption);
+  }
+
+  .hero-proofline strong {
+    font-size: var(--gc-primitive-font-size-title-small);
   }
 
   .hero-points {
@@ -579,8 +571,14 @@ const homeDescription = launchBuild
   }
 
   .hero-actions {
-    grid-template-columns: repeat(2, minmax(0, max-content));
+    grid-template-columns: max-content max-content;
     align-items: center;
+  }
+
+  .hero-secondary-link {
+    color: currentColor;
+    font-weight: var(--gc-primitive-font-weight-bold);
+    text-underline-offset: var(--gc-primitive-space-1);
   }
 
   .hero-note {
@@ -591,11 +589,94 @@ const homeDescription = launchBuild
 
   .hero-panel {
     padding: var(--home-surface-padding-sm);
-    border-radius: var(--home-surface-radius);
+    border-radius: var(--gc-semantic-shape-card-radius);
   }
 
   .hero-panel-quiz {
     background: var(--home-hero-panel-quiz-background);
+    position: relative;
+  }
+
+  .hero-panel-quiz::before {
+    content: "NIVEAU 01 · ORIENTATION";
+    display: block;
+    margin: calc(var(--home-surface-padding-sm) * -1) calc(var(--home-surface-padding-sm) * -1) var(--gc-primitive-space-4);
+    padding: var(--gc-primitive-space-2) var(--gc-primitive-space-3);
+    background: var(--gc-semantic-color-text);
+    color: var(--gc-semantic-color-background);
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-caption);
+    font-weight: var(--gc-primitive-font-weight-bold);
+    letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
+  }
+
+  .mine-rail {
+    position: relative;
+    height: var(--gc-surface-web-mine-rail-height);
+    overflow: hidden;
+    border-top: var(--gc-semantic-shape-border-width) solid var(--gc-semantic-color-border);
+    background: var(--gc-primitive-color-brand-rock);
+  }
+
+  .mine-rail-rocks {
+    position: absolute;
+    inset: 0;
+    opacity: var(--gc-primitive-opacity-muted);
+    background-image: linear-gradient(135deg, transparent 45%, var(--gc-primitive-color-brand-charcoal) 45% 55%, transparent 55%);
+    background-size: calc(var(--gc-semantic-shape-pixel-unit) * 8) calc(var(--gc-semantic-shape-pixel-unit) * 8);
+  }
+
+  .mine-track {
+    position: absolute;
+    inset: auto 0 var(--gc-primitive-space-3);
+    height: var(--gc-primitive-border-strong);
+    background: var(--gc-primitive-color-brand-cream);
+    box-shadow: 0 var(--gc-primitive-space-3) 0 var(--gc-primitive-color-brand-gold-deep);
+  }
+
+  .gold-vein {
+    position: absolute;
+    right: 8%;
+    top: var(--gc-primitive-space-3);
+    width: 22%;
+    height: var(--gc-primitive-space-2);
+    background: var(--gc-primitive-color-brand-yellow);
+    transform: skewX(-35deg);
+    box-shadow: calc(var(--gc-semantic-shape-pixel-unit) * -4) var(--gc-primitive-space-3) 0 var(--gc-primitive-color-brand-gold-deep);
+  }
+
+  .pixel-miner {
+    position: absolute;
+    z-index: 1;
+    left: 12%;
+    bottom: var(--gc-primitive-space-5);
+    width: var(--gc-primitive-space-8);
+    height: var(--gc-primitive-space-10);
+    background: var(--gc-primitive-color-brand-yellow);
+    border: var(--gc-semantic-shape-pixel-unit) solid var(--gc-primitive-color-brand-black);
+    box-shadow: calc(var(--gc-semantic-shape-pixel-unit) * -2) calc(var(--gc-semantic-shape-pixel-unit) * -2) 0 var(--gc-primitive-color-brand-orange);
+  }
+
+  .pixel-miner::before {
+    content: "";
+    position: absolute;
+    left: calc(var(--gc-semantic-shape-pixel-unit) * -2);
+    top: calc(var(--gc-semantic-shape-pixel-unit) * -3);
+    width: calc(100% + var(--gc-semantic-shape-pixel-unit) * 4);
+    height: var(--gc-primitive-space-2);
+    background: var(--gc-primitive-color-brand-cream);
+    border: var(--gc-semantic-shape-pixel-unit) solid var(--gc-primitive-color-brand-black);
+  }
+
+  .pixel-miner i {
+    position: absolute;
+    right: calc(var(--gc-semantic-shape-pixel-unit) * -4);
+    top: var(--gc-primitive-space-2);
+    width: var(--gc-primitive-space-4);
+    height: var(--gc-semantic-shape-pixel-unit);
+    background: var(--gc-primitive-color-brand-cream);
+    transform: rotate(-45deg);
+    transform-origin: left center;
   }
 
   .hero-panel-preview {
@@ -962,6 +1043,26 @@ const homeDescription = launchBuild
 
     .hero-title {
       max-width: none;
+      font-size: clamp(2.7rem, 15vw, 4.2rem);
+    }
+
+    .hero-grid {
+      min-height: auto;
+      padding-top: var(--gc-primitive-space-8);
+      padding-bottom: var(--gc-primitive-space-8);
+    }
+
+    .hero-product {
+      margin-top: var(--gc-primitive-space-4);
+    }
+
+    .hero-panel-preview {
+      display: none;
+    }
+
+    .signals-section,
+    .difference-section {
+      display: none;
     }
 
     .preview-stats {
@@ -972,6 +1073,11 @@ const homeDescription = launchBuild
   @media (max-width: var(--home-small-breakpoint)) {
     .hero-actions {
       grid-template-columns: 1fr;
+    }
+
+    .hero-proofline {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
 
     .hero-actions :global(a.brutal-btn),

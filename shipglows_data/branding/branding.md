@@ -1,10 +1,10 @@
 ---
 artifact: brand_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.1.0"
 project: gocharbon
 created: "2026-04-25"
-updated: "2026-04-27"
+updated: "2026-08-12"
 status: reviewed
 source_skill: sf-docs
 scope: brand
@@ -267,19 +267,28 @@ Imagine un ami entrepreneur expérimenté qui :
 
 ## 🎨 Identité Visuelle
 
-### 📌 Source de Vérité (Branding Centralisé)
-Ce fichier `shipglows_data/branding/branding.md` est la **source de vérité** pour tout le branding.
-On y stocke systématiquement :
+### 📌 Doctrine et source canonique
+Ce fichier documente la doctrine, les intentions et les regles d'usage. `shipglows_data/branding/design-tokens.json` est l'unique source executable du design commun au site et a l'app.
+On documente ici systematiquement :
 - Palette de couleurs officielle
 - Typographies (fonts)
 - Règles d'usage (CTA, background, texte, liens)
 - Composants visuels et styles (cards, boutons, tags)
 
-Toute nouvelle décision visuelle doit être ajoutée ici pour éviter les dérives.
+Toute nouvelle decision partagee est decrite ici, encodee dans le JSON canonique, puis generee pour le web et Flutter. Les sorties CSS, TypeScript et Dart ne sont jamais editees manuellement.
 
-### Design System : "Brutal Neobrutalism"
+### Design System : "Pixel Mine Neobrutalism"
 
 **Philosophie :** Audacieux, direct, impossible à ignorer. Comme notre ton.
+
+La direction canonique combine une composition moderne, mobile-first, avec un langage pixel minier integral. Le pixel sert la structure (angles, rails, jauges, ombres, pictogrammes), pas un ton enfantin.
+
+- **Light par defaut :** entree jaune, claire et directe. Le questionnaire et le parcours dominent; le decor reste secondaire.
+- **Dark :** galerie graphite et charbon, filons d'or et profondeur. L'ambiance devient plus concentree sans changer la hierarchie.
+- **Mineur :** guide competent et discret. Il indique, eclaire et accompagne; ce n'est pas un personnage comique geant.
+- **Charbon et or :** le charbon represente le travail en cours; l'or represente une preuve, un jalon ou une recompense.
+- **Progression :** plus la personne avance, plus l'univers peut descendre dans la mine. Cette progression reste narrative et ne doit jamais masquer le contenu ou modifier le metier.
+- **Serieux :** pas de volumes 3D ronds, pas de grands visages joyeux, pas de vocabulaire infantilisant. La promesse reste l'argent, la clarte et l'execution realiste.
 
 **⚠️ RÈGLE D'OR : utiliser uniquement les tokens définis dans `shipglows_data/branding/design-tokens.json`.** Les sorties CSS, TypeScript et Dart sont générées et ne constituent jamais une autorité concurrente.
 

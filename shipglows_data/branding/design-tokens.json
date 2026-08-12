@@ -1,7 +1,7 @@
 {
   "$schema": "./design-tokens.schema.json",
   "schemaVersion": "1.0.0",
-  "brandVersion": "1.1.0",
+  "brandVersion": "1.2.0",
   "description": "Autorite design canonique cross-surface GoCharbon.",
   "tokens": {
     "primitive": {
@@ -12,7 +12,9 @@
           "black": { "$type": "color", "$value": "#1e1b16", "$description": "Texte et bordure du theme clair." },
           "ink": { "$type": "color", "$value": "#0b0b0b", "$description": "Fond principal du theme sombre." },
           "charcoal": { "$type": "color", "$value": "#2f2f2f", "$description": "Surface charbon secondaire." },
-          "cream": { "$type": "color", "$value": "#f5f5f2", "$description": "Fond creme et texte du theme sombre." }
+          "cream": { "$type": "color", "$value": "#f5f5f2", "$description": "Fond creme et texte du theme sombre." },
+          "rock": { "$type": "color", "$value": "#181714", "$description": "Roche profonde pour les galeries et surfaces dark premium." },
+          "goldDeep": { "$type": "color", "$value": "#b87a12", "$description": "Or mineral secondaire, reserve aux filons et recompenses." }
         },
         "transparent": { "$type": "color", "$value": "transparent", "$description": "Transparence technique partagee." }
       },
@@ -119,9 +121,9 @@
     },
     "semantic": {
       "color": {
-        "background": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.ink}" }, "$description": "Fond principal." },
+        "background": { "$type": "color", "$modes": { "light": "{primitive.color.brand.yellow}", "dark": "{primitive.color.brand.ink}" }, "$description": "Entree solaire en light, profondeur miniere en dark." },
         "surface": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.charcoal}" } },
-        "surfaceStrong": { "$type": "color", "$modes": { "light": "{primitive.color.brand.yellow}", "dark": "{primitive.color.brand.charcoal}" } },
+        "surfaceStrong": { "$type": "color", "$modes": { "light": "{primitive.color.brand.yellow}", "dark": "{primitive.color.brand.rock}" } },
         "text": { "$type": "color", "$modes": { "light": "{primitive.color.brand.black}", "dark": "{primitive.color.brand.cream}" } },
         "textOnAccent": { "$type": "color", "$value": "{primitive.color.brand.black}" },
         "textMuted": { "$type": "color", "$modes": { "light": "{primitive.color.brand.charcoal}", "dark": "{primitive.color.brand.cream}" } },
@@ -149,9 +151,10 @@
       },
       "shape": {
         "controlRadius": { "$type": "dimension", "$value": "{primitive.radius.small}" },
-        "cardRadius": { "$type": "dimension", "$value": "{primitive.radius.medium}" },
+        "cardRadius": { "$type": "dimension", "$value": "{primitive.radius.none}" },
         "borderWidth": { "$type": "dimension", "$value": "{primitive.border.strong}" },
-        "decorativeRailWidth": { "$type": "dimension", "$value": "{primitive.space.1}" }
+        "decorativeRailWidth": { "$type": "dimension", "$value": "{primitive.space.1}" },
+        "pixelUnit": { "$type": "dimension", "$value": "{primitive.space.1}" }
       }
     },
     "component": {
@@ -206,7 +209,10 @@
           "tablet": { "$type": "dimension", "$value": "768px" },
           "desktop": { "$type": "dimension", "$value": "1280px" }
         },
-        "hoverOffset": { "$type": "dimension", "$value": "2px" }
+        "hoverOffset": { "$type": "dimension", "$value": "2px" },
+        "heroContentMaximum": { "$type": "dimension", "$value": "1120px" },
+        "heroCopyMaximum": { "$type": "dimension", "$value": "620px" },
+        "mineRailHeight": { "$type": "dimension", "$value": "96px" }
       },
       "app": {
         "touchTarget": { "$type": "dimension", "$value": "{primitive.size.touchMinimum}" },

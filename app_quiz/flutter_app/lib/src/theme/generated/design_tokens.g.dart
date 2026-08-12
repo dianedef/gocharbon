@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.1.0 | sha256 dbd3311a15ad6b0faa433ac61876ffbd235e5a4bf182d4186f16105c1120f611
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 bf6c9df39df808a78128e8afd5fd0c614893a1a283309d9b92d0ac02cf4d71c3
 
 import "package:flutter/material.dart";
 
@@ -13,7 +13,7 @@ abstract final class GcLightTokens {
   static const componentButtonShadow = "5px 5px 0px 0px #1e1b16";
   static const componentCardBorderWidth = 3.0;
   static const componentCardPadding = 24.0;
-  static const componentCardRadius = 8.0;
+  static const componentCardRadius = 0.0;
   static const componentCardShadow = "7px 7px 0px 0px #1e1b16";
   static const componentCategoryBadgeSize = 52.0;
   static const componentInputBorderWidth = 3.0;
@@ -38,8 +38,10 @@ abstract final class GcLightTokens {
   static const primitiveColorBrandBlack = Color(0xFF1E1B16);
   static const primitiveColorBrandCharcoal = Color(0xFF2F2F2F);
   static const primitiveColorBrandCream = Color(0xFFF5F5F2);
+  static const primitiveColorBrandGoldDeep = Color(0xFFB87A12);
   static const primitiveColorBrandInk = Color(0xFF0B0B0B);
   static const primitiveColorBrandOrange = Color(0xFFE2572D);
+  static const primitiveColorBrandRock = Color(0xFF181714);
   static const primitiveColorBrandYellow = Color(0xFFF6C700);
   static const primitiveColorTransparent = Colors.transparent;
   static const primitiveDurationFast = Duration(milliseconds: 150);
@@ -114,7 +116,7 @@ abstract final class GcLightTokens {
   static const semanticColorActionDisabled = Color(0xFF2F2F2F);
   static const semanticColorActionPrimary = Color(0xFFF6C700);
   static const semanticColorActionSecondary = Color(0xFFE2572D);
-  static const semanticColorBackground = Color(0xFFF5F5F2);
+  static const semanticColorBackground = Color(0xFFF6C700);
   static const semanticColorBorder = Color(0xFF1E1B16);
   static const semanticColorFeedbackError = Color(0xFFE2572D);
   static const semanticColorFeedbackSuccess = Color(0xFFF6C700);
@@ -132,9 +134,10 @@ abstract final class GcLightTokens {
   static const semanticMotionLinearEasing = Cubic(0, 0, 1, 1);
   static const semanticMotionReducedDuration = Duration(milliseconds: 0);
   static const semanticShapeBorderWidth = 3.0;
-  static const semanticShapeCardRadius = 8.0;
+  static const semanticShapeCardRadius = 0.0;
   static const semanticShapeControlRadius = 4.0;
   static const semanticShapeDecorativeRailWidth = 4.0;
+  static const semanticShapePixelUnit = 4.0;
   static const semanticTypeActionFamily = "Sanchez";
   static const semanticTypeBodyFamily = "Poppins";
   static const semanticTypeDisplayFamily = "Righteous";
@@ -144,7 +147,10 @@ abstract final class GcLightTokens {
   static const surfaceWebBreakpointDesktop = 1280.0;
   static const surfaceWebBreakpointMobile = 480.0;
   static const surfaceWebBreakpointTablet = 768.0;
+  static const surfaceWebHeroContentMaximum = 1120.0;
+  static const surfaceWebHeroCopyMaximum = 620.0;
   static const surfaceWebHoverOffset = 2.0;
+  static const surfaceWebMineRailHeight = 96.0;
 }
 
 abstract final class GcDarkTokens {
@@ -158,7 +164,7 @@ abstract final class GcDarkTokens {
   static const componentButtonShadow = "5px 5px 0px 0px #f6c700";
   static const componentCardBorderWidth = 3.0;
   static const componentCardPadding = 24.0;
-  static const componentCardRadius = 8.0;
+  static const componentCardRadius = 0.0;
   static const componentCardShadow = "7px 7px 0px 0px #f6c700";
   static const componentCategoryBadgeSize = 52.0;
   static const componentInputBorderWidth = 3.0;
@@ -183,8 +189,10 @@ abstract final class GcDarkTokens {
   static const primitiveColorBrandBlack = Color(0xFF1E1B16);
   static const primitiveColorBrandCharcoal = Color(0xFF2F2F2F);
   static const primitiveColorBrandCream = Color(0xFFF5F5F2);
+  static const primitiveColorBrandGoldDeep = Color(0xFFB87A12);
   static const primitiveColorBrandInk = Color(0xFF0B0B0B);
   static const primitiveColorBrandOrange = Color(0xFFE2572D);
+  static const primitiveColorBrandRock = Color(0xFF181714);
   static const primitiveColorBrandYellow = Color(0xFFF6C700);
   static const primitiveColorTransparent = Colors.transparent;
   static const primitiveDurationFast = Duration(milliseconds: 150);
@@ -268,7 +276,7 @@ abstract final class GcDarkTokens {
   static const semanticColorLinkHover = Color(0xFFF6C700);
   static const semanticColorShadow = Color(0xFFF6C700);
   static const semanticColorSurface = Color(0xFF2F2F2F);
-  static const semanticColorSurfaceStrong = Color(0xFF2F2F2F);
+  static const semanticColorSurfaceStrong = Color(0xFF181714);
   static const semanticColorText = Color(0xFFF5F5F2);
   static const semanticColorTextMuted = Color(0xFFF5F5F2);
   static const semanticColorTextOnAccent = Color(0xFF1E1B16);
@@ -277,9 +285,10 @@ abstract final class GcDarkTokens {
   static const semanticMotionLinearEasing = Cubic(0, 0, 1, 1);
   static const semanticMotionReducedDuration = Duration(milliseconds: 0);
   static const semanticShapeBorderWidth = 3.0;
-  static const semanticShapeCardRadius = 8.0;
+  static const semanticShapeCardRadius = 0.0;
   static const semanticShapeControlRadius = 4.0;
   static const semanticShapeDecorativeRailWidth = 4.0;
+  static const semanticShapePixelUnit = 4.0;
   static const semanticTypeActionFamily = "Sanchez";
   static const semanticTypeBodyFamily = "Poppins";
   static const semanticTypeDisplayFamily = "Righteous";
@@ -289,6 +298,9 @@ abstract final class GcDarkTokens {
   static const surfaceWebBreakpointDesktop = 1280.0;
   static const surfaceWebBreakpointMobile = 480.0;
   static const surfaceWebBreakpointTablet = 768.0;
+  static const surfaceWebHeroContentMaximum = 1120.0;
+  static const surfaceWebHeroCopyMaximum = 620.0;
   static const surfaceWebHoverOffset = 2.0;
+  static const surfaceWebMineRailHeight = 96.0;
 }
 
