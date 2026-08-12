@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Banque Française Secrète Que Tous Les Entrepreneurs En Ligne Adorent
 author: Diane
-description: "La Banque Française Secrète Que Tous Les Entrepreneurs En Ligne Adorent."
+description: 'Découvre La Banque Française Secrète Que Tous Les Entrepreneurs En Ligne
+  Adorent : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

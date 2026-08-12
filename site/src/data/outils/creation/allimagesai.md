@@ -1,12 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: All Images AI
 author: Diane
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: design
-toolFacets:
-  - ia
 tags:
 - Outils
 description: All Images AI est une banque d'images IA française. 2M+ images générées

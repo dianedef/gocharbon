@@ -11,7 +11,7 @@ updatedAt: "2026-03-01"
 Transformer des données web en insights/actionnables exploitables business.
 
 ## En clair (version simple)
-- Pour qui : Équipes growth, pricing, contactgen et veille concurrentielle.
+- Pour qui : Equipes growth, pricing, contactgen et veille concurrentielle.
 - Où trouver les clients : Cas usage ROI (prix, contacts, veille) documentes.
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
@@ -44,10 +44,10 @@ Transformer des données web en insights/actionnables exploitables business.
 - [Fiche profil Web Scraping Expert](/biz/profils/web-scraping-expert)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/expert-scraping-web)
+- [Suivi du parcours](/parcours/web-scraping-expert)
 - [Ressource utile 1](/tutos/quelle-api-pour-scraper-google-maps)
 - [Ressource utile 2](/tutos/extraction-leads-google-maps)
-- [Ressource utile 3](/tutos/surveiller-des-prix)
+- [Ressource utile 3](/tutos/surveiller-les-prix-ou-autre-info-sur-le-web)
 
 ## Idées de contenus pour aller plus loin
 - [Guide à venir 1: checklist conformité scraping](/tutos/web-scraping-expert/checklist-conformite-scraping)

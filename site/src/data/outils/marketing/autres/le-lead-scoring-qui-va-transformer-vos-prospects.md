@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: crm
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Lead Scoring Qui Va Transformer Vos Prospects En Clients Fidèles
 author: Diane
-description: "Le Lead Scoring Qui Va Transformer Vos Prospects En Clients Fidèles."
+description: 'Découvre Le Lead Scoring Qui Va Transformer Vos Prospects En Clients
+  Fidèles : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

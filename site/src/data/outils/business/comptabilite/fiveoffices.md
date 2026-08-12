@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: union-europeenne
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: Luxembourg
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.fiveoffices.com/fr/
-- https://www.fiveoffices.com/fr/about-us
-- https://www.fiveoffices.com/en/content/fr/politique-de-confidentialite
-notesQualification: Fiveoffices opere entre Paris et Luxembourg, mais sa politique de confidentialite designe comme responsable de traitement une entite situee au Luxembourg; l'ancrage est donc europeen avec un hebergement et des transferts de donnees a traiter prudemment.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: fiveoffices

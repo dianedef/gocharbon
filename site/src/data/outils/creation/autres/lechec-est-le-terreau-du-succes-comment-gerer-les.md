@@ -1,10 +1,10 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 u_site: null
-imageNameKey: echec-succès
+imageNameKey: echec-succes
 title: L'Échec Est Le Terreau Du Succès, Comment Gérer Les Erreurs Et Obstacles
 author: Diane
 description: 'Découvre L''Échec Est Le Terreau Du Succès, Comment Gérer Les Erreurs

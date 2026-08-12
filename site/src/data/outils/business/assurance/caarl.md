@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.caarl.fr/legal/mentions-legales
-- https://www.caarl.fr/mentionslegales
-- https://www.caarl.fr/
-notesQualification: Caarl est une SAS francaise basee a Amiens, immatriculee ORIAS, avec un hebergement du site annonce chez Gandi a Paris; l'ancrage local est solide meme si la documentation securite reste concise.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Caarl
 author: Diane
 tags:

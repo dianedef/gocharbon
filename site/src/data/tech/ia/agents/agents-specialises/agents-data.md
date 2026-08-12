@@ -18,19 +18,19 @@ Tu as un fichier CSV de 10 000 lignes avec tes ventes des 12 derniers mois. Tu v
 
 En 2025, tu uploades ton fichier dans Julius AI, tu tapes "Montre-moi mes 10 meilleurs produits par chiffre d'affaires avec l'evolution mensuelle", et tu obtiens un graphique interactif en 15 secondes. Pas de code. Pas de formule. Juste du langage naturel.
 
-Les agents data sont peut-être les agents specialises les plus sous-estimes. Pas aussi "sexy" que les agents création, pas aussi mediatises que les agents code. Mais pour un entrepreneur qui prend des décisions, ils sont les plus impactants.
+Les agents data sont peut-etre les agents specialises les plus sous-estimes. Pas aussi "sexy" que les agents creation, pas aussi mediatises que les agents code. Mais pour un entrepreneur qui prend des decisions, ils sont les plus impactants.
 
 ## CAPACITES : CE QUE LES AGENTS DATA SAVENT FAIRE
 
 ### Nettoyage de donnees
 
-80% du temps d'un data analyst est passe a nettoyer les donnees. Colonnes mal nommees, doublons, valeurs manquantes, formats inconsistants (dates en 3 formats differents dans le même fichier). Les agents font ca automatiquement.
+80% du temps d'un data analyst est passe a nettoyer les donnees. Colonnes mal nommees, doublons, valeurs manquantes, formats inconsistants (dates en 3 formats differents dans le meme fichier). Les agents font ca automatiquement.
 
 Tu uploades un fichier brut, tu demandes "Nettoie ce fichier : supprime les doublons, uniformise les dates au format JJ/MM/AAAA, remplace les valeurs manquantes par la mediane", et c'est fait. Ce qui prenait 2 heures a un analyste prend 30 secondes a l'agent.
 
 ### Exploration et description
 
-"Decris-moi ce dataset." L'agent analyse la structure, identifie les types de donnees, calcule les statistiques descriptives (moyenne, mediane, ecart-type, distribution), détecte les valeurs aberrantes, et te donne un resume en langage clair.
+"Decris-moi ce dataset." L'agent analyse la structure, identifie les types de donnees, calcule les statistiques descriptives (moyenne, mediane, ecart-type, distribution), detecte les valeurs aberrantes, et te donne un resume en langage clair.
 
 C'est le premier reflexe a avoir quand tu recois un nouveau jeu de donnees. L'agent te dit ce qu'il y a dedans avant que tu ne poses des questions.
 
@@ -47,25 +47,25 @@ Tu n'as pas besoin de savoir quel graphique utiliser. Tu poses ta question, l'ag
 
 ### Analyse predictive
 
-Les agents modernes vont au-dela du descriptif. Ils font du predictif : "Prevois mes ventes des 3 prochains mois sur la base des 2 dernieres années." L'agent choisit le modele statistique adapte (regression, ARIMA, Prophet), l'applique, et te donne une prediction avec un intervalle de confiance.
+Les agents modernes vont au-dela du descriptif. Ils font du predictif : "Prevois mes ventes des 3 prochains mois sur la base des 2 dernieres annees." L'agent choisit le modele statistique adapte (regression, ARIMA, Prophet), l'applique, et te donne une prediction avec un intervalle de confiance.
 
 Ce n'est pas de la magie. C'est de la statistique classique, mais automatisee et accessible sans connaitre les maths derriere.
 
 ### Requetes en langage naturel sur les bases de donnees
 
-"Natural Language to SQL" : tu poses une question en français, l'agent la traduit en requete SQL et l'execute sur ta base de donnees.
+"Natural Language to SQL" : tu poses une question en francais, l'agent la traduit en requete SQL et l'execute sur ta base de donnees.
 
-"Combien de clients ont achete plus de 3 fois au cours des 6 derniers mois ?" --> l'agent génère le SQL, l'execute, te donne la réponse et un graphique.
+"Combien de clients ont achete plus de 3 fois au cours des 6 derniers mois ?" --> l'agent genere le SQL, l'execute, te donne la reponse et un graphique.
 
-C'est la democratisation de l'acces aux donnees. Plus besoin de passer par l'équipe tech pour obtenir un chiffre.
+C'est la democratisation de l'acces aux donnees. Plus besoin de passer par l'equipe tech pour obtenir un chiffre.
 
 ## LES OUTILS 2025
 
 ### Julius AI
 
-L'outil le plus accessible pour les non-techniciens. Tu uploades un fichier (CSV, Excel, PDF même), tu poses des questions en langage naturel, tu obtiens des reponses et des graphiques.
+L'outil le plus accessible pour les non-techniciens. Tu uploades un fichier (CSV, Excel, PDF meme), tu poses des questions en langage naturel, tu obtiens des reponses et des graphiques.
 
-- **Force** : simplicite extreme, bonne qualité de visualisations, support de multiples formats de fichiers
+- **Force** : simplicite extreme, bonne qualite de visualisations, support de multiples formats de fichiers
 - **Limite** : capacite limitee sur les gros datasets (>100 000 lignes), pas d'integration directe avec des bases de donnees
 - **Prix** : gratuit (limite), 20$/mois (Pro)
 - **Ideal pour** : entrepreneurs, PME, marketeurs qui veulent des insights sans code
@@ -74,7 +74,7 @@ L'outil le plus accessible pour les non-techniciens. Tu uploades un fichier (CSV
 
 Le mode "analyse de donnees" de ChatGPT. Tu uploades un fichier, GPT-4 ecrit et execute du code Python (pandas, matplotlib, seaborn) pour analyser tes donnees.
 
-- **Force** : très polyvalent, peut enchainer nettoyage + analyse + visualisation + prediction dans une même conversation
+- **Force** : tres polyvalent, peut enchainer nettoyage + analyse + visualisation + prediction dans une meme conversation
 - **Limite** : session temporaire (les fichiers disparaissent), taille de fichier limitee, parfois lent sur les gros calculs
 - **Prix** : inclus dans ChatGPT Plus (20$/mois)
 - **Ideal pour** : analyses ponctuelles, exploration, prototypage rapide
@@ -85,7 +85,7 @@ Librairie Python open source qui ajoute une couche de langage naturel au-dessus 
 
 - **Force** : open source, s'integre dans des workflows Python existants, pas de limites de taille
 - **Limite** : necessite des bases en Python, pas d'interface graphique
-- **Prix** : gratuit (+ coût de l'API du LLM utilise)
+- **Prix** : gratuit (+ cout de l'API du LLM utilise)
 - **Ideal pour** : developpeurs et data analysts qui veulent accelerer leur workflow pandas
 
 ### Databricks AI
@@ -95,16 +95,16 @@ Pour les entreprises avec de gros volumes de donnees. Databricks integre des age
 - **Force** : traite des teraoctets, s'integre avec les lakehouse, gouvernance des donnees integree
 - **Limite** : complexe a mettre en place, prix elevé, surdimensionne pour les PME
 - **Prix** : a partir de quelques centaines d'euros/mois selon l'usage
-- **Ideal pour** : entreprises avec des équipes data, gros volumes
+- **Ideal pour** : entreprises avec des equipes data, gros volumes
 
 ### Google Sheets + Gemini
 
-Google a integre Gemini directement dans Google Sheets. Tu peux poser des questions a tes donnees, générer des formules, creer des graphiques par commande vocale ou texte.
+Google a integre Gemini directement dans Google Sheets. Tu peux poser des questions a tes donnees, generer des formules, creer des graphiques par commande vocale ou texte.
 
-- **Force** : zero friction (tu es déjà dans Sheets), gratuit avec un compte Google
-- **Limite** : moins puissant que les outils dédiés, fonctionne mieux pour les petits datasets
+- **Force** : zero friction (tu es deja dans Sheets), gratuit avec un compte Google
+- **Limite** : moins puissant que les outils dedies, fonctionne mieux pour les petits datasets
 - **Prix** : inclus dans Google Workspace
-- **Ideal pour** : analyses simples sur des donnees déjà dans Google Sheets
+- **Ideal pour** : analyses simples sur des donnees deja dans Google Sheets
 
 ### Tableau recapitulatif
 
@@ -118,12 +118,12 @@ Google a integre Gemini directement dans Google Sheets. Tu peux poser des questi
 
 ## NATURAL LANGUAGE TO SQL : PARLER A SA BASE DE DONNEES
 
-C'est peut-être l'avancee la plus impactante pour les entreprises. Le NL-to-SQL permet a n'importe qui de requeter une base de donnees sans connaitre SQL.
+C'est peut-etre l'avancee la plus impactante pour les entreprises. Le NL-to-SQL permet a n'importe qui de requeter une base de donnees sans connaitre SQL.
 
 ### Comment ca marche
 
 1. L'agent recoit le schema de ta base de donnees (tables, colonnes, types)
-2. Tu poses une question en français : "Quel est le panier moyen par tranche d'age ?"
+2. Tu poses une question en francais : "Quel est le panier moyen par tranche d'age ?"
 3. L'agent traduit en SQL : `SELECT age_group, AVG(order_total) FROM orders JOIN customers ON... GROUP BY age_group`
 4. La requete s'execute, le resultat revient
 5. L'agent l'interprete : "Le panier moyen est de 67 euros pour les 25-34 ans, 89 euros pour les 35-44 ans..."
@@ -131,7 +131,7 @@ C'est peut-être l'avancee la plus impactante pour les entreprises. Le NL-to-SQL
 ### Les outils NL-to-SQL
 
 - **Outerbase** : interface web pour requeter ses bases en langage naturel
-- **AI2SQL** : génère des requetes SQL a partir de texte, supporte MySQL, PostgreSQL, MongoDB
+- **AI2SQL** : genere des requetes SQL a partir de texte, supporte MySQL, PostgreSQL, MongoDB
 - **Vanna.ai** : open source, s'entraine sur ton schema specifique pour des requetes plus precises
 - **DBeaver** (avec IA) : l'outil de gestion de BDD classique, maintenant avec un assistant IA integre
 
@@ -139,7 +139,7 @@ C'est peut-être l'avancee la plus impactante pour les entreprises. Le NL-to-SQL
 
 Un agent qui ecrit des requetes SQL sur ta base de production, ca peut faire mal. Requete `DELETE` accidentelle, `UPDATE` sans clause `WHERE`, scan de table complet qui fait tomber le serveur.
 
-**Règles de sécurité** :
+**Regles de securite** :
 - Toujours en lecture seule (SELECT uniquement) pour les agents
 - Jamais d'acces direct a la base de production
 - Utilise une replique en lecture ou un data warehouse
@@ -169,7 +169,7 @@ Les agents data ne se limitent pas a tes donnees internes. Ils vont les chercher
 
 ### Ethique et legalite
 
-Le scraping est un sujet sensible. Quelques règles :
+Le scraping est un sujet sensible. Quelques regles :
 - Respecte le fichier robots.txt
 - Ne surcharge pas les serveurs (rate limiting)
 - N'extrais pas de donnees personnelles sans base legale (RGPD)
@@ -184,13 +184,13 @@ Le scraping est un sujet sensible. Quelques règles :
 
 **Churn prediction.** L'agent analyse le comportement de tes clients (frequence d'achat, engagement email, reclamations) et identifie ceux qui risquent de partir. Tu peux alors les cibler avec des campagnes de retention.
 
-**Scoring de leads.** A partir des donnees de tes leads (source, comportement sur le site, interactions email), l'agent attribue un score de probabilite de conversion. Ton équipe commerciale se concentre sur les leads les plus chauds.
+**Scoring de leads.** A partir des donnees de tes leads (source, comportement sur le site, interactions email), l'agent attribue un score de probabilite de conversion. Ton equipe commerciale se concentre sur les leads les plus chauds.
 
-**Detection d'anomalies.** L'agent monitore tes métriques et t'alerte quand quelque chose sort de l'ordinaire. Pic de trafic, chute du taux de conversion, explosion des retours produit.
+**Detection d'anomalies.** L'agent monitore tes metriques et t'alerte quand quelque chose sort de l'ordinaire. Pic de trafic, chute du taux de conversion, explosion des retours produit.
 
 ### Les limites du predictif
 
-**Garbage in, garbage out.** La prediction est aussi bonne que tes donnees. Si tes donnees sont incompletes, biaisees ou mal structurees, la prediction sera fausse. L'agent ne va pas te le dire -- il va quand même produire un resultat convaincant.
+**Garbage in, garbage out.** La prediction est aussi bonne que tes donnees. Si tes donnees sont incompletes, biaisees ou mal structurees, la prediction sera fausse. L'agent ne va pas te le dire -- il va quand meme produire un resultat convaincant.
 
 **Le passe ne predit pas toujours l'avenir.** Un modele entraine sur 2 ans de donnees ne peut pas prevoir un black swan (pandemie, crise economique, changement d'algorithme Google). Les previsions sont valables "toutes choses etant egales par ailleurs".
 
@@ -198,14 +198,14 @@ Le scraping est un sujet sensible. Quelques règles :
 
 **L'intervalle de confiance est plus important que la prediction.** "On va faire 100K de CA le mois prochain" est moins utile que "On va faire entre 85K et 115K avec 80% de probabilite." Exige toujours l'intervalle de confiance.
 
-## PRIVACY ET RGPD : LES RÈGLES DU JEU
+## PRIVACY ET RGPD : LES REGLES DU JEU
 
 Utiliser des agents IA sur tes donnees implique souvent d'envoyer ces donnees a un service tiers (OpenAI, Anthropic, etc.). Voici ce que tu dois savoir.
 
 ### Les donnees que tu NE DOIS PAS envoyer
 
-- Donnees personnelles clients sans base legale (consentement, intérêt legitime)
-- Donnees de santé, opinions politiques, orientation sexuelle (categories speciales RGPD)
+- Donnees personnelles clients sans base legale (consentement, interet legitime)
+- Donnees de sante, opinions politiques, orientation sexuelle (categories speciales RGPD)
 - Donnees financieres sensibles (numeros de carte bancaire, RIB)
 - Secrets d'affaires et propriete intellectuelle
 
@@ -223,7 +223,7 @@ Utiliser des agents IA sur tes donnees implique souvent d'envoyer ces donnees a 
 
 ### Analyser ses ventes Shopify
 
-**Le problème** : tu as une boutique Shopify avec 2 ans de donnees de ventes, mais tu ne les exploites pas au-dela du dashboard basique de Shopify.
+**Le probleme** : tu as une boutique Shopify avec 2 ans de donnees de ventes, mais tu ne les exploites pas au-dela du dashboard basique de Shopify.
 
 **La solution** :
 1. Exporte tes ventes en CSV depuis Shopify (Orders > Export)
@@ -233,18 +233,18 @@ Utiliser des agents IA sur tes donnees implique souvent d'envoyer ces donnees a 
    - "Y a-t-il une saisonnalite dans mes ventes ?"
    - "Quels produits sont souvent achetes ensemble ?"
    - "Quel canal d'acquisition a le meilleur ROI ?"
-4. L'agent génère des graphiques et des insights
+4. L'agent genere des graphiques et des insights
 
-**Le gain** : des décisions basees sur des faits, pas sur des intuitions. Tu decouvres peut-être que ton produit star a la marge la plus faible, ou que tes clients Instagram ne rachetent jamais.
+**Le gain** : des decisions basees sur des faits, pas sur des intuitions. Tu decouvres peut-etre que ton produit star a la marge la plus faible, ou que tes clients Instagram ne rachetent jamais.
 
 ### Predire le churn email
 
-**Le problème** : ta liste email de 10 000 abonnés a un taux d'ouverture qui baisse mois après mois. Tu perds des abonnés mais tu ne sais pas lesquels vont partir.
+**Le probleme** : ta liste email de 10 000 abonnes a un taux d'ouverture qui baisse mois apres mois. Tu perds des abonnes mais tu ne sais pas lesquels vont partir.
 
 **La solution** :
 1. Exporte les donnees d'engagement de ton ESP (taux d'ouverture, clics, date d'inscription, derniere ouverture)
 2. Upload dans Code Interpreter ou Julius AI
-3. "Identifie les abonnés qui risquent de se desinscrire dans les 30 prochains jours, sur la base de leur engagement decroissant"
+3. "Identifie les abonnes qui risquent de se desinscrire dans les 30 prochains jours, sur la base de leur engagement decroissant"
 4. L'agent segmente ta liste : actifs, a risque, quasi-morts
 5. Tu crées des campagnes de re-engagement ciblees pour le segment "a risque"
 
@@ -252,7 +252,7 @@ Utiliser des agents IA sur tes donnees implique souvent d'envoyer ces donnees a 
 
 ### Scraper la concurrence
 
-**Le problème** : tu veux savoir comment tes concurrents positionnent leurs prix, mais surveiller 10 sites manuellement chaque semaine est intenable.
+**Le probleme** : tu veux savoir comment tes concurrents positionnent leurs prix, mais surveiller 10 sites manuellement chaque semaine est intenable.
 
 **La solution** :
 1. Configure Browse AI pour scraper les pages produit de tes 5 principaux concurrents (1x/semaine)
@@ -264,7 +264,7 @@ Utiliser des agents IA sur tes donnees implique souvent d'envoyer ces donnees a 
 
 ### Analyser les avis clients
 
-**Le problème** : tu as 500 avis Google et 300 avis Trustpilot, mais tu n'as pas le temps de tous les lire pour identifier les tendances.
+**Le probleme** : tu as 500 avis Google et 300 avis Trustpilot, mais tu n'as pas le temps de tous les lire pour identifier les tendances.
 
 **La solution** :
 1. Exporte ou scrape les avis
@@ -276,23 +276,23 @@ Utiliser des agents IA sur tes donnees implique souvent d'envoyer ces donnees a 
 
 ## COMMENT DEMARRER : LE PLAN EN 3 ETAPES
 
-### Étape 1 : Identifie tes donnees
+### Etape 1 : Identifie tes donnees
 
-Fais l'inventaire de ce que tu as déjà :
+Fais l'inventaire de ce que tu as deja :
 - Ventes (Shopify, WooCommerce, Stripe)
 - Trafic (Google Analytics)
 - Email (Brevo, Mailchimp, MailerLite)
-- Réseaux sociaux (statistiques natives)
+- Reseaux sociaux (statistiques natives)
 - CRM (HubSpot, Pipedrive, Notion)
 
-### Étape 2 : Pose une question business
+### Etape 2 : Pose une question business
 
 Pas "que disent mes donnees ?" (trop vague) mais :
 - "Quel canal me rapporte le plus par euro investi ?"
 - "Quels clients vont racheter dans les 30 jours ?"
 - "Quel produit dois-je arreter de vendre ?"
 
-### Étape 3 : Utilise l'agent adapte
+### Etape 3 : Utilise l'agent adapte
 
 - **Question simple, petit fichier** --> Google Sheets + Gemini (gratuit)
 - **Question complexe, fichier moyen** --> Julius AI ou Code Interpreter (20$/mois)

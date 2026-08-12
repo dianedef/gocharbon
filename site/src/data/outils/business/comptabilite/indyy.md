@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.indy.fr/mentions-legales/
-- https://www.indy.fr/politique-confidentialite/
-- https://www.indy.fr/securite/
-notesQualification: Indy est une societe francaise fortement ancree sur le marche des independants; la gouvernance privacy et la securite sont bien documentees, mais la localisation unique de l'hebergement reste trop peu precise publiquement.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Indy
 author: Diane
 tags:

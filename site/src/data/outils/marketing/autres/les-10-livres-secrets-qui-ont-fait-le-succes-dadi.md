@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les 10 Livres Secrets Qui Ont Fait Le Succès D'Adi Soozin Enfin Dévoilés
 author: Diane
-description: "Les 10 Livres Secrets Qui Ont Fait Le Succès D'Adi Soozin Enfin Dévoilés."
+description: 'Découvre Les 10 Livres Secrets Qui Ont Fait Le Succès D''Adi Soozin
+  Enfin Dévoilés : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -16,7 +17,7 @@ Please stop building AI tools to summarize books. People need to read slower and
 
 **Table des matières :**
 
-recommandé lors d’un Live en aout 2022 sur la chaîne…
+recommandé lors d’un Live en aout 2022 sur la chaine…
 
 [The Unseen Body Livre audio | Jonathan Reisman | Audible.fr: Livre audio Anglais](https://www.audible.fr/pd/The-Unseen-Body-Livre-Audio/1250818672?qid=1676062778&sr=1-1&ref=a_search_c3_lProduct_1_1&pf_rd_p=f20cf038-cbbb-4fa0-adfe-62ed184d8867&pf_rd_r=00SAZVKRVDN4F3ES4TGQ&pageLoadId=tiqJQQcOv9BC7lm4&creativeId=41e85e98-10b8-40e2-907d-6b663f04a42d)
 

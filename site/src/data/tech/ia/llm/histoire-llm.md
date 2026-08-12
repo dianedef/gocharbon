@@ -255,7 +255,7 @@ Llama 3 8B (2024) surpasse GPT-3 (175B) sur de nombreux benchmarks.
 
 ### Pour les entreprises
 
-- **Vendor lock-in n'est plus nécessaire :** Multi-model stratégies
+- **Vendor lock-in n'est plus nécessaire :** Multi-model strategies
 - **Coûts en baisse :** 10-100x depuis 2022
 - **Confidentialité possible :** Self-hosted models
 

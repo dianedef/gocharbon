@@ -181,36 +181,43 @@ watch(
 <style scoped>
 .gamification-bar {
   position: fixed;
-  bottom: var(--gamification-bar-offset);
-  right: var(--gamification-bar-offset);
-  z-index: var(--gamification-bar-z-index);
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 50;
 }
 
 .bar-inner {
   display: flex;
   align-items: center;
-  gap: var(--gamification-bar-inner-gap);
-  padding: var(--gamification-bar-inner-padding);
-  border: var(--gamification-bar-inner-border);
-  border-radius: var(--gamification-bar-inner-radius);
-  background: var(--gamification-bar-inner-background);
-  box-shadow: var(--gamification-bar-inner-shadow);
-  font-family: var(--gamification-bar-inner-font-family);
-  font-size: var(--gamification-bar-inner-font-size);
-  font-weight: var(--gamification-bar-inner-font-weight);
-  color: var(--gamification-bar-inner-color);
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  border: 3px solid var(--brand-black);
+  border-radius: 9999px;
+  background: var(--brand-yellow);
+  box-shadow: 4px 4px 0 var(--brand-black);
+  font-family: 'Sanchez', serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--brand-black);
+}
+
+:global(.dark) .bar-inner {
+  background: var(--brand-ink);
+  border-color: var(--brand-cream);
+  box-shadow: 4px 4px 0 var(--brand-cream);
+  color: var(--brand-cream);
 }
 
 .streak-section {
   display: flex;
   align-items: center;
-  gap: var(--gamification-bar-streak-gap);
+  gap: 0.25rem;
 }
 
 .streak-icon {
-  font-size: var(--gamification-bar-streak-icon-size);
-  opacity: var(--gamification-bar-streak-opacity);
-  transition: var(--gamification-bar-streak-transition);
+  font-size: 1.125rem;
+  opacity: 0.4;
+  transition: opacity 0.3s;
 }
 
 .streak-icon.active {
@@ -220,113 +227,130 @@ watch(
 .badges-section {
   display: flex;
   align-items: center;
-  gap: var(--gamification-bar-badge-gap);
+  gap: 0.25rem;
 }
 
 .recent-badge {
-  font-size: var(--gamification-bar-badge-font-size);
+  font-size: 1rem;
 }
 
 .badge-count,
 .read-count {
-  opacity: var(--gamification-bar-section-opacity);
+  opacity: 0.8;
 }
 
 .read-section {
-  border-left: var(--gamification-bar-section-border-left);
-  padding-left: var(--gamification-bar-section-padding-left);
-  opacity: var(--gamification-bar-section-opacity);
+  border-left: 2px solid currentColor;
+  padding-left: 0.75rem;
+  opacity: 0.8;
 }
 
 .path-section {
-  border-left: var(--gamification-bar-section-border-left);
-  padding-left: var(--gamification-bar-section-padding-left);
-  opacity: var(--gamification-bar-section-opacity-path);
+  border-left: 2px solid currentColor;
+  padding-left: 0.75rem;
+  opacity: 0.85;
 }
 
 .xp-section {
-  border-left: var(--gamification-bar-section-border-left);
-  padding-left: var(--gamification-bar-section-padding-left);
-  opacity: var(--gamification-bar-section-opacity-xp);
+  border-left: 2px solid currentColor;
+  padding-left: 0.75rem;
+  opacity: 0.9;
 }
 
 .toast-wrapper {
   position: fixed;
-  top: var(--gamification-bar-toast-offset);
-  right: var(--gamification-bar-toast-offset);
-  z-index: var(--gamification-bar-toast-z-index);
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 100;
 }
 
 .toast-content {
   display: flex;
   align-items: center;
-  gap: var(--gamification-bar-toast-gap);
-  padding: var(--gamification-bar-toast-padding);
-  border: var(--gamification-bar-toast-border);
-  border-radius: var(--gamification-bar-toast-radius);
-  background: var(--gamification-bar-toast-background);
-  box-shadow: var(--gamification-bar-toast-shadow);
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  border: 3px solid var(--brand-black);
+  border-radius: 0.5rem;
+  background: var(--brand-yellow);
+  box-shadow: 6px 6px 0 var(--brand-black);
   cursor: pointer;
-  animation: var(--gamification-bar-toast-animation);
-  color: var(--gamification-bar-toast-color);
+  animation: toast-slide-in 0.4s ease-out;
+}
+
+:global(.dark) .toast-content {
+  background: var(--brand-ink);
+  border-color: var(--brand-cream);
+  box-shadow: 6px 6px 0 var(--brand-cream);
+  color: var(--brand-cream);
 }
 
 .toast-icon {
-  font-size: var(--gamification-bar-toast-icon-size);
+  font-size: 2rem;
 }
 
 .toast-text {
   display: flex;
   flex-direction: column;
-  font-family: var(--gamification-bar-toast-font-family);
-  color: var(--gamification-bar-toast-color);
+  font-family: 'Sanchez', serif;
 }
 
 .toast-text strong {
-  font-size: var(--gamification-bar-toast-text-strong-size);
+  font-size: 0.875rem;
   text-transform: uppercase;
 }
 
 .toast-text span {
-  font-size: var(--gamification-bar-toast-text-span-size);
+  font-size: 1rem;
 }
 
 .onboarding-tooltip {
   position: absolute;
-  bottom: var(--gamification-bar-onboarding-offset);
+  bottom: calc(100% + 0.75rem);
   right: 0;
-  width: var(--gamification-bar-onboarding-width);
-  padding: var(--gamification-bar-onboarding-padding);
-  border: var(--gamification-bar-onboarding-border);
-  border-radius: var(--gamification-bar-onboarding-radius);
-  background: var(--gamification-bar-onboarding-background);
-  box-shadow: var(--gamification-bar-onboarding-shadow);
-  font-family: var(--gamification-bar-onboarding-font-family);
-  font-size: var(--gamification-bar-onboarding-font-size);
-  color: var(--gamification-bar-onboarding-color);
-  animation: var(--gamification-bar-tooltip-animation);
+  width: 280px;
+  padding: 0.75rem 1rem;
+  border: 3px solid var(--brand-black);
+  border-radius: 0.5rem;
+  background: var(--brand-cream);
+  box-shadow: 4px 4px 0 var(--brand-black);
+  font-family: 'Sanchez', serif;
+  font-size: 0.85rem;
+  color: var(--brand-black);
+  animation: tooltip-pop 0.3s ease-out;
+}
+
+:global(.dark) .onboarding-tooltip {
+  background: var(--brand-ink);
+  border-color: var(--brand-cream);
+  box-shadow: 4px 4px 0 var(--brand-cream);
+  color: var(--brand-cream);
 }
 
 .onboarding-tooltip p {
   margin: 0 0 0.5rem;
-  line-height: var(--gamification-bar-onboarding-line-height);
+  line-height: 1.4;
 }
 
 .onboarding-dismiss {
   display: inline-block;
-  padding: var(--gamification-bar-onboarding-dismiss-padding);
-  border: var(--gamification-bar-onboarding-dismiss-border);
-  background: var(--gamification-bar-onboarding-dismiss-background);
-  font-family: var(--gamification-bar-onboarding-dismiss-font-family);
+  padding: 0.25rem 0.75rem;
+  border: 2px solid var(--brand-black);
+  background: var(--brand-yellow);
+  font-family: 'Sanchez', serif;
   font-weight: 700;
-  font-size: var(--gamification-bar-onboarding-dismiss-font-size);
-  color: var(--gamification-bar-onboarding-dismiss-color);
+  font-size: 0.8rem;
   cursor: pointer;
-  transition: var(--gamification-bar-dismiss-transition);
+  transition: transform 0.15s;
 }
 
 .onboarding-dismiss:hover {
-  transform: var(--gamification-bar-onboarding-dismiss-hover-translate);
+  transform: translate(1px, 1px);
+}
+
+:global(.dark) .onboarding-dismiss {
+  border-color: var(--brand-cream);
+  background: var(--brand-charcoal);
+  color: var(--brand-cream);
 }
 
 @keyframes tooltip-pop {
@@ -347,10 +371,10 @@ watch(
 
 /* Transition classes for AchievementToast */
 :global(.toast-enter-active) {
-  animation: var(--gamification-bar-toast-animation);
+  animation: toast-slide-in 0.4s ease-out;
 }
 
 :global(.toast-leave-active) {
-  animation: var(--gamification-bar-toast-animation-reverse);
+  animation: toast-slide-in 0.3s ease-in reverse;
 }
 </style>

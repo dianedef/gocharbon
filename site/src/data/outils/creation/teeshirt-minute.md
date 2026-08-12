@@ -1,10 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Teeshirt minute
 author: Diane
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: print
 tags:
 - Outils
 description: '[Facebook](https://www.facebook.com/teeshirtminute) La startup Teeshirt-minute

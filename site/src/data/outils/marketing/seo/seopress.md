@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: seopress
@@ -85,7 +85,7 @@ Tous nos clients en bénéficient systématiquement en totale marque blanche.
 
 - Author: Marc Llopis
 - Category: article
-- URL: [https://wpchannel.com/wordpress/plugins-wordpress/seopress-extension-seo-wordpress/](__MASK_5__)
+- URL: [https://wpchannel.com/wordpress/plugins-wordpress/seopress-extension-seo-wordpress/](https://wpchannel.com/wordpress/plugins-wordpress/seopress-extension-seo-wordpress/)
 
 ## Highlights
 

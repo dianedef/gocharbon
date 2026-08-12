@@ -1,13 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 title: jobphoning
 author: Diane
 tags:
 - Outils
-description: "La startup JobPhoning est une plateforme dédiée au télémarketing, mettant en relation des téléopérateurs indépendants avec des entreprises cherchant à externaliser leur prospection."
+description: La startup JobPhoning est une plateforme dédiée au télémarketing, mettant
+  en relation des téléopérateurs indépendants avec des entreprises cherchant à externaliser
+  leur prospection
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://jobphoning.com

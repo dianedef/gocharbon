@@ -1,19 +1,6 @@
 ---
-section: outils
-draft: true
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://intia.fr/fr/mentions-legales/
-- https://intia.fr/fr/infast/
-- https://intia.fr/fr/nous-contacter/
-notesQualification: INFast est edite par INTIA, societe francaise; l'ancrage local et l'accompagnement humain sont clairs, mais la documentation publique ne precise pas assez finement la localisation de l'hebergement applicatif.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: INFast
 author: Diane
 tags:

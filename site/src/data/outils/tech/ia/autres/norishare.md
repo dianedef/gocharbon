@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -15,22 +15,12 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Norishare
+## **Découvrir Norishare**
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+Norishare est un outil de partage de fichier similaire à WeTransfer. Il vous permet d’envoyer des documents volumineux à des proches ou à des collaborateurs sans passer par une boîte email ou une solution comme Google Drive. En effet, il vous suffit d’uploader votre fichier sur la plateforme, d’obtenir le lien de téléchargement et de le transmettre à qui vous le souhaitez. Les destinataires n’auront qu’à cliquer sur le lien et à lancer le téléchargement du document grâce au bouton dédié.
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+Les documents sont conservés pendant 14 jours par Norishare. Il est possible d’uploader un ou plusieurs fichiers à la fois, tandis qu’un aperçu des documents est proposé, quel que soit leur format, afin que les destinataires sachent à l’avance de quoi il s’agit, sans avoir à d’abord les télécharger.
 
-## Ressources de départ
-- Aucune ressource externe n’a été détectée dans la fiche d’origine.
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+Outil français, Norishare n’utilise pas de traceur, ne partage pas les fichiers avec d’autres organisations et collecte uniquement les données nécessaires pour des raisons techniques ou légales. En outre, la plateforme se veut responsable : les fichiers uploadés sont éphémères, le code est optimisé, la conception de l’outil est minimaliste et l’ensemble du processus se déroule dans le navigateur web,
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+Enfin, Norishare est entièrement gratuit et disponible partout. Il est même possible, avec Chrome pour Android, d’installer l’outil sur votre appareil mobile afin de réaliser des transferts de fichiers directement depuis une autre application.

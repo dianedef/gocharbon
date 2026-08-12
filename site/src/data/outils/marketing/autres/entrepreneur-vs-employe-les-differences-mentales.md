@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Entrepreneur Vs Employé Les Différences Mentales Choc Qui Font Tout
 author: Diane
-description: "Entrepreneur Vs Employé Les Différences Mentales Choc Qui Font Tout."
+description: 'Découvre Entrepreneur Vs Employé Les Différences Mentales Choc Qui Font
+  Tout : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -28,4 +29,4 @@ People tend to perceive the way the idea of "building business" in a much differ
 
 Most people are willing to give up 4 years of their time in University MAYBE get a decent job, yet when it comes to building a business they give themselves months, weeks and sometimes days.
 
-I am going to shed some new light on this topic, from my expérience and from the 10,000's of successful people I have worked with over the years. Believe it or not, when approached the way that I explain it, you are VASTLY UNDERPAID in your existing career/job. And the reason is because you probably have the wrong perspective.
+I am going to shed some new light on this topic, from my experience and from the 10,000's of successful people I have worked with over the years. Believe it or not, when approached the way that I explain it, you are VASTLY UNDERPAID in your existing career/job. And the reason is because you probably have the wrong perspective.

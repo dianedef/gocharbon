@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Traducteur freelance
-author: Diane GoCharbon
+title: Translation Services / Services de Traduction
+author: Web Indé
 tags:
 - Business
-description: 'Vendre de la traduction avec une vraie spécialisation et une qualité
-  défendable à l''ère des outils automatiques.'
+description: 'Lance ton activité de traduction : spécialisations, outils et stratégies
+  pour traducteurs freelance.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Traducteur freelance
+# Translation Services / Services de Traduction
 
 ## Description en une phrase
 

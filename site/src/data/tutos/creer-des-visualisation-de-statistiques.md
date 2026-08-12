@@ -4,46 +4,54 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Comment créer des visualisations de statistiques lisibles
+title: Créer Des Visualisation De Statistiques
 author: Diane
-description: 'Comment créer des visualisations de statistiques lisibles : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Créer Des Visualisation De Statistiques : outil français pour
+  entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment créer des visualisations de statistiques lisibles est surtout une question de méthode. Avec un cadre clair, quelques vérifications et une mise en œuvre propre, tu gagnes du temps sans sacrifier la qualité.
+**Table des matières :**
 
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
+Premièrement faut un outil pour les visualiser on a [columns.ai](http://columns.ai) ou flourish
 
-## Ce que tu vas obtenir
-- un process clair
-- des priorités utiles
-- une exécution moins brouillonne
+Hyper easy il a fait un tuto
 
-## Méthode simple
-### 1. Commence par le résultat attendu
-Si tu ne sais pas exactement ce que tu veux obtenir, tu vas bricoler longtemps.
+Maintenant faut trouver les données
 
-### 2. Prépare le terrain
-Rassemble les accès, fichiers, modèles et prérequis avant de te lancer.
+Pour ça on google evidemment [data france insee - Recherche Google](https://www.google.com/search?q=data+france+insee&sxsrf=AJOqlzWSa0f0nCgqv_bhucH5b4KNttJvHA%3A1673386050084&ei=Qti9Y9PnBNyKi-gP8sGriAw&ved=0ahUKEwjTkNno-L38AhVcxQIHHfLgCsEQ4dUDCA8&uact=5&oq=data+france+insee&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIGCAAQFhAeOgQIIxAnOhEILhCABBCxAxCDARDHARDRAzoLCAAQgAQQsQMQgwE6DgguEIAEELEDEMcBENEDOggIABCABBCxAzoKCAAQsQMQgwEQQzoICAAQsQMQgwE6CAguELEDEIMBOgQIABBDOgsILhCABBCxAxCDAToICC4QgAQQ1AI6CAgAEIAEEMkDOgsILhCABBDHARDRAzoFCAAQgAQ6DgguEK8BEMcBENQCEIAEOggIABCABBDLAToHCAAQgAQQCjoKCAAQgAQQChDLAToHCAAQgAQQDToJCAAQgAQQDRAKOgYIABAeEA06CAgAEB4QDxANOggIABAWEB4QCjoICAAQFhAeEA9KBAhBGAFKBAhGGABQ8xJYyEVg-VBoA3AAeACAAVWIAZwJkgECMTmYAQCgAQHAAQE&sclient=gws-wiz-serp)
 
-### 3. Exécute sur un petit périmètre
-Teste sur un échantillon ou une première version avant d’industrialiser.
+On tombe sur l’INSEE
 
-### 4. Mesure ce que ça change
-Temps gagné, qualité produite, erreurs évitées ou impact business : choisis un critère réel.
+[Columns Ai - YouTube](https://www.youtube.com/@columnsai)
 
-### 5. Formalise le process
-Un tuto utile doit déboucher sur une routine reproductible, pas sur un one-shot héroïque.
+[data france insee - Recherche Google](https://www.google.com/search?q=data+france+insee&sxsrf=AJOqlzWSa0f0nCgqv_bhucH5b4KNttJvHA%3A1673386050084&ei=Qti9Y9PnBNyKi-gP8sGriAw&ved=0ahUKEwjTkNno-L38AhVcxQIHHfLgCsEQ4dUDCA8&uact=5&oq=data+france+insee&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIGCAAQFhAeOgQIIxAnOhEILhCABBCxAxCDARDHARDRAzoLCAAQgAQQsQMQgwE6DgguEIAEELEDEMcBENEDOggIABCABBCxAzoKCAAQsQMQgwEQQzoICAAQsQMQgwE6CAguELEDEIMBOgQIABBDOgsILhCABBCxAxCDAToICC4QgAQQ1AI6CAgAEIAEEMkDOgsILhCABBDHARDRAzoFCAAQgAQ6DgguEK8BEMcBENQCEIAEOggIABCABBDLAToHCAAQgAQQCjoKCAAQgAQQChDLAToHCAAQgAQQDToJCAAQgAQQDRAKOgYIABAeEA06CAgAEB4QDxANOggIABAWEB4QCjoICAAQFhAeEA9KBAhBGAFKBAhGGABQ8xJYyEVg-VBoA3AAeACAAVWIAZwJkgECMTmYAQCgAQHAAQE&sclient=gws-wiz-serp)
 
-## Pièges à éviter
-- commencer trop vite
-- ne pas documenter
-- vouloir tout optimiser d’un coup
+[Où trouver les statistiques industrielles ou sectorielles ? | economie.gouv.fr](https://www.economie.gouv.fr/cedef/statistiques-industrielles-et-sectorielles)
 
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
+[Les entreprises en France - Les entreprises en France | Insee](https://www.insee.fr/fr/statistiques/6667157)
 
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+[Accès aux données publiques | Insee](https://www.insee.fr/fr/information/1300614)
+
+[Utilisation du service web SDMX | Insee](https://www.insee.fr/fr/information/2862759)
+
+[GitHub - amattioc/SDMX: SDMX Connectors](https://github.com/amattioc/SDMX/)
+
+[Secret statistique | Insee](https://www.insee.fr/fr/information/1300624)
+
+[Consulter les indices et séries chronologiques | Insee](https://www.insee.fr/fr/information/2411675)
+
+[Découvrir, apprendre | Insee](https://www.insee.fr/fr/information/2021852)
+
+[Trouver des données | Ecole des Données](http://ecoledesdonnees.org/handbook/cours/trouver-des-donnees/index.html)
+
+[ecoledesdonnees.org/Datacatalogs.org](http://ecoledesdonnees.org/Datacatalogs.org)
+
+[Accueil - data.gouv.fr](https://www.data.gouv.fr/fr/)
+
+[Institut National de la Statistique et des Etudes Economiques (Insee) - data.gouv.fr](https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/)
+
+[Access to data | Insee](https://www.insee.fr/en/information/2388844)
+
+[Les chiffres de référence sur les violences faites aux femmes | Arrêtons les violences](https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes)

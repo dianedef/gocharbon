@@ -4,47 +4,50 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Comment mettre en place une sauvegarde 3-2-1-1-0
+title: Comment Implémenter Une Sauvegarde 3 2 1 1 0
 author: Diane
-description: 'Comment mettre en place une sauvegarde 3-2-1-1-0 : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Comment Implémenter Une Sauvegarde 3 2 1 1 0 : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment mettre en place une sauvegarde 3-2-1-1-0 demande un peu plus de méthode que trois clics dans l’admin. Le vrai sujet, c’est d’éviter la casse en production, de garder une trace claire de ce qui a été fait et de rendre le process répétable.
+Bien sûr, voici un tutoriel étape par étape sur la manière de réaliser une sauvegarde 3-2-1 1-0 avec Levia et Veeam :
+[La sauvegarde 3-2-1 1-0 avec Leviia et Veeam - YouTube](https://www.youtube.com/watch?v=GFxLWaJe2hc)
+**Étape 1 : Configuration de Levia**
+- Connectez-vous à votre compte Levia sur le tableau de bord.
+- Créez un nouveau "bucket" sur Levia pour stocker vos sauvegardes. Assurez-vous que ce bucket est configuré pour une utilisation avec l'Object Storage.
 
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
+**Étape 2 : Installation de Veeam Backup & Replication**
+- Assurez-vous d'avoir installé Veeam Backup & Replication sur la machine à partir de laquelle vous souhaitez effectuer la sauvegarde.
+- Lancez Veeam Backup & Replication.
 
-## Ce que tu vas obtenir
-- une procédure simple à répéter
-- moins de risque de casser la prod
-- des contrôles clairs après chaque action
+**Étape 3 : Configuration des identifiants Levia dans Veeam**
+- Dans Veeam, accédez à la section "Credentials" ou "Identifiants" selon la version.
+- Ajoutez les informations d'identification Levia pour permettre à Veeam d'accéder au bucket que vous avez créé.
 
-## Méthode simple
-### 1. Commence par cadrer le périmètre
-Identifie exactement ce que tu touches : site, environnement, extensions concernées, sauvegardes disponibles et impact potentiel pour les utilisateurs.
+**Étape 4 : Création d'un Job de Sauvegarde avec Veeam**
+- Dans Veeam, accédez à la section "Backup & Replication" ou "Sauvegarde et Réplication".
+- Cliquez sur "Backup Job" ou "Job de Sauvegarde" pour créer une nouvelle tâche de sauvegarde.
+- Sélectionnez les machines virtuelles ou les données que vous souhaitez sauvegarder.
 
-### 2. Prépare un environnement sûr
-Fais la manipulation sur un site de test ou au minimum sur un créneau calme, avec une sauvegarde vérifiée et un plan de retour arrière.
+**Étape 5 : Configuration du Stockage de Sauvegarde**
+- Lors de la configuration du job, choisissez le stockage de sauvegarde. Sélectionnez l'option "Object Storage".
+- Sélectionnez Levia comme fournisseur de stockage objet.
+- Entrez les informations spécifiques à votre compte Levia, telles que le nom du bucket et les identifiants.
 
-### 3. Exécute la tâche proprement
-Applique le changement avec un seul objectif à la fois, note ce que tu modifies et évite les actions groupées sans contrôle.
+**Étape 6 : Planification de la Stratégie 3-2-1 1-0**
+- Configurez le job pour effectuer trois copies de sauvegarde différentes (3).
+- Stockez ces copies sur deux supports différents, par exemple, un disque externe et un NAS (2).
+- Assurez-vous que l'une des copies est stockée de manière "offsite", dans le bucket Levia (1).
+- Ajoutez une couche supplémentaire de sécurité en activant la fonction "airgap" pour créer une copie déconnectée du réseau (1-0).
 
-### 4. Teste ce qui compte vraiment
-Vérifie le front, l’admin, les formulaires, les paiements, les performances et les logs. Ce qui ne se teste pas finit souvent en ticket support.
+**Étape 7 : Exécution du Job de Sauvegarde**
+- Une fois toutes les configurations terminées, lancez le job de sauvegarde.
+- Surveillez la progression du job dans Veeam Backup & Replication.
 
-### 5. Documente pour la prochaine fois
-Garde un mini mode opératoire. Si tu dois refaire la même chose dans trois semaines, tu te remercieras.
+**Étape 8 : Vérification des Sauvegardes sur Levia**
+- Connectez-vous à votre compte Levia.
+- Accédez à la section Object Storage et vérifiez que les sauvegardes ont été correctement transférées dans le bucket.
 
-## Pièges à éviter
-- mettre à jour ou supprimer sans sauvegarde valide
-- faire dix changements d’un coup puis ne plus savoir d’où vient le bug
-- oublier de tester les parcours critiques après intervention
-
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] sauvegarde ou retour arrière prêt
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
-
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+En suivant ces étapes, vous aurez mis en place une stratégie de sauvegarde 3-2-1 1-0 avec Levia et Veeam, assurant ainsi une redondance robuste de vos données tout en utilisant le stockage objet sécurisé de Levia.

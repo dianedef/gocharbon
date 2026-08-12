@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -131,9 +131,9 @@ La feuille de route de Digitaleo n'est pas clairement mentionnée sur la page. P
 
 ## ⛓️ Liens et Ressources ⛓️
 
-- Site Web: [https://www.digitaleo.com/](__MASK_7__)
-- Blog: [https://blog.digitaleo.com/](__MASK_8__)
-- Documentation du produit: [https://www.digitaleo.com/documentation](__MASK_9__)
+- Site Web: [https://www.digitaleo.com/](https://www.digitaleo.com/)
+- Blog: [https://blog.digitaleo.com/](https://blog.digitaleo.com/)
+- Documentation du produit: [https://www.digitaleo.com/documentation](https://www.digitaleo.com/documentation)
 - Réseaux Sociaux: Suivez Digitaleo sur [Facebook](https://www.facebook.com/Digitaleo), [LinkedIn](https://www.linkedin.com/company/digitaleo/), [Instagram](https://www.instagram.com/digitaleo/), [YouTube](https://www.youtube.com/user/DigitaleoFR) et [Twitter](https://twitter.com/digitaleo).
 - [Contactez-nous - Digitaleo](https://www.digitaleo.fr/contact)
 

@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Vente de photos et vidéos de stock
-author: Diane GoCharbon
+title: Stock Photography / Photographie et Vidéos Stock
+author: Web Indé
 tags:
 - Business
-description: 'Monétiser une bibliothèque d''images et de vidéos de stock, avec un
-  vrai regard sur le volume et le rendement.'
+description: 'Vends tes photos en stock : plateformes, techniques et stratégies pour
+  photographes indépendants.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Vente de photos et vidéos de stock
+# Stock Photography / Photographie et Vidéos Stock
 
 ## Description en une phrase
 
@@ -95,7 +95,7 @@ Mais si tu aimes la création visuelle et que tu as un bon œil, **le stock peut
 - **Appareil photo** ou **téléphone** de bonne qualité
 - **Objectifs** pour la photographie (optionnel au début)
 - **Tripod** (essentiel pour la stabilité)
-- **Outils d'édition** : Lightroom, Photoshop, Première Pro (abonnements payants)
+- **Outils d'édition** : Lightroom, Photoshop, Premiere Pro (abonnements payants)
 - **Où photographier** : studio, extérieur, etc.
 
 ### Budget démarrage
@@ -262,7 +262,7 @@ Mais si tu aimes la création visuelle et que tu as un bon œil, **le stock peut
 - **Objectifs** : 50mm f/1.8 (300€), 85mm f/1.8 (500€), 24-70mm (1500€)
 - **Tripod** : 50-200€
 - **Éclairage** : lampes LED (100-500€)
-- **Logiciels** : Lightroom (10$/mois), Photoshop (20$/mois), Première Pro (20$/mois)
+- **Logiciels** : Lightroom (10$/mois), Photoshop (20$/mois), Premiere Pro (20$/mois)
 
 ### Plateformes
 
@@ -291,7 +291,7 @@ Mais si tu aimes la création visuelle et que tu as un bon œil, **le stock peut
 
 Si la photographie stock te plaît mais tu veux varier :
 
-### Vidéo Stock Creator
+### Video Stock Creator
 
 **Différence** : Créer des vidéos plutôt que des photos. Plus complexe, mieux payé par vente, plus de demande.
 
@@ -326,7 +326,7 @@ Si la photographie stock te plaît mais tu veux varier :
 
 **Son conseil** : "Spécialise-toi dans les photos business et lifestyle. Elles se vendent mieux que les paysages."
 
-### Sophie, 25 ans – De vidéaste à stock vidéo creator 4k€/mois
+### Sophie, 25 ans – De vidéaste à stock video creator 4k€/mois
 
 **Avant** : Vidéaste freelance à 1500€/mois, cherchait des revenus passifs.
 

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,14 +8,16 @@ u_site: null
 title: 10 Étapes Pour Digitaliser Votre Entreprise Et Laisser Vos Concurrents Dans
   La Poussière
 author: Diane
-description: "10 Étapes Pour Digitaliser Votre Entreprise Et Laisser Vos Concurrents Dans La Poussière."
+description: 'Découvre 10 Étapes Pour Digitaliser Votre Entreprise Et Laisser Vos
+  Concurrents Dans La Poussière : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
 - Introduction au parcours de transformation digitale - OpenClassrooms
     
-    [https://openclassrooms.com/fr/courses/4024656-introduction-au-parcours-de-transformation-digitale](__MASK_0__)
+    [https://openclassrooms.com/fr/courses/4024656-introduction-au-parcours-de-transformation-digitale](https://openclassrooms.com/fr/courses/4024656-introduction-au-parcours-de-transformation-digitale)
     
     Bienvenue dans ce parcours sur la Transformation digitale !
     

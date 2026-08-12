@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: analytics
+section: apps
 metadataEnrichedAt: null
 RS-&-RSS-suivi: null
 Ville: null
@@ -18,7 +16,8 @@ u_affi: null
 u_affiAdmin: null
 title: La Machine À Clics
 author: Diane
-description: "La Machine À Clics."
+description: 'Découvre La Machine À Clics : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

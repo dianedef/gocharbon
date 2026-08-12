@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: formation
-toolSubcategoryPrimary: lms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Outils De Création De Formation Qui Vont Faire De Vous Un Millionnaire
 author: Diane
-description: "Les Outils De Création De Formation Qui Vont Faire De Vous Un Millionnaire."
+description: 'Découvre Les Outils De Création De Formation Qui Vont Faire De Vous
+  Un Millionnaire : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

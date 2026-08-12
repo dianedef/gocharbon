@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: knowledge-management
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les 10 Gourous Français De Notion À Suivre Absolument
 author: Diane
-description: "Les 10 Gourous Français De Notion À Suivre Absolument."
+description: 'Découvre Les 10 Gourous Français De Notion À Suivre Absolument : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

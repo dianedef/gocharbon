@@ -1,17 +1,18 @@
 ---
 section: parcours
-title: Pet sitter
-author: Diane GoCharbon
+title: Pet Sitter (Garde d'animaux)
+author: Web Indé
 tags:
 - Business
-description: 'Une activité de proximité simple et utile, mais qui reste peu scalable.'
+description: 'Deviens pet-sitter professionnel : plateformes, tarification et conseils
+  pour gardiens d''animaux.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Le pet sitting consiste à garder, visiter ou promener les animaux d'autres personnes contre rémunération. C'est une activité accessible et concrète, intéressante comme revenu local ou complément, mais qui reste fortement liée à ton temps.
+Le pet sitting consiste à s'occuper des animaux de compagnie d'autres personnes pendant leur absence. Cela peut inclure des visites à domicile, des promenades, ou l'hébergement de l'animal chez soi. C'est une activité idéale pour ceux qui aiment les animaux et souhaitent générer un revenu complémentaire avec une grande flexibilité.
 
 Les plateformes comme Rover et Pawshake ont professionnalisé ce secteur, permettant de mettre en relation facilement les propriétaires d'animaux avec des gardiens de confiance.
 

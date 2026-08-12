@@ -34,12 +34,12 @@ const props = withDefaults(defineProps<Props>(), {
 
 <style scoped>
   .loading-spinner {
-    width: var(--sf-auto-global2-postgridvue-width-d7bcf2f7);
-    height: var(--sf-auto-global2-postgridvue-height-8683df3f);
+    width: 50px;
+    height: 50px;
     border: 5px solid var(--brand-cream);
     border-top: 5px solid var(--brand-orange);
-    border-radius: var(--sf-auto-global2-postgridvue-border-radius-b1ef582f);
-    animation: var(--sf-auto-global2-postgridvue-animation-4850f29d);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
   }
 
   :global(.dark) .loading-spinner {

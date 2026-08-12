@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Pourquoi La Cupidité Va Vous Rendre Riche Les Arguments Chocs
 author: Diane
-description: "Pourquoi La Cupidité Va Vous Rendre Riche Les Arguments Chocs."
+description: 'Découvre Pourquoi La Cupidité Va Vous Rendre Riche Les Arguments Chocs
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

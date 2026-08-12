@@ -1,32 +1,15 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: UPDF
-type: outil
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: pdf
-toolFacets:
-  - ia
 description: UPDF est l'éditeur PDF tout-en-un avec IA intégrée. Édition, annotation,
   OCR, conversion, signature. Superace Software. Licence à vie. Windows/Mac/iOS/Android.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://updf.com
-u_derniere_maj: '2026-03-20'
-qualificationLocale: hors-union-europeenne
-ancrageEconomique: faible
-niveauResponsabilite: partiel
-paysSiege: Hong Kong
-hebergementDonnees: multi-region
-sourcesVerification:
-  - https://video.updf.com/license-agreement/
-  - https://updf.com/contact-us/
-  - https://updf.com/pl/privacy-policy/
-notesQualification: 'UPDF est rattache a SUPERACE TECHNOLOGY LIMITED a Hong Kong. La politique de confidentialite indique un stockage cloud par region utilisateur, notamment aux Etats-Unis et en Europe, avec des fonctions IA appuyees sur OpenAI. L''outil ne presente donc ni ancrage francais ni perimetre d''hebergement assez resserre pour monter au-dela de partiel.'
-methodologieVersion: gocharbon-v1
 ---
 
 # UPDF

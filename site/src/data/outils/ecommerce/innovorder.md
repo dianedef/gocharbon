@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: caisse
-toolFacets:
-  - restauration
-  - pos
+section: apps
 metadataEnrichedAt: null
 title: Innovorder
 author: Diane
@@ -20,17 +15,17 @@ u_site: https://www.innovorder.com
 
 # Innovorder
 
-# RESTAURATION DIGITALE : L'ÉCOSYSTÈME COMPLET PROPULSÉ PAR L'IA POUR LES RESTAURATEURS AMBITIEUX
+## RESTAURATION DIGITALE : L'ÉCOSYSTÈME COMPLET PROPULSÉ PAR L'IA POUR LES RESTAURATEURS AMBITIEUX
 
-## tl;dr
+### tl;dr
 
 Innovorder est une suite digitale française tout-en-un pour la restauration, fondée le 26 septembre 2014 par **Jérôme Varnier** (CEO), **Romain Melloul** et **Olivier Loverde**. L'écosystème couvre la prise de commande (borne, en ligne, à table, caisse mobile), l'encaissement (caisse NF525), la préparation en cuisine (KDS), la fidélisation client, et surtout l'**IA Scan** — premier scan plateau intégrant l'IA en Europe (reconnaissance automatique des plats, division par 3 du temps d'encaissement). **2 500+ restaurants** clients, **17 000+ points de vente** équipés en France, **90 employés** (50% en R&D), **11M€+ levés** (dont 10M€ en Série A, 2019). **20M€ investis en R&D** depuis 2014. Avis clients : Google 4,8/5, Facebook 4,7/5. Index d'égalité professionnelle : 90/100. Conçu pour la restauration commerciale (indépendants, franchises, dark kitchens, food courts) ET collective (entreprise, santé, enseignement). Trophée de l'Innovation Restau'Co (juin 2025). Dès 79€/mois.
 
-## Alternative à
+### Alternative à
 
 L'Addition, Cashpad, Zelty, Lightspeed Restaurant, SumUp (ex-Tiller), Square for Restaurants. Innovorder se distingue par son **IA Scan** (unique en Europe — reconnaissance visuelle des plats pour la restauration collective), ses **30+ intégrations partenaires**, son approche 100% SaaS (pas de serveurs nécessaires), et sa couverture complète de la restauration commerciale ET collective.
 
-# Bénéfices
+## Bénéfices
 
 **IA Scan : premier en Europe** — Reconnaissance automatique des plats sur le plateau en restauration collective. Division par 3 du temps d'encaissement. Temps de passage < 3 secondes. +10 à 15% de fréquentation supplémentaire. Lancé en 2023 (1ère génération), 2ème génération en 2025. Aucun concurrent ne propose ça en Europe.
 
@@ -44,7 +39,7 @@ L'Addition, Cashpad, Zelty, Lightspeed Restaurant, SumUp (ex-Tiller), Square for
 
 **Deux univers : commercial et collectif** — Innovorder est l'un des rares à couvrir à la fois la restauration commerciale (restaurants, fast-foods, franchises, dark kitchens) et la restauration collective (cantines scolaires, entreprises, EHPAD). L'IA Scan est spécifiquement conçu pour la collective.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - Restaurants indépendants et fast-foods cherchant à digitaliser leur parcours client
 - Franchises et chaînes de restauration (2 à 10+ points de vente)
@@ -53,22 +48,22 @@ L'Addition, Cashpad, Zelty, Lightspeed Restaurant, SumUp (ex-Tiller), Square for
 - Grands comptes avec 10+ établissements (offre sur-mesure)
 - Restaurateurs qui veulent un écosystème complet sans multiplier les prestataires
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Caisse Enregistreuse Tactile
+### Caisse Enregistreuse Tactile
 
 - **Certifiée NF525** — Conforme à la loi anti-fraude du 1er janvier 2018 (inaltérabilité, sécurisation, conservation, archivage)
 - **100% SaaS** — Cloud, pas de serveur local
 - **Encaissement rapide** — Interface intuitive, multi-modes de paiement
 - **Gestion de salle** — Plan de salle interactif, gestion des tables
 
-## Innovorder Move (Caisse Mobile)
+### Innovorder Move (Caisse Mobile)
 
 - **Tout-en-un mobile** — Prise de commande et encaissement sur un seul appareil
 - **Flexible** — Terrasse, extérieur, file d'attente, événements
 - **Désengorger les files** — Les serveurs encaissent à table ou en déplacement
 
-## Bornes de Commande
+### Bornes de Commande
 
 - **Self-service** — Les clients commandent et paient en autonomie
 - **Augmentation du panier moyen** — Suggestions intelligentes, upselling automatique
@@ -76,7 +71,7 @@ L'Addition, Cashpad, Zelty, Lightspeed Restaurant, SumUp (ex-Tiller), Square for
 - **Réduction du temps d'attente** — Fluidification du service
 - **Prix indicatif** : 2 500€ à 7 000€ par borne selon la configuration
 
-## Commande en Ligne (White-Label)
+### Commande en Ligne (White-Label)
 
 - **Sans commission** — Contrairement à Deliveroo/Uber Eats (15-30%)
 - **Personnalisable** — À l'image de ta marque
@@ -84,7 +79,7 @@ L'Addition, Cashpad, Zelty, Lightspeed Restaurant, SumUp (ex-Tiller), Square for
 - **Livraison** — Avec intégration aux services de livraison
 - **Intégration caisse** — Les commandes arrivent directement dans la caisse
 
-## IA Scan (Innovation Majeure)
+### IA Scan (Innovation Majeure)
 
 - **1ère génération (2023)** — Premier scan plateau intégrant l'IA en Europe pour la restauration collective
 - **2ème génération (2025)** — Reconnaissance améliorée
@@ -94,36 +89,36 @@ L'Addition, Cashpad, Zelty, Lightspeed Restaurant, SumUp (ex-Tiller), Square for
 - **+10 à 15% de fréquentation** supplémentaire dans les cantines équipées
 - **Trophée de l'Innovation** — Catégorie Équipement au salon Restau'Co (juin 2025)
 
-## Commande à Table
+### Commande à Table
 
 - **QR code** — Le client scanne, commande et paie depuis son smartphone
 - **Encaissement simultané** — Pas besoin d'attendre le serveur
 - **Pas d'app à télécharger** — Fonctionne via le navigateur web
 
-## Écran Cuisine (KDS — Kitchen Display System)
+### Écran Cuisine (KDS — Kitchen Display System)
 
 - **Commandes en temps réel** — Affichage instantané des commandes
 - **Hiérarchisation** — Priorisation par ordre et urgence
 - **Gestion des préparations** — Suivi du temps de préparation
 
-## Écran Client (ODS — Order Display System)
+### Écran Client (ODS — Order Display System)
 
 - **Affichage des commandes** — Le client voit l'avancement de sa commande
 - **Notification** — Alerte quand la commande est prête
 
-## Programme de Fidélité
+### Programme de Fidélité
 
 - **Cartes digitales** — Programme de fidélité intégré nativement
 - **Données clients** — Suivi des habitudes et préférences
 - **Campagnes ciblées** — Marketing automatisé basé sur les données
 
-## Frigo Connecté
+### Frigo Connecté
 
 - **Restauration 24h/24 7j/7** — Self-service en continu
 - **Plats frais** — Distribution automatisée de repas préparés
 - **Idéal** : bureaux, hôpitaux, campus
 
-## Backoffice et Analytics
+### Backoffice et Analytics
 
 - **Pilotage à distance** — Gestion depuis n'importe où
 - **Tableaux de bord** — KPIs dédiés par établissement
@@ -131,7 +126,7 @@ L'Addition, Cashpad, Zelty, Lightspeed Restaurant, SumUp (ex-Tiller), Square for
 - **Multi-sites centralisé** — Vue consolidée pour les franchises
 - **Data-driven** — Décisions basées sur les données réelles
 
-# Prix
+## Prix
 
 | Plan | Prix | Points de vente | Inclus |
 |------|------|-----------------|--------|
@@ -141,38 +136,38 @@ L'Addition, Cashpad, Zelty, Lightspeed Restaurant, SumUp (ex-Tiller), Square for
 
 Prix facturés mensuellement, hors matériel. Bornes de commande : 2 500€ à 7 000€ selon la configuration.
 
-# Intégrations
+## Intégrations
 
-## Plateformes de Livraison
+### Plateformes de Livraison
 
 - **Uber Eats** — Intégration parfaite, commandes centralisées sur la caisse
 - **Deliveroo** — Centralisation des commandes, suivi en direct
 - **Stuart** — Service de livraison
 
-## Paiement
+### Paiement
 
 - **Stripe** — Paiement en ligne
 - **Edenred** — Tickets restaurant dématérialisés
 
-## Fidélité et CRM
+### Fidélité et CRM
 
 - **Combo** — Programme de fidélité
 - **Splio** — CRM et marketing automation
 - **Hey Pongo** — Engagement client
 
-## Gestion et RH
+### Gestion et RH
 
 - **Netresto** — Pilotage de l'activité restaurant
 - **Inpulse** — Gestion des stocks et achats
 - **Flynt** — Solutions de gestion
 
-## Total
+### Total
 
 - **30+ intégrations partenaires** documentées
 - **16+ solutions développées** en interne
 - **API ouverte** — Pour les intégrations personnalisées
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **26 septembre 2014** — Fondation par **Jérôme Varnier** (CEO), **Romain Melloul** et **Olivier Loverde** à Paris (75016). SAS, SIREN 804 818 482
 - **2016** — **1 million d'euros** de levée de fonds (Banexi Ventures/Kreaxi, Petit Poucet Participation 3, Bpifrance). Lauréat du Concours d'Innovation Numérique
@@ -191,13 +186,13 @@ Prix facturés mensuellement, hors matériel. Bornes de commande : 2 500€ à 7
 **Avis clients** : Google 4,8/5, Facebook 4,7/5
 **Mises à jour** : Gratuites et continues
 
-# Certification NF525
+## Certification NF525
 
 - **Certifié NF525** — Norme française anti-fraude obligatoire depuis le 1er janvier 2018
 - **Garanties** : Inaltérabilité, sécurisation, conservation et archivage des données de caisse
 - **100% SaaS** — Conformité gérée par Innovorder, pas de maintenance côté restaurateur
 
-# Points Forts
+## Points Forts
 
 - IA Scan unique en Europe — reconnaissance visuelle des plats, temps de passage < 3 secondes
 - Écosystème le plus complet : 16+ solutions synchronisées nativement
@@ -210,7 +205,7 @@ Prix facturés mensuellement, hors matériel. Bornes de commande : 2 500€ à 7
 - Avis clients excellents : Google 4,8/5, Facebook 4,7/5
 - Certifié NF525, support 6j/7
 
-# Points Faibles
+## Points Faibles
 
 - Tarif Growth à 299€/mois — peut être élevé pour un petit restaurant indépendant
 - Bornes de commande : investissement matériel important (2 500€-7 000€)

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Voyagez Comme Un Vip Avec Ces 10 Apps Françaises Secrètes
 author: Diane
-description: "Voyagez Comme Un Vip Avec Ces 10 Apps Françaises Secrètes."
+description: 'Découvre Voyagez Comme Un Vip Avec Ces 10 Apps Françaises Secrètes :
+  outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

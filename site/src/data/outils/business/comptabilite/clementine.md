@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://www.clementine.fr/mentions-legales
-- https://www.clementine.fr/cgu/
-notesQualification: Clementine est exploitee par une societe francaise basee a Laxou; les mentions legales documentent un hebergement Netlify et AWS sur des serveurs localises en France et en Europe, avec un stockage de donnees assure par Comptalib en France.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Clémentine
 author: Diane
 tags:

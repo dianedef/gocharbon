@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: bureautique
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: img
@@ -11,7 +9,8 @@ u_site: null
 u_affi: null
 title: Les 10 Apps De Productivité Windows Qui Vont Changer Votre Vie
 author: Diane
-description: "Les 10 Apps De Productivité Windows Qui Vont Changer Votre Vie."
+description: 'Découvre Les 10 Apps De Productivité Windows Qui Vont Changer Votre
+  Vie : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

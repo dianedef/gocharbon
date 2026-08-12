@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: email-marketing
 imageNameKey: null
 u_site: null
 title: Warm Mailing La Technique D'Emailing Qui Fait Exploser Les Taux D'Ouverture
 author: Diane
-description: "Warm Mailing La Technique D'Emailing Qui Fait Exploser Les Taux D'Ouverture."
+description: 'Découvre Warm Mailing La Technique D''Emailing Qui Fait Exploser Les
+  Taux D''Ouverture : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -68,4 +67,4 @@ imgUrl: ../../../../assets/astro.jpeg
     
     Le prix final dépendra du nombre de SMTP à intégrer et commencera à 1.000€ HT oneshot, c'est-à dire avec un paiement unique et au lieu d’un abonnement mensuel.
     
-    Si vous avez des questions sur cette infrastructure, vous pouvez m’envoyer un message en suivant ce lien : [https://go.bh.marketing/wa-coldmail-serveur](__MASK_3__)
+    Si vous avez des questions sur cette infrastructure, vous pouvez m’envoyer un message en suivant ce lien : [https://go.bh.marketing/wa-coldmail-serveur](https://go.bh.marketing/wa-coldmail-serveur)

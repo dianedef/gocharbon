@@ -1,16 +1,16 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: evenements
 imageNameKey: null
 u_site: null
 title: Organisez Des Événements De Ouf Avec L'App Secrète Des Plus Grands Festivals
   Français
 author: Diane
-description: "Organisez Des Événements De Ouf Avec L'App Secrète Des Plus Grands Festivals Français."
+description: 'Découvre Organisez Des Événements De Ouf Avec L''App Secrète Des Plus
+  Grands Festivals Français : outil français pour entrepreneurs, fonctionnalités et
+  avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

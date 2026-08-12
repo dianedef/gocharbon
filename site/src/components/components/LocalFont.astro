@@ -28,7 +28,7 @@ const getFontPath = (name: string) => join(appDir, "public", "fonts", name);
 			fallback: "sans-serif",
 			src: [
 				{
-					preload: true,
+					preload: false,
 					style: "normal",
 					path: getFontPath("poppins.ttf"),
 				},
@@ -54,7 +54,7 @@ const getFontPath = (name: string) => join(appDir, "public", "fonts", name);
 			selector: ".sanchez",
 			src: [
 				{
-					preload: true,
+					preload: false,
 					style: "normal",
 					path: getFontPath("sanchez.ttf"),
 				},

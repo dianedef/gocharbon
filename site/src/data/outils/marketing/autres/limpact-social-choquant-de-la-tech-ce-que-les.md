@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: L'Impact Social Choquant De La Tech Ce Que Les Géants Du Web Vous Cachent
 author: Diane
-description: "L'Impact Social Choquant De La Tech Ce Que Les Géants Du Web Vous Cachent."
+description: 'Découvre L''Impact Social Choquant De La Tech Ce Que Les Géants Du Web
+  Vous Cachent : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

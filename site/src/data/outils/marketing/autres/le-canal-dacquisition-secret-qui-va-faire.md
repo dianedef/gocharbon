@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: acquisition
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Canal D'Acquisition Secret Qui Va Faire Exploser Votre Chiffre D'Affaires
 author: Diane
-description: "Le Canal D'Acquisition Secret Qui Va Faire Exploser Votre Chiffre D'Affaires."
+description: 'Découvre Le Canal D''Acquisition Secret Qui Va Faire Exploser Votre
+  Chiffre D''Affaires : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

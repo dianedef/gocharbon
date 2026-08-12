@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.nona.fr/
-- https://www.nona.fr/confidentialite
-- https://www.nona.fr/ressources/nous-levons-3-3-meu-pour-accelerer-la-transition-alimentaire-en-restauration-collective
-notesQualification: Nona est exploite par maia SAS a Paris et porte une mission clairement oriente transition alimentaire; les sources publiques documentent bien l'entite et la gouvernance de donnees, mais pas la localisation technique de l'hebergement.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Nona
 author: Diane
 tags:

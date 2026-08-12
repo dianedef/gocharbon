@@ -17,12 +17,12 @@ Lancer un podcast regulier avec angle net et distribution multi-plateforme.
 
 ## Idées d'offres à tester
 1. Stratégie podcast + calendrier episodes
-2. Production complète (enregistrement->publication)
+2. Production complete (enregistrement->publication)
 3. Monétisation partenariats + offres internes
 
 ## Ton plan simple sur 7 jours
 1. Jour 1 : rends "Stratégie podcast + calendrier episodes" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
-2. Jours 2-4 : utilise ton canal principal (Clips courts, newsletters et cross-collabs invites.) pour proposer "Production complète (enregistrement->publication)" à tes premiers clients et noter leurs retours.
+2. Jours 2-4 : utilise ton canal principal (Clips courts, newsletters et cross-collabs invites.) pour proposer "Production complete (enregistrement->publication)" à tes premiers clients et noter leurs retours.
 3. Jours 5-7 : continue avec "Monétisation partenariats + offres internes", puis suis ecoutes par episode et taux completion episode, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre

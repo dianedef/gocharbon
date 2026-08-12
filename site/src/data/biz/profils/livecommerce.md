@@ -1,12 +1,11 @@
 ---
 section: parcours
-title: Vente en direct
-author: Diane GoCharbon
+title: Live Commerce / Vente en Direct
+author: Web Indé
 tags:
 - Business
 - E-commerce
-description: 'Le live commerce peut convertir fort, mais il demande de l''aisance commerciale,
-  du rythme et un bon catalogue.'
+description: 'Vends en direct face caméra : le business model qui explose en France avec des taux de conversion 3-5x supérieurs au e-commerce classique.'
 pubDate: '2026-03-13'
 imgUrl: ../../../assets/astro.jpeg
 ---
@@ -151,7 +150,7 @@ C'est un business radicalement différent du e-commerce classique. Là où le e-
 ### TikTok Shop — Le moteur de découverte
 - Algorithme qui pousse tes lives à de nouvelles audiences
 - Commission : 9% en Europe (depuis janvier 2026)
-- Shoppable vidéos en plus des lives
+- Shoppable videos en plus des lives
 - Idéal pour : beauté, mode, produits tendance, audience jeune
 
 ### Amazon Live — L'intention d'achat

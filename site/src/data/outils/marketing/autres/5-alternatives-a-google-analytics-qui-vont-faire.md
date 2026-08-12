@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: 5 Alternatives À Google Analytics Qui Vont Faire Pleurer Larry Page
 author: Diane
-description: "5 Alternatives À Google Analytics Qui Vont Faire Pleurer Larry Page."
+description: 'Découvre 5 Alternatives À Google Analytics Qui Vont Faire Pleurer Larry
+  Page : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -32,7 +31,7 @@ Every analytics tool records data a bit differently, so it’s helpful to unders
 
 A view is recorded every time a page is loaded. If someone visits your homepage and then a blog post, two views would be recorded.
 Since Independent Analytics doesn’t use cookies, IP addresses are used to recognize unique visitors. This means if someone visits your site on their laptop today and tomorrow, they’ll be recorded as one visitor. If they visit every day this month, they’ll still be counted as one visitor. If they visit on their phone the next day, that will be counted as a separate visitor.
-When someone visits your site, a new session is recorded. The session lasts until a period of inactivity of 30 minutes. If someone visits five pages on your site and then leaves, this would be counted as five views and one session. You can think of a session as one expérience with your website.
+When someone visits your site, a new session is recorded. The session lasts until a period of inactivity of 30 minutes. If someone visits five pages on your site and then leaves, this would be counted as five views and one session. You can think of a session as one experience with your website.
 [Learn more about sessions](https://independentwp.us18.list-manage.com/track/click?u=ded583128c8439e527929161a&id=0aaf3f34da&e=2b728ad63e&i=bde2720e75)
 A “bounce” is when someone leaves your site after viewing only one page. Your bounce rate is the percentage of sessions with only one view. For instance, if your bounce rate is 65%, this means that 65% of sessions only included one page.
 The views per session metric tells you how many pages your visitors look at, on average, when they visit your site.
@@ -233,7 +232,7 @@ C’est le tracker du futur.
 
 ### Le Passage a GA4 Peut Être Laborieux
 
-La remise à plat complète de l’ancien tracking UA permet de faire le ménage et de suivre vraiment les KPI nécessaires à l’analyse de données.  
+La remise à plat complète de l’ancien tracking UA permet de faire le ménage et de suivre vraiment les KPI necessaires à l’analyse de données.  
 Un rapport Data Studio en parallèle permet d’y voir plus clair sur les données que nous sommes habitués à suivre, et voir les % d’évolution que nous avons perdus (pour le moment) dans GA4.
 
 Je teste Matomo Analytics on premise. On aime Matomo, car ca ressemble beaucoup à UA. On retrouve la mise en place d’évènements identiques avec Matomo Tag Manager ou GTM.  
@@ -274,7 +273,7 @@ Ce qui me fait penser également qu’ils disposent d’une fonction « big scre
 
 Et ils proposent aussi des **heatmap**.  
 Mais l’intérêt de ce type de fonction est limité à mes yeux car on passe beaucoup de temps à analyser les résultats pour souvent pas grand-chose finalement.  
-C’est aussi mon avis de cette fonction de replay vidéo que propose Yandex Metrica (outil que j’utilise aussi par ailleurs sur certain site).
+C’est aussi mon avis de cette fonction de replay video que propose Yandex Metrica (outil que j’utilise aussi par ailleurs sur certain site).
 
 Donc même si je suis certifié Google Analytics, mon cœur a toujours été chez [Clicky 7](https://clicky.com/101354941)
 
@@ -296,7 +295,7 @@ Dans quels cas les cookies sont-ils exemptés de consentement ? Afin de se limit
 
 ### [The Google Analytics alternative without compromise - Fathom Analytics](https://usefathom.com/)
 
-français : [Safary - Google analytics for web3](https://www.safary.club/)
+francais : [Safary - Google analytics for web3](https://www.safary.club/)
 
 # Safary: Une Alternative Web3 à Google Analytics
 
@@ -454,7 +453,7 @@ You also get to see the most popular pages on your site and the most popular sou
 
 You can do event and goal conversion tracking too and we plan to add more useful metrics as we go along but you get the idea behind it.
 
-Simple, easy to understand and quick to review website analytics. We’ve made it easy to open publicly or share your website stats privately with other people such as your visitors or your clients who have no prior expérience with analytics.
+Simple, easy to understand and quick to review website analytics. We’ve made it easy to open publicly or share your website stats privately with other people such as your visitors or your clients who have no prior experience with analytics.
 
 We have an actual [live demo](https://plausible.io/plausible.io) for you to view. It shows you the live website analytics of our website.
 
@@ -473,13 +472,13 @@ With Matomo being a full-blown Google Analytics-like tool, it is using cookies a
 To make Matomo privacy regulation compliant and to not have to ask your visitors for cookie or GDPR consent, you can take [these steps](https://matomo.org/blog/2018/04/how-to-not-process-any-personal-data-with-matomo-and-what-it-means-for-you/). To make Matomo compliant with GDPR and other privacy regulations without obtaining consent, you need to:
 
 1. Anonymize visitors’ IP addresses
-2. Disable the création of cookies
+2. Disable the creation of cookies
 3. Anonymize URLs which include personal identifiers
 4. Anonymize the tracking data which includes the user ID and order ID
 5. Anonymize location data so a full IP address is not used to geolocate visitors
 6. Anonymize all keystrokes which users enter into forms of your site
 
-Without taking the above steps, you would need to compromise the visitor expérience by prompting them to give you consent to place cookies on their devices or for collecting personal data.
+Without taking the above steps, you would need to compromise the visitor experience by prompting them to give you consent to place cookies on their devices or for collecting personal data.
 
 Plausible doesn’t use any cookies and we don’t collect any personal data so by using Plausible you don’t need to obtain a [cookie consent or the GDPR consent](https://plausible.io/data-policy) at all.
 

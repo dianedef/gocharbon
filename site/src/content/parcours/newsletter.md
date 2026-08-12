@@ -12,7 +12,7 @@ Construire une newsletter utile, attendue et monetable sans fatigue audience.
 
 ## En clair (version simple)
 - Pour qui : Experts niches, medias independants, créateurs B2B.
-- Où trouver les clients : Co-marketing, contenus gratuits attractifs et cross-posting réseaux.
+- Où trouver les clients : Co-marketing, contenus gratuits attractifs et cross-posting reseaux.
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
 ## Idées d'offres à tester
@@ -22,7 +22,7 @@ Construire une newsletter utile, attendue et monetable sans fatigue audience.
 
 ## Ton plan simple sur 7 jours
 1. Jour 1 : rends "Lancement newsletter 30 jours" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
-2. Jours 2-4 : utilise ton canal principal (Co-marketing, contenus gratuits attractifs et cross-posting réseaux.) pour proposer "Refonte ligne éditoriale + cadence" à tes premiers clients et noter leurs retours.
+2. Jours 2-4 : utilise ton canal principal (Co-marketing, contenus gratuits attractifs et cross-posting reseaux.) pour proposer "Refonte ligne éditoriale + cadence" à tes premiers clients et noter leurs retours.
 3. Jours 5-7 : continue avec "Monétisation sponsor/produit", puis suis croissance liste nette et taux lecture/réponse, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre
@@ -50,6 +50,6 @@ Construire une newsletter utile, attendue et monetable sans fatigue audience.
 - [Ressource utile 3](/tutos/envoyer-email-a-partir-de-wordpress)
 
 ## Idées de contenus pour aller plus loin
-- [Guide à venir 1: système angles éditoriaux](/tutos/newsletter/systeme-angles-editoriaux)
+- [Guide à venir 1: systeme angles editoriaux](/tutos/newsletter/systeme-angles-editoriaux)
 - [Guide à venir 2: plan sponsor media kit](/tutos/newsletter/plan-sponsor-media-kit)
 - [Guide à venir 3: automatisation production](/tutos/newsletter/automatisation-production)

@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: union-europeenne
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: Danemark
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.pleo.io/fr-be/legal
-- https://www.pleo.io/de/impressum-page
-- https://www.pleo.io/en/sub-processors
-notesQualification: Pleo est pilote depuis le Danemark avec plusieurs entites locales en Europe, dont une SAS francaise; l'ancrage est europeen mais l'hebergement produit n'est pas suffisamment detaille pour etre qualifie plus finement.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Pleo
 author: Diane
 tags:

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -54,7 +54,7 @@ Créer un site de e-commerce crédible à partir de zéro est horriblement diffi
 
 Importer automatiquement des produits via le programme d'affiliation d'Amazon avec des informations synchronisées sur les prix, les stocks et les promotions.
 
-C'est la même équipe qui est derrière WiziShop, et Dropizi, qui lance Evolup ! Regardez la vidéo sur leur site, c'est impressionnant ?
+C'est la même équipe qui est derrière WiziShop, et Dropizi, qui lance Evolup ! Regardez la video sur leur site, c'est impressionnant ?
 
 🌐 Site Officiel : https://www.evolup(.)fr
 

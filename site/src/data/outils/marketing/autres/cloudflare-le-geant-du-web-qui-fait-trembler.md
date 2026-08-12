@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Cloudflare Le Géant Du Web Qui Fait Trembler Google
 author: Diane
-description: "Cloudflare Le Géant Du Web Qui Fait Trembler Google."
+description: 'Découvre Cloudflare Le Géant Du Web Qui Fait Trembler Google : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

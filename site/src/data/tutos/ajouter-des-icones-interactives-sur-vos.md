@@ -1,40 +1,113 @@
 ---
 section: tutos
-type: tuto
-imageNameKey: null
 tags:
 - Tutoriels
+imageNameKey: null
 u_site: null
-title: Ajouter des icones interactives sur vos
+title: Ajouter Des Icones Interactives Sur Vos Publications Réseaux Sociaux
 author: Diane
-description: 'Tutoriel pratique pour ajouter des icones interactives sur vos : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Ajouter Des Icones Interactives Sur Vos Publications Réseaux
+  Sociaux : outil français pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
-Sociaux: 'outil français pour entrepreneurs, fonctionnalités et avis.'''
 ---
 
-# Ajouter des icones interactives sur vos
+# Ajouter Des Icones Interactives Sur Tes Publications Reseaux Sociaux
 
-Si tu veux ajouter des icones interactives sur vos, garde une logique de système. Les bons visuels ne viennent pas d'un effet wow isolé, mais d'un process reproductible, de gabarits propres et d'un contrôle qualité minimal.
+## VISUELS INTERACTIFS : FAIS REAGIR TON AUDIENCE
 
-## Ce qu'il faut préparer
+### tl;dr
 
-- le format cible
-- la charte ou au moins deux règles visuelles fixes
-- un modèle que tu peux réutiliser
+Les publications statiques, c'est fini. Les icones animees et les stickers interactifs boostent l'engagement de 20 a 40% par rapport aux images fixes. Ce tuto te montre comment ajouter des elements interactifs a tes visuels, meme sans competences en design.
 
-## La méthode simple
+---
 
-1. Crée un gabarit propre. Si tu reconstruis chaque visuel à la main, tu vas produire lentement et accumuler des incohérences.
-2. Automatise seulement ce qui est stable : dimensions, variantes, couleurs, zones de texte, export. N'automatise pas une recette encore bancale.
-3. Prévois toujours une vérification humaine. Les outils vont vite, mais ils ne voient pas les coupures de texte, les débords ou les choix visuels absurdes.
+## Pourquoi les visuels interactifs marchent mieux ?
 
-## Les erreurs à éviter
+- **Le mouvement attire l'oeil** dans un feed sature
+- **Le temps passe augmente** (signal positif pour l'algorithme)
+- **L'interactivite invite a l'action** -- cliquer, swiper, reagir
 
-- croire que l'automatisation remplace la direction artistique
-- laisser les titres déborder
-- multiplier les variantes inutiles
+## Methode 1 : Genially pour le contenu interactif
 
-## Commence comme ça
+1. Cree un compte gratuit sur [genially.com](https://genially.com) (anciennement genial.ly)
+2. Choisis un template : infographie, presentation, image interactive, quiz
+3. Ajoute des elements interactifs :
+   - **Hotspots** : points cliquables qui revelent une info
+   - **Pop-ups** : fenetres avec texte, images ou videos
+   - **Animations d'entree** : fade, slide, bounce
+   - **Boutons de navigation** vers d'autres pages
+4. Exporte le lien et integre-le dans tes posts ou ta bio
 
-Crée un modèle réutilisable cette semaine, puis génère trois variantes maximum. Tu apprendras plus vite qu'en produisant cinquante versions d'un coup.
+**Prix Genially :** Plan gratuit (creations illimitees avec branding Genially). Plans payants : Student, Educator, Professional et Expert -- les tarifs varient selon l'usage (integration LMS, suppression de branding, analytics, telechargement, brand kit). Fonctionnalites IA integrees dans tous les plans pour accelerer la creation. Conforme RGPD et SOC 2.
+
+**Cas d'usage :** infographies interactives, catalogues cliquables, quiz, cartes interactives, jeux gamifies, presentations corporate.
+
+## Methode 2 : Canva pour les visuels animes
+
+1. Cree un design au bon format (1080x1080 Instagram, 1200x627 LinkedIn)
+2. Ajoute des stickers animes depuis la bibliotheque (tape "animated")
+3. Anime tes textes et formes : selectionne l'element > "Animer" > choisis l'effet
+4. Exporte en MP4 (pour les reseaux) ou GIF (pour les emails)
+
+**Astuce :** Instagram prefere le MP4 (publie comme Reel). Les GIFs perdent en qualite.
+
+## Methode 3 : Creer tes propres stickers GIPHY
+
+Pour avoir des stickers de marque dans les stories Instagram :
+
+1. Cree tes stickers sur Canva (fond transparent, 500x500px minimum)
+2. Anime-les et exporte en GIF
+3. Uploade sur GIPHY via [giphy.com/join](https://giphy.com/join)
+4. Attends la validation (quelques jours)
+5. Tes stickers apparaissent dans la recherche Instagram/Facebook
+
+Chaque utilisation par un tiers = visibilite gratuite pour ta marque.
+
+## Methode 4 : LottieFiles pour le web
+
+Pour des icones animees sur ton site ou dans tes newsletters :
+
+1. Va sur [lottiefiles.com](https://lottiefiles.com)
+2. Cherche des icones animees gratuites dans la bibliotheque (des milliers de Lottie animations open source)
+3. Telecharge en Lottie JSON, GIF ou dotLottie (format optimise)
+4. Integre avec le player Lottie (une ligne de code) ou le web component `<lottie-player>`
+5. Personnalise les couleurs directement dans l'editeur LottieFiles sans toucher au fichier
+
+**LottieFiles** est gratuit pour l'usage basique. Les plans payants ajoutent les workspaces d'equipe, l'export en video/GIF HD, et les integrations avancees.
+
+**Alternatives :** [Lordicon](https://lordicon.com) (icones animees premium), [Icons8](https://icons8.com) (icones + illustrations), [Flaticon](https://www.flaticon.com) (icones statiques et animees).
+
+## Methode 5 : Les outils natifs des plateformes
+
+**Instagram Stories :** stickers natifs (sondage, quiz, curseur emoji, question, compte a rebours) combines avec tes visuels Canva.
+
+**LinkedIn :** documents PDF (carrousels) avec icones graphiques, videos courtes avec animations overlay, sondages natifs.
+
+**Facebook :** les posts avec GIF animes ont un taux de clic 20% superieur aux images statiques.
+
+## Workflow : un post interactif en 10 minutes
+
+1. Choisis ton message
+2. Ouvre Canva au bon format
+3. Place texte et visuels principaux
+4. Ajoute 2-3 stickers animes
+5. Anime le texte avec un effet subtil
+6. Exporte en MP4
+7. Publie avec un CTA qui invite a l'interaction
+
+## Astuces GoCharbon
+
+- **Moins c'est plus.** 2-3 elements animes par visuel. Trop d'animation = sapin de Noel.
+- **Le mouvement doit guider l'oeil.** Fleches animees vers le CTA, pas pour decorer.
+- **Cree tes stickers GIPHY.** Gratuit et chaque utilisation est de la visibilite organique.
+- **Les sondages en stories sont le meilleur hack engagement.** Zero effort pour le spectateur, signal massif pour l'algorithme.
+- **Teste GIF vs MP4.** Instagram prefere MP4, Twitter prefere GIF.
+
+## Ressources
+
+- [Genially](https://genially.com) -- Contenu interactif (plan gratuit disponible)
+- [Canva](https://www.canva.com) -- Visuels animes et stickers (gratuit / Pro 12 EUR/mois)
+- [GIPHY](https://giphy.com/join) -- Uploade tes stickers de marque gratuitement
+- [LottieFiles](https://lottiefiles.com) -- Animations legeres pour le web (gratuit)
+- [Lordicon](https://lordicon.com) -- Icones animees premium

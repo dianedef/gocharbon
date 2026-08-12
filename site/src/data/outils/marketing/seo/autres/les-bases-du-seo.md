@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -23,7 +23,7 @@ Le SEO est important et indispensable pour beaucoup de business car il peut fair
 
 ### Comprendre comment fonctionne Google…
 
-- Ca prend du temps pour les aglorithmes d’apprendre (Neil Patel le dit)[https://youtu.be/v4-uFcOU9Oo](__MASK_11__) ca prend du temps de créer une marque.
+- Ca prend du temps pour les aglorithmes d’apprendre (Neil Patel le dit)[https://youtu.be/v4-uFcOU9Oo](https://youtu.be/v4-uFcOU9Oo) ca prend du temps de créer une marque.
 
 ### Quels sont les signaux analysés par Google
 
@@ -152,23 +152,23 @@ Depuis plus d'un an, Google fait des misères au SEO car tout part en vrille. Le
 
 Est-ce que le référencement est mort ou ce n'est qu'une question d'adaptabilité? Dans cette vidéo, je dévoile aussi ce que j'appelle le Facteur X. Quel est l'élément qui va faire toute la différence dans ta stratégie SEO, surtout si ta thématique est concurrentielle.
 
-le on page est limité, le plus gros levier c’et off site [https://youtu.be/WilELKM3a8s?t=4702](__MASK_31__)
+le on page est limité, le plus gros levier c’et off site [https://youtu.be/WilELKM3a8s?t=4702](https://youtu.be/WilELKM3a8s?t=4702)
 
-le branding te protège ad vitam eternam, sans branding c impossible de ranker sur des seed keyword concurrentiel [https://youtu.be/WilELKM3a8s?t=4865](__MASK_32__)
+le branding te protège ad vitam eternam, sans branding c impossible de ranker sur des seed keyword concurrentiel [https://youtu.be/WilELKM3a8s?t=4865](https://youtu.be/WilELKM3a8s?t=4865)
 
-Optimisez pas tout just 500 mots [https://youtu.be/WilELKM3a8s?t=4692](__MASK_33__)
+Optimisez pas tout just 500 mots [https://youtu.be/WilELKM3a8s?t=4692](https://youtu.be/WilELKM3a8s?t=4692)
 
 Tu dois t’adapter sinon c pas pour toi comme métier
 
-On sait ce que googloe veut [https://youtu.be/WilELKM3a8s?t=783](__MASK_34__)
+On sait ce que googloe veut [https://youtu.be/WilELKM3a8s?t=783](https://youtu.be/WilELKM3a8s?t=783)
 
-Qui a créé le pagerank [https://youtu.be/WilELKM3a8s?t=1071](__MASK_35__) ?
+Qui a créé le pagerank [https://youtu.be/WilELKM3a8s?t=1071](https://youtu.be/WilELKM3a8s?t=1071) ?
 
-google est moins qualitatif qu’avant [https://youtu.be/WilELKM3a8s?t=1224](__MASK_36__)
+google est moins qualitatif qu’avant [https://youtu.be/WilELKM3a8s?t=1224](https://youtu.be/WilELKM3a8s?t=1224)
 
-25milliard de page et backilnk spammy par jour, 90% du web c dla merd [https://youtu.be/WilELKM3a8s?t=1653](__MASK_37__)
+25milliard de page et backilnk spammy par jour, 90% du web c dla merd [https://youtu.be/WilELKM3a8s?t=1653](https://youtu.be/WilELKM3a8s?t=1653)
 
-[https://youtu.be/WilELKM3a8s?t=1815](__MASK_38__)
+[https://youtu.be/WilELKM3a8s?t=1815](https://youtu.be/WilELKM3a8s?t=1815)
 
 Phase 1 découvverte de l’url
 
@@ -197,7 +197,7 @@ Technical optimization
 
 
 ## 
-On est passé de l’annuaire des pages jaunes à Google, un champ de recherche qui te reccrache des liens bleus [https://youtu.be/Xws1mxyaluA?t=3041](__MASK_51__)
+On est passé de l’annuaire des pages jaunes à Google, un champ de recherche qui te reccrache des liens bleus [https://youtu.be/Xws1mxyaluA?t=3041](https://youtu.be/Xws1mxyaluA?t=3041)
 
 Bonjour,
 
@@ -805,11 +805,11 @@ Enfin, le référencement naturel exige d’avoir un site bien conçu techniquem
 
 [» Corpus et référencement on-page](https://www.referencement-naturel-white-hat.fr/corpus-referencement/)
 
-[https://ignitevisibility.com/seo-movie/](__MASK_115__)
+[https://ignitevisibility.com/seo-movie/](https://ignitevisibility.com/seo-movie/)
 
 ## Share this page, invite your SEO and marketing friends! Use the SEOMOVIE hashtag.
 
-## Press play on the vidéo to view the documentary.
+## Press play on the video to view the documentary.
 
 ## Enjoy The Film!
 
@@ -833,9 +833,9 @@ Produced and directed by John Lincoln, CEO of Ignite Visibility, the film was cr
 
 “There are so many people who have contributed to the field of SEO,” comments Lincoln. “I have tremendous respect for the pioneers of the industry and those still contributing today. This movie really covers it all. The history, the parties, Google updates, black hat vs. white hat, and more.”
 
-A trailer of the film is available at [https://ignitevisibility.com/seo-movie/](__MASK_117__). The film will also be made available on the same URL on June 20, 2017.
+A trailer of the film is available at [https://ignitevisibility.com/seo-movie/](https://ignitevisibility.com/seo-movie/). The film will also be made available on the same URL on June 20, 2017.
 
-Told by Search Engine Optimization pioneers, SEO: The Movie aims to showcase a timeline history of SEO, along with documentary-style interviews with top industry influencers regarding their companies and the successes, obstacles, and stratégies they have used to get to where they are today. SEO: The Movie includes SEO pioneers Danny Sullivan of Third Door Media and Search Engine Land; Rand Fishkin of [Moz.com](http://Moz.com); Jill Whalen, former CEO of High Rankings; Brett Tabke, founder of Pubcon and WebmasterWorld; Rae Hoffman of Sugarrae; Barry Schwartz of Search Engine Land and narrated, produced, and directed by John Lincoln, CEO & co-founder of Ignite Visibility.
+Told by Search Engine Optimization pioneers, SEO: The Movie aims to showcase a timeline history of SEO, along with documentary-style interviews with top industry influencers regarding their companies and the successes, obstacles, and strategies they have used to get to where they are today. SEO: The Movie includes SEO pioneers Danny Sullivan of Third Door Media and Search Engine Land; Rand Fishkin of [Moz.com](http://Moz.com); Jill Whalen, former CEO of High Rankings; Brett Tabke, founder of Pubcon and WebmasterWorld; Rae Hoffman of Sugarrae; Barry Schwartz of Search Engine Land and narrated, produced, and directed by John Lincoln, CEO & co-founder of Ignite Visibility.
 
 SEO: The Movie also lists industry all-stars such as John Muller, Maile Ohye, Aleyda Solis, Cindy Krum, Will Reynolds, Brian Dean, Michael King, Bruce Clay, Loren Baker, Eric Ward, Cyrus Shepard, Bill Slawski, Garry Grant, Chris Sherman, Jim Boykin, Shawn Hogan, Mike Graham, Eric Enge, and more.
 
@@ -901,7 +901,7 @@ If that happens, your page speed score might no longer matter.
 ## **SEO: Google Says That Good Titles and Descriptions Are Easy SEO Wins**
 ```
 
-It’s 2018 and some of the basic SEO stratégies from years ago still work.
+It’s 2018 and some of the basic SEO strategies from years ago still work.
 
 “Good titles & descriptions are some of the easiest wins you can get on webpages,” John Mueller recently wrote on Reddit.
 
@@ -993,7 +993,7 @@ _**SEO: MOVIE SEO: MOVIE SPEAKER 2:** Hi I’m Randy sin. I’m the founder of M
 
 _It was time for you know Rand to learn the practice of SEO himself. So, I spent tons of time on the forums and the bulletin boards and the chat room. I had phone calls with people who knew SEO, I read voraciously and eventually after a lot of stumbling found my way. [Music] In 2005 I was deeply in debt. Maze was deeply in debt. You know my mom and I had close to a hundred and fifty thousand dollars of credit card debt that we had defaulted on which meant that we owed credit card companies something like half a million dollars. We couldn’t declare bankruptcy because if we did the banks might take my parents’ house and my grandmother’s house and you know all the money that my dad had saved over a career you know lifetime career at Boeing. There’s all sorts of complexity around it._
 
-_My mom and I never told my dad that we had debt. So, I mean yeah my mom was like you know she’d be driving home trying to get to the mailbox before my dad to make sure that if there was like credit notices this was like a can’t sleep at night kind of stress just awful. I’d been contributing to the search engine watch forums for you know a number of years at that point. I remember asking if I should go to New York for the SDS conference and Danny private message me over the forums and said, Randall I’ll get you in for free I’ll give you a pair of tickets. That conference we signed our first big you know like really big client multi you know tens of thousands of dollars a month type of client. I met you know many of my SEO heroes there. Yeah I mean I remember seeing Danny there and shaking his hand and just having this expérience of being overwhelmed with gratitude and that that is a gesture I’ll never forget._
+_My mom and I never told my dad that we had debt. So, I mean yeah my mom was like you know she’d be driving home trying to get to the mailbox before my dad to make sure that if there was like credit notices this was like a can’t sleep at night kind of stress just awful. I’d been contributing to the search engine watch forums for you know a number of years at that point. I remember asking if I should go to New York for the SDS conference and Danny private message me over the forums and said, Randall I’ll get you in for free I’ll give you a pair of tickets. That conference we signed our first big you know like really big client multi you know tens of thousands of dollars a month type of client. I met you know many of my SEO heroes there. Yeah I mean I remember seeing Danny there and shaking his hand and just having this experience of being overwhelmed with gratitude and that that is a gesture I’ll never forget._
 
 _**SEO: MOVIE SEO: MOVIE SPEAKER 4:** I think Rand is such a smart clever and curious person that he really embodies a lot of the qualities that you want to be a successful SEO. This really is someone who says why is it working that way I’m going to poke it at this but I’m going to poke it too that way and I’m going to try to understand you know how to ferret out the important things that you can use to be more successful with._
 
@@ -1125,7 +1125,7 @@ _**SEO: MOVIE SEO: MOVIE SPEAKER 6:** I think there always will be I need for SE
 
 _**SEO: MOVIE SEO: MOVIE SPEAKER 1:** Creating awesome content that’s easy to find that’s technically set up correctly and that reverberates through the internet and send signals to other people that you should digest it. That’s the core of what search is about I think the future of searchers is going to be just fine. [Music] [Music] [Music]_
 
-_**SEO: MOVIE SEO: MOVIE SPEAKER 8:** To do a SEO about this you that’s what we’re going to do. We’re going to do a whole movie about search engine optimization and we’re not even going to invite link Moses himself the guy who did the original campaign lemur link building an SEO for [amazon.com](http://amazon.com) on the 14 for modem from his kitchen table. Yeah we’re going to do a vidéo movie and not even asked Eric Ward to be in it I cannot believe those sob. You know what I’m going to do I’m going to link spam this with their website. I’m gonna make it so nobody sees this movie_
+_**SEO: MOVIE SEO: MOVIE SPEAKER 8:** To do a SEO about this you that’s what we’re going to do. We’re going to do a whole movie about search engine optimization and we’re not even going to invite link Moses himself the guy who did the original campaign lemur link building an SEO for [amazon.com](http://amazon.com) on the 14 for modem from his kitchen table. Yeah we’re going to do a video movie and not even asked Eric Ward to be in it I cannot believe those sob. You know what I’m going to do I’m going to link spam this with their website. I’m gonna make it so nobody sees this movie_
 
 _**End of “SEO: The Movie” Transcription**_
 
@@ -1169,7 +1169,7 @@ The beginning of SEO in the mid-90’s through the early 2000’s (it’s major 
 
 ## **What was different about the early days of SEO?**
 
-The early days had a “rock star” quality with it. Search engines and affiliates were making huge amounts of money (millions of dollars a year) doing what was then a little-known practice – figuring out how to get ranked at the top of Google. It created huge opportunities and brought with it a glamorous lifestyle, complète with equally glamorous parties, nightlife, etc.
+The early days had a “rock star” quality with it. Search engines and affiliates were making huge amounts of money (millions of dollars a year) doing what was then a little-known practice – figuring out how to get ranked at the top of Google. It created huge opportunities and brought with it a glamorous lifestyle, complete with equally glamorous parties, nightlife, etc.
 
 ## **How did people discover the importance of SEO?**
 

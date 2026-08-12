@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Technique Secrète Pour Se Faire 100 Nouveaux Amis En Un Mois
 author: Diane
-description: "La Technique Secrète Pour Se Faire 100 Nouveaux Amis En Un Mois."
+description: 'Découvre La Technique Secrète Pour Se Faire 100 Nouveaux Amis En Un
+  Mois : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -43,7 +44,7 @@ For the past five years, we have built Hiki with the support of volunteers, a fe
     
 - View new profiles in other cities
     
-- Send vidéo messages to your matches 
+- Send video messages to your matches 
     
 - Feel safer with profile verification
     
@@ -54,13 +55,13 @@ For the past five years, we have built Hiki with the support of volunteers, a fe
 In addition to accessing all of these new ways to connect, your subscription will allow us to sustain ourselves as an app while continuing to offer free profiles to the neurodivergent people who need them.  
  
 
-There are so few “by us, for us” resources for ND adults, so if you believe in our mission to smash the narrative of social isolation and shame surrounding the neurodivergent expérience – **if you want Hiki to continue to exist**– we need your support.  
+There are so few “by us, for us” resources for ND adults, so if you believe in our mission to smash the narrative of social isolation and shame surrounding the neurodivergent experience – **if you want Hiki to continue to exist**– we need your support.  
  
 
 We have big goals to offer even more to our community, from in-person events and conventions, to a safe social platform for neurodivergent teens, and more employment opportunities at Hiki for neurodivergent people. You can help us bring these dreams to life.  
  
 
-Our team has worked hard to enhance your Hiki expérience, and we are honored to welcome all of the new faces and minds to this space.  
+Our team has worked hard to enhance your Hiki experience, and we are honored to welcome all of the new faces and minds to this space.  
  
 
 Thank you for being an integral part of who we are. We look forward to seeing the connections and magic you make in this community! We always welcome and encourage feedback— tap the Hiki logo in the app and send a support ticket, or email us at [help@hikiapp.com](mailto:help@hikiapp.com).

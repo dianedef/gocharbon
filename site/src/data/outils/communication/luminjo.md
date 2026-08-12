@@ -1,31 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: luminjo
-type: outil
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: support-client
 description: Luminjo offre un avantage clé aux entreprises en simplifiant leur service
   client. Que vous travailliez en solo ou en équipe, ce logiciel centralise toutes
   les requêtes de vos utili
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://fr.luminjo.com
-u_derniere_maj: '2026-03-20'
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: faible
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-  - https://fr.luminjo.com/pages/a-propos.html
-  - https://fr.luminjo.com/pages/aide/tutoriels/comment-etre-contacte-via-luminjo.html
-  - https://www.societe.com/societe/agence-awelty-794138081.html
-notesQualification: 'Luminjo est edite par la SARL Agence Awelty a Amiens, ce qui documente un operateur francais clair. En revanche, les pages publiques disponibles ne donnent pas de documentation assez precise sur l''hebergement, les sous-traitants ou la gouvernance technique. Je retiens donc un ancrage economique fort mais un niveau de responsabilite faible.'
-methodologieVersion: gocharbon-v1
 ---
 
 # luminjo
@@ -69,8 +54,8 @@ Luminjo est le fruit de l'expérience de ses créateurs, qui l'utilisent en inte
 Pour les mises à jour futures de Luminjo et sa feuille de route, vous pouvez consulter leur site Web où ils publient régulièrement des informations sur les nouvelles fonctionnalités et améliorations à venir.
 
 ## Ressources
-- Site Web de Luminjo : [https://www.luminjo.com](__MASK_0__)
-- Documentation : [https://www.luminjo.com/documentation](__MASK_1__)
+- Site Web de Luminjo : [https://www.luminjo.com](https://www.luminjo.com)
+- Documentation : [https://www.luminjo.com/documentation](https://www.luminjo.com/documentation)
 - Support : [support@luminjo.com](mailto:support@luminjo.com)
 
 ## Programme de Parrainage

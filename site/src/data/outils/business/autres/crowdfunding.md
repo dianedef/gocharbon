@@ -1,6 +1,5 @@
 ---
-section: outils
-draft: true
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils

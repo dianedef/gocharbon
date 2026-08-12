@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Transformez Votre Entreprise En Héros Écoloooo Avec Ces Astuces Secrètes
 author: Diane
-description: "Transformez Votre Entreprise En Héros Écoloooo Avec Ces Astuces Secrètes."
+description: 'Découvre Transformez Votre Entreprise En Héros Écoloooo Avec Ces Astuces
+  Secrètes : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

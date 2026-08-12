@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-projet
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'App Française Qui Va Révolutionner La Gestion De Vos Bureaux
 author: Diane
-description: "L'App Française Qui Va Révolutionner La Gestion De Vos Bureaux."
+description: 'Découvre L''App Française Qui Va Révolutionner La Gestion De Vos Bureaux
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

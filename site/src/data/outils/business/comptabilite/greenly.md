@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://greenly.earth/fr/blog/actualites-ecologie/laetitia-carle-devient-directrice-generale-france-de-greenly
-- https://help.greenly.earth/en/articles/13160801-our-security-policy
-- https://greenly.earth/en-us/blog/ecology-news/greenly-is-b-corp-certified
-notesQualification: Greenly est lance par Offspend SAS en France et assume publiquement un positionnement B Corp et ISO 27001 tres fort; la documentation publique consultee ne detaille toutefois pas assez finement la localisation exacte de l'hebergement principal.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Greenly
 author: Diane
 tags:

@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Guide
 statut: en-attente
 _priorité: normal
 tags:
@@ -35,7 +35,7 @@ As per Eugene Schwartz, mass desire is the public spread of a private want. When
 
 By simply directing this gigantic, already-existing mass desire—rather than being required to create it—content marketing thus commands an economic force hundreds of times more powerful than the number of dollars needed to create the content.
 
-This is the Content Amplification Effect of successful content—the reason that $1 spent on such content création can create $850 or even $I000 in sales. But this Content Amplification Effect takes place only when your content exploits an already-existing desire.
+This is the Content Amplification Effect of successful content—the reason that $1 spent on such content creation can create $850 or even $I000 in sales. But this Content Amplification Effect takes place only when your content exploits an already-existing desire.
 
 With education, you can create this desire but the goal of content marketing that sells and converts to paying customers is to exploit the mass desire which already exists.
 

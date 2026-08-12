@@ -52,5 +52,4 @@ imgUrl: ../../../assets/astro.jpeg
 
 ## Ressources Complémentaires
 - [Cocon sémantique](/seo/contenu/cocon-semantique)
-- [Architecture technique](/seo/technique/architecture)
-- [Les outils SEO français pour analyser ton maillage](/outils/marketing/autres/les-outils-seo-francais-qui-font-trembler-google/)
+- [Architecture technique](/seo/technique/architecture) 

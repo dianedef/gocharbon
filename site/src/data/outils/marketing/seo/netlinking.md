@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: netlinking
 author: Diane
@@ -33,7 +33,7 @@ certains isgnaux sont forts jusqu’au top5 mais baissent pour le top3: puor tri
 
 dataset :www.kaggle.cmo/hofesly/2019-search-engine-keywords
 
-De quoi parler Si cela ne vous sufflt pas vous pouvez scraper les « suggest » ou recherches associées » de google: • Avec scrapbox • Avec screaming frog • Avec excel + seotoolsforexcel • Avec Google sheet [http://www.canyouseome.com/goog!e-black-day-](__MASK_7__) scra er-excel-s readshee • [Suggestmachine.com](http://suggestmachine.com/) Attention a votre IP selon ce que vous utilisez
+De quoi parler Si cela ne vous sufflt pas vous pouvez scraper les « suggest » ou recherches associées » de google: • Avec scrapbox • Avec screaming frog • Avec excel + seotoolsforexcel • Avec Google sheet [http://www.canyouseome.com/goog!e-black-day-](http://www.canyouseome.com/goog!e-black-day-) scra er-excel-s readshee • [Suggestmachine.com](http://suggestmachine.com/) Attention a votre IP selon ce que vous utilisez
 
 Comment l'organiser Maintenant que vous avez une grosse liste de sujets il faut trier et organiser: • Supprimer l'inutile • Regrouper les sujets proches / similaires • Construire une architecture / arborescence de site
 

@@ -1,22 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-toolCategoryPrimary: business
-toolSubcategoryPrimary: association
-toolFacets:
-- dons
-- billetterie
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://www.helloasso.com/cgu-utilisateur
-- https://www.helloasso.com/confidentialite
-notesQualification: SAS francaise basee a Bordeaux avec etablissement de paiement regule en France; donnees hebergees sur Azure aux Pays-Bas et en Irlande.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: helloasso
 author: Diane
 tags:

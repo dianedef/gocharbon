@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Affiliation
-author: Diane GoCharbon
+title: Marketing d'Affiliation
+author: Web Indé
 tags:
 - Business
-description: 'Construis une activité d''affiliation crédible : contenu, plateformes,
-  confiance et limites réelles du modèle.'
+description: 'Découvre comment gagner de l''argent avec l''affiliation : stratégies,
+  plateformes et conseils pour réussir en tant qu''affilié.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-L'affiliation, c'est recommander des produits ou services d'autres entreprises et toucher une commission quand une vente est générée. Le modèle est léger côté opérationnel, mais il repose entièrement sur ta capacité à créer de la confiance et à attirer la bonne audience.
+L'affiliation, c'est recommander des produits/services d'autres entreprises et toucher une commission sur chaque vente. Tu es l'intermédiaire entre une marque et des clients potentiels. Pas de stock, pas de SAV, pas de création produit. Tu fais juste du marketing.
 
 Les commissions varient de 3% (Amazon) à 50%+ (produits digitaux/SaaS). Tu peux faire de l'affiliation via un blog, YouTube, réseaux sociaux, newsletter, ou même des pubs payantes.
 

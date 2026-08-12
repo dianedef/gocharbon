@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: 5 Raisons Choquantes De Ne Jamais Créer Un Site Wordpress
 author: Diane
-description: "5 Raisons Choquantes De Ne Jamais Créer Un Site Wordpress."
+description: 'Découvre 5 Raisons Choquantes De Ne Jamais Créer Un Site Wordpress :
+  outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -22,4 +21,4 @@ Montrer les réglages de perfmatters, de ewww
 
 🥱
 
-[https://tools.pingdom.com/#608308119f000000](__MASK_0__)
+[https://tools.pingdom.com/#608308119f000000](https://tools.pingdom.com/#608308119f000000)

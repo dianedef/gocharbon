@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Guide
 statut:
 - bientot-fini
 _priorité: normal
@@ -44,7 +44,7 @@ Il n’y a pas de recette magique. Mais ce qui aide, c’est d’avoir un bon ER
 
 ## Bonnes Pratiques
 
-(Contenu de qualité, régularité; interactions avec ses abonnés, reels, être republié sur d’autres comptes…)
+(Contenu de qualité, régularité; interactions avec ses abonnés, reels, etre republié sur d’autres comptes…)
 
 Comme tu le cites ici, il faut bien entendu continuer de suivre ces procédés, qui sont des « bonnes pratiques » nécessaires à la réussite d’un compte (car sans ça, il est inutile d’apporter une stratégie quand le contenu n’est pas au rendez-vous).
 

@@ -1,10 +1,5 @@
 ---
-draft: true
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-- ia
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -12,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Gpt Et L'Ia Expliqués Ce Que Vous Devez Savoir Pour Ne Pas Devenir Obsolète
 author: Diane
-description: "Gpt Et L'Ia Expliqués Ce Que Vous Devez Savoir Pour Ne Pas Devenir Obsolète."
+description: 'Découvre Gpt Et L''Ia Expliqués Ce Que Vous Devez Savoir Pour Ne Pas
+  Devenir Obsolète : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -193,7 +189,7 @@ Il est essentiel de comprendre les limites et la mémoire des jetons dans les gr
 
 ## **par Russ Kohn**
 
-*[https://www.linkedin.com/in/russkohn*](__MASK_8__)
+*[https://www.linkedin.com/in/russkohn*](https://www.linkedin.com/in/russkohn*)
 
 Selon GPT-4 : _"L'auteur est un développeur de logiciels chevronné et un architecte de services web avec plus de 30 ans d'expérience. Il est spécialisé dans l'intégration d'API, le développement dans le cloud, FileMaker Pro, la gestion de projets et la prise de parole en public. Ayant mis en œuvre des solutions innovantes pour diverses industries, l'auteur est un expert internationalement reconnu en matière d'intégration d'API et de FileMaker Pro."_Je fais maintenant aussi des plongées profondes dans la façon dont l'IA peut être utilisée en toute sécurité dans le monde réel, ce qui, pour les modèles d'achèvement, signifie apprendre à écrire des invites et des filtres back-end efficaces... j'en dirai plus à ce sujet un autre jour.
 

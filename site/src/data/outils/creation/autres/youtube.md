@@ -1,8 +1,7 @@
 ---
-section: outils
-draft: true
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Guide
 statut: en-attente
 _priorité: important
 tags:
@@ -19,23 +18,23 @@ Yo2zing which can help you Collect Revenue from Monetization Disabled YouTube Ch
 
 Yo2zing:
 
-[](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2ZXbEdQM2lzaGxEZmlZbHpXR1F6WlQ1OS1Id3xBQ3Jtc0trSTNBVkQtWl9kVThfc0dYVkdVVG04S2lRdFBKN0VhTW9mMU0wOVp3azN6SFhhaTg1VzkyeWhQSjBkZktSLUVTUGZpVVhwQmRiSWVWTG0yeVd3X2UtMDJmMEF5b0t2TERVcjBaUGJpTGdqUV9ZNjB1TQ&q=https%3A%2F%2Fwww.yo2zing.com%2F)[https://www.yo2zing.com/](__MASK_28__)
+[](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2ZXbEdQM2lzaGxEZmlZbHpXR1F6WlQ1OS1Id3xBQ3Jtc0trSTNBVkQtWl9kVThfc0dYVkdVVG04S2lRdFBKN0VhTW9mMU0wOVp3azN6SFhhaTg1VzkyeWhQSjBkZktSLUVTUGZpVVhwQmRiSWVWTG0yeVd3X2UtMDJmMEF5b0t2TERVcjBaUGJpTGdqUV9ZNjB1TQ&q=https%3A%2F%2Fwww.yo2zing.com%2F)[https://www.yo2zing.com/](https://www.yo2zing.com/)
 
 
-**85% of people are more likely to buy a product after viewing a vidéo**,
+**85% of people are more likely to buy a product after viewing a video**,
 
 - 300H de vidéo téléchargées sur yt chaque minute, 5 milliards de vidéo regardées chaque jour
 - 50% des gens recherchent des contenus pédagogiques sur yt
 
-If you're creating vidéos for YouTube- the #1 metric that you should be keeping an eye on in 2021 is Watch Time. The higher the watch time, the more YouTube recommends your vidéos to similar audiences and the more views and subscribers you get.
+If you're creating videos for YouTube- the #1 metric that you should be keeping an eye on in 2021 is Watch Time. The higher the watch time, the more YouTube recommends your videos to similar audiences and the more views and subscribers you get.
 
-This makes your vidéo script the most important component of your vidéo and one that you should spend the most time perfecting.
+This makes your video script the most important component of your video and one that you should spend the most time perfecting.
 
 Hence, we partnered with successful YouTuber Elliott Prendy to bring you the exact scripting formula that he used to grow his channel to more than 40,000 subscribers
 
 Les 5 premières vidéos marketing que vous devriez faire
 
-1\. Une vidéo sur votre entreprise Une vidéo sur votre entreprise est un incontournable. Il permet aux clients potentiels d'en savoir plus sur vous. De plus, cela vous donne la possibilité de montrer ce qui vous distingue des autres entreprises de votre espace. Une vidéo À propos de nous peut être utilisée dans de nombreux endroits différents. Vous pouvez le publier sur votre page d'accueil ou la page À propos de votre site Web, sur YouTube, sur votre page professionnelle Facebook et sur n'importe lequel de vos autres profils de médias sociaux. Et ce n'est pas difficile à créer ! Consultez notre modèle de vidéo À propos de nous ci-dessous. Vous pouvez facilement le mettre à jour avec des photos de votre propre entreprise, ainsi qu'un texte qui raconte votre histoire unique. UTILISEZ CE MODÈLE Bonus : votre entreprise est-elle sur Instagram ? Nous avons une application iOS avec des modèles Instagram Story que vous pouvez également utiliser ! Téléchargez l'application iOS Animoto: Social Vidéo Editor. Consultez ensuite les modèles Blog social et Behind The Scenes pour créer une histoire Instagram ou une vidéo IGTV sur votre entreprise. 2. Une vidéo promotionnelle à diffuser sous forme de publicité Ensuite, voyez ce qu'une publicité vidéo peut faire pour votre entreprise ! Créez une simple vidéo promotionnelle et payez pour la présenter à un public ciblé sur Facebook et Instagram. Considérez le public que vous souhaitez cibler, puis créez une vidéo qui lui parle directement. Notre équipe vous recommande d'adopter l'approche suivante pour structurer votre vidéo promotionnelle : Commencez par le nom de votre produit. Dites aux gens une ou deux raisons pour lesquelles votre produit est spécial. Dites aux gens où ils peuvent acheter votre produit. Si vous utilisez notre application iOS, consultez le modèle de lancement de produit. UTILISEZ CE MODÈLE Pour en savoir plus sur la façon de configurer votre publicité, consultez notre article de blog sur la façon d'atteindre de nouveaux clients avec des publicités ciblées sur Facebook et Instagram. 3. Une vidéo qui met en valeur votre expertise Faites une vidéo qui explique un concept ou parle d'un sujet populaire dans votre industrie. Cela peut vous aider à vous positionner en tant qu'expert, ce qui contribuera à renforcer votre crédibilité. Expliquez un concept difficile d'une manière qui est facile à comprendre pour votre public. Notre modèle d'explication de l'immobilier sert de point de départ qui peut être mis à jour pour expliquer un concept lié à votre propre entreprise. UTILISEZ CE MODÈLE Partagez votre vidéo sur les réseaux sociaux et sur YouTube afin de vous présenter lorsque des clients potentiels recherchent des réponses à des questions liées à votre entreprise. Pour en savoir plus, consultez notre article de blog complet sur les idées et conseils de vidéos explicatives. 4. Une vidéo de témoignage Vos clients potentiels seront plus enclins à franchir le pas et à faire affaire avec vous s'ils voient d'autres clients satisfaits avec lesquels vous avez travaillé. Une vidéo de témoignage est un excellent moyen de mettre vos excellentes critiques au premier plan. Créez une simple vidéo de témoignage pour la publier sur votre site Web ou votre page de produit, sur les réseaux sociaux et sur YouTube. Si vous partagez sur YouTube, assurez-vous d'utiliser le nom de votre entreprise, le nom de votre produit et le mot « avis » dans le titre et la description afin que les gens le trouvent lorsqu'ils recherchent votre entreprise. Notre modèle de témoignage de produit est rapide et facile à personnaliser. Ajoutez simplement quelques photos de produits et mettez à jour le texte avec certaines de vos meilleures critiques. UTILISER CE MODÈLE Vous voulez faire une vidéo de témoignage pour Stories ou IGTV ? Consultez le modèle de devis simple dans notre application iOS. 5. Une vidéo organique pour les réseaux sociaux Enfin, créez une vidéo amusante à partager avec vos abonnés sur les réseaux sociaux et encouragez l'engagement. Plutôt que d'essayer de vendre quelque chose, comme vous l'avez fait dans votre vidéo promotionnelle, cette vidéo doit être éducative, informative ou inspirante. Une fois que vous maîtriserez votre marketing vidéo, vous souhaiterez publier régulièrement des vidéos organiques sur vos réseaux sociaux, si vous souhaitez créer un public engagé. Commencez par consulter notre modèle de mode d'emploi Fashion Lookbook ci-dessous. UTILISEZ CE MODÈLE Lorsque vous avez terminé, consultez une liste d'idées de vidéos sociales encore plus amusantes sur notre blog. Et si vous cherchez à créer un public engagé sur Instagram, consultez nos idées d'histoires Instagram pour stimuler l'engagement. Continue comme ça! Une fois que vous avez créé vos cinq premières vidéos, continuez ! Les meilleurs résultats viendront au fur et à mesure que vous continuerez à créer des vidéos et à perfectionner vos compétences. Si vous êtes à court d'idées, nous avons une tonne d'inspiration sur notre blog. De plus, nous avons toute une communauté de créateurs comme vous dans notre groupe Facebook fermé, la communauté Animoto Social Vidéo Marketing. Rejoignez-nous pour des idées, de l'inspiration et des commentaires sur vos vidéos. Bonne réalisation vidéo !
+1\. Une vidéo sur votre entreprise Une vidéo sur votre entreprise est un incontournable. Il permet aux clients potentiels d'en savoir plus sur vous. De plus, cela vous donne la possibilité de montrer ce qui vous distingue des autres entreprises de votre espace. Une vidéo À propos de nous peut être utilisée dans de nombreux endroits différents. Vous pouvez le publier sur votre page d'accueil ou la page À propos de votre site Web, sur YouTube, sur votre page professionnelle Facebook et sur n'importe lequel de vos autres profils de médias sociaux. Et ce n'est pas difficile à créer ! Consultez notre modèle de vidéo À propos de nous ci-dessous. Vous pouvez facilement le mettre à jour avec des photos de votre propre entreprise, ainsi qu'un texte qui raconte votre histoire unique. UTILISEZ CE MODÈLE Bonus : votre entreprise est-elle sur Instagram ? Nous avons une application iOS avec des modèles Instagram Story que vous pouvez également utiliser ! Téléchargez l'application iOS Animoto: Social Video Editor. Consultez ensuite les modèles Blog social et Behind The Scenes pour créer une histoire Instagram ou une vidéo IGTV sur votre entreprise. 2. Une vidéo promotionnelle à diffuser sous forme de publicité Ensuite, voyez ce qu'une publicité vidéo peut faire pour votre entreprise ! Créez une simple vidéo promotionnelle et payez pour la présenter à un public ciblé sur Facebook et Instagram. Considérez le public que vous souhaitez cibler, puis créez une vidéo qui lui parle directement. Notre équipe vous recommande d'adopter l'approche suivante pour structurer votre vidéo promotionnelle : Commencez par le nom de votre produit. Dites aux gens une ou deux raisons pour lesquelles votre produit est spécial. Dites aux gens où ils peuvent acheter votre produit. Si vous utilisez notre application iOS, consultez le modèle de lancement de produit. UTILISEZ CE MODÈLE Pour en savoir plus sur la façon de configurer votre publicité, consultez notre article de blog sur la façon d'atteindre de nouveaux clients avec des publicités ciblées sur Facebook et Instagram. 3. Une vidéo qui met en valeur votre expertise Faites une vidéo qui explique un concept ou parle d'un sujet populaire dans votre industrie. Cela peut vous aider à vous positionner en tant qu'expert, ce qui contribuera à renforcer votre crédibilité. Expliquez un concept difficile d'une manière qui est facile à comprendre pour votre public. Notre modèle d'explication de l'immobilier sert de point de départ qui peut être mis à jour pour expliquer un concept lié à votre propre entreprise. UTILISEZ CE MODÈLE Partagez votre vidéo sur les réseaux sociaux et sur YouTube afin de vous présenter lorsque des clients potentiels recherchent des réponses à des questions liées à votre entreprise. Pour en savoir plus, consultez notre article de blog complet sur les idées et conseils de vidéos explicatives. 4. Une vidéo de témoignage Vos clients potentiels seront plus enclins à franchir le pas et à faire affaire avec vous s'ils voient d'autres clients satisfaits avec lesquels vous avez travaillé. Une vidéo de témoignage est un excellent moyen de mettre vos excellentes critiques au premier plan. Créez une simple vidéo de témoignage pour la publier sur votre site Web ou votre page de produit, sur les réseaux sociaux et sur YouTube. Si vous partagez sur YouTube, assurez-vous d'utiliser le nom de votre entreprise, le nom de votre produit et le mot « avis » dans le titre et la description afin que les gens le trouvent lorsqu'ils recherchent votre entreprise. Notre modèle de témoignage de produit est rapide et facile à personnaliser. Ajoutez simplement quelques photos de produits et mettez à jour le texte avec certaines de vos meilleures critiques. UTILISER CE MODÈLE Vous voulez faire une vidéo de témoignage pour Stories ou IGTV ? Consultez le modèle de devis simple dans notre application iOS. 5. Une vidéo organique pour les réseaux sociaux Enfin, créez une vidéo amusante à partager avec vos abonnés sur les réseaux sociaux et encouragez l'engagement. Plutôt que d'essayer de vendre quelque chose, comme vous l'avez fait dans votre vidéo promotionnelle, cette vidéo doit être éducative, informative ou inspirante. Une fois que vous maîtriserez votre marketing vidéo, vous souhaiterez publier régulièrement des vidéos organiques sur vos réseaux sociaux, si vous souhaitez créer un public engagé. Commencez par consulter notre modèle de mode d'emploi Fashion Lookbook ci-dessous. UTILISEZ CE MODÈLE Lorsque vous avez terminé, consultez une liste d'idées de vidéos sociales encore plus amusantes sur notre blog. Et si vous cherchez à créer un public engagé sur Instagram, consultez nos idées d'histoires Instagram pour stimuler l'engagement. Continue comme ça! Une fois que vous avez créé vos cinq premières vidéos, continuez ! Les meilleurs résultats viendront au fur et à mesure que vous continuerez à créer des vidéos et à perfectionner vos compétences. Si vous êtes à court d'idées, nous avons une tonne d'inspiration sur notre blog. De plus, nous avons toute une communauté de créateurs comme vous dans notre groupe Facebook fermé, la communauté Animoto Social Video Marketing. Rejoignez-nous pour des idées, de l'inspiration et des commentaires sur vos vidéos. Bonne réalisation vidéo !
 
 EnregistrerEnregistréSupprimé 0
 
@@ -43,7 +42,7 @@ L'utilisation de couleurs, de thèmes et d'images qui évoquent votre marque au 
 
 Étant donné que la plupart des vidéos du flux mobile sont visionnées sans son, il est important de transmettre votre message visuellement. L'affichage de légendes, de logos et de produits peut aider à communiquer votre message, même en silence.
 
-[https://www.facebook.com/facebookmedia/solutions/video](__MASK_29__)
+[https://www.facebook.com/facebookmedia/solutions/video](https://www.facebook.com/facebookmedia/solutions/video)
 
 Produire une vidéo pour un petit écran nécessite de prendre en compte les dimensions et l'échelle. Jouez avec le zoom, le recadrage et la composition visuelle globale pour vous assurer que votre histoire est bien racontée sur un petit écran.
 
@@ -59,7 +58,7 @@ Les vidéos doivent durer **moins de 240 minutes**. Plus votre vidéo est longue
 
 Nous recommandons également **Compression audio stéréo AAC avec 128 kbps** ou plus.
 
-> [Ce que tout débutant en marketing vidéo doit savoir] ([https://booklikeaboss.com/blog/whateveryvideomarketingnewbieneedstoknow/](__MASK_30__))
+> [Ce que tout débutant en marketing vidéo doit savoir] ([https://booklikeaboss.com/blog/whateveryvideomarketingnewbieneedstoknow/](https://booklikeaboss.com/blog/whateveryvideomarketingnewbieneedstoknow/))
 
 [Outils de marketing vidéo ultimes pour développer rapidement votre activité](https://screencast-o-matic.com/blog/video-marketing-tools/)
 
@@ -458,7 +457,7 @@ Custom URL Example: [youtube.com/c/YouTubeCreators](http://youtube.com/c/YouTube
 
 Vous pouvez héberger vos vidéos sur des sites comme Youtube ou encore Vimeo.
 
-Le bouton “youtube” avec le bout de code qui permet de s’inscrire en automatique [https://www.youtube.com/user/Conseilsmarketing?sub_confirmation=1](__MASK_70__)
+Le bouton “youtube” avec le bout de code qui permet de s’inscrire en automatique [https://www.youtube.com/user/Conseilsmarketing?sub_confirmation=1](https://www.youtube.com/user/Conseilsmarketing?sub_confirmation=1)
 
 
 ## # Keywords don't matter anymore…
@@ -512,12 +511,12 @@ Il est nécessaire de passer par une transition d'optimisation pour la recherche
 
 
 ## algorithme :
-Your Guide to YouTube Algorithm 2022 - YouTube [https://www.youtube.com/watch?v=N-CpfqhlUyk](__MASK_72__)
+Your Guide to YouTube Algorithm 2022 - YouTube [https://www.youtube.com/watch?v=N-CpfqhlUyk](https://www.youtube.com/watch?v=N-CpfqhlUyk)
 
 grimper YT : 3 facteurs :
 
 
-Quel meilleur format qu’une vidéo youtube en 2022 pour partager ses contenus en tant qu’entreprise? Youtube est devenu l’endroit de référence pour engager ses communautés et construire une forte image de marque.
+Quel meilleur format qu’une video youtube en 2022 pour partager ses contenus en tant qu’entreprise? Youtube est devenu l’endroit de référence pour engager ses communautés et construire une forte image de marque.
 
 # **Format et résolution vidéo Youtube HORIZONTALE**
 
@@ -543,8 +542,8 @@ La quasi totalité des codecs et formats de vidéos Youtube sont pris en charge 
 
 Youteub
 
-- [Complète YouTube Ads Strategy to Grow Your Channel ($43K Spent)](https://www.youtube.com/watch?v=YShyWxW2iB4)
-- [https://www.youtube.com/channel/UChUecscQc9vbQJeIQGPg1qA](__MASK_78__)
+- [Complete YouTube Ads Strategy to Grow Your Channel ($43K Spent)](https://www.youtube.com/watch?v=YShyWxW2iB4)
+- [https://www.youtube.com/channel/UChUecscQc9vbQJeIQGPg1qA](https://www.youtube.com/channel/UChUecscQc9vbQJeIQGPg1qA)
 
 SEO (1)
 
@@ -731,13 +730,13 @@ SEO (1)
     
     - chacun a un vécu chacun apporte sa vision des choses mais tout le monde n'est pas compétent sur tout ça c'est vrai partout nos gros fantasmes globale d'un web c'est de penser qu' on connaît tous surtout le peu qu'on connaisse suffit à avoir une approche est cruelle et ça c'est la grande difficulté dans mon métier où on a du mal à avoir des formations longues et pertinente et adaptée ça évolue tellement vite qu'on voudrait avoir la solution le syndrome de la machine à café c'est à dire on met une pièce ça descend on a notre café on sait que pour certaines choses lui google a bien évolué ces dernières années avec vraiment de l'instantané et on a effectivement énormément de choses notamment sur l'actualité ou c'est impressionnant la vitesse l'index et des contenus voilà mais il ya d'autres choses qui prennent un peu plus de temps et notamment ce qui est le plus long c'est pas de faire les modifications en temps qu'elle c'est de faire prendre conscience des décisions sur fin qui impacteront le le site web ou même la communication de là parce qu'on dit que c'était même en amont c'est à dire tu viennes choper un job de l'aso où tu viens de haut un client donc jamais me now sous ou en prestataire la première chose qu'on devrait faire c'est aller discuter avec la direction du pourquoi du comment et sa personne le fait là c'est effectivement une des choses que moi j'ai j'essaye dans la mesure du possible quand je quand je décèle qu' il va y avoir un problème politique important je les fais l'an dernier effectivement pour un client j'ai demandé que la première réunion soit fait avec le directeur général ce qui s'est passé donc j'ai fait en fait une réunion avec le directeur général le directeur marketing et le siao qui était en vol enfin qui venait d'arriver voilà moi ma mission en fête a commencé à voir arriver de sitôt et effectivement ça permet d'inscrire le bseo comme un élément impact on de l'entreprise c'est un peu comme le chiffre d'affaires c'est à dire que à partir du moment où c'est dans les gènes de l'entreprise c'est que cherche à faire en entreprise son rôle c'est pas d'être première sur google sur un mot clé c'est pas 5 mm donc en fait c'est un des moyens d'avoir du business ou des contacts des prospects mais ce n'est pas l'objectif promis d'une entreprise dont quand on dit ça justement c'est à double tranchant c'est à dire que si l'entreprise et ses salariés n'est pas consciente de l'impact que chacun va avoir que par exemple développeurs à qui on demande quelque chose de compliqué pour en optimiser etc qui veut dire non mais moi j'ai jamais fait ça je vois pas pourquoi on fait ça on perd du temps il y assez souvent dans les entreprises il ya des gens qui sont décisionnaires en fin de fête sont décisionnaires sur des éléments et qui en fait vont plomber des décisions et c'est vous qui ont été prises et donc s'il n'y a pas vraiment une échelle de valeurs qui décide de quoi pourquoi qui doit rendre des comptes à qui ça c'est super important donc apporter au moment où on se met d'accord avec les dirigeants d'entreprises sur la démarche qu'on veut apporter sur qui doit faire quoi et qui décide de quoi ça évite que chacun est et sa bonne idée soit un peu les gi les bons tuyaux sait par expérience banque n'est pas compétent pour tous est il donc voila moi il ya des éléments sur lesquels je m'appuie sur des équipes en place qui vont m'apporter sur par exemple la proche produit il ya des produits qui sont très complexe sur lequel on doit essayer de comprendre pourquoi un internaute va chercher tel type de produit par rapport à tel autre et quels sont les produits qui sont éventuellement complémentaires il ya des choses qui sont simples mais d'autres je travaille actuellement pour un client qui fait de l'assurance les mots clés basic son simple en cas de l'assurance auto par exemple qui est un produit phare un gros produit par contre c'est tout ce qu'il ya autour tout ce qui est complémentaire même si c'est une grosse partie il ne vend pas que de l'assurance au tour donc il faut trouver toutes les portes d'entrée différentes et et toutes les façons d'appeler un homme produit voilà et est souvent vie bah non ça fait 80 % donc en fait les 20% qui reste en fait on s'en occupe pas parce que c'est une perte de temps sauf que pour arriver à être bien sûr c'est 80% faut pas oublier de faire l'essai 1% ou au moins les 80 ans donc ça il faut il faut assez souvent convaincre déjà les dirigeants parce qu'à partir de la personne avoue les dirigeants sont conscients de ça c'est plus facile dans la communication avec les équipes de d1 en bave à la suite à la réunion avec le directeur général nous avons convenu d'un plan de bataille que je vais vous expliquer donc là pour une entreprise dont jean techno l'an dernier c'est première réunion avec la direction ensuite on voit toutes les équipes mais mélanger c'est à dire que j'ai pris mes rédacteurs j'ai pris des personnes de l'équipe marketing j'ai pris des développeurs et ça permet aussi que tout le monde soit un briquet dans le projet alors là je parle évidemment des entreprises moyennes et des grandes entreprises dans les petites structures généralement on a un interlocuteur sur le ca voilà et de toute manière même dans des petites structures on va dire de moins de 20 personnes c'est important d'avoir un moment quelqu'un qui soit vraiment délicieux décisionnaire c'est soit soit le patron de l' agence de la boîte soit un des actionnaires quelqu'un a vraiment qui est du poids qu'il puisse dire attention là j'ai une alerte du est seemo le disant que vous n'avez pas respecté un certain nombre de points je vous rappelle que le référencement est un canal d'acquisition important est que c'est dans l'intérêt de l'entreprise dans nos entreprises c'est tout le monde y compris c'est pas un il ya qq c'est à dire que 6e si quelqu'un d'autre fait une entrée guillemets une bêtise il va dire un an ça c'est le trio c'est pas moi c'est toujours la patate chaude c'est exactement ça et la patate chaude on peut aussi la manger ensemble et il faut faire en sorte que ce soit en bon plat dire maman on n'a jamais comme ça et et on comprend pas on comprend pas l'intérêt ça c'est aussi surtout en plus mais enfin si pour ça que le terme mon avis politique est mieux que l'angélisme parce que c'est tout à fait ça c'est des luttes de pouvoir des luttes d'intérêts il faut se il faut arriver à concilier tout ça c'est pas forcément violent ou dans la douleur mais bon il faut être conscient en tout cas de la réalité la chose surtout en françois où c'est très très ancré dans la culture autochtone je vais reprendre un exemple que j'aime y en a chez m6 donc un portail automobile joue opel 6 avec une émission qui est depuis plus de 20 ans à l'antenne il y avait quelqu'un de en l'occurrence turbo qui m'avait dit on ne va pas se travestir pour google j'avais bien aimé parce que je comprenais effectivement la difficulté en entre des journalistes qui ont des comptes ou qui écrivent des contenus de qualité et de tôles de l'autre côté des internautes qui ont un besoin d'information au sens large ils ont des recherches voilà et donc à un moment l'idée c'est que le site apporte une réponse seul voilà donc l'or et je les ai accompagnés dans une prise de conscience on va dire global 10 ans il s'agit pas de dégrader la qualité de ton travail il s'agit de faire en sorte que ton travail qui d'écrire des contenus soient lus par des gens ne crie pas des articles juste pour tes potes ça n'empêche pas que tes potes peuvent le lire mais à un moment quand il trompe tu le fais pour une entreprise c'est pas juste dans un espace limité donc voilà il donc je leur ai montré en fait au fil du temps quel est l impact quand il écrivait des articles tout semble enfin c'était relativement sympa c'était un article qui s'appelait la belle espagnole la belle espagnole de quoi parle-t-on en fait on parlait d'une seat ibiza savoir voilà donc ça c'est des petits détails mais qui illustre assez bien je trouve les craintes qu'on peut avoir il faut savoir que dans des grands groupes pour des journalistes peut être climent important que donc il faut il faut arriver armée et armés avec des arguments faut pas leur donner plus de boulot il faut leur montrer que ça sert à quelque chose après on a quand même pas mal d'outils pour voir l'évolution et et de mettre des jolies bourdes mène à des gens qui qui ne sont pas censés les avoir un journaliste quand ils voient que le trafic de son site au monde et que lille est le 23e site automobile et que un an et demi après il est dans le top 10 sites automobiles français il ya une certaine fierté il est conscient que sa petite participation sert à quelque chose et que le clip chien qui est venu lui demander par deux motifs finalement il a peut-être servi donc c'est ouais c'est ce que ce que tu dis est très intéressant surtout le moteur plus toi tu es un grand maître de excellent aider de traitement des données quoi c'est vrai que de pouvoir chez qui il ya pire que moi il ya pour le nommer kamel manech je sais pas si tu connais qui était fier de seloger qui qui est pas mal dans le business intelligence et qui est un furieux là dessus et et il ya d'autres personnes qui sont largement plus forte que moi sur le croisement des données etc après le bémol que je pourrais avoir c'est de faire attention à ne pas passer plus de temps sur l'analyse que sur les les choix à faire c'est toujours difficile c'est qu'il n'y a pas de vérité vraie il ya des choix souvent et si on dit mais c'est comment qu'il faut faire d'un en fait c'est un choix que le sii ou à faire par rapport à un contexte par rapport d par rapport à un vécu par rapport à une possibilité un potentiel et par rapport à l'accompagnement qui va avoir dans l'entreprise ou externe donc voilà c'est c'est aussi la difficulté de ce métier c'est à la fois simple c'est tellement simple que parfois on doit expliquer qu' on est simple mais pas simpliste voilà c'est pas oui c'est pas juste on met la pièce dans la machine à café qu'on a notre café est en fait derrière faut fabriquer la machine à café c'est pas très dur il n'y a pas un mec qui font des machines à café etc mais après pourquoi pourquoi certaines marchent mieux parce qu'elles sont mieux implanté parce que la marque est reconnue parce que il ya des écrans tactiles avec une petite grenouille qui s'amusent déjà vu sur les mais je suis serein car de jeu c'est de trouver le parallèle voilà c'est à dire que l'oeil est attiré sur l'écran et donc on est tenté d'aller prendre un café c'est aussi vrai pour un site web c'est la mare la popularité c'est l'attrait de la thématique la façon présentée c'est important c'est pas que lui et ses autres est souvent faite en ramène ça aussi au camp quand la part du lion dans une zone de trafic et de plus de 80% on a l'impression que ça suffit en fait on peut avoir m déperdition derrière avec des formulaires qui sont mal gérées par une façon de traiter les prospects c'est à dire que le l'accueil d'un prospect important et parfois on fait beaucoup d'efforts sur le i see you et en bout de chaîne bah en fait une grosse partie va à la poubelle parce qu'on a mal géré et donc c'est dommage parce que après on va dire oui finalement le site génère plus de déchets peut-être qu'il ya il ya eu un aspect de la chaîne qui a été mal géré ou pas assez optimisé voilà pour une optimisation elle n'est pas que sur du bseo ça c'est important de prendre conscience de ça dans les projets le colloque en ciel ce serait vraiment c'est ça au départ de ne pas hésiter
     
-- [https://docs.google.com/spreadsheets/d/1oYFbChDUh5U8asIsa86uo_i37Mt99bW3T5_4bk6_-ow/edit#gid=1201207803](__MASK_92__)
+- [https://docs.google.com/spreadsheets/d/1oYFbChDUh5U8asIsa86uo_i37Mt99bW3T5_4bk6_-ow/edit#gid=1201207803](https://docs.google.com/spreadsheets/d/1oYFbChDUh5U8asIsa86uo_i37Mt99bW3T5_4bk6_-ow/edit#gid=1201207803)
     
-- [https://rank4win.fr/wordpress-seo/tarifs-rank4win-gratuit-light-pros-illimite/](__MASK_93__)
+- [https://rank4win.fr/wordpress-seo/tarifs-rank4win-gratuit-light-pros-illimite/](https://rank4win.fr/wordpress-seo/tarifs-rank4win-gratuit-light-pros-illimite/)
     
-- [http://cocon.se/cas/wordpress-avant-apres.html](__MASK_94__)
+- [http://cocon.se/cas/wordpress-avant-apres.html](http://cocon.se/cas/wordpress-avant-apres.html)
     
-- [https://www.youtube.com/channel/UCELrkldsH3ZxWq_BMVCKxeg/playlists](__MASK_95__)
+- [https://www.youtube.com/channel/UCELrkldsH3ZxWq_BMVCKxeg/playlists](https://www.youtube.com/channel/UCELrkldsH3ZxWq_BMVCKxeg/playlists)
     
 - [Goossips : Maillage Interne et Balises de Données Structurées - Actualités SEO et moteurs - Abondance](https://www.notion.so/ebbd8abcfaa048a0a7a3bccfbb962b9b?pvs=21)
     
@@ -824,7 +823,7 @@ SEO (1)
     - Using a tool like ahrefs, you can input your seed keyword into the keyword explorer and select the “phrase match” menu item from the drop down.
     - This will then bring you back a list of long tail keywords that contain your seed keyword.
     - These keywords are great for growing your traffic and increasing your topical relevancy!
-- [https://www.therollingnotes.com/wp-content/uploads/JESS3_BrianSolis_Conversion_Prism_50-1.jpg](__MASK_100__)
+- [https://www.therollingnotes.com/wp-content/uploads/JESS3_BrianSolis_Conversion_Prism_50-1.jpg](https://www.therollingnotes.com/wp-content/uploads/JESS3_BrianSolis_Conversion_Prism_50-1.jpg)
     
 - Launched in 2008 by Brian Solis and JESS3, The Conversation Prism is a visual map of the social media landscape. It’s an ongoing study in digital ethnography that tracks dominant and promising social networks and organizes them by how they’re used in everyday life. Social media has democratized information and shifted the structures of influence. The last update to The Conversation Prism was in 2013.
     
@@ -840,23 +839,23 @@ SEO (1)
     
 - Show your expertise and that social media is not something that should be ignored.
     
-- [How To Optimize Vidéo For Smooth Website Playback Using Handbrake - Presto Player](https://prestoplayer.com/docs/how-to-optimize-video-for-smooth-website-playback-using-handbrake)
+- [How To Optimize Video For Smooth Website Playback Using Handbrake - Presto Player](https://prestoplayer.com/docs/how-to-optimize-video-for-smooth-website-playback-using-handbrake)
     
-    - How To Optimize Vidéo For Smooth Website Playback Using Handbrake
+    - How To Optimize Video For Smooth Website Playback Using Handbrake
         
     - =============
         
-    - var player = document.querySelector('presto-player#presto-player-1'); player.video_id = 10; player.preset = {"id":8,"name":"YouTube Vidéos","slug":"youtube-vidéos","icon":"","play-large":true,"rewind":true,"play":true,"fast-forward":true,"progress":true,"mute":true,"volume":true,"speed":true,"pip":true,"fullscreen":true,"auto_hide":true,"sticky_scroll":true,"hide_youtube":false,"lazy_load_youtube":true,"hide_logo":true,"is_locked":false,"created_by":2,"created_at":"2021-02-16 01:51:20","updated_at":"2021-05-05 14:49:15","deleted_at":"","current-time":true,"save_player_position":true,"skin":"stacked","border_radius":0,"caption_style":"default","caption_background":"#000000","reset_on_end":false,"email_collection":{"enabled":false,"behavior":"pause","percentage":0,"allow_skip":false,"provider":"","provider_list":"","provider_tag":"","border_radius":0,"headline":"","bottom_text":"","button_text":""},"action_bar":{"enabled":true,"percentage_start":0,"text":"Subscribe To Our YouTube Channel","background_color":"","button_type":"youtube","button_count":false,"button_text":"Click Here","button_radius":0,"button_color":"","button_link":{"id":"","url":"","type":"","opensInNewTab":false}}}; player.chapters = \[\]; player.tracks = \[\]; player.branding = {"logo":"","color":"#7c3aed","logo_width":158}; player.blockAttributes = {"playsInline":true,"id":10,"src":"https:\\/\\/www.youtube.com\\/watch?v=kMB_tRJj6OM&t=193s","preset":8,"video_id":"kMB_tRJj6OM","color":"#00b3ff","pip":true,"fullscreen":true,"hideControls":true,"playLarge":true,"chapters":\[\],"speed":true,"title":""}; player.skin = "stacked"; player.analytics = true; player.provider = "youtube"; player.video_id = 10; player.provider_video_id = "kMB_tRJj6OM"; player.youtube = {"noCookie":false,"channelId":"UCLA2bewIlSdhqU4NvjKONKQ","show_count":false};
+    - var player = document.querySelector('presto-player#presto-player-1'); player.video_id = 10; player.preset = {"id":8,"name":"YouTube Videos","slug":"youtube-videos","icon":"","play-large":true,"rewind":true,"play":true,"fast-forward":true,"progress":true,"mute":true,"volume":true,"speed":true,"pip":true,"fullscreen":true,"auto_hide":true,"sticky_scroll":true,"hide_youtube":false,"lazy_load_youtube":true,"hide_logo":true,"is_locked":false,"created_by":2,"created_at":"2021-02-16 01:51:20","updated_at":"2021-05-05 14:49:15","deleted_at":"","current-time":true,"save_player_position":true,"skin":"stacked","border_radius":0,"caption_style":"default","caption_background":"#000000","reset_on_end":false,"email_collection":{"enabled":false,"behavior":"pause","percentage":0,"allow_skip":false,"provider":"","provider_list":"","provider_tag":"","border_radius":0,"headline":"","bottom_text":"","button_text":""},"action_bar":{"enabled":true,"percentage_start":0,"text":"Subscribe To Our YouTube Channel","background_color":"","button_type":"youtube","button_count":false,"button_text":"Click Here","button_radius":0,"button_color":"","button_link":{"id":"","url":"","type":"","opensInNewTab":false}}}; player.chapters = \[\]; player.tracks = \[\]; player.branding = {"logo":"","color":"#7c3aed","logo_width":158}; player.blockAttributes = {"playsInline":true,"id":10,"src":"https:\\/\\/www.youtube.com\\/watch?v=kMB_tRJj6OM&t=193s","preset":8,"video_id":"kMB_tRJj6OM","color":"#00b3ff","pip":true,"fullscreen":true,"hideControls":true,"playLarge":true,"chapters":\[\],"speed":true,"title":""}; player.skin = "stacked"; player.analytics = true; player.provider = "youtube"; player.video_id = 10; player.provider_video_id = "kMB_tRJj6OM"; player.youtube = {"noCookie":false,"channelId":"UCLA2bewIlSdhqU4NvjKONKQ","show_count":false};
         
-    - This tutorial walks you though using a free program named Handbrake to optimize your vidéos before self hosting or uploading to [BunnyNet](https://prestoplayer.com/bunnynet "BunnyNet").
+    - This tutorial walks you though using a free program named Handbrake to optimize your videos before self hosting or uploading to [BunnyNet](https://prestoplayer.com/bunnynet "BunnyNet").
         
-    - While I show you the exact settings, you can also import the following 2 presets to use when optimizing your vidéos.
+    - While I show you the exact settings, you can also import the following 2 presets to use when optimizing your videos.
         
-    - Handbrake Vidéo Presets
+    - Handbrake Video Presets
         
-    - [Full HD 1080p Vidéo Preset](https://prestoplayer.com/wp-content/uploads/2021/02/Presto-Player-1080.json)
+    - [Full HD 1080p Video Preset](https://prestoplayer.com/wp-content/uploads/2021/02/Presto-Player-1080.json)
         
-    - [HD 720p Vidéo Preset](https://prestoplayer.com/wp-content/uploads/2021/02/Presto-Player-720.json)
+    - [HD 720p Video Preset](https://prestoplayer.com/wp-content/uploads/2021/02/Presto-Player-720.json)
         
     - [Augmentez le trafic organique vers votre site Web en utilisant le plugin de référencement n ° 1](https://www.jbklutse.com/squirrly-seo-plugin/)
         
@@ -883,10 +882,10 @@ SEO (1)
         - Obtenez ce plugin WordPress SEO noté [ici](http://bit.ly/2xE21qV) .
         - Veuillez noter que si vous achetez quelque chose présenté ici, JBKlutse pourrait gagner une commission d'affiliation.
         - (adsbygoogle = window.adsbygoogle || \[\]).push({});
-        - jQuery(document).ready(function($) { $.post('[https://www.jbklutse.com/wp-admin/admin-ajax.php](__MASK_110__)', {action: 'wpt_view_count', id: '12008'}); });
+        - jQuery(document).ready(function($) { $.post('[https://www.jbklutse.com/wp-admin/admin-ajax.php](https://www.jbklutse.com/wp-admin/admin-ajax.php)', {action: 'wpt_view_count', id: '12008'}); });
         - [")
         - <
-        - ]([](https://www.jbklutse.com/author/root/)[https://www.jbklutse.com/author/root/](__MASK_112__)))
+        - ]([](https://www.jbklutse.com/author/root/)[https://www.jbklutse.com/author/root/](https://www.jbklutse.com/author/root/)))
     - [Configuration de votre compte GTM - axeptio / Developer Hub](https://developers.axeptio.eu/v/francais/cookies/google-tag-manager/configuration-de-votre-compte-gtm#creer-une-balise-personnalisee)
         
         - Créer un compte GTM[#creer-un-compte-gtm](https://www.notion.so/SEO-1-fb95ba0b145c4deebdb54bf391f4e502?pvs=21)
@@ -997,7 +996,7 @@ SEO (1)
           .png?alt=media&token=3bcd2fb6-5d64-4315-bebc-9c706fe33f8e>)
         ```
         
-        - Ajouter une règle[#ajouter-une-règle](https://www.notion.so/SEO-1-fb95ba0b145c4deebdb54bf391f4e502?pvs=21)
+        - Ajouter une règle[#ajouter-une-regle](https://www.notion.so/SEO-1-fb95ba0b145c4deebdb54bf391f4e502?pvs=21)
         - ===========
         - **Qu’est-ce qu’une règle ?** Une règle est le fait d’ajouter un minuteur et faire apparaitre une balise uniquement au bout d’un certain temps.
         - Pour cela cliquer cliquez sur « **Ajouter une balise** », « **Configuration de la balise** », puis « **HTML personnalisé** », et coller votre code de tracking Facebook. Ensuite vous allez devoir créer votre propre déclencheur. Cliquez dessus, puis sélectionnez le « **+** », ensuite le crayon, puis « **Minuteur** ».
@@ -1017,7 +1016,7 @@ SEO (1)
         - Avec son interface très claire et très simple à utiliser, vous allez grâce à cet outil gagner un temps considérable pour ajouter vos balises. Puisqu’il vous suffit d’ajouter le code de Google Tag Manager une seule fois pour pouvoir ensuite gérer toutes les autres balises dans GTM directement.
         - – **Balise (Tag)** : Il s’agit d’un bout de code qui vous permet d’ajouter tout type de JavaScript sur votre site (code de tracking, pixel de conversion, etc..) Par exemple : *Indiquer un page vue à Google Analytics. *Indiquer une conversion à Adwords. *Ajouter un pixel de tracking Facebook.
         - – **Déclencheur (Triggers)** : C’est la façon dont les balises vont être utilisées sur le site. Les déclencheurs associés à une balise définissent les conditions selon lesquelles une balise est déclenchée ou non. Par exemple : *À chaque chargement de pages. *Lorsqu’un achat est fait. *Après qu’un visiteur soit resté 5 minutes sur une page.
-    - [https://twitter.com/asyncr0ne/status/1404332290310762500?ref_src=twsrc^tfw|twcamp^tweetembed&ref_url=https%3A%2F%2Fwww.notion.so%2Fdesktopenhanced%2Fasyncr0ne-sur-Twitter-Thread-Les-21-comptes-Twitter-SEO-suivre-Si-tu-souhaites-t-immerger--49cb7f35c0ac4f318608a238b39052a9](__MASK_123__)
+    - [https://twitter.com/asyncr0ne/status/1404332290310762500?ref_src=twsrc^tfw|twcamp^tweetembed&ref_url=https%3A%2F%2Fwww.notion.so%2Fdesktopenhanced%2Fasyncr0ne-sur-Twitter-Thread-Les-21-comptes-Twitter-SEO-suivre-Si-tu-souhaites-t-immerger--49cb7f35c0ac4f318608a238b39052a9](https://twitter.com/asyncr0ne/status/1404332290310762500?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Fwww.notion.so%2Fdesktopenhanced%2Fasyncr0ne-sur-Twitter-Thread-Les-21-comptes-Twitter-SEO-suivre-Si-tu-souhaites-t-immerger--49cb7f35c0ac4f318608a238b39052a9)
         
     - SEO for Developers in 100 Seconds
         
@@ -1222,7 +1221,7 @@ SEO (1)
     - Si rien de ça ne marche, envisage de changer d'URL et fais une redirection de l'ancienne URL vers la nouvelle.
     - Si tu n'as toujours pas de résultat au bout de 2 semaines, tu pourras envisager l'ajout d'une balise canonical pour envoyer son jus vers une autre page similaire.
 
-[https://ply.to/CQXMWpfp](__MASK_140__)
+[https://ply.to/CQXMWpfp](https://ply.to/CQXMWpfp)
 
 [Google Says Impressions Do Not Equal Search Volume](https://www.searchenginejournal.com/google-says-no-correlation-between-impressions-and-search-volume/435696/?fbclid=IwAR3wMvaij3yOsz8JNJ3y63KbuOS9NMlS0o0Nlx4L7VOsfzisxHph4MvRJAs)
 
@@ -1260,7 +1259,7 @@ Google Keyword Planner Keywords Everywhere Keyword Surfer Answer The Public Soov
     - Readers spend more than twice as much time with articles over 1,000 words than they do with short articles – even though both types of articles get about the same number of visitors. ([Pew](http://www.journalism.org/2016/05/05/long-form-reading-shows-signs-of-life-in-our-mobile-news-world/))
     - Google tends to reward long-form content: Articles on the first page of Google results pages on average contain 1,890 words. ([Brian Dean](https://backlinko.com/search-engine-ranking))
     
-    Hmmm. Next, I looked at our own expérience. On the Clariant Creative blog, our most-read articles average about 1,770 words. But when I looked across all our clients for whom we manage their blogs, the average word count for most-read articles dropped to about 1,200.
+    Hmmm. Next, I looked at our own experience. On the Clariant Creative blog, our most-read articles average about 1,770 words. But when I looked across all our clients for whom we manage their blogs, the average word count for most-read articles dropped to about 1,200.
     
 - [Avance rapide et retour en arrière : utilisation des projections en matière de référencement - YouTube](https://www.youtube.com/watch?v=zfl-Va5D_48)
     
@@ -1306,9 +1305,9 @@ Google Keyword Planner Keywords Everywhere Keyword Surfer Answer The Public Soov
 
 [SEOMag : Le meilleur thème WordPress optimisé pour le SEO](https://josselinleydier.com/seo/theme-wordpress-seo/)
 
-*[Transcribe YouTube Vidéos - YTScribe - Chrome Web Store](https://chrome.google.com/webstore/detail/transcribe-youtube-videos/ciomcelfjhlmkhooaifopphccnalmnpk)
+*[Transcribe YouTube Videos - YTScribe - Chrome Web Store](https://chrome.google.com/webstore/detail/transcribe-youtube-videos/ciomcelfjhlmkhooaifopphccnalmnpk)
 
-[https://youtu.be/c5-3gotpgz8?t=476](__MASK_162__) comment il a gagné 3M d’abo
+[https://youtu.be/c5-3gotpgz8?t=476](https://youtu.be/c5-3gotpgz8?t=476) comment il a gagné 3M d’abo
 
 - VIdéo
     
@@ -1348,10 +1347,10 @@ Google Keyword Planner Keywords Everywhere Keyword Surfer Answer The Public Soov
         3. Up-leveling
             1. What would make this idea more original and fresh than what's already present on YouTube ?
             2. What intersectional ideas would make this idea even better ?
-            3. How will the idea that we're developing thus far be delivered throughout the vidéo duration to provide an escalation expérience so the vidéo does not come across to my audience as flat rather I start here and at the end of the vidéo, the viewer is at a ihgher place than they were before ?
+            3. How will the idea that we're developing thus far be delivered throughout the video duration to provide an escalation experience so the video does not come across to my audience as flat rather I start here and at the end of the video, the viewer is at a ihgher place than they were before ?
             4. What will make this idea memorable to viewers ?
         4. Validating the idea, it’s possible that it’s a great idea, but not for your audience that will be confused.
-            1. How well does the vidéo that I have developped thus far, fit what I am currently doing ?
+            1. How well does the video that I have developped thus far, fit what I am currently doing ?
             2. How does it fit my channel lens ?
             3. What would be my audience’s reaction if I were to tell them this idea ?
             4. Do I like this reaction ?
@@ -1397,7 +1396,7 @@ Google Keyword Planner Keywords Everywhere Keyword Surfer Answer The Public Soov
     
     [Sign In | TubeBuddy](https://www.tubebuddy.com/signin?ReturnUrl=%2Flaunchpad%2Fdashboard%2FUCQo-_DT1_PetYrOjKQ_EO3Q)
     
-    [NEWS: Web Series, Online Vidéo & TV Shows, YouTube | EVENTS: LA & NYC Meetup | Tubefilter.com](https://www.tubefilter.com/)
+    [NEWS: Web Series, Online Video & TV Shows, YouTube | EVENTS: LA & NYC Meetup | Tubefilter.com](https://www.tubefilter.com/)
     
     [Tools - TubeBuddy](https://www.tubebuddy.com/tools/?tool=channelbackup)
     
@@ -1502,7 +1501,7 @@ Laissez votre audience cible définir les sujets de vos vidéos. Recherchez les 
 
 ## Passer à l'action : créer les premières vidéos
 Ne cherchez pas la perfection dès le début. Publiez régulièrement des vidéos pour vous améliorer au fil du temps.
-Here is the content from your vidéo transcript structured into paragraphs with titles added as you requested:
+Here is the content from your video transcript structured into paragraphs with titles added as you requested:
 
 ## Introduction
 [12:29] et faire décoller votre chaîne votre résidence face caméra et votre gestuelle l'engagement des spectateurs et vos appels à action votre capacité à raconter des histoires captivantes un autre élément clé pour captiver vos spectateurs c'est le montage de vos vidéos si vous souhaitez apprendre réaliser un montage dynamique sans y passer des heures et sans vous arracher les cheveux j'organise un atelier en ligne dimanche soir et dans cet atelier je vais partager avec vous cette technique que nous utilisons sur chacun de nos montages chez stratégie vidéo pour gagner un temps de dingue et faire des vidéos qui claquent 100 % gratuit et pour vous inscrire cliquez ici.
@@ -1526,7 +1525,7 @@ Here is the content from your vidéo transcript structured into paragraphs with 
 [20:50] Et voilà, vous savez maintenant comment je m'y prendrais pour lancer une nouvelle chaîne YouTube. Comme vous l'avez vu, il y a quand même pas mal d'étapes à réaliser. Rome ne s'est pas fait en un jour, et c'est pareil pour une chaîne YouTube à succès. Soyez donc patient et n'oubliez pas que vous êtes là pour du moyen à long terme.
 
 [21:18] Pour terminer cette vidéo sur une note un peu plus développement personnel, concentrez-vous sur le chemin et non sur la destination. Car la route pour développer votre chaîne sera longue. C'est en suivant les étapes l'une après l'autre et en vous améliorant un peu vidéo après vidéo que votre travail paiera et que les résultats viendront. En fin de compte, c'est peut-être la chose la plus importante. Laissez-moi un pouce bleu si vous avez appris quelque chose. Un petit commentaire, ça fait toujours plaisir.
-## Étape 1 : Se Concentrer Sur les Entrées
+## Etape 1 : Se Concentrer Sur les Entrées
 
 Lorsque j'ai fait cela, que j'ai réduit ma concentration, que j'ai pris du recul et que j'ai décidé de me concentrer sur mes entrées, les choses ont commencé à évoluer. J'ai bien sûr investi beaucoup d'argent dans mon entreprise pour apprendre auprès d'autres mentors et coachs, et cela a eu un impact massif sur ma croissance. Mais par-dessus tout, je n'ai pas permis à l'effet "shiny object syndrome" ou à des centres d'intérêt différents de me détourner de ma voie. Je suis resté extrêmement concentré sur un objectif, une plateforme, et quelques indicateurs, quelques actions que je pouvais faire quotidiennement, et qui finiraient par s'additionner pour atteindre cet objectif.
 
@@ -1543,12 +1542,12 @@ Demande-toi, mois après mois : "combien de vidéos j'ai publié sur YouTube ?"
 Si tu tiens pas tes engagements envers toi-même, il est temps de se reprendre en main et d'en être conscient.
 
 Cela se résume vraiment à recentrer sa concentration sur l'objectif que vous souhaitez atteindre. Après avoir défini cet objectif, le simple fait de le définir ne suffit pas. Les objectifs peuvent être excitants, stimulants, mais pour les réaliser, il faut se concentrer sur les actions quotidiennes nécessaires pour atteindre cet objectif. Demandez-vous quelles sont les actions qui vous conduiront à cet objectif. Quels sont les indicateurs que je peux mesurer pour m'assurer que je fais les actions nécessaires et pour montrer de manière constante et implacable vers la réalisation de cet objectif. C'est ainsi que vous créez de l'élan, c'est ainsi que vous développez un public, une chaîne et une entreprise efficacement. En simplifiant, en resserrant votre concentration et en vous concentrant sur les actions quotidiennes qui vous permettent de devenir un pour cent meilleur ce jour-là. C'est mon message pour vous aujourd'hui. Merci encore à tous ceux qui me montrent de l'amour ici sur la chaîne et qui sont abonnés à la chaîne. Si vous ne l'êtes pas encore, assurez-vous de cliquer sur "s'abonner" ci-dessous pour soutenir mon parcours vers mes premiers mille abonnés. Pour ceux d'entre vous qui regardent cette vidéo, si vous ne l'avez pas déjà entendu, il ne reste plus que huit jours avant que le prix de mon programme de coaching "Six chiffres accelerator" n'augmente de mille dollars. Huit jours à compter de la date de publication de cette vidéo, à la fin du mois de juin, le prix augmentera de mille dollars et ne sera plus jamais aussi bas qu'il ne l'est maintenant. Donc, si vous avez envisagé de rejoindre le "Six chiffres accelerator" auparavant, si vous souhaitez en savoir plus sur la manière dont mon équipe et moi pouvons vous aider à développer votre entreprise, cliquez sur le lien ci-dessous, contactez-nous, nous discuterons davantage. Si nous devons parler, nous pouvons le faire par appel, sinon nous pouvons discuter par messagerie et voir si ce programme est bien adapté pour vous aider à atteindre vos objectifs commerciaux. Merci encore de m'avoir regardé, j'apprécie votre soutien, et je vous retrouverai dans la prochaine vidéo.
-## Étape 3 : Bâtir et peaufiner sa stratégie
+## Etape 3 : Bâtir et peaufiner sa stratégie
 Le passage à l'action et l'action stratégique sont étroitement interdépendants/
 stratégie. Les YouTube Shorts sont un excellent moyen d'atteindre un public plus large et de diversifier votre contenu sur YouTube.
 
 
-## Étape 2 : Raccourcir l'Apprentissage de YouTube
+## Etape 2 : Raccourcir l'Apprentissage de YouTube
 
 Nate aborde également la question du temps nécessaire pour comprendre YouTube. Il compare l'apprentissage de la plateforme à l'apprentissage d'une nouvelle langue. Pour réduire le temps d'apprentissage, il recommande l'utilisation d'extensions, telles que VidIQ, pour obtenir des informations sur les vidéos et les commentaires. Il met en avant l'importance de raccourcir la courbe d'apprentissage pour réussir plus rapidement sur YouTube.
 ## La Nouvelle Application Pour Youtubeurs

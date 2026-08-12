@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Explosez Votre Seo L'App De Backlinks Qui Fait Trembler Google
 author: Diane
-description: "Explosez Votre Seo L'App De Backlinks Qui Fait Trembler Google."
+description: 'Découvre Explosez Votre Seo L''App De Backlinks Qui Fait Trembler Google
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

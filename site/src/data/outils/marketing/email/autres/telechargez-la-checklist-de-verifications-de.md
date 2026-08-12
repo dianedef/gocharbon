@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -16,7 +16,7 @@ Vous avez défini votre offre irrésistible et vous êtes prêt à lancer une ac
 
 Rassurez-vous, nous allons vous accompagner pour que votre tunnel comporte bien toutes les étapes nécessaires et que votre lancement soit réussi !
 
-Le tunnel de vente est un parcours marketing constitué de nombreuses étapes, qui doivent être bien pensées et bien reliées entre elles. Avec [Système.io](http://systeme.io) la mise en place de ce chemin est à la portée de tous, les pages d'aide sont là pour vous guider si vous vous posez des questions techniques : [https://help.systeme.io/fr/category/tunnels-de-vente-trw3lr/](__MASK_1__)
+Le tunnel de vente est un parcours marketing constitué de nombreuses étapes, qui doivent être bien pensées et bien reliées entre elles. Avec [Systeme.io](http://systeme.io) la mise en place de ce chemin est à la portée de tous, les pages d'aide sont là pour vous guider si vous vous posez des questions techniques : [https://help.systeme.io/fr/category/tunnels-de-vente-trw3lr/](https://help.systeme.io/fr/category/tunnels-de-vente-trw3lr/)
 
 Grâce à votre tunnel vous pouvez créer plusieurs scénarios. Vos prospects ayant tous des intentions différentes, l'objectif est de regrouper les offres pour qu'elles soient le plus adaptées possibles au budget du prospect par exemple, ou à n'importe quel autre critère.
 
@@ -303,7 +303,7 @@ Un tunnel ed vente, c’est comemu ne séquence d’emails, avec des apges inter
 
 - The Digital Marketing Funnel Stages, Explained
     
-    [https://firstpagesage.com/seo-blog/digital-marketing-funnel-stages-fc/](__MASK_19__)
+    [https://firstpagesage.com/seo-blog/digital-marketing-funnel-stages-fc/](https://firstpagesage.com/seo-blog/digital-marketing-funnel-stages-fc/)
     
     [0](https://firstpagesage.com/seo-blog/digital-marketing-funnel-stages-fc/#)
     
@@ -313,7 +313,7 @@ Un tunnel ed vente, c’est comemu ne séquence d’emails, avec des apges inter
     
     In digital marketing, [demand generation](https://firstpagesage.com/seo-blog/b2b-saas-demand-generation/) brings prospects to your website. Once they’re there, the series of pages they visit, in a single session or multiple sessions, determine their likelihood of converting into customers. This entire process is known as the digital marketing funnel.
     
-    When diagrammed, a digital marketing funnel shows the psychological state of your would-be customer as they travel through your website. It is divided into distinct stages for a clearer understanding of their changing expérience and attitude towards your brand (visualized below).
+    When diagrammed, a digital marketing funnel shows the psychological state of your would-be customer as they travel through your website. It is divided into distinct stages for a clearer understanding of their changing experience and attitude towards your brand (visualized below).
     
     Practically speaking, someone traveling through the stages of a digital marketing funnel is visiting various online “locations” on their path to conversion, such as a marketing e-mail, an ad, the Google search results, your website, and your competitors’ websites.
     
@@ -350,7 +350,7 @@ Un tunnel ed vente, c’est comemu ne séquence d’emails, avec des apges inter
     To improve your conversion rates at the Interest stage, examine the pages that visitors first land on when they reach your site. These will be the landing pages that your ads point to, the blog articles shared on your social media, and the pages that have the highest rankings on Google. It is absolutely essential that these pages put your best foot forward. Here’s what we recommend:
     
     - A blog that contains original insights on your potential customers’ business, and establishes authority with strong writing and data analysis. (In other words, [thought leadership](https://firstpagesage.com/thought-leadership/).)
-    - Landing pages that provide skimmable details, high quality images, or even professionally produced vidéos that set your product or services apart and show that you know what your audience is looking for.
+    - Landing pages that provide skimmable details, high quality images, or even professionally produced videos that set your product or services apart and show that you know what your audience is looking for.
     
     After the Interest stage comes the Appraisal stage, which is in many ways the most difficult of them all.
     
@@ -374,7 +374,7 @@ Un tunnel ed vente, c’est comemu ne séquence d’emails, avec des apges inter
     
     Return visitors are ripe for the final push. They’ve mostly made up their mind and here, your marketing and conversion-focused content can make the difference.
     
-    _The visitor has decided on Salesforce, and returns to confirm their décision._
+    _The visitor has decided on Salesforce, and returns to confirm their decision._
     
     To be successful, be prepared to offer case studies and other real-world examples of how you have solved the problems your customers encounter. As with the Appraisal stage, testimonials from satisfied clients can also help increase your success at this stage. Just like the other digital marketing funnel stages, transparency and authenticity is crucial at this stage. You’ve built trust, now you need to confirm that you are the best business partner for these leads. Be honest about products, timelines, resources you bring to the table and what’s expected from the customers.
     
@@ -396,4 +396,4 @@ Un tunnel ed vente, c’est comemu ne séquence d’emails, avec des apges inter
     
     To get as many prospects as possible to convert, you will need a comprehensive approach to digital marketing. That means an audit of your marketing strategy, digital marketing channels, website conversion paths, SEO strategy, and tech stack.
     
-    Because the above requires more competencies than most companies have under one roof, the most important next step may be choosing the right marketing partner. We have over 12 years of expérience optimizing the digital marketing funnel for companies across a variety of industries, from B2B SaaS to Real Estate to Manufacturing. If you’d like to discuss a partnership, [reach out here](https://firstpagesage.com/contact/) to book a call.
+    Because the above requires more competencies than most companies have under one roof, the most important next step may be choosing the right marketing partner. We have over 12 years of experience optimizing the digital marketing funnel for companies across a variety of industries, from B2B SaaS to Real Estate to Manufacturing. If you’d like to discuss a partnership, [reach out here](https://firstpagesage.com/contact/) to book a call.

@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: veille
-toolFacets:
-  - veille-prix
-  - pricing
+section: apps
 metadataEnrichedAt: null
 title: Paarly
 author: Diane
@@ -19,17 +14,17 @@ u_site: https://fr.paarly.com
 
 # Paarly
 
-# PRICING INTELLIGENCE : LE RADAR QUI SURVEILLE LES PRIX DE TES CONCURRENTS 24H/24
+## PRICING INTELLIGENCE : LE RADAR QUI SURVEILLE LES PRIX DE TES CONCURRENTS 24H/24
 
-## tl;dr
+### tl;dr
 
 Paarly est une solution française de **veille tarifaire et d'intelligence de tarification (pricing intelligence)** qui permet aux entreprises d'appliquer la politique tarifaire la mieux adaptée à leur situation sur le marché. La plateforme utilise une **technologie d'intelligence artificielle brevetée** pour analyser les prix pratiqués par la concurrence et formuler des recommandations concernant tes propres tarifs. Plus de **350 entreprises** utilisent Paarly, dont **24 multinationales** et **3 000+ marques** surveillées. Basée à **Toulouse** (téléphone : 05 62 84 32 08), Paarly convient à toutes les entreprises, quelle que soit leur taille ou leur secteur d'activité : vêtements, sport, livres, électronique, livraison de fleurs, alimentation, santé, automobile, énergie… Trois fonctionnalités principales : **veille tarifaire** (collecte et analyse des prix concurrents), **repricing dynamique** (ajustement automatique des prix avec technologie brevetée), et **accompagnement marketplace** (optimisation publicité, tarification et image de marque sur les places de marché). Parmi les clients : **Sarenza**, **Casino**, **Vinci**, **Total**, **Lidl**. Essai gratuit de **10 jours** sans engagement. L'outil ne nécessite aucune installation ni configuration préalable — cloud SaaS accessible via navigateur, tablette ou mobile.
 
-## Alternative à
+### Alternative à
 
 Prisync, Price2Spy, Competera, Minderest, Intelligence Node, Omnia Retail, Netrivals, Pricemoov. Paarly se distingue par sa **technologie de repricing brevetée** (unique sur le marché), son **ancrage français** (équipe à Toulouse), ses **clients de référence** (Sarenza, Casino, Vinci, Total, Lidl — 24 multinationales), et son approche **data-driven avec IA** pour le matching et l'analyse produit.
 
-# Bénéfices
+## Bénéfices
 
 **Surveille tes concurrents automatiquement 24h/24** — Paarly collecte des données fiables sur les produits de tes concurrents et distributeurs, te offrant une vue complète de ton marché. Tu repères les opportunités (produits trop chers chez la concurrence, ruptures de stock, promotions) et tu ajustes ta gamme de produits en conséquence. La collecte est quotidienne et automatique, sans ton intervention.
 
@@ -41,7 +36,7 @@ Prisync, Price2Spy, Competera, Minderest, Intelligence Node, Omnia Retail, Netri
 
 **Aucune installation nécessaire** — La console est consultable en ligne grâce à sa technologie Cloud SaaS. Seuls ton login et ton mot de passe suffisent. Compatible avec tous les navigateurs (Chrome, Firefox, Safari, Edge). Utilisable sur ordinateur, portable et tablette.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **E-commerçants et distributeurs** qui veulent augmenter leurs ventes en surveillant les stratégies tarifaires de leurs concurrents
 - **Marques et fabricants** qui veulent superviser les prix pratiqués par les distributeurs de leur marque
@@ -51,7 +46,7 @@ Prisync, Price2Spy, Competera, Minderest, Intelligence Node, Omnia Retail, Netri
 - **Groupes industriels** (Vinci) qui ont besoin d'analyser les tarifs en ligne pratiqués par les revendeurs
 - **Toute entreprise** qui vend en ligne et veut optimiser sa politique tarifaire par rapport à la concurrence
 
-# Comment Utiliser Paarly
+## Comment Utiliser Paarly
 
 1. **Inscris-toi à l'essai gratuit** — 10 jours d'essai sans engagement. Choisis parmi les éditions Start, Standard, Premium ou personnalisée. Tu peux aussi contacter l'équipe commerciale au **05 62 84 32 08**
 2. **Indique tes concurrents** — Tu fournis la liste des sites Internet que tu souhaites surveiller. L'équipe technique se charge de tout configurer
@@ -61,9 +56,9 @@ Prisync, Price2Spy, Competera, Minderest, Intelligence Node, Omnia Retail, Netri
 6. **Active le repricing** — Configure tes prix planchers et tes objectifs. La technologie brevetée ajuste automatiquement tes prix
 7. **Intègre avec ton SI** — Connecte Paarly à ton ERP, CRM ou CMS (Magento, PrestaShop) via les modules et plugins disponibles
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Veille Tarifaire et Analyse de Concurrence
+### Veille Tarifaire et Analyse de Concurrence
 
 - **Extraction automatique des prix** à partir de n'importe quel site web — collecte quotidienne sans ton intervention
 - **Analyse des prix concurrents** — prix actuels, tendances, historique des variations
@@ -74,7 +69,7 @@ Prisync, Price2Spy, Competera, Minderest, Intelligence Node, Omnia Retail, Netri
 - **Matching automatisé** — correspondance automatique entre tes produits et ceux de tes concurrents (un produit véritablement comparable). Possibilité de supprimer un matching non pertinent ou d'en ajouter manuellement
 - **Tableau de bord ergonomique** avec environnements graphiques : prix actuels, tendances, promotions, nouveaux produits, produits et marques en commun
 
-## Repricing Dynamique (Technologie Brevetée)
+### Repricing Dynamique (Technologie Brevetée)
 
 - **Technologie d'intelligence artificielle brevetée** pour le repricing automatique
 - **Plugin de repricing automatique** pour ta boutique en ligne
@@ -82,13 +77,13 @@ Prisync, Price2Spy, Competera, Minderest, Intelligence Node, Omnia Retail, Netri
 - **Ajustement dynamique** en fonction des mouvements du marché
 - **Objectifs personnalisables** — maximiser le volume, la marge, ou un mix des deux
 
-## Accompagnement Marketplace
+### Accompagnement Marketplace
 
 - **Optimisation de la publicité** sur les marketplaces avec IA
 - **Optimisation de la tarification** pour gagner la Buy Box
 - **Image de marque** — surveillance de la cohérence des prix sur les différents canaux
 
-## Alertes et Reporting
+### Alertes et Reporting
 
 - **Alertes email personnalisables** — fréquence quotidienne ou hebdomadaire
 - **Alertes par concurrent ou par ensemble de concurrents** — configure les seuils de prix à surveiller
@@ -96,7 +91,7 @@ Prisync, Price2Spy, Competera, Minderest, Intelligence Node, Omnia Retail, Netri
 - **Export graphiques en XLSX** — enregistre et module les graphiques
 - **Envoi automatique de rapports** par email
 
-## Administration et Multi-utilisateurs
+### Administration et Multi-utilisateurs
 
 - **Multi-utilisateurs** — plusieurs utilisateurs avec des accès confidentiels
 - **Configuration personnalisée** — choisis un concurrent ou une marque en particulier pour une veille spécialisée
@@ -106,7 +101,7 @@ Prisync, Price2Spy, Competera, Minderest, Intelligence Node, Omnia Retail, Netri
 - **Multi-devises** — l'outil prend en compte la devise du produit tel qu'il est présenté sur le site
 - **HT ou TTC** — choisis ta préférence pour les prix affichés
 
-# Prix
+## Prix
 
 Paarly propose 4 éditions avec un **essai gratuit de 10 jours** sans engagement.
 
@@ -124,28 +119,28 @@ Notes :
 - Les tarifs exacts ne sont pas publiés — contacte Paarly pour un devis personnalisé
 - [Voir les tarifs sur le site officiel](https://fr.paarly.com/tarifs/)
 
-# Intégrations
+## Intégrations
 
-## CMS et E-commerce
+### CMS et E-commerce
 
 - **Magento** — plugin d'intégration pour le repricing automatique
 - **PrestaShop** — module de connexion directe
 - **Boutique en ligne** — plugin de repricing automatique pour ta boutique
 
-## Systèmes d'Information
+### Systèmes d'Information
 
 - **ERP** — module pour enrichir les données prix de ton ERP avec des informations sur la concurrence
 - **CRM** — add-on pour adapter les devis B2B ou B2C générés par le CRM
 - **Logiciel de devis** — intégration pour ajuster les devis en fonction du marché
 - **Logiciel d'analyse** — enrichissement des analyses avec les données tarifaires
 
-## Export de Données
+### Export de Données
 
 - **CSV-Excel** — export des données tarifaires au format CSV
 - **API** — accès programmatique aux données (édition Premium et Personnalisée)
 - **XLSX** — export des graphiques
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **Basée à Toulouse** — équipe française avec support téléphonique au **05 62 84 32 08**
 - **Technologie de repricing brevetée** — unique sur le marché de la pricing intelligence
@@ -158,7 +153,7 @@ Notes :
 - **Blog** : [fr.paarly.com/blog/](https://fr.paarly.com/blog/) — articles sur la veille tarifaire et le pricing
 - **Mentionné sur Capterra** — avis et évaluations disponibles
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
 - **L'e-commerçant mode** : comme Sarenza, tu vends des chaussures en ligne. Tu surveilles 20 concurrents et 25 000 produits. Paarly t'alerte quand un concurrent baisse le prix d'une Nike Air Max et tu ajustes automatiquement ton prix pour rester compétitif tout en protégeant ta marge
 - **La grande enseigne alimentaire** : comme Casino ou Lidl, tu gères des milliers de références. Paarly analyse les prix de tes concurrents et identifie les produits où tu es trop cher. Tu planifies tes promotions au moment le plus opportun
@@ -166,7 +161,7 @@ Notes :
 - **L'e-commerçant qui veut gagner la Buy Box** : tu vends sur Amazon et tu veux le prix optimal pour gagner la Buy Box. Le repricing automatique de Paarly ajuste tes prix en temps réel avec un prix plancher pour protéger tes marges
 - **Le retailer en négociation fournisseur** : tu veux négocier tes prix d'achat. Paarly analyse les prix pratiqués par les fournisseurs vis-à-vis des autres entreprises et te donne des arguments concrets pour la négociation
 
-# Points Forts
+## Points Forts
 
 - Technologie de repricing brevetée — unique sur le marché, un avantage concurrentiel fort
 - 350+ entreprises clientes dont 24 multinationales (Sarenza, Casino, Vinci, Total, Lidl) — preuve de fiabilité
@@ -180,7 +175,7 @@ Notes :
 - Intégrations ERP/CRM/CMS — s'intègre dans ton système d'information existant
 - Multi-utilisateurs, multi-devises, prise en compte des frais de port
 
-# Points Faibles
+## Points Faibles
 
 - Tarifs non publiés sur le site — il faut contacter Paarly pour un devis, ce qui manque de transparence
 - Pas de section FAQ détaillée sur le site public (bien que la FAQ technique soit complète)
@@ -191,7 +186,7 @@ Notes :
 - Moins connu à l'international que Prisync ou Competera — communauté internationale plus petite
 - Pas d'app mobile native mentionnée — accès uniquement via navigateur web
 
-# FAQ Technique
+## FAQ Technique
 
 **Une installation est-elle à prévoir ?**
 Non, la console est consultable en ligne en mode Cloud SaaS. Seuls ton login et mot de passe suffisent.

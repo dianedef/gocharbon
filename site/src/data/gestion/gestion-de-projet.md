@@ -1,169 +1,155 @@
 ---
 section: blog
-title: 'Gestion de projet : finir sans transformer ton business en usine'
+title: 'GESTION DE PROJET : L''ART DE FINIR CE QU''ON COMMENCE'
 author: Diane
 tags:
 - Business
-description: "Une gestion de projet simple et utile pour solo entrepreneur et petite équipe : cadrer, prioriser, livrer, apprendre."
-pubDate: '2026-04-19'
+description: Méthodes de gestion de projet adaptées aux entrepreneurs solo et petites
+  équipes - du chaos à la clarté
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Gestion de projet : finir sans transformer ton business en usine
+# La gestion de projet pour ceux qui détestent la gestion de projet
 
-La gestion de projet a mauvaise presse parce qu'on l'associe souvent à :
+Soyons honnêtes : quand tu lances ton business, tu veux créer, vendre, développer. Pas passer tes journées dans des tableaux Excel et des réunions de suivi. Pourtant, sans un minimum d'organisation, même les meilleures idées finissent au cimetière des projets abandonnés.
 
-- des tableaux interminables
-- des rituels vides
-- des statuts qui prennent plus de temps que le travail
+**Bonne nouvelle** : la gestion de projet pour entrepreneurs, ça n'a rien à voir avec les usines à gaz des grandes boîtes.
 
-Pour une petite structure, le sujet est pourtant simple :
+## Pourquoi tes projets n'aboutissent pas (spoiler : c'est pas un problème de motivation)
 
-**comment faire avancer un vrai projet jusqu'au bout sans se disperser ?**
+### Le syndrome du projet infini
 
-Le problème n'est généralement pas le manque d'idées. Le problème, c'est l'absence de cadre.
+Tu connais ce schéma ? Tu démarres un projet avec enthousiasme, tu avances bien pendant 2 semaines, puis... ça s'enlise. Le projet devient un monstre qui ne finit jamais.
 
-## 1. Définis ce que "fini" veut dire
+**La cause** : tu n'as pas défini ce que "fini" veut dire. Sans ligne d'arrivée claire, impossible de savoir quand tu as gagné.
 
-Un projet bloqué est souvent un projet mal défini.
+### La malédiction du perfectionnisme
 
-Exemples :
+"Je le sortirai quand ce sera parfait." Traduction : tu ne le sortiras jamais. Le perfectionnisme est l'ennemi numéro 1 de l'entrepreneur.
 
-- "refondre le site" n'est pas un fini
-- "mettre en ligne une nouvelle home, un formulaire propre et 5 pages clés" en est un
+**La solution** : définis le "minimum viable" dès le départ. Qu'est-ce qui doit absolument fonctionner pour la v1 ?
 
-Avant de commencer, écris :
+## Les 3 méthodes qui marchent vraiment
 
-- le résultat attendu
-- ce qui est inclus
-- ce qui ne l'est pas
-- la date visée
+### 1. La méthode "Résultat d'abord"
 
-Ce n'est pas bureaucratique. C'est ce qui évite de courir après une cible qui bouge.
+**Le principe** : Commence par définir le résultat final, puis remonte vers les étapes.
 
-## 2. Coupe le projet en morceaux livrables
+**Comment faire :**
+1. Décris ton projet fini en une phrase
+2. Liste les 3-5 livrables nécessaires pour que ce soit "fini"
+3. Pour chaque livrable, liste les tâches concrètes
+4. Estime le temps (puis multiplie par 2, parce que tu vas te tromper)
 
-Beaucoup de projets deviennent anxiogènes parce qu'ils restent trop gros.
+**Exemple concret :**
+- Résultat : "Ma formation en ligne est en vente"
+- Livrables : curriculum défini, vidéos tournées, page de vente créée, système de paiement configuré
+- Tâches pour "curriculum" : lister les modules, écrire les scripts, valider avec un bêta-testeur
 
-Le bon réflexe :
+### 2. La méthode des sprints (version solo)
 
-- découper en blocs de `2 à 5` jours
-- donner un livrable à chaque bloc
-- éviter les tâches floues du type "avancer"
+**Le principe** : Divise ton projet en cycles courts (1-2 semaines) avec un objectif précis par cycle.
 
-Un projet avance mieux quand on peut constater quelque chose de terminé.
+**Comment faire :**
+1. Définis ce qui sera "fait" à la fin du sprint
+2. Liste uniquement les tâches de ce sprint
+3. Bloque du temps dédié chaque jour
+4. À la fin du sprint : bilan et ajustement
 
-## 3. Réduis le nombre de sujets actifs
+**Pourquoi ça marche** : Tu as une deadline proche qui crée de l'urgence, mais assez de temps pour produire quelque chose de concret.
 
-Le multitâche donne l'illusion d'être productif. En vrai, il prolonge presque tout.
+### 3. La méthode Kanban minimaliste
 
-Pour un solo entrepreneur :
+**Le principe** : Visualise ton flux de travail en 3 colonnes : À faire → En cours → Fait.
 
-- `1` projet principal
-- `1` sujet secondaire toléré
-- le reste en attente
+**Règle d'or** : Maximum 3 tâches "En cours" à la fois. Si tu veux en ajouter une, tu dois d'abord en finir une.
 
-Pour une petite équipe :
+**Outils gratuits** : Trello, Notion, ou même un tableau blanc avec des post-its.
 
-- peu de projets actifs
-- responsables clairs
-- arbitrages visibles
+## Le framework de planification en 15 minutes
 
-Si tout est prioritaire, rien ne l'est.
+Chaque projet, avant de commencer :
 
-## 4. Garde un système de suivi minimal
+### 1. Le brief d'une page (5 min)
 
-Tu n'as pas besoin d'une cathédrale Notion pour piloter un projet.
+Réponds à ces questions :
+- **Quoi** : Qu'est-ce que je crée exactement ?
+- **Pourquoi** : Quel problème ça résout ?
+- **Pour qui** : Qui va l'utiliser ?
+- **Quand** : Date de livraison non-négociable ?
+- **Comment saurai-je que c'est fini** : Critères de "done" ?
 
-Un système simple suffit souvent :
+### 2. La liste des risques (5 min)
 
-- à faire
-- en cours
-- terminé
-- bloqué
+Note les 3 trucs qui pourraient faire capoter le projet :
+- Qu'est-ce qui pourrait me bloquer ?
+- De qui/quoi je dépends ?
+- Qu'est-ce que je ne sais pas encore faire ?
 
-Le plus important n'est pas l'outil. C'est la clarté.
+### 3. Le découpage initial (5 min)
 
-Chaque tâche devrait répondre à trois questions :
+Découpe en phases de maximum 1 semaine chacune. Si une phase prend plus d'une semaine, c'est qu'elle peut être découpée.
 
-- qui s'en charge ?
-- pour quand ?
-- qu'est-ce que signifie terminé ?
+## Les outils (sans se noyer)
 
-## 5. Anticipe les vrais risques
+### Pour les projets solo
 
-Les projets dérapent rarement à cause d'un concept abstrait. Ils dérapent parce qu'un détail concret n'a pas été anticipé.
+**Notion** (gratuit) : Le couteau suisse. Bases de données, kanban, notes, tout au même endroit.
 
-Exemples :
+**Todoist** (gratuit) : Simple et efficace pour les listes de tâches avec dates.
 
-- dépendance à un prestataire
-- contenu pas prêt
-- validations tardives
-- complexité technique sous-estimée
-- absence de créneaux réels pour produire
+**Google Calendar** : Bloque du temps pour tes tâches importantes. Si c'est pas dans l'agenda, ça n'existe pas.
 
-Une bonne gestion de projet ne prétend pas tout prévoir. Elle regarde juste assez tôt ce qui peut casser.
+### Pour les projets avec équipe
 
-## 6. Revois le plan régulièrement
+**Linear** : Moderne, rapide, pensé pour les équipes tech mais utilisable par tous.
 
-Un projet vivant a besoin de points de contrôle.
+**Basecamp** : Communication + tâches au même endroit, parfait pour les petites équipes.
 
-Pas d'une réunion de théâtre. D'un vrai moment court pour regarder :
+## Les rituels qui font la différence
 
-- ce qui est fait
-- ce qui bloque
-- ce qui a changé
-- ce qu'on coupe ou décale
+### Le check-in quotidien (2 min)
 
-Une revue hebdomadaire bien faite vaut plus que cinquante statuts dispersés.
+Chaque matin, avant de commencer :
+- Qu'est-ce que j'ai fait hier ?
+- Qu'est-ce que je fais aujourd'hui ?
+- Qu'est-ce qui me bloque ?
 
-## 7. Le minimum pour bien finir
+### La revue hebdomadaire (15 min)
 
-Si tu veux rester simple, applique ça :
+Chaque vendredi :
+- Qu'est-ce que j'ai accompli cette semaine ?
+- Qu'est-ce qui n'a pas avancé et pourquoi ?
+- Quelles sont mes 3 priorités pour la semaine prochaine ?
 
-### Avant de démarrer
+### Le post-mortem de projet (30 min)
 
-- définir le fini
-- lister les blocs
-- bloquer du temps réel
+À la fin de chaque projet :
+- Qu'est-ce qui a bien fonctionné ?
+- Qu'est-ce que je ferais différemment ?
+- Qu'est-ce que j'ai appris ?
 
-### Pendant
+## Les erreurs fatales à éviter
 
-- limiter le nombre de sujets actifs
-- suivre les blocages
-- livrer par petits morceaux
+1. **Planifier trop en détail trop tôt** : Tu ne peux pas tout prévoir. Planifie en détail uniquement la prochaine étape.
 
-### Après
+2. **Travailler sur 10 projets en même temps** : Maximum 2-3 projets actifs. Le reste va dans la liste "Un jour peut-être".
 
-- noter ce qui a dérapé
-- garder les décisions utiles
-- réutiliser ce qui peut l'être
+3. **Ignorer les signaux d'alarme** : Si un projet prend 3x plus de temps que prévu, c'est le moment de réévaluer, pas de s'acharner.
 
-## Ce qu'il faut arrêter de faire
+4. **Ne jamais célébrer les victoires** : Chaque livrable terminé mérite une micro-célébration. C'est ce qui entretient la motivation.
 
-### Attendre d'avoir une vision parfaite
+## Ton plan d'action immédiat
 
-Un projet se clarifie aussi en avançant.
+**Aujourd'hui :**
+- Choisis UN projet prioritaire
+- Remplis le brief d'une page
+- Définis ton premier sprint d'une semaine
 
-### Ajouter des tâches pour se rassurer
+**Cette semaine :**
+- Teste une des 3 méthodes
+- Mets en place ton rituel quotidien
+- Fais ta première revue hebdomadaire vendredi
 
-Une task list très longue n'est pas un plan. C'est parfois juste une angoisse bien rangée.
-
-### Faire tenir le projet dans les interstices
-
-Si un sujet compte, il a besoin de temps protégé.
-
-## Le vrai but
-
-La gestion de projet n'est pas là pour donner une impression de maîtrise.
-
-Elle sert à produire un résultat dans un monde où :
-
-- le temps est limité
-- l'énergie varie
-- les dépendances existent
-- les idées arrivent plus vite que l'exécution
-
-Si ton système t'aide à finir, il est bon.
-
-S'il t'aide surtout à parler du projet, il faut probablement le simplifier.
+La gestion de projet, c'est pas sexy. Mais c'est la différence entre ceux qui parlent de leurs projets et ceux qui les terminent.

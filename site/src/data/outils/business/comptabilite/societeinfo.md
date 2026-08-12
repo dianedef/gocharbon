@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://societeinfo.com/mentions-legales
-- https://societeinfo.com/confidentialite
-notesQualification: SocieteInfo est exploite par SMART DATA a Neuilly-sur-Seine; les mentions legales documentent un hebergement Scaleway en France et un ancrage local clair, meme si l'outil est plutot de la data B2B que de la compta pure.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: SocieteInfo
 author: Diane
 tags:
@@ -36,7 +25,7 @@ SocieteInfo est une plateforme française de prospection et d'intelligence comme
 
 ### 📢 Alternative à
 
-Dropcontact, Pappers, Société.com, Kompass.
+Dropcontact, Pappers, Societe.com, Kompass.
 
 ## ✔️ Bénéfices
 

@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: paiement
-toolFacets:
-  - tpe
-  - mobile
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -22,13 +17,13 @@ imgUrl: ../../../assets/astro.jpeg
 
 # Smile&Pay
 
-# TERMINAL DE PAIEMENT : LE SOURIRE DES COMMERÇANTS QUI ENCAISSENT PARTOUT
+## TERMINAL DE PAIEMENT : LE SOURIRE DES COMMERÇANTS QUI ENCAISSENT PARTOUT
 
-## tl;dr
+### tl;dr
 
 Smile&Pay est une **fintech française 100% indépendante** fondée en **2014-2015**, spécialisée dans les terminaux de paiement mobiles et autonomes pour les commerçants, artisans, associations et indépendants. L'entreprise propose **4 modèles de TPE** (Terminal de Paiement Électronique) à partir de **39 EUR HT**, avec une commission de **1,55%** par transaction (offre Essentiel) ou **0,49% + 0,05 EUR** par transaction + interchange (offre Plus). Pas d'abonnement obligatoire, pas d'engagement. Livraison en **48 heures**. Les terminaux sont compatibles avec **tout compte bancaire professionnel**, acceptent le **sans contact**, **Apple Pay**, **Google Pay**, les **titres-restaurant** et fonctionnent avec une **carte SIM intégrée** pour encaisser n'importe où. Note de 5/5 sur MoneyRadar, 4.2/5 sur Mobile Transaction.
 
-## Alternative à
+### Alternative à
 
 - **SumUp** (concurrent direct, irlandais/britannique, commission unique de 1,75%)
 - **Zettle by PayPal** (suédois, racheté par PayPal)
@@ -38,7 +33,7 @@ Smile&Pay est une **fintech française 100% indépendante** fondée en **2014-20
 
 Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de TPE** (du Bluetooth basique à l'Android complet), et le fait qu'il est **compatible avec n'importe quel compte pro** existant - pas besoin d'ouvrir un nouveau compte.
 
-# Bénéfices
+## Bénéfices
 
 **Zéro engagement, zéro abonnement** — Avec l'offre Essentiel, tu achètes ton terminal et tu paies uniquement la commission de 1,55% sur chaque transaction. Pas de frais mensuels, pas de durée d'engagement, pas de mauvaise surprise. Si tu fais un mois sans encaisser, tu ne paies rien (seuil minimum de 350 EUR/mois d'encaissement).
 
@@ -52,7 +47,7 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 
 **Entreprise française** — Support client en français, données hébergées en France, entreprise soumise à la réglementation française. Un point important dans un marché dominé par des acteurs étrangers.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **Commerçants sédentaires** (boutiques, restaurants, salons de coiffure) qui veulent un TPE simple et sans engagement
 - **Commerçants itinérants** (marchés, food trucks, artisans) qui ont besoin d'encaisser en mobilité grâce à la SIM intégrée
@@ -61,7 +56,7 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 - **Professions libérales** (médecins, avocats, infirmières) qui souhaitent accepter la carte
 - **Auto-entrepreneurs** qui démarrent et ne veulent pas de frais fixes
 
-# Comment Utiliser Smile&Pay
+## Comment Utiliser Smile&Pay
 
 1. **Choisis ton terminal** — Mini Smile (Bluetooth), Smart Smile, Maxi Smile ou Super Smile (Android complet).
 2. **Choisis ton offre** — Essentiel (1,55% par transaction, pas d'abonnement) ou Plus (0,49% + IC + 0,05 EUR, pour gros volumes).
@@ -71,11 +66,11 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 6. **Encaisse** — Paiement par carte (contact, sans contact, NFC), Apple Pay, Google Pay, titres-restaurant.
 7. **Suivi** — Application mobile pour suivre tes transactions, générer des rapports et envoyer des liens de paiement.
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Les 4 Terminaux
+### Les 4 Terminaux
 
-## Mini Smile - Le TPE Bluetooth
+#### Mini Smile - Le TPE Bluetooth
 
 - **Prix** : à partir de **39 EUR HT**
 - **Connexion** : Bluetooth, se connecte à un smartphone via l'application Smile&Pay
@@ -84,7 +79,7 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 - **Format** : ultra-compact, tient dans la poche
 - **Idéal pour** : petits commerçants avec faible volume de transactions
 
-## Smart Smile - Le TPE Autonome Compact
+#### Smart Smile - Le TPE Autonome Compact
 
 - **Prix** : environ **149 EUR HT**
 - **Connexion** : **WiFi + carte SIM 4G intégrée** (data incluse)
@@ -94,7 +89,7 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 - **Autonome** : fonctionne sans smartphone
 - **Idéal pour** : commerçants itinérants, marchés, food trucks
 
-## Maxi Smile - Le TPE Autonome Grand Écran
+#### Maxi Smile - Le TPE Autonome Grand Écran
 
 - **Prix** : environ **229 EUR HT**
 - **Connexion** : WiFi + carte SIM 4G intégrée
@@ -103,7 +98,7 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 - **Fonctionnalités avancées** : affichage du montant côté client, gestion des pourboires
 - **Idéal pour** : restaurants, commerces de détail avec volume moyen
 
-## Super Smile - Le TPE Android Complet
+#### Super Smile - Le TPE Android Complet
 
 - **Prix** : **289-299 EUR HT**
 - **Système** : Android avec écran tactile HD
@@ -114,7 +109,7 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 - **Fonctionnalités** : scanner de QR codes, gestion pourboires, catalogue produit basique
 - **Idéal pour** : commerces avec volume important, restauration, hôtellerie
 
-## Moyens de Paiement Acceptés
+### Moyens de Paiement Acceptés
 
 - **Cartes bancaires** : Visa, Mastercard, CB
 - **Sans contact / NFC** : Apple Pay, Google Pay, Samsung Pay
@@ -123,13 +118,13 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 - **Cartes étrangères** : Visa et Mastercard internationales
 - **Note** : les cartes **Union Pay ne sont pas acceptées**
 
-## Paiement à Distance
+### Paiement à Distance
 
 - **Lien de paiement** : envoie un lien par SMS ou email à ton client pour un paiement à distance
 - **QR Code** : génère un QR code que le client scanne pour payer
 - **Page de paiement personnalisée** : avec ton logo et tes couleurs
 
-## Application Mobile
+### Application Mobile
 
 - **Suivi des transactions** en temps réel
 - **Historique complet** des encaissements
@@ -137,16 +132,16 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 - **Gestion des remboursements**
 - **Envoi de liens de paiement** par SMS ou email
 
-## Fonctionnalités Avancées (Super Smile)
+### Fonctionnalités Avancées (Super Smile)
 
 - **Gestion des pourboires** : le client choisit le montant du pourboire sur l'écran
 - **Catalogue produit** : affiche tes articles avec prix sur l'écran
 - **Scanner** : lecture de codes-barres et QR codes
 - **Applications tierces** : installe des apps Android métier depuis le Play Store
 
-# Prix
+## Prix
 
-## Offre Essentiel
+### Offre Essentiel
 
 | | Mini Smile | Smart Smile | Maxi Smile | Super Smile |
 |---|---|---|---|---|
@@ -158,7 +153,7 @@ Smile&Pay se distingue par son **ancrage 100% français**, ses **4 modèles de T
 - Seuil minimum : 350 EUR d'encaissement par mois (sinon frais de non-utilisation possibles)
 - Pas de frais cachés, pas de location
 
-## Offre Plus (Gros Volumes)
+### Offre Plus (Gros Volumes)
 
 Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 
@@ -167,7 +162,7 @@ Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 - En pratique, la commission totale tourne autour de **0,7% à 1,2%** selon le mix de cartes
 - Abonnement mensuel de **39 EUR HT/mois**
 
-## Comparaison avec la Concurrence
+### Comparaison avec la Concurrence
 
 | | Smile&Pay (Essentiel) | SumUp | Zettle |
 |---|---|---|---|
@@ -176,7 +171,7 @@ Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 | Abonnement | 0 EUR | 0 EUR | 0 EUR |
 | Origine | France | Irlande/UK | Suède (PayPal) |
 
-# Intégrations
+## Intégrations
 
 - **Logiciels de caisse** : compatible avec de nombreuses solutions de caisse enregistreuse
 - **Comptabilité** : export des données de transaction pour intégration comptable
@@ -184,7 +179,7 @@ Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 - **Paiement en ligne** : module intégrable sur site web
 - **Super Smile** : accès au Play Store Android pour installer des apps métier tierces
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **2014-2015** : Fondation de Smile&Pay en France, avec l'ambition de simplifier l'encaissement pour les petits commerçants face aux solutions étrangères (SumUp, iZettle/Zettle).
 - **2016-2018** : Lancement de la gamme de terminaux, du Mini Smile au premier modèle autonome.
@@ -194,7 +189,7 @@ Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 - **Positionnement** : entreprise française indépendante, alternative patriotique aux géants étrangers du paiement mobile.
 - **Notes utilisateurs** : 5/5 sur MoneyRadar (4 avis), 4.2/5 sur Mobile Transaction, avis globalement très positifs sur la facilité d'utilisation et le service client réactif.
 
-# Témoignages
+## Témoignages
 
 > "J'utilise Smile&Pay pour mon commerce et je suis ravie ! Le terminal est super facile à utiliser, même pour quelqu'un de peu technologique. Les frais sont transparents, et l'application mobile permet de gérer mes paiements rapidement." — **EliseV34, utilisatrice commerçante**
 
@@ -202,7 +197,7 @@ Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 
 > "Super pratique et sans engagement mensuel ! Je suis indépendante, donc je cherchais une solution flexible. Smile&Pay répond parfaitement à mes besoins, et le service client est très réactif." — **Sophie_Pascal, indépendante**
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
 **Food truck sur les marchés** : Tu fais 3 marchés par semaine dans des endroits différents. Le Smart Smile avec sa SIM 4G intégrée te permet d'encaisser partout sans WiFi. La commission de 1,55% sur un ticket moyen de 12 EUR, c'est 0,19 EUR par transaction. Tu n'as pas d'abonnement les mois creux d'hiver.
 
@@ -212,7 +207,7 @@ Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 
 **Association qui organise une brocante** : Tu achètes un Mini Smile à 39 EUR, tu l'actives pour le week-end, tu encaisses les ventes par carte. Pas d'abonnement, tu le réutilises pour le prochain événement.
 
-# Points Forts
+## Points Forts
 
 - 4 modèles de TPE pour couvrir tous les besoins, du plus simple au plus avancé
 - Commission compétitive de 1,55% (vs 1,75% chez SumUp et Zettle)
@@ -223,7 +218,7 @@ Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 - Entreprise 100% française, support client en français
 - Accepte les titres-restaurant dématérialisés
 
-# Points Faibles
+## Points Faibles
 
 - Les cartes Union Pay ne sont pas acceptées (problématique pour la clientèle chinoise)
 - Pas de gestion de catalogue produit avancée (pas un vrai logiciel de caisse)
@@ -232,7 +227,7 @@ Recommandée si tu encaisses **plus de 10 000 EUR par mois** :
 - Certains avis négatifs sur Spendways (1.36/5) contrastent avec les avis très positifs ailleurs - vérifier les retours récents
 - Pas de fonctionnalité de fidélité client intégrée nativement
 
-# Ressources
+## Ressources
 
 - [Site officiel Smile&Pay](https://www.smileandpay.com)
 - [Blog Smile&Pay - Guide terminal de paiement](https://smileandpay.com/blog/terminal-de-paiement-le-guide-complet)

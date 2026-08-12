@@ -1,18 +1,18 @@
 ---
 section: parcours
 title: Coaching en Ligne
-author: Diane GoCharbon
+author: Web Indé
 tags:
 - Business
-description: 'Vendre du coaching sans bullshit : positionnement, transformation réelle,
-  acquisition et limites du modèle.'
+description: 'Lance ton activité de coaching : positionnement, acquisition clients,
+  tarification et scaling pour coachs ambitieux.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Le coaching en ligne, c'est accompagner une personne vers un résultat ou un changement précis. Le modèle peut être puissant, mais il demande une vraie légitimité, une bonne structure et une promesse claire, pas seulement une posture inspirante.
+Le coaching en ligne, c'est accompagner des personnes de manière personnalisée vers un objectif (professionnel, personnel, sportif, etc.). Tu n'enseignes pas une compétence technique comme dans la formation, tu guides une transformation. C'est un mix de mentorat, accountability et support émotionnel.
 
 La différence avec consultant : le consultant conseille des entreprises sur la stratégie, le coach accompagne des individus sur leur développement. La différence avec formateur : la formation est scalable (1 contenu → ∞ élèves), le coaching est 1-to-1 ou petit groupe.
 
@@ -245,7 +245,7 @@ La différence avec consultant : le consultant conseille des entreprises sur la 
 - Amis/famille qui ont le problème
 - "Je lance un coaching [niche], je cherche 3 beta testeurs"
 - Gratuit ou 50% de réduction
-- En échange: témoignage détaillé + vidéo si possible
+- En échange: témoignage détaillé + video si possible
 
 **2. Groupes Facebook**
 - Groupes de ta niche

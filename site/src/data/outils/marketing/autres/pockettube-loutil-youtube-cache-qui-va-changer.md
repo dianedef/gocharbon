@@ -1,13 +1,12 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: video
 title: Pockettube L'Outil Youtube Caché Qui Va Changer Votre Vie
 author: Diane
-description: "Pockettube L'Outil Youtube Caché Qui Va Changer Votre Vie."
+description: 'Découvre Pockettube L''Outil Youtube Caché Qui Va Changer Votre Vie
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

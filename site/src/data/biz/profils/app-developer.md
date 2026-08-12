@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Développeur d'applications mobiles
-author: Diane GoCharbon
+title: App Developer / Développeur d'applications mobiles
+author: Web Indé
 tags:
 - Business
-description: 'Créer des applications mobiles utiles, en prestation ou en produit,
-  avec une logique business défendable.'
+description: 'Deviens développeur d''applications indépendant : compétences, outils,
+  clients et stratégies de monétisation.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Développeur d'applications mobiles
+# App Developer / Développeur d'applications mobiles
 
 ## Description en une phrase
 
@@ -272,7 +272,7 @@ Même si tu ne veux pas devenir “pur dev”, apprendre un peu de langage logic
 **Payantes (100-500€)** :
 
 - Flutter/Dart sur Udemy (15-50€)
-- React Native Complète Guide (49-99€)
+- React Native Complete Guide (49-99€)
 - iOS/Swift courses sur Pluralsight (abonnement mensuel)
 
 ### Outils

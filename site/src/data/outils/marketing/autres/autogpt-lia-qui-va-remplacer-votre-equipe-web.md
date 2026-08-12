@@ -1,10 +1,5 @@
 ---
-draft: true
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-- ia
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -12,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Autogpt L'Ia Qui Va Remplacer Votre Équipe Web Entière
 author: Diane
-description: "Autogpt L'Ia Qui Va Remplacer Votre Équipe Web Entière."
+description: 'Découvre Autogpt L''Ia Qui Va Remplacer Votre Équipe Web Entière : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -33,7 +29,7 @@ Auto-GPT, une nouvelle technologie d'IA, cherche à surmonter les limitations de
 - Les avantages de l'IA comme Auto-GPT comprennent la réduction des coûts et de l'impact environnemental de la création de modèles d'IA et des activités liées à l'apprentissage automatique.
 - L'avenir de l'IA promet des sorties plus créatives, sophistiquées et utiles, qui auront un impact profond sur notre travail, nos loisirs et notre communication.
 
-[https://github.com/Significant-Gravitas/Auto-GPT](__MASK_2__)
+[https://github.com/Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT)
 
 **Table des matières :**
 

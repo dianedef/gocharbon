@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Formation Notion 2023 Qui Va Booster Votre Productivité De 1000%
 author: Diane
-description: "La Formation Notion 2023 Qui Va Booster Votre Productivité De 1000%."
+description: 'Découvre La Formation Notion 2023 Qui Va Booster Votre Productivité
+  De 1000% : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

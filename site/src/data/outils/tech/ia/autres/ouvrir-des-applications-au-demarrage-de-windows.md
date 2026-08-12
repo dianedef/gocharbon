@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -11,22 +11,28 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Ouvrir Des Applications Au Démarrage De Windows
+Lancer des applications au démarrage  
+Ensuite, grâce à l'explorateur, trouvez cet emplacement (remplacez ***** par votre nom d'utilisateur Windows) :  
+  
+Version française : "C:\Utilisateurs\*****\AppData\Roaming\Microsoft\W indows\Menu Démarrer\Programmes\Démarrage"
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+C:\Users\defor\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+C:\Users\defor\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+## Ajouter une application pour qu’elle s’exécute automatiquement au démarrage dans Windows 10 - Support Microsoft
 
-## Ressources de départ
-- Aucune ressource externe n’a été détectée dans la fiche d’origine.
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
-
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+1. 1
+    
+    Sélectionnez le bouton **Démarrer** icon-windowslogo et faites défiler jusqu’à trouver l’application que vous souhaitez exécuter au démarrage.
+    
+2. 2
+    
+    Cliquez sur l’application, sélectionnez **Plus**, puis sélectionnez **Ouvrir l’emplacement du fichier**. L’emplacement où est enregistré le raccourci vers l’application s’ouvre. S’il n’y a pas d’option pour **Ouvrir l’emplacement du fichier**, cela signifie que l’application ne peut pas s’exécuter au démarrage.
+    
+3. 3
+    
+    Avec l’emplacement du fichier ouvert, appuyez sur la **touche de logo Windows** icon-windowslogo + **R**, tapez **shell:startup**, puis sélectionnez **OK**. Le dossier **Démarrage** s’ouvre.
+    
+4. 4
+    
+    Copiez et collez le raccourci de l’application à partir de l’emplacement du fichier dans le dossier**Démarrage**.

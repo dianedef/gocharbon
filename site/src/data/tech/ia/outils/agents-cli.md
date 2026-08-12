@@ -1,10 +1,9 @@
 ---
-section: outils
+section: apps
 title: 'Agents CLI IA : Claude Code vs Codex CLI — Le Guide 2026'
 author: Diane
 tags:
 - Tech
-- Outils
 description: Comparatif complet Claude Code vs Codex CLI en 2026 — benchmarks, cas
   d'usage, pricing et comment combiner les deux pour multiplier ta productivité
 pubDate: '2026-03-07'
@@ -235,7 +234,7 @@ claude "Design l'architecture du nouveau module de notifications temps réel"
 | --- | --- | --- |
 | Pro | $20/mois | Usage modéré, <5h/jour |
 | Max | $100/mois | Usage intensif |
-| Max (heavy) | $200/mois | Équipes, usage continu |
+| Max (heavy) | $200/mois | Equipes, usage continu |
 | API | $5/$25 par million tokens | Pay-as-you-go |
 
 ### Codex CLI

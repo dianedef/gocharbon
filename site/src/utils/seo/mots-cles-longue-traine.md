@@ -29,7 +29,7 @@ C'est vrai que ces mots rapportent beaucoup moins de visites aux sites internet,
 
 Imaginez, chaque jour, c'est15% des requêtes tapées sur Google qui n'ont jamais été faîtes auparavant ! Ce qui est intéressant c'est d'accumuler plein de ces petites requêtes de longue-traîne, pour arriver au bout du compte à un trafic au potentiel énorme. Si la longue traîne est constituée de mot-clés peu cherchés, elle est par contre pleine d'opportunités de croissance car ils sont très, très nombreux !
 
-![https://dokey.io/blog/content/images/2021/06/PBN-1--1-.png|793](__MASK_0__)
+![https://dokey.io/blog/content/images/2021/06/PBN-1--1-.png|793](https://dokey.io/blog/content/images/2021/06/PBN-1--1-.png)
 
 J'ai bien aimé l'analogie donnée par Dokey, un outil de rédaction SEO : "Sur le site de ManoMano, le leader du bricolage / jardinage en ligne en Europe, il y a des Best Sellers : Quelques produits qui ont beaucoup de succès et se vendent beaucoup. Mais ce qui rapporte l'écrasante majorité du chiffre d'affaires c'est tout le reste, des millions de produits moins vendus qui représentent une masse énorme de références".
 

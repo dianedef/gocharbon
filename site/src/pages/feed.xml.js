@@ -18,7 +18,6 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import { filterBuildVisiblePosts } from '../utils/build-posts';
-import { SITE } from '../config/site';
 
 /**
  * Generates RSS feed from all blog posts
@@ -31,8 +30,8 @@ export async function GET(context) {
   const posts = filterBuildVisiblePosts(await getCollection('posts'));
   
   return rss({
-    title: SITE.name,
-    description: `${SITE.name} — ${SITE.descriptions.default}`,
+    title: 'GoCharbon',
+    description: 'GoCharbon — le guide de survie digital pour entrepreneurs francophones. On va au charbon.',
     stylesheet: false, // No XSLT styling
     site: context.site, // Base URL from astro.config
     items: posts.map((post) => ({
@@ -42,6 +41,6 @@ export async function GET(context) {
       link: `/${post.id}/`, // Relative URL to post
     })),
     customData: '<language>fr-fr</language>', // French language indicator
-    canonicalUrl: SITE.url, // Canonical domain
+    canonicalUrl: 'https://gocharbon.com', // Canonical domain
   });
 }

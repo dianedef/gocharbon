@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -10,7 +8,9 @@ u_site: null
 title: Éditez 1000 Posts Wordpress En 5 Minutes Le Hack Ultime Pour Travailler 10X
   Plus Vite
 author: Diane
-description: "Éditez 1000 Posts Wordpress En 5 Minutes Le Hack Ultime Pour Travailler 10X Plus Vite."
+description: 'Découvre Éditez 1000 Posts Wordpress En 5 Minutes Le Hack Ultime Pour
+  Travailler 10X Plus Vite : outil français pour entrepreneurs, fonctionnalités et
+  avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

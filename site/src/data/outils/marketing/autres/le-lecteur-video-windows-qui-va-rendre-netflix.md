@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Le Lecteur Vidéo Windows Qui Va Rendre Netflix Obsolète
 author: Diane
-description: "Le Lecteur Vidéo Windows Qui Va Rendre Netflix Obsolète."
+description: 'Découvre Le Lecteur Vidéo Windows Qui Va Rendre Netflix Obsolète : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -49,12 +48,12 @@ Pour télécharger VLC et découvrir toutes ses fonctionnalités, visitez le sit
 [sprout2000/leafview: A minimalist image viewer based on Leaflet.js and Electron.](https://github.com/sprout2000/leafview)
 # LeafView: A Minimalist Image Viewer Powered by Leaflet.js and Electron
 
-LeafView, created by sprout2000, is a minimalist image viewer that seamlessly blends the power of Leaflet.js and Electron. With a focus on simplicity and efficiency, LeafView offers a range of features that make it a standout choice for users seeking a straightforward image viewing expérience.
+LeafView, created by sprout2000, is a minimalist image viewer that seamlessly blends the power of Leaflet.js and Electron. With a focus on simplicity and efficiency, LeafView offers a range of features that make it a standout choice for users seeking a straightforward image viewing experience.
 
 ## Features that Define LeafView
 
 ### Pan & Wheel Zoom
-LeafView provides intuitive pan and wheel zoom functionalities, allowing users to navigate through images with ease. The fluidity of these features enhances the overall viewing expérience.
+LeafView provides intuitive pan and wheel zoom functionalities, allowing users to navigate through images with ease. The fluidity of these features enhances the overall viewing experience.
 
 ### Image Browsing Made Simple
 The application simplifies image browsing within folders, streamlining the process of exploring and enjoying a collection of images.
@@ -63,7 +62,7 @@ The application simplifies image browsing within folders, streamlining the proce
 LeafView introduces a grid view feature, enabling users to have a quick overview of multiple images at once. This feature proves valuable for users managing extensive image libraries.
 
 ### Multilingual Support
-LeafView caters to a diverse audience by offering support for 15 languages, ensuring a more inclusive user expérience.
+LeafView caters to a diverse audience by offering support for 15 languages, ensuring a more inclusive user experience.
 
 ### Auto Update for macOS
 Mac users benefit from LeafView's automatic update functionality, ensuring they always have the latest version effortlessly.

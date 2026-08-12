@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-societeMere: Compagnie Fiduciaire
-sourcesVerification:
-- https://www.cacomptepourmoi.fr/mentions-legales/
-- https://www.cacomptepourmoi.fr/
-notesQualification: Ca Compte Pour Moi est un cabinet francais base a Ramonville-Saint-Agne et filiale de Compagnie Fiduciaire; le site met en avant des serveurs heberges en France et une demarche qualite/responsable, sans detail public exhaustif sur toute l'infrastructure.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Ça Compte Pour Moi
 author: Diane
 tags:

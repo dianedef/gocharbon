@@ -1,189 +1,121 @@
 ---
 section: blog
-title: 'Google Ads : guide concret pour lancer des campagnes utiles'
+title: Google Ads - Guide Complet
 author: Diane
 tags:
 - Marketing
-description: Un guide Google Ads sans jargon inutile pour structurer tes campagnes, choisir tes mots-clés et éviter de payer pour des clics médiocres.
-pubDate: '2026-04-19'
+description: 'Guide Google Ads clair pour débutants : structure de compte, mots-clés,
+  budget, KPI et optimisation continue.'
+pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Google Ads : guide concret pour lancer des campagnes utiles
+# Google Ads: guide simple et utile
 
-Google Ads reste un des meilleurs canaux quand quelqu’un **cherche déjà** ce que tu vends. C’est sa grande force. Tu n’essaies pas de créer de l’intérêt depuis zéro ; tu te branches sur une intention existante.
+Google Ads te permet d'acheter de la visibilité rapidement.
 
-Le problème, c’est que beaucoup de comptes Google Ads sont montés comme des placards mal rangés : campagnes floues, mots-clés trop larges, annonces génériques et pages de destination paresseuses.
+Le risque: brûler ton budget si la structure est mauvaise.
+Le but: lancer propre, mesurer, puis optimiser.
 
-Résultat : ça clique, mais ça n’achète pas.
+## Comment fonctionne Google Ads
 
-## À quoi sert vraiment Google Ads
+Tu crées des campagnes, des groupes d'annonces et des annonces.
+Google affiche tes annonces selon:
+- ton enchère,
+- la qualité de ton annonce,
+- la pertinence avec la recherche.
 
-Google Ads te permet d’acheter de la visibilité sur :
+## La structure minimale recommandée
 
-- la recherche Google
-- le réseau display
-- YouTube
-- Shopping
-- certaines logiques automatisées comme Performance Max
+- 1 campagne = 1 objectif (leads, ventes, appels...)
+- 3 à 5 groupes d'annonces max par campagne
+- 5 à 15 mots-clés par groupe
+- 2 à 3 annonces par groupe (pour tester)
 
-Pour une petite structure, le plus simple est souvent de commencer par **Search**, puis d’ajouter ensuite du retargeting ou un autre format si les bases sont bonnes.
+## Les types de campagnes
 
-## Commence avec une structure simple
+- **Search**: capter une intention directe (souvent le meilleur départ).
+- **Display**: notoriété et retargeting.
+- **YouTube**: volume et considération.
+- **Shopping** (e-commerce): catalogue produit.
 
-La structure minimale recommandée :
+Pour débuter, pars sur Search + retargeting léger.
 
-1. **Une campagne = un objectif**
-2. **Un groupe d’annonces = une intention proche**
-3. **Deux ou trois annonces par groupe**
-4. **Une landing page cohérente avec la requête**
+## Choisir les bons mots-clés
 
-Exemple mauvais :
-- une campagne “Acquisition”
-- `80` mots-clés
-- `12` services différents
-- une seule page d’accueil en destination
+Commence par des mots-clés "intention d'achat".
+Exemples:
+- "crm pour freelance"
+- "logiciel facturation tpe"
+- "agence google ads lyon"
 
-Exemple bien plus propre :
-- campagne `CRM freelance`
-- groupe `logiciel crm freelance`
-- groupe `crm indépendant`
-- une page dédiée à ce besoin
+Travaille aussi les mots-clés négatifs (termes à exclure) pour éviter les clics inutiles.
 
-## Le vrai sujet : l’intention, pas le volume
+## Les KPI à suivre
 
-Un mot-clé avec peu de volume mais une intention forte vaut souvent mieux qu’un mot-clé large et flatteur.
+- **CTR**: taux de clic (qualité perçue de l'annonce)
+- **CPA**: coût par acquisition/client
+- **Taux de conversion**: efficacité de la landing page + offre
+- **ROAS**: retour sur dépenses publicitaires
 
-Exemples d’intention intéressante :
-- `logiciel facturation artisan`
-- `outil devis plomberie`
-- `coach prise de parole entreprise`
+Tu n'optimises pas pour "plus de clics", tu optimises pour un meilleur coût d'acquisition rentable.
 
-Exemples plus vagues :
-- `facturation`
-- `outil business`
-- `communication`
+## Budget de départ
 
-Google rappelle aussi que les types de correspondance peuvent déclencher des variantes proches, même si le mot-clé n’est pas exactement identique ([close variants](https://support.google.com/google-ads/answer/9342105?hl=en-A&ref_topic=24936)). Donc si ton ciblage est brouillon, la diffusion le sera aussi.
+Lance un budget test de 2 à 4 semaines.
 
-## Les mots-clés négatifs ne sont pas un détail
+Règle simple:
+- alloue 70% du budget aux campagnes les plus proches de la conversion,
+- garde 20% pour tests,
+- garde 10% pour retargeting.
 
-Si tu oublies les mots-clés négatifs, tu laisses Google acheter des clics qui n’ont rien à faire là.
+## Optimisation hebdomadaire
 
-À exclure souvent :
-- `gratuit`
-- `emploi`
-- `stage`
-- `pdf`
-- `définition`
-- `youtube`
-- `cours gratuit`
+Chaque semaine:
+- coupe les mots-clés non rentables,
+- renforce les termes rentables,
+- teste une nouvelle annonce,
+- améliore la page d'atterrissage,
+- vérifie les requêtes réelles tapées par les utilisateurs.
 
-La bonne habitude : regarder le rapport de termes de recherche chaque semaine.
+## Erreurs fréquentes
 
-## Ce qui fait une bonne annonce search
+- tout mettre en correspondance large dès le départ,
+- ne pas installer le suivi des conversions,
+- envoyer vers une page non adaptée,
+- changer trop de paramètres en même temps,
+- juger les résultats après 2 jours seulement.
 
-Une bonne annonce ne fait pas de poésie. Elle fait trois choses :
+## Checklist de lancement
 
-1. elle reprend l’intention de la requête
-2. elle promet un bénéfice crédible
-3. elle donne une raison de cliquer maintenant
+- [ ] Objectif de campagne clair
+- [ ] Tracking conversion actif
+- [ ] Mots-clés + négatifs définis
+- [ ] 2-3 variantes d'annonces prêtes
+- [ ] Landing page adaptée à l'annonce
+- [ ] Budget test validé 2-4 semaines
 
-Exemple :
+## Aller plus loin
 
-- mauvais : `La solution incontournable pour votre croissance`
-- mieux : `CRM pour freelances | Essai gratuit 14 jours`
+- [Google Ads Meta (comparaison)](/marketing/ads/meta)
+- [Social Ads](/marketing/ads/social)
+- [Index Ads](/marketing/ads/index)
 
-Tu n’écris pas pour impressionner. Tu écris pour être choisi.
+## Ressources utiles pour continuer
 
-## La landing page compte autant que l’annonce
+### Lectures liées
 
-Si ton annonce promet une démo rapide et que la page parle vaguement de “transformation digitale”, tu perds le clic.
+- [Comment faire de l'automatisation marketing](/tutos/comment-faire-de-lautomatisation-marketing)
+- [Créer une liste email B2B pour la prospection](/tutos/comment-creer-une-liste-email-pour-de-la)
 
-Vérifie au minimum :
+### Outils et stratégies complémentaires
 
-- même promesse entre annonce et page
-- formulaire simple
-- preuve visible
-- page rapide sur mobile
-- CTA clair sans ambiguïté
+- [Stratégie email: plan clair pour démarrer](/marketing/email/strategie)
+- [Automatisation email: scénarios essentiels](/marketing/email/automation)
 
-## Le suivi des conversions est obligatoire
+## Checklist express
 
-Ce n’est pas un bonus. C’est le socle.
-
-Google explique que le suivi des conversions sert à voir quelles annonces génèrent les actions qui comptent vraiment : achat, devis, appel, inscription ([Google Ads conversion tracking](https://business.google.com/us/ad-tools/conversion-tracking/)). Sans ça, tu pilotes au bruit.
-
-Si tu vends avec un cycle commercial plus long, pense aussi :
-- import offline conversions
-- suivi des appels
-- qualification des leads dans le CRM
-
-Sinon tu risques de sur-optimiser des leads médiocres.
-
-## Faut-il utiliser les automatisations Google ?
-
-Oui, mais pas comme un tour de magie.
-
-Google pousse naturellement :
-- Smart Bidding
-- responsive search ads
-- Performance Max
-
-Ces outils peuvent aider, mais seulement si :
-- tes conversions sont correctement suivies
-- ton compte a assez de signal
-- tes messages et assets sont décents
-
-L’automatisation n’est pas une stratégie. C’est un multiplicateur de signal.
-
-## Budget de départ réaliste
-
-Pour un premier test, je viserais :
-
-- `15 à 40 € / jour` si le CPC est raisonnable
-- `2 à 4` semaines de test minimum
-- un objectif de lecture clair : coût par lead, coût par appel, coût par vente
-
-Ne juge pas juste au CTR.
-
-Un compte peut avoir un CTR moyen et un excellent coût d’acquisition. L’inverse arrive tous les jours.
-
-## Les erreurs qui flinguent les petits comptes
-
-### Tout mettre en requête large dès le départ
-
-Tu perds en contrôle avant même d’avoir compris la demande.
-
-### Lancer trop de campagnes
-
-Tu disperses le budget et tu ralentis l’apprentissage.
-
-### Optimiser uniquement au clic
-
-Ce n’est pas parce qu’une annonce clique qu’elle vend.
-
-### Modifier le compte tous les deux jours
-
-Tu casses l’historique et tu apprends très peu.
-
-### Oublier le business réel derrière
-
-Un lead à `20 €` n’est pas “bon” par nature. Il est bon si le taux de closing et la marge suivent.
-
-## Plan propre pour démarrer
-
-1. Choisis une seule offre.
-2. Isole `10 à 30` mots-clés à intention claire.
-3. Prépare une page dédiée.
-4. Installe le tracking.
-5. Lance une campagne search propre.
-6. Analyse les requêtes et les conversions chaque semaine.
-
-Si tu fais déjà ça bien, tu seras devant une grosse partie des comptes mal tenus.
-
-Pour compléter :
-
-- [Meta Ads](/marketing/ads/meta)
-- [LinkedIn Ads](/marketing/ads/linkedin)
-- [Publicité en ligne](/marketing/ads/publicites)
+- [ ] Choisis un objectif unique pour cette étape.
+- [ ] Lance une première action test à petite échelle.
+- [ ] Mesure le résultat après 7 jours.
+- [ ] Ajuste avant de passer à l'échelle.

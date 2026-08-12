@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: avis-wizard-academy
-toolCategoryPrimary: formation
-toolSubcategoryPrimary: formation
 u_site: null
 title: Wizards Academy La Formation Secrète Des Entrepreneurs Millionnaires
 author: Diane
-description: "Wizards Academy La Formation Secrète Des Entrepreneurs Millionnaires."
+description: 'Découvre Wizards Academy La Formation Secrète Des Entrepreneurs Millionnaires
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -47,7 +46,7 @@ Dans la partie 2 on commence la mise en pratique et ils nous montrent en live co
 Ils ont une vision à 360 et ne se reposent pas uniquement sur le SEO
 
 
-- [ ] Je viens de tweeter à ce sujet, je vous invite à liker et RT pour la force, mais également à ne pas hésiter à renvoyer vers vos vidéos YouTube d'avis, vos articles d'avis, etc. Faites d'une pierre, deux coups ! Voici le tweet ➜ [https://twitter.com/ZalidanTV/status/1798311625008570444](__MASK_0__)
+- [ ] Je viens de tweeter à ce sujet, je vous invite à liker et RT pour la force, mais également à ne pas hésiter à renvoyer vers vos vidéos YouTube d'avis, vos articles d'avis, etc. Faites d'une pierre, deux coups ! Voici le tweet ➜ [https://twitter.com/ZalidanTV/status/1798311625008570444](https://twitter.com/ZalidanTV/status/1798311625008570444 "https://twitter.com/ZalidanTV/status/1798311625008570444")
 ## Intro
 lancé début 2023
 ## mises à jour
@@ -88,13 +87,13 @@ comme toujours il y aura une session de Questions/réponses où vous pouvez nous
 
 **Publicités payantes :**
 
-**Mettre en place vos liens d'affiliation :** [https://komododecks.com/recordings/fKpYW1q4QfBYq6kdjEXw](__MASK_1__)
+**Mettre en place vos liens d'affiliation :** [https://komododecks.com/recordings/fKpYW1q4QfBYq6kdjEXw](https://komododecks.com/recordings/fKpYW1q4QfBYq6kdjEXw "https://komododecks.com/recordings/fKpYW1q4QfBYq6kdjEXw")
 
 [Affiliation Wizards Academy - Réservé aux membres de la formation](https://komododecks.com/recordings/fKpYW1q4QfBYq6kdjEXw)
 
-Summary: The vidéo explains in detail the affiliate program for the Wizard Academy, highlighting methods for affiliates to promote and earn commissions through various platforms like YouTube, TikTok, email lists, and more. Chapters: 00:00 Introduction to Wizard Academy Affiliate Program 04:00 Capturing Emails and Tagging Affiliates 07:00 Affili...
+Summary: The video explains in detail the affiliate program for the Wizard Academy, highlighting methods for affiliates to promote and earn commissions through various platforms like YouTube, TikTok, email lists, and more. Chapters: 00:00 Introduction to Wizard Academy Affiliate Program 04:00 Capturing Emails and Tagging Affiliates 07:00 Affili...
 
-**Le tutoriel concernant les liens "proxy" dont je parle dans la vidéo :** Si vous souhaitez faire directement la promotion de la page de vente ([https://leswizards.com/wizards-academy/](__MASK_3__)) Étape 1 : Copier ce lien qui nous permet de tracker le cookie  [https://formation.wizardspodcast.com/proxy/request/288340444e45fb6f203762885ad277e326d72](__MASK_4__) Étape 2 : Ajouter votre tag système.io à la fin exemple : ?sa=sa0123711792ccd01f20d56ab356d7837560b2ad79 Étape 3 : Vous avez maintenant votre lien que vous pouvez diffuser partout pour l'affiliation. Dans mon cas le lien est le suivant : [https://formation.wizardspodcast.com/proxy/request/288340444e45fb6f203762885ad277e326d72?sa=sa0123711792ccd01f20d56ab356d7837560b2ad79](__MASK_5__) (modifié)
+**Le tutoriel concernant les liens "proxy" dont je parle dans la vidéo :** Si vous souhaitez faire directement la promotion de la page de vente ([https://leswizards.com/wizards-academy/](https://leswizards.com/wizards-academy/ "https://leswizards.com/wizards-academy/")) Etape 1 : Copier ce lien qui nous permet de tracker le cookie  [https://formation.wizardspodcast.com/proxy/request/288340444e45fb6f203762885ad277e326d72](https://formation.wizardspodcast.com/proxy/request/288340444e45fb6f203762885ad277e326d72 "https://formation.wizardspodcast.com/proxy/request/288340444e45fb6f203762885ad277e326d72") Etape 2 : Ajouter votre tag systeme.io à la fin exemple : ?sa=sa0123711792ccd01f20d56ab356d7837560b2ad79 Etape 3 : Vous avez maintenant votre lien que vous pouvez diffuser partout pour l'affiliation. Dans mon cas le lien est le suivant : [https://formation.wizardspodcast.com/proxy/request/288340444e45fb6f203762885ad277e326d72?sa=sa0123711792ccd01f20d56ab356d7837560b2ad79](https://formation.wizardspodcast.com/proxy/request/288340444e45fb6f203762885ad277e326d72?sa=sa0123711792ccd01f20d56ab356d7837560b2ad79 "https://formation.wizardspodcast.com/proxy/request/288340444e45fb6f203762885ad277e326d72?sa=sa0123711792ccd01f20d56ab356d7837560b2ad79") (modifié)
 
 - 40 % de commissions du montant HT de la vente
 - Paiement des commissions tous les mois
@@ -113,11 +112,11 @@ Dans la mesure ou vous ne vous faite pas passer pour nous, vous pouvez communiqu
 
 ### _[_09:07_]_imitiki_:_ 
 
-Hello. Il est indiqué qu'il n’est pas autorisé de se positionner sur “Wizards Podcast”, Wizards Academy”, “Formation Wizards Academy” en SEO. En travaillant sur des requêtes comme sur “Avis Wizards Academy” ou “Avis Formation des Wizards”, “Avis formation Wizards Podcast” il est fort possible que nous nous positionnions aussi sur les requêtes "interdites". Cela se passe comment ? Autre question de débutant en affiliation. L'adresse mail utilisée pour le compte affiliation système.io doit être la même que le mail d'inscription à la formation Wizards Academy pour que vous puissiez valider que nous en faisons bien partie et valider les commissions ? Merci. (modifié)
+Hello. Il est indiqué qu'il n’est pas autorisé de se positionner sur “Wizards Podcast”, Wizards Academy”, “Formation Wizards Academy” en SEO. En travaillant sur des requêtes comme sur “Avis Wizards Academy” ou “Avis Formation des Wizards”, “Avis formation Wizards Podcast” il est fort possible que nous nous positionnions aussi sur les requêtes "interdites". Cela se passe comment ? Autre question de débutant en affiliation. L'adresse mail utilisée pour le compte affiliation systeme.io doit être la même que le mail d'inscription à la formation Wizards Academy pour que vous puissiez valider que nous en faisons bien partie et valider les commissions ? Merci. (modifié)
 
 16. @imitiki
 
-Hello. Il est indiqué qu'il n’est pas autorisé de se positionner sur “Wizards Podcast”, Wizards Academy”, “Formation Wizards Academy” en SEO. En travaillant sur des requêtes comme sur “Avis Wizards Academy” ou “Avis Formation des Wizards”, “Avis formation Wizards Podcast” il est fort possible que nous nous positionnions aussi sur les requêtes "interdites". Cela se passe comment ? Autre question de débutant en affiliation. L'adresse mail utilisée pour le compte affiliation système.io doit être la même que le mail d'inscription à la formation Wizards Academy pour que vous puissiez valider que nous en faisons bien partie et valider les commissions ? Merci. (modifié)
+Hello. Il est indiqué qu'il n’est pas autorisé de se positionner sur “Wizards Podcast”, Wizards Academy”, “Formation Wizards Academy” en SEO. En travaillant sur des requêtes comme sur “Avis Wizards Academy” ou “Avis Formation des Wizards”, “Avis formation Wizards Podcast” il est fort possible que nous nous positionnions aussi sur les requêtes "interdites". Cela se passe comment ? Autre question de débutant en affiliation. L'adresse mail utilisée pour le compte affiliation systeme.io doit être la même que le mail d'inscription à la formation Wizards Academy pour que vous puissiez valider que nous en faisons bien partie et valider les commissions ? Merci. (modifié)
 
 ### _[_10:05_]_Arthur | Lucide.ai_:_ 
 

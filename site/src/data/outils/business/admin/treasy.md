@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://treasy.fr/mentions-legales/
-- https://treasy.fr/politique-de-confidentialite/
-notesQualification: APP-INES est une SAS francaise basee a Massy avec hebergement applicatif OVH et AWS explicitement situes dans des data centers francais.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: treasy
 author: Diane
 tags:

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 _notes: null
 _priorité: normal
@@ -23,22 +23,11 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Comparer Des Modèles D'Ia
+# Ressources
+# Contenu
+[Home - Prompt Llama](https://prompt-llama.com/)
+This is a fantastic resource for comparing model performance on text-to-image generation
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+The ability to gather high-quality text-to-image prompts and then benchmark various models against the same criteria is a game-changer. It really streamlines the process and provides a clear comparison of performance. Can't wait to see how different models stack up using this tool.
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
-
-## Ressources de départ
-- [https://prompt-llama.com/](https://prompt-llama.com/)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
-
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+Prompt Llama is perfect for those of us experimenting with various text-to-image models. The uniform testing across different models is a brilliant feature. Are there any plans to expand this to other types of generative models as well? Would be interesting to see how it performs with text-to-text or even audio models.

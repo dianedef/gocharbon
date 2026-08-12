@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: bureautique
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: windows-tips
@@ -11,7 +9,8 @@ u_site: null
 u_affi: null
 title: Les Astuces Windows Cachées Qui Vont Booster Votre Productivité De 200%
 author: Diane
-description: "Les Astuces Windows Cachées Qui Vont Booster Votre Productivité De 200%."
+description: 'Découvre Les Astuces Windows Cachées Qui Vont Booster Votre Productivité
+  De 200% : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -68,7 +67,7 @@ The fundamental premise of 1Clipboard revolves around the simplicity of copying 
 
 ### Clipboard Management Made Effortless
 
-1Clipboard goes beyond basic functionality, offering a range of features to enhance your clipboard management expérience.
+1Clipboard goes beyond basic functionality, offering a range of features to enhance your clipboard management experience.
 
 #### Clipboard History
 
@@ -112,7 +111,7 @@ Please note that while 1Clipboard is currently in beta, the development team wel
 
 ### Connect with Us
 
-Your feedback is invaluable in shaping the future of 1Clipboard. For inquiries, support, or suggestions, feel free to reach out to us at contact@1clipboard.io. Stay tuned for updates as we strive to enhance the 1Clipboard expérience based on user input.
+Your feedback is invaluable in shaping the future of 1Clipboard. For inquiries, support, or suggestions, feel free to reach out to us at contact@1clipboard.io. Stay tuned for updates as we strive to enhance the 1Clipboard experience based on user input.
 
 In conclusion, 1Clipboard stands as a reliable and user-friendly solution for managing your clipboard seamlessly across devices. With its intuitive features, trusted security, and commitment to technological excellence, 1Clipboard is poised to become an indispensable tool for users seeking efficiency and convenience in their daily tasks.
 
@@ -157,7 +156,7 @@ Bien sûr, tu dois la télécharger sur ton appareil si tu veux l'utiliser. Cett
 
 ### Télécharger l'application Files gratuitement
 
-Étape 1 : Va sur [https://files.community/download](__MASK_134__).
+Étape 1 : Va sur [https://files.community/download](https://files.community/download).
 
 Étape 2 : Clique sur la section **Télécharger l'aperçu Insider** pour télécharger le programme d'installation de l'appli **Files.preview** sur ton appareil.
 
@@ -604,7 +603,7 @@ toujours devant ctrl +
 virer a next dextop ctrl droite
 accroitre transparence ctrl haut
 decroitre transparence ctrl bas
-fermer fenêtre echap
+fermer fenetre echap
 
 catalogue toutes les fenetres tous bureaux maj tab
 previsualisation plein ecran ctrl tab
@@ -771,7 +770,7 @@ minimiser shift 2
 maximiser shift 8
 toujours visible shift 5
 
-deplacer la fenêtre a droite : ctrl droite
+deplacer la fenetre a droite : ctrl droite
 pareil pour gauche
 agrandir horizontalement shift 6
 agrandir verticalement shift 9
@@ -823,13 +822,13 @@ CTRL + MAJ + TAB
 ## YouTube
 
 Capturé sur : https://www.hongkiat.com/blog/useful-youtube-keyboard-shortcuts-to-know/
-Many people today spend most of their time on YouTube, whether for learning purpose or watching some cat vidéos. If you are one of those users who spends hours jumping from one YouTube recommendation to another, then you should definitely hone its keyboard shortcuts.   
+Many people today spend most of their time on YouTube, whether for learning purpose or watching some cat videos. If you are one of those users who spends hours jumping from one YouTube recommendation to another, then you should definitely hone its keyboard shortcuts.   
 Check out this list of 30+ keyboard shortcuts to make your YouTube use more productive.   
 Read Also: 5 YouTube Tricks You Probably Didn’t Know
-Note: Most of these shortcuts will only work when the YouTube player is in focus. If you are navigating other parts of the vidéo page, then these shortcuts will not work. You can click on the YouTube player to gain back focus.   
+Note: Most of these shortcuts will only work when the YouTube player is in focus. If you are navigating other parts of the video page, then these shortcuts will not work. You can click on the YouTube player to gain back focus.   
 Shortcuts Descriptions
-Spacebar Pause/Play vidéo (player focus required)
-K key Pause/Play vidéo (doesn’t require focus)
+Spacebar Pause/Play video (player focus required)
+K key Pause/Play video (doesn’t require focus)
 ↑ (Arrow key up) Turn up volume 5%
 ↓ (Arrow key down) Turn down volume 5%
 M key Mute/unmute volume
@@ -837,13 +836,13 @@ M key Mute/unmute volume
 → (Arrow key right) Move forward 5 sec
 L key Move forward 10 sec
 J key Move backward 10 sec
-0 / Home key Restart the vidéo
+0 / Home key Restart the video
 End key Skip to the end
 Num keys 1,2,3..9 Move playhead to the respective percentage, 10%-90%
 F key Enter or exit full screen
 Esc key Exit full screen
-Ctrl + → Move to next vidéo (only in playlist)
-Ctrl + ← Move to previous vidéo (only in playlist)
+Ctrl + → Move to next video (only in playlist)
+Ctrl + ← Move to previous video (only in playlist)
 Tab key Move forward in player control buttons
 Shift + Tab Move backward in player control buttons
 Enter Execute select player control button
@@ -855,19 +854,19 @@ B key Change CC background color
 
 > key Increase play speed
 < key Decrease play speed
-Shift + P Play previously played vidéo
-Shift + N Play next vidéo in recommendation/playlist
+Shift + P Play previously played video
+Shift + N Play next video in recommendation/playlist
 / key Place text cursor in search field to start typing
 Esc key Focus away from search field if text cursor is there
-, (comma) Move backward per frame when vidéo is paused
-. (period) Move forward per frame when vidéo is paused
+, (comma) Move backward per frame when video is paused
+. (period) Move forward per frame when video is paused
 Using the Tab key
 Most of the YouTube player functions can be controlled with the above-mentioned keyboard shortcuts. However, they still can’t control everything, such as toggle theater mode or control options in the player “Settings”.   
 You will need the help of “Tab key” to navigate to these options and then use “Enter” and “Arrow keys” to control the options. For example, you can move to the “Settings” button by pressing the ‘Tab key” multiple times and then hit “Enter” to open the settings. Afterward, use “Arrow keys” to move up and down in the settings and use “Enter” to change any options inside.   
 If you don’t want to use the mouse at all or don’t have access to it, then the “Tab key” is your best friend.   
 Tip: YouTube TV mode takes the most advantage of these shortcuts. If you like navigating YouTube with keyboard shortcuts, then you will definitely like the YouTube TV mode. You can use it on both your PC and your smart TV.   
 To conclude
-Learning these YouTube keyboard shortcuts may require some practice, but they are worth investing your time in if you want to have a hassle-free YouTube expérience.  
+Learning these YouTube keyboard shortcuts may require some practice, but they are worth investing your time in if you want to have a hassle-free YouTube experience.  
 I believe that Spacebar and arrow keys are the most used keyboard shortcuts, but the others are very useful as well. If you know any other cool YouTube shortcuts, share with us in the comments below.   
 Read Also: 40 YouTube Channels You Can Spend Hours On
 

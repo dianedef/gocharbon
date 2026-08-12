@@ -1,53 +1,40 @@
 ---
 section: tutos
-type: tuto
+type: Tuto
 statut:
 - backlog
 _priorité: normal
 tags:
 - Tutoriels
-title: Retrouver l’email d’une entreprise à partir d’une page sociale
+title: Retrouver L'Email D'Une Entreprise À Partir D'Une Page Facebook Ou Linkedin
 author: Diane
-description: Pars d’une page Facebook ou LinkedIn d’entreprise pour retrouver un contact exploitable, sans partir sur des méthodes fragiles.
+description: 'Découvre Retrouver L''Email D''Une Entreprise À Partir D''Une Page Facebook
+  Ou Linkedin : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Quand tu pars d’une page Facebook ou LinkedIn, le plus dur n’est pas de “scraper”. Le plus dur, c’est de récupérer un contact fiable, utile, et légalement exploitable.
+J’ai réussi a scrapper bcp (énormément) d’url fb; tous des professionnels que je souhaite démarcher à froid et par e-mail.
 
-## Commence par la méthode simple
+Mon seul objectif est d’extraire les mails lorsqu’il sont présents sur les pages.
 
-Avant d’automatiser quoi que ce soit, vérifie :
+Malheuresement, je rencontre des problèmes à chaque fois que j’essaie de scraper de grandes quantités d’url.
 
-- le site officiel lié au profil ;
-- la page contact ;
-- les mentions légales ;
-- le footer ;
-- la page équipe ;
-- le WHOIS ou les annuaires pro si c’est pertinent.
+J’ai essayé plusieurs scripts, tous en python, des logiciels d’automatisation comme Zennoposter et BAS mais rien n’y fait, je finis toujours soit par être restreint par FB, soit dans l’obligation de me connecter.
 
-Dans beaucoup de cas, l’email existe déjà quelque part sur le site ou dans les informations de l’entreprise.
+Parfois je récupère qu’une partie du mail , et à l’envers style @nom.prenom et aucun fournisseur…
 
-## Ensuite, enrichis
+Je vous avoue que je ne sais plus trop quoi faire si ce n’est faire entrer en jeu des proxys (pas hyper familier avec ca) donc si vous avez des conseils la dessus; ils sont les bienvenus…
 
-Si tu veux aller plus loin, utilise un workflow propre :
 
-1. récupère le domaine ;
-2. retrouve le bon format d’email ;
-3. valide l’adresse avant de prospecter ;
-4. documente la source.
+  
+Ce ne sont que des facebook de société?
 
-## Ce qu’il faut éviter
+Si oui, je viens de sortir une api : ou tu donnes : siret ou lien facebook/linkedin société ou adresseou nom … et ça te renvois la fiche sur la société dont les emails.
 
-- parser massivement des pages sociales sans contrôle ;
-- envoyer sur des adresses douteuses ;
-- considérer qu’un email “trouvé” vaut autorisation ;
-- oublier la qualité de la liste.
+Les 50.000 gets sont à 50 euros.  
+les 500 gets sont gratuites je les ouvres au comptes goutes
 
-Une mauvaise liste te coûte plus en délivrabilité et en réputation qu’elle ne te rapporte en volume.
+exemple de requete ( il te faut un token pour que ça marche)
 
-## La bonne logique
-
-Cherche d’abord **l’email utile**, pas **tous les emails possibles**.
-
-Pour la prospection, quelques contacts bien vérifiés valent mieux qu’un export énorme et fragile.
+[http://api.rocketlead.fr:8080/api/v1/companies?api_key=token&social_facebook=www.facebook.com/cfa35pp 6](http://api.rocketlead.fr:8080/api/v1/companies?api_key=token&social_facebook=www.facebook.com/cfa35pp)

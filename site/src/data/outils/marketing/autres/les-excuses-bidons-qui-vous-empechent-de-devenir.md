@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Excuses Bidons Qui Vous Empêchent De Devenir Riche Arrêtez Ça Tout De Suite
 author: Diane
-description: "Les Excuses Bidons Qui Vous Empêchent De Devenir Riche Arrêtez Ça Tout De Suite."
+description: 'Découvre Les Excuses Bidons Qui Vous Empêchent De Devenir Riche Arrêtez
+  Ça Tout De Suite : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

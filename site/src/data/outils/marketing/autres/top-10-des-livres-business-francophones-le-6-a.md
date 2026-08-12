@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -11,7 +11,8 @@ RS-&-RSS-suivi: null
 Ville: null
 title: 'Top 10 Des Livres Business Francophones Le #6 A Changé Ma Vie'
 author: Diane
-description: "Top 10 Des Livres Business Francophones Le #6 A Changé Ma Vie."
+description: 'Découvre Top 10 Des Livres Business Francophones Le #6 A Changé Ma Vie
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -130,7 +131,7 @@ Planifiez facilement vos rendez-vous en fonction des disponibilités de chaque m
 
 Accédez à votre planning en ligne partout, tout le temps, et partagez-le à votre équipe pour gérer efficacement vos rendez-vous.
 
-Disponibilites équipe
+Disponibilites equipe
 
 Notification rendez-vous
 

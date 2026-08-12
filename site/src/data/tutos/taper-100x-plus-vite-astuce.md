@@ -2,28 +2,20 @@
 section: tutos
 tags:
 - Tutoriels
-title: Taper plus vite grâce au texte expansé et aux raccourcis
+imageNameKey: null
+u_site: null
+title: Taper 100X Plus Vite Astuce
 author: Diane
-description: Gagne du temps sur les messages répétitifs, les réponses et les formules fréquentes avec une méthode de frappe plus intelligente.
+description: 'Découvre Taper 100X Plus Vite Astuce : outil français pour entrepreneurs,
+  fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Tu ne vas pas taper cent fois plus vite. En revanche, tu peux éviter de retaper cent fois les mêmes choses.
+Double cliquer sur un mot pour le sélectionner, cliquer 3 fois pour sélectionner toute la phrase
 
-## Ce qui fait gagner du temps
+Notamment utile pour le service client
 
-- snippets ;
-- raccourcis clavier ;
-- texte expansé ;
-- réponses enregistrées ;
-- dictée sur certains usages.
+[https://www.google.com/search?q=phrase+express+affiliate+program&sxsrf=AOaemvLgJqRJzjTtpHNxtTMPT_aA9rq1vQ%3A1634470506514&ei=agpsYe_lHuz_7_UPpqGUsAs&ved=0ahUKEwjvwr6PrdHzAhXs_7sIHaYQBbYQ4dUDCA4&uact=5&oq=phrase+express+affiliate+program&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgAEA06BggAEAcQHjoGCAAQDRAeOggIABAIEA0QHkoECEEYAFCwd1iCiAFgxIkBaAJwAngAgAFUiAGiCJIBAjE1mAEAoAEByAEIwAEB&sclient=gws-wiz](https://www.google.com/search?q=phrase+express+affiliate+program&sxsrf=AOaemvLgJqRJzjTtpHNxtTMPT_aA9rq1vQ%3A1634470506514&ei=agpsYe_lHuz_7_UPpqGUsAs&ved=0ahUKEwjvwr6PrdHzAhXs_7sIHaYQBbYQ4dUDCA4&uact=5&oq=phrase+express+affiliate+program&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgAEA06BggAEAcQHjoGCAAQDRAeOggIABAIEA0QHkoECEEYAFCwd1iCiAFgxIkBaAJwAngAgAFUiAGiCJIBAjE1mAEAoAEByAEIwAEB&sclient=gws-wiz)
 
-## À mettre en place
-
-- tes salutations fréquentes ;
-- tes réponses client ;
-- tes blocs de signature ;
-- tes liens et CTA.
-
-Le vrai gain ne vient pas de tes doigts. Il vient du fait de ne plus refaire la même saisie.
+[Les expanseurs de texte : indispensables pour le support client](https://www.notion.so/Les-expanseurs-de-texte-indispensables-pour-le-support-client-a2140d0626764c588756fa68b75f6089?pvs=21)

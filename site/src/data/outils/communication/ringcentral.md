@@ -1,34 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: La plateforme de communications complète
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: telephonie
 description: RingCentral offre une solution complète pour améliorer le service client,
   augmenter la satisfaction des clients et optimiser les opérations. Voici un aperçu
   de ce logiciel essentie
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.ringcentral.com/fr/fr/
-type: outil
-qualificationLocale: hors-union-europeenne
-ancrageEconomique: faible
-niveauResponsabilite: partiel
-paysSiege: États-Unis
-hebergementDonnees: multi-region
-sourcesVerification:
-- https://www.ringcentral.com/legal/last-update-march-11-2024/privacy-notice.html
-- https://www.ringcentral.com/legal/last-update-june-29-2023/privacy-notice.html
-- https://www.ringcentral.com/bg/en/company.html
-notesQualification: 'RingCentral est un groupe américain dont le siège est à Belmont,
-  Californie. La documentation officielle indique des transferts et stockages possibles
-  aux États-Unis, en Suisse et dans d''autres pays selon les services, ce qui conduit
-  à une qualification hors UE prudente.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # La plateforme de communications complète

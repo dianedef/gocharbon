@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: blog
 statut: []
 _priorité: normal
 imageNameKey: null
@@ -11,7 +9,8 @@ tags:
 - Outils
 title: La Checklist Website Ultime Qui Va Faire Exploser Votre Trafic
 author: Diane
-description: "La Checklist Website Ultime Qui Va Faire Exploser Votre Trafic."
+description: 'Découvre La Checklist Website Ultime Qui Va Faire Exploser Votre Trafic
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -134,7 +133,7 @@ We have all been there. Check if you have correctly deleted all the lorem ipsum 
 
 ### Check 11: Set Title Tag & Tagline ###
 
-In WordPress, the title and tagline welcome visitors to your website and succinctly sum up what it is about. Furthermore, they help your visitors enjoy their expérience on your website and encourage them to interact with it. Make sure they are correct before going live!
+In WordPress, the title and tagline welcome visitors to your website and succinctly sum up what it is about. Furthermore, they help your visitors enjoy their experience on your website and encourage them to interact with it. Make sure they are correct before going live!
 
 ### Check 12: Install And Configure a SEO plugin ###
 
@@ -428,7 +427,7 @@ PNG - Bien pour les captures d'application, de site web avec nuances de couleur,
 
 GIF - Bien pour les images pleines sans nuances et les petites animations. Attention à ce qu'il n'y ait pas de nuances ou d'images cachées
 
-Une bonne règle est de garder une image en dessous de 100 kb. Tout ce qui est plus grand peu être amélioré
+Une bonne règle est de garder une image en dessous de 100 kb. Tout ce qui est plus grand peu etre amélioré
 
 Un problème courant est que la plupart des gens ne formatent pas du tout leurs images avant de les télécharger sur WordPress. Cela signifie que WordPress devra non seulement charger la grande image, mais également la formater et la modifier pour l'adapter aux dimensions de votre site. Il existe de nombreux outils disponibles pour éditer vos images en dehors de WordPress.
 
@@ -600,7 +599,7 @@ Classement de la webperf sur mobile des sites les plus visités (décembre 2019)
 	- Contact
 		- Formulaire de contact >> pour faciliter la prise de contact
 * Configurez Google Analytics
-	* Pour mettre en place Google Analytics, il faut commencer par se créer un compte sur [https://analytics.google.com](__MASK_32__).
+	* Pour mettre en place Google Analytics, il faut commencer par se créer un compte sur [https://analytics.google.com](https://analytics.google.com/).
 	* Suivez les instructions et créez une propriété pour le nom de domaine de votre site. Récupérez ensuite l’ID de suivi Google Analytics, de type UA-XXXX-XX.
 	* Rendez-vous dans SEOPress >> Google Analtics.
 	* Cochez la case “Activer le suivi Google Analytics (balise globale du site : gtag.js)”.
@@ -724,7 +723,7 @@ Note d’Alex : Afin d’en savoir plus sur l’optimisation des images, je vous
 
 Maintenant que votre image est à la bonne taille et que vous lui avez donné un nom de fichier qui va vous aider à améliorer votre référencement, vous pouvez l’insérer dans votre article ou votre page WordPress.
 
-Par contre, au moment d’insérer votre image, WordPress va, par défaut, lier l’image au fichier média, c’est-à-dire vers une page comportant uniquement l’image (comme ceci [http://monsite.com/wp-content/uploads/2014/07/nom_de_mon_image.jpg](__MASK_40__)).
+Par contre, au moment d’insérer votre image, WordPress va, par défaut, lier l’image au fichier média, c’est-à-dire vers une page comportant uniquement l’image (comme ceci [http://monsite.com/wp-content/uploads/2014/07/nom_de_mon_image.jpg](http://monsite.com/wp-content/uploads/2014/07/nom_de_mon_image.jpg)).
 
 En plus, par défaut, ce lien s’ouvre dans la même fenêtre. De fait, lorsque vos visiteurs vont cliquer sur l’image, ils se retrouveront sur une page avec seulement cette image et vous risquez de les faire partir.
 

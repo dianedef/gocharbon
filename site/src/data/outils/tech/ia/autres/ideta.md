@@ -1,8 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut: []
-type: outil
+type: Logiciel
 _priorité: normal
 tags:
 - Outils
@@ -15,24 +15,54 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Ideta
+We have some exciting news to share about our no-code chatbot platform!  
+  
+**We've just integrated** **all the latest text generation models from Open AI including the highly advanced GPT4 and the fine-tunable models like Davinci. **   
+  
+This means that our platform now allows you to create highly intelligent chatbots that can handle complex conversations with ease.  
+  
+And guess what? We've also made a new video that shows you how to create a custom GPT4 chatbot for your company in under 2 minutes.
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+[](https://ideta.us18.list-manage.com/track/click?u=106b6e9797a24cfe0a70025b2&id=b154c910f9&e=1864f26fa0)
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+**How to create a custom GPT4 chatbot for your company in under 2 minutes?**
 
-## Ressources de départ
-- [https://ideta.us18.list-manage.com/track/click?u=106b6e9797a24cfe0a70025b2&id=dd464165fa&e=1864f26fa0](https://ideta.us18.list-manage.com/track/click?u=106b6e9797a24cfe0a70025b2&id=dd464165fa&e=1864f26fa0)
-- [http://Kompass.fr](http://Kompass.fr)
-- [https://ideta.us18.list-manage.com/track/click?u=106b6e9797a24cfe0a70025b2&id=b154c910f9&e=1864f26fa0](https://ideta.us18.list-manage.com/track/click?u=106b6e9797a24cfe0a70025b2&id=b154c910f9&e=1864f26fa0)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+As you know, the [Ideta's platform](https://ideta.us18.list-manage.com/track/click?u=106b6e9797a24cfe0a70025b2&id=dd464165fa&e=1864f26fa0) has some other cool features too. You can :
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+     use multiple NLPs in one chatbot  
+    connect your internal tools  
+    design your chatbot to match your brand colors  
+    take control of your conversations with our live chat interface
+
+  
+If you want to know more about our platform, we'd be more than happy to schedule a meeting.
+
+## ❔ Qu’est-ce que X ?
+
+## 🙌 Pour qui ?
+
+## 🎖️ Fonctionnalités
+
+<aside> 📢 🎈 Zoom, Calendly & Zendesk alternative 👏🤓 </aside>
+
+<aside> 💡 L’outil est 100% RGPD compliant Alternative à : [Kompass.fr](http://Kompass.fr)</aside>
+
+## 🤝 Intégrations
+
+##  Comment l’utiliser ?
+
+## 🤓 En Résumé ?
+
+## 🎖️ Points Forts / Faibles
+
+## 🌟 Prix & Promotion
+
+## 🚧 Feuille de route et futur
+
+## 👩‍🏫 Démonstration complète
+
+## 🤩 L’équipe, l’histoire et la mission
+
+## 💡 Liens et Source de revenu supplémentaire
+
+<aside> 💡 Link to blog article + CTA + Contact me if needed I am Diane</aside>

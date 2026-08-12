@@ -1,11 +1,10 @@
 ---
 import Layout from "../layouts/Default.astro";
-import { ROUTES } from "../config/routes";
 ---
 
 <Layout
   title="Quiz Business - Rapide ou Avancé | GOCHARBON"
-  description="Choisis un format de quiz selon ton niveau d'urgence : une direction rapide pour démarrer ou un diagnostic plus précis pour verrouiller ton premier plan d'action."
+  description="Choisis ton format: quiz rapide 2 minutes pour une direction immédiate, ou quiz avancé pour un diagnostic business plus précis."
   pageTitle="Quiz Business"
 >
   <main class="min-h-screen bg-yellow-soft dark:bg-black py-12 md:py-20">
@@ -16,27 +15,23 @@ import { ROUTES } from "../config/routes";
             Choisis Ton Format de Quiz
           </h1>
           <p class="text-lg md:text-xl text-gray-700 dark:text-gray-300">
-            Rapide pour avancer aujourd'hui, avancé pour éviter les faux pas cette semaine
-          </p>
-          <p class="text-base md:text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mt-4">
-            Les deux versions te renvoient vers une direction concrète :
-            un type de business à prioriser, un premier parcours, et les premiers gestes pour ne pas perdre une semaine.
+            Rapide pour démarrer vite, avancé pour une recommandation plus fiable
           </p>
         </div>
 
         <div class="quiz-chooser-grid">
-          <a href={ROUTES.quizRapide} data-astro-prefetch class="quiz-choice-card">
+          <a href="/quiz-rapide" data-astro-prefetch class="quiz-choice-card">
             <p class="choice-badge">2 minutes</p>
             <h2>Quiz Rapide</h2>
-            <p>Tu repars avec un type de business et la première étape du parcours conseillé.</p>
-            <span class="choice-cta">Lancer le quiz rapide et passer au premier pas →</span>
+            <p>Direction immédiate, top 2 profils, actions concrètes pour commencer aujourd'hui.</p>
+            <span class="choice-cta">Lancer le quiz rapide →</span>
           </a>
 
-          <a href={ROUTES.quizAvance} data-astro-prefetch class="quiz-choice-card">
+          <a href="/quiz-avance" data-astro-prefetch class="quiz-choice-card">
             <p class="choice-badge">~15 minutes</p>
             <h2>Quiz Avancé</h2>
-            <p>Tu obtiens une recommandation plus affinée, adaptée à ton profil, ta contrainte de temps et ton niveau réel.</p>
-            <span class="choice-cta">Lancer le quiz avancé et cadrer le plan d'action →</span>
+            <p>Diagnostic approfondi basé sur tes compétences, contraintes, objectifs et style de travail.</p>
+            <span class="choice-cta">Lancer le quiz avancé →</span>
           </a>
         </div>
       </div>
@@ -46,13 +41,13 @@ import { ROUTES } from "../config/routes";
 
 <style>
   .container {
-    max-width: var(--sf-auto-global2-quiz-max-width-9b141aa3);
+    max-width: 1280px;
   }
 
   .quiz-chooser-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--sf-auto-global2-quiz-gap-90ad884a);
+    gap: 1.25rem;
   }
 
   .quiz-choice-card {
@@ -61,9 +56,9 @@ import { ROUTES } from "../config/routes";
     background: var(--brand-cream);
     border: 3px solid var(--brand-black);
     box-shadow: 6px 6px 0 var(--brand-black);
-    padding: var(--sf-auto-global2-quiz-padding-239652f6);
+    padding: 1.5rem;
     color: var(--brand-black);
-    transition: var(--sf-auto-global2-quiz-transition-58e743a2);
+    transition: all 0.2s ease-in-out;
   }
 
   .quiz-choice-card:hover {
@@ -77,25 +72,25 @@ import { ROUTES } from "../config/routes";
     font-family: "Sanchez", serif;
     font-weight: 700;
     border: 2px solid var(--brand-black);
-    padding: var(--sf-auto-global2-quiz-padding-d4aa3cac);
+    padding: 0.2rem 0.6rem;
     margin: 0 0 0.75rem;
   }
 
   .quiz-choice-card h2 {
     margin: 0 0 0.75rem;
-    font-size: var(--sf-auto-global2-quiz-font-size-f7ab4e5a);
+    font-size: 1.5rem;
   }
 
   .quiz-choice-card p {
     margin: 0 0 0.8rem;
-    line-height: var(--sf-auto-global2-quiz-line-height-439fc4fc);
+    line-height: 1.5;
   }
 
   .choice-cta {
     font-weight: 700;
   }
 
-  @media (width <= 768px) {
+  @media (max-width: 768px) {
     .quiz-chooser-grid {
       grid-template-columns: 1fr;
     }

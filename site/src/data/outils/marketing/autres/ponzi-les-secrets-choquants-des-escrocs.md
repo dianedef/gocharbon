@@ -1,11 +1,12 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Ponzi Les Secrets Choquants Des Escrocs Financiers Enfin Révélés
 author: Diane
-description: "Ponzi Les Secrets Choquants Des Escrocs Financiers Enfin Révélés."
+description: 'Découvre Ponzi Les Secrets Choquants Des Escrocs Financiers Enfin Révélés
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

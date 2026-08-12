@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Ux Ui Les Astuces Secrètes Pour Rendre Vos Utilisateurs Accros
 author: Diane
-description: "Ux Ui Les Astuces Secrètes Pour Rendre Vos Utilisateurs Accros."
+description: 'Découvre Ux Ui Les Astuces Secrètes Pour Rendre Vos Utilisateurs Accros
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -164,17 +165,17 @@ Dieter Rams a popularisé 10règles pour qu’un design soit bon : Innovant, Uti
 [Hacking user perception to make your websites and apps feel faster | by Mustafa Kurtuldu | Dev Channel | Medium](https://medium.com/dev-channel/hacking-user-perception-to-make-your-websites-and-apps-feel-faster-922636b620e3)
 
  ##
- - 💡 UX evolved from a focus on customer expérience to user exploitation in big tech firms.
+ - 💡 UX evolved from a focus on customer experience to user exploitation in big tech firms.
 - 🚫 Amazon's Prime cancellation process exemplifies how UX is now designed to mislead and exploit users.
 - 👩‍💼 Teams struggling to genuinely help users due to toxic business models can seek help from Creative Good.
 - 🌐 The shift in UX has led to unusable public services like New York's vaccine websites.
 - 💰 Big Tech's influence has corrupted the original intent of UX, draining talent away from meaningful projects.
 
- - The webpage explores Mark Hurst's concerns about the evolution of UX (user expérience) in the tech industry.
+ - The webpage explores Mark Hurst's concerns about the evolution of UX (user experience) in the tech industry.
 - Mark Hurst founded Creative Good with a belief in the importance of good UX for online products.
 - He describes three decades of UX: Decade 1 (1997-2007) was a golden era of online UX, Decade 2 (2008-2018) saw a decline in UX influence, and Decade 3 (recent years) transformed UX into "user exploitation."
 - The concept of user exploitation refers to deceptive practices and designs by companies like Amazon to mislead and harm users for profit.
-- Instances like Amazon Prime's cancellation process showcase how companies prioritize profits over user expérience, leading to a negative impact on user trust and usability.
+- Instances like Amazon Prime's cancellation process showcase how companies prioritize profits over user experience, leading to a negative impact on user trust and usability.
 - Mark Hurst highlights the broader trend of tech giants, academia, and organizations exploiting users through deceptive UX practices.
 - The shift towards user exploitation in UX has significant consequences, including draining talent from projects that could have benefited from genuine user-centric design.
 - The negative impact of user exploitation is exemplified by the inefficiencies and frustrations experienced by users trying to navigate essential services like vaccine websites during the COVID-19 pandemic.
@@ -298,7 +299,7 @@ Cognitive Biases Cheatsheet .
 
 your product experiences. Tons of product examples, tips
 
-and checklists to improve your user expérience:
+and checklists to improve your user experience:
 
 https://growth.design/psychology
 
@@ -324,7 +325,7 @@ How many times have you opened Netflix, only to end up __watching trailers afte
 
 ### Real-Time Personalization
 
-The foundation of a great user expérience is to __provide value aligned with users' needs__ at the right time.
+The foundation of a great user experience is to __provide value aligned with users' needs__ at the right time.
 
 So if you can provide a nudge when a behavior isn't completed… just as if the app is __listening in real-time__ (called _behavior profiling)_1, you're golden.
 
@@ -344,7 +345,7 @@ __⭐️ Extra:__ If you want to see how Clubhouse could use the curiosity gap 
 
 When people open Instagram or Youtube, they are faced with content curated to their interests automatically (perfected by billions of data points).
 
-But Clubhouse is live, so they can't show you past juicy content.1 That means, __the task falls on the user to find the best nuggets__ in a sea of noise (which can lead to a pretty bad expérience).
+But Clubhouse is live, so they can't show you past juicy content.1 That means, __the task falls on the user to find the best nuggets__ in a sea of noise (which can lead to a pretty bad experience).
 
 1[_Shaan Puri_, Twitter thread (2021)](https://twitter.com/ShaanVP/status/1371972261004070913?s=20)
 
@@ -365,7 +366,7 @@ Clubhouse seems to have established a similar metric where new users need 25 fol
 However, without delivering value first, it's hard to convince anyone to take action. Reciprocity2 is a __powerful persuasion technique when ethically applied.__
 
 1[_CXL_, How to Find Correlative Metrics For Conversion Optimization (2020)](https://cxl.com/blog/correlative-metrics/)
-2[_Growth.Design_, Reciprocity: How This Psychological Principle Can Perfect Your Customer Expérience (2020)](https://medium.com/choice-hacking/reciprocity-how-this-psychological-principle-can-perfect-your-customer-experience-9dfa776c271f)
+2[_Growth.Design_, Reciprocity: How This Psychological Principle Can Perfect Your Customer Experience (2020)](https://medium.com/choice-hacking/reciprocity-how-this-psychological-principle-can-perfect-your-customer-experience-9dfa776c271f)
 
 [The Shocking Truth About How Web Graphics Affect Conversions](https://neilpatel.com/blog/shocking-truth-about-graphics/)
 
@@ -377,9 +378,9 @@ However, without delivering value first, it's hard to convince anyone to take ac
 
 The way you present information affects how users interpret and decide.
 
-The same facts presented in two different ways can lead to different outcomes or décisions from people.1
+The same facts presented in two different ways can lead to different outcomes or decisions from people.1
 
-It's best to frame your expérience around the core value of your product, or else you risk wasting users' brain cycles.
+It's best to frame your experience around the core value of your product, or else you risk wasting users' brain cycles.
 
 Similarly, anchoring the status quo as very time-consuming helps users see the value of your product or feature.2
 
@@ -457,17 +458,17 @@ Le Design d'Expérience Utilisateur, désigné plus généralement par l’angli
 
 Okay, let’s start with restaurant dinner 🍲
 
-Imagine the feeling of vegetarian that comes to the restaurant and there is a special vegetarian menu. This is how feels a person that can personalize his user expérience in your app or service.
+Imagine the feeling of vegetarian that comes to the restaurant and there is a special vegetarian menu. This is how feels a person that can personalize his user experience in your app or service.
 
 
 [Erik Mclean@introspectivedsgn](https://unsplash.com/@introspectivedsgn)
 
-Personalization increases loyalty and the loyal users have a much higher chance to use your premium/pro features. In an environment of high competitiveness and market oversaturation, don’t underestimate the role of personalizing user expérience.
+Personalization increases loyalty and the loyal users have a much higher chance to use your premium/pro features. In an environment of high competitiveness and market oversaturation, don’t underestimate the role of personalizing user experience.
 
 
 Customization aka personalization is everywhere, dark/light mode on android, iOS, Windows, Linux (?) — every operating system is less or more using it.
 
-It isn’t the first human need, but maybe the second. Whole fashion design is about personalization expérience, otherwise, the whole world was wearing the same clothes, just like Zuckerberg or Steve Jobs.
+It isn’t the first human need, but maybe the second. Whole fashion design is about personalization experience, otherwise, the whole world was wearing the same clothes, just like Zuckerberg or Steve Jobs.
 
 Take a look at the game industry just for a moment, the whole multi-million monetization model at Fortnite — is based on personalization.
 
@@ -478,7 +479,7 @@ Sounds enough earnestly? If yes, keep on, the showcase part is waiting for you.
 
 # Personalization Showcase
 
-A few weeks ago [I designed and developed](https://medium.com/@dmitrymind/this-web-extension-will-help-you-to-save-1-5-cee580480881) at [Quick ‘A’](https://chrome.google.com/webstore/detail/quick-a/gilkjbonaifnnghbdpjmbomjjfffabmn) Chrome extension for quicker tab access, that UX is focused on keyboard control. Posted it on facebook, [product hunt](https://www.producthunt.com/posts/quick-a), [Reddit](https://www.reddit.com/r/design_critiques/comments/ctftt8/chrome_extension_that_can_save_510_minutes_per/) and [developer forums](https://dev.to/dimazz/chrome-extension-that-improves-tab-navigation-ux-2g7i). Two articles about extension were published on [lifehacker.ru](https://lifehacker.ru/quick-a-vkladki-v-brauzere/) and [http://antyweb.pl/](__MASK_28__)
+A few weeks ago [I designed and developed](https://medium.com/@dmitrymind/this-web-extension-will-help-you-to-save-1-5-cee580480881) at [Quick ‘A’](https://chrome.google.com/webstore/detail/quick-a/gilkjbonaifnnghbdpjmbomjjfffabmn) Chrome extension for quicker tab access, that UX is focused on keyboard control. Posted it on facebook, [product hunt](https://www.producthunt.com/posts/quick-a), [Reddit](https://www.reddit.com/r/design_critiques/comments/ctftt8/chrome_extension_that_can_save_510_minutes_per/) and [developer forums](https://dev.to/dimazz/chrome-extension-that-improves-tab-navigation-ux-2g7i). Two articles about extension were published on [lifehacker.ru](https://lifehacker.ru/quick-a-vkladki-v-brauzere/) and [http://antyweb.pl/](https://antyweb.pl/pracujesz-na-wielu-zakladkach-jednoczesnie-te-dwa-rozszerzenia-do-chrome-sa-dla-ciebie/)
 
 After 2 weeks extension got 820 weekly users, lots of feedbacks, analytics data and uninstall surveys results. We will use all these data later on.
 
@@ -489,7 +490,7 @@ So what to do next? Shortcuts customization, bookmarks functionality, tab search
 
 # Personalization Word Root — Persona
 
-After reading lots of articles, visiting workshops and fortunetelling on coffee spots. I decided to try it by myself. This is my first personas expérience, maybe I am doing it not by the book according to best UX practices, but that helped to understand user needs a little bit better.
+After reading lots of articles, visiting workshops and fortunetelling on coffee spots. I decided to try it by myself. This is my first personas experience, maybe I am doing it not by the book according to best UX practices, but that helped to understand user needs a little bit better.
 
 And here we go 👟
 
@@ -501,7 +502,7 @@ Meet __Richard__ — a passionate keyboard ninja. He writes tons of code each 
 Richard broke with his girlfriend because she was pressing four-time space for code indent instead of pressing tab once. That was so annoying!
 
 
-[https://www.instagram.com/olyaroz1/](__MASK_30__)
+[https://www.instagram.com/olyaroz1/](https://www.instagram.com/olyaroz1/)
 
 __Olyetta__ uses Instagram to store her food photos and takes English lessons on skype.
 
@@ -560,10 +561,10 @@ Now no need to teach every user to use a keyboard, instead of it there is full k
 
 # Onboarding
 
-After separating UX into 2 different use cases, we have to add onboarding to let first-time users personalize their expérience.
+After separating UX into 2 different use cases, we have to add onboarding to let first-time users personalize their experience.
 
 
-Live URL: [https://artrayd.com/quicka/settings.html](__MASK_31__) (that will not work if Quick ‘A’ isn’t installed)
+Live URL: [https://artrayd.com/quicka/settings.html](https://artrayd.com/quicka/settings.html?ref=medium) (that will not work if Quick ‘A’ isn’t installed)
 
 > On the first install, this page will open, so users can choose the tool they prefer to use. Mouse or keyboard, super short onboarding ever.
 
@@ -573,13 +574,13 @@ __Thank you for reading 👓__
 
 🔹✅💡🥊🛡️🔇🧠📣🎁🏆📚🛠💥🙌😱❌✂️
 
-# __11 Examples of Real World User Expérience & What We Can Learn from Them__
+# __11 Examples of Real World User Experience & What We Can Learn from Them__
 
 [Zacharia Curtis](https://zachariacurtis.medium.com/?source=post_page-----8ad18363b7e7--------------------------------)
 
 ·
 
-Before digital, UX had its place rooted in the real world, and even though many of the experiences with pay attention to are in the digital space, this doesn’t mean the IRL stopped having its successes and failures in design and expérience.
+Before digital, UX had its place rooted in the real world, and even though many of the experiences with pay attention to are in the digital space, this doesn’t mean the IRL stopped having its successes and failures in design and experience.
 
 In this article I explore 11 examples of irl UX, as well as understanding what went well, and what not so well!
 
@@ -637,7 +638,7 @@ Don’t make your designs look like something else, when the operation is entire
 # #8 Guide Your Users
 
 
-When we want our users to go somewhere, it’s not always the right décision or even an option to force them into this. We as designers, can utilise soft psychological nudges to guide our users to the benefit to themselves when necessary, but it is important here to note that it’s done when important, and not when we assume it is of benefit. Research, research, research!
+When we want our users to go somewhere, it’s not always the right decision or even an option to force them into this. We as designers, can utilise soft psychological nudges to guide our users to the benefit to themselves when necessary, but it is important here to note that it’s done when important, and not when we assume it is of benefit. Research, research, research!
 
 *(Yes, that’s a urinal, and yes again it did reduce spillage and cleaning costs)*
 
@@ -664,7 +665,7 @@ This is much more common than it should be, and I’m sure if you take a minute 
 
 # In Summary
 
-Real world UX is prime real estate for us to both learn, and laugh at, in order to level up the experiences that we create for our users in order to not only satisfy the barebones minimum, but to design for all to enjoy and expérience in the way that you intended them to, and I hope that this article has given you a little bit of insight into how irl can correlate to digital!
+Real world UX is prime real estate for us to both learn, and laugh at, in order to level up the experiences that we create for our users in order to not only satisfy the barebones minimum, but to design for all to enjoy and experience in the way that you intended them to, and I hope that this article has given you a little bit of insight into how irl can correlate to digital!
 
 # 16 Little UI Design Rules that Make a Big Impact
 
@@ -673,13 +674,13 @@ Real world UX is prime real estate for us to both learn, and laugh at, in order 
 [Adham Dannaway](https://medium.com/@adhamdannaway?source=post_page-----ba2e7524d203--------------------------------)
 
 
-User interface design is hard. With so many options to choose from regarding layout, spacing, typography, and colour, making design décisions can be overwhelming. When you add usability, accessibility, and psychology to the mix, it gets even harder.
+User interface design is hard. With so many options to choose from regarding layout, spacing, typography, and colour, making design decisions can be overwhelming. When you add usability, accessibility, and psychology to the mix, it gets even harder.
 
-Luckily, UI design doesn’t have ==to be so hard. Over nearly 2 decades working as a product designer, I’ve realised that most of my visual and interaction design décisions are governed by a system== of logical rules. Not artistic flair or magical intuition, just simple rules.
+Luckily, UI design doesn’t have ==to be so hard. Over nearly 2 decades working as a product designer, I’ve realised that most of my visual and interaction design decisions are governed by a system== of logical rules. Not artistic flair or magical intuition, just simple rules.
 
-Having a system of logical rules helps you efficiently make informed design décisions. Without a logical system, you’re just using gut feeling to move stuff around until it looks pretty.
+Having a system of logical rules helps you efficiently make informed design decisions. Without a logical system, you’re just using gut feeling to move stuff around until it looks pretty.
 
-I love rules and logic, but design décisions are rarely black and white. Rather than strict rules that you must follow, think of the following advice as helpful guidelines that work well in most cases.
+I love rules and logic, but design decisions are rarely black and white. Rather than strict rules that you must follow, think of the following advice as helpful guidelines that work well in most cases.
 
 The quickest way to learn is by doing, so let’s get started.
 
@@ -688,7 +689,7 @@ The quickest way to learn is by doing, so let’s get started.
 The following 2 designs are for the property details page of a short-term property rental app. The first one is the original design. The second is the result of applying some logical rules or guidelines.
 
 
-Even without much visual or interaction design expérience, you’ll probably notice that the original design feels messy, complicated, and difficult to use. This is because it contains many problematic design details that pose a risk to usability. Perhaps you can already spot a few?
+Even without much visual or interaction design experience, you’ll probably notice that the original design feels messy, complicated, and difficult to use. This is because it contains many problematic design details that pose a risk to usability. Perhaps you can already spot a few?
 
 Let’s fix the problems with the original design one at a time using the following logical rules or guidelines:
 
@@ -975,7 +976,7 @@ Related links:
 
 - [How to build a customer journey map](https://uxdesign.cc/how-to-build-a-customer-journey-map-3f3651ec9990)
 - [The ultimate guide to customer journey mapping](https://uxdesign.cc/ultimate-guide-to-customer-journey-mapping-ux-tools-series-b973ca442213)
-- [Expérience maps, user journeys, and more…](http://www.ux-lady.com/experience-maps-user-journey-and-more-exp-map-layout/)
+- [Experience maps, user journeys, and more…](http://www.ux-lady.com/experience-maps-user-journey-and-more-exp-map-layout/)
 - [Customer journey maps — a ‘quick and dirty’ technique to create them](http://usabilitygeek.com/customer-journey-maps-create-technique/)
 - [Examples of customer journey mapping](http://www.smartinsights.com/user-experience/customer-experience-management-cxm/mapping-customer-journey/)
 - [When to call B.S. on customer journey mapping](https://uxdesign.cc/when-to-call-bs-on-customer-journey-mapping-60f389d7e55e)
@@ -985,11 +986,11 @@ Related links:
 
 [Source](https://dribbble.com/shots/6390557-Evolt-Design-Suite-User-Persona/attachments/6390557-Evolt-Design-Suite-User-Persona?mode=media)
 
-A relatable snapshot of the target audience that highlights demographics, behaviors, needs, and motivations through the création of a fictional character. Personas make it easier for designers and digital teams to create empathy with consumers throughout the design process.
+A relatable snapshot of the target audience that highlights demographics, behaviors, needs, and motivations through the creation of a fictional character. Personas make it easier for designers and digital teams to create empathy with consumers throughout the design process.
 
 Related links:
 
-- [Personas: the foundation of a great user expérience](http://uxmag.com/articles/personas-the-foundation-of-a-great-user-experience)
+- [Personas: the foundation of a great user experience](http://uxmag.com/articles/personas-the-foundation-of-a-great-user-experience)
 - [How much time does it take to create personas?](https://www.nngroup.com/articles/persona-budgets/)
 - [A personas guideline, from what they are to how to use them](https://uxdesign.cc/while-we-are-talking-about-personas-what-exactly-are-we-talking-525a645eb61a?sk=9ae142943c6a7ca4e2ca5a2e2c608409)
 - [Make your personas great again in 7 simple steps](https://uxdesign.cc/personas-e60c1c06ead1)
@@ -1004,9 +1005,9 @@ A visualization of the company’s digital properties, the connections 
 
 Related links:
 
-- [Designing digital stratégies: cartography](http://www.uxbooth.com/articles/designing-digital-strategies-part-1-cartography/)
-- [End-to-end expérience design](http://uxmag.com/articles/end-to-end-experience-design)
-- [Six empowerment stratégies to get teams up to speed in complex domains](https://uxdesign.cc/six-empowerment-strategies-for-design-leaders-to-get-teams-quickly-up-to-speed-in-complex-domains-5d296e5fc63?sk=0b3fbdee2a525d23cb8043f630a73428)
+- [Designing digital strategies: cartography](http://www.uxbooth.com/articles/designing-digital-strategies-part-1-cartography/)
+- [End-to-end experience design](http://uxmag.com/articles/end-to-end-experience-design)
+- [Six empowerment strategies to get teams up to speed in complex domains](https://uxdesign.cc/six-empowerment-strategies-for-design-leaders-to-get-teams-quickly-up-to-speed-in-complex-domains-5d296e5fc63?sk=0b3fbdee2a525d23cb8043f630a73428)
 
 # Competitive Audit
 
@@ -1058,7 +1059,7 @@ Related links:
 
 [Source](https://www.studiorupt.com/grow-kpi-trees-and-reap-better-key-results/)
 
-Pre-stabilished criteria to measure progress toward strategic goals or the maintenance of operational goals. KPIs help inform design décisions along the way and is an indispensable tool to measure the impact of your design efforts.
+Pre-stabilished criteria to measure progress toward strategic goals or the maintenance of operational goals. KPIs help inform design decisions along the way and is an indispensable tool to measure the impact of your design efforts.
 
 Related links:
 
@@ -1115,7 +1116,7 @@ Related links:
 
 [Source](https://uxmisfit.com/2020/08/17/what-is-a-user-flow-everything-you-need-to-know/)
 
-A visual representation of the user’s flow to complète tasks within the product. It’s the user perspective of the site organization, making it easier to identify which steps could be improved or redesigned.
+A visual representation of the user’s flow to complete tasks within the product. It’s the user perspective of the site organization, making it easier to identify which steps could be improved or redesigned.
 
 Related links:
 
@@ -1162,7 +1163,7 @@ The activity of listing all content available on a website. This list
 Related links:
 
 - [Content Audit: when and why do you need it?](https://uxdesign.cc/content-audit-when-why-you-need-7fc327a0a97f?sk=53b15431deb221a7ca26681c650da124)
-- [From content audit to design insight: How a content audit facilitates décision-making](http://uxmag.com/articles/from-content-audit-to-design-insight)
+- [From content audit to design insight: How a content audit facilitates decision-making](http://uxmag.com/articles/from-content-audit-to-design-insight)
 - [How to conduct a content audit](http://uxmastery.com/how-to-conduct-a-content-audit/)
 - [Paying down your product content debt](https://uxdesign.cc/pay-down-content-debt-4341de56fb55?sk=fa8374adf025748be94a4f2c0aa46115)
 - [How to give your web content a reality check using the R.E.A.L. method](https://uxdesign.cc/how-to-give-your-web-content-a-reality-check-using-the-r-e-a-l-method-2dacccb6d818?sk=e718df3067afc599c6b3268bfe14ef29)
@@ -1172,7 +1173,7 @@ Related links:
 
 [Source](https://medium.com/pixians/heuristic-evaluation-process-and-importance-88c16389fec9)
 
-A detailed analysis of a product that highlights good and bad practices, using known interaction design principles as guidelines. Helps you visualize the current state of the product in terms of usability, efficiency, and effectiveness of the expérience.
+A detailed analysis of a product that highlights good and bad practices, using known interaction design principles as guidelines. Helps you visualize the current state of the product in terms of usability, efficiency, and effectiveness of the experience.
 
 Related links:
 
@@ -1265,7 +1266,7 @@ Related links:
 - [3 simple steps to design and analyze user-centric surveys](https://uxdesign.cc/designing-a-great-survey-with-3-simple-steps-283abaa67ad6)
 - [UX Surveys: a quick guide to get the most out of them](https://uxdesign.cc/ux-surveys-a-quick-guide-to-get-the-most-out-of-them-1889d136be6a)
 - [Better user research through surveys](http://uxmastery.com/better-user-research-through-surveys/)
-- [The user expérience of surveys](https://uxdesign.cc/the-user-experience-of-surveys-a5420c82604a)
+- [The user experience of surveys](https://uxdesign.cc/the-user-experience-of-surveys-a5420c82604a)
 - [Two easy methods to design surveys for complex problems](https://uxdesign.cc/two-easy-methods-to-design-surveys-for-complex-problems-f306a911bc82?sk=82dcad597178685082d0cb9076a3f290)
 
 # Usability Testing
@@ -1376,7 +1377,7 @@ Related links:
 
 [Source](https://dribbble.com/shots/14779119--57-Gardening-carousel-GIF-99-Days-in-the-Lab/attachments/6484546?mode=media)
 
-A prototype is a simulation of the website navigation and features, commonly using clickable wireframes or mockups. It’s a quick way to test and validate product flows, visuals, and expérience before fully developing the product.
+A prototype is a simulation of the website navigation and features, commonly using clickable wireframes or mockups. It’s a quick way to test and validate product flows, visuals, and experience before fully developing the product.
 
 Related links:
 
@@ -1419,12 +1420,12 @@ Related links:
 
 [Source](https://medium.com/re-write/a-primer-on-mental-models-c3ddf059c620)
 
-Mental models are explanations of how users see the world. They influence product design every step of the way from the conception of an idea to the perception of an expérience.
+Mental models are explanations of how users see the world. They influence product design every step of the way from the conception of an idea to the perception of an experience.
 
 Related links:
 
 - [Mental models in product design](https://uxdesign.cc/mental-models-in-product-design-91678e2f27c)
-- [Making better design décisions through mental models](https://uxdesign.cc/making-better-design-decisions-through-mental-models-f4821dd9d632)
+- [Making better design decisions through mental models](https://uxdesign.cc/making-better-design-decisions-through-mental-models-f4821dd9d632)
 - [Mental models and the evolution of an idea](https://uxdesign.cc/mental-models-and-the-evolution-of-an-idea-bb0d05e1c69?sk=4680ad41da8c0ab8cfa3b2e084a73c1a)
 - [Mental models in UX Design in examples](https://uxdesign.cc/mental-models-in-ux-design-in-examples-f75b083cd487?sk=f9b2a27aadc18ed0a3e542249c9e8534)
 

@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Blog de niche
-author: Diane GoCharbon
+title: Blogging / Site de Contenu
+author: Web Indé
 tags:
 - Business
-description: 'Créer un site de contenu qui attire le bon trafic et se monétise sans
-  dépendre d''une seule plateforme.'
+description: 'Lance un blog rentable : niches, SEO, monétisation et stratégies pour
+  transformer ton blog en business.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Le blogging, c'est construire un site de contenu capable d'attirer un trafic utile dans la durée. Il peut devenir un actif solide, mais seulement si tu choisis bien ton angle, ton niveau d'expertise et ton modèle de monétisation.
+Le blogging, c'est créer un site web avec des articles optimisés SEO pour attirer du trafic organique depuis Google. Une fois les articles publiés, ils génèrent du trafic (et des revenus) pendant des années. C'est un des rares business vraiment "passifs" une fois construit.
 
 Tu monétises via : affiliation, display ads (Google AdSense), sponsorings, produits digitaux, ou en vendant le site. Contrairement aux réseaux sociaux, tu POSSÈDES ton audience et tu n'es pas dépendant d'un algorithme.
 

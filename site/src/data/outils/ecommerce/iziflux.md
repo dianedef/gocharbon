@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: flux
-toolFacets:
-  - repricing
-  - marketplaces
+section: apps
 metadataEnrichedAt: null
 title: Iziflux
 author: Diane
@@ -19,17 +14,17 @@ u_site: https://www.iziflux.com
 
 # Iziflux
 
-# GESTION DE FLUX E-COMMERCE : LE CHEF D'ORCHESTRE DE TA STRATÉGIE MULTICANAL
+## GESTION DE FLUX E-COMMERCE : LE CHEF D'ORCHESTRE DE TA STRATÉGIE MULTICANAL
 
-## tl;dr
+### tl;dr
 
 Iziflux est une plateforme française de **gestion de flux e-commerce** qui te permet de développer tes ventes en dehors de ton site web en misant sur une stratégie **multicanal**. Fondée en **2001**, Iziflux est un vétéran du secteur avec plus de **20 ans d'expérience**, **500 clients actifs** et plus de **8 millions d'attributs produits** gérés sur sa plateforme. La solution permet de diffuser ton catalogue produit sur plus de **400 marketplaces et supports de vente** (Amazon, eBay, Google Shopping, Fnac, Cdiscount, Rakuten, BackMarket, comparateurs de prix…), de **centraliser la gestion des stocks et des commandes**, et d'**optimiser tes prix** avec un module de repricing automatique pour maximiser ton chiffre d'affaires. Iziflux s'intègre avec la plupart des CMS e-commerce du marché (PrestaShop, Magento, WooCommerce, Shopify, WiziShop…) et propose des **tarifs évolutifs sans engagement** à partir de **49€ HT/mois** (100 références). **2 mois d'essai gratuit** pour tester la plateforme. Pas de commission sur les ventes.
 
-## Alternative à
+### Alternative à
 
 Lengow, ChannelAdvisor, Channable, DataFeedWatch, Shoppingfeed, BeezUP, SellerActive, Linnworks. Iziflux se distingue par son **ancienneté** (2001, 20+ ans d'expertise), son **focus français** (équipe FR, support FR), ses **400+ marketplaces** connectées, son **repricing automatique intégré** (pas besoin d'outil tiers), et ses **tarifs sans commission** sur les ventes.
 
-# Bénéfices
+## Bénéfices
 
 **Multidiffuse ton catalogue sur 400+ marketplaces** — Au lieu de gérer manuellement tes annonces sur chaque marketplace, Iziflux diffuse ton catalogue produit sur plus de 400 canaux de vente : Amazon, eBay, Google Shopping, Fnac, Cdiscount, Rakuten, BackMarket, comparateurs de prix… Tu multiplies tes canaux de vente sans multiplier le travail.
 
@@ -41,7 +36,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Shoppingfeed, BeezUP, SellerAc
 
 **Catégorisation automatisée** — L'intégration de catalogues produit est facilitée avec une catégorisation automatisée pour correspondre aux critères de chaque marketplace. Tu définis des règles de référencement selon différents critères (rentabilité, saisonnalité, stock, opérations marketing) et tu décides de la mise en ligne ou non de tes produits sur chaque canal. Iziflux s'assure de la pertinence du SEO pour chaque fiche produit sur les différentes places de marché.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **E-commerçants** qui veulent vendre sur plusieurs marketplaces sans gérer chaque canal manuellement
 - **Retailers et enseignes** qui veulent digitaliser leur catalogue et le diffuser en multicanal
@@ -50,7 +45,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Shoppingfeed, BeezUP, SellerAc
 - **E-commerçants PrestaShop, Magento, Shopify, WooCommerce** qui veulent un outil de feed management
 - **Marques** qui veulent distribuer leurs produits sur les comparateurs de prix (Google Shopping, Idealo, LeGuide…)
 
-# Comment Utiliser Iziflux
+## Comment Utiliser Iziflux
 
 1. **Inscris-toi à l'essai gratuit** — 2 mois offerts pour tester toutes les fonctionnalités
 2. **Connecte ton CMS** — Intègre ton site e-commerce (PrestaShop, Magento, WooCommerce, Shopify, WiziShop…) avec Iziflux
@@ -60,9 +55,9 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Shoppingfeed, BeezUP, SellerAc
 6. **Active le repricing** — Configure le module de veille concurrentielle avec tes prix planchers pour ajuster automatiquement tes tarifs
 7. **Suis tes performances** — Consulte ton tableau de bord avec CA, marges, ROI, coût d'acquisition. Exporte en Excel ou reçois les rapports par mail
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Multidiffusion de Produits
+### Multidiffusion de Produits
 
 - **400+ marketplaces et comparateurs** connectés : Amazon, eBay, Google Shopping, Fnac, Cdiscount, Rakuten, BackMarket, Darty, Boulanger, ManoMano, Idealo, LeGuide…
 - **Catégorisation automatisée** — mapping automatique des catégories produits pour chaque marketplace
@@ -71,21 +66,21 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Shoppingfeed, BeezUP, SellerAc
 - **8 millions d'attributs produits** gérés sur la plateforme
 - **Outils de filtrage et de mapping** pour faciliter la catégorisation des produits
 
-## Gestion des Commandes et Stocks
+### Gestion des Commandes et Stocks
 
 - **Centralisation automatique** des commandes de toutes les marketplaces dans le back-office du CMS
 - **Synchronisation des stocks en temps réel** avec les différentes places de marché
 - **Évite les ruptures** de produits et les erreurs de commande
 - **Gestion multi-entrepôts** possible
 
-## Repricing Automatique
+### Repricing Automatique
 
 - **Module de veille des prix** — surveille les tarifs concurrents en temps réel
 - **Ajustement automatique** des prix en fonction de la concurrence
 - **Prix plancher configurable** — protège tes marges avec un tarif minimum
 - **Détection des prix les plus bas et les plus hauts** du marché
 
-## Analytics et Reporting
+### Analytics et Reporting
 
 - **Tableau de bord centralisé** avec vue globale sur le chiffre d'affaires et la marge, le ROI, le coût d'acquisition
 - **Statistiques détaillées** par marketplace, par produit, par campagne
@@ -93,7 +88,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Shoppingfeed, BeezUP, SellerAc
 - **Export Excel** des rapports
 - **Envoi automatique** de rapports par email — fréquence paramétrable
 
-# Prix
+## Prix
 
 Tarifs évolutifs et sans engagement, qui s'adaptent au nombre de produits à référencer.
 
@@ -110,9 +105,9 @@ Notes :
 - Marketplaces et comparateurs illimités sur tous les plans
 - Devis personnalisé au-delà de 5 000 références
 
-# Intégrations
+## Intégrations
 
-## CMS E-commerce
+### CMS E-commerce
 
 - **PrestaShop** — intégration native
 - **Magento** — compatible Magento 1 et 2
@@ -121,7 +116,7 @@ Notes :
 - **WiziShop** — intégration native
 - Compatible avec la plupart des CMS et plateformes e-commerce du marché
 
-## Marketplaces (400+)
+### Marketplaces (400+)
 
 - **Généralistes** : Amazon, eBay, Cdiscount, Rakuten, Fnac/Darty
 - **Spécialisées** : BackMarket (reconditionné), ManoMano (bricolage), Boulanger (électroménager)
@@ -129,13 +124,13 @@ Notes :
 - **Comparateurs de prix** : Google Shopping, Idealo, LeGuide, Kelkoo, PriceMinister
 - **Mode et luxe** : La Redoute, Galeries Lafayette, Zalando
 
-## Autres
+### Autres
 
 - **ERP** : export de données pour intégration avec les systèmes de gestion
 - **Analytics** : Google Analytics compatible
 - **Navigateur web** — plateforme 100% en ligne, rien à installer
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **Fondée en 2001** — plus de 20 ans d'existence dans le feed management e-commerce, l'un des pionniers du secteur en France
 - **500 clients actifs** — e-commerçants, retailers, agences
@@ -145,7 +140,7 @@ Notes :
 - **Chaîne YouTube** : [@Iziflux](https://www.youtube.com/@Iziflux) — tutoriels vidéo et démonstrations
 - **Positionnement** : vétéran du feed management français, spécialiste de la stratégie multicanal e-commerce
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
 - **L'e-commerçant qui veut scaler** : tu vends sur ton site PrestaShop et tu veux te lancer sur Amazon, Cdiscount et Fnac. Iziflux connecte ton catalogue aux 3 marketplaces en quelques clics, synchronise tes stocks et centralise les commandes dans ton back-office. Tu multiplies tes canaux sans multiplier le travail
 - **Le vendeur Amazon qui veut diversifier** : tu fais 80% de ton CA sur Amazon. Trop risqué. Avec Iziflux, tu diffuses ton catalogue sur 10 marketplaces supplémentaires et tu réduis ta dépendance à un seul canal
@@ -153,7 +148,7 @@ Notes :
 - **L'agence e-commerce** : tu gères les flux produits de 10 clients. Chaque client a ses marketplaces, ses règles de prix, ses stocks. Iziflux centralise tout pour une gestion efficace
 - **L'e-commerçant qui veut gagner la Buy Box** : tu vends le même produit que tes concurrents sur Amazon et Cdiscount. Le repricing automatique d'Iziflux ajuste tes prix en temps réel pour rester compétitif tout en protégeant tes marges avec le prix plancher
 
-# Points Forts
+## Points Forts
 
 - 20+ ans d'existence (fondé en 2001) — maturité et expertise prouvées dans le feed management
 - 400+ marketplaces et comparateurs connectés — couverture exceptionnelle
@@ -166,7 +161,7 @@ Notes :
 - Outils de filtrage et de mapping pour faciliter la catégorisation des produits
 - Support et équipe en français
 
-# Points Faibles
+## Points Faibles
 
 - Interface qui peut sembler datée comparée aux solutions plus récentes (Channable, Lengow)
 - Documentation publique limitée — il faut contacter l'équipe pour les détails techniques

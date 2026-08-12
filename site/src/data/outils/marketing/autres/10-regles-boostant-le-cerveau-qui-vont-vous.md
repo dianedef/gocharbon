@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,14 +7,15 @@ imageNameKey: null
 u_site: null
 title: 10 Règles Boostant Le Cerveau Qui Vont Vous Donner Des Pouvoirs Mentaux Surhumains
 author: Diane
-description: "10 Règles Boostant Le Cerveau Qui Vont Vous Donner Des Pouvoirs Mentaux Surhumains."
+description: 'Découvre 10 Règles Boostant Le Cerveau Qui Vont Vous Donner Des Pouvoirs
+  Mentaux Surhumains : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
 un cerveau sain dans un bureau sain
 
-Voici un autre fait pour vous, il est [scientifiquement prouvé] ([https://hbr.org/2019/03/the-case-for-finally-cleaning-your-desk](__MASK_0__)) qu'un espace de travail sans encombrement peut augmenter votre productivité, et c'est exactement pourquoi nous sommes enthousiasmés par le nouvel éditeur de menu ! - Vous pouvez désormais personnaliser entièrement votre menu principal pour afficher exactement ce dont vous avez besoin de la manière qui vous convient.
+Voici un autre fait pour vous, il est [scientifiquement prouvé] ([https://hbr.org/2019/03/the-case-for-finally-cleaning-your-desk](https://hbr.org/2019/03/the-case-for-finally-cleaning-your-desk)) qu'un espace de travail sans encombrement peut augmenter votre productivité, et c'est exactement pourquoi nous sommes enthousiasmés par le nouvel éditeur de menu ! - Vous pouvez désormais personnaliser entièrement votre menu principal pour afficher exactement ce dont vous avez besoin de la manière qui vous convient.
 
 **Résumé.**   L'environnement physique du lieu de travail a un effet significatif sur la façon dont nous travaillons. Lorsque notre espace est en désordre, nous le sommes aussi. C'est certainement vrai d'un simple point de vue logistique : nous perdons de précieuses minutes de travail à chaque fois que nous partons à la recherche d'un papier perdu ...Suite
 

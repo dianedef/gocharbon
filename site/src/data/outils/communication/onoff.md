@@ -1,35 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: onoff
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: telephonie
 description: Avec Onoff App, tu peux obtenir un deuxième numéro de téléphone pour
   ton entreprise, sans avoir besoin d'une seconde carte SIM ni d'un second téléphone.
   Les avantages clés incluent
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.onoff.app/fr/
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://www.onoff.app/fr/politique-de-confidentialite/
-- https://www.onoff.app/fr/conditions-generales-d-utilisation/
-- https://support.onoff.app/hc/fr/articles/7286317152797-Comment-sont-trait%C3%A9es-mes-donn%C3%A9es-personnelles
-notesQualification: 'Onoff est opéré par ONOFF TELECOM, société française à Paris.
-  Les sources officielles et le centre d''aide indiquent un stockage des données
-  au sein de l''Union européenne. La responsabilité reste partielle, car l''infrastructure
-  détaillée et les éventuels sous-traitants ne sont pas publiquement documentés de
-  façon exhaustive.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # onoff

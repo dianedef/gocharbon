@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: autres
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -17,6 +15,7 @@ pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
+🔹✅💡🥊🛡️🔇🧠📣🎁🏆📚🛠💥🙌😱❌✂️
 [Urbanhub - Annuaire des startup](https://www.ecommercemag.fr/thematique/start-up-30401/data-analytics-30402/classement/Urbanhub-357456.htm)
 - 📦 Urbanhub, fondée en 2015, propose une externalisation logistique complète pour les e-commerçants grâce à un ERP.
 - ♻️ Ils se démarquent en tant qu'opérateur logistique urbain décarboné, avec une implantation dans Paris et la capacité à effectuer un transport propre.
@@ -39,39 +38,39 @@ imgUrl: ../../../assets/astro.jpeg
 - 🌏 Ils contribuent à réduire les émissions de CO2 et améliorer la vie en ville.
 - 🤝 Urbanhub favorise l'intégration sociale dans ses recrutements, cherchant des candidats dynamiques et motivés, quelles que soient leurs origines.
 - 📝 Ils offrent la possibilité de postuler pour rejoindre leur entreprise à mission.
-# Urbanhub | L'expertise en logistique pour les entreprises
+## 📚 Urbanhub | L'expertise en logistique pour les entreprises
 
 Si tu es à la recherche d'une solution logistique complète, tu es au bon endroit. Urbanhub propose une gamme de services de logistique e-commerce qui répondront à tes besoins. Dans cette revue, nous allons explorer les avantages clés de cette solution, son public idéal, ses fonctionnalités, les alternatives, les tarifs, l'équipe derrière le produit, sa feuille de route, les intégrations, comment l'utiliser au mieux, la technologie sous-jacente, et enfin, mon avis.
 
-# Bénéfices
+## ✔️ Bénéfices
 Urbanhub te permet d'externaliser efficacement ta logistique, ce qui signifie que tu peux te concentrer sur tes ventes tout en offrant à tes clients une expérience d'expédition rapide et fiable. Les avantages incluent la réduction des coûts d'exploitation, une supply-chain résiliente, une réduction de l'empreinte écologique, et un contrôle total de ta logistique grâce à leur infrastructure SAAS tout-en-un.
 
-# Pour Qui ?
+## 🎯 Pour Qui ?
 Urbanhub est idéal pour les e-commerçants, les PME et les commerçants qui cherchent à optimiser leur logistique. Que tu aies besoin de services complets, de stockage, de préparation de commandes, d'expédition ou de gestion des retours, Urbanhub peut répondre à tes besoins.
 
-# Alternative
+## 📢 Alternative
 Bien que Urbanhub offre une solution complète, il existe des alternatives telles que ShipBob et ShipMonk qui proposent des services de logistique similaires.
 
-# Fonctionnalités
-## Intégration e-commerce
+## 🛠️ Fonctionnalités
+### Intégration e-commerce
 Urbanhub s'intègre facilement avec ta boutique en ligne, te permettant de gérer tes stocks et d'expédier des commandes en toute simplicité.
 
-## Stockage et gestion
+### Stockage et gestion
 Avec 5000m² de stockage près de Paris, Urbanhub offre un espace de stockage sécurisé pour tes produits, y compris un entrepôt frigorifique.
 
-## Gestion des tournées
+### Gestion des tournées
 Urbanhub peut organiser des tournées de livraisons à destination de tes clients BtoB.
 
-# Offres & Prix
+## 💶 Offres & Prix
 Urbanhub propose une gamme de services personnalisables, ce qui signifie que tu peux choisir les options qui correspondent le mieux à tes besoins. Les tarifs varient en fonction des services sélectionnés, alors n'hésite pas à les contacter pour un devis personnalisé.
 
-# Équipe, Histoire Et Mission
+## 🎖️ Équipe, Histoire Et Mission
 Urbanhub est édité par la société Stockage Plus. Leur mission est de faciliter la vie des entreprises, de réduire les coûts d'exploitation et de minimiser l'impact écologique de la logistique du dernier kilomètre.
 
-# Feuille de Route Future
+## 🚧 Feuille de Route Future
 Urbanhub continue de développer ses services pour répondre aux besoins changeants de ses clients. Bien qu'il n'y ait pas de roadmap publique, ils s'efforcent de rester à la pointe de l'industrie.
 
-# Liens et Ressources
+## ⛓️ Liens et Ressources
 
 - [Facebook](https://www.facebook.com/profile.php?id=100046241576254)
 - [UrbanHub: Overview | LinkedIn](https://www.linkedin.com/company/urbanhub-paris/)
@@ -79,29 +78,29 @@ Urbanhub continue de développer ses services pour répondre aux besoins changea
 - Site Web : [Urbanhub](insérer le lien)
 - Contact : +33 7 71 03 87 47
 
-# Programme de Parrainage
+## 🤝 Programme de Parrainage
 Urbanhub offre-t-il un programme de parrainage ? Contacte leur équipe pour en savoir plus.
 
-# Intégrations
+## ⚙️ Intégrations
 Urbanhub s'intègre avec des outils e-commerce pour simplifier la gestion des stocks et des commandes. Ils proposent également des intégrations personnalisées sur demande.
 
-# Comment l’utiliser ?
+## 👀 Comment l’utiliser ?
 Pour tirer le meilleur parti d'Urbanhub, assure-toi de connecter ta boutique en ligne et de gérer tes stocks de manière efficace. De plus, planifie des tournées de livraison optimisées pour tes clients BtoB.
 
-# En Résumé ?
+## 🤔 En Résumé ?
 Urbanhub utilise une infrastructure SAAS tout-en-un pour centraliser la gestion de la logistique. Ils disposent d'un entrepôt de stockage à proximité de Paris, ce qui permet des livraisons rapides et efficaces.
 
-# Démonstration complète
+## 👩‍🏫 Démonstration complète
 (à laisser vide)
 
-# Mon Avis
+## Mon Avis
 Urbanhub offre une solution logistique complète pour les entreprises, ce qui permet de réduire les coûts et d'offrir un service fiable aux clients. C'est une option solide pour les e-commerçants à la recherche d'une logistique efficace.
 
-## Points Faibles
+### 👎 Points Faibles
 - Pas de roadmap publique
 - Tarifs variables en fonction des besoins
 
-## Points Forts
+### 👍 Points Forts
 - Solution complète pour la logistique e-commerce
 - Réduction des coûts d'exploitation
 - Stockage sécurisé près de Paris

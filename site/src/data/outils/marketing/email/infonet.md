@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Infonet
 author: Diane
@@ -327,7 +327,7 @@ Vous pourrez télécharger et re-télécharger tous les documents dont vous avez
 
 ## **Une campagne médiatique de haute-volée pour Infonet**
 
-Infonet n'est pas du genre à faire les choses à moitié. Pour sa campagne de communication, l'entreprise a mis les petits plats dans les grands. Infonet a réalisé un spot télévisé de 30 secondes pour se faire connaitre du grand public. Sponsorisé par l'émission « Good Morning Business » sur BFM TV, le spot publicitaire a aussi été diffusé sur des grandes chaînes comme M6, TF1, LCI ou encore W9.
+Infonet n'est pas du genre à faire les choses à moitié. Pour sa campagne de communication, l'entreprise a mis les petits plats dans les grands. Infonet a réalisé un spot télévisé de 30 secondes pour se faire connaitre du grand public. Sponsorisé par l'émission « Good Morning Business » sur BFM TV, le spot publicitaire a aussi été diffusé sur des grandes chaines comme M6, TF1, LCI ou encore W9.
 
 Autre média le plus influent, Infonet a aussi inondé les ondes avec des diffusions de messages publicitaires sur les plus grandes radios françaises. Enfin, troisième étape d'une campagne de communication de grande envergure, Infonet s'est aussi imposé dans le quotidien des français avec un affichage urbain à grande échelle. C'est l'agence Métropole qui a été mandatée pour assurer le rayonnement de l'entreprise à travers la France. Des imprimés aux couleurs de la firme ont été installés dans les villes et sur les plus grands axes du pays.
 

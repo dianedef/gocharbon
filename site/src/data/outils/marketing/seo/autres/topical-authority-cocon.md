@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: blog
 statut: []
 _priorité: normal
 imageNameKey: null
@@ -22,7 +22,7 @@ imgUrl: ../../../../../assets/astro.jpeg
 [Increase Organic Traffic with Topical Authority and Topical Maps - Topical Map Service for SEO to Increase Topical Authority](https://topicalmap.com/#how-it-works)
 
 
-## Topical Map Création Process
+## Topical Map Creation Process
 
 Yoyao here! Since this is my area of expertise, I’ll be writing up this section, but Dim had a big part in the process. If anything is wrong here, don’t blame Dim! 
 
@@ -103,18 +103,18 @@ Putting “types of cars” into LowFruits, it says there are 2,666 keyword idea
 
 When you have a topical hierarchy, you’ll be able to **put more specific keywords into the tools to give you the depth needed to cover a subtopic**. 
 
-This is similar to the concept of niching down. Get more specific and get complète coverage. 
+This is similar to the concept of niching down. Get more specific and get complete coverage. 
 
-Continuing the cars example, I’ll put “Audi R8” into LowFruits because it’s specific enough to get complète coverage (or at least very close to complète) in the tool. 
+Continuing the cars example, I’ll put “Audi R8” into LowFruits because it’s specific enough to get complete coverage (or at least very close to complete) in the tool. 
 
 LowFruits returned 3,370 keyword ideas. That’s more than the 2,666 from “types of cars.”  The great thing about these keywords is that they’re also **relevant** to Audi R8 cars.
 
 
-See how if you start with more specific keywords, you’ll get more complète coverage? 
+See how if you start with more specific keywords, you’ll get more complete coverage? 
 
 Out of those 2,666 keywords, only 2 keywords mentioned Audi. 
 
-Part of the reason is also because of [how LowFruits works](https://lowfruits.io/). LowFruits works by putting your keyword into Google and extracting the Auto-Complète keywords.
+Part of the reason is also because of [how LowFruits works](https://lowfruits.io/). LowFruits works by putting your keyword into Google and extracting the Auto-Complete keywords.
 
 The great thing about this is that you get current and past keywords that users search for on Google. (Other keyword tools like Ahrefs and Semrush will usually lag depending on their data sources.)  
 

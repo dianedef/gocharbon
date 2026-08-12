@@ -46,7 +46,7 @@ Monter un média niche qui convertit sur des offres evergreen (SaaS, formation, 
 - [Quiz avancé (validation)](/quiz-avance)
 - [Suivi du parcours](/parcours/affiliation)
 - [Ressource utile 1](/tutos/creer-un-programme-affilie)
-- [Ressource utile 2](/biz/affiliation/legal)
+- [Ressource utile 2](/tutos/comment-gerer-les-liens-daffiliation-au-niveau-seo)
 - [Ressource utile 3](/seo/fondamentaux/bases-seo)
 
 ## Idées de contenus pour aller plus loin

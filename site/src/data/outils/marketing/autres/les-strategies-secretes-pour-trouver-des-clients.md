@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: blog
 statut: []
 _priorité: normal
 imageNameKey: null
@@ -12,7 +10,8 @@ tags:
 title: Les Stratégies Secrètes Pour Trouver Des Clients Qui Vous Supplient De Leur
   Vendre
 author: Diane
-description: "Les Stratégies Secrètes Pour Trouver Des Clients Qui Vous Supplient De Leur Vendre."
+description: 'Découvre Les Stratégies Secrètes Pour Trouver Des Clients Qui Vous Supplient
+  De Leur Vendre : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

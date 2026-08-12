@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: evenements
 u_site: null
 title: Révolutionnez Vos Événements Avec Ce Logiciel De Billetterie Français
 author: Diane
-description: "Révolutionnez Vos Événements Avec Ce Logiciel De Billetterie Français."
+description: 'Découvre Révolutionnez Vos Événements Avec Ce Logiciel De Billetterie
+  Français : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

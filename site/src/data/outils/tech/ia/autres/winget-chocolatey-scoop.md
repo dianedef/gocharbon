@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Winget Chocolatey Scoop
 author: Diane
@@ -11,22 +11,37 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Winget Chocolatey Scoop
+[Browse the winget repository - winstall](https://winstall.app/)
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+Winget est recommandé pour plusieurs raisons :
 
-## Ressources de départ
-- [https://winstall.app/](https://winstall.app/)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+1. **C'est l'outil officiel de Microsoft** :
+   - Intégré à Windows 10/11
+   - Pas besoin d'installer un gestionnaire de paquets supplémentaire
+   - Mises à jour gérées par le système
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+2. **Plus simple à utiliser** :
+   - Une seule commande : `winget install yt-dlp`
+   - Pas de configuration supplémentaire
+   - Pas besoin de droits administrateur
+
+3. **Chocolatey (choco)** nécessite :
+   - Installation de Chocolatey lui-même
+   - Droits administrateur
+   - PowerShell en mode administrateur
+
+Donc je recommande :
+
+```assistant_snippet_64r5vvwxAg.txt
+1|1|winget install yt-dlp
+```
+
+
+Une fois installé, vous pourrez vérifier que ça fonctionne avec :
+```assistant_snippet_Jf/KZ5UQ4O.txt
+1|1|1|yt-dlp --version
+```
+
+
+Voulez-vous que je lance la commande winget ?

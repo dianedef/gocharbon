@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: De 0 À 100K€ L'Histoire Folle De Wp Umbrella Qui Va Vous Inspirer
 author: Diane
-description: "De 0 À 100K€ L'Histoire Folle De Wp Umbrella Qui Va Vous Inspirer."
+description: 'Découvre De 0 À 100K€ L''Histoire Folle De Wp Umbrella Qui Va Vous Inspirer
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

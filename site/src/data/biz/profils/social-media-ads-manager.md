@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Gestionnaire de publicités social media
-author: Diane GoCharbon
+title: Social Media Ads Manager / Gestionnaire de Publicités Réseaux Sociaux
+author: Web Indé
 tags:
 - Business
-description: 'Piloter des campagnes publicitaires sociales avec une logique de marge,
-  de test et de responsabilité.'
+description: 'Gère les publicités social media : Meta Ads, stratégies et acquisition
+  clients pour freelances.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Gestionnaire de publicités social media
+# Social Media Ads Manager / Gestionnaire de Publicités Réseaux Sociaux
 
 ## Description en une phrase
 

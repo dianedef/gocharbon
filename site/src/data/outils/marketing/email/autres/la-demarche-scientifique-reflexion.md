@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -32,7 +32,7 @@ Good news: with practice, your brain can quickly adopt these models! 🙌🏼
 
 ## >Why Did We Create This App?
 
-We discovered that many of us simply want confirmation that we're making good décisions. Key models assist us in this and do not require us to rely on anyone other than ourselves! However, our research revealed that the vast majority of people are unaware that these models exist! So we want to raise awareness about these powerful tools and help you learn a few of them. 😀  
+We discovered that many of us simply want confirmation that we're making good decisions. Key models assist us in this and do not require us to rely on anyone other than ourselves! However, our research revealed that the vast majority of people are unaware that these models exist! So we want to raise awareness about these powerful tools and help you learn a few of them. 😀  
 
 ## >What's Next?
 
@@ -45,7 +45,7 @@ Join the newsletter to get new models and announcements the moment they are shar
 
 ### ℹ️ About
 
-A set of thinking tools and frameworks to assist you in solving problems, making décisions, and understanding systems.  
+A set of thinking tools and frameworks to assist you in solving problems, making decisions, and understanding systems.  
   
 [Buy me a coffee to support this project!](https://www.buymeacoffee.com/keymodels) and [Click here](https://www.keymodels.co/about) if you want to learn more about this tool!
 

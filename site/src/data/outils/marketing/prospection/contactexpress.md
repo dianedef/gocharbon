@@ -1,43 +1,47 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: contactexpress
 u_site: https://www.contact-express.net/
 u_affi: null
-title: Contact Express
+title: Contactexpress
 author: Diane
-description: Contact Express est un outil de prospection B2B orienté extraction d'emails et ciblage d'entreprises pour les petites structures.
+description: 'Découvre Contactexpress : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-# Contact Express
+**Matisoft Édition** est une entreprise française spécialisée dans le marketing en ligne.
 
-## En bref
+Nous proposons des solutions pour aider les indépendants et les TPE à prospecter efficacement et gérer au mieux la stratégie marketing sur Internet.
 
-Contact Express parle à un public très concret : les indépendants, TPE et petites équipes qui veulent constituer des listes B2B ciblées sans passer par une stack sales complexe. On est sur un outil utilitaire, orienté collecte et prospection plutôt que plateforme “all-in-one” ambitieuse.
+**Matisoft Édition** assure également le service après-vente des logiciels Prospective et Contact-Express.
 
-## Pour qui ?
+**Matisoft Édition**
 
-- Les petites structures qui prospectent en direct.
-- Les indépendants qui veulent aller au-delà d'Excel.
-- Les équipes commerciales qui ont besoin d'une base ciblée rapidement.
+Adresse: 11 Rue Telemann - 72320 Vibraye (Sarthe)
 
-## Ce que l'outil fait bien
+Téléphone: 02 43 76 28 74
 
-- Répondre à un besoin simple de ciblage B2B.
-- Garder une promesse lisible pour des utilisateurs non techniques.
-- Éviter une partie du bricolage autour de la constitution de listes.
+Siret: 48996156500046
 
-## Ce qu'il faut garder en tête
+# **[Prospective](https://app.instapage.com/route/21273036/?url=www.prospective-fr.com/)**
 
-- L'efficacité dépend beaucoup de la qualité réelle des données.
-- Une liste seule n'apporte pas de rendez-vous ; il faut un angle de contact crédible.
-- L'outil semble pertinent surtout pour des usages simples et assumés.
+# La relation client sans prise de tête !
 
-## Verdict GoCharbon
+# Aujourd'hui, pour gérer nos clients, nous avons le choix entre Excel ou des services en ligne à 30 euros par mois minimum, Prospective est une alternative efficace et économique !
 
-Contact Express a du sens si tu cherches un outil de terrain, sans folklore startup. À évaluer avec une question simple : est-ce qu'il te fait gagner du temps sans dégrader la qualité de ta prospection.
+[En savoir plus sur Prospective](https://www.prospective-fr.com/)
+
+
+# L'e-mailing B2B simple et efficace !
+
+# Pour réussir vos prospections par email, vous avez besoin de listes d'emails ciblés B2B et conformes au RGPD.
+
+# Contact-Express dispose d'un algorithme surpuissant de collecte d'emails ciblés sur Internet, selon vos critères, dans la France entière et par région.
+
+[En savoir plus sur Contact-Express](https://www.contact-express.net/)

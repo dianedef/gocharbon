@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Les Leviers Webmarketing Cachés Qui Vont Propulser Votre Business
 author: Diane
-description: "Les Leviers Webmarketing Cachés Qui Vont Propulser Votre Business."
+description: 'Découvre Les Leviers Webmarketing Cachés Qui Vont Propulser Votre Business
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -33,8 +32,8 @@ Skinner Auctions increased its image sizes online by 28%, resulting in 63% more 
 Website designers understand that high-quality facial images can improve conversions by an estimated 20%. By using close-up facial images, it is possible to increase page views, CTAs, and conversions.
 
 ## - L'avantage d'utiliser des vidéos
-- If your website has an explainer vidéo it is 50 times more likely to be ranked on Google’s first page. The presence of a vidéo thumbnail on SERP ensures your website gets maximum clicks compared to a text listing.
-- In fact, placing an explainer vidéo on your home page can increase conversions by 80 percent and 64 percent of users who watch your explainer vidéo are more likely to buy your product.
+- If your website has an explainer video it is 50 times more likely to be ranked on Google’s first page. The presence of a video thumbnail on SERP ensures your website gets maximum clicks compared to a text listing.
+- In fact, placing an explainer video on your home page can increase conversions by 80 percent and 64 percent of users who watch your explainer video are more likely to buy your product.
 
 ## la vitesse
 According to a StrangeLoop case study that involved Amazon, Google, and other top sites, a 1 second delay in page load time can lead to 7% loss in conversions, 11% fewer page views, and 16% decrease in customer satisfaction.Saviez vous que Google pénalise les sites lents ?

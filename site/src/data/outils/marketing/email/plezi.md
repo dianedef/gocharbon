@@ -1,40 +1,108 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-title: Plezi
+title: plezi
 author: Diane
 tags:
 - Outils
-description: Plezi est un outil de marketing automation B2B qui aide à capter, nourrir et transmettre des leads plus proprement aux équipes commerciales.
+description: '(Liste des avantages et principaux avantages attendus pour une entreprise
+  en utilisant ce logiciel, dans ce format: ) Génération de trafic qualifié Génération
+  de leads améliorée Au'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.plezi.co/fr/
 ---
 
-# Plezi
+# plezi
 
-## En bref
+## Plezi - Logiciel de Marketing Automation Pour le B2B
 
-Plezi se place sur un terrain très clair : le marketing automation B2B. L'idée n'est pas juste d'envoyer des emails, mais d'aider les équipes marketing à produire du contenu, capter des leads, les nourrir puis transmettre quelque chose d'un peu plus propre aux commerciaux.
+(Liste des avantages et principaux avantages attendus pour une entreprise en utilisant ce logiciel, dans ce format: )
+Génération de trafic qualifié
+Génération de leads améliorée
+Automatisation des tâches marketing
+Amélioration de la satisfaction client
+…
 
-## Pour qui ?
+(Liste des différents segments du public cible de ce logiciel, dans ce format: )
+🎯 Entrepreneurs individuels
+🎯 Startups en croissance
+🎯 PME et grandes entreprises
+🎯 E-commerçants
+…
 
-- Les PME B2B avec une logique inbound.
-- Les équipes marketing qui veulent un outil plus orienté lead nurturing que newsletter.
-- Les structures qui ont besoin de relier contenu, formulaires, emails et suivi.
+(Liste des concurrents connus ou des alternatives au logiciel, dans ce format: )
+♻️ HubSpot
+♻️ Marketo
+♻️ Salesforce Marketing Cloud
+…
 
-## Ce que l'outil fait bien
+(Liste de toutes les fonctionnalités de cette manière: 
 
-- Structurer le marketing automation dans un cadre B2B.
-- Relier captation de leads et nurturing.
-- Donner un environnement plus cohérent à une stratégie de contenu commerciale.
+## (Emoji)(Fonctionnalité1)
 
-## Ce qu'il faut garder en tête
+(description détaillée de la fonctionnalité)
 
-- Le marketing automation n'a d'intérêt que si le fond suit : offre, contenu, segmentation.
-- Plus l'outil promet d'automatiser, plus il faut être clair sur les scénarios réellement utiles.
-- Si tu n'as pas encore de machine marketing minimale, tu risques d'acheter une couche logicielle avant d'avoir le moteur.
+## (Emoji)(Fonctionnalité2)
 
-## Verdict GoCharbon
+(description détaillée de la fonctionnalité)
 
-Plezi est cohérent pour une équipe B2B déjà engagée dans une logique inbound. Beaucoup moins pertinent si tu cherches juste un logiciel d'emailing avec un joli vernis “automation”.
+## (Emoji)(Fonctionnalité3)
+
+(description détaillée de la fonctionnalité)
+
+…
+)
+
+## Prix
+
+(Quels sont les plans logiciels auxquels nous pourrions souscrire?)
+
+## L'équipe et l'Histoire
+
+(Qui a créé ce logiciel? Pourquoi l'ont-ils construit? Quels ont été les obstacles?)
+
+## Feuille de Route
+
+(Qu'est-il prévu d'être lancé bientôt? Ont-ils une feuille de route publique?)
+
+## Ressources
+
+(URL des réseaux sociaux, documentation, email de support…)
+
+## Programme de Parrainage
+
+(Pouvons-nous trouver un programme de parrainage ou d'affiliation pour ce logiciel?)
+
+## Intégrations
+
+(Quelles intégrations avec d'autres outils sont disponibles? Ont-ils une API? Webhooks?)
+
+## Comment Utiliser
+
+(Listez les étapes pour utiliser le logiciel à son plein potentiel, en tenant compte de la science du webmarketing)
+
+## En Résumé
+
+(Quelle est la technologie ou la méthodologie spécifique qu'ils utilisent, le cas échéant?)
+
+## Démonstration
+
+(Laissez vide)
+
+## Mon Avis
+
+(Un résumé sur l'utilité de l'outil)
+
+(Listez les avantages du logiciel dans ce format: )
+👍 Facile à mettre en place
+👍 ROI rapide
+👍 Personnalisation des workflows
+👍 Support client réactif
+…
+
+(Listez les inconvénients du logiciel dans ce format: )
+👎 Coût élevé
+👎 Courbe d'apprentissage initiale
+👎 Peut être trop complexe pour certains utilisateurs
+…

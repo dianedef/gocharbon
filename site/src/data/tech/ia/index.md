@@ -58,7 +58,7 @@ Les modèles modernes (GPT, Claude, Gemini) utilisent l'architecture Transformer
 | ------------- | ------------------------ | -------------------- |
 | Text-to-Text  | Traduction, résumé, chat | GPT-4, Claude 3      |
 | Text-to-Image | Génération images        | DALL-E 3, Midjourney |
-| Text-to-Vidéo | Création vidéos          | Runway Gen-2         |
+| Text-to-Video | Création vidéos          | Runway Gen-2         |
 | Text-to-3D    | Modélisation 3D          | Point-E, Shap-E      |
 
 ### Limites

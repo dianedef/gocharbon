@@ -5,14 +5,14 @@ description: "Plan d'action pour Chatbot Developer (No-Code)."
 category: "tech"
 level: "debutant"
 status: "active"
-updatedAt: "2026-03-25"
+updatedAt: "2026-03-01"
 ---
 ## Ton objectif
 Creer des chatbots utiles qui resolvent un cas concret (support, contact, démarrage).
 
 ## En clair (version simple)
 - Pour qui : PME services, e-commerce et support client surcharge.
-- Où trouver les clients : Avant/après temps de réponse et taux qualification.
+- Où trouver les clients : Avant/apres temps de réponse et taux qualification.
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
 ## Idées d'offres à tester
@@ -22,7 +22,7 @@ Creer des chatbots utiles qui resolvent un cas concret (support, contact, démar
 
 ## Ton plan simple sur 7 jours
 1. Jour 1 : rends "Bot FAQ + handoff humain" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
-2. Jours 2-4 : utilise ton canal principal (Avant/après temps de réponse et taux qualification.) pour proposer "Bot qualification contacts multicanal" à tes premiers clients et noter leurs retours.
+2. Jours 2-4 : utilise ton canal principal (Avant/apres temps de réponse et taux qualification.) pour proposer "Bot qualification contacts multicanal" à tes premiers clients et noter leurs retours.
 3. Jours 5-7 : continue avec "Pack optimisation intents + training mensuel", puis suis taux résolution bot et taux handoff propre, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre
@@ -31,7 +31,7 @@ Creer des chatbots utiles qui resolvent un cas concret (support, contact, démar
 - contacts qualifiés via bot
 
 ## Pièges à éviter
-- Bot sans base connaissance fiable : sur ce point, l'idée utile de [WebCode d'Exa](https://exa.ai/blog/webcode) est simple, un bot ne vaut pas grand-chose s'il ne récupère pas le bon passage de la bonne source
+- Bot sans base connaissance fiable
 - Conversation trop rigide
 - Absence process escalation
 
@@ -44,7 +44,7 @@ Creer des chatbots utiles qui resolvent un cas concret (support, contact, démar
 - [Fiche profil Chatbot Developer](/biz/profils/chatbot-developer)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/developpeur-chatbot)
+- [Suivi du parcours](/parcours/chatbot-developer)
 - [Ressource utile 1](/tutos/chatbot-whatsapp)
 - [Ressource utile 2](/tutos/creer-chatbot-messenger)
 - [Ressource utile 3](/tutos/creer-un-custom-gpt-gratuitement)

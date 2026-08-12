@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Pub La Plus Puissante Au Monde Comment L'Utiliser Pour Exploser Vos Ventes
 author: Diane
-description: "La Pub La Plus Puissante Au Monde Comment L'Utiliser Pour Exploser Vos Ventes."
+description: 'Découvre La Pub La Plus Puissante Au Monde Comment L''Utiliser Pour
+  Exploser Vos Ventes : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

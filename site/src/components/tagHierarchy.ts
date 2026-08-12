@@ -110,15 +110,6 @@ export const tagHierarchy: TagHierarchy = {
           'Acquisition': { label: 'Acquisition' }
         }
       },
-      copywriting: {
-        label: 'Copywriting',
-        subtags: {
-          'Frameworks': { label: 'Frameworks' },
-          'Persuasion': { label: 'Persuasion' },
-          'Email Copy': { label: 'Email Copy' },
-          'Direct Response': { label: 'Direct Response' }
-        }
-      },
       publicite: {
         label: 'Publicité',
         subtags: {
@@ -201,6 +192,7 @@ export const tagHierarchy: TagHierarchy = {
       outils: {
         label: 'Outils',
         subtags: {
+          'Apps': { label: 'Applications' },
           'IA': { label: 'Intelligence Artificielle' },
           'Scraping': { label: 'Scraping' },
           'Audio': { label: 'Audio' },

@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: formation
-toolSubcategoryPrimary: learning
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -10,7 +8,9 @@ u_site: null
 title: Créez Des Formations Qui Se Vendent Comme Des Petits Pains Avec Ces Outils
   Magiques
 author: Diane
-description: "Créez Des Formations Qui Se Vendent Comme Des Petits Pains Avec Ces Outils Magiques."
+description: 'Découvre Créez Des Formations Qui Se Vendent Comme Des Petits Pains
+  Avec Ces Outils Magiques : outil français pour entrepreneurs, fonctionnalités et
+  avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,12 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Storyfox
 author: Diane
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: video
-toolFacets:
-  - ia
 tags:
 - Outils
 description: Storyfox est la plateforme française de création vidéo d'entreprise avec
@@ -23,17 +19,17 @@ u_site: https://www.storyfox.io
 
 ### tl;dr
 
-Storyfox est une plateforme française de création vidéo d'entreprise avec IA, fondée par **Julie Machillot** (CEO, serial entrepreneur). SAS, SIREN 810 472 431, 15 rue de Milan, Paris 9e. Entité créée en mars 2015 (sous le nom Apitalent), produit vidéo lancé fin 2020. **4 000+ utilisateurs**. **1M€ levés** en septembre 2021 (Business Angels + Bpifrance). Clients : **LVMH**, **Sanofi**, **Sopra Steria**, **BNP Paribas**, **RATP**, **KPMG**, **Bouygues Construction**. 8 fonctionnalités IA : correction du regard, suppression des silences, auto-zoom, sous-titres automatiques, et plus. Captation guidée depuis smartphone + montage automatisé + templates motion design personnalisables. App mobile iOS et Android. Partenariat **Kumullus** (juillet 2025) pour le vidéo learning. Actuellement 8 employés. Blog du Modérateur : 4,8/5. Tarifs sur devis (démo requise).
+Storyfox est une plateforme française de création vidéo d'entreprise avec IA, fondée par **Julie Machillot** (CEO, serial entrepreneur). SAS, SIREN 810 472 431, 15 rue de Milan, Paris 9e. Entité créée en mars 2015 (sous le nom Apitalent), produit vidéo lancé fin 2020. **4 000+ utilisateurs**. **1M€ levés** en septembre 2021 (Business Angels + Bpifrance). Clients : **LVMH**, **Sanofi**, **Sopra Steria**, **BNP Paribas**, **RATP**, **KPMG**, **Bouygues Construction**. 8 fonctionnalités IA : correction du regard, suppression des silences, auto-zoom, sous-titres automatiques, et plus. Captation guidée depuis smartphone + montage automatisé + templates motion design personnalisables. App mobile iOS et Android. Partenariat **Kumullus** (juillet 2025) pour le video learning. Actuellement 8 employés. Blog du Modérateur : 4,8/5. Tarifs sur devis (démo requise).
 
 ### Alternative à
 
-Pitchy, PlayPlay, Adobe Première Rush, InVideo, Animoto, Lumen5, Canva Vidéo. Storyfox se distingue par sa **captation guidée depuis smartphone** (pas besoin de caméra ni de compétences techniques), son **montage 100% automatisé** (l'IA insère le motion design dans les rushs), ses **8 fonctionnalités IA** (dont correction du regard et suppression des silences), et sa **vidéo collaborative à distance** (invite des contributeurs à filmer depuis n'importe où).
+Pitchy, PlayPlay, Adobe Premiere Rush, InVideo, Animoto, Lumen5, Canva Video. Storyfox se distingue par sa **captation guidée depuis smartphone** (pas besoin de caméra ni de compétences techniques), son **montage 100% automatisé** (l'IA insère le motion design dans les rushs), ses **8 fonctionnalités IA** (dont correction du regard et suppression des silences), et sa **vidéo collaborative à distance** (invite des contributeurs à filmer depuis n'importe où).
 
 ## Bénéfices
 
 **Captation guidée : n'importe qui devient vidéaste** — Storyfox guide le tournage étape par étape depuis un smartphone. Instructions de cadrage, stabilisation, durée optimale de chaque séquence. Un collaborateur sans aucune compétence vidéo peut filmer un témoignage professionnel en suivant les instructions. LVMH, Sanofi et BNP Paribas utilisent cette approche pour démultiplier leur production vidéo interne.
 
-**Montage automatisé par IA** — Tu filmes, Storyfox monte. L'IA insère automatiquement le motion design, les transitions, les titrages et l'habillage graphique dans tes rushs vidéo. Pas besoin de Première Pro ou DaVinci Resolve. Le montage est prêt en quelques minutes, pas en quelques heures.
+**Montage automatisé par IA** — Tu filmes, Storyfox monte. L'IA insère automatiquement le motion design, les transitions, les titrages et l'habillage graphique dans tes rushs vidéo. Pas besoin de Premiere Pro ou DaVinci Resolve. Le montage est prêt en quelques minutes, pas en quelques heures.
 
 **8 fonctionnalités IA intégrées** — Correction du regard (eye contact enhancement), suppression automatique des silences, auto-zoom intelligent, sous-titres automatiques, et plus. Ces fonctionnalités améliorent la qualité du résultat final sans intervention manuelle.
 
@@ -118,7 +114,7 @@ Pour demander une démo : storyfox.io ou contact via le site
 
 ### Partenariats
 
-- **Kumullus** — Partenariat annoncé en juillet 2025 pour le vidéo learning. Combinaison de la captation guidée Storyfox avec la plateforme d'engagement vidéo Kumullus
+- **Kumullus** — Partenariat annoncé en juillet 2025 pour le video learning. Combinaison de la captation guidée Storyfox avec la plateforme d'engagement vidéo Kumullus
 
 ## L'équipe et l'Histoire
 
@@ -127,7 +123,7 @@ Pour demander une démo : storyfox.io ou contact via le site
 - **Fin 2020** — Lancement du produit vidéo **Storyfox**. Positionnement : création vidéo guidée pour les entreprises, sans compétences techniques requises
 - **Septembre 2021** — Levée de fonds de **1M€** auprès de Business Angels et **Bpifrance**. Accélération du développement produit et commercial
 - **2022-2024** — Acquisition de clients grands comptes : LVMH, Sanofi, Sopra Steria, BNP Paribas, RATP, KPMG, Bouygues Construction. Atteint 4 000+ utilisateurs. Développement des 8 fonctionnalités IA
-- **Juillet 2025** — Partenariat avec **Kumullus** pour le vidéo learning. Intégration des deux plateformes pour la formation vidéo en entreprise
+- **Juillet 2025** — Partenariat avec **Kumullus** pour le video learning. Intégration des deux plateformes pour la formation vidéo en entreprise
 
 **Siège** : 15 rue de Milan, 75009 Paris
 **Forme juridique** : SAS, SIREN 810 472 431
@@ -167,7 +163,7 @@ Pour demander une démo : storyfox.io ou contact via le site
 - App mobile iOS et Android native
 - Templates motion design personnalisables avec ta charte graphique
 - Support et onboarding en français
-- Partenariat Kumullus pour le vidéo learning (2025)
+- Partenariat Kumullus pour le video learning (2025)
 - Sans filigrane sur les vidéos exportées
 
 ## Points Faibles

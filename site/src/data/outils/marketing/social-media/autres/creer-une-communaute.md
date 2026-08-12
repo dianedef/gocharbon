@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -13,7 +13,7 @@ imgUrl: ../../../../../assets/astro.jpeg
 
 # Non, votre communauté n’est pas sur Instagram | Mélanie Carrière
 
-[https://melaniecarriere.fr/article/non-votre-communaute-nest-pas-sur-instagram](__MASK_0__)
+[https://melaniecarriere.fr/article/non-votre-communaute-nest-pas-sur-instagram](https://melaniecarriere.fr/article/non-votre-communaute-nest-pas-sur-instagram)
 
 # Le blog des communautés
 

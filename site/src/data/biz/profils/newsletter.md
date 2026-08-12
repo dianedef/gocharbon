@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Newsletter rentable
-author: Diane GoCharbon
+title: Newsletter / Email Business
+author: Web Indé
 tags:
 - Business
-description: 'Construire une newsletter qui devient un actif business, pas juste une
-  habitude d''envoi.'
+description: 'Lance une newsletter rentable : acquisition, rétention et monétisation
+  pour créateurs indépendants.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Une newsletter, c'est un canal direct entre toi et une audience. Bien utilisée, elle peut devenir un actif très fort. Mal pensée, elle finit en routine de publication sans angle clair ni vrai modèle économique.
+Une newsletter, c'est une publication régulière envoyée par email à des abonnés. Tu partages du contenu de valeur (insights, curation, analyses) et tu monétises via sponsoring, affiliation, produits, ou abonnements payants. C'est comme être créateur de contenu, mais dans les boîtes mail.
 
 L'énorme avantage : tu POSSÈDES ta liste (pas dépendant d'un algorithme). Si Instagram ferme demain, tes followers disparaissent. Tes emails ? Ils sont à toi. C'est l'actif digital le plus précieux.
 
@@ -441,3 +441,4 @@ L'énorme avantage : tu POSSÈDES ta liste (pas dépendant d'un algorithme). Si 
 ---
 
 **Bottom line:** La newsletter est un excellent moyen de construire une audience que tu POSSÈDES vraiment. Croissance lente mais stable, monétisation possible après 1000+ subs, et potentiel de revenu passif une fois établi. Parfait si tu aimes écrire et que tu veux éviter la dépendance aux algorithmes des réseaux sociaux. Mais faut VRAIMENT aimer écrire et être patient (2-3 ans pour un revenu confortable).
+

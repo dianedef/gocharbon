@@ -11,39 +11,16 @@
 # FRONTMATTER OBLIGATOIRE :
 title: "Nom de l'Outil"
 author: Diane
-section: outils
-type: outil
 tags:
-  - 'Outils'                 # Tag legacy / compat. Ne pas s'en servir comme taxonomie principale.
-# toolCategoryPrimary: "marketing"      # Taxonomie canonique principale
-# toolSubcategoryPrimary: "seo"         # Sous-catégorie canonique principale
-# toolFacets:                           # Facettes secondaires pour listings transversaux
-#   - "ia"
-#   - "email-marketing"
+  - 'Outils Français'       # Toujours présent
+  - 'Sous-catégorie'         # Ex: Comptabilité, CRM, SEO, IA, Email...
+  - 'Catégorie parente'      # Ex: Business, Marketing, Tech...
 description: "1-2 phrases percutantes. Inclure : ce que fait l'outil + chiffre clé (nb clients, levée, note) + prix d'entrée si dispo. Max 160 caractères pour le SEO."
 pubDate: "YYYY-MM-DD"
 imgUrl: ../../assets/astro.jpeg
-# Ajuster la profondeur si la fiche n'est pas dans src/data/outils/<categorie>/<sous-categorie>/
 # FRONTMATTER OPTIONNEL :
 # u_site: "https://..."     # URL officielle de l'outil
 # u_affi: "https://..."     # Lien affilié (si dispo)
-# u_origine: "FR"            # Pays d'origine : FR, US, UK, DE, IL, etc.
-# u_langue_fr: true          # Interface disponible en français
-# qualificationLocale: france # france | union-europeenne | hors-union-europeenne | indetermine
-# ancrageEconomique: fort     # fort | partiel | faible | indetermine
-# niveauResponsabilite: partiel # fort | partiel | faible | indetermine
-# paysSiege: "France"
-# paysFiscal: "France"
-# paysFondateurs:
-#   - "France"
-# hebergementDonnees: union-europeenne # france | union-europeenne | hors-union-europeenne | multi-region | inconnu
-# societeMere: "Nom de la holding / groupe"
-# sourcesVerification:
-#   - "https://site-officiel.example/legal"
-#   - "https://societe.example/fiche"
-# notesQualification: "Nuance importante sur la structure, la fiscalité ou l'hébergement."
-# methodologieVersion: "gocharbon-v1"
-# u_derniere_maj: "YYYY-MM-DD" # Date de dernière vérification/mise à jour
 # draft: true                # Brouillon non publié
 ---
 
@@ -264,9 +241,7 @@ SECTIONS OPTIONNELLES (si pertinent) :
 TAGS DISPONIBLES (src/components/tagHierarchy.ts) :
 - Catégories parentes : Business, Marketing, Tech, Contenu, SEO, Productivité, Tutoriels, Apps
 - Sous-tags : voir tagHierarchy.ts pour la liste complète
-- Si outil français (u_origine: FR) → tag 'Outils Français' + sous-catégorie + catégorie parente
-- Si outil étranger avec version FR → tag 'Outils' (sans "Français") + sous-catégorie + catégorie parente
-- Toujours préciser dans le contenu si l'outil n'est pas français
+- Toujours inclure 'Outils Français' + sous-catégorie + catégorie parente
 
 SEO :
 - Title = nom de l'outil (sera utilisé dans l'URL slug)

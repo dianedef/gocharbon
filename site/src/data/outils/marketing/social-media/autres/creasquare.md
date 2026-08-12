@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: creasquare
@@ -19,7 +19,7 @@ imgUrl: ../../../../../assets/astro.jpeg
 <br><br>- TikTok **captions**<br><br>- **Visibility** settings<br><br>- Allow to **Stitch, Duet or Comment**.|
 
 
-|Creasquare now supports **direct publishing to Instagram Stories**! You can schedule **multiple vidéos (up to 60 seconds) & images** to your daily story.|
+|Creasquare now supports **direct publishing to Instagram Stories**! You can schedule **multiple videos (up to 60 seconds) & images** to your daily story.|
 
 |**Bonus**: Instagram now accepts business AND creators accounts to be connected to Creasquare. No longer need to switch to a business account if you are already creator!|
 

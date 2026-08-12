@@ -115,7 +115,7 @@ Les discussions sur les réseaux sociaux contiennent des informations précieuse
 - Mention pour les alertes en temps réel
 - Scrapers custom pour des analyses spécifiques
 
-## 6. Agrégation de Contenu Éditorial
+## 6. Agrégation de Contenu Editorial
 
 Créer du contenu de qualité demande de la veille. Le scraping automatises ta curation.
 

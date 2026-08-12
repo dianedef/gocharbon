@@ -34,7 +34,6 @@ export const parcoursSlugById: Record<string, string> = {
   saas: 'logiciel-saas',
   'seo-consultant': 'consultant-seo',
   setter: 'setter',
-  'testeur-utilisateur': 'tests-utilisateurs-remuneres',
   'social-media-ads-manager': 'gestionnaire-publicites-reseaux-sociaux',
   'social-media-manager': 'gestionnaire-reseaux-sociaux',
   'stock-photography': 'photographie-de-stock',

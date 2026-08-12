@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Créateur YouTube
-author: Diane GoCharbon
+title: YouTubeur
+author: Web Indé
 tags:
 - Business
-description: 'Construire une activité YouTube avec un vrai angle, une vraie cadence
-  et plusieurs leviers de monétisation.'
+description: 'Lance ta chaîne YouTube rentable : niche, contenu, monétisation et croissance
+  pour créateurs vidéo.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Créer sur YouTube, c'est bâtir une audience autour d'un format, d'un angle et d'une régularité. Le potentiel est réel, mais la plateforme récompense surtout la constance, la qualité de promesse et la capacité à tenir dans le temps.
+Être YouTubeur, c'est créer du contenu vidéo régulier sur YouTube et construire une audience. Tu monétises via plusieurs sources : pub YouTube (AdSense), sponsorings, affiliation, produits propres, etc. C'est un des rares business où tu peux vraiment construire un empire (MrBeast, PewDiePie commencé seuls dans leur chambre).
 
 L'avantage de YouTube vs TikTok/Instagram : le contenu est evergreen (tes vidéos continuent d'être vues des années après), le SEO Google (2ème moteur de recherche mondial), et les revenus sont plus élevés par vue.
 
@@ -33,7 +33,7 @@ L'avantage de YouTube vs TikTok/Instagram : le contenu est evergreen (tes vidéo
 ### Compétences requises
 
 - **Présentation/Oral** (niveau: intermédiaire) - Parler clairement face caméra
-- **Montage vidéo** (niveau: intermédiaire) - Rendre regardable (DaVinci, Première)
+- **Montage vidéo** (niveau: intermédiaire) - Rendre regardable (DaVinci, Premiere)
 - **Storytelling** (niveau: avancé) - Structure qui retient l'attention
 - **Créativité** (niveau: avancé) - Trouver des angles uniques
 - **Régularité** (niveau: CRITIQUE) - Poster régulièrement sans faillir
@@ -59,7 +59,7 @@ L'avantage de YouTube vs TikTok/Instagram : le contenu est evergreen (tes vidéo
   - Caméra DSLR d'occasion (400€)
   - Micro shotgun (150€)
   - Éclairage 3 points (200€)
-  - Première Pro (24€/mois)
+  - Premiere Pro (24€/mois)
   - Fond/décor
   
 - **Optimal: 5000€**

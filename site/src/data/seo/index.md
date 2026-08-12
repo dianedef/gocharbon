@@ -1,161 +1,174 @@
 ---
 section: blog
-title: 'SEO : ce qu''il faut vraiment faire avant de publier plus'
+title: 'SEO : Guide Complet'
 author: Diane
 tags:
 - SEO
-description: "Le SEO utile pour un solo entrepreneur ou une petite équipe : technique propre, contenu crédible, intentions claires, et zéro folklore."
-pubDate: '2026-04-19'
+description: Le référencement naturel sans bullshit. Ce qui marche vraiment en 2026.
+pubDate: '2026-01-17'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# SEO : ce qu'il faut vraiment faire avant de publier plus
+# SEO : Guide Complet
 
-Le SEO ne récompense pas les gens qui publient beaucoup. Il récompense surtout les sites qui aident Google à comprendre ce qu'ils proposent, et les lecteurs à trouver ce qu'ils cherchent.
+Le SEO n'est pas magique. C'est de la méthode, du temps et de la mesure. Google veut du contenu qui répond à une intention de recherche. Point.
 
-Le problème classique, c'est de produire trop tôt :
+## Les 3 piliers du SEO
 
-- trop de pages
-- trop de contenus moyens
-- trop de mots-clés sans vraie intention
-- trop de technique bricolée
+### 1. Technique
 
-Si tu es solo ou en petite équipe, la bonne stratégie n'est pas de faire plus. C'est de faire plus net.
+Ce que Google doit comprendre pour indexer ton site.
 
-## 1. Commence par le périmètre
+**Indispensable :**
 
-Avant de parler articles, backlinks ou IA, pose une question simple :
+- Vitesse de chargement < 3 secondes
+- Mobile-first responsive
+- Structure de clarté (H1 → H2 → H3)
+- Sitemap XML + Robots.txt
+- Canonicals pour éviter le duplicate content
 
-**quelles pages méritent vraiment d'être vues sur Google ?**
+**Outils :**
 
-Pour beaucoup de petits sites, la réponse tient dans un périmètre réduit :
+- Google Search Console - Essentiel et gratuit
+- PageSpeed Insights - Performance
+- Screaming Frog - Audit technique
+- GTmetrix - Vitesse détaillée
 
-- une page d'accueil claire
-- quelques pages piliers
-- quelques pages transactionnelles
-- un nombre limité d'articles réellement utiles
+### 2. Contenu
 
-Le reste peut attendre. Mieux vaut `20` pages solides que `200` pages molles.
+Le contenu doit répondre à l'intention de recherche, pas au volume de mots.
 
-## 2. Rends le site compréhensible
+**Types d'intention :**
 
-Google rappelle toujours la même chose dans son [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) : un site doit être exploré, compris et utile.
+| Intention      | Exemple de requête          | Format optimal         |
+| -------------- | --------------------------- | ---------------------- |
+| Informationnel | "Comment optimiser son SEO" | Guide complet          |
+| Transactionnel | "Avoir le meilleur CRM      | Comparaison + avis     |
+| Navigationnel  | "GoCharbon"                 | Page d'accueil directe |
+| Investigation  | "CRM vs Notion              | Tableau comparatif     |
 
-Concrètement, ça veut dire :
+**Ce qui marche en 2026 :**
 
-- une architecture lisible
-- des URLs stables
-- des titres de pages clairs
-- un maillage interne cohérent
-- un sitemap propre
-- pas de pages parasites indexées par accident
+- Contenu long-form (1000-2000 mots) pour les requêtes informationnelles
+- E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
+- Réponses directes, pas de fluff
+- Mise à jour régulière (Google favorise le contenu frais)
 
-Si ton site mélange brouillons, archives inutiles, tags vides et pages faibles, tu dilues ton signal.
+### 3. Autorité (Backlinks)
 
-## 3. Travaille l'intention, pas juste le mot-clé
+Les backlinks sont des votes de confiance.
 
-Un mot-clé n'a pas beaucoup de valeur tout seul. Ce qui compte, c'est l'intention derrière.
+**Stratégie qui marche :**
 
-Exemples :
+- Créer du contenu qu'on veut citer (études, données originales)
+- Guest posting sur des sites de qualité
+- Digital PR (storytelling autour de ton expertise)
+- Réparer les liens brisés (broken link building)
 
-- `comment choisir un CRM` : intention d'évaluation
-- `meilleur outil emailing français` : intention de comparaison
-- `prix création site vitrine` : intention commerciale
-- `notion ou airtable` : intention de décision
+**Ce qui ne marche plus :**
 
-Si tu écris un guide informationnel pour une requête qui attend une comparaison, tu peux avoir du bon contenu et quand même rater la cible.
+- Annuaire de spam
+- Échanges de liens
+- Commentaires avec liens
+- PBN (Private Blog Networks)
 
-Le bon réflexe :
+## Les 5 erreurs à éviter
 
-- choisir une intention
-- choisir un format
-- répondre vite
-- développer ensuite
+### 1. Surcharger en mots-clés
 
-## 4. Le contenu utile bat le contenu gonflé
+Keyword stuffing = pénalité.
 
-Le SEO n'a pas besoin de textes bavards. Il a besoin de pages qui font le job.
+❌ "Le SEO c'est le référencement naturel SEO optimisé pour le SEO."
 
-Une bonne page SEO aujourd'hui :
+✅ "Le référencement naturel améliore ta visibilité sur les moteurs de recherche."
 
-- répond rapidement à la question
-- montre un point de vue
-- aide à prendre une décision
-- évite le remplissage
-- reste cohérente avec la promesse du site
+### 2. Ignorer Core Web Vitals
 
-Si tu n'as rien d'original à dire, mieux vaut publier plus tard.
+Google mesure l'expérience utilisateur.
 
-## 5. La technique sert la lisibilité
+**KPIs :**
 
-La technique ne remplace pas le fond, mais elle peut très bien saboter le fond.
+- LCP (Largest Contentful Paint) < 2.5s
+- FID (First Input Delay) < 100ms
+- CLS (Cumulative Layout Shift) < 0.1
 
-Les points à surveiller en priorité :
+### 3. Négliger le mobile
 
-- indexation réelle des bonnes pages
-- balises `title` et `meta description` propres
-- canonicals cohérents
-- absence de duplication grossière
-- compatibilité mobile
-- vitesse correcte
+62% du trafic est mobile. Si ton site pète sur mobile, Google te pénalise.
 
-Sur la partie performance, Google continue de s'appuyer sur les Core Web Vitals. La logique officielle reste simple : un site lent, instable ou peu réactif dégrade l'expérience. Voir `web.dev` : [Core Web Vitals thresholds](https://web.dev/articles/defining-core-web-vitals-thresholds).
+### 4. Copier le contenu des concurrents
 
-Tu n'as pas besoin d'adorer les métriques. Tu as juste besoin d'éviter que le site soit pénible.
+Google détecte le duplicate content instantanément. Sois original.
 
-## 6. Ce qu'une petite équipe devrait faire en premier
+### 5. S'arrêter après 2 mois
 
-Si tu veux un plan sobre et réaliste :
+Le SEO prend 6-12 mois avant de voir des résultats. Sois patient.
 
-### Semaine 1
+## Plan d'action : 90 jours
 
-- définir les pages qui doivent être indexées
-- corriger `robots`, sitemap et canonicals
-- vérifier que le site mobile est propre
+### Mois 1 : Audit + Technique
 
-### Semaine 2
+- [ ] Audit technique complet (Screaming Frog)
+- [ ] Corriger les erreurs 404 et 301
+- [ ] Optimiser la vitesse de chargement
+- [ ] Installer Google Search Console
+- [ ] Créer le sitemap XML
 
-- retravailler les `titles`
-- clarifier les promesses des pages piliers
-- supprimer ou noindexer les pages faibles
+### Mois 2 : Contenu + Recherche de mots-clés
 
-### Semaine 3
+- [ ] Identifier 20-30 mots-clés cibles (Ahrefs, Semrush)
+- [ ] Écrire 4-5 articles long-form
+- [ ] Optimiser les méta descriptions et title tags
+- [ ] Créer le maillage interne
+- [ ] Analyser les positions dans Search Console
 
-- publier ou refondre `3 à 5` contenus vraiment utiles
-- ajouter un maillage interne logique
-- connecter Search Console
+### Mois 3 : Autorité + Optimisation
 
-### Semaine 4
+- [ ] Lancer la stratégie de backlinks
+- [ ] A/B testing sur les CTA
+- [ ] Optimiser pour Core Web Vitals
+- [ ] Publier 8-10 articles
+- [ ] Commencer le link building actif
 
-- regarder les requêtes réelles
-- corriger les pages qui attirent mal le bon trafic
-- resserrer le périmètre si besoin
+## KPIs SEO à suivre
 
-## 7. Ce qu'il faut arrêter de faire
+| KPI                | Objectif            | Comment mesurer    |
+| ------------------ | ------------------- | ------------------ |
+| Trafic organique   | +50% en 12 mois     | Google Analytics 4 |
+| Position moyenne   | Top 20 → Top 10     | Ahrefs / Semrush   |
+| Click-through rate | > 5%                | Search Console     |
+| Temps sur page     | > 2 minutes         | GA4                |
+| Backlinks          | +10/mois de qualité | Ahrefs / Majestic  |
 
-Il y a trois pertes de temps très fréquentes :
+## Outils recommandés
 
-### Publier pour "occuper le terrain"
+### Gratuit (pour démarrer)
 
-Occuper le terrain avec des pages faibles, c'est souvent juste occuper ton backlog.
+| Outil                 | Usage                          |
+| --------------------- | ------------------------------ |
+| Google Search Console | Monitoring, erreurs, positions |
+| Google Analytics 4    | Trafic, comportement           |
+| PageSpeed Insights    | Performance, Core Web Vitals   |
+| Ubersuggest (gratuit) | Mots-clés, idées de contenu    |
 
-### Chercher la formule magique
+### Payant (quand tu es prêt)
 
-Il n'y a pas de hack durable qui remplace une structure claire, un contenu crédible et un site propre.
+| Outil      | Prix           | Pourquoi                               |
+| ---------- | -------------- | -------------------------------------- |
+| Ahrefs     | 99-999€/mois   | Le meilleur pour backlinks + mots-clés |
+| Semrush    | 119-449€/mois  | Suite SEO complète                     |
+| SurferSEO  | 59-199€/mois   | Optimisation de contenu                |
+| Clearscope | 170-1000€/mois | Analyse sémantique avancée             |
 
-### Tout mesurer sans décider
+## En savoir plus
 
-Search Console, Analytics et les outils SEO servent à choisir quoi corriger. Pas à contempler des courbes.
+- [Fondamentaux du SEO](/seo/fondamentaux) - Les bases indispensables
+- [Stratégie de contenu](/strategies/content-marketing) - Créer du contenu qui rank
+- [SEO technique](/tech/seo/technique) - Architecture et performance
+- [Black Hat & Automatisation](/seo/technique/black-hat-automation) - Stratégies avancées et scalabilité
+- [Netlinking](/seo/netlinking) - Stratégie de backlinks
+- [SEO Local](/seo/local) - Optimiser ta présence locale
 
-## Le vrai niveau de maturité SEO
+---
 
-Tu commences à avoir un SEO sain quand tu sais répondre à ces questions :
-
-- quelles pages méritent vraiment d'être indexées ?
-- quelles requêtes veux-tu capter, et pourquoi ?
-- quelles pages convertissent ou orientent vraiment ?
-- quelles pages sont là juste parce qu'elles existent ?
-
-Le SEO utile, ce n'est pas une discipline de volume. C'est une discipline de clarté.
-
-Moins de bruit. Plus de pages qui tiennent debout.
+Le SEO n'est pas une science exacte, mais il y a des principes qui marchent. Content de qualité, technique propre, autorité progressive. Le reste est du bruit. Commence aujourd'hui, sois patient, les résultats viendront.

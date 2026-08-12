@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -101,7 +101,7 @@ _Zen Writing - leaving you alone with your thoughts and your words_
 
 **Mark** (web: [`mark.barelyhuman.dev`](https://mark.barelyhuman.dev/), github: [`barelyhuman/mark`](https://github.com/barelyhuman/mark)) - Simple Web Markdown Editor
 
-**JekyllPad** (web: [`JekyllPad.com`](http://www.jekyllpad.com/tools/online-markdown-wysiwyg-editor)) Online WYSIWYG Markdown editor with professional features (Tables, Code Blocks, Youtube embde, Image/Vidéo embed, Pexels.com embed, etc.), Supports Github Pages static websites
+**JekyllPad** (web: [`JekyllPad.com`](http://www.jekyllpad.com/tools/online-markdown-wysiwyg-editor)) Online WYSIWYG Markdown editor with professional features (Tables, Code Blocks, Youtube embde, Image/Video embed, Pexels.com embed, etc.), Supports Github Pages static websites
 
 **Holocron** (web: [`holocron.so`](https://holocron.so/markdown-editor)), Collaborative Markdown editor with GitHub sync, WYSIWYG rendering, hosting, AI agents integration, accept suggestions from guests (automatically opens GitHub PR).
 
@@ -139,7 +139,7 @@ Editors designed to be used by developers for use in websites and web apps.
 
 **Docs to Markdown Pro** (web: [Docs to Markdown Pro](https://www.docstomarkdown.pro/), Google Workspace Marketplace Extension: [Docs to Markdown Pro Extension](https://workspace.google.com/marketplace/app/docs_to_markdown_pro/483386994804) Starts from 29$ per year) - This Google Docs editor add-on converts your Google Docs to Markdown format, including images. It integrates with GitHub and GitLab, allowing you to write collaboratively in Google Docs and commit your work directly as Markdown (including images) to your repositories, streamlining your workflow.
 
-**Umo Editor** (web:[Umo Editor Playground](https://demo.umodoc.com/editor?lang=en-US), Documentation: [Umo Editor Documentation](https://editor.umodoc.com/en/docs), Github: [umodoc/editor](https://github.com/umodoc/editor)) - Umo Editor is open-source document editor based on Vue3 and Tiptap. Umo Editor provides comprehensive document editing capabilities and AI création features, supports pagination, supports Markdown syntax, offers basic rich text editing functions, allows for the insertion of various node types in multiple formats, provides a variety of practical tools, and supports setting page styles. It also supports exporting in various formats, printing and print preview, block-level document editing, adding custom extensions, multi-language settings, and a dark theme.
+**Umo Editor** (web:[Umo Editor Playground](https://demo.umodoc.com/editor?lang=en-US), Documentation: [Umo Editor Documentation](https://editor.umodoc.com/en/docs), Github: [umodoc/editor](https://github.com/umodoc/editor)) - Umo Editor is open-source document editor based on Vue3 and Tiptap. Umo Editor provides comprehensive document editing capabilities and AI creation features, supports pagination, supports Markdown syntax, offers basic rich text editing functions, allows for the insertion of various node types in multiple formats, provides a variety of practical tools, and supports setting page styles. It also supports exporting in various formats, printing and print preview, block-level document editing, adding custom extensions, multi-language settings, and a dark theme.
 
 ## Markdown Desktop Editors
 
@@ -187,7 +187,7 @@ The current version, 0.9.23-1, still has some minor bugs and the OS X version is
 
 [**MarkFlowy**](https://github.com/drl990114/MarkFlowy) (FREE, open source)
 
-MarkFlowy is a very lightweight editor with built-in ChatGPT plugin (Although it is not mature enough, it is growing very fast.), allowing you to improve your editing efficiency and expérience.
+MarkFlowy is a very lightweight editor with built-in ChatGPT plugin (Although it is not mature enough, it is growing very fast.), allowing you to improve your editing efficiency and experience.
 
 [**MarkText**](https://github.com/marktext/marktext) (FREE, open source)
 

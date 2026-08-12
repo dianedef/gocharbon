@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://libeo.io/legal
-- https://help.libeo.io/fr/articles/5885609-mentions-legales
-- https://libeo.io/
-notesQualification: Libeo est une SAS francaise basee a Vincennes et fortement ancree dans l'ecosysteme finance francais; les pages consultees ne documentent pas clairement la residence exacte des donnees produit.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: libeo
 author: Diane
 tags:

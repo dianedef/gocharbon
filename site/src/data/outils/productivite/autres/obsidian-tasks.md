@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -46,7 +46,7 @@ due today
 ```
 ````
 
-Once I complète tasks that are overdue or due today, I like to widen my horizons, and focus on tasks that are _important_ but not _urgent_. We can do that by grabbing tasks that are high priority:
+Once I complete tasks that are overdue or due today, I like to widen my horizons, and focus on tasks that are _important_ but not _urgent_. We can do that by grabbing tasks that are high priority:
 
 ````
 ## Do Next
@@ -95,7 +95,7 @@ Feel free to copy the code above into your vault. If you have tasks enabled and 
 
 Working with a Today view might look something like this:
 
-Start every day (or every Obsidian session) with your Today view. Ideally you should immediately complète any tasks in the “Do Now” bucket, and make note of any tasks that exist in the “Do Today” bucket.
+Start every day (or every Obsidian session) with your Today view. Ideally you should immediately complete any tasks in the “Do Now” bucket, and make note of any tasks that exist in the “Do Today” bucket.
 
 After clearing those two buckets, take a look at tasks that are _important but not urgent_. This is typically the most valuable work, so it’s a good idea to empty the “urgent” inboxes first thing in the day to make room for the important stuff.
 

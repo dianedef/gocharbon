@@ -1,39 +1,151 @@
 ---
 section: tutos
-type: tuto
+type: Tuto
 statut: en-attente
 _priorité: normal
 tags:
 - Tutoriels
-title: Comment creer une liste email pour de la
+title: Comment Créer Une Liste Email Pour De La Prospection B2B
 author: Diane
-description: 'Tutoriel pratique pour creer une liste email pour de la : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Comment Créer Une Liste Email Pour De La Prospection B2B : outil français pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment creer une liste email pour de la
+# Créer une liste email B2B pour la prospection
 
-Si tu veux creer une liste email pour de la, pense d'abord réputation, clarté et segmentation. Le canal email fonctionne encore très bien, mais seulement quand tu respectes l'audience et que tu évites les raccourcis sales.
+Une bonne prospection commence par une bonne liste.
 
-## Ce qu'il faut préparer
+Si la liste est mauvaise, même le meilleur script ne convertit pas.
 
-- ta promesse
-- une base de contacts propre
-- un domaine ou sous-domaine correctement configuré
+## Objectif
 
-## La méthode simple
+Construire une liste B2B:
+- ciblée,
+- propre,
+- exploitable,
+- conforme.
 
-1. Clarifie le type d'email envoyé : prospection, nurturing, relance, newsletter ou transactionnel. Chaque cas a ses propres règles et attentes.
-2. Travaille la délivrabilité avant le copywriting. SPF, DKIM, DMARC, réputation et hygiène de liste comptent souvent plus qu'une formule de vente brillante.
-3. Observe ensuite les signaux utiles : taux de placement en boîte principale, réponses, clics, désinscriptions, plaintes, conversions.
+## Étape 1 - Définis ton ICP (client idéal)
 
-## Les erreurs à éviter
+Tu dois préciser:
+- secteur,
+- taille d'entreprise,
+- zone géographique,
+- poste cible,
+- problème principal.
 
-- envoyer trop tôt à une liste mal qualifiée
-- négliger la réputation du domaine
-- copier des séquences agressives qui abîment la confiance
+Exemple:
+"Photographes de mariage indépendants en France, 1 à 5 personnes, besoin de plus de leads qualifiés."
 
-## Commence comme ça
+## Étape 2 - Choisis ta source de collecte
 
-Ouvre d'abord ton DNS, ton outil d'envoi et ta première séquence. Si les fondations sont sales, le reste sera forcément bancal.
+Sources fréquentes:
+- Google Maps,
+- LinkedIn,
+- annuaires pros,
+- bases publiques.
+
+Commence par 1 source maîtrisée avant de multiplier.
+
+## Étape 3 - Extrait les données utiles
+
+Champs minimum:
+- entreprise,
+- prénom / nom (si possible),
+- email pro,
+- téléphone,
+- ville,
+- site web,
+- source,
+- date d'extraction.
+
+## Étape 4 - Enrichis et vérifie
+
+Fais une vérification email pour limiter les rebonds:
+- format valide,
+- domaine actif,
+- rôle générique vs nominatif.
+
+Priorise les emails nominatifs quand possible.
+
+## Étape 5 - Segmente avant envoi
+
+Découpe ta liste en segments:
+- secteur,
+- taille,
+- niveau de maturité,
+- urgence perçue.
+
+Tu pourras adapter ton message par segment.
+
+## Étape 6 - Prépare ton fichier d'envoi
+
+Colonnes recommandées:
+- `first_name`
+- `company`
+- `role`
+- `pain_point`
+- `email`
+- `source`
+
+Évite les caractères cassés et les colonnes inutiles.
+
+## Étape 7 - Lance un petit test
+
+N'envoie pas 2000 emails d'un coup.
+
+Lance un test sur 50-100 contacts:
+- mesure taux d'ouverture,
+- taux de réponse,
+- réponses positives,
+- rebonds.
+
+Puis ajuste la liste et le message.
+
+## KPI à suivre
+
+- bounce rate (taux de rebond),
+- reply rate (taux de réponse),
+- positive reply rate,
+- RDV obtenus,
+- coût par opportunité.
+
+## Cadre légal
+
+- respecte le RGPD,
+- informe clairement sur l'origine du contact,
+- propose un moyen simple de ne plus être contacté,
+- garde une trace de la source des données.
+
+## Erreurs fréquentes
+
+- cibler trop large,
+- envoyer sans vérification email,
+- ne pas segmenter,
+- personnaliser zéro ligne du message,
+- ne pas mesurer les résultats.
+
+## Checklist
+
+- [ ] ICP clair
+- [ ] source validée
+- [ ] données extraites
+- [ ] emails vérifiés
+- [ ] segments créés
+- [ ] test 50-100 contacts
+- [ ] KPI suivis
+
+## Ressources pour aller plus loin
+
+### Tutoriels liés
+
+- [Quelle API utiliser pour scraper Google Maps](/tutos/quelle-api-pour-scraper-google-maps)
+- [Comment se faire payer par ses clients](/tutos/comment-se-faire-payer-par-ses-clients)
+
+### Stratégie et automation
+
+- [Stratégie email: base simple et claire](/marketing/email/strategie)
+- [Automatisation email: workflows essentiels](/marketing/email/automation)
+
+Une liste B2B bien construite est un actif: elle te permet de prospecter régulièrement avec moins de friction.

@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Voix-off freelance
-author: Diane GoCharbon
+title: Voiceover Artist / Comédien de Doublage
+author: Web Indé
 tags:
 - Business
-description: 'Vendre sa voix pour pubs, contenus, e-learning ou narration, avec un
-  vrai niveau d''interprétation.'
+description: 'Lance ta carrière de voix-off : équipement, plateformes et techniques
+  pour comédiens vocaux.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Voix-off freelance
+# Voiceover Artist / Comédien de Doublage
 
 ## Description en une phrase
 

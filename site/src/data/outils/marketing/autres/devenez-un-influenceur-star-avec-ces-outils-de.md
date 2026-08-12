@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Devenez Un Influenceur Star Avec Ces Outils De Campagne D'Influence Secrets
 author: Diane
-description: "Devenez Un Influenceur Star Avec Ces Outils De Campagne D'Influence Secrets."
+description: 'Découvre Devenez Un Influenceur Star Avec Ces Outils De Campagne D''Influence
+  Secrets : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

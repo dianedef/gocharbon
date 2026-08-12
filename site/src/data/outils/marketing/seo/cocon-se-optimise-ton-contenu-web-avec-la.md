@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Cocon.se, Optimise Ton Contenu Web avec la Sémantique
 author: Diane
@@ -24,7 +24,7 @@ u_site: http://cocon.se
 * The tool helps avoid keyword stuffing and ensures precision in keyword usage for better page optimization.
 * It can analyze content in various languages and regions separately, considering linguistic nuances and user behavior differences.
 * The importance and role of each keyword in optimizing content are highlighted, indicating that some keywords merely validate the subject while others are more determinant in content development.
-* The tool also evaluates competition and offers insights into keyword optimization stratégies.
+* The tool also evaluates competition and offers insights into keyword optimization strategies.
 * Recommendations are given for optimizing pages based on keyword usage and frequency, with an emphasis on not overloading pages with keywords.
 * Spatialization and visualization features help users understand keyword relationships and optimize their content accordingly.
 * The importance of quality content and avoiding keyword manipulation is stressed for long-term success in search engine ranking.
@@ -307,7 +307,7 @@ Visualiser la structure de son site Visualiser la structure d’un site est esse
 
 Et les stats alors ? On peut commencer par regarder quelques stats de crawl: profondeur depuis la home, répartition moyenne du PR, erreur de crawl… Mais ce n’est pas ça qui est vraiment actionnable, qui montre LA page qui cloche, LE silo qui fuit, LES 3 pages – sans interêt pour le visiteur – qui concentrent tout le pagerank du site.
 
-Des visualisations actionnables Dans notre lab, nous nous attachons à concevoir et généraliser des visualisations actionnables. Fini les pelotes de fil, les tâches de couleur qui ne montrent qu’une vue d’ensemble. Au delà de l’art moderne, notre ambition est de vous proposer un véritable outil pour améliorer votre site, pas seulement constater les dégâts.
+Des visualisations actionnables Dans notre lab, nous nous attachons à concevoir et généraliser des visualisations actionnables. Fini les pelotes de fil, les taches de couleur qui ne montrent qu’une vue d’ensemble. Au delà de l’art moderne, notre ambition est de vous proposer un véritable outil pour améliorer votre site, pas seulement constater les dégâts.
 
 Quelques exemples de visualisations C’est secret 😛 Enfin, presque. On n’invite pas tout le monde comme ça dans un labo privé, m’enfin ! Christian et moi même en parlerons lors du VLC, les 15 et 16 Octobre. C’est Raph qui aura la primeur de l’info, des graphiques et tout. Ensuite, il est probable qu’on en parle un peu plus et qu’on vous montre des exemples type.
 

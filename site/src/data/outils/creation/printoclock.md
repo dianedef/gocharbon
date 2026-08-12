@@ -1,10 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: PrintOclock
 author: Diane
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: print
 tags:
 - Outils
 description: PrintOclock est l'imprimerie en ligne française leader indépendante.

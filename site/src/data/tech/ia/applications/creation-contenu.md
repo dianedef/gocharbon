@@ -46,8 +46,6 @@ imgUrl: ../../../../assets/astro.jpeg
 
 ### Étape 1 : Audit des processus
 
-Pour le SEO spécifiquement, consulte notre guide dédié pour [automatiser ses process SEO avec l'IA](/tutos/automatiser-ses-process-seo-avec-ia/).
-
 1. **Identifie les tâches répétitives :**
 
    - Réécritures SEO

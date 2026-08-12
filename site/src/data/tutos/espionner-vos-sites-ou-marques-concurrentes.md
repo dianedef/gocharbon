@@ -4,50 +4,25 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Surveiller les sites et marques concurrentes sans te noyer
+title: Espionner Vos Sites Ou Marques Concurrentes
 author: Diane
-description: Mets en place une veille concurrentielle utile sur les sites, contenus, produits et messages de tes concurrents.
+description: 'Découvre Espionner Vos Sites Ou Marques Concurrentes : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-La veille concurrentielle n’est pas là pour t’obséder. Elle sert à capter les mouvements utiles :
+[00:05](https://www.youtube.com/watch?v=aMLdv_3_sb4&t=5#t=5.11)  
+[https://competitors.app/fr/competitors-app/](https://competitors.app/fr/competitors-app/)
 
-- nouveaux produits ;
-- nouvelles offres ;
-- changements de pricing ;
-- nouveaux contenus ;
-- repositionnement marketing.
+Action souhaité
 
-## Ce qu’il faut surveiller
+Stratégie
 
-Concentre-toi sur quatre zones :
+Quels avantages ? Du plus fort au moins fort
 
-- la home et les pages d’offre ;
-- le blog ou centre de ressources ;
-- les pages de prix ;
-- les pubs et messages de lancement.
+## Etape 1/5
 
-## Méthode simple
+S’adapter à tous les niveaux
 
-1. liste 5 à 10 concurrents ;
-2. note leurs pages stratégiques ;
-3. mets en place des alertes ou une revue manuelle hebdo ;
-4. archive ce qui change vraiment ;
-5. fais une synthèse mensuelle.
-
-## Les signaux les plus utiles
-
-- apparition d’une nouvelle offre ;
-- changement de promesse ;
-- hausse ou baisse de prix ;
-- nouveaux bonus ou garanties ;
-- repositionnement éditorial.
-
-## Ce qu’il ne faut pas faire
-
-- surveiller tout, tout le temps ;
-- comparer ton chapitre 1 à leur chapitre 20 ;
-- réagir à chaque petit changement.
-
-La veille utile tient sur une page. Si ton système devient plus lourd que ta production, c’est raté.
+Appels à l’action au début, à la fin

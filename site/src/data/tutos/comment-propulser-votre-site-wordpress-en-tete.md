@@ -4,47 +4,38 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Comment faire progresser un site WordPress dans Google sans raconter des salades
+title: Comment Propulser Votre Site Wordpress En Tête Des Résultats De Google
 author: Diane
-description: 'Comment faire progresser un site WordPress dans Google sans raconter des salades : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Comment Propulser Votre Site Wordpress En Tête Des Résultats
+  De Google : outil français pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment faire progresser un site WordPress dans Google sans raconter des salades demande un peu plus de méthode que trois clics dans l’admin. Le vrai sujet, c’est d’éviter la casse en production, de garder une trace claire de ce qui a été fait et de rendre le process répétable.
+Lors de ce webinar, [Nicolas Mercatili](https://www.linkedin.com/in/creanico/) vous livre les principaux leviers à actionner pour donner **plus de visibilité à votre site WordPress** : optimisation des performances, configuration, extensions recommandées, intérêt du thème, stratégie de contenus, structure et maillage, stratégie de netlinking…
 
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
+**Le but est de rendre votre site WordPress plus attractif aux yeux de Google, de lui transmettre un maximum de confiance et d'obtenir de meilleures positions dans les SERPs !**
 
-## Ce que tu vas obtenir
-- une procédure simple à répéter
-- moins de risque de casser la prod
-- des contrôles clairs après chaque action
+[00:00](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=0s) Introduction _(slide 1)_
 
-## Méthode simple
-### 1. Commence par cadrer le périmètre
-Identifie exactement ce que tu touches : site, environnement, extensions concernées, sauvegardes disponibles et impact potentiel pour les utilisateurs.
+[01:23](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=83s) Sommaire _(slide 3)_
 
-### 2. Prépare un environnement sûr
-Fais la manipulation sur un site de test ou au minimum sur un créneau calme, avec une sauvegarde vérifiée et un plan de retour arrière.
+[01:54](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=114s) Quelques rappels _(slide 4)_
 
-### 3. Exécute la tâche proprement
-Applique le changement avec un seul objectif à la fois, note ce que tu modifies et évite les actions groupées sans contrôle.
+[03:01](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=181s) Performances _(slide 8)_
 
-### 4. Teste ce qui compte vraiment
-Vérifie le front, l’admin, les formulaires, les paiements, les performances et les logs. Ce qui ne se teste pas finit souvent en ticket support.
+[07:09](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=429s) Configuration et extensions _(slide 16)_
 
-### 5. Documente pour la prochaine fois
-Garde un mini mode opératoire. Si tu dois refaire la même chose dans trois semaines, tu te remercieras.
+[13:54](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=834s) Thème _(slide 24)_
 
-## Pièges à éviter
-- mettre à jour ou supprimer sans sauvegarde valide
-- faire dix changements d’un coup puis ne plus savoir d’où vient le bug
-- oublier de tester les parcours critiques après intervention
+[18:26](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=1106s) Stratégie de contenus _(slide 29)_
 
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] sauvegarde ou retour arrière prêt
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
+[29:41](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=1781s) Structure et maillage _(slide 47)_
 
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+[35:09](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=2109s) Popularité _(slide 53)_
+
+[39:06](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=2346s) Pour résumer _(slide 60)_
+
+[41:01](https://www.youtube.com/watch?v=QwzcBCJ6MSQ&t=2461s) Sans oublier la sécurité _(slide 62)_
+
+[https://wpsoul.com/optimize-seo-wordpress/](https://wpsoul.com/optimize-seo-wordpress/)

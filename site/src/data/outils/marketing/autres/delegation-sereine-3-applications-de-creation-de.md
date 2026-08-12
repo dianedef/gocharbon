@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,7 +8,9 @@ u_site: null
 title: Délégation Sereine 3 Applications De Création De Sop Qui Vont Révolutionner
   Votre Entreprise
 author: Diane
-description: "Délégation Sereine 3 Applications De Création De Sop Qui Vont Révolutionner Votre Entreprise."
+description: 'Découvre Délégation Sereine 3 Applications De Création De Sop Qui Vont
+  Révolutionner Votre Entreprise : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

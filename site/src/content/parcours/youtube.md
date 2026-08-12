@@ -17,12 +17,12 @@ Construire une chaîne YouTube rentable via format signature et système publica
 
 ## Idées d'offres à tester
 1. Stratégie chaîne + piliers contenu
-2. Production vidéo complète
+2. Production vidéo complete
 3. Monétisation multi-revenus (publicités, partenariats, offres)
 
 ## Ton plan simple sur 7 jours
 1. Jour 1 : rends "Stratégie chaîne + piliers contenu" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
-2. Jours 2-4 : utilise ton canal principal (SEO YouTube + miniatures + distribution shorts/newsletter.) pour proposer "Production vidéo complète" à tes premiers clients et noter leurs retours.
+2. Jours 2-4 : utilise ton canal principal (SEO YouTube + miniatures + distribution shorts/newsletter.) pour proposer "Production vidéo complete" à tes premiers clients et noter leurs retours.
 3. Jours 5-7 : continue avec "Monétisation multi-revenus (publicités, partenariats, offres)", puis suis ctr miniature/titre et rétention vidéo moyenne, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre
@@ -51,5 +51,5 @@ Construire une chaîne YouTube rentable via format signature et système publica
 
 ## Idées de contenus pour aller plus loin
 - [Guide à venir 1: cadre optimisation miniatures](/tutos/youtube/cadre-optimisation-miniatures)
-- [Guide à venir 2: système production batch](/tutos/youtube/systeme-production-batch)
-- [Guide à venir 3: negocier sponsors chaîne](/tutos/youtube/negocier-sponsors-chaine)
+- [Guide à venir 2: systeme production batch](/tutos/youtube/systeme-production-batch)
+- [Guide à venir 3: negocier sponsors chaine](/tutos/youtube/negocier-sponsors-chaine)

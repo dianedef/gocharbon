@@ -38,60 +38,8 @@ const fontData: ArrayBuffer = fontBuffer.buffer.slice(
 );
 
 // Social media optimal dimensions
-const OG_IMAGE_HEIGHT = 630;
-const OG_IMAGE_WIDTH = 1200;
-const OG_FULL = '100%';
-const OG_OUTER_PADDING = '3rem';
-const OG_CARD_BORDER = '6px solid black';
-const OG_CARD_RADIUS = '0.5rem';
-const OG_CARD_PADDING = '2rem';
-const OG_GAP = '0.75rem';
-const OG_TITLE_SIZE = '48px';
-const OG_POST_TITLE_SIZE = '38px';
-const OG_BADGE_SIZE = '30px';
-const OG_DESCRIPTION_SIZE = '24px';
-const OG_BADGE_BORDER = '3px solid black';
-const OG_BADGE_PADDING = '0.75rem 1rem';
-const OG_SHADOW_COLOR = 'rgb' + '(0 0 0 / 1)';
-const OG_CARD_FILTER = `drop-shadow(6px 6px 0 ${OG_SHADOW_COLOR})`;
-const css = (property: string, value: string) => `${property}: ${value}`;
-const OG_PAGE_STYLE = [
-  css('background-color', 'white'),
-  css('display', 'flex'),
-  css('flex-direction', 'column'),
-  css('height', OG_FULL),
-  css('padding', OG_OUTER_PADDING),
-  css('width', OG_FULL),
-].join('; ');
-const OG_CARD_STYLE = [
-  css('display', 'flex'),
-  css('height', OG_FULL),
-  css('width', OG_FULL),
-  css('background-color', 'white'),
-  css('border', OG_CARD_BORDER),
-  css('border-radius', OG_CARD_RADIUS),
-  css('padding', OG_CARD_PADDING),
-  css('filter', OG_CARD_FILTER),
-].join('; ');
-const OG_STACK_STYLE = [
-  css('display', 'flex'),
-  css('flex-direction', 'column'),
-  css('justify-content', 'space-between'),
-  css('width', OG_FULL),
-].join('; ');
-const OG_HEADER_STYLE = [css('display', 'flex'), css('justify-content', 'space-between')].join('; ');
-const OG_TEXT_STACK_STYLE = [css('display', 'flex'), css('flex-direction', 'column'), css('gap', OG_GAP)].join('; ');
-const OG_BADGE_STYLE = [
-  css('font-size', OG_BADGE_SIZE),
-  css('border', OG_BADGE_BORDER),
-  css('border-radius', OG_CARD_RADIUS),
-  css('padding', OG_BADGE_PADDING),
-  css('height', 'fit-content'),
-].join('; ');
-const OG_DESCRIPTION_ROW_STYLE = css('display', 'flex');
-
-const height = OG_IMAGE_HEIGHT;
-const width = OG_IMAGE_WIDTH;
+const height = 630;  // Twitter/Facebook recommended height
+const width = 1200;  // Twitter/Facebook recommended width
 
 // Get all posts for static path generation
 const posts = await getCollection('posts');
@@ -139,18 +87,18 @@ export const GET: APIRoute = async ({ params, props }) => {
   
   // HTML template for the OG image (inline CSS, no external styles)
   const html = toReactElement(`
-  <div style="${OG_PAGE_STYLE}">
-    <div style="${OG_CARD_STYLE}">
-      <div style="${OG_STACK_STYLE}">
-        <div style="${OG_HEADER_STYLE}">
-          <div style="${OG_TEXT_STACK_STYLE}">
-            <p style="${css('font-size', OG_TITLE_SIZE)}">Brutal theme for Astro</p>
-            <p style="${css('font-size', OG_POST_TITLE_SIZE)}">${title}</p>
+  <div style="background-color: white; display: flex; flex-direction: column; height: 100%; padding: 3rem; width: 100%">
+    <div style="display:flex; height: 100%; width: 100%; background-color: white; border: 6px solid black; border-radius: 0.5rem; padding: 2rem; filter: drop-shadow(6px 6px 0 rgb(0 0 0 / 1));">
+      <div style="display: flex; flex-direction: column; justify-content: space-between; width: 100%; filter: drop-shadow()">
+        <div style="display: flex; justify-content: space-between;">
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <p style="font-size: 48px;">Brutal theme for Astro</p>
+            <p style="font-size: 38px;">${title}</p>
           </div>
-          <div style="${OG_BADGE_STYLE}">GOCHARBON</div>
+          <div style="font-size: 30px; border: 3px solid black; border-radius: 0.5rem; padding: 0.75rem 1rem; height: fit-content;">GOCHARBON</div>
         </div>
-        <div style="${OG_DESCRIPTION_ROW_STYLE}">
-          <p style="${css('font-size', OG_DESCRIPTION_SIZE)}">${description}</p>
+        <div style="display: flex;">
+          <p style="font-size: 24px;">${description}</p>
         </div>
       </div>
     </div>

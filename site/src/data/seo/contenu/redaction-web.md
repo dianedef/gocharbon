@@ -41,6 +41,4 @@ imgUrl: ../../../assets/astro.jpeg
 
 ## Ressources Complémentaires
 - [Structure des articles](/seo/contenu/structure-articles)
-- [Stratégie de contenu](/seo/contenu/strategie)
-- [Automatiser la rédaction SEO avec l'IA](/tutos/automatiser-ses-process-seo-avec-ia/)
-- [Comment le GEO change la rédaction web](/seo/contenu/geo-generative-engine-optimization/)
+- [Stratégie de contenu](/seo/contenu/strategie) 

@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: intercom
@@ -13,22 +13,40 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Intercom
+###  Intercom
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+Une référence du marketing conversationnel
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+  
+[Intercom](https://www.intercom.com/) est une solution de marketing automation qui répond parfaitement aux besoins des petites et moyennes entreprises. Cet outil propose un très bon catalogue d’intégrations (Intercom s’intègre à tout), et se distingue surtout par ses fonctionnalités de tracking et de création d’évènements.
 
-## Ressources de départ
-- [https://www.intercom.com/](https://www.intercom.com/)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+Cette solution propose surtout d’excellents outils de segmentation, notamment un moteur de segmentation ultra puissant et très intuitif pour ceux qui débutent. La solution utilise le ciblage comportemental pour aider les entreprises à mieux comprendre leurs clients, les engager et les fidéliser.
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+Côté campagnes, Intercom est très câblé SaaS, et donc mécaniquement les canaux sont beaucoup “on site”, avec la génération de rich-popups, chatbots, etc. L’outil supporte aussi emails & SMS, mais ça s’arrête là – ce qui est très bien, puisque c’est ce qu’on lui demande.
+
+- Intercom propose une offre pour les très petites entreprises, avec un plan Starter à 74$/mois pour 1000 contacts, et un essai gratuit est disponible.
+- Pour l’offre “la plupart des entreprises”, les tarifs des trois plans Support, Engage et Convert sont uniquement disponibles sur demande.
+
+
+🔹✅💡🥊🛡️🔇🧠📣🎁🏆📚🛠💥🙌😱❌✂️
+## ❔  Intro
+## ✔️ Bénéfices ✔️
+## 🎯 Pour Qui ? 🎯
+## 📢 Alternative 📢
+## 🛠️ Fonctionnalités 🛠️
+## 💶 Prix 💶
+## 🎖️ L’équipe, l’Histoire Et la Mission 🎖️
+## 🚧 Feuille de Route et Futur 🚧
+## ⛓️ Liens et Ressources ⛓️
+## 🤝 Programme de Parrainage 🤝
+## 📢 🎈 Zoom, Calendly & Zendesk alternative 👏🤓
+## ⚙️ Intégrations ⚙️
+## 👀 Comment l’utiliser ? 👀
+## 🤔 En Résumé ? 🤔
+## 👩‍🏫 Démonstration complète 👩‍🏫
+## Mon Avis
+### 👎 Points Faibles👎
+### 👍 Points Forts👍
+## 💡 Link to blog article + CTA + Contact me if needed I am Diane
+
+<aside> 💡 Link to blog article + CTA + Contact me if needed I am Diane</aside>

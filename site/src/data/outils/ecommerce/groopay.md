@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: marketplace
-toolFacets:
-  - commande-groupee
-  - b2b
+section: apps
 metadataEnrichedAt: null
 title: Groopay
 author: Diane
@@ -19,17 +14,17 @@ u_site: https://www.groopay.fr
 
 # Groopay
 
-# COMMANDE GROUPÉE : LA MARKETPLACE QUI TRANSFORME TES COLLÈGUES EN ARME DE NÉGOCIATION MASSIVE
+## COMMANDE GROUPÉE : LA MARKETPLACE QUI TRANSFORME TES COLLÈGUES EN ARME DE NÉGOCIATION MASSIVE
 
-## tl;dr
+### tl;dr
 
 Groopay est la **première marketplace française dédiée à la commande groupée**. Le principe est simple : tu crées une commande, tu la partages à ton réseau (collègues, membres d'association, parents d'élèves...), et plus il y a de participants, plus les prix baissent — jusqu'à **-45% de réduction** grâce à un système de paliers. Fondée par **Gabriel Chinarro** (CEO, diplômé IAE FRANCE, ~29 ans), la plateforme a déjà convaincu plus de **100 000 participants**, généré plus de **2 500 commandes** et fédéré plus de **80 partenaires commerciaux**. Le modèle est B2B : Groopay connecte des **groupes** (CSE, associations, collectivités, écoles, clubs sportifs) avec des **commerçants et marques** qui veulent écouler du volume. Côté acheteur, tu économises grâce au pouvoir d'achat collectif. Côté vendeur, tu gagnes des clients sans effort marketing — tes propres clients deviennent tes ambassadeurs. Les catégories couvrent l'épicerie, le chocolat, le vin et les boissons, la beauté, le bien-être, la mode, la maison et le high-tech. Inscription gratuite, plateforme web accessible depuis n'importe quel appareil.
 
-## Alternative à
+### Alternative à
 
 Costco, Metro (cash & carry), groupements d'achat associatifs, achats groupés sur Facebook, Provigis, Tudigo, ManoMano Pro. Groopay se distingue par sa **spécialisation dans la commande groupée digitale** avec un système de paliers de prix transparent et automatisé — là où les alternatives sont soit des grossistes physiques, soit des initiatives informelles sans plateforme dédiée.
 
-# Bénéfices
+## Bénéfices
 
 - **Jusqu'à 45% d'économies sans négocier** — Le système de paliers fait tout le travail : plus il y a de participants dans ta commande groupée, plus le prix unitaire baisse automatiquement. Tu n'as pas besoin d'être un négociateur né, c'est le volume qui parle pour toi. Sur certaines catégories comme l'épicerie fine ou le vin, les paliers débloquent des remises que tu n'obtiendrais jamais en solo.
 
@@ -43,7 +38,7 @@ Costco, Metro (cash & carry), groupements d'achat associatifs, achats groupés s
 
 - **Côté commerçant : des ventes en volume sans effort** — Si tu es commerçant, Groopay transforme tes clients existants en ambassadeurs. Tu obtiens des commandes en volume avec une acquisition client quasi gratuite. Comme le résume la plateforme : "Plus de clients, plus de ventes, sans effort."
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **Comités Sociaux et Économiques (CSE)** qui veulent offrir des avantages concrets aux salariés sans exploser le budget
 - **Associations et collectifs** cherchant à mutualiser les achats pour leurs membres (associations de parents d'élèves, clubs sportifs, amicales)
@@ -53,32 +48,32 @@ Costco, Metro (cash & carry), groupements d'achat associatifs, achats groupés s
 - **Commerçants et marques** voulant vendre en volume et acquérir de nouveaux clients via le bouche-à-oreille organisé
 - **Entreprises** pour les achats groupés internes (cadeaux de fin d'année, fournitures, événements)
 
-# Comment Utiliser Groopay
+## Comment Utiliser Groopay
 
 Le processus tient en 3 étapes — Groopay l'appelle **Créer > Partager > Économiser** :
 
-## 1. Créer ta commande groupée
+### 1. Créer ta commande groupée
 
 Tu te connectes sur [groopay.fr](https://www.groopay.fr), tu choisis un ou plusieurs produits parmi les partenaires référencés, et tu crées ta campagne de commande groupée. Tu définis la durée de la campagne et les paliers de réduction s'affichent automatiquement : par exemple, -15% à partir de 10 participants, -25% à partir de 25, -45% à partir de 50.
 
-## 2. Partager le lien
+### 2. Partager le lien
 
 Tu obtiens un lien de partage que tu diffuses à ton réseau : email, WhatsApp, Slack, intranet du CSE, groupe Facebook, affichage en salle de pause... Plus tu ratisses large, plus le palier de réduction grimpe. Chaque participant rejoint la commande et paie directement en ligne.
 
-## 3. Économiser ensemble
+### 3. Économiser ensemble
 
 Une fois la campagne terminée (ou le palier maximum atteint), Groopay finalise la commande auprès du fournisseur. Le paiement et la facturation sont automatisés. Tu reçois ta commande et tout le monde a économisé grâce au volume collectif.
 
-## Bonnes pratiques
+### Bonnes pratiques
 
 - **Fixe une deadline claire** pour créer l'urgence et motiver les participants
 - **Communique sur les paliers** : montre à ton groupe combien il reste de participants pour débloquer le palier suivant
 - **Choisis des produits universels** pour tes premières commandes : café, chocolat, vin — des catégories qui plaisent à tout le monde
 - **Utilise le dashboard** pour relancer les indécis en temps réel
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Côté Acheteur / Organisateur
+### Côté Acheteur / Organisateur
 
 - **Création de campagne de commande groupée** — Interface intuitive pour lancer une commande en quelques clics. Tu choisis les produits, tu définis la durée, et c'est parti.
 - **Système de paliers de réduction** — Plus il y a de participants, plus le prix baisse. Les paliers sont transparents et visibles par tous les participants en temps réel. Réductions pouvant aller jusqu'à 45%.
@@ -89,7 +84,7 @@ Une fois la campagne terminée (ou le palier maximum atteint), Groopay finalise 
 - **Facturation automatique** — Groopay génère automatiquement les factures pour chaque commande, que ce soit pour le CSE, l'association ou le groupe.
 - **Gestion multi-campagnes** — Tu peux lancer plusieurs commandes groupées en parallèle avec des fournisseurs différents.
 
-## Côté Commerçant / Partenaire
+### Côté Commerçant / Partenaire
 
 - **Vitrine sur la marketplace** — Tes produits sont référencés sur la plateforme Groopay et visibles par tous les organisateurs de commandes groupées.
 - **Acquisition de clients via le bouche-à-oreille** — Chaque organisateur devient un ambassadeur de ta marque. Tes clients existants recrutent de nouveaux acheteurs pour toi.
@@ -97,7 +92,7 @@ Une fois la campagne terminée (ou le palier maximum atteint), Groopay finalise 
 - **Gestion des commandes centralisée** — Tu reçois les commandes groupées directement via la plateforme, avec tous les détails (quantités, montants, coordonnées).
 - **Pas de cannibalisation** — Les commandes groupées touchent des clients qui n'auraient probablement pas acheté seuls à plein tarif. C'est du volume additionnel, pas du discount sur ta clientèle existante.
 
-## Catégories de Produits
+### Catégories de Produits
 
 - **Épicerie** — Produits alimentaires, paniers gourmands, épicerie fine
 - **Chocolatier** — Chocolats artisanaux, coffrets, spécialités
@@ -108,20 +103,20 @@ Une fois la campagne terminée (ou le palier maximum atteint), Groopay finalise 
 - **Maison** — Décoration, objets du quotidien, linge de maison
 - **High-tech** — Gadgets, accessoires tech, électronique
 
-# Prix
+## Prix
 
 L'inscription sur Groopay est **gratuite** pour les organisateurs de commandes groupées. La plateforme fonctionne sur un modèle de commission sur les transactions — le coût est intégré dans les prix affichés et ne vient pas en supplément pour les acheteurs. Les réductions affichées (jusqu'à -45%) sont les réductions réelles après commission.
 
 Pour les commerçants, le modèle repose sur la vente en volume : tu accordes des prix dégressifs en échange d'un volume garanti de commandes. Pas d'abonnement mensuel côté commerçant — tu ne paies rien tant que tu ne vends pas.
 
-# Intégrations
+## Intégrations
 
 - **Plateforme web** — Accessible depuis n'importe quel navigateur (desktop, mobile, tablette), pas besoin d'installer une application
 - **Moyens de paiement** — Carte bancaire (CB, Visa, Mastercard), paiement sécurisé en ligne
 - **Partage multicanal** — Liens partageables via email, WhatsApp, Messenger, Slack, réseaux sociaux, QR code
 - **API marchands** — Intégration avec les systèmes de gestion des partenaires commerciaux pour le suivi des commandes
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **Fondateur** : **Gabriel Chinarro**, CEO, diplômé de l'**IAE FRANCE** (~29 ans). Entrepreneur convaincu que le pouvoir d'achat collectif est une réponse concrète à l'inflation et à la surconsommation individuelle.
 - **Concept** : Groopay est la **première marketplace dédiée à la commande groupée** en France. Le pitch : "La commande groupée simplifiée."
@@ -131,13 +126,13 @@ Pour les commerçants, le modèle repose sur la vente en volume : tu accordes de
 - **Petite équipe** — Startup en phase de croissance, équipe resserrée et agile. 4 employés répertoriés.
 - **Siège** : France.
 
-# Témoignages
+## Témoignages
 
 > "Groopay nous a permis de proposer des avantages concrets à nos équipes sans exploser notre budget CSE." — **Geoffrey C., COO de Wobee**
 
 > "La plateforme est super simple d'utilisation. On a lancé notre première commande groupée en moins de 10 minutes et tout le monde a joué le jeu." — **César B., Secrétaire Général ISG**
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
 - **CSE d'une PME de 200 salariés** : Le responsable CSE lance une commande groupée de paniers gourmands pour Noël. Avec 150 participants, il débloque le palier -35%, soit une économie de plus de 2 000€ sur le budget cadeaux. Facturation automatique, zéro prise de tête.
 
@@ -151,7 +146,7 @@ Pour les commerçants, le modèle repose sur la vente en volume : tu accordes de
 
 - **Groupe de voisins** : Un immeuble de 40 appartements organise une commande groupée de café en grains. Le prix au kilo passe de 28€ à 18€ grâce au palier volume.
 
-# Points Forts
+## Points Forts
 
 - **Concept unique en France** — Première marketplace dédiée spécifiquement à la commande groupée, là où les alternatives sont soit des grossistes physiques, soit du bricolage sur Facebook
 - **Système de paliers transparent** — Les réductions sont claires et visibles : tu sais exactement combien tu économises et combien de participants il faut pour débloquer le palier suivant
@@ -162,7 +157,7 @@ Pour les commerçants, le modèle repose sur la vente en volume : tu accordes de
 - **Made in France** — Startup française, partenaires français, données hébergées en France
 - **Dashboard en temps réel** — Tu pilotes tes campagnes avec des données live, pas avec des fichiers Excel périmés
 
-# Points Faibles
+## Points Faibles
 
 - **Catalogue encore limité** — 80+ partenaires, c'est un bon début mais c'est encore loin de couvrir tous les besoins. Certaines catégories (high-tech notamment) sont probablement peu fournies
 - **Petite équipe (4 personnes)** — La capacité de support et de développement est forcément limitée pour une startup de cette taille. Si un problème survient, le temps de réponse peut être plus long

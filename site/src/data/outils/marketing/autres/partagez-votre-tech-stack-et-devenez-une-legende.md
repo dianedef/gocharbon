@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Partagez Votre Tech Stack Et Devenez Une Légende De La Tech
 author: Diane
-description: "Partagez Votre Tech Stack Et Devenez Une Légende De La Tech."
+description: 'Découvre Partagez Votre Tech Stack Et Devenez Une Légende De La Tech
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

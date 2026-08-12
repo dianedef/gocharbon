@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.spendesk.com/fr/legals/privacy/
-- https://www.spendesk.com/fr/legals/privacy-sfs/
-- https://www.spendesk.com/fr/solutions/our-support/
-notesQualification: Spendesk est une SAS francaise basee a Paris avec une gouvernance privacy et conformite tres documentee; le produit est fortement ancre localement mais la localisation unique de l'hebergement n'est pas explicitement donnee dans les sources consultees.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Spendesk
 author: Diane
 tags:

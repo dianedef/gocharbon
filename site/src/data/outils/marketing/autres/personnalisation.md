@@ -1,16 +1,15 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut: en-attente
 _priorité: normal
 tags:
 - Outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: personnalisation
 title: Personnalisation
 author: Diane
-description: "Personnalisation."
+description: 'Découvre Personnalisation : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

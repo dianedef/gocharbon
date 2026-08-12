@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Modèle De Calendrier Qui Va Révolutionner L'Organisation Des Indépendants
 author: Diane
-description: "Le Modèle De Calendrier Qui Va Révolutionner L'Organisation Des Indépendants."
+description: 'Découvre Le Modèle De Calendrier Qui Va Révolutionner L''Organisation
+  Des Indépendants : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

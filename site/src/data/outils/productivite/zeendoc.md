@@ -1,31 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: zeendoc
-type: outil
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
 description: Zeendoc, la Solution de Gestion Électronique des Documents, est conçue
   pour propulser les entreprises vers le numérique en offrant une dématérialisation
   efficace, un partage fluide
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.zeendoc.com
-u_derniere_maj: '2026-03-20'
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-  - https://www.zeendoc.com/ged/numerisation/mentions-legales/
-  - https://www.zeendoc.com/politique-de-confidentialite/
-  - https://www.zeendoc.com/en/securite/
-notesQualification: 'Zeendoc est edite par SAGES Informatique, societe francaise basee a Afa. La documentation officielle detaille une propriete capitalistique conservee en interne, des sous-traitants identifies et un stockage des donnees en France sur une infrastructure multi-sites. Le faisceau de preuves permet une qualification forte.'
-methodologieVersion: gocharbon-v1
 ---
 
 # zeendoc

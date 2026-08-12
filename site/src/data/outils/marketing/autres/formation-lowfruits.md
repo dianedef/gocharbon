@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 u_site: null
 title: Formation Lowfruits
 author: Diane
-description: "Formation Lowfruits."
+description: 'Découvre Formation Lowfruits : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

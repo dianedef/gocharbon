@@ -1,10 +1,5 @@
 ---
-draft: true
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-- ia
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -12,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'Ia Médicale Qui Va Guérir Le Cancer La Révolution Est En Marche
 author: Diane
-description: "L'Ia Médicale Qui Va Guérir Le Cancer La Révolution Est En Marche."
+description: 'Découvre L''Ia Médicale Qui Va Guérir Le Cancer La Révolution Est En
+  Marche : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -119,14 +115,14 @@ We have identified the following limitations and are actively working to fix all
 
 **Lack of context:** Some extracted findings lack the necessary context to make sense on their own. An example of this may include a sentence that reads “It reduces inflammation in the body” — as opposed to “Fish oil reduces inflammation in the body.” Currently, we are working on ways to bring in the necessary context to ensure that all sentences make sense.
 
-**Unnecessary info:** Scientists love to write in jargon, complète with add-on qualifiers and commentary. We are working on models that remove any unnecessary information from our findings while also preserving the author’s intention. Until that feature is ready, you’ll have to deal with some long-form jargon!
+**Unnecessary info:** Scientists love to write in jargon, complete with add-on qualifiers and commentary. We are working on models that remove any unnecessary information from our findings while also preserving the author’s intention. Until that feature is ready, you’ll have to deal with some long-form jargon!
 
 **Imprecise findings:** Our models that extract author findings are not perfect! We may sometimes accidentally surface background information or other statements that are not what you are looking for. Our models are going to be continually improved.
 
 # How to search ? **Best Practices**
 
 
-Our product will always be a work in progress, and this is just the first iteration. Not all searches work perfectly, and bugs will exist. We hope this article will help improve your expérience.
+Our product will always be a work in progress, and this is just the first iteration. Not all searches work perfectly, and bugs will exist. We hope this article will help improve your experience.
 
 
 ### **Focus on the Right Subject Matter:**
@@ -166,7 +162,7 @@ Although there is no “correct” way to structure a query, we have seen the be
     - [_**“Creatine and concussions”**_](https://consensus.app/results/?q=creatine%20and%20concussions)
 - **Targeted, open-ended phrases or concepts:**
     - [_**“Benefits of psychedelics”**_](https://consensus.app/results/?q=benefits%20of%20psychedelics)
-    - [_**“Effects of immigration on local économies”**_](http://consensus.app/results/?q=effects%20of%20immigration%20on%20local%20economies)
+    - [_**“Effects of immigration on local economies”**_](http://consensus.app/results/?q=effects%20of%20immigration%20on%20local%20economies)
     - [_**“Gratitude practice benefits”**_](https://consensus.app/results/?q=gratitude%20practice%20benefits)
     - [_**“Avocado health effects”**_](https://consensus.app/results/?q=avocado%20health%20effects)
 

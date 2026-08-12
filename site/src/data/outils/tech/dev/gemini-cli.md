@@ -1,46 +1,45 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-title: Gemini CLI
+title: Gemini Cli
 author: Diane
 tags:
 - Outils
-description: "Gemini CLI est un agent de développement en ligne de commande pour explorer un projet, modifier des fichiers et automatiser des tâches techniques."
+description: 'Découvre Gemini Cli : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-# Gemini CLI
+In this course, you’ll learn how to use Gemini CLI, an open-source agentic coding assistant that runs in your terminal and coordinates local tools with cloud services. Instead of scripting each step manually, you’ll give high-level instructions and let the agent plan and execute multi-step workflows across files, services, and APIs.
 
-Gemini CLI est un assistant de développement qui s'utilise dans le terminal. L'idée n'est pas magique : tu lui donnes un objectif, il inspecte le projet, propose un plan, puis aide à exécuter des tâches répétitives ou pénibles.
+Enroll Now
+You’ll:
 
-Ce type d'outil devient intéressant quand tu veux aller plus vite sur la lecture de code, la rédaction de scripts, la refonte d'un lot de fichiers ou la préparation d'une première version d'une fonctionnalité. En revanche, ce n'est pas un remplaçant de ton jugement technique.
+Build real software features like a conference session catalog
+Create interactive data dashboards using local CSV files and cloud data sources
+Automate development tasks such as pull request reviews with GitHub Actions
+Generate social media content from multimedia files
+Extend Gemini CLI using Model Context Protocol (MCP) servers and extensions to work across tools like GitHub, Canva, and Google Workspace
+You’ll also learn how Gemini CLI reasons through tasks, manages context with gemini.md files, and uses the command line as a control layer for coordinating complex workflows.
 
-## Ce que fait l'outil
+Use Gemini CLI’s agent with Model Context Protocol (MCP) and extensions to coordinate local files with cloud services like Google Workspace and Canva for multi-tool workflows.
 
-- Explorer un dépôt et résumer sa structure.
-- Proposer des modifications sur plusieurs fichiers.
-- Aider à écrire du code, de la documentation ou des scripts.
-- Servir d'appui pour des tâches de maintenance ou de migration.
+Automate software development tasks, including building website features, creating data dashboards, and setting up code review workflows with GitHub Actions.
 
-## Pour qui ?
+Apply Gemini CLI to tasks beyond code like generating social media content from multimedia files and organizing study materials for learning.
 
-- Développeurs qui travaillent déjà beaucoup dans le terminal.
-- Freelances ou petites équipes qui veulent accélérer les tâches de prod.
-- Fondateurs techniques qui gèrent seuls plusieurs projets.
+About this course
+Join this short course on Gemini CLI, taught by Jack Wotherspoon, Developer Advocate at Google.
 
-## Ce qu'on aime
+Gemini CLI is an open-source agentic coding assistant that works from your terminal, giving it access to your local filesystem, development tools, and cloud services. This lets you delegate complex workflows—from building web features to creating marketing materials—through high-level instructions while the agent autonomously plans and executes multiple steps.
 
-- Le format CLI reste direct et rapide pour les gens déjà à l'aise en shell.
-- L'outil est utile pour les tâches de balayage large : audit, refonte, nettoyage, documentation.
-- Il pousse à documenter l'intention avant d'exécuter, ce qui évite une partie du bricolage.
+In this course, you’ll apply Gemini CLI to software development and creative tasks by building features for an AI conference. You’ll develop a website session catalog, create a data dashboard combining local and cloud data sources, and generate social media content from recordings. You’ll master context management, integrate MCP servers, and orchestrate across multiple services with Gemini CLI extensions.
 
-## Limites à connaître
-
-- La qualité du résultat dépend énormément du contexte fourni.
-- Sur un codebase sale, il peut amplifier une mauvaise hypothèse au lieu de la corriger.
-- Il faut garder une vraie relecture humaine, surtout sur la logique métier et la sécurité.
-
-## Verdict GoCharbon
-
-Gemini CLI peut faire gagner du temps sur les tâches techniques répétitives, à condition de le traiter comme un copilote discipliné, pas comme un oracle. Bon outil pour accélérer l'exécution. Mauvais outil si tu espères déléguer la pensée.
+In detail, you’ll:
+Install Gemini CLI, explore its open-source architecture, and learn how it reasons through tasks, calls tools, and leverages the command line to power complex workflows.
+Automate coding workflows with GitHub Actions for pull request reviews and apply Gemini CLI to creative tasks like generating social media content from conference recordings and organizing multimedia study materials.
+Manage the context window with gemini.md files and extend capabilities by connecting Model Context Protocol (MCP) servers and Gemini CLI extensions to orchestrate across local files, cloud databases, and services like GitHub, Canva and Google Workspace.
+Build complete software features including a conference session catalog and an interactive data dashboard that combines local CSV files with cloud data sources—experiencing the full development workflow from research to testing.
+Use Gemini CLI as a learning tool by organizing course materials on your filesystem and grounding responses with web search for accurate, cited information.
+Whether you’re prototyping applications, automating development workflows, or studying topics in agentic AI, this course gives you hands-on experience coordinating multiple tools to build faster and work more efficiently.

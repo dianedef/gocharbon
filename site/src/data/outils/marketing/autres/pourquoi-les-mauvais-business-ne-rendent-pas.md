@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Pourquoi Les Mauvais Business Ne Rendent Pas Riche La Vérité Qui Dérange
 author: Diane
-description: "Pourquoi Les Mauvais Business Ne Rendent Pas Riche La Vérité Qui Dérange."
+description: 'Découvre Pourquoi Les Mauvais Business Ne Rendent Pas Riche La Vérité
+  Qui Dérange : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

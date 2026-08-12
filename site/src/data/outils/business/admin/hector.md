@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-qualificationLocale: hors-union-europeenne
-ancrageEconomique: faible
-niveauResponsabilite: partiel
-paysSiege: Canada
-hebergementDonnees: hors-union-europeenne
-sourcesVerification:
-- https://hectorassetmanager.com/fr-fr/mention-legale/
-- https://hectorassetmanager.com/fr/securite-des-donnees/
-notesQualification: Hector Inc. est une societe canadienne et documente un hebergement sur des serveurs situes au Canada, avec une politique securite detaillee.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Hector
 author: Diane
 tags:

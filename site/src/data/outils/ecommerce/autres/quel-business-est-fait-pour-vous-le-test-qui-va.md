@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Quel Business Est Fait Pour Vous  Le Test Qui Va Changer Votre Vie
 author: Diane
@@ -13,7 +13,7 @@ imgUrl: ../../../../assets/astro.jpeg
 
 [FlowKitten](https://www.flowkitten.com/)
 [00:13](https://www.youtube.com/watch?v=m6pWEzkbnDE&t=13#t=13.23)  
-[01:12](https://www.youtube.com/watch?v=vc2S3Qw8_FI&t=73#t=01:12.62)  — nevo arrête l'infopreneuriat.
+[01:12](https://www.youtube.com/watch?v=vc2S3Qw8_FI&t=73#t=01:12.62)  nevo arrete l’infopreneuriat
 [(338) Jason Calacanis DESTROYS Fake Entrepreneurs Flooding Clubhouse - YouTube](https://www.youtube.com/watch?v=AwBjx2kuAos&list=PL8hhAZzwVh8CH6RHYJb9OPj9qCY2VRErb&index=46)
 
 [5 FANTASTIC Online Business Ideas For 2021 - YouTube](https://www.youtube.com/watch?v=oMCW1fgyPxg&list=WL&index=436&t=37s)

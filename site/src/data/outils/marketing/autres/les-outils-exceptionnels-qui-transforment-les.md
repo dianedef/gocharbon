@@ -1,16 +1,15 @@
 ---
-section: outils
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: creation-contenu
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut: en-attente
 _priorité: normal
 tags:
 - Outils
 title: Les Outils Exceptionnels Qui Transforment Les Créateurs De Contenu En Superstars
 author: Diane
-description: "Les Outils Exceptionnels Qui Transforment Les Créateurs De Contenu En Superstars."
+description: 'Découvre Les Outils Exceptionnels Qui Transforment Les Créateurs De
+  Contenu En Superstars : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

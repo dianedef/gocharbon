@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: messagerie
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Raccourcis Gmail Qui Vont Booster Votre Productivité De 200%
 author: Diane
-description: "Les Raccourcis Gmail Qui Vont Booster Votre Productivité De 200%."
+description: 'Découvre Les Raccourcis Gmail Qui Vont Booster Votre Productivité De
+  200% : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

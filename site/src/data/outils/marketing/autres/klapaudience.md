@@ -1,13 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: lead-generation
+section: apps
 metadataEnrichedAt: null
 title: '📊 KlapAudience : Des lead magnets qui convertissent avec succès'
 author: Diane
 tags:
 - Outils
-description: "Obtention de leads qualifiés régulièrement sans effort Amélioration de votre stratégie marketing Sauvegarde de temps grâce à des contenus précis et automatisé Infopreneurs Startupp."
+description: Obtention de leads qualifiés régulièrement sans effort Amélioration de
+  votre stratégie marketing Sauvegarde de temps grâce à des contenus précis et automatisé
+  Infopreneurs Startupp
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.klapaudience.fr/
@@ -213,7 +213,7 @@ Avec KlapAudience, vous pouvez développer automatiquement votre base de prospec
 KlapAudience utilise des mécanismes de lead magnets pour attirer les prospects vers vos contenus, afin de générer des leads qualifiés régulièrement.
 
 ## Démonstration
-Vous pouvez voir une démonstration complète sur le site web de KlapAudience : [https://www.klapaudience.fr](__MASK_18__)
+Vous pouvez voir une démonstration complète sur le site web de KlapAudience : [https://www.klapaudience.fr](https://www.klapaudience.fr)
 
 ## Mon Avis
 KlapAudience est une solution efficace pour les infopreneurs, startuppers et marketers qui cherchent à développer leur base de prospection automatiquement. Sa plateforme simple, flexible et complète permet de créer des lead magn

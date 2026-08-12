@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Setter commercial
-author: Diane GoCharbon
+title: Setter / Appointment Setter
+author: Web Indé
 tags:
 - Business
-description: 'Qualifier des prospects et booker des rendez-vous : un rôle commercial
-  plus exigeant qu''il n''en a l''air.'
+description: 'Maîtrise le setting : techniques de qualification, scripts et stratégies
+  pour closers en devenir.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Setter commercial
+# Setter / Appointment Setter
 
 ## Description en une phrase
 

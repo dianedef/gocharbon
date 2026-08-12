@@ -1,16 +1,15 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut: en-attente
 _priorité: normal
 tags:
 - Outils
 title: J'Ai Quitté Notion Pour Obsidian Et Ma Productivité A Explosé Voici Pourquoi
 author: Diane
-description: "J'Ai Quitté Notion Pour Obsidian Et Ma Productivité A Explosé Voici Pourquoi."
+description: 'Découvre J''Ai Quitté Notion Pour Obsidian Et Ma Productivité A Explosé
+  Voici Pourquoi : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,38 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: TheAssistant
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: assistant
-toolFacets:
-  - ia
-  - automatisation
 description: TheAssistant est le service français d'assistanat virtuel augmenté par
   l'IA et la RPA. 500+ clients, 45 collaborateurs, 400 000+ tâches réalisées. 4,8/5.
   Dès 1,25€/action.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.theassistant.com
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://www.theassistant.com/cgv
-- https://www.theassistant.com/confidentialite
-- https://www.theassistant.com/pourquoi
-notesQualification: 'The Assistant SAS est une société française basée à Paris.
-  Les sources officielles documentent des équipes et une supervision basées en France,
-  avec des serveurs cryptés situés en Europe. La responsabilité reste partielle car
-  l''hébergement exact et la chaîne complète de sous-traitance ne sont pas détaillés
-  plus finement publiquement.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # TheAssistant

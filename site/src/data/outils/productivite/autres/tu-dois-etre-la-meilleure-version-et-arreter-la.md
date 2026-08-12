@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut:
 - backlog
@@ -8,11 +8,11 @@ type:
 projet:
 - tmv
 - webinde
-title: Tu Dois Être La Meilleure Version Et Arreter La Procrastination
+title: Tu Dois Etre La Meilleure Version Et Arreter La Procrastination
 author: Diane
 tags:
 - Outils
-description: 'Découvre Tu Dois Être La Meilleure Version Et Arreter La Procrastination
+description: 'Découvre Tu Dois Etre La Meilleure Version Et Arreter La Procrastination
   : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg

@@ -1,15 +1,12 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: video
-toolFacets:
-  - ia
 title: Transformez Du Texte En Vidéos Époustouflantes 3 Outils Magiques À Ne Pas Manquer
 author: Diane
-description: "Transformez Du Texte En Vidéos Époustouflantes 3 Outils Magiques À Ne Pas Manquer."
+description: 'Découvre Transformez Du Texte En Vidéos Époustouflantes 3 Outils Magiques
+  À Ne Pas Manquer : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -19,7 +16,7 @@ Comment utiliser l'IA pour transformer du texte en vidéos. Nous explorerons div
 ## Outil de conversion de texte en vidéo de Runway
 [Gen-2 by Runway](https://research.runwayml.com/gen2)
 
-Le premier outil dont nous parlerons est Runway's Text to Vidéo. C'est un choix populaire pour cette tâche. Tu peux saisir un texte et même télécharger une image pour créer une vidéo. Cependant, n'oublie pas qu'il y a une limite de quatre secondes pour la génération de vidéos avec le Gen-2 de Runway, même pour les plans améliorés.
+Le premier outil dont nous parlerons est Runway's Text to Video. C'est un choix populaire pour cette tâche. Tu peux saisir un texte et même télécharger une image pour créer une vidéo. Cependant, n'oublie pas qu'il y a une limite de quatre secondes pour la génération de vidéos avec le Gen-2 de Runway, même pour les plans améliorés.
 
 **Tarification:** Gen-2 coûte cinq crédits par seconde de génération de vidéo, un crédit équivalant à 1 cent.
 
@@ -50,7 +47,7 @@ Nous avons testé les trois outils avec la même invite : "décoration intérieu
 Les outils d'IA texte-vidéo évoluent et, même s'ils ne sont pas parfaits, ils sont prometteurs. Au fur et à mesure que les modèles d'IA progressent, la qualité de leurs résultats augmente également. Continue à expérimenter et à adapter ces outils à tes besoins ! 🎥🤖📈
 
 
-[A New AI Vidéo Challenger Appears… or Did They? - YouTube](https://www.youtube.com/watch?v=1aiKLoIEoNY)
+[A New AI Video Challenger Appears… or Did They? - YouTube](https://www.youtube.com/watch?v=1aiKLoIEoNY)
 comfy ui
 
 [Pika](https://pika.art/)

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Arnaques Crypto Que Même Les Experts Ne Connaissent Pas Protégez Vous
 author: Diane
-description: "Les Arnaques Crypto Que Même Les Experts Ne Connaissent Pas Protégez Vous."
+description: 'Découvre Les Arnaques Crypto Que Même Les Experts Ne Connaissent Pas
+  Protégez Vous : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

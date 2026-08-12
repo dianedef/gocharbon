@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -51,11 +51,11 @@ _Note: The Artist & Designer Plan is upon invitation — you can share your port
 
 Stability.ai have Clipdrop and Dream Studio that you can access through your web browser.
 
-But if you want to do anything more advanced like training an image model with your own images or using Deforum to blend vidéos you'll need to dive deeper into the open source model itself which might involve installing a local version of Stable Diffusion on your PC or Mac or using Google Colab.
+But if you want to do anything more advanced like training an image model with your own images or using Deforum to blend videos you'll need to dive deeper into the open source model itself which might involve installing a local version of Stable Diffusion on your PC or Mac or using Google Colab.
 
 And this can become a little bit complicated especially when we start dealing with Mac processors and what will and won't run.
 
-Step in Run Diffusion which I've been using for a little while to run some more advanced image prompts and dive deeper into what you can do with both image and vidéo AI.
+Step in Run Diffusion which I've been using for a little while to run some more advanced image prompts and dive deeper into what you can do with both image and video AI.
 
 Run Diffusion allows you to run Stable Diffusion in the cloud along with all of the pre-trained plugins like Controlnet and Deforum along with lots of pre-trained art models that you can easily switch between.
 
@@ -65,7 +65,7 @@ Now while yes you can install all of these open source tools for free if you're 
 
 Run Diffusion offers a very easy to understand pay as you go model starting at just 50 cents an hour which for me was just well worth it for the convenience over running code, installing packages, keeping everything updated & dealing with errors on my local machine.
 
-I'm going to be going through all of the ways to access Stable Diffusion in another vidéo so do make sure you hit that subscribe button if you want to get ahead of everyone else when it comes to AI art and vidéo.
+I'm going to be going through all of the ways to access Stable Diffusion in another video so do make sure you hit that subscribe button if you want to get ahead of everyone else when it comes to AI art and video.
 
 ### 🪙 Pricing
 
@@ -77,15 +77,15 @@ I'm going to be going through all of the ways to access Stable Diffusion in anot
 ### [Zoomerang](https://zoomerang.app/?ref=blog.alexanderfyoung.com)
 
 
-Zoomerang has been around for a little while and actually started life as a vidéo template app. But it's Zoomerang's most recent AI features that let you transform vidéo in seconds that I want to dive into.
+Zoomerang has been around for a little while and actually started life as a video template app. But it's Zoomerang's most recent AI features that let you transform video in seconds that I want to dive into.
 
-Deform generates a sequence of images from a single one, and Restyle applies a style to a vidéo.
+Deform generates a sequence of images from a single one, and Restyle applies a style to a video.
 
-You've probably seen some of these type of vidéos go viral on social media including the cool one where the statues are dancing.
+You've probably seen some of these type of videos go viral on social media including the cool one where the statues are dancing.
 
 It's all powered by Stable Diffusion and uses the same strained models we can access through Run Diffusion on computer. However Zoomerang is interesting to me as it's one of the first apps to run stable diffusion on mobile.
 
-This means that if you're a creator and your typical workflow involves editing short form vidéo on your phone you'll likely find Zoomerang to be extremely convenient and easy to use.
+This means that if you're a creator and your typical workflow involves editing short form video on your phone you'll likely find Zoomerang to be extremely convenient and easy to use.
 
 There is a free tier and then the paid tier begins at $99/year.
 
@@ -98,10 +98,10 @@ There is a free tier and then the paid tier begins at $99/year.
 
 ### [Unboring](https://reface.ai/unboring?ref=blog.alexanderfyoung.com)
 
-Reface AI the team behind popular apps like Reface and Restyle have put all of their AI-powered content création tools on their new web platform called Unboring.
+Reface AI the team behind popular apps like Reface and Restyle have put all of their AI-powered content creation tools on their new web platform called Unboring.
 
-I like Unboring a lot as it has a very easy to use and fast interface and if you're looking to quickly transform your vidéos or photos using AI into something fun it's very accessible.
+I like Unboring a lot as it has a very easy to use and fast interface and if you're looking to quickly transform your videos or photos using AI into something fun it's very accessible.
 
-Unboring allows your to face swap and restyle photos and vidéos and also allows you to animate photos. What makes Unboring unique among the AI tools that use Stable Diffusion is that it's built for fun and ease of use. There are loads of templates for you to quickly apply to your vidéos and photos and these include things like audio where I found myself getting my puppy Basil to sing and talk as I have way too much time on my hands.
+Unboring allows your to face swap and restyle photos and videos and also allows you to animate photos. What makes Unboring unique among the AI tools that use Stable Diffusion is that it's built for fun and ease of use. There are loads of templates for you to quickly apply to your videos and photos and these include things like audio where I found myself getting my puppy Basil to sing and talk as I have way too much time on my hands.
 
-Unboring's pricing works on tokens with a single token equal to one face swap, one restyle or one 50 second vidéo. You get 5 tokens on the freemium tier to try the tools out and then paid packages start at $12.99/month for 100 tokens.
+Unboring's pricing works on tokens with a single token equal to one face swap, one restyle or one 50 second video. You get 5 tokens on the freemium tier to try the tools out and then paid packages start at $12.99/month for 100 tokens.

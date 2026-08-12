@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -34,11 +34,11 @@ The internalized belief could be that relationships are unsafe and that loved on
 How Attachment Wounding Can Manifest in Adult Relationships
 ----------
 
-Recognizing that we were raised by abusive or dysfunctional parents may be more challenging than identifying toxic behaviors in friends or coworkers because our identities are formed around our parents. Some aspects of our [personality](https://www.psychologytoday.com/intl/basics/personality) may be coping stratégies we developed to survive our [childhood](https://www.psychologytoday.com/intl/basics/child-development).
+Recognizing that we were raised by abusive or dysfunctional parents may be more challenging than identifying toxic behaviors in friends or coworkers because our identities are formed around our parents. Some aspects of our [personality](https://www.psychologytoday.com/intl/basics/personality) may be coping strategies we developed to survive our [childhood](https://www.psychologytoday.com/intl/basics/child-development).
 
 * *People pleasing*: Children learn what it means to be in a relationship from their caregivers. In households where the [caregiver](https://www.psychologytoday.com/intl/basics/caregiving) is inconsistent, neglectful, emotionally volatile, or impulsive children learn to adjust their needs in accordance to their caregiver's emotional state. As a result, they may not have insight into their emotional landscape, let alone advocating for their needs. This can then lead to prioritizing other people's needs and desires over their own.
 * *Constantly seeking approval*: When children grow up in homes where love feels conditional, they learn to continuously assess whether their behaviors meet the expectations of others. This may result in relying on external validation rather than internal validation.
-* *Inability to regulate emotions*: Parents are responsible to teach their children how to identify and name their emotions and how to utilize effective coping stratégies. When children grow up in households where their emotions are invalidated or their parents don't model [self-regulation](https://www.psychologytoday.com/intl/basics/self-control), they don't learn how to manage their feelings and, therefore, may feel overwhelmed by their emotions and overreact to situations or disconnect from their emotions and underreact.
+* *Inability to regulate emotions*: Parents are responsible to teach their children how to identify and name their emotions and how to utilize effective coping strategies. When children grow up in households where their emotions are invalidated or their parents don't model [self-regulation](https://www.psychologytoday.com/intl/basics/self-control), they don't learn how to manage their feelings and, therefore, may feel overwhelmed by their emotions and overreact to situations or disconnect from their emotions and underreact.
 * *Avoiding conflict*: Similarly, children learn conflict resolution skills by observing their caregivers handle differences and conflict. If they grow up in homes where their opinions were deemed unimportant, their voice wasn't heard, or they were shamed for their emotional reaction, they may learn to avoid conflict as a survival mechanism.
 * *Having too few or too many boundaries*: Children learn how to show up in relationships from their early attachment figures. If their autonomy was not respected as a child, they may not learn how to ask for that respect in their future relationships. Similarly, if they didn't feel emotionally safe growing up and were hurt by the very people who were supposed to love and protect them, they may learn to put up walls and emotionally distance themselves from others in an attempt to protect themselves.
 * *Longing for connection but having difficulty forming and maintaining relationships*: A main human drive is to be connected to another. However, when children grow up in dysfunctional households, opening up to another human and showing vulnerability may feel too risky.

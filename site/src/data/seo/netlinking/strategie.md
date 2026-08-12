@@ -68,6 +68,4 @@ imgUrl: ../../../assets/astro.jpeg
 
 ## Ressources Complémentaires
 - [Analyse des backlinks](/seo/netlinking/analyse)
-- [Audit technique SEO](/seo/technique/audit)
-- [Les outils SEO français pour ton netlinking](/outils/marketing/autres/les-outils-seo-francais-qui-font-trembler-google/)
-- [Les événements SEO en France pour networker](/outils/marketing/autres/les-evenements-seo-secrets-ou-se-font-les/)
+- [Audit technique SEO](/seo/technique/audit) 

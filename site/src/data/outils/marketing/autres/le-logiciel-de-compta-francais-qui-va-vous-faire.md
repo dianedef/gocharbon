@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: facturation
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Le Logiciel De Compta Français Qui Va Vous Faire Aimer Les Chiffres
 author: Diane
-description: "Le Logiciel De Compta Français Qui Va Vous Faire Aimer Les Chiffres."
+description: 'Découvre Le Logiciel De Compta Français Qui Va Vous Faire Aimer Les
+  Chiffres : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,16 +1,15 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut: en-attente
 _priorité: normal
 tags:
 - Outils
 title: Créez Une Page Facebook Qui Attire Des Millions De Fans En 24H
 author: Diane
-description: "Créez Une Page Facebook Qui Attire Des Millions De Fans En 24H."
+description: 'Découvre Créez Une Page Facebook Qui Attire Des Millions De Fans En
+  24H : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,13 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: formation
-toolSubcategoryPrimary: quiz
+section: apps
 metadataEnrichedAt: null
 title: iziquiz
 author: Diane
 tags:
 - Outils
-description: "**Cédric Floris est un copywriter / entrepreneur / créateur de logiciels français !** - Auteur de plusieurs formations business - Créateur de Screeber, Calengo, Persona Maker, Call."
+description: '**Cédric Floris est un copywriter / entrepreneur / créateur de logiciels
+  français !** - Auteur de plusieurs formations business - Créateur de Screeber, Calengo,
+  Persona Maker, Call'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://app.iziquiz.io
@@ -36,7 +36,7 @@ Découvre sa réputation et décide en toute objectivité si tu veux travailler 
 
 [(1) iziQuiz: Overview | LinkedIn](https://www.linkedin.com/company/iziquiz/)
 
-[iziquiz | Création de quiz viraux assistés par IA (@iziquiz) • Photos et vidéos Instagram](https://www.instagram.com/iziquiz/)
+[iziquiz | Creation de quiz viraux assistés par IA (@iziquiz) • Photos et vidéos Instagram](https://www.instagram.com/iziquiz/)
 
 [twitter.com/iziquiz](https://twitter.com/iziquiz)
 
@@ -142,7 +142,7 @@ Nous avons de grandes ambitions pour l'avenir d'iziQuiz ! Restez à l'écoute po
 
 Envie de partager votre expérience avec iziQuiz ? Rejoignez notre programme de parrainage et faites découvrir notre solution à vos amis, votre audience ou vos clients !
 
-rofite de tes templates de tunnels offerts sur Système io ! Booste tes ventes en automatisant ton marketing avec des tunnels de capture et de vente optimisés pour convertir les visiteurs en clients. Faciles à personnaliser grâce aux tutos pas à pas inclus. Accès illimités à vie pour débutants. Obtenez l'aide nécessaire pour tes premiers pas en toute sérénité. Gagne en visibilité en ligne et remplis ta liste d'email de prospects qualifiés.
+rofite de tes templates de tunnels offerts sur Systeme io ! Booste tes ventes en automatisant ton marketing avec des tunnels de capture et de vente optimisés pour convertir les visiteurs en clients. Faciles à personnaliser grâce aux tutos pas à pas inclus. Accès illimités à vie pour débutants. Obtenez l'aide nécessaire pour tes premiers pas en toute sérénité. Gagne en visibilité en ligne et remplis ta liste d'email de prospects qualifiés.
 
 
 ## Zoom, Calendly & Zendesk alternative 
@@ -188,7 +188,7 @@ hello@iziquiz.io
 - Page LinkedIn : [iziQuiz LinkedIn](https://www.linkedin.com/company/iziquiz/)
 - Préventes : [iziQuiz Préventes](https://www.iziquiz.io/preventes)
 [Facebook](https://www.facebook.com/iziquiz.io)
-[iziquiz | Création de quiz viraux assistés par IA (@iziquiz) • Photos et vidéos Instagram](https://www.instagram.com/iziquiz/)
+[iziquiz | Creation de quiz viraux assistés par IA (@iziquiz) • Photos et vidéos Instagram](https://www.instagram.com/iziquiz/)
 [Iziquiz.io (@iziquiz) / Twitter](https://twitter.com/iziquiz?fbclid=IwAR11saLnbG0h8Dk-88P-_1zXfIXK105VqJ-XY1QBLuVgvVAQ7dVISYV5h7c)
 
 Discord : [Discord](https://discord.com/invite/92jmBkawDY)

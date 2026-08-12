@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Logiciel
 statut: null
 _priorité: urgent
 tags:
@@ -138,7 +138,7 @@ Le fonctionnement est ultra simple :
 1. Entrer vos filtres de secteur géographique
 	ex : **emplacement aux États-Unis)**
 2. Entrer les domaines d'activités désirés parmi les +4000 catégories
-	Retrouvez toutes les catégories disponibles ici [](https://www.consultante-seo.paris/wp-content/uploads/2021/06/Liste-des-Categories-Google-My-Business-en-franc%CC%A7ais_compressed.pdf)[https://www.consultante-seo.paris/wp-content/uploads/2021/06/Liste-des-Categories-Google-My-Business-en-français_compressed.pdf](__MASK_6__)
+	Retrouvez toutes les catégories disponibles ici [](https://www.consultante-seo.paris/wp-content/uploads/2021/06/Liste-des-Categories-Google-My-Business-en-franc%CC%A7ais_compressed.pdf)[https://www.consultante-seo.paris/wp-content/uploads/2021/06/Liste-des-Categories-Google-My-Business-en-français_compressed.pdf](https://www.consultante-seo.paris/wp-content/uploads/2021/06/Liste-des-Categories-Google-My-Business-en-franc%CC%A7ais_compressed.pdf)
 	Ces 4000 catégories d'activités professionnelles classent les business ce qui permet une recherche très précise ! Cette segmentation est gérée par Google Maps et chaque établissement peut être inscrit dans une à dix catégories. Plus vous allez dans la spécialité et moins il y aura évidemment de volume, mais les résultats seront plus ciblés.
 	Il faut bien faire attention à ça car si vous n’utilisez pas le bon mot clef vous ne trouverez pas les résultats optimaux, c'est l'étape la plus importante : Cherchez des variations de catégorie et des mots-clefs car aux outils de SEO.
 	Par exemple vous avez peut-être l’habitude de parler de “vétérinaires” mais ils existe aussi les cliniques vétérinaires, les pharmacies vétérinaires, les urgences vétérinaires…
@@ -183,7 +183,7 @@ Les fondateurs de Scrap.io sont Julien Arcin et Sébastien, deux français nomad
 
 A deux ils ont 13 ans de développement dans les pattes, des milliers d'heures d'expérience à scraper le web, et plusieurs années d'essais et  dans l'entrepreneuriat, des dizaines milliers des lignes de codes jetées à la poubelle, des téraoctets de données scrapées qui dorment et ne serviront probablement jamais… Des mois (voire des années) d'errance, d'efforts gâchés, d'espoirs déçus…
 
-Leur premier SaaS, Linklead.io, permettait de scraper des profils de décideurs à partir de Linkedin ( ex : DRH, CEO, Responsable des ventes…).
+Leur premier SaaS, [Linklead.io]() permettait de scraper des profils de décideurs à partir de Linkedin ( ex : DRH, CEO, Responsable des ventes…).
 
 Fin d’année dernière 2021, Seb a eu l’idée de vendre des fichiers CSV issus de Google Maps à leurs clients, enrichis avec des emails, comptes sociaux, etc.. en s’est débrouillant à la main et avec des outils à droite à gauche.
 
@@ -191,9 +191,9 @@ Et ça a littéralement fait un carton au niveau des ventes ! Pour les avoir uti
 
 Pour les contacter : 07 80 95 45 10  201-367-0253
 
-Prendre rendez-vous ici: [https://calendly.com/julienarcin/rendez-vous](__MASK_8__) 
+Prendre rendez-vous ici: [https://calendly.com/julienarcin/rendez-vous](https://calendly.com/julienarcin/rendez-vous) 
 
-[https://api.whatsapp.com/send?phone=85577215375&text=Hello](__MASK_9__)
+[https://api.whatsapp.com/send?phone=85577215375&text=Hello](https://api.whatsapp.com/send?phone=85577215375&text=Hello)
 
 ## 💰 Source de Revenu Supplémentaire 💰
 

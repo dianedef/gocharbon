@@ -15,7 +15,7 @@ import type { Post } from './types/content';
 import { commonCombinations, paginationConfig } from '../config/tags';
 import { tagHierarchy } from '../components/tagHierarchy';
 import { applyContentScope, type ContentScope } from './content-section';
-import { MAIN_TAGS, extractPostMainTags, resolveTagToMain } from './tag-groups';
+import { MAIN_TAGS, extractMainTags, resolveTagToMain } from './tag-groups';
 import { normalizeTag } from './tags';
 import { filterBuildVisiblePosts } from './build-posts';
 
@@ -124,7 +124,7 @@ export async function getTagPosts(
 
     const allPosts = applyContentScope(filterBuildVisiblePosts(await getCollection('posts')), scope);
     const filteredPosts = allPosts
-        .filter(post => extractPostMainTags({ id: post.id, data: post.data }).includes(mainTag))
+        .filter(post => extractMainTags(post.data.tags).includes(mainTag))
         .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 
     const safePerPage = Number.isFinite(perPage) && perPage > 0 ? Math.floor(perPage) : paginationConfig.defaultPerPage;
@@ -189,7 +189,7 @@ export async function getFilteredPosts(
 
     const filteredPosts = allPosts
         .filter(post => {
-            const postMainTags = extractPostMainTags({ id: post.id, data: post.data });
+            const postMainTags = extractMainTags(post.data.tags);
             return mainTagsToSearch.every(searchTag =>
                 postMainTags.includes(searchTag)
             );

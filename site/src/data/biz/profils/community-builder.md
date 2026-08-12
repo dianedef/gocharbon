@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Community builder
-author: Diane GoCharbon
+title: Community Builder / Gestionnaire de Communauté
+author: Web Indé
 tags:
 - Business
-description: 'Animer une communauté utile, vivante et monétisable sans confondre engagement
-  et agitation.'
+description: 'Construis des communautés engagées : plateformes, stratégies d''animation
+  et monétisation pour community managers.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Community builder
+# Community Builder / Gestionnaire de Communauté
 
 ## Description en une phrase
 

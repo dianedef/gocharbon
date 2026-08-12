@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.soansolutions.com/mentions-legales
-- https://www.soansolutions.com/securite
-- https://www.soansolutions.com/
-notesQualification: Soan est une SAS francaise basee a Bordeaux et documente un hebergement en France sur AWS ainsi qu'un cadre de securite et de conformite plus detaille que la moyenne du corpus.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: soan
 author: Diane
 tags:

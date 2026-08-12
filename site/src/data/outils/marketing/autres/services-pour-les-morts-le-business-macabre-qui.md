@@ -1,21 +1,22 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: saas-deces
 title: Services Pour Les Morts Le Business Macabre Qui Rapporte Des Millions
 author: Diane
-description: "Services Pour Les Morts Le Business Macabre Qui Rapporte Des Millions."
+description: 'Découvre Services Pour Les Morts Le Business Macabre Qui Rapporte Des
+  Millions : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-[Kapsule - Record and share vidéo messages with anyone in the future | Product Hunt](https://www.producthunt.com/posts/kapsule?utm_campaign=16429_2022-11-20&utm_medium=newsletter&utm_source=Daily+Digest&utm_term=editorial)
+[Kapsule - Record and share video messages with anyone in the future | Product Hunt](https://www.producthunt.com/posts/kapsule?utm_campaign=16429_2022-11-20&utm_medium=newsletter&utm_source=Daily+Digest&utm_term=editorial)
 
 Chaptr
 
-_"Most people don’t like to talk about death yet the average person will expérience 25-36 close, personal losses in their lifetime,”_ shared Rehan Choudhry, founder of Chaptr.
+_"Most people don’t like to talk about death yet the average person will experience 25-36 close, personal losses in their lifetime,”_ shared Rehan Choudhry, founder of Chaptr.
 
 Perhaps you celebrate Día de Los Muertos and will soon be celebrating and honoring the lives of loved ones past. For others, it’s hard not to be reminded of death during the Halloween season with fake tombstones and ghosts running amuk amuk amuk, but spooky is the prevailing theme.
 
@@ -24,7 +25,7 @@ Perhaps you celebrate Día de Los Muertos and will soon be celebrating and honor
 [Le choix de Marie - Une start-up sud-coréenne utilise l'intelligence artificielle pour créer des hologrammes de personnes décédées](https://www.bfmtv.com/replay-emissions/le-choix-d-angele/le-choix-de-marie-une-start-up-sud-coreenne-utilise-l-intelligence-artificielle-pour-creer-des-hologrammes-de-personnes-decedees_VN-202301160097.html)
 
 
-[Send a vidéo to the future](https://seeyafuture.me/)
+[Send a video to the future](https://seeyafuture.me/)
 
 [Testamento - Prendre Ses Précautions Contre Les Aléas De La Vie.](https://testamento.fr/fr/accueil)
 Testamento, c'est ton allié pour anticiper l'avenir en toute sérénité. Que tu souhaites protéger tes proches ou prévoir la transmission de ton patrimoine, cette solution clé en main te propose des outils simples et efficaces. 

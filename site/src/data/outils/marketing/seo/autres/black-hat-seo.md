@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -25,20 +25,20 @@ Pour ceux d'entre vous intéressés par l'achat de trafic et d'autres manipulati
 
 **Achat de trafic :**
 
-- Propellerads : [https://propellerads.com/](__MASK_2__)
+- Propellerads : [https://propellerads.com/](https://link.sbstck.com/redirect/08256a31-7f02-4e29-af55-4c404d2d7229?j=eyJ1IjoieWw1ayJ9.BtAVvdSr6FjzbyQZQz7WuS9pFqDvgejV8Icoszpju9U)
     
-- Serpclix : [https://serpclix.com](__MASK_3__)
+- Serpclix : [https://serpclix.com](https://link.sbstck.com/redirect/14287c31-7522-4708-9dfd-3339d99dc2a2?j=eyJ1IjoieWw1ayJ9.BtAVvdSr6FjzbyQZQz7WuS9pFqDvgejV8Icoszpju9U)
     
-- Sparktraffic : [https://www.sparktraffic.com](__MASK_4__)
+- Sparktraffic : [https://www.sparktraffic.com](https://link.sbstck.com/redirect/14287c31-7522-4708-9dfd-3339d99dc2a2?j=eyJ1IjoieWw1ayJ9.BtAVvdSr6FjzbyQZQz7WuS9pFqDvgejV8Icoszpju9U)
     
 
 **CTR Manipulation :** 
 
-- MicroWorkers : [https://www.microworkers.com/](__MASK_5__)
+- MicroWorkers : [https://www.microworkers.com/](https://link.sbstck.com/redirect/5bb216e0-6b56-49ad-8d6e-052298384770?j=eyJ1IjoieWw1ayJ9.BtAVvdSr6FjzbyQZQz7WuS9pFqDvgejV8Icoszpju9U)
     
-- CTRbooster : [https://www.ctrbooster.com](__MASK_6__)
+- CTRbooster : [https://www.ctrbooster.com](https://link.sbstck.com/redirect/03144e19-78c0-4217-af92-e14fee74e73a?j=eyJ1IjoieWw1ayJ9.BtAVvdSr6FjzbyQZQz7WuS9pFqDvgejV8Icoszpju9U)
     
-- SerpEmpire : [https://www.serpempire.com](__MASK_7__)
+- SerpEmpire : [https://www.serpempire.com](https://link.sbstck.com/redirect/25752b2f-6577-4f18-8f40-ab288ea3240c?j=eyJ1IjoieWw1ayJ9.BtAVvdSr6FjzbyQZQz7WuS9pFqDvgejV8Icoszpju9U)
 
 - [SEO White Hat versus SEO Black Hat : Définitions et Différences](https://audreytips.com/seo-white-hat-vs-seo-black-hat-definitions-differences/)
     - **Utiliser des scripts** qui affichent un contenu différent, selon que le visiteur est un robot de Google ou un être humain. Cette technique est appelée le “[cloaking](https://audreytips.com/glossaire-web/cloaking/ "Voir la définition de Cloaking")” !

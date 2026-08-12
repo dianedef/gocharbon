@@ -8,7 +8,7 @@ status: "active"
 updatedAt: "2026-03-01"
 ---
 ## Ton objectif
-Animer une communauté engagee qui produit rétention et revenus.
+Animer une communaute engagee qui produit rétention et revenus.
 
 ## En clair (version simple)
 - Pour qui : Marques contenu, SaaS, créateurs avec audience dormante.
@@ -16,14 +16,14 @@ Animer une communauté engagee qui produit rétention et revenus.
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
 ## Idées d'offres à tester
-1. Lancement communauté 30 jours
+1. Lancement communaute 30 jours
 2. Animation hebdo + moderation
-3. Monétisation communauté (membership/events)
+3. Monétisation communaute (membership/events)
 
 ## Ton plan simple sur 7 jours
-1. Jour 1 : rends "Lancement communauté 30 jours" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
+1. Jour 1 : rends "Lancement communaute 30 jours" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
 2. Jours 2-4 : utilise ton canal principal (Activation membres via rituels et challenges.) pour proposer "Animation hebdo + moderation" à tes premiers clients et noter leurs retours.
-3. Jours 5-7 : continue avec "Monétisation communauté (membership/events)", puis suis taux activation nouveaux membres et posts/commentaires hebdo, puis ajuste petit à petit.
+3. Jours 5-7 : continue avec "Monétisation communaute (membership/events)", puis suis taux activation nouveaux membres et posts/commentaires hebdo, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre
 - Taux activation nouveaux membres
@@ -31,7 +31,7 @@ Animer une communauté engagee qui produit rétention et revenus.
 - Retention mensuelle membres
 
 ## Pièges à éviter
-- Communauté sans rituel
+- Communaute sans rituel
 - Moderation reactive uniquement
 - Pas de boucle retours produit
 
@@ -44,7 +44,7 @@ Animer une communauté engagee qui produit rétention et revenus.
 - [Fiche profil Community Builder](/biz/profils/community-builder)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/createur-communaute)
+- [Suivi du parcours](/parcours/community-builder)
 - [Ressource utile 1](/marketing/social/community)
 - [Ressource utile 2](/marketing/social/strategie)
 - [Ressource utile 3](/tutos/comment-organiser-un-concours-sur-les-reseaux)

@@ -1,11 +1,12 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: La Vérité Choquante Sur L'Échec De 80% Des Entreprises Comment L'Éviter
 author: Diane
-description: "La Vérité Choquante Sur L'Échec De 80% Des Entreprises Comment L'Éviter."
+description: 'Découvre La Vérité Choquante Sur L''Échec De 80% Des Entreprises Comment
+  L''Éviter : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

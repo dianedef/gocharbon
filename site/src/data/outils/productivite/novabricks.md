@@ -1,10 +1,8 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: no-code
 imageNameKey: novabricks
 u_site: https://www.novabricks.com
 u_affi: null
@@ -15,22 +13,6 @@ description: 'NovaBricks : plateforme No-Code/Low-Code française pour créer de
   métier sans coder. Clients : EDF, Les Mousquetaires, Kiloutou. Fondée en 2011.'
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.novabricks.com/contact/
-- https://www.novabricks.com/politique-de-confidentialite/
-- https://www.novabricks.com/
-notesQualification: 'NovaBricks présente une implantation opérationnelle claire en
-  France et une gouvernance locale identifiable. En revanche, l''hébergement et les
-  garanties techniques détaillées ne sont pas suffisamment documentés publiquement
-  pour dépasser un niveau de responsabilité partiel.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # NovaBricks

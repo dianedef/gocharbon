@@ -1,54 +1,171 @@
 ---
 section: blog
-title: "Expérimentation growth : tester vite sans tester n'importe quoi"
+title: Expérimentation Growth
 author: Diane
 tags:
 - Marketing
-description: Une méthode d'expérimentation growth simple pour prioriser, tester,
-  mesurer et apprendre sans gâcher du temps.
+description: Guide complet sur l'expérimentation en growth marketing
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Expérimentation growth : tester vite sans tester n'importe quoi
 
-Tester est utile. Tester tout, tout le temps, sans hypothèse ni méthode, l'est beaucoup moins.
+# Expérimentation Growth Marketing
 
-L'expérimentation growth sert à apprendre rapidement ce qui améliore réellement l'acquisition, l'activation ou la conversion. Pas à donner une impression d'agitation intelligente.
+## Méthodologie d'Expérimentation
 
-## Le bon cadre de départ
+### Framework
+1. **Hypothèse**
+   - Problem statement
+   - Solution proposée
+   - Impact attendu
+   - Métriques succès
 
-Un test utile répond à quatre questions :
+2. **Prioritisation**
+   - ICE Score
+     - Impact
+     - Confiance
+     - Effort
+   - ROI potentiel
+   - Ressources nécessaires
 
-- quel problème observes-tu ;
-- quelle hypothèse poses-tu ;
-- quel changement vas-tu tester ;
-- quel résultat validera ou invalidera l'idée.
+3. **Exécution**
+   - Setup
+   - Monitoring
+   - Documentation
+   - Ajustements
 
-## Une méthode simple
+4. **Analyse**
+   - Data collection
+   - Significance
+   - Insights
+   - Décisions
 
-1. Repère un point de friction clair.
-2. Formule une hypothèse.
-3. Choisis une seule variable.
-4. Définis la métrique de succès.
-5. Laisse tourner assez longtemps.
-6. Documente le résultat.
+## Types d'Expérimentations
 
-## Ce qu'il vaut mieux tester en premier
+### Product
+1. **Features**
+   - New features
+   - Feature optimization
+   - UX improvements
+   - Performance
 
-- message ou promesse ;
-- CTA ;
-- ordre des étapes d'un tunnel ;
-- preuve sociale ;
-- format d'un lead magnet ;
-- onboarding ou email de bienvenue.
+2. **Pricing**
+   - Price points
+   - Models
+   - Packages
+   - Discounts
 
-## Les erreurs classiques
+### Marketing
+1. **Acquisition**
+   - Channels
+   - Messages
+   - Audiences
+   - Créatifs
 
-- tester plusieurs choses à la fois ;
-- choisir des sujets triviaux ;
-- arrêter trop tôt ;
-- lire uniquement ce qui confirme une intuition ;
-- oublier de consigner les apprentissages.
+2. **Conversion**
+   - Landing pages
+   - Funnels
+   - Copy
+   - CTA
 
-Le growth utile n'est pas une religion du test. C'est une manière disciplinée d'apprendre plus vite que son marché.
+### Growth Loops
+- Viral mechanics
+- Referral programs
+- Network effects
+- Engagement loops
+
+## Process d'Expérimentation
+
+### Planning
+1. **Research**
+   - User research
+   - Data analysis
+   - Competitor analysis
+   - Market trends
+
+2. **Ideation**
+   - Brainstorming
+   - Frameworks
+   - Best practices
+   - Innovation
+
+### Execution
+1. **Setup**
+   - Test design
+   - Control group
+   - Variables
+   - Tracking
+
+2. **Monitoring**
+   - Real-time data
+   - Issues
+   - Adjustments
+   - Documentation
+
+## Analyse et Décision
+
+### Data Analysis
+1. **Quantitative**
+   - Statistical significance
+   - Sample size
+   - Confidence intervals
+   - Impact metrics
+
+2. **Qualitative**
+   - User feedback
+   - Behavioral insights
+   - Context
+   - Patterns
+
+### Decision Making
+- Go/No-go criteria
+- Scaling decisions
+   - Roll out
+   - Iterate
+   - Kill
+- Documentation
+
+## Outils et Technologies
+
+### Testing Tools
+- A/B testing platforms
+- Feature flags
+- Analytics
+- Monitoring
+
+### Data Collection
+- Quantitative tools
+- Qualitative tools
+- Integration
+- Storage
+
+## Best Practices
+
+### Process
+1. **Documentation**
+   - Hypothesis
+   - Setup
+   - Results
+   - Learnings
+
+2. **Communication**
+   - Stakeholders
+   - Team
+   - Updates
+   - Results
+
+### Culture
+1. **Learning**
+   - Knowledge sharing
+   - Case studies
+   - Training
+   - Resources
+
+2. **Innovation**
+   - Creativity
+   - Risk taking
+   - Fast failure
+   - Iteration
+
+[Découvrir le Scaling Growth →](/marketing/growth/scaling) 

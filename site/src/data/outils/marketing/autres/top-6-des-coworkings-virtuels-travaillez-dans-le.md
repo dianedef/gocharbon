@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: evenements
 u_site: null
 title: Top 6 Des Coworkings Virtuels Travaillez Dans Le Futur Dès Maintenant
 author: Diane
-description: "Top 6 Des Coworkings Virtuels Travaillez Dans Le Futur Dès Maintenant."
+description: 'Découvre Top 6 Des Coworkings Virtuels Travaillez Dans Le Futur Dès
+  Maintenant : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -18,7 +17,7 @@ imgUrl: ../../../../assets/astro.jpeg
 
 ---
 
-[https://ci5.googleusercontent.com/proxy/_KKYnFq8FjkdsanDq3GmBmV-E9bg2KsdlBKabgW1UTSiTvS3-zQQ-o44507PYC9ZIp9tAtSSC7ZKgDBlR-5BH2oqOHk8PzJLjnGOkzrTUW4IX9nRMyaTH4gZwAJ3o90uJV0=s0-d-e1-ft#https://ph-files.imgix.net/1dc3eb5e-b7f0-4df5-80a3-8cb2be12dfe7.gif?auto=format](__MASK_0__)
+[https://ci5.googleusercontent.com/proxy/_KKYnFq8FjkdsanDq3GmBmV-E9bg2KsdlBKabgW1UTSiTvS3-zQQ-o44507PYC9ZIp9tAtSSC7ZKgDBlR-5BH2oqOHk8PzJLjnGOkzrTUW4IX9nRMyaTH4gZwAJ3o90uJV0=s0-d-e1-ft#https://ph-files.imgix.net/1dc3eb5e-b7f0-4df5-80a3-8cb2be12dfe7.gif?auto=format](https://ci5.googleusercontent.com/proxy/_KKYnFq8FjkdsanDq3GmBmV-E9bg2KsdlBKabgW1UTSiTvS3-zQQ-o44507PYC9ZIp9tAtSSC7ZKgDBlR-5BH2oqOHk8PzJLjnGOkzrTUW4IX9nRMyaTH4gZwAJ3o90uJV0=s0-d-e1-ft#https://ph-files.imgix.net/1dc3eb5e-b7f0-4df5-80a3-8cb2be12dfe7.gif?auto=format)
 
 ---
 
@@ -32,7 +31,7 @@ So far, the response has been pretty positive. _“This captures the Zeitgeist 
 
 ---
 
-[Cosmos Vidéo - Virtual spaces to work and hangout](https://cosmos.video/?trackID=8a33843e-a2d6-4d75-a659-ac74601a7740)
+[Cosmos Video - Virtual spaces to work and hangout](https://cosmos.video/?trackID=8a33843e-a2d6-4d75-a659-ac74601a7740)
 
 [Talkie | One-click voice chat rooms & screenshare](https://www.talkiehq.com/?fbclid=IwAR3N5vZ1bOcyh_IxTLszfCU56UYFfsPQVLATqcEW0IJNQOuafe1RXSPUqW8)
 
@@ -65,7 +64,7 @@ espace de travail
 - [Airmeet: Virtual and Hybrid Event Technology Platform](https://www.airmeet.com/)
 - [Kosy | Where remote teams work and hang out](https://www.kosyoffice.com/?fbclid=IwAR10SEKujV_x8woBqQfJ_ZBVHhMsLzLPKlHmXlZepDy7i3IpJcTGqxOVXfo)
 - [Skittish](https://skittish.com/)
-- [Cosmos Vidéo - Virtual spaces to work and hangout](https://cosmos.video/?trackID=8a33843e-a2d6-4d75-a659-ac74601a7740)
+- [Cosmos Video - Virtual spaces to work and hangout](https://cosmos.video/?trackID=8a33843e-a2d6-4d75-a659-ac74601a7740)
 - [Talkie | One-click voice chat rooms & screenshare](https://www.talkiehq.com/?fbclid=IwAR3N5vZ1bOcyh_IxTLszfCU56UYFfsPQVLATqcEW0IJNQOuafe1RXSPUqW8)
     - It's time to start introducing you to guys to a very unique startup that is funded by [100x.vc](http://100x.vc) (we have posted the link in the comment below. A thesis by [100x.vc](http://100x.vc) for Talkie)
     - Introducing Talkie!
@@ -94,7 +93,7 @@ Fini la fatigue du zoom, Gather utilise l'audio spatial pour ramener les interac
     
     Want to host an event, but can’t decide on the right template? Now you just answer a few questions, add or remove Rooms, and voila! You have an event Space that’s tailored to your needs. Need a place for people to socialize in? Add a game room in a single click. Hosting three-panel discussions at the same time? Add three Talk Rooms to your Space!
     
-    [](https://ci3.googleusercontent.com/proxy/gWVCxQrILdhMU0NvJWYHxuE_2PCaBC6cXTL9f3OU3ImEpUTEQA5ICnmrWoc4QeuPTlKl9eJj73_-qC-M3bc96g69UYC6aXguC4zuWbGAOMDaNnQXXAUjkrxpjvh65lrgVMF8nK6siLDqrtFXpBVi0SSjedNGAmjDARyINu8m-OPtoIjNMd9V5NwVDt9BGYd0Y6mpWHVQVGtjitEuefSCDiYbOm2hK-5PHIaylZbH8Rn24drHMNAuYbg5=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New%20Events%20Features%20Email-%20Images/Image%201%20(1).png?width=1080&upscale=true&name=Image%201%20(1).png)[https://ci3.googleusercontent.com/proxy/gWVCxQrILdhMU0NvJWYHxuE_2PCaBC6cXTL9f3OU3ImEpUTEQA5ICnmrWoc4QeuPTlKl9eJj73_-qC-M3bc96g69UYC6aXguC4zuWbGAOMDaNnQXXAUjkrxpjvh65lrgVMF8nK6siLDqrtFXpBVi0SSjedNGAmjDARyINu8m-OPtoIjNMd9V5NwVDt9BGYd0Y6mpWHVQVGtjitEuefSCDiYbOm2hK-5PHIaylZbH8Rn24drHMNAuYbg5=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New](__MASK_25__) Events Features Email- Images/Image 1 (1).png?width=1080&upscale=true&name=Image 1 (1).png
+    [](https://ci3.googleusercontent.com/proxy/gWVCxQrILdhMU0NvJWYHxuE_2PCaBC6cXTL9f3OU3ImEpUTEQA5ICnmrWoc4QeuPTlKl9eJj73_-qC-M3bc96g69UYC6aXguC4zuWbGAOMDaNnQXXAUjkrxpjvh65lrgVMF8nK6siLDqrtFXpBVi0SSjedNGAmjDARyINu8m-OPtoIjNMd9V5NwVDt9BGYd0Y6mpWHVQVGtjitEuefSCDiYbOm2hK-5PHIaylZbH8Rn24drHMNAuYbg5=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New%20Events%20Features%20Email-%20Images/Image%201%20(1).png?width=1080&upscale=true&name=Image%201%20(1).png)[https://ci3.googleusercontent.com/proxy/gWVCxQrILdhMU0NvJWYHxuE_2PCaBC6cXTL9f3OU3ImEpUTEQA5ICnmrWoc4QeuPTlKl9eJj73_-qC-M3bc96g69UYC6aXguC4zuWbGAOMDaNnQXXAUjkrxpjvh65lrgVMF8nK6siLDqrtFXpBVi0SSjedNGAmjDARyINu8m-OPtoIjNMd9V5NwVDt9BGYd0Y6mpWHVQVGtjitEuefSCDiYbOm2hK-5PHIaylZbH8Rn24drHMNAuYbg5=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New](https://ci3.googleusercontent.com/proxy/gWVCxQrILdhMU0NvJWYHxuE_2PCaBC6cXTL9f3OU3ImEpUTEQA5ICnmrWoc4QeuPTlKl9eJj73_-qC-M3bc96g69UYC6aXguC4zuWbGAOMDaNnQXXAUjkrxpjvh65lrgVMF8nK6siLDqrtFXpBVi0SSjedNGAmjDARyINu8m-OPtoIjNMd9V5NwVDt9BGYd0Y6mpWHVQVGtjitEuefSCDiYbOm2hK-5PHIaylZbH8Rn24drHMNAuYbg5=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New) Events Features Email- Images/Image 1 (1).png?width=1080&upscale=true&name=Image 1 (1).png
     
     [Untitled](https://www.notion.so/b40c15d2b52a4e968a974e469c0f5c02?pvs=21)
     
@@ -104,15 +103,15 @@ Fini la fatigue du zoom, Gather utilise l'audio spatial pour ramener les interac
     
     Hosting a talk or presentation? Don’t worry—we’ve got it covered. We’ve created Talk Rooms for speakers to host their keynotes, panel discussions, and presentations in! Speakers and moderators can engage with the audience through our new, moderated Q&A chat.
     
-    [](https://ci3.googleusercontent.com/proxy/6J3t3dja8UanEe--6xxSKkuo266IHJZuJcYwnpqetdxo1cVeouOePUYbrr7215UfH2Db-H8fJ0ol3-RIkMd04xDcvISLCyMXzPAHT51mooOCPMyOyEvGHxdEjrykL7HbKLcmIUXKmh3647dE30fnPgitMXNRD3LeAThkob3mn9nCOfcHQvm-mJ2fTyBhVDO8cdIAyygebzPAquMkNzSSqoyubYjok5DXy4xGjPk50ayrpi3JQUr7Zyyl=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New%20Events%20Features%20Email-%20Images/Image%203%20(1).png?width=1072&upscale=true&name=Image%203%20(1).png)[https://ci3.googleusercontent.com/proxy/6J3t3dja8UanEe--6xxSKkuo266IHJZuJcYwnpqetdxo1cVeouOePUYbrr7215UfH2Db-H8fJ0ol3-RIkMd04xDcvISLCyMXzPAHT51mooOCPMyOyEvGHxdEjrykL7HbKLcmIUXKmh3647dE30fnPgitMXNRD3LeAThkob3mn9nCOfcHQvm-mJ2fTyBhVDO8cdIAyygebzPAquMkNzSSqoyubYjok5DXy4xGjPk50ayrpi3JQUr7Zyyl=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New](__MASK_28__) Events Features Email- Images/Image 3 (1).png?width=1072&upscale=true&name=Image 3 (1).png
+    [](https://ci3.googleusercontent.com/proxy/6J3t3dja8UanEe--6xxSKkuo266IHJZuJcYwnpqetdxo1cVeouOePUYbrr7215UfH2Db-H8fJ0ol3-RIkMd04xDcvISLCyMXzPAHT51mooOCPMyOyEvGHxdEjrykL7HbKLcmIUXKmh3647dE30fnPgitMXNRD3LeAThkob3mn9nCOfcHQvm-mJ2fTyBhVDO8cdIAyygebzPAquMkNzSSqoyubYjok5DXy4xGjPk50ayrpi3JQUr7Zyyl=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New%20Events%20Features%20Email-%20Images/Image%203%20(1).png?width=1072&upscale=true&name=Image%203%20(1).png)[https://ci3.googleusercontent.com/proxy/6J3t3dja8UanEe--6xxSKkuo266IHJZuJcYwnpqetdxo1cVeouOePUYbrr7215UfH2Db-H8fJ0ol3-RIkMd04xDcvISLCyMXzPAHT51mooOCPMyOyEvGHxdEjrykL7HbKLcmIUXKmh3647dE30fnPgitMXNRD3LeAThkob3mn9nCOfcHQvm-mJ2fTyBhVDO8cdIAyygebzPAquMkNzSSqoyubYjok5DXy4xGjPk50ayrpi3JQUr7Zyyl=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New](https://ci3.googleusercontent.com/proxy/6J3t3dja8UanEe--6xxSKkuo266IHJZuJcYwnpqetdxo1cVeouOePUYbrr7215UfH2Db-H8fJ0ol3-RIkMd04xDcvISLCyMXzPAHT51mooOCPMyOyEvGHxdEjrykL7HbKLcmIUXKmh3647dE30fnPgitMXNRD3LeAThkob3mn9nCOfcHQvm-mJ2fTyBhVDO8cdIAyygebzPAquMkNzSSqoyubYjok5DXy4xGjPk50ayrpi3JQUr7Zyyl=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/New) Events Features Email- Images/Image 3 (1).png?width=1072&upscale=true&name=Image 3 (1).png
     
     [Untitled](https://www.notion.so/8b5e371b4f7b471cabd088be145ba82a?pvs=21)
     
-    # **↗ Increased Vidéo Grid Capacity**
+    # **↗ Increased Video Grid Capacity**
     
-    You can now see up to 16 people at a time when you expand your vidéo carousel into grid mode. We’re excited about this update and love helping people feel more connected while apart.
+    You can now see up to 16 people at a time when you expand your video carousel into grid mode. We’re excited about this update and love helping people feel more connected while apart.
     
-    [](https://ci3.googleusercontent.com/proxy/ndYS3Lm-K6wns25dRthW_Rz8gauoHPoeCcQPj3UlsCXOewd7TBvbVAbJBKYGqDURA5NrYc9TzaiLzeKT2q6mrtNGBoPghBpBy36QyE79X-I667uXbxfgbTr5K6YwqaGTOIUMZanPdgPjsAWYLWR_JvJg11NbS5bwWLVxbHNikTD792wii_if9xrocvvyY_nSes1ssfAt1XJllbwZ4tVxfO52N9Vekc7HgDecuQvXZzxQ6MXBfoJuJz7aS4V9hCLds0WkGGmmwBmoeDSlKJCqY2ecTisSIKplF1zI0b5ozJKL=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design%20Assets%20-%20April%20Newsletter/increased%20video%20grid%20capacity.png?width=1072&upscale=true&name=increased%20video%20grid%20capacity.png)[https://ci3.googleusercontent.com/proxy/ndYS3Lm-K6wns25dRthW_Rz8gauoHPoeCcQPj3UlsCXOewd7TBvbVAbJBKYGqDURA5NrYc9TzaiLzeKT2q6mrtNGBoPghBpBy36QyE79X-I667uXbxfgbTr5K6YwqaGTOIUMZanPdgPjsAWYLWR_JvJg11NbS5bwWLVxbHNikTD792wii_if9xrocvvyY_nSes1ssfAt1XJllbwZ4tVxfO52N9Vekc7HgDecuQvXZzxQ6MXBfoJuJz7aS4V9hCLds0WkGGmmwBmoeDSlKJCqY2ecTisSIKplF1zI0b5ozJKL=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design](__MASK_31__) Assets - April Newsletter/increased vidéo grid capacity.png?width=1072&upscale=true&name=increased vidéo grid capacity.png
+    [](https://ci3.googleusercontent.com/proxy/ndYS3Lm-K6wns25dRthW_Rz8gauoHPoeCcQPj3UlsCXOewd7TBvbVAbJBKYGqDURA5NrYc9TzaiLzeKT2q6mrtNGBoPghBpBy36QyE79X-I667uXbxfgbTr5K6YwqaGTOIUMZanPdgPjsAWYLWR_JvJg11NbS5bwWLVxbHNikTD792wii_if9xrocvvyY_nSes1ssfAt1XJllbwZ4tVxfO52N9Vekc7HgDecuQvXZzxQ6MXBfoJuJz7aS4V9hCLds0WkGGmmwBmoeDSlKJCqY2ecTisSIKplF1zI0b5ozJKL=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design%20Assets%20-%20April%20Newsletter/increased%20video%20grid%20capacity.png?width=1072&upscale=true&name=increased%20video%20grid%20capacity.png)[https://ci3.googleusercontent.com/proxy/ndYS3Lm-K6wns25dRthW_Rz8gauoHPoeCcQPj3UlsCXOewd7TBvbVAbJBKYGqDURA5NrYc9TzaiLzeKT2q6mrtNGBoPghBpBy36QyE79X-I667uXbxfgbTr5K6YwqaGTOIUMZanPdgPjsAWYLWR_JvJg11NbS5bwWLVxbHNikTD792wii_if9xrocvvyY_nSes1ssfAt1XJllbwZ4tVxfO52N9Vekc7HgDecuQvXZzxQ6MXBfoJuJz7aS4V9hCLds0WkGGmmwBmoeDSlKJCqY2ecTisSIKplF1zI0b5ozJKL=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design](https://ci3.googleusercontent.com/proxy/ndYS3Lm-K6wns25dRthW_Rz8gauoHPoeCcQPj3UlsCXOewd7TBvbVAbJBKYGqDURA5NrYc9TzaiLzeKT2q6mrtNGBoPghBpBy36QyE79X-I667uXbxfgbTr5K6YwqaGTOIUMZanPdgPjsAWYLWR_JvJg11NbS5bwWLVxbHNikTD792wii_if9xrocvvyY_nSes1ssfAt1XJllbwZ4tVxfO52N9Vekc7HgDecuQvXZzxQ6MXBfoJuJz7aS4V9hCLds0WkGGmmwBmoeDSlKJCqY2ecTisSIKplF1zI0b5ozJKL=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design) Assets - April Newsletter/increased video grid capacity.png?width=1072&upscale=true&name=increased video grid capacity.png
     
     [Untitled](https://www.notion.so/b3e38f56a37f4d43bbe2ad5d1f09d074?pvs=21)
     
@@ -122,7 +121,7 @@ Fini la fatigue du zoom, Gather utilise l'audio spatial pour ramener les interac
     
     Meeting with friends across several time zones? Never sure if it’s a good time to bother your co-worker? With the World Clock extension, you can now display your local time in your status. Want more details or to see other available extensions? See the [Extensions](https://d15rxv04.na1.hubspotlinks.com/Ctc/DN+113/d15Rxv04/VWnN_n4nkgzDV9cFSq5SwDf4W97gBTk4HzfLDN8Qx56_3q8_QV1-WJV7CgRgpW5H76GC9lRSGZW62R5mp35hf27W1wLWHd6GDLvJM9rzkPvFKJ9W4spD5-1x8TtcW7g1czP83F3TPVL7RYN3s4scTW8zg8Bt5vrwlfW98Z04V8MC-hkN5T79-VdjqlvW5HDpF57Gq96gW8JTLlc3kpqdRW49SB6v4mhXFgW1dyrsp5nDnB2W5dVNvF3yrBXQW8HSP-P2qvJsqW4xYLPs894qRqW1SnCW57ZYzBMW7TS1tc9kXrNWW4DWSFV8XHV6gW9h7Pv_4C6FLCN1H-s4YBdwxk3d881) category in our help center.
     
-    [](https://ci6.googleusercontent.com/proxy/1P5m2sGhT3qDE8Tn3wLj10vBJKsjWakO-wMVF1VqwJydeXsPlgWIrlZdzY_EYYH1DV_lmYnj8iGKLhJiaK9lm89UxHQLtB6ZslZCrFARD4ZJ3_zrLCn_xRZhdHm3J4vDlsvVLtVmt3XhmJs52ML1cU3Qa3kdb0P5bynwA37BcNBD0nUiA5TcRzA5DWDL9MzOghlHRpbZrLKFoeMapcWmyfhN82IHnHvJp6NVUQsSDmSZmJ4n0pGvukclpMZ-RpKFe3y4ohY4w3VeeJs-WQ=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design%20Assets%20-%20April%20Newsletter/world%20clock%20extension.png?width=1072&upscale=true&name=world%20clock%20extension.png)[https://ci6.googleusercontent.com/proxy/1P5m2sGhT3qDE8Tn3wLj10vBJKsjWakO-wMVF1VqwJydeXsPlgWIrlZdzY_EYYH1DV_lmYnj8iGKLhJiaK9lm89UxHQLtB6ZslZCrFARD4ZJ3_zrLCn_xRZhdHm3J4vDlsvVLtVmt3XhmJs52ML1cU3Qa3kdb0P5bynwA37BcNBD0nUiA5TcRzA5DWDL9MzOghlHRpbZrLKFoeMapcWmyfhN82IHnHvJp6NVUQsSDmSZmJ4n0pGvukclpMZ-RpKFe3y4ohY4w3VeeJs-WQ=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design](__MASK_35__) Assets - April Newsletter/world clock extension.png?width=1072&upscale=true&name=world clock extension.png
+    [](https://ci6.googleusercontent.com/proxy/1P5m2sGhT3qDE8Tn3wLj10vBJKsjWakO-wMVF1VqwJydeXsPlgWIrlZdzY_EYYH1DV_lmYnj8iGKLhJiaK9lm89UxHQLtB6ZslZCrFARD4ZJ3_zrLCn_xRZhdHm3J4vDlsvVLtVmt3XhmJs52ML1cU3Qa3kdb0P5bynwA37BcNBD0nUiA5TcRzA5DWDL9MzOghlHRpbZrLKFoeMapcWmyfhN82IHnHvJp6NVUQsSDmSZmJ4n0pGvukclpMZ-RpKFe3y4ohY4w3VeeJs-WQ=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design%20Assets%20-%20April%20Newsletter/world%20clock%20extension.png?width=1072&upscale=true&name=world%20clock%20extension.png)[https://ci6.googleusercontent.com/proxy/1P5m2sGhT3qDE8Tn3wLj10vBJKsjWakO-wMVF1VqwJydeXsPlgWIrlZdzY_EYYH1DV_lmYnj8iGKLhJiaK9lm89UxHQLtB6ZslZCrFARD4ZJ3_zrLCn_xRZhdHm3J4vDlsvVLtVmt3XhmJs52ML1cU3Qa3kdb0P5bynwA37BcNBD0nUiA5TcRzA5DWDL9MzOghlHRpbZrLKFoeMapcWmyfhN82IHnHvJp6NVUQsSDmSZmJ4n0pGvukclpMZ-RpKFe3y4ohY4w3VeeJs-WQ=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design](https://ci6.googleusercontent.com/proxy/1P5m2sGhT3qDE8Tn3wLj10vBJKsjWakO-wMVF1VqwJydeXsPlgWIrlZdzY_EYYH1DV_lmYnj8iGKLhJiaK9lm89UxHQLtB6ZslZCrFARD4ZJ3_zrLCn_xRZhdHm3J4vDlsvVLtVmt3XhmJs52ML1cU3Qa3kdb0P5bynwA37BcNBD0nUiA5TcRzA5DWDL9MzOghlHRpbZrLKFoeMapcWmyfhN82IHnHvJp6NVUQsSDmSZmJ4n0pGvukclpMZ-RpKFe3y4ohY4w3VeeJs-WQ=s0-d-e1-ft#https://hs-9420218.f.hubspotemail.net/hub/9420218/hubfs/Design) Assets - April Newsletter/world clock extension.png?width=1072&upscale=true&name=world clock extension.png
     
     [Untitled](https://www.notion.so/02eb36a0415e4ceeaa77b3273ed2e6e6?pvs=21)
     
@@ -138,15 +137,15 @@ Fini la fatigue du zoom, Gather utilise l'audio spatial pour ramener les interac
 [une vidéo sur l'opimisatino des images (1)](https://www.notion.so/une-vid-o-sur-l-opimisatino-des-images-1-f6af55b76f984d5c8bb2240f845824c1?pvs=21)
 
 
-Custom, immersive virtual spaces for a more engaging event expérience!
+Custom, immersive virtual spaces for a more engaging event experience!
 
 Easily move in and out of conversations like you would in real life
 
 ## Custom spaces
 
-Choose one of our interactive virtual spaces, or work with our team to create a fully custom event expérience
+Choose one of our interactive virtual spaces, or work with our team to create a fully custom event experience
 
-Customize objects around your space with vidéos, images, links, or games
+Customize objects around your space with videos, images, links, or games
 
 ## Custom characters
 
@@ -168,6 +167,6 @@ Convinced the [metaverse is bullshit](https://click.convertkit-mail.com/0vumle
 
 [Build an efficient Company Culture with a Virtual Workspace | Wurkr](https://wurkr.io/)
 
-[Cosmos Vidéo - The meetings tool designed for remote teams](https://cosmos.video/)
+[Cosmos Video - The meetings tool designed for remote teams](https://cosmos.video/)
 
 [Campfire -- All-in-one remote socials team building games happy hours platform](https://www.campfire.to/)

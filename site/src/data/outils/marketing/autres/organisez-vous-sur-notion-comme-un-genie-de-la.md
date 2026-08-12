@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: bureautique
 imageNameKey: null
 u_site: null
 title: Organisez Vous Sur Notion Comme Un Génie De La Productivité
 author: Diane
-description: "Organisez Vous Sur Notion Comme Un Génie De La Productivité."
+description: 'Découvre Organisez Vous Sur Notion Comme Un Génie De La Productivité
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

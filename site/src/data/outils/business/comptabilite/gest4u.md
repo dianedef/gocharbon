@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://gest4u.fr/conditions-generales-dutilisation/
-- https://app.gest4u.fr/conditions.html
-notesQualification: Gest4U est rattache a APPS4U a Paris; la documentation publique insiste sur la securisation des donnees et l'integration Budget Insight, mais ne qualifie pas assez precisement la localisation complete de l'hebergement applicatif.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Gest4U
 author: Diane
 tags:

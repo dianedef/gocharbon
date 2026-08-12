@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Débuts Chocs Des Plus Grands Entrepreneurs Vous Ne Croirez Jamais Le N°7
 author: Diane
-description: "Les Débuts Chocs Des Plus Grands Entrepreneurs Vous Ne Croirez Jamais Le N°7."
+description: 'Découvre Les Débuts Chocs Des Plus Grands Entrepreneurs Vous Ne Croirez
+  Jamais Le N°7 : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut:
 - backlog
@@ -18,7 +18,7 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-# Alternatives à WooCommerce
+# Contenu
  **North Commerce : Construisez votre magasin en ligne sur WordPress avec un seul plugin** 🛍️💻
 
 Construisez un magasin en ligne rapide et facilement personnalisable sur WordPress avec le plugin North Commerce. Ce plugin est plein de fonctionnalités pour vous aider à créer, gérer et évoluer votre entreprise en ligne.

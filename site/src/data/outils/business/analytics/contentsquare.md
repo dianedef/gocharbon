@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://contentsquare.com/legal-notice/
-- https://contentsquare.com/privacy-center/privacy-policy/
-notesQualification: Societe francaise basee a Paris, mais groupe tres international et transferts de donnees documentes hors EEE sans hebergement principal explicitement detaille.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Contentsquare
 author: Diane
 tags:

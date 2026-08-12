@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: crm
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: tuto
 statut: []
 _priorité: normal
 imageNameKey: twitter-crm
@@ -11,7 +9,8 @@ tags:
 - Outils
 title: Le Crm Linkedin Qui Va Booster Vos Ventes De 500%
 author: Diane
-description: "Le Crm Linkedin Qui Va Booster Vos Ventes De 500%."
+description: 'Découvre Le Crm Linkedin Qui Va Booster Vos Ventes De 500% : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -133,4 +132,4 @@ Des gros acteurs comme Lemlist ne peuvent pas changer leur business model comme 
 
 Si ton budget est pas extensible à l’infini et que tu veux faire juste du cold email, je prendrais le plan à 37$ chez Instantly pour le warmup illimité, le cold emailing illimité chez Emelia.
 
-Si tu veux faire du multi-canal alors [LGM 2](https://lagrowthmachine.com/?ref=gh) sans acun doute car monter une machine custom te coutera beaucoup beaucoup plus chère et je te parle même pas de la maintenance.
+Si tu veux faire du multi-canal alors [LGM 2](https://lagrowthmachine.com/?ref=gh) sans acun doute car monter une machine custom te coutera beaucoup beaucoup plus chère et je te parle meme pas de la maintenance.

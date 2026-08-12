@@ -1,50 +1,33 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut: en-attente
 _priorité: normal
 tags:
 - Outils
 title: Serez Vous Remplacé Par L'Ia Le Test Choc Qui Va Vous Faire Trembler
 author: Diane
-description: "Serez Vous Remplacé Par L'Ia Le Test Choc Qui Va Vous Faire Trembler."
+description: 'Découvre Serez Vous Remplacé Par L''Ia Le Test Choc Qui Va Vous Faire
+  Trembler : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-## Ce que c'est
+- 🤖 Demonstration of using AI like Claude to generate high-quality text content in the same writing style and tone, covering ideas from books.
+- 📝 The potential for AI to completely replace 90% of online creators within the next 2-5 years by generating similar or better text content.
+- 🧭 Importance of transitioning towards creating more human and authentic content beyond just ideas and concepts, showcasing real-life experiences.
+- 🎥 Suggestion to start testing video content featuring real-life projects aligned with the audience's aspirations.
+- 👥 AI's inability to replicate genuine human presence, live interactions, and immersive experiences, creating opportunities for creators.
+- ⚠️ The urgency to prepare for the AI-driven content saturation by incorporating more humanity and authenticity into content.
+- 🔓 Exploring content that AI tools might hesitate to produce due to their constrained nature or "bridled" guidelines.
+- ❓ A quiz link provided to assess an individual's risk of being replaced by AI within 5 years based on their online activities or business.
 
-Cette page aborde le risque de remplacement ou de transformation des métiers par l'IA, avec un focus sur les créateurs, les rédacteurs, les marketeurs et les métiers de production intellectuelle.
+### Les métiers créatifs seront chamboulés
+L'IA peut dégrossir le travail, donner des idées, mâcher l'écriture et la structuration de contenu écrit, audio ou vidéo. Mais elle ne peut pas apporter cette intelligence créative inattendue et humaine qui nous distingue encore des robots
+Les métiers créatifs ne seront pas remplacé, mais 10x plus productif grâce à l'IA, ça veut dire 10x plus de concurrence. La question c'est "Est-ce que tu sauras utiliser ces outils suffisamment pour rester dans le peloton des vainqueurs ?"
+### Les métiers physique sont pour l'instant les mieux protégés
+### Les métiers sans plus-value créative sont les plus à risque
 
-Le "test choc" peut rester au vestiaire. Ce qui compte, c'est d'évaluer froidement votre exposition: ce que vous produisez, comment vous le produisez, et pourquoi quelqu'un continuerait à vous payer vous plutôt qu'un outil ou un profil augmenté.
-
-## Ce que ça change concrètement
-
-L'IA rend la production de textes, d'images, de scripts, de plans et de synthèses beaucoup plus accessible. Elle baisse le coût du premier jet et augmente mécaniquement la concurrence sur les contenus moyens.
-
-En revanche, elle ne remplace pas facilement l'expérience vécue, la relation de confiance, la présence, le terrain, les choix difficiles et la responsabilité. Les métiers changent: moins d'exécution pure, plus de cadrage, de validation et de différenciation.
-
-## Limites et risques
-
-Le piège est de chercher une réponse universelle. Un métier peut être protégé dans un contexte et fragile dans un autre. Un avocat, un formateur, un designer ou un rédacteur ne sont pas exposés de la même manière selon leurs clients, leurs livrables et leur niveau d'expertise.
-
-Autre risque: croire que "mettre plus d'humain" suffit. L'humain flou, narcissique ou mal préparé ne vaut pas mieux qu'un texte IA moyen. Il faut du vécu, du jugement et une utilité claire.
-
-## Comment l'utiliser sans se raconter d'histoires
-
-Faites l'inventaire de vos livrables. Pour chacun, demandez-vous: une IA peut-elle produire 70 % du résultat ? Un junior avec IA peut-il faire aussi bien ? Le client voit-il une différence ? Cette différence mérite-t-elle votre prix ?
-
-Puis renforcez ce qui résiste: expertise spécifique, preuves, cas réels, accès au terrain, relation client, capacité à arbitrer. Utilisez l'IA pour accélérer le reste, pas pour déguiser une proposition faible.
-
-## Verdict GoCharbon
-
-Oui, certaines tâches vont être remplacées. Non, cela ne veut pas dire que tout le monde doit paniquer en rond sur LinkedIn.
-
-La meilleure défense reste simple: devenir plus utile, plus précis, plus rapide sur l'exécution et plus fort sur le jugement. L'IA augmente la barre. Elle ne dispense pas d'avoir quelque chose à dire.
-
-## Mise à jour (avril 2026)
-
-En 2026, les outils IA sont intégrés partout: écriture, support, design, code, vidéo, analyse. Le risque n'est plus théorique pour les profils qui vendent une production standardisée.
-
-La priorité est de construire une compétence hybride: maîtrise des outils, expertise métier, capacité de vérification et signature personnelle. Pas besoin de trembler. Besoin de travailler intelligemment, oui.
+A quel point un avocat peut-il être créatif ? Dans une plaidoirie, l'humain et son imagination sont irremplaçable, mais quand il s'agit d'écrire des contrats, l'IA le fait bien mieux que l'humain.
+La [support client aussi, comme le prédit Sam Altman ](https://youtu.be/L_Guz73e6fw?t=5852)le CEO de OpenAI, quand il n'est pas pour du luxe ou pour des situations extrêmement complexe, ce qui ne compte que pour 10% de celui-ci peut-être, est remplaçable à 100% par l'IA.

@@ -1,59 +1,55 @@
 ---
 profileId: "ecommerce"
 title: "Parcours E-commerce / Boutique en ligne"
-description: "Comment lancer une boutique avec une offre claire, une page produit propre et un premier canal mesurable."
+description: "Plan d'action pour E-commerce / Boutique en ligne."
 category: "ecommerce"
 level: "debutant"
 status: "active"
-updatedAt: "2026-04-19"
+updatedAt: "2026-03-01"
 ---
 ## Ton objectif
-Lancer une boutique qui pousse une vraie offre, avec un produit héros, un checkout propre et un premier canal d’acquisition que tu peux lire sans boule de cristal.
+Developper une boutique rentable en combinant offre, conversion et rétention.
 
-## Le vrai nerf de la guerre
-Le problème de beaucoup de boutiques débutantes n’est pas le manque d’idées. C’est le manque de netteté.
+## En clair (version simple)
+- Pour qui : Marques D2C, boutiques niche et revendeurs en ligne.
+- Où trouver les clients : SEO catégorie + publicités performance + offres bundle.
+- Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
-En 2025, [Baymard](https://baymard.com/blog/ecommerce-checkout-usability-report-and-benchmark) estime encore l’abandon panier moyen à 70,19 %. Leur recherche montre aussi que 18 % des acheteurs abandonnent à cause d’un checkout trop long ou trop compliqué, et qu’un meilleur design de checkout peut améliorer la conversion d’environ 35 % sur un site moyen.
-
-Autrement dit : avant d’acheter du trafic, enlève déjà les fuites grossières.
-
-Autre repère utile : pendant le BFCM 2025, [Klaviyo](https://www.klaviyo.com/bfcm/holiday-shopping-trends) a observé une hausse de 13,6 % du revenu venant des acheteurs récurrents, plus forte que celle des nouveaux acheteurs. Donc non, l’e-commerce ne se résume pas à "ramener du monde". Il faut aussi donner une bonne raison de revenir.
-
-## Trois leviers à lancer d’abord
-1. Un produit héros ou un bundle lisible.
-2. Une page produit qui répond aux objections principales.
-3. Un premier canal d’acquisition que tu peux mesurer.
+## Idées d'offres à tester
+1. Audit conversion boutique
+2. Plan acquisition multicanal
+3. Programme rétention email/sms
 
 ## Ton plan simple sur 7 jours
-1. Jour 1 : choisis le produit ou bundle à pousser, la promesse, la cible et la marge minimale acceptable.
-2. Jours 2 à 4 : nettoie la fiche produit, les preuves, la livraison, le checkout et la capture email pour enlever les frictions évidentes.
-3. Jours 5 à 7 : ouvre un seul canal d’acquisition, regarde ce qui clique, ce qui ajoute au panier et ce qui bloque avant de rajouter d’autres couches.
+1. Jour 1 : rends "Audit conversion boutique" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
+2. Jours 2-4 : utilise ton canal principal (SEO catégorie + publicités performance + offres bundle.) pour proposer "Plan acquisition multicanal" à tes premiers clients et noter leurs retours.
+3. Jours 5-7 : continue avec "Programme rétention email/sms", puis suis taux conversion checkout et aov panier moyen, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre
-- Taux d’ajout au panier et taux de conversion
-- Taux de passage panier → checkout → achat
-- Coût d’acquisition ou coût de première commande
-- Panier moyen
-- Taux de réachat
+- Taux conversion checkout
+- AOV panier moyen
+- Repeat purchase rate
 
 ## Pièges à éviter
-- Lancer 40 références avant d’avoir une offre forte
-- Acheter du trafic vers une page produit tiède
-- Copier le vernis d’une marque D2C sans avoir la mécanique derrière
-- Oublier l’après-achat, comme si le boulot s’arrêtait au paiement
-
-## Commence ici ce soir
-- Fais acheter ton produit à trois personnes qui n’ont pas participé à sa création.
-- Regarde-les aller jusqu’au paiement.
-- Note chaque hésitation, chaque question, chaque moment où elles cherchent une info qui devrait déjà être visible.
+- Depenser publicités sans suivi fiable
+- Catalogues non priorises
+- Negliger rétention post-achat
 
 ## À la fin, tu dois avoir
-- Une offre priorisée autour d’un produit ou bundle clair
-- Une page produit et un checkout beaucoup plus propres
-- Un premier canal d’acquisition piloté avec de vrais chiffres
-- Un début de logique de réachat ou de capture email au lieu d’un simple one-shot
+- Offre/catalogue priorise selon marge et demande
+- Tunnel conversion audite (fiche -> checkout)
+- Suivi stock, retours et rentabilité par produit
 
-## Si tu veux comparer
-- [Voir tous les parcours](/parcours)
-- [Monter une audience avant de vendre](/parcours/createur-contenu)
-- [Transformer une expertise en produit pédagogique](/parcours/formation)
+## Liens utiles pour avancer
+- [Fiche profil Ecommerce](/biz/profils/ecommerce)
+- [Quiz rapide (orientation)](/quiz-rapide)
+- [Quiz avancé (validation)](/quiz-avance)
+- [Suivi du parcours](/parcours/ecommerce)
+- [Ressource utile 1](/biz/e-commerce)
+- [Ressource utile 2](/tutos/comment-importer-des-produits-amazon-dans)
+- [Ressource utile 3](/marketing/ads/meta)
+
+## Idées de contenus pour aller plus loin
+- [Guide à venir 1: plan bundle et upsell](/tutos/ecommerce/plan-bundle-et-upsell)
+- [Guide à venir 2: carte frictions checkout](/tutos/ecommerce/carte-frictions-checkout)
+- [Guide à venir 3: stratégie rétention 90 jours](/tutos/ecommerce/strategie-retention-90-jours)

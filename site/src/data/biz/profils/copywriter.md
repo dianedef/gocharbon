@@ -1,15 +1,16 @@
 ---
 section: parcours
-title: Copywriter freelance
-author: Diane GoCharbon
+title: Copywriter / Rédacteur Publicitaire
+author: Web Indé
 tags:
 - Business
-description: 'Écrire pour vendre sans écrire comme un robot de tunnel de vente.'
+description: 'Deviens copywriter freelance : techniques de persuasion, niches rentables
+  et stratégies d''acquisition clients.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Copywriter freelance
+# Copywriter / Rédacteur Publicitaire
 
 ## Description en une phrase
 
@@ -17,7 +18,7 @@ Tu écris des textes persuasifs pour aider des entreprises à vendre (landing pa
 
 ## C'est quoi exactement ?
 
-Le copywriting, c'est **l'art de vendre avec les mots**. Contrairement au journalisme ou à l'écriture créative, le copywriting a un objectif unique : convaincre le lecteur d'agir (acheter, s'inscrire, cliquer). Pour tout comprendre sur la discipline, lis le [guide complet du copywriting](/marketing/copywriting/index).
+Le copywriting, c'est **l'art de vendre avec les mots**. Contrairement au journalisme ou à l'écriture créative, le copywriting a un objectif unique : convaincre le lecteur d'agir (acheter, s'inscrire, cliquer).
 
 Concrètement, tu vas écrire :
 

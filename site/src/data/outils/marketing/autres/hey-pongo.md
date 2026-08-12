@@ -1,13 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: reputation
+section: apps
 metadataEnrichedAt: null
 title: Hey Pongo
 author: Diane
 tags:
 - Outils
-description: "Hey Pongo est une plateforme française de fidélisation et marketing pour les commerces et restaurants. SMS, avis Google, commande en ligne, programme de fidélité."
+description: Hey Pongo est une plateforme française de fidélisation et marketing pour
+  les commerces et restaurants. SMS, avis Google, commande en ligne, programme de
+  fidélité.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.heypongo.com

@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: L'App De Prise De Notes Qui Va Transformer Votre Cerveau En Superordinateur
 author: Diane
-description: "L'App De Prise De Notes Qui Va Transformer Votre Cerveau En Superordinateur."
+description: 'Découvre L''App De Prise De Notes Qui Va Transformer Votre Cerveau En
+  Superordinateur : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

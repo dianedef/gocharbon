@@ -20,16 +20,16 @@ Imagine un monde ou chaque navigateur web parlerait un langage different. Tu ne 
 
 On est exactement la avec les agents IA en 2025. Chaque framework (LangChain, AutoGen, CrewAI, OpenAI) a sa propre facon de gerer les outils et la communication. Un agent construit avec LangGraph ne peut pas utiliser les outils d'un agent CrewAI. Impossible de les faire collaborer sans ecrire du code de "plomberie" custom.
 
-Trois protocoles tentent de resoudre ce problème :
-- **MCP** (Model Context Protocol) par Anthropic -- comment un agent accède aux outils et aux donnees
+Trois protocoles tentent de resoudre ce probleme :
+- **MCP** (Model Context Protocol) par Anthropic -- comment un agent accede aux outils et aux donnees
 - **A2A** (Agent-to-Agent) par Google -- comment les agents communiquent entre eux
 - **Agent Protocol** -- la tentative originale de standardisation (avant MCP et A2A)
 
-C'est une bataille qui va definir l'infrastructure de l'IA pour la prochaine decennie. Et ca te concerne directement, même si tu n'ecris pas une ligne de code.
+C'est une bataille qui va definir l'infrastructure de l'IA pour la prochaine decennie. Et ca te concerne directement, meme si tu n'ecris pas une ligne de code.
 
 ---
 
-## LE PROBLÈME : DES AGENTS EN SILOS
+## LE PROBLEME : DES AGENTS EN SILOS
 
 ### Pourquoi la standardisation est critique
 
@@ -43,10 +43,10 @@ Aujourd'hui, brancher un agent sur un outil (Gmail, Slack, GitHub, une base de d
 
 C'est comme l'ere pre-USB : chaque peripherique avait son propre connecteur. MCP, c'est le USB-C des agents IA.
 
-### Le coût de la fragmentation
+### Le cout de la fragmentation
 
 Pour un entrepreneur, la fragmentation signifie :
-- **Lock-in framework** -- une fois que tu as investi dans LangChain, changer pour AutoGen coûte cher
+- **Lock-in framework** -- une fois que tu as investi dans LangChain, changer pour AutoGen coute cher
 - **Integrations limitees** -- chaque framework ne couvre qu'une partie des outils existants
 - **Maintenance lourde** -- les connecteurs customs cassent a chaque mise a jour
 - **Pas de collaboration inter-agents** -- tes agents vivent dans des univers paralleles
@@ -57,7 +57,7 @@ Pour un entrepreneur, la fragmentation signifie :
 
 ### Le standard qui s'impose
 
-MCP (Model Context Protocol) est un protocole ouvert publie par Anthropic en novembre 2024. En quelques semaines, il a accumule des dizaines de milliers d'étoiles GitHub et est devenu le standard de facto pour connecter les agents aux outils.
+MCP (Model Context Protocol) est un protocole ouvert publie par Anthropic en novembre 2024. En quelques semaines, il a accumule des dizaines de milliers d'etoiles GitHub et est devenu le standard de facto pour connecter les agents aux outils.
 
 ### Comment ca marche
 
@@ -65,7 +65,7 @@ MCP suit une architecture **client-serveur** :
 
 - **MCP Server** : un programme qui expose des outils (fonctions) via un protocole standardise. Par exemple, un serveur MCP pour GitHub expose les fonctions "creer une issue", "lister les PR", "merger une branche"
 - **MCP Client** : l'agent (ou le framework) qui se connecte au serveur et appelle les outils
-- **Transport** : la communication passe par stdin/stdout (local), HTTP/SSE (réseau), ou WebSocket
+- **Transport** : la communication passe par stdin/stdout (local), HTTP/SSE (reseau), ou WebSocket
 
 ```
 Agent (Client MCP)  <-->  Serveur MCP GitHub
@@ -106,7 +106,7 @@ L'agent n'a pas besoin de savoir comment fonctionne l'API GitHub. Il voit juste 
 
 - **Simplicite** -- un serveur MCP, c'est quelques dizaines de lignes de code
 - **Universel** -- fonctionne avec n'importe quel LLM et n'importe quel framework
-- **Écosystème** -- des centaines de serveurs MCP publics en quelques mois (GitHub, Slack, PostgreSQL, Notion, Google Drive, Jira...)
+- **Ecosysteme** -- des centaines de serveurs MCP publics en quelques mois (GitHub, Slack, PostgreSQL, Notion, Google Drive, Jira...)
 - **Anthropic push** -- Claude Desktop, Claude Code, et le Claude Agent SDK supportent MCP nativement
 - **Adoption large** -- OpenAI, Google, Microsoft, et tous les grands frameworks ont ajoute le support MCP
 
@@ -120,7 +120,7 @@ MCP resout la connexion **agent -> outils**. Mais il ne resout pas la communicat
 
 ### Le chaignon manquant
 
-Google a lance le protocole A2A (Agent-to-Agent) en avril 2025. Si MCP est le "comment un agent utilise un outil", A2A est le "comment deux agents collaborent sur une tâche".
+Google a lance le protocole A2A (Agent-to-Agent) en avril 2025. Si MCP est le "comment un agent utilise un outil", A2A est le "comment deux agents collaborent sur une tache".
 
 ### Le concept
 
@@ -144,7 +144,7 @@ A2A standardise la facon dont les agents se decouvrent et collaborent :
 }
 ```
 
-**Task lifecycle** -- A2A definit un cycle de vie pour les tâches inter-agents : soumission, acceptation, progression, completion, echec. Ca permet des workflows asynchrones et de longue durée.
+**Task lifecycle** -- A2A definit un cycle de vie pour les taches inter-agents : soumission, acceptation, progression, completion, echec. Ca permet des workflows asynchrones et de longue duree.
 
 **Communication** -- les agents echangent via des messages structures avec des "parts" (texte, fichiers, donnees structurees), pas juste du texte brut.
 
@@ -155,15 +155,15 @@ A2A standardise la facon dont les agents se decouvrent et collaborent :
 | **Connexion** | Agent -> Outil | Agent -> Agent |
 | **Analogie** | USB-C (brancher un peripherique) | HTTP (communication entre serveurs) |
 | **Decouverte** | Le client connait le serveur | Les agents se decouvrent via Agent Cards |
-| **Communication** | Synchrone (appel de fonction) | Asynchrone (tâches longues possibles) |
+| **Communication** | Synchrone (appel de fonction) | Asynchrone (taches longues possibles) |
 | **Createur** | Anthropic | Google |
-| **Maturité** | Standard de facto (2024-2025) | Adoption plus lente (2025) |
+| **Maturite** | Standard de facto (2024-2025) | Adoption plus lente (2025) |
 
-Comme l'explique bien Cisco dans leur analyse : MCP est le "southbound interface" (l'agent parle aux outils en dessous de lui), et A2A est le "northbound/east-west interface" (les agents parlent entre eux au même niveau). Dans un système complet, tu utilises les deux.
+Comme l'explique bien Cisco dans leur analyse : MCP est le "southbound interface" (l'agent parle aux outils en dessous de lui), et A2A est le "northbound/east-west interface" (les agents parlent entre eux au meme niveau). Dans un systeme complet, tu utilises les deux.
 
 ---
 
-## LES APPROCHES PROPRIÉTAIRES
+## LES APPROCHES PROPRIETAIRES
 
 ### OpenAI Agents SDK
 
@@ -171,7 +171,7 @@ Lance en mars 2025, l'Agents SDK d'OpenAI prend une approche minimaliste et opin
 
 **Les primitives :**
 - **Agent** -- un LLM + des instructions + des outils
-- **Handoffs** -- un agent peut passer le contrôle a un autre agent (le "transfert d'appel")
+- **Handoffs** -- un agent peut passer le controle a un autre agent (le "transfert d'appel")
 - **Guardrails** -- des validations qui verifient les inputs/outputs
 - **Tracing** -- observabilite integree pour debugger
 
@@ -208,7 +208,7 @@ print(result.final_output)
 
 **Forces** : ultra-simple, integration native avec les modeles OpenAI (GPT-4o, o1, o3), outils built-in (web search, file search, code interpreter), tracing gratuit.
 
-**Limites** : lie a l'écosystème OpenAI, moins flexible que LangGraph, pas de persistence d'etat native, pas de boucles complexes.
+**Limites** : lie a l'ecosysteme OpenAI, moins flexible que LangGraph, pas de persistence d'etat native, pas de boucles complexes.
 
 L'Agents SDK supporte desormais MCP pour les outils externes, ce qui est un signal fort de l'adoption du protocole.
 
@@ -218,8 +218,8 @@ Lance en septembre 2025, le Claude Agent SDK prend une approche radicalement dif
 
 **La philosophie :**
 - Acces au terminal (commandes bash, git, npm...)
-- Acces au système de fichiers (lire, ecrire, chercher)
-- Connexion réseau (API calls, web browsing)
+- Acces au systeme de fichiers (lire, ecrire, chercher)
+- Connexion reseau (API calls, web browsing)
 - MCP natif (brancher n'importe quel serveur MCP)
 - Sous-agents pour la parallelisation
 
@@ -261,7 +261,7 @@ for await (const message of query({
 }
 ```
 
-**Forces** : agent vraiment autonome (terminal + fichiers + réseau), MCP natif, sous-agents, verification hierarchique des resultats.
+**Forces** : agent vraiment autonome (terminal + fichiers + reseau), MCP natif, sous-agents, verification hierarchique des resultats.
 
 **Limites** : lie a Claude, plus complexe a securiser (acces terminal), plus cher en tokens (l'agent est verbeux car il "pense a voix haute").
 
@@ -274,7 +274,7 @@ Google a lance son ADK pour s'integrer nativement avec Vertex AI et Google Cloud
 - Integration Google Workspace (Gmail, Docs, Calendar...)
 - Deploiement sur Agentspace (la plateforme d'agents de Google)
 
-C'est le choix logique si tu es dans l'écosystème Google Cloud, mais l'adoption est encore limitee par rapport aux autres.
+C'est le choix logique si tu es dans l'ecosysteme Google Cloud, mais l'adoption est encore limitee par rapport aux autres.
 
 ---
 
@@ -282,7 +282,7 @@ C'est le choix logique si tu es dans l'écosystème Google Cloud, mais l'adoptio
 
 ### La comparaison avec le web
 
-Dans les années 90, plusieurs protocoles rivalisaient pour devenir le standard du web : Gopher, WAIS, HTTP. HTTP a gagne grâce à sa simplicite et son ouverture. On assiste au même phenomene avec les agents.
+Dans les annees 90, plusieurs protocoles rivalisaient pour devenir le standard du web : Gopher, WAIS, HTTP. HTTP a gagne grace a sa simplicite et son ouverture. On assiste au meme phenomene avec les agents.
 
 ### Les 3 scenarios possibles
 
@@ -299,7 +299,7 @@ Comme les ecosystemes mobiles (iOS vs Android), plusieurs protocoles coexistent 
 
 MCP a clairement pris l'avantage pour la connexion agent-outil. Son adoption est massive : Anthropic, OpenAI, Microsoft, Google, et des centaines de startups le supportent. C'est devenu le "USB-C des agents".
 
-A2A avance plus lentement. La communication agent-agent est un problème plus complexe (decouverte, confiance, gestion d'etat longue durée), et les use cases sont moins immediats pour la plupart des developpeurs.
+A2A avance plus lentement. La communication agent-agent est un probleme plus complexe (decouverte, confiance, gestion d'etat longue duree), et les use cases sont moins immediats pour la plupart des developpeurs.
 
 Le Microsoft Agent Framework, en integrant MCP, A2A, et AG-UI (agent-UI), est le premier a tenter d'unifier les trois couches : agent-outil, agent-agent, et agent-humain.
 
@@ -309,7 +309,7 @@ Le Microsoft Agent Framework, en integrant MCP, A2A, et AG-UI (agent-UI), est le
 
 ### Pourquoi la standardisation te concerne
 
-Même si tu ne codes pas, ces protocoles vont impacter ta facon de travailler :
+Meme si tu ne codes pas, ces protocoles vont impacter ta facon de travailler :
 
 **Interoperabilite des outils** -- tes agents pourront se brancher sur n'importe quel service via MCP. Plus besoin de chercher si ton framework supporte Notion, Slack, ou ton CRM. Si un serveur MCP existe, ca marche.
 
@@ -317,11 +317,11 @@ Même si tu ne codes pas, ces protocoles vont impacter ta facon de travailler :
 
 **Marketplace d'agents** -- A2A va permettre de publier tes agents comme des services que d'autres agents peuvent utiliser. Imagine : tu crees un agent expert en SEO, et d'autres entreprises paient pour que leurs agents collaborent avec le tien.
 
-**Coût reduit** -- les integrations standardisees coutent moins cher a maintenir que les connecteurs customs. Un serveur MCP communautaire est gratuit.
+**Cout reduit** -- les integrations standardisees coutent moins cher a maintenir que les connecteurs customs. Un serveur MCP communautaire est gratuit.
 
-**Sécurité** -- les protocoles standard incluent des mecanismes d'authentification et d'autorisation. C'est plus sur que des hacks maison.
+**Securite** -- les protocoles standard incluent des mecanismes d'authentification et d'autorisation. C'est plus sur que des hacks maison.
 
-### Cas d'usage concret : ton écosystème d'agents
+### Cas d'usage concret : ton ecosysteme d'agents
 
 Imagine que tu geres un e-commerce. Avec MCP + A2A, tu pourrais avoir :
 
@@ -347,7 +347,7 @@ Agent Analytics (Claude Agent SDK)
   |-- A2A --> Tous les autres (rapports)
 ```
 
-Chaque agent utilise le framework le plus adapte a sa tâche. MCP les connecte aux outils. A2A leur permet de collaborer. C'est le futur de l'automatisation.
+Chaque agent utilise le framework le plus adapte a sa tache. MCP les connecte aux outils. A2A leur permet de collaborer. C'est le futur de l'automatisation.
 
 ---
 
@@ -355,14 +355,14 @@ Chaque agent utilise le framework le plus adapte a sa tâche. MCP les connecte a
 
 Avant MCP et A2A, il y avait l'Agent Protocol original -- une tentative de standardiser une API REST pour communiquer avec n'importe quel agent. Le projet definissait des endpoints simples :
 
-- `POST /agent/tasks` -- creer une tâche
+- `POST /agent/tasks` -- creer une tache
 - `GET /agent/tasks/{id}` -- suivre l'avancement
-- `POST /agent/tasks/{id}/steps` -- executer l'étape suivante
+- `POST /agent/tasks/{id}/steps` -- executer l'etape suivante
 - `GET /agent/tasks/{id}/artifacts` -- recuperer les resultats
 
-L'idée etait bonne mais l'adoption a ete limitee. MCP l'a largement depasse en termes d'adoption car il resout un problème plus immediat (connecter un agent a des outils) avec une implementation plus simple.
+L'idee etait bonne mais l'adoption a ete limitee. MCP l'a largement depasse en termes d'adoption car il resout un probleme plus immediat (connecter un agent a des outils) avec une implementation plus simple.
 
-L'Agent Protocol reste une reference historique interessante et certains de ses concepts (comme le cycle de vie des tâches) se retrouvent dans A2A.
+L'Agent Protocol reste une reference historique interessante et certains de ses concepts (comme le cycle de vie des taches) se retrouvent dans A2A.
 
 ---
 
@@ -443,7 +443,7 @@ En 50 lignes de Python, tu as un serveur MCP fonctionnel que n'importe quel agen
 
 ## Le mot de la fin
 
-Si tu retiens une seule chose de cet article : **MCP est le protocole a adopter maintenant**. Il est déjà le standard de facto, supporte par tous les grands acteurs, et il te protege du lock-in framework.
+Si tu retiens une seule chose de cet article : **MCP est le protocole a adopter maintenant**. Il est deja le standard de facto, supporte par tous les grands acteurs, et il te protege du lock-in framework.
 
 A2A viendra ensuite, quand tes agents auront besoin de collaborer entre eux. Mais pour l'instant, la priorite est de connecter tes agents aux bons outils via MCP.
 

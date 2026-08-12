@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Découvrez L'Empreinte Numérique De N'Importe Qui En Un Clic Flippant Mais Légal
 author: Diane
-description: "Découvrez L'Empreinte Numérique De N'Importe Qui En Un Clic Flippant Mais Légal."
+description: 'Découvre Découvrez L''Empreinte Numérique De N''Importe Qui En Un Clic
+  Flippant Mais Légal : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -18,6 +19,6 @@ Donc par exemple si je veux chercher Baptiste Robert il va lancer un automatisme
 
 la prestation du groupe vend aux entreprises et aux gouvernements ça sert pour les forces de l'ordre mais ils ont pas l’intention de dealer avec des dictatures et ça c’est cool même si le concept de dicature en assez relatif en tout temps.
 
-[https://epieos.com/](__MASK_1__)
+[https://epieos.com/](https://epieos.com/)
 
-[https://youtu.be/fXaz1dM9dq8?t=536](__MASK_2__)
+[https://youtu.be/fXaz1dM9dq8?t=536](https://youtu.be/fXaz1dM9dq8?t=536)

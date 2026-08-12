@@ -1,74 +1,119 @@
 ---
 section: blog
-title: "KPIs marketing : les chiffres qui méritent vraiment ton attention"
+title: KPIs Marketing
 author: Diane
 tags:
 - Marketing
-description: Les KPIs marketing à suivre pour piloter acquisition, conversion et
-  rétention sans te perdre dans les vanity metrics.
+description: Les KPI marketing essentiels pour piloter ton acquisition et tes conversions
+  sans te perdre dans les vanity metrics.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# KPIs marketing : les chiffres qui méritent vraiment ton attention
+# KPIs marketing: les chiffres qui t'aident vraiment a decider
 
-Le but des KPI n'est pas d'avoir l'air sérieux en réunion. Le but est de savoir quoi corriger cette semaine.
+Si tu suis les mauvais chiffres, tu prends de mauvaises decisions.
+Le but n'est pas d'avoir plus de donnees. Le but est de mieux agir.
 
-Quand tu suis trop de chiffres, tu t'occupes. Quand tu suis les bons, tu pilotes.
+## Ton objectif
 
-## Les vanity metrics à remettre à leur place
+Suivre 3 a 5 KPI maximum pour savoir quoi corriger chaque semaine.
 
-Ces chiffres peuvent être intéressants, mais ils ne doivent pas guider seuls tes décisions :
+## Vanity metrics vs metrics utiles
 
-- likes ;
-- impressions ;
-- portée brute ;
-- volume de trafic sans qualification ;
-- nombre d'abonnés.
+### Vanity metrics (a ne pas piloter en priorite)
 
-## Les KPI qui comptent davantage
+- nombre de likes
+- nombre brut de followers
+- impressions sans conversion
 
-### Acquisition
+### Metrics utiles (actionnables)
 
-- trafic qualifié ;
-- coût par lead ;
-- part de trafic par canal ;
-- taux de clic.
+- taux de conversion
+- cout d'acquisition client (CAC)
+- revenu par canal
+- valeur client (LTV)
+- ROI/ROAS
 
-### Conversion
+## Les KPI essentiels par canal
 
-- taux de conversion par page ou campagne ;
-- coût d'acquisition ;
-- taux de prise de rendez-vous ou d'essai ;
-- revenu par visiteur.
+### SEO
 
-### Relation client
+- impressions
+- clics
+- CTR
+- conversions SEO
 
-- activation ;
-- réachat ;
-- churn ;
-- valeur vie client.
+### Ads
 
-## La bonne règle
+- CPC
+- CPA
+- ROAS
+- taux de conversion landing page
 
-Choisis 3 à 5 KPI maximum par objectif. Si un chiffre n'entraîne aucune action possible, il mérite peut-être moins de place dans ton pilotage.
+### Email
 
-## Exemple simple
+- taux de clic
+- taux de reponse ou conversion
+- delivrabilite
+- revenu par campagne
 
-Pour une offre de service :
+### Social
 
-- trafic depuis le contenu ;
-- clic vers la page d'offre ;
-- demande de contact ;
-- appel réservé ;
-- client signé.
+- trafic vers offre
+- leads generes
+- cout par lead (si pub)
 
-Pour un produit :
+## Methode simple pour choisir tes KPI
 
-- trafic qualifié ;
-- ajout au panier ;
-- achat ;
-- panier moyen ;
-- réachat.
+1. definir ton objectif business (ex: +30% de CA)
+2. choisir 1 a 2 leviers (ex: conversion + panier)
+3. choisir 3 a 5 KPI relies a ces leviers
+4. fixer une cible chiffree
+5. faire une revue hebdo (15 min)
 
-Les bons KPI ne sont pas impressionnants. Ils sont utiles, comparables et reliés à la réalité du business.
+## Tableau de pilotage minimum
+
+- KPI principal de croissance
+- KPI d'acquisition
+- KPI de conversion
+- KPI de rentabilite
+- KPI de retention
+
+## Exemple concret
+
+Objectif: augmenter les ventes d'une offre a 99 EUR.
+
+KPI a suivre:
+- trafic qualifie
+- taux de conversion page offre
+- CPA
+- chiffre d'affaires hebdo
+
+Decision type:
+- trafic ok + conversion basse -> retravailler offre/page
+- trafic bas + conversion correcte -> renforcer acquisition
+- CPA trop haut -> ajuster ciblage ou canal
+
+## Erreurs frequentes
+
+- suivre 20 KPI sans priorite
+- comparer des periodes incomparables
+- ignorer la marge en analysant le ROAS
+- analyser sans prendre de decision concrete
+
+## Checklist hebdo
+
+- [ ] 3 a 5 KPI a jour
+- [ ] ecart vs objectif identifie
+- [ ] 1 action corrective prioritaire definie
+- [ ] resultat de la correction mesure la semaine suivante
+
+## Ressources utiles
+
+- [Fondamentaux marketing](/marketing/fondamentaux)
+- [Atelier tunnel](/marketing/tunnel/atelier)
+- [Programme beta tunnel](/marketing/tunnel/proramme-beta)
+- [Comment faire de l'automatisation marketing](/tutos/comment-faire-de-lautomatisation-marketing)
+
+Tu progresses quand chaque chiffre te pousse a une action claire.

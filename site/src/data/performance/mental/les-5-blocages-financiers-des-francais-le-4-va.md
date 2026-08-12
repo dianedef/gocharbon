@@ -4,217 +4,89 @@ tags:
 - Productivité
 imageNameKey: null
 u_site: null
-title: 5 blocages financiers qui freinent les entrepreneurs français
+title: 'Les 5 Blocages Financiers Des Français Le #4 Va Vous Stupéfier'
 author: Diane
-description: "Croyances sur l'argent, peur de vendre, difficulté à fixer ses prix et évitement des chiffres : cinq blocages fréquents à traiter sans bullshit."
-pubDate: '2026-04-19'
+description: 'Découvre Les 5 Blocages Financiers Des Français Le #4 Va Vous Stupéfier
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# 5 blocages financiers qui freinent les entrepreneurs français
+# Les 5 Blocages Financiers qui Freinent les Entrepreneurs Francais
 
-## ARGENT : LE SUJET QUE TOUT LE MONDE TOURNE AUTOUR
+## ARGENT : LES CROYANCES QUI TE COUTENT CHER
 
 ### tl;dr
 
-Beaucoup d'entrepreneurs ne sont pas freinés uniquement par le marché. Ils sont freinés par leur rapport à l'argent : culpabilité, peur de facturer, difficulté à regarder les chiffres, confusion entre valeur et temps. Tant que ces blocages restent invisibles, ils coûtent cher.
+En France, on a un rapport complique a l'argent. Culturellement, en parler est "vulgaire", en gagner beaucoup est "suspect", et en demander est "genant". Ces croyances limitantes ont un cout reel : elles t'empechent de facturer a ta juste valeur, de negocier tes contrats et de developper ton business. Voici les 5 blocages les plus courants et comment les depasser.
 
 ---
 
-## En France, l'argent reste un sujet chargé
+## Blocage 1 : "L'argent, c'est sale"
 
-On peut faire semblant que le problème est purement technique. Il ne l'est pas.
+C'est le classique. En France, 67% des gens estiment que les riches le sont "au detriment des autres" (sondage IFOP). Cette croyance, souvent heritee de l'enfance ou de la culture ambiante, cree un frein inconscient : si gagner de l'argent c'est mal, pourquoi en gagner beaucoup ?
 
-En France, l'argent reste un sujet traversé par des tensions culturelles :
+**La realite** : l'argent est un outil. Il amplifie ce que tu es. Un entrepreneur qui gagne bien sa vie cree des emplois, paie des impots, investit dans l'economie. Limiter tes revenus par culpabilite, c'est aussi limiter l'impact positif que tu pourrais avoir.
 
-- on admire la réussite, mais on se méfie de ceux qui gagnent bien leur vie ;
-- on veut être indépendant, mais on culpabilise vite dès qu'il faut vendre ;
-- on épargne beaucoup, mais on parle peu d'enrichissement, de prix ou de rentabilité.
+**Comment depasser ce blocage** : observe les entrepreneurs que tu admires. Ceux qui generent des revenus importants tout en etant ethiques et genereux existent. Ils ne sont juste pas ceux qui font le plus de bruit sur les reseaux.
 
-Le [rapport 2024 sur l'épargne réglementée de la Banque de France](https://www.banque-france.fr/fr/publications-et-statistiques/publications/rapport-sur-lepargne-reglementee-2024) montre à quel point l'épargne reste centrale dans les habitudes financières françaises. Et l'[Observatoire des inégalités](https://www.inegalites.fr/L-essentiel-du-Rapport-sur-les-riches-en-France-edition-2024) rappelle de son côté que la richesse reste un sujet sensible, très chargé symboliquement.
+## Blocage 2 : "Je ne merite pas de gagner autant"
 
-Quand tu lances ou développes une activité, ce contexte compte. Il nourrit souvent des réflexes mentaux qui sabotent la rentabilité.
+Le syndrome de l'imposteur financier. Tu as lance un service a 500 euros et un client t'a dit "c'est trop cher" ? Tu as immediatement baisse ton prix au lieu de chercher un client qui comprend la valeur. Ce blocage se manifeste par :
+- Des tarifs trop bas "pour commencer"
+- Des remises systematiques "pour etre sympa"
+- Une difficulte a parler prix sans stress
 
-## Blocage 1 : “Parler d'argent, c'est gênant”
+**La realite** : ton prix n'est pas lie a ce que tu "merites". Il est lie a la valeur que tu crees pour ton client. Si ton service fait economiser 10 000 euros a un client, en demander 2 000 euros n'est pas "trop cher" -- c'est une affaire pour lui.
 
-Beaucoup d'entrepreneurs savent parler de leur métier. Beaucoup moins savent parler clairement d'argent.
+**Comment depasser ce blocage** : fais l'exercice du "value pricing". Pour chaque client, calcule le ROI concret que tu lui apportes. Facture en proportion de ce ROI, pas de ton temps.
 
-Ça se voit partout :
+## Blocage 3 : "Il faut travailler dur pour gagner de l'argent"
 
-- ils tournent autour du prix ;
-- ils attendent trop longtemps avant d'aborder le budget ;
-- ils espèrent que le client “comprendra la valeur tout seul” ;
-- ils s'excusent presque au moment d'annoncer un tarif.
+Cette croyance associe revenus et souffrance. Si tu gagnes de l'argent "facilement", c'est louche. Le probleme ? Elle te pousse a valoriser les heures travaillees plutot que les resultats produits.
 
-Ce blocage ne donne pas une image humble. Il donne souvent une image floue.
+**La realite** : les revenus ne sont pas proportionnels a l'effort mais a la valeur creee et a l'effet de levier. Un consultant qui resout un probleme en 2 heures grace a 10 ans d'experience ne facture pas 2 heures -- il facture 10 ans de competences. Un produit numerique vendu 1 000 fois ne demande pas 1 000 fois plus de travail.
 
-Un prix annoncé avec gêne devient immédiatement plus fragile.
+**Comment depasser ce blocage** : separe mentalement "effort" et "valeur". Demande-toi : "Est-ce que je vends mon temps ou mes resultats ?" Si c'est ton temps, tu as un plafond. Si ce sont tes resultats, le plafond disparait.
 
-### Ce qu'il faut faire à la place
+## Blocage 4 : "L'argent va me changer (en mal)"
 
-Traite le prix comme une information structurante, pas comme une agression sociale.
+La peur de devenir "cette personne" -- arrogante, deconnectee, egoiste. Cette peur est si profonde que certains entrepreneurs sabotent inconsciemment leur croissance pour rester "normaux".
 
-Un client sérieux n'attend pas que tu sois mal à l'aise. Il attend que tu sois clair.
+**La realite** : l'argent ne change pas les gens. Il revele ce qu'ils sont deja. Si tu es genereux avec 2 000 euros par mois, tu seras genereux avec 20 000. Si tu es humble maintenant, tu resteras humble. L'argent donne juste plus de moyens d'etre toi-meme.
 
-## Blocage 2 : “Je dois mériter mon prix par la souffrance”
+**Comment depasser ce blocage** : definis a l'avance ce que tu feras de tes revenus supplementaires. Avoir un plan concret (investir dans ton business, aider ta famille, contribuer a des causes) rend la croissance moins menaçante.
 
-Beaucoup d'indépendants restent piégés dans une logique simple :
+## Blocage 5 : "Je ne suis pas bon en gestion financiere"
 
-plus je travaille dur, plus je mérite d'être payé.
+Le dernier refuge : l'evitement. "Je suis creatif, pas comptable." Resultat : tu ne regardes jamais tes chiffres, tu ne sais pas combien tu gagnes reellement, et tu prends des decisions financieres a l'aveugle.
 
-Le problème, c'est que cette logique te pousse à valoriser :
+**La realite** : tu n'as pas besoin d'etre expert-comptable. Tu as besoin de comprendre 5 chiffres cles :
+1. Ton chiffre d'affaires mensuel
+2. Tes charges fixes et variables
+3. Ton benefice net
+4. Ton taux horaire reel (CA / heures travaillees)
+5. Ton runway (combien de mois tu peux tenir sans revenus)
 
-- les heures ;
-- la fatigue ;
-- la complexité ;
-- la surcharge.
+**Comment depasser ce blocage** : reserve 30 minutes chaque dimanche pour regarder tes chiffres. Utilise un tableur simple ou un outil comme Indy. En 3 mois, les chiffres deviendront naturels et meme rassurants.
 
-Alors que le marché valorise surtout :
+---
 
-- un résultat ;
-- une réduction de risque ;
-- un gain de temps ;
-- une hausse de performance ;
-- une meilleure décision.
+## L'exercice qui change tout
 
-Le sujet n'est pas de “travailler moins” par posture. Le sujet est de sortir de la confusion entre effort visible et valeur créée.
+Prends une feuille. Ecris tes 3 principales croyances sur l'argent. Pour chacune, demande-toi :
+1. D'ou vient cette croyance ? (famille, ecole, societe)
+2. Est-ce que cette croyance me sert ou me freine ?
+3. Quel serait le cout de garder cette croyance pendant 5 ans de plus ?
 
-## Blocage 3 : “Je dois rester raisonnable sur mes prix”
-
-Ce mot-là fait beaucoup de dégâts : raisonnable.
-
-Dans la bouche de beaucoup d'entrepreneurs, il signifie en réalité :
-
-- pas trop cher ;
-- pas trop ambitieux ;
-- pas trop assumé ;
-- pas trop exposé au refus.
-
-Résultat :
-
-- les prix sont trop bas ;
-- les marges sont trop fines ;
-- la moindre friction commerciale devient stressante ;
-- l'activité exige trop de volume pour rester saine.
-
-Le [rapport HubSpot sur l'entrepreneuriat](https://blog.hubspot.com/sales/state-of-entrepreneurship) rappelait en 2024 que les sujets financiers restaient la première douleur de beaucoup d'entrepreneurs, entre financement, budget et revenus récurrents. Ce n'est pas étonnant : mal fixer ses prix crée une fragilité durable.
-
-### Ce qu'il faut regarder en vrai
-
-Un prix n'est pas juste “ce que le client accepte”.
-
-Il doit couvrir :
-
-- ton temps réel ;
-- ta préparation ;
-- ton acquisition ;
-- ton administratif ;
-- ta marge ;
-- le niveau de risque ;
-- la valeur perçue du résultat.
-
-Si ton prix te force à courir, il n'est pas raisonnable. Il est trop bas.
-
-## Blocage 4 : “Si je gagne bien ma vie, je vais devenir quelqu'un que je n'aime pas”
-
-Celui-là est plus discret, donc plus dangereux.
-
-Beaucoup de gens veulent plus de revenu, mais restent inconsciemment méfiants envers ce que l'argent représente pour eux :
-
-- l'avidité ;
-- l'arrogance ;
-- la déconnexion ;
-- la perte de simplicité ;
-- le regard des autres.
-
-Ce blocage est puissant parce qu'il pousse au sabotage discret :
-
-- tu restes sous-facturé ;
-- tu ne relances pas ;
-- tu n'assumes pas une offre premium ;
-- tu retardes une décision de croissance.
-
-Le problème n'est pas moral. Le problème est psychologique : tant que ton cerveau associe plus de revenu à une version détestable de toi-même, il luttera contre ta propre progression.
-
-### Ce qu'il faut recadrer
-
-L'argent ne crée pas automatiquement un caractère. Il augmente surtout ta marge de manœuvre.
-
-Si tu veux éviter une version de toi qui te déplaît, fais-le par des principes, pas par sous-rémunération.
-
-## Blocage 5 : “Je ne suis pas quelqu'un de chiffres”
-
-C'est souvent présenté comme un trait de personnalité. C'est surtout une stratégie d'évitement.
-
-Beaucoup d'entrepreneurs disent :
-
-- “je suis créatif, pas financier” ;
-- “je déteste Excel” ;
-- “je verrai ça plus tard” ;
-- “tant qu'il y a des rentrées, ça va”.
-
-Puis ils découvrent trop tard :
-
-- qu'ils ne savent pas ce qu'ils gardent vraiment ;
-- qu'ils confondent chiffre d'affaires et revenu ;
-- qu'ils sous-estiment leurs charges ;
-- qu'ils avancent sans visibilité.
-
-Les chiffres ne demandent pas de devenir expert-comptable. Ils demandent juste d'arrêter de détourner les yeux.
-
-Tu dois connaître au minimum :
-
-1. ton chiffre d'affaires mensuel ;
-2. ta marge ;
-3. tes charges fixes ;
-4. ta trésorerie disponible ;
-5. ton revenu net réel ;
-6. le nombre de ventes ou de clients nécessaires pour atteindre ton seuil de confort.
-
-L'[Insee](https://www.insee.fr/fr/statistiques/8721354) rappelle d'ailleurs que les créations d'entreprises continuent de progresser, mais que toutes ne deviennent pas durablement actives au même rythme. Une des différences majeures se joue souvent dans la capacité à piloter, pas juste à produire.
-
-## Le coût réel de ces blocages
-
-Ces croyances paraissent parfois abstraites. Elles ne le sont pas.
-
-Elles créent des effets très concrets :
-
-- tu évites les discussions commerciales ;
-- tu sous-vends tes offres ;
-- tu acceptes des clients peu rentables ;
-- tu repousses les ajustements de prix ;
-- tu ne construis pas de vraie visibilité financière ;
-- tu te fatigues beaucoup pour un revenu trop fragile.
-
-Autrement dit : le blocage mental devient un problème économique.
-
-## Start here
-
-Si tu veux commencer proprement, fais cet exercice aujourd'hui :
-
-1. écris la phrase que tu te répètes le plus souvent sur l'argent ;
-2. note ce qu'elle te fait faire concrètement dans ton business ;
-3. chiffre le coût probable sur 12 mois ;
-4. décide d'une action inverse cette semaine.
-
-Exemples :
-
-- annoncer ton tarif plus tôt ;
-- relever un prix ;
-- refuser une remise injustifiée ;
-- suivre tes chiffres chaque vendredi ;
-- reformuler ton offre autour de la valeur créée.
+Souvent, juste le fait de rendre ces croyances conscientes suffit a commencer a les depasser.
 
 ## Le mot de la fin
 
-Le rapport à l'argent n'est pas un détail psychologique à régler plus tard. C'est un morceau central de la solidité d'un business.
-
-Tant que tu restes flou, gêné ou coupé de tes chiffres, tu compliques inutilement ta croissance.
-
-Le bon objectif n'est pas de devenir obsédé par l'argent. Le bon objectif, c'est de devenir suffisamment à l'aise avec lui pour prendre de meilleures décisions.
+Tes croyances sur l'argent sont probablement le plus gros frein invisible de ton business. Pas le marche, pas la concurrence, pas les outils -- tes propres limites mentales. Les identifier est la premiere etape. Les depasser est un travail continu. Mais le jeu en vaut la chandelle.
 
 ### Pour aller plus loin
 
-- [Solopreneuriat : comment construire un business rentable sans équipe](/performance/mental/devenez-riche-en-solo-la-methode-secrete-des)
-- [L'affiliation peut marcher, mais le revenu passif sans effort est un mythe](/performance/mental/affiliation-comment-jai-gagne-10k-en-un-mois-sans)
-- [Compétences](/performance/mental/competences) pour renforcer les compétences qui rendent un modèle économique plus solide
+- [Finances](/gestion/financement/finances) -- Gerer les finances de ton business
+- [Bootstrapping](/gestion/financement/bootstrapping) -- Lancer sans financement externe
+- [Business plan](/performance/plan/business-plan) -- Structurer ta vision financiere

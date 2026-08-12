@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -19,7 +19,7 @@ Daily time spent on social media has decreased in 36 out of 48 markets tracked s
 
 ## **Gen Z spends more time on social media but eyes reduction**
 
-While some emerging regions like the Middle East & Africa expérience more significant fluctuations, most other regions have seen minimal changes in daily usage over the past three years. Notably, North America is an outlier, with usage continuing to rise beyond its lockdown peak.
+While some emerging regions like the Middle East & Africa experience more significant fluctuations, most other regions have seen minimal changes in daily usage over the past three years. Notably, North America is an outlier, with usage continuing to rise beyond its lockdown peak.
 
 While the pandemic induced a surge in social media usage, this has now largely levelled out. For brands and businesses, the key takeaway is that changes are less about the duration consumers spend online and more about how and where they choose to spend their time.
 
@@ -43,7 +43,7 @@ _Source: [GWI](https://www.gwi.com/reports/social)_
 
 ## **Changing Motivations for Social Media Use**
 
-Consumers’ motivations for using social media are evolving, with differences observed across regions. Western consumers, like baby boomers, are diversifying their reasons for using social media. TikTokers in the West now use the platform to stay informed about news and products, while Instagram’s focus shifts from personal sharing to entertainment. Twitter is also evolving, with vidéo becoming a primary focus.
+Consumers’ motivations for using social media are evolving, with differences observed across regions. Western consumers, like baby boomers, are diversifying their reasons for using social media. TikTokers in the West now use the platform to stay informed about news and products, while Instagram’s focus shifts from personal sharing to entertainment. Twitter is also evolving, with video becoming a primary focus.
 
 **_Privacy is shifting into focus_**
 

@@ -1,0 +1,10 @@
+.astro
+node_modules
+dist
+.env
+.env.production
+coucou/
+.aider*
+
+# MCP session cache
+.codebase-mcp/

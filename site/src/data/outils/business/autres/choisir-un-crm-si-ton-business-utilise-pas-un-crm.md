@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: blog
 statut: []
 _priorité: normal
 imageNameKey: null

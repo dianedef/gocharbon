@@ -1,26 +1,86 @@
 ---
 section: blog
-title: "Cashback mobile : bon outil d'achat, mauvais modèle de revenu"
+title: 'Business Mobile : Cashback'
 author: Diane
 tags:
 - Business
-description: Le cashback aide à économiser un peu, mais ce n'est pas un vrai business à lui seul.
-pubDate: '2024-03-25'
+description: Profil business complet des apps de cashback mobiles avec les 8 apps
+  françaises
+pubDate: '2026-01-17'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Le cashback n'est pas un business. C'est une optimisation.
+# Profil Business : Cashback
 
-Le cashback te rend une partie de l'argent dépensé. C'est utile si tu achètes déjà, si tu compares proprement et si tu restes discipliné.
+Les apps de cashback te remboursent un pourcentage de tes achats. C'est du revenu "passif" - tu achètes quand même, tu récupères de l'argent.
 
-Mais non, récupérer quelques euros sur une commande ne constitue pas un modèle économique. Le danger, c'est même l'inverse : dépenser plus pour avoir l'impression de gagner.
+## Les 8 Apps Cashback Françaises
 
-## La bonne utilisation
+### Macadam
 
-- réduire légèrement tes coûts
-- suivre tes achats récurrents
-- profiter d'un levier simple sans charge mentale
+- **Cashback :** 1-15%
+- **Seuil retrait :** 5€
+- **Délai :** 1-2 mois
+- **Méthodes :** PayPal, virement
+- **Note :** 7.5/10
 
-## La mauvaise lecture
+### FreeCash
 
-Traiter le cashback comme une source de revenu alors qu'il s'agit surtout d'un mécanisme d'économie.
+- **Cashback :** 2-8%
+- **Seuil retrait :** 10€
+- **Délai :** 1-3 mois
+- **Méthodes :** PayPal, carte cadeau
+- **Note :** 6.5/10
+
+### HeyCash
+
+- **Cashback :** 1-10%
+- **Seuil retrait :** 15€
+- **Délai :** 1-2 mois
+- **Méthodes :** PayPal, virement
+- **Note :** 7/10
+
+### BeMyEye
+
+- **Cashback :** 1-12%
+- **Seuil retrait :** 20€
+- **Délai :** 2-3 mois
+- **Méthodes :** PayPal
+- **Note :** 6/10
+
+### StaffMe
+
+- **Cashback :** 1-8%
+- **Seuil retrait :** 10€
+- **Délai :** 1-2 mois
+- **Méthodes :** PayPal
+- **Note :** 8/10\* (réservé aux professionnels)
+
+### Roamler
+
+- **Cashback :** 2-6%
+- **Seuil retrait :** 5€
+- **Délai :** 1 mois
+- **Méthodes :** PayPal
+- **Note :** 7/10
+
+### PaidWork
+
+- **Cashback :** 1-10%
+- **Seuil retrait :** 15€
+- **Délai :** 2-3 mois
+- **Méthodes :** PayPal
+- **Note :** 8/10
+
+### Armado
+
+- **Cashback standard :** 1-15%
+- **Cashback instantané :** 3-20%
+- **Seuil retrait :** 10€
+- **Délai :** 1-2 mois
+- **Méthodes :** PayPal, virement
+- **Note :** 8/10
+
+---
+
+**Guide détaillé avec profils individuels pour chaque app FR :** [apps-cashback-8-fr.md](/business-mobile/apps-cashback-8-fr.md)

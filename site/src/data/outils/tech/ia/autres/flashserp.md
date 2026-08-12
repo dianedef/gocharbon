@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: flashserp
@@ -15,26 +15,30 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Flashserp
+[https://www.flashserp.com 35](https://www.flashserp.com/)
+founder: [Résumé - josselin - Growthhacking.fr | Communauté française de growth hacking](https://www.growthhacking.fr/u/josselin/summary)
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+eatures :
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+- Indexer ses liens en 24h-72h sur Google
+- Crawl automatique et régulier des sitemaps
+- Fonctionne avec Google Search Console, plus tard IndexNow (pour Bing & Yandex)
+- Tracking des liens indexés (status `indexed` & `not indexed`) via notre crawler qui scan la SERP de Google.
 
-## Ressources de départ
-- [https://www.flashserp.com/](https://www.flashserp.com/)
-- [https://www.growthhacking.fr/u/josselin/summary](https://www.growthhacking.fr/u/josselin/summary)
-- [https://www.flashserp.com](https://www.flashserp.com)
-- [https://www.growthhacking.fr/uploads/default/original/3X/6/9/69b8c5970f29ab3a467a6d277f7a71c685089bd3.png](https://www.growthhacking.fr/uploads/default/original/3X/6/9/69b8c5970f29ab3a467a6d277f7a71c685089bd3.png)
-- [https://www.growthhacking.fr/uploads/default/original/3X/d/8/d8e175fa5409584785ed1d9aeacc8a96f97759b1.png](https://www.growthhacking.fr/uploads/default/original/3X/d/8/d8e175fa5409584785ed1d9aeacc8a96f97759b1.png)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+Stats sur le domaine :
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+[
+
+pretty_snap_2023_2_28_11_32818×487 53.3 KB
+
+](https://www.growthhacking.fr/uploads/default/original/3X/6/9/69b8c5970f29ab3a467a6d277f7a71c685089bd3.png "pretty_snap_2023_2_28_11_32")
+
+Tableau pour suivre l’indexation :
+
+[
+
+pretty_snap_2023_2_28_15_55(1)797×466 40 KB
+
+](https://www.growthhacking.fr/uploads/default/original/3X/d/8/d8e175fa5409584785ed1d9aeacc8a96f97759b1.png "pretty_snap_2023_2_28_15_55(1)")
+
+Si vous étiez chez Foudroyez, on donnera des accès gratuits. A bientôt

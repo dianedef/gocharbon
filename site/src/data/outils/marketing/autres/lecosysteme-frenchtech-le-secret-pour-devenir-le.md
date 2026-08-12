@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'Écosystème Frenchtech Le Secret Pour Devenir Le Prochain Licorne Française
 author: Diane
-description: "L'Écosystème Frenchtech Le Secret Pour Devenir Le Prochain Licorne Française."
+description: 'Découvre L''Écosystème Frenchtech Le Secret Pour Devenir Le Prochain
+  Licorne Française : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -66,8 +65,8 @@ La notion est proche de celle de cluster (« grappe industrielle » au Québec
 
 ## Présence numérique
 
-- [https://competitivite.gouv.fr/](__MASK_8__)
-- [http://www.afpc.eu/](__MASK_9__)
+- [https://competitivite.gouv.fr/](https://competitivite.gouv.fr/)
+- [http://www.afpc.eu/](http://www.afpc.eu/)
 
 # Pôle SCS
 
@@ -87,7 +86,7 @@ La notion est proche de celle de cluster (« grappe industrielle » au Québec
 
 ## Présence numérique
 
-- [https://www.pole-scs.org/](__MASK_12__)
+- [https://www.pole-scs.org/](https://www.pole-scs.org/)
 
 # Finance Innovation
 
@@ -134,9 +133,9 @@ Finance Innovation est l'un des sept pôles de compétitivité mondiaux, sur les
 
 ## Présence numérique
 
-- [http://www.fondapol.org/](__MASK_22__)
+- [http://www.fondapol.org/](http://www.fondapol.org/)
 - [Profil Wikipedia de Fondapol](https://fr.wikipedia.org/wiki/Fondation_pour_l%27innovation_politique)
-- [http://www.anthropotechnie.com/](__MASK_24__)
+- [http://www.anthropotechnie.com/](http://www.anthropotechnie.com/)
 
 ## Assoc’
 
@@ -164,11 +163,11 @@ Finance Innovation est l'un des sept pôles de compétitivité mondiaux, sur les
 
 ## Ecoles
 
-[Catégorie:École de leadership — Wiki des startups](https://wiki-startup.com/index.php?title=Cat%C3%A9gorie:Ecole_de_leadership)
+[Catégorie:Ecole de leadership — Wiki des startups](https://wiki-startup.com/index.php?title=Cat%C3%A9gorie:Ecole_de_leadership)
 
-# École Lion
+# Ecole Lion
 
-**École de management inspiré des pratiques des startups**
+**Ecole de management inspiré des pratiques des startups**
 
 Lion est l’école de l'ère entrepreneuriale qui transmet les compétences de demain pour l'épanouissement professionnel.
 
@@ -192,9 +191,9 @@ Pour cela, Lion sélectionne les meilleurs entrepreneurs, intrapreneurs, growth 
 
 ## Présence numérique
 
-- [https://joinlion.co/](__MASK_34__)
+- [https://joinlion.co/](https://joinlion.co/)
     
-- [Chaîne Youtube](https://www.youtube.com/channel/UCMuJucbgSTPn48vuaD9WZsg/sub_confirmation=1)
+- [Chaine Youtube](https://www.youtube.com/channel/UCMuJucbgSTPn48vuaD9WZsg/sub_confirmation=1)
     
 - special femmes
     
@@ -221,8 +220,8 @@ EYE offre des bourses qui dépendent à la fois de la durée du séjour et du pa
 
 ## Présence numérique
 
-- [https://www.erasmus-entrepreneurs.eu/](__MASK_39__)
-- [https://webgate.ec.europa.eu/erasmus-entrepreneurs/](__MASK_40__)
+- [https://www.erasmus-entrepreneurs.eu/](https://www.erasmus-entrepreneurs.eu/)
+- [https://webgate.ec.europa.eu/erasmus-entrepreneurs/](https://webgate.ec.europa.eu/erasmus-entrepreneurs/)
 
 ## Accélérateurs
 
@@ -382,4 +381,4 @@ Les accélérateurs et incubateurs d’entreprises constituent un maillon import
 
 ## Présence numérique
 
-- [https://mainqc.com/](__MASK_107__)
+- [https://mainqc.com/](https://mainqc.com/)

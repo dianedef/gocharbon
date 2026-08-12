@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Services Pour Animaux De Compagnie Qui Vont Faire De Votre Pet Un Influenceur
 author: Diane
-description: "Les Services Pour Animaux De Compagnie Qui Vont Faire De Votre Pet Un Influenceur."
+description: 'Découvre Les Services Pour Animaux De Compagnie Qui Vont Faire De Votre
+  Pet Un Influenceur : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

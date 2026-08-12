@@ -1,27 +1,26 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Les Mythes Seo Qui Vous Coûtent Des Milliers D'Euros La Vérité Enfin Révélée
 author: Diane
-description: "Les Mythes Seo Qui Vous Coûtent Des Milliers D'Euros La Vérité Enfin Révélée."
+description: 'Découvre Les Mythes Seo Qui Vous Coûtent Des Milliers D''Euros La Vérité
+  Enfin Révélée : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
 [ERREURS🧟‍♀️, MYTHES🦄 & VÉRITÉS💥] ➡️ Top 10 sur le Référencement Naturel sur Google (Search Engine Optimization - SEO)
 
-- "Mais, Brendan, j'ai" fait le référencement "sur mon site Web. Je ne comprends pas pourquoi ça ne marche pas..." Moi: Il n'y a pas si longtemps, j'ai fait un petit commentaire dans le PS de cette newsletter : "Les gens mentionnent souvent des plugins (comme Yoast) de manière interchangeable avec SEO . Je m'en voudrais de ne pas mentionner que ces plugins (malgré de grandes promesses) ne font rien d'important pour le référencement autre que de vous aider à définir une méta-description." Pour beaucoup de gens, «faire le référencement» signifie rendre les lumières vertes sur leur plug-in SEO. Quelques personnes ont répondu à cet e-mail qu'elles étaient surprises car ces plugins se présentent comme "SEO" et font également de grandes déclarations pour vous aider à améliorer le rang. J'ai même fait une analyse [https://twitter.com/BrendanHufford/status/1104589821807419392?mc_cid=6f206346f3&mc_eid=72c5f44a22](__MASK_0__) des raisons pour lesquelles la page d'accueil d'un tel plugin (Rank Math) était dangereusement trompeuse. Puis, peu de temps après, j'ai vu ce tweet de mon ami Margo : J'ai répondu à Margo (et à beaucoup d'autres) que des plugins comme Yoast, et leurs recommandations, ne font rien pour aider avec le référencement .... mais qu'est-ce que c'est? Et pourquoi tant de gens prétendent-ils le faire?? Prêt à profiter de votre jeudi (et du reste de votre vie) BASKING dans la liberté de savoir que vous pouvez avoir de meilleurs premiers paragraphes dans vos blogs? CLIQUEZ ICI POUR LIRE L'ARTICLE!
+- "Mais, Brendan, j'ai" fait le référencement "sur mon site Web. Je ne comprends pas pourquoi ça ne marche pas..." Moi: Il n'y a pas si longtemps, j'ai fait un petit commentaire dans le PS de cette newsletter : "Les gens mentionnent souvent des plugins (comme Yoast) de manière interchangeable avec SEO . Je m'en voudrais de ne pas mentionner que ces plugins (malgré de grandes promesses) ne font rien d'important pour le référencement autre que de vous aider à définir une méta-description." Pour beaucoup de gens, «faire le référencement» signifie rendre les lumières vertes sur leur plug-in SEO. Quelques personnes ont répondu à cet e-mail qu'elles étaient surprises car ces plugins se présentent comme "SEO" et font également de grandes déclarations pour vous aider à améliorer le rang. J'ai même fait une analyse [https://twitter.com/BrendanHufford/status/1104589821807419392?mc_cid=6f206346f3&mc_eid=72c5f44a22](https://twitter.com/BrendanHufford/status/1104589821807419392?mc_cid=6f206346f3&mc_eid=72c5f44a22) des raisons pour lesquelles la page d'accueil d'un tel plugin (Rank Math) était dangereusement trompeuse. Puis, peu de temps après, j'ai vu ce tweet de mon ami Margo : J'ai répondu à Margo (et à beaucoup d'autres) que des plugins comme Yoast, et leurs recommandations, ne font rien pour aider avec le référencement .... mais qu'est-ce que c'est? Et pourquoi tant de gens prétendent-ils le faire?? Prêt à profiter de votre jeudi (et du reste de votre vie) BASKING dans la liberté de savoir que vous pouvez avoir de meilleurs premiers paragraphes dans vos blogs? CLIQUEZ ICI POUR LIRE L'ARTICLE!
     
-    [https://ci5.googleusercontent.com/proxy/LE9KHXzdSaXxa7iSvnSgHpFb8xh46_bhtwYwLzOZFGTg0TlVH0lPSrN5U585i-1nyLrjZmx98eFInKsvZLV0jXd66ZTzWZVnpGC9jn9R89ffimIeQv0PxIV_oOTYbiPkeQVzRHa1W1_a1p02mahBNW0Wf163phs6b0E=s0-d-e1-ft#https://gallery.mailchimp.com/e006dd39cd6c391aeebdade1d/images/b59e2597-5925-44a8-ada0-cb5a814a69e2.png](__MASK_1__)
+    [https://ci5.googleusercontent.com/proxy/LE9KHXzdSaXxa7iSvnSgHpFb8xh46_bhtwYwLzOZFGTg0TlVH0lPSrN5U585i-1nyLrjZmx98eFInKsvZLV0jXd66ZTzWZVnpGC9jn9R89ffimIeQv0PxIV_oOTYbiPkeQVzRHa1W1_a1p02mahBNW0Wf163phs6b0E=s0-d-e1-ft#https://gallery.mailchimp.com/e006dd39cd6c391aeebdade1d/images/b59e2597-5925-44a8-ada0-cb5a814a69e2.png](https://ci5.googleusercontent.com/proxy/LE9KHXzdSaXxa7iSvnSgHpFb8xh46_bhtwYwLzOZFGTg0TlVH0lPSrN5U585i-1nyLrjZmx98eFInKsvZLV0jXd66ZTzWZVnpGC9jn9R89ffimIeQv0PxIV_oOTYbiPkeQVzRHa1W1_a1p02mahBNW0Wf163phs6b0E=s0-d-e1-ft#https://gallery.mailchimp.com/e006dd39cd6c391aeebdade1d/images/b59e2597-5925-44a8-ada0-cb5a814a69e2.png)
     
 
 seo myth domain authority Googe juge la qualité d'une page, il s'en fout du domaine keyword density ce n'est pas bourrer une page avec un mot-clef qui va la rendre pertinente sur un sujet. Cela fait longtemps que Google sait faire la différence .. Il est vrai qu'une écriture simplifié favorise la compréhension par les machines cependant, mais internet n'a pas été créé pour nous rendre plus bête. Je pense que la complexité sémantique va de pair avec la pertinence et qu'in fine, Google aura toujours les moyens d'en juger. Il y a des outils qui analysent le taux de complexité des textes, mais Google reste une machine. Si on lui dit "jaguar", il ne comprend que grâce au contexte et aux intentions sous-jacentes des utilisateurs (s'ils ont cherché des voitures auparavant, où des animaux ? Dans leur historique), et il les connait très bien grâce à leur empreinte numérique (profiling), Google sait tout. Même si ça a fonctionné à un moment, la densité mot-clef d'un texte est maintenant un mythe et ce qui compte c'est comment le sujet et le contenu sont brodé et développé
 
-[](https://youtu.be/hpE7Ddn765Y?list=PLRuHtNu_XGlwO4j7YYVCL-QaWx7UAgZSa&t=70)[https://youtu.be/hpE7Ddn765Y?list=PLRuHtNu_XGlwO4j7YYVCL-QaWx7UAgZSa&t=60](__MASK_3__)
+[](https://youtu.be/hpE7Ddn765Y?list=PLRuHtNu_XGlwO4j7YYVCL-QaWx7UAgZSa&t=70)[https://youtu.be/hpE7Ddn765Y?list=PLRuHtNu_XGlwO4j7YYVCL-QaWx7UAgZSa&t=60](https://youtu.be/hpE7Ddn765Y?list=PLRuHtNu_XGlwO4j7YYVCL-QaWx7UAgZSa&t=60)
 
 - Créer du contenu uniqueent basé sur des mots-clefs résulte en un profile d’audience pauvre. Votre avatar ne se résume pas à ces mots-clefs, donc votre stratégie de contenu ne devrait pas non plus s’y cantonner.
 - [Erreurs 404 et Maillage Interne - Vidéo SEO Abondance N° 214 - YouTube](https://www.youtube.com/watch?v=-K9fX81xKYQ)
@@ -32,7 +31,7 @@ seo myth domain authority Googe juge la qualité d'une page, il s'en fout du dom
 
 Jy;t because you have Yoast, AIO, Rankmath installed OM your website, does not mean your doing SEO.
 
-[https://www.facebook.com/raza139/posts/pfbid0oFGQohAzDjibeMG6AbZwKHWkfeJ4JqGebNoTaZzL13aUr8qQfu1yxnXQ4pjH14AYl](__MASK_5__)
+[https://www.facebook.com/raza139/posts/pfbid0oFGQohAzDjibeMG6AbZwKHWkfeJ4JqGebNoTaZzL13aUr8qQfu1yxnXQ4pjH14AYl](https://www.facebook.com/raza139/posts/pfbid0oFGQohAzDjibeMG6AbZwKHWkfeJ4JqGebNoTaZzL13aUr8qQfu1yxnXQ4pjH14AYl)
 
 En SEO, on optimise des pages web, c'est un fait établi. Très souvent selon l'équation « 1 page web = 1 requête = 1 champ lexical ».
 
@@ -70,7 +69,7 @@ Being in this field for 11 years I know firsthand how top SEOs do their TOP SEO
 
 And let me tell you a secret:
 
-Most Top SEOs Might Not Follow a Mundane Checklist of Stratégies 
+Most Top SEOs Might Not Follow a Mundane Checklist of Strategies 
 
 They're all about shaking things up!
 

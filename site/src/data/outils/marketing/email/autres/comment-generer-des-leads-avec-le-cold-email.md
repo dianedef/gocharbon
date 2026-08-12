@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -279,7 +279,7 @@ Mais attention... si les outils sont nécessaires, ils ne garantissent pas le su
 
 C'est pourquoi Lucas à fait une petite vidéo pour te donner un avant-goût de ce qu'il est possible de faire en terme de personnalisation :
 
-[https://ci5.googleusercontent.com/proxy/ZKXy2jD7HbMFR9YzkBVPIWNxdPM7bIeTWrf4gNcJc_vLazl5uggvUvymOqt_G1i2lsY9O5mLnlcZP7DTz5eZds9lWuctbu39t1KRnOMLSQzfz3M=s0-d-e1-ft#https://trail.sweal.fr/api/files/Files/fil_dHaRWzXnjFisTN4yr.png](__MASK_8__)
+[https://ci5.googleusercontent.com/proxy/ZKXy2jD7HbMFR9YzkBVPIWNxdPM7bIeTWrf4gNcJc_vLazl5uggvUvymOqt_G1i2lsY9O5mLnlcZP7DTz5eZds9lWuctbu39t1KRnOMLSQzfz3M=s0-d-e1-ft#https://trail.sweal.fr/api/files/Files/fil_dHaRWzXnjFisTN4yr.png](https://ci5.googleusercontent.com/proxy/ZKXy2jD7HbMFR9YzkBVPIWNxdPM7bIeTWrf4gNcJc_vLazl5uggvUvymOqt_G1i2lsY9O5mLnlcZP7DTz5eZds9lWuctbu39t1KRnOMLSQzfz3M=s0-d-e1-ft#https://trail.sweal.fr/api/files/Files/fil_dHaRWzXnjFisTN4yr.png)
 
 [Regarder la vidéo](https://trail.sweal.fr/api/t/c/usr_zbArTBtjeXM5vtK9v/tsk_MwukZhPntrw4Cnhir/enc_U2FsdGVkX185E4wv7I9cLX0DdnKJCmNKi68TEgZyAxq0vWZOQAIZcm-NDS5RJGOHmhAPglh5yuokF2b-UQYNsyiyVrS8J95KRnfst94aRaI=)
 
@@ -291,7 +291,7 @@ Moi non plus.
 
 C'est précisément pourquoi tu dois accorder une attention particulière aux cette série de 3 mails
 
-**Étape 1 : Choisir un bon fournisseur de messagerie**
+**Etape 1 : Choisir un bon fournisseur de messagerie**
 
 Il existe deux types de fournisseurs de messagerie.
 
@@ -396,7 +396,7 @@ On se retrouve bientôt pour une nouvelle astuce 🚀🚀🚀
 
 We want to help small entrepreneurs remove the B2B contact problem.
 
-I am a small entrepreneur myself and don't want to invest a lot in content création or paid ads.
+I am a small entrepreneur myself and don't want to invest a lot in content creation or paid ads.
 
 Le guide des fondamentaux du Marketing Automation Le marketing automation vient agrandir le champ des possibles votre stratégie marketing multicanale. Pourquoi faire aujourd‘hui ce que vous auriez pu automatiser hier ?
 
@@ -1169,7 +1169,7 @@ Today, we’ll compare three tools that will make your campaigns perform better 
 
 Cold Email Master – above all else, Cold Email Master is a learning tool that looks to give you the knowledge for better conversions. As such it’s difficult to gauge the ease of use – all the content is easily accessible; how well and how fast you receive it is highly individual.
 
-Postaga – a robust tool, brimming with various features, Postaga employs a unified dashboard from which you’ll be doing all your work. Even so, the sheer number of features makes for a more challenging path to complète mastery of the app.
+Postaga – a robust tool, brimming with various features, Postaga employs a unified dashboard from which you’ll be doing all your work. Even so, the sheer number of features makes for a more challenging path to complete mastery of the app.
 
 🏆 Winner
 

@@ -1,11 +1,10 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: 'Outils IA : L''Écosystème'
 author: Diane
 tags:
 - Tech
-- Outils
 description: Les meilleurs outils IA pour développeurs, créateurs de contenu et entrepreneurs
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg

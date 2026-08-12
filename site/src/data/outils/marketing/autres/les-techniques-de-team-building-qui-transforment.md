@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Techniques De Team Building Qui Transforment Les Employés En Superhéros
 author: Diane
-description: "Les Techniques De Team Building Qui Transforment Les Employés En Superhéros."
+description: 'Découvre Les Techniques De Team Building Qui Transforment Les Employés
+  En Superhéros : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -140,9 +141,9 @@ I will start with what I call the 'status trap':
 
 Take a look at the following unrelated articles from the Guardian Newspaper:
 
-[http://www.theguardian.com/uk-news/2014/may/29/gist-tony-blair-talks-george-bush-iraq-war-chilcot-inquiry](__MASK_17__)
+[http://www.theguardian.com/uk-news/2014/may/29/gist-tony-blair-talks-george-bush-iraq-war-chilcot-inquiry](http://www.theguardian.com/uk-news/2014/may/29/gist-tony-blair-talks-george-bush-iraq-war-chilcot-inquiry)
 
-[http://www.theguardian.com/commentisfree/2013/oct/15/mums-carers-treated-like-criminals-hidden-cameras](__MASK_18__)
+[http://www.theguardian.com/commentisfree/2013/oct/15/mums-carers-treated-like-criminals-hidden-cameras](http://www.theguardian.com/commentisfree/2013/oct/15/mums-carers-treated-like-criminals-hidden-cameras)
 
 The first is about the Iraq Inquiry's agreement to receive 'gists and quotes' of relevant correspondence between Prime Minister Tony Blair and President George Bush. The second examines recent calls for surveillance cameras to be installed in care homes.
 
@@ -154,19 +155,19 @@ Agreeing that care homes would only be required to submit 'selected highlights' 
 
 Should not the intimate relationship between a care worker and the person they are caring for be confidential? Do not care workers and their residents have a right to privacy? Do not care workers deserve some respect for what they do?
 
-Should not the décision making of powerful leaders such as Prime Minister Blair and President Bush be subject to inspection that is transparent and rigorous? Is not such transparency and rigour essential to safeguard the lives and well-being of the millions of people affected by Government décisions and actions?
+Should not the decision making of powerful leaders such as Prime Minister Blair and President Bush be subject to inspection that is transparent and rigorous? Is not such transparency and rigour essential to safeguard the lives and well-being of the millions of people affected by Government decisions and actions?
 
 If very similar arguments can be applied to either situation, what is causing the difference in the way they are perceived and addressed? It could, of course, be that context is everything, that comparing prime ministers and presidents with care workers is like comparing rhinos with wombats, that very different situations and contexts inevitably need very different approaches.
 
-But could it also be that one group of people have high power and influence and the status that accompanies these, and the other group (including those cared for) do not? Could it just possibly be that perceived status and ensuring that it is maintained at the appropriate level (be that high or low) is playing some part in décision-making, calls for action and the taking of action?
+But could it also be that one group of people have high power and influence and the status that accompanies these, and the other group (including those cared for) do not? Could it just possibly be that perceived status and ensuring that it is maintained at the appropriate level (be that high or low) is playing some part in decision-making, calls for action and the taking of action?
 
 If the answer to the above is yes, then it implies that we are vulnerable to the status trap, of putting the preservation of perceived status (be that high or low) before effectiveness.
 
 **A preoccupation with maintaining status can have a powerful impact upon the effectiveness of collaborative working**
 
-If the above is accepted, then the maintenance of status, which always involves limiting status somewhere else, is a powerful but often unacknowledged influence on those that make décisions and take actions, and this can be even more marked within collaborative contexts.
+If the above is accepted, then the maintenance of status, which always involves limiting status somewhere else, is a powerful but often unacknowledged influence on those that make decisions and take actions, and this can be even more marked within collaborative contexts.
 
-Consider collaborations between medical professionals, social workers, volunteers and the public. Reflect upon collaborations between law enforcement professionals and community groups. Think about collaborations between scientists and lay people, and collaborations between faith groups and charities and the people they try to help. Could it be that the décisions these initiatives make about who can see, do and be involved in what (and in what way) are often based more upon preserving status in relation to each collaborator, rather than upon deciding and doing (including sharing) the best things for all involved?
+Consider collaborations between medical professionals, social workers, volunteers and the public. Reflect upon collaborations between law enforcement professionals and community groups. Think about collaborations between scientists and lay people, and collaborations between faith groups and charities and the people they try to help. Could it be that the decisions these initiatives make about who can see, do and be involved in what (and in what way) are often based more upon preserving status in relation to each collaborator, rather than upon deciding and doing (including sharing) the best things for all involved?
 
 **Maintaining status through what we say**
 
@@ -182,15 +183,15 @@ Now, of course there is a need for professional practice, for expert analysis, f
 
 **Equating increased informality with decreased respect and credibility**
 
-A key reason organisations and other groups use language in the way described above is because they perceive an inverse relationship between growing informality and diminishing respect. This is because, over time, informality tends to dismantle and dissolve the formal, bureaucratic, ring-fencing or distancing language that can close off or at least restrict access to the hard-won knowledge, expérience, wisdom and insights which organisations and groups perceive as being the source of the respect and credibility granted to them by others.
+A key reason organisations and other groups use language in the way described above is because they perceive an inverse relationship between growing informality and diminishing respect. This is because, over time, informality tends to dismantle and dissolve the formal, bureaucratic, ring-fencing or distancing language that can close off or at least restrict access to the hard-won knowledge, experience, wisdom and insights which organisations and groups perceive as being the source of the respect and credibility granted to them by others.
 
-This perception of diminishing respect and credibility through increased informality of relationships certainly explains the suspicion many people and organisations harbour for the informal approaches so crucial to effective collaborative working. With a little reflection, however, it becomes obvious that this suspicion is unfounded and even damaging. After all, is it not what people do with their knowledge, expérience, wisdom and insights, rather than their mere possession of these things, that dictates whether or not they gain respect and credibility? Suspicion can only lead to hoarding and a lack of sharing, which in turn will only lead to a lack of respect and credibility.
+This perception of diminishing respect and credibility through increased informality of relationships certainly explains the suspicion many people and organisations harbour for the informal approaches so crucial to effective collaborative working. With a little reflection, however, it becomes obvious that this suspicion is unfounded and even damaging. After all, is it not what people do with their knowledge, experience, wisdom and insights, rather than their mere possession of these things, that dictates whether or not they gain respect and credibility? Suspicion can only lead to hoarding and a lack of sharing, which in turn will only lead to a lack of respect and credibility.
 
 When increased informality is automatically assumed to lead to a loss of respect, it is a sure sign that the status trap has sprung.
 
 **Local idiocies**
 
-Another sure sign that a collaboration has fallen into the status trap is the presence and preservation of local idiocies: helpful information kept secret for no good reason; insisting on originals of certificates rather than allowing copies or scans, even though allowing them would make compliance to regulations much easier than otherwise; joint reviews not allowed even though they would save time and money, help join up services and increase effectiveness; décisions only permitted at specific meetings and at specific times, even though earlier and more flexible décision-making would greatly improve things; being able to hear someone read a document but not see the document itself; not being able to make copies of documents although copies are available elsewhere and the only consequence is the negative one of wasted time; not allowing local people to make décisions about local issues even though they are the people best placed to make them; insisting on unrealistic deadlines that are of no significance whatsoever; closing a route through a local park by a set time each evening, even though doing so means people have to walk at twilight along a busy, non-pavemented road.
+Another sure sign that a collaboration has fallen into the status trap is the presence and preservation of local idiocies: helpful information kept secret for no good reason; insisting on originals of certificates rather than allowing copies or scans, even though allowing them would make compliance to regulations much easier than otherwise; joint reviews not allowed even though they would save time and money, help join up services and increase effectiveness; decisions only permitted at specific meetings and at specific times, even though earlier and more flexible decision-making would greatly improve things; being able to hear someone read a document but not see the document itself; not being able to make copies of documents although copies are available elsewhere and the only consequence is the negative one of wasted time; not allowing local people to make decisions about local issues even though they are the people best placed to make them; insisting on unrealistic deadlines that are of no significance whatsoever; closing a route through a local park by a set time each evening, even though doing so means people have to walk at twilight along a busy, non-pavemented road.
 
 If you spot a local idiocy, the only real purpose of which is to maintain and bolster the status of some group or organisation, you will not have to look that much harder for the status issue that is keeping it in place. You will also likely find a collaboration caught within the status trap, a collaboration that has become nothing more than a talking shop preoccupied with maintaining the status-quo amongst all involved.
 
@@ -198,7 +199,7 @@ If you spot a local idiocy, the only real purpose of which is to maintain and bo
 
 There are four ways you can avoid falling into the status trap:
 
-1. **Swap arguments to see how they fit.** As with the Iraq and care home examples given above, swap the arguments for a décision or action between different problems, situations and scenarios that present similar challenges (the Iraq and care home examples shared a preoccupation with privacy and confidentiality). If they are easily transplanted discuss why you have decided they should apply to one problem, situation or scenario and not another. If the only reasons you can find are focused upon maintaining status, you are in danger of falling into the status trap. Revisit your options again and make décisions and take actions based upon increasing effectiveness rather than upon maintaining the 'status-quo' amongst everyone involved.
+1. **Swap arguments to see how they fit.** As with the Iraq and care home examples given above, swap the arguments for a decision or action between different problems, situations and scenarios that present similar challenges (the Iraq and care home examples shared a preoccupation with privacy and confidentiality). If they are easily transplanted discuss why you have decided they should apply to one problem, situation or scenario and not another. If the only reasons you can find are focused upon maintaining status, you are in danger of falling into the status trap. Revisit your options again and make decisions and take actions based upon increasing effectiveness rather than upon maintaining the 'status-quo' amongst everyone involved.
 
 **2. Express and challenge the meaning you perceive within what people say to you.** People talk at us and we talk back, but much of the meaning we perceive remains unsaid within our minds. We hear the phrase 'This needs careful and complex analysis.' and we might perceive it as meaning 'You are not clever or expert enough to handle it.' If we acquiesce to and act in accordance with this unspoken perception we definitely will not be able to handle it and other 'more qualified' people will take care of it for us. The status quo will be maintained; we will have fallen into the status trap. If, however, we express our perception, share what we understand people to be saying to us and then challenge it, maybe we will be offered the knowledge, skills and tools to do the analysis ourselves. The status quo amongst all those involved will have changed.
 

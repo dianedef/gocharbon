@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: cms
-toolFacets:
-  - configurateur
-  - ecommerce
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -22,13 +17,13 @@ imgUrl: ../../../assets/astro.jpeg
 
 # PC sur Mesure
 
-# E-COMMERCE HARDWARE : LE TAILLEUR SUR-MESURE DE TON ORDINATEUR
+## E-COMMERCE HARDWARE : LE TAILLEUR SUR-MESURE DE TON ORDINATEUR
 
-## tl;dr
+### tl;dr
 
 PCsurMesure.com est **le spécialiste historique français** de la configuration d'ordinateurs personnalisés. Fondé par **Thierry Brugerolle**, le site permet de configurer composant par composant un PC de bureau, un portable ou un mini-PC, avec un configurateur intelligent qui vérifie automatiquement la compatibilité de chaque pièce. L'assemblage est réalisé dans un **atelier spécialisé en France** et livré sous **8 jours ouvrés**. Le site propose aussi un **mode Expert assisté par Intelligence Artificielle** qui guide les néophytes dans le choix des composants. Les prix démarrent à partir de **78,68 EUR TTC** (config de base) jusqu'à plusieurs milliers d'euros pour les machines gamer extrême. Paiement en **3x sans frais** disponible. Livraison en France métropolitaine, Corse, DOM-TOM, Belgique, Luxembourg, Allemagne, Suisse et Monaco.
 
-## Alternative à
+### Alternative à
 
 - **LDLC** (généraliste hardware, moins de personnalisation composant par composant)
 - **Materiel.net** (configurateur disponible mais catalogue plus orienté vente de composants)
@@ -39,7 +34,7 @@ PCsurMesure.com est **le spécialiste historique français** de la configuration
 
 PC sur Mesure se distingue par son **ancienneté** sur le marché français, son **mode Expert IA** et la vérification automatique de compatibilité des composants.
 
-# Bénéfices
+## Bénéfices
 
 **Configuration 100% à la carte** — Tu ne choisis pas parmi des configurations pré-faites : tu sélectionnes chaque composant individuellement. Processeur, carte mère, RAM, stockage, carte graphique, alimentation, boîtier, ventilation - tout est personnalisable. C'est la différence entre un costume prêt-à-porter et un costume sur-mesure.
 
@@ -53,7 +48,7 @@ PC sur Mesure se distingue par son **ancienneté** sur le marché français, son
 
 **Livraison étendue** — France métropolitaine, Corse, DOM-TOM (Guadeloupe, Guyane, Martinique, Réunion), mais aussi Belgique, Luxembourg, Allemagne, Suisse et Monaco.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **Gamers** qui veulent une config optimisée pour leur budget et leurs jeux (1440p, 4K)
 - **Professionnels créatifs** (montage vidéo, photo, 3D) qui ont besoin de puissance brute
@@ -62,7 +57,7 @@ PC sur Mesure se distingue par son **ancienneté** sur le marché français, son
 - **Entreprises** qui ont besoin de flottes de PC configurés selon un cahier des charges précis
 - **Utilisateurs Linux** qui cherchent des machines certifiées compatibles
 
-# Comment Utiliser PC sur Mesure
+## Comment Utiliser PC sur Mesure
 
 1. **Choisis ton type de machine** — Ordinateur de bureau, portable, mini-PC ou serveur de stockage.
 2. **Sélectionne ton mode de configuration** :
@@ -75,9 +70,9 @@ PC sur Mesure se distingue par son **ancienneté** sur le marché français, son
 5. **Commande et paiement** — Paiement sécurisé, option 3x sans frais.
 6. **Assemblage et livraison** — 8 jours ouvrés après validation du paiement. Machine testée et prête à l'emploi.
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Configurateur PC de Bureau
+### Configurateur PC de Bureau
 
 - **Plateformes Intel** : dernière génération Ultra (2025) avec DDR5 à 6400 MHz, et génération 14 avec DDR5
 - **Plateformes AMD** : Ryzen 7000 en 100% à la carte, Ryzen 7000 Gamer
@@ -85,7 +80,7 @@ PC sur Mesure se distingue par son **ancienneté** sur le marché français, son
 - **Configs "couture"** : ordinateurs uniques optimisés selon une demande personnalisée
 - **Compatibilité vérifiée** automatiquement par le Super Configurateur entre tous les composants
 
-## Configurateur PC Portable
+### Configurateur PC Portable
 
 - **Netbooks** : machines ultra-compactes pour la mobilité
 - **Ultraportables** : légers et performants pour le travail nomade
@@ -94,17 +89,17 @@ PC sur Mesure se distingue par son **ancienneté** sur le marché français, son
 - **Portables Photo / Vidéo** : écrans calibrés et puissance de traitement
 - **Portables sur-mesure** : personnalisation des composants internes
 
-## Mini-PC
+### Mini-PC
 
 - Configurations compactes pour les espaces réduits
 - Puissance ajustable selon l'usage (media center, bureautique, serveur léger)
 
-## Serveurs de Stockage
+### Serveurs de Stockage
 
 - Configurations NAS et serveurs personnalisées
 - Choix des disques, RAID, capacité réseau
 
-## Services Inclus
+### Services Inclus
 
 - **Assemblage professionnel** avec câble management soigné
 - **Installation BIOS** avec paramétrage optimal
@@ -113,7 +108,7 @@ PC sur Mesure se distingue par son **ancienneté** sur le marché français, son
 - **Garantie constructeur** sur chaque composant
 - **Kits évolution** : possibilité d'acheter des upgrades compatibles avec ta machine existante
 
-## Logiciels et Périphériques
+### Logiciels et Périphériques
 
 - **Systèmes d'exploitation** : Windows 11, distributions Linux certifiées
 - **Logiciels bureautique** : Microsoft Office
@@ -121,7 +116,7 @@ PC sur Mesure se distingue par son **ancienneté** sur le marché français, son
 - **Écrans plats** : catalogue de moniteurs compatibles
 - **Périphériques** : claviers, souris, casques, webcams
 
-# Prix
+## Prix
 
 Les prix varient selon la configuration choisie :
 
@@ -140,7 +135,7 @@ Les prix varient selon la configuration choisie :
 - **Frais de livraison** : variable selon le pays de destination
 - **Tarifs Professionnels** : accès à une grille tarifaire dédiée (HT)
 
-# Intégrations
+## Intégrations
 
 PC sur Mesure est un site e-commerce indépendant. Les intégrations sont principalement côté paiement et logistique :
 
@@ -149,7 +144,7 @@ PC sur Mesure est un site e-commerce indépendant. Les intégrations sont princi
 - **Livraison** : transporteurs professionnels pour la France et l'international
 - **Espace client** : suivi de commande en ligne
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **Fondation** : PCsurMesure.com est un acteur historique du marché français de l'assemblage PC personnalisé
 - **Fondateur** : **Thierry Brugerolle**, entrepreneur spécialisé dans le hardware informatique
@@ -158,7 +153,7 @@ PC sur Mesure est un site e-commerce indépendant. Les intégrations sont princi
 - **Évolution** : intégration progressive de l'IA dans le configurateur, support des dernières technologies (DDR5, PCIe 5.0, processeurs Intel Ultra et AMD Ryzen 7000)
 - **Clientèle** : particuliers (gamers, créatifs, familles) et professionnels (PME, indépendants, entreprises)
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
 **Gamer avec budget de 1 700 EUR** : Tu veux jouer en 1440p Ultra avec une RTX 5070. Tu utilises le configurateur avancé AMD Ryzen 7000, tu sélectionnes un Ryzen 7 7800X3D, 32 Go de DDR5 6000 MHz, un SSD NVMe 2 To, et le boîtier Fractal Design de ton choix. Le Super Configurateur vérifie tout et tu reçois ta machine sous 8 jours.
 
@@ -168,7 +163,7 @@ PC sur Mesure est un site e-commerce indépendant. Les intégrations sont princi
 
 **Passionné Linux** : Tu veux un PC garanti compatible Linux. Tu choisis la catégorie "Certifié Linux" et tu configures ta machine avec la certitude que tout fonctionnera avec ta distribution préférée.
 
-# Points Forts
+## Points Forts
 
 - Configurateur très complet avec vérification de compatibilité automatique en temps réel
 - Mode Expert assisté par IA pour les configurations 100% à la carte
@@ -178,7 +173,7 @@ PC sur Mesure est un site e-commerce indépendant. Les intégrations sont princi
 - Paiement en 3x sans frais sur toutes les configurations
 - Ancienneté et expertise sur le marché français
 
-# Points Faibles
+## Points Faibles
 
 - Interface du site datée, ergonomie perfectible par rapport aux concurrents modernes
 - Pas de showroom physique pour voir les machines avant achat
@@ -187,7 +182,7 @@ PC sur Mesure est un site e-commerce indépendant. Les intégrations sont princi
 - Pas de programme de reprise ou trade-in pour les anciennes machines
 - Service après-vente difficile à évaluer publiquement (peu d'avis récents accessibles)
 
-# Ressources
+## Ressources
 
 - [Site officiel PCsurMesure.com](https://www.pcsurmesure.com)
 - [Page d'aide et FAQ](https://www.pcsurmesure.com/aide.asp)

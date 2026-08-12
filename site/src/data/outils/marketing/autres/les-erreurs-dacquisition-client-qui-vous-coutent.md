@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Erreurs D'Acquisition Client Qui Vous Coûtent Des Millions Stop
 author: Diane
-description: "Les Erreurs D'Acquisition Client Qui Vous Coûtent Des Millions Stop."
+description: 'Découvre Les Erreurs D''Acquisition Client Qui Vous Coûtent Des Millions
+  Stop : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

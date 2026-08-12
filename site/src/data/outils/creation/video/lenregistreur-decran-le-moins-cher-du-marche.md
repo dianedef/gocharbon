@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: AWZ Screen Recorder
 author: Diane
@@ -34,7 +34,7 @@ OBS Studio (gratuit, open-source, mais complexe), Camtasia (puissant mais 313$/a
 
 **Enregistrement 4K sans lag** — Que tu captures un tutoriel, un gameplay ou une visioconférence, l'enregistrement est fluide même en haute résolution. Le logiciel est optimisé pour ne pas ralentir ta machine pendant l'enregistrement.
 
-**Montage intégré** — Pas besoin d'ouvrir un deuxième logiciel. Tu peux couper, annoter et exporter directement depuis AWZ. Ce n'est pas un Première Pro, mais c'est suffisant pour les montages rapides du quotidien.
+**Montage intégré** — Pas besoin d'ouvrir un deuxième logiciel. Tu peux couper, annoter et exporter directement depuis AWZ. Ce n'est pas un Premiere Pro, mais c'est suffisant pour les montages rapides du quotidien.
 
 **Multi-écrans et multi-sources** — Tu peux enregistrer plusieurs moniteurs simultanément (depuis avril 2024), capturer l'écran + la webcam + le micro en même temps, et même ajouter des annotations en temps réel pendant l'enregistrement.
 
@@ -162,7 +162,7 @@ Une fois l'enregistrement terminé, utilise l'éditeur intégré pour couper les
 AWZ Screen Recorder est un logiciel desktop autonome. Il ne s'intègre pas directement avec d'autres outils via API ou Zapier, mais il se connecte naturellement à ton workflow :
 
 - **YouTube, TikTok, Vimeo** — partage direct depuis l'interface après export
-- **Formats compatibles** — MP4, WMV, MOV exploitables dans tous les logiciels de montage (Première Pro, DaVinci Resolve, Final Cut Pro, CapCut, etc.)
+- **Formats compatibles** — MP4, WMV, MOV exploitables dans tous les logiciels de montage (Premiere Pro, DaVinci Resolve, Final Cut Pro, CapCut, etc.)
 - **Captures d'écran** — exportables en PNG/JPG pour utilisation dans Canva, Figma, ou tout autre outil de design
 
 ## L'équipe et l'Histoire
@@ -210,7 +210,7 @@ AWZ Screen Recorder est un logiciel desktop autonome. Il ne s'intègre pas direc
 
 ## Points Faibles
 
-- L'éditeur vidéo intégré reste basique — tu ne pourras pas faire de montage avancé (transitions, effets, multi-pistes). Pour un vrai montage, il faudra exporter vers DaVinci Resolve ou Première Pro
+- L'éditeur vidéo intégré reste basique — tu ne pourras pas faire de montage avancé (transitions, effets, multi-pistes). Pour un vrai montage, il faudra exporter vers DaVinci Resolve ou Premiere Pro
 - 1 licence = 1 appareil — si tu as un PC fixe et un portable, il te faut deux licences. Le transfert est limité à une fois par mois
 - Note AppSumo mitigée (2.9/5) — des utilisateurs signalent des problèmes de transfert de licence et de support technique
 - Pas d'intégration directe avec les outils de productivité — pas de Zapier, pas d'API, pas de lien avec Slack ou Notion

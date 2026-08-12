@@ -1,39 +1,57 @@
 ---
 section: tutos
-type: tuto
-imageNameKey: null
 tags:
 - Tutoriels
+imageNameKey: null
 u_site: null
-title: Comment créer une campagne emailing propre et utile
+title: Comment Créer Une Campagne Emaili
 author: Diane
-description: 'Tutoriel pratique pour créer une campagne emailing propre et utile : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Comment Créer Une Campagne Emaili : outil français pour entrepreneurs,
+  fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment créer une campagne emailing propre et utile
+## Etape 1: Création de votre première campagne dans Sendinblue
+Pour commencer, donnez simplement un nom, une ligne d'objet et un e-mail d'expéditeur pour votre campagne dans Sendinblue.
 
-Si tu veux créer une campagne emailing propre et utile, pense d'abord réputation, clarté et segmentation. Le canal email fonctionne encore très bien, mais seulement quand tu respectes l'audience et que tu évites les raccourcis sales.
+## Etape 2: Paramètres avancés et personnalisation
+Explorez les paramètres avancés pour personnaliser le champ "à", ajouter des balises, une pièce jointe (avec un maximum de 5 Mo), intégrer des images et activer un lien miroir pour une visualisation dans le navigateur des abonnés.
 
-## Ce qu'il faut préparer
+## Etape 3: Choix du générateur de modèles
+Sélectionnez un générateur de modèles à l'aide de l'outil de conception réactive ou du texte simple HTML pour adapter votre e-mail à la taille de l'écran sur lequel il est lu.
 
-- ta promesse
-- une base de contacts propre
-- un domaine ou sous-domaine correctement configuré
+## Etape 4: Utilisation du générateur de formulaires
+Utilisez le générateur de formulaires par glisser-déposer pour créer rapidement un modèle de newsletter. Vous pouvez également commencer avec un modèle pré-rempli et personnaliser les éléments selon vos besoins.
 
-## La méthode simple
+## Etape 5: Finalisation et envoi
+Une fois la conception terminée, assurez-vous que votre profil est complet avant d'envoyer un test. Vous pouvez également prévisualiser les e-mails dans votre navigateur Web.
 
-1. Clarifie le type d'email envoyé : prospection, nurturing, relance, newsletter ou transactionnel. Chaque cas a ses propres règles et attentes.
-2. Travaille la délivrabilité avant le copywriting. SPF, DKIM, DMARC, réputation et hygiène de liste comptent souvent plus qu'une formule de vente brillante.
-3. Observe ensuite les signaux utiles : taux de placement en boîte principale, réponses, clics, désinscriptions, plaintes, conversions.
+## Etape 6: Automatisation du marketing
+Explorez les fonctionnalités d'automatisation pour créer des workflows personnalisés, des filtres de contact en fonction de données démographiques, et l'envoi d'e-mails transactionnels ou de SMS.
 
-## Les erreurs à éviter
+## Etape 7: Intégrations et plug-ins
+Découvrez les plug-ins pour les plateformes de commerce électronique, les outils d'analyse et de CRM, ainsi que l'interface de programmation d'applications (API) ouverte pour des intégrations personnalisées.
 
-- envoyer trop tôt à une liste mal qualifiée
-- négliger la réputation du domaine
-- copier des séquences agressives qui abîment la confiance
+## Etape 8: Améliorations de Sendinblue
+Découvrez les améliorations apportées à Sendinblue, y compris les fonctionnalités CRM, la consultation de modèles personnalisés, et l'assistance disponible pour faciliter l'utilisation de la plate-forme.
 
-## Commence comme ça
+En suivant ces étapes, vous pourrez tirer parti des fonctionnalités de Sendinblue pour créer et automatiser vos campagnes marketing de manière efficace.
 
-Ouvre d'abord ton DNS, ton outil d'envoi et ta première séquence. Si les fondations sont sales, le reste sera forcément bancal.
+## Etape 1: Création de votre première campagne dans Sendinblue
+Pour créer votre première campagne dans Sendinblue, donnez-lui simplement un nom, une ligne d'objet et un e-mail d'expéditeur.
+
+## Etape 2: Paramètres avancés et personnalisation
+Les paramètres avancés incluent la personnalisation du champ "à" pour ajouter le nom de l'abonné et l'utilisation d'une page de désabonnement personnalisée pour chaque campagne. Vous pouvez également ajouter des balises et une pièce jointe, mais avec un maximum de 5 Mo.
+
+## Etape 3: Choix du générateur de modèles
+Ensuite, vous choisissez un générateur de modèles à l'aide de l'outil de conception réactive ou du texte simple HTML. Le Responsive Design est exactement ce à quoi cela ressemble : un outil qui permet à votre e-mail de s'adapter à la taille de l'écran sur lequel il est lu.
+
+## Etape 4: Utilisation du générateur de formulaires
+Le générateur de formulaires par glisser-déposer de Sendinblue est le moyen le plus rapide de créer un modèle de newsletter. Vous pouvez soit commencer par déposer des éléments sur la page, soit utiliser un modèle prédéfini.
+
+## Etape 5: Finalisation et envoi
+Lorsque vous avez terminé la conception et essayé d'envoyer un test, assurez-vous que votre profil est complet. Vous pouvez également prévisualiser les e-mails dans votre navigateur Web.
+
+
+Créer votre première campagne dans Sendinblue est simple. Donnez-lui simplement un nom, une ligne d'objet et un e-mail d'expéditeur. Les paramètres avancés incluent la personnalisation du champ "à" pour ajouter le nom de l'abonné et l'utilisation d'une page de désabonnement personnalisée pour chaque campagne. Vous pouvez également ajouter des balises et une pièce jointe, mais avec un maximum de 5 Mo. De plus, les options incluent l'intégration d'images et l'activation d'un lien miroir, qui permet aux abonnés de visualiser l'e-mail dans leur navigateur. Ensuite, vous choisissez un générateur de modèles à l'aide de l'outil de conception réactive ou du texte simple HTML. Le Responsive Design est exactement ce à quoi cela ressemble : un outil qui permet à votre e-mail de s'adapter à la taille de l'écran sur lequel il est lu. L'activation de cette option rend instantanément votre campagne adaptée aux mobiles. Le générateur de formulaires par glisser-déposer de Sendinblue est le moyen le plus rapide de créer un modèle de newsletter. Vous pouvez soit commencer par déposer des éléments sur la page, soit utiliser un modèle prédéfini. Si vous commencez sans modèle, la newsletter est pré-remplie avec un logo, une image, du texte et un bouton, mais vous pouvez échanger ces éléments s'ils ne vous conviennent pas. N'oubliez pas que de nombreux éléments ont du code intégré, vous pouvez donc rencontrer des erreurs lorsque la conception n'est pas une représentation exacte de ce que vous essayez de construire. Certaines fonctionnalités pratiques incluent la fonctionnalité CAPTCHA anti-robot et un générateur de page de destination, que Sendinblue dit avoir créé à la suite des commentaires des clients.PublicitéLorsque nous avons terminé la conception et essayé d'envoyer un test, on nous a dit que nous devions compléter notre profil. Cela signifiait que nous devions quitter l'outil de conception et cliquer sur notre profil, ce qui semblait inutile alors qu'une simple boîte de dialogue contextuelle avec un bouton "Terminer" aurait suffi. Vous pouvez également prévisualiser les e-mails dans votre navigateur Web. En plus des newsletters, vous pouvez envoyer des e-mails transactionnels (comme la création de compte ou une réinitialisation de mot de passe) ou des SMS (vérification de code, suivi de commande, etc.).Automatisation du marketing pour les petites entreprises-------------------------------------------------------Pour [l'automatisation du marketing,](https://www.pcmag.com/picks/the-best-marketing-automation-software) Sendinblue s'est avéré facile, que vous soyez un spécialiste du marketing plus avancé cherchant à créer quelque chose de personnalisé ou simplement un débutant souhaitant automatiser des séquences d'e-mails de base. L'outil propose des modèles de workflow de base que vous pouvez modifier et reconcevoir pour des tâches spécifiques. Vous trouverez un message de bienvenue, un message d'anniversaire, des chariots abandonnés, une visite de page, une visite de site Web, un achat de produit et des modèles basés sur les activités. Ce n'est pas très flexible, mais nous avons trouvé que c'était un point de départ idéal pour les e-mails et les campagnes de goutte à goutte axés sur le commerce.Vous pouvez démarrer un flux de travail personnalisé avec les types de fichiers suivants : un fichier de contact de base, un contact qui a terminé une activité de courrier électronique ou de site Web, un contact qui a soumis des données de formulaire ou un contact qui a été tagué lors de la visite de votre site Web. Une fois que vous avez déterminé les contacts à ajouter au flux de travail, vous baserez votre séquence sur une série de conditions « si/alors » pour déterminer ce qu'il faut envoyer pour votre prochaine communication. Si quelqu'un ouvre un e-mail, il reçoit un message différent de celui qui ne l'a pas fait. Il n'y a pas de limite au nombre d'interactions que vous pouvez créer, mais votre compte est limité en fonction du nombre d'e-mails que vous pouvez envoyer.Ce qui se démarque vraiment, c'est que Sendinblue offre un moyen simple de créer des filtres de contact en fonction de diverses données démographiques. Vous le souhaitez car cela vous permet d'ajouter automatiquement quelqu'un à un flux de travail. Par exemple, si un contact atteint un certain âge ou passe un certain temps sur votre site Web, il est alors ajouté à un flux de travail qui peut tenter de tirer parti de cette interaction. Ce n'est pas seulement l'une des règles d'automatisation les plus astucieuses que nous avons vues par rapport à nos autres concurrents, Sendinblue l'a également rendue très facile à utiliser.Cette facilité d'utilisation s'étend au reste des capacités d'automatisation de Sendinblue, qui sont considérables pour un outil avec ce prix bas. Il existe plus de 350 000 options pour automatiser les processus de marketing et de vente. Ces actions incluent l'envoi d'e-mails et de SMS, l'organisation des contacts dans différentes listes et la mise à jour des informations dans votre base de données de contacts.PublicitéL'automatisation s'étend également à vos différents canaux marketing, ce qui nous amène à une autre caractéristique remarquable : SendinBlue est l'une des rares solutions que nous avons testées cette année qui s'est penchée sur le marketing par SMS et pas seulement sur les campagnes par e-mail. C'est bien, mais cela peut être une arme à double tranchant car de nombreux consommateurs pensent que le marketing par SMS est beaucoup plus invasif qu'un e-mail. Pourtant, le SMS s'est avéré à la fois plus efficace et personnel que le courrier électronique, il vaut donc la peine de le tester.Toute cette automatisation est aussi ce qui alimente la fonctionnalité [CRM](https://www.pcmag.com/picks/the-best-crm-software) intégrée de Sendinblue . Parce qu'il peut suivre une multitude d'activités d'abonnés, puis les faire correspondre à votre base de données de contacts, vous pouvez facilement faire apparaître ces correspondances et agir sur les opportunités qu'elles offrent. Cela ressemble beaucoup à ce qu'un CRM standard peut faire, sans gestion de pipeline.Dans l'ensemble, les fonctionnalités d'automatisation de Sendinblue se sont démarquées car elles sont étonnamment robustes compte tenu du prix. Cependant, ils ne sont toujours pas dans la même ligue que les concurrents qui ont conçu leurs plates-formes pour des campagnes d'entreprise géantes. Si tel est votre objectif, vos meilleurs paris seront [HubSpot Marketing Hub](https://www.pcmag.com/reviews/hubspot-marketing-hub) et [Salesforce Pardot](https://www.pcmag.com/reviews/salesforce-pardot) , nos outils Editors' Choice pour l'automatisation du marketing.Intégrations et plug-ins-----------------------Sendinblue commence avec des plug-ins pour les plateformes de commerce électronique, [Shopify](https://www.pcmag.com/reviews/shopify) et WooCommerce. Ceux-ci vous permettent de combiner le marketing numérique avec une surveillance des achats de produits de base afin que vous puissiez par la suite ajouter des utilisateurs aux flux de travail en fonction de leur activité d'achat. Cela inclut non seulement un achat, mais également des paniers d'achat abandonnés et la navigation de produits.Outre les achats, Sendinblue propose davantage de plug-ins qui vous permettent d'interagir avec un certain nombre d'applications différentes, en particulier des outils d'analyse et de CRM. La plate-forme est également livrée avec une interface de programmation d'applications (API) ouverte, qui permet à un développeur compétent de créer de nouvelles intégrations au cas où vous auriez besoin de combinaisons de fonctionnalités vraiment personnalisées. Enfin, il existe une extension Facebook Ads qui peut vous aider à tirer le meilleur parti de cette plate-forme si vos abonnés y sont actifs.Un Sendinblue bien amélioré--------------------------Lorsque nous avons examiné Sendinblue pour la première fois il y a plus d'un an, nous avons été déçus par plusieurs aspects : le manque d'intégrations tierces, le manque de fonctionnalités d'automatisation et un système de conception de courrier électronique médiocre. Sendinblue a répondu à toutes ces préoccupations dans cette nouvelle version et a même ajouté des fonctionnalités supplémentaires, notamment sa capacité CRM et le service de consultation de modèles personnalisés.Bien qu'une grande partie de cela soit facile à utiliser, de nombreuses parties de l'application sont encore un peu déroutantes, en particulier pour les nouveaux utilisateurs. Heureusement, Sendinblue dispose d'une base décente de ressources d'assistance. Il existe des boutons d'aide contextuelle sur la plupart des écrans, et vous pouvez également accéder à des didacticiels vidéo plus approfondis sur le site Web de Sendinblue. Il existe également des FAQ consultables et un support technique standard, bien que cela ne soit accessible qu'en créant un ticket Web ou en appelant le numéro sans frais de l'entreprise.PublicitéSendinblue a parcouru un long chemin depuis notre dernier test. Des contrôles d'automatisation exceptionnels à la navigation dans le marketing par SMS, il s'agit désormais d'une plate-forme mature et flexible qui peut être obtenue à un prix très raisonnable. C'est beaucoup de travail en un peu plus d'un an, et cela lui vaut certainement un clin d'œil Editors' Choice.

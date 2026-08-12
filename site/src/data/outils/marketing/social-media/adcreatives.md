@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: AdCreatives
 author: Diane
@@ -39,7 +39,7 @@ It won't stay live long and we will never do another lifetime deal again.
 
 If the button does not work on your browser use this link instead,
 
-[https://appsumo.8odi.net/No-CPU-Limit-Special-Package](__MASK_4__)
+[https://appsumo.8odi.net/No-CPU-Limit-Special-Package](https://appsumo.8odi.net/No-CPU-Limit-Special-Package)
 
 [AdCreatives.ai](http://AdCreatives.ai) est une entreprise proposant une solution basée sur l'Intelligence Artificielle pour aider les marketeurs à créer des publicités attrayantes et performantes. Voici toutes les informations que vous devez connaître :
 

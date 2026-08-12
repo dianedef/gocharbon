@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Méthode Choc Pour Atteindre Vos Objectifs Que Votre Coach Vous Cache
 author: Diane
-description: "La Méthode Choc Pour Atteindre Vos Objectifs Que Votre Coach Vous Cache."
+description: 'Découvre La Méthode Choc Pour Atteindre Vos Objectifs Que Votre Coach
+  Vous Cache : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -42,7 +41,7 @@ une application Windows complète qui fait tout ce que vous attendez de Chaos Co
 
 Voici un exemple d'un ensemble d'objectifs liés à la prise de parole en public Chaque objectif, avec une liste de tâches/actions correspondante, forme un projet. En général, c'est une bonne idée d'écrire chaque tâche complexe en tant que projet et de la diviser en actions simples en une seule étape : En définissant des dates de début et d'échéance, vous pouvez définir votre emploi du temps quotidien et le gérer avec le menu pratique Plan quotidien : Si vous êtes un fan inconditionnel de GTD, vous pouvez utiliser des listes contextuelles pour organiser vos tâches non seulement par objectifs, mais également de différentes manières, comme des lieux, des outils, des personnes, etc. Et juste au cas où vous auriez besoin de capturer rapidement une note, une idée ou une tâche, il y a un endroit spécial pour cela : Chaos Box. Il vous permet de sauvegarder tous vos enregistrements entrants afin de pouvoir les traiter ultérieurement
 
-[https://blog.trello.com/fr/comment-tenir-ses-resolutions?utm_source=newsletter&utm_medium=email&utm_campaign=trello-fr_newsletter](__MASK_1__)
+[https://blog.trello.com/fr/comment-tenir-ses-resolutions?utm_source=newsletter&utm_medium=email&utm_campaign=trello-fr_newsletter](https://blog.trello.com/fr/comment-tenir-ses-resolutions?utm_source=newsletter&utm_medium=email&utm_campaign=trello-fr_newsletter)
 
 _Ou comment cette année sera différente de chaque... autre... année.._
 

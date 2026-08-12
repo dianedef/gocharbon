@@ -69,5 +69,4 @@ imgUrl: ../../../assets/astro.jpeg
 ## Ressources Complémentaires
 - [Stratégie de contenu](/seo/contenu/strategie)
 - [Rédaction web](/seo/contenu/redaction-web)
-- [Cocon sémantique](/seo/contenu/cocon-semantique)
-- [Automatiser l'optimisation sémantique avec l'IA](/tutos/automatiser-ses-process-seo-avec-ia/)
+- [Cocon sémantique](/seo/contenu/cocon-semantique) 

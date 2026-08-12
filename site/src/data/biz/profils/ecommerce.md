@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Boutique e-commerce
-author: Diane GoCharbon
+title: E-commerce / Boutique en ligne
+author: Web Indé
 tags:
 - Business
-description: 'Construire une boutique e-commerce crédible : offre, marge, acquisition
-  et exécution.'
+description: 'Lance ta boutique e-commerce : plateformes, produits, marketing et logistique
+  pour entrepreneurs du digital.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-L'e-commerce, c'est créer une boutique qui tient sur autre chose que des jolies fiches produits. Tu dois gérer offre, marge, acquisition, logistique et expérience client. C'est un vrai métier, pas juste une installation Shopify.
+L'e-commerce, c'est créer ta propre boutique en ligne pour vendre des produits. Tu choisis tes produits, tu crées ton site (sur Shopify, WooCommerce, etc.), et tu gères la vente de A à Z. C'est différent du dropshipping car tu as plus de contrôle sur tes produits et ta marque.
 
 Tu peux vendre des produits physiques (que tu stockes ou que tu fais fabriquer), des produits digitaux (ebooks, templates, etc.), ou un mix des deux. C'est un vrai business avec de vraies marges, mais ça demande aussi plus d'investissement et de gestion.
 

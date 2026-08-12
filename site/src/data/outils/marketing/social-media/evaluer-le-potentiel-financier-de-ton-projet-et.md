@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -23,7 +23,7 @@ En Bonus : Télécharge mon système marketing gratuitement
     - numéro 3: testez vos hypothèses et assurez-vous qu'il existe un marché pour ce que vous vendez. Vous pouvez vous connecter à votre compte Facebook pour utiliser le gestionnaire d'annonces afin de rechercher une audience potentielle. Ou rendez-vous sur Google Trends pour trier par emplacement, période, catégorie et type de recherche. Maintenant, pour un conseil: le roi Sumo d'AppSumo, Noah Kagan, suggère d'utiliser la formule Total Available Market pour vous assurer d'avoir une idée commerciale viable. Pour ce faire, multipliez simplement le nombre de clients disponibles par la valeur de chaque client: si ce nombre est supérieur à 1 million de dollars, vous avez probablement une idée assez douce et réussie.
     - Ce qui signifie que vous êtes prêt pour le dernier conseil: valider, valider, valider. Votre objectif ici est de dépenser le minimum de temps et d'argent nécessaire pour voir si vous pouvez gagner même un dollar. Pour ce faire, accordez-vous trois jours et moins de 20 dollars - et découvrez si vous pouvez y arriver! L'un des moyens par lesquels notre hôte de la série Diving in with Doc, Doc Williams, recommande de valider votre idée est de créer une courte vidéo et de la promouvoir sur les réseaux sociaux. Obtenez-vous une certaine traction? Alors vous êtes prêt à aller vivre! Sumo-lings, nous serions ravis d'entendre vos idées commerciales dans les commentaires ci-dessous et de nous tenir au courant de toutes vos innovations. Restez en sécurité, lavez-vous les mains, ne touchez pas votre visage - et préparez-vous à bâtir une entreprise prospère dans le confort de votre maison ... et peut-être un pyjama.
 
-[https://www.lingenhsia.com/kit](__MASK_0__)
+[https://www.lingenhsia.com/kit](https://www.lingenhsia.com/kit)
 
 # LANCER SON BUSINESS RAPIDEMENT ET SIMPLEMENT !
 
@@ -137,7 +137,7 @@ Les pti produits servent pas à gagner de l'argent mais a qualifier les gens com
 
 - Niches
     
-    [https://twitter.com/maximilien912/status/1452623652105572360](__MASK_6__)
+    [https://twitter.com/maximilien912/status/1452623652105572360](https://twitter.com/maximilien912/status/1452623652105572360)
     
     [30+ Best Health and Fitness Blogs To Inspire You (2021 edition)](https://firstsiteguide.com/best-health-and-fitness-blogs/)
     
@@ -241,7 +241,7 @@ Les pti produits servent pas à gagner de l'argent mais a qualifier les gens com
         
         Jessi comprend extrêmement bien son client idéal. Elle ne sert pas que tout le monde. Elle s'occupe des femmes qui souffrent de TDAH et peuvent avoir (ou vouloir démarrer) une entreprise. Elle est parfaitement niche et son compte est optimisé pour les mots-clés de cette niche.
         
-        Jessi comprend qu'un Instagram à fort taux de conversion a un flux de contenu cohérent et attrayant. Elle est un super-utilisateur de [le contenu viral du Club ™ et nos collections] ([](https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts%2Eactivehosted%2Ecom&email=)[https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts.activehosted.com&email=](__MASK_15__) i%2FL5UAxPt33KT35ONh8ZNYvy7T5YEJ8ohjC9vauJg30%3D&s=5f22e8b1b919b79103f4a33751d4a063&i=1524A3053A45A16182), son alimentation est cohérente/cohésive, mais ne vise pas à être parfaite. Elle n'a pas de modèle particulier - un jour elle poste une de nos infographies, un autre jour elle peut poster une bobine. Dans tous les cas, ses couleurs, ses polices et son sujet sont cohérents et faciles à reconnaître.
+        Jessi comprend qu'un Instagram à fort taux de conversion a un flux de contenu cohérent et attrayant. Elle est un super-utilisateur de [le contenu viral du Club ™ et nos collections] ([](https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts%2Eactivehosted%2Ecom&email=)[https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts.activehosted.com&email=](https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts.activehosted.com&email=) i%2FL5UAxPt33KT35ONh8ZNYvy7T5YEJ8ohjC9vauJg30%3D&s=5f22e8b1b919b79103f4a33751d4a063&i=1524A3053A45A16182), son alimentation est cohérente/cohésive, mais ne vise pas à être parfaite. Elle n'a pas de modèle particulier - un jour elle poste une de nos infographies, un autre jour elle peut poster une bobine. Dans tous les cas, ses couleurs, ses polices et son sujet sont cohérents et faciles à reconnaître.
         
         Son contenu est plus axé sur les problèmes que sur les solutions. Cela signifie qu'elle parle des problèmes de son client idéal AVANT de parler de ce qu'il faut faire pour résoudre ces problèmes, ce qui lui permet de se connecter à eux à un niveau plus profond.
         
@@ -251,7 +251,7 @@ Les pti produits servent pas à gagner de l'argent mais a qualifier les gens com
         
         Tous les 10 à 20 messages, elle montre son visage sur une photo ou une bobine pour créer une connexion personnelle (cela n'est important que si vous êtes une marque personnelle).
         
-        Enfin, Jessi a investi beaucoup de temps et d'argent pour étudier son public et tester quel contenu fonctionne bien. [En utilisant les modèles dans le club, elle passe moins de temps à bricoler dans Canva] ([](https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts%2Eactivehosted%2Ecom&email=)[https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts.activehosted.com&email=](__MASK_17__) i%2FL5UAxPt33KT35ONh8ZNYvy7T5YEJ8ohjC9vauJg30%3D&s=5f22e8b1b919b79103f4a33751d4a063&i=1524A3053A45A16182) et plus de temps à servir son audience, ce qui lui permet de les comprendre encore plus profondément.
+        Enfin, Jessi a investi beaucoup de temps et d'argent pour étudier son public et tester quel contenu fonctionne bien. [En utilisant les modèles dans le club, elle passe moins de temps à bricoler dans Canva] ([](https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts%2Eactivehosted%2Ecom&email=)[https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts.activehosted.com&email=](https://collaborateforwardconsultinglts.lt.acemlnb.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cudGhldmlyYWxjb250ZW50Y2x1Yi5jb20lMkYlM0Z1dG1fc291cmNlJTNEQWN0aXZlQ2FtcGFpZ24lMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNTVCTGFzdCUyQkNoYW5jZSUyNTVEJTJCWW91ciUyQmZpcnN0JTJCb3IlMkJuZXh0JTJCMTBrJTJCJTI1MjhSZWFsJTI1MjklMkJGb2xsb3dlcnMlMjZ1dG1fY2FtcGFpZ24lM0RNZWV0JTJCSmVzc2klMkItJTJCQWxsJTJCbGlzdA==&a=251736229&account=collaborateforwardconsultinglts.activehosted.com&email=) i%2FL5UAxPt33KT35ONh8ZNYvy7T5YEJ8ohjC9vauJg30%3D&s=5f22e8b1b919b79103f4a33751d4a063&i=1524A3053A45A16182) et plus de temps à servir son audience, ce qui lui permet de les comprendre encore plus profondément.
         
     - comprendre le marché
         
@@ -364,7 +364,7 @@ From crickets to worms and more, eating bugs has become less taboo due to health
 
 Despite this rise of interest, the number of niche and affiliate websites in this industry hasn't grown quite as quickly, which makes it an amazing opportunity to jump on.
 
-[Niche Analysis](https://nichewit.us7.list-manage.com/track/click?u=d7d1031b99255c47b0fd9bf24&id=12eba7af07&e=a7ed17353b) Spy On Their Traffic… [](http://similarweb.com/)[http://SimilarWeb.com](__MASK_23__) [](http://similarweb.com/)[http://similarweb.com](__MASK_25__) SimilarWeb is one of the best analytics websites for spying on your competition. We use it every day. On the free side, they offer a ton of info on your competitors’ website traffic volume, referral sources, keyword analysis, and a bunch more in the paid version! Get their FREE Chrome Extention to instantly see any websites traffic. Spy On Their Ads… Facebook Ad Library [DigitalMarketer.com](http://digitalmarketer.com/)’s ads are all on FB Ad Library The Ad Library provides advertising transparency by offering a comprehensive, searchable collection of all ads currently running from across Facebook Products. Anyone can explore the Library, with or without a Facebook account. Power Ad Spy Power Ad Spy PowerAdSpy is a POWER house when it comes to spying on your competitors. Database of over 6 million Facebook ads from 15 countries Has Latest Facebook ads Track every creative, landing page, ad Track only successful campaigns and see their engagement Spy Fu Spy Fu Use Spyfu to search for any competitor and download their keywords. Learn competitors’ PPC & SEO tricks and avoid their mistakes.
+[Niche Analysis](https://nichewit.us7.list-manage.com/track/click?u=d7d1031b99255c47b0fd9bf24&id=12eba7af07&e=a7ed17353b) Spy On Their Traffic… [](http://similarweb.com/)[http://SimilarWeb.com](http://SimilarWeb.com) [](http://similarweb.com/)[http://similarweb.com](http://similarweb.com) SimilarWeb is one of the best analytics websites for spying on your competition. We use it every day. On the free side, they offer a ton of info on your competitors’ website traffic volume, referral sources, keyword analysis, and a bunch more in the paid version! Get their FREE Chrome Extention to instantly see any websites traffic. Spy On Their Ads… Facebook Ad Library [DigitalMarketer.com](http://digitalmarketer.com/)’s ads are all on FB Ad Library The Ad Library provides advertising transparency by offering a comprehensive, searchable collection of all ads currently running from across Facebook Products. Anyone can explore the Library, with or without a Facebook account. Power Ad Spy Power Ad Spy PowerAdSpy is a POWER house when it comes to spying on your competitors. Database of over 6 million Facebook ads from 15 countries Has Latest Facebook ads Track every creative, landing page, ad Track only successful campaigns and see their engagement Spy Fu Spy Fu Use Spyfu to search for any competitor and download their keywords. Learn competitors’ PPC & SEO tricks and avoid their mistakes.
 
 - Choisir une niche
     
@@ -382,7 +382,7 @@ Despite this rise of interest, the number of niche and affiliate websites in thi
     
     There are two main reasons to localize your links:
     
-    **1: A better user expérience**
+    **1: A better user experience**
     
     Let's say someone from the UK clicks on one of your affiliate links and gets directed to [Amazon.com](http://amazon.com/) (because your link wasn't localized).
     
@@ -484,20 +484,20 @@ Despite this rise of interest, the number of niche and affiliate websites in thi
     
     phase 3
     
-    [https://www.slideshare.net/florinmuresan/2019-code-camp-tales-from-17-moneyvalidated-products](__MASK_39__)
+    [https://www.slideshare.net/florinmuresan/2019-code-camp-tales-from-17-moneyvalidated-products](https://www.slideshare.net/florinmuresan/2019-code-camp-tales-from-17-moneyvalidated-products)
     
 - product market fit
     
-    [https://www.youtube.com/watch?v=X4J7lBWHXh0](__MASK_40__)
+    [https://www.youtube.com/watch?v=X4J7lBWHXh0](https://www.youtube.com/watch?v=X4J7lBWHXh0)
     
 
 # Quel business modèle vous sied ?
 
-- (1) BIEN COMPRENDRE QU'EST CE QUE LE MLM MARKETING DE RÉSEAU - YouTube
+- (1) BIEN COMPRENDRE QU'EST CE QUE LE MLM MARKETING DE RESEAU - YouTube
     
-    [https://www.youtube.com/watch?v=Yry5lfOkKrY](__MASK_41__)
+    [https://www.youtube.com/watch?v=Yry5lfOkKrY](https://www.youtube.com/watch?v=Yry5lfOkKrY)
     
-    [https://www.youtube.com/watch?v=Yry5lfOkKrY](__MASK_42__)
+    [https://www.youtube.com/watch?v=Yry5lfOkKrY](https://www.youtube.com/watch?v=Yry5lfOkKrY)
     
 
 [Vendre des cours en ligne / infoproduits](https://www.notion.so/Vendre-des-cours-en-ligne-infoproduits-1178086ad83b4c79b27b896af005835d?pvs=21)
@@ -546,7 +546,7 @@ Foncer tête baissée ou tête reposée ? Respecte toi si tu veux qu'on te prenn
 [Avis Google AdSense 2021 : ça vaut toujours le coup ? (1)](https://www.notion.so/Avis-Google-AdSense-2021-a-vaut-toujours-le-coup-1-bc8e66e675044eaf99d35a599e272fb2?pvs=21)
 
 - créer une vidéo pour un dentiste à Angers
-    - [ ] [https://www.youtube.com/watch?v=RTlaBIwz7Ik](__MASK_51__)
+    - [ ] [https://www.youtube.com/watch?v=RTlaBIwz7Ik](https://www.youtube.com/watch?v=RTlaBIwz7Ik)
 
 Ça y est. J’ai trouvé la métaphore ultime. L’explication du siècle. Et ça risque bien de te convaincre.... Je t’explique : Ça fait des années que je me tue à dire aux entrepreneurs qu’ils devraient créer plusieurs produits. Pas un seul. La raison principale ? Il faut être fou pour tout miser sur un seul produit. Tu n’as AUCUNE idée (surtout au début) si ton produit va marcher ou pas. Mais si tu en crées plusieurs, tu multiplies tes chances de trouver LE produit qui défonce tout. Voici la métaphore ultime qui va te convaincre à tout jamais, pour le restant de tes jours et les siècles à venir : UN PRODUIT, C’EST COMME UN STATUT FACEBOOK. Parfois, ça fait 2 likes. Parfois ça en fait 200. Est-ce que tu peux prédire à l’avance le nombre de likes que va faire ton prochain statut ??? Encore en plus... si c’était le tout premier statut que tu publiais de toute ta vie ??? Une fois que tu en auras publié 3000, des statuts, tu pourras peut être noter les critères qui apportent des likes, ce qui plait le plus à ton audience... mais au début tu n’en sais rien. UN PRODUIT, C’EST PAREIL. Surtout le premier. Tu ne sais pas si tu auras 2 clients ou 200. La façon la plus facile de t’assurer d’avoir des clients, c’est comme la façon la plus facile de t’assurer d’avoir des likes : EN FAIRE BEAUCOUP. Ou au moins plusieurs. Ton premier succès sera peut être un coup de chance. Comme le dernier de tes statuts qui est devenu viral. Mais cette chance n’arrivera probablement jamais si tu n’en crées qu’un seul. C’est juste criminel de conseiller à des débutants de ne faire qu’un seul produit. Pire encore, de s’endetter pour le créer. Qui plus est, quand on a accès à des méthodes faciles pour fabriquer un produit sans dépenser un sou. SI TU VEUX QUE ÇA MARCHE, IL FAUT QUE TU EN CRÉES JUSQU’À CE QUE ÇA DÉCOLLE. En essayant des approches différentes à chaque fois. Même le top des pros les plus reconnus mondialement le disent : 80% de leurs produits ou argumentaires ne DEVIENNENT JAMAIS DES SUCCÈS (paroles mon mentor Dan Kennedy, considéré comme le père de ce qu’on fait aujourd’hui sur le web, et qui le faisait avant le web). C’est pareil sur Facebook : 80% de tes statuts ne t’amènent juste que quelques likes... et si tu veux savoir ce qui marche, tu dois continuer à poster des choses différentes. Jusqu’à trouver LE machin qui décolle, et à savoir exactement ce qui touche le plus les gens qui te suivent. Et puis quand tu as trouvé, alors tu en refais encore d’autres. En t’inspirant de ce qui a le mieux marché. Fais juste la même chose avec tes produits !
 
@@ -564,19 +564,19 @@ on vend des idées pas des produits
     
     - dropship
         
-        [https://fr.aliexpress.com/item/4000156689256.html?spm=a2g0o.detail.1000060.3.549a654fcP6NeI&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.146401.0&scm_id=1007.13339.146401.0&scm-url=1007.13339.146401.0&pvid=0ef9f408-6679-432f-a388-a347c5168481](__MASK_54__)
+        [https://fr.aliexpress.com/item/4000156689256.html?spm=a2g0o.detail.1000060.3.549a654fcP6NeI&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.146401.0&scm_id=1007.13339.146401.0&scm-url=1007.13339.146401.0&pvid=0ef9f408-6679-432f-a388-a347c5168481](https://fr.aliexpress.com/item/4000156689256.html?spm=a2g0o.detail.1000060.3.549a654fcP6NeI&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.146401.0&scm_id=1007.13339.146401.0&scm-url=1007.13339.146401.0&pvid=0ef9f408-6679-432f-a388-a347c5168481)
         
-        [https://aliexpress.ru/item/32838478497.html?spm=a2g01.12617084.fdpcl001.23.1ddbG1x5G1x5tF&gps-id=5547572&scm=1007.19201.130907.0&scm_id=1007.19201.130907.0&scm-url=1007.19201.130907.0&pvid=6265c98b-1156-458c-8951-fa9e83c37c02](__MASK_55__)
+        [https://aliexpress.ru/item/32838478497.html?spm=a2g01.12617084.fdpcl001.23.1ddbG1x5G1x5tF&gps-id=5547572&scm=1007.19201.130907.0&scm_id=1007.19201.130907.0&scm-url=1007.19201.130907.0&pvid=6265c98b-1156-458c-8951-fa9e83c37c02](https://aliexpress.ru/item/32838478497.html?spm=a2g01.12617084.fdpcl001.23.1ddbG1x5G1x5tF&gps-id=5547572&scm=1007.19201.130907.0&scm_id=1007.19201.130907.0&scm-url=1007.19201.130907.0&pvid=6265c98b-1156-458c-8951-fa9e83c37c02)
         
-        [https://fr.aliexpress.com/item/4000265023428.html?spm=a2g0w.12010609.8148356.19.259b4accFIiKJ1](__MASK_56__)
+        [https://fr.aliexpress.com/item/4000265023428.html?spm=a2g0w.12010609.8148356.19.259b4accFIiKJ1](https://fr.aliexpress.com/item/4000265023428.html?spm=a2g0w.12010609.8148356.19.259b4accFIiKJ1)
         
-        [https://fr.aliexpress.com/item/4000234696056.html?spm=a2g0o.detail.0.0.163b1fbepDTw67&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.131037.0&scm_id=1007.12908.131037.0&scm-url=1007.12908.131037.0&pvid=61013d57-f548-4595-a30c-4bb143047304](__MASK_57__)
+        [https://fr.aliexpress.com/item/4000234696056.html?spm=a2g0o.detail.0.0.163b1fbepDTw67&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.131037.0&scm_id=1007.12908.131037.0&scm-url=1007.12908.131037.0&pvid=61013d57-f548-4595-a30c-4bb143047304](https://fr.aliexpress.com/item/4000234696056.html?spm=a2g0o.detail.0.0.163b1fbepDTw67&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.131037.0&scm_id=1007.12908.131037.0&scm-url=1007.12908.131037.0&pvid=61013d57-f548-4595-a30c-4bb143047304)
         
-        [https://fr.aliexpress.com/item/32758402695.html?spm=a2g0o.productlist.0.0.7f1b3e40OH1ZOo&algo_pvid=f0f0f18a-1922-4686-aa0f-bfaeb4f6e976&algo_expid=f0f0f18a-1922-4686-aa0f-bfaeb4f6e976-45&btsid=d5e96fe6-3400-431f-bcdf-d6ae99b5a5f4&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53](__MASK_58__)
+        [https://fr.aliexpress.com/item/32758402695.html?spm=a2g0o.productlist.0.0.7f1b3e40OH1ZOo&algo_pvid=f0f0f18a-1922-4686-aa0f-bfaeb4f6e976&algo_expid=f0f0f18a-1922-4686-aa0f-bfaeb4f6e976-45&btsid=d5e96fe6-3400-431f-bcdf-d6ae99b5a5f4&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53](https://fr.aliexpress.com/item/32758402695.html?spm=a2g0o.productlist.0.0.7f1b3e40OH1ZOo&algo_pvid=f0f0f18a-1922-4686-aa0f-bfaeb4f6e976&algo_expid=f0f0f18a-1922-4686-aa0f-bfaeb4f6e976-45&btsid=d5e96fe6-3400-431f-bcdf-d6ae99b5a5f4&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53)
         
     - 3 raisons pour lesquelles vous devriez créer un magasin Dropshipping spécifique à une niche
         
-        [https://www.dropshiplifestyle.com/niche-specific?utm_source=newsletter&utm_medium=email&utm_campaign=Ecom_Growth_by_Loox](__MASK_59__)
+        [https://www.dropshiplifestyle.com/niche-specific?utm_source=newsletter&utm_medium=email&utm_campaign=Ecom_Growth_by_Loox](https://www.dropshiplifestyle.com/niche-specific?utm_source=newsletter&utm_medium=email&utm_campaign=Ecom_Growth_by_Loox)
         
         
         
@@ -590,7 +590,7 @@ on vend des idées pas des produits
         
         So in this blog post, I’m going to address the three reasons why I recommend niche-specific stores like a paddle board shop. Let's get started.
         
-        **This blog post is also available in vidéo form. Click ‘Play’ below to start watching! Make [sure to subscribe to our YouTube Channel](https://www.youtube.com/user/dropshiplifestyle/videos?sub_confirmation=1) for weekly updates and insights!**
+        **This blog post is also available in video form. Click ‘Play’ below to start watching! Make [sure to subscribe to our YouTube Channel](https://www.youtube.com/user/dropshiplifestyle/videos?sub_confirmation=1) for weekly updates and insights!**
         
         
         
@@ -644,13 +644,13 @@ on vend des idées pas des produits
         
         niche specific drop ship store
         
-        With a niche specific store, it’s easy to actually give someone this expérience as if they walked in to a shop where there was an expert that's been paddle boarding for 20 years that had all the answers ready to go.
+        With a niche specific store, it’s easy to actually give someone this experience as if they walked in to a shop where there was an expert that's been paddle boarding for 20 years that had all the answers ready to go.
         
         Now if you're thinking well, “I want to get into eCommerce, I want to build a niche specific store that I'm not an expert in.” That's totally fine!
         
         You can become an expert. You can learn. But again, if you were selling paddle boards, and gun safes, and model train sets in one place, it’s not going to be easy to position your store as the expert in all of those categories.
         
-        You can't position yourself as an expert in one of those things if you try to do everything. Check out [this vidéo I recently did to understand why](https://www.ecommercelifestyle.com/humanizing-digital-sales/). It goes really deep in to buy-in psychology and how to leverage what are traditionally human, in-person retail interactions.
+        You can't position yourself as an expert in one of those things if you try to do everything. Check out [this video I recently did to understand why](https://www.ecommercelifestyle.com/humanizing-digital-sales/). It goes really deep in to buy-in psychology and how to leverage what are traditionally human, in-person retail interactions.
         
         Remember, if you position yourself as an expert and actually are able to answer questions, or _get_ the answers is a huge reason that stores like the ones that we build, and the ones like [our students build](https://www.dropshiplifestyle.com/reviews/) can stand out and actually get sales in a world where there a few massive online giants.
         
@@ -676,9 +676,9 @@ on vend des idées pas des produits
         
     - 6 erreurs de routine que les gens font lors de la configuration d'une boutique en ligne Dropshipping
         
-        [https://www.entrepreneur.com/article/320733?utm_source=newsletter&utm_medium=email&utm_campaign=Ecom_Growth_by_Loox](__MASK_65__)
+        [https://www.entrepreneur.com/article/320733?utm_source=newsletter&utm_medium=email&utm_campaign=Ecom_Growth_by_Loox](https://www.entrepreneur.com/article/320733?utm_source=newsletter&utm_medium=email&utm_campaign=Ecom_Growth_by_Loox)
         
-        Are you new to dropshipping? Even for those with expérience, these six mistakes are extremely commonplace.
+        Are you new to dropshipping? Even for those with experience, these six mistakes are extremely commonplace.
         
         
         
@@ -692,9 +692,9 @@ on vend des idées pas des produits
         
         ## **1. Picking the wrong supplier**
         
-        Aside from [picking the right niche](https://www.entrepreneur.com/article/275029) for your store, few business décisions are more vital than picking the right supplier. Your supplier will impact everything from product quality to delivery times, so it is essential that you select someone who will deliver the results you need.
+        Aside from [picking the right niche](https://www.entrepreneur.com/article/275029) for your store, few business decisions are more vital than picking the right supplier. Your supplier will impact everything from product quality to delivery times, so it is essential that you select someone who will deliver the results you need.
         
-        In addition to checking out reviews and testimonials for your potential suppliers, consider placing a test order. This will give you firsthand expérience with the shipping process and allow you to see whether the products meet your expectations.
+        In addition to checking out reviews and testimonials for your potential suppliers, consider placing a test order. This will give you firsthand experience with the shipping process and allow you to see whether the products meet your expectations.
         
         ## **2. Becoming dependent on a single vendor**
         
@@ -829,11 +829,11 @@ on vend des idées pas des produits
     
     If you’re thinking of joining this crowded space, it’s critical that you make your box stand out from the crowd.
     
-    To help you get started, we analyzed current marketing stratégies being used by food subscription box companies.
+    To help you get started, we analyzed current marketing strategies being used by food subscription box companies.
     
-    Here are **six** **top stratégies for marketing food and beverage boxes** in 2020, including real-life examples you can follow.
+    Here are **six** **top strategies for marketing food and beverage boxes** in 2020, including real-life examples you can follow.
     
-    Are you’re wondering if this content will help only those in the food subscription boxes business? Absolutely not! The stratégies it contains can be tailored to properly fit any business, and will work for yours too!
+    Are you’re wondering if this content will help only those in the food subscription boxes business? Absolutely not! The strategies it contains can be tailored to properly fit any business, and will work for yours too!
     
     If you’re a smart marketer, digital advertiser, or business owner looking for new ways to boost your results you should read it.
     
@@ -865,35 +865,35 @@ on vend des idées pas des produits
     
     Choose a brand ambassador who relates to your target audience. Primal Snack Box is a health-food box, so they chose an athlete–someone who has to stay fit for a living.
     
-    ## 2. Feature ‘Unboxing’ Vidéos
+    ## 2. Feature ‘Unboxing’ Videos
     
-    Give people a sample of what they would get with your food subscription box by featuring unboxing vidéos on your social media channels. After seeing what’s inside one particular box, shoppers will likely be curious about the next box.
+    Give people a sample of what they would get with your food subscription box by featuring unboxing videos on your social media channels. After seeing what’s inside one particular box, shoppers will likely be curious about the next box.
     
-    One way to encourage customers to post these vidéos would be to run a contest. Ask customers to post vidéos of themselves opening their latest box and have them tag your brand or use a specific hashtag. Then choose a winner who will be featured on your channel and receive a prize or discount, such as 20% off their next box or an extra item.
+    One way to encourage customers to post these videos would be to run a contest. Ask customers to post videos of themselves opening their latest box and have them tag your brand or use a specific hashtag. Then choose a winner who will be featured on your channel and receive a prize or discount, such as 20% off their next box or an extra item.
     
-    [WOWBOX](https://wowbox.jp/) partnered with influencer [@pinkmilkteahime](https://www.instagram.com/pinkmilkteahime/) to showcase their latest box in this [unboxing vidéo](https://www.instagram.com/p/B9EW8v6H9h5/).
+    [WOWBOX](https://wowbox.jp/) partnered with influencer [@pinkmilkteahime](https://www.instagram.com/pinkmilkteahime/) to showcase their latest box in this [unboxing video](https://www.instagram.com/p/B9EW8v6H9h5/).
     
     
     
-    The vidéo highlighted how unique WOWBOX’s products are, such as their limited-edition strawberry coke and two different varieties of Pocky.
+    The video highlighted how unique WOWBOX’s products are, such as their limited-edition strawberry coke and two different varieties of Pocky.
     
     ## 3. Share Cooking or Baking Techniques
     
-    Use your social media channels to feature educational (and fun!) cooking vidéos that relate to your product. By sharing techniques, you’re building trust with your audience. They love food and drink enough to buy a subscription box from you, so they’ll most likely appreciate your culinary expertise.
+    Use your social media channels to feature educational (and fun!) cooking videos that relate to your product. By sharing techniques, you’re building trust with your audience. They love food and drink enough to buy a subscription box from you, so they’ll most likely appreciate your culinary expertise.
     
     [Pastreez](https://pastreez.com/) is a macaron subscription box that regularly features macaron baking techniques.
     
     
     
-    Pastreez’ followers love the content so much that their educational vidéos often see [more views](https://www.privy.com/blog/4-food-brands-crushing-ecommerce-marketing) and engagement than standard product vidéos.
+    Pastreez’ followers love the content so much that their educational videos often see [more views](https://www.privy.com/blog/4-food-brands-crushing-ecommerce-marketing) and engagement than standard product videos.
     
-    [ButcherBox](https://www.butcherbox.com/) also uses this strategy. They are a meat delivery service that features employee-led cooking vidéos on their [YouTube channel](https://www.youtube.com/channel/UC_KPWEoWBRsUnlJE_jRx7WA/videos).
+    [ButcherBox](https://www.butcherbox.com/) also uses this strategy. They are a meat delivery service that features employee-led cooking videos on their [YouTube channel](https://www.youtube.com/channel/UC_KPWEoWBRsUnlJE_jRx7WA/videos).
     
     
     
     [Image Source]
     
-    The vidéos showcase ButcherBox products and give customers tips and recipes for cooking. ButcherBox products are raw, so the vidéos show customers the delicious end result they could have when cooking with ButcherBox meat.
+    The videos showcase ButcherBox products and give customers tips and recipes for cooking. ButcherBox products are raw, so the videos show customers the delicious end result they could have when cooking with ButcherBox meat.
     
     ## 4. Curate Your Photos
     
@@ -945,7 +945,7 @@ on vend des idées pas des produits
     
 - choisir sa niche / thématique
     
-    [https://www.youtube.com/watch?v=gQMvehywvn4](__MASK_101__)
+    [https://www.youtube.com/watch?v=gQMvehywvn4](https://www.youtube.com/watch?v=gQMvehywvn4)
     
     1- mesurer le portefeuille de tes clients (faible, moyen, fort ?)
     
@@ -955,7 +955,7 @@ on vend des idées pas des produits
     
 - How to Build a 6 Figure Business with AppSumo [Case Study]
     
-    [https://blog.appsumo.com/how-to-build-a-6-figure-business-with-appsumo-case-study/?_ga=2.173854564.614410487.1584201306-838340499.1582773655&_gac=1.180163798.1584383902.Cj0KCQjwx7zzBRCcARIsABPRscM-_W5zMlRWOqjURXQeH4n2vIR5ENVMIsdRvodlCbgmLCcqwCeBdmcaAid_EALw_wcB](__MASK_102__)
+    [https://blog.appsumo.com/how-to-build-a-6-figure-business-with-appsumo-case-study/?_ga=2.173854564.614410487.1584201306-838340499.1582773655&_gac=1.180163798.1584383902.Cj0KCQjwx7zzBRCcARIsABPRscM-_W5zMlRWOqjURXQeH4n2vIR5ENVMIsdRvodlCbgmLCcqwCeBdmcaAid_EALw_wcB](https://blog.appsumo.com/how-to-build-a-6-figure-business-with-appsumo-case-study/?_ga=2.173854564.614410487.1584201306-838340499.1582773655&_gac=1.180163798.1584383902.Cj0KCQjwx7zzBRCcARIsABPRscM-_W5zMlRWOqjURXQeH4n2vIR5ENVMIsdRvodlCbgmLCcqwCeBdmcaAid_EALw_wcB)
     
     
     
@@ -993,9 +993,9 @@ on vend des idées pas des produits
     
     The next stop in Doc’s process is sending potential clients an intake form that he created with Paperform. Paperform integrates with his email service provider and easily sends notifications.
     
-    [**Dubb**](https://dubb.com/) _(Personalized vidéo software — Purchased on AppSumo for $59; regularly $480/year)_
+    [**Dubb**](https://dubb.com/) _(Personalized video software — Purchased on AppSumo for $59; regularly $480/year)_
     
-    Once the client has filled out the form and is officially a client, Doc will send them a personalized ‘welcome and thank you’ vidéo using Dubb.
+    Once the client has filled out the form and is officially a client, Doc will send them a personalized ‘welcome and thank you’ video using Dubb.
     
     [**Notejoy**](https://notejoy.com/) _(Notetaking software — Purchased on AppSumo for $49; regularly $249)_
     
@@ -1005,7 +1005,7 @@ on vend des idées pas des produits
     
     ### **How Doc Is Helping Others**
     
-    Doc isn’t just using the tools he’s found on AppSumo to grow his own business; he’s also using these tools to **help his customers grow their own businesses**. For example, Doc was working with an influencer who had a YouTube channel and was really struggling to get views and subscribers. Because Doc had purchased [TubeBuddy](https://www.tubebuddy.com/) from AppSumo, he was able to find the right angle to grow his client’s YouTube channel. With the information gathered from TubeBuddy, his client put out a vidéo that garnered over 1 million views and over 10K new subscribers within the first month! This was life-changing for the client and a true testament to Doc’s success.
+    Doc isn’t just using the tools he’s found on AppSumo to grow his own business; he’s also using these tools to **help his customers grow their own businesses**. For example, Doc was working with an influencer who had a YouTube channel and was really struggling to get views and subscribers. Because Doc had purchased [TubeBuddy](https://www.tubebuddy.com/) from AppSumo, he was able to find the right angle to grow his client’s YouTube channel. With the information gathered from TubeBuddy, his client put out a video that garnered over 1 million views and over 10K new subscribers within the first month! This was life-changing for the client and a true testament to Doc’s success.
     
     And if you think Doc is just in it for money (although, it is a nice perk), you’re wrong. Doc’s goal is to accumulate enough capital to start a passion project (does this man ever sleep?) that will help entrepreneurs with disabilities, specifically, dyslexia, break into the business. The desire to undertake this project stems from being late to the talking and reading party as a child and from a college professor who held up his paper and said, “That guy is the worst writer I have ever read in my life.” (Not nice, Professor Meanie.)
     
@@ -1239,7 +1239,7 @@ Si vous deviez vous noter sur 5 sur vos capacités en technique, en administrati
 
 se diversifier taux de rentabilité immobilier de l'ordre de 15%, au dessus d e10% dans le business d'Arurélien Amacker 150% la bourse sur le long terme (20 à 30ans après les gros crash qui arrive tous les 10 ans car c'est très volatil), c'est 8%* ce qui fonctionne c'est de ne pas essayer d'être lus intelligent que le marché de battre le marché
 
-être stratégique Les gens pensent que la connaissance est le pouvoir... Mais en réalité, il n'y a de véritable pouvoir que dans la connaissance appliquée. Et si vous voulez vraiment entrer dans le vif du sujet, ces connaissances appliquées doivent être dirigées de manière stratégique afin de remplir un objectif plus important qui rend le monde meilleur. "Grâce à des années d'essais, j'ai découvert que le trafic d'un blog ne provient pas de la publication d'un contenu de qualité. Au contraire, la croissance du blog est le résultat direct de la promotion stratégique de votre contenu de la bonne manière."
+etre stratégique Les gens pensent que la connaissance est le pouvoir... Mais en réalité, il n'y a de véritable pouvoir que dans la connaissance appliquée. Et si vous voulez vraiment entrer dans le vif du sujet, ces connaissances appliquées doivent être dirigées de manière stratégique afin de remplir un objectif plus important qui rend le monde meilleur. "Grâce à des années d'essais, j'ai découvert que le trafic d'un blog ne provient pas de la publication d'un contenu de qualité. Au contraire, la croissance du blog est le résultat direct de la promotion stratégique de votre contenu de la bonne manière."
 
 Growth hacking détourner des carrefour d'audience pour son compte. Bien ciblé et se démarquer (/la forme ? Le fond ?humour?pédagogue?)
 
@@ -1247,7 +1247,7 @@ sécurité intérieure
 
 - C'est pourquoi vous devez suivre les dépenses avant de faire un budget
     
-    [https://www.tillerhq.com/why-financial-experts-recommend-tracking-spending-before-budgeting/?memo](__MASK_119__)
+    [https://www.tillerhq.com/why-financial-experts-recommend-tracking-spending-before-budgeting/?memo](https://www.tillerhq.com/why-financial-experts-recommend-tracking-spending-before-budgeting/?memo)
     
     
     
@@ -1345,7 +1345,7 @@ sécurité intérieure
     
 - Bienvenue dans le “Calculateur de travail non rémunéré”
     
-    [https://www.carecalculator.org/fr/](__MASK_126__)
+    [https://www.carecalculator.org/fr/](https://www.carecalculator.org/fr/)
     
     
     
@@ -1418,7 +1418,7 @@ Keep hustling everyone!
     
     [Kevin Hale - How to Evaluate Startup Ideas](https://www.youtube.com/watch?v=DOtCl5PU8F0&list=PLQ-uHSnFig5PjfCy7mE77XMGhgky9HV3o&index=2)
     
-    [https://www.youtube.com/watch?v=DOtCl5PU8F0&list=PLQ-uHSnFig5PjfCy7mE77XMGhgky9HV3o&index=3](__MASK_128__)
+    [https://www.youtube.com/watch?v=DOtCl5PU8F0&list=PLQ-uHSnFig5PjfCy7mE77XMGhgky9HV3o&index=3](https://www.youtube.com/watch?v=DOtCl5PU8F0&list=PLQ-uHSnFig5PjfCy7mE77XMGhgky9HV3o&index=3)
     
     Beaucoup de gens vont avoir aucune ou trop d'idées et le problème c'est qu'ils ne savent pas laquelle poursuivre, c'est la raison principale pour laquelle beaucoup de gens ne peuvent travailler sur leur startup parfois qu'à temps partiel ou ils peuvent être bloqués parce que la ressource qu'il leur manque c'est la conviction, ils ne savent pas quoi ou qui croire. C'est une très bonne compétence à avoir de savoir comment évaluer si quelque chose vaut la peine d'y aller ou non.
     
@@ -1436,11 +1436,11 @@ Keep hustling everyone!
     
     Des problèmes fréquents que les gens vont rencontrer encore et encore et souvent dans un intervalle de temps fréquent, donc ce que vous voulez avoir c'est comme un aspect du problème sur lequel vous travaillez sur au moins l'un d'entre eux et c'est l'idéal si vous en avez plusieurs, vous n'êtes pas obligé de les avoir tous, mais c'est l'une de ces choses où c'est comme si votre entreprise ne se développait pas ou si quelqu'un n'était pas aussi enthousiaste à propos du problème, c'est probablement moi ssing certaines de ces caractéristiques la dernière sur la fréquence est super importante parce que j'aime les problèmes et vous trouverez beaucoup d' autres partenaires YC comme les problèmes beaucoup qui donnent aux gens beaucoup d'opportunités de convertir une partie qui a à voir avec une certaine théorie donc BJ Fogg, il est chercheur à Stanford et il lance sa formule tout le temps.
     
-    [https://images.pexels.com/photos/3277808/pexels-photo-3277808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940](__MASK_129__)
+    [https://images.pexels.com/photos/3277808/pexels-photo-3277808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940](https://images.pexels.com/photos/3277808/pexels-photo-3277808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
     
     Le déclencheur dont ils ont besoin pour se produire tous en même temps, donc la motivation est comme si j'avais ce problème. tout d'un coup je me rends compte que j'ai besoin de le résoudre avec ton truc et donc beaucoup d'entreprises auront comme oh j'ai construit quelque chose mais pour une raison quelconque personne ne s'inscrit ou comme s'ils ne l' utilisaient pas ils ne sont pas engagés j'ai pas de rétention et souvent c'est parce que c'est comme si vous espériez qu'ils se souviendront d'eux-mêmes qu'ils ont le problème et commenceront à vous utiliser et souvent la plupart des entreprises n'envoient pas assez, par exemple des notifications par e-mail ou des déclencheurs ou rappels ou trouver des moyens de revenir dans l' application ou de trouver des moyens d'être de retour devant l'utilisateur au bon moment et si vous ne pouvez pas comprendre ces opportunités, il est vraiment difficile d'amener les gens à utiliser votre solution service ou produit donc nos problèmes idéaux sont des millions d'utilisateurs à droite des millions de personnes l'ont c'est pourquoi les gens aiment travailler sur des entreprises de consommation c'est pourquoi certains investisseurs aiment se concentrer sur eux nous aimons les marchés qui croissent de 20% par an le problème se développe rapidement nous aimons les problèmes où les gens essaient de les résoudre immédiatement nous aimons les problèmes qui coûtent juste une tonne d'argent donc des milliards de dollars ou du moins ils totalisent tous quelques milliards de dollars marché adressable total nous aimons les problèmes où la loi a changé la loi a changé et la réglementation a mis en place là -bas et maintenant les gens doivent résoudre un tas de problèmes vous avez vu une tonne de problèmes de santé les startups de la santé sont nées après l'adoption de la loi sur les soins abordables et un beaucoup de cela avait à voir avec comme s'il y avait maintenant une opportunité soudaine ce problème que tous ces hôpitaux et cliniques ont dû résoudre et puis nous aimons le problème est que les gens doivent résoudre plusieurs fois par jour ou l'utiliseront plusieurs fois par jour Facebook un bon exemple classique mais les gens aiment aussi vraiment se relâcher parce que c'est comme oh je vais être engagé et l'utiliser plusieurs fois par jour pendant la journée de travail d'attente, donc il n'y a à peu près qu'un seul conseil que j'ai vraiment pour cette solution c'est le meilleur conseil que vous puissiez suivre et c'est de ne pas commencer ici donc ce que je veux dire par là est un YC nous avons un acronyme pour un problème que nous essayons d' éviter ou fondamentalement un ap plication nous devons y aller comme oh mec j'aurais aimé qu'ils aient commencé par le problème en premier et nous l'appelons sis P cela signifie solution et recherche d'un problème et souvent ce qui se passe c'est comme si vous étiez un ingénieur vous êtes enthousiasmé par la technologie quelque nouveau la technologie est arrivée sur la scène disons que c'est la blockchain disons que c'est comme réagir natif ou quoi que ce soit de nouveau et vous êtes comme si je voulais construire quelque chose avec ça c'est une grande raison pour laquelle vous commencez à travailler sur un projet parallèle et ensuite vous allez comme d'accord quel genre de problème puis-je résoudre maintenant, je vais l' utiliser quoi qu'il arrive et ensuite vous essayez de résoudre un problème dans la solution et ce qui finit par se produire, c'est que c'est un moyen beaucoup plus difficile de développer l'entreprise ce n'est pas impossible pour que les entreprises grandissent de cette façon c'est super inefficace c'est beaucoup mieux d'être comme laissez-moi voir quels problèmes les gens ont et ensuite j'utiliserai tout ce qui est nécessaire pour les résoudre et donc il est beaucoup plus probable que vous grandissiez en conséquence parce que l'inverse, c'est que vous devrez peut- être essayer de soulever le problème ou vous devez aimer marquer le problème comme quelque chose que les gens ont et c'est tellement plus difficile que vous finissez par grandir beaucoup plus lentement en conséquence, alors regardez ce que vous construisez en ce moment ou regardez la raison pour laquelle vous essayez de faire ce démarrage et est-ce parce que vous ne vous souciez que de la technologie et de la construction de quelque chose ou avez-vous commencé avec le problème que vous allez comme je vais faire tout ce qu'il faut pour résoudre les problèmes des utilisateurs des clients le dernier est un peu délicat c'est ce qui est à l'intérieur quelle est la raison pour laquelle cette solution va fonctionner et c'est là que beaucoup d'entreprises se font piéger parce que c'est vraiment comme quoi est-ce que l'avantage injuste de votre entreprise est juste pourquoi allez-vous gagner contre tout le monde pourquoi allez-vous être le plus rapide à croître en quelque sorte parce que cette idée est ce dont l'investisseur a besoin pour vous choisir par rapport à n'importe qui d'autre et c'est ha s pour être lié à la croissance, vous devez avoir un avantage injuste qui explique pourquoi vous allez croître rapidement si ce n'est pas lié à cela alors ce n'est pas quelque chose qu'un investisseur va trouver précieux et le dernier est-ce que vous en avez besoin, vous ne pouvez pas simplement être comme si j'avais un problème, je le résolvais et il n'y avait aucune explication pourquoi sans ce dernier type d'explication, je ne peux pas utiliser mon imagination, je ne peux pas évaluer uniquement à quel point vous avez bien réfléchi à ce problème et passons donc en revue les types d'avantages injustes dont votre entreprise dispose.
     
-    [https://images.pexels.com/photos/3153199/pexels-photo-3153199.jpeg?auto=compress&cs=tinysrgb&h=650&w=940](__MASK_130__)
+    [https://images.pexels.com/photos/3153199/pexels-photo-3153199.jpeg?auto=compress&cs=tinysrgb&h=650&w=940](https://images.pexels.com/photos/3153199/pexels-photo-3153199.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
     
     Nous allons passer en revue deux exemples mais vous en voulez au moins un et c'est bien si vous pouvez en avoir deux ou trois mais pour la plupart d'entre vous c'est probablement juste un donc le premier alors comment savoir si vous avez un avantage injuste de fondateur et ainsi de suite tout cela sera connecté aux chiffres en fait qui aideront à rendre cela vraiment facile c'est comme si vous étiez une personne sur dix de toutes les personnes dans le monde qui peuvent résoudre ce problème êtes-vous un super expert et 99% des personnes que nous découvrons pourquoi voir ne tombent pas dans cela catégorie et donc si vous pensez que c'est comme si je suis chef de produit chez Google il y a beaucoup de chefs de produit chez Google si vous dites que vous êtes ingénieur chez Microsoft il y a beaucoup d'ingénieurs chez Microsoft c'est comme super mais ce n'est pas celui qui va me faire penser oh vous avez une râpe sur quelqu'un d'autre très compréhensif si vous avez fait un doctorat et disons que vous l'avez fait sur une sorte de recherche en biotechnologie folle et que vous avez comme un brevet spécial pour pouvoir guérir certains sorte de maladie alors vous avez un avantage fondateur votre marché est-il en croissance de 20% par an comme par défaut si vous construisez simplement la solution dans l'espace, vous devriez simplement croître automatiquement parce que vous suivez simplement une tendance si c'est votre seul avantage pour l'entreprise alors c'est un des plus faibles que vous pourriez avoir, c'est génial d'être dans cet espace, mais vous voulez avoir quelque chose en plus de cela, comme vous allez faire mieux que la moyenne parce que vous avez choisi le bon espace de problème et le bon ensemble de des clients qui veulent votre problème, mais encore une fois, si vous êtes sur un marché qui stagne ou rétrécit, les investisseurs s'inquiéteront de la viabilité à long terme de chaque entreprise en tant que produit tellement simple est votre produit 10 fois meilleur que la concurrence si c'est le cas, alors vous avez potentiellement un avantage injuste et devez être très très clair, quelqu'un devrait être capable de regarder votre produit et de dire oh merde c'est tellement mieux que tout ce que j'ai jamais vu c'est 10 fois plus rapide c'est 10x moins cher etc et si ce n'est pas un ordre de grandeur disons que c'est juste comme 2x ou 3x encore c'est bien mais ce n'est pas suffisant pour un investisseur d'aller comme oh c'est un slam dunk en ce qui concerne ce produit 10x et montrer que vous êtes capable t o ayez cela plus tard dans une école de démarrage pour faire une conférence sur les prix et nous parlerons de coût et de valeur et cela vous aidera en quelque sorte à mieux comprendre que c'est comme oh comment mieux prouver ce multiple 10x en utilisant une sorte de métrique et l' acquisition de chiffres et de prix, de sorte que beaucoup de gens pensent que si vous vous adressez à un investisseur et que vous avez fait un tas de Facebook ou Twitter ou Google Ads et que vous montrez votre CAC et un LTV que vous avez pu prouver que vous avez un sorte de modèle d'acquisition et je veux que vous sachiez que si l' acquisition payante est la seule façon dont vous avez pu développer votre entreprise, je vais considérablement réduire ce canal de croissance, car si vous devenez vraiment populaire, vous pouvez réellement commencer être quelqu'un d'important, disons que devenir une entreprise de 100 millions de dollars de revenus, vous allez attirer de nombreux concurrents dans l' espace et cet avantage va rapidement diminuer est un très bon exemple de ce presque tout l leurs acquisitions ne sont pas payées et puis une fois qu'ils ont mangé, il n'y a presque nulle part ailleurs où aller, vous voulez trouver des chemins d'acquisition qui ne coûtent pas d'argent et mes entreprises préférées, celles qui deviennent vraiment géniales sont celles qui peuvent se développer par le bouche à oreille, c'est un bon pourcentage de la façon dont ils grandissent et donc dans les premiers jours de votre démarrage, si vous n'avez pas d'argent, c'est en fait un très bon moyen d' exercer comment puis-je faire pousser cela sans avoir à payer pour et donc au début nous vous disons de faire des choses qui n'évoluent pas mais c'est ce que vous voulez en quelque sorte accomplir c'est comme si j'avais un avantage qui est gratuit et le dernier est est-ce que vous avez un monopole et donc nous ne voulons pas dire cela dans le sens du jeu de monopole du monopole, nous l'avons donc fait comme si votre entreprise grandissait.
     
@@ -1488,13 +1488,13 @@ Keep hustling everyone!
     
     As always thank you for your continued support; and if you have questions or feedback, I’m all ears!
     
-    [https://ci6.googleusercontent.com/proxy/qL70k1FyL9IqXO9P89wemQiHuCh6uqoYGvK3t1x_yeySiSsFagLeT1pbLKinERm75W4VfHu6dbNTG3f_UABXR6BPa7BRo931obMfBLy5rdFtI7_s03GaYDZOcYfL2Z5fxXU_Q1Udr4F5FLRxq09H05jx1nz7-vDNnm0Q_3tR-8hD0WdzTotW=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/f263955d-27b7-401b-a8a3-aca94b0a466f/1920x1080.gif](__MASK_135__)
+    [https://ci6.googleusercontent.com/proxy/qL70k1FyL9IqXO9P89wemQiHuCh6uqoYGvK3t1x_yeySiSsFagLeT1pbLKinERm75W4VfHu6dbNTG3f_UABXR6BPa7BRo931obMfBLy5rdFtI7_s03GaYDZOcYfL2Z5fxXU_Q1Udr4F5FLRxq09H05jx1nz7-vDNnm0Q_3tR-8hD0WdzTotW=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/f263955d-27b7-401b-a8a3-aca94b0a466f/1920x1080.gif](https://ci6.googleusercontent.com/proxy/qL70k1FyL9IqXO9P89wemQiHuCh6uqoYGvK3t1x_yeySiSsFagLeT1pbLKinERm75W4VfHu6dbNTG3f_UABXR6BPa7BRo931obMfBLy5rdFtI7_s03GaYDZOcYfL2Z5fxXU_Q1Udr4F5FLRxq09H05jx1nz7-vDNnm0Q_3tR-8hD0WdzTotW=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/f263955d-27b7-401b-a8a3-aca94b0a466f/1920x1080.gif)
     
     Customize graph colors & layouts: You can already save graphs to be used in a pitch deck or meeting but what if you want to change the colors to your brand guidelines? Now when you hover a graph you can click the modifier at the top left and add your own touch! Disclaimer: Still working on making this accessible for all graphs and improving the UI
     
     Data flow mode for acquisition, revenue, & expenses: We get asked often, "how are all these things being calculated? How's the data flow?" Say no more! At the top right hand of the screen you can click the "flow mode" icon and see exactly how data is flowing to create your models!
     
-    [https://ci6.googleusercontent.com/proxy/ZJUwmMNUw2TxS_klc8MpirxFT8VK_NTWeaFbtGLIHj1FovGrJ5y6f4hH6xb3YIFUwZvMLXd71Kfdvo9ALtNcy0N9MOVpDubTdE_iJwW4BskEQtxLzOnZxA1y7C4mzNsfipK3-YwDVphgWF8R-rUrB_aGt2FPV6gHthFZ-ZddmMeN84d-R4Mb=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/96400e6f-c4ed-41e6-bdef-151afd423931/1920x1080.gif](__MASK_136__)
+    [https://ci6.googleusercontent.com/proxy/ZJUwmMNUw2TxS_klc8MpirxFT8VK_NTWeaFbtGLIHj1FovGrJ5y6f4hH6xb3YIFUwZvMLXd71Kfdvo9ALtNcy0N9MOVpDubTdE_iJwW4BskEQtxLzOnZxA1y7C4mzNsfipK3-YwDVphgWF8R-rUrB_aGt2FPV6gHthFZ-ZddmMeN84d-R4Mb=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/96400e6f-c4ed-41e6-bdef-151afd423931/1920x1080.gif](https://ci6.googleusercontent.com/proxy/ZJUwmMNUw2TxS_klc8MpirxFT8VK_NTWeaFbtGLIHj1FovGrJ5y6f4hH6xb3YIFUwZvMLXd71Kfdvo9ALtNcy0N9MOVpDubTdE_iJwW4BskEQtxLzOnZxA1y7C4mzNsfipK3-YwDVphgWF8R-rUrB_aGt2FPV6gHthFZ-ZddmMeN84d-R4Mb=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/96400e6f-c4ed-41e6-bdef-151afd423931/1920x1080.gif)
     
     Sturppy paid affiliate program: Are you using Sturppy on behalf of clients or have a fellow founder/entrepreneur that could benefit from using Sturppy for their business? We just launched a paid affiliate program! For details/opt in, please shoot an email to [diego.sanz@sturppy.com](mailto:diego.sanz@sturppy.com) or respond to this email!
     
@@ -1502,10 +1502,10 @@ Keep hustling everyone!
     
     Investor pitch prep flash cards: If you're looking to pitch to investors, this is for you! We interviewed dozens of the world's top VCs & Accelerators (YCombinator, Sequoia, Bessemer, Accel, etc.) and captured 100+ real questions they love to ask founders. The pitch prep flashcards will drill you on the specifics of your unique business!
     
-    [https://ci6.googleusercontent.com/proxy/z8LbN4Gq6xb95ieUPV2j8aM-8BLxbxGrYIk5Wgv1kB5eYl55SFXt85ttoeLio-ys_8EH2iRMiEgOeMUEqJ5GOve2XdK0aGggQ4MF-lD52P02pfXQpSlYLHgRc4bTJbO9rd8GuJ0UBIcnD0x35a2to9FAiif2mG4p_OVikWnyWz5QhX9oOMRh=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/c2c5c14e-1b8a-43b5-8a68-faf1d010c9e9/1920x1080.gif](__MASK_138__)
+    [https://ci6.googleusercontent.com/proxy/z8LbN4Gq6xb95ieUPV2j8aM-8BLxbxGrYIk5Wgv1kB5eYl55SFXt85ttoeLio-ys_8EH2iRMiEgOeMUEqJ5GOve2XdK0aGggQ4MF-lD52P02pfXQpSlYLHgRc4bTJbO9rd8GuJ0UBIcnD0x35a2to9FAiif2mG4p_OVikWnyWz5QhX9oOMRh=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/c2c5c14e-1b8a-43b5-8a68-faf1d010c9e9/1920x1080.gif](https://ci6.googleusercontent.com/proxy/z8LbN4Gq6xb95ieUPV2j8aM-8BLxbxGrYIk5Wgv1kB5eYl55SFXt85ttoeLio-ys_8EH2iRMiEgOeMUEqJ5GOve2XdK0aGggQ4MF-lD52P02pfXQpSlYLHgRc4bTJbO9rd8GuJ0UBIcnD0x35a2to9FAiif2mG4p_OVikWnyWz5QhX9oOMRh=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/53e400c471b4c6b4/c2c5c14e-1b8a-43b5-8a68-faf1d010c9e9/1920x1080.gif)
     
     Cap Table management scenarios: We support basic cap table management today, but what if you want to simulate future rounds and exit scenarios to see what might happen to your equity? We're going to cover that and more!
     
     QuickBooks Live Mode: You've been patiently waiting for this and we thank you for that! We promise it's in the works and coming soon!
     
-    Vidéo tutorials & guides: John's our guy behind the camera and is working hard to film tutorials, guides, and more to help you build up your Finance skills
+    Video tutorials & guides: John's our guy behind the camera and is working hard to film tutorials, guides, and more to help you build up your Finance skills

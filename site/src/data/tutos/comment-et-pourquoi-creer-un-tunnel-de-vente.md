@@ -7,35 +7,56 @@ _priorité: normal
 imageNameKey: null
 tags:
 - Tutoriels
-title: Comment et pourquoi creer un tunnel de vente
+title: Comment Et Pourquoi Créer Un Tunnel De Vente
 author: Diane
-description: 'Tutoriel pratique pour et pourquoi creer un tunnel de vente : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Comment Et Pourquoi Créer Un Tunnel De Vente : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment et pourquoi creer un tunnel de vente
-
-Si tu veux et pourquoi creer un tunnel de vente, ne pars pas d'une théorie brillante. Pars d'un problème réel, d'une offre claire et d'un canal de distribution que tu peux vraiment tenir dans la durée.
-
-## Ce qu'il faut préparer
-
-- le problème que tu veux résoudre
-- le public exact
-- une manière réaliste de distribuer ton offre ou ton contenu
-
-## La méthode simple
-
-1. Commence par l'offre et l'usage, pas par le branding. Le plus gros risque au début, c'est de polir une coquille vide.
-2. Teste ton idée sur un périmètre réduit : une niche, une promesse, un canal, une page, un message. Tu apprendras plus vite et tu éviteras la dispersion.
-3. Garde ensuite une boucle courte entre retour terrain et amélioration. Le bon plan n'est pas figé : il se corrige dès que les signaux réels arrivent.
-
-## Les erreurs à éviter
-
-- élargir trop vite le périmètre
-- construire sans parler au marché
-- essayer de résoudre dix problèmes à la fois
-
-## Commence comme ça
-
-Écris ta promesse en une phrase, crée une offre ou un prototype minimal, puis regarde si quelqu'un veut vraiment passer à l'action.
+- tunnel de vente
+    
+    A moins de vendre du high ticket ( prix > 1000€), il faut penser en funnel.
+    
+    Statistiquement, un bump et deux upsells augmentent le panier moyen de 540%.
+    
+    Okay.
+    
+    On connaît.
+    
+    Pourquoi alors je te parle de ça …
+    
+    Parce qu’il faut penser en termes de funnel aussi quand on fait du ... copywriting.
+    
+    Quand tu conçois une offre, une page de vente tu dois aussi te demander (avant même de commencer à rédiger) quel sera ton bump et quel sera ton upsell.
+    
+    Tu peux pas faire comme les YouTubeurs-Business-Intermittents-du-Spectacle qui claquent juste n’importe quoi en upsell et en bump parce que, je cite, "y’aura bien un con qui va cliquer et acheter".
+    
+    Le "y’aura bien un con qui va cliquer et acheter" n’est pas une stratégie business.
+    
+    Il faut bien penser le bump et les upsells (au ou minimum de premier upsell puisque c’est lui qui fait le gros de la thune).
+    
+    Exemple ?
+    
+    Le site CreditSecrets (lien
+    
+    [ici](https://creditsecrets.com/)
+    
+    )
+    
+    En entrée de funnel, on vend un bouquin.
+    
+    Facile.
+    
+    En upsell #1 - on vend un logiciel qui fait automatiquement tout ce que le bouquin promet de t’apporter.
+    
+    L’upsell est à 97$ est - d’après mes sources - plus de 50% des clients le prennent.
+    
+    Ce qui est énorme pour un upsell.
+    
+    Un bon upsell sur cette gamme de prix devrait partir à 20-35%. Donc 50% c'est ... beaucoup !
+    
+    Ça vend parce que l'upsell est pertinent et ... "Done For You" (traduction : t'as rien à foutre tout est clé en main, kapish ?)
+    
+    Bref, quand on conçoit une offre, on rédige une page de vente, il faut penser au bump et à l’upsell et pas mettre des trucs au pif.

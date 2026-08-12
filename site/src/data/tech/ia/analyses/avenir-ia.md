@@ -161,7 +161,7 @@ Ce que c'est :
 
 - Processeurs quantiques + IA
 - Calcul exponentiellement plus puissant
-- Résolution de problèmes NP-complète
+- Résolution de problèmes NP-complete
 
 **État actuel :**
 

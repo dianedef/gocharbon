@@ -1,34 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Vyte
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: prise-rendez-vous
 description: Vyte est un outil français de prise de rendez-vous en ligne. Planification
   groupe (vote), 1-to-1, page perso. Bootstrap rentable. 600K$/an avec 4 personnes.
   Dès 0€.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.vyte.in/fr
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.vyte.in/fr/mentions-legales
-- https://www.vyte.in/fr/politique-de-confidentialite
-- https://www.vyte.in/fr/gdpr
-notesQualification: 'Vyte.in SAS est une société française basée à Paris. Les mentions
-  légales et la politique de confidentialité documentent un traitement opéré depuis
-  la France et un hébergement AWS en Île-de-France, ce qui justifie un ancrage fort
-  avec un niveau de responsabilité partiel.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Vyte

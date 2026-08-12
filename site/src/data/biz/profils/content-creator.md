@@ -1,18 +1,18 @@
 ---
 section: parcours
 title: Créateur de Contenu
-author: Diane GoCharbon
+author: Web Indé
 tags:
 - Business
-description: 'Construire une activité de créateur sans dépendre d''une seule plateforme
-  ni d''une seule source de revenu.'
+description: 'Guide du créateur de contenu : plateformes, formats, monétisation et
+  stratégies pour vivre de ta création.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Être créateur de contenu, c'est bâtir une audience autour d'un angle, d'une expertise ou d'une personnalité, puis transformer cette attention en activité économique. C'est accessible, mais beaucoup plus exigeant qu'il n'y paraît.
+Être créateur de contenu, c'est bâtir une audience en créant du contenu de valeur (vidéos, articles, posts, podcasts) sur une plateforme ou plusieurs. Tu monétises ensuite cette audience via plusieurs sources : pub, sponsoring, affiliation, produits, etc.
 
 C'est un des business les plus accessibles (tu peux commencer avec ton smartphone) mais aussi un des plus compétitifs. La clé ? Être régulier, apporter de la valeur, et avoir une vraie personnalité.
 
@@ -40,7 +40,7 @@ C'est un des business les plus accessibles (tu peux commencer avec ton smartphon
 
 ### Compétences bonus
 
-- **Montage vidéo** - CapCut, Première, Final Cut (améliore la qualité)
+- **Montage vidéo** - CapCut, Premiere, Final Cut (améliore la qualité)
 - **Design** - Canva minimum pour miniatures/posts
 - **Copywriting** - Titres et descriptions qui cliquent
 - **SEO** - Être trouvé sur YouTube/Google/Pinterest

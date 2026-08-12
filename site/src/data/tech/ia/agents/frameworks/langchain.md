@@ -12,7 +12,7 @@ imgUrl: ../../../../../assets/astro.jpeg
 
 # LangChain et LangGraph
 
-## FRAMEWORK AGENTIQUE : LE MASTODONTE QUI A DEFINI L'ÉCOSYSTÈME
+## FRAMEWORK AGENTIQUE : LE MASTODONTE QUI A DEFINI L'ECOSYSTEME
 
 ### tl;dr
 
@@ -30,9 +30,9 @@ Harrison Chase, ingenieur chez Robust Intelligence, lance LangChain en octobre 2
 
 ### La montee en puissance
 
-- **Octobre 2022** : première version Python, concept de "chains" (chainer des operations LLM)
-- **Janvier 2023** : explosion de popularite, des milliers d'étoiles GitHub en quelques semaines
-- **Mars 2023** : levee de fonds de 10M$ auprès de Benchmark
+- **Octobre 2022** : premiere version Python, concept de "chains" (chainer des operations LLM)
+- **Janvier 2023** : explosion de popularite, des milliers d'etoiles GitHub en quelques semaines
+- **Mars 2023** : levee de fonds de 10M$ aupres de Benchmark
 - **Avril 2023** : version JavaScript/TypeScript lancee
 - **Juillet 2023** : seconde levee, 25M$ -- valorisation de 200M$
 - **Janvier 2024** : lancement de LangGraph pour les workflows agentiques avances
@@ -51,19 +51,19 @@ LangChain Inc. a compris que le futur n'est pas dans les chains lineaires mais d
 
 LangChain repose sur quelques abstractions fondamentales :
 
-**Models** -- l'interface unifiee pour appeler n'importe quel LLM (OpenAI, Anthropic, Mistral, Ollama, etc.). Tu ecris le même code, tu changes juste le provider.
+**Models** -- l'interface unifiee pour appeler n'importe quel LLM (OpenAI, Anthropic, Mistral, Ollama, etc.). Tu ecris le meme code, tu changes juste le provider.
 
 **Prompts** -- les templates de prompts avec des variables. Tu definis une structure, tu injectes le contexte dynamique.
 
-**Chains** -- la brique de base historique. Une chain, c'est une sequence d'operations : prendre un prompt, l'envoyer au LLM, traiter la réponse, la passer a l'étape suivante.
+**Chains** -- la brique de base historique. Une chain, c'est une sequence d'operations : prendre un prompt, l'envoyer au LLM, traiter la reponse, la passer a l'etape suivante.
 
 **Retrievers** -- la couche RAG. Tu connectes des bases vectorielles (Pinecone, Chroma, Weaviate, pgvector...) et tu recuperes les documents pertinents pour enrichir le contexte.
 
-**Memory** -- la gestion de l'historique de conversation. Plusieurs stratégies : buffer (tout garder), summary (resumer), window (garder les N derniers messages).
+**Memory** -- la gestion de l'historique de conversation. Plusieurs strategies : buffer (tout garder), summary (resumer), window (garder les N derniers messages).
 
 **Tools** -- les fonctions que l'agent peut appeler : recherche web, calculatrice, execution de code, appels API.
 
-**Agents** -- l'orchestrateur qui decide quel outil utiliser, quand, et dans quel ordre. C'est la couche "raisonnement" qui transforme un LLM passif en système actif.
+**Agents** -- l'orchestrateur qui decide quel outil utiliser, quand, et dans quel ordre. C'est la couche "raisonnement" qui transforme un LLM passif en systeme actif.
 
 ### Exemple concret : un agent simple avec LangChain
 
@@ -114,7 +114,7 @@ print(result["output"])
 # -> L'agent appelle rechercher_prix, puis calculer_remise, et donne la reponse
 ```
 
-Ce code fait tourner un agent capable de raisonner : il comprend qu'il doit d'abord chercher le prix, puis calculer la remise, et il chaîne les deux outils automatiquement.
+Ce code fait tourner un agent capable de raisonner : il comprend qu'il doit d'abord chercher le prix, puis calculer la remise, et il chaine les deux outils automatiquement.
 
 ---
 
@@ -122,22 +122,22 @@ Ce code fait tourner un agent capable de raisonner : il comprend qu'il doit d'ab
 
 ### Pourquoi LangGraph ?
 
-LangChain original a un problème : les chains sont lineaires. Tu definis A -> B -> C, et ca s'execute dans l'ordre. Mais un vrai agent a besoin de **boucles** (essayer, echouer, reessayer), de **branches** (si condition X, faire Y, sinon Z), et d'**etat persistant** (reprendre ou il s'est arrete).
+LangChain original a un probleme : les chains sont lineaires. Tu definis A -> B -> C, et ca s'execute dans l'ordre. Mais un vrai agent a besoin de **boucles** (essayer, echouer, reessayer), de **branches** (si condition X, faire Y, sinon Z), et d'**etat persistant** (reprendre ou il s'est arrete).
 
 LangGraph resout ca avec une abstraction de **graphe d'etats** :
 
-- **Nodes** (noeuds) : chaque étape est une fonction Python. Appeler le LLM, executer un outil, verifier un resultat
-- **Edges** (aretes) : les transitions entre les noeuds, qui peuvent être conditionnelles
-- **State** (etat) : un objet partage entre tous les noeuds, qui persiste et evolue a chaque étape
+- **Nodes** (noeuds) : chaque etape est une fonction Python. Appeler le LLM, executer un outil, verifier un resultat
+- **Edges** (aretes) : les transitions entre les noeuds, qui peuvent etre conditionnelles
+- **State** (etat) : un objet partage entre tous les noeuds, qui persiste et evolue a chaque etape
 
 ### Ce que LangGraph apporte de plus
 
-- **Boucles agentiques** : l'agent peut iterer autant de fois que nécessaire, pas juste un aller-retour
+- **Boucles agentiques** : l'agent peut iterer autant de fois que necessaire, pas juste un aller-retour
 - **Human-in-the-loop** : pause automatique pour demander validation a un humain avant de continuer
-- **Persistence** : sauvegarde de l'etat en base de donnees, reprise après un crash
-- **Streaming** : envoi des resultats au fur et a mesure, pas juste à la fin
+- **Persistence** : sauvegarde de l'etat en base de donnees, reprise apres un crash
+- **Streaming** : envoi des resultats au fur et a mesure, pas juste a la fin
 - **Sous-graphes** : decomposer un workflow complexe en sous-graphes reutilisables
-- **Time-travel debugging** : remonter dans le temps pour inspecter l'etat a chaque étape
+- **Time-travel debugging** : remonter dans le temps pour inspecter l'etat a chaque etape
 
 ### Exemple : un agent de recherche avec LangGraph
 
@@ -188,7 +188,7 @@ result = app.invoke({
 print(result["messages"][-1].content)
 ```
 
-La difference avec l'exemple precedent : ici, tu vois et controles chaque étape. Tu decides quand l'agent boucle, quand il s'arrete, quand il attend un humain. C'est plus de code, mais c'est toi le pilote.
+La difference avec l'exemple precedent : ici, tu vois et controles chaque etape. Tu decides quand l'agent boucle, quand il s'arrete, quand il attend un humain. C'est plus de code, mais c'est toi le pilote.
 
 ---
 
@@ -196,13 +196,13 @@ La difference avec l'exemple precedent : ici, tu vois et controles chaque étape
 
 LangSmith est la plateforme de monitoring de LangChain Inc. Elle te permet de :
 
-- **Tracer** chaque appel LLM, chaque invocation d'outil, chaque étape du graphe
+- **Tracer** chaque appel LLM, chaque invocation d'outil, chaque etape du graphe
 - **Debugger** en remontant dans le temps pour voir exactement ce qui s'est passe
-- **Evaluer** la qualité des reponses avec des datasets de test
-- **Monitorer** les coûts, la latence, les taux d'erreur en production
-- **Collaborer** en équipe avec des annotations et des commentaires sur les traces
+- **Evaluer** la qualite des reponses avec des datasets de test
+- **Monitorer** les couts, la latence, les taux d'erreur en production
+- **Collaborer** en equipe avec des annotations et des commentaires sur les traces
 
-Prix : plan gratuit genereux (5 000 traces/mois), puis a partir de 39$/mois pour les équipes.
+Prix : plan gratuit genereux (5 000 traces/mois), puis a partir de 39$/mois pour les equipes.
 
 C'est l'equivalent de Datadog ou Sentry, mais specialise pour les applications LLM. Si tu deploies LangGraph en production, LangSmith est quasi indispensable pour comprendre ce que fait ton agent.
 
@@ -210,9 +210,9 @@ C'est l'equivalent de Datadog ou Sentry, mais specialise pour les applications L
 
 ## AVANTAGES
 
-- **Écosystème massif** -- 700+ integrations, 47M+ telechargements, la plus grande communauté du secteur
+- **Ecosysteme massif** -- 700+ integrations, 47M+ telechargements, la plus grande communaute du secteur
 - **Documentation riche** -- des centaines de tutoriels, cookbook, templates, exemples
-- **LangGraph 1.0 stable** -- plus de breaking changes, API figee, prêt pour la production
+- **LangGraph 1.0 stable** -- plus de breaking changes, API figee, pret pour la production
 - **Flexibilite** -- fonctionne avec tous les providers LLM (OpenAI, Anthropic, Mistral, Ollama, Groq...)
 - **LangSmith integre** -- observabilite de classe enterprise, time-travel debugging
 - **Open-source** -- MIT license, pas de lock-in
@@ -236,7 +236,7 @@ C'est l'equivalent de Datadog ou Sentry, mais specialise pour les applications L
 | Critere | LangChain (chains) | LangGraph |
 |---|---|---|
 | **Workflow** | Lineaire, simple | Complexe, avec boucles et branches |
-| **Contrôle** | Le framework decide | Tu decides chaque transition |
+| **Controle** | Le framework decide | Tu decides chaque transition |
 | **Etat** | Memoire de conversation basique | Etat structure, persistant, versionne |
 | **Human-in-the-loop** | Difficile a implementer | Natif, avec points de pause |
 | **Debugging** | Logs classiques | Time-travel, replay d'execution |
@@ -259,11 +259,11 @@ Framework open-source europeen, pipeline-based. Moins d'abstractions que LangCha
 
 ### PydanticAI
 
-Framework minimaliste de l'équipe Pydantic. Tout est type-safe, validation stricte des inputs/outputs. Si tu es allergique aux abstractions de LangChain et que tu veux du code Python propre et previsible.
+Framework minimaliste de l'equipe Pydantic. Tout est type-safe, validation stricte des inputs/outputs. Si tu es allergique aux abstractions de LangChain et que tu veux du code Python propre et previsible.
 
 ### DSPy (Stanford)
 
-Approche radicalement differente : au lieu d'ecrire des prompts, tu definis des modules declaratifs et DSPy optimise automatiquement les prompts. Ideal pour la recherche et les cas ou tu veux optimiser systematiquement la qualité des reponses.
+Approche radicalement differente : au lieu d'ecrire des prompts, tu definis des modules declaratifs et DSPy optimise automatiquement les prompts. Ideal pour la recherche et les cas ou tu veux optimiser systematiquement la qualite des reponses.
 
 ---
 
@@ -279,15 +279,15 @@ Un agent qui recoit une question, cherche sur le web, synthetise les resultats, 
 
 ### Pipeline de contenu automatise
 
-Générer des articles de blog optimises SEO : recherche de mots-clés, analyse de la concurrence, redaction, optimisation, relecture. Chaque étape est un noeud LangGraph avec son propre prompt et ses propres outils.
+Generer des articles de blog optimises SEO : recherche de mots-cles, analyse de la concurrence, redaction, optimisation, relecture. Chaque etape est un noeud LangGraph avec son propre prompt et ses propres outils.
 
 ### Assistant de code
 
-Un agent qui lit ton codebase, comprend l'architecture, génère du code, l'execute dans un sandbox, et itere jusqu'a ce que les tests passent. LangGraph avec son execution de code sandboxed et ses boucles conditionnelles est fait pour ca.
+Un agent qui lit ton codebase, comprend l'architecture, genere du code, l'execute dans un sandbox, et itere jusqu'a ce que les tests passent. LangGraph avec son execution de code sandboxed et ses boucles conditionnelles est fait pour ca.
 
 ### Agent commercial
 
-Un agent qui qualifie les leads entrants : analyse l'email, recherche l'entreprise, enrichit le CRM, et propose une réponse personnalisee. LangGraph avec human-in-the-loop pour valider avant envoi.
+Un agent qui qualifie les leads entrants : analyse l'email, recherche l'entreprise, enrichit le CRM, et propose une reponse personnalisee. LangGraph avec human-in-the-loop pour valider avant envoi.
 
 ---
 

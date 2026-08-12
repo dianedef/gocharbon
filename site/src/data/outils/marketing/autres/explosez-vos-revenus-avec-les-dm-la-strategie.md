@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Explosez Vos Revenus Avec Les Dm La Stratégie Secrète Des Influenceurs
 author: Diane
-description: "Explosez Vos Revenus Avec Les Dm La Stratégie Secrète Des Influenceurs."
+description: 'Découvre Explosez Vos Revenus Avec Les Dm La Stratégie Secrète Des Influenceurs
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

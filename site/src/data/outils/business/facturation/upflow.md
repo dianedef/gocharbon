@@ -1,82 +1,126 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://upflow.io/en-gb/legal-notices
-- https://support.upflow.io/hc/en-us/articles/29512104884625-Upflow-Privacy-Policy
-- https://insights.upflow.io/en/ar-collections-software/demo-request
-notesQualification: Upflow conserve une base operationnelle francaise a Saint-Mande et annonce des datacentres AWS en Irlande; la politique de confidentialite montre toutefois aussi une entite americaine, ce qui appelle une lecture prudente.
-methodologieVersion: gocharbon-v1
-title: Upflow
+section: apps
+metadataEnrichedAt: null
+title: upflow
 author: Diane
 tags:
 - Outils
-description: Upflow aide à piloter le recouvrement et le poste clients pour récupérer
-  plus vite les paiements sans transformer la relation client en bataille permanente.
+description: '[Hexa - eFounders - Upflow](https://www.hexa.com/companies/upflow) -
+  💼 Upflow révolutionne les paiements B2B en aidant les équipes financières à récupérer
+  les factures impayées et '
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://upflow.io/fr
 ---
 
-# Upflow
+# upflow
 
-## Un outil de recouvrement qui sert surtout à mieux encaisser
+🔹✅💡🥊🛡️🔇🧠📣🎁🏆📚🛠💥🙌😱✂️
 
-### tl;dr
+[Hexa - eFounders - Upflow](https://www.hexa.com/companies/upflow)
+- 💼 Upflow révolutionne les paiements B2B en aidant les équipes financières à récupérer les factures impayées et à prendre des décisions éclairées.
+- 🤝 Fondé par Alexandre Louisy et Barnaby Malet, Upflow offre des solutions pour la gestion des factures impayées.
+- 💰 Le logiciel d'Upflow aide des centaines d'équipes financières aux États-Unis et en Europe à récupérer les factures impayées et à obtenir des informations financières pour prendre de meilleures décisions.
+- 🚀 En 2021, Upflow a levé 15 millions de dollars en série A pour révolutionner les paiements des entreprises B2B.
+- 📊 En 2020, Upflow a rejoint le programme Y Combinator W20 et en 2019, la société a levé 2,8 millions de dollars en financement initial.
+[Upflow: Overview | LinkedIn](https://www.linkedin.com/company/upflowhq/)  
+[twitter.com/upflowhq](https://twitter.com/upflowhq)
 
-Upflow aide les équipes finance à suivre les factures, automatiser les relances et garder une vision plus claire du poste clients. Le vrai sujet n'est pas "faire des emails de rappel", c'est de récupérer plus vite le cash tout en gardant une relation client supportable.
+[Upflow (eF18) grabs $15m Series A to revolutionize how B2B businesses get paid | by Hexa | Inside Hexa | Medium](https://medium.com/inside-hexa/upflow-ef18-grabs-15m-series-a-to-revolutionize-how-b2b-businesses-get-paid-fce391e09ce6)  
+[twitter.com/upflowhq](https://twitter.com/upflowhq)
+
+
+## Upflow | Logiciel de recouvrement pour piloter sa trésorerie
+
+Upflow est le logiciel de recouvrement qui peut transformer la gestion des paiements de ton entreprise. Encaisse 100% de ton chiffre d'affaires en optimisant le suivi de tes factures, de l'envoi au paiement. Dans cette revue, nous allons explorer les avantages clés d'Upflow, pour qui il est idéal, ses fonctionnalités, les offres tarifaires, son équipe et mission, la feuille de route future, les intégrations disponibles, comment l'utiliser efficacement, comment ça fonctionne en détail, et notre avis sur cet outil.
+
+## Bénéfices
+
+En utilisant Upflow, tu peux :
+
+- Maximiser la récupération de trésorerie en encaissant 100% de ton chiffre d'affaires.
+- Optimiser le suivi de facturation grâce à une vue en temps réel de ton poste clients.
+- Systématiser les relances pour ne plus oublier une facture impayée.
+- Proposer à tes clients des moyens de paiement variés pour simplifier et accélérer le paiement.
+- Dire adieu aux impayés et gagner en maturité dans la gestion de la trésorerie de ton entreprise.
+
+### Pour Qui ?
+
+Upflow est idéal pour :
+
+- Les entrepreneurs souhaitant maximiser la récupération de trésorerie.
+- Les professionnels de la comptabilité et de la finance cherchant à simplifier la gestion des factures impayées.
+- Les entreprises de toutes tailles, des PMEs aux grands comptes.
 
 ### Alternative à
 
-Chaser, Odoo pour certains workflows, relances manuelles dans ton ERP, ou outils de credit control plus complets.
+Les principaux concurrents d'Upflow dans le domaine de la gestion de recouvrement sont :
 
-## Pourquoi on le retient
+- **Dunning**: Une solution populaire offrant des fonctionnalités similaires.
+- **Chaser**: Un autre logiciel de recouvrement bien établi.
 
-- **Le problème traité est central** : les retards de paiement détruisent la trésorerie plus sûrement que beaucoup d'erreurs stratégiques spectaculaires.
-- **Le produit structure le recouvrement** sans obliger une PME à tout gérer dans des tableurs.
-- **La communication client peut être mieux cadrée** que dans des relances bricolées.
+## Fonctionnalités
 
-## Pour qui ?
+### Tableaux de bord
+Upflow offre des tableaux de bord permettant une vue en temps réel de ton poste clients, y compris les indicateurs financiers et les délais moyens de paiement.
 
-- équipes finance
-- PME et ETI en B2B
-- entreprises avec facturation récurrente ou volumineuse
-- structures qui commencent à souffrir d'un poste clients mal piloté
+### Relance client systématisée
+Définis des actions de relance personnalisées pour ne plus jamais oublier une facture impayée, avec des canaux de relance adaptés et les bons interlocuteurs impliqués.
 
-## Fonctionnalités utiles
+### Paiement simplifié
+Propose à tes clients divers moyens de paiement pour un paiement simplifié, avec une expérience de paiement client optimisée et un rapprochement bancaire automatisé.
 
-- suivi du poste clients
-- scénarios de relance
-- visibilité sur les retards et priorités de recouvrement
-- portail ou options de paiement selon la configuration
-- connexions avec outils de facturation ou comptabilité
+### Intégrations
+Upflow s'intègre facilement avec tes outils de facturation et de comptabilité existants, révolutionnant la gestion de ton poste clients en quelques minutes. Il offre également une API pour des intégrations plus avancées.
 
 ## Prix
 
-Le bon calcul n'est pas seulement le prix de l'abonnement. Il faut le comparer au cash récupéré plus tôt, au temps gagné côté finance et au nombre d'oublis ou de relances mal gérées évités.
+Upflow propose des plans tarifaires adaptés à différents besoins, y compris une version gratuite. Pour des fonctionnalités avancées et un support premium, des abonnements payants sont disponibles. Consulte leur site web pour plus de détails.
+
+## L'équipe et l'Histoire
+
+Upflow a été créé par une équipe passionnée qui cherchait à résoudre les problèmes de gestion de trésorerie pour les entreprises. Leur logiciel a un impact considérable sur la stratégie de recouvrement de nombreuses entreprises, petites et grandes. Leur mission est de simplifier et d'optimiser le processus de paiement pour aider les entreprises à encaisser 100% de leurs revenus.
+
+## Feuille de Route
+
+Upflow est en constante évolution, avec des mises à jour régulières. Consulte leur site web pour accéder à leur feuille de route publique et découvrir les fonctionnalités à venir.
+
+## Ressources
+
+- Site Web: [Upflow](https://www.upflow.io/)
+- Documentation: [Documentation Upflow](https://www.upflow.io/docs)
+- Support: [Support Upflow](https://www.upflow.io/support)
+- LinkedIn: [Upflow LinkedIn](https://www.linkedin.com/company/upflow)
+- Twitter: [Upflow Twitter](https://twitter.com/upflow)
+
+## Programme de Parrainage
+
+Upflow propose un programme de parrainage ou d'affiliation. Consulte leur site web pour plus d'informations sur la façon de devenir un partenaire.
 
 ## Intégrations
 
-Upflow devient beaucoup plus utile s'il se branche correctement à ta facturation et à ta compta. Sinon tu ajoutes juste une couche de suivi de plus.
+Upflow offre des intégrations avec de nombreux outils, y compris des solutions de comptabilité, de facturation et de paiement. Ils fournissent également une API pour des intégrations personnalisées et des webhooks.
 
-## Ce qu'il faut savoir avant de choisir
+## Comment Utiliser
 
-Le produit ne remplace pas une politique de facturation claire. Si tes délais de paiement, ton process de relance ou tes responsabilités internes sont flous, l'outil aidera, mais ne réparera pas tout.
+Pour tirer le meilleur parti d'Upflow, voici quelques étapes à suivre :
 
-## Points forts
+1. Crée un compte Upflow.
+2. Connecte tes outils de facturation et de comptabilité existants.
+3. Configure les actions de relance personnalisées en fonction de tes besoins.
+4. Propose à tes clients divers moyens de paiement pour simplifier le processus.
+5. Utilise les tableaux de bord pour surveiller en temps réel la performance de ton poste clients.
 
-- sujet cash très concret
-- utile pour structurer un process souvent négligé
-- meilleur niveau de pilotage que des relances dispersées
+## En Résumé
 
-## Points faibles
+Upflow utilise une technologie avancée pour automatiser le suivi de facturation et les relances. Il intègre des flux de paiement diversifiés et propose un rapprochement bancaire automatisé pour garantir une gestion fluide des factures impayées.
 
-- demande une base process déjà un minimum propre
-- intérêt plus faible si le volume de factures est encore très réduit
-- la qualité dépend beaucoup de l'intégration avec l'écosystème existant
+## Mon Avis
+
+## Points Faibles
+
+Bien qu'Upflow soit un outil puissant, il peut être complexe pour les utilisateurs novices. Une courbe d'apprentissage peut être nécessaire.
+
+## Points Forts
+
+Upflow offre une solution complète pour la gestion de recouvrement, permettant d'optimiser la récupération de trésorerie. Ses tableaux de bord en temps réel, les relances personnalisées et les moyens de paiement variés en font un choix solide pour les entreprises cherchant à encaisser 100% de leur chiffre d'affaires.

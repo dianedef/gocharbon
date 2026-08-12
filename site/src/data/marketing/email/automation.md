@@ -1,50 +1,137 @@
 ---
 section: blog
-title: "Automatisation email : les scénarios qui font gagner du temps et des conversions"
+title: Automatisation Email Marketing
 author: Diane
 tags:
 - Marketing
-description: Les automatisations email prioritaires à mettre en place pour mieux
-  accueillir, relancer et convertir.
+description: 'Automatisation email expliquée simplement: scénarios essentiels, triggers,
+  KPIs et plan de déploiement progressif.'
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Automatisation email : les scénarios qui font gagner du temps et des conversions
+# Automatisation Email Marketing
 
-L'automatisation email est utile quand elle évite les oublis et améliore la pertinence. Elle devient pénible quand elle remplace la réflexion par une suite de relances mécaniques.
+L'automatisation email consiste à envoyer des emails automatiquement selon le comportement de l'utilisateur.
 
-Le bon réflexe est de commencer petit.
+But: gagner du temps **et** envoyer des messages plus pertinents.
 
-## Les scénarios à mettre en place en premier
+## Ce qu'il faut automatiser en premier
 
-### Séquence de bienvenue
+Ne commence pas par 20 scénarios. Commence par 3:
 
-Elle présente la promesse, donne un premier repère utile et montre quoi faire ensuite.
+## 1) Séquence de bienvenue
 
-### Relance après intérêt
+Déclencheur (trigger): nouvelle inscription.
 
-Quand une personne clique, visite une page clé ou commence un formulaire sans aller au bout, une relance sobre peut suffire.
+Exemple 3 emails:
+1. Bienvenue + promesse
+2. Ressource utile + preuve
+3. Offre d'entrée
 
-### Réactivation
+## 2) Abandon de panier
 
-Utile pour les abonnés ou clients devenus inactifs, à condition d'avoir quelque chose d'intéressant à proposer.
+Déclencheur: panier créé mais pas payé.
 
-### Post-achat ou onboarding
+Exemple:
+- rappel 1 (1-2h),
+- rappel 2 (24h),
+- rappel 3 (48h avec objection/FAQ).
 
-Très utile pour faire obtenir une première victoire rapidement.
+## 3) Réactivation
 
-## Les règles à garder
+Déclencheur: inactivité 30-60 jours.
 
-- une logique claire ;
-- des déclencheurs simples ;
-- peu de messages mais bien pensés ;
-- une sortie de séquence quand l'objectif est atteint.
+Exemple:
+- "Tu veux toujours recevoir nos contenus ?"
+- offre spéciale retour,
+- sortie propre de la liste si pas d'intérêt.
 
-## Ce qu'il ne faut pas automatiser aveuglément
+## Triggers, conditions, actions
 
-- les relances émotionnellement sensibles ;
-- les messages de support ;
-- les cas où le contexte humain compte plus que la cadence.
+Un scénario =
+- **Trigger** (ce qui lance),
+- **Condition** (qui reçoit quoi),
+- **Action** (quel email et quand).
 
-Une automatisation saine n'a pas l'air automatique. Elle a l'air bien synchronisée.
+Exemple:
+- Trigger: achat effectué,
+- Condition: premier achat,
+- Action: email onboarding + conseil d'usage.
+
+## Les métriques à suivre
+
+- Taux d'ouverture par email du scénario,
+- CTR (taux de clic) par étape,
+- taux de conversion final,
+- revenu généré par scénario,
+- taux de sortie/désinscription.
+
+## Plan de déploiement simple
+
+### Semaine 1
+- mappe le parcours client,
+- choisis 2 scénarios prioritaires,
+- écris les emails.
+
+### Semaine 2
+- configure les triggers,
+- teste toutes les branches,
+- vérifie les liens et UTM.
+
+### Semaine 3
+- lance en production,
+- surveille les métriques,
+- corrige les points faibles.
+
+### Semaine 4
+- A/B test objets et CTA,
+- ajuste le timing,
+- documente le scénario gagnant.
+
+## Bonnes pratiques
+
+- un objectif par email,
+- un CTA principal,
+- messages courts et utiles,
+- prioriser la lisibilité mobile,
+- limiter la complexité logique.
+
+## Erreurs fréquentes
+
+- automatiser un mauvais message,
+- ne pas tester les scénarios avant envoi,
+- oublier la logique de sortie,
+- ne jamais nettoyer les contacts inactifs.
+
+## Outils
+
+- plateforme email avec automation (Brevo, Klaviyo, ActiveCampaign...)
+- tracking UTM
+- tableau de bord hebdo (simple, mais suivi).
+
+## Conclusion
+
+L'automatisation ne remplace pas la stratégie: elle l'exécute mieux.
+
+Si tu veux aller plus loin sur la personnalisation avancée:
+[Découvrir la personnalisation email →](/marketing/email/personnalisation)
+
+## Ressources utiles pour continuer
+
+### Lectures liées
+
+- [Comment faire de l'automatisation marketing](/tutos/comment-faire-de-lautomatisation-marketing)
+- [Créer une liste email B2B pour la prospection](/tutos/comment-creer-une-liste-email-pour-de-la)
+
+### Outils et stratégies complémentaires
+
+- [Stratégie email: plan clair pour démarrer](/marketing/email/strategie)
+- [Automatisation email: scénarios essentiels](/marketing/email/automation)
+
+## Checklist express
+
+- [ ] Choisis un objectif unique pour cette étape.
+- [ ] Lance une première action test à petite échelle.
+- [ ] Mesure le résultat après 7 jours.
+- [ ] Ajuste avant de passer à l'échelle.

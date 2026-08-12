@@ -4,45 +4,124 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Mettre en place un CRM qui sert vraiment
+title: Implémenter Un Gestionnaire De Relations Clients (Crm)
 author: Diane
-description: Construis un CRM simple, avec un pipeline clair, des champs utiles et des relances qui te servent au quotidien.
+description: 'Mets en place un CRM clair et utile en 5 étapes: pipeline, champs, relances, suivi et pilotage.'
 pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Un CRM ne sert pas à collectionner des fiches contacts. Il sert à répondre à trois questions :
+# Implémenter un CRM simplement (sans te noyer)
 
-- qui relancer ;
-- où ça bloque ;
-- ce qui convertit.
+Ce tuto te montre comment mettre en place un CRM qui sert vraiment au quotidien.
 
-## Commence simple
+Objectif: en 1 semaine, tu dois pouvoir répondre à 3 questions:
+- qui dois-je relancer aujourd'hui,
+- où sont bloquées mes ventes,
+- quel canal me rapporte les meilleurs clients.
 
-Ton pipeline n’a pas besoin de 17 colonnes.
+## Avant de commencer
 
-Un bon point de départ :
+Tu as besoin de:
+- une liste de prospects/clients (même imparfaite),
+- un process de vente minimum,
+- 1h à 2h pour paramétrer proprement.
 
-1. nouveau ;
-2. premier échange ;
-3. rendez-vous ;
-4. proposition ;
-5. gagné ;
-6. perdu.
+## Étape 1 - Définis ton pipeline
 
-## Les champs utiles
+Un pipeline est le chemin de vente de tes contacts.
 
-- nom ;
-- entreprise ;
-- source ;
-- prochaine action ;
-- date de relance ;
-- note utile.
+Exemple simple:
+1. Nouveau contact
+2. Premier échange
+3. Appel réalisé
+4. Proposition envoyée
+5. Gagné / Perdu
 
-## Ce qu’il faut éviter
+Règle: chaque opportunité doit être dans **une seule** étape.
 
-- remplir le CRM pour la beauté du process ;
-- multiplier les champs jamais lus ;
-- ne pas mettre la prochaine action.
+## Étape 2 - Crée les champs indispensables
 
-Un CRM est bon quand il simplifie le suivi. Pas quand il te donne l’impression d’avoir “de l’organisation”.
+Commence avec le strict minimum:
+- Nom / entreprise
+- Source du lead (LinkedIn, bouche-à-oreille, pub, SEO...)
+- Besoin principal
+- Budget estimé
+- Montant potentiel
+- Prochaine action
+- Date de prochaine action
+
+Évite les champs inutiles au départ. Tu pourras enrichir plus tard.
+
+## Étape 3 - Importe et nettoie tes données
+
+- Importe ton CSV.
+- Supprime les doublons.
+- Uniformise les formats (téléphone, email, pays, etc.).
+- Ajoute une "source" sur chaque contact.
+
+Si tes données sont sales, ton CRM sera vite inutilisable.
+
+## Étape 4 - Mets en place les relances
+
+Prépare 3 messages types:
+- Relance courte J+2
+- Relance valeur J+7 (apporte une ressource utile)
+- Dernière relance J+14
+
+Crée une vue "À relancer aujourd'hui". C'est cette vue qui te sert tous les matins.
+
+## Étape 5 - Suis les bons indicateurs
+
+Ne commence pas avec 30 KPI. Prends ces 4 métriques:
+- **Taux de réponse**: % de prospects qui répondent.
+- **Taux de conversion**: % de prospects qui signent.
+- **Cycle de vente**: durée moyenne entre premier contact et signature.
+- **Panier moyen**: montant moyen par vente.
+
+Revues hebdo (15 minutes):
+- Qu'est-ce qui bloque?
+- Quelle étape perd le plus de leads?
+- Quel canal convertit le mieux?
+
+## Plan d'exécution sur 7 jours
+
+### Jour 1
+Pipeline + étapes validées.
+
+### Jour 2
+Champs minimum créés.
+
+### Jour 3
+Import + nettoyage des contacts.
+
+### Jour 4
+Relances modèles prêtes.
+
+### Jour 5
+Vue "à relancer aujourd'hui" active.
+
+### Jour 6
+Tableau des 4 KPI prêt.
+
+### Jour 7
+Bilan et simplification.
+
+## Erreurs fréquentes
+
+- Trop personnaliser l'outil dès le début.
+- Ne pas forcer la "prochaine action".
+- Oublier de noter pourquoi une vente est perdue.
+- Changer de CRM toutes les 2 semaines.
+
+## Ressources utiles
+
+- [Guide CRM Sendinblue/Brevo](https://fr.sendinblue.com/blog/guide-crm/)
+- [Attio](https://attio.com/)
+
+## Résultat attendu
+
+À la fin, tu dois avoir:
+- une vision claire de ton pipe commercial,
+- des relances régulières,
+- un suivi chiffré simple pour prendre de meilleures décisions.

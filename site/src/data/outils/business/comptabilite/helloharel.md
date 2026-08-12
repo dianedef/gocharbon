@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.helloharel.com/mentions-legales/
-- https://www.helloharel.com/
-notesQualification: Hello Harel est edite par Harel Systems, SARL francaise basee a Vaucresson; le site mentionne Gandi comme hebergeur, sans permettre d'affirmer publiquement une localisation precise des donnees applicatives.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Hello Harel
 author: Diane
 tags:

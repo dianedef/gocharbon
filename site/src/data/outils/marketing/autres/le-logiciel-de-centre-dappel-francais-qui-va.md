@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Le Logiciel De Centre D'Appel Français Qui Va Rendre Vos Clients Accros
 author: Diane
-description: "Le Logiciel De Centre D'Appel Français Qui Va Rendre Vos Clients Accros."
+description: 'Découvre Le Logiciel De Centre D''Appel Français Qui Va Rendre Vos Clients
+  Accros : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

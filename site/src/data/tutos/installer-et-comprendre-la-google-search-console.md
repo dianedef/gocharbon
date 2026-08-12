@@ -1,127 +1,185 @@
 ---
 section: tutos
-type: tuto
+type: blog
 statut:
 - backlog
 _priorité: normal
 imageNameKey: search-console
 tags:
 - Tutoriels
-title: Installer et utiliser Google Search Console proprement
+title: Installer Et Comprendre La Google Search Console
 author: Diane
-description: Configure Google Search Console, vérifie ton site, envoie le sitemap et apprends à lire les rapports vraiment utiles.
+description: 'Découvre Installer Et Comprendre La Google Search Console : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Google Search Console est le point de départ du SEO sérieux. Sans elle, tu publies, tu attends, et tu espères. Avec elle, tu sais ce que Google voit, ce qu’il indexe, ce qu’il ignore et quels mots-clés te rapportent déjà des impressions.
+# Installer et comprendre la Google Search Console
 
-Selon la documentation officielle de Google, Search Console sert à comprendre comment Google explore, indexe et affiche ton site dans les résultats de recherche. Source : [Google Search Central](https://developers.google.com/search/docs/monitor-debug/search-console-start).
+La Google Search Console (GSC), c'est le tableau de bord gratuit que Google te donne pour comprendre comment ton site apparait dans les resultats de recherche. C'est l'outil SEO numero 1 et il est 100% gratuit. Si tu n'as pas encore configure la GSC, tu navigues a l'aveugle.
 
-## Ce que tu vas vraiment suivre
+## Ce que la Search Console te montre
 
-- les pages indexées et non indexées ;
-- les requêtes qui génèrent des impressions et des clics ;
-- les problèmes techniques remontés par Google ;
-- les sitemaps envoyés ;
-- les opportunités d’optimisation quand une page a beaucoup d’impressions mais peu de clics.
+- **Quels mots-cles** amenent du trafic sur ton site
+- **Quelle position** tu occupes dans Google pour chaque mot-cle
+- **Combien de clics** tu recois et ton taux de clic (CTR)
+- **Les erreurs** que Google detecte sur ton site (pages 404, problemes mobile, etc.)
+- **L'indexation** : quelles pages Google connait et lesquelles il ignore
+- **Les Core Web Vitals** : la vitesse et l'experience utilisateur de tes pages
 
-## Étape 1 : ajoute la bonne propriété
+## Etape 1 : Creer un compte et ajouter ton site
 
-Quand tu ajoutes ton site, Google te propose deux options :
+1. Va sur [search.google.com/search-console](https://search.google.com/search-console)
+2. Connecte-toi avec ton compte Google
+3. Clique sur **Ajouter une propriete**
+4. Choisis le type :
+   - **Domaine** (recommande) : couvre tout le domaine (www, sous-domaines, http et https)
+   - **Prefixe d'URL** : couvre une URL specifique (ex: `https://monsite.com`)
 
-- **Propriété Domaine** : couvre tout le domaine, y compris `www`, sous-domaines et variantes `http/https` ;
-- **Préfixe d’URL** : couvre uniquement une URL précise.
+Pour la methode Domaine, tu devras ajouter un enregistrement DNS. Pour le Prefixe d'URL, tu as plus d'options de verification.
 
-Si tu peux modifier le DNS, prends la propriété **Domaine**. C’est plus propre et tu évites de te retrouver avec plusieurs propriétés incomplètes.
+## Etape 2 : Verifier la propriete
 
-## Étape 2 : vérifie la propriété
+Google doit verifier que le site t'appartient. Plusieurs methodes :
 
-La méthode la plus robuste reste le **TXT DNS**.
+### Methode 1 : Fichier HTML (la plus simple)
 
-1. Copie la valeur donnée par Google.
-2. Ouvre la zone DNS de ton domaine chez ton registrar ou ton hébergeur.
-3. Ajoute un enregistrement `TXT`.
-4. Attends quelques minutes, parfois plus.
-5. Clique sur **Vérifier**.
+1. Google te donne un fichier HTML a telecharger
+2. Upload ce fichier a la racine de ton site via FTP
+3. Clique sur **Verifier** dans la Search Console
 
-Si tu ne gères pas le DNS, tu peux utiliser une balise HTML ou un plugin SEO WordPress. Mais si tu as la main sur le domaine, le DNS reste le meilleur choix.
+### Methode 2 : Balise meta
 
-## Étape 3 : envoie ton sitemap
+1. Google te donne une balise `<meta>` a ajouter dans le `<head>` de ta page d'accueil
+2. Sur WordPress, utilise **Yoast SEO** ou **Rank Math** pour l'ajouter sans toucher au code :
+   - Yoast : **SEO > General > Webmaster Tools > Code de verification Google**
+   - Rank Math : **Rank Math > General Settings > Webmaster Tools**
 
-Va dans **Sitemaps** et soumets l’URL correcte, par exemple :
+### Methode 3 : Google Analytics
 
-- `https://tonsite.com/sitemap.xml`
-- ou `https://tonsite.com/sitemap_index.xml` selon ton stack
+Si Google Analytics est deja installe sur ton site, la Search Console peut se verifier automatiquement via le meme compte Google.
 
-Le rôle du sitemap n’est pas de “forcer” l’indexation. Il aide surtout Google à découvrir plus proprement tes URL importantes. Source : [Google Search Central - sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+### Methode 4 : DNS (pour la propriete Domaine)
 
-## Étape 4 : lis les bons rapports
+1. Va dans la gestion DNS de ton hebergeur
+2. Ajoute un enregistrement TXT avec la valeur fournie par Google
+3. Attends la propagation (quelques minutes a 48h)
+4. Clique sur **Verifier**
 
-Ne te noie pas dans l’outil. Commence par ces trois vues :
+## Etape 3 : Soumettre ton sitemap
 
-### Performance
+Le sitemap dit a Google quelles pages exister et facilite leur indexation :
 
-Tu y vois :
+1. Dans la Search Console, va dans **Sitemaps**
+2. Entre l'URL de ton sitemap : generalement `https://tonsite.com/sitemap.xml`
+3. Clique sur **Envoyer**
 
-- les requêtes ;
-- les pages ;
-- les clics ;
-- les impressions ;
-- le CTR ;
-- la position moyenne.
+Sur WordPress, Yoast SEO et Rank Math generent automatiquement un sitemap. Verifie qu'il est accessible a l'URL `/sitemap_index.xml` (Yoast) ou `/sitemap.xml` (Rank Math).
 
-Le plus utile au début : repérer les pages qui ont déjà des impressions mais un CTR faible. C’est souvent là que tu peux améliorer le titre, la meta description ou l’angle.
+## Les rapports essentiels a connaitre
 
-### Indexation des pages
+### Rapport de performances
 
-C’est le rapport à consulter quand une page n’apparaît pas dans Google.
+C'est le rapport le plus important. Tu y trouves :
 
-Tu y verras par exemple :
+- **Clics** : combien de fois les gens ont clique sur ton site depuis Google
+- **Impressions** : combien de fois ton site est apparu dans les resultats
+- **CTR moyen** : le pourcentage d'impressions qui deviennent des clics
+- **Position moyenne** : ta position moyenne dans les resultats
 
-- page explorée mais non indexée ;
-- page dupliquée ;
-- page en `noindex` ;
-- page bloquée.
+**Comment l'utiliser** :
+1. Filtre par **Requetes** pour voir les mots-cles
+2. Trie par **Impressions** descendantes : ce sont les mots-cles ou tu as le plus de visibilite
+3. Cherche les mots-cles avec beaucoup d'impressions mais un faible CTR : c'est la que tu as le plus de potentiel en ameliorant tes titres et descriptions
 
-Google rappelle d’ailleurs qu’une page bloquée par `robots.txt` peut empêcher Google de voir la directive `noindex`. Source : [Google Search Central - block indexing](https://developers.google.com/search/docs/crawling-indexing/block-indexing).
+### Rapport d'indexation des pages
 
-### Inspection d’URL
+Montre quelles pages sont indexees et lesquelles ont des problemes :
 
-Utilise-la quand tu veux vérifier une page précise :
+- **Indexees** : tout va bien, Google les connait
+- **Exclues** : Google a decide de ne pas les indexer (doublons, noindex, pages de faible qualite)
+- **Erreurs** : problemes qui empechent l'indexation
 
-- est-elle connue de Google ?
-- est-elle indexable ?
-- son canonique est-il correct ?
-- peux-tu demander une nouvelle exploration ?
+Verifie regulierement les erreurs et corrige-les en priorite.
 
-## Routine simple à suivre
+### Rapport Experience
 
-Tu n’as pas besoin d’ouvrir Search Console tous les jours.
+Regroupe les Core Web Vitals. Depuis mars 2024, **INP a remplace FID** comme metrique officielle :
 
-La bonne routine :
+- **LCP** (Largest Contentful Paint) : vitesse de chargement de l'element principal. Objectif : moins de 2.5 secondes.
+- **INP** (Interaction to Next Paint) : mesure la reactivite globale de la page a toutes les interactions utilisateur (clics, taps, saisies clavier). Objectif : moins de 200 millisecondes. C'est la metrique la plus recente, ajoutee en mars 2024 pour remplacer FID (First Input Delay) qui ne mesurait que la premiere interaction.
+- **CLS** (Cumulative Layout Shift) : stabilite visuelle (pas de contenu qui saute). Objectif : moins de 0.1.
 
-1. vérifie les alertes email ;
-2. fais un point hebdo sur les pages qui montent et celles qui stagnent ;
-3. après chaque gros changement de structure, contrôle le rapport d’indexation ;
-4. après chaque nouvelle série d’articles, vérifie que le sitemap est propre.
+Google classe tes pages en Bon, A ameliorer, Mediocre. Concentre-toi sur les pages "Mediocre" en priorite. Les Core Web Vitals sont un facteur de classement officiel depuis 2021.
 
-## Les erreurs classiques
+### Rapport Liens
 
-- créer la mauvaise propriété et suivre un périmètre incomplet ;
-- oublier le sitemap ;
-- paniquer sur chaque variation de position ;
-- confondre impressions et trafic ;
-- croire que “demander l’indexation” remplace un vrai travail SEO.
+Montre :
+- Les **liens externes** : quels sites pointent vers le tien (backlinks)
+- Les **liens internes** : comment tes pages se lient entre elles
+- Les **pages les plus liees** : tes pages les plus populaires
 
-## Par quoi commencer aujourd’hui
+## Actions pratiques avec la Search Console
 
-Si ton site n’est pas encore branché :
+### Demander l'indexation d'une nouvelle page
 
-1. ajoute la propriété Domaine ;
-2. vérifie-la par DNS ;
-3. soumets le sitemap ;
-4. ouvre le rapport **Performances** ;
-5. note tes 10 pages les plus visibles.
+1. Colle l'URL de ta page dans la barre de recherche en haut de la GSC
+2. Clique sur **Demander l'indexation**
+3. Google va prioritiser le crawl de cette page
 
-Tu auras déjà une base de travail bien plus sérieuse que 90 % des sites qui font du SEO “au feeling”.
+Utile quand tu publies un nouvel article et que tu ne veux pas attendre que Google le trouve tout seul.
+
+### Trouver les pages a optimiser en priorite
+
+1. Va dans **Performances > Requetes**
+2. Filtre par position moyenne entre 5 et 20
+3. Ces pages sont proches de la premiere page mais pas encore en haut
+4. Ameliore le contenu, ajoute des liens internes, optimise le titre
+5. Petit effort, gros impact potentiel
+
+### Detecter les baisses de trafic
+
+1. Compare deux periodes dans le rapport de Performances
+2. Identifie les mots-cles qui ont perdu des positions
+3. Verifie si le contenu est toujours pertinent et a jour
+4. Regarde si un concurrent a publie quelque chose de mieux
+
+## Astuces
+
+- **Connecte la GSC a Google Analytics** : dans Analytics > Administration > Associations de produits > Search Console. Tu verras les donnees de la GSC directement dans Analytics.
+- **Verifie la GSC au moins une fois par semaine** : les donnees ont 2-3 jours de retard, mais les tendances se voient vite
+- **Exporte les donnees** : clique sur le bouton Exporter pour analyser dans un tableur. La GSC ne montre que les 1 000 premieres lignes en ligne.
+- **Ajoute les variantes de ton domaine** : www et non-www, http et https. Meme si tu as des redirections, ca te donne une vue complete.
+- **Surveille l'onglet Securite** : si Google detecte un malware ou du phishing sur ton site, c'est ici que tu seras prevenu
+
+## Nouveautes de la Search Console (2025-2026)
+
+### Canaux sociaux (decembre 2025)
+
+Google a lance une fonctionnalite experimentale qui permet de voir les performances de tes reseaux sociaux directement dans la Search Console. Tu peux voir les clics, impressions et requetes qui menent vers tes profils sociaux associes a ton site (YouTube, LinkedIn, Instagram, etc.). C'est accessible via le rapport Search Console Insights.
+
+### Recommandations IA
+
+La GSC integre progressivement des recommandations basees sur l'IA pour t'aider a ameliorer ton SEO. Par exemple, des suggestions automatiques pour ameliorer les titres et descriptions des pages avec un faible CTR.
+
+### Rapport Video
+
+Si tu publies du contenu video, un rapport specifique dans la GSC te montre les problemes d'indexation des videos et leur performance dans les resultats de recherche.
+
+## Erreurs courantes
+
+- **Ne pas soumettre le sitemap** : Google te trouvera quand meme, mais ca prend plus de temps
+- **Ignorer les erreurs 404** : quelques-unes c'est normal, mais des dizaines indiquent un probleme (liens casses, pages supprimees sans redirection)
+- **Se focaliser sur la position moyenne** : c'est une moyenne. Une page peut etre en position 3 pour un mot-cle et position 50 pour un autre. Regarde toujours au niveau du mot-cle.
+- **Paniquer pour une petite baisse** : les fluctuations de 1-2 positions sont normales au quotidien. Regarde les tendances sur 3 mois.
+- **Ne pas connecter GA4** : la connexion entre Search Console et Google Analytics 4 te donne une vue croisee entre le comportement sur Google et le comportement sur ton site. C'est gratuit et ca prend 2 minutes.
+
+## Outils mentionnes
+
+- **Google Search Console** : outil gratuit de suivi SEO par Google. Inscription sur [search.google.com/search-console](https://search.google.com/search-console). Donnees mises a jour avec 2-3 jours de retard. Limite d'affichage a 1 000 lignes en interface web (utilise l'export ou l'API pour des donnees completes). Les donnees sont conservees 16 mois.
+- **Yoast SEO** : plugin WordPress pour la verification GSC et le sitemap. Gratuit, Premium a 99 USD/an. Le sitemap est genere automatiquement a `/sitemap_index.xml`. Plus de 13 millions d'installations actives.
+- **Rank Math** : alternative a Yoast, avec plus de fonctionnalites en version gratuite (dont le suivi de position basique). Sitemap a `/sitemap.xml`. Premium a partir de 6.99 USD/mois.
+- **Google Analytics 4** : suivi du trafic, a connecter avec la GSC dans Administration > Associations de produits. Gratuit.
+- **Looker Studio** (ex-Google Data Studio) : pour creer des tableaux de bord personnalises a partir des donnees GSC. Connecteur natif GSC disponible. Gratuit.
+- **MXToolbox** : verification des enregistrements DNS sur [mxtoolbox.com](https://mxtoolbox.com)

@@ -1,11 +1,8 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
-type: outil
+section: apps
+metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: collaboration
 imageNameKey: glowbl
 u_site: https://www.glowbl.com/fr/
 u_affi: null
@@ -16,18 +13,6 @@ description: 'Découvre Glowbl : outil français pour entrepreneurs, fonctionnal
   et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
-u_derniere_maj: '2026-03-20'
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: multi-region
-sourcesVerification:
-  - https://www.glowbl.com/fr/mentions-legales/
-  - https://www.glowbl.com/fr/politique-de-confidentialite/
-  - https://www.glowbl.com/
-notesQualification: 'Glowbl est exploite par GLOWBL SAS a Lyon. Les mentions legales et le site public documentent une societe francaise et un service presente comme heberge en France, mais les mentions legales indiquent aussi un hebergement web sur AWS aux Etats-Unis. Je retiens donc un ancrage economique fort avec un niveau de responsabilite partiel a cause de ce perimetre technique non entierement francais.'
-methodologieVersion: gocharbon-v1
 ---
 
 # Ressources
@@ -111,7 +96,7 @@ A chaque classe virtuelle son déroulé et donc chaque facilitateur dispose du m
 
 Ce déroulé, c’est pendant l’animation, un **assistant virtuel** pour le facilitateur. Il passe d’étape en étape en un clic et toutes les ressources se distribuent aux participants sur les différentes tables automatiquement. Le facilitateur est concentré sur son groupe et plus jamais sur les sujets techniques.
 
-À la fin de la formation, un espace de synthèse permet de récupérer tous les éléments nécessaires et d’administrer la fin de la formation.
+A la fin de la formation, un espace de synthèse permet de récupérer tous les éléments nécessaires et d’administrer la fin de la formation.
 
 Donc c’est l’efficacité à tous les niveaux : pour la **préparation**, pour l’**animation**, pour la **gestion** et pour la **scalabilité**.
 

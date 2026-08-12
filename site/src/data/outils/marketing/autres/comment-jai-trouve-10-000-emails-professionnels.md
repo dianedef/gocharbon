@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: messagerie
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,16 +7,17 @@ imageNameKey: null
 u_site: null
 title: Comment J'Ai Trouvé 10 000 Emails Professionnels En 1 Heure La Méthode Choc
 author: Diane
-description: "Comment J'Ai Trouvé 10 000 Emails Professionnels En 1 Heure La Méthode Choc."
+description: 'Découvre Comment J''Ai Trouvé 10 000 Emails Professionnels En 1 Heure
+  La Méthode Choc : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-Sur des structures comme Intermarché/Les Mousquetaires ou E.Leclerc, les emails sont introuvables par [**Dropcontact**](http://dropcontact.io/?fp_ref=growthhackingfr) (pareil chez Apollo, Lusha, Datagma, etc.), quelle que soit la source des data (LinkedIn, [Société.info](http://Societe.info), etc.)
+Sur des structures comme Intermarché/Les Mousquetaires ou E.Leclerc, les emails sont introuvables par [**Dropcontact**](http://dropcontact.io/?fp_ref=growthhackingfr) (pareil chez Apollo, Lusha, Datagma, etc.), quelle que soit la source des data (LinkedIn, [Societe.info](http://Societe.info), etc.)
 
 C’est une grosse blague la GDPR surtout [**l’article 47**](https://www.privacy-regulation.eu/en/recital-47-GDPR.htm)  il me fume tellement. En gros tu peux divulguer les infos d’une personne si c’est dans le cadre d’une relation commerciale B2B. C’est comme ça que Cognism, Kaspr, Lusha etc… peuvent s’en sortir tranquillement.
 
-[L'agent - Au service des Indépendants 🍀 sur Twitter : "Tu veux trouver des prospects en moins d'1/2 seconde ? Voilà la technique Et ça marche pour tout, tu as juste à modifier les intitulés en respectant les espaces](https://twitter.com/lagent_/status/1555231780894040064) [https://t.co/gTAzu6dgmN](__MASK_4__)" / Twitter
+[L'agent - Au service des Indépendants 🍀 sur Twitter : "Tu veux trouver des prospects en moins d'1/2 seconde ? Voilà la technique Et ça marche pour tout, tu as juste à modifier les intitulés en respectant les espaces](https://twitter.com/lagent_/status/1555231780894040064) [https://t.co/gTAzu6dgmN](https://t.co/gTAzu6dgmN)" / Twitter
 
 
 ## **7 outils pour enrichir vos bases de données**

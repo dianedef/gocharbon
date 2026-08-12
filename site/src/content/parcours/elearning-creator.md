@@ -44,7 +44,7 @@ Concevoir une formation en ligne qui produit un résultat concret eleve.
 - [Fiche profil Elearning Creator](/biz/profils/elearning-creator)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/createur-formation-en-ligne)
+- [Suivi du parcours](/parcours/elearning-creator)
 - [Ressource utile 1](/tutos/creer-une-formation-en-ligne)
 - [Ressource utile 2](/tutos/comment-creer-un-quiz-qui-convertit)
 - [Ressource utile 3](/marketing/email/automation)

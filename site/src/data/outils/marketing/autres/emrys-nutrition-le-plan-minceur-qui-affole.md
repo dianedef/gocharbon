@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: emrys-nutrition
 u_site: null
 title: Emrys Nutrition Le Plan Minceur Qui Affole L'Industrie De La Diététique
 author: Diane
-description: "Emrys Nutrition Le Plan Minceur Qui Affole L'Industrie De La Diététique."
+description: 'Découvre Emrys Nutrition Le Plan Minceur Qui Affole L''Industrie De
+  La Diététique : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -54,7 +55,7 @@ pourquoi, nous avons créé Emrys Nutrition."
 
 ​
 
-[Découvrez la vidéo de présentation d'Emrys Nutrition](https://youtu.be/EWTx_yMtpgI)
+[Découvrez la video de présentation d'Emrys Nutrition](https://youtu.be/EWTx_yMtpgI)
 
 ​
 
@@ -93,7 +94,7 @@ Vous allez apprendre tout ce qui est essentiel et vital de comprendre pour faire
 
  Aller bien c est vivre plus pleinement chaque jour, c est pouvoir atteindre ses rêves avec plus facilité et de certitude de les vivre…
 
- N attendez pas d aller mal pour decider d aller bien….et si malheureusement vous allez déjà mal…alors commencez des maintenant la lecture de ce livre puis posez des actes.
+ N attendez pas d aller mal pour decider d aller bien….et si malheureusement vous allez deja mal…alors commencez des maintenant la lecture de ce livre puis posez des actes.
 
 
 ##  Perte de poids
@@ -106,14 +107,14 @@ Emrys Nutrition est arrivé et [Anne Le Roy Talfer](https://www.facebook.com/gr
 
 - En suivant notre programme minceur (celui du livre),
     
-- En regardant nos vidéos coaching sur le groupe [INSPIRATION Bien-Être Optimal](https://www.facebook.com/groups/inspirationbienetreoptimal/?__cft__[0]=AZXCojr6UhFkgUBWNMfeRODS7kbnx45KinvDvXbMISMl4EmR_z6diJB8HEoEIqbWpq8fzG5glo1pdQLpfuDpORy_vCE9LpdItXO7GjQ8dZQPm4TVb2BtP3XjE7IeHl8ylS-Ubb9jxLfY0J1xBF4TxFX1ddqUMbKoTpAoYBlLdPhquicXtSWjV0Hdxq1TuQNibCAUoMxRB5ZmrhKU5rS5RZSK&__tn__=-UK-R) ,
+- En regardant nos vidéos coaching sur le groupe [INSPIRATION Bien-Etre Optimal](https://www.facebook.com/groups/inspirationbienetreoptimal/?__cft__[0]=AZXCojr6UhFkgUBWNMfeRODS7kbnx45KinvDvXbMISMl4EmR_z6diJB8HEoEIqbWpq8fzG5glo1pdQLpfuDpORy_vCE9LpdItXO7GjQ8dZQPm4TVb2BtP3XjE7IeHl8ylS-Ubb9jxLfY0J1xBF4TxFX1ddqUMbKoTpAoYBlLdPhquicXtSWjV0Hdxq1TuQNibCAUoMxRB5ZmrhKU5rS5RZSK&__tn__=-UK-R) ,
     
 - En suivant nos challenges 5jours max de début de mois
     
 - En écoutant les podcasts sur spotify Anne a d'incroyables résultats !
     
 
-[https://open.spotify.com/show/0oSJ6o5V2r3CKq1gLfC8Hp...](__MASK_9__)
+[https://open.spotify.com/show/0oSJ6o5V2r3CKq1gLfC8Hp...](https://l.facebook.com/l.php?u=https%3A%2F%2Fopen.spotify.com%2Fshow%2F0oSJ6o5V2r3CKq1gLfC8Hp%3Fsi%3Dfcc0ec732f894a7d%26fbclid%3DIwZXh0bgNhZW0CMTAAAR175Isb486B0uU6CsU9asIVxVdBnIpAot0NvHwdUFL8SyOJYZJg8RyUdME_aem_AWbA_K2LqPn100unSCCYCXga-GWKaMF5L7RdZTFyt18Xg_VQz_q5ATU6adD9m8FyCFUA8o3uRdLLacERxXV0mkb8&h=AT3rjoTbY7PSOWGuvWc6hNYojXUIvUQafHyJ0T9BI1mHv-mXYiNhk0J1wnbi9igBDquh1gLuJdl6cJHu2IK8hbHEX64Knj9hcU5onzIZixkm9xDFYxFJpu3CGUqaU91a46lE&__tn__=-UK-R&c[0]=AT1U9CxtAJ6TrHHino0Ttw7x1KRaT1h9IcGVAgroh-eCspcPHrebgxEZXWxW_uSKFKhyRRtjmlhJuwTDB9K5jqvDfDHUNld74YuBhOV9KWpXD0SxhYdcR6C3uCO_7jtcnrqKucb9dwyvYba4zUB-4mUbc1g4O7axjhTLitmzcATDmfNNZyE_hfa713BJAYjrX4dTSEhtF3qTjiPSzYq99MfN024tkHDhYlIWuWjsN0CtwXc)
 
 **Anne, bravo pour tes actions et tes résultats :**
 
@@ -121,7 +122,7 @@ Emrys Nutrition est arrivé et [Anne Le Roy Talfer](https://www.facebook.com/gr
 
 Retrouvez notre livret recettes Nutrition Optimale et notre programme minceur :
 
-[https://hidrive.ionos.com/share/27iwrkh.63](__MASK_10__)
+[https://hidrive.ionos.com/share/27iwrkh.63](https://l.facebook.com/l.php?u=https%3A%2F%2Fhidrive.ionos.com%2Fshare%2F27iwrkh.63%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR0kQzX_QMuNJjHLA5n7-eHafuS1faUbm4J_t4tRmbpZZ1AuvJ8VsezE184_aem_AWaPGVXlY81UYCSITrhFchXemusvdBZXWPlHVE28CKP9oStaFk5QdC2d7Vq6BBec0r_dnvhsvb8SlX5pyop50bAS&h=AT15Ezu9XQb-HpIGkmf9icljSXxrGtYMfjYYeicf3wBsvOrChKQyKyYUTyEnZUasU1Qjebp-qYcqKx-1PnEnOgFWxdQSTINhNu_r4KB-cbFkfHdp7b6qwF_USUg3KGpIz6OX&__tn__=-UK-R&c[0]=AT1U9CxtAJ6TrHHino0Ttw7x1KRaT1h9IcGVAgroh-eCspcPHrebgxEZXWxW_uSKFKhyRRtjmlhJuwTDB9K5jqvDfDHUNld74YuBhOV9KWpXD0SxhYdcR6C3uCO_7jtcnrqKucb9dwyvYba4zUB-4mUbc1g4O7axjhTLitmzcATDmfNNZyE_hfa713BJAYjrX4dTSEhtF3qTjiPSzYq99MfN024tkHDhYlIWuWjsN0CtwXc)
 
 
 ## Les différents produits

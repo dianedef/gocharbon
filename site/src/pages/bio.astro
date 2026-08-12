@@ -1,13 +1,7 @@
 ---
-import { SITE, getSiteUrl } from "../config/site";
-import { ROUTES, getBlogTagRoute } from "../config/routes";
-import { resolveMetaRobots } from "../utils/indexation";
-import "../styles/global.css";
-
-const title = `${SITE.name} | Diane`
-const description = `Diane construit ${SITE.name} pour aider les francophones à lancer des projets utiles, solides et moins bullshit.`
-const siteUrl = SITE.url
-const metaRobots = resolveMetaRobots("/bio");
+const title = "GoCharbon | Links"
+const description = "Tous les liens GoCharbon - Guides, outils et stratégies pour lancer ton business en ligne."
+const siteUrl = "https://gocharbon.com"
 ---
 
 <!DOCTYPE html>
@@ -17,138 +11,131 @@ const metaRobots = resolveMetaRobots("/bio");
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>{title}</title>
 	<meta name="description" content={description} />
-	<meta name="robots" content={metaRobots} />
+	<meta name="robots" content="index, follow" />
 	<link rel="canonical" href={`${siteUrl}/bio`} />
 
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:url" content={`${siteUrl}/bio`} />
 	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content={SITE.name} />
+	<meta property="og:site_name" content="GoCharbon" />
 	<meta property="og:locale" content="fr_FR" />
 
-	<meta property="og:image" content={`${siteUrl}/v1/generate/og/default.png`} />
-
-	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image" content={`${siteUrl}/v1/generate/og/default.png`} />
 
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Sanchez&display=swap" rel="stylesheet" />
 
 	<style>
-		* {
-			margin: var(--bio-page-reset-space);
-			padding: var(--bio-page-reset-space);
-			box-sizing: border-box;
+		:root {
+			--brand-yellow: #f6c700;
+			--brand-orange: #e2572d;
+			--brand-black: #1e1b16;
+			--brand-ink: #0b0b0b;
+			--brand-cream: #f2eee6;
+			--brand-surface: #2f2f2f;
 		}
 
+		* { margin: 0; padding: 0; box-sizing: border-box; }
+
 		body {
-			font-family: var(--bio-page-body-font);
-			background: var(--bio-page-background);
-			color: var(--bio-page-text);
-			min-height: var(--bio-page-min-height);
+			font-family: 'Sanchez', serif;
+			background: var(--brand-ink);
+			color: var(--brand-cream);
+			min-height: 100vh;
 			display: flex;
 			justify-content: center;
-			padding: var(--bio-page-padding);
+			padding: 2rem 1rem;
 		}
 
 		.bio-container {
-			width: var(--bio-page-container-width);
-			max-width: var(--bio-page-container-max-width);
+			width: 100%;
+			max-width: 480px;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap: var(--bio-page-container-gap);
+			gap: 1.5rem;
 		}
 
 		.bio-avatar {
-			width: var(--bio-page-avatar-size);
-			height: var(--bio-page-avatar-size);
-			border-radius: var(--bio-page-avatar-radius);
-			border: var(--bio-page-avatar-border);
+			width: 96px;
+			height: 96px;
+			border-radius: 50%;
+			border: 3px solid var(--brand-yellow);
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			font-size: var(--bio-page-avatar-font-size);
-			background: var(--bio-page-surface);
+			font-size: 2.5rem;
+			background: var(--brand-surface);
 		}
 
 		.bio-name {
-			font-family: var(--bio-page-heading-font);
-			font-size: var(--bio-page-name-size);
-			font-weight: var(--bio-page-name-weight);
-			color: var(--bio-page-name-color);
-			text-align: var(--bio-page-name-align);
+			font-family: 'Poppins', sans-serif;
+			font-size: 1.5rem;
+			font-weight: 700;
+			color: var(--brand-yellow);
+			text-align: center;
 		}
 
 		.bio-tagline {
-			font-size: var(--bio-page-tagline-size);
+			font-size: 0.95rem;
 			text-align: center;
-			color: var(--bio-page-text);
-			line-height: var(--bio-page-tagline-line-height);
-			max-width: var(--bio-page-tagline-max-width);
-		}
-
-		.bio-intro {
-			font-size: var(--bio-page-intro-size);
-			text-align: center;
-			color: var(--bio-page-text);
-			line-height: var(--bio-page-intro-line-height);
-			max-width: var(--bio-page-intro-max-width);
-			opacity: var(--bio-page-intro-opacity);
+			color: var(--brand-cream);
+			line-height: 1.5;
+			max-width: 340px;
 		}
 
 		.bio-links {
-			width: var(--bio-page-container-width);
+			width: 100%;
 			display: flex;
 			flex-direction: column;
-			gap: var(--bio-page-links-gap);
+			gap: 0.75rem;
 		}
 
 		.bio-link {
 			display: block;
-			width: var(--bio-page-link-width);
-			padding: var(--bio-page-link-padding);
+			width: 100%;
+			padding: 1rem 1.25rem;
 			text-align: center;
 			text-decoration: none;
-			font-family: var(--bio-page-heading-font);
-			font-weight: var(--bio-page-link-font-weight);
-			font-size: var(--bio-page-link-size);
-			color: var(--bio-page-link-color);
-			background: var(--bio-page-link-background);
-			border: var(--bio-page-link-border);
-			filter: drop-shadow(var(--bio-page-link-shadow));
-			transition: all var(--bio-page-link-transition);
+			font-family: 'Poppins', sans-serif;
+			font-weight: 600;
+			font-size: 1rem;
+			color: var(--brand-black);
+			background: var(--brand-yellow);
+			border: 3px solid var(--brand-black);
+			filter: drop-shadow(4px 4px 0 var(--brand-orange));
+			transition: all 0.2s ease;
 		}
 
 		.bio-link:hover {
-			filter: drop-shadow(var(--bio-page-link-shadow-hover));
-			transform: translate(var(--bio-page-link-transform), var(--bio-page-link-transform));
+			filter: drop-shadow(2px 2px 0 var(--brand-orange));
+			transform: translate(2px, 2px);
 		}
 
 		.bio-link.accent {
-			background: var(--bio-page-accent-background);
-			color: var(--bio-page-accent-color);
-			filter: drop-shadow(var(--bio-page-link-shadow-accent));
+			background: var(--brand-orange);
+			color: var(--brand-cream);
+			filter: drop-shadow(4px 4px 0 var(--brand-yellow));
 		}
 
 		.bio-link.accent:hover {
-			filter: drop-shadow(var(--bio-page-link-shadow-accent-hover));
-			transform: translate(var(--bio-page-link-transform), var(--bio-page-link-transform));
+			filter: drop-shadow(2px 2px 0 var(--brand-yellow));
+			transform: translate(2px, 2px);
 		}
 
 		.bio-socials {
 			display: flex;
-			gap: var(--bio-page-socials-gap);
-			margin-top: var(--bio-page-socials-margin-top);
+			gap: 1.25rem;
+			margin-top: 0.5rem;
 		}
 
 		.bio-socials a {
-			color: var(--bio-page-social-color);
-			transition: color var(--bio-page-social-transition);
+			color: var(--brand-cream);
+			transition: color 0.2s ease;
 		}
 
 		.bio-socials a:hover {
@@ -156,43 +143,62 @@ const metaRobots = resolveMetaRobots("/bio");
 		}
 
 		.bio-socials svg {
-			width: var(--bio-page-social-size);
-			height: var(--bio-page-social-size);
+			width: 28px;
+			height: 28px;
 		}
 
 		.bio-footer {
-			font-size: var(--bio-page-footer-size);
-			color: var(--bio-page-text);
-			opacity: var(--bio-page-footer-opacity);
-			margin-top: var(--bio-page-footer-margin-top);
+			font-size: 0.8rem;
+			color: var(--brand-cream);
+			opacity: 0.6;
+			margin-top: 1rem;
 		}
+
+		*,
+		*::before,
+		*::after {
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
 	</style>
 </head>
 <body>
+	<script>
+		(() => {
+			const blockEvent = (event) => event.preventDefault();
+			document.addEventListener("copy", blockEvent);
+			document.addEventListener("cut", blockEvent);
+			document.addEventListener("contextmenu", blockEvent);
+			document.addEventListener("selectstart", blockEvent);
+			document.addEventListener("dragstart", blockEvent);
+			document.addEventListener("keydown", (event) => {
+				if (!(event.ctrlKey || event.metaKey)) return;
+				const key = event.key.toLowerCase();
+				if (["a", "c", "u", "x"].includes(key)) event.preventDefault();
+			});
+		})();
+	</script>
 	<div class="bio-container">
 		<div class="bio-avatar">
 			<span>&#x1F469;&#x200D;&#x1F4BB;</span>
 		</div>
 
-		<h1 class="bio-name">DIANE / GOCHARBON</h1>
+		<h1 class="bio-name">GOCHARBON</h1>
 
 		<p class="bio-tagline">
-			Française, 36 ans, je construis des produits et des contenus pour aider les gens à passer de l'idée au concret.
-		</p>
-
-		<p class="bio-intro">
-			{SITE.name}, c'est un terrain de travail utile : parcours, outils et plans d'action pour les francophones qui veulent
-			construire proprement. On ne cache pas les limites, et on avance en choisissant vite ce qui marche vraiment.
+			Lance ton business en ligne. Guides concrets, outils testés, zéro bullshit.
 		</p>
 
 		<div class="bio-links">
-			<a href={getSiteUrl(ROUTES.parcours)} class="bio-link accent">Commencer par les parcours</a>
-			<a href={getSiteUrl(ROUTES.quiz)} class="bio-link">Faire le quiz business</a>
-			<a href={getSiteUrl(ROUTES.home)} class="bio-link">Accueil</a>
-			<a href={getSiteUrl(ROUTES.blog)} class="bio-link">Blog</a>
-			<a href={getSiteUrl(ROUTES.outils)} class="bio-link">Voir les outils</a>
-			<a href={getSiteUrl(getBlogTagRoute("productivite"))} class="bio-link">Productivité & exécution</a>
-			<a href={getSiteUrl("/#guide-outils-francais-gratuits")} class="bio-link">Recevoir le guide des outils français</a>
+			<a href="https://gocharbon.com" class="bio-link">Accueil</a>
+			<a href="https://gocharbon.com/blog" class="bio-link">Blog</a>
+			<a href="https://gocharbon.com/quiz" class="bio-link">Quiz : Trouve Ton Business</a>
+			<a href="https://gocharbon.com/blog?tags=apps" class="bio-link">Apps & Outils</a>
+			<a href="https://gocharbon.com/blog?tags=productivite" class="bio-link">Gamification & Productivité</a>
+			<a href="https://gocharbon.com/#guide-outils-francais-gratuits" class="bio-link accent">Reçois le Guide des Outils Français Gratuits</a>
 		</div>
 
 		<div class="bio-socials">
@@ -214,7 +220,7 @@ const metaRobots = resolveMetaRobots("/bio");
 			</a>
 		</div>
 
-		<p class="bio-footer">&copy; 2026 {SITE.name}</p>
+		<p class="bio-footer">&copy; 2026 GoCharbon</p>
 	</div>
 </body>
 </html>

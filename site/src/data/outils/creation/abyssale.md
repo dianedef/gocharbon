@@ -1,11 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: design
-toolFacets:
-  - ia
+type: app
 tags:
 - Outils
 imageNameKey: abyssale
@@ -69,7 +65,7 @@ Investisseurs : Founders Future, Kima Ventures, BPI France.
 
 Liens
 
-[](https://developers.abyssale.com/)[https://developers.abyssale.com](__MASK_6__)
+[](https://developers.abyssale.com/)[https://developers.abyssale.com](https://developers.abyssale.com)
 
 # **Automatisez votre production créative dès aujourd'hui !**
 
@@ -77,7 +73,7 @@ Liens
 
 # **L'outil parfait pour les ads vidéo !**
 
-Notre vidéo editor a été conçu spécialementpour la production d'ads vidéo qui attirent l'attention.
+Notre video editor a été conçu spécialementpour la production d'ads vidéo qui attirent l'attention.
 
 ### **Créez un template**
 
@@ -151,9 +147,9 @@ Appliquez vos modifications à toutes les tailles, ou pas
 
 # **Méthodes de génération**
 
-SDK ou explorez notre developper’s hub pour générer des vidéos depuis n'importe où.Découvrez l'API Abyssale]([https://fr.abyssale.com/image-video-generation-api](__MASK_9__))
+SDK ou explorez notre developper’s hub pour générer des vidéos depuis n'importe où.Découvrez l'API Abyssale]([https://fr.abyssale.com/image-video-generation-api](https://fr.abyssale.com/image-video-generation-api))
 
-- à partir de +1000 applications en utilisant l'app Zapier Abyssale([https://fr.abyssale.com/integrations-zapier](__MASK_10__))
+- à partir de +1000 applications en utilisant l'app Zapier Abyssale([https://fr.abyssale.com/integrations-zapier](https://fr.abyssale.com/integrations-zapier))
 - [Make (ex Integromat) Connectez Abyssale à +500 applications grâce à notre application Make. Générez des bannières HTML5 à partir de vos données et élaborez des workflows puissants.Voir l'intégration Make](https://fr.abyssale.com/integrations-make-ex-integromat)[Abyssale Single generation
 
 Générez facilement une bannière animée à partir de votre template en modifiant le contenu de vos layers ou exportez simplement ce que vous avez créé dans l'éditeur. Coming soonAbyssale Image form
@@ -371,7 +367,7 @@ Pendant votre période d'essai, le nombre de bannières que vous pouvez génére
 
 # Que se passe-t-il après mon essai ?
 
-À la fin de votre période d'essai, votre compte sera limité. Pour accéder à toutes les fonctionnalités d'Abyssale et lever les limitations de génération et d'exportation de bannières, vous pouvez passer au plan Essential ou au plan Advanced. Vous pouvez nous contacter pour plus d'informations concernant notre plan Entreprise.Le propriétaire du compte (la personne qui a créé le compte de l'organisation) peut faire ce choix à partir de la page Facturation des paramètres de l'organisation. Vous pouvez trouver tous les détails sur chacun d'entre eux sur notre [page Tarification](https://www.abyssale.com/pricing).Tous vos templates, tâches, bannières générées, conversations et paramètres d'organisation resteront en place !
+A la fin de votre période d'essai, votre compte sera limité. Pour accéder à toutes les fonctionnalités d'Abyssale et lever les limitations de génération et d'exportation de bannières, vous pouvez passer au plan Essential ou au plan Advanced. Vous pouvez nous contacter pour plus d'informations concernant notre plan Entreprise.Le propriétaire du compte (la personne qui a créé le compte de l'organisation) peut faire ce choix à partir de la page Facturation des paramètres de l'organisation. Vous pouvez trouver tous les détails sur chacun d'entre eux sur notre [page Tarification](https://www.abyssale.com/pricing).Tous vos templates, tâches, bannières générées, conversations et paramètres d'organisation resteront en place !
 
 # Questions fréquentes
 
@@ -414,7 +410,7 @@ Cela peut être utile si vous êtes freelance et gérez les comptes Abyssale de 
 
 L'application Airtable d'Abyssale permet de générer automatiquement des images à partir de vos bases à l'aide d'un seul bouton directement dans Airtable.
 
-**L'application peut être trouvée sur le marketplace Airtable ici : [https://airtable.com/marketplace/blkB14c3EShbFLlh4/abyssale**](__MASK_69__)
+**L'application peut être trouvée sur le marketplace Airtable ici : [https://airtable.com/marketplace/blkB14c3EShbFLlh4/abyssale**](https://airtable.com/marketplace/blkB14c3EShbFLlh4/abyssale**)
 
 
 # **Comment l'installer :**
@@ -436,7 +432,7 @@ Suivez les instructions et collez votre clé API
 
 Allez sur
 
-[](https://app.abyssale.com/)[https://app.abyssale.com](__MASK_71__)
+[](https://app.abyssale.com/)[https://app.abyssale.com](https://app.abyssale.com)
 
 > Paramètres -> API
 
@@ -629,7 +625,7 @@ Vous pouvez désormais générer automatiquement des vidéos avec une superposit
 
 Sélectionnez un template de vidéo en arrière plan dans [Public templates] (
 
-[https://app.abyssale.com/public-templates](__MASK_83__)
+[https://app.abyssale.com/public-templates](https://app.abyssale.com/public-templates)
 
 ) en cliquant sur
 
@@ -648,7 +644,7 @@ lors de la création du template.
 
 # **Ajouter une vidéo en arrière-plan**
 
-**Cette option est disponible uniquement sur un template de type "Overlay on vidéo".**
+**Cette option est disponible uniquement sur un template de type "Overlay on video".**
 
 Dans le
 
@@ -961,7 +957,7 @@ Il vous suffit d'intégrer cette URL dans vos outils et de modifier l'url direct
 
 Consultez[ cet article](
 
-[https://blog.abyssale.com/how-to-create-a-custom-welcome-email-using-abyssale-dynamic-image-and-sendinblue/](__MASK_87__)
+[https://blog.abyssale.com/how-to-create-a-custom-welcome-email-using-abyssale-dynamic-image-and-sendinblue/](https://blog.abyssale.com/how-to-create-a-custom-welcome-email-using-abyssale-dynamic-image-and-sendinblue/)
 
 ) sur notre blog sur l'intégration d'images dynamiques sur Sendingblue. Vous trouverez cette partie à la fin de l'article.
 

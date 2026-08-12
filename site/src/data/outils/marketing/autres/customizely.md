@@ -1,13 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: personalization
+section: apps
 metadataEnrichedAt: null
 title: Customizely
 author: Diane
 tags:
 - Outils
-description: "Customizely est un outil de personnalisation dynamique de landing pages. +58% de conversion. A/B testing, personnalisation par mots-clés, ville, données prospect. Dès 19€/mois."
+description: Customizely est un outil de personnalisation dynamique de landing pages.
+  +58% de conversion. A/B testing, personnalisation par mots-clés, ville, données
+  prospect. Dès 19€/mois.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://customizely.app/fr/

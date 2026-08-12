@@ -1,9 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-- ia
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -11,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'Ia De Génération D'Images Qui Va Rendre Vos Designs Absolument Époustouflants
 author: Diane
-description: "L'Ia De Génération D'Images Qui Va Rendre Vos Designs Absolument Époustouflants."
+description: 'Découvre L''Ia De Génération D''Images Qui Va Rendre Vos Designs Absolument
+  Époustouflants : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

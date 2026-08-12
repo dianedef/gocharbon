@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.macompta.fr/mentions-legales
-- https://www.macompta.fr/politique-confidentialite
-- https://help.macompta.fr/fr/articles/124846-comment-est-assuree-la-securite-des-donnees
-notesQualification: Macompta.fr est une societe francaise basee a Lagord; les sources publiques documentent un hebergement en France, une securite detaillee et une certification ISO 27001, avec un ancrage local et responsable tres solide.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Macompta.fr
 author: Diane
 tags:

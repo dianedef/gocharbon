@@ -78,7 +78,7 @@ ALIAS_TO_MAIN = {
     "ia": "tech",
     "developpement": "tech",
     "web": "tech",
-    "apps": "outils",
+    "apps": "tech",
     "application": "tech",
     "productivite": "productivite",
     "organisation": "productivite",

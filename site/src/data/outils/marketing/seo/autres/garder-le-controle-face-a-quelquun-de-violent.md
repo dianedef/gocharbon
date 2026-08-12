@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 _notes: null
 _priorité: null
@@ -8,12 +8,12 @@ datePublié: null
 seo_motClef: null
 tags:
 - Outils
-type: outil
+type: null
 u_externe: null
 u_interne: null
-title: Garder Le Contrôle Face À Quelqu'Un De Violent
+title: Garder Le Controle Face À Quelqu'Un De Violent
 author: Diane
-description: 'Découvre Garder Le Contrôle Face À Quelqu''Un De Violent : outil français
+description: 'Découvre Garder Le Controle Face À Quelqu''Un De Violent : outil français
   pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg

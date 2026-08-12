@@ -1,11 +1,12 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Marketing Automation
 author: Diane
-description: "Marketing Automation."
+description: 'Découvre Marketing Automation : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -168,7 +169,7 @@ Outre ceux cités ici, il existe d’autres avantages non négligeables notammen
 
 # **Conclusion sur le marketing automation**
 
-Les équipes marketing sérieuses savent que l’automatisation est l’une des clés pour développer les ventes, ces tâches marketing doivent si ce n’est pas déjà le cas, devenir l’un des incontournables à ne pas manquer.
+Les équipes marketing sérieuses savent que l’automatisation est l’une des clés pour développer les ventes, ces tâches marketing doivent si ce n’est pas deja le cas, devenir l’un des incontournables à ne pas manquer.
 
 Le marketing automation n’est pas orphelin d’outils comme Hubspot une suite marketing digitale qui permet de travailler différents scénarios de marketing automation.
 

@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-04-27T20:51:16.528629+00:00",
+  "generatedAt": "2026-03-07T17:38:14.744659+00:00",
   "scope": "src/data/outils/**/*.md",
   "summary": {
-    "total": 1574,
-    "ok": 703,
-    "warn": 743,
-    "fail": 128
+    "total": 1541,
+    "ok": 554,
+    "warn": 725,
+    "fail": 262
   },
   "topIssues": [
     [
       "u_site manquant ou URL invalide",
-      854
+      975
     ],
     [
       "Contenu trop court (< 120 mots)",
-      159
+      314
     ],
     [
       "Titre trop court",
@@ -24,35 +24,27 @@
   "topWarnings": [
     [
       "Aucun titre H1 (# ...) détecté",
-      502
+      770
     ],
     [
       "Contenu léger (< 250 mots)",
-      387
-    ],
-    [
-      "Description courte (< 60 caractères)",
-      65
+      100
     ],
     [
       "Lignes répétées détectées (possible bruit de copie)",
-      49
+      91
     ],
     [
       "Artefact de contenu détecté: '|---|'",
-      29
+      46
     ],
     [
       "Artefact de contenu détecté: 'La Fabrique du Net'",
-      7
+      5
     ],
     [
-      "Tag principal 'Outils' absent",
-      6
-    ],
-    [
-      "section devrait être 'outils'",
-      2
+      "Artefact de contenu détecté: 'ESSAI GRATUIT'",
+      3
     ],
     [
       "Artefact de contenu détecté: 'Articles populaires'",
@@ -67,193 +59,11 @@
       1
     ],
     [
-      "Artefact de contenu détecté: 'ESSAI GRATUIT'",
+      "Artefact de contenu détecté: 'Hello Defores'",
       1
     ]
   ],
   "worstFiles": [
-    {
-      "path": "src/data/outils/business/autres/mon-crm.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 0,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-apps-secretes-que-tous-les-parisiens-branches.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 83,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-assistants-ia-qui-vont-rendre-votre-patron.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 94,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/5-raisons-choquantes-de-ne-jamais-creer-un-site.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 59,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/ab-testing-doublez-vos-ventes-avec-cette.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 40,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/devenez-expert-et-gagnez-6-chiffres-la-methode.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 99,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/devenez-un-genie-excel-avec-ces-outils.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 50,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/formation-lowfruits.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 74,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/le-logiciel-de-caisse-qui-va-booster-vos-ventes.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 97,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/lerp-francais-qui-va-faire-de-vous-le-nouveau.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 118,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/les-astuces-seo-choc-des-coachs-qui-cartonnent.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 76,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/les-secrets-choquants-des-seo-derriere-qwant.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 16,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/smartvideo-la-technologie-qui-va-rendre-youtube.md",
-      "score": 45,
-      "status": "fail",
-      "wordCount": 26,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
     {
       "path": "src/data/outils/communication/crisp.md",
       "score": 50,
@@ -266,6 +76,32 @@
         "Artefact de contenu détecté: 'Obtenez une estimation de prix'",
         "Artefact de contenu détecté: 'La Fabrique du Net'",
         "Artefact de contenu détecté: 'ESSAI GRATUIT'"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/innovation.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/le-controle.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 40,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
       ]
     },
     {
@@ -282,10 +118,127 @@
       ]
     },
     {
+      "path": "src/data/outils/business/autres/memes.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/mon-crm.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 16,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/outils-pour-devenir-la-meilleure-version-de-toi.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 8,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/pourquoi-jabandonne-wordpress.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 3,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/quand-et-comment-externaliser-delguer.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/retention-clients.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 20,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/scam-detect.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 14,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/business/autres/site-funs.md",
       "score": 55,
       "status": "fail",
       "wordCount": 51,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/start-with-why.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 1,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/business/autres/trouver-un-sens-a-sa-vie-son-pourquoi.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 16,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -373,10 +326,49 @@
       ]
     },
     {
+      "path": "src/data/outils/creation/autres/astruce-google-chrome.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 19,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/creation/autres/automatiser.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 16,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/creation/autres/cette-competence-paye-plus-que-le-prompt.md",
       "score": 55,
       "status": "fail",
       "wordCount": 18,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/creation/autres/comment-fonctione-le-navigateur.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 14,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -399,10 +391,75 @@
       ]
     },
     {
+      "path": "src/data/outils/creation/autres/creer-sa-presence-en-ligne-en-tant-que-coach.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 17,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/creation/autres/debug-defensive-programming.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 15,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/creation/autres/direct-response-marketing-predateur.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 14,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/creation/autres/goalflowz.md",
       "score": 55,
       "status": "fail",
       "wordCount": 19,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/creation/autres/liez-vos-favoris-a-obsidian-boostez-votre.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 5,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/creation/autres/little-snitch.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 13,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -438,10 +495,62 @@
       ]
     },
     {
-      "path": "src/data/outils/marketing/autres/10-apps-qui-vont-faire-de-nos-seniors-des-geeks.md",
+      "path": "src/data/outils/creation/autres/realite.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 75,
+      "wordCount": 7,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/creation/autres/sous-titre-gratuits-sous-dvr.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 13,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/creation/autres/viralite.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 15,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/ecommerce/autres/digital-pr.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/10-assistants-ia-qui-vont-rendre-votre-patron.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 41,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -454,7 +563,7 @@
       "path": "src/data/outils/marketing/autres/10-idees-dactivites-de-team-building-qui-vont.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 30,
+      "wordCount": 12,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -467,7 +576,20 @@
       "path": "src/data/outils/marketing/autres/10-raisons-pour-acheter-francais-et-devenir-un.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 47,
+      "wordCount": 31,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/5-raisons-choquantes-de-ne-jamais-creer-un-site.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 63,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -490,10 +612,75 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/ab-testing-doublez-vos-ventes-avec-cette.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 25,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/acceptez-des-paiements-en-ligne-comme-un-pro-et.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/agi-les-mesures-choc-prises-en-secret-pour-eviter.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 29,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/apprenez-une-langue-en-30-jours-la-methode-choc.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 43,
+      "wordCount": 24,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/boostez-votre-seo-avec-ces-outils-secrets.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/comment-jai-gagne-10-000-en-affiliation-en.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 10,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -506,7 +693,7 @@
       "path": "src/data/outils/marketing/autres/comment-jai-gagne-mon-premier-million-grace-a-mon.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 32,
+      "wordCount": 15,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -519,7 +706,7 @@
       "path": "src/data/outils/marketing/autres/construisez-un-crm-surpuissant-sans-coder-les.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 28,
+      "wordCount": 12,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -545,7 +732,7 @@
       "path": "src/data/outils/marketing/autres/creez-des-landing-pages-gratuites-qui.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 70,
+      "wordCount": 110,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -568,10 +755,49 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/detectez-le-contenu-ia-comme-un-pro-les-astuces.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 83,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/devenez-expert-et-gagnez-6-chiffres-la-methode.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 85,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/devenez-invisible-en-ligne-la-methode-secrete.md",
       "score": 55,
       "status": "fail",
       "wordCount": 49,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/devenez-un-genie-excel-avec-ces-outils.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 50,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -607,6 +833,19 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/ecrasez-votre-concurrence-5-outils-sournois-pour.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/emrys-nutrition-le-plan-minceur-qui-fait-trembler.md",
       "score": 55,
       "status": "fail",
@@ -623,7 +862,7 @@
       "path": "src/data/outils/marketing/autres/faites-parler-vos-clients-et-triplez-vos-ventes.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 46,
+      "wordCount": 28,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -634,6 +873,45 @@
     },
     {
       "path": "src/data/outils/marketing/autres/financez-votre-projet-comme-un-pro-les-secrets.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 12,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/formation-lowfruits.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 74,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/generez-un-revenu-passif-de-5000-mois-sans.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/integrez-lia-a-wordpress-et-boostez-votre-trafic.md",
       "score": 55,
       "status": "fail",
       "wordCount": 30,
@@ -649,7 +927,7 @@
       "path": "src/data/outils/marketing/autres/jean-marie-corda-les-secrets-marketing-du-gourou.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 57,
+      "wordCount": 40,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -662,7 +940,7 @@
       "path": "src/data/outils/marketing/autres/la-marque-de-vetements-pret-a-porter-qui-affole.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 33,
+      "wordCount": 16,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -675,7 +953,7 @@
       "path": "src/data/outils/marketing/autres/la-methode-incroyable-pour-regarder-netflix-a.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 25,
+      "wordCount": 9,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -711,6 +989,19 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/la-technique-choc-pour-reussir-faites-le-pire.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/la-technique-doutreach-qui-va-faire-exploser.md",
       "score": 55,
       "status": "fail",
@@ -737,10 +1028,23 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/le-crm-ultime-qui-va-transformer-votre-entreprise.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 112,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/le-framework-gtd-qui-va-booster-votre.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 48,
+      "wordCount": 32,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -776,6 +1080,19 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/le-logiciel-de-caisse-qui-va-booster-vos-ventes.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 97,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/le-modele-de-calendrier-qui-va-revolutionner.md",
       "score": 55,
       "status": "fail",
@@ -792,7 +1109,7 @@
       "path": "src/data/outils/marketing/autres/le-profil-facebook-pro-qui-va-faire-pleuvoir-les.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 37,
+      "wordCount": 19,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -818,7 +1135,33 @@
       "path": "src/data/outils/marketing/autres/lediteur-video-cloud-qui-va-rendre-vos.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 77,
+      "wordCount": 67,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/lempire-chick-fil-a-les-strategies-secretes-dun.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 8,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/lerp-francais-qui-va-faire-de-vous-le-nouveau.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 118,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -844,7 +1187,7 @@
       "path": "src/data/outils/marketing/autres/les-apps-de-productivite-tellement-incroyables.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 40,
+      "wordCount": 24,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -870,7 +1213,20 @@
       "path": "src/data/outils/marketing/autres/les-astuces-choc-pour-rendre-votre-contenu.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 28,
+      "wordCount": 11,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/les-astuces-seo-choc-des-coachs-qui-cartonnent.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 60,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -883,7 +1239,7 @@
       "path": "src/data/outils/marketing/autres/les-box-loisirs-qui-vont-rendre-votre-vie-10-fois.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 57,
+      "wordCount": 39,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -896,7 +1252,20 @@
       "path": "src/data/outils/marketing/autres/les-decouvertes-medicales-choquantes-qui-vont.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 28,
+      "wordCount": 13,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/les-evenements-seo-secrets-ou-se-font-les.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 111,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -945,6 +1314,19 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/les-outils-de-community-manager-qui-vont-rendre.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/les-outils-de-travail-de-groupe-qui-vont-booster.md",
       "score": 55,
       "status": "fail",
@@ -971,10 +1353,23 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/les-plus-grosses-arnaques-de-tous-les-temps.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 5,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/les-raccourcis-youtube-qui-vont-rendre-votre.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 32,
+      "wordCount": 15,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -987,7 +1382,7 @@
       "path": "src/data/outils/marketing/autres/les-reseaux-sociaux-francais-qui-vont-detroner.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 40,
+      "wordCount": 24,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1000,7 +1395,20 @@
       "path": "src/data/outils/marketing/autres/les-secrets-choquants-derriere-lascension.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 34,
+      "wordCount": 20,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/les-secrets-choquants-des-seo-derriere-qwant.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 20,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1013,7 +1421,7 @@
       "path": "src/data/outils/marketing/autres/les-secrets-de-persuasion-daristote-qui-vont.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 44,
+      "wordCount": 26,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1039,7 +1447,7 @@
       "path": "src/data/outils/marketing/autres/les-startups-agtech-qui-vont-revolutionner-notre.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 116,
+      "wordCount": 102,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1052,7 +1460,7 @@
       "path": "src/data/outils/marketing/autres/les-techniques-choc-des-entreprises-pour-vous.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 46,
+      "wordCount": 29,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1065,7 +1473,7 @@
       "path": "src/data/outils/marketing/autres/les-techniques-marketing-flippantes-de-la.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 29,
+      "wordCount": 14,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1114,10 +1522,23 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/loutil-gratuit-indispensable-qui-va-propulser.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/loutil-qui-va-transformer-vos-soirees-cine-a.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 30,
+      "wordCount": 13,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1156,7 +1577,7 @@
       "path": "src/data/outils/marketing/autres/monetisez-votre-expertise-10-apps-francaises-qui.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 50,
+      "wordCount": 33,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1205,6 +1626,19 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/autres/piratage-de-notoriete-la-technique-secrete-des.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 17,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/autres/pourquoi-la-cupidite-va-vous-rendre-riche-les.md",
       "score": 55,
       "status": "fail",
@@ -1221,7 +1655,7 @@
       "path": "src/data/outils/marketing/autres/pourquoi-les-coachs-qui-bradent-leurs-prix.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 39,
+      "wordCount": 21,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1234,7 +1668,7 @@
       "path": "src/data/outils/marketing/autres/pourquoi-travailler-dur-est-un-piege-la-verite.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 52,
+      "wordCount": 34,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1247,7 +1681,7 @@
       "path": "src/data/outils/marketing/autres/retrouvez-nimporte-quel-fichier-en-3-secondes.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 30,
+      "wordCount": 14,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1260,7 +1694,7 @@
       "path": "src/data/outils/marketing/autres/saas-revele-comment-creer-une-machine-a-cash.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 44,
+      "wordCount": 28,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1286,7 +1720,20 @@
       "path": "src/data/outils/marketing/autres/shopify-tremble-10-alternatives-francaises-qui.md",
       "score": 55,
       "status": "fail",
-      "wordCount": 56,
+      "wordCount": 40,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/autres/smartvideo-la-technologie-qui-va-rendre-youtube.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 12,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1348,6 +1795,32 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/creer-du-contenu-qui-plaira-a-google.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 23,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/creez-des-backlinks-comme-un-pro-votre-site-1-sur.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 12,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/dechet-consommation-et-pollution-electronique.md",
       "score": 55,
       "status": "fail",
@@ -1361,10 +1834,75 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/deconstruire.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 17,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/defendre-la-patrie-la-france.md",
       "score": 55,
       "status": "fail",
       "wordCount": 58,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/determinisme.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 16,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/devenir-un-leader.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 16,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/dire-non.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 30,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/energie-sexuelle.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 9,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1439,6 +1977,32 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/inceste.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 15,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/intuition.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 21,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/killer-or-not.md",
       "score": 55,
       "status": "fail",
@@ -1456,6 +2020,19 @@
       "score": 55,
       "status": "fail",
       "wordCount": 15,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/la-guerre-froide-en-relation.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 17,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1491,10 +2068,101 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/la-puissance-de-lego.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 23,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/la-redefinition-des-structures-dautorite.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 16,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/la-verite.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 16,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/la-volonte.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 14,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/lamour-es-sentiments-cest-quoi.md",
       "score": 55,
       "status": "fail",
       "wordCount": 76,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/langage-corporel.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 23,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/le-concept-de-justice.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 13,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/le-probleme-avec-le-desir.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 5,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1530,10 +2198,62 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/linksgarden.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 37,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/mechancete-gratuite-faire-face-aux-critiques-et.md",
       "score": 55,
       "status": "fail",
       "wordCount": 93,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/meurtre-passionnel-de-rage.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 12,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/monstre-et-horreur.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 11,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/paradoxes-et-contradictions.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 14,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1556,10 +2276,36 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/pauvrete-et-precarite.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 17,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/peut-on-reparer-un-serial-killer.md",
       "score": 55,
       "status": "fail",
       "wordCount": 37,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/pornographie.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 9,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1608,6 +2354,19 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/retourner-une-situation.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 18,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/semtrack-loutil-seo-qui-va-pulveriser-vos.md",
       "score": 55,
       "status": "fail",
@@ -1634,6 +2393,19 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/seopepper.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/sortir-dune-relation-toxique.md",
       "score": 55,
       "status": "fail",
@@ -1647,10 +2419,49 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/sortir-dune-relation-violente.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/spiritualite-philosophie.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 14,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/seo/autres/stalking.md",
       "score": 55,
       "status": "fail",
       "wordCount": 29,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/surconsommation-et-neuromarketing-agressif.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 9,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1686,6 +2497,32 @@
       ]
     },
     {
+      "path": "src/data/outils/marketing/seo/autres/traffic-dhumain-et-denfants.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 15,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/marketing/seo/autres/tu-es-la-somme-de-tes-consommation-et-tes.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 9,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/marketing/social-media/autres/etre-une-femme-cest-recevoir-bcp-dattention-non.md",
       "score": 55,
       "status": "fail",
@@ -1712,10 +2549,49 @@
       ]
     },
     {
+      "path": "src/data/outils/productivite/autres/productivite-organisation-sur-le-web.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 10,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
       "path": "src/data/outils/productivite/autres/tu-dois-etre-la-meilleure-version-et-arreter-la.md",
       "score": 55,
       "status": "fail",
       "wordCount": 36,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/tech/autres/api-web-api.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 11,
+      "issues": [
+        "u_site manquant ou URL invalide",
+        "Contenu trop court (< 120 mots)"
+      ],
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
+    },
+    {
+      "path": "src/data/outils/tech/autres/le-meilleur-moyen-dacceder-aux-docs.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 16,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
@@ -1751,912 +2627,41 @@
       ]
     },
     {
-      "path": "src/data/outils/marketing/autres/concept-aarrr-cycle-de-vente.md",
-      "score": 60,
-      "status": "warn",
-      "wordCount": 222,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/grawth-loutil-secret-des-entrepreneurs-qui.md",
-      "score": 60,
-      "status": "warn",
-      "wordCount": 176,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/la-edge-stackmd.md",
-      "score": 60,
-      "status": "warn",
-      "wordCount": 212,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/lediteur-video-ia-cloud-qui-va-revolutionner-vos.md",
-      "score": 60,
-      "status": "warn",
-      "wordCount": 218,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/les-podcasts-extra-qui-vont-booster-votre-qi-de.md",
-      "score": 60,
-      "status": "warn",
-      "wordCount": 205,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/pockettube-loutil-youtube-cache-qui-va-changer.md",
-      "score": 60,
-      "status": "warn",
-      "wordCount": 194,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/voyagez-comme-un-vip-avec-ces-10-apps-francaises.md",
-      "score": 60,
-      "status": "warn",
-      "wordCount": 137,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/chat-28122025-195425.md",
-      "score": 62,
-      "status": "warn",
-      "wordCount": 506,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté",
-        "Lignes répétées détectées (possible bruit de copie)"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/oubliez-webflow-voici-loutil-qui-va-le-detroner.md",
-      "score": 62,
-      "status": "warn",
-      "wordCount": 5965,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté",
-        "Lignes répétées détectées (possible bruit de copie)"
-      ]
-    },
-    {
-      "path": "src/data/outils/communication/index.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 59,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/creation/autres/markdown-larme-secrete-des-redacteurs-web-qui.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 17,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/creation/autres/windows-powertoys.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 42,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/ecommerce/index.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 91,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/formation/index.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 91,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/autres/explosez-vos-revenus-avec-les-dm-la-strategie.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 20,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/seo/autres/eviter-la-rupture-et-le-divorce.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 25,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/seo/autres/garder-le-controle-face-a-quelquun-de-violent.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 16,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/seo/autres/la-facon-la-plus-facile-dinstaller-locamenet-des.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 18,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/seo/autres/la-loi-le-cadre-les-interdictions.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 45,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/seo/autres/limportance-de-la-gratitude.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 115,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/seo/autres/pbn-studio.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 22,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/seo/autres/personne-naide-les-auteurs-de-violence.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 41,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/marketing/seo/autres/prestige-et-capital-social.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 53,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/productivite/autres/la-technique-secrete-pour-une-concentration.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 14,
-      "issues": [
-        "u_site manquant ou URL invalide",
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": []
-    },
-    {
-      "path": "src/data/outils/productivite/index.md",
-      "score": 63,
-      "status": "warn",
+      "path": "src/data/outils/tech/ia/autres/adictiz.md",
+      "score": 55,
+      "status": "fail",
       "wordCount": 104,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
       ],
-      "warnings": []
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
     },
     {
-      "path": "src/data/outils/tech/index.md",
-      "score": 63,
-      "status": "warn",
-      "wordCount": 101,
+      "path": "src/data/outils/tech/ia/autres/affiliate.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 84,
       "issues": [
         "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
       ],
-      "warnings": []
+      "warnings": [
+        "Aucun titre H1 (# ...) détecté"
+      ]
     },
     {
-      "path": "src/data/outils/marketing/autres/la-machine-a-clics.md",
-      "score": 65,
-      "status": "warn",
-      "wordCount": 26,
+      "path": "src/data/outils/tech/ia/autres/app-institut-de-beaute.md",
+      "score": 55,
+      "status": "fail",
+      "wordCount": 0,
       "issues": [
+        "u_site manquant ou URL invalide",
         "Contenu trop court (< 120 mots)"
       ],
       "warnings": [
-        "Description courte (< 60 caractères)"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/la-methode-tugan-bara-pour-un-revenu-exponentiel.md",
-      "score": 65,
-      "status": "warn",
-      "wordCount": 1402,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "section devrait être 'outils'",
-        "Tag principal 'Outils' absent",
-        "Artefact de contenu détecté: '|---|'"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/persona-maker.md",
-      "score": 65,
-      "status": "warn",
-      "wordCount": 2,
-      "issues": [
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/tugan-bara-et-les-rx-la-verite-choquante-enfin.md",
-      "score": 67,
-      "status": "warn",
-      "wordCount": 350,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "section devrait être 'outils'",
-        "Tag principal 'Outils' absent",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/tech/ia/isahit.md",
-      "score": 67,
-      "status": "warn",
-      "wordCount": 107,
-      "issues": [
-        "Contenu trop court (< 120 mots)"
-      ],
-      "warnings": [
-        "Tag principal 'Outils' absent"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/social-media/magniv-pro.md",
-      "score": 68,
-      "status": "warn",
-      "wordCount": 3078,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Artefact de contenu détecté: 'La Fabrique du Net'",
-        "Artefact de contenu détecté: '|---|'"
-      ]
-    },
-    {
-      "path": "src/data/outils/tech/ia/autres/ui.md",
-      "score": 68,
-      "status": "warn",
-      "wordCount": 229,
-      "issues": [
-        "Titre trop court",
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)"
-      ]
-    },
-    {
-      "path": "src/data/outils/business/autres/build-a-directory.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 219,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/creation/autres/la-structure-de-page-de-vente-qui-convertit-a-80.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 183,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/ecommerce/autres/quel-business-est-fait-pour-vous-le-test-qui-va.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 177,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-alternative-gratuites-a-midjourney-qui-vont.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 179,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-apps-dautomatisation-francaises-qui-vont-vous.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 149,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-apps-de-codage-cloud-qui-vont-rendre-vos.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 152,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-apps-de-creation-de-bons-de-commande-qui-va.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 156,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-apps-francaises-qui-vont-revolutionner-votre.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 159,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-apps-francaises-qui-vont-transformer-votre-e.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 123,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-apps-qui-vont-faire-de-votre-entreprise-un.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 120,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-business-tellement-bizarres-que-vous-ny.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 283,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-innovations-tech-si-flippantes-quelles-vont.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 235,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/10-logiciels-gratuits-en-francais-qui-vont.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 152,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/100-secrets-dentrepreneurs-millionnaires-enfin.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 345,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/8-blocages-mentaux-caches-qui-tuent-votre.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 155,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/a-tilkee.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 831,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/ajoutez-des-graphiques-epoustouflants-a-wordpress.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 137,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/autogpt-lia-qui-va-remplacer-votre-equipe-web.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 2001,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/beeper-lapp-qui-va-unifier-toutes-vos-messageries.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 6248,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Aucun titre H1 (# ...) détecté",
-        "Artefact de contenu détecté: '|---|'"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/ces-images-ia-vont-revolutionner-votre-marketing.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 249,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/cloudflare-le-geant-du-web-qui-fait-trembler.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 1127,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/comment-creer-la-demande.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 304,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/comment-fixer-son-prix.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 435,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/creez-des-presentations-si-incroyables-quelles.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 236,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/data-is-the-new-oil-comment-transformer-vos.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 227,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/davinci-resolve-les-astuces-de-dingue-qui-vont.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 179,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/decouvrez-lempreinte-numerique-de-nimporte-qui-en.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 132,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/devenez-un-leader-charismatique-avec-ces-atouts.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 881,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/devenez-un-super-entrepreneur-grace-a-ces.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 205,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/dopamine-detox-la-methode-choc-pour-booster-votre.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 224,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/economie-circulaire-lapp-qui-va-faire-de-vous-le.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 129,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/entrepreneur-vs-employe-les-differences-mentales.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 236,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/espionnez-legalement-vos-concurrents-avec-cette.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 184,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/faites-exploser-vos-economies-avec-ces-outils-de.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 184,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/harpa-loutil-secret-des-marketeurs-qui-cartonnent.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 389,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/ia-as-a-service-la-nouvelle-ruee-vers-lor-du-web.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 356,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/integrez-lia-a-wordpress-et-boostez-votre-trafic.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 354,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Description courte (< 60 caractères)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/interdit-par-google-les-techniques-seo.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 134,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
-        "Aucun titre H1 (# ...) détecté"
-      ]
-    },
-    {
-      "path": "src/data/outils/marketing/autres/la-banque-francaise-secrete-que-tous-les.md",
-      "score": 70,
-      "status": "warn",
-      "wordCount": 141,
-      "issues": [
-        "u_site manquant ou URL invalide"
-      ],
-      "warnings": [
-        "Contenu léger (< 250 mots)",
         "Aucun titre H1 (# ...) détecté"
       ]
     }

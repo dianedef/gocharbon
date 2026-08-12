@@ -1,31 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Beewac
-type: outil
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: communautes
 description: Beewac est un réseau social éthique français avec messagerie instantanée.
   Carte interactive, salons, blogs, protection des données. Fondé par Boris Jouatel.
   Sophia Antipolis.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.beewac.com/
-u_derniere_maj: '2026-03-20'
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-  - https://www.beewac.com/
-  - https://www.beewac.com/privacypolicy_fr.html
-  - https://entreprises.lefigaro.fr/lieris-06/entreprise-913306577
-notesQualification: "Beewac presente un ancrage operateur francais documente, avec une societe d'exploitation immatriculee en France et un positionnement explicite de reseau social local. La politique de confidentialite est detaillee sur la collecte et la suppression des donnees, mais elle ne documente pas clairement l'hebergement ni la chaine de sous-traitance. Je garde donc une qualification prudente, d'autant que la societe LIERIS a ete dissoute en 2025."
-methodologieVersion: gocharbon-v1
 ---
 
 # Beewac

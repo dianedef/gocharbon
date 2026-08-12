@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Infoproduits Qui Vont Vous Rendre Millionnaire En 30 Jours
 author: Diane
-description: "Les Infoproduits Qui Vont Vous Rendre Millionnaire En 30 Jours."
+description: 'Découvre Les Infoproduits Qui Vont Vous Rendre Millionnaire En 30 Jours
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'Outil Miracle Qui Vous Évite Les Bans Linkedin À Vie
 author: Diane
-description: "L'Outil Miracle Qui Vous Évite Les Bans Linkedin À Vie."
+description: 'Découvre L''Outil Miracle Qui Vous Évite Les Bans Linkedin À Vie : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

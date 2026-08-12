@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 _notes: null
 _priorité: null
@@ -8,7 +8,7 @@ datePublié: null
 seo_motClef: null
 tags:
 - Outils
-type: outil
+type: null
 u_externe: null
 u_interne: null
 title: Leçons S'Améliorer Chaque Jour
@@ -19,22 +19,11 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Leçons S'Améliorer Chaque Jour
+# Contenu
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
-
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
-
-## Ressources de départ
-- Aucune ressource externe n’a été détectée dans la fiche d’origine.
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
-
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+- **Description initiale :** La description initiale de l'application est cruciale, car elle guide l'IA dans la bonne direction.
+- **Refactoring constant :** Le code doit souvent être révisé, nécessitant un mécanisme pour revenir et réévaluer les chemins pris pendant l'implémentation.
+- **Examen par les agents :** Les agents peuvent se relire mutuellement pour améliorer la qualité du code.
+- **Focus sur un problème :** L'IA fonctionne mieux lorsqu'elle se concentre sur un seul problème à la fois.
+- **Journalisation et modularité :** Des loggs détaillés et une base de code modulaire facilitent le débogage et l'implémentation des fonctionnalités.
+# Ressources

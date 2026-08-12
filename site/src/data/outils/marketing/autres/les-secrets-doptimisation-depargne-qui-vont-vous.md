@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,9 @@ imageNameKey: null
 title: Les Secrets D'Optimisation D'Épargne Qui Vont Vous Rendre Millionnaire À La
   Retraite
 author: Diane
-description: "Les Secrets D'Optimisation D'Épargne Qui Vont Vous Rendre Millionnaire À La Retraite."
+description: 'Découvre Les Secrets D''Optimisation D''Épargne Qui Vont Vous Rendre
+  Millionnaire À La Retraite : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -69,7 +71,7 @@ Je vous laisses tous les liens ici:
 Le site: [https://ramify.fr/ 6](https://ramify.fr/)  
 Lien pour s’inscrire: [Ramify | S'inscrire](https://ramify.fr/sinscrire/)  
 L’académie: [Ramify | Ramify Academy 1](https://ramify.fr/academy/)  
-Lien IG: [https://www.instagram.com/ramify_am/?hl=en](__MASK_10__)  
+Lien IG: [https://www.instagram.com/ramify_am/?hl=en](https://www.instagram.com/ramify_am/?hl=en)  
 Lien Linkedin: [https://www.linkedin.com/company/ramify-sas/ 2](https://www.linkedin.com/company/ramify-sas/)
 
 Voilà vous avez tout ! Encore merci pour le soutien et les feedbacks tout le long du projet

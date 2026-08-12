@@ -1,11 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-title: Peachie
+title: Contenu
 author: Diane
 tags:
 - Outils
-description: "Peachie est une plateforme française tout-en-un pour vendre des formations en ligne, créer des tunnels de vente et gérer les emails marketing."
+description: La route n’a pas toujours été facile. Ça fait aujourd’hui près de 2 ans
+  que je travaille sur cet outil. Je suis parti de zéro, et je suis fier d’être arrivé
+  là aujourd’hui. Je me s
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://peachie.io
@@ -48,7 +50,7 @@ Merci à tous ceux qui seront là 🙏🏼
 Show translation
 le founder Oui j’ai des réseaux :
 
-LinkedIn (profil) : [https://www.linkedin.com/in/thibaultent/](__MASK_0__)  
+LinkedIn (profil) : [https://www.linkedin.com/in/thibaultent/](https://www.linkedin.com/in/thibaultent/)  
 LinkedIn (page) : [LinkedIn Login, Sign in | LinkedIn](https://www.linkedin.com/company/92764185)
 
 [(5) Facebook](https://www.facebook.com/thibault.ent)

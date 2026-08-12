@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: email
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut:
 - backlog
 _priorité: normal
@@ -11,7 +9,8 @@ tags:
 - Outils
 title: La Technique De Cold Email Qui Va Faire Exploser Vos Ventes De 500%
 author: Diane
-description: "La Technique De Cold Email Qui Va Faire Exploser Vos Ventes De 500%."
+description: 'Découvre La Technique De Cold Email Qui Va Faire Exploser Vos Ventes
+  De 500% : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -55,7 +54,7 @@ Je vous présente les 3 logiciels qu’on utilise le plus chez [**Scrap.io**](h
 
   
 
- **** [**https://blog.scrap.io/warm-mailing/11-linfrastructure/**](__MASK_5__)
+ **** [**https://blog.scrap.io/warm-mailing/11-linfrastructure/**](https://e.customeriomail.com/e/c/eyJlbWFpbF9pZCI6ImRnU2MxQVlEQUxRSnN3a0JpdFZ3QVV0QV84MjlkWUNURm9uRCIsImhyZWYiOiJodHRwczovL2Jsb2cuc2NyYXAuaW8vd2FybS1tYWlsaW5nLzExLWxpbmZyYXN0cnVjdHVyZS8iLCJpbnRlcm5hbCI6IjljZDQwNjAwYjMwOWI0MDkiLCJsaW5rX2lkIjo2Nzd9/326630fb0b2b6f27d29e351b0b35b983fbf3fa3078c0ad774c71ad44a26a946b)
 
 
 ## Connecter Un Compte de Messagerie Google Workspace (Gsuite)/Gmail
@@ -69,7 +68,7 @@ Je vous présente les 3 logiciels qu’on utilise le plus chez [**Scrap.io**](h
 
   
 
-### 3°) Vous Pouvez Aussi Utiliser Ce Lien: [https://myaccount.google.com/apppasswords](__MASK_7__)
+### 3°) Vous Pouvez Aussi Utiliser Ce Lien: [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
 
 ## Guide de Délivrabilité
 

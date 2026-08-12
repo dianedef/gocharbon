@@ -1,12 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Pitchy
 author: Diane
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: video
-toolFacets:
-  - ia
 tags:
 - Outils
 description: Pitchy est la plateforme française de création vidéo pour entreprises.
@@ -22,11 +18,11 @@ u_site: https://www.pitchy.fr
 
 ### tl;dr
 
-Pitchy est une plateforme SaaS française de création vidéo pour entreprises, fondée en décembre 2013 par les frères **Lionel Chouraqui** (CEO, professeur à l'ESSEC) et **Benjamin Chouraqui** (HEC). Pitchy Bros Prod SAS, SIREN 799 416 011, 157 Boulevard MacDonald, Paris 19e. **1 000+ clients** dont **~50% du CAC40** : La Poste (1 800+ vidéos), Stellantis (2 000+), EDF (1 500+), Carrefour, SNCF, Air France, TotalEnergies, LVMH, BNP Paribas, Ministère de l'Économie. **69 employés**, âge moyen 28 ans, 60% de femmes en management. **44M€ levés au total** (4M€ Série A 2017 + 40M€ Série B septembre 2023 — top 5 des opérations SaaS en France en 2023). **800+ templates** vidéo. IA intégrée : text-to-speech 20 langues, sous-titres automatiques, traduction 48 langues, doc-to-vidéo, assistant GPT. Acquisition de **Kannelle** (vidéo mobile) en mai 2022. ARR estimé 10-15M€. G2 4,4/5. Tarifs sur devis uniquement.
+Pitchy est une plateforme SaaS française de création vidéo pour entreprises, fondée en décembre 2013 par les frères **Lionel Chouraqui** (CEO, professeur à l'ESSEC) et **Benjamin Chouraqui** (HEC). Pitchy Bros Prod SAS, SIREN 799 416 011, 157 Boulevard MacDonald, Paris 19e. **1 000+ clients** dont **~50% du CAC40** : La Poste (1 800+ vidéos), Stellantis (2 000+), EDF (1 500+), Carrefour, SNCF, Air France, TotalEnergies, LVMH, BNP Paribas, Ministère de l'Économie. **69 employés**, âge moyen 28 ans, 60% de femmes en management. **44M€ levés au total** (4M€ Série A 2017 + 40M€ Série B septembre 2023 — top 5 des opérations SaaS en France en 2023). **800+ templates** vidéo. IA intégrée : text-to-speech 20 langues, sous-titres automatiques, traduction 48 langues, doc-to-video, assistant GPT. Acquisition de **Kannelle** (vidéo mobile) en mai 2022. ARR estimé 10-15M€. G2 4,4/5. Tarifs sur devis uniquement.
 
 ### Alternative à
 
-Wistia, PlayPlay, Lumen5, Promo, Animoto, Canva Vidéo, Adobe Première Rush, InVideo. Pitchy se distingue par son **positionnement enterprise** (1 000+ clients grands comptes, ~50% du CAC40), ses **800+ templates** métier, sa **conformité RGPD** native (hébergement France), et son **IA intégrée complète** (TTS 20 langues, traduction 48 langues, sous-titres auto, doc-to-vidéo).
+Wistia, PlayPlay, Lumen5, Promo, Animoto, Canva Video, Adobe Premiere Rush, InVideo. Pitchy se distingue par son **positionnement enterprise** (1 000+ clients grands comptes, ~50% du CAC40), ses **800+ templates** métier, sa **conformité RGPD** native (hébergement France), et son **IA intégrée complète** (TTS 20 langues, traduction 48 langues, sous-titres auto, doc-to-video).
 
 ## Bénéfices
 
@@ -34,7 +30,7 @@ Wistia, PlayPlay, Lumen5, Promo, Animoto, Canva Vidéo, Adobe Première Rush, In
 
 **800+ templates professionnels** — Pas besoin de partir d'une page blanche. Pitchy propose plus de 800 modèles vidéo adaptés aux besoins métier : communication interne, marque employeur, formations, événements, réseaux sociaux, produits. Chaque template est personnalisable avec ta charte graphique (logo, couleurs, typographie).
 
-**IA intégrée et complète** — Text-to-speech en 20 langues, sous-titres automatiques, traduction en 48 langues, conversion document-to-vidéo, et assistant basé sur GPT pour t'aider à structurer tes scripts. L'IA ne remplace pas le créateur, elle accélère chaque étape.
+**IA intégrée et complète** — Text-to-speech en 20 langues, sous-titres automatiques, traduction en 48 langues, conversion document-to-video, et assistant basé sur GPT pour t'aider à structurer tes scripts. L'IA ne remplace pas le créateur, elle accélère chaque étape.
 
 **Création illimitée, sans agence** — Le modèle économique de Pitchy est en accès illimité : une fois abonné, tu crées autant de vidéos que tu veux sans surcoût. Plus besoin de passer par une agence à 3 000-10 000€ par vidéo. Tes équipes internes deviennent autonomes.
 
@@ -70,7 +66,7 @@ Wistia, PlayPlay, Lumen5, Promo, Animoto, Canva Vidéo, Adobe Première Rush, In
 - **Text-to-Speech** — Voix off automatique en 20 langues, voix naturelles et réalistes
 - **Sous-titres automatiques** — Génération de sous-titres en un clic avec haute précision
 - **Traduction automatique** — 48 langues disponibles pour la traduction de vidéos
-- **Doc-to-Vidéo** — Transformation automatique de documents (PDF, présentations) en vidéos
+- **Doc-to-Video** — Transformation automatique de documents (PDF, présentations) en vidéos
 - **Assistant GPT** — Aide à la rédaction de scripts et à la structuration du contenu
 
 ### Captation Guidée (ex-Kannelle)
@@ -132,7 +128,7 @@ Pour obtenir un devis : pitchy.fr/demo ou contact@pitchy.fr
 - **2019-2020** — Croissance accélérée, la pandémie COVID booste la demande de communication vidéo interne. Les entreprises cherchent des alternatives aux agences indisponibles
 - **Mai 2022** — Acquisition de **Kannelle**, startup spécialisée dans la vidéo mobile guidée. Intégration de la captation smartphone à la plateforme Pitchy
 - **Septembre 2023** — Levée de fonds **Série B de 40M€** — l'une des **top 5 opérations SaaS en France en 2023**. Total levé : 44M€. Objectif : accélérer l'expansion internationale et développer l'IA
-- **2024-2025** — Déploiement massif de l'IA : text-to-speech 20 langues, traduction 48 langues, doc-to-vidéo, assistant GPT. Atteint **1 000+ clients** et **69 employés**. ~50% du CAC40 comme clients
+- **2024-2025** — Déploiement massif de l'IA : text-to-speech 20 langues, traduction 48 langues, doc-to-video, assistant GPT. Atteint **1 000+ clients** et **69 employés**. ~50% du CAC40 comme clients
 
 **Siège** : 157 Boulevard MacDonald, 75019 Paris
 **Forme juridique** : Pitchy Bros Prod SAS, SIREN 799 416 011
@@ -166,7 +162,7 @@ Pour obtenir un devis : pitchy.fr/demo ou contact@pitchy.fr
 - 1 000+ clients dont ~50% du CAC40 — adoption massive des grands comptes
 - 44M€ levés (dont 40M€ Série B 2023) — solidité financière exceptionnelle
 - 800+ templates professionnels par cas d'usage
-- IA complète : TTS 20 langues, traduction 48 langues, sous-titres auto, doc-to-vidéo
+- IA complète : TTS 20 langues, traduction 48 langues, sous-titres auto, doc-to-video
 - Création illimitée sans surcoût par vidéo
 - Captation mobile guidée (acquisition Kannelle 2022)
 - 69 employés, équipe jeune (28 ans en moyenne) et diverse (60% femmes en management)
@@ -180,5 +176,5 @@ Pour obtenir un devis : pitchy.fr/demo ou contact@pitchy.fr
 - Pas de plan gratuit ni d'essai gratuit en self-service
 - Nécessite un onboarding — pas du "plug and play" instantané
 - Concurrence forte de PlayPlay (français aussi) qui communique ses prix
-- Moins de flexibilité créative qu'un logiciel de montage professionnel (Première Pro, DaVinci Resolve)
+- Moins de flexibilité créative qu'un logiciel de montage professionnel (Premiere Pro, DaVinci Resolve)
 - Dépendance aux templates — le rendu peut manquer d'originalité si tu ne personnalises pas suffisamment

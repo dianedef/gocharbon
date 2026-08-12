@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -24,7 +24,7 @@ Chaque fois que vous clignez des yeux, vous étalez une infime couche de larmes 
 C’est peu connu, mais ces larmes sont un concentré de sels minéraux, protéines et ions en partie produits par le système immunitaire, aux puissants effets antibactériens.
 Plus vous pleurez, plus vous activez cet effet anti-microbes.
 Les larmes d’orVous souvenez-vous du conte de Grimm, Raiponce ? Il s’agit de la jeune fille enfermée en haut d’une tour à laquelle on accède en grimpant à ses cheveux.
-À la fin du conte, le chevalier venu la délivrer est devenu aveugle. Il retrouve la vue grâce à Raiponce, qui laisse tomber ses larmes à elle dans ses yeux à lui.
+A la fin du conte, le chevalier venu la délivrer est devenu aveugle. Il retrouve la vue grâce à Raiponce, qui laisse tomber ses larmes à elle dans ses yeux à lui.
 Les frères Grimm avaient sans doute compris intuitivement l’effet thérapeutique des larmes !
 Parmi les composés antibactériens des larmes, on trouve une protéine fabuleuse, le lysozyme.
 Cette enzyme désactiverait 90 à 95% des bactéries des yeux en 5 à 10 minutes [1].

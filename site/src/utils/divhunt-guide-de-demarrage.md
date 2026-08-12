@@ -125,7 +125,7 @@ Les Divhunt "Components" ou "composants réutilisables" sont des éléments de c
 
 Sélectionne n'importe quel élément de ta page que tu veux transformer en composant réutilisable et clique avec le bouton droit de la souris sur "Convert" (Convertir en composant) dans le menu. Tu viens de créer le composant principal. Toutes les modifications de texte ou de style que tu y apportes mettent automatiquement à jour toutes les copies (instances) que tu as placées sur différentes pages.
 
-Pour créer une instance, sélectionne la div parente, puis Ctrl E et le nom de ton composant. Pour modifier le composant principal, rends-toi dans le panneau des composants (ou cliques sur n'importe quelle instance du composant, et sur le bouton "Modifier le composant principal").
+Pour créer une instance, selectionne la div parente, puis Ctrl E et le nom de ton composant. Pour modifier le composant principal, rends-toi dans le panneau des composants (ou cliques sur n'importe quelle instance du composant, et sur le bouton "Modifier le composant principal").
 
 ## Le Panneau des Calques (Layers)
 

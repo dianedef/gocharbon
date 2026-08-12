@@ -1,6 +1,5 @@
 ---
-section: outils
-draft: true
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -53,7 +52,7 @@ Besoin de réécouter des appels/meetings pour retrouver des infos. Améliorer l
 Quelles sont les technologies que vous utilisez ?
 
   
-Vidéo, AWS Lamda  
+Video, AWS Lamda  
 
   
 
@@ -87,7 +86,7 @@ Depuis Février 2022.
 Quel est votre cœur de cible ?
 
   
-Équipes commerciales et success d’entreprises de 10 à 50 personnes.  
+Equipes commerciales et success d’entreprises de 10 à 50 personnes.  
 
   
 
@@ -102,7 +101,7 @@ Content marketing
 
   
 
-> The vidéo hub for modern teams.
+> The video hub for modern teams.
 
 Quel est le business model Comment gagnez-vous de l’argent ?
 

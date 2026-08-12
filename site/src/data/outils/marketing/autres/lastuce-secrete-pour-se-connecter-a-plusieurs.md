@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'Astuce Secrète Pour Se Connecter À Plusieurs Comptes Sans Se Faire Repérer
 author: Diane
-description: "L'Astuce Secrète Pour Se Connecter À Plusieurs Comptes Sans Se Faire Repérer."
+description: 'Découvre L''Astuce Secrète Pour Se Connecter À Plusieurs Comptes Sans
+  Se Faire Repérer : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -30,7 +31,7 @@ sessionbox
         - The best antidetect browser for multi-accounting
     - Moi, j’utilise un plugin Firefox développé par Firefox en personne. Tu peux créer plusieurs containers et te connecter avec un login différent dans chaque container.
         - Pour ma part, je ne peux plus m’en passer. Surtout quand t’es dev.*[Firefox Multi-Account Containers – Adoptez cette extension pour 🦊 Firefox (fr)](https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/)
-    - Aucun rapport avec le sujet, mais un petit mot sur firefox qui pousse assez loin la tendance du privacy : [](https://www.reddit.com/r/PPC/comments/vnh2kn/new_firefox_privacy_feature_strips_urls_of/)[https://www.reddit.com/r/PPC/comments/vnh2kn/new_firefox_privacy_feature_strips_urls_of/](__MASK_6__) 1
+    - Aucun rapport avec le sujet, mais un petit mot sur firefox qui pousse assez loin la tendance du privacy : [](https://www.reddit.com/r/PPC/comments/vnh2kn/new_firefox_privacy_feature_strips_urls_of/)[https://www.reddit.com/r/PPC/comments/vnh2kn/new_firefox_privacy_feature_strips_urls_of/](https://www.reddit.com/r/PPC/comments/vnh2kn/new_firefox_privacy_feature_strips_urls_of/) 1
     - différents profils que l’on peut avoir sur Google Chrome ?
         - Je ne connais pas le système de profils de Chrome. Là, visiblement, on peut pousser encore plus loin en utilisant un vpn dans un onglet, un autre serveur de vpn dans un 2è onglet et pas de vpn dans le 3è. Mais je n’utilise pas de vpn.
         - Pour ma part, voici mes containers:

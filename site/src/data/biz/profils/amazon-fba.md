@@ -1,18 +1,18 @@
 ---
 section: parcours
 title: Amazon FBA
-author: Diane GoCharbon
+author: Web Indé
 tags:
 - Business
-description: 'Amazon FBA peut être puissant, mais la marge, le sourcing et la dépendance
-  plateforme changent tout.'
+description: 'Guide complet Amazon FBA : sélection produits, sourcing, logistique
+  et stratégies pour réussir sur la marketplace.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Amazon FBA, c'est vendre des produits sur Amazon en déléguant la logistique à Amazon. Le modèle peut être efficace, mais il faut accepter une dépendance forte à la plateforme, des marges sous pression et une concurrence très agressive.
+Amazon FBA (Fulfillment by Amazon), c'est vendre des produits physiques sur Amazon, mais c'est Amazon qui gère tout : stockage, expédition, SAV. Tu achètes des produits (souvent en Chine), tu les envoies dans les entrepôts Amazon, et quand un client commande, Amazon s'occupe de tout.
 
 L'avantage : tu bénéficies de la machine Amazon (trafic énorme, Prime, confiance). L'inconvénient : commissions élevées (15-20%), concurrence féroce, et tu ne contrôles pas la relation client. C'est comme de l'e-commerce, mais externalisé.
 

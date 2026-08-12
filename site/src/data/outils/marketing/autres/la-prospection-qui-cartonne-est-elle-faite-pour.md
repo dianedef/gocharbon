@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Prospection Qui Cartonne Est Elle Faite Pour Vous Le Test Ultime
 author: Diane
-description: "La Prospection Qui Cartonne Est Elle Faite Pour Vous Le Test Ultime."
+description: 'Découvre La Prospection Qui Cartonne Est Elle Faite Pour Vous Le Test
+  Ultime : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

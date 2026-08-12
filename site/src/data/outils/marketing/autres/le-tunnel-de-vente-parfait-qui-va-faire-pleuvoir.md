@@ -1,17 +1,18 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Le Tunnel De Vente Parfait Qui Va Faire Pleuvoir L'Argent Guide Ultime
 author: Diane
-description: "Le Tunnel De Vente Parfait Qui Va Faire Pleuvoir L'Argent Guide Ultime."
+description: 'Découvre Le Tunnel De Vente Parfait Qui Va Faire Pleuvoir L''Argent
+  Guide Ultime : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
 [Messy Middle : décodez le comportement d'achat - Think with Google](https://www.thinkwithgoogle.com/intl/fr-fr/insights/parcours-consommateur/au-revoir-entonnoir-decoder-prise-decision-achat/)
-[Zero moment of truth (ZMOT) décision-making moment - Think with Google](https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/micro-moments/zero-moment-truth/)
+[Zero moment of truth (ZMOT) decision-making moment - Think with Google](https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/micro-moments/zero-moment-truth/)
 
 
 [5 Best Marketing Funnel Examples In 2021 - YouTube](https://www.youtube.com/watch?v=7KGr12n6FN0&list=WL&index=457&t=5s)
@@ -43,11 +44,11 @@ Focus on the definition of a [Marketing Qualified Lead](https://blog.hubspot.co
 
 #### **Is the lead a good fit?**
 
-Your company might target financial services companies with 5,000 or more employees, or small service businesses with fewer than 100 employees. Or, you may be only interested in manufacturing companies of a certain size. Within those categories, you also might identify individual lead profiles, such as title or job description and role in the décision-making process -- e.g., economic buyer, end user, influencer. How closely a lead aligns with your ideal customer profile will determine whether and when you hand it over to the sales team.
+Your company might target financial services companies with 5,000 or more employees, or small service businesses with fewer than 100 employees. Or, you may be only interested in manufacturing companies of a certain size. Within those categories, you also might identify individual lead profiles, such as title or job description and role in the decision-making process -- e.g., economic buyer, end user, influencer. How closely a lead aligns with your ideal customer profile will determine whether and when you hand it over to the sales team.
 
 #### **Is the lead interested?**
 
-A lead’s activity can reveal how close they are to a buying décision. For example, if a lead has only visited your website once, or has just begun following you on Twitter, they may be aware of your company but aren’t particularly engaged yet. A lead that requests a demo or views pricing information is showing a lot more interest.
+A lead’s activity can reveal how close they are to a buying decision. For example, if a lead has only visited your website once, or has just begun following you on Twitter, they may be aware of your company but aren’t particularly engaged yet. A lead that requests a demo or views pricing information is showing a lot more interest.
 
 Where a lead falls within the four quadrants of this matrix dictates the next step your marketing or sales team should take. For example:
 
@@ -58,7 +59,7 @@ Where a lead falls within the four quadrants of this matrix dictates the next st
 
 ## **Step 2: Develop Your Definition of an MQL**
 
-Using this matrix as your guide, develop an MQL definition based on the combination of fit and interest that’s right for your company. Some marketers may focus more on fit because they have a tightly defined market; other marketers may have a broad customer base and focus more on interest level. That décision depends on your business model.
+Using this matrix as your guide, develop an MQL definition based on the combination of fit and interest that’s right for your company. Some marketers may focus more on fit because they have a tightly defined market; other marketers may have a broad customer base and focus more on interest level. That decision depends on your business model.
 
 **MQL definitions in those two cases might look like this:**
 
@@ -161,7 +162,7 @@ Non, évidemment, vous conviendrez que cela manquerait grandement de personnalis
 
 Ce que nous allons faire est alors de compartimenter notre vivier de prospects en différentes populations, de la même manière que nous avons imaginer notre persona, puis nous allons matérialiser des scénarios spécifiques à chacune de ses divisions.
 
-Grâce à la magie de [système.io](http://systeme.io), nous allons ensuite matérialiser ces scénarios dans des canaux constitués d'une suite de pages web.
+Grâce à la magie de [systeme.io](http://systeme.io), nous allons ensuite matérialiser ces scénarios dans des canaux constitués d'une suite de pages web.
 
 A chaque étape décisionnelle, les propositions emmèneront vers différentes pages et les prospects seront chacun orientés vers celle qui leur conviendrait le mieux.
 
@@ -191,11 +192,11 @@ Vous voyez pourquoi le monde du marketing ne parle que de ça ? Le tunnel est la
 
 Cela nous permet de maximiser nos chances de répondre aux attentes de notre clientèle, de tester plusieurs scénarios, de profiter du côté personnalisé tout en profitant des économies d'échelle du web.
 
-Ca tombe bien, [système.io](http://systeme.io) nous permet justement de créer un nombre illimité de tunnels de vente en quelques clics : CLiquez sur ceci et cela, et Voilà, votre tunnel est en ligne, prêt à être visité par vos prospects !
+Ca tombe bien, [systeme.io](http://systeme.io) nous permet justement de créer un nombre illimité de tunnels de vente en quelques clics : CLiquez sur ceci et cela, et Voilà, votre tunnel est en ligne, prêt à être visité par vos prospects !
 
-[Système.io](http://systeme.io) permet de : test A/B
+[Systeme.io](http://systeme.io) permet de : test A/B
 
-L'aspect technique étant facilité par [système.io](http://systeme.io), il nous reste cependant la question de la mise en place, il y a un nombre illimité de manières de faire et d'astuces à mettre en place !
+L'aspect technique étant facilité par [systeme.io](http://systeme.io), il nous reste cependant la question de la mise en place, il y a un nombre illimité de manières de faire et d'astuces à mettre en place !
 
 Pour connaitre les éléments essentiels et découvrir quels sont les ingrédients indispensables pour votre tunnel de vente, téléchargez la Checklist "Tunnel de vente optimisé ", vous y trouverez toutes les étapes à mettre en place pas à pas.
 

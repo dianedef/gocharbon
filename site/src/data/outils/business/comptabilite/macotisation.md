@@ -1,6 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
+section: apps
+metadataEnrichedAt: null
 title: MaCotisation
 author: Diane
 tags:
@@ -11,19 +11,6 @@ description: 'MaCotisation est un logiciel français de gestion d''associations 
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://macotisation.fr
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://macotisation.fr/mentions-legales/
-- https://macotisation.fr/conditions-generales-utilisation/
-notesQualification: PLT SAS est une societe francaise basee a Boulogne-Billancourt
-  et partenaire de Lemonway en France; l'hebergement est indique chez Microsoft Azure
-  sans localisation precise.
-methodologieVersion: gocharbon-v1
 ---
 
 # MaCotisation

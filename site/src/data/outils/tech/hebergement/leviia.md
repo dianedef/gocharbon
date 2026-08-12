@@ -1,68 +1,124 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: hebergement
-toolFacets:
-  - cloud
-  - souverainete
-  - sauvegarde
-metadataEnrichedAt: "2026-03-28"
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-  - "https://www.leviia.com/mentions-legales/"
-  - "https://annuaire-entreprises.data.gouv.fr/entreprise/leviia-894137561"
-  - "https://www.leviia.com/pourquoi-leviia/"
-  - "https://www.leviia.com/object-storage/"
-notesQualification: "SAS au capital de 112 449,90 EUR, SIREN 894 137 561, siege au 14 avenue de l'Europe, 77144 Montevrain. Fondee en decembre 2020 par Arnaud et William Meauzoone. 10 a 19 salaries (2023). Donnees hebergees exclusivement en France, reparties sur 3 datacenters francais. Code 100% open source, zero dependance US/CN. Certifiee ISO 27001 et HDS. Levee de 3M EUR aupres du holding personnel de Xavier Niel en 2022. 1M+ utilisateurs uniques. Directeur de publication : Arnaud Meauzoone."
-methodologieVersion: "gocharbon-v1"
-title: Leviia
-author: Diane
+section: apps
+metadataEnrichedAt: null
+type: app
 tags:
-  - Outils
-description: "Leviia est un acteur français du cloud et du stockage qui mise sur un positionnement souverain, simple à comprendre et orienté sauvegarde, fichiers et collaboration."
-pubDate: '2026-03-28'
-imgUrl: ../../../../assets/astro.jpeg
+- Outils
+imageNameKey: leviia
 u_site: https://www.leviia.com
 u_affi: null
-u_origine: FR
-u_langue_fr: true
+title: Leviia
+author: Diane
+description: 'Découvre Leviia : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
+pubDate: '2024-03-25'
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
-# Leviia
+[Leviia : une solution cloud rapide, écologique et sécurisée made in France - La Gazette du CCI Store](https://www.ccistore.fr/gazette/articles/leviia-une-solution-cloud-rapide-ecologique-et-securisee-made-france)
 
-Leviia joue une carte simple à lire : stockage, sauvegarde et collaboration dans un cadre français, avec un discours de souveraineté beaucoup plus central que chez les hébergeurs généralistes.
+# Sauvegarde Simplifiée avec Leviia : Ton Outil Tout-en-un
 
-Le produit devient surtout pertinent dès que la question n'est plus seulement “où mettre mes fichiers ?”, mais “où sont mes données, qui les opère et dans quel cadre je les garde ?”.
+✔️ Économise du temps ✔️ Optimise la productivité ✔️ Renforce la sécurité des données
 
-## Ce que fait l'outil
+🎯 Petites entreprises en croissance 🎯 Freelancers soucieux de la sécurité 🎯 Équipes cherchant une solution intégrée
 
-- Stocker et sauvegarder des fichiers.
-- Fournir des briques cloud orientées partage et collaboration.
-- Offrir une alternative française sur des usages sensibles ou récurrents.
+📢 Alternatives : Wasabi, Amazon S3
 
-## Pour qui ?
 
-- PME et indépendants.
-- Équipes sensibles à la localisation et à la maîtrise des données.
-- Organisations qui veulent une alternative plus sobre aux géants américains.
+## 🔄 Sauvegarde Automatique
 
-## Ce qu'on aime
+Description : Assure une sauvegarde régulière de tes données cruciales.
+(Définissez des tâches programmées pour automatiser vos sauvegardes sans effort.)
+## 🛡️ Sécurité Renforcée
 
-- Positionnement clair.
-- Sujet de la souveraineté traité de façon concrète.
-- Bon candidat sur les besoins de stockage et sauvegarde.
+Description : Utilise le chiffrement pour protéger tes données sensibles.
 
-## Limites à connaître
+## 🔄 Intégration avec Vim
 
-- Pas la même largeur de catalogue qu'un gros cloud généraliste.
-- À évaluer selon les usages précis, surtout si tu veux beaucoup plus que du stockage et de la collaboration.
-- La promesse de souveraineté doit toujours être lue avec rigueur, pas avec enthousiasme aveugle.
+Description : Connecte facilement Leviia avec Vim pour une stratégie de sauvegarde 3-2-1-1-0.
 
-## Verdict GoCharbon
 
-Leviia est un acteur intéressant pour les équipes qui veulent une réponse française lisible sur le stockage et certaines briques cloud. Très pertinent si ton sujet principal est la maîtrise des données, pas la richesse infinie de services.
+## 💾 Sauvegardes Intuitives
+
+(Vous permet de sauvegarder facilement vos machines virtuelles et physiques, ainsi que les partages de fichiers.)
+
+
+## 📁 Inventaire Centralisé
+
+(Accédez à un inventaire complet de toutes vos machines virtuelles, physiques, et partages de fichiers.)
+
+## 🚀 Infrastructure de Sauvegarde Polyvalente
+### 💽 Stockage Local :  Sauvegarde des Données Locales
+
+(Sauvegardez sur des disques externes directement attachés à vos machines.)
+
+### 🌐 Sauvegarde Réseau (NAS)
+
+(Profitez de la sauvegarde sur des serveurs NAS via SMB pour une protection étendue.)
+
+### ☁️ Stockage Objet avec S3, Stockage Cloud (S3 Compatible)
+
+(Exploitez la compatibilité avec S3, tel que le service d'object storage offert par Leviia.)
+ Planification Intelligente
+
+### 📁 Gestion Facile des Données
+
+Description : Interface conviviale pour gérer tes identifiants, buckets, et services.
+
+### ☁️ Stockage Cloud Sûr
+
+Description : Réplique tes données entre trois centres de données, assurant une sécurité maximale.
+### 🔄 Restauration Facile
+### 🔄 Tarification Transparente
+
+Description : Des tarifs compétitifs, jusqu'à 80 % moins chers que Amazon S3.
+
+## 💶 Offres & Prix
+
+|Plan|Prix Annuel|
+|---|---|
+|Basique|XX euros|
+|Avancé|XX euros|
+|Entreprise|XX euros|
+
+## 🎖️ Équipe, Histoire Et Mission
+
+Fondée par une équipe passionnée de France, Leviia vise à fournir une solution de stockage souveraine et abordable.
+
+## 🚧 Feuille de Route Future
+
+Leviia prévoit des améliorations continues, avec des fonctionnalités de verrouillage objet et de versioning renforcées.
+
+## ⛓️ Liens et Ressources
+
+
+## 🤝 Programme de Parrainage
+
+Rejoins notre programme de parrainage pour gagner des avantages tout en recommandant Leviia.
+
+## ⚙️ Intégrations
+
+- Intégration transparente avec Vim
+- Prise en charge d'API pour une personnalisation avancée
+
+## 👀 Comment l’utiliser ?
+
+1. Crée un compte Leviia.
+2. Configure tes buckets et identifiants
+3. Connecte tes appareils à la plateforme.
+4. Configure tes paramètres de sauvegarde.
+5. Connecte Leviia à Vim pour automatiser la sauvegarde.
+6. Profite d'une sauvegarde automatisée et sécurisée.
+
+## 🤔 En Résumé ?
+
+Le stockage objet S3 offre une solution polyvalente, économique et sécurisée. Leviia utilise cette technologie avec des fonctionnalités supplémentaires telles que le verrouillage objet et le versioning pour renforcer la fiabilité.
+
+## Mon Avis
+
+👍 La tarification compétitive fait de Leviia un choix économique. 👍 La souveraineté des données en France est rassurante. 👍 Les fonctionnalités de sécurité avancées, comme le verrouillage objet, sont un plus.
+
+👎 Certaines options avancées peuvent être complexes pour les utilisateurs novices. 👎 L'interface pourrait bénéficier de quelques améliorations de convivialité.
+
+Avec Leviia, simplifie ta sauvegarde tout en économisant sur les coûts. Un choix solide pour ceux qui recherchent une solution française fiable.

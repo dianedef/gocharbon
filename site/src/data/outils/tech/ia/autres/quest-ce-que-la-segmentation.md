@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -12,22 +12,15 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Qu’Est Ce Que La Segmentation
+Tofu Top Of Funnel
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+- Focus on high volume of lead with an emphasis on NOT pressuring potential customers into buying by offering them relevant information that addresses a need, a question, or a problem they may have
+- Goal is to educate your audience en lien avec une difficulté ou un besoin qu’ils voudraient résoudre
+- Le but est de les intéresser à ta solution et ta marque pour qu’ils puissent passer à la prochaine étape du tunnel de vente
+- Le but est d’attirer les potentiels clients à ta marque en créant une sensibilisation, et cré
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+Segmentation makes businesses 60% more likely to understand their customers’ challenges, and 130% more likely to know their intentions.
 
-## Ressources de départ
-- [https://click.convertkit-mail.com/mvu5r2q840c5hg7r72xu5/e0hph7hkzokk48c8/aHR0cHM6Ly9uZWlscGF0ZWwuY29tL2Jsb2cvI3AtMTc3MTAz](https://click.convertkit-mail.com/mvu5r2q840c5hg7r72xu5/e0hph7hkzokk48c8/aHR0cHM6Ly9uZWlscGF0ZWwuY29tL2Jsb2cvI3AtMTc3MTAz)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+Simply put, if you know what your audience is struggling with and what they want, you can market to them in a way more effective way.
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+[Here’s how to segment your audience in 3 minutes](https://click.convertkit-mail.com/mvu5r2q840c5hg7r72xu5/e0hph7hkzokk48c8/aHR0cHM6Ly9uZWlscGF0ZWwuY29tL2Jsb2cvI3AtMTc3MTAz).

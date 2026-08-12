@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: L'Outil Crm Facebook Qui Va Faire De Vous Un Dieu Du Marketing
 author: Diane
-description: "L'Outil Crm Facebook Qui Va Faire De Vous Un Dieu Du Marketing."
+description: 'Découvre L''Outil Crm Facebook Qui Va Faire De Vous Un Dieu Du Marketing
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -44,7 +43,7 @@ En t'engageant avec ces personnes ciblées, tu les feras passer par les différe
 
 #### 2. Organisation : Tags & CRM
 filtrer
-tag pa groupe ou par étape de pipeline
+tag pa groupe ou par etape de pipeline
 - Les utilisateurs peuvent étiqueter des personnes avec des tags pour des messages ou des campagnes spécialisés, ce qui simplifie la communication et la personnalisation.
 - La fonction de segments globaux facilite la création de messages communs à toutes les étiquettes, assurant ainsi la cohérence de la communication.
 - L'outil aide à organiser les conversations en étiquetant les individus et en les déplaçant dans les pipelines de manière efficace.
@@ -106,7 +105,7 @@ post friender
 
 - you'll need to set up your messages that you're going to use For outreach
     
-- what we're going to do in this vidéo is we're going to go to the multiple income funnel group and we're going to just find a post in there that has some people engaging with it
+- what we're going to do in this video is we're going to go to the multiple income funnel group and we're going to just find a post in there that has some people engaging with it
     
 - here's one right here this one has 27 people who have engaged with it from 15 hours ago now a couple things that are really important about this with post friend or you're going to
     
@@ -158,9 +157,9 @@ post friender
 - On facebook specifically being that they're interacting with a sponsored post a post that is being paid for by our competitors
 
 ### Google calendar en appointement
-- All right my friends andrew here once again and in this vidéo we are going to discuss post render and show you how to use it a couple of prerequisites some things you're going to be needing before you are able to access plus render you're going to need to be on a premium account and you will also need to have a post that people have engaged with you'll need to set up your messages that you're going to use
+- All right my friends andrew here once again and in this video we are going to discuss post render and show you how to use it a couple of prerequisites some things you're going to be needing before you are able to access plus render you're going to need to be on a premium account and you will also need to have a post that people have engaged with you'll need to set up your messages that you're going to use
     
-- For outreach and what we're going to do in this vidéo is we're going to go to the multiple income funnel group and we're going to just find a post in there and we're going to show you how the software works so first things first we're going to search facebook here we're going to go to multiple income funnel and then in this group we're just going to look for a post that has some people engaging with it now brent here
+- For outreach and what we're going to do in this video is we're going to go to the multiple income funnel group and we're going to just find a post in there and we're going to show you how the software works so first things first we're going to search facebook here we're going to go to multiple income funnel and then in this group we're just going to look for a post that has some people engaging with it now brent here
     
 - He has two people who have engaged with his post i wouldn't generally po farm this particular post because there's not enough uh people who've engaged with it i could just manually do that but one like this one this one has five i keep on scrolling see if we can find another one uh here's one right here this one has 27 people who have engaged with it from 15 hours ago now a couple things that are really important about this with post friend or you're going to
     

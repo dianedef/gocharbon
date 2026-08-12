@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: La Stratégie Secrète Pour Fidéliser Vos Clients Et Tripler Vos Ventes En 2023
 author: Diane
-description: "La Stratégie Secrète Pour Fidéliser Vos Clients Et Tripler Vos Ventes En 2023."
+description: 'Découvre La Stratégie Secrète Pour Fidéliser Vos Clients Et Tripler
+  Vos Ventes En 2023 : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

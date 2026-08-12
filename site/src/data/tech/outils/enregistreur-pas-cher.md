@@ -1,11 +1,10 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: 'Enregistreur d''Écran Pas Cher : Guide Complet'
 author: Diane
 tags:
 - Tech
-- Outils
 description: Les meilleurs outils d'enregistrement d'écran à petit prix pour créateurs
   de contenu
 pubDate: '2026-01-17'
@@ -149,7 +148,7 @@ Les outils gratuits ont des limitations :
 | Gaming streaming            | OBS Studio          |
 | Création de contenu avancée | Camtasia ou AWZ     |
 | GIFs et animations          | ScreenToGif         |
-| Réunions Zoom/Teams         | Loom (gratuit)      |
+| Reunions Zoom/Teams         | Loom (gratuit)      |
 | Lifetime deal pas cher      | AWZ Screen Recorder |
 
 ## Fonctionnalités à rechercher

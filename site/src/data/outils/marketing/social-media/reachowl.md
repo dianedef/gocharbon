@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: reachowl
@@ -38,13 +38,13 @@ Keeping track of specific topics has never been easier. You can now download mon
 We've received reports of Facebook profiles being flagged for a checkpoint, rather than being banned. Please understand that this is a change implemented by Facebook, not by ReachOwl. We're closely monitoring the situation to offer guidance and support to affected users.
 
 
-However, it's important to clarify that this is not a problem stemming from ReachOwl. "No title" appears only in Instagram's browser mode, and we understand that the majority of Instagram users access the platform via their mobile phones, where this issue does not occur. We appreciate your patience and want you to know that we are committed to providing a seamless expérience for all our users.
+However, it's important to clarify that this is not a problem stemming from ReachOwl. "No title" appears only in Instagram's browser mode, and we understand that the majority of Instagram users access the platform via their mobile phones, where this issue does not occur. We appreciate your patience and want you to know that we are committed to providing a seamless experience for all our users.
 
  Quora Keyword Tracking Coming Soon
 
 Our Upcoming Keyword Monitor Tracking Feature
 
-[https://ci6.googleusercontent.com/proxy/ZR1kO8mX0QXMmXxfTzqWoQ5JHPytZIoIbQnnycwsVPC_PjFGuPxZM524IPkfzOXsjQBL2rk=s0-d-e1-ft#https://imageshack.com/i/pnRCcROLp](__MASK_0__)
+[https://ci6.googleusercontent.com/proxy/ZR1kO8mX0QXMmXxfTzqWoQ5JHPytZIoIbQnnycwsVPC_PjFGuPxZM524IPkfzOXsjQBL2rk=s0-d-e1-ft#https://imageshack.com/i/pnRCcROLp](https://ci6.googleusercontent.com/proxy/ZR1kO8mX0QXMmXxfTzqWoQ5JHPytZIoIbQnnycwsVPC_PjFGuPxZM524IPkfzOXsjQBL2rk=s0-d-e1-ft#https://imageshack.com/i/pnRCcROLp)
 
 Stay ahead of the curve by monitoring conversations on Quora. Our upcoming feature will allow you to track keywords, enabling you to engage with your target audience and stay informed about trending topics.
 EXCITING
@@ -90,7 +90,7 @@ Effortlessly uploading Facebook CSV or Intagram profiles CSV files is currently 
 
 Image of App	
  
-Uploading Instagram profiles  through CSV files has become effortlessly smooth. We've reimagined the process, making it a time-saving and hassle-free expérience for you.
+Uploading Instagram profiles  through CSV files has become effortlessly smooth. We've reimagined the process, making it a time-saving and hassle-free experience for you.
 
  
  

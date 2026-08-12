@@ -1,8 +1,7 @@
 ---
-draft: true
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: ton-texte

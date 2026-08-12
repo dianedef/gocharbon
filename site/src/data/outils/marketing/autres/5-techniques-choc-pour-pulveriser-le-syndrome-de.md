@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,12 +8,13 @@ u_site: null
 title: 5 Techniques Choc Pour Pulvériser Le Syndrome De L'Imposteur Une Fois Pour
   Toutes
 author: Diane
-description: "5 Techniques Choc Pour Pulvériser Le Syndrome De L'Imposteur Une Fois Pour Toutes."
+description: 'Découvre 5 Techniques Choc Pour Pulvériser Le Syndrome De L''Imposteur
+  Une Fois Pour Toutes : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-[https://youtu.be/DBqpjaZWl9c?t=474](__MASK_0__)
+[https://youtu.be/DBqpjaZWl9c?t=474](https://youtu.be/DBqpjaZWl9c?t=474)
 
 you need to walk before you run
 

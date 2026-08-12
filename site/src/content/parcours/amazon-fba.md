@@ -8,7 +8,7 @@ status: "active"
 updatedAt: "2026-03-01"
 ---
 ## Ton objectif
-Lancer un produit FBA rentable avec contrôle marge et rotation stock.
+Lancer un produit FBA rentable avec controle marge et rotation stock.
 
 ## En clair (version simple)
 - Pour qui : Operateus e-commerce voulant passer par la place de marche Amazon.
@@ -31,9 +31,9 @@ Lancer un produit FBA rentable avec contrôle marge et rotation stock.
 - Ruptures stock mensuelles = 0
 
 ## Pièges à éviter
-- Marge ignorée après fees
+- Marge ignoree apres fees
 - Sous-estimation retours/logistique
-- Dépendance complète à une SKU
+- Dépendance complete à une SKU
 
 ## À la fin, tu dois avoir
 - Offre/catalogue priorise selon marge et demande

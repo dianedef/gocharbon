@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: paiement
-toolFacets:
-  - bnpl
-  - paiement-fractionne
+section: apps
 metadataEnrichedAt: null
 title: Alma
 author: Diane
@@ -20,17 +15,17 @@ u_site: https://almapay.com/fr-FR
 
 # Alma
 
-# PAIEMENT FRACTIONNÉ : LE BNPL FRANÇAIS QUI BOOSTE TES VENTES DE 20%
+## PAIEMENT FRACTIONNÉ : LE BNPL FRANÇAIS QUI BOOSTE TES VENTES DE 20%
 
-## tl;dr
+### tl;dr
 
 Alma est une fintech française fondée en 2018 par **Louis Chatriot** (ex-Stripe, ex-Bain & Company, diplômé École Polytechnique et Stanford) et **Guillaume Desloges**. Spécialisée dans le paiement en plusieurs fois (Buy Now Pay Later), Alma permet à tes clients de payer en 2x, 3x, 4x ou jusqu'à 12x, pendant que tu es payé immédiatement (J+7). N°1 du BNPL en France avec **21 800+ marchands** actifs (Maisons du Monde, Etam, Lancel, Alain Afflelou, Nature & Découvertes, Le Slip Français, Maje, Zadig & Voltaire) et plus d'**1 milliard d'euros de transactions annuelles**. Présent dans **10 pays** européens. Licence **ACPR #90786** (double agrément : établissement de paiement + société de financement). **280M€+ levés** au total dont 210M€ en Série C (février 2022, investisseurs : Tencent, Cathay Innovation, Eurazeo, Bpifrance). Siège à Neuilly-sur-Seine (176 Avenue Charles de Gaulle). 200-300 employés, 27 nationalités.
 
-## Alternative à
+### Alternative à
 
 Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma se distingue par **zéro frais de retard** pour les consommateurs (contrairement à Klarna), son paiement immédiat pour le marchand (J+7), sa couverture 100% du risque de fraude et d'impayé, et son ancrage réglementaire français (licence ACPR double).
 
-# Bénéfices
+## Bénéfices
 
 **+20% de conversion prouvé** — Maisons du Monde rapporte un taux d'acceptation de 92%, +20% de taux de conversion, et un panier moyen 3x plus élevé en boutique avec Alma. Le paiement fractionné lève le frein prix et augmente mécaniquement tes ventes.
 
@@ -44,7 +39,7 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 
 **15% d'amélioration du taux d'acceptation** — En partenariat avec Checkout.com, Alma a amélioré de 15% son taux d'acceptation en 2024 grâce à l'Intelligent Acceptance et les Network Tokens.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - E-commerçants cherchant à augmenter leur panier moyen et leur taux de conversion
 - Boutiques physiques qui veulent proposer le paiement fractionné sans terminal spécifique
@@ -53,9 +48,9 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 - Secteurs : mode, beauté, ameublement, optique, sport, bijouterie, électronique
 - Grands comptes comme PME (Alma s'adapte au volume)
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Options de Paiement
+### Options de Paiement
 
 - **Paiement en 2x, 3x, 4x** — Fractionné avec ou sans frais pour le client (configurable par le marchand)
 - **Paiement différé (Pay Later)** — Achat maintenant, paiement dans 15 ou 30 jours
@@ -63,28 +58,28 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 - **Paiement comptant** — Option de paiement traditionnel intégrée
 - **B2B** — Solutions de paiement business-to-business
 
-## Scoring et Anti-fraude
+### Scoring et Anti-fraude
 
 - **Scoring propriétaire IA/ML** — Algorithmes de machine learning pour l'évaluation du risque en temps réel. Alma score chaque transaction individuellement (obligatoire en France car pas de base de crédit partagée comme le credit score US)
 - **Couverture 100% du risque** — Fraude, impayés, recouvrement : tout est pris en charge par Alma
 - **Acceptation instantanée** — Décision en quelques secondes, parcours 100% digital
 
-## Outils Marchands
+### Outils Marchands
 
 - **Widget produit** — Affichage automatique "Payez en 3x" sur tes pages produits pour booster la conversion
 - **Dashboard marchand** — Suivi des transactions, analytics, gestion des remboursements
 - **Portail marchand** — Gestion complète du compte et des paramètres
 - **Application mobile Alma** — App pour les marchands (lancement 2024-2025)
 
-## Multi-canal
+### Multi-canal
 
 - **E-commerce** — Widget checkout intégré sur ton site
 - **Point de vente** — Paiement fractionné en boutique physique
 - **Multi-pays** — 10 pays européens depuis un seul compte
 
-# Prix
+## Prix
 
-## Offre Standard (jusqu'à 1M€ de CA)
+### Offre Standard (jusqu'à 1M€ de CA)
 
 | Nombre de fois | Commission marchand | Commission si partage client |
 |---------------|---------------------|------------------------------|
@@ -97,7 +92,7 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 - **Paiement marchand à J+7**
 - **100% du risque couvert par Alma** (fraude, impayés, recouvrement)
 
-## Offre Entreprise (> 1M€ de CA)
+### Offre Entreprise (> 1M€ de CA)
 
 - Tarification personnalisée avec **taux dégressifs selon le volume**
 - Solutions sur mesure
@@ -105,9 +100,9 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 
 **Pour le consommateur** : Le marchand peut choisir de partager la commission (le client paie une partie des frais) ou de l'absorber entièrement (paiement en 3x "sans frais" pour le client).
 
-# Intégrations
+## Intégrations
 
-## Plateformes E-commerce
+### Plateformes E-commerce
 
 - **Shopify** — Plugin officiel
 - **WooCommerce** — Extension WordPress officielle (v5.14.2+)
@@ -117,25 +112,25 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 - **Sylius** — Support natif
 - **60+ plateformes** — Via APIs unifiées (API2Cart)
 
-## Processeurs de Paiement
+### Processeurs de Paiement
 
 - **Stripe** — Partenariat stratégique, Alma intégré comme méthode de paiement native
 - **Checkout.com** — 99,99% d'uptime, 4x de croissance des marchands Alma en 2024
 - **Adyen** — Support en tant que méthode de paiement
 - **Mollie** — Partenariat pour l'onboarding marchand
 
-## Infrastructure Bancaire
+### Infrastructure Bancaire
 
 - **Mambu** — Infrastructure core banking pour les paiements SEPA (réduction de 30% du coût par paiement après migration)
 - **BNP Paribas** — Partenaire bancaire pour la participation SEPA directe
 
-## API et Technique
+### API et Technique
 
 - **API RESTful** — Documentation complète pour intégrations sur mesure
 - **Widgets** — Composants front-end prêts à l'emploi pour les pages produits
 - **Webhooks** — Notifications en temps réel des événements de paiement
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **2017** — Enregistrement de la société. Fondée par **Louis Chatriot** (CEO, ex-Stripe, ex-Bain & Company, diplômé École Polytechnique et Stanford) et **Guillaume Desloges**
 - **2018** — Lancement commercial. Mission : créer "une alternative saine au crédit consommation traditionnel"
@@ -153,7 +148,7 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 
 **Financement total** : ~280M€ en equity + 100M€+ en dette = 380M€+
 
-# Clients Notables
+## Clients Notables
 
 - **Maisons du Monde** — 92% de taux d'acceptation, +20% de conversion, panier 3x en boutique
 - **Etam** — Mode féminine
@@ -170,7 +165,7 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 - **Mon Lit Cabane** — Mobilier enfant
 - **Ligne Roset** — Ameublement design
 
-# Sécurité et Réglementation
+## Sécurité et Réglementation
 
 - **Licence ACPR #90786** — Double agrément : établissement de paiement + société de financement. Régulé par l'Autorité de Contrôle Prudentiel et de Résolution (Banque de France)
 - **PSD2** — Conforme à la directive européenne sur les services de paiement
@@ -178,11 +173,11 @@ Klarna, Scalapay, Affirm, PayPal Pay Later, Oney, Cofidis, Younited Credit. Alma
 - **LCB-FT** — Conforme aux obligations anti-blanchiment / financement du terrorisme
 - **Zéro frais de retard** — Politique de protection du consommateur (pas de pénalités)
 
-# Marché du BNPL en France
+## Marché du BNPL en France
 
 Le marché français du BNPL est estimé à **12,68 milliards de dollars en 2025**, avec une projection à **18,61 milliards de dollars d'ici 2030** (croissance annuelle de 11,3%). Le marché européen du BNPL devrait atteindre **293,7 milliards de dollars d'ici 2030**. Alma est le leader français du secteur par nombre de marchands.
 
-# Points Forts
+## Points Forts
 
 - N°1 du BNPL en France avec 21 800+ marchands et 1 Md€+ de transactions annuelles
 - Paiement immédiat garanti pour le marchand (J+7), 100% du risque couvert
@@ -194,7 +189,7 @@ Le marché français du BNPL est estimé à **12,68 milliards de dollars en 2025
 - 0€ de mise en service, 0€ d'abonnement — commission uniquement par transaction
 - Intégrations natives avec Stripe, Checkout.com, Adyen, Shopify, PrestaShop, WooCommerce
 
-# Points Faibles
+## Points Faibles
 
 - Commission par transaction (2,39% à 4,01%) qui peut peser sur les marges des marchands
 - Encourage structurellement la consommation à crédit (débat éthique du BNPL)

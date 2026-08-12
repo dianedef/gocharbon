@@ -1,13 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 title: JOIN
 author: Diane
 tags:
 - Outils
-description: "JOIN (ex Join Stories) est une plateforme martech française de web stories interactives pour e-commerce et médias. +12% ajouts panier. 300+ clients dont L'Oréal et Carrefour."
+description: JOIN (ex Join Stories) est une plateforme martech française de web stories
+  interactives pour e-commerce et médias. +12% ajouts panier. 300+ clients dont L'Oréal
+  et Carrefour.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://join-stories.com

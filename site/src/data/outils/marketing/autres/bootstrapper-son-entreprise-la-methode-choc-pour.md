@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 title: Bootstrapper Son Entreprise La Méthode Choc Pour Devenir Millionnaire Sans
   Un Sou
 author: Diane
-description: "Bootstrapper Son Entreprise La Méthode Choc Pour Devenir Millionnaire Sans Un Sou."
+description: 'Découvre Bootstrapper Son Entreprise La Méthode Choc Pour Devenir Millionnaire
+  Sans Un Sou : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

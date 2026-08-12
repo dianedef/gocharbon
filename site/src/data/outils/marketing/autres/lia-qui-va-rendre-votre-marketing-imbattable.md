@@ -1,9 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-- ia
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -11,18 +7,19 @@ imageNameKey: null
 u_site: null
 title: L'Ia Qui Va Rendre Votre Marketing Imbattable Stratégies Du Futur Dévoilées
 author: Diane
-description: "L'Ia Qui Va Rendre Votre Marketing Imbattable Stratégies Du Futur Dévoilées."
+description: 'Découvre L''Ia Qui Va Rendre Votre Marketing Imbattable Stratégies Du
+  Futur Dévoilées : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-Envoyer à Sonu [https://www.facebook.com/messages/t/100005786949016](__MASK_0__)
+Envoyer à Sonu [https://www.facebook.com/messages/t/100005786949016](https://www.facebook.com/messages/t/100005786949016)
 
 Find the best growth-hacking tactics for your business with AI
 
-Interesting take on modern-day [Moneyball](https://twitter.com/hashtag/Moneyball?src=hashtag_click) and how winning [NBA](https://twitter.com/hashtag/NBA?src=hashtag_click) teams beat the odds with the help of [AI](https://twitter.com/hashtag/AI?src=hashtag_click) & data-based stratégies on and off the court.
+Interesting take on modern-day [Moneyball](https://twitter.com/hashtag/Moneyball?src=hashtag_click) and how winning [NBA](https://twitter.com/hashtag/NBA?src=hashtag_click) teams beat the odds with the help of [AI](https://twitter.com/hashtag/AI?src=hashtag_click) & data-based strategies on and off the court.
 
-[Chris Closset on Twitter: "Interesting take on modern-day Moneyball and how winning NBA teams beat the odds with the help of AI & data-based stratégies on and off the court.](https://twitter.com/chrisclosset/status/1510260755123392517) [https://t.co/IO2fq9gczw](__MASK_5__)" / Twitter
+[Chris Closset on Twitter: "Interesting take on modern-day Moneyball and how winning NBA teams beat the odds with the help of AI & data-based strategies on and off the court.](https://twitter.com/chrisclosset/status/1510260755123392517) [https://t.co/IO2fq9gczw](https://t.co/IO2fq9gczw)" / Twitter
 
 Répondez à quelques questions simples sur votre entreprise et recevez instantanément les tactiques de marketing recommandées qui correspondent à vos objectifs
 
@@ -54,7 +51,7 @@ Le logiciel ingurgite tout ça dans une base de données et on le on somme de no
 
 Comme tout algorithme d’intelligence artificielle ou de machine learning, il prend des données en entrées :
 
-- Les caractéristiques et contraintes de notre entreprise : Coût d’acquisition/client, Lifetime Value, Industrie, Sentiment de satisfaction envers nos résultats...
+- Les caractéristiques et contraintes de notre entreprise : Cout d’acquisition/client, Lifetime Value, Industrie, Sentiment de satisfaction envers nos résultats...
 
 Il y applique sous forme d’algorithmes des règles, des pondérations, des conditions...
 
@@ -273,7 +270,7 @@ B2B
 
 ### **Site internet**
 
-[](https://digitalfirst.ai/)[https://digitalfirst.ai](__MASK_21__)
+[](https://digitalfirst.ai/)[https://digitalfirst.ai](https://digitalfirst.ai)
 
 ### **Type de produit**
 
@@ -499,17 +496,17 @@ Ajouter vos propres tactiques est également le moyen le plus simple de monétis
     
     [**What are silver bullets?**](https://www.molo9.com/faq/#1620753707179-a05e34e1-4f3b)
     
-    Over the years Adi Soozin discovered that there are more than [48 timeless underlying psychological principles of influence](https://www.molo9.com/molo9-recs-silver-bullets/). Of the 48+ underlying psychological principles of influence & countless content marketing stratégies, there are a few that will work best for you [based on the information you provide here](https://www.molo9.com/my-kpis/).
+    Over the years Adi Soozin discovered that there are more than [48 timeless underlying psychological principles of influence](https://www.molo9.com/molo9-recs-silver-bullets/). Of the 48+ underlying psychological principles of influence & countless content marketing strategies, there are a few that will work best for you [based on the information you provide here](https://www.molo9.com/my-kpis/).
     
     To see the best traction, you will want to include at least one of these in each piece of content (emails, paid ads, website text, podcast interviews, etc) moving forward.
     
-    [**What are keystone stratégies?**](https://www.molo9.com/faq/#1620753707274-b2dd0208-cbce)
+    [**What are keystone strategies?**](https://www.molo9.com/faq/#1620753707274-b2dd0208-cbce)
     
-    There are certain marketing tactics & stratégies that have secondary and tertiary effects on the success of ALL of your sales & marketing initiatives. Adi Soozin calls these Keystone Stratégies, in your personalized roadmap, we recommend implementing these first.
+    There are certain marketing tactics & strategies that have secondary and tertiary effects on the success of ALL of your sales & marketing initiatives. Adi Soozin calls these Keystone Strategies, in your personalized roadmap, we recommend implementing these first.
     
     [**What are high performance habits?**](https://www.molo9.com/faq/#1620753707642-7030b455-416e)
     
-    High Performance Habits include all of the tactics & stratégies consistently used by the marketing teams of Ms. Soozin’s highest performing clients at MD9™.
+    High Performance Habits include all of the tactics & strategies consistently used by the marketing teams of Ms. Soozin’s highest performing clients at MD9™.
     
     [**Who is currently using Molo9™?**](https://www.molo9.com/faq/#1620753707685-67d8521c-f359)
     
@@ -526,9 +523,9 @@ Ajouter vos propres tactiques est également le moyen le plus simple de monétis
     
     No, Molo9™ is not just a platform where Adi shares “tips”.
     
-    Molo9™ currently contains the actual stratégies that Adi Soozin used with MD9™ clients. People who have witnessed the success of MD9™ clients, and know that MD9™ charges $1500 per hour for Adi Soozin’s advisory sessions, find Molo9™ to be the ideal & more affordable alternative.
+    Molo9™ currently contains the actual strategies that Adi Soozin used with MD9™ clients. People who have witnessed the success of MD9™ clients, and know that MD9™ charges $1500 per hour for Adi Soozin’s advisory sessions, find Molo9™ to be the ideal & more affordable alternative.
     
-    [**How many stratégies are typically recommended?**](https://www.molo9.com/faq/#1620753708300-e4497a82-cfa9)
+    [**How many strategies are typically recommended?**](https://www.molo9.com/faq/#1620753708300-e4497a82-cfa9)
     
     This depends entirely on your 6-7 parameters. We are adding new ones almost daily, so if you ever run out of recommendations [fill in this form](https://www.molo9.com/make-molo9-better/) and we will make sure that we focus on adding more to match your specific parameters.
     
@@ -544,7 +541,7 @@ Ajouter vos propres tactiques est également le moyen le plus simple de monétis
     
     [**How is content added to Molo9™?**](https://www.molo9.com/faq/#1640108304395-a29ff003-3311)
     
-    The Molo9™ community has many different types of community members who are at very different levels with their marketing expérience. For this reason we do our best to provide different ways for those at each level (from beginner to advanced) to consume the same content, by offering it in several different formats so that they can choose the way that is easiest for them to understand.
+    The Molo9™ community has many different types of community members who are at very different levels with their marketing experience. For this reason we do our best to provide different ways for those at each level (from beginner to advanced) to consume the same content, by offering it in several different formats so that they can choose the way that is easiest for them to understand.
     
     1. We start with a checklist.
     2. After a new checklist is created, we collect feedback and questions to expand the checklist into a workbook.

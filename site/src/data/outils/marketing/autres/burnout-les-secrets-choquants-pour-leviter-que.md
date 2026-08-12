@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,7 +8,9 @@ u_site: null
 title: Burnout Les Secrets Choquants Pour L'Éviter Que Votre Patron Ne Veut Pas Que
   Vous Sachiez
 author: Diane
-description: "Burnout Les Secrets Choquants Pour L'Éviter Que Votre Patron Ne Veut Pas Que Vous Sachiez."
+description: 'Découvre Burnout Les Secrets Choquants Pour L''Éviter Que Votre Patron
+  Ne Veut Pas Que Vous Sachiez : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -49,7 +51,7 @@ First of all, I think it was great how they nailed the difference between sim
 
 The WHO also stated that burnout is not a disease, it’s an occupational condition. Some say that burnout is the same as depression. I dislike this. Depression is a mental illness. You give people medication so they stop feeling depressed. Burnout is a sign that the relationship between the job and the person is not working and you need to address that and not prescribe medication. You don’t give people medication because their job is not right. A lot of jobs are not right. A lot of jobs are a mess. A lot of managers are bad managers. A burnout is an existential crisis.
 
-It happens when there is a mismatch between what people want to get with their lives and what’s really happening. You need to know yourself. What workload do you want? How much control do you want to have? Do you want to be responsible or do you rather someone else is responsible for the heavy décisions at work? What are you trying to get out of your work in terms of reputation, money, fame? How connected do you want to be with other people at work? What are your core values? What are you trying to do with your life? If you don’t have good answers, then the workplace is going to take you where it’s going to take you.
+It happens when there is a mismatch between what people want to get with their lives and what’s really happening. You need to know yourself. What workload do you want? How much control do you want to have? Do you want to be responsible or do you rather someone else is responsible for the heavy decisions at work? What are you trying to get out of your work in terms of reputation, money, fame? How connected do you want to be with other people at work? What are your core values? What are you trying to do with your life? If you don’t have good answers, then the workplace is going to take you where it’s going to take you.
 
 **How has the nature of burnout changed with the digital era?**
 
@@ -104,7 +106,7 @@ Employers need to really ask their employees what they are looking for and desi
 
 **How do you start your morning? How do you make it as productive as possible?**
 
-I like things very consistent in the morning. I don’t want to make a lot of décisions. I always do the same exercise routine. I eat the same breakfast every morning: yogurt, granola and fruit, and coffee. I save the décisions for later. You only have so many décisions per day.
+I like things very consistent in the morning. I don’t want to make a lot of decisions. I always do the same exercise routine. I eat the same breakfast every morning: yogurt, granola and fruit, and coffee. I save the decisions for later. You only have so many decisions per day.
 
 The important part for me is doing creative things in the morning. I do the good stuff, the demanding stuff (like writing an article) in the morning before I get tired. In the afternoon I do things that are easier.
 
@@ -116,13 +118,13 @@ I avoid work meetings in the morning. But when I get to work I still say hi
 
 A few hours into my day. But then I don’t look at it in the evening. I don’t check my email unless there is something I am expecting.
 
-**You mention not wanting to make too many décisions. Why is that?**
+**You mention not wanting to make too many decisions. Why is that?**
 
-I remember when Obama was president he had gray suits and he had blue suits. He wore one one day, and the other the next day. He didn’t want to make any décisions. He asked the chef at the white house to not give them a menu to choose from, instead just give him a meal. He didn’t want to decide whether to have chicken or vegetables or whatever. You decide that I have enough décisions to make. So décisions that are not really important — make them automatic and don’t think about them. Just make good ones at the beginning and stay with it. One day he wore a beige suit — very much out of character — he got headlines. Décisions are a big deal, so you shouldn’t waste energy on trivial décisions.
+I remember when Obama was president he had gray suits and he had blue suits. He wore one one day, and the other the next day. He didn’t want to make any decisions. He asked the chef at the white house to not give them a menu to choose from, instead just give him a meal. He didn’t want to decide whether to have chicken or vegetables or whatever. You decide that I have enough decisions to make. So decisions that are not really important — make them automatic and don’t think about them. Just make good ones at the beginning and stay with it. One day he wore a beige suit — very much out of character — he got headlines. Decisions are a big deal, so you shouldn’t waste energy on trivial decisions.
 
-**Why are décisions tiring? What do they do to the brain?**
+**Why are decisions tiring? What do they do to the brain?**
 
-When you make a décision you are really making a statement about who you are and what you value. And if you want to make good décisions you need to reflect on who you are, and what is important to you. That is not a trivial thing to do. That takes time and energy. It takes attention. Attention is the most precious thing and people squander it on distractions.
+When you make a decision you are really making a statement about who you are and what you value. And if you want to make good decisions you need to reflect on who you are, and what is important to you. That is not a trivial thing to do. That takes time and energy. It takes attention. Attention is the most precious thing and people squander it on distractions.
 
 Focusing on something and paying attention — be it writing an article or playing music — is the most demanding thing you can do with your mind.  
 

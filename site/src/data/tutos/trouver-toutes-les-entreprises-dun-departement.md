@@ -4,60 +4,25 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Trouver les entreprises d’un département sans bâtir une liste médiocre
+title: Trouver Toutes Les Entreprises D’Un Département
 author: Diane
-description: Utilise les bonnes sources pour repérer les entreprises d’un département, filtrer les résultats et construire une base exploitable.
+description: 'Découvre Trouver Toutes Les Entreprises D’Un Département : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Chercher “toutes les entreprises d’un département” est une mauvaise question si tu ne précises pas ensuite :
+[Enrichissement de toutes vos données entreprise - Pappers](https://www.pappers.fr/enrichissement)
 
-- lesquelles ;
-- pour quoi faire ;
-- avec quels filtres ;
-- et avec quel niveau de fraîcheur.
+# **Les données disponibles avec l’enrichissement Pappers**
 
-## Commence par les sources propres
+Pappers est connecté avec les sources officielles et l’enrichissement permet d’obtenir les données suivantes (liste non exhaustive) :
 
-Tu peux partir :
-
-- d’annuaires d’entreprises ;
-- de bases ouvertes ;
-- d’outils d’enrichissement ;
-- de Google Maps pour le terrain local ;
-- ou de plateformes comme Pappers selon ton besoin.
-
-## Les filtres indispensables
-
-Ne garde pas juste le département.
-
-Ajoute au minimum :
-
-- secteur d’activité ;
-- taille ou forme juridique ;
-- statut actif ;
-- zone géographique plus fine si besoin ;
-- présence d’un site ou non.
-
-## Le bon livrable
-
-Une liste utile contient généralement :
-
-- raison sociale ;
-- SIREN ou SIRET ;
-- code NAF ;
-- ville ;
-- site ;
-- contact exploitable ;
-- source ;
-- date.
-
-## Ce qu’il faut éviter
-
-- exporter un département entier “au cas où” ;
-- garder des sociétés inactives ;
-- ne pas dédoublonner ;
-- mélanger entreprise, établissement et contact sans distinction.
-
-Le vrai travail commence après l’extraction : qualification, tri et enrichissement.
+- Finances : chiffres d'affaires et résultat
+- Code NAF
+- Adresse
+- Date de création
+- Nom / Prénom / Age des dirigeants
+- Forme juridique
+- SIREN - SIRET
+- Dénomination sociale

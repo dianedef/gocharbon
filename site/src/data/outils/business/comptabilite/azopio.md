@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://www.azopio.com/fr/mentions-legales/
-- https://www.azopio.com/
-notesQualification: Azopio est une SAS basee a Paris; le site annonce des serveurs et bases localises dans l'Union europeenne, meme si la partie corporate mentionne aussi un hebergement suisse pour une partie de l'infrastructure.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Azopio
 author: Diane
 tags:

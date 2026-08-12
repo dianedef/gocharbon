@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,14 +7,15 @@ imageNameKey: null
 u_site: null
 title: 12 Alternatives À L'Explorateur Windows Qui Vont Changer Votre Vie À Jamais
 author: Diane
-description: "12 Alternatives À L'Explorateur Windows Qui Vont Changer Votre Vie À Jamais."
+description: 'Découvre 12 Alternatives À L''Explorateur Windows Qui Vont Changer Votre
+  Vie À Jamais : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
 [GitHub - ranger/ranger: A VIM-inspired filemanager for the console](https://github.com/ranger/ranger)  
 [GitHub - gitui-org/gitui: Blazing 💥 fast terminal-ui for git written in rust 🦀](https://github.com/gitui-org/gitui)  
-[GitHub - Canop/broot: A new way to see and navigate directory trees : https://dystroy.org/broot](__MASK_2__)  
+[GitHub - Canop/broot: A new way to see and navigate directory trees : https://dystroy.org/broot](https://github.com/Canop/broot)  
 [GitHub - sayanarijit/xplr: A hackable, minimal, fast TUI file explorer](https://github.com/sayanarijit/xplr)  
 [GitHub - dylanaraps/fff: 📁 A simple file manager written in bash.](https://github.com/dylanaraps/fff?tab=readme-ov-file)  
 [GitHub - vifm/vifm: Vifm is a file manager with curses interface, which provides Vim-like environment for managing objects within file systems, extended with some useful ideas from mutt.](https://github.com/vifm/vifm)  
@@ -515,7 +514,7 @@ En conclusion, Unreal Commander s'impose comme un gestionnaire de fichiers excep
 
 [Side-By-Side Explorer - Télécharger](https://side-by-side-explorer.fr.softonic.com/)
 
-When it comes to managing files on Windows, users often seek tools that enhance the default File Explorer expérience. One such tool that caught my attention is Side-By-Side Explorer. Let's delve into what this application offers and how it can potentially reshape your file navigation habits.
+When it comes to managing files on Windows, users often seek tools that enhance the default File Explorer experience. One such tool that caught my attention is Side-By-Side Explorer. Let's delve into what this application offers and how it can potentially reshape your file navigation habits.
 
 #### A Unique Approach to File Exploration
 
@@ -527,7 +526,7 @@ While the concept might seem straightforward, the application proves to be more 
 
 #### The Ups and Downs
 
-Side-By-Side Explorer's positive features include the option to select the folder the Explorer should open on launch and direct access to frequently used directories. However, some drawbacks were apparent during my exploration. The program purportedly maintains window size and position but failed to do so in my expérience. Additionally, the persistent display of the folder sidebar in all opened Explorer windows might be a drawback for users seeking a cleaner interface, and unfortunately, there's no option to disable it.
+Side-By-Side Explorer's positive features include the option to select the folder the Explorer should open on launch and direct access to frequently used directories. However, some drawbacks were apparent during my exploration. The program purportedly maintains window size and position but failed to do so in my experience. Additionally, the persistent display of the folder sidebar in all opened Explorer windows might be a drawback for users seeking a cleaner interface, and unfortunately, there's no option to disable it.
 
 #### Conclusion
 

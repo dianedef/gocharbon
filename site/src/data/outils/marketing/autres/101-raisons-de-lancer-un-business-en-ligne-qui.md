@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,7 +8,9 @@ u_site: null
 title: 101 Raisons De Lancer Un Business En Ligne Qui Vont Vous Faire Quitter Votre
   Emploi Aujourd'Hui
 author: Diane
-description: "101 Raisons De Lancer Un Business En Ligne Qui Vont Vous Faire Quitter Votre Emploi Aujourd'Hui."
+description: 'Découvre 101 Raisons De Lancer Un Business En Ligne Qui Vont Vous Faire
+  Quitter Votre Emploi Aujourd''Hui : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -31,7 +33,7 @@ Disappointed by the [giant swings in pricing of hospital procedures](https://c
 
 **Grosso modo, ce mec balançait de la peinture en mode dégueu sur une toile ...**
 
-[https://ci5.googleusercontent.com/proxy/tPXffR6G641Vl-GOcc8Q_DYrjxGr7YoIvcTmRyND8Sqo6qjnjZg3nb2FP3Z86X4_-KBBwzyHrKRXgcvzDsxBKXD7jcrxywJ-ZTc1s-lGhuUsVyH6feDP8UpaV-sdXdoPR5EG3s3faq3zr3lA0vbjKWKd2Ced23iOTdwwtjmBFA=s0-d-e1-ft#https://content.app-us1.com/QPO8j/2021/11/01/d57db937-7d16-4347-b149-570d63ab0a64.png?id=7611153?r=569072418](__MASK_1__)
+[https://ci5.googleusercontent.com/proxy/tPXffR6G641Vl-GOcc8Q_DYrjxGr7YoIvcTmRyND8Sqo6qjnjZg3nb2FP3Z86X4_-KBBwzyHrKRXgcvzDsxBKXD7jcrxywJ-ZTc1s-lGhuUsVyH6feDP8UpaV-sdXdoPR5EG3s3faq3zr3lA0vbjKWKd2Ced23iOTdwwtjmBFA=s0-d-e1-ft#https://content.app-us1.com/QPO8j/2021/11/01/d57db937-7d16-4347-b149-570d63ab0a64.png?id=7611153?r=569072418](https://ci5.googleusercontent.com/proxy/tPXffR6G641Vl-GOcc8Q_DYrjxGr7YoIvcTmRyND8Sqo6qjnjZg3nb2FP3Z86X4_-KBBwzyHrKRXgcvzDsxBKXD7jcrxywJ-ZTc1s-lGhuUsVyH6feDP8UpaV-sdXdoPR5EG3s3faq3zr3lA0vbjKWKd2Ced23iOTdwwtjmBFA=s0-d-e1-ft#https://content.app-us1.com/QPO8j/2021/11/01/d57db937-7d16-4347-b149-570d63ab0a64.png?id=7611153?r=569072418)
 
 **Un jour, il y a eu un test.**
 

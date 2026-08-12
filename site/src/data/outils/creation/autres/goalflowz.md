@@ -1,6 +1,5 @@
 ---
-draft: true
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Goalflowz
 author: Diane

@@ -4,47 +4,37 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Comment gérer des centaines de sites WordPress avec un seul outil
+title: Commenttttg Érer Des Centaines De Sites Sur Wp Umbrella
 author: Diane
-description: 'Comment gérer des centaines de sites WordPress avec un seul outil : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Commenttttg Érer Des Centaines De Sites Sur Wp Umbrella : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment gérer des centaines de sites WordPress avec un seul outil demande un peu plus de méthode que trois clics dans l’admin. Le vrai sujet, c’est d’éviter la casse en production, de garder une trace claire de ce qui a été fait et de rendre le process répétable.
-
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
-
-## Ce que tu vas obtenir
-- une procédure simple à répéter
-- moins de risque de casser la prod
-- des contrôles clairs après chaque action
-
-## Méthode simple
-### 1. Commence par cadrer le périmètre
-Identifie exactement ce que tu touches : site, environnement, extensions concernées, sauvegardes disponibles et impact potentiel pour les utilisateurs.
-
-### 2. Prépare un environnement sûr
-Fais la manipulation sur un site de test ou au minimum sur un créneau calme, avec une sauvegarde vérifiée et un plan de retour arrière.
-
-### 3. Exécute la tâche proprement
-Applique le changement avec un seul objectif à la fois, note ce que tu modifies et évite les actions groupées sans contrôle.
-
-### 4. Teste ce qui compte vraiment
-Vérifie le front, l’admin, les formulaires, les paiements, les performances et les logs. Ce qui ne se teste pas finit souvent en ticket support.
-
-### 5. Documente pour la prochaine fois
-Garde un mini mode opératoire. Si tu dois refaire la même chose dans trois semaines, tu te remercieras.
-
-## Pièges à éviter
-- mettre à jour ou supprimer sans sauvegarde valide
-- faire dix changements d’un coup puis ne plus savoir d’où vient le bug
-- oublier de tester les parcours critiques après intervention
-
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] sauvegarde ou retour arrière prêt
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
-
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+- Comment installer en bloc WP Umbrella
+    
+    L'ajout de centaines de sites Web WordPress à WP Umbrella peut être fastidieux. C'est pourquoi nous avons développé une technologie pour ajouter et installer en toute sécurité WP Umbrella sur des centaines de sites Web.
+    
+    Pour cela, il vous suffit de nous [renvoyer ce fichier CSV à](https://app.wp-umbrella.com/csv-bulk-import-umbrella.csv) [support@wp-umbrella.com](mailto:support@wp-umbrella.com)
+    
+    Afin d'effectuer une installation automatique, nous aurons besoin de :
+    
+    - L'URL d'administration WordPress de vos sites Web
+    - Les identifiants (identifiant/mot de passe) de votre administrateur WordPress
+    
+    Veuillez noter que ces informations et **le fichier CSV seront supprimés dès que nous aurons terminé l'installation** .
+    
+- Comment activer le 2FA ?
+    
+    Chez WP Umbrella, nous prenons la sécurité de vos sites Web très au sérieux. C'est pourquoi nous avons mis en place l'authentification à deux facteurs (2FA).
+    
+    Pour activer le 2FA, cliquez sur Gérer le compte >> Votre profil dans le coin supérieur droit.
+    
+    
+    
+    Ensuite, faites défiler vers le bas et activez le 2FA.
+    
+    
+    
+    Le code de validation sera envoyé à l'email associé à votre compte.

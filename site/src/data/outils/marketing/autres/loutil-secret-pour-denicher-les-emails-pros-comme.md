@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: messagerie
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: L'Outil Secret Pour Dénicher Les Emails Pros Comme Un Espion
 author: Diane
-description: "L'Outil Secret Pour Dénicher Les Emails Pros Comme Un Espion."
+description: 'Découvre L''Outil Secret Pour Dénicher Les Emails Pros Comme Un Espion
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

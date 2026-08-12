@@ -1,6 +1,5 @@
 import { tagHierarchy } from "../components/tagHierarchy";
 import { normalizeTag } from "./tags";
-import { getToolNavigationMainTags } from "./tool-taxonomy";
 
 type TagNode = {
   label?: string;
@@ -62,22 +61,6 @@ export function extractMainTags(tags: string[]): string[] {
     if (resolved) mains.add(resolved);
   }
   return [...mains];
-}
-
-export function extractPostMainTags(post: { id: string; data: { tags?: string[]; section?: "blog" | "outils" | "tutos" | "parcours"; toolCategoryPrimary?: string; toolSubcategoryPrimary?: string; toolFacets?: string[] } }): string[] {
-  const toolTags = getToolNavigationMainTags({
-    id: post.id,
-    data: {
-      section: post.data.section,
-      tags: post.data.tags ?? [],
-      toolCategoryPrimary: post.data.toolCategoryPrimary,
-      toolSubcategoryPrimary: post.data.toolSubcategoryPrimary,
-      toolFacets: post.data.toolFacets,
-    },
-  });
-
-  if (toolTags.length) return toolTags;
-  return extractMainTags(post.data.tags ?? []);
 }
 
 export function getMainTagLabel(mainTag: string): string {

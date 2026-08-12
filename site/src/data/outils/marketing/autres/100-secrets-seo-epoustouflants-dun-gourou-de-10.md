@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: '100 Secrets Seo Époustouflants D''Un Gourou De 10 Ans   Le #47 Va Vous Choquer'
 author: Diane
-description: "100 Secrets Seo Époustouflants D'Un Gourou De 10 Ans Le #47 Va Vous Choquer."
+description: 'Découvre 100 Secrets Seo Époustouflants D''Un Gourou De 10 Ans   Le
+  #47 Va Vous Choquer : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -18,7 +17,7 @@ _février 5, 2016 1648_
 
 Note à l’article. L’auteur est Syudzan Patel
 
-[https://wpsoul.com/100-lessons-from-10-years-experience-seo-guru/](__MASK_0__)
+[https://wpsoul.com/100-lessons-from-10-years-experience-seo-guru/](https://wpsoul.com/100-lessons-from-10-years-experience-seo-guru/)
 
 Les leçons suivantes sont basées sur ma propre expérience. Ils se rapportent non seulement au référencement, mais aussi à ma vie et à mon entreprise. J’espère que les leçons seront utiles et que vous éviterez les erreurs que j’ai commises.
 

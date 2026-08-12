@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Plugin Seo Qui Va Propulser Votre Site En Première Page De Google
 author: Diane
-description: "Le Plugin Seo Qui Va Propulser Votre Site En Première Page De Google."
+description: 'Découvre Le Plugin Seo Qui Va Propulser Votre Site En Première Page
+  De Google : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

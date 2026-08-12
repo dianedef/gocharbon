@@ -1,19 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-societeMere: Cegid
-sourcesVerification:
-- https://www.iziago.com/fr/mentions-legales/
-- https://www.iziago.com/fr/contact/
-- https://www.iziago.com/security/
-notesQualification: Iziago est exploite par Exalog Developpement, societe francaise du groupe Cegid; les mentions legales documentent un siege a Boulogne-Billancourt, un hebergement OVH et une communication securite assez aboutie.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Cegid Iziago
 author: Diane
 tags:

@@ -1,6 +1,5 @@
 ---
 import Button from "./components/Button.astro";
-import { ROUTES } from "../config/routes";
 
 interface Props {
 	variant?: 'compact' | 'full';
@@ -15,7 +14,7 @@ const { variant = 'full' } = Astro.props;
 			<p class="text-lg font-bold poppins text-black dark:text-white">
 				42 parcours interactifs t'attendent — avec checklists, XP et badges.
 			</p>
-			<Button href={ROUTES.parcours} color="var(--brand-yellow)">
+			<Button href="/parcours" color="var(--brand-yellow)">
 				Voir les Parcours
 			</Button>
 		</div>
@@ -24,17 +23,18 @@ const { variant = 'full' } = Astro.props;
 	<section class="px-6 py-16 bg-purple-light dark:bg-purple-darker">
 		<div class="max-w-4xl mx-auto text-center">
 			<h2 class="text-3xl md:text-5xl font-bold mb-6 poppins text-black dark:text-white">
-				Arrete de chercher "le bon business" dans le vide
+				Arrete de Scroller, Commence a Cocher
 			</h2>
 			<p class="text-xl md:text-2xl mb-8 text-black dark:text-white">
-				Entre par le quiz si tu hesites encore. Entre par les parcours si tu veux deja un plan d'action structure.
+				42 parcours interactifs avec des checklists, de la gamification et un suivi de progression.
+				Trouve le tien en 2 minutes avec notre quiz.
 			</p>
 			<div class="flex flex-col md:flex-row gap-4 justify-center items-center">
-				<Button href={ROUTES.quiz} color="var(--brand-yellow)">
-					Faire le quiz
+				<Button href="/quiz" color="var(--brand-yellow)">
+					Faire le Quiz (2 min)
 				</Button>
-				<Button href={ROUTES.parcours} color="var(--brand-orange)">
-					Voir les 42 parcours
+				<Button href="/parcours" color="var(--brand-orange)">
+					Voir les 42 Parcours
 				</Button>
 			</div>
 		</div>

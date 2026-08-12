@@ -1,11 +1,12 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: La Technique D'Outreach Qui Va Faire Exploser Votre Trafic Web
 author: Diane
-description: "La Technique D'Outreach Qui Va Faire Exploser Votre Trafic Web."
+description: 'Découvre La Technique D''Outreach Qui Va Faire Exploser Votre Trafic
+  Web : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

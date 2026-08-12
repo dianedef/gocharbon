@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 title: La Méthode Infaillible Pour Se Démarquer Et Devenir Une Superstar De Votre
   Industrie
 author: Diane
-description: "La Méthode Infaillible Pour Se Démarquer Et Devenir Une Superstar De Votre Industrie."
+description: 'Découvre La Méthode Infaillible Pour Se Démarquer Et Devenir Une Superstar
+  De Votre Industrie : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

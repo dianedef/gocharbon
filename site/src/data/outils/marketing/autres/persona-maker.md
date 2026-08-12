@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 RS-&-RSS-suivi: null
 Ville: null
@@ -9,8 +9,6 @@ imageNameKey: null
 datePublié: null
 tags:
 - Outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: personas
 u_interne: null
 u_externe: null
 u_site: https://www.personamaker.co
@@ -18,7 +16,8 @@ u_affi: null
 u_affiAdmin: null
 title: Persona Maker
 author: Diane
-description: "Persona Maker."
+description: 'Découvre Persona Maker : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

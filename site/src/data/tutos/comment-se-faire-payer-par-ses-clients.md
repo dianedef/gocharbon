@@ -2,48 +2,130 @@
 section: tutos
 tags:
 - Tutoriels
-imageNameKey: null
-u_site: null
-title: Comment se faire payer par ses clients sans courir après les factures
+title: Comment Se Faire Payer Par Ses Clients
 author: Diane
-description: 'Comment se faire payer par ses clients sans courir après les factures : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Comment Se Faire Payer Par Ses Clients : outil français pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment se faire payer par ses clients sans courir après les factures devient beaucoup plus simple quand tu clarifies d’abord le flux, les données utiles et le niveau d’automatisation dont tu as vraiment besoin. L’objectif n’est pas de faire “plus compliqué”, mais de mieux piloter.
+# Comment se faire payer par ses clients (sans courir après)
 
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
+Le vrai sujet n'est pas seulement "relancer".
+Le vrai sujet, c'est de sécuriser le paiement dès le début.
 
-## Ce que tu vas obtenir
-- un flux de travail plus lisible
-- des données mieux rangées
-- des automatisations qui servent vraiment
+## Les 4 piliers
 
-## Méthode simple
-### 1. Cartographie le flux réel
-D’où vient l’information, où elle doit aller, qui agit dessus et à quel moment ? Sans ça, tu automatises du flou.
+1. cadrage contractuel,
+2. facturation claire,
+3. moyens de paiement simples,
+4. relances structurées.
 
-### 2. Réduis le nombre d’outils
-Chaque outil en plus ajoute de la friction. Garde seulement ceux qui apportent un vrai gain opérationnel.
+## Étape 1 - Sécurise avant de commencer
 
-### 3. Structure les champs et les statuts
-Définis un minimum de règles : statuts, propriétaire, prochaine action, source du lead ou du paiement, niveau de priorité.
+Toujours avoir:
+- devis/contrat signé,
+- périmètre clair,
+- échéancier de paiement,
+- conditions de retard.
 
-### 4. Automatise après validation
-Ne branche pas tout d’un coup. Teste d’abord le process à la main, puis automatise ce qui revient vraiment.
+Bonne pratique:
+- acompte 30% à 50% avant démarrage,
+- solde à livraison ou échéance définie.
 
-### 5. Suis la qualité d’exécution
-Le bon système n’est pas celui qui a le plus de zaps, mais celui qui donne une vue claire et reste fiable dans le temps.
+## Étape 2 - Rends la facture incontestable
 
-## Pièges à éviter
-- brancher trop d’outils trop tôt
-- laisser des champs libres partout
-- automatiser un process qui n’est pas encore clair
+Ta facture doit mentionner:
+- date d'émission,
+- date d'échéance,
+- montant HT/TTC,
+- mode de paiement,
+- pénalités de retard.
 
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
+Moins c'est ambigu, moins tu as de litiges.
 
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+## Étape 3 - Facilite le paiement
+
+Propose plusieurs options:
+- virement,
+- lien de paiement carte,
+- prélèvement,
+- (si besoin) chèque.
+
+Plus c'est simple, plus tu es payé vite.
+
+## Étape 4 - Mets en place un process de relance
+
+Exemple de cadence:
+- J-2: rappel courtois,
+- J+3: relance ferme,
+- J+10: mise en demeure amiable,
+- J+20: passage recouvrement/juridique selon cas.
+
+Prépare des modèles de messages à l'avance.
+
+## Étape 5 - Suis les bons KPI
+
+- DSO (délai moyen de paiement),
+- % factures payées à l'heure,
+- montant en retard > 30 jours,
+- taux de litiges.
+
+## Modèle simple de clause
+
+"Un acompte de 40% est dû à la commande. Le solde est payable à 30 jours date de facture. En cas de retard, des pénalités légales s'appliquent, ainsi qu'une indemnité forfaitaire de recouvrement."
+
+(À adapter à ton contexte et à valider juridiquement si besoin.)
+
+## Erreurs fréquentes
+
+- démarrer sans acompte,
+- livrer 100% avant paiement,
+- relancer de façon irrégulière,
+- accepter des exceptions sans trace écrite,
+- ne pas couper le service en cas d'impayé prolongé.
+
+## Plan d'action 7 jours
+
+### Jour 1
+Mets à jour devis/contrat/facture.
+
+### Jour 2
+Ajoute acompte + échéancier standard.
+
+### Jour 3
+Active lien de paiement carte.
+
+### Jour 4
+Prépare 4 modèles de relance.
+
+### Jour 5
+Crée un tableau de suivi des factures.
+
+### Jour 6
+Relance toutes les échéances ouvertes.
+
+### Jour 7
+Analyse DSO et corrige le process.
+
+## Checklist
+
+- [ ] contrat signé avant mission
+- [ ] acompte encaissé
+- [ ] facture claire envoyée
+- [ ] relances planifiées
+- [ ] suivi hebdo des impayés
+
+## Ressources pour aller plus loin
+
+### Tutoriels liés
+
+- [Créer une facture en 5 minutes](/tutos/creer-une-facture-en-5-minutes)
+- [Paiements récurrents sans carte bancaire](/tutos/paiements-recurrents-sans-carte-bancaire)
+
+### Organisation business
+
+- [Comment créer une liste email pour la prospection B2B](/tutos/comment-creer-une-liste-email-pour-de-la)
+- [Comment faire de l'automatisation marketing](/tutos/comment-faire-de-lautomatisation-marketing)
+
+Tu te fais payer mieux quand ton process est clair, ferme et constant.

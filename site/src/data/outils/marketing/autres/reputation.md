@@ -1,29 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
+section: apps
+metadataEnrichedAt: null
 title: reputation
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: reputation
-description: "B-Reputation est une solution essentielle pour les entrepreneurs en France. Cette plateforme offre une vue à 360° sur plus de 11 millions d'entreprises et 5 millions de dirigeants,."
+description: B-Reputation est une solution essentielle pour les entrepreneurs en France.
+  Cette plateforme offre une vue à 360° sur plus de 11 millions d'entreprises et 5
+  millions de dirigeants,
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://b-reputation.com/fr
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: indetermine
-paysSiege: France
-hebergementDonnees: hors-union-europeenne
-sourcesVerification:
-- https://b-reputation.com/fr/static/legals
-- https://b-reputation.com/fr
-notesQualification: B-Reputation est exploite par Camelia Tech, societe francaise
-  basee a Paris; l'hebergement public documente passe par Heroku aux Etats-Unis et
-  la documentation publique ne detaille pas de politique d'hebergement plus locale.
-methodologieVersion: gocharbon-v1
 ---
 
 # reputation
@@ -53,7 +40,7 @@ B-Reputation convient à divers profils professionnels, notamment :
 Bien que B-Reputation soit une solution unique, il existe quelques alternatives sur le marché, notamment :
 - Altares
 - Ellisphere
-- Société.com
+- Societe.com
 
 ## Fonctionnalités
 

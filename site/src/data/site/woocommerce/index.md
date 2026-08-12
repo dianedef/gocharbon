@@ -11,7 +11,7 @@ imgUrl: ../../../assets/astro.jpeg
 
 # WooCommerce : Le Geant Silencieux du E-commerce
 
-Tu veux lancer une boutique en ligne sans payer 300 EUR/mois a Shopify ? WooCommerce est la solution la plus utilisée au monde. Et c'est gratuit. Enfin, presque.
+Tu veux lancer une boutique en ligne sans payer 300 EUR/mois a Shopify ? WooCommerce est la solution la plus utilisee au monde. Et c'est gratuit. Enfin, presque.
 
 ## C'est Quoi WooCommerce ?
 
@@ -26,7 +26,7 @@ WooCommerce est un plugin WordPress open source qui transforme n'importe quel si
 - **55 000+** plugins WordPress compatibles
 - Disponible dans **66 langues**
 
-**Pourquoi ces chiffres ?** Parce que WooCommerce herite de la base installee massive de WordPress. Si tu as déjà un site WordPress, ajouter WooCommerce prend 5 minutes. Et c'est la que ca commence.
+**Pourquoi ces chiffres ?** Parce que WooCommerce herite de la base installee massive de WordPress. Si tu as deja un site WordPress, ajouter WooCommerce prend 5 minutes. Et c'est la que ca commence.
 
 ## Parts de Marche : WooCommerce Ecrase la Concurrence
 
@@ -105,7 +105,7 @@ WooCommerce gere 4 types de produits nativement :
 
 **Avec des extensions, tu ajoutes :**
 - **Abonnements** (WooCommerce Subscriptions) : paiements recurrents
-- **Produits digitaux** : PDF, musique, logiciels (téléchargement automatique)
+- **Produits digitaux** : PDF, musique, logiciels (telechargement automatique)
 - **Reservations** (WooCommerce Bookings) : creneaux horaires, locations
 - **Bundles** : packs personnalisables
 
@@ -128,7 +128,7 @@ WooCommerce > Reglages > Taxes
 
 ### Stripe (recommande)
 
-Stripe est le choix numéro 1 pour WooCommerce en France :
+Stripe est le choix numero 1 pour WooCommerce en France :
 
 - **Commission** : 1,5% + 0,25 EUR par transaction (cartes europeennes)
 - **Pas d'abonnement mensuel**
@@ -150,7 +150,7 @@ Toujours pertinent comme option secondaire :
 - **GoCardless** : prelevements SEPA recurrents (ideal pour les abonnements B2B)
 - **Alma / Pledg** : paiement fractionne en 3x/4x (booste les conversions de 15-20%)
 
-**Conseil :** propose minimum 2 methodes de paiement. Stripe + PayPal couvre 95% des clients français.
+**Conseil :** propose minimum 2 methodes de paiement. Stripe + PayPal couvre 95% des clients francais.
 
 ## Extensions Essentielles
 
@@ -207,7 +207,7 @@ Toujours pertinent comme option secondaire :
 
 ## SEO WooCommerce : Les Specifites
 
-Le SEO d'une boutique WooCommerce a ses propres règles :
+Le SEO d'une boutique WooCommerce a ses propres regles :
 
 ### 1. URLs Produits
 
@@ -224,7 +224,7 @@ Reglages > Permaliens > Permaliens des produits > "Boutique de base"
 
 ### 2. Donnees Structurees (Schema.org)
 
-WooCommerce génère du schema Product de base. Avec Yoast ou Rank Math, tu obtiens :
+WooCommerce genere du schema Product de base. Avec Yoast ou Rank Math, tu obtiens :
 
 ```json
 {
@@ -245,7 +245,7 @@ WooCommerce génère du schema Product de base. Avec Yoast ou Rank Math, tu obti
 }
 ```
 
-**Resultat :** tes produits s'affichent avec étoiles, prix et disponibilite directement dans Google.
+**Resultat :** tes produits s'affichent avec etoiles, prix et disponibilite directement dans Google.
 
 ### 3. Contenu Duplique
 
@@ -277,12 +277,12 @@ Un site WooCommerce non optimise charge en 4-6 secondes. Ton objectif : **moins 
 | **SEO** | Excellent (plugins puissants) | Bon | Bon |
 | **Multi-langue** | Via plugins (WPML : 39 EUR/an) | Via apps (Langify : 17 USD/mois) | Natif |
 | **Scalabilite** | Jusqu'a ~50 000 produits | Illimitee (infrastructure Shopify) | Jusqu'a ~30 000 produits |
-| **Support** | Communauté + docs | Support 24/7 | Communauté + docs |
-| **Ideal pour** | Flexibilite maximale, budget serre | Debutants, dropshipping, scaling rapide | Marche français, B2B |
+| **Support** | Communaute + docs | Support 24/7 | Communaute + docs |
+| **Ideal pour** | Flexibilite maximale, budget serre | Debutants, dropshipping, scaling rapide | Marche francais, B2B |
 
 **Choisis WooCommerce si :**
-- Tu as déjà un site WordPress
-- Tu veux un contrôle total sur ton site et tes donnees
+- Tu as deja un site WordPress
+- Tu veux un controle total sur ton site et tes donnees
 - Tu as un budget serre mais du temps a investir
 - Tu vends moins de 10 000 produits
 - Tu veux des fonctionnalites sur mesure (code custom possible)
@@ -294,15 +294,15 @@ Un site WooCommerce non optimise charge en 4-6 secondes. Ton objectif : **moins 
 - Tu preferes payer un abonnement plutot que gerer un serveur
 
 **Choisis PrestaShop si :**
-- Tu es en France et tu veux un support/communauté francophone
+- Tu es en France et tu veux un support/communaute francophone
 - Tu geres de la TVA intra-communautaire complexe
 - Tu fais du B2B avec des catalogues personnalises par client
 
-## Les Coûts Reels de WooCommerce
+## Les Couts Reels de WooCommerce
 
 "WooCommerce est gratuit" est techniquement vrai. Mais en realite, voici ce que tu vas payer :
 
-| Poste | Coût annuel |
+| Poste | Cout annuel |
 |-------|-------------|
 | Hebergement WordPress | 50-360 EUR |
 | Nom de domaine | 10-15 EUR |
@@ -314,7 +314,7 @@ Un site WooCommerce non optimise charge en 4-6 secondes. Ton objectif : **moins 
 | **TOTAL annuel (DIY)** | **200-500 EUR** |
 | **TOTAL annuel (agence)** | **2 000-5 000 EUR** |
 
-**Comparaison Shopify :** un plan Basic Shopify coûte 432 EUR/an + commissions. Pour une petite boutique, WooCommerce revient moins cher. Pour un gros volume, Shopify simplifie tout et ca vaut la difference.
+**Comparaison Shopify :** un plan Basic Shopify coute 432 EUR/an + commissions. Pour une petite boutique, WooCommerce revient moins cher. Pour un gros volume, Shopify simplifie tout et ca vaut la difference.
 
 ## Performance : Optimiser WooCommerce
 
@@ -331,20 +331,20 @@ Oublie les hebergements mutualises a 3 EUR/mois. Pour WooCommerce, il te faut mi
 - Recommandes : Kinsta (35 EUR/mois), Cloudways (14 EUR/mois), o2switch (5 EUR/mois avec LiteSpeed)
 
 **2. Cache intelligent**
-WooCommerce a un problème avec le cache : les pages panier et checkout ne doivent PAS être mises en cache (sinon un client voit le panier d'un autre). WP Rocket et LiteSpeed Cache gerent ca nativement.
+WooCommerce a un probleme avec le cache : les pages panier et checkout ne doivent PAS etre mises en cache (sinon un client voit le panier d'un autre). WP Rocket et LiteSpeed Cache gerent ca nativement.
 
 **3. Images optimisees**
 Chaque produit a 3-10 images. Multiplie par 500 produits et tu as 5 000 images a optimiser. Utilise ShortPixel ou Imagify pour convertir en WebP automatiquement.
 
 **4. Desactiver les scripts inutiles**
-WooCommerce charge ses scripts sur TOUTES les pages, même les articles de blog. Utilise Perfmatters ou Asset CleanUp pour ne charger le JS WooCommerce que sur les pages boutique.
+WooCommerce charge ses scripts sur TOUTES les pages, meme les articles de blog. Utilise Perfmatters ou Asset CleanUp pour ne charger le JS WooCommerce que sur les pages boutique.
 
 **5. Base de donnees propre**
 WooCommerce cree beaucoup de "transients" et de meta-donnees. Nettoie regulierement avec WP-Optimize ou Advanced Database Cleaner.
 
-## Sécurité WooCommerce
+## Securite WooCommerce
 
-Tu geres de l'argent et des donnees clients. La sécurité n'est pas optionnelle.
+Tu geres de l'argent et des donnees clients. La securite n'est pas optionnelle.
 
 ### Les Bases
 
@@ -353,7 +353,7 @@ Tu geres de l'argent et des donnees clients. La sécurité n'est pas optionnelle
 - **Mots de passe forts** : admin + base de donnees + FTP
 - **2FA** : authentification a deux facteurs sur tous les comptes admin
 
-### Plugins de Sécurité
+### Plugins de Securite
 
 - **Wordfence** (gratuit/premium) : pare-feu, scan de malware, blocage IP
 - **Sucuri** (gratuit/premium) : monitoring, firewall cloud, nettoyage post-hack
@@ -367,14 +367,14 @@ En France, tu dois :
 - Permettre la suppression des donnees personnelles (droit a l'oubli)
 - Securiser les donnees clients (chiffrement, acces restreint)
 
-**Extension recommandee :** GDPR Cookie Compliance ou Complianz (gere bandeau + politique auto-générée).
+**Extension recommandee :** GDPR Cookie Compliance ou Complianz (gere bandeau + politique auto-generee).
 
 ## Verdict : WooCommerce en 2026
 
-WooCommerce reste le leader inconteste du e-commerce open source. Ses forces : flexibilite illimitee, coût d'entree quasi nul, écosystème WordPress gigantesque. Ses faiblesses : performances a optimiser, maintenance a gerer, courbe d'apprentissage si tu debutes en WordPress.
+WooCommerce reste le leader inconteste du e-commerce open source. Ses forces : flexibilite illimitee, cout d'entree quasi nul, ecosysteme WordPress gigantesque. Ses faiblesses : performances a optimiser, maintenance a gerer, courbe d'apprentissage si tu debutes en WordPress.
 
 **Pour qui ?**
-- Entrepreneurs qui veulent le contrôle total
+- Entrepreneurs qui veulent le controle total
 - Petites et moyennes boutiques (1 a 10 000 produits)
 - Sites qui combinent contenu (blog) et vente (la force de WordPress)
 - Budgets serres avec du temps a investir
@@ -384,4 +384,4 @@ WooCommerce reste le leader inconteste du e-commerce open source. Ses forces : f
 - Boutiques avec 100 000+ produits (regarde Magento ou solutions custom)
 - Dropshippers qui veulent scaler vite (Shopify + DSers sera plus efficace)
 
-Le mieux ? Teste. WooCommerce est gratuit, l'hebergement coûte 5 EUR/mois. En 2 heures, tu sais si ca te convient.
+Le mieux ? Teste. WooCommerce est gratuit, l'hebergement coute 5 EUR/mois. En 2 heures, tu sais si ca te convient.

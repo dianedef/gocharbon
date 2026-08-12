@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -44,7 +44,7 @@ https://youtu.be/IUc8OVcPeHs?t=182
 
 
 - Comment transformer des inconnus en superfans et clients avec les médias sociaux (sans être insistant ni gâcher votre vie en ligne) même si vous avez un petit public.
-[(12) Vidéo | Facebook](https://www.facebook.com/watch/?v=1355439381662050)
+[(12) Video | Facebook](https://www.facebook.com/watch/?v=1355439381662050)
 [How to Disagree Respectfully to Get What You Really Want at Work - LifeHack](https://www.lifehack.org/798275/how-to-disagree-respectfully)
 
 
@@ -487,9 +487,9 @@ Deux images émotionnelles, reliées entre elles de la bonne façon ; peuvent av
 
 The way you present information affects how users interpret and decide.
 
-The same facts presented in two different ways can lead to different outcomes or décisions from people.1
+The same facts presented in two different ways can lead to different outcomes or decisions from people.1
 
-It's best to frame your expérience around the core value of your product, or else you risk wasting users' brain cycles.
+It's best to frame your experience around the core value of your product, or else you risk wasting users' brain cycles.
 
 Similarly, anchoring the status quo as very time-consuming helps users see the value of your product or feature.2
 
@@ -503,7 +503,7 @@ Users are less overwhelmed if they're exposed to complex features later.1
 
 Your new users have a specific goal in mind when they discover your app (see jobs-to-be-done framework).2
 
-Your role is to identify your new users' hopes and pains quickly, and align your expérience with their needs—not the other way around.
+Your role is to identify your new users' hopes and pains quickly, and align your experience with their needs—not the other way around.
 
 1[_Progressive Disclosure_, Psychology of Design (2021)](https://growth.design/psychology#progressive-disclosure)  
 2[_JTBD Forces Diagram_, JTBD.info (2017)](https://jtbd.info/may-the-forces-diagram-be-with-you-always-applying-jtbd-everywhere-b1b325b50df3)
@@ -512,7 +512,7 @@ Your role is to identify your new users' hopes and pains quickly, and align your
 
 Asking questions creates expectations.
 
-If you give your users the impression that you'll customize an expérience based on their inputs, not delivering on that expectation can quickly backfire.
+If you give your users the impression that you'll customize an experience based on their inputs, not delivering on that expectation can quickly backfire.
 
 Personalization is an excellent way to improve activation and retention.1
 
@@ -527,7 +527,7 @@ Users value something more if they feel it's theirs, including digital experienc
 
 In this case, knowing that my book summary was waiting for me in my "Library" made me stick around until the very end (as you'll soon see).
 
-This principle—combined with good personalization—can encourage your users to complète your onboarding.
+This principle—combined with good personalization—can encourage your users to complete your onboarding.
 
 1[_Endowment Effect_, Psychology of Design (2019)](https://growth.design/psychology#endowment-effect)
 

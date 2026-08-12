@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: crm
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: tuto
 statut: []
 _priorité: normal
 imageNameKey: twitter-crm
@@ -11,7 +9,8 @@ tags:
 - Outils
 title: Le Crm Twitter Qui Va Faire Exploser Votre Influence Tout Révélé
 author: Diane
-description: "Le Crm Twitter Qui Va Faire Exploser Votre Influence Tout Révélé."
+description: 'Découvre Le Crm Twitter Qui Va Faire Exploser Votre Influence Tout Révélé
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

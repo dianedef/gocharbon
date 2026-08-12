@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: OUTILS E-COMMERCE FRANÇAIS
 author: Diane
@@ -15,7 +15,7 @@ imgUrl: ../../../assets/astro.jpeg
 
 Créer une boutique en ligne avec des solutions françaises, c'est possible et même recommandé. Voici les meilleures options.
 
-# CMS & Plateformes
+## CMS & Plateformes
 
 Crée et gère ta boutique en ligne.
 
@@ -23,7 +23,7 @@ Crée et gère ta boutique en ligne.
 
 [→ Voir tous les CMS e-commerce](/outils/ecommerce/cms/)
 
-# Paiement
+## Paiement
 
 Solutions de paiement en ligne et en plusieurs fois.
 
@@ -31,7 +31,7 @@ Solutions de paiement en ligne et en plusieurs fois.
 
 [→ Voir toutes les solutions de paiement](/outils/ecommerce/paiement/)
 
-# Logistique
+## Logistique
 
 Expédition, fulfillment, gestion des stocks.
 

@@ -1,34 +1,15 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Olvid
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: messagerie
 description: Olvid est la messagerie ultra-sécurisée française certifiée ANSSI. Chiffrement
   total, zéro donnée personnelle requise. Utilisée par le gouvernement. Dès 0€.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://olvid.io/fr/
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.olvid.io/contact/fr
-- https://www.olvid.io/privacy/fr
-- https://www.olvid.io/technology/fr/
-notesQualification: 'Olvid est une SAS française basée à Paris. La documentation
-  officielle établit un niveau de sécurité et de transparence exceptionnel, avec
-  certifications CSPN ANSSI et une architecture minimisant drastiquement les données
-  exposées ; l''hébergement reste toutefois insuffisamment documenté publiquement
-  pour être précisé davantage.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Olvid

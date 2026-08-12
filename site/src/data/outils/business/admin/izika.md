@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://izika.com/fr_FR/mentions-legales
-- https://izika.com/
-notesQualification: Izika est une SAS basee a Castelnau-le-Lez et son hebergement officiel est documente chez Scaleway en France; l'ancrage local est solide mais la documentation publique reste surtout legale et produit.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: izika
 author: Diane
 tags:

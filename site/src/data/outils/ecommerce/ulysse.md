@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: autres
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: ulysse
@@ -21,7 +19,7 @@ imgUrl: ../../../assets/astro.jpeg
 
 Vous êtes nombreux à nous poser la question, et nous souhaitons être transparents avec vous, cela fait partie de nos valeurs !
 
-## **Ulysse n'est pas qu'un comparateur de vol, mais une agence de voyage.**
+### **Ulysse n'est pas qu'un comparateur de vol, mais une agence de voyage.**
 
 Nous proposons une qualité de service très peu présente sur le marché, comme un **service client super efficace**, géré par de vrais humains, ou des moyens de paiement divers et variés pour que tout le monde puisse y trouver son compte. Pour cela, nous ajoutons une commission sur chaque vol que nous vendons. De plus, notre site est **100% sans publicités**, pour que vous puissiez être 100% concentré sur la réservation de votre voyage !
 
@@ -29,7 +27,7 @@ Comme nous ne sommes pas encore un gros du tourisme mais une startup, nous ne po
 
 Notre service client est de plus 100% français (ce qui a forcément un impact sur nos coûts)
 
-## **Attention aux comparateurs de vols !**
+### **Attention aux comparateurs de vols !**
 
 Chez Ulysse, **le prix affiché au moment de la recherche ne bouge pas jusqu'au paiement** (sauf si vous ajoutez des bagages ou des services additionnels) : c'est l'un de nos engagements principaux et c'est très important pour nous ! Sur d'autres comparateurs, ou même directement sur le site des compagnies aériennes, le prix augmente au fur et à mesure de la commande, ou est recalculé juste quand vous êtes prêt à payer. On sait à quel point cela est énervant, et cela ne peut donc pas arriver chez nous.
 

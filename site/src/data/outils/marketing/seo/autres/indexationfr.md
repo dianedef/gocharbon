@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: indexation-fr
@@ -78,7 +78,7 @@ Leur robot parcours votre site et votre sitemap afin de contrôler chaque URL d�
 
 2 options s’offrent ici à vous une fois le crawl terminé :
 
-- **Mode automatique**. Vous avez la possibilité de laisser le système ajouter automatiquement les URL non indexées au système d’indexation du site. Une tâche cron permet de vérifier chaque jour les nouvelles URLs. Comptez 0,0010 par URL pour le prix de contrôle d’indexation.
+- **Mode automatique**. Vous avez la possibilité de laisser le système ajouter automatiquement les URL non indexées au système d’indexation du site. Une tache cron permet de vérifier chaque jour les nouvelles URLs. Comptez 0,0010 par URL pour le prix de contrôle d’indexation.
 - **Mode manuel** (recommandé). Vous pouvez passer en revue vos backlinks qui sont récupérés par leur système et contrôlé au niveau indexation et choisir ceux que vous souhaitez envoyer vers leur file d’indexation.
 
 
@@ -96,7 +96,7 @@ Comptez environ 0,0075 + 0,30 crédit par site récupération d’un lien. 
     - 542 pages : 0,542 crédit
     - 327 backlinks : 2,7525 crédits + 0,327 contrôle indexation
 - Le contrôle de votre site aura couté : 3,6215 crédit soit 1,26€ !
-- Chaque page envoyée à indexer coûte 1 crédit.
+- Chaque page envoyée à indexer coute 1 crédit.
 
 Un outil vraiment intéressant pour les référenceurs ou webmasters qui pratiquent le netlinking et souhaitent s’assurer que leurs liens sont bien indexés dans Google !
 

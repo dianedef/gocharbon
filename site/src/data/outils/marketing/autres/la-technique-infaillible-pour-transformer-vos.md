@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Technique Infaillible Pour Transformer Vos Haters En Fans Inconditionnels
 author: Diane
-description: "La Technique Infaillible Pour Transformer Vos Haters En Fans Inconditionnels."
+description: 'Découvre La Technique Infaillible Pour Transformer Vos Haters En Fans
+  Inconditionnels : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

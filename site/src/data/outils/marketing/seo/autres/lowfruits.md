@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -25,7 +25,7 @@ Introducing Our Easy-to-Use SERP Scoring System**
 We’ve also integrated:
 
 * a tool for **tracking keyword rankings**
-* a simplified filtering expérience
+* a simplified filtering experience
 * some more advanced SERP filters
 * and various other features to expedite your SERP analysis.q
 
@@ -204,7 +204,7 @@ Et bien d'autres choses encore !
 
 Par exemple, si tu veux te concentrer sur le contenu qui favorise les conversions, tu peux filtrer par mots-clés à forte intention :
 
-[https://lh5.googleusercontent.com/xnYNb8PVz2Bp5L-CNpM31A-1PcMFQ6GQB7BWWIO0mliTCecEeB2k52FqSwBECJV3RlF80y4ZYQquJRCRVFE_bmdeJoVjQ8B23s1Purr46NV3_PQUoOh0U74x1bG8hz94S2U0keac8fI9JsGlfo1ZBRA](__MASK_12__)
+[https://lh5.googleusercontent.com/xnYNb8PVz2Bp5L-CNpM31A-1PcMFQ6GQB7BWWIO0mliTCecEeB2k52FqSwBECJV3RlF80y4ZYQquJRCRVFE_bmdeJoVjQ8B23s1Purr46NV3_PQUoOh0U74x1bG8hz94S2U0keac8fI9JsGlfo1ZBRA](https://lh5.googleusercontent.com/xnYNb8PVz2Bp5L-CNpM31A-1PcMFQ6GQB7BWWIO0mliTCecEeB2k52FqSwBECJV3RlF80y4ZYQquJRCRVFE_bmdeJoVjQ8B23s1Purr46NV3_PQUoOh0U74x1bG8hz94S2U0keac8fI9JsGlfo1ZBRA)
 
 💡 Tu obtiens **200+ modificateurs** autour de ton mot-clé de départ.Par exemple, si ton mot-clé de départ était "canapé", nous utiliserions le pré-remplissage Alphabet soup, différentes positions du curseur,
 
@@ -218,7 +218,7 @@ Par exemple, si tu veux te concentrer sur le contenu qui favorise les conversion
 
 Par exemple, la recherche "* canapé pour *" aboutit à des requêtes comme : "canapé en cuir pour chien".
 
-[https://lh3.googleusercontent.com/ULxKxMDI6PE3ZpuVBcEJEwXU9wvfzpIPKLiUsYU9E9wuwjKUEfXbAMFeISVRMr8IipiFdX9WIFIkYgIA9LePKDGwTqWAP71f12iE_jSjBi1aXi6EY1s4uq-HhTO_XBPPXXnWuSm6jzsnKRqOvcO9GMk](__MASK_13__)
+[https://lh3.googleusercontent.com/ULxKxMDI6PE3ZpuVBcEJEwXU9wvfzpIPKLiUsYU9E9wuwjKUEfXbAMFeISVRMr8IipiFdX9WIFIkYgIA9LePKDGwTqWAP71f12iE_jSjBi1aXi6EY1s4uq-HhTO_XBPPXXnWuSm6jzsnKRqOvcO9GMk](https://lh3.googleusercontent.com/ULxKxMDI6PE3ZpuVBcEJEwXU9wvfzpIPKLiUsYU9E9wuwjKUEfXbAMFeISVRMr8IipiFdX9WIFIkYgIA9LePKDGwTqWAP71f12iE_jSjBi1aXi6EY1s4uq-HhTO_XBPPXXnWuSm6jzsnKRqOvcO9GMk)
 
 Si tu faisais cela manuellement, cela prendrait _des jours_.
 
@@ -257,7 +257,7 @@ Ne vérifie pas les SERP manuellement.
 * T'aide à optimiser ton contenu (le renforcer avec un contenu supplémentaire de mots-clés).
 * T'aide à éviter la cannibalisation
 
-[https://lh3.googleusercontent.com/YFkRSEvmZvlZtckjA-2SVCrHDOLehRFXLWnje0K2KD8G8e_ohrP6Nm7AecpwATGlCQ9tBmDZOsTjiPeMi-JP5bQIGo4DfdINpw4d_mO_rkZr13PrctlXdHGX1LzW10C0dc2A6HFTfDFEoaHEaEOi1sM](__MASK_14__)
+[https://lh3.googleusercontent.com/YFkRSEvmZvlZtckjA-2SVCrHDOLehRFXLWnje0K2KD8G8e_ohrP6Nm7AecpwATGlCQ9tBmDZOsTjiPeMi-JP5bQIGo4DfdINpw4d_mO_rkZr13PrctlXdHGX1LzW10C0dc2A6HFTfDFEoaHEaEOi1sM](https://lh3.googleusercontent.com/YFkRSEvmZvlZtckjA-2SVCrHDOLehRFXLWnje0K2KD8G8e_ohrP6Nm7AecpwATGlCQ9tBmDZOsTjiPeMi-JP5bQIGo4DfdINpw4d_mO_rkZr13PrctlXdHGX1LzW10C0dc2A6HFTfDFEoaHEaEOi1sM)
 
 En fin de compte, tu peux produire un contenu plus fort et plus complet qui se classe bien pour tes mots-clés cibles.
 
@@ -269,7 +269,7 @@ LowFruits dispose d'un système de comptage de mots spécifique. Il ne prend en 
 
 Tu obtiens ainsi un **comptage précis des mots.**
 
-[https://lh5.googleusercontent.com/evvqMuzG_uCqTrTHXjowbFJXbvHwvIKXb5xUT4df4LsktEwDIybNYv31D09rKS7P8BqF4lXVh8Zn2GTvpMl1y74qGY71BWfk9wnA7kFQx4GabSSrNG5u2GzPu81_dQu8-gyfszo_e9HjU-K6x4oJclM](__MASK_15__)
+[https://lh5.googleusercontent.com/evvqMuzG_uCqTrTHXjowbFJXbvHwvIKXb5xUT4df4LsktEwDIybNYv31D09rKS7P8BqF4lXVh8Zn2GTvpMl1y74qGY71BWfk9wnA7kFQx4GabSSrNG5u2GzPu81_dQu8-gyfszo_e9HjU-K6x4oJclM](https://lh5.googleusercontent.com/evvqMuzG_uCqTrTHXjowbFJXbvHwvIKXb5xUT4df4LsktEwDIybNYv31D09rKS7P8BqF4lXVh8Zn2GTvpMl1y74qGY71BWfk9wnA7kFQx4GabSSrNG5u2GzPu81_dQu8-gyfszo_e9HjU-K6x4oJclM)
 
 Par exemple, si tes concurrents créent un contenu mince de 400 mots, tu peux l'étendre à 600 mots pour le rendre plus pertinent. Cependant, ne l'étoffe pas !
 
@@ -284,7 +284,7 @@ Sache contre qui tu es en compétition avant d'écrire le premier article.
 * Filtre sur les nouveaux sites Web** - Trouve de nouveaux sites Web qui se classent bien et extrais leur mot-clé.
 * Monétisation** - Comment tes concurrents gagnent-ils de l'argent ? Découvre s'ils monétisent avec des publicités (plateformes spécifiques), du marketing d'affiliation (plateformes spécifiques) ou des ventes directes pour comprendre les opportunités de niche.
 
-[https://lh5.googleusercontent.com/3an4XpXRNWBlkmx7GC-7p4le-DDkYghipHmumKHdbmeh8jfy0W4kBEYqIM_1Ez7yVoFYvHuGEeHEFJFuVv7lvow6dNNBpTPaAoFLyNbA147YGeOo7gXKnMTALDphuqCeg0YLt527G2psB3_qmtiewec](__MASK_16__)
+[https://lh5.googleusercontent.com/3an4XpXRNWBlkmx7GC-7p4le-DDkYghipHmumKHdbmeh8jfy0W4kBEYqIM_1Ez7yVoFYvHuGEeHEFJFuVv7lvow6dNNBpTPaAoFLyNbA147YGeOo7gXKnMTALDphuqCeg0YLt527G2psB3_qmtiewec](https://lh5.googleusercontent.com/3an4XpXRNWBlkmx7GC-7p4le-DDkYghipHmumKHdbmeh8jfy0W4kBEYqIM_1Ez7yVoFYvHuGEeHEFJFuVv7lvow6dNNBpTPaAoFLyNbA147YGeOo7gXKnMTALDphuqCeg0YLt527G2psB3_qmtiewec)
 
 (Par exemple, il se peut que tu trouves un mot-clé intéressant. Pourtant, si tu réalises qu'un puissant concurrent de commerce électronique se classe pour lui (et que tu es un site Web de niche), tu sauras qu'il faut l'ignorer.
 
@@ -298,7 +298,7 @@ Filtre pour "Performers" pour identifier les nouveaux sites web qui obtiennent b
 
 Tu repéreras aussi de nouvelles opportunités pour ton propre site !
 
-[https://lh4.googleusercontent.com/DAm3mgLqfILeswfZxRBC5CS6jgW02EBVEvlPhy-OwmK9_DNF1CSpXGoz4jCw9wRP_XT2q8kKwgC40hRxsqGjPDjLLhFVjTSaOcz3SrDwF5PwCTzzapc801Ecvz3svMFzfOc20euHTAP-cMYZbHmS8RE](__MASK_17__)
+[https://lh4.googleusercontent.com/DAm3mgLqfILeswfZxRBC5CS6jgW02EBVEvlPhy-OwmK9_DNF1CSpXGoz4jCw9wRP_XT2q8kKwgC40hRxsqGjPDjLLhFVjTSaOcz3SrDwF5PwCTzzapc801Ecvz3svMFzfOc20euHTAP-cMYZbHmS8RE](https://lh4.googleusercontent.com/DAm3mgLqfILeswfZxRBC5CS6jgW02EBVEvlPhy-OwmK9_DNF1CSpXGoz4jCw9wRP_XT2q8kKwgC40hRxsqGjPDjLLhFVjTSaOcz3SrDwF5PwCTzzapc801Ecvz3svMFzfOc20euHTAP-cMYZbHmS8RE)
 
 ## **LowFruits : Ici Pour T'aider à Analyser les SERP plus rapidement**
 
@@ -338,7 +338,7 @@ Trouve des idées de sujets et utilise-les comme semences [mots-clés.Eg](http:/
 
 ## Comment Trouver des Idées de Sujets ? 🤔
 
-Lis cet autre article pour trouver des idées : [https://blog.lowfruits.io/10-great-ways-to-get-topic-ideas](__MASK_21__)
+Lis cet autre article pour trouver des idées : [https://blog.lowfruits.io/10-great-ways-to-get-topic-ideas](https://blog.lowfruits.io/10-great-ways-to-get-topic-ideas)
 
 [data:image/svg+xml,%3Csvg%20xmlns='[http://www.w3.org/2000/svg' viewBox='0 0 0 0'></svg>](data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 0 0](http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E%5D(data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200)'%3E%3C/svg%3E)
 
@@ -372,13 +372,13 @@ Par exemple, j'utilise ici le terme général "golden retriever", mais on peut l
 
 PS : La liste des termes fréquents peut aussi t'aider à trouver des idées de sujets lorsque tu fais du nichage.
 
-[https://pbs.twimg.com/media/FTCREzCWUAAhoua?format=jpg&name=medium](__MASK_29__)
+[https://pbs.twimg.com/media/FTCREzCWUAAhoua?format=jpg&name=medium](https://pbs.twimg.com/media/FTCREzCWUAAhoua?format=jpg&name=medium)
 
 ## Aucune Idée de Mot-clé N'a Été Générée ?
 
 Parfois, les mots-clés de départ peuvent être trop étroits 👉 pas d'idées de mots-clés générées à partir de celui-ci 👉 pas de marché… Si c'est le cas, va un peu moins loin.Ou utilise la fonction "importer" pour des mots-clés spécifiques que tu veux analyser.
 
-[https://pbs.twimg.com/media/FTCXPLjWUAAm9Z1?format=jpg&name=medium](__MASK_30__)
+[https://pbs.twimg.com/media/FTCXPLjWUAAm9Z1?format=jpg&name=medium](https://pbs.twimg.com/media/FTCXPLjWUAAm9Z1?format=jpg&name=medium)
 
 \|---\|<br>\NBienvenue dans cette nouvelle édition de la lettre d'information Lowfruits, où nous partageons des conseils, des astuces et des idées pour booster ton succès en matière de référencement.\N-<br>\N-<br>\N-**Comment faire une analyse SERP : Analyser et qualifier 5 SERPs étape par étape**\N<br>\N[ ](YJNAWYPQQIYITRD)\N<br>\NDécouvrez les secrets pour dominer les SERPs grâce à notre guide complet sur Comment faire une analyse SERP.  <br> <br>Dans ce guide, Georgi t'apprendra comment :<br><br>- Découvrir l'art de disséquer les résultats de recherche<br>- Décoder l'intention des utilisateurs<br>- Élaborer une stratégie de référencement gagnante<br>\N-[Lire l'article](https://blog.lowfruits.io/how-to-do-a-serp-analysis ?utm_source=mailercloud&utm_medium=newsletter)\N<br><br><br>\NComment trouver des mots-clés rentables (fonctionne pour chaque niche)**\N<br>\N[ ](https://blog.lowfruits.io/how-to-find-profitable-keywords?utm_source=mailercloud&utm_medium=newsletter)\N<br>\NNe manque pas notre guide sur Comment trouver des mots-clés rentables - ta carte au trésor des mots-clés qui se traduisent par de l'or.  <br><br>Georgi te guidera à travers le processus de :<br><br>-La recherche de mots-clés qui t'aidera à atteindre tes clients et clients potentiels.<br>- L'art de la recherche de mots-clés<br>- La découverte de joyaux cachés<br>- L'allumage de tes taux de conversion<br><br><br>[Lire l'article](https://blog.lowfruits.io/how-to-find-profitable-keywords?utm_source=mailercloud&utm_medium=newsletter)\|<br>\|<br>\N-**Achieving 1k Daily Visits and rising!**\N<br>\N-[ ](https://blog.lowfruits.io/achieving-1-2k-daily-visits-and-rising?utm_source=mailercloud&utm_medium=newsletter)\|<br>\|<br>\NParticipez à la célébration en partageant le voyage de Brian Lett vers l'atteinte de 1,2K visites quotidiennes et l'ascension. <br><br><br>Dans cette histoire à succès, Brian va :<br><br>- dévoiler les tactiques qu'il a utilisées pour propulser la croissance de son site web<br>- vous apprendre à utiliser LowFruit pour la recherche de mots-clés<br>- vous donner des conseils sur les stratégies que vous pouvez reproduire pour faire exploser votre propre trafic!\N-[Lire la Q&R](https://blog.lowfruits.io/achieving-1-2k-daily-visits-and-rising ?utm_source=mailercloud&utm_medium=newsletter)\|<br>\Notre site web de conciergerie pour le traitement des visas inclut Lowfruits dans la recherche de mots-clés SOP**\|<br>\N-[ ](https://mc.lowfruits.io/links/bfuaJRkHfIDPysSbAsMBihIkVFUixMYssBasMxagkMDzdFkMKDZjHlbMkEad/1315481)\N<br>\NPlongez dans l'histoire à succès d'un site web de conciergerie pour le traitement des visas qui a exploité Lowfruits pour la recherche de mots-clés et le SOP. <br><br>Constantine partage son expérience sur :<br><br>- Les clés d'un fonctionnement efficace et d'une satisfaction client optimale<br>- Les astuces et stratégies qu'il utilise pour atteindre son public cible.\|||
 

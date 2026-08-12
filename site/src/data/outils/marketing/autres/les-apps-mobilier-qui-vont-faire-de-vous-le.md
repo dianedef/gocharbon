@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Apps Mobilier Qui Vont Faire De Vous Le Nouveau Philippe Starck
 author: Diane
-description: "Les Apps Mobilier Qui Vont Faire De Vous Le Nouveau Philippe Starck."
+description: 'Découvre Les Apps Mobilier Qui Vont Faire De Vous Le Nouveau Philippe
+  Starck : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -65,4 +66,4 @@ Les meubles Stooly, fabriqués en carton entièrement recyclable, se plient et s
 
 ## Notes et réferences
 
-- [https://www.maddyness.com/2019/06/03/8-concepts-de-boutique-en-competition-pour-reinventer-le-centre-commercial-de-demain/](__MASK_8__) Maddyness, Juin 2019
+- [https://www.maddyness.com/2019/06/03/8-concepts-de-boutique-en-competition-pour-reinventer-le-centre-commercial-de-demain/](https://www.maddyness.com/2019/06/03/8-concepts-de-boutique-en-competition-pour-reinventer-le-centre-commercial-de-demain/) Maddyness, Juin 2019

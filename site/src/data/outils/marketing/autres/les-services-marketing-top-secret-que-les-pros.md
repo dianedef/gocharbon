@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Services Marketing Top Secret Que Les Pros Gardent Pour Eux
 author: Diane
-description: "Les Services Marketing Top Secret Que Les Pros Gardent Pour Eux."
+description: 'Découvre Les Services Marketing Top Secret Que Les Pros Gardent Pour
+  Eux : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

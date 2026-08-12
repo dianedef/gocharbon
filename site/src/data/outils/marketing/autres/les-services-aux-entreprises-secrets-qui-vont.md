@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: autres
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Services Aux Entreprises Secrets Qui Vont Tripler Vos Bénéfices
 author: Diane
-description: "Les Services Aux Entreprises Secrets Qui Vont Tripler Vos Bénéfices."
+description: 'Découvre Les Services Aux Entreprises Secrets Qui Vont Tripler Vos Bénéfices
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

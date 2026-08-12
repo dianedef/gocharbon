@@ -6,7 +6,7 @@ author: "Diane"
 tags:
   - Lifetime Deals
   - Création de Site Web
-  - Outils
+  - Apps
 imgUrl: '../../../assets/astro.jpeg'
 category: "Général"
 ---
@@ -191,7 +191,7 @@ Comme le programme d'affiliation est sur plusieurs niveaux, ce qui est très pro
 
 Le système de rémunération GSelect est un programme d'affiliation !
 
-L'affiliation c'est comme du parrainage sauf que c'est à échelle professionnelle, donc tu n'as **pas juste un code et une petite récompense**. Par exemple le programme de parrainage de [Shadow](https://gocharbon.com/outils/shadow/) te permet d'économiser 5€ sur ton abonnement pour chaque client que tu leur amènes. Tu vas pas ni te nourrir ni acheter une Ferrari avec ça ! L'affiliation est **un vrai métier, où tu as une vraie rémunération.**
+L'affiliation c'est comme du parrainage sauf que c'est à échelle professionnelle, donc tu n'as **pas juste un code et une petite récompense**. Par exemple le programme de parrainage de [Shadow](https://gocharbon.com/apps/shadow/) te permet d'économiser 5€ sur ton abonnement pour chaque client que tu leur amènes. Tu vas pas ni te nourrir ni acheter une Ferrari avec ça ! L'affiliation est **un vrai métier, où tu as une vraie rémunération.**
 
 Techniquement, tu possèdes un lien spécifique avec un cookie valide 30 jours. Le cookie s'installe sur le navigateur de la personne qui clique sur ton lien et associe ce nouveau client à ton compte. Tu as **un tableau de bord pour suivre tes statistiques, et une équipe derrière toi pour te motiver et répondre à tes questions.**
 

@@ -1,6 +1,5 @@
 ---
-draft: true
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Gagnez 10 000€ Par Mois En Écrivant Sur Medium La Méthode Secrète Dévoilée
 author: Diane
-description: "Gagnez 10 000€ Par Mois En Écrivant Sur Medium La Méthode Secrète Dévoilée."
+description: 'Découvre Gagnez 10 000€ Par Mois En Écrivant Sur Medium La Méthode Secrète
+  Dévoilée : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -17,7 +17,7 @@ imgUrl: ../../../../assets/astro.jpeg
 
 Le 15 avril 2024par Korben -
 
-1. [Internet-Réseaux](https://korben.info/categories/internet-reseaux/ "Voir tous les articles de la catégorie Internet-Reseaux")
+1. [Internet-Reseaux](https://korben.info/categories/internet-reseaux/ "Voir tous les articles de la catégorie Internet-Reseaux")
 2. [Tendances-Web](https://korben.info/categories/internet-reseaux/tendances-web/ "Voir tous les articles de la sous-catégorie Tendances-Web")
 
 Ça va en faire des déçus chez les **petits malins** qui croyaient avoir trouvé la combine du siècle pour se faire du blé facile sur Medium en balançant des articles pondus par **ChatGPT** et compagnie ! La plateforme de blogs vient en effet de dégainer son bazooka anti-IA et de bannir purement et simplement le **contenu généré artificiellement** de son programme partenaire rémunéré. Eh oui, fini de laisser tourner GPT-4 à plein régime toute la nuit pour cracher des articles à la chaîne et les planquer derrière un paywall ! Medium a dit “**Niet, c’est fini ça !**”
@@ -121,7 +121,7 @@ Après soyons honnêtes, le contenu généré par l’IA, c’est souvent mal fa
           
         <img src="https://www.goreviewrite.com/wp-content/uploads/2021/09/Get-Familiar-with-the-guidelines.png" alt="Get Familiar with the guidelines" class="wp-image-2923" width="-96" height="-49" srcset="https://www.goreviewrite.com/wp-content/uploads/2021/09/Get-Familiar-with-the-guidelines.png 947w, https://www.goreviewrite.com/wp-content/uploads/2021/09/Get-Familiar-with-the-guidelines-300x154.png 300w, https://www.goreviewrite.com/wp-content/uploads/2021/09/Get-Familiar-with-the-guidelines-768x394.png 768w" sizes="(max-width: 947px) 100vw, 947px" />  
           
-        Being that you are actually building on someone’s else création, you have to stick strictly to the [**publishing guidelines**](https://help.medium.com/hc/en-us/articles/360006362473-Medium-s-Distribution-Standards-What-Writers-and-Publications-Need-to-Know) to avoid being kicked out of the platform.  
+        Being that you are actually building on someone’s else creation, you have to stick strictly to the [**publishing guidelines**](https://help.medium.com/hc/en-us/articles/360006362473-Medium-s-Distribution-Standards-What-Writers-and-Publications-Need-to-Know) to avoid being kicked out of the platform.  
           
         For instance, they have a zero-tolerance for extremely controversial topics as well as political issues.  
           
@@ -396,7 +396,7 @@ Lancer sa email list dès m:tn
 
 ## Pourquoi ?
 
-when you read articles about how to succeed on medium when you watch vidéos about how to succeed on vidéo or when you even like especially when you're about to purchase products of people who are promising you to teach you how to succeed on medium be really careful about what these people actually achieve like what do their results tell you do they actually see the results that they promise you or are they just talking about your dreams because they want to sell you sell you a dream that is actually even theirs that they didn't achieve yet so that's that's really critical and i if i would start from zero this would be the first thing that i would be more more careful about be really critical about whose advice you listen to
+when you read articles about how to succeed on medium when you watch videos about how to succeed on video or when you even like especially when you're about to purchase products of people who are promising you to teach you how to succeed on medium be really careful about what these people actually achieve like what do their results tell you do they actually see the results that they promise you or are they just talking about your dreams because they want to sell you sell you a dream that is actually even theirs that they didn't achieve yet so that's that's really critical and i if i would start from zero this would be the first thing that i would be more more careful about be really critical about whose advice you listen to
 
 
 # Contenu

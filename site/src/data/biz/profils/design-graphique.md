@@ -1,11 +1,11 @@
 ---
 section: parcours
-title: Designer graphique freelance
-author: Diane GoCharbon
+title: Designer Graphique Freelance
+author: Web Indé
 tags:
 - Business
-description: 'Vendre du design graphique en freelance avec un bon positionnement,
-  un portfolio net et une offre claire.'
+description: 'Deviens designer graphique freelance : portfolio, clients, tarification
+  et outils pour créatifs indépendants.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---

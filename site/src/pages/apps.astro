@@ -1,0 +1,43 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Default.astro";
+import PostGrid from "../components/components/PostGrid.astro";
+import Button from "../components/components/Button.astro";
+import { applyContentScope } from "../utils/content-section";
+import { filterBuildVisiblePosts } from "../utils/build-posts";
+
+const posts = applyContentScope(filterBuildVisiblePosts(await getCollection("posts")), "apps")
+	.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const visiblePosts = posts.slice(0, 30);
+const pillarTags = [
+	{ label: "Outils", href: "/tag/outils" },
+	{ label: "Tech", href: "/tag/tech" },
+	{ label: "Business", href: "/tag/business" },
+	{ label: "Marketing", href: "/tag/marketing" },
+];
+---
+
+<Layout title="Apps" description="GOCHARBON | La Mine" pageTitle="La Mine">
+	<main class="px-2 md:px-6 py-6 max-w-7xl mx-auto">
+		<section class="mb-8 p-4 md:p-6 border-3 border-black dark:border-yellow-soft bg-white-soft dark:bg-black">
+			<h2 class="poppins text-2xl md:text-3xl font-bold mb-3 text-black dark:text-white">Pages piliers</h2>
+			<p class="poppins text-lg mb-4 text-black dark:text-white">
+				Navigation directe par thématique, sans logique de filtres.
+			</p>
+			<div class="flex flex-wrap gap-3">
+				{pillarTags.map((tag) => (
+					<Button href={tag.href} color="var(--brand-copper)">
+						{tag.label}
+					</Button>
+				))}
+			</div>
+		</section>
+		<PostGrid posts={visiblePosts} />
+	</main>
+</Layout>
+
+<style>
+	.page-background {
+		transition: background-color 0.3s ease;
+	}
+</style>

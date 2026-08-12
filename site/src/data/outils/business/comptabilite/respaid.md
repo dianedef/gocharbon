@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: hors-union-europeenne
-ancrageEconomique: faible
-niveauResponsabilite: partiel
-paysSiege: Etats-Unis
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.respaid.com/privacy-policy
-- https://medias.respaid.com/files/cgu/0724/respaid-cgu-en.pdf
-- https://help.respaid.com/articles/647787-is-respaid-compliant-regarding-third-party-debt-collection
-notesQualification: Respaid opere juridiquement depuis les Etats-Unis et met en avant un cadre mixte franco-americain; le dossier n'etablit pas un ancrage economique francais et l'hebergement applicatif n'est pas qualifie publiquement au-dela d'AWS.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Respaid
 author: Diane
 tags:

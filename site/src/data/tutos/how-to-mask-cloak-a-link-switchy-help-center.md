@@ -12,7 +12,7 @@ pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-[http://help.switchy.io/en/articles/5430261-how-to-mask-cloak-a-link](__MASK_0__)
+[http://help.switchy.io/en/articles/5430261-how-to-mask-cloak-a-link](http://help.switchy.io/en/articles/5430261-how-to-mask-cloak-a-link)
 
 Switchy vous offre la possibilité de masquer / masquer votre lien pour vos besoins marketing comme la promotion d'affiliation.
 
@@ -52,20 +52,20 @@ Pour votre information, près de 3% des sites Web les plus populaires n'autorise
 
 ### 2. Entrez l'url que vous souhaitez masquer et cliquer sur "Switch it!"
 
-[https://images.tango.us/public/screenshot_efe1f20a-f48f-4f8a-b4de-afb270bff476?crop=focalpoint&fit=crop&fp-x=0.7403&fp-y=0.3034&fp-z=2.0000&w=1200&ar=1773%3A996](__MASK_5__)
+[https://images.tango.us/public/screenshot_efe1f20a-f48f-4f8a-b4de-afb270bff476?crop=focalpoint&fit=crop&fp-x=0.7403&fp-y=0.3034&fp-z=2.0000&w=1200&ar=1773%3A996](https://images.tango.us/public/screenshot_efe1f20a-f48f-4f8a-b4de-afb270bff476?crop=focalpoint&fit=crop&fp-x=0.7403&fp-y=0.3034&fp-z=2.0000&w=1200&ar=1773%3A996)
 
 ### 3. Scroller et cliquer sur "Options avancées"
 
-[https://images.tango.us/public/screenshot_ed0bc7ca-fbce-4a87-b0d7-59f69f480b28?crop=focalpoint&fit=crop&fp-x=0.3388&fp-y=0.7471&fp-z=1.9780&w=1200&ar=1773%3A996](__MASK_6__)
+[https://images.tango.us/public/screenshot_ed0bc7ca-fbce-4a87-b0d7-59f69f480b28?crop=focalpoint&fit=crop&fp-x=0.3388&fp-y=0.7471&fp-z=1.9780&w=1200&ar=1773%3A996](https://images.tango.us/public/screenshot_ed0bc7ca-fbce-4a87-b0d7-59f69f480b28?crop=focalpoint&fit=crop&fp-x=0.3388&fp-y=0.7471&fp-z=1.9780&w=1200&ar=1773%3A996)
 
 ### 4. Cliquer sur "Masquage de liens"
 
-[https://images.tango.us/public/screenshot_5ff43bf2-e542-4dfe-8ca0-fa5fe4d37b6d?crop=focalpoint&fit=crop&fp-x=0.3148&fp-y=0.7594&fp-z=2.0787&w=1200&ar=1773%3A996](__MASK_7__)
+[https://images.tango.us/public/screenshot_5ff43bf2-e542-4dfe-8ca0-fa5fe4d37b6d?crop=focalpoint&fit=crop&fp-x=0.3148&fp-y=0.7594&fp-z=2.0787&w=1200&ar=1773%3A996](https://images.tango.us/public/screenshot_5ff43bf2-e542-4dfe-8ca0-fa5fe4d37b6d?crop=focalpoint&fit=crop&fp-x=0.3148&fp-y=0.7594&fp-z=2.0787&w=1200&ar=1773%3A996)
 
 ### 5. Cliquer sur "Obtenir mon nouveau lien"
 
-[https://images.tango.us/public/screenshot_fb46a86b-7238-4d44-865b-075cc470afc3?crop=focalpoint&fit=crop&fp-x=0.7307&fp-y=0.3075&fp-z=1.9742&w=1200&ar=1773%3A996](__MASK_8__)
+[https://images.tango.us/public/screenshot_fb46a86b-7238-4d44-865b-075cc470afc3?crop=focalpoint&fit=crop&fp-x=0.7307&fp-y=0.3075&fp-z=1.9742&w=1200&ar=1773%3A996](https://images.tango.us/public/screenshot_fb46a86b-7238-4d44-865b-075cc470afc3?crop=focalpoint&fit=crop&fp-x=0.7307&fp-y=0.3075&fp-z=1.9742&w=1200&ar=1773%3A996)
 
 ### 6. Votre lien est prêt ! Copiez le et utilisez-le ! 👍
 
-[https://images.tango.us/public/screenshot_f83a79d0-175a-4c8f-95a1-334a5c0183ff?crop=focalpoint&fit=crop&fp-x=0.4934&fp-y=0.5002&fp-z=1.8975&w=1200&ar=1773%3A996](__MASK_9__)
+[https://images.tango.us/public/screenshot_f83a79d0-175a-4c8f-95a1-334a5c0183ff?crop=focalpoint&fit=crop&fp-x=0.4934&fp-y=0.5002&fp-z=1.8975&w=1200&ar=1773%3A996](https://images.tango.us/public/screenshot_f83a79d0-175a-4c8f-95a1-334a5c0183ff?crop=focalpoint&fit=crop&fp-x=0.4934&fp-y=0.5002&fp-z=1.8975&w=1200&ar=1773%3A996)

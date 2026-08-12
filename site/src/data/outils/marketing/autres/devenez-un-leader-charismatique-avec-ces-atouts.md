@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,12 +7,13 @@ imageNameKey: null
 u_site: null
 title: Devenez Un Leader Charismatique Avec Ces Atouts Secrets
 author: Diane
-description: "Devenez Un Leader Charismatique Avec Ces Atouts Secrets."
+description: 'Découvre Devenez Un Leader Charismatique Avec Ces Atouts Secrets : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-- *** apprentissage d'un [modèle d'excellence du chef de la direction] ([https://click.convertkit-mail.com/92u5wmn80gtnh5kelkc9/25h2hoh72597moi3/aHR0cHM6Ly93d3cubWNraW5zZXkuY29tL2J1c2luZXNzLWZ1bmN0aW9ucy9zdHJhdGVneS1hbmQtY29ycG9yYXRlLWZpbmFuY2Uvb3VyLWluc2lnaHRzL3RoZS1taW5kc2V0cy1hbmQtcHJhY3RpY2VzLW9mLWV4Y2VsbGVudC1jZW9zP3V0bV9zb3VyY2U9ZGF2aWRoYXVzZXIuY29tJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPXdlZWtseV9uZXdzbGV0dGVy](__MASK_0__))) pour comprendre les mentalités et les pratiques d'excellents chefs d'entreprise. Plus de 25 ans de données provenant de 7 800 PDG d'entreprises publiques nous donnent des réponses. Sur le long terme « Pourquoi ? » Normes de travail personnelles : faites ce que vous seul pouvez faire. Le rôle de PDG est un rôle difficile qui comprend divers besoins et compétences tels que « _définir la stratégie, aligner l'organisation, diriger l'équipe de direction, travailler avec le conseil d'administration, être le visage de l'entreprise pour les parties prenantes externes et gérer son propre temps et Énergie._'
+- *** apprentissage d'un [modèle d'excellence du chef de la direction] ([https://click.convertkit-mail.com/92u5wmn80gtnh5kelkc9/25h2hoh72597moi3/aHR0cHM6Ly93d3cubWNraW5zZXkuY29tL2J1c2luZXNzLWZ1bmN0aW9ucy9zdHJhdGVneS1hbmQtY29ycG9yYXRlLWZpbmFuY2Uvb3VyLWluc2lnaHRzL3RoZS1taW5kc2V0cy1hbmQtcHJhY3RpY2VzLW9mLWV4Y2VsbGVudC1jZW9zP3V0bV9zb3VyY2U9ZGF2aWRoYXVzZXIuY29tJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPXdlZWtseV9uZXdzbGV0dGVy](https://click.convertkit-mail.com/92u5wmn80gtnh5kelkc9/25h2hoh72597moi3/aHR0cHM6Ly93d3cubWNraW5zZXkuY29tL2J1c2luZXNzLWZ1bmN0aW9ucy9zdHJhdGVneS1hbmQtY29ycG9yYXRlLWZpbmFuY2Uvb3VyLWluc2lnaHRzL3RoZS1taW5kc2V0cy1hbmQtcHJhY3RpY2VzLW9mLWV4Y2VsbGVudC1jZW9zP3V0bV9zb3VyY2U9ZGF2aWRoYXVzZXIuY29tJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPXdlZWtseV9uZXdzbGV0dGVy))) pour comprendre les mentalités et les pratiques d'excellents chefs d'entreprise. Plus de 25 ans de données provenant de 7 800 PDG d'entreprises publiques nous donnent des réponses. Sur le long terme « Pourquoi ? » Normes de travail personnelles : faites ce que vous seul pouvez faire. Le rôle de PDG est un rôle difficile qui comprend divers besoins et compétences tels que « _définir la stratégie, aligner l'organisation, diriger l'équipe de direction, travailler avec le conseil d'administration, être le visage de l'entreprise pour les parties prenantes externes et gérer son propre temps et Énergie._'
 - Considering [four elements](https://click.convertkit-mail.com/0vumlek6qrt9hl5do7fl/58hvh7h5gw5on9s6/aHR0cHM6Ly9oYnIub3JnLzIwMTgvMDcvZ3JlYXQtbGVhZGVycy1hcmUtY29uZmlkZW50LWNvbm5lY3RlZC1jb21taXR0ZWQtYW5kLWNvdXJhZ2VvdXM_dXRtX3NvdXJjZT1kYXZpZGhhdXNlci5jb20mdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249d2Vla2x5X25ld3NsZXR0ZXI=) great leaders demonstrate to inspire action. Being a leader, in any aspect of life, is both hard and rewarding.
 - “No matter your age, your role, your position, your title, your profession, or your status, to get your most important work done, you have to have hard conversations, create accountability, and inspire action.”
 - To lead effectively, really, to live effectively, these four elements may be critical.

@@ -1,12 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: marketplace
-toolFacets:
-  - abonnements
-  - partage
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: spliiit
@@ -32,7 +27,7 @@ Pour transférer votre solde pour la première fois, il faut au préalable véri
 Cette démarche est expliquée dans l'article [Comment vérifier mon profil ?](https://help.spliiit.com/fr/article/comment-verifier-mon-profil-1emq8el/)  
   
 
-## Virer les fonds
+### Virer les fonds
 
   
   
@@ -71,7 +66,7 @@ Partagez vos frais d'abonnement avec Spliiit et faites des économies !
 Proposez les places restantes de votre abonnement sur la plateforme et trouvez des co-abonnés afin de diviser le prix de votre abonnement. Spliiit se charge de sécuriser les transactions et vous assure une gestion simplifiée de vos comptes.
 
 
-# Économisez sur vos abonnements avec Spliiit !
+## Économisez sur vos abonnements avec Spliiit !
 
 ✔️ Économisez de l'argent
 ✔️ Partagez vos abonnements inutilisés
@@ -79,23 +74,23 @@ Proposez les places restantes de votre abonnement sur la plateforme et trouvez d
 
 🎯 Utilisateurs cherchant à réduire leurs dépenses d'abonnement
 
-# Partage d'abonnements
+## 🔄 Partage d'abonnements
 (Spliiit permet de mettre en relation les propriétaires d'abonnements inutilisés et les intéressés.)
-# Inscription gratuite
+## 📋 Inscription gratuite
 (Inscrivez-vous gratuitement pour accéder à un catalogue d'offres d'abonnements.)
 
-# Offres & Prix
+## 💶 Offres & Prix
 A voir sur chaque offre
-# Intégrations
+## ⚙️ Intégrations
 (Découvrez les intégrations avec d'autres outils et les options d'API et de webhooks.)
 
-# Comment l’utiliser ?
+## 👀 Comment l’utiliser ?
 (Suivez ces étapes pour tirer le meilleur parti de Spliiit en utilisant des techniques de webmarketing.)
 
-# En Résumé ?
+## 🤔 En Résumé ?
 (Explorez la technologie ou la méthodologie spécifique utilisée par Spliiit.)
 
-# Mon Avis
+## Mon Avis
 👍 Économies significatives
 👍 Facilité d'utilisation
 👍 Grande variété d'abonnements disponibles

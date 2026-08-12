@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Guide
 statut: en-attente
 _priorité: normal
 tags:
@@ -14,24 +14,36 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Créer Une Stratégie De Contenu
+Comment créer un contenu épique ?
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+[wishlist-insider.s3.amazonaws.com/Bonuses/CreateEpicContent/HowToCreateEpicContentBlueprint.pdf](http://wishlist-insider.s3.amazonaws.com/Bonuses/CreateEpicContent/HowToCreateEpicContentBlueprint.pdf)
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+[Comment être intéressant (et faire des ventes) - YouTube](https://www.youtube.com/watch?v=saEy9iRqqfY)
 
-## Ressources de départ
-- [http://wishlist-insider.s3.amazonaws.com/Bonuses/CreateEpicContent/HowToCreateEpicContentBlueprint.pdf](http://wishlist-insider.s3.amazonaws.com/Bonuses/CreateEpicContent/HowToCreateEpicContentBlueprint.pdf)
-- [https://www.youtube.com/watch?v=saEy9iRqqfY](https://www.youtube.com/watch?v=saEy9iRqqfY)
-- [https://www.youtube.com/watch?v=-NaiPkh9bZs&t=444s](https://www.youtube.com/watch?v=-NaiPkh9bZs&t=444s)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+Cercle vertueux : Planification, rédaction, monitoring
+Ne pas foncer tête baisser sous peine de perdre son temps et ne jamais ranker
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+Les premières questions on se poser n'ont rien à voir avec le référencement naturel et tout à voir avec votre stratégie business : Quelle est la cible de votre marketing ? 
+
+Vous devez savoir qui vous souhaitez attirer avant de chercher autre chose. 
+
+1- Déterminez vos ressources et vos obiectifs Ci
+Les questions à se poser :
+Avez-vous déjà écrit du contenu ? Si oui, combien ?
+Combien de contenu pouvez-vous écrire chaque mois ?
+
+Important car pour vous faire confiance, Google veut voir que vous êtes régulier, et donc fiables, qu'il peut miser sur vous en vous envoyant du traif
+
+Le site est-il traduit en plusieurs langues ? Si oui, faut-il les travailler ?
+Quels sont vos services/produits ?
+Quel est votre service/produit phare ? (le plus ROIste)
+Quels sont vos types de clients ?
+Sur quel(s) service(s) souhaitez-vous vous concentrer au début ?
+Qui sont vos plus gros concurrents ?
+
+A qui allez vous vendre ? Et de quelle manière ?
+Une fois ces questions répondue vous allez pouvoir répondre au "où", à savoir quels articles rédigés pour rencontrer vos prospects dans l'univers du web
+
+
+### Comment se positionner sur des requêtes concurrentielles ?
+["Comment se positionner sur des requêtes ultra concurrentielle" avec Clustaar - YouTube](https://www.youtube.com/watch?v=-NaiPkh9bZs&t=444s)

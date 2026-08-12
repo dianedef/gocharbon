@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://pepsup.com/mentions-legales
-- https://pepsup.com/qui-sommes-nous
-- https://pepsup.com/
-notesQualification: Pep's Up est edite par SCOLABS a Marseille; les mentions legales documentent un hebergement OVH en France et l'equipe revendique une infrastructure hebergee en France, sans publier davantage de detail technique.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Pep's Up
 author: Diane
 tags:

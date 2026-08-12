@@ -1,12 +1,8 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: bureautique
-toolFacets:
-  - ia
 imageNameKey: cordial
 u_site: https://www.cordial.fr
 u_affi: null
@@ -16,22 +12,6 @@ description: 'Cordial : correcteur orthographique et grammatical français depui
   Par Synapse (Toulouse). IA, 30 000+ utilisateurs, dès 6 EUR HT/mois.'
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.cordial.fr/politique-de-confidentialite/
-- https://www.cordial.fr/contact/
-- https://www.cordial.fr/
-notesQualification: 'Cordial est édité par Synapse Développement, société française
-  basée à Toulouse. La politique de confidentialité documente explicitement un traitement
-  opéré en France et l''absence de stockage des textes corrigés sur les serveurs,
-  ce qui justifie une qualification forte.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Cordial

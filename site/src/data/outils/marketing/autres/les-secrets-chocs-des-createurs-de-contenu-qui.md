@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: creation-contenu
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut:
 - backlog
 _priorité: normal
@@ -11,7 +9,8 @@ tags:
 - Outils
 title: Les Secrets Chocs Des Créateurs De Contenu Qui Cartonnent Tout Révélé
 author: Diane
-description: "Les Secrets Chocs Des Créateurs De Contenu Qui Cartonnent Tout Révélé."
+description: 'Découvre Les Secrets Chocs Des Créateurs De Contenu Qui Cartonnent Tout
+  Révélé : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

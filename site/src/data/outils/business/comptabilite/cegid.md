@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.cegid.com/fr/mentions-legales/
-- https://www.cegid.com/fr/politique-de-confidentialite/
-notesQualification: Cegid est un editeur historique francais base a Lyon, mais la structure groupe est plus large et moins lisible; Cegid documente un stockage europeen pour le site et une gouvernance privacy serieuse, sans detail unique pour toute la galaxie produit.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Cegid
 author: Diane
 tags:

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Link Finder
 author: Diane
@@ -30,11 +30,11 @@ Link Finder est un comparateur de plateformes de netlinking qui agrege plus de 3
 
 ## Benefices
 
-- **Économies massives** -- En comparant le même site sur 30+ plateformes, tu trouves systematiquement le prix le plus bas. Des utilisateurs rapportent des differences allant jusqu'a 4 000 EUR pour un même lien entre deux plateformes.
+- **Economies massives** -- En comparant le meme site sur 30+ plateformes, tu trouves systematiquement le prix le plus bas. Des utilisateurs rapportent des differences allant jusqu'a 4 000 EUR pour un meme lien entre deux plateformes.
 - **Gain de temps considerable** -- Fini d'ouvrir 10 onglets pour comparer les prix. Tu centralises toute ta recherche de spots dans une seule interface, ce qui reduit ton temps de prospection de 90%.
 - **Decouverte de spots inedits** -- L'outil identifie des sites qui vendent des liens sur les SERP que tu cibles, ce qui te permet de trouver des opportunites que tu n'aurais jamais decouvertes manuellement.
-- **Analyse concurrentielle** -- Scanne les backlinks de tes concurrents pour identifier leurs sources de liens et reproduire (ou surpasser) leur stratégie.
-- **Suivi de liens** -- Monitore l'etat de tes backlinks après achat pour verifier qu'ils restent bien en place.
+- **Analyse concurrentielle** -- Scanne les backlinks de tes concurrents pour identifier leurs sources de liens et reproduire (ou surpasser) leur strategie.
+- **Suivi de liens** -- Monitore l'etat de tes backlinks apres achat pour verifier qu'ils restent bien en place.
 - **Extension Chrome integree** -- Active l'extension directement sur les SERP de Google pour voir en temps reel quels sites vendent des liens.
 
 ### Pour Qui ?
@@ -49,25 +49,25 @@ Link Finder est un comparateur de plateformes de netlinking qui agrege plus de 3
 
 ### Comparateur de prix multi-plateformes
 
-Le coeur de Link Finder. Tu entres un nom de domaine (ou une liste), et l'outil te montre sur quelles plateformes ce site est disponible a l'achat, avec les prix compares cote a cote. Plus de 30 marketplaces sont connectees, dont les plus connues du marche français (Linkuma, SEMJuice, Soumettre, Develink, Ereferer, Rocketlinks, etc.) et des plateformes internationales.
+Le coeur de Link Finder. Tu entres un nom de domaine (ou une liste), et l'outil te montre sur quelles plateformes ce site est disponible a l'achat, avec les prix compares cote a cote. Plus de 30 marketplaces sont connectees, dont les plus connues du marche francais (Linkuma, SEMJuice, Soumettre, Develink, Ereferer, Rocketlinks, etc.) et des plateformes internationales.
 
-Pour chaque spot, tu obtiens les métriques SEO essentielles : Trust Flow, Citation Flow, Domain Authority, trafic estime, thématique, et bien sur le prix sur chaque plateforme. Tu peux trier, filtrer et comparer en quelques secondes.
+Pour chaque spot, tu obtiens les metriques SEO essentielles : Trust Flow, Citation Flow, Domain Authority, trafic estime, thematique, et bien sur le prix sur chaque plateforme. Tu peux trier, filtrer et comparer en quelques secondes.
 
 ### Recherche Bulk
 
 Tu as une liste de 50, 100 ou 500 domaines a verifier ? La recherche bulk te permet de scanner toute ta liste en une seule operation. L'outil te retourne un tableau complet avec les prix compares pour chaque domaine sur toutes les plateformes disponibles. Indispensable pour les agences qui gerent de gros volumes.
 
-### Recherche par mots-clés
+### Recherche par mots-cles
 
-Entre un mot-clé, et Link Finder te montre les sites positionnes sur cette requete qui vendent des liens. Tu peux ainsi cibler des spots thematiquement pertinents pour ta niche, ce qui est crucial pour un netlinking de qualité.
+Entre un mot-cle, et Link Finder te montre les sites positionnes sur cette requete qui vendent des liens. Tu peux ainsi cibler des spots thematiquement pertinents pour ta niche, ce qui est crucial pour un netlinking de qualite.
 
 ### Analyse concurrentielle
 
-Entre l'URL d'un concurrent, et l'outil analyse son profil de backlinks pour identifier les sites qui lui vendent des liens. Tu peux ensuite acheter des liens sur les memes sites (au meilleur prix, evidemment) pour reproduire sa stratégie.
+Entre l'URL d'un concurrent, et l'outil analyse son profil de backlinks pour identifier les sites qui lui vendent des liens. Tu peux ensuite acheter des liens sur les memes sites (au meilleur prix, evidemment) pour reproduire sa strategie.
 
 ### Suivi de backlinks
 
-Après avoir achete tes liens, Link Finder surveille leur etat : le lien est-il toujours en place ? A-t-il ete modifie ? Est-il passe en nofollow ? Tu recois des alertes si un changement est détecte, ce qui te permet de reagir rapidement.
+Apres avoir achete tes liens, Link Finder surveille leur etat : le lien est-il toujours en place ? A-t-il ete modifie ? Est-il passe en nofollow ? Tu recois des alertes si un changement est detecte, ce qui te permet de reagir rapidement.
 
 ### Extension Chrome
 
@@ -75,7 +75,7 @@ L'extension navigateur est un game-changer. Quand tu navigues sur Google, les si
 
 ### Recherche IA
 
-Link Finder integre des fonctionnalites d'IA pour suggerer les meilleurs spots en fonction de ta thématique, de ton budget et de tes objectifs SEO. L'algorithme analyse les métriques et les prix pour te proposer les meilleures opportunites.
+Link Finder integre des fonctionnalites d'IA pour suggerer les meilleurs spots en fonction de ta thematique, de ton budget et de tes objectifs SEO. L'algorithme analyse les metriques et les prix pour te proposer les meilleures opportunites.
 
 ## Prix
 
@@ -87,9 +87,9 @@ Link Finder propose trois formules d'abonnement :
 | **Booster** | 49 EUR/mois | Recherches bulk etendues, analyse concurrentielle, suivi de liens |
 | **Spammer** | 99 EUR/mois | Volume illimite, toutes les fonctionnalites, support prioritaire |
 
-Des codes promo circulent regulierement dans la communauté SEO francophone. Les codes les plus courants offrent -30% sur tous les plans (par exemple : AFFMAVEN, FP30, TBL30).
+Des codes promo circulent regulierement dans la communaute SEO francophone. Les codes les plus courants offrent -30% sur tous les plans (par exemple : AFFMAVEN, FP30, TBL30).
 
-Il n'y a pas de version gratuite, mais une première recherche gratuite est proposee pour tester l'outil.
+Il n'y a pas de version gratuite, mais une premiere recherche gratuite est proposee pour tester l'outil.
 
 ## Integrations
 
@@ -106,24 +106,24 @@ Link Finder agrege les donnees de plus de 30 marketplaces de vente de liens, par
 
 - **Extension Google Chrome** pour l'analyse en temps reel des SERP
 
-### Métriques SEO
+### Metriques SEO
 
-- Integration des donnees Majestic (TF/CF), Moz (DA/PA) et métriques de trafic
+- Integration des donnees Majestic (TF/CF), Moz (DA/PA) et metriques de trafic
 
-## L'équipe et l'Histoire
+## L'equipe et l'Histoire
 
-Link Finder a ete fonde par **Lucio Laria**, un entrepreneur argentin passionne de SEO, en collaboration avec l'agence On. L'outil a ete lance en 2023 et a rapidement gagne en popularite dans la communauté SEO francophone grâce au bouche-a-oreille et aux recommandations de consultants reconnus.
+Link Finder a ete fonde par **Lucio Laria**, un entrepreneur argentin passionne de SEO, en collaboration avec l'agence On. L'outil a ete lance en 2023 et a rapidement gagne en popularite dans la communaute SEO francophone grace au bouche-a-oreille et aux recommandations de consultants reconnus.
 
-Le concept est ne d'un constat simple : les prix d'un même backlink peuvent varier du simple au double (voire au triple) entre deux plateformes de netlinking. En centralisant les offres, Link Finder resout ce problème de transparence des prix.
+Le concept est ne d'un constat simple : les prix d'un meme backlink peuvent varier du simple au double (voire au triple) entre deux plateformes de netlinking. En centralisant les offres, Link Finder resout ce probleme de transparence des prix.
 
 En 2024-2025, l'outil a franchi le cap des 300 000 sites repertories et des 700 clients satisfaits, devenant un standard dans la boite a outils des SEO francophones.
 
-L'outil est egalement populaire en France grâce à des partenariats avec des consultants SEO reconnus comme Julien Gadano, qui a contribue a sa promotion dans l'écosystème francophone.
+L'outil est egalement populaire en France grace a des partenariats avec des consultants SEO reconnus comme Julien Gadano, qui a contribue a sa promotion dans l'ecosysteme francophone.
 
 ## Points Forts
 
 - Seul outil du marche qui compare les prix de backlinks entre 30+ plateformes
-- Économies moyennes de 30% par lien achete
+- Economies moyennes de 30% par lien achete
 - Extension Chrome ultra pratique pour la prospection au quotidien
 - Interface simple et intuitive, prise en main immediate
 - Recherche bulk pour les gros volumes
@@ -132,25 +132,25 @@ L'outil est egalement populaire en France grâce à des partenariats avec des co
 
 ## Points Faibles
 
-- Pas de version gratuite (seulement une première recherche offerte)
+- Pas de version gratuite (seulement une premiere recherche offerte)
 - Pas d'estimation de trafic integree pour les sites listes
 - Dependant de la disponibilite des API des plateformes tierces
-- Les métriques SEO affichees sont celles des fournisseurs tiers (Majestic, Moz), pas de métriques propriétaires
+- Les metriques SEO affichees sont celles des fournisseurs tiers (Majestic, Moz), pas de metriques proprietaires
 - L'outil ne gere pas l'achat direct : tu es redirige vers la plateforme la moins chere pour finaliser
 
 ## Cas d'usage
 
 ### Consultant SEO freelance
 
-Tu as un budget netlinking de 500 EUR/mois pour un client. En passant par Link Finder, tu identifies systematiquement les plateformes les moins cheres pour chaque spot cible. Resultat : tu achetes 30% de liens en plus pour le même budget, et ton client grimpe plus vite dans les SERP.
+Tu as un budget netlinking de 500 EUR/mois pour un client. En passant par Link Finder, tu identifies systematiquement les plateformes les moins cheres pour chaque spot cible. Resultat : tu achetes 30% de liens en plus pour le meme budget, et ton client grimpe plus vite dans les SERP.
 
 ### Agence SEO multi-clients
 
-Tu geres 15 campagnes de netlinking en parallele. La recherche bulk te permet de scanner des centaines de domaines en une operation, de trier par thématique et prix, et de construire tes plans de liens en quelques heures au lieu de plusieurs jours.
+Tu geres 15 campagnes de netlinking en parallele. La recherche bulk te permet de scanner des centaines de domaines en une operation, de trier par thematique et prix, et de construire tes plans de liens en quelques heures au lieu de plusieurs jours.
 
 ### Editeur de sites de niche
 
-Tu veux reproduire la stratégie de liens d'un concurrent qui te depasse sur tes mots-clés principaux. L'analyse concurrentielle te revele ses sources de backlinks, et le comparateur te montre ou les acheter au meilleur prix.
+Tu veux reproduire la strategie de liens d'un concurrent qui te depasse sur tes mots-cles principaux. L'analyse concurrentielle te revele ses sources de backlinks, et le comparateur te montre ou les acheter au meilleur prix.
 
 ### Startup avec budget limite
 

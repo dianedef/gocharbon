@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Hack Viral Qui A Fait Exploser Mon Blog De 0 À 1 Million D'Abonnés
 author: Diane
-description: "Le Hack Viral Qui A Fait Exploser Mon Blog De 0 À 1 Million D'Abonnés."
+description: 'Découvre Le Hack Viral Qui A Fait Exploser Mon Blog De 0 À 1 Million
+  D''Abonnés : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -40,7 +39,7 @@ Wait, wasn’t this post supposed to be aimed at social media marketing? If so, 
 
 As a savvy digital marketer, you already know the importance of casting your net wide and expanding your reach. In a traditional sense of the word, this would mean pouring twice as much energy into your social media marketing campaigns by, for example, starting a new channel on a whole new social media platform. However, with time being such a precious and limited resource, some would rather pour all their effort into maintaining and growing a single channel, and there’s nothing wrong with that.
 
-But what if we were to let you in on a secret and tell you that you could “double dip” on your content création efforts? The idea is to write a post once, post it on your website, and then automatically have it be reposted on social media via RSS, either in its original form or slightly altered [with the help of AI](https://www.ocoya.com/blog/ai-mistakes).
+But what if we were to let you in on a secret and tell you that you could “double dip” on your content creation efforts? The idea is to write a post once, post it on your website, and then automatically have it be reposted on social media via RSS, either in its original form or slightly altered [with the help of AI](https://www.ocoya.com/blog/ai-mistakes).
 
 Even if you decide to post it as is, there is no duplicate content penalty you need to worry about on [social media channels](https://www.ocoya.com/blog/manage-multiple-social-media-channels), quite unlike what is the case on Google. And technically, your post would go out on your website first, so that effectively takes care of that problem (it would be seen as the original). The only thing that should be a concern to you is that you aren’t infringing on anyone’s trademarks or copyright (which you won’t be, assuming you’ve written the content yourself).
 

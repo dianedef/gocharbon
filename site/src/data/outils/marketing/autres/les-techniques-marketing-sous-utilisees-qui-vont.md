@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,12 +7,13 @@ imageNameKey: null
 u_site: null
 title: Les Techniques Marketing Sous Utilisées Qui Vont Exploser Vos Ventes
 author: Diane
-description: "Les Techniques Marketing Sous Utilisées Qui Vont Exploser Vos Ventes."
+description: 'Découvre Les Techniques Marketing Sous Utilisées Qui Vont Exploser Vos
+  Ventes : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-Ecrire le même contenu 1000 fois
+Ecrire le meme contenu 1000 fois
 On fait souvent l'erreur de penser qu'il faut continuellement trouver de
 nouveaux sujet d traiter pour créer du contenu.
 Mais c'est tout le contraire.

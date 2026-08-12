@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'Authenticité Qui Vend La Technique Infaillible Pour Séduire Vos Clients
 author: Diane
-description: "L'Authenticité Qui Vend La Technique Infaillible Pour Séduire Vos Clients."
+description: 'Découvre L''Authenticité Qui Vend La Technique Infaillible Pour Séduire
+  Vos Clients : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

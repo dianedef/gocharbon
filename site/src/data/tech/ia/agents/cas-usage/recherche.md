@@ -14,7 +14,7 @@ imgUrl: ../../../../../assets/astro.jpeg
 
 ## ACCELERATEUR D'INNOVATION : LE MICROSCOPE NUMERIQUE
 
-La science avance par accumulation de connaissances. Un chercheur lit 200 papiers pour formuler une hypothese. Un chimiste teste 10 000 molecules pour en trouver une qui fonctionne. Un climatologue analyse 50 ans de donnees meteorologiques pour predire les 10 prochaines années.
+La science avance par accumulation de connaissances. Un chercheur lit 200 papiers pour formuler une hypothese. Un chimiste teste 10 000 molecules pour en trouver une qui fonctionne. Un climatologue analyse 50 ans de donnees meteorologiques pour predire les 10 prochaines annees.
 
 Et si un agent IA pouvait lire ces 200 papiers en 10 minutes, tester virtuellement ces 10 000 molecules en une journee, ou croiser 50 ans de donnees en quelques heures ?
 
@@ -24,19 +24,19 @@ C'est exactement ce qui se passe. Les agents IA ne remplacent pas les chercheurs
 
 ## LITERATURE REVIEW AUTOMATISEE : LIRE PLUS VITE QUE SON OMBRE
 
-### Le problème
+### Le probleme
 
-En 2024, plus de 5 millions d'articles scientifiques ont ete publies. Dans certaines disciplines (biologie, IA, medecine), le volume double tous les 5 a 7 ans. Aucun cerveau humain ne peut absorber cette quantite d'information. Même un expert dans une sous-niche passe 30 a 40 % de son temps en revue de litterature.
+En 2024, plus de 5 millions d'articles scientifiques ont ete publies. Dans certaines disciplines (biologie, IA, medecine), le volume double tous les 5 a 7 ans. Aucun cerveau humain ne peut absorber cette quantite d'information. Meme un expert dans une sous-niche passe 30 a 40 % de son temps en revue de litterature.
 
 ### Les agents qui changent la donne
 
-**Semantic Scholar** (Allen Institute for AI) : moteur de recherche academique augmente par l'IA. Plus de 200 millions de papiers indexes. Son agent TLDR génère des resumes automatiques. Son système de recommandation identifie les papiers pertinents que tu aurais manques. Gratuit.
+**Semantic Scholar** (Allen Institute for AI) : moteur de recherche academique augmente par l'IA. Plus de 200 millions de papiers indexes. Son agent TLDR genere des resumes automatiques. Son systeme de recommandation identifie les papiers pertinents que tu aurais manques. Gratuit.
 
-**Elicit** : l'assistant de recherche academique le plus avance. Tu poses une question de recherche, l'agent fouille la litterature, extrait les methodologies, les resultats, les echantillons, les limites, et génère un tableau comparatif. Ideal pour les meta-analyses rapides.
+**Elicit** : l'assistant de recherche academique le plus avance. Tu poses une question de recherche, l'agent fouille la litterature, extrait les methodologies, les resultats, les echantillons, les limites, et genere un tableau comparatif. Ideal pour les meta-analyses rapides.
 
 **Consensus** : moteur de recherche qui repond a des questions scientifiques en se basant uniquement sur des papiers publies et revus par les pairs. Pas d'hallucination possible : chaque affirmation est liee a une source academique verifiee.
 
-**Scite.ai** : va au-dela de la simple citation. L'agent analyse si un papier est cite pour être confirme, contredit ou simplement mentionne. Ca change tout pour evaluer la fiabilite d'une etude.
+**Scite.ai** : va au-dela de la simple citation. L'agent analyse si un papier est cite pour etre confirme, contredit ou simplement mentionne. Ca change tout pour evaluer la fiabilite d'une etude.
 
 ### Impact sur la recherche
 
@@ -58,33 +58,33 @@ Tu n'es pas chercheur ? Peu importe. Ces outils fonctionnent pour n'importe quel
 
 ### AlphaFold : le Nobel de l'IA
 
-En novembre 2020, AlphaFold 2 de Google DeepMind a resolu le problème de la prediction de la structure des proteines -- un defi ouvert depuis 50 ans. Pour ce travail, Demis Hassabis et John Jumper ont recu le Prix Nobel de Chimie en 2024.
+En novembre 2020, AlphaFold 2 de Google DeepMind a resolu le probleme de la prediction de la structure des proteines -- un defi ouvert depuis 50 ans. Pour ce travail, Demis Hassabis et John Jumper ont recu le Prix Nobel de Chimie en 2024.
 
-Les chiffres, 5 ans après :
+Les chiffres, 5 ans apres :
 - Plus de **200 millions de structures proteiques** predites et mises a disposition gratuitement
 - Utilise par des chercheurs dans **plus de 190 pays**
-- Le temps pour determiner la structure d'une proteine est passe de **mois/années a quelques heures**
+- Le temps pour determiner la structure d'une proteine est passe de **mois/annees a quelques heures**
 - AlphaFold 3 (2024) predit desormais les structures de proteines, ADN, ARN et petites molecules avec une precision sans precedent
 
-L'impact sur la decouverte de medicaments est concret : connaitre la forme 3D d'une proteine permet de designer des molecules qui s'y fixent precisement. C'est comme avoir le plan du coffre-fort avant de fabriquer la clé.
+L'impact sur la decouverte de medicaments est concret : connaitre la forme 3D d'une proteine permet de designer des molecules qui s'y fixent precisement. C'est comme avoir le plan du coffre-fort avant de fabriquer la cle.
 
 ### Agents de screening moleculaire
 
-Au-dela de la structure des proteines, des agents IA complets accelerent chaque étape de la decouverte de medicaments :
+Au-dela de la structure des proteines, des agents IA complets accelerent chaque etape de la decouverte de medicaments :
 
-**Identification de cibles** : les agents analysent des donnees genomiques, transcriptomiques et cliniques pour identifier les proteines impliquees dans une maladie. Ce qui prenait des années de recherche fondamentale se fait en semaines.
+**Identification de cibles** : les agents analysent des donnees genomiques, transcriptomiques et cliniques pour identifier les proteines impliquees dans une maladie. Ce qui prenait des annees de recherche fondamentale se fait en semaines.
 
-**Screening virtuel** : au lieu de tester physiquement des millions de molecules (ce qui coûte des centaines de millions d'euros), les agents simulent virtuellement les interactions molecule-proteine. Le taux de succès des molecules selectionnees augmente significativement.
+**Screening virtuel** : au lieu de tester physiquement des millions de molecules (ce qui coute des centaines de millions d'euros), les agents simulent virtuellement les interactions molecule-proteine. Le taux de succes des molecules selectionnees augmente significativement.
 
 **Optimisation des leads** : une fois une molecule prometteuse identifiee, les agents suggerent des modifications pour ameliorer l'efficacite, reduire la toxicite et ameliorer l'absorption par l'organisme.
 
-**PharmaSwarm** (2025) : un framework multi-agents ou des agents specialises (genomique, chimie, pharmacologie, toxicologie) collaborent pour proposer, valider et affiner des hypotheses de nouveaux medicaments. Un evaluateur central classe les propositions par plausibilite biologique, nouveaute, efficacite in silico et sécurité.
+**PharmaSwarm** (2025) : un framework multi-agents ou des agents specialises (genomique, chimie, pharmacologie, toxicologie) collaborent pour proposer, valider et affiner des hypotheses de nouveaux medicaments. Un evaluateur central classe les propositions par plausibilite biologique, nouveaute, efficacite in silico et securite.
 
 ### Les chiffres de l'industrie
 
 - Plus de **90 % des molecules candidates** echouent en evaluation clinique
-- Le coût moyen de developpement d'un medicament depasse **1 milliard de dollars**
-- Les agents IA réduisent le temps de la phase de decouverte de **3-5 ans a 1-2 ans**
+- Le cout moyen de developpement d'un medicament depasse **1 milliard de dollars**
+- Les agents IA reduisent le temps de la phase de decouverte de **3-5 ans a 1-2 ans**
 - Le marche de l'IA dans la decouverte pharmaceutique est projete a **11,3 milliards de dollars d'ici 2032**
 - Plus de 100 molecules decouvertes avec l'aide de l'IA sont en essais cliniques en 2025
 
@@ -94,7 +94,7 @@ Au-dela de la structure des proteines, des agents IA complets accelerent chaque 
 
 ### Le concept
 
-Imagine un agent qui explore des millions de combinaisons possibles de materiaux et predit leurs proprietes (resistance, conductivite, flexibilite, durée de vie) sans avoir a les fabriquer physiquement.
+Imagine un agent qui explore des millions de combinaisons possibles de materiaux et predit leurs proprietes (resistance, conductivite, flexibilite, duree de vie) sans avoir a les fabriquer physiquement.
 
 ### Applications concretes
 
@@ -108,7 +108,7 @@ Imagine un agent qui explore des millions de combinaisons possibles de materiaux
 
 ### Pour l'entrepreneur
 
-Si tu es dans un secteur industriel (même en tant que distributeur ou integrateur), suis les avancees de l'IA dans la science des materiaux. Les nouveaux materiaux creent de nouvelles opportunites de marche. La batterie qui se charge en 5 minutes au lieu de 30, le tissu qui filtre les polluants, le beton qui absorbe le CO2 -- chacun de ces materiaux est un business potentiel.
+Si tu es dans un secteur industriel (meme en tant que distributeur ou integrateur), suis les avancees de l'IA dans la science des materiaux. Les nouveaux materiaux creent de nouvelles opportunites de marche. La batterie qui se charge en 5 minutes au lieu de 30, le tissu qui filtre les polluants, le beton qui absorbe le CO2 -- chacun de ces materiaux est un business potentiel.
 
 ---
 
@@ -140,18 +140,18 @@ Le marche de la cleantech explose. Les agents IA sont au coeur de cette accelera
 
 ### Applications
 
-**Analyse de sentiments a grande echelle** : des agents analysent des millions de posts sur les réseaux sociaux, de commentaires, de reviews pour comprendre les tendances d'opinion. Plus rapide et plus representatif que les sondages traditionnels.
+**Analyse de sentiments a grande echelle** : des agents analysent des millions de posts sur les reseaux sociaux, de commentaires, de reviews pour comprendre les tendances d'opinion. Plus rapide et plus representatif que les sondages traditionnels.
 
-**NLP sur corpus massifs** : les agents traitent des archives complètes (journaux, debats parlementaires, correspondances historiques) pour identifier des patterns sociaux sur des decennies.
+**NLP sur corpus massifs** : les agents traitent des archives completes (journaux, debats parlementaires, correspondances historiques) pour identifier des patterns sociaux sur des decennies.
 
-**Analyse de réseaux** : les agents cartographient les réseaux d'influence, les communautés et les flux d'information. Essentiel pour comprendre la propagation des idées, des tendances et de la desinformation.
+**Analyse de reseaux** : les agents cartographient les reseaux d'influence, les communautes et les flux d'information. Essentiel pour comprendre la propagation des idees, des tendances et de la desinformation.
 
-**Économie comportementale** : des agents simulent des millions de scenarios de décision pour tester des politiques publiques avant leur mise en place.
+**Economie comportementale** : des agents simulent des millions de scenarios de decision pour tester des politiques publiques avant leur mise en place.
 
 ### Pour l'entrepreneur
 
 Ces techniques sont directement applicables au business :
-- **Analyse de marche** : comprendre les sentiments de tes clients a partir des reviews et des réseaux sociaux
+- **Analyse de marche** : comprendre les sentiments de tes clients a partir des reviews et des reseaux sociaux
 - **Veille reputationnelle** : detecter une crise de reputation avant qu'elle n'explose
 - **Segmentation client** : identifier des sous-groupes dans ta clientele avec des besoins specifiques
 - **Test de concepts** : analyser la reception d'un produit avant le lancement
@@ -162,9 +162,9 @@ Ces techniques sont directement applicables au business :
 
 ### Le processus classique vs augmente
 
-**R&D classique** : idée (3 mois) -> recherche de l'existant (3 mois) -> prototypage (6 mois) -> tests (6 mois) -> iteration (12 mois) -> lancement (3 mois). Total : 33 mois.
+**R&D classique** : idee (3 mois) -> recherche de l'existant (3 mois) -> prototypage (6 mois) -> tests (6 mois) -> iteration (12 mois) -> lancement (3 mois). Total : 33 mois.
 
-**R&D augmentee par agents** : idée assistee par veille automatisee (1 mois) -> recherche de l'existant automatisee (2 semaines) -> prototypage assiste (3 mois) -> tests acceleres par simulation (2 mois) -> iteration rapide (4 mois) -> lancement (2 mois). Total : 12 mois.
+**R&D augmentee par agents** : idee assistee par veille automatisee (1 mois) -> recherche de l'existant automatisee (2 semaines) -> prototypage assiste (3 mois) -> tests acceleres par simulation (2 mois) -> iteration rapide (4 mois) -> lancement (2 mois). Total : 12 mois.
 
 Ce n'est pas de la fiction. C'est le ratio qu'observent les entreprises tech qui ont integre des agents IA dans leur pipeline R&D.
 
@@ -172,7 +172,7 @@ Ce n'est pas de la fiction. C'est le ratio qu'observent les entreprises tech qui
 
 **Pharma/biotech** : decouverte de molecules, design d'essais cliniques, analyse de resultats
 **Tech/logiciel** : generation et test de code, exploration d'architectures, optimisation de performance
-**Industrie** : simulation de produits, optimisation de processus de fabrication, contrôle qualité
+**Industrie** : simulation de produits, optimisation de processus de fabrication, controle qualite
 **Agroalimentaire** : formulation de produits, optimisation nutritionnelle, shelf-life prediction
 **Cosmetique** : formulation, tests de stabilite virtuels, analyse de tendances ingredients
 
@@ -194,12 +194,12 @@ Les agents suivent les publications academiques, les preprints (arXiv, bioRxiv),
 
 Au-dela des brevets et publications, les agents surveillent : les communiques de presse, les offres d'emploi (un concurrent qui recrute 20 data scientists, ca dit quelque chose), les levees de fonds, les changements de direction, les lancements produit.
 
-### Workflow de veille complète
+### Workflow de veille complete
 
-1. **Definir les mots-clés et les sources** : brevets, papiers, presse, réseaux sociaux, offres d'emploi
+1. **Definir les mots-cles et les sources** : brevets, papiers, presse, reseaux sociaux, offres d'emploi
 2. **Configurer l'agent** : frequence de scan, seuil de pertinence, format de rapport
 3. **Rapport hebdomadaire automatise** : les 10 signaux les plus importants de la semaine
-4. **Alerte temps reel** : pour les événements critiques (brevet d'un concurrent, publication majeure)
+4. **Alerte temps reel** : pour les evenements critiques (brevet d'un concurrent, publication majeure)
 5. **Deep dive mensuel** : analyse approfondie d'une tendance emergente
 
 ---
@@ -208,7 +208,7 @@ Au-dela des brevets et publications, les agents surveillent : les communiques de
 
 ### Reproductibilite
 
-Le plus gros problème de la science IA : la reproductibilite. Quand un agent génère une hypothese ou recommande une molecule, le processus de raisonnement n'est pas toujours transparent. "L'agent dit que ca marche" n'est pas une preuve scientifique.
+Le plus gros probleme de la science IA : la reproductibilite. Quand un agent genere une hypothese ou recommande une molecule, le processus de raisonnement n'est pas toujours transparent. "L'agent dit que ca marche" n'est pas une preuve scientifique.
 
 Les bonnes pratiques emergentes :
 - Documenter les prompts, les modeles et les parametres utilises
@@ -221,15 +221,15 @@ Les agents IA heritent des biais de leurs donnees d'entrainement. En recherche m
 
 ### Peer review des agents
 
-La communauté scientifique debat activement : comment evaluer un papier dont les resultats sont generes par un agent IA ? Faut-il un nouveau processus de review ? Les journals commencent a exiger la transparence sur l'utilisation d'agents IA dans le processus de recherche.
+La communaute scientifique debat activement : comment evaluer un papier dont les resultats sont generes par un agent IA ? Faut-il un nouveau processus de review ? Les journals commencent a exiger la transparence sur l'utilisation d'agents IA dans le processus de recherche.
 
 ### Hallucinations scientifiques
 
-Un agent IA qui "invente" une reference bibliographique qui n'existe pas, c'est embarrassant dans un article de blog. Dans un papier scientifique, c'est une fraude. Les agents specialises (Consensus, Scite) sont conçus pour eviter ce problème, mais les agents generiques (ChatGPT, Claude) peuvent halluciner des citations.
+Un agent IA qui "invente" une reference bibliographique qui n'existe pas, c'est embarrassant dans un article de blog. Dans un papier scientifique, c'est une fraude. Les agents specialises (Consensus, Scite) sont conçus pour eviter ce probleme, mais les agents generiques (ChatGPT, Claude) peuvent halluciner des citations.
 
 ---
 
-## IMPACT SUR LE MÉTIER DE CHERCHEUR
+## IMPACT SUR LE METIER DE CHERCHEUR
 
 ### Augmentation, pas remplacement
 
@@ -237,11 +237,11 @@ Le chercheur de 2030 ne sera pas remplace par un agent IA. Il sera augmente. Son
 
 **Avant** : 40 % lecture, 30 % experimentation, 20 % analyse, 10 % reflexion strategique
 
-**Après** : 10 % lecture (assistee par agents), 20 % experimentation (optimisee par agents), 20 % analyse (automatisee), **50 % reflexion strategique, creativite et interpretation**
+**Apres** : 10 % lecture (assistee par agents), 20 % experimentation (optimisee par agents), 20 % analyse (automatisee), **50 % reflexion strategique, creativite et interpretation**
 
-Le chercheur passe de "celui qui fait" a "celui qui dirige". Il formule les bonnes questions, interprete les resultats, détecte les failles dans le raisonnement de l'agent, et fait les connexions creatives que l'IA ne peut pas faire.
+Le chercheur passe de "celui qui fait" a "celui qui dirige". Il formule les bonnes questions, interprete les resultats, detecte les failles dans le raisonnement de l'agent, et fait les connexions creatives que l'IA ne peut pas faire.
 
-### Les nouvelles compétences
+### Les nouvelles competences
 
 - **Prompt engineering scientifique** : savoir formuler des requetes precises pour les agents de recherche
 - **Evaluation critique des sorties IA** : savoir quand l'agent a raison et quand il hallucine
@@ -258,7 +258,7 @@ Tu n'es pas chercheur. Mais tu peux utiliser les memes outils pour ton business.
 
 1. **Etude de marche fondee sur des donnees** : utilise Elicit ou Consensus pour trouver les etudes academiques sur la taille de ton marche, les comportements d'achat, les tendances sectorielles. Les investisseurs adorent les pitches avec des sources academiques.
 
-2. **Veille techno structuree** : configure un agent de monitoring de brevets et publications sur ta technologie clé. Tu seras le premier a savoir quand une innovation peut disrupter ton marche.
+2. **Veille techno structuree** : configure un agent de monitoring de brevets et publications sur ta technologie cle. Tu seras le premier a savoir quand une innovation peut disrupter ton marche.
 
 3. **R&D acceleree** : si tu developpes un produit physique, utilise des agents de simulation pour tester des variations virtuellement avant de prototyper. Si tu developpes du logiciel, utilise les agents de coding pour explorer des architectures alternatives.
 

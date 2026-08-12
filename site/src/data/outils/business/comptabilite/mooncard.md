@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: hors-union-europeenne
-sourcesVerification:
-- https://app.mooncard.co/pages/legal_notices
-- https://www.mooncard.co/fr/privacy-policy
-- https://www.mooncard.co/fr/entreprise/tpe
-notesQualification: Mooncard est une societe francaise basee a Paris avec un cadre reglementaire clair, mais l'hebergement public du service passe par Heroku aux Etats-Unis et l'emission des cartes repose sur des partenaires tiers, ce qui rend l'ancrage economique moins pur.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Mooncard
 author: Diane
 tags:

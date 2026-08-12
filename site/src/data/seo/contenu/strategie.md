@@ -54,8 +54,6 @@ Pour une approche plus pro, tu peux consulter le [guide de la recherche de mots-
 - [Rédaction web](/seo/contenu/redaction-web)
 - [Structure des articles](/seo/contenu/structure-articles)
 - [Guide Google sur le contenu utile](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=fr)
-- [Les meilleurs outils SEO français pour ta stratégie](/outils/marketing/autres/les-outils-seo-francais-qui-font-trembler-google/)
-- [Automatiser ses process SEO avec l'IA](/tutos/automatiser-ses-process-seo-avec-ia/)
 
 ## Optimisation Sémantique
 

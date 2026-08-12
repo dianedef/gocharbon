@@ -1,15 +1,16 @@
 ---
 section: parcours
-title: Consultant SEO
-author: Diane GoCharbon
+title: SEO Consultant / Consultant en Référencement Naturel
+author: Web Indé
 tags:
 - Business
-description: 'Vendre du SEO utile, mesurable et défendable, au-delà des recettes recyclées.'
+description: 'Deviens consultant SEO : audits, stratégies et acquisition clients pour
+  experts du référencement.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Consultant SEO
+# SEO Consultant / Consultant en Référencement Naturel
 
 ## Description en une phrase
 

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -23,7 +23,7 @@ Voici les nouveautés sur Haloscan tant attendues expliquées dans une vidéo de
 - Ajout de la note de l’indice de visibilité dans Bulks / Batchs
 - Ajout d’une option de pack annuel (deux mois gratuits, soit -17%)
 
-Explication en vidéo ici : [https://www.youtube.com/watch?v=zQEh1tbeSsI](__MASK_0__)
+Explication en vidéo ici : [https://www.youtube.com/watch?v=zQEh1tbeSsI](https://beo89.r.sp1-brevo.net/mk/cl/f/sh/SMK1E8tHeFuBmPUFKmNNFX9BAvgc/NDQjA3jvKtyf)
 
 [(6) 😱 HaloScan : Outils SEO le + Puissant de 2024 ? - YouTube](https://www.youtube.com/watch?v=kC6Btd9rFQc)
 # Analyse de la transcription

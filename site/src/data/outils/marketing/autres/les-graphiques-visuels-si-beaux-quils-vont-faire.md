@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Graphiques Visuels Si Beaux Qu'Ils Vont Faire Pleurer Vos Clients
 author: Diane
-description: "Les Graphiques Visuels Si Beaux Qu'Ils Vont Faire Pleurer Vos Clients."
+description: 'Découvre Les Graphiques Visuels Si Beaux Qu''Ils Vont Faire Pleurer
+  Vos Clients : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

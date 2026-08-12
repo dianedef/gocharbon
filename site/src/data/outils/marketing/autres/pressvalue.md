@@ -1,13 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: pressvalue
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: relations-presse
-description: "[PressValue: Overview | LinkedIn](https://www.linkedin.com/company/pressvalue/) PressValue offre une opportunité inestimable aux entrepreneurs en les aidant à cibler les opportunit."
+description: '[PressValue: Overview | LinkedIn](https://www.linkedin.com/company/pressvalue/)
+  PressValue offre une opportunité inestimable aux entrepreneurs en les aidant à cibler
+  les opportunit'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://pressvalue.fr

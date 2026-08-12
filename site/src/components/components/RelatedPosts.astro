@@ -4,29 +4,14 @@ import PostList from "./PostList.astro";
 import Card from "./Card.astro";
 import Button from "./Button.astro";
 import { filterBuildVisiblePosts } from "../../utils/build-posts";
-import { scoreToolSimilarity } from "../../utils/tool-taxonomy";
-import { ROUTES } from "../../config/routes";
 
 interface Props {
 	currentSlug: string;
 	currentTags: string[];
-	currentSection?: "blog" | "outils" | "tutos" | "parcours";
-	currentToolCategoryPrimary?: string;
-	currentToolSubcategoryPrimary?: string;
-	currentToolFacets?: string[];
 	count?: number;
 }
 
-const {
-	currentSlug,
-	currentTags,
-	currentSection,
-	currentToolCategoryPrimary,
-	currentToolSubcategoryPrimary,
-	currentToolFacets = [],
-	count = 4,
-} = Astro.props;
-const isToolContext = currentSection === "outils" || currentSlug.startsWith("outils/");
+const { currentSlug, currentTags, count = 4 } = Astro.props;
 
 // Normaliser les tags pour comparaison (insensible aux accents et à la casse)
 function normalizeTag(tag: string): string {
@@ -42,30 +27,6 @@ const allPosts = filterBuildVisiblePosts(await getCollection("posts"));
 const scoredPosts = allPosts
 	.filter((post) => post.id !== currentSlug) // Exclure l'article courant
 	.map((post) => {
-		const currentIsTool = isToolContext;
-		const candidateIsTool = post.id.startsWith("outils/");
-		if (currentIsTool && candidateIsTool) {
-			const score = scoreToolSimilarity(
-				{
-					id: currentSlug,
-					data: {
-						tags: currentTags,
-						section: "outils",
-						toolCategoryPrimary: currentToolCategoryPrimary,
-						toolSubcategoryPrimary: currentToolSubcategoryPrimary,
-						toolFacets: currentToolFacets,
-					},
-				},
-				{ id: post.id, data: post.data }
-			);
-
-			return {
-				post,
-				score,
-				commonTags: score,
-			};
-		}
-
 		const postTags = post.data.tags || [];
 		const normalizedCurrentTags = currentTags.map(normalizeTag);
 		const normalizedPostTags = postTags.map(normalizeTag);
@@ -109,17 +70,13 @@ const relatedPosts = scoredPosts.map((item) => item.post);
 							"dark:text-yellow-soft",
 						]}
 					>
-						{isToolContext ? "Outils Similaires" : "Articles Connexes"}
+						Articles Connexes
 					</h2>
 					<div class="hidden md:block">
-						<Button href={isToolContext ? ROUTES.outils : ROUTES.blog}>
-							{isToolContext ? "Tous les outils" : "Tous les articles"}
-						</Button>
+						<Button href="/blog">Tous les articles &rarr;</Button>
 					</div>
 					<div class="block md:hidden">
-						<Button href={isToolContext ? ROUTES.outils : ROUTES.blog}>
-							{isToolContext ? "Outils" : "Blog"}
-						</Button>
+						<Button href="/blog">Blog</Button>
 					</div>
 				</div>
 				<div class="dark:bg-black rounded-lg">

@@ -1,39 +1,24 @@
 ---
 section: tutos
-type: tuto
-imageNameKey: null
 tags:
 - Tutoriels
+imageNameKey: null
 u_site: null
-title: Comment extraire les images dun site web
+title: Comment Extraire Les Images D'Un Site Web
 author: Diane
-description: 'Tutoriel pratique pour extraire les images dun site web : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Comment Extraire Les Images D''Un Site Web : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment extraire les images dun site web
+```table-of-contents
+title: 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 0 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
 
-Si tu veux extraire les images dun site web, garde une logique de système. Les bons visuels ne viennent pas d'un effet wow isolé, mais d'un process reproductible, de gabarits propres et d'un contrôle qualité minimal.
-
-## Ce qu'il faut préparer
-
-- le format cible
-- la charte ou au moins deux règles visuelles fixes
-- un modèle que tu peux réutiliser
-
-## La méthode simple
-
-1. Crée un gabarit propre. Si tu reconstruis chaque visuel à la main, tu vas produire lentement et accumuler des incohérences.
-2. Automatise seulement ce qui est stable : dimensions, variantes, couleurs, zones de texte, export. N'automatise pas une recette encore bancale.
-3. Prévois toujours une vérification humaine. Les outils vont vite, mais ils ne voient pas les coupures de texte, les débords ou les choix visuels absurdes.
-
-## Les erreurs à éviter
-
-- croire que l'automatisation remplace la direction artistique
-- laisser les titres déborder
-- multiplier les variantes inutiles
-
-## Commence comme ça
-
-Crée un modèle réutilisable cette semaine, puis génère trois variantes maximum. Tu apprendras plus vite qu'en produisant cinquante versions d'un coup.
+[Image Extractor - extract.pics](https://extract.pics/)

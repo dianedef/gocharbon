@@ -1,8 +1,7 @@
 ---
-section: outils
-metadataEnrichedAt: "2026-03-21"
+section: apps
+metadataEnrichedAt: null
 title: jurisociete
-type: outil
 author: Diane
 tags:
 - Outils
@@ -12,18 +11,6 @@ description: '[RDV les echos legal Jurisociete - YouTube](https://youtu.be/PZ1LZ
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.jurisociete.fr
-u_derniere_maj: "2026-03-21"
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-  - https://www.jurisociete.fr/mentions.php
-  - https://www.jurisociete.fr/politique_confidentialite.php
-  - https://www.jurisociete.fr/conditions.php
-notesQualification: "Jurisociete est exploite par NEW GPL CONSEILS, societe francaise basee a Nice. Les conditions generales et la politique de confidentialite indiquent explicitement que les donnees sont stockees en France sur une plateforme interne hebergee par OVH. L'ancrage economique et la responsabilite peuvent etre qualifies de forts."
-methodologieVersion: "gocharbon-v1"
 ---
 
 # jurisociete

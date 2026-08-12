@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Créez Des Tubes Musicaux Avec Ce Logiciel Windows Incroyable
 author: Diane
-description: "Créez Des Tubes Musicaux Avec Ce Logiciel Windows Incroyable."
+description: 'Découvre Créez Des Tubes Musicaux Avec Ce Logiciel Windows Incroyable
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: logistique
-toolFacets:
-  - woocommerce
-  - shipping
+section: apps
 metadataEnrichedAt: null
 title: WcMultiShipping
 author: Diane
@@ -19,17 +14,17 @@ u_site: https://www.wcmultishipping.com
 
 # WcMultiShipping
 
-# PLUGIN WOOCOMMERCE : LE COUTEAU SUISSE DE LA LIVRAISON POUR TA BOUTIQUE EN LIGNE
+## PLUGIN WOOCOMMERCE : LE COUTEAU SUISSE DE LA LIVRAISON POUR TA BOUTIQUE EN LIGNE
 
-## tl;dr
+### tl;dr
 
 WcMultiShipping est un **plugin WordPress/WooCommerce** français qui simplifie la gestion des livraisons pour les boutiques en ligne. Le plugin intègre les principaux transporteurs français — **Mondial Relay**, **Chronopost** et **InPost** — directement dans WooCommerce, permettant de **générer automatiquement des étiquettes d'expédition**, d'afficher les **points relais** sur la page de commande, d'envoyer des **notifications de suivi** aux clients, et de gérer les **actions de masse** pour traiter des dizaines de commandes en quelques clics. Avec plus de **5 000 installations actives** sur WordPress.org et une note parfaite de **5.0/5** sur les avis WordPress, WcMultiShipping a généré des **millions d'étiquettes** depuis son lancement. Le plugin existe en **version gratuite** (fonctionnalités de base) et en **version Pro à 49$/an** (fonctionnalités avancées, multi-transporteurs, actions de masse). Version actuelle : **2.5.5**. Fondé par une équipe française passionnée de logistique e-commerce.
 
-## Alternative à
+### Alternative à
 
 ShipStation, Shippo, Table Rate Shipping for WooCommerce, Advanced Shipping for WooCommerce, Easypost, ShipBob, Sendcloud, Boxtal (anciennement EnvoimoinsCher), Colissimo Official Plugin. WcMultiShipping se distingue par son **focus exclusif WooCommerce + transporteurs français** (Mondial Relay, Chronopost, InPost), sa **note parfaite 5.0/5** sur WordPress.org, et son **prix très compétitif** (49$/an vs les solutions SaaS mensuelles).
 
-# Bénéfices
+## Bénéfices
 
 **Génère tes étiquettes en masse en quelques clics** — Au lieu de créer tes étiquettes d'expédition une par une sur le site de chaque transporteur, WcMultiShipping te permet de sélectionner tes commandes en masse, de choisir le transporteur (Mondial Relay, Chronopost, InPost) et de générer toutes les étiquettes d'un coup depuis le back-office WooCommerce. Des millions d'étiquettes ont déjà été générées par les utilisateurs du plugin.
 
@@ -41,7 +36,7 @@ ShipStation, Shippo, Table Rate Shipping for WooCommerce, Advanced Shipping for 
 
 **Prix imbattable** — 49$/an pour la version Pro, là où les solutions SaaS mensuelles (Sendcloud, ShipStation) coûtent 20 à 100€/mois. Pour un petit e-commerçant WooCommerce, c'est un investissement minimal.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **Propriétaires de boutiques WooCommerce** qui expédient en France et veulent intégrer Mondial Relay et Chronopost
 - **E-commerçants débutants** qui veulent une solution simple et abordable pour gérer leurs livraisons
@@ -50,7 +45,7 @@ ShipStation, Shippo, Table Rate Shipping for WooCommerce, Advanced Shipping for 
 - **E-commerçants WooCommerce ambitieux** qui veulent offrir diverses options d'expédition sans passer par un SaaS coûteux
 - **Agences WordPress** qui configurent des boutiques clients et cherchent un plugin d'expédition fiable
 
-# Comment Utiliser WcMultiShipping
+## Comment Utiliser WcMultiShipping
 
 1. **Télécharge et installe le plugin** — Disponible sur WordPress.org (version gratuite) ou sur wcmultishipping.com (version Pro)
 2. **Configure tes méthodes d'expédition** — Active Mondial Relay, Chronopost et/ou InPost dans les réglages WooCommerce
@@ -61,9 +56,9 @@ ShipStation, Shippo, Table Rate Shipping for WooCommerce, Advanced Shipping for 
 7. **Vérifie l'affichage front-end** — Assure-toi que les options d'expédition s'affichent correctement dans le panier et lors du paiement
 8. **Traite tes commandes en masse** — Sélectionne plusieurs commandes dans le listing, choisis le transporteur et génère toutes les étiquettes d'un coup
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Génération d'Étiquettes d'Expédition
+### Génération d'Étiquettes d'Expédition
 
 - **Génération automatique d'étiquettes** pour Mondial Relay, Chronopost et InPost
 - **Actions de masse** — sélectionne les commandes, choisis le transporteur, génère toutes les étiquettes en un clic
@@ -71,14 +66,14 @@ ShipStation, Shippo, Table Rate Shipping for WooCommerce, Advanced Shipping for 
 - **Millions d'étiquettes générées** par les utilisateurs depuis le lancement
 - **Page front-end d'étiquettes** — les clients peuvent télécharger ou imprimer leurs étiquettes directement
 
-## Livraison en Point Relais
+### Livraison en Point Relais
 
 - **Mondial Relay Point Relais** — carte interactive des points relais intégrée au checkout WooCommerce
 - **InPost** — casiers de retrait automatique (lockers)
 - **Sélection visuelle** — les clients choisissent leur point de retrait sur une carte
 - **Affichage en temps réel** dans le panier des options d'expédition disponibles
 
-## Transporteurs Intégrés
+### Transporteurs Intégrés
 
 - **Mondial Relay** — point relais, livraison à domicile
 - **Chronopost** — express, point relais Chronopost, livraison standard
@@ -86,20 +81,20 @@ ShipStation, Shippo, Table Rate Shipping for WooCommerce, Advanced Shipping for 
 - **UPS** — expédition internationale (mentionné dans les fonctionnalités étendues)
 - Méthodes de livraison configurables par transporteur
 
-## Suivi et Notifications
+### Suivi et Notifications
 
 - **Lien de suivi automatique** — partagé avec les clients pour suivre leurs colis
 - **Notifications de statut par email** — email envoyé à chaque changement de statut de livraison
 - **Suivi depuis WooCommerce** — état de chaque commande visible dans le back-office
 
-## Configuration Avancée
+### Configuration Avancée
 
 - **Zones d'expédition** — configuration par pays, régions et villes
 - **Tarifs personnalisables** — par poids, taille ou valeur des produits
 - **Frais d'expédition par produit** — tarification granulaire au niveau produit
 - **Compatibilité multi-devises** — pour les boutiques internationales
 
-# Prix
+## Prix
 
 | Plan | Prix | Fonctionnalités |
 |------|------|-----------------|
@@ -112,7 +107,7 @@ Notes :
 - Pas d'abonnement mensuel — paiement annuel unique
 - Mises à jour et support inclus pendant la durée de la licence
 
-# Intégrations
+## Intégrations
 
 - **WordPress/WooCommerce** — intégration native, c'est un plugin WooCommerce
 - **Mondial Relay** — API transporteur intégrée
@@ -123,7 +118,7 @@ Notes :
 - **Compatible webhooks**
 - **[Documentation technique](https://www.wcmultishipping.com/fr/docs/)** disponible
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **Plugin français** développé par une équipe passionnée de logistique e-commerce
 - **5 000+ installations actives** sur WordPress.org
@@ -136,14 +131,14 @@ Notes :
 - **Contact** : [Formulaire de contact](https://www.wcmultishipping.com/contactez-nous/)
 - Réseau de partenaires : Mondial Relay propose un programme partenaire pour les commerçants ([partenaires.mondialrelay.fr](http://partenaires.mondialrelay.fr/))
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
 - **Le petit e-commerçant WooCommerce** : tu fais 50 commandes/mois et tu veux offrir la livraison en point relais Mondial Relay. Tu installes la version gratuite, tu actives Mondial Relay, et tes clients choisissent leur point relais sur une carte. Simple et efficace
 - **La boutique en croissance** : tu passes à 200 commandes/mois. Au lieu de créer les étiquettes une par une, tu passes à la version Pro (49$/an) et tu génères toutes tes étiquettes Chronopost et Mondial Relay en masse depuis le listing WooCommerce
 - **L'e-commerçant multi-transporteurs** : tu veux offrir Mondial Relay (point relais), Chronopost (express) et InPost (casiers) à tes clients. WcMultiShipping gère les 3 transporteurs depuis un seul plugin, pas besoin de 3 plugins différents
 - **L'agence WordPress** : tu livres 10 boutiques WooCommerce par an à tes clients. Tu installes WcMultiShipping Pro sur chaque site, tu configures les transporteurs, et tes clients gèrent leurs expéditions en autonomie
 
-# Points Forts
+## Points Forts
 
 - Note parfaite 5.0/5 sur WordPress.org — satisfaction maximale des utilisateurs
 - 5 000+ installations actives — plugin éprouvé et fiable
@@ -156,7 +151,7 @@ Notes :
 - Documentation technique disponible
 - Millions d'étiquettes générées — preuve de fiabilité à grande échelle
 
-# Points Faibles
+## Points Faibles
 
 - **Exclusivement WooCommerce** — pas compatible avec Shopify, PrestaShop, Magento ou d'autres CMS
 - **Configuration initiale** qui peut être complexe pour les débutants WordPress — les zones d'expédition, les tarifs par poids/taille et les API transporteurs demandent de la configuration

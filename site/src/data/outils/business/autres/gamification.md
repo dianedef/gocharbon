@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Guide
 statut: en-attente
 _priorité: normal
 tags:
@@ -21,11 +21,11 @@ imgUrl: ../../../../assets/astro.jpeg
 
 [Visual Goal Setting Software for Success | Goalscape](https://goalscape.com/en/)[Gamification | Voters | Heartbeat](https://heartbeat.canny.io/feature-requests/p/gamification)
 
-[](http://www.chorewars.com/)[http://www.chorewars.com](__MASK_5__)
+[](http://www.chorewars.com/)[http://www.chorewars.com](http://www.chorewars.com)
 
 [SuperBetter](https://www.superbetter.com/users/sign_up)
 
-[https://mobile.twitter.com/messages/2311987360-1465660769064964101](__MASK_7__)
+[https://mobile.twitter.com/messages/2311987360-1465660769064964101](https://mobile.twitter.com/messages/2311987360-1465660769064964101)
 
 [everyday | Habit tracker to help you form good habits](https://everyday.app/?utm_source=saashub&utm_medium=marketplace&utm_campaign=saashub)
 
@@ -96,7 +96,7 @@ imgUrl: ../../../../assets/astro.jpeg
 **R: Oui, la gamification en CRM est une tendance durable qui continuera à évoluer avec les avancées technologiques. À mesure que de plus en plus d’entreprises réalisent les avantages de la gamification, de nouvelles méthodes et de nouvelles applications seront développées pour améliorer encore les interactions client et les performances commerciales.**
 
 
-[Why vidéo games are so addictive - YouTube](https://www.youtube.com/watch?v=XNnownoetMI)
+[Why video games are so addictive - YouTube](https://www.youtube.com/watch?v=XNnownoetMI)
 ## Qu'est-ce qu'un Serious Game?
 
 Un Serious Game, qui se traduit par "jeu sérieux" en français, est un type de jeu vidéo à dimension pédagogique. Il s'agit d'une activité ludique qui vise à transmettre des savoir-faire, des connaissances et des compétences à son public. L'objectif principal de ce type de jeu vidéo est de concilier le divertissement avec l'acquisition de compétences réelles. Il stimule les utilisateurs tout en les faisant travailler et apprendre de manière moins formelle, obtenant ainsi d'excellents résultats. Cette approche s'inscrit dans la gamification, qui intègre les jeux et le divertissement dans des contextes sérieux où ils ne sont généralement pas présents.
@@ -108,11 +108,11 @@ Le public cible des Serious Games est très diversifié, englobant des personnes
 ## Avantages des Serious Games
 
 Les Serious Games offrent de nombreux avantages. Ils permettent aux joueurs de développer des compétences professionnelles spécifiques, comme la programmation web, la maîtrise des outils bureautiques ou encore des mises en situation pour les professionnels des ressources humaines ou de la vente. De plus, organiser des Serious Games au sein d'une équipe ou d'une entreprise peut renforcer la cohésion autour d'un thème d'apprentissage spécifique, offrant ainsi une alternative intéressante aux activités de team building traditionnelles.
-[10 STRATÉGIES DE GAMIFICATION UTILISEES PAR LES CASINOS - YouTube](https://www.youtube.com/watch?v=Bqvpe8z9n7M)
+[10 STRATEGIES DE GAMIFICATION UTILISEES PAR LES CASINOS - YouTube](https://www.youtube.com/watch?v=Bqvpe8z9n7M)
 [(1) COMMENT GAMIFIER TON BUSINESS - YouTube](https://www.youtube.com/watch?v=ZeWeIc05jxI)  
 [LES 5 CLÉS POUR RÉUSSIR TA GAMIFICATION BUSINESS - YouTube](https://www.youtube.com/watch?v=2nw2On-AedI)  
 [LES 5 ERREURS A EVITER EN GAMIFICATION - YouTube](https://www.youtube.com/watch?v=wCBVzOULc0Q)  
-[LES 5 STRATÉGIES DE GAMIFICATION LES PLUS CELEBRES - YouTube](https://www.youtube.com/watch?v=ipyx4wh-MvU)  
+[LES 5 STRATEGIES DE GAMIFICATION LES PLUS CELEBRES - YouTube](https://www.youtube.com/watch?v=ipyx4wh-MvU)  
 [5 STRATÉGIES DE GAMIFICATION UTILISÉES PAR LES CINÉMAS - YouTube](https://www.youtube.com/watch?v=_mwraUhtLH0)  
 [COMMENT GAMIFIER SA CRÉATION DE CONTENU (5 idées) - YouTube](https://www.youtube.com/watch?v=dCh3hoy2mEc)  
 [LES 5 TECHNIQUES DE GAMIFICATION UTILISÉES PAR LES POMPIERS - YouTube](https://www.youtube.com/watch?v=DCULBZ3LNiw)
@@ -128,7 +128,7 @@ And that’s great news for all businesses.
 
 While you may think that adding games to your [marketing strategy](https://xperiencify.com/inbound-marketing-strategy/) sounds like child’s play, it will help your [brand cut through the noise](https://xperiencify.com/brand-awareness/), stand out and avoid mediocrity.
 
-You’ll drive engagement and promote your brand while creating an enjoyable expérience for your site visitors.
+You’ll drive engagement and promote your brand while creating an enjoyable experience for your site visitors.
 
 Which will ultimately boost your conversion rates.
 
@@ -171,7 +171,7 @@ Why is gamification important in marketing?
 
 Since its rise in popularity in 2010, gamification has proven to be a kick-butt marketing strategy that’s here to stay.
 
-Over time, however, consumers have become savvier to the growing number of digital marketing stratégies.
+Over time, however, consumers have become savvier to the growing number of digital marketing strategies.
 
 As a result, they know when they are being targeted and can end up feeling ambivalent toward sales tactics.
 
@@ -319,7 +319,7 @@ Games should be fun.
 
 Duh.
 
-So you don’t want to turn people away by complicating a fun expérience.
+So you don’t want to turn people away by complicating a fun experience.
 
 Keep your gamification simple so that your audience can easily understand how to play—and win.
 
@@ -386,7 +386,7 @@ Spin-to-win discount wheels give visitors a chance to earn coupons for your stor
 
 Spin-to-win stands out, and you can include elements such as discounts, special offers, or free shipping.
 
-Let’s say a visitor spins the wheel and wins a 25% discount. As a result, they may feel inclined to complète their purchasing journey in your store.
+Let’s say a visitor spins the wheel and wins a 25% discount. As a result, they may feel inclined to complete their purchasing journey in your store.
 
 This gamification style can also significantly reduce the rate of cart abandonment while generating new leads for your business.
 
@@ -425,9 +425,9 @@ If you decide to go for digital badges, make sure their design is attractive and
 
 _Memrise—language learning progress_[/caption]
 
-The completeness meter’s goal is to encourage the user to complète all steps on a particular journey.
+The completeness meter’s goal is to encourage the user to complete all steps on a particular journey.
 
-One of many [social media](https://xperiencify.com/social-media-strategy/) gamification examples is LinkedIn. You complète the meter when you add a profile picture, location, work history,  and education. Then, you receive a digital trophy.
+One of many [social media](https://xperiencify.com/social-media-strategy/) gamification examples is LinkedIn. You complete the meter when you add a profile picture, location, work history,  and education. Then, you receive a digital trophy.
 
 The possibilities are limitless.
 

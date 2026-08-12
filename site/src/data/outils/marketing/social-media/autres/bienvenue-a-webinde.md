@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -332,7 +332,7 @@ Faisons décoller votre business
 
 
 ## yo
-Être bien équipé ça change tout. Tu préfères utiliser ChatGPT sur un MacBook Air pour faire écrire ton prochain email marketing, ou utiliser une machine à écrire bruyante, lente, et ton unique encéphale quasi-obsolète depuis les GPT LLM ?
+Etre bien équipé ça change tout. Tu préfères utiliser ChatGPT sur un MacBook Air pour faire écrire ton prochain email marketing, ou utiliser une machine à écrire bruyante, lente, et ton unique encéphale quasi-obsolète depuis les GPT LLM ?
 
 Pas besoin de plus pour montrer l'importance et l'avantage compétitif critique d'une solution technologique à la hauteur.
 

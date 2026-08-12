@@ -1,17 +1,7 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://platon-finance.fr/
-- https://platon-finance.fr/contact
-notesQualification: Platon est une SAS francaise domiciliee a Paris et regulativement ancree en France; l'hebergement n'est pas documente publiquement sur les pages officielles consultees.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
+type: app
 tags:
 - Outils
 imageNameKey: piston

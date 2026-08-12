@@ -1,13 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: sortlist
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: marketplace
-description: "Sortlist, un répertoire en ligne de logiciels SaaS français, s'avère un précieux allié pour les entrepreneurs cherchant à optimiser leurs ventes tout en gagnant du temps. L'un des."
+description: 'Sortlist, un répertoire en ligne de logiciels SaaS français, s''avère
+  un précieux allié pour les entrepreneurs cherchant à optimiser leurs ventes tout
+  en gagnant du temps. L''un des '
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.sortlist.fr
@@ -60,8 +60,8 @@ Sortlist travaille constamment à améliorer sa plateforme en ajoutant de nouvel
 
 ## Ressources
 
-- Site Web de Sortlist : [https://www.sortlist.fr/](__MASK_0__)
-- Documentation : [https://www.sortlist.fr/blog/](__MASK_1__)
+- Site Web de Sortlist : [https://www.sortlist.fr/](https://www.sortlist.fr/)
+- Documentation : [https://www.sortlist.fr/blog/](https://www.sortlist.fr/blog/)
 - Support : support@sortlist.fr
 
 ## Programme de Parrainage

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,7 +8,8 @@ u_site: null
 title: 15 Idées De Revenus Passifs Qui Vont Vous Rendre Riche Pendant Votre Sommeil
   En 2024
 author: Diane
-description: "15 Idées De Revenus Passifs Qui Vont Vous Rendre Riche Pendant Votre Sommeil En 2024."
+description: 'Découvre 15 Idées De Revenus Passifs Qui Vont Vous Rendre Riche Pendant
+  Votre Sommeil En 2024 : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Agence de services
-author: Diane GoCharbon
+title: Agence Digitale
+author: Web Indé
 tags:
 - Business
-description: 'Passe du freelance à l''agence sans te raconter d''histoires : offre,
-  équipe, marge, ventes et charge mentale.'
+description: 'Lance ton agence de services : étapes clés, positionnement, acquisition
+  clients et croissance pour entrepreneurs ambitieux.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Une agence de services, c'est passer d'une logique d'exécution solo à une logique de système. Tu ne vends plus seulement ton temps : tu vends une capacité de production, une méthode et une équipe à piloter.
+Une agence digitale, c'est monter une entreprise de services (développement web, design, marketing, etc.) avec une équipe. Tu passes de freelance solo à chef d'entreprise qui manage des projets et des personnes. Tu ne fais plus le travail, tu le gères et tu vends.
 
 C'est l'évolution naturelle du freelancing quand tu veux scaler au-delà de ton temps personnel. Tu délègues l'exécution, tu te concentres sur la stratégie, les ventes et la gestion. Les marges sont plus faibles (tu paies des salaires) mais le potentiel de CA est bien plus élevé.
 

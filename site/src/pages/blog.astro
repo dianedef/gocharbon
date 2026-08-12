@@ -18,21 +18,12 @@ const pillarTags = [
 ];
 ---
 
-<Layout
-  title="Blog Business, Marketing & Tech pour Entrepreneurs"
-  description="Découvre les articles GOCHARBON pour sortir du flou : business, marketing, tech, SEO et productivité, avec des points d'entrée opérationnels."
-  pageTitle="Blog GOCHARBON"
->
+<Layout title="Blog" description="Découvre tous les articles GOCHARBON : business, marketing, tech, SEO et productivité pour entrepreneurs et freelances. Conseils pratiques et stratégies actionnables." pageTitle="Blog GOCHARBON">
 	<main class="px-2 md:px-6 py-6 max-w-7xl mx-auto">
-		<h1 class="poppins text-3xl md:text-4xl font-bold mb-3 text-black dark:text-white">Blog GOCHARBON</h1>
-		<p class="mb-6 text-lg text-black dark:text-white">
-			Le blog sert à te donner la boussole avant l'exécution : lis, compare, puis passe direct à une action claire.
-			Choisis un pilier, puis lance le parcours qui correspond à ton objectif du moment.
-		</p>
 		<section class="mb-8 p-4 md:p-6 border-3 border-black dark:border-yellow-soft bg-white-soft dark:bg-black">
 			<h2 class="poppins text-2xl md:text-3xl font-bold mb-3 text-black dark:text-white">Pages piliers</h2>
 			<p class="poppins text-lg mb-4 text-black dark:text-white">
-				Un premier clic pour sortir de la masse d'articles. Chaque filtre t'amène à une zone d'action, pas juste à un sujet.
+				Choisis une thématique principale sans filtre dynamique.
 			</p>
 			<div class="flex flex-wrap gap-3">
 				{pillarTags.map((tag) => (
@@ -41,9 +32,6 @@ const pillarTags = [
 					</Button>
 				))}
 			</div>
-			<p class="mt-4 text-base text-black dark:text-white">
-				Après ton choix, lis les 3 contenus les plus récents du pilier, puis applique une seule action aujourd'hui.
-			</p>
 		</section>
 		<PostGrid posts={blogPosts} />
 	</main>
@@ -51,6 +39,6 @@ const pillarTags = [
 
 <style>
 	.page-background {
-		transition: var(--sf-auto-global2-blog-transition-d927e147);
+		transition: background-color 0.3s ease;
 	}
 </style>

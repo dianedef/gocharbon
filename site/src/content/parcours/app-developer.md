@@ -11,7 +11,7 @@ updatedAt: "2026-03-01"
 Construire des outils utiles avec boucle retours rapide et monétisation claire.
 
 ## En clair (version simple)
-- Pour qui : PME, créateurs, operations terrain qui ont un besoin mobile précis.
+- Pour qui : PME, créateurs, operations terrain qui ont un besoin mobile precis.
 - Où trouver les clients : Demo fonctionnelle + cas usage vertical (terrain, commerce, education).
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
@@ -44,7 +44,7 @@ Construire des outils utiles avec boucle retours rapide et monétisation claire.
 - [Fiche profil App Developer](/biz/profils/app-developer)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/developpeur-applications)
+- [Suivi du parcours](/parcours/app-developer)
 - [Ressource utile 1](/biz/saas)
 - [Ressource utile 2](/tutos/deployer-un-serveur)
 - [Ressource utile 3](/tutos/comment-creer-un-serveur-de-preprod)

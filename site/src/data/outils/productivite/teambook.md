@@ -1,33 +1,15 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Teambook
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-ressources
 description: Teambook est le logiciel de planification des ressources et gestion d'équipes.
   Planning visuel, suivi des temps, capacité. 4.7/5. Essai gratuit.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://teambookapp.com/fr/
-type: outil
-qualificationLocale: hors-union-europeenne
-ancrageEconomique: faible
-niveauResponsabilite: partiel
-paysSiege: Suisse
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://teambookapp.com/terms-of-service/
-- https://teambookapp.com/data-processing-agreement/
-- https://teambookapp.com/fr/
-notesQualification: 'Teambook SA est une société suisse. Les documents contractuels
-  encadrent le traitement des données au standard RGPD et indiquent un hébergement
-  en Europe, mais la gouvernance reste hors UE et la documentation publique ne permet
-  pas de qualifier plus fortement l''ancrage économique.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Teambook

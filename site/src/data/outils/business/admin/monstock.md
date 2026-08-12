@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: multi-region
-sourcesVerification:
-- https://monstock.net/fr_fr/legal/
-- https://monstock.net/fr_fr/
-notesQualification: Monstock est une SAS francaise; les donnees applicatives sont annoncees sur AWS France mais le site web est heberge chez Netlify aux Etats-Unis.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: monstock
 author: Diane
 tags:

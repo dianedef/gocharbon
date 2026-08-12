@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut:
 - backlog
@@ -8,11 +8,11 @@ type:
 projet:
 - tmv
 - webinde
-title: Être Une Femme Cest Recevoir Bcp D'Attention Non Sollicité
+title: Etre Une Femme Cest Recevoir Bcp D'Attention Non Sollicité
 author: Diane
 tags:
 - Outils
-description: 'Découvre Être Une Femme Cest Recevoir Bcp D''Attention Non Sollicité
+description: 'Découvre Etre Une Femme Cest Recevoir Bcp D''Attention Non Sollicité
   : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg

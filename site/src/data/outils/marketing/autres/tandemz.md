@@ -1,17 +1,16 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: tandemz
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: recherche-utilisateur
 u_site: https://www.tandemz.io/fr
 u_affi: null
 u_affiAdmin: null
 title: Tandemz
 author: Diane
-description: "Tandemz."
+description: 'Découvre Tandemz : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

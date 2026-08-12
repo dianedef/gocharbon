@@ -1,13 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: copywriting
+section: apps
 metadataEnrichedAt: null
 title: manuscry
 author: Diane
 tags:
 - Outils
-description: "*- **Fondateurs :** Tristan Farneau, Yassinn Diouri - **Nombre d'employés :** 4 - 💼 Manuscry propose une plateforme marketing pour créer des campagnes de cartes et enveloppes perso."
+description: '*- **Fondateurs :** Tristan Farneau, Yassinn Diouri - **Nombre d''employés
+  :** 4 - 💼 Manuscry propose une plateforme marketing pour créer des campagnes de
+  cartes et enveloppes perso'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.manuscry.com

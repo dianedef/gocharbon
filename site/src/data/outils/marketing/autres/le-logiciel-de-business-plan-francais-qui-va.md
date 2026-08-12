@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: business-plan
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Logiciel De Business Plan Français Qui Va Séduire Tous Les Investisseurs
 author: Diane
-description: "Le Logiciel De Business Plan Français Qui Va Séduire Tous Les Investisseurs."
+description: 'Découvre Le Logiciel De Business Plan Français Qui Va Séduire Tous Les
+  Investisseurs : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

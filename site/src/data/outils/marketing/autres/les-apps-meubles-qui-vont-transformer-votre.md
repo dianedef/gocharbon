@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Apps Meubles Qui Vont Transformer Votre Intérieur En Palace
 author: Diane
-description: "Les Apps Meubles Qui Vont Transformer Votre Intérieur En Palace."
+description: 'Découvre Les Apps Meubles Qui Vont Transformer Votre Intérieur En Palace
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

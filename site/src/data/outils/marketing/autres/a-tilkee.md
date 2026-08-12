@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -11,7 +9,8 @@ u_affi: null
 u_affiAdmin: null
 title: A  Tilkee
 author: Diane
-description: "A Tilkee."
+description: 'Découvre A  Tilkee : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

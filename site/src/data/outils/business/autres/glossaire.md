@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -34,7 +34,7 @@ Si tu devais créer un glossaire webmarketing, pour apprendre aux débutants les
 
 **CTA (Call To Action)** : C’est une instruction destinée à provoquer une réponse immédiate de la part du lecteur ou de l’auditeur. Dans le marketing, il s’agit souvent d’un bouton ou d’un lien incitant le visiteur à effectuer une action, comme “Acheter maintenant” ou “S’inscrire”.
 
-**UX (User Expérience)** : Il s’agit de l’expérience globale d’une personne lors de l’utilisation d’un produit, d’un système ou d’un service, en particulier en termes de facilité ou de satisfaction.
+**UX (User Experience)** : Il s’agit de l’expérience globale d’une personne lors de l’utilisation d’un produit, d’un système ou d’un service, en particulier en termes de facilité ou de satisfaction.
 
 
 **Landing Page** : C’est la page sur laquelle un visiteur arrive après avoir cliqué sur une annonce ou un lien. Ces pages sont généralement optimisées pour un appel à l’action spécifique (CTA).
@@ -324,7 +324,7 @@ Framework ARR : **Acquisition** : obtenir de nouveaux prospects, **Activation** 
 **Unique Value Proposition (UVP)** : La déclaration unique qui distingue votre produit ou service de la concurrence.
 
 **Content Strategy** : La planification, le développement et la gestion du contenu écrit ou autre.
-**Éditorial Calendar** : Un calendrier utilisé par les rédacteurs pour contrôler la publication de contenu sur différents médias, tels que les blogs, les réseaux sociaux, les bulletins d'information, etc.
+**Editorial Calendar** : Un calendrier utilisé par les rédacteurs pour contrôler la publication de contenu sur différents médias, tels que les blogs, les réseaux sociaux, les bulletins d'information, etc.
 **Evergreen Content** : Le contenu qui reste pertinent et ne se démode pas avec le temps.
 **Ghostwriting** : Lorsqu'un écrivain rédige un texte qui est officiellement attribué à une autre personne.
 **Influencer** : Une personne qui a la capacité d'influencer les décisions d'achat des autres en raison de son autorité, ses connaissances, sa position ou sa relation avec son public.
@@ -353,7 +353,7 @@ Framework ARR : **Acquisition** : obtenir de nouveaux prospects, **Activation** 
 **Split Testing** : Une méthode pour comparer deux versions d'une même page web pour voir laquelle fonctionne le mieux.
 **Target Audience** : Le groupe spécifique de personnes que vous voulez atteindre avec votre message marketing.
 **Traffic** : Le nombre de personnes qui visitent votre site web.
-**User Expérience (UX)** : L'expérience globale d'une personne lors de l'utilisation de votre site web ou de votre produit, en particulier en termes de facilité d'utilisation et de satisfaction.
+**User Experience (UX)** : L'expérience globale d'une personne lors de l'utilisation de votre site web ou de votre produit, en particulier en termes de facilité d'utilisation et de satisfaction.
 
 **User Interface (UI)** : L'espace où les interactions entre les humains et les machines ont lieu.
 **Viral Content** : Un contenu qui devient très populaire en étant partagé rapidement et largement sur Internet.
@@ -438,7 +438,7 @@ Framework ARR : **Acquisition** : obtenir de nouveaux prospects, **Activation** 
 **Traffic** : Le nombre de personnes qui visitent votre site web.
 
 **Unique Selling Proposition (USP)** : La caractéristique unique qui distingue votre produit ou service de la concurrence.
-**User Expérience (UX)** : L'expérience globale d'une personne lors de l'utilisation de votre site web ou de votre produit, en particulier en termes de facilité d'utilisation et de satisfaction.
+**User Experience (UX)** : L'expérience globale d'une personne lors de l'utilisation de votre site web ou de votre produit, en particulier en termes de facilité d'utilisation et de satisfaction.
 **User Interface (UI)** : L'interface par laquelle un utilisateur interagit avec un produit ou un service.
 **Value Proposition** : La promesse de valeur que vous faites à vos clients, expliquant pourquoi ils devraient acheter votre produit ou service et comment il est supérieur à celui de vos concurrents.
 **Viral Marketing** : Une technique de marketing qui utilise les réseaux sociaux et d'autres technologies pour augmenter la notoriété de la marque.
@@ -544,7 +544,7 @@ Voici quelques termes supplémentaires liés au growth marketing :
 
 **Social Proof** : Il s'agit de la preuve sociale, c'est-à-dire l'influence que le comportement des autres a sur nos propres actions¹.
 
-**User Expérience (UX)** : Il s'agit de l'expérience globale d'un utilisateur lorsqu'il interagit avec un produit ou un service¹.
+**User Experience (UX)** : Il s'agit de l'expérience globale d'un utilisateur lorsqu'il interagit avec un produit ou un service¹.
 
 **User Interface (UI)** : Il s'agit de l'interface utilisateur, c'est-à-dire l'espace où les interactions entre les humains et les machines ont lieu¹.
 
@@ -763,14 +763,14 @@ Voici quelques termes supplémentaires liés au growth marketing :
 **Publicité Native** : Il s'agit d'une forme de publicité payante où l'annonce correspond à la forme, à la fonction et à l'expérience utilisateur du média sur lequel elle apparaît¹.
 
 
-**Jamstack** is an architectural approach that decouples the web expérience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.
+**Jamstack** is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability.
 
-Jamstack removes the need for business logic to dictate the web expérience.
+Jamstack removes the need for business logic to dictate the web experience.
 
 It enables a composable architecture for the web where custom logic and 3rd party services are consumed through APIs.
 ## Jamstack
 
-Jamstack is an architectural approach that [decouples](https://jamstack.org/glossary/decoupling) the web expérience layer from data and business logic, improving flexibility, scalability, performance, and maintainability. Jamstack removes the need for business logic to dictate the web expérience.
+Jamstack is an architectural approach that [decouples](https://jamstack.org/glossary/decoupling) the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability. Jamstack removes the need for business logic to dictate the web experience.
 
 It enables a composable architecture for the web where custom logic and 3rd party services are consumed through [APIs](https://jamstack.org/glossary/api).
 ## API
@@ -869,7 +869,7 @@ Logo Churn : Subscription cancellation rate
 
 Revenue Churn : Monthly recurring revenue loss rate
 
-[https://youtu.be/MBk5FVAicf8?list=PL1-aSABtP6AA4FB_ragz6tFTBKxVZA1Ij&t=89](__MASK_12__)
+[https://youtu.be/MBk5FVAicf8?list=PL1-aSABtP6AA4FB_ragz6tFTBKxVZA1Ij&t=89](https://youtu.be/MBk5FVAicf8?list=PL1-aSABtP6AA4FB_ragz6tFTBKxVZA1Ij&t=89)
 
 OEE [Overall Equipment Effectiveness | Odoo MRP - YouTube](https://www.youtube.com/watch?v=N3nI3kOr41g&list=PL1-aSABtP6ADCBK2-v4_EyzAuFwx6Owks&index=2)
 

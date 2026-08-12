@@ -1,24 +1,13 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-societeMere: Credit Cooperatif
-sourcesVerification:
-- https://www.anyti.me/
-- https://support.anyti.me/hc/fr/articles/115004315385-Mentions-l%C3%A9gales
-notesQualification: Anytime est exploitee par une SAS francaise, desormais filiale du Credit Cooperatif, et ses mentions legales publiques documentent un hebergement en France; la qualification reste partielle car la documentation disponible melange anciennes et nouvelles structures.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Anytime
 author: Diane
 tags:
 - Outils
-description: Anytime est un compte pro orienté indépendants, petites équipes et associations,
-  avec une proposition plus large que la simple banque du quotidien.
+description: Anytime est une néobanque pro française pour indépendants, PME et associations.
+  Compte avec IBAN français, cartes Mastercard, gestion des frais, facturation et
+  terminal de paiement.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.anyti.me/fr
@@ -26,57 +15,93 @@ u_site: https://www.anyti.me/fr
 
 # Anytime
 
-## Un compte pro assez polyvalent si tu veux du pratique avant du prestige
+## NÉOBANQUE PRO : LE COUTEAU SUISSE FINANCIER DES INDÉPENDANTS
 
 ### tl;dr
 
-Anytime vise les structures qui veulent un compte pro utilisable, quelques outils de gestion autour, et une logique assez souple pour couvrir des profils différents : indépendants, petites équipes, associations ou activité avec encaissement.
+Anytime c'est un compte pro en ligne avec IBAN français, des cartes Mastercard pour toi et ton équipe, un outil de facturation intégré et même un terminal de paiement. Fondée en 2012, rachetée par Orange Bank puis en cours de cession au Crédit Coopératif fin 2025, la néobanque compte ~70 000 clients et une note de 4.5/5 sur TrustPilot. À partir de 9,50€/mois sans engagement.
 
-### Alternative à
+### 📢 Alternative à
 
-Qonto, Shine, Blank, Revolut Business.
+Qonto, Shine, Blank, Revolut Business, N26 Business. Anytime se distingue par son terminal de paiement inclus et ses offres adaptées aux associations.
 
-## Pourquoi on le retient
+## ✔️ Bénéfices
 
-- **Le produit est polyvalent** et pas limité au freelance solo.
-- **Le positionnement sur les associations et petits collectifs est utile**.
-- **L'ensemble est plus pragmatique que spectaculaire**, ce qui n'est pas un défaut sur ce sujet.
+✅ **Tout-en-un financier** — Compte pro, cartes, facturation, gestion de frais et terminal de paiement dans une seule app.
 
-## Pour qui ?
+✅ **Gestion d'équipe** — Cartes collaborateurs paramétrables avec plafonds, budgets et justificatifs de dépenses digitalisés.
 
-- indépendants
-- petites équipes
-- associations
-- structures qui encaissent aussi en physique ou sur le terrain
+✅ **Pas d'engagement** — Tu peux changer de formule ou partir quand tu veux.
 
-## Fonctionnalités utiles
+✅ **Terminal de paiement inclus** — Avec Smile&Pay, tu encaisses directement en physique sans abonnement supplémentaire.
 
-- compte pro et cartes
-- sous-comptes
-- facturation simple
-- gestion de certaines dépenses
-- moyens d'encaissement selon les usages
+### 🎯 Pour Qui ?
 
-## Prix
+- Indépendants et auto-entrepreneurs
+- PME et startups jusqu'à 20 collaborateurs
+- Associations et créateurs d'entreprise
+- Commerçants qui ont besoin d'un TPE mobile
 
-Le bon point d'analyse est la souplesse du produit par rapport au coût. Si tu as besoin d'un outil très structuré pour piloter une PME, compare avec Qonto. Si tu veux surtout quelque chose de pratique et adaptable, Anytime peut faire le job.
+## 🛠️ Fonctionnalités
 
-## Intégrations
+### Compte Pro & Cartes
+- IBAN français avec RIB
+- Cartes Mastercard Classic (physiques et virtuelles)
+- Sous-comptes tirelire avec IBAN dédié
+- Virements SEPA, virements groupés, prélèvements
 
-À regarder selon ton niveau d'exigence comptable. Ce n'est pas forcément l'outil qu'on choisit pour un écosystème ultra dense, mais il peut suffire largement pour beaucoup de besoins simples ou intermédiaires.
+### Encaissement & Facturation
+- Terminal de paiement mobile Smile&Pay
+- Lien de paiement et bouton de paiement en ligne
+- Encaissement de chèques
+- Outil de facturation intégré avec base clients
 
-## Ce qu'il faut savoir avant de choisir
+### Gestion des Frais
+- Notes de frais digitalisées (scan du justificatif)
+- Extraction automatique de la TVA
+- Catégorisation automatique des dépenses
+- Plafonds de dépenses par collaborateur
 
-Anytime est un choix pertinent si tu valorises la **souplesse** et un périmètre un peu plus large que la seule banque. Si tu veux la référence la plus forte sur le pilotage PME, il faut comparer sans naïveté.
+### Comptabilité
+- Export comptable automatique
+- Accès comptable dédié
+- Calcul automatique de la TVA
 
-## Points forts
+## 💶 Prix
 
-- polyvalence
-- utile pour profils variés, y compris associations
-- offre plus pratique que tape-à-l'œil
+| Formule | Prix/mois | Cartes pro | Virements | Sous-comptes |
+|---------|-----------|------------|-----------|--------------|
+| Start | 9,50€ | 1 | 10 | — |
+| Easy | 14,50€ | 2 | 20 | 1 |
+| Boost | 29,50€ | 3 | 100 | 2 |
+| Pro | 69€ | 5 | 200 | 5 |
+| Premium | 129€ | 10 | 500 | 10 |
+| Enterprise | 380€ | 20 | 1 000 | 20 |
 
-## Points faibles
+Sans engagement, tarifs HT. Offres spéciales pour créateurs d'entreprise.
 
-- moins statutaire que certains acteurs leaders
-- profondeur variable selon les usages
-- intérêt à valider surtout si la compta et les flux se complexifient vite
+## ⚙️ Intégrations
+
+Compatibilité Open Banking (PSD2). Exports comptables vers les principaux logiciels. API de paiement pour l'encaissement en ligne.
+
+## 🎖️ L'équipe et l'Histoire
+
+- **Fondée en 2012** par Damien Dupouy et Thierry Peyre (anciens créateurs de MobileTrend, racheté par HiMedia)
+- **~70 000 clients** avec une note TrustPilot de 4.5/5
+- Rentable depuis 2018
+- Rachetée par **Orange Bank** en 2020-2021
+- En cours d'acquisition par le **Crédit Coopératif** (finalisé fin 2025)
+- Fonds sécurisés auprès de Crédit Mutuel Arkéa
+
+## 👍 Points Forts
+
+✔️ Terminal de paiement inclus — rare chez les néobanques
+✔️ Offres très flexibles, du solo à l'équipe de 20
+✔️ Gestion des frais et notes digitalisées
+✔️ Création de compte assistée par des experts
+
+## 👎 Points Faibles
+
+❌ Moins d'intégrations comptables que Qonto ou Shine
+❌ Interface mobile fonctionnelle mais moins léchée que la concurrence
+❌ Incertitude sur l'avenir avec le changement de propriétaire

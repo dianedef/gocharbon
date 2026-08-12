@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Plugins Wordpress Si Cool Qu'Ils Devraient Être Illégaux
 author: Diane
-description: "Les Plugins Wordpress Si Cool Qu'Ils Devraient Être Illégaux."
+description: 'Découvre Les Plugins Wordpress Si Cool Qu''Ils Devraient Être Illégaux
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -26,7 +25,7 @@ Il vous permet d'apporter des analyses Google et WooCommerce à votre tableau de
 
 [**Mettez à jour votre tableau de bord WordPress avec UiPress !**](https://go.vbt.email/r/2EyZ/?__vbtrk=Nzc0OTg6NTA0MDU5MTM6bmV3c2xldHRlcg==&_uax=Nzc0OTg6NTA0MDU5MTM=&ct)
 
-[DarkLup - Plugin mode sombre WordPress | Offre exclusive d'AppSumo] ([https://appsumo.com/products/darklup-wordpress-dark-mode-plugin/?__vbtrk=Nzc0OTg6NTA0MDU5MTM6bmV3c2xldHRlcg==&_uax=Nzc0OTg6NTA0MDU5MTM=](__MASK_2__))
+[DarkLup - Plugin mode sombre WordPress | Offre exclusive d'AppSumo] ([https://appsumo.com/products/darklup-wordpress-dark-mode-plugin/?__vbtrk=Nzc0OTg6NTA0MDU5MTM6bmV3c2xldHRlcg==&_uax=Nzc0OTg6NTA0MDU5MTM=](https://appsumo.com/products/darklup-wordpress-dark-mode-plugin/?__vbtrk=Nzc0OTg6NTA0MDU5MTM6bmV3c2xldHRlcg==&_uax=Nzc0OTg6NTA0MDU5MTM=))
 
 ## Le duo de stars pour une vitesse incroyable : WP Rocket + Imagify.
 

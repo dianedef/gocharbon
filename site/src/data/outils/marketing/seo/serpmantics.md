@@ -1,11 +1,11 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: SERPmantics
 author: Diane
 tags:
 - Outils
-description: SERPmantics est l'outil français d'optimisation semantique SEO qui te
+description: SERPmantics est l'outil francais d'optimisation semantique SEO qui te
   dit exactement quoi ecrire pour ranker en 1ere page Google.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
@@ -18,45 +18,45 @@ u_site: https://serpmantics.com
 
 ### tl;dr
 
-SERPmantics est un outil français d'analyse et d'optimisation semantique SEO cree par Amaury Duval en 2023. Il analyse les SERP de Google pour te donner des recommandations precises sur les expressions a utiliser dans tes contenus pour te positionner en première page. Plus de 7 200 professionnels l'utilisent, et 80% des mots-clés travailles avec l'outil se positionnent en première page selon les retours utilisateurs. Son point fort : une simplicite d'utilisation remarquable couplee a des prix bien inferieurs a la concurrence, avec une version gratuite permanente.
+SERPmantics est un outil francais d'analyse et d'optimisation semantique SEO cree par Amaury Duval en 2023. Il analyse les SERP de Google pour te donner des recommandations precises sur les expressions a utiliser dans tes contenus pour te positionner en premiere page. Plus de 7 200 professionnels l'utilisent, et 80% des mots-cles travailles avec l'outil se positionnent en premiere page selon les retours utilisateurs. Son point fort : une simplicite d'utilisation remarquable couplee a des prix bien inferieurs a la concurrence, avec une version gratuite permanente.
 
 ### Alternative a
 
-- **YourTextGuru** -- Outil français d'optimisation semantique (concurrent direct)
+- **YourTextGuru** -- Outil francais d'optimisation semantique (concurrent direct)
 - **SurferSEO** -- Outil international d'optimisation de contenu on-page
-- **SEObserver** -- Suite SEO française avec analyse SERP
+- **SEObserver** -- Suite SEO francaise avec analyse SERP
 - **Clearscope** -- Outil d'optimisation semantique anglophone
 - **Frase** -- Optimisation de contenu et recherche SEO par IA
 
 ## Benefices
 
 - **Recommandations actionnables** -- Pas de jargon incomprehensible : SERPmantics te dit exactement quelles expressions utiliser, lesquelles eviter (toxiques), et lesquelles sont essentielles. Tu suis le guide, tu publies, tu rankes.
-- **Simplicite extreme** -- L'interface est epuree et intuitive. Tu entres un mot-clé, tu obtiens un guide d'optimisation. Pas besoin d'être expert SEO pour comprendre et appliquer les recommandations.
+- **Simplicite extreme** -- L'interface est epuree et intuitive. Tu entres un mot-cle, tu obtiens un guide d'optimisation. Pas besoin d'etre expert SEO pour comprendre et appliquer les recommandations.
 - **Prix imbattable** -- A partir de 12,49 EUR/mois (plan annuel), c'est 3 a 5 fois moins cher que YourTextGuru ou SurferSEO. Et la version gratuite donne 1 credit par mois, sans limite de temps.
-- **Protection anti-cannibalisation** -- L'outil détecte si tu as déjà un contenu qui cible le même mot-clé, pour eviter que tes propres pages se fassent concurrence entre elles.
+- **Protection anti-cannibalisation** -- L'outil detecte si tu as deja un contenu qui cible le meme mot-cle, pour eviter que tes propres pages se fassent concurrence entre elles.
 - **Score d'optimisation en temps reel** -- Pendant que tu ecris, le score evolue en direct. Tu vois immediatement l'impact de chaque modification sur ton optimisation semantique.
-- **Optimisation SEO + GEO** -- En plus de Google et Bing, SERPmantics propose desormais des guides d'optimisation pour les LLM (ChatGPT, Claude, Gemini, Grok, Mistral, Perplexity), pour être visible aussi dans les reponses IA.
+- **Optimisation SEO + GEO** -- En plus de Google et Bing, SERPmantics propose desormais des guides d'optimisation pour les LLM (ChatGPT, Claude, Gemini, Grok, Mistral, Perplexity), pour etre visible aussi dans les reponses IA.
 
 ### Pour Qui ?
 
 - **Redacteurs web SEO** qui veulent optimiser chaque article pour maximiser son potentiel de positionnement
 - **Blogueurs et editeurs de sites** qui publient regulierement et veulent systematiser leur optimisation on-page
 - **E-commercants** qui doivent optimiser des dizaines (voire des centaines) de fiches produits
-- **Agences SEO** qui cherchent un outil abordable et efficace pour leurs équipes de redaction
+- **Agences SEO** qui cherchent un outil abordable et efficace pour leurs equipes de redaction
 - **Freelances** qui veulent proposer des contenus optimises a leurs clients sans investir dans des outils hors de prix
-- **Debutants en SEO** qui ont besoin de recommandations claires et faciles à suivre
+- **Debutants en SEO** qui ont besoin de recommandations claires et faciles a suivre
 
 ## Fonctionnalites
 
 ### Analyse semantique avancee
 
-Le coeur de SERPmantics. Tu entres un mot-clé, l'outil analyse les 10-20 premiers resultats de Google et extrait les expressions semantiques les plus importantes. Il classe chaque expression en trois categories :
+Le coeur de SERPmantics. Tu entres un mot-cle, l'outil analyse les 10-20 premiers resultats de Google et extrait les expressions semantiques les plus importantes. Il classe chaque expression en trois categories :
 
-- **Expressions essentielles** : celles que tu DOIS inclure dans ton contenu pour être pertinent
+- **Expressions essentielles** : celles que tu DOIS inclure dans ton contenu pour etre pertinent
 - **Expressions rares** : celles qui te differecieront de la concurrence si tu les integres
 - **Expressions toxiques** : celles qui pourraient diluer ta pertinence ou signaler un hors-sujet
 
-Tu obtiens un score d'optimisation global qui te dit ou tu en es par rapport aux concurrents déjà positionnes.
+Tu obtiens un score d'optimisation global qui te dit ou tu en es par rapport aux concurrents deja positionnes.
 
 ### Editeur en temps reel
 
@@ -64,23 +64,23 @@ SERPmantics integre un editeur de texte ou tu peux rediger (ou coller) ton conte
 
 ### Analyse de la SERP et des concurrents
 
-Pour chaque mot-clé analyse, tu vois le detail des concurrents positionnes : leur contenu, leur structure, les expressions qu'ils utilisent, et leur score semantique respectif. Cela te permet d'identifier les faiblesses a exploiter et les bonnes pratiques a reproduire.
+Pour chaque mot-cle analyse, tu vois le detail des concurrents positionnes : leur contenu, leur structure, les expressions qu'ils utilisent, et leur score semantique respectif. Cela te permet d'identifier les faiblesses a exploiter et les bonnes pratiques a reproduire.
 
 ### Generateur de plans et de metas
 
-L'outil te propose un plan de contenu structure (titres H1, H2, H3) base sur l'analyse semantique de la SERP. Il génère aussi des suggestions de meta title et meta description optimisees pour ton mot-clé.
+L'outil te propose un plan de contenu structure (titres H1, H2, H3) base sur l'analyse semantique de la SERP. Il genere aussi des suggestions de meta title et meta description optimisees pour ton mot-cle.
 
 ### Protection anti-cannibalisation
 
-Avant de creer un nouveau contenu, SERPmantics verifie si tu as déjà une page qui cible le même mot-clé ou un mot-clé très proche. Si c'est le cas, il te previent pour eviter que tes pages se cannibalisent entre elles dans les SERP.
+Avant de creer un nouveau contenu, SERPmantics verifie si tu as deja une page qui cible le meme mot-cle ou un mot-cle tres proche. Si c'est le cas, il te previent pour eviter que tes pages se cannibalisent entre elles dans les SERP.
 
 ### Recommandation du maillage interne
 
-L'outil analyse ton site et te suggere des liens internes pertinents a ajouter dans ton contenu pour renforcer ta structure de maillage. Il identifie les pages existantes qui sont semantiquement proches et qui meritent d'être liees entre elles.
+L'outil analyse ton site et te suggere des liens internes pertinents a ajouter dans ton contenu pour renforcer ta structure de maillage. Il identifie les pages existantes qui sont semantiquement proches et qui meritent d'etre liees entre elles.
 
 ### Analyse de l'intention de recherche
 
-Pour chaque mot-clé, SERPmantics identifie l'intention de recherche dominante (informationnelle, transactionnelle, navigationnelle) en analysant les types de contenus qui se positionnent. Cela t'aide a produire le bon format de contenu (article, page produit, guide, etc.).
+Pour chaque mot-cle, SERPmantics identifie l'intention de recherche dominante (informationnelle, transactionnelle, navigationnelle) en analysant les types de contenus qui se positionnent. Cela t'aide a produire le bon format de contenu (article, page produit, guide, etc.).
 
 ### Analyse de la repartition semantique
 
@@ -96,11 +96,11 @@ SERPmantics propose une API pour integrer l'analyse semantique dans tes propres 
 
 ### Optimisation GEO (Generative Engine Optimization)
 
-Nouveaute 2025 : en plus de Google et Bing, tu peux générer des guides d'optimisation pour les moteurs de recherche IA (ChatGPT, Claude, Gemini, Grok, Mistral, Perplexity). 1 guide GEO consomme 4 credits.
+Nouveaute 2025 : en plus de Google et Bing, tu peux generer des guides d'optimisation pour les moteurs de recherche IA (ChatGPT, Claude, Gemini, Grok, Mistral, Perplexity). 1 guide GEO consomme 4 credits.
 
 ## Prix
 
-SERPmantics utilise un système de credits : 1 credit = 1 guide d'optimisation pour une requete SEO (Google/Bing), 4 credits = 1 guide GEO (LLM).
+SERPmantics utilise un systeme de credits : 1 credit = 1 guide d'optimisation pour une requete SEO (Google/Bing), 4 credits = 1 guide GEO (LLM).
 
 | Plan | Prix mensuel | Prix annuel | Credits | Details |
 |------|-------------|-------------|---------|---------|
@@ -127,14 +127,14 @@ Les prix exacts des plans Pionnier et Conquerant sont disponibles sur le site. S
 - **API REST** pour integrer l'analyse semantique dans tes outils
 - **Partage de guides** en lecture ou en edition pour la collaboration
 
-## L'équipe et l'Histoire
+## L'equipe et l'Histoire
 
-- **2023** -- Lancement de SERPmantics par **Amaury Duval**, un entrepreneur et expert SEO français. L'outil fait partie de son defi de creer 12 SaaS en 12 mois. SERPmantics est teste en version alpha par des beta-testeurs avant son lancement public.
-- **Mi-2023** -- Sortie officielle. L'outil se fait rapidement connaitre dans la communauté SEO francophone grâce à son rapport qualité/prix imbattable et sa simplicite d'utilisation.
+- **2023** -- Lancement de SERPmantics par **Amaury Duval**, un entrepreneur et expert SEO francais. L'outil fait partie de son defi de creer 12 SaaS en 12 mois. SERPmantics est teste en version alpha par des beta-testeurs avant son lancement public.
+- **Mi-2023** -- Sortie officielle. L'outil se fait rapidement connaitre dans la communaute SEO francophone grace a son rapport qualite/prix imbattable et sa simplicite d'utilisation.
 - **2024** -- Croissance rapide. SERPmantics depasse les 5 000 utilisateurs. Ajout de fonctionnalites : anti-cannibalisation, generateur de plans, recommandation de maillage interne, analyse de l'intention de recherche.
-- **2025** -- Plus de 7 200 professionnels utilisent l'outil. Lancement de l'optimisation GEO (Generative Engine Optimization) pour les moteurs de recherche IA. SERPmantics s'impose comme une reference française face à YourTextGuru et SurferSEO.
+- **2025** -- Plus de 7 200 professionnels utilisent l'outil. Lancement de l'optimisation GEO (Generative Engine Optimization) pour les moteurs de recherche IA. SERPmantics s'impose comme une reference francaise face a YourTextGuru et SurferSEO.
 
-Amaury Duval est actif dans la communauté SEO francophone et très reactif sur le support. De nombreux utilisateurs soulignent la qualité du service client comme un point fort majeur.
+Amaury Duval est actif dans la communaute SEO francophone et tres reactif sur le support. De nombreux utilisateurs soulignent la qualite du service client comme un point fort majeur.
 
 ## Points Forts
 
@@ -150,17 +150,17 @@ Amaury Duval est actif dans la communauté SEO francophone et très reactif sur 
 
 ## Points Faibles
 
-- Pas d'assistant IA integre pour la redaction (tu dois ecrire toi-même ou utiliser un outil tiers)
-- Moins de fonctionnalites globales qu'un SurferSEO ou un Semrush (c'est un outil specialise, pas une suite complète)
+- Pas d'assistant IA integre pour la redaction (tu dois ecrire toi-meme ou utiliser un outil tiers)
+- Moins de fonctionnalites globales qu'un SurferSEO ou un Semrush (c'est un outil specialise, pas une suite complete)
 - Pas d'audit technique SEO (c'est un outil d'optimisation de contenu, pas un crawler)
-- Le système de credits peut être limitant si tu travailles sur beaucoup de mots-clés
+- Le systeme de credits peut etre limitant si tu travailles sur beaucoup de mots-cles
 - Les fonctionnalites avancees (API, anti-cannibalisation, maillage) sont reservees aux plans superieurs
 
 ## Cas d'usage
 
 ### Redacteur web freelance
 
-Tu ecris 15 articles par mois pour differents clients. Avec le plan Aventurier a 12,49 EUR/mois, tu disposes de 48 credits/an, soit environ 4 guides par mois. Tu optimises chaque article avant livraison, et ton taux de positionnement en première page augmente significativement, ce qui fidelise tes clients.
+Tu ecris 15 articles par mois pour differents clients. Avec le plan Aventurier a 12,49 EUR/mois, tu disposes de 48 credits/an, soit environ 4 guides par mois. Tu optimises chaque article avant livraison, et ton taux de positionnement en premiere page augmente significativement, ce qui fidelise tes clients.
 
 ### Blogueur qui veut ameliorer ses anciens contenus
 
@@ -168,7 +168,7 @@ Tu as 200 articles sur ton blog, dont beaucoup stagnent en page 2 ou 3. Tu utili
 
 ### E-commercant sur Shopify
 
-Tu as 50 fiches produits a optimiser pour des requetes transactionnelles. SERPmantics te donne les expressions a integrer dans chaque fiche, les metas a utiliser, et la structure de contenu ideale. Le tout pour un coût derisoire compare a un consultant SEO.
+Tu as 50 fiches produits a optimiser pour des requetes transactionnelles. SERPmantics te donne les expressions a integrer dans chaque fiche, les metas a utiliser, et la structure de contenu ideale. Le tout pour un cout derisoire compare a un consultant SEO.
 
 ### Agence SEO
 

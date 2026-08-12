@@ -1,19 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: union-europeenne
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: Allemagne
-hebergementDonnees: inconnu
-societeMere: EGYM
-sourcesVerification:
-- https://gymlib.com/fr
-- https://fr.egym-wellpass.com/fr-fr/confidentialite-wellpass
-- https://fr.egym-wellpass.com/fr-fr/cgv-wellpass
-notesQualification: Gymlib, devenu Wellpass, conserve une entite francaise a Paris mais s'inscrit desormais dans le groupe allemand EGYM; le dossier reste europeen, avec des transferts de donnees hors EEE documentes et un hebergement public non detaille.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Gymlib (EGYM Wellpass)
 author: Diane
 tags:

@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: growth-hacking
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Grawth L'Outil Secret Des Entrepreneurs Qui Cartonnent
 author: Diane
-description: "Grawth L'Outil Secret Des Entrepreneurs Qui Cartonnent."
+description: 'Découvre Grawth L''Outil Secret Des Entrepreneurs Qui Cartonnent : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

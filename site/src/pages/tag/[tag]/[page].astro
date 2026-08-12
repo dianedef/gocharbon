@@ -4,7 +4,7 @@ import Layout from "../../../layouts/Default.astro";
 import FilterTags from "../../../components/components/FilterTags.vue";
 import PostGrid from "../../../components/components/PostGrid.astro";
 import { toPostPreviews } from "../../../utils/post-preview";
-import { MAIN_TAGS, getMainTagLabel } from "../../../utils/tag-groups";
+import { MAIN_TAGS, extractMainTags, getMainTagLabel } from "../../../utils/tag-groups";
 
 export async function getStaticPaths() {
 	// Archive pagination is intentionally disabled to keep the tag surface focused.
@@ -13,17 +13,16 @@ export async function getStaticPaths() {
 }
 
 const { tag, posts } = Astro.props;
-const isToolTag = tag === "outils";
-const mainTags = isToolTag ? ["outils"] : MAIN_TAGS;
+const mainTags = MAIN_TAGS;
 const selectedTags = [tag];
 const clientPosts = toPostPreviews(posts);
 const tagLabel = getMainTagLabel(tag);
 ---
 
 <Layout
-	title={`Tag ${tagLabel} | GoCharbon`}
-	description={`Explore les contenus GoCharbon liés à ${tagLabel}.`}
-	pageTitle={`Tag ${tagLabel}`}
+	title={`Posts - ${tagLabel}`}
+	description={`GOCHARBON | Posts tagged with ${tagLabel}`}
+	pageTitle={`Posts - ${tagLabel}`}
 	metaRobots="noindex, follow"
 >
 	<main
@@ -34,7 +33,6 @@ const tagLabel = getMainTagLabel(tag);
 				mainTags={mainTags}
 				initialPosts={clientPosts}
 				selectedTags={selectedTags}
-				scope={isToolTag ? "outils" : "all"}
 				client:visible
 			/>
 		{

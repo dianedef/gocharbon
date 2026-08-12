@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Marketing Organique Facebook Qui Va Faire Exploser Votre Page De 1000%
 author: Diane
-description: "Le Marketing Organique Facebook Qui Va Faire Exploser Votre Page De 1000%."
+description: 'Découvre Le Marketing Organique Facebook Qui Va Faire Exploser Votre
+  Page De 1000% : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

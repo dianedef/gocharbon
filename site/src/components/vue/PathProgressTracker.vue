@@ -84,11 +84,6 @@ function stepXp(type: TaskType): number {
   }
 }
 
-function isStepAvailable(href: string, availableInBuild?: boolean): boolean {
-  if (typeof availableInBuild === 'boolean') return availableInBuild;
-  return !!href;
-}
-
 function toggleStep(moduleId: string, stepId: string, checked: boolean): void {
   const key = stepKey(moduleId, stepId);
   const taskId = `${props.pathData.id}::${key}`;
@@ -154,11 +149,7 @@ onBeforeUnmount(() => {
         </div>
 
         <ol>
-          <li
-            v-for="(step, stepIndex) in module.steps"
-            :key="step.id"
-            :class="{ 'step-completed': isCompleted(module.id, step.id) }"
-          >
+          <li v-for="(step, stepIndex) in module.steps" :key="step.id">
             <div class="step-check">
               <BrutalCheckbox
                 :model-value="isCompleted(module.id, step.id)"
@@ -174,17 +165,7 @@ onBeforeUnmount(() => {
                 <p>{{ step.description }}</p>
               </div>
             </div>
-            <a
-              v-if="isStepAvailable(step.href, step.availableInBuild)"
-              :href="step.href"
-              class="step-open-link no-link-style"
-              data-astro-prefetch
-            >
-              Ouvrir
-            </a>
-            <span v-else class="step-open-link step-open-link-disabled">
-              Bientôt
-            </span>
+            <a :href="step.href" class="step-open-link no-link-style" data-astro-prefetch>Ouvrir</a>
           </li>
         </ol>
       </article>
@@ -194,38 +175,38 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .path-progress {
-  --pp-surface: var(--progress-tracker-surface);
-  --pp-surface-muted: var(--progress-tracker-surface-muted);
-  --pp-border: var(--progress-tracker-border);
-  --pp-shadow: var(--progress-tracker-shadow);
-  --pp-text: var(--progress-tracker-text);
-  --pp-link: var(--progress-tracker-link);
-  --pp-link-hover: var(--progress-tracker-link-hover);
-  --pp-progress-track: var(--progress-tracker-progress-track);
-  --pp-progress-fill: var(--progress-tracker-progress-fill);
-  --pp-badge-text: var(--progress-tracker-badge-text);
-  --pp-module-stats-bg: var(--progress-tracker-module-stats-bg);
-  --pp-module-stats-border: var(--progress-tracker-module-stats-border);
-  --pp-module-stats-text: var(--progress-tracker-module-stats-text);
+  --pp-surface: var(--brand-cream);
+  --pp-surface-muted: var(--brand-cream);
+  --pp-border: var(--brand-black);
+  --pp-shadow: var(--brand-black);
+  --pp-text: var(--brand-black);
+  --pp-link: var(--brand-black);
+  --pp-link-hover: var(--brand-orange);
+  --pp-progress-track: var(--brand-cream-warm);
+  --pp-progress-fill: var(--brand-orange);
+  --pp-badge-text: var(--brand-black);
+  --pp-module-stats-bg: var(--brand-cream);
+  --pp-module-stats-border: var(--pp-border);
+  --pp-module-stats-text: var(--pp-text);
 
   display: flex;
   flex-direction: column;
-  gap: var(--home-grid-gap);
+  gap: 1rem;
 }
 
 .progress-overview {
   background: var(--pp-surface);
-  border: var(--path-page-surface-border-width) solid var(--pp-border);
-  box-shadow: var(--progress-tracker-overview-shadow);
-  filter: var(--progress-tracker-overview-shadow-filter);
+  border: 3px solid var(--pp-border);
+  box-shadow: none;
+  filter: drop-shadow(6px 6px 0 var(--pp-shadow));
   color: var(--pp-text);
-  padding: var(--progress-tracker-overview-padding) !important;
+  padding: 0.75rem 0.85rem !important;
   position: sticky;
-  top: var(--progress-tracker-overview-top);
-  z-index: var(--sf-auto-pathprogresstracker-z-index-33d6419f);
+  top: 4.6rem;
+  z-index: 35;
   overflow: visible;
-  margin-bottom: var(--progress-tracker-module-margin-bottom);
-  padding-bottom: var(--progress-tracker-module-padding-bottom) !important;
+  margin-bottom: 30px;
+  padding-bottom: 20px !important;
 }
 
 .progress-overview::after {
@@ -233,10 +214,10 @@ onBeforeUnmount(() => {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: var(--progress-tracker-overview-after-offset);
-  height: var(--progress-tracker-overview-after-height);
+  bottom: -30px;
+  height: 30px;
   background-color: inherit;
-  border-bottom: var(--progress-tracker-overview-after-border-width) solid var(--pp-border);
+  border-bottom: 5px solid var(--pp-border);
   clip-path: polygon(
     0 0,
     100% 0,
@@ -262,15 +243,15 @@ onBeforeUnmount(() => {
     0 0
   );
   pointer-events: none;
-  z-index: var(--sf-auto-pathprogresstracker-z-index-96cd7dc2);
+  z-index: 2;
 }
 
 .progress-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--progress-tracker-overview-gap);
-  margin-bottom: var(--sf-auto-pathprogresstracker-margin-bottom-56d323ef);
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .progress-title-wrap {
@@ -279,21 +260,21 @@ onBeforeUnmount(() => {
 
 .progress-overview h2 {
   margin: 0;
-  font-size: var(--sf-auto-pathprogresstracker-font-size-754019a3);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-ea624fbd);
+  font-size: 1rem;
+  line-height: 1.2;
 }
 
 .progress-summary {
-  margin: var(--sf-auto-pathprogresstracker-margin-c64b19bc);
-  font-size: var(--sf-auto-pathprogresstracker-font-size-0d49a72e);
+  margin: 0.12rem 0 0;
+  font-size: 0.88rem;
   opacity: 0.85;
-  line-height: var(--sf-auto-pathprogresstracker-line-height-b511f5dc);
+  line-height: 1.2;
 }
 
 .progress-badges {
   display: inline-flex;
   align-items: center;
-  gap: var(--sf-auto-pathprogresstracker-gap-a922c8b0);
+  gap: 0.4rem;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
@@ -302,11 +283,11 @@ onBeforeUnmount(() => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: var(--progress-tracker-track-border-width) solid var(--pp-border);
-  padding: var(--progress-tracker-badge-padding);
-  font-size: var(--progress-tracker-badge-font-size);
+  border: 2px solid var(--pp-border);
+  padding: 0.16rem 0.52rem;
+  font-size: 0.78rem;
   font-weight: 800;
-  line-height: var(--sf-auto-pathprogresstracker-line-height-8979aed8);
+  line-height: 1.15;
   white-space: nowrap;
 }
 
@@ -321,42 +302,42 @@ onBeforeUnmount(() => {
 }
 
 .progress-track {
-  height: var(--progress-tracker-track-height);
-  border: var(--progress-tracker-track-border-width) solid var(--pp-border);
+  height: 0.58rem;
+  border: 2px solid var(--pp-border);
   background: var(--pp-progress-track);
-  border-radius: var(--progress-tracker-track-radius);
+  border-radius: 0;
   overflow: hidden;
 }
 
-@media (min-width: var(--progress-tracker-desktop-breakpoint)) {
+@media (min-width: 768px) {
   .progress-overview {
-    top: var(--progress-tracker-overview-top-desktop);
+    top: 5.6rem;
   }
 }
 
 .progress-fill {
-  height: var(--sf-auto-pathprogresstracker-height-61e33e1c);
+  height: 100%;
   background: var(--pp-progress-fill);
-  transition: var(--sf-auto-pathprogresstracker-transition-4d6f3c1c);
+  transition: width 0.25s ease;
 }
 
 .modules-list {
   display: flex;
   flex-direction: column;
-  gap: var(--progress-tracker-module-gap);
+  gap: 0.9rem;
 }
 
 .module-card {
   background: var(--pp-surface);
-  border: var(--path-page-surface-border-width) solid var(--pp-border);
-  box-shadow: var(--progress-tracker-overview-shadow);
-  filter: var(--progress-tracker-module-shadow-filter);
+  border: 3px solid var(--pp-border);
+  box-shadow: none;
+  filter: drop-shadow(5px 5px 0 var(--pp-shadow));
   color: var(--pp-text);
-  padding: var(--progress-tracker-module-padding);
+  padding: 1rem;
   position: relative;
   overflow: visible;
-  margin-bottom: var(--progress-tracker-module-margin-bottom);
-  padding-bottom: var(--progress-tracker-module-padding-bottom);
+  margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .module-card::after {
@@ -364,10 +345,10 @@ onBeforeUnmount(() => {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: var(--progress-tracker-module-after-offset);
-  height: var(--progress-tracker-module-after-height);
+  bottom: -30px;
+  height: 30px;
   background-color: inherit;
-  border-bottom: var(--progress-tracker-module-after-border-width) solid var(--pp-border);
+  border-bottom: 5px solid var(--pp-border);
   clip-path: polygon(
     0 0,
     100% 0,
@@ -393,12 +374,12 @@ onBeforeUnmount(() => {
     0 0
   );
   pointer-events: none;
-  z-index: var(--sf-auto-pathprogresstracker-z-index-c1e6785d);
+  z-index: 2;
 }
 
 .modules-list .module-card:last-child {
   margin-bottom: 0;
-  padding-bottom: var(--progress-tracker-module-padding);
+  padding-bottom: 1rem;
 }
 
 .modules-list .module-card:last-child::after {
@@ -408,150 +389,136 @@ onBeforeUnmount(() => {
 .module-header {
   display: flex;
   flex-direction: column;
-  gap: var(--progress-tracker-module-header-gap);
+  gap: 0.48rem;
   padding: 0;
-  margin-bottom: var(--sf-auto-pathprogresstracker-margin-bottom-25ed0a7b);
+  margin-bottom: 0.65rem;
 }
 
 .module-header-top {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  gap: var(--progress-tracker-module-header-top-gap);
+  gap: 0.55rem;
 }
 
 .module-index-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: var(--progress-tracker-step-link-border-width) solid var(--pp-border);
+  border: 2px solid var(--pp-border);
   background: var(--brand-yellow);
   color: var(--brand-black);
-  font-size: var(--progress-tracker-module-index-font-size);
+  font-size: 0.82rem;
   font-weight: 800;
-  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-95e2c949);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   white-space: nowrap;
-  padding: var(--progress-tracker-module-index-padding);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-34192a71);
+  padding: 0.18rem 0.48rem;
+  line-height: 1.2;
 }
 
 .module-title-center {
   margin: 0;
-  font-size: var(--progress-tracker-module-title-size);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-06381467);
+  font-size: 1.22rem;
+  line-height: 1.25;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-fe635cb6);
+  letter-spacing: 0.02em;
   text-align: center;
   min-width: 0;
 }
 
 .module-objective {
-  margin: var(--sf-auto-pathprogresstracker-margin-f9db4eaa);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-bc97f313);
-  font-size: var(--progress-tracker-module-objective-size);
+  margin: 0.24rem 0 0;
+  line-height: 1.35;
+  font-size: 1rem;
 }
 
 .module-stats {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: var(--progress-tracker-module-stats-border-width) solid var(--pp-module-stats-border);
+  border: 2px solid var(--pp-module-stats-border);
   background: var(--pp-module-stats-bg);
   color: var(--pp-module-stats-text);
-  font-size: var(--progress-tracker-module-stats-font-size);
+  font-size: 0.9rem;
   font-weight: 800;
   white-space: nowrap;
   margin: 0;
-  padding: var(--progress-tracker-module-stats-padding);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-85c49ac5);
+  padding: 0.2rem 0.55rem;
+  line-height: 1.2;
 }
 
 .module-card ol {
-  margin: var(--sf-auto-pathprogresstracker-margin-e566b09e);
+  margin: 0.6rem 0 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: var(--progress-tracker-module-gap);
+  gap: 0.5rem;
 }
 
 .module-card li {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: flex-start;
-  gap: var(--progress-tracker-step-gap);
+  gap: 0.8rem;
   background: var(--pp-surface-muted);
-  border: var(--progress-tracker-step-border-width) solid var(--pp-border);
-  padding: var(--progress-tracker-step-padding);
-  transition: var(--sf-auto-pathprogresstracker-transition-70639100);
-}
-
-.module-card li:hover {
-  border-color: var(--pp-link-hover);
-}
-
-.module-card li.step-completed {
-  background: linear-gradient(120deg, var(--pp-surface-muted), rgb(255 255 255 / 0.75));
-}
-
-.step-completed .step-content > strong {
-  text-decoration: line-through;
-  opacity: 0.78;
+  border: 2px solid var(--pp-border);
+  padding: 0.6rem;
 }
 
 .step-check {
   display: flex;
   align-items: flex-start;
-  gap: var(--sf-auto-pathprogresstracker-gap-335f2e6c);
-  width: var(--sf-auto-pathprogresstracker-width-b863cba6);
+  gap: 0.5rem;
+  width: 100%;
   min-width: 0;
 }
 
 .step-content {
   display: block;
-  width: var(--sf-auto-pathprogresstracker-width-b1bbef59);
+  width: 100%;
 }
 
 .step-meta {
   display: flex;
   align-items: center;
-  gap: var(--sf-auto-pathprogresstracker-gap-6508a947);
-  margin-top: var(--sf-auto-pathprogresstracker-margin-top-c100b580);
+  gap: 0.45rem;
+  margin-top: 0.2rem;
 }
 
 .step-type,
 .step-xp {
   display: inline-block;
-  font-size: var(--progress-tracker-step-type-font-size);
+  font-size: 0.82rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-615ed24d);
-  border: var(--progress-tracker-step-link-border-width) solid var(--pp-border);
-  padding: var(--progress-tracker-step-type-padding);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-207e7fcd);
+  letter-spacing: 0.02em;
+  border: 2px solid var(--pp-border);
+  padding: 0.12rem 0.52rem;
+  line-height: 1.2;
   text-align: center;
 }
 
 .step-type.quiz {
-  background: var(--progress-tracker-step-quiz-bg);
-  color: var(--progress-tracker-step-quiz-color);
+  background: #bfd8ff;
+  color: #0e2b4d;
 }
 
 .step-type.guide {
-  background: var(--progress-tracker-step-guide-bg);
-  color: var(--progress-tracker-step-guide-color);
+  background: #c9efcd;
+  color: #12381f;
 }
 
 .step-type.tuto {
-  background: var(--progress-tracker-step-tuto-bg);
-  color: var(--progress-tracker-step-tuto-color);
+  background: #ffd8b2;
+  color: #4a2b0f;
 }
 
 .step-type.action {
-  background: var(--progress-tracker-step-action-bg);
-  color: var(--progress-tracker-step-action-color);
+  background: #ffc2c2;
+  color: #4e1313;
 }
 
 .step-xp {
@@ -570,28 +537,12 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: center;
   align-self: flex-start;
-  min-width: var(--progress-tracker-step-link-min-width);
-  padding: var(--progress-tracker-step-link-padding);
-  border: var(--progress-tracker-step-link-border-width) solid var(--pp-border);
+  min-width: 5.5rem;
+  padding: 0.35rem 0.6rem;
+  border: 2px solid var(--pp-border);
   background: var(--pp-surface);
   text-decoration: none;
-  line-height: var(--sf-auto-pathprogresstracker-line-height-73a5bd5a);
-  transition: var(--sf-auto-pathprogresstracker-transition-04ffd4a0);
-}
-
-.step-open-link-disabled {
-  opacity: 0.72;
-  cursor: default;
-}
-
-.step-open-link:hover {
-  transform: translate(1px, 1px);
-  box-shadow: var(--progress-tracker-step-link-shadow-hover);
-}
-
-.step-open-link:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
+  line-height: 1.2;
 }
 
 .module-card li a:hover {
@@ -619,41 +570,41 @@ onBeforeUnmount(() => {
 }
 
 :global(.dark) .step-type.quiz {
-  background: var(--progress-tracker-step-quiz-bg-dark);
-  color: var(--progress-tracker-step-quiz-color-dark);
+  background: #0f4c81;
+  color: #f5f5f2;
 }
 
 :global(.dark) .step-type.guide {
-  background: var(--progress-tracker-step-guide-bg-dark);
-  color: var(--progress-tracker-step-guide-color-dark);
+  background: #1f6b3a;
+  color: #f5f5f2;
 }
 
 :global(.dark) .step-type.tuto {
-  background: var(--progress-tracker-step-tuto-bg-dark);
-  color: var(--progress-tracker-step-tuto-color-dark);
+  background: #8a4b11;
+  color: #f5f5f2;
 }
 
 :global(.dark) .step-type.action {
-  background: var(--progress-tracker-step-action-bg-dark);
-  color: var(--progress-tracker-step-action-color-dark);
+  background: #8b1f1f;
+  color: #f5f5f2;
 }
 
 :global(.dark) .step-xp {
   color: var(--brand-black);
 }
 
-@media (max-width: var(--progress-tracker-mobile-breakpoint)) {
+@media (max-width: 780px) {
   .module-stats {
-    font-size: var(--progress-tracker-module-stats-font-size-mobile);
-    padding: var(--sf-auto-pathprogresstracker-padding-ab85bc1d);
+    font-size: 0.84rem;
+    padding: 0.18rem 0.45rem;
   }
 
   .module-title-center {
-    font-size: var(--progress-tracker-module-title-size-mobile);
+    font-size: 1.05rem;
   }
 
   .module-objective {
-    font-size: var(--progress-tracker-module-objective-size-mobile);
+    font-size: 0.94rem;
   }
 }
 
@@ -662,18 +613,18 @@ onBeforeUnmount(() => {
 <style>
 html.dark .path-progress,
 .dark .path-progress {
-  --pp-surface: var(--progress-tracker-surface-dark);
-  --pp-surface-muted: var(--progress-tracker-surface-muted-dark);
-  --pp-border: var(--progress-tracker-border-dark);
-  --pp-shadow: var(--progress-tracker-shadow-dark);
-  --pp-text: var(--progress-tracker-text-dark);
-  --pp-link: var(--progress-tracker-link-dark);
-  --pp-link-hover: var(--progress-tracker-link-hover-dark);
-  --pp-progress-track: var(--progress-tracker-progress-track-dark);
-  --pp-progress-fill: var(--progress-tracker-progress-fill-dark);
-  --pp-badge-text: var(--progress-tracker-badge-text-dark);
-  --pp-module-stats-bg: var(--progress-tracker-module-stats-bg-dark);
-  --pp-module-stats-border: var(--progress-tracker-module-stats-border-dark);
-  --pp-module-stats-text: var(--progress-tracker-module-stats-text-dark);
+  --pp-surface: var(--brand-ink);
+  --pp-surface-muted: var(--brand-charcoal);
+  --pp-border: var(--brand-cream);
+  --pp-shadow: var(--brand-cream);
+  --pp-text: var(--brand-cream);
+  --pp-link: var(--brand-yellow);
+  --pp-link-hover: var(--brand-cream);
+  --pp-progress-track: var(--brand-soot);
+  --pp-progress-fill: var(--brand-yellow);
+  --pp-badge-text: var(--brand-cream);
+  --pp-module-stats-bg: var(--brand-charcoal);
+  --pp-module-stats-border: var(--brand-yellow);
+  --pp-module-stats-text: var(--brand-yellow);
 }
 </style>

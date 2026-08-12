@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: SaaS
-author: Diane GoCharbon
+title: SaaS (Logiciel en Service)
+author: Web Indé
 tags:
 - Business
-description: 'Construire un SaaS exigeant mais défendable, avec un vrai problème,
-  une vraie distribution et un vrai pricing.'
+description: 'Lance ton SaaS : idéation, développement, pricing et croissance pour
+  entrepreneurs tech.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Un SaaS, c'est un logiciel vendu par abonnement pour résoudre un problème récurrent. C'est un très beau modèle quand il marche. C'est aussi l'un des plus exigeants à lancer proprement, surtout en solo.
+Un SaaS (Software as a Service), c'est un logiciel accessible en ligne par abonnement. Tu développes un outil qui résout un problème récurrent, et tes clients paient chaque mois pour l'utiliser. Exemples connus : Notion, Canva, Shopify, etc.
 
 C'est le business model préféré des tech entrepreneurs car il offre des revenus récurrents et prévisibles (MRR = Monthly Recurring Revenue). Une fois le logiciel créé, les coûts de maintenance sont relativement faibles et chaque nouveau client est presque du profit pur.
 

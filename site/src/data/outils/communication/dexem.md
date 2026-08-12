@@ -1,33 +1,15 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Dexem
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: telephonie
 description: 'Dexem est la suite française de téléphonie cloud : Call Tracking, SVI
   et Call Manager. IA incluse, 10 000+ utilisateurs. Dès 10€/mois. Essai gratuit.'
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.dexem.com/
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.dexem.com/informations/mentions-legales.html
-- https://www.dexem.com/informations/politique-confidentialite.html
-- https://www.dexem.com/contact/support.html
-notesQualification: 'Dexem est une société française basée à Cesson-Sévigné. Les
-  mentions légales et la politique de confidentialité documentent un hébergement AWS
-  en France et une démarche de conformité explicite, ce qui justifie un ancrage économique
-  et un niveau de responsabilité forts.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Dexem

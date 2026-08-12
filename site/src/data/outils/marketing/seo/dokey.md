@@ -1,8 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut: null
-type: outil
+type: Logiciel
 _priorité: normal
 tags:
 - Outils
@@ -248,7 +248,7 @@ imgUrl: ../../../../assets/astro.jpeg
     
     Pour modifier les membres de votre équipe, rendez-vous dans votre compte Dokey, puis :
     
-    1. Rendez-vous sur la page **[Équipe](https://dokey.io/app/settings/team)** à l’aide du menu principal en haut à droite de votre fenêtre
+    1. Rendez-vous sur la page **[Equipe](https://dokey.io/app/settings/team)** à l’aide du menu principal en haut à droite de votre fenêtre
     2. Vous pouvez administrer votre équipe :
         - changer le nom de votre équipe
         - ajouter des membres
@@ -288,11 +288,11 @@ Globalement, Google indique en quoi consistent les nouvelles mises à jour de so
 
 L’algorithme Google évolue constamment, et il a été tellement travaillé qu’il est capable de comprendre l’intention de l’utilisateur et également la logique d’une argumentation ou du parcours utilisateur sur une page. En voici un exemple concret : un célèbre logiciel SEO indique à un rédacteur web que le terme “meilleur lait bébé” concentre 720 recherches mensuelles.
 
-[https://dokey.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ix5v3um%2Fproduction%2Fd4d2037411bc8cf46fc913508e5fbd72436cd3c1-1375x340.png&w=3840&q=75](__MASK_12__)
+[https://dokey.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ix5v3um%2Fproduction%2Fd4d2037411bc8cf46fc913508e5fbd72436cd3c1-1375x340.png&w=3840&q=75](https://dokey.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ix5v3um%2Fproduction%2Fd4d2037411bc8cf46fc913508e5fbd72436cd3c1-1375x340.png&w=3840&q=75)
 
 En effet, l’utilisateur à la recherche d’informations saisit cette requête dans la barre de recherches. En revanche, le rédacteur, qui rédige un article sur cette requête, ne peut pas saisir ces termes exacts, étant donné que ce n’est pas correct linguistiquement parlant. La page nommée “Quel est le meilleur lait pour bébé ?” tombera néanmoins dans les résultats de recherche de la requête “meilleur lait bébé” puisque Google détecte l’intention de la recherche et l’associe à la thématique de la page. Il peut même associer des contenus dont les nominations divergent complètement des termes de recherche s’il détecte une certaine pertinence entre l’information donnée et la requête saisie. Comme en témoigne l’exemple ci-dessous, le premier résultat de recherche pour la requête “meilleur lait bébé” est une page dont le titre est “Meilleur lait 1er âge en 2021 (bébé de 0 à 6 mois)”.
 
-[https://dokey.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ix5v3um%2Fproduction%2F0fb0b1f17d0278df3cf4d0c5f8b2dbf887442d48-949x705.png&w=3840&q=75](__MASK_13__)
+[https://dokey.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ix5v3um%2Fproduction%2F0fb0b1f17d0278df3cf4d0c5f8b2dbf887442d48-949x705.png&w=3840&q=75](https://dokey.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1ix5v3um%2Fproduction%2F0fb0b1f17d0278df3cf4d0c5f8b2dbf887442d48-949x705.png&w=3840&q=75)
 
 L’algorithme Google est ainsi une **intelligence artificielle** s’appuyant sur le **machine learning**, capable de faire ses propres choix et de détecter les parcours linguistiques et logiques entrepris par les utilisateurs.
 
@@ -354,7 +354,7 @@ Offrez à votre client une opportunité exclusive : 30 minutes de consultation 
 
 Que ce soit pour des questions sur le SEO ou pour obtenir des conseils sur les améliorations à apporter à son site, votre client peut prendre rendez-vous dès maintenant en cliquant ici :
 
-[https://meet.dokey.io/meetings/dokey/meet](__MASK_15__)
+[https://meet.dokey.io/meetings/dokey/meet](https://email.dokey.io/e3t/Ctc/UB+113/d2YW1Y04/VWD9p94JlQxmW1LMQWb277hGbW1HN78y50pV9qN7KkK173lLB3V1-WJV7CgYJlW7D0H1X5fGst0W2k0-qM3D7chlW4rjW-759Zlp_W1M3SxQ8tnLY0W5_cKdb2JTwzMN8cR5Stw2lwqW1QbK_-42T5yxW6Hmk1C1CMWMWW5R-HYj8fxV8MVhG_mP38KPcGW2DdL3x5kGNG7W55tnzw7-PBj0W85NDgr4c_-BbW3RNFTC6DvsByN4CVrMwCWfcdW40Pk635RZTd5VT0KcF8vGTs3W5dYHFd4CNHzwW1T9nP02BlTr-W2tbK_14ZJQHV3kXP1)
 
 La Team Dokey vous souhaite un excellent Week-end,
 
@@ -388,7 +388,7 @@ La Team Dokey vous souhaite un excellent Week-end,
 
 |   |
 |---|
-|Offrez à votre client une opportunité exclusive : 30 minutes de consultation offertes avec un expert en référencement SEO pour discuter de son site.<br><br>Que ce soit pour des questions sur le SEO ou pour obtenir des conseils sur les améliorations à apporter à son site, votre client peut prendre rendez-vous dès maintenant en cliquant ici :[https://meet.dokey.io/meetings/dokey/meet](__MASK_17__)|
+|Offrez à votre client une opportunité exclusive : 30 minutes de consultation offertes avec un expert en référencement SEO pour discuter de son site.<br><br>Que ce soit pour des questions sur le SEO ou pour obtenir des conseils sur les améliorations à apporter à son site, votre client peut prendre rendez-vous dès maintenant en cliquant ici :[https://meet.dokey.io/meetings/dokey/meet](https://email.dokey.io/e3t/Ctc/UB+113/d2YW1Y04/VVym9k1x7jQKVh3Hzb2Sb8yHW63xJzN50dT5pN1YBntV3lLB3V1-WJV7CgJYmW3Jr88P5bRLfFW1TJfrN3dh032W4zb0BP91Xnm2VYh1YW4s8F2LW43STSB6PqP7RVW8Ssx4PSdtYW64V7ZW6yJBYsW959VWP7JByWlW588h0l4FCqd5N7TNZChkTW-hW32HGH49ckBMJW6CWkw690g0CWVSNFLL13BV_TN8zw0Wk-SFYqN8njdDVL_NB_W1j8dSy7KZF50W1D31n53st--kW8qDrVT46jnHQW1MGX4w3GLRczW1Z92ZT7kqKNf3m1W1)|
 
 
 ## 🥇 Atteignez la 1ère Place Sur Google !
@@ -403,7 +403,7 @@ Dokey 🤖 vous facilite la création de contenu français qui se place bien sur
 * Se classer devant la concu' grâce à des contenus optimisés SEO 💪
 * Diviser par 2 ou par 3 🔀 le temps de rédaction d’un article optimisé
 * Plus de paralysie au moment de la rédaction 🙀, il suffit de suivre la méthodologie 🧭
-* Être visible sur de nombreuses recherches et recevoir plus de trafic 📈
+* Etre visible sur de nombreuses recherches et recevoir plus de trafic 📈
 
 ## 🕵️ Pour Qui ? 🕵️
 

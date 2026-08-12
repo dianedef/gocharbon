@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Interdit Par Google Les Techniques Seo Underground Qui Cartonnent
 author: Diane
-description: "Interdit Par Google Les Techniques Seo Underground Qui Cartonnent."
+description: 'Découvre Interdit Par Google Les Techniques Seo Underground Qui Cartonnent
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

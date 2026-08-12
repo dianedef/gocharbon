@@ -1,95 +1,116 @@
 ---
 section: blog
-title: Fondamentaux du marketing digital
+title: Fondamentaux du Marketing Digital
 author: Diane
 tags:
 - Marketing
-description: Les bases du marketing digital pour poser une stratégie simple, tenable
-  et mesurable.
+description: Comprends les fondamentaux marketing sans jargon inutile et lance un
+  plan d'acquisition clair.
 pubDate: '2026-01-17'
 imgUrl: ../../assets/astro.jpeg
 ---
 
 # Fondamentaux du marketing digital
 
-Le marketing ne sert pas à "faire parler de toi". Il sert à créer une demande compréhensible, puis à la transformer en revenu sans raconter n'importe quoi.
+Le marketing, ce n'est pas "poster partout".
+C'est faire le lien entre ton offre et les bonnes personnes, au bon moment.
 
-Quand on démarre, il vaut mieux maîtriser quelques fondamentaux solides plutôt que recopier les recettes d'une marque avec budget, agence et équipe dédiée.
+## Ton objectif
 
-## Les 4 bases qui changent vraiment les résultats
+Obtenir tes premiers resultats avec une strategie simple, mesurable et tenable.
 
-### 1. La cible
+## Les 4 bases qui changent tout
 
-Tu ne parles pas à tout le monde. Tu parles à des personnes qui ont un problème, un niveau d'urgence et une manière bien à elles de chercher une solution.
+### 1) Cible
 
-Une cible utile n'est pas une fiche persona de 12 pages. C'est une réponse claire à trois questions :
+Tu ne parles pas a "tout le monde".
+Tu parles a une cible qui a un probleme concret.
 
-- qui essaie déjà de résoudre ce problème ;
-- ce qui bloque aujourd'hui ;
-- ce qu'elle veut obtenir rapidement.
+### 2) Message
 
-### 2. Le message
+Ton message doit etre clair en 10 secondes:
+- pour qui
+- quel resultat
+- pourquoi toi
 
-Ton message doit être compris en quelques secondes.
+### 3) Canal
 
-Au minimum, il doit dire :
+Choisis 1 canal principal + 1 canal support.
 
-- ce que tu proposes ;
-- à qui ;
-- avec quel bénéfice concret ;
-- et pourquoi ta solution paraît crédible.
+Exemple:
+- principal: SEO ou outreach LinkedIn
+- support: email ou reseaux sociaux
 
-### 3. Le canal
+### 4) Conversion
 
-Choisis un canal principal et un canal support.
+Le traffic seul ne suffit pas.
+Tu dois transformer l'interet en action:
+- appel
+- essai
+- achat
 
-Par exemple :
+## Parcours marketing simple
 
-- principal : SEO, prospection, LinkedIn ou YouTube ;
-- support : email, retargeting ou contenus de preuve.
+1. Attirer: contenu, SEO, social, ads
+2. Qualifier: mini quiz, formulaire, echange
+3. Convertir: offre claire + preuve
+4. Activer: premiere victoire rapide
+5. Fideliser: suivi et relation
 
-Le pire choix reste souvent le même : être un peu partout, sans jamais devenir bon nulle part.
+## Plan 14 jours (debutant)
 
-### 4. La conversion
+### Jours 1-3
 
-Une promesse attirante ne suffit pas. Il faut ensuite un parcours simple :
+- definir la cible
+- ecrire la promesse
+- choisir le canal principal
 
-- une page claire ;
-- une offre lisible ;
-- un appel à l'action unique ;
-- quelques preuves sérieuses ;
-- et un suivi derrière.
+### Jours 4-7
 
-## Le parcours marketing le plus simple
+- creer 3 contenus utiles
+- publier avec un CTA unique
+- installer le tracking minimum
 
-1. Attirer.
-2. Qualifier.
-3. Convertir.
-4. Activer.
-5. Fidéliser.
+### Jours 8-11
 
-Si une étape est floue, les suivantes deviennent plus difficiles et plus chères.
+- analyser les retours
+- ajuster le message
+- ajuster la page d'offre
 
-## Les KPI utiles au début
+### Jours 12-14
 
-- trafic qualifié ;
-- taux de clic vers l'offre ;
-- taux de conversion ;
-- coût d'acquisition si tu fais de la pub ;
-- revenu par canal.
+- relancer les prospects chauds
+- mesurer les conversions
+- preparer le sprint suivant
 
-## Les erreurs les plus fréquentes
+## Les KPI a suivre au debut
 
-- changer de canal toutes les deux semaines ;
-- publier sans angle ni objectif ;
-- copier le vocabulaire du marché au lieu de parler clair ;
-- ignorer la rétention ;
-- ne rien mesurer.
+- Taux de clic vers ton offre
+- Taux de conversion vers prise de contact/achat
+- Cout d'acquisition (si pub)
+- Revenu par canal
 
-## Pour aller plus loin
+## Erreurs a eviter
 
-- [KPIs marketing](/marketing/analytics/kpis)
-- [Stratégie email](/marketing/email/strategie)
+- multiplier les canaux trop tot
+- publier sans objectif clair
+- utiliser du jargon qui bloque les debutants
+- ne pas mesurer chaque semaine
+
+## Checklist
+
+- [ ] cible definie
+- [ ] promesse claire
+- [ ] canal principal actif
+- [ ] CTA unique sur chaque contenu
+- [ ] KPI hebdo suivis
+
+## Ressources utiles
+
+- [Bases du SEO](/seo/fondamentaux/bases-seo)
+- [Programme beta tunnel](/marketing/tunnel/proramme-beta)
 - [Atelier tunnel](/marketing/tunnel/atelier)
+- [KPIs marketing](/marketing/analytics/kpis)
 
-Un marketing solide commence rarement par un hack. Il commence par une offre compréhensible, un canal assumé et un système suffisamment simple pour être tenu dans la durée.
+Le bon marketing n'est pas complique.
+Il est clair, regulier et mesure.

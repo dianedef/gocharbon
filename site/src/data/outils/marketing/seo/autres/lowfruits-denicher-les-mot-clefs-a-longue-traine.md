@@ -1,9 +1,9 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut:
 - en-cours
-type: outil
+type: Logiciel
 _priorité: normal
 tags:
 - Outils
@@ -133,7 +133,7 @@ Décide si tu veux extraire tout le sitemap ou seulement les posts (ou les pages
 
 Au lieu du domaine complet, insère les paramètres pour des sitemaps spécifiques, comme par exemple :
 
-- [https://www.example.com/post-sitemap1.xml](__MASK_5__) pour les articles
+- [https://www.example.com/post-sitemap1.xml](https://www.example.com/post-sitemap1.xml) pour les articles
 - [LKWFVSMWJKVQVR](https://www.example.com/page-sitemap.xml) pour les pages
 
 P.S. Si tu utilises le nom de domaine entier, l'outil évitera l'encombrement et n'extraira pas les sitemaps pour les catégories, les tags, les images, etc.
@@ -840,7 +840,7 @@ Analyze the SERPs in your dashboard and see **weak spots** (websites with low D
 
 **Keyword Cupid**
 
-[Keyword Cupid](https://keywordcupid.com/) scrapes real-time information from SERPs and gauges the thematic connection between each query to provide keyword clusters you should target. The SERP Spy feature also offers content création suggestions.
+[Keyword Cupid](https://keywordcupid.com/) scrapes real-time information from SERPs and gauges the thematic connection between each query to provide keyword clusters you should target. The SERP Spy feature also offers content creation suggestions.
 
 **Pricing:** Starts from $9,99/mo with 500 keywords
 
@@ -1021,7 +1021,7 @@ LowFruits permet de focus sur cette dernière étape et de savoir automatiquemen
 
 ## Quel Type de Mots-clés Obtiendrai-je Grâce à L'outil de Recherche de Mots-clés ?
 
-Nous obtenons des idées de mots-clés à longue traîne directement à partir de Google Auto Complète.
+Nous obtenons des idées de mots-clés à longue traîne directement à partir de Google Auto Complete.
 
 Les mots-clés à longue traîne sont souvent moins concurrentiels, ce qui signifie qu'il peut être plus facile de se classer pour eux dans les résultats de recherche. Cela peut être particulièrement utile pour les nouveaux sites Web ou ceux dont l'autorité de domaine est faible. En ciblant des mots-clés à longue traîne, tu peux commencer à augmenter le trafic et à établir ton site Web comme une ressource de confiance dans ta niche.
 
@@ -1031,7 +1031,7 @@ Oui, le KWFinder ne peut pas extraire de mots-clés dans certaines niches sensib
 
 Les habitants d'un pays pourraient rechercher des informations relatives à un autre pays.
 
-Lorsque tu sélectionnes un pays cible dans le KWFinder, celui-ci va chercher des idées de mots-clés directement dans **Google Auto Complète** en rapport avec le Google local de ce pays (par exemple : [google.com.au](http://google.com.au)).
+Lorsque tu sélectionnes un pays cible dans le KWFinder, celui-ci va chercher des idées de mots-clés directement dans **Google Auto Complete** en rapport avec le Google local de ce pays (par exemple : [google.com.au](http://google.com.au)).
 
 Tu peux vérifier ce comportement en utilisant un VPN.
 
@@ -1057,7 +1057,7 @@ Dans certains cas, si Google épuise toutes les idées possibles dans la langue 
 
 ### Comment Trouver de Bonnes Idées de Mots-clés et Minimiser la Consommation de Crédit ?
 
-**Étape 1. Insère un mot-clé de départ** dans l'outil [Google Auto Complète Extractor](https://lowfruits.io/dashboard/searches/create).
+**Étape 1. Insère un mot-clé de départ** dans l'outil [Google Auto Complete Extractor](https://lowfruits.io/dashboard/searches/create).
 
 Il existe plusieurs types de mots-clés de départ que tu peux utiliser : **large, étroit ou très spécifique en utilisant l'opérateur joker.** **Un mot-clé de semence large** comme _sofa_ générera des idées de mots-clés généraux et peut t'aider à mieux comprendre les sujets liés à ton activité. Ces idées de mots clés sont généralement **plus compétitives**. **Un mot-clé étroit** comme _meilleur canapé_ pour fournira des idées de mots-clés plus ciblés, de longue traîne, qui peuvent être plus intéressants car tu obtiendras une majorité de mots-clés à forte intention. Ces idées de mots-clés sont généralement **moins concurrentielles**. **Lorsque tu utilises un caractère de remplacement (*)**, dans le mot-clé de départ, les idées de mots-clés correspondront à une structure spécifique. Par exemple, _meilleur canapé pour_ * ne fournira que des mots-clés du type "meilleur canapé pour _quelque chose_".
 

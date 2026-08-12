@@ -8,103 +8,313 @@ u_affi: null
 u_affiAdmin: null
 title: Calliwords
 author: Diane
-description: Mon avis sur Calliwords, un outil orienté copywriting et textes de vente pour entrepreneurs, formateurs et petites équipes marketing.
-pubDate: '2026-04-19'
+description: 'Découvre Calliwords : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Calliwords : un outil utile si ton vrai problème est la page blanche
+fait par cédric floris
 
-Calliwords se positionne comme un outil de rédaction orienté **copywriting**, avec un discours très clair : t’aider à produire plus vite des textes de vente, des emails et des messages publicitaires sans sortir un contenu plat ou trop robotique.
+## ❔ Calliwords : Write persuasive sales copy in minutes using AI
 
-Dit autrement : ce n’est pas un outil à regarder si tu cherches un traitement de texte “IA” de plus. C’est un outil à regarder si ton sujet, c’est surtout **l’angle marketing**, la structure d’un message et la vitesse d’exécution.
+**Tired of spending hours crafting sales copy that falls flat?**
 
-## Ce que l’outil essaie de résoudre
+Calliwords is an AI-powered writing tool that helps you generate high-converting sales copy in minutes. With Calliwords, you can create:
 
-Le problème visé est simple :
+* **Personas**
+* **Sales emails**
+* **Urgency emails**
+* **Newsletters**
+* **Abandoned cart emails**
+* **Post-optin emails**
+* **Sales pages**
+* **Facebook ads**
 
-- tu sais à peu près ce que tu veux vendre
-- mais tu passes trop de temps à formuler
-- ou tu produis des textes faibles, génériques ou mous
+**Benefits:**
 
-Sur ce terrain-là, un outil spécialisé peut être plus utile qu’un prompt bricolé dans un chat généraliste.
+* **Save time and money:** Create high-quality sales copy in a fraction of the time it would take you to write it yourself.
+* **Improve conversion rates:** Get more leads, sales, and customers with persuasive copy that speaks to your ideal customer.
+* **Sound like an expert:** Calliwords uses advanced AI to generate copy that is both persuasive and professional.
 
-## Pour qui Calliwords est intéressant
+** Who is it for?**
 
-Je le vois surtout pertinent pour :
+Calliwords is perfect for:
 
-- les entrepreneurs qui vendent une offre d’accompagnement, une formation ou un produit digital
-- les copywriters juniors qui veulent une base de travail
-- les petites équipes marketing qui doivent produire vite des variantes d’emails, pubs ou pages
+* **Entrepreneurs:** Launch your products and services faster with high-converting sales copy.
+* **Copywriters:** Increase your productivity and profitability by outsourcing your copywriting tasks to Calliwords.
+* **Coaches:** Create engaging and effective marketing materials to attract more clients.
+* **Therapists:** Stand out from the competition and reach more potential clients with compelling copy.
+* **Digital agencies:** Scale your business and offer more comprehensive services to your clients.
+* **Funnel builders:** Increase your profits by offering copywriting services to your clients.
 
-Je le vois moins utile si :
+** Alternatives**
 
-- tu as déjà une très bonne maîtrise du copywriting
-- tu veux une recherche stratégique complète
-- tu attends qu’un outil écrive un excellent message sans matière de départ
+* Jarvis AI
+* Copy.ai
+* Rytr
+* Peppertype.ai
 
-## Les usages les plus crédibles
+**️ Features**
 
-Là où un outil comme Calliwords peut vraiment aider :
+* **Persona creation:** Create a detailed profile of your ideal customer to help you write more targeted copy.
+* **Email templates:** Get a variety of email templates to get you started.
+* **Ad copy generation:** Create high-converting ad copy for Facebook, Google Ads, and more.
+* **Landing page copywriting:** Write persuasive landing page copy that converts visitors into customers.
+* **Social media copy:** Generate engaging social media posts that will get your audience's attention.
 
-- générer des angles de hooks
-- accélérer l’écriture d’emails commerciaux
-- débloquer un début de page de vente
-- produire plusieurs variantes d’accroches publicitaires
+** Pricing**
 
-Là où il faut rester lucide :
+Calliwords offers a variety of pricing plans to fit your needs.
 
-- une IA ne remplace pas la connaissance client
-- une IA ne remplace pas un bon positionnement
-- une IA ne transforme pas une offre moyenne en offre désirable
+* **Free:** Create up to 1,000 words per month.
+* **Pro:** Create up to 10,000 words per month for $49 per month.
+* **Business:** Create up to 50,000 words per month for $199 per month.
+* **Enterprise:** Create unlimited words per month for $499 per month.
 
-## Mon avis sur la promesse
+**️ Team, History, and Mission**
 
-La promesse est cohérente si tu l’interprètes correctement.
+Calliwords was created by Cédric Floris, a copywriter and entrepreneur with over 10 years of experience. Cédric was frustrated with the limitations of existing AI writing tools, which often produced generic and uninspired copy. He created Calliwords to solve this problem and provide businesses with a tool that could generate high-quality, persuasive sales copy.
 
-**Oui**, ce type d’outil peut faire gagner du temps.
+** Roadmap**
 
-**Non**, il ne faut pas l’acheter comme une machine à conversions automatiques. Les bons résultats viendront si tu lui donnes :
+Calliwords is constantly being updated with new features and improvements. The team is currently working on adding support for more languages, as well as new templates and copywriting tools.
 
-- une offre claire
-- un niveau de preuve minimum
-- un vrai matériau client
+**⛓️ Links and Resources**
 
-Sinon tu vas juste générer plus vite des textes “propres” mais oubliables.
+* **Website:** [https://www.callrecord.com/](https://www.callrecord.com/)
+* **Facebook:** [https://www.facebook.com/help/messenger-app/1109321839427482](https://www.facebook.com/help/messenger-app/1109321839427482)
+* **Twitter:** [https://twitter.com/david8hughes/status/1685854181524144128](https://twitter.com/david8hughes/status/1685854181524144128)
+* **Instagram:** [https://www.instagram.com/art_by_setirdis/](https://www.instagram.com/art_by_setirdis/)
 
-## Ce que je regarderais avant de l’adopter
+** Referral Program**
 
-Avant de payer, je vérifierais surtout :
+Calliwords does not currently have a referral program.
 
-- la qualité des frameworks proposés
-- la facilité à produire plusieurs variantes utiles
-- la capacité à adapter un ton de voix cohérent
-- la pertinence des sorties pour de vraies pubs ou emails
+**⚙️ Integrations**
 
-Le vrai critère n’est pas “est-ce que ça écrit ?”. Le vrai critère, c’est :
+Calliwords does not currently integrate with any other tools.
 
-**est-ce que ça m’aide à publier plus vite sans dégrader la qualité perçue ?**
+** How to use it**
 
-## Les limites à garder en tête
+To use Calliwords, simply follow these steps:
 
-Comme beaucoup d’outils de copy assisté :
+1. **Create an account:** [https://www.callrecord.com/](https://www.callrecord.com/)
+2. **Select the type of copy you want to create:** Persona, email, ad, landing page, social media post, etc.
+3. **Enter your information:** Provide Calliwords with some information about your product, service, or target audience.
+4. **Generate copy:** Click the "Generate copy" button and Calliwords will generate a variety of copy options for you.
+5. **Choose the best copy:** Select the copy that you like best and edit it as needed.
+6. **Publish your copy:** Use your copy in your marketing materials.
 
-- tu risques de standardiser ton ton si tu t’en sers mal
-- tu peux produire des messages trop proches les uns des autres
-- tu as quand même besoin d’un vrai travail d’édition
+** How does it work?**
 
-Donc Calliwords peut être utile comme copilote rédactionnel. Pas comme substitut au jugement marketing.
+Calliwords uses a variety of AI techniques to generate copy, including:
 
-## Verdict
+* **Natural language processing:** Calliwords understands the meaning of your prompts and questions.
+* **Machine learning:** Calliwords learns from the data that it is trained on to improve its copywriting skills.
+* **Generative AI:** Calliwords can generate new and original copy that is not simply a rehash of existing text.
 
-Calliwords peut avoir du sens si ton quotidien ressemble à ça :
 
-- tu dois écrire des pubs, emails ou pages régulièrement
-- tu veux sortir de la page blanche plus vite
-- tu n’as pas envie de dépendre à 100 % d’un copywriter externe
+## ❔  Calliwords: Write persuasive sales copy in minutes using AI
 
-Je le traiterais comme un **outil d’accélération**, pas comme une baguette magique.
+**Tired of spending hours crafting sales copy that falls flat?**
 
-Et si tu veux en tirer quelque chose de propre, garde cette règle :
+Calliwords is an AI-powered writing tool that helps you generate high-converting sales copy in minutes. With Calliwords, you can create:
 
-**l’outil t’aide à générer ; c’est encore à toi de choisir, couper, reformuler et humaniser.**
+* **Personas**
+* **Sales emails**
+* **Urgency emails**
+* **Newsletters**
+* **Abandoned cart emails**
+* **Post-optin emails**
+* **Sales pages**
+* **Facebook ads**
+
+**Benefits:**
+
+* **Save time and money:** Create high-quality sales copy in a fraction of the time it would take you to write it yourself.
+* **Improve conversion rates:** Get more leads, sales, and customers with persuasive copy that speaks to your ideal customer.
+* **Sound like an expert:** Calliwords uses advanced AI to generate copy that is both persuasive and professional.
+
+** Who is it for?**
+
+Calliwords is perfect for:
+
+* **Entrepreneurs:** Launch your products and services faster with high-converting sales copy.
+* **Copywriters:** Increase your productivity and profitability by outsourcing your copywriting tasks to Calliwords.
+* **Coaches:** Create engaging and effective marketing materials to attract more clients.
+* **Therapists:** Stand out from the competition and reach more potential clients with compelling copy.
+* **Digital agencies:** Scale your business and offer more comprehensive services to your clients.
+* **Funnel builders:** Increase your profits by offering copywriting services to your clients.
+
+** Alternatives**
+
+* Jarvis AI
+* Copy.ai
+* Rytr
+* Peppertype.ai
+
+**️ Features**
+
+* **Persona creation:** Create a detailed profile of your ideal customer to help you write more targeted copy.
+* **Email templates:** Get a variety of email templates to get you started.
+* **Ad copy generation:** Create high-converting ad copy for Facebook, Google Ads, and more.
+* **Landing page copywriting:** Write persuasive landing page copy that converts visitors into customers.
+* **Social media copy:** Generate engaging social media posts that will get your audience's attention.
+
+** Pricing**
+
+Calliwords offers a variety of pricing plans to fit your needs.
+
+* **Free:** Create up to 1,000 words per month.
+* **Pro:** Create up to 10,000 words per month for $49 per month.
+* **Business:** Create up to 50,000 words per month for $199 per month.
+* **Enterprise:** Create unlimited words per month for $499 per month.
+
+**️ Team, History, and Mission**
+
+Calliwords was created by Cédric Floris, a copywriter and entrepreneur with over 10 years of experience. Cédric was frustrated with the limitations of existing AI writing tools, which often produced generic and uninspired copy. He created Calliwords to solve this problem and provide businesses with a tool that could generate high-quality, persuasive sales copy.
+
+** Roadmap**
+
+Calliwords is constantly being updated with new features and improvements. The team is currently working on adding support for more languages, as well as new templates and copywriting tools.
+
+**⛓️ Links and Resources**
+
+* **Website:** [https://www.callrecord.com/](https://www.callrecord.com/)
+* **Facebook:** [https://www.callrecord.com/](https://www.callrecord.com/)
+* **Twitter:** [https://www.callrecord.com/](https://www.callrecord.com/)
+* **Instagram:** [https://www.callrecord.com/](https://www.callrecord.com/)
+
+** Referral Program**
+
+Calliwords does not currently have a referral program.
+
+**⚙️ Integrations**
+
+Calliwords does not currently integrate with any other tools.
+
+** How to use it**
+
+To use Calliwords, simply follow these steps:
+
+1. **Create an account:** [https://www.callrecord.com/](https://www.callrecord.com/)
+2. **Select the type of copy you want to create:** Persona, email, ad, landing page, social media post, etc.
+3. **Enter your information:** Provide Calliwords with some information about your product, service, or target audience.
+4. **Generate copy:** Click the "Generate copy" button and Calliwords will generate a variety of copy options for you.
+5. **Choose the best copy:** Select the copy that you like best and edit it as needed.
+6. **Publish your copy:** Use your copy in your marketing materials.
+
+** How does it work?**
+
+Calliwords uses a variety of AI techniques to generate copy, including:
+
+* **Natural language processing:** Calliwords understands the meaning of your prompts and questions.
+* **Machine learning:** Calliwords learns from the data that it is trained on to improve its copywriting skills.
+* **Generative AI:** Calliwords can generate new and original copy that is not simply a rehash of existing text.
+
+## ‍ Overall Impression
+
+Calliwords is a
+
+## ❔  Calliwords: Write persuasive sales copy in minutes using AI
+
+**Tired of spending hours crafting sales copy that falls flat?**
+
+Calliwords is an AI-powered writing tool that helps you generate high-converting sales copy in minutes. With Calliwords, you can create:
+
+* **Personas**
+* **Sales emails**
+* **Urgency emails**
+* **Newsletters**
+* **Abandoned cart emails**
+* **Post-optin emails**
+* **Sales pages**
+* **Facebook ads**
+
+**Benefits:**
+
+* **Save time and money:** Create high-quality sales copy in a fraction of the time it would take you to write it yourself.
+* **Improve conversion rates:** Get more leads, sales, and customers with persuasive copy that speaks to your ideal customer.
+* **Sound like an expert:** Calliwords uses advanced AI to generate copy that is both persuasive and professional.
+
+** Who is it for?**
+
+Calliwords is perfect for:
+
+* **Entrepreneurs:** Launch your products and services faster with high-converting sales copy.
+* **Copywriters:** Increase your productivity and profitability by outsourcing your copywriting tasks to Calliwords.
+* **Coaches:** Create engaging and effective marketing materials to attract more clients.
+* **Therapists:** Stand out from the competition and reach more potential clients with compelling copy.
+* **Digital agencies:** Scale your business and offer more comprehensive services to your clients.
+* **Funnel builders:** Increase your profits by offering copywriting services to your clients.
+
+** Alternatives**
+
+* Jarvis AI
+* Copy.ai
+* Rytr
+* Peppertype.ai
+
+**️ Features**
+
+* **Persona creation:** Create a detailed profile of your ideal customer to help you write more targeted copy.
+* **Email templates:** Get a variety of email templates to get you started.
+* **Ad copy generation:** Create high-converting ad copy for Facebook, Google Ads, and more.
+* **Landing page copywriting:** Write persuasive landing page copy that converts visitors into customers.
+* **Social media copy:** Generate engaging social media posts that will get your audience's attention.
+
+** Pricing**
+
+Calliwords offers a variety of pricing plans to fit your needs.
+
+* **Free:** Create up to 1,000 words per month.
+* **Pro:** Create up to 10,000 words per month for $49 per month.
+* **Business:** Create up to 50,000 words per month for $199 per month.
+* **Enterprise:** Create unlimited words per month for $499 per month.
+
+**️ Team, History, and Mission**
+
+Calliwords was created by Cédric Floris, a copywriter and entrepreneur with over 10 years of experience. Cédric was frustrated with the limitations of existing AI writing tools, which often produced generic and uninspired copy. He created Calliwords to solve this problem and provide businesses with a tool that could generate high-quality, persuasive sales copy.
+
+** Roadmap**
+
+Calliwords is constantly being updated with new features and improvements. The team is currently working on adding support for more languages, as well as new templates and copywriting tools.
+
+**⛓️ Links and Resources**
+
+* **Website:** [https://www.callrecord.com/](https://www.callrecord.com/)
+* **Facebook:** [https://www.callrecord.com/](https://www.callrecord.com/)
+* **Twitter:** [https://www.callrecord.com/](https://www.callrecord.com/)
+* **Instagram:** [https://www.callrecord.com/](https://www.callrecord.com/)
+
+** Referral Program**
+
+Calliwords does not currently have a referral program.
+
+**⚙️ Integrations**
+
+Calliwords does not currently integrate with any other tools.
+
+** How to use it**
+
+To use Calliwords, simply follow these steps:
+
+1. **Create an account:** [https://www.callrecord.com/](https://www.callrecord.com/)
+2. **Select the type of copy you want to create:** Persona, email, ad, landing page, social media post, etc.
+3. **Enter your information:** Provide Calliwords with some information about your product, service, or target audience.
+4. **Generate copy:** Click the "Generate copy" button and Calliwords will generate a variety of copy options for you.
+5. **Choose the best copy:** Select the copy that you like best and edit it as needed.
+6. **Publish your copy:** Use your copy in your marketing materials.
+
+** How does it work?**
+
+Calliwords uses a variety of AI techniques to generate copy, including:
+
+* **Natural language processing:** Calliwords understands the meaning of your prompts and questions.
+* **Machine learning:** Calliwords learns from the data that it is trained on to improve its copywriting skills.
+* **Generative AI:** Calliwords can generate new and original copy that is not simply a rehash of existing text.
+
+## ‍ Overall Impression
+
+Calliwords is a valuable tool for businesses of all sizes that need to create

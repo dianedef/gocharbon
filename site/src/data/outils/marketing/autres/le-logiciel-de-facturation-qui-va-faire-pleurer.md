@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: facturation
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,12 +7,13 @@ imageNameKey: null
 u_site: null
 title: Le Logiciel De Facturation Qui Va Faire Pleurer Votre Comptable De Joie
 author: Diane
-description: "Le Logiciel De Facturation Qui Va Faire Pleurer Votre Comptable De Joie."
+description: 'Découvre Le Logiciel De Facturation Qui Va Faire Pleurer Votre Comptable
+  De Joie : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-[https://www.petite-entreprise.net/P-3643-83-G1-quel-logiciel-de-facturation-pour-votre-petite-entreprise.html](__MASK_0__)
+[https://www.petite-entreprise.net/P-3643-83-G1-quel-logiciel-de-facturation-pour-votre-petite-entreprise.html](https://www.petite-entreprise.net/P-3643-83-G1-quel-logiciel-de-facturation-pour-votre-petite-entreprise.html)
 
 Tâche indispensable et obligatoire (légalement parlant), la facturation pouvait se faire avec un simple document Excel mais dès le 1er janvier 2018 cette pratique sera illégale.
 

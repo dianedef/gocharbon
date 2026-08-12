@@ -1,12 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Les Termes Secrets Du Business En Ligne Que Les Pros Ne Veulent Pas Que Vous
   Connaissiez
 author: Diane
-description: "Les Termes Secrets Du Business En Ligne Que Les Pros Ne Veulent Pas Que Vous Connaissiez."
+description: 'Découvre Les Termes Secrets Du Business En Ligne Que Les Pros Ne Veulent
+  Pas Que Vous Connaissiez : outil français pour entrepreneurs, fonctionnalités et
+  avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,18 +1,7 @@
 User-agent: *
 Disallow: /?page=
-Disallow: /api/
-Disallow: /bio
-Disallow: /blog
-Disallow: /bonjour
-Disallow: /feed.xml
-Disallow: /gamification
-Disallow: /methodologie
-Disallow: /outils
-Disallow: /progression
-Disallow: /quiz
-Disallow: /quiz-avance
-Disallow: /quiz-rapide
-Disallow: /tag/
-Disallow: /tutos
+Disallow: /apps/?page=
+Allow: /$
+Allow: /apps/$
 
 Sitemap: https://gocharbon.com/sitemap-index.xml

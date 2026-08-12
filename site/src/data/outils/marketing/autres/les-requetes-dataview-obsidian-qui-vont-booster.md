@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 LienDuSite: null
 title: Les Requêtes Dataview Obsidian Qui Vont Booster Votre Productivité De 500%
 author: Diane
-description: "Les Requêtes Dataview Obsidian Qui Vont Booster Votre Productivité De 500%."
+description: 'Découvre Les Requêtes Dataview Obsidian Qui Vont Booster Votre Productivité
+  De 500% : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

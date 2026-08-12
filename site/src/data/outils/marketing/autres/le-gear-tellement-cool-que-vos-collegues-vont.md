@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Le Gear Tellement Cool Que Vos Collègues Vont Devenir Fous De Jalousie
 author: Diane
-description: "Le Gear Tellement Cool Que Vos Collègues Vont Devenir Fous De Jalousie."
+description: 'Découvre Le Gear Tellement Cool Que Vos Collègues Vont Devenir Fous
+  De Jalousie : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

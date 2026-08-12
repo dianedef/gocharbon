@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: support-client
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Hack Support Client Qui Va Vous Faire Gagner 20H Par Semaine
 author: Diane
-description: "Le Hack Support Client Qui Va Vous Faire Gagner 20H Par Semaine."
+description: 'Découvre Le Hack Support Client Qui Va Vous Faire Gagner 20H Par Semaine
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -30,7 +29,7 @@ Quickly search a canned response
 
 First, **press Alt+C** (this can be customized) to perform a quick search. If you have installed one of our [desktop apps](https://t.dripemail2.com/c/eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZXRvdXIiLCJpc3MiOiJtb25vbGl0aCIsInN1YiI6ImRldG91cl9saW5rIiwiaWF0IjoxNjM1ODU4ODIzLCJuYmYiOjE2MzU4NTg4MjMsImFjY291bnRfaWQiOiI2NTgzNTI2IiwiZGVsaXZlcnlfaWQiOiJoMGI0YjYxb2YwMGl6c3phemxhNSIsInVybCI6Imh0dHBzOi8vd3d3LnR5cGVkZXNrLmNvbS9kb3dubG9hZD9fX3M9ZDF0c2dtcjg0bWxzOGphNXJjZnQifQ.XdYbCuVN1E5po7-m5-QVCaag9zhhJ-uYvlIk2YCaxaI), **it works everywhere on your computer**! You can then press **Enter** when to select the current canned response and if you're one of our apps, the canned response is automatically inserted.
 
-[https://ci5.googleusercontent.com/proxy/dJxq4TyhI91OJLXQKsBjPhaILaRSN0iU7DdpJ_Zu4Ir73uKwe5rRP0xgsEjg3ODohIhK7pgSxWhuvqY-2S-w=s0-d-e1-ft#https://i.ibb.co/JrY9sMr/gif-quicksearch.gif](__MASK_1__)
+[https://ci5.googleusercontent.com/proxy/dJxq4TyhI91OJLXQKsBjPhaILaRSN0iU7DdpJ_Zu4Ir73uKwe5rRP0xgsEjg3ODohIhK7pgSxWhuvqY-2S-w=s0-d-e1-ft#https://i.ibb.co/JrY9sMr/gif-quicksearch.gif](https://ci5.googleusercontent.com/proxy/dJxq4TyhI91OJLXQKsBjPhaILaRSN0iU7DdpJ_Zu4Ir73uKwe5rRP0xgsEjg3ODohIhK7pgSxWhuvqY-2S-w=s0-d-e1-ft#https://i.ibb.co/JrY9sMr/gif-quicksearch.gif)
 
 Assign a shortcut to a specific canned response
 
@@ -38,13 +37,13 @@ Sometimes, you'll want to keep your most useful snippets and canned responses at
 
 Once you have assigned a Quick Response Shortcut to one of your canned responses, you can simply type in colon (:) followed by the Quick Response Shortcut and **typedesk will instantly insert the associated canned response**.
 
-[https://ci6.googleusercontent.com/proxy/xm2Zya29QdHkgSet-adjFQqgGV2rRRzsC9Lkr3WUsBMUF1wM4RSQBGwaTGlDAe_wu8plg2L5UVC-evDwrRo2nuR8VA=s0-d-e1-ft#https://i.ibb.co/V2jkhYG/giphy-quickresponse.gif](__MASK_2__)
+[https://ci6.googleusercontent.com/proxy/xm2Zya29QdHkgSet-adjFQqgGV2rRRzsC9Lkr3WUsBMUF1wM4RSQBGwaTGlDAe_wu8plg2L5UVC-evDwrRo2nuR8VA=s0-d-e1-ft#https://i.ibb.co/V2jkhYG/giphy-quickresponse.gif](https://ci6.googleusercontent.com/proxy/xm2Zya29QdHkgSet-adjFQqgGV2rRRzsC9Lkr3WUsBMUF1wM4RSQBGwaTGlDAe_wu8plg2L5UVC-evDwrRo2nuR8VA=s0-d-e1-ft#https://i.ibb.co/V2jkhYG/giphy-quickresponse.gif)
 
 **That's it for today!** As always, we are happy to help you and your team at any point. Just drop us an email at [support@typedesk.com](mailto:support@typedesk.com) and we'll be in touch shortly!
 
 Create awesome templates
 
-[https://ci4.googleusercontent.com/proxy/PPCDLBY8hRppapXbYiWCGmQiQMWTKaHp9MguPLBtF5oJTEYgvgT-MopZDlMKgF_CAWHLf5zSc8TRXzqCSKArGg=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi3h.png](__MASK_4__)
+[https://ci4.googleusercontent.com/proxy/PPCDLBY8hRppapXbYiWCGmQiQMWTKaHp9MguPLBtF5oJTEYgvgT-MopZDlMKgF_CAWHLf5zSc8TRXzqCSKArGg=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi3h.png](https://ci4.googleusercontent.com/proxy/PPCDLBY8hRppapXbYiWCGmQiQMWTKaHp9MguPLBtF5oJTEYgvgT-MopZDlMKgF_CAWHLf5zSc8TRXzqCSKArGg=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi3h.png)
 
 What we'll learn today
 
@@ -58,7 +57,7 @@ Template variables are one of the most powerful features on typedesk to create r
 
 First, when editing a canned response, **make sure you always use the variables when signing with your email, or name for instance**. This way, other members in your team can reuse the same canned responses with their own information.
 
-[https://ci6.googleusercontent.com/proxy/LTKO9V5b4bybyIXiheOBgL1Eh7Rxy4-N8tK_097IGPq9bbOvvWklJ7_es6yQNW-NztcI2Y_MhJqV8MaPR0m3RA=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi41.png](__MASK_5__)
+[https://ci6.googleusercontent.com/proxy/LTKO9V5b4bybyIXiheOBgL1Eh7Rxy4-N8tK_097IGPq9bbOvvWklJ7_es6yQNW-NztcI2Y_MhJqV8MaPR0m3RA=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi41.png](https://ci6.googleusercontent.com/proxy/LTKO9V5b4bybyIXiheOBgL1Eh7Rxy4-N8tK_097IGPq9bbOvvWklJ7_es6yQNW-NztcI2Y_MhJqV8MaPR0m3RA=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi41.png)
 
 **Let's take a concrete example**: your team needs an email asking for missing documents, that includes the contract number and the missing document(s).
 
@@ -68,7 +67,7 @@ Select a **Text** dynamic placeholder from the right sidebar where you want to
 
 Save your canned response, and hit Enter to use the response you have just created: **typedesk now asks for the contract number and missing document(s) and builds the response accordingly!**
 
-[https://ci5.googleusercontent.com/proxy/7r68Z1ie1bqpbr8v4MbhfIibzAxo5qLi_9nbDRURgBJfVr8TLE_JR3V05T1uO9CTGCAttH9XmU_dCnPA7LM9iA=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi4t.png](__MASK_6__)
+[https://ci5.googleusercontent.com/proxy/7r68Z1ie1bqpbr8v4MbhfIibzAxo5qLi_9nbDRURgBJfVr8TLE_JR3V05T1uO9CTGCAttH9XmU_dCnPA7LM9iA=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi4t.png](https://ci5.googleusercontent.com/proxy/7r68Z1ie1bqpbr8v4MbhfIibzAxo5qLi_9nbDRURgBJfVr8TLE_JR3V05T1uO9CTGCAttH9XmU_dCnPA7LM9iA=s0-d-e1-ft#https://xyjuv.mjt.lu/img/xyjuv/b/8p3/pi4t.png)
 
 **That's it for today!** As always, we are happy to help you and your team at any point. Just drop us an email at [support@typedesk.com](mailto:support@typedesk.com) and we'll be in touch shortly!
 
@@ -96,12 +95,12 @@ Sometimes, you want to create a **space for your team to collaborate** and edi
 
 Click on the three dots next to Team Folders in the sidebar and hit **New Folder**. Once created, you can invite users to your team folder just like explained above!
 
-[https://ci6.googleusercontent.com/proxy/UbkWt8SvVyF8BkaR-jXC3gQrj9cWgxVH7vUIOH-9RuEzTtm1qXvOgIJmVdHEhGSd8Rd1BDBRBm4=s0-d-e1-ft#https://i.ibb.co/3W2xWRP/Group-16.png](__MASK_8__)
+[https://ci6.googleusercontent.com/proxy/UbkWt8SvVyF8BkaR-jXC3gQrj9cWgxVH7vUIOH-9RuEzTtm1qXvOgIJmVdHEhGSd8Rd1BDBRBm4=s0-d-e1-ft#https://i.ibb.co/3W2xWRP/Group-16.png](https://ci6.googleusercontent.com/proxy/UbkWt8SvVyF8BkaR-jXC3gQrj9cWgxVH7vUIOH-9RuEzTtm1qXvOgIJmVdHEhGSd8Rd1BDBRBm4=s0-d-e1-ft#https://i.ibb.co/3W2xWRP/Group-16.png)
 
 Give admin rights
 
 Sometimes, you'll want to **give extra-permissions to someone on your team** to create team folders and invite other users. Simply head to the main menu (_three dots next to your name at the top of the sidebar_), then select 'Preferences' and 'Subscription'. From there, **you can assign admin rights to any user on your plan**.
 
-[https://ci3.googleusercontent.com/proxy/FHhgMTZl4jz28xYUArt_6z0G9OjdZI4G6Fr6kAOwKMUIeiq4z5ZGIPIMd8gTL0rrTGTn_KPN0ws=s0-d-e1-ft#https://i.ibb.co/vvCkr9m/Group-17.png](__MASK_9__)
+[https://ci3.googleusercontent.com/proxy/FHhgMTZl4jz28xYUArt_6z0G9OjdZI4G6Fr6kAOwKMUIeiq4z5ZGIPIMd8gTL0rrTGTn_KPN0ws=s0-d-e1-ft#https://i.ibb.co/vvCkr9m/Group-17.png](https://ci3.googleusercontent.com/proxy/FHhgMTZl4jz28xYUArt_6z0G9OjdZI4G6Fr6kAOwKMUIeiq4z5ZGIPIMd8gTL0rrTGTn_KPN0ws=s0-d-e1-ft#https://i.ibb.co/vvCkr9m/Group-17.png)
 
 **That's it for today!** As always, we are happy to help you and your team at any point. Just drop us an email at [support@typedesk.com](mailto:support@typedesk.com) and we'll be in touch shortly!

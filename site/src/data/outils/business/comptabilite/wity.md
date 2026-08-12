@@ -1,19 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-societeMere: Groupe SECAB
-sourcesVerification:
-- https://wity.fr/mentions-legales/
-- https://wity.fr/contact/
-- https://wity.fr/
-notesQualification: Wity est operee depuis la France et rattachee au groupe SECAB; l'hebergeur du site est suisse selon les mentions legales, mais la residence exacte des donnees metier n'est pas documentee publiquement.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Wity
 author: Diane
 tags:

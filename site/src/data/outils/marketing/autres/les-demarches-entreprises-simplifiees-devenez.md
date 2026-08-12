@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Démarches Entreprises Simplifiées Devenez Patron En 24H Chrono
 author: Diane
-description: "Les Démarches Entreprises Simplifiées Devenez Patron En 24H Chrono."
+description: 'Découvre Les Démarches Entreprises Simplifiées Devenez Patron En 24H
+  Chrono : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

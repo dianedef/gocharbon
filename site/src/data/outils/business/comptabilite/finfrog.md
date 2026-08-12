@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://finfrog.fr/mentions-legales
-- https://finfrog.fr/
-notesQualification: Finfrog est une societe francaise basee a Paris et immatriculee a l'ORIAS; l'hebergement public est documente sur AWS en Allemagne et la dimension reglementaire est clairement assumee.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Finfrog
 author: Diane
 tags:

@@ -1,33 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Acollab
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: collaboration
 description: Acollab est une plateforme collaborative française par Akelio. Gestion
   de projets, partage de fichiers, agenda, messagerie, suivi des temps. Hébergement
   en France. Dès 5€/mois/utilisateur.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.acollab.com
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.acollab.com/mentions-legales/
-- https://www.acollab.com/
-- https://www.acollab.com/contact/
-notesQualification: 'Acollab est édité par Akelio, société française basée au Mans.
-  Les mentions légales et les pages officielles documentent un hébergement OVH en
-  France et une gouvernance locale claire, ce qui justifie une qualification forte.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Acollab
@@ -261,7 +244,7 @@ Acollab est une plateforme relativement autonome, mais offre plusieurs points de
 - **Juin 2024** : Refonte technique et graphique de l'agenda, ajout des réservations de créneaux, intégration des objectifs de temps dans Timecollab
 - **Septembre-Octobre 2025** : Refonte complète du module fichiers (drag-and-drop, arborescence, liens externes)
 - **Janvier 2026** : Redesign complet de l'app mobile en **Flutter** (version 4.0.4)
-- **Score de souveraineté** : 67/100 (société.com)
+- **Score de souveraineté** : 67/100 (societe.com)
 
 ### Reconnaissance Presse
 

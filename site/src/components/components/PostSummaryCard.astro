@@ -3,37 +3,15 @@ import type { PostSummaryCardProps } from "../../utils/types/content";
 import Card from "./Card.astro";
 import Button from "./Button.astro";
 import Pill from "./Pill.astro";
-import EngagementBadge from "./EngagementBadge.astro";
 import { Image } from "astro:assets";
 import { extractMainTags, getMainTagLabel } from "../../utils/tag-groups";
-import { computeEngagementBadge } from "../../utils/tool-qualification";
-import { getToolDisplayChips } from "../../utils/tool-taxonomy";
 
 type Props = PostSummaryCardProps;
 
 const { post, index = 0 } = Astro.props;
 const { data } = post;
 const isInitialLoad = index < 2;
-const mainTags = extractMainTags(data.tags).slice(0, 2);
-const isToolPost = data.section === "outils";
-const toolDisplayChips = getToolDisplayChips({ id: post.id, data });
-const hasStringImage = typeof data.imgUrl === "string";
-const imageAlt = data.description || data.title;
-const engagementBadge = isToolPost
-	? computeEngagementBadge({
-		qualificationLocale: data.qualificationLocale,
-		ancrageEconomique: data.ancrageEconomique,
-		niveauResponsabilite: data.niveauResponsabilite,
-		paysSiege: data.paysSiege,
-		paysFiscal: data.paysFiscal,
-		paysFondateurs: data.paysFondateurs,
-		hebergementDonnees: data.hebergementDonnees,
-		societeMere: data.societeMere,
-		sourcesVerification: data.sourcesVerification,
-		notesQualification: data.notesQualification,
-		methodologieVersion: data.methodologieVersion,
-	  })
-	: null;
+const mainTags = extractMainTags(data.tags);
 /* 
 console.log("PostSummaryCard reçoit:", {
 	postId: post.id,
@@ -92,36 +70,19 @@ const buttonColor = 'var(--brand-copper)';
 			<div
 				class="post-image-container rounded-lg border-3 my-4 h-56 overflow-hidden"
 			>
-				{hasStringImage ? (
-					<img
-						src={data.imgUrl}
-						alt={imageAlt}
-						width="800"
-						height="400"
-						loading={isInitialLoad ? "eager" : "lazy"}
-						decoding={isInitialLoad ? "sync" : "async"}
-						class="rounded h-full w-full object-cover"
-					/>
-				) : (
-					<Image
-						src={data.imgUrl}
-						alt={imageAlt}
-						width={800}
-						height={400}
-						loading={isInitialLoad ? "eager" : "lazy"}
-						decoding={isInitialLoad ? "sync" : "async"}
-						class="rounded h-full w-full object-cover"
-					/>
-				)}
+				<Image
+					src={data.imgUrl}
+					alt={data.description}
+					width={800}
+					height={400}
+					loading={isInitialLoad ? "eager" : "lazy"}
+					decoding={isInitialLoad ? "sync" : "async"}
+					class="rounded h-full w-full object-cover"
+				/>
 			</div>
 			<p class="post-description poppins text-xl md:text-2xl leading-relaxed">
 				{data.description}
 			</p>
-			{engagementBadge && (
-				<div class="my-4">
-					<EngagementBadge badge={engagementBadge} compact />
-				</div>
-			)}
 
 			<div class="flex justify-end my-4">
 				<div
@@ -138,33 +99,20 @@ const buttonColor = 'var(--brand-copper)';
 
 			<div class="hidden sm:inline-block">
 				<div class="flex justify-between items-center">
-						<ul class="flex flex-wrap gap-4 mt-2">
-							{isToolPost
-								? toolDisplayChips.map((chip) => (
-									<li>
-										{chip.href ? (
-											<a
-												class="sanchez"
-												href={chip.href}
-											>
-												<Pill>{chip.label}</Pill>
-											</a>
-										) : (
-											<Pill>{chip.label}</Pill>
-										)}
-									</li>
-								))
-								: mainTags.map((mainTag) => (
-									<li>
-										<a
-											class="sanchez"
-											href={`/tag/${encodeURIComponent(mainTag)}`}
-										>
-											<Pill>{getMainTagLabel(mainTag)}</Pill>
-										</a>
-									</li>
-								))}
-						</ul>
+					<ul class="flex flex-wrap gap-4 mt-2">
+						{
+							mainTags.map((mainTag) => (
+								<li>
+									<a
+										class="sanchez"
+										href={`/tag/${encodeURIComponent(mainTag)}`}
+									>
+										<Pill>{getMainTagLabel(mainTag)}</Pill>
+									</a>
+								</li>
+							))
+						}
+					</ul>
 					{
 						data.draft && (
 							<span class="draft-badge bg-primary rounded-full border-2 py-1 px-4 text-sm card-shadow">

@@ -1,10 +1,10 @@
 import type { CollectionEntry } from "astro:content";
 import { normalizeTag } from "./tags";
 
-export type ContentSection = "blog" | "outils" | "tutos" | "parcours";
+export type ContentSection = "blog" | "apps" | "tutos" | "parcours";
 export type ContentScope = "all" | ContentSection;
 
-const VALID_SECTIONS = new Set<ContentSection>(["blog", "outils", "tutos", "parcours"]);
+const VALID_SECTIONS = new Set<ContentSection>(["blog", "apps", "tutos", "parcours"]);
 
 function parseSection(value: unknown): ContentSection | null {
   if (typeof value !== "string") return null;
@@ -27,8 +27,7 @@ export function getContentSection(post: CollectionEntry<"posts">): ContentSectio
 
   if (normalizedId.startsWith("biz/profils/")) return "parcours";
   if (normalizedId.startsWith("tutos/")) return "tutos";
-  if (normalizedId.startsWith("outils/")) return "outils";
-  if (hasTag(post, "outils")) return "outils";
+  if (hasTag(post, "apps")) return "apps";
   if (hasTag(post, "tutoriels") || hasTag(post, "tutos") || hasTag(post, "tutoriel")) return "tutos";
   if (hasTag(post, "parcours")) return "parcours";
 
@@ -48,3 +47,4 @@ export function parseContentScope(scopeParam: string | null): ContentScope {
     ? (normalized as ContentSection)
     : "all";
 }
+

@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://crisp.chat/en/terms/
-- https://crisp.chat/en/privacy/
-notesQualification: Siege social a Nantes; infrastructure principale documentee aux Pays-Bas et en Allemagne, avec certains logs relayes hors UE.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: crisp
@@ -19,8 +8,6 @@ u_site: https://crisp.chat/fr/partnerships/
 u_affi: null
 title: Crisp
 author: Diane
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: support-client
 description: 'Découvre Crisp : outil français pour entrepreneurs, fonctionnalités
   et avis.'
 pubDate: '2024-03-25'

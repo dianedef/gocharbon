@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: seopital
 author: Diane
@@ -58,9 +58,9 @@ https://x.com/seopital
 - Intégration de l'outil avec d'autres plateformes populaires
 
 ## ⛓️ Liens et Ressources
-- Site web : [https://www.seopital.co](__MASK_2__)
-- LinkedIn : [https://linkedin.com/company/seopital/](__MASK_3__)
-- Twitter : [https://twitter.com/seopital](__MASK_4__)
+- Site web : [https://www.seopital.co](https://www.seopital.co)
+- LinkedIn : [https://linkedin.com/company/seopital/](https://linkedin.com/company/seopital/)
+- Twitter : [https://twitter.com/seopital](https://twitter.com/seopital)
 
 ## 🤝 Programme de Parrainage
 - Programme d'affiliation : [Programme d’affiliation SEOpital](https://seopital.firstpromoter.com/)

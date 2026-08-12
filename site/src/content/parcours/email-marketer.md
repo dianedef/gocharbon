@@ -44,7 +44,7 @@ Piloter acquisition et revenu via séquences email performantes.
 - [Fiche profil Email Marketer](/biz/profils/email-marketer)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/marketing-email)
+- [Suivi du parcours](/parcours/email-marketer)
 - [Ressource utile 1](/marketing/email/strategie)
 - [Ressource utile 2](/marketing/email/automation)
 - [Ressource utile 3](/tutos/ameliorer-sa-deliverabilite)

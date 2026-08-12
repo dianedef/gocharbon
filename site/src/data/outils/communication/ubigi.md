@@ -1,34 +1,15 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Ubigi
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: connectivite
 description: Ubigi est l'eSIM française pour voyageurs. Data prépayée dans 200+ pays,
   activation en 5 min, dès 2,61€. Par Transatel (NTT). 4.1/5 Trustpilot.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.ubigi.com/fr/
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: multi-region
-societeMere: NTT
-sourcesVerification:
-- https://www.ubigi.com/fr/a-propos-de-ubigi/
-- https://www.ubigi.com/fr/conditions/
-- https://www.transatel.com/legal-information/
-notesQualification: 'Ubigi est une marque de Transatel, société française basée à
-  Paris La Défense, désormais intégrée au groupe japonais NTT. L''ancrage opérationnel
-  français est clair, mais la structure capitalistique étrangère et la fourniture
-  internationale des services conduisent à retenir un niveau partiel.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Ubigi

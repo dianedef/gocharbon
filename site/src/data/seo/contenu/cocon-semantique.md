@@ -69,5 +69,4 @@ imgUrl: ../../../assets/astro.jpeg
 
 ## Ressources Complémentaires
 - [Stratégie de contenu](/seo/contenu/strategie)
-- [Architecture technique](/seo/technique/architecture)
-- [Les outils SEO français pour structurer ton cocon](/outils/marketing/autres/les-outils-seo-francais-qui-font-trembler-google/)
+- [Architecture technique](/seo/technique/architecture) 

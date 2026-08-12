@@ -1,19 +1,20 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: emrys
 title: Emrys La Carte Secrète Qui Fait Économiser Des Milliers D'Euros Sur Vos Courses
 author: Diane
-description: "Emrys La Carte Secrète Qui Fait Économiser Des Milliers D'Euros Sur Vos Courses."
+description: 'Découvre Emrys La Carte Secrète Qui Fait Économiser Des Milliers D''Euros
+  Sur Vos Courses : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
 [Présentation 2024 de la coopérative Emrys la Carte - YouTube](https://www.youtube.com/watch?v=O-gJXaK-PzA&t=211s&sttick=0)
 [COOPERATIVE SOLIDAIRE | VUE À LA TV | EMRYS](https://www.achats-solidaire.com/emrys-vue-a-la-tv)
-[EMRYS LA CARTE EN VIDÉOS](https://www.achats-solidaire.com/video-emrys-la-carte)
+[EMRYS LA CARTE EN VIDEOS](https://www.achats-solidaire.com/video-emrys-la-carte)
 
 ## Pour les asos
 - **Advantages for Associations**:
@@ -41,7 +42,7 @@ Description de la e-Carte Cadeau Google Play :
 
 ​
 
-- DURÉE DE VALIDITE : 9 mois
+- DUREE DE VALIDITE : 9 mois
     
 
 ​
@@ -152,7 +153,7 @@ Lorsque votre carte sera pleine, vous recevrez 9€ sous forme de crédits d'a
 L'illustration ci-dessous vous montre les montants en euros qui sont en jeu sur les 8 premiers niveaux de carte.
 
 
-Fonctionnement en vidéo
+Fonctionnement en video
 
 Attention les [chèques cadhoc](https://www.achats-solidaire.com/cheques-cadeaux-cadhoc-emrys) n'existent plus mais le fonctionnement ne change pas
 
@@ -376,7 +377,7 @@ La coopérative Emrys la carte vous propose tout simplement une alternative aux 
 
 Le seule changement est de payer avec des cartes cadeaux ou chèques cadeaux disponibles dans la boutique du site officiel.
 
-Il est extrêmement important de savoir que de payer avec des cartes cadeaux ne vous coûte pas plus chère.
+Il est extrêmement important de savoir que de payer avec des cartes cadeaux ne vous coute pas plus chère.
 
 ## Emrys La Carte Est-elle Une Arnaque ? Un Système Pyramidal ?
 
@@ -386,7 +387,7 @@ La vente en réseau, elle, se fonde sur la possibilité d’être rémunéré su
 
 Chez Emrys la Carte, bien sûr, 100% des rémunérations proviennent de la marge sur des produits et services vendus et jamais sur l’investissement d’un nouvel entrant.
 
-Retrouvez ici [une vidéo](https://www.achats-solidaire.com/video-emrys-la-carte) lors du jour de l'inauguration d'Emrys, un avocat qui résume très bien l'aspect légal de la coopérative.
+Retrouvez ici [une video](https://www.achats-solidaire.com/video-emrys-la-carte) lors du jour de l'inauguration d'Emrys, un avocat qui résume très bien l'aspect légal de la coopérative.
 
 En conclusion : Système pyramidal et vente en réseau sont très différents !
 
@@ -402,7 +403,7 @@ Emrys n'est pas une arnaque ni un système pyramidal, on peut regarder [les avis
 
 Non… C’est une coopérative de consommateurs francophones. Il s'agit d'une véritable entreprise fondée en 2014. Si c’était une arnaque, elle aurait été démantelé entre temps, mais non, l’entreprise fête ses dix ans d’existence et se porte mieux que jamais. Personne ne vous vole d'argent. Quand tu achètes une carte cadeau de 100 euros pour faire tes courses chez Carrefour, tu possèdes toujours 100 euros, même si tu as payé cette carte moins cher, tu ne perds donc rien. 
 
-Ce que critiquent les internautes, c'est la complexité du système : les Emrys coins, les parts, les niveaux de parrainage… On s'y perd un peu… Mais c’est une complexité nécessaire à la redistribution des gains. Et au final, ce qui est sûr, c'est qu'en utilisant Emrys, tu gagnes du crédit d’achat, si tu ne l'utilises pas, tu ne gagnes rien ! Il vaut mieux utiliser Emrys que de ne rien gagner ! C'est un fonctionnement assez inédit qui demande juste de changer nos habitudes de paiement. Pour moi, ça vaut le coup de tout payer en cartes Emrys plutôt que de payer en carte bleue, et de gagner un peu de pouvoir d'achat sans trop d'efforts. 
+Ce que critiquent les internautes, c'est la complexité du système : les Emrys coins, les parts, les niveaux de parrainage… On s'y perd un peu… Mais c’est une complexité necessaire à la redistribution des gains. Et au final, ce qui est sûr, c'est qu'en utilisant Emrys, tu gagnes du crédit d’achat, si tu ne l'utilises pas, tu ne gagnes rien ! Il vaut mieux utiliser Emrys que de ne rien gagner ! C'est un fonctionnement assez inédit qui demande juste de changer nos habitudes de paiement. Pour moi, ça vaut le coup de tout payer en cartes Emrys plutôt que de payer en carte bleue, et de gagner un peu de pouvoir d'achat sans trop d'efforts. 
 
 Le fonctionnement de la coopérative repose sur l'achat groupé de cartes cadeaux auprès de partenaires, et l’énorme volume de clients qu’elle représente (plus de 60 000 membres actifs) permet à Emrys de négocier des remises intéressantes. Sur ces remises, une partie de ces remises est redistribuée aux membres sous forme de points fidélité. Les avantages financiers proviennent donc bien des remises négociées par Emrys et offertes par les revendeurs de carte cadeaux (Carrefour, Decathlon, etc) non d'un transfert d'argent entre membres !
 
@@ -475,7 +476,7 @@ Grâce à cette page vous pourrez avoir connaissance de la majorité des partena
 Emrys coopère avec plus de 250 partenaires : supermarchés, stations-service, centres commerciaux et magasins de vêtements. Que ce soit en ligne ou en physique, 99% des achats du quotidien tu peux les payer avec des cartes cadeaux Emrys, et gagner des points dessus. Cette diversité de partenariats offre aux adhérents une gamme étendue d'options pour utiliser leurs cartes cadeaux 🌐
 
 Exemple : Carrefour, Auchan, Casino, la Fnac, H&M, BackMarket, Airbnb, Uber Eats, Leclerc, Amazon… Donc ça marche vraiment partout et sinon il y a un moyen détourner de pouvoir payer via Emrys c'est via des cartes cadeaux multi-enseignes notamment les shopping pass.
-	A2press, Auchan, Auto5 (Belgique), Amazon, Assos, Aubert, Aveve (Belgique), BdFugue, Beebs (Belgique), Belle au naturel, Blissim, Bol.com (Belgique), Bonobo, Breal, Cache Cache, Camping and Co, Cap Adrénaline, Carrefour France, Carrefour Spectacles, Carrefour Voyages, Carrefour Drive, Carrefour Belgique, Center Parc, Chezvous.re (La Réunion), Cléor, Club / Standaard Boekhandel, Comtesse du Barry, Crypto Voucher, Dpam, Ethi'Kdo (Belgique), Famileat, Géant/Casino, Gamma (Belgique), Havas Voyage, Le Cadeau Français, Maty (France, Belgique, DROM), Madame veut des Roses (Belgique), Media Markt (Belgique), Monticket.re (La Reunion), Motoblouz, MMV (France, Belgique, DROM), MySportRoom (France, Belgique, DROM), Naturéo, Pandacraft (France, Belgique), Patrivia (France, Belgique), Pecheur.com (France, Belgique, DROM), Place des Tendances (France, Belgique, DROM), Pour de Bon, Respire (France, Belgique, DROM), Sergent Major, Sportihome, Ticketac, Totemia, Ulysse, Worldia, Colryut (Belgique) , Colryut Family (Belgique), Biotiful, Backmarket, Cdiscount, Castorama, Chaussexpo, Conforma, Cultura, Decathlon, Deliveroo, École English Triumph, Equestra.fr, Google Play, Everywish, Carte transformable en e-cartes mono-enseigne depuis l'application Everywish (Ikea, Zalando, La Redoute, Castorama, Promod, Oxybul, Okaidi, Aubert, Sergent Major, H&M, Asos, Verbaudet, Jacadi, Kiko, Mango, Gemo, Gos Sport, AMPM, Petit Bateau, Fnac, Darty, Footlocker France, Footlocker Belgique, Go Sport, Good Cadeau Reunion, Greenweez, H&M, Ikéa, Kiabi, Kiloutou, King Jouet, La Grande Récré, La redoute, Last minute, Live in shop : Liste des partenaire ici, Maison du monde, Marionnaud, Nature & Découvertes, Norauto, Oxybul Okaidi, Piwictoys, Playstation, Promod, Restopolitan, Supercard
+	A2press, Auchan, Auto5 (Belgique), Amazon, Assos, Aubert, Aveve (Belgique), BdFugue, Beebs (Belgique), Belle au naturel, Blissim, Bol.com (Belgique), Bonobo, Breal, Cache Cache, Camping and Co, Cap Adrénaline, Carrefour France, Carrefour Spectacles, Carrefour Voyages, Carrefour Drive, Carrefour Belgique, Center Parc, Chezvous.re (La Réunion), Cléor, Club / Standaard Boekhandel, Comtesse du Barry, Crypto Voucher, Dpam, Ethi'Kdo (Belgique), Famileat, Géant/Casino, Gamma (Belgique), Havas Voyage, Le Cadeau Français, Maty (France, Belgique, DROM), Madame veut des Roses (Belgique), Media Markt (Belgique), Monticket.re (La Reunion), Motoblouz, MMV (France, Belgique, DROM), MySportRoom (France, Belgique, DROM), Naturéo, Pandacraft (France, Belgique), Patrivia (France, Belgique), Pecheur.com (France, Belgique, DROM), Place des Tendances (France, Belgique, DROM), Pour de Bon, Respire (France, Belgique, DROM), Sergent Major, Sportihome, Ticketac, Totemia, Ulysse, Worldia, Colryut (Belgique) , Colryut Family (Belgique), Biotiful, Backmarket, Cdiscount, Castorama, Chaussexpo, Conforma, Cultura, Decathlon, Deliveroo, Ecole English Triumph, Equestra.fr, Google Play, Everywish, Carte transformable en e-cartes mono-enseigne depuis l'application Everywish (Ikea, Zalando, La Redoute, Castorama, Promod, Oxybul, Okaidi, Aubert, Sergent Major, H&M, Asos, Verbaudet, Jacadi, Kiko, Mango, Gemo, Gos Sport, AMPM, Petit Bateau, Fnac, Darty, Footlocker France, Footlocker Belgique, Go Sport, Good Cadeau Reunion, Greenweez, H&M, Ikéa, Kiabi, Kiloutou, King Jouet, La Grande Récré, La redoute, Last minute, Live in shop : Liste des partenaire ici, Maison du monde, Marionnaud, Nature & Découvertes, Norauto, Oxybul Okaidi, Piwictoys, Playstation, Promod, Restopolitan, Supercard
 	Les e-cartes Supercard sont échangeables contre plus de 80 cartes cadeaux de grandes enseignes telles que : Décathlon, Ikea, Amazon, Fnac, Truffaut, Darty, Footlocker, Adidas, Nike, Castorama, Mango, Gemo, Sephora, Conforama, Primark, Yves Rocher, Marrionaud, PicWictoys, H et M, Etam, Go sport, Sarenza, Asos, Oxybul / Okaidi, Greenweez, KIKO…, Sarenza, Sephora, Truffaut, Vanderborre (Fnac Belgique), Vin malin, Yves Rocher, Zalando, Orchestra, Verbaudet, Ciné Chèque, Reebok, Adidas, Swarovski, Spartoo, Primark, Beauty Sucess, Pierre et Vacances, Center Parcs, Adagio, The Fork / La Fourchette, Deezer, Showroomprive.com, Etam, Jardiland, Vitamind, Super U, Mango, Jennyfer, Clarosa, Armor Lux, Sobrico, Maison 123, Leroy merlin, Vanden Borre Fnac (Belgique), Izac, Interflora, Gemo, Bongo Box, Wonderbox, Hema, Uber Eats, Poz' Cadeau, Quitoque, Ma Carte Mode, Happy Card (Carrefour, Géant…), Very Chic, Sunkdo
 	Chèques cadeaux utilisable dans les DROM : Guyane, Martinique, Guadeloupe, Reunion), AirBNB France, DROM et Belgique, Monoprix, Tir Groupé (sodexo), Hellofresh, Kiko, Klus Bricolage (exclusivement en Belgique), Shopping Pass Multi-enseignes (DROM et France), Rakuten, Emrys Nutrition (France, Belgique et DROM), Emrys Cars (France et Belgique), Netflix (France, Belgique et DROM), Supercard (Belgique), Sixt, Leader Price (France et Belgique)
 	Centre Commerciaux en France partenaires avec Emrys la Carte : Ametzondo, Avenue 83 83160 La Valet du Var, Belle épine 94320 Thais, Bièvre Est 38690 Colombe, Cap 3000 06700 St Laurent du Var, Cap Costière 30900 Nimes, Chamnord 73000 Chambery, Chateaufraine 25000 Besançon, Courier 74000 Annecy, Gratte Ciel 69100 Villeurbanne, Entre Bièvre et Rhone 38270, Espace Anjou 49000 Angers, Galerie Fenouillet 31150 Fenouillet, Galerie Cap Emeraude 01000 Bourg en Bresse, Grand Place 38100 Grenoble, Italie Deux 75013 Paris, O'Green 47550 Boé Agen, Odysseum 34000 Montpellier, Galerie le Phare de l'Europe 29200 Brest, Place de Halles 67000 Strasbourg, Polygone 34500 Béziers, Rives d'Arcins 33130 Begles, Salanca 65530 Claira, Shopping Promenade 80000 Amiens, Val d'Europe 77700 Serris, Villebon 2 91140 Villebon sur Yvette
@@ -629,7 +630,7 @@ Elles sont au nombre de deux :
 
 Chaque statut a sa couleur, chaque carte a ses avantages, et ses limites.
 
-chaque membre peut accéder à l'espace de formation officiel de la coopérative, sur [https://myemrys.net](__MASK_21__), puis onglet "Outils" et " Espace de formation"
+chaque membre peut accéder à l'espace de formation officiel de la coopérative, sur [https://myemrys.net](https://myemrys.net), puis onglet "Outils" et " Espace de formation"
 Tu dois obligatoirement être parrainé pour entrer chez Emrys, ce qui te permet d’avoir toujours un interlocuteur proche de toi. Il n’y a pas de cotisation pour être membre Emrys, c’est totalement gratuit !
 
 Si tu veux parrainer en revanche il te faudra t’acquitter d’une licence annuelle de 150€
@@ -705,7 +706,7 @@ Regarde [le passage à la TV 📺💯d'Emrys](https://www.youtube.com/watch?v=hc
 
 
 et le Programme de Parrainage
-[https://emrysgv.com/t/emrys-le-principe-en-1-minute/20](__MASK_25__)
+[https://emrysgv.com/t/emrys-le-principe-en-1-minute/20](https://emrysgv.com/t/emrys-le-principe-en-1-minute/20)
 
 Vos commissions en Emrys coins passent de 40% à 70% ! C’est une augmentation de +75% vous offrant ainsi plus de parts Emrys dans votre arbre de fidélité. Cette évolution se traduit également par une hausse de +75% de vos points carrière ! C’est une belle opportunité pour vous de poursuivre le développement de vos équipes. 
 

@@ -1,14 +1,10 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: ChatWhisperer
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: chatbot
-toolFacets:
-  - ia
 description: ChatWhisperer est un chatbot IA personnalisable pour sites web. Basé
   sur GPT, il s'entraîne sur tes données. Multilingue, sans code. Installation en
   quelques minutes.

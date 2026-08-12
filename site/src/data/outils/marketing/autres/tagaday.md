@@ -1,13 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: tagaday
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: veille-media
-description: "Tagaday, éditée par l’agrégateur médiatique Aday, est une plateforme de veille médias destinée aux entreprises et administrations. Elle rend accessible l’ensemble des contenus médi."
+description: Tagaday, éditée par l’agrégateur médiatique Aday, est une plateforme
+  de veille médias destinée aux entreprises et administrations. Elle rend accessible
+  l’ensemble des contenus médi
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://aday.fr/

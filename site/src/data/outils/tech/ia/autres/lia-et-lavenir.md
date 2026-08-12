@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: L'Ia Et L'Avenir
 author: Diane
@@ -11,22 +11,38 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# L'Ia Et L'Avenir
+Les créateurs ont encore de l'avenir devant eux !
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+Partout on te dit que l'IA va te remplacer…
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+la vérité c'est que l'IA sans humain ne vaut pas grand chose,
 
-## Ressources de départ
-- Aucune ressource externe n’a été détectée dans la fiche d’origine.
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+en tout cas pour la création de contenu !
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+  
+
+pour de l'analyse de donnée, des résumés, de l'information, de la génération d'idées ou de bouillie c'est top…
+
+mais quand il s'agit de créer du lien humain…
+
+de déchiffrer les codes du social et du language oral…
+
+de faire de l'original
+
+les modèles n'auront jamais la finesse et l'imagination !
+
+  
+
+il faut toujours un humain pour guider l'IA
+
+et les humains préfèrent parler aux humains
+
+  
+
+alors amis créateurs…
+
+on vit une époque formidable !
+
+  
+
+Tant que tu gardes l'humain au coeur de ton business, tu n'as pas de souci à te faire 😋🤗

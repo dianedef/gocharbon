@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: reputation
+section: apps
 metadataEnrichedAt: null
 title: Custplace
 author: Diane
 tags:
 - Outils
-description: "Custplace est une plateforme française de gestion d'avis clients certifiée NF. Avis marque, magasins, produits. Partenaire Google My Business. Dès 55€/mois."
+description: Custplace est une plateforme française de gestion d'avis clients certifiée
+  NF. Avis marque, magasins, produits. Partenaire Google My Business. Dès 55€/mois.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://fr.custplace.com

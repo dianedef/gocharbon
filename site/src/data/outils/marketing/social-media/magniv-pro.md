@@ -1,6 +1,5 @@
 ---
-section: outils
-draft: true
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -50,7 +49,7 @@ Si vous avez un petit volume de facture par an, alors Magniv Pro est un outil à
 |Fonctionnalités|La plupart des fonctionnalités nécessaires à un bon outil de facturation sont présentes. En revanche, si vous avez un volume important de factures à créer, il n’y a aucune fonctionnalité permettant d’automatiser le processus.|8 / 10|
 |Service client|Sans être exceptionnel, le service client de Magniv Pro fait très bien le job. Par e-mail, chat ou grâce au centre d’aide, vous trouverez, normalement, les réponses à toutes vos questions.|8 / 10|
 |Sécurité|L’ensemble des transactions sont sécurisées et chiffrées grâce au partenaire de paiement Stripe.|9 / 10|
-|Intégrations|Voici probablement le principal point faible de Magniv Pro. Il n’existe pas encore d’[https://www.lafabriquedunet.fr/blog/definition-api/](__MASK_15__) pour connecter Magniv Pro à des outils comme [https://www.lafabriquedunet.fr/blog/alternatives-moins-cheres-zapier/](__MASK_16__) ou Make pour automatiser les processus. Les autres intégrations sont également peu nombreuses.|6 / 10|
+|Intégrations|Voici probablement le principal point faible de Magniv Pro. Il n’existe pas encore d’[https://www.lafabriquedunet.fr/blog/definition-api/](https://www.lafabriquedunet.fr/blog/definition-api/) pour connecter Magniv Pro à des outils comme [https://www.lafabriquedunet.fr/blog/alternatives-moins-cheres-zapier/](https://www.lafabriquedunet.fr/blog/alternatives-moins-cheres-zapier/) ou Make pour automatiser les processus. Les autres intégrations sont également peu nombreuses.|6 / 10|
 
 ## **À qui s’adresse le logiciel Magniv Pro ?**
 

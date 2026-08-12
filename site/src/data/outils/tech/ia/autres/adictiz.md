@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -15,22 +15,15 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Adictiz
+**Créateur du jeu marketing pour acquérir nouveau client**
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+Acquérir, engager & convertir vos clients grâce au Jeu marketing
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+Le jeu marketing, nouveau média publicitaire pour les marques
 
-## Ressources de départ
-- [https://www.linkedin.com/in/charleschristory/?originalSubdomain=f,](https://www.linkedin.com/in/charleschristory/?originalSubdomain=f,)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+Depuis 2009, Adictiz aide les marques à performer par la Jeu. Adictiz édite des solutions SaaS permettant aux marques de créer, diffuser, analyser les campagnes de jeux marketing. Nous travaillons chaque mois avec plusieurs centaines de grandes marques et agences, et nous leur permettons de recruter, engager et convertir leur audience par le Jeu.
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+## Personnes clé
+
+- [Charles Christory]([https://www.linkedin.com/in/charleschristory/?originalSubdomain=f,)](https://www.linkedin.com/in/charleschristory/?originalSubdomain=f,)), fondateur et CEO de Adictiz
+- Les employés

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'App Bureautique Qui Va Rendre Vos Collègues Fous De Jalousie
 author: Diane
-description: "L'App Bureautique Qui Va Rendre Vos Collègues Fous De Jalousie."
+description: 'Découvre L''App Bureautique Qui Va Rendre Vos Collègues Fous De Jalousie
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

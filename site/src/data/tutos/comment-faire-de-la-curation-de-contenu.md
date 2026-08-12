@@ -1,39 +1,23 @@
 ---
 section: tutos
-type: tuto
-imageNameKey: null
 tags:
 - Tutoriels
+imageNameKey: null
 u_site: null
-title: Comment faire de la curation de contenu
+title: Comment Faire De La Curation De Contenu
 author: Diane
-description: 'Tutoriel pratique pour faire de la curation de contenu : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Comment Faire De La Curation De Contenu : outil français pour
+  entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment faire de la curation de contenu
-
-Si tu veux faire de la curation de contenu, vise un tutoriel simple, exécutable et propre. L'idée n'est pas d'empiler les options, mais d'obtenir un résultat fiable sans bricolage inutile.
-
-## Ce qu'il faut préparer
-
-- un objectif clair
-- l'accès aux bons outils
-- un test final avant de considérer le sujet comme bouclé
-
-## La méthode simple
-
-1. Pose le résultat attendu noir sur blanc. Si tu ne sais pas exactement ce qui doit être livré, le tutoriel partira dans tous les sens.
-2. Prends le chemin le plus simple qui fonctionne. Un bon setup sobre bat presque toujours une usine à gaz que tu n'ouvriras plus dans deux semaines.
-3. Termine par un test concret. Ce n'est pas parce qu'un outil affiche 'succès' que l'expérience finale est réellement propre.
-
-## Les erreurs à éviter
-
-- viser trop compliqué
-- ne pas documenter la procédure
-- considérer le sujet terminé avant une vraie vérification
-
-## Commence comme ça
-
-Écris les étapes exactes, exécute-les une fois à froid, puis garde seulement ce qui est réellement utile pour obtenir le résultat.
+```table-of-contents
+title: 
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 0 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+[Scoop.it - Outil de curation du contenu | Scoop.it](https://www.scoop.it/)

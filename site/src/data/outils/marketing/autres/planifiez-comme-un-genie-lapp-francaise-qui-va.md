@@ -1,16 +1,15 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: planning
 imageNameKey: null
 u_site: null
 title: Planifiez Comme Un Génie L'App Française Qui Va Révolutionner Votre Emploi
   Du Temps
 author: Diane
-description: "Planifiez Comme Un Génie L'App Française Qui Va Révolutionner Votre Emploi Du Temps."
+description: 'Découvre Planifiez Comme Un Génie L''App Française Qui Va Révolutionner
+  Votre Emploi Du Temps : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

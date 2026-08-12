@@ -1,76 +1,127 @@
 ---
 section: blog
-title: "Google Analytics : le guide utile pour ne pas subir GA4"
+title: Google Analytics
 author: Diane
 tags:
 - Marketing
-description: Comprendre Google Analytics 4, configurer l'essentiel et suivre les
-  bonnes conversions sans se perdre dans l'interface.
+description: Guide complet pour maîtriser Google Analytics et optimiser vos performances
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Google Analytics : le guide utile pour ne pas subir GA4
 
-GA4 n'est pas l'outil le plus accueillant du monde. Pourtant, quand il est correctement configuré, il reste très utile pour comprendre ton acquisition, tes contenus et tes conversions.
+# Google Analytics : Guide Approfondi
 
-Le vrai problème n'est pas GA4 lui-même. Le vrai problème, c'est l'installation bâclée, les événements mal nommés et les dashboards qu'on n'ouvre jamais.
+## Fondamentaux GA4
 
-## Ce qu'il faut configurer en premier
+### Configuration Initiale
+- Installation du tracking
+- Configuration des propriétés
+- Paramétrage des événements
+- Gestion des utilisateurs
 
-### 1. Les événements clés
+### Différences GA4 vs UA
+- Modèle événementiel
+- Parcours utilisateur
+- Attribution
+- Rapports personnalisés
 
-Ne cherche pas à tout mesurer. Commence par les actions qui comptent vraiment :
+## Tracking et Mesure
 
-- inscription à la newsletter ;
-- envoi de formulaire ;
-- clic vers une page d'offre ;
-- prise de rendez-vous ;
-- achat ou démarrage d'essai.
+### Événements Essentiels
+1. **Événements Automatiques**
+   - Page views
+   - Scrolls
+   - Outbound clicks
+   - File downloads
 
-### 2. Les conversions
+2. **Événements Recommandés**
+   - Purchases
+   - Sign-ups
+   - Form submissions
+   - Video engagement
 
-Un événement non déclaré en conversion est facile à oublier. Marque clairement ce qui représente de la valeur business.
+3. **Événements Personnalisés**
+   - Actions spécifiques
+   - Micro-conversions
+   - Interactions clés
+   - KPIs business
 
-### 3. Les sources de trafic
+## Analyse des Données
 
-Relie bien GA4 à tes campagnes, à la Search Console et à tes UTMs. Sinon tu perdras vite la lecture de ce qui fonctionne.
+### Rapports Standards
+- Acquisition
+- Engagement
+- Monétisation
+- Fidélisation
 
-## Les rapports à regarder vraiment
+### Analyses Avancées
+1. **Exploration**
+   - Segments
+   - Cohortes
+   - Parcours
+   - Entonnoirs
 
-- acquisition par canal ;
-- pages d'entrée ;
-- événements et conversions ;
-- parcours vers la conversion ;
-- tendances par période.
+2. **Prédiction**
+   - Churn probability
+   - Purchase probability
+   - Revenue prediction
+   - Audience building
 
-## Ce que GA4 fait bien
+## Optimisation et Actions
 
-- suivre les événements ;
-- comparer les canaux ;
-- explorer quelques segments ;
-- connecter le trafic et les conversions.
+### Data-Driven Decisions
+- Identification opportunités
+- Analyse comportementale
+- Tests A/B
+- ROI marketing
 
-## Ce qu'il ne faut pas attendre de lui
+### Automatisation
+- Alertes intelligentes
+- Rapports automatisés
+- Intégrations
+- Exports données
 
-- une lecture simple sans préparation ;
-- une vérité absolue sur l'attribution ;
-- une analyse produit très fine pour un SaaS complexe.
+## Configurations Avancées
 
-## Les erreurs fréquentes
+### E-commerce
+- Enhanced E-commerce
+- Tracking transactions
+- Funnel shopping
+- Product performance
 
-- lancer GA4 sans plan de marquage ;
-- compter des clics inutiles comme des conversions ;
-- oublier les micro-conversions ;
-- ne jamais vérifier si les données remontent correctement ;
-- vouloir tout comprendre d'un coup.
+### Cross-Domain
+- Configuration
+- User-ID
+- Session unification
+- Data consistency
 
-## Une approche saine
+## Intégrations
 
-1. Installe le suivi proprement.
-2. Définis 3 à 5 conversions.
-3. Vérifie les remontées.
-4. Bloque un moment fixe chaque semaine.
-5. Prends une décision à partir des chiffres.
+### Google Suite
+- Google Ads
+- Search Console
+- Data Studio
+- Tag Manager
 
-GA4 devient supportable quand tu l'utilises comme un outil de pilotage, pas comme une salle des machines à admirer de loin.
+### Outils Tiers
+- CRM
+- Marketing automation
+- A/B testing tools
+- Heat mapping
+
+## Reporting et Visualisation
+
+### Tableaux de Bord
+- KPIs essentiels
+- Visualisations
+- Comparaisons
+- Tendances
+
+### Rapports Personnalisés
+- Dimensions
+- Métriques
+- Filtres
+- Segments
+
+[Découvrir les Dashboards Marketing →](/marketing/analytics/dashboards) 

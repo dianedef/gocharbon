@@ -3,40 +3,31 @@ import Layout from "../layouts/Default.astro";
 import Quiz from "../components/vue/Quiz.vue";
 import { quizQuickData } from "../data/quizQuickData.js";
 import { getParcoursSlug } from "../data/parcoursSlugs";
-import {
-  CANONICAL_ARCHETYPES,
-  getArchetypeDefinition,
-  getFeaturedProfilesForArchetype,
-  type CanonicalArchetype,
-} from "../data/profileTaxonomy";
 import { getCollection } from "astro:content";
-import { getParcoursRoute } from "../config/routes";
 
-const profileToEntryId = Object.fromEntries(
-  CANONICAL_ARCHETYPES.map((archetype) => [
-    archetype,
-    `biz/profils/${getArchetypeDefinition(archetype).pivotProfileSlug}`,
-  ])
-) as Record<CanonicalArchetype, string>;
+const profileToEntryId = {
+  ecommerce: "biz/profils/ecommerce",
+  saas: "biz/profils/saas",
+  content: "biz/profils/content-creator",
+  service: "biz/profils/freelance",
+  formation: "biz/profils/formation",
+  livecommerce: "biz/profils/livecommerce",
+} as const;
+const profileToLearningPathId = {
+  ecommerce: "ecommerce",
+  saas: "saas",
+  content: "content-creator",
+  service: "freelance",
+  formation: "formation",
+  livecommerce: "livecommerce",
+} as const;
 
-const profileToLearningPathId = Object.fromEntries(
-  CANONICAL_ARCHETYPES.map((archetype) => [
-    archetype,
-    getArchetypeDefinition(archetype).pivotProfileSlug,
-  ])
-) as Record<CanonicalArchetype, string>;
-
-const featuredEntryIds = CANONICAL_ARCHETYPES.flatMap((archetype) =>
-  getFeaturedProfilesForArchetype(archetype).map((profile) => `biz/profils/${profile.profileSlug}`)
-);
-
-const requiredIds = new Set([...Object.values(profileToEntryId), ...featuredEntryIds]);
+const requiredIds = new Set(Object.values(profileToEntryId));
 const bizEntries = await getCollection("posts", ({ id }) => requiredIds.has(id));
 
 const quizBizProfiles = Object.fromEntries(
   Object.entries(profileToEntryId).map(([profileKey, entryId]) => {
     const entry = bizEntries.find((item) => item.id === entryId);
-    const learningPathId = profileToLearningPathId[profileKey as CanonicalArchetype];
     return [
       profileKey,
       entry
@@ -45,19 +36,8 @@ const quizBizProfiles = Object.fromEntries(
             description: entry.data.description,
             slug: `/${entry.id}`,
             tags: entry.data.tags,
-            learningPathId,
-            learningPathUrl: getParcoursRoute(learningPathId),
-            relatedProfiles: getFeaturedProfilesForArchetype(profileKey as CanonicalArchetype).map((profile) => {
-              const relatedEntryId = `biz/profils/${profile.profileSlug}`;
-              const relatedEntry = bizEntries.find((item) => item.id === relatedEntryId);
-              return {
-                title: relatedEntry?.data.title ?? profile.title,
-                description: relatedEntry?.data.description ?? "",
-                slug: relatedEntry ? `/${relatedEntry.id}` : `/biz/profils/${profile.profileSlug}`,
-                learningPathId: profile.profileSlug,
-                learningPathUrl: getParcoursRoute(profile.profileSlug),
-              };
-            }),
+            learningPathId: profileToLearningPathId[profileKey as keyof typeof profileToLearningPathId],
+            learningPathUrl: `/parcours/${getParcoursSlug(profileToLearningPathId[profileKey as keyof typeof profileToLearningPathId])}`,
           }
         : null,
     ];
@@ -90,6 +70,6 @@ const quizBizProfiles = Object.fromEntries(
 
 <style>
   .container {
-    max-width: var(--sf-auto-global2-quiz-rapide-max-width-7b6260e8);
+    max-width: 1280px;
   }
 </style>

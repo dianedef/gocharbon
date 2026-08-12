@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: caisse
-toolFacets:
-  - retail
-  - pos
+section: apps
 metadataEnrichedAt: null
 title: ShopCaisse
 author: Diane
@@ -19,13 +14,13 @@ u_site: https://www.shopcaisse.com/
 
 # ShopCaisse
 
-# CAISSE ENREGISTREUSE : LE COUTEAU SUISSE DU COMMERÇANT
+## CAISSE ENREGISTREUSE : LE COUTEAU SUISSE DU COMMERÇANT
 
-## tl;dr
+### tl;dr
 
 ShopCaisse est un logiciel de caisse enregistreuse tactile français, conçu à Besançon par Romain Hautot. Il transforme n'importe quel iPad ou tablette Android en caisse certifiée NF525. Plus de 4 500 commerçants en France et en Belgique l'utilisent au quotidien — restaurants, boulangeries, boutiques, food-trucks. À partir de 19,99 €/mois sans engagement, avec plus de 300 fonctionnalités et un fonctionnement hors-ligne, c'est l'une des solutions les plus flexibles et abordables du marché français pour les petits et moyens commerces.
 
-## Alternative à
+### Alternative à
 
 - **SumUp** — ShopCaisse offre plus de profondeur fonctionnelle (gestion stocks, employés, fidélité) qu'une solution principalement axée terminal de paiement
 - **Tiller Systems** — Axé restauration, ShopCaisse couvre un spectre de secteurs plus large (commerces, services, beauté)
@@ -35,7 +30,7 @@ ShopCaisse est un logiciel de caisse enregistreuse tactile français, conçu à 
 
 ---
 
-# Bénéfices
+## Bénéfices
 
 **Encaissement ultra-rapide** — Interface tactile optimisée qui réduit le temps d'attente en caisse. Tes vendeurs scannent, encaissent et passent au client suivant en quelques secondes. Résultat : plus de transactions traitées par heure, moins de files d'attente.
 
@@ -49,7 +44,7 @@ ShopCaisse est un logiciel de caisse enregistreuse tactile français, conçu à 
 
 **300+ fonctionnalités modulables** — Tu ne paies que ce dont tu as besoin. La caisse s'adapte à ton activité (restauration, commerce, beauté, services), pas l'inverse.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **Restaurateurs** — Restaurants, cafés, bars, fast-food, snacks, pizzerias, food-trucks, glaciers, hôtels, campings
 - **Commerçants de détail** — Boulangeries, boucheries, fleuristes, épiceries, prêt-à-porter, caves à vin
@@ -60,9 +55,9 @@ ShopCaisse est un logiciel de caisse enregistreuse tactile français, conçu à 
 
 ---
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Encaissement et Ventes
+### Encaissement et Ventes
 
 ShopCaisse transforme ta tablette en une caisse complète et performante :
 
@@ -75,7 +70,7 @@ ShopCaisse transforme ta tablette en une caisse complète et performante :
 - **Édition de tickets de caisse** personnalisables avec logo, mentions légales, message promotionnel
 - **Gestion de la TVA** — multiples taux configurables, calcul automatique
 
-## Gestion des Produits
+### Gestion des Produits
 
 - **Catalogue illimité** — création de fiches produits avec photo, description, prix, variantes (taille, couleur, options)
 - **Catégorisation** par famille et sous-famille de produits
@@ -84,7 +79,7 @@ ShopCaisse transforme ta tablette en une caisse complète et performante :
 - **Codes-barres** — scan via la caméra de la tablette ou lecteur externe
 - **Import/export** de catalogue en masse
 
-## Gestion des Stocks et Inventaire
+### Gestion des Stocks et Inventaire
 
 Tu suis tes stocks en temps réel et tu anticipes les ruptures :
 
@@ -95,7 +90,7 @@ Tu suis tes stocks en temps réel et tu anticipes les ruptures :
 - **Historique des mouvements** — trace complète de chaque entrée/sortie de stock
 - **Consultation depuis le back-office** — vérifie la disponibilité d'un produit depuis n'importe où
 
-## Fidélité et Relation Client
+### Fidélité et Relation Client
 
 - **Fichier clients** — base de données avec coordonnées, historique d'achats, préférences
 - **Programme de fidélité intégré** — points, récompenses, cartes de fidélité dématérialisées
@@ -103,7 +98,7 @@ Tu suis tes stocks en temps réel et tu anticipes les ruptures :
 - **Tarifs par client** — prix spéciaux pour les pros, les habitués ou les membres
 - **Historique complet** — retrouve n'importe quelle transaction passée en quelques clics
 
-## Statistiques et Reporting
+### Statistiques et Reporting
 
 - **Tableau de bord** — vue synthétique du chiffre d'affaires, du panier moyen, du nombre de transactions
 - **Analyse par produit** — identifie tes best-sellers et tes produits qui stagnent
@@ -113,7 +108,7 @@ Tu suis tes stocks en temps réel et tu anticipes les ruptures :
 - **Rapports par employé** — mesure la performance individuelle de chaque vendeur
 - **Rapports comptables** — facilite la transmission à ton expert-comptable
 
-## Gestion des Employés
+### Gestion des Employés
 
 - **Comptes multi-utilisateurs** — chaque employé a son propre accès avec code ou badge
 - **Droits et permissions** — tu définis qui peut faire des remises, annuler une vente, accéder aux stats
@@ -121,7 +116,7 @@ Tu suis tes stocks en temps réel et tu anticipes les ruptures :
 - **Performance individuelle** — chiffre d'affaires généré par vendeur
 - **Historique des actions** — traçabilité complète de qui a fait quoi et quand
 
-## Restauration (fonctions spécifiques)
+### Restauration (fonctions spécifiques)
 
 ShopCaisse est particulièrement riche pour le secteur CHR (Cafés, Hôtels, Restaurants) :
 
@@ -132,7 +127,7 @@ ShopCaisse est particulièrement riche pour le secteur CHR (Cafés, Hôtels, Res
 - **Française des Jeux (FDJ)** — module d'intégration pour les bars-tabacs
 - **Click & collect** — tes clients commandent en ligne, tu prépares, ils récupèrent
 
-## Accessoires et Matériel
+### Accessoires et Matériel
 
 ShopCaisse fonctionne sur iPad et tablette Android, et se connecte à tout l'écosystème matériel :
 
@@ -146,35 +141,35 @@ ShopCaisse fonctionne sur iPad et tablette Android, et se connecte à tout l'éc
 
 ---
 
-# Comment Utiliser ShopCaisse
+## Comment Utiliser ShopCaisse
 
-## 1. Inscription et configuration
+### 1. Inscription et configuration
 
 Crée ton compte gratuitement sur [shopcaisse.com](https://www.shopcaisse.com/). Télécharge l'application sur l'App Store (iPad) ou le Google Play Store (Android). L'installation prend quelques minutes.
 
-## 2. Paramétrage de ta boutique
+### 2. Paramétrage de ta boutique
 
 Configure tes informations (nom, adresse, SIRET, numéro de TVA), définis tes méthodes de paiement acceptées, tes taux de TVA et tes catégories de produits. Si tu es restaurateur, crée ton plan de salle.
 
-## 3. Ajout de tes produits
+### 3. Ajout de tes produits
 
 Ajoute tes articles un par un ou importe-les en masse. Pour chaque produit, renseigne le nom, le prix, la catégorie, la photo, et éventuellement le prix d'achat (pour le calcul de marge) et le stock initial.
 
-## 4. Personnalisation de l'interface
+### 4. Personnalisation de l'interface
 
 Organise l'écran de caisse selon tes habitudes : place tes produits les plus vendus en favoris, crée des raccourcis, personnalise les couleurs et la disposition des boutons.
 
-## 5. Encaissement
+### 5. Encaissement
 
 Scanne ou sélectionne les produits, applique d'éventuelles remises, choisis le mode de paiement et valide. Le ticket est imprimé ou envoyé par email. Le stock se met à jour automatiquement.
 
-## 6. Analyse et pilotage
+### 6. Analyse et pilotage
 
 Consulte tes statistiques depuis le back-office web ou l'application. Exporte tes rapports pour ton comptable. Identifie tes tendances et ajuste ton offre en conséquence.
 
 ---
 
-# Prix
+## Prix
 
 ShopCaisse fonctionne sur un modèle d'abonnement mensuel **sans engagement** :
 
@@ -192,22 +187,22 @@ Le tarif exact dépend du nombre de fonctionnalités et de modules activés (res
 
 ---
 
-# Intégrations
+## Intégrations
 
-## Paiement
+### Paiement
 - **Terminaux de paiement (TPE)** — connexion aux principaux fournisseurs de terminaux CB du marché
 - **Paiement par carte** — Visa, Mastercard, CB, sans contact
 - **Tickets restaurant** — acceptation des titres restaurant dématérialisés
 
-## Commerce
+### Commerce
 - **Click & Collect** — module intégré pour la commande en ligne avec retrait en magasin
 - **Afficheur client** — écran secondaire connecté
 
-## Comptabilité
+### Comptabilité
 - **Export comptable** — rapports formatés pour la transmission à ton expert-comptable
 - **Export PDF/Excel** — extraction des données de vente
 
-## Matériel
+### Matériel
 - **iPad** (App Store) et **Android** (Google Play Store)
 - **Imprimantes ticket** (Bluetooth, WiFi, USB)
 - **Tiroirs-caisse**
@@ -217,7 +212,7 @@ Le tarif exact dépend du nombre de fonctionnalités et de modules activés (res
 
 ---
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 **2013-2014** — Romain Hautot fonde ShopCaisse à Besançon (Doubs). L'idée : proposer une caisse enregistreuse moderne sur iPad, accessible aux petits commerçants qui ne veulent pas investir des milliers d'euros dans du matériel encombrant.
 
@@ -233,23 +228,23 @@ Le tarif exact dépend du nombre de fonctionnalités et de modules activés (res
 
 ---
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
-## Restaurateur avec plan de salle
+### Restaurateur avec plan de salle
 Tu gères un restaurant de 40 couverts. Tu configures ton plan de salle dans ShopCaisse, chaque table est cliquable. Le serveur prend la commande sur tablette, elle s'affiche instantanément sur l'écran cuisine. Quand le client veut payer, tu ouvres sa table, tu splits l'addition si besoin, et tu encaisses. En fin de service, tu consultes le CA de la soirée, le nombre de couverts, et le plat le plus commandé.
 
-## Boulangerie avec scan rapide
+### Boulangerie avec scan rapide
 Tu ouvres ta boulangerie à 6h. Chaque produit a un code-barres. La vendeuse scanne les articles, le total s'affiche, le client paie par carte sans contact. Le stock de pains au chocolat se met à jour en temps réel. Quand il passe sous le seuil, tu reçois une alerte pour relancer la production.
 
-## Food-truck en mode hors-ligne
+### Food-truck en mode hors-ligne
 Tu fais le marché du dimanche matin, la couverture 4G est capricieuse. ShopCaisse fonctionne en mode hors-ligne : tu encaisses normalement, les transactions se synchronisent dès que tu retrouves du réseau. Aucune vente perdue.
 
-## Boutique multi-sites
+### Boutique multi-sites
 Tu as deux boutiques de prêt-à-porter. Depuis le back-office, tu vois les stocks des deux magasins, tu transfères des articles d'un point de vente à l'autre, et tu compares les performances de chaque site.
 
 ---
 
-# Points Forts
+## Points Forts
 
 - **Prix d'entrée très compétitif** — 19,99 €/mois sans engagement, parmi les moins chers du marché français
 - **Certification NF525 native** — en conformité dès le premier jour, pas de module à acheter en plus
@@ -262,7 +257,7 @@ Tu as deux boutiques de prêt-à-porter. Depuis le back-office, tu vois les stoc
 - **Entreprise française** — basée à Besançon, connaissance fine du marché et de la réglementation française
 - **Essai gratuit** — tu testes sans carte bancaire avant de t'engager
 
-# Points Faibles
+## Points Faibles
 
 - **Pas de version gratuite permanente** — l'essai gratuit est limité dans le temps, pas de plan freemium
 - **Notoriété moindre** — face à des géants comme SumUp ou Lightspeed, ShopCaisse est encore peu connu hors de sa base d'utilisateurs
@@ -273,7 +268,7 @@ Tu as deux boutiques de prêt-à-porter. Depuis le back-office, tu vois les stoc
 
 ---
 
-# Contact et Support
+## Contact et Support
 
 - **Site web** : [shopcaisse.com](https://www.shopcaisse.com/)
 - **France** : +33 9 72 37 09 80
@@ -284,7 +279,7 @@ Tu as deux boutiques de prêt-à-porter. Depuis le back-office, tu vois les stoc
 
 ---
 
-# Ressources
+## Ressources
 
 - [Présentation vidéo de la caisse enregistreuse ShopCaisse sur iPad](https://youtu.be/wMhEYLoNdNA)
 - [Page tarifs officielle](https://www.shopcaisse.com/prix-caisse-enregistreuse)

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -25,7 +25,7 @@ Les vidéos sur YouTube peuvent générer d'énormes audiences et des revenus, m
 
 ## Mot-clef Pas Cherché = Pas de Vues !
 
-Une vidéo sans recherche de mots clés peut seulement atteindre 137 vues en trois ans, tandis qu'une autre, optimisée avec une recherche approfondie, génèrera plus de 114 000 vues (exemple tiré de la chaîne de Youri van Hofwegen), ce qui démontre que la recherche de mots clés peut déterminer le succès d'une vidéo !
+Une vidéo sans recherche de mots clés peut seulement atteindre 137 vues en trois ans, tandis qu'une autre, optimisée avec une recherche approfondie, génèrera plus de 114 000 vues (exemple tiré de la chaine de Youri van Hofwegen), ce qui démontre que la recherche de mots clés peut déterminer le succès d'une vidéo !
 
 Voyons une stratégie en trois étapes pour passer de l'absence de vues à des millions de vues en optimisant les mots-clés et le SEO de YouTube.
 
@@ -69,8 +69,8 @@ Si les 3 premières vidéos d'une requêtes **ont un nombre de vues par heure in
 ### - Probablement qu'elle fait ses V/H en se positionnant sur un autre mot-clef, ou avec la recommandation
 ### - Ca peut tout de même être un super signe de faible compétition car YouTube cherche à afficher les vidéos dont le titre correspond parfaitement à la requête. Si ce n'est pas le cas des vidéos positionnées, ça veut dire qu'il y à une place à prendre !
 
-### Trending vidéos
-### Un autre moyen de trouver des idées et de vérifier les tendance et d'aller sur une chaîne et de cliquer dans le menu VidIQ sur "View trending vidéos" pour voir classées par V/H les meilleurs sujets de vidéos traités par cette chaîne.
+### Trending videos
+### Un autre moyen de trouver des idées et de vérifier les tendance et d'aller sur une chaîne et de cliquer dans le menu VidIQ sur "View trending videos" pour voir classées par V/H les meilleurs sujets de vidéos traités par cette chaîne.
 
 
 ### * La vérification des vidéos les mieux classées pour évaluer leur performance actuelle est recommandée pour déterminer si un mot-clé est toujours pertinent.
@@ -132,7 +132,7 @@ b. Must give exactly what the viewer is looking for.
 Add tags
 a. Go to rapidtags.io
 b. Add your keywords in the tag generator
-c. Copy and paste them in the tags section of your vidéo
+c. Copy and paste them in the tags section of your video
 
 Il met en avant l'optimisation du titre et de la description comme étant cruciale pour le classement des vidéos.
 
@@ -142,13 +142,13 @@ now what you could potentially do is include multiple keywords in your title so 
 so tutorial for beginners is something that I can include in the title after my main keyword
 this will make it a clickable title as well as I add another keyword in there which could help me ranking for that exact keyword too
 ### Ajouter des termes connexes en description
-first of all what I always do I take my title I copy this and I put it at the top of my description because when searching for a keyword on YouTube you will see that the beginning of the description does show up right here in the search result results on desktop once you've done that it is time to add a few matching keywords as well asrelated keywords in your description to tell you to what your vidéo is about as well as potentially show up for those related keywords
+first of all what I always do I take my title I copy this and I put it at the top of my description because when searching for a keyword on YouTube you will see that the beginning of the description does show up right here in the search result results on desktop once you've done that it is time to add a few matching keywords as well asrelated keywords in your description to tell you to what your video is about as well as potentially show up for those related keywords
 
 
 Retourne sur VidI, va dans les "Matching terms" et regarde les mots-clés qui apparaissent ici ainsi que dans la section des termes correspondants. Ne les colle pas directement simplement dans la description, cela va à l'encontre des Termes de Service de YouTube et ça n'aurait pas de sens pour l'audience. Ce que tu veux faire, c'est une description lisible tout en incluant ces mots-clés.
 
 
- again the goal of this is to tell YouTube what our vidéo is about but also potentially show up for these keywords right here
+ again the goal of this is to tell YouTube what our video is about but also potentially show up for these keywords right here
  
  if you want you can also use the AI description generator from vid IQ for example if you type in Shopify SEO you can click on generate and then right there is going to help you create a description which honestly is actually pretty accurate
  don't follow this blindly always make sure you check and research yourself 
@@ -156,11 +156,11 @@ Retourne sur VidI, va dans les "Matching terms" et regarde les mots-clés qui ap
  let's go to the tags because a lot of people wonder if tags are actually important and they think that you can get millions of views by using the exact tags that you need which honestly is not true so all I do myself I go to a website called rapidtags.io I take the keyword that I want to rank for, I go to the tag generator I search for this hit search and then as you can see all of these tags show up I simply copy them and then I paste them right here
  
   
-  YouTube even says it themselves tags can be useful if content in your vidéos commonly misspelled otherwise tags play a minimal role in helping viewers find your vidéo so don't pay too much much attention just do what I just did with rapid tags.io generator and that is it to be honest
+  YouTube even says it themselves tags can be useful if content in your videos commonly misspelled otherwise tags play a minimal role in helping viewers find your video so don't pay too much much attention just do what I just did with rapid tags.io generator and that is it to be honest
   
-  we are now done and we have completed the SEO for our vidéo
+  we are now done and we have completed the SEO for our video
   
-   Let's quickly sum up what we've done point one we've included the exact keyword in our title preferably at the beginning of your title then we have used a few related keywords as well as matching terms in our description so that YouTube knows what our vidéo is about as well as we can potentially rank for those keywords then we've added a thumbnail that is very easy to read as well tells the viewer exactly what they're looking for and then finally we have added relevant tags for our keyword using rapid tags.io
+   Let's quickly sum up what we've done point one we've included the exact keyword in our title preferably at the beginning of your title then we have used a few related keywords as well as matching terms in our description so that YouTube knows what our video is about as well as we can potentially rank for those keywords then we've added a thumbnail that is very easy to read as well tells the viewer exactly what they're looking for and then finally we have added relevant tags for our keyword using rapid tags.io
    now that you know the free step keyword research process it is time to do this from start
    
 
@@ -185,7 +185,7 @@ Retourne sur VidI, va dans les "Matching terms" et regarde les mots-clés qui ap
   4. Utiliser des balises pertinentes pour le mot-clé principal.
 
 * **Exemple Pratique**:
-  * Utilisation du processus pour rechercher et choisir un mot-clé pertinent ("free AI vidéo generator").
+  * Utilisation du processus pour rechercher et choisir un mot-clé pertinent ("free AI video generator").
   * Personnalisation du titre pour le rendre accrocheur tout en incluant le mot-clé principal et un autre mot-clé pertinent ("create faceless YouTube shorts").
   * Inclusion de mots-clés pertinents dans la description pour informer YouTube et les téléspectateurs sur le contenu de la vidéo.
   * Utilisation d'un générateur de balises pour obtenir des balises pertinentes pour le mot-clé principal.

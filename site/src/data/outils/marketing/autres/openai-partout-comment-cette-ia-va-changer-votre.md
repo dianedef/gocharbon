@@ -1,16 +1,12 @@
 ---
-draft: true
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-  - ia
 title: Openai Partout Comment Cette Ia Va Changer Votre Vie Pour Toujours
 author: Diane
-description: "Openai Partout Comment Cette Ia Va Changer Votre Vie Pour Toujours."
+description: 'Découvre Openai Partout Comment Cette Ia Va Changer Votre Vie Pour Toujours
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

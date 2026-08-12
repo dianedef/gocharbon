@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: 7 Raisons D'Utiliser Un Link Shortener
 author: Diane
@@ -49,7 +49,7 @@ imgUrl: ../../../../../assets/astro.jpeg
 		- tu vas pouvoir mettre les mots ou identifiants qui te conviennent
 - 3ÈME RAISON **AVOIR DES LIENS TOUJOURS VALIDES ET A JOUR**
 	- au fil du temps tes liens s'éparpillent sur le web
-	- après qq années peut être que ton lien affilié change
+	- après qq années peut etre que ton lien affilié change
 		- par ex si c'est un lien vers un logiciel et que ce logiciel a décidé de changer de plateforme d'affiliation, le lien va changer
 	- ou que tu veux changer la destination d'un lien pour une autre raison tu veux rediriger l'utilisateur vers une page différente de celle d'origine
 	- tu peux le faire a posteriori quand tu veux et autant que tu veux

@@ -1,39 +1,148 @@
 ---
 section: tutos
-type: tuto
-imageNameKey: null
 tags:
 - Tutoriels
+imageNameKey: null
 u_site: null
-title: Comment faire de lautomatisation marketing
+title: Comment Faire De L'Automatisation Marketing
 author: Diane
-description: 'Tutoriel pratique pour faire de lautomatisation marketing : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Comment Faire De L''Automatisation Marketing : outil français pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment faire de lautomatisation marketing
+# Comment faire de l'automatisation marketing
 
-Si tu veux faire de lautomatisation marketing, vise un tutoriel simple, exécutable et propre. L'idée n'est pas d'empiler les options, mais d'obtenir un résultat fiable sans bricolage inutile.
+L'automatisation marketing sert à envoyer le bon message au bon moment, sans tout faire à la main.
 
-## Ce qu'il faut préparer
+## Ce que tu peux automatiser
 
-- un objectif clair
-- l'accès aux bons outils
-- un test final avant de considérer le sujet comme bouclé
+- emails de bienvenue,
+- relance panier abandonné,
+- suivi post-achat,
+- réactivation clients inactifs,
+- qualification de leads.
 
-## La méthode simple
+## Étape 1 - Fixe un objectif business
 
-1. Pose le résultat attendu noir sur blanc. Si tu ne sais pas exactement ce qui doit être livré, le tutoriel partira dans tous les sens.
-2. Prends le chemin le plus simple qui fonctionne. Un bon setup sobre bat presque toujours une usine à gaz que tu n'ouvriras plus dans deux semaines.
-3. Termine par un test concret. Ce n'est pas parce qu'un outil affiche 'succès' que l'expérience finale est réellement propre.
+Exemples:
+- plus de RDV,
+- plus de ventes,
+- plus de réachat,
+- moins d'abandons.
 
-## Les erreurs à éviter
+1 workflow = 1 objectif.
 
-- viser trop compliqué
-- ne pas documenter la procédure
-- considérer le sujet terminé avant une vraie vérification
+## Étape 2 - Mappe le parcours client
 
-## Commence comme ça
+Du premier contact à l'achat:
+- point d'entrée,
+- actions utilisateur,
+- déclencheurs (triggers),
+- messages attendus.
 
-Écris les étapes exactes, exécute-les une fois à froid, puis garde seulement ce qui est réellement utile pour obtenir le résultat.
+## Étape 3 - Choisis ta stack
+
+Stack simple:
+- CRM,
+- outil email/SMS,
+- tracking site,
+- outil d'automatisation (native ou Make/Zapier).
+
+## Étape 4 - Crée 3 workflows prioritaires
+
+### Workflow 1: bienvenue
+Trigger: inscription.
+
+### Workflow 2: relance abandon
+Trigger: panier abandonné.
+
+### Workflow 3: réactivation
+Trigger: inactivité 30-60 jours.
+
+## Étape 5 - Définis les conditions
+
+Exemples:
+- si email ouvert -> message A,
+- sinon -> message B,
+- si clic -> offre ciblée,
+- si achat -> sortir du workflow.
+
+## Étape 6 - Lance en test contrôlé
+
+- petit segment,
+- vérification des envois,
+- contrôle des liens,
+- contrôle des doublons.
+
+## Étape 7 - Mesure et optimise
+
+KPI utiles:
+- open rate (taux d'ouverture),
+- CTR (taux de clic),
+- conversion,
+- revenu par workflow,
+- désinscriptions.
+
+## Exemple concret (e-commerce)
+
+1. visite produit,
+2. ajout panier,
+3. pas d'achat 2h,
+4. email rappel,
+5. pas d'achat 24h,
+6. email preuve sociale,
+7. achat -> sortie workflow.
+
+## Erreurs fréquentes
+
+- automatiser trop tôt un message faible,
+- faire des workflows trop complexes,
+- oublier les tests,
+- ne pas segmenter,
+- ignorer les métriques.
+
+## Plan 7 jours
+
+### Jour 1
+Objectif + parcours client.
+
+### Jour 2
+Choix outils + tracking.
+
+### Jour 3
+Rédaction emails workflow 1.
+
+### Jour 4
+Rédaction workflows 2 et 3.
+
+### Jour 5
+Configuration technique.
+
+### Jour 6
+Tests bout en bout.
+
+### Jour 7
+Lancement + monitoring.
+
+## Checklist
+
+- [ ] objectif clair
+- [ ] 3 workflows prioritaires
+- [ ] triggers configurés
+- [ ] tests validés
+- [ ] KPI suivis
+
+## Ressources pour aller plus loin
+
+### Tutoriels liés
+
+- [Créer une liste email B2B pour la prospection](/tutos/comment-creer-une-liste-email-pour-de-la)
+- [Comment se faire payer par ses clients](/tutos/comment-se-faire-payer-par-ses-clients)
+
+### Guides marketing complémentaires
+
+- [Automatisation email: scénarios essentiels](/marketing/email/automation)
+- [Stratégie email: plan clair pour débuter](/marketing/email/strategie)
+
+L'automatisation n'est pas magique. Elle amplifie un bon process marketing.

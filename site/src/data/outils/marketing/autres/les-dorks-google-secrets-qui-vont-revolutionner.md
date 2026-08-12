@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Dorks Google Secrets Qui Vont Révolutionner Vos Recherches
 author: Diane
-description: "Les Dorks Google Secrets Qui Vont Révolutionner Vos Recherches."
+description: 'Découvre Les Dorks Google Secrets Qui Vont Révolutionner Vos Recherches
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -39,7 +40,7 @@ Today we are going to dig into Google hacking techniques, also known as Google D
     - [Live cameras](https://securitytrails.com/blog/google-hacking-techniques#content-live-cameras)
     - [MP3, Movie, and PDF files](https://securitytrails.com/blog/google-hacking-techniques#content-mp3-movie-and-pdf-files)
     - [Weather](https://securitytrails.com/blog/google-hacking-techniques#content-weather)
-    - [Zoom vidéos](https://securitytrails.com/blog/google-hacking-techniques#content-zoom-videos)
+    - [Zoom videos](https://securitytrails.com/blog/google-hacking-techniques#content-zoom-videos)
     - [SQL dumps](https://securitytrails.com/blog/google-hacking-techniques#content-sql-dumps)
     - [WordPress Admin](https://securitytrails.com/blog/google-hacking-techniques#content-wordpress-admin)
     - [Apache2](https://securitytrails.com/blog/google-hacking-techniques#content-apache2)
@@ -53,7 +54,7 @@ Today we are going to dig into Google hacking techniques, also known as Google D
 
 ## [¶](https://securitytrails.com/blog/google-hacking-techniques#content-what-is-a-google-dork "Permalink")What is a Google Dork?
 
-A Google Dork, also known as Google Dorking or Google hacking, is a valuable resource for security researchers. For the average person, Google is just a search engine used to find text, images, vidéos, and news. However, in the infosec world, Google is a useful hacking tool.
+A Google Dork, also known as Google Dorking or Google hacking, is a valuable resource for security researchers. For the average person, Google is just a search engine used to find text, images, videos, and news. However, in the infosec world, Google is a useful hacking tool.
 
 How would anyone use Google to hack websites?
 
@@ -93,7 +94,7 @@ Let's look at the most popular Google Dorks and what they do.
 - `+`: used to concatenate words, useful to detect pages that use more than one specific key, e.g. `security + trails`
 - `–`: minus operator is used to avoiding showing results that contain certain words, e.g. `security -trails` will show pages that use "security" in their text, but not those that have the word "trails."
 
-If you're looking for the complète set of Google operators, you can follow this [SEJ post](https://www.searchenginejournal.com/google-search-operators-commands/215331/) which covers almost every known dork available today.
+If you're looking for the complete set of Google operators, you can follow this [SEJ post](https://www.searchenginejournal.com/google-search-operators-commands/215331/) which covers almost every known dork available today.
 
 ## [¶](https://securitytrails.com/blog/google-hacking-techniques#content-google-dork-examples "Permalink")Google Dork examples
 
@@ -229,7 +230,7 @@ In this case, we ran a dork that lets you fetch Weather Wing device transmission
 The output will show you several devices connected around the world, which share weather details such as wind direction, temperature, humidity and more.
 
 
-### [¶](https://securitytrails.com/blog/google-hacking-techniques#content-zoom-videos "Permalink")Zoom vidéos
+### [¶](https://securitytrails.com/blog/google-hacking-techniques#content-zoom-videos "Permalink")Zoom videos
 
 "Zoom-bombing" became a popular means of disrupting online meetings in 2020 during the initial lockdown. The company has since placed some restrictions to make it harder to find/disrupt Zoom meetings, but long as a URL is shared, a Zoom meeting can still be found:
 
@@ -517,9 +518,9 @@ The syntax is simple:
 
 `git log -p | scanrepo`
 
-This tool's only requirement is that you need to download any repos you want to investigate first. Once that's done, it will scan your repos easily and within seconds, as you'll see in the following vidéo:
+This tool's only requirement is that you need to download any repos you want to investigate first. Once that's done, it will scan your repos easily and within seconds, as you'll see in the following video:
 
-[vidéo /]
+[video /]
 
 ### [¶](https://securitytrails.com/blog/github-dorks#content-trufflehog "Permalink")TruffleHog
 

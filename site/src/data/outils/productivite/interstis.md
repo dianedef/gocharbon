@@ -1,34 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Interstis
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: collaboration
 description: Interstis est la plateforme collaborative française SecNumCloud. 1 600
   clients, 800 000 utilisateurs, alternative souveraine à Microsoft 365. Dès 2,49
   €/mois.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.interstis.fr
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.interstis.fr/mentions-legales/
-- https://www.interstis.fr/
-- https://www.interstis.fr/nos-fonctionnalites/
-notesQualification: 'Interstis est une société française basée au Creusot. La documentation
-  officielle établit un hébergement sur environnement SecNumCloud en France, une
-  gouvernance locale et un positionnement souverain très fort, ce qui justifie une
-  qualification forte.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Interstis

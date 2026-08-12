@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Bombyx4WP
 author: Diane
@@ -18,13 +18,13 @@ u_site: https://www.bombyx4wp.com/
 
 ### tl;dr
 
-Bombyx4WP est le tout premier plugin WordPress dédié a l'automatisation du cocon semantique. Cree en 2015 par Laurent Bourrelly (consultant SEO surnomme la "SEO Rockstar", inventeur du concept de cocon semantique) et Benoit Chevillot (developpeur chez DivioSEO), ce plugin resout un problème concret : WordPress, par defaut, génère un maillage interne desordonne qui nuit au SEO. Bombyx4WP corrige ces defauts et te permet de creer une architecture de maillage interne thématique et hierarchisee en quelques minutes, la ou il fallait des heures de travail manuel. Le nom fait reference au bombyx, le lepidoptere dont la larve (le ver a soie) tisse des fils de soie — une metaphore parfaite pour un outil qui tisse les liens internes de ton site. Le plugin est disponible sur le site officiel bombyx4wp.com.
+Bombyx4WP est le tout premier plugin WordPress dedie a l'automatisation du cocon semantique. Cree en 2015 par Laurent Bourrelly (consultant SEO surnomme la "SEO Rockstar", inventeur du concept de cocon semantique) et Benoit Chevillot (developpeur chez DivioSEO), ce plugin resout un probleme concret : WordPress, par defaut, genere un maillage interne desordonne qui nuit au SEO. Bombyx4WP corrige ces defauts et te permet de creer une architecture de maillage interne thematique et hierarchisee en quelques minutes, la ou il fallait des heures de travail manuel. Le nom fait reference au bombyx, le lepidoptere dont la larve (le ver a soie) tisse des fils de soie — une metaphore parfaite pour un outil qui tisse les liens internes de ton site. Le plugin est disponible sur le site officiel bombyx4wp.com.
 
 ### Alternative a
 
-- **Yoast SEO** (suggestions de liens internes, mais très basique)
+- **Yoast SEO** (suggestions de liens internes, mais tres basique)
 - **Rank Math** (module de maillage interne, mais pas de cocon semantique)
-- **SEOPress** (plugin SEO français, pas specialise maillage)
+- **SEOPress** (plugin SEO francais, pas specialise maillage)
 - **Link Whisper** (suggestions de liens internes automatiques, mais sans concept de cocon)
 - **Semantic SEO** (plugin WordPress de structuration, plus recent, 99 EUR)
 - **Internal Link Juicer** (maillage automatique, mais sans hierarchie semantique)
@@ -33,30 +33,30 @@ Bombyx4WP est le seul plugin qui respecte strictement les preconisations du coco
 
 ## Benefices
 
-**Automatise un travail manuel fastidieux** — Creer un cocon semantique a la main sur WordPress, c'est des heures de travail repetitif : definir les pages meres, filles, soeurs, creer les liens entre elles, verifier l'etancheite du maillage. Avec Bombyx4WP, tu importes ta mindmap et le plugin génère automatiquement toute l'architecture. Ce qui prenait une journee se fait en quelques minutes.
+**Automatise un travail manuel fastidieux** — Creer un cocon semantique a la main sur WordPress, c'est des heures de travail repetitif : definir les pages meres, filles, soeurs, creer les liens entre elles, verifier l'etancheite du maillage. Avec Bombyx4WP, tu importes ta mindmap et le plugin genere automatiquement toute l'architecture. Ce qui prenait une journee se fait en quelques minutes.
 
-**Corrige les defauts natifs de WordPress** — WordPress génère par defaut un maillage interne chaotique : categories qui fuient vers d'autres silos, tags qui diluent le jus SEO, sidebar qui pollue la structure. Bombyx4WP nettoie tout ca en creant un maillage etanche et thématique conforme aux bonnes pratiques SEO.
+**Corrige les defauts natifs de WordPress** — WordPress genere par defaut un maillage interne chaotique : categories qui fuient vers d'autres silos, tags qui diluent le jus SEO, sidebar qui pollue la structure. Bombyx4WP nettoie tout ca en creant un maillage etanche et thematique conforme aux bonnes pratiques SEO.
 
 **Respecte les preconisations du createur du concept** — Le cocon semantique a ete invente par Laurent Bourrelly. Bombyx4WP est le seul plugin concu directement par lui. Tu as la garantie que l'implementation respecte la theorie a 100 %, sans approximation ni interpretation hasardeuse.
 
-**Integration via mindmap** — Tu construis ton cocon dans un logiciel de mindmapping (Freemind, XMind, MindMeister, etc.), tu exportes le fichier, et tu l'importes dans Bombyx4WP. Le plugin cree automatiquement les pages et les liens. C'est la methode la plus rapide pour passer de la stratégie a l'implementation.
+**Integration via mindmap** — Tu construis ton cocon dans un logiciel de mindmapping (Freemind, XMind, MindMeister, etc.), tu exportes le fichier, et tu l'importes dans Bombyx4WP. Le plugin cree automatiquement les pages et les liens. C'est la methode la plus rapide pour passer de la strategie a l'implementation.
 
-**Maillage interne intelligent** — Le plugin gere automatiquement les liens entre les differents niveaux du cocon : les pages filles pointent vers leur page mere, les pages soeurs se lient entre elles, et l'etancheite entre les silos est respectee. Le jus SEO est concentre la ou il doit l'être.
+**Maillage interne intelligent** — Le plugin gere automatiquement les liens entre les differents niveaux du cocon : les pages filles pointent vers leur page mere, les pages soeurs se lient entre elles, et l'etancheite entre les silos est respectee. Le jus SEO est concentre la ou il doit l'etre.
 
 ### Pour Qui ?
 
 - **Consultants SEO** qui implementent des cocons semantiques pour leurs clients sur WordPress
-- **Propriétaires de sites WordPress** qui veulent structurer leur maillage interne sans compétences techniques avancees
+- **Proprietaires de sites WordPress** qui veulent structurer leur maillage interne sans competences techniques avancees
 - **Agences web** qui livrent des sites WordPress optimises pour le SEO
-- **Blogueurs et createurs de contenu** qui veulent organiser leur site par thématiques avec un maillage propre
-- **E-commercants sur WooCommerce** qui ont des centaines de fiches produits a organiser en silos thématiques
+- **Blogueurs et createurs de contenu** qui veulent organiser leur site par thematiques avec un maillage propre
+- **E-commercants sur WooCommerce** qui ont des centaines de fiches produits a organiser en silos thematiques
 - **Formateurs et infopreneurs** dont les sites WordPress contiennent de nombreux articles organises par themes
 
 ## Comment Utiliser Bombyx4WP
 
 ### 1. Preparer la Mindmap
 
-Avant tout, tu dois concevoir ton cocon semantique dans un logiciel de mindmapping. Definis ta thématique centrale (page pilier), les sous-thématiques (pages filles de niveau 1), et les pages detaillees (pages filles de niveau 2, 3, etc.). Chaque branche de la mindmap correspond a un silo semantique.
+Avant tout, tu dois concevoir ton cocon semantique dans un logiciel de mindmapping. Definis ta thematique centrale (page pilier), les sous-thematiques (pages filles de niveau 1), et les pages detaillees (pages filles de niveau 2, 3, etc.). Chaque branche de la mindmap correspond a un silo semantique.
 
 ### 2. Exporter et Importer
 
@@ -64,7 +64,7 @@ Exporte ta mindmap au format compatible (Freemind, OPML, etc.), puis importe-la 
 
 ### 3. Rediger le Contenu
 
-Une fois les pages creees, tu remplis le contenu de chacune. Le maillage interne est déjà en place, tu n'as qu'a te concentrer sur la redaction. Bombyx4WP ajoute automatiquement les blocs de liens vers les pages soeurs et la page mere en bas de chaque article.
+Une fois les pages creees, tu remplis le contenu de chacune. Le maillage interne est deja en place, tu n'as qu'a te concentrer sur la redaction. Bombyx4WP ajoute automatiquement les blocs de liens vers les pages soeurs et la page mere en bas de chaque article.
 
 ### 4. Verifier l'Etancheite
 
@@ -72,24 +72,24 @@ Utilise les outils d'analyse de Bombyx4WP pour verifier que le maillage est etan
 
 ## Fonctionnalites
 
-### Création Automatique de Cocons
+### Creation Automatique de Cocons
 
 - Import de mindmaps depuis les formats les plus courants (Freemind, OPML, etc.)
 - Generation automatique des pages WordPress a partir de la structure de la mindmap
-- Création des liens internes entre les pages selon la hierarchie du cocon
+- Creation des liens internes entre les pages selon la hierarchie du cocon
 - Gestion des niveaux de profondeur : page pilier, pages filles, pages petites-filles
 
 ### Maillage Interne Intelligent
 
-- Liens automatiques entre pages soeurs (même niveau dans le cocon)
+- Liens automatiques entre pages soeurs (meme niveau dans le cocon)
 - Liens ascendants vers la page mere
 - Liens descendants vers les pages filles
-- Etancheite entre les silos : pas de fuite de jus SEO entre les thématiques
+- Etancheite entre les silos : pas de fuite de jus SEO entre les thematiques
 - Blocs de navigation contextuelle integres dans les articles
 
 ### Correction des Defauts WordPress
 
-- Nettoyage du maillage parasite génère par WordPress (tags, categories non pertinentes)
+- Nettoyage du maillage parasite genere par WordPress (tags, categories non pertinentes)
 - Optimisation de la structure des permaliens pour le cocon
 - Gestion des categories et taxonomies pour respecter l'etancheite du cocon
 - Suppression des liens parasites dans la sidebar et le footer
@@ -117,7 +117,7 @@ A titre de comparaison :
 - **Link Whisper** (suggestions de liens) : a partir de 77 USD/an
 - **Internal Link Juicer** (maillage auto) : version gratuite + premium
 
-Il est recommande de contacter directement l'équipe via le site officiel ou les réseaux sociaux de Laurent Bourrelly pour obtenir les tarifs actuels.
+Il est recommande de contacter directement l'equipe via le site officiel ou les reseaux sociaux de Laurent Bourrelly pour obtenir les tarifs actuels.
 
 ## Integrations
 
@@ -126,13 +126,13 @@ Il est recommande de contacter directement l'équipe via le site officiel ou les
 - **Yoast SEO / Rank Math / SEOPress** — compatible, pas de conflit
 - **WooCommerce** — pour structurer les cocons sur les sites e-commerce
 - **Elementor / Divi / Gutenberg** — compatible avec les principaux page builders
-- **Screaming Frog / Crawlers SEO** — pour verifier la structure après deploiement
+- **Screaming Frog / Crawlers SEO** — pour verifier la structure apres deploiement
 
-## L'équipe et l'Histoire
+## L'equipe et l'Histoire
 
 - **2004** : Laurent Bourrelly debute dans le consulting SEO et le webmarketing
-- **2010-2014** : Laurent Bourrelly developpe et formalise la theorie du cocon semantique, une architecture web basee sur un maillage interne thématique et hierarchise
-- **Novembre 2015** : Lancement officiel de Bombyx4WP, cree en collaboration avec Benoit Chevillot (DivioSEO). Le plugin est presente comme le tout premier plugin WordPress dédié au cocon semantique
+- **2010-2014** : Laurent Bourrelly developpe et formalise la theorie du cocon semantique, une architecture web basee sur un maillage interne thematique et hierarchise
+- **Novembre 2015** : Lancement officiel de Bombyx4WP, cree en collaboration avec Benoit Chevillot (DivioSEO). Le plugin est presente comme le tout premier plugin WordPress dedie au cocon semantique
 - **2015** : Interview de Laurent Bourrelly dans le Reacteur (Abondance) pour presenter l'outil
 - **2015-2023** : Le plugin est utilise par des centaines de consultants SEO francophones et evolue regulierement
 - **Reconnaissance** : Bombyx4WP est reference dans de nombreux guides SEO francophones (Abondance, Redacteur.com, WPFormation, Reacteur.com) comme la reference pour le cocon semantique sur WordPress
@@ -142,26 +142,26 @@ Il est recommande de contacter directement l'équipe via le site officiel ou les
 
 > "Bombyx4WP integre le cocon semantique au sein de WordPress." — **Laurent Bourrelly, createur du cocon semantique et co-createur du plugin**
 
-> "Cette extension automatise la création d'un cocon semantique WordPress. Elle facilite l'integration d'un cocon semantique avec WordPress, lorsque vous ne pouvez pas le réaliser par HTML." — **Laura Michaud, Redacteur.com**
+> "Cette extension automatise la creation d'un cocon semantique WordPress. Elle facilite l'integration d'un cocon semantique avec WordPress, lorsque vous ne pouvez pas le realiser par HTML." — **Laura Michaud, Redacteur.com**
 
 ## Cas d'Usage Concrets
 
-**Blog thématique avec des dizaines d'articles** : Tu as un blog sur la nutrition avec des articles sur les proteines, les glucides, les lipides, les vitamines, etc. Tu crees une mindmap avec "Nutrition" en page pilier, chaque macro-nutriment en sous-thématique, et les articles detailles en pages filles. Tu importes dans Bombyx4WP, et en 5 minutes ton maillage interne est en place.
+**Blog thematique avec des dizaines d'articles** : Tu as un blog sur la nutrition avec des articles sur les proteines, les glucides, les lipides, les vitamines, etc. Tu crees une mindmap avec "Nutrition" en page pilier, chaque macro-nutriment en sous-thematique, et les articles detailles en pages filles. Tu importes dans Bombyx4WP, et en 5 minutes ton maillage interne est en place.
 
 **Site e-commerce WooCommerce** : Tu vends des equipements de sport. Tu crees un cocon "Chaussures de running" avec des pages filles par terrain (route, trail, piste), puis des pages petites-filles par marque. Le maillage etanche concentre le jus SEO sur les pages strategiques.
 
-**Agence SEO qui livre des cocons clients** : Tu as un workflow standard : brief client, mindmap, redaction, integration. Bombyx4WP automatise l'étape d'integration qui prenait des heures. Tu peux livrer un cocon de 50 pages en une matinee au lieu d'une semaine.
+**Agence SEO qui livre des cocons clients** : Tu as un workflow standard : brief client, mindmap, redaction, integration. Bombyx4WP automatise l'etape d'integration qui prenait des heures. Tu peux livrer un cocon de 50 pages en une matinee au lieu d'une semaine.
 
 **Refonte de site WordPress existant** : Ton site a 200 articles avec un maillage interne desordonne. Tu restructures tout en cocons semantiques avec Bombyx4WP : tu definis les silos, tu crees les hierarchies, et le plugin refait tout le maillage proprement.
 
 ## Points Forts
 
 - Seul plugin cree par l'inventeur du cocon semantique (Laurent Bourrelly), garantie de conformite theorique
-- Import de mindmaps pour automatiser la création des pages et des liens
+- Import de mindmaps pour automatiser la creation des pages et des liens
 - Maillage interne etanche entre les silos, conforme aux bonnes pratiques SEO
 - Gain de temps considerable par rapport a une implementation manuelle
 - Compatible avec les principaux plugins SEO et page builders WordPress
-- Outil 100 % français concu par des experts SEO reconnus
+- Outil 100 % francais concu par des experts SEO reconnus
 
 ## Points Faibles
 
@@ -170,8 +170,8 @@ Il est recommande de contacter directement l'équipe via le site officiel ou les
 - Plugin specialise WordPress uniquement, pas utilisable sur d'autres CMS
 - La documentation et les tutoriels datent principalement de 2015-2016
 - Pas de version gratuite connue pour tester avant achat
-- L'écosystème autour du cocon semantique evolue et des alternatives plus recentes existent (Semantic SEO, Link Whisper)
-- Peu de retours d'expérience recents (la plupart des articles datent de 2015-2023)
+- L'ecosysteme autour du cocon semantique evolue et des alternatives plus recentes existent (Semantic SEO, Link Whisper)
+- Peu de retours d'experience recents (la plupart des articles datent de 2015-2023)
 
 ## Ressources
 

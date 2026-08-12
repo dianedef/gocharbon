@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: La Fin De Google Analytics Ce Qui Va Remplacer Le Géant Et Pourquoi C'Est Génial
 author: Diane
-description: "La Fin De Google Analytics Ce Qui Va Remplacer Le Géant Et Pourquoi C'Est Génial."
+description: 'Découvre La Fin De Google Analytics Ce Qui Va Remplacer Le Géant Et
+  Pourquoi C''Est Génial : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -58,7 +57,7 @@ The way Google turns data into gold ingots is as follows:
 * Step 3: Google uses its extensive knowledge of you to show you advertising that fits you like a tailor-made suit.
 * Step 4: Lots of gold ingots.
 
-It’s called [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) and it’s certainly not about giving you a great user expérience, it’s about making money.
+It’s called [surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) and it’s certainly not about giving you a great user experience, it’s about making money.
 
 To give just one perfect example of the point I’m making: look at the way that paid search results (i.e. adverts) have become ever harder to identify in Google’s search results.
 
@@ -83,7 +82,7 @@ Google’s success is not good for us as a society
 
 Google’s success is good for Google and its shareholders. It’s not good for us, the consumers. We live in a world where local news is either stone dead or barely surviving. As we have learned in the past few years, a functioning media is essential to democracy.
 
-So has the market done its magic and filled the gap? Has the création part of [creative destruction](https://en.wikipedia.org/wiki/Creative_destruction) happened? Do we now have a better and superior solution for local news?
+So has the market done its magic and filled the gap? Has the creation part of [creative destruction](https://en.wikipedia.org/wiki/Creative_destruction) happened? Do we now have a better and superior solution for local news?
 
 Nope. Online news articles are a hideous cluster-fuck of click-baiting headlines, cookie banners, privacy nightmares and top heavy with advertising and it’s mostly Google’s fault. Producers of news are desperately wringing every last pathetic drop of profit from their content.
 
@@ -121,7 +120,7 @@ Actually it’s not that good really:
 * It’s a bloated script that affects your site speed
 * It’s overkill for the majority of site owners
 * It’s a privacy liability and requires an extensive privacy policy
-* It worsens the user expérience due to the necessity of annoying prompts.
+* It worsens the user experience due to the necessity of annoying prompts.
 * It’s blocked by many browsers (e.g. Firefox) so the data is not very accurate.
 
 There are more reasons. You can read the full list [here](https://plausible.io/blog/remove-google-analytics#its-owned-by-google-the-largest-ad-tech-company-in-the-world).

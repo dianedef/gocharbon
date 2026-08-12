@@ -1,7 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-21'
-type: outil
+section: apps
+metadataEnrichedAt: null
 title: secret
 author: Diane
 tags:
@@ -11,18 +10,6 @@ description: Today, 45,000+ people are using Secret and hundreds of VCs, acceler
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.joinsecret.com
-u_derniere_maj: '2026-03-21'
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-  - https://www.joinsecret.com/fr/terms-of-use
-  - https://www.joinsecret.com/privacy
-  - https://www.joinsecret.com/
-notesQualification: "Secret est édité par Tech-Lab SAS, société française immatriculée à Bayonne et basée à Paris. Les conditions d'utilisation officielles indiquent un hébergement AWS avec centre de données à Dublin, donc dans l'Union européenne, mais la politique de confidentialité précise aussi des transferts possibles hors EEE via prestataires. J'en conclus à une qualification française forte avec responsabilité partielle."
-methodologieVersion: gocharbon-v1
 ---
 
 # secret

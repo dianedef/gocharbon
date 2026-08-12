@@ -4,47 +4,125 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Comment savoir si une appli respecte vraiment tes données
+title: Comment Savoir Si Une Appli Respecte Vos Données Et Votre Vie Privée
 author: Diane
-description: 'Comment savoir si une appli respecte vraiment tes données : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Comment Savoir Si Une Appli Respecte Vos Données Et Votre Vie
+  Privée : outil français pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment savoir si une appli respecte vraiment tes données touche à des sujets où le raccourci coûte cher : sécurité, conformité, vie privée ou confiance utilisateur. Il vaut mieux un process sobre et documenté qu’une pseudo astuce sortie d’un thread douteux.
+# PROTECTION DES DONNEES : VERIFIE CE QUE TES APPLIS FONT DANS TON DOS
 
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
+Tu installes une appli de lampe torche et elle te demande acces a tes contacts, ton micro et ta localisation ? Ca devrait te mettre la puce a l'oreille. Voici comment verifier si une application respecte vraiment ta vie privee, et quels outils utiliser pour scanner les trackers caches.
 
-## Ce que tu vas obtenir
-- des règles simples à appliquer
-- moins d’exposition inutile
-- plus de confiance dans ce que tu publies
+## Outil numero 1 : Exodus Privacy
 
-## Méthode simple
-### 1. Identifie le vrai risque
-Vie privée, sécurité, réputation, conformité ou exposition commerciale : nomme le risque avant de traiter le symptôme.
+[Exodus Privacy](https://exodus-privacy.eu.org/fr/) est un projet francais et open source qui analyse les applications Android pour detecter les trackers et les permissions demandees.
 
-### 2. Choisis la solution la plus simple
-Un bon dispositif de sécurité ou de conformité est souvent ennuyeux, lisible et bien documenté.
+### Comment l'utiliser
 
-### 3. Teste les cas limites
-Vérifie ce qui se passe quand un utilisateur insiste, contourne, clique mal ou revient plus tard.
+1. Va sur [reports.exodus-privacy.eu.org](https://reports.exodus-privacy.eu.org/fr/)
+2. Tape le nom de l'application dans la barre de recherche
+3. Consulte le rapport : nombre de **trackers** detectes et **permissions** demandees
+4. Compare avec d'autres applis du meme type
 
-### 4. Documente tes règles
-Politique interne, mentions, paramètres, droits d’accès ou journal d’actions : écris ce qui doit être appliqué.
+### Ce que tu apprends
 
-### 5. Revois régulièrement le dispositif
-Ce qui était acceptable au lancement peut devenir trop faible une fois l’usage réel en place.
+- **Trackers** : des bouts de code integres dans l'appli qui collectent des donnees sur ton comportement (Google Analytics, Facebook SDK, AppsFlyer, Adjust...)
+- **Permissions** : ce a quoi l'appli demande acces sur ton telephone (camera, micro, contacts, localisation, stockage...)
 
-## Pièges à éviter
-- faire confiance à une pseudo astuce miracle
-- empiler des règles sans les tester
-- oublier d’expliquer clairement ce que tu mets en place
+**Exemple** : une appli de calculatrice avec 8 trackers et l'acces a ta localisation ? Fuis.
 
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] règles de sécurité ou de conformité notées
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
+### L'appli Exodus
 
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+Installe l'appli Exodus Privacy directement sur ton Android pour scanner toutes les applis installees sur ton telephone d'un coup.
+
+## Outil numero 2 : Les fiches de securite des stores
+
+### Google Play Store
+
+1. Ouvre la fiche de l'appli sur le Play Store
+2. Scrolle jusqu'a la section **"Securite des donnees"**
+3. Tu y vois : quelles donnees sont collectees, lesquelles sont partagees avec des tiers, et si les donnees sont chiffrees
+
+### Apple App Store
+
+1. Ouvre la fiche de l'appli sur l'App Store
+2. Regarde la section **"Confidentialite de l'app"**
+3. Apple classe les donnees en : "Donnees utilisees pour vous suivre", "Donnees associees a vous", "Donnees non associees a vous"
+
+**Attention** : ces informations sont declaratives (c'est le developpeur qui les remplit). Elles ne sont pas toujours fiables -- d'ou l'interet d'Exodus qui analyse le code.
+
+## Outil numero 3 : Les permissions sur ton telephone
+
+### Sur Android
+
+1. Va dans **Parametres > Applications**
+2. Selectionne une appli
+3. Clique sur **Autorisations**
+4. Revoque les permissions inutiles (une appli de to-do n'a pas besoin de ta camera)
+
+**Astuce Android 12+** : active le tableau de bord de confidentialite dans **Parametres > Confidentialite > Tableau de bord** pour voir quelles applis ont utilise ta camera, ton micro ou ta localisation dans les dernieres 24h. Sur **Android 14+**, tu as aussi un controle plus fin sur le partage de photos (acces partiel a la galerie au lieu de tout autoriser).
+
+### Sur iPhone
+
+1. Va dans **Reglages > Confidentialite et securite**
+2. Parcours chaque categorie (Localisation, Contacts, Photos, Micro, Camera...)
+3. Desactive les acces non necessaires
+
+**Astuce iOS** : active le **Rapport de confidentialite des apps** dans Reglages > Confidentialite pour voir quelles applis accedent a quoi et a quelle frequence.
+
+## Les signaux d'alerte
+
+Mefie-toi quand une appli :
+
+- **Demande trop de permissions** par rapport a sa fonction (une appli meteo n'a pas besoin de tes contacts)
+- **A beaucoup de trackers** (plus de 5 pour une appli simple, c'est suspect)
+- **N'a pas de politique de confidentialite** lisible ou accessible
+- **Est gratuite sans modele economique clair** -- si c'est gratuit et que tu ne vois pas de pub, c'est tes donnees le produit
+- **Demande un acces permanent a la localisation** (en arriere-plan) alors que ca n'est pas necessaire
+- **Vient d'un editeur inconnu** avec peu d'avis et une description vague
+
+## Tes droits RGPD (2025)
+
+En tant que resident europeen, tu as des droits sur tes donnees. Le RGPD (Reglement General sur la Protection des Donnees), en vigueur depuis mai 2018, te donne 7 droits principaux :
+
+1. **Droit d'acces** : demande a l'editeur quelles donnees il a sur toi
+2. **Droit de rectification** : corrige les donnees inexactes
+3. **Droit a l'effacement** ("droit a l'oubli") : demande la suppression de tes donnees
+4. **Droit a la portabilite** : recupere tes donnees dans un format exploitable (JSON, CSV)
+5. **Droit d'opposition** : refuse que tes donnees soient utilisees pour du profilage ou du marketing direct
+6. **Droit a la limitation** : demande que tes donnees soient gelees (pas supprimees, mais plus traitees)
+7. **Droit de ne pas faire l'objet d'une decision automatisee** : si un algorithme prend une decision qui t'affecte, tu peux demander l'intervention d'un humain
+
+**Comment faire** : envoie un email au DPO (Data Protection Officer) de l'entreprise. Son contact doit etre mentionne dans la politique de confidentialite. L'entreprise a **30 jours** pour repondre (extensible a 60 jours pour les demandes complexes). Si pas de reponse ou refus injustifie, tu peux saisir la [CNIL](https://www.cnil.fr/fr/plaintes) directement en ligne.
+
+**Chiffre cle** : en 2024, la CNIL a prononce plus de 300 millions d'euros d'amendes cumulees depuis l'entree en vigueur du RGPD. Les applications mobiles sont un sujet de controle prioritaire.
+
+## Checklist rapide avant d'installer une appli
+
+- [ ] Verifie le rapport Exodus Privacy (Android)
+- [ ] Lis la section "Securite des donnees" sur le store
+- [ ] Compare le nombre de permissions avec la fonction de l'appli
+- [ ] Cherche des avis mentionnant des problemes de vie privee
+- [ ] Verifie que l'editeur a une politique de confidentialite accessible
+- [ ] Apres installation : revoque les permissions inutiles
+- [ ] Prefere les alternatives open source quand elles existent
+
+## Alternatives respectueuses de la vie privee
+
+| Categorie | Appli classique | Alternative privee |
+|-----------|----------------|-------------------|
+| Messagerie | WhatsApp | Signal, Olvid (francais) |
+| Email | Gmail | ProtonMail, Tuta (ex-Tutanota) |
+| Navigateur | Chrome | Firefox, Brave |
+| Moteur de recherche | Google | DuckDuckGo, Qwant, Brave Search |
+| Clavier | Gboard | HeliBoard (fork d'OpenBoard, maintenu activement), FlorisBoard |
+| Cloud | Google Drive | Nextcloud, Proton Drive, Cozy Cloud (francais) |
+| Gestionnaire de mots de passe | Chrome / iCloud | Bitwarden (open source), KeePass |
+| Notes | Google Keep | Standard Notes, Joplin (open source) |
+
+## Ce qu'il faut retenir
+
+Utilise Exodus Privacy pour scanner les trackers de tes applis Android. Verifie les permissions demandees et revoque celles qui ne sont pas necessaires. Lis les fiches de securite des stores (meme si elles sont declaratives). Et rappelle-toi : en Europe, le RGPD te donne des droits concrets -- utilise-les quand une appli abuse.

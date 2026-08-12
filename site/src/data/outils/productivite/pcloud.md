@@ -1,36 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: pCloud
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: stockage
-toolFacets:
-  - zero-knowledge
 description: 'pCloud : stockage cloud suisse ultra-sécurisé avec offres à vie. Chiffrement
   côté client, 10 Go gratuits, dès 49,99€/an.'
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.pcloud.com/
 u_affi: https://partner.pcloud.com/r/55057
-type: outil
-qualificationLocale: hors-union-europeenne
-ancrageEconomique: faible
-niveauResponsabilite: partiel
-paysSiege: Suisse
-hebergementDonnees: multi-region
-sourcesVerification:
-- https://www.pcloud.com/fr/privacy_policy.html
-- https://www.pcloud.com/Europe
-- https://www.pcloud.com/de/company/contactus.html
-notesQualification: 'pCloud International AG est basée en Suisse. Les sources officielles
-  indiquent un choix d''hébergement entre Union européenne et États-Unis selon le
-  paramétrage utilisateur ; la structure reste hors UE et la qualification économique
-  est donc faible, avec une responsabilité partielle malgré un cadre sécurité solide.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # pCloud
@@ -86,7 +66,7 @@ pCloud crée un espace cloud où tous tes fichiers sont organisés et accessible
 - **Recherche rapide** — champ de recherche en haut de l'interface web et mobile. Tape le nom du fichier ou du dossier, résultat en quelques secondes
 - **Filtres par format** — icônes de recherche rapide dans le menu gauche : Documents, Images, Audio, Vidéo, Archives. Un clic filtre instantanément tes fichiers
 - **Corbeille** — les fichiers supprimés restent récupérables pendant 15 jours (gratuit) ou 30 jours (Premium/Lifetime)
-- **Taille de fichier illimitée** — uploade n'importe quel fichier, quelle que soit sa taille. Vidéos HD, exports Première Pro, bases de données — tout passe
+- **Taille de fichier illimitée** — uploade n'importe quel fichier, quelle que soit sa taille. Vidéos HD, exports Premiere Pro, bases de données — tout passe
 - **Vitesse de transfert illimitée** — aucun bridage ni en upload ni en download, ni pour les utilisateurs gratuits ni pour les Premium
 - **Lecteur multimédia intégré** — écoute ta musique, regarde tes vidéos directement depuis le cloud sans télécharger. Crée des playlists depuis l'interface
 

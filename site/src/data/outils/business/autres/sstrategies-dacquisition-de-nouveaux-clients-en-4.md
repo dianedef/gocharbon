@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -95,7 +95,7 @@ Ayant les connaissances de cet article, je recommande fortement de commencer à 
 
 C’est une recette inévitable pour augmenter vos ventes et obtenir des résultats exponentiels.
 
-La première étape à faire est ici: [](http://app.digitalfirst.ai/)[http://app.digitalfirst.ai](__MASK_3__)
+La première étape à faire est ici: [](http://app.digitalfirst.ai/)[http://app.digitalfirst.ai](http://app.digitalfirst.ai)
 
 - Stages of the funnel
     
@@ -108,7 +108,7 @@ La première étape à faire est ici: [](http://app.digitalfirst.ai/)[http://ap
     - Conversion
     - Loyalty
     
-    At each stage, the buyer is looking out and searching for different keywords. In my expérience, creating a customer persona and then listing the keywords at each step has enabled me to come up with SEO keywords that generate considerable traffic.
+    At each stage, the buyer is looking out and searching for different keywords. In my experience, creating a customer persona and then listing the keywords at each step has enabled me to come up with SEO keywords that generate considerable traffic.
     
     ## Erreur d’étape
     
@@ -142,21 +142,21 @@ La première étape à faire est ici: [](http://app.digitalfirst.ai/)[http://ap
     
     # **Put It into Practice**
     
-    Let’s say you’re in the vidéo marketing field. You want to write an article for a major website (the Huffington Post maybe?) that will establish you as one of the big names in this niche.
+    Let’s say you’re in the video marketing field. You want to write an article for a major website (the Huffington Post maybe?) that will establish you as one of the big names in this niche.
     
     # **Step 1. Head over to BuzzSumo**
     
     [BuzzSumo](http://buzzsumo.com/) makes it super easy to find the content that users love.
     
-    For our example, let’s search on “[Huffingtonpost.com](http://Huffingtonpost.com) vidéo marketing,” which yields a long list of vidéo marketing articles published by HuffPo. You could also search on “vidéo marketing” and get a list of all related articles across a variety of websites.
+    For our example, let’s search on “[Huffingtonpost.com](http://Huffingtonpost.com) video marketing,” which yields a long list of video marketing articles published by HuffPo. You could also search on “video marketing” and get a list of all related articles across a variety of websites.
     
     
     
     # **Step 2. Choose an article with high shares**
     
-    Sort by Total Shares to find the most popular vidéo marketing articles on HuffPo.
+    Sort by Total Shares to find the most popular video marketing articles on HuffPo.
     
-    In our example, we’re intrigued by “How Vidéo Marketing Will Change the Game for Marketing in 2016.”
+    In our example, we’re intrigued by “How Video Marketing Will Change the Game for Marketing in 2016.”
     
     
     
@@ -174,15 +174,15 @@ La première étape à faire est ici: [](http://app.digitalfirst.ai/)[http://ap
     
     Now it’s time to see what this article has to say, so that you can identify what you can add to the conversation.
     
-    Our chosen piece provides a plethora of potential ideas – from the importance of customer testimonial vidéos, to personalized viewing experiences, to the rise of vidéo distribution channels other than YouTube.
+    Our chosen piece provides a plethora of potential ideas – from the importance of customer testimonial videos, to personalized viewing experiences, to the rise of video distribution channels other than YouTube.
     
     It’s a snap to pick the most interesting of these possible topics and add our own spin to it.
     
     # **Step 5. Deepen the conversation**
     
-    The vidéo marketing article we’ve identified repeatedly mentions the B2B sphere, suggesting this is fertile ground for amplification.
+    The video marketing article we’ve identified repeatedly mentions the B2B sphere, suggesting this is fertile ground for amplification.
     
-    Using this insight, we might decide to write a piece that focuses solely on the B2B market — perhaps “The Rise of B2B Vidéo Marketing: What Every B2B Company Needs to Know.” We’ll use statistics (new ones if possible) that make our case that vidéo marketing is important for B2B, and then list the various takeaways for businesses.
+    Using this insight, we might decide to write a piece that focuses solely on the B2B market — perhaps “The Rise of B2B Video Marketing: What Every B2B Company Needs to Know.” We’ll use statistics (new ones if possible) that make our case that video marketing is important for B2B, and then list the various takeaways for businesses.
     
     Now get writing!
     
@@ -194,7 +194,7 @@ La première étape à faire est ici: [](http://app.digitalfirst.ai/)[http://ap
     
     # **Step 6. Promote!**
     
-    Finally, your thought leadership article is complète – hooray! Now comes the last and most important step: getting it published.
+    Finally, your thought leadership article is complete – hooray! Now comes the last and most important step: getting it published.
     
     The first place to approach is the media outlet that published the original article – in our case, the Huffington Post. In your pitch, reference the base article and share its metrics. This helps makes your case that a similar article would be a hit with the publication’s readers.
     

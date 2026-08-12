@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -15,4 +15,4 @@ imgUrl: ../../../../assets/astro.jpeg
 
 soit linkclump extension
 
-soit pour WIsecrack chaîne à 1K de vidéos, hexofy + export to gsheet and use google formula for markdown format
+soit pour WIsecrack chaine à 1K de videos, hexofy + export to gsheet and use google formula for markdown format

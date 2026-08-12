@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Seoquantum, Révolutionne ton SEO grâce à la Sémantique
 author: Diane
@@ -637,7 +637,7 @@ Fini les allers/retours entre vous et vos rédacteurs, fini les Google Sheets ba
 
 Avec le tableau de bord, vous pouvez maintenant suivre l’avancée de vos rédacteurs dans les contenus que vous leur avez assigné, et vous pourrez ensuite publier des contenus qui vont vous propulser au sommet de la SERP.
 
-Équipe éditoriale
+Equipe éditoriale
 
 Intégrez votre équipe au sein de SEOQuantum
 

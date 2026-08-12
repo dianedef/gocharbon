@@ -1,39 +1,73 @@
 ---
 section: tutos
-type: tuto
-imageNameKey: null
 tags:
 - Tutoriels
+imageNameKey: null
 u_site: null
-title: 'Comment choisir ta niche sans te raconter d''histoires'
+title: Comment Choisir Ta Niche
 author: Diane
-description: 'Tutoriel pratique pour choisir ta niche sans te raconter d''histoires : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Comment Choisir Ta Niche : outil français pour entrepreneurs,
+  fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment choisir ta niche sans te raconter d'histoires
+[Comment devenir un EXPERT dans SON DOMAINE - YouTube](https://www.youtube.com/watch?v=wy7lqrrntXI)
+**CONSEIL : Construis avec de reconstruire**
 
-Si tu veux choisir ta niche sans te raconter d'histoires, ne pars pas d'une théorie brillante. Pars d'un problème réel, d'une offre claire et d'un canal de distribution que tu peux vraiment tenir dans la durée.
+Je n'ai rien contre le fait de tester.
 
-## Ce qu'il faut préparer
+D'ailleurs, voici le conseil qu'on donne aux coachs que nous accompagnons qui n'arrivent pas à trouver leur niche : Ne te spécialise pas ! Fais ce que tu veux.
 
-- le problème que tu veux résoudre
-- le public exact
-- une manière réaliste de distribuer ton offre ou ton contenu
+Car c'est d'abord dans l'action qu'on trouve la clarté.
 
-## La méthode simple
+C'est notamment mon parcours.
 
-1. Commence par l'offre et l'usage, pas par le branding. Le plus gros risque au début, c'est de polir une coquille vide.
-2. Teste ton idée sur un périmètre réduit : une niche, une promesse, un canal, une page, un message. Tu apprendras plus vite et tu éviteras la dispersion.
-3. Garde ensuite une boucle courte entre retour terrain et amélioration. Le bon plan n'est pas figé : il se corrige dès que les signaux réels arrivent.
+Jamais je ne me suis un jour dit "Et si je dirigeais une entreprise de coaching en 2024 ?!"
 
-## Les erreurs à éviter
+Mais il y a une différence entre tester intentionnellement, et l'erreur que je vois fréquemment : l'autosabotage.
 
-- élargir trop vite le périmètre
-- construire sans parler au marché
-- essayer de résoudre dix problèmes à la fois
+On lance un projet après l'autre, comme ça on est bien sûr de ne rien mener à terme.
 
-## Commence comme ça
+Et si on échoue (ce qui arrivera), on pourra dire qu'on a tout tenté et que l'entrepreneuriat ce n'est pas pour nous.
 
-Écris ta promesse en une phrase, crée une offre ou un prototype minimal, puis regarde si quelqu'un veut vraiment passer à l'action.
+En réalité, **la solution** est de : 
+
+1. Tester pour trouver la clarté
+2. Être focus pour atteindre des résultats
+3. Élargir pour amplifier notre impact
+
+Si tu élargis trop tôt, ça s'appelle de la distraction.
+
+Et le meilleur moyen pour éviter l'autosabotage et de se distraire… c'est de se créer un environnement qui nous garantit un focus conscient et puissant.
+
+**2. TEMPLATE : Renouvellement**
+
+Une question-clé à se poser : quelle est ta zone de génie ?
+
+Dans quel domaine es-tu à la fois excellent·e _et_ qui t'énergise en même temps ?
+
+Il est essentiel que tu t'introspectes sur **ce qui te rend unique**. 
+
+Sinon, tu peux passer les 20 prochaines années de ta vie à tester 50 idées et à ne jamais épancher ta soif de réussir.
+
+Pour : 
+
+- Avoir un impact dans la vie des autres
+- Capitaliser sur les expériences de vie que tu as vécues (et leur donner du sens)
+- T'autoriser à vivre tes rêves
+
+En résumé : pour **changer de vie**.
+
+Je n'attends pas à ce que les 6000 personnes qui reçoivent nos newsletters nous rejoignent.
+
+[The perils of niching down](https://ungated.media/artifacts/the-perils-of-niching-down/)
+[How to Estimate Market Size in 3 Steps in 2024](https://www.failory.com/blog/how-to-estimate-market-size)
+## Quelles sont tes passions
+Est-ce que t'es capable de passer 24/7 sur ce sujet là pendant 5 ans ?
+C'est très important d'avoir la passion sinon tu vas perdre l'intérêt pour le sujet après quelques semaines ou mois, et ton contenu ne sera plus aussi pertinent et pointu que celui de tes concurrents !
+## Quelles sont tes skills
+
+Tu vas devoir le faire beaucoup par exemple un bloggeur doit écrire plusieurs articles par jour, des dizaines par semaine et tu ne peux pas toujours outsourcer donc tu dois avoir cette compétence d'autant plus que pour déléguer en bonne forme il faut savoir de quoi l'on traite en détail.
+## Quels sont les marchés
+Est-ce qu'il y a des acheteurs dans cette niche ? S'il n'y a pas de marché il n'y a aucun intérêt commercial à se lancer sur ce domaine-ci.Fais une étude de marché

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,7 +8,9 @@ u_site: null
 title: Tunnel De Vente Rentable Gratuitement 5 Outils Secrets Que Les Pros Ne Veulent
   Pas Que Vous Connaissiez
 author: Diane
-description: "Tunnel De Vente Rentable Gratuitement 5 Outils Secrets Que Les Pros Ne Veulent Pas Que Vous Connaissiez."
+description: 'Découvre Tunnel De Vente Rentable Gratuitement 5 Outils Secrets Que
+  Les Pros Ne Veulent Pas Que Vous Connaissiez : outil français pour entrepreneurs,
+  fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

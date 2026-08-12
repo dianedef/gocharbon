@@ -1,35 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: onepilot
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: support-client
-toolFacets:
-  - ia
 description: Onepilot est une solution révolutionnaire de service client externalisé
   qui promet de transformer votre interaction avec les clients en une expérience fluide
   et rentable. Grâce à d
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.onepilot.co/fr/
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://onepilot.co/fr/resources/legal-notices
-- https://onepilot.co/fr/resources/privacy-policy
-notesQualification: 'Onepilot est une SAS française basée à Paris. La politique
-  de confidentialité documente un hébergement des données chez DigitalOcean en Allemagne,
-  ce qui permet de retenir un ancrage fort et une responsabilité partielle, faute
-  de documentation publique plus détaillée sur l''ensemble de la chaîne technique.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # onepilot

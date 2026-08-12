@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: veille
-toolFacets:
-  - shopify
-  - veille-concurrence
+section: apps
 metadataEnrichedAt: null
 title: Copyfy
 author: Diane
@@ -19,17 +14,17 @@ u_site: https://www.copyfy.io
 
 # Copyfy
 
-# VEILLE E-COMMERCE : L'ESPION QUI TRAQUE LES VENTES DE TES CONCURRENTS SHOPIFY
+## VEILLE E-COMMERCE : L'ESPION QUI TRAQUE LES VENTES DE TES CONCURRENTS SHOPIFY
 
-## tl;dr
+### tl;dr
 
 Copyfy est un outil SaaS français lancé fin **2022** qui permet d'**espionner les boutiques Shopify** de tes concurrents. La promesse : suivre en temps réel le chiffre d'affaires, les produits les plus vendus (best-sellers), les dernières commandes, les publicités, et même exporter les produits (texte + images) et les informations de thème (couleurs, polices) d'une boutique concurrente directement sur ta propre boutique Shopify. Comme le résumait la première analyse de l'outil : "L'entreprise Copyfy propose un outil qui permet de suivre les ventes et dupliquer le contenu et design des meilleures boutiques e-commerces sur Shopify." Copyfy est un outil redoutable pour les e-commerçants qui souhaitent copier/coller des boutiques Shopify et espionner les boutiques des concurrents directs et indirects sur le marché. L'outil suit plus de **200 000 boutiques Shopify**, propose une **analyse IA** des stores, et est disponible en **multi-langues** (FR, EN, ES). Noté **4.4/5 sur Trustpilot** avec **132 avis**. Essai gratuit de 5 jours disponible. Tarifs à partir de **49,99€/mois** (plan Découverte).
 
-## Alternative à
+### Alternative à
 
 Commerce Inspector, Koala Inspector, Store Leads, BuiltWith, SimilarWeb (pour le trafic), Niche Scraper, Sell The Trend, Dropship Spy, Ecomhunt. Copyfy se distingue par son focus **100% Shopify** avec un tracking de chiffre d'affaires en temps réel (pas juste du trafic estimé), l'**export direct des produits** (texte + images en CSV importable sur Shopify), et l'**extraction des informations de thème** (couleurs RVB, polices) — des fonctionnalités que les concurrents ne combinent pas aussi facilement.
 
-# Bénéfices
+## Bénéfices
 
 **Connais le chiffre d'affaires réel de tes concurrents** — Au lieu de deviner si une boutique concurrente cartonne ou non, Copyfy te montre des chiffres. Tu suis en temps réel le CA mensuel estimé, les produits les plus vendus, les dernières commandes. C'est comme avoir accès au back-office de ton concurrent. "La première fois que nous avons découvert ce logiciel, nous avons eu un effet Ouaw !"
 
@@ -43,7 +38,7 @@ Commerce Inspector, Koala Inspector, Store Leads, BuiltWith, SimilarWeb (pour le
 
 **Analyse IA des boutiques** — L'IA de Copyfy analyse automatiquement les stores pour te donner des insights sur les stratégies de vente, les réseaux sociaux utilisés pour la publicité, et les applications/plugins installés sur les boutiques suivies.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **E-commerçants Shopify** qui veulent surveiller la concurrence et identifier les best-sellers du marché
 - **Dropshippers** qui cherchent les produits gagnants en analysant les ventes réelles des boutiques qui marchent
@@ -52,7 +47,7 @@ Commerce Inspector, Koala Inspector, Store Leads, BuiltWith, SimilarWeb (pour le
 - **E-commerçants en croissance** qui souhaitent développer leur gamme de produits en s'inspirant de la concurrence
 - **Consultants en stratégie e-commerce** qui veulent fournir des données de marché concrètes à leurs clients
 
-# Comment Utiliser Copyfy
+## Comment Utiliser Copyfy
 
 1. **Inscris-toi à l'essai gratuit** — 5 jours gratuits avec la possibilité de suivre 3 boutiques pour tester l'outil
 2. **Ajoute une boutique à suivre** — Récupère l'URL du site Shopify que tu souhaites espionner, colle l'URL et clique sur "suivre la boutique"
@@ -62,15 +57,15 @@ Commerce Inspector, Koala Inspector, Store Leads, BuiltWith, SimilarWeb (pour le
 6. **Récupère les infos du thème** — Exporte les informations de design (polices, couleurs RVB) de n'importe quelle boutique suivie
 7. **Consulte le classement Top Boutiques** — (Plan Pro et Expert) Explore le palmarès des boutiques Shopify les plus performantes par secteur
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Tableau de Bord
+### Tableau de Bord
 
 - **Récapitulatif de ton utilisation mensuelle** de Copyfy — nombre de suivis restants, exports réalisés, etc.
 - **Données sur l'usage global** du logiciel — statistiques agrégées sur les 200 000+ boutiques trackées
 - **Vue d'ensemble rapide** de tes boutiques suivies avec les KPIs principaux
 
-## Suivi de Boutiques (Espionnage)
+### Suivi de Boutiques (Espionnage)
 
 - **Tracking du chiffre d'affaires** en temps réel — mis à jour automatiquement
 - **Produits les plus vendus** (best-sellers) — classement par volume de ventes
@@ -80,33 +75,33 @@ Commerce Inspector, Koala Inspector, Store Leads, BuiltWith, SimilarWeb (pour le
 - **Applications et plugins installés** — identifie les apps Shopify utilisées par la boutique
 - **Comparaison multi-boutiques** — compare tes performances avec celles de tes concurrents
 
-## Top Boutiques (Plan Pro et Expert)
+### Top Boutiques (Plan Pro et Expert)
 
 - **Classement des meilleures boutiques Shopify** par chiffre d'affaires
 - **Filtrage par secteur et par niche** — identifie les leaders de ton marché
 - **Données actualisées** régulièrement avec les derniers chiffres de vente
 - **Outil de veille concurrentielle** idéal pour la recherche de marché
 
-## Export de Produits
+### Export de Produits
 
 - **Export CSV Shopify-compatible** — fichier d'import prêt à l'emploi pour ta boutique
 - **Images et textes inclus** — descriptions, titres, variantes, images exportées
 - **Traduction automatique** dans plus de 10 langues — adapte les fiches produits à ton marché
 - **Export en quelques clics** — entre l'URL de la page produit, clique, télécharge
 
-## Extraction de Thèmes
+### Extraction de Thèmes
 
 - **Police d'écriture** utilisée par la boutique concurrente
 - **Couleurs en format RVB** — palette exacte du thème
 - **Export CSV** des informations de thème — réutilisable pour personnaliser ta propre boutique
 
-## Analyse IA
+### Analyse IA
 
 - **Analyse automatique** des stratégies de vente des boutiques suivies
 - **Insights IA** sur les tendances, les produits à fort potentiel, les stratégies gagnantes
 - **Détection des tendances** émergentes dans le catalogue de produits
 
-# Prix
+## Prix
 
 Copyfy propose 3 formules d'abonnement sans engagement, reconduits chaque mois et annulables à tout moment en contactant l'équipe.
 
@@ -122,14 +117,14 @@ Copyfy propose 3 formules d'abonnement sans engagement, reconduits chaque mois e
 
 > **Code promo** : -40% sur le premier mois avec le code **VERYSAAS**
 
-# Intégrations
+## Intégrations
 
 - **Shopify** : export CSV compatible pour import direct de produits sur ta boutique Shopify
 - **CMS supportés pour l'analyse** : Copyfy analyse uniquement les boutiques fonctionnant sur le CMS Shopify (pas Magento, PrestaShop, WooCommerce)
 - **Pas d'API publique** pour le moment — les exports se font via CSV
 - **Multi-langues** : interface et traduction automatique des exports en FR, EN, ES et 7+ autres langues
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **Startup française** lancée fin **2022**
 - **Jeune entreprise SaaS** spécialisée dans la competitive intelligence e-commerce
@@ -139,11 +134,11 @@ Copyfy propose 3 formules d'abonnement sans engagement, reconduits chaque mois e
 - **Mise à jour régulière** de la plateforme avec de nouvelles fonctionnalités (analyse IA ajoutée post-lancement)
 - **Présent sur VerySaaS** — référencé et testé par la communauté SaaS francophone
 
-# Témoignages
+## Témoignages
 
 > "La première fois que nous avons découvert ce logiciel, nous avons eu un effet Ouaw ! Comment cet outil fait-il pour suivre avec précisions les ventes d'une boutique en ligne ?" — **VerySaaS, test de Copyfy**
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
 - **Le dropshipper qui cherche des produits gagnants** : tu veux lancer un nouveau produit mais tu ne sais pas quoi vendre. Tu suis les 5 boutiques leaders de ta niche sur Copyfy, tu identifies les best-sellers, et tu exportes les fiches produits directement sur ta boutique Shopify. Tu gagnes des semaines de recherche
 - **L'e-commerçant qui veut benchmarker** : tu as ta boutique depuis 1 an et tu fais 20K€/mois. Tu veux savoir si c'est bien par rapport au marché. Tu compares ton CA à celui de tes concurrents directs sur Copyfy et tu identifies les leviers d'amélioration
@@ -151,7 +146,7 @@ Copyfy propose 3 formules d'abonnement sans engagement, reconduits chaque mois e
 - **Le nouveau e-commerçant** : tu n'as pas encore lancé ta boutique. Tu utilises le Top Boutiques pour identifier les niches les plus rentables, tu analyses les designs qui convertissent (extraction de thème), et tu construis ta boutique sur des données solides
 - **Le responsable catalogue** : tu veux étoffer ta gamme de produits. Tu exportes les best-sellers de 3 concurrents en quelques clics et tu les traduis automatiquement dans ta langue de vente
 
-# Points Forts
+## Points Forts
 
 - Tracking du chiffre d'affaires en temps réel — données concrètes, pas des estimations vagues
 - Export de produits (texte + images) en CSV Shopify-compatible — gain de temps énorme
@@ -163,7 +158,7 @@ Copyfy propose 3 formules d'abonnement sans engagement, reconduits chaque mois e
 - 4.4/5 sur Trustpilot (132 avis) — satisfaction confirmée
 - Interface en français — rare pour ce type d'outil
 
-# Points Faibles
+## Points Faibles
 
 - **Analyse uniquement les boutiques Shopify** — pas de support pour Magento, PrestaShop, WooCommerce ou d'autres CMS. Si tes concurrents ne sont pas sur Shopify, l'outil ne te servira pas
 - **Le prix d'entrée à 49,99€/mois** peut sembler élevé pour un jeune e-commerce qui démarre — mais c'est un investissement si tu es en croissance
@@ -174,7 +169,7 @@ Copyfy propose 3 formules d'abonnement sans engagement, reconduits chaque mois e
 - **Questions éthiques** — l'export de produits concurrents soulève des questions de propriété intellectuelle (descriptions, images). À utiliser avec discernement
 - **Nombre limité de suivis et exports** — même le plan Expert est limité à 80 suivis et 120 exports/mois
 
-# FAQ
+## FAQ
 
 **Quelles boutiques peuvent être analysées ?**
 Copyfy peut analyser toutes les boutiques qui fonctionnent sur le CMS Shopify.

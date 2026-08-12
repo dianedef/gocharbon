@@ -1,36 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: leexi
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: conversation-intelligence
-toolFacets:
-  - ia
 description: Leexi est une plateforme d'intelligence conversationnelle qui vise à
   transcrire, analyser et résumer vos appels et visioconférences. Elle offre une solution
   puissante pour augmente
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://www.leexi.ai/fr/
-type: outil
-qualificationLocale: union-europeenne
-ancrageEconomique: partiel
-niveauResponsabilite: fort
-paysSiege: Belgique
-hebergementDonnees: france
-sourcesVerification:
-- https://www.leexi.ai/fr/
-- https://www.leexi.ai/fr/mentions-legales/
-- https://www.leexi.ai/en/privacy-policy/
-notesQualification: 'Leexi SA est établie à Bruxelles, avec un ancrage européen clair
-  mais non français. La documentation officielle indique un hébergement des données
-  en France et une certification ISO 27001, ce qui permet de retenir un niveau de
-  responsabilité fort.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # leexi

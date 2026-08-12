@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -21,9 +21,9 @@ imgUrl: ../../../../../assets/astro.jpeg
 hi I'm Gary I'm an engineer on the search team at Google did you know that Larry and Sergey originally called their search engine backrub
 
 
-if we hadn't changed the name to Google You' now be watching the how backrub Works vidéo uh anyway welcome back to how search works where we 
+if we hadn't changed the name to Google You' now be watching the how backrub Works video uh anyway welcome back to how search works where we 
 
-explored basic technical functions powering Google search in our previous vidéo we learned how Google craws web pages and indexes their contents now it's time to actually serve and rank the results
+explored basic technical functions powering Google search in our previous video we learned how Google craws web pages and indexes their contents now it's time to actually serve and rank the results
 
 
 when you enter a query into Google our machines search our index for the matching pages and return results We Believe are the highest quality trustworthy and most relevant to your query

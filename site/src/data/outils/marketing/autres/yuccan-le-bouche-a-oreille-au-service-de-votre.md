@@ -1,10 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: recommandation
 imageNameKey: yuccan
 u_site: https://yuccan.app/fr/
 u_affi: null
@@ -13,7 +11,8 @@ RS-&-RSS-suivi: null
 Ville: null
 title: 📣 Yuccan, Le Bouche À Oreille Au Service De Votre Développement
 author: Diane
-description: "📣 Yuccan, Le Bouche À Oreille Au Service De Votre Développement."
+description: 'Découvre 📣 Yuccan, Le Bouche À Oreille Au Service De Votre Développement
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -43,8 +42,8 @@ imgUrl: ../../../../assets/astro.jpeg
 ## 📱 Application Mobile
 
 Avec Yuccan, votre programme est publié sur une application mobile dédiée pour vos parrains & apporteurs d'affaires.
-[https://play.google.com/store/apps/details?id=com.audassia.yuccanlead](__MASK_3__)
-[https://apps.apple.com/fr/app/yuccan-lead/id1462431188](__MASK_4__)
+[https://play.google.com/store/apps/details?id=com.audassia.yuccanlead](https://play.google.com/store/apps/details?id=com.audassia.yuccanlead)
+[https://apps.apple.com/fr/app/yuccan-lead/id1462431188](https://apps.apple.com/fr/app/yuccan-lead/id1462431188)
 
 ## 💼 Récompenses En Cash et Légal
 

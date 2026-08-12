@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: flux
-toolFacets:
-  - marketplaces
-  - comparateurs
+section: apps
 metadataEnrichedAt: null
 title: BeezUP
 author: Diane
@@ -20,17 +15,17 @@ u_site: https://www.beezup.com
 
 # BeezUP
 
-# FLUX E-COMMERCE : LE GESTIONNAIRE QUI DIFFUSE TES PRODUITS SUR 2000+ CANAUX DANS 40 PAYS
+## FLUX E-COMMERCE : LE GESTIONNAIRE QUI DIFFUSE TES PRODUITS SUR 2000+ CANAUX DANS 40 PAYS
 
-## tl;dr
+### tl;dr
 
 BeezUP est une plateforme française de gestion de flux e-commerce fondée en 2009 par **Michel Racat** et **Charles Barat**, deux anciens e-commerçants frustrés par la difficulté de référencer leurs produits sur les comparateurs de prix. La plateforme centralise et automatise la diffusion des catalogues produits sur **2000+ canaux** dans **40 pays** : marketplaces (Amazon, eBay, Cdiscount, Fnac-Darty, ManoMano, Rakuten), comparateurs de prix (Kelkoo, Idealo), Google Shopping, réseaux sociaux (Facebook, Instagram, Pinterest), retargeting (Criteo) et affiliation. **2000 e-boutiques clientes** en Europe. **25 millions de produits** gérés par jour. Acquise par **Cdiscount** (Cnova/C-Logistics) en 2017. Autofinancée depuis le jour 1 (0€ de levée). Siège : 10 rue de Penthièvre, 75008 Paris. ~13 employés. Disponible en 5 langues (FR, EN, DE, ES, IT). Dès 224€/mois.
 
-## Alternative à
+### Alternative à
 
 Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sellermania, GoDataFeed. BeezUP se distingue par son intégration privilégiée à l'écosystème Cdiscount (maison-mère), ses modules bidirectionnels natifs (PrestaShop, WooCommerce, Shopify, Magento, Shopware), et son positionnement mid-market européen avec 15+ ans d'expérience.
 
-# Bénéfices
+## Bénéfices
 
 **2000+ canaux dans 40 pays** — Marketplaces, comparateurs de prix, Google Shopping, Product Ads (Bing, Facebook, Instagram, Pinterest), réseaux d'affiliation, retargeting (Criteo). Tu diffuses ton catalogue partout depuis une seule interface.
 
@@ -42,7 +37,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 
 **15+ ans de maturité** — Fondée en 2009, autofinancée depuis le premier jour, acquise par Cdiscount en 2017. Un produit stable et éprouvé, pas une startup en mode survie.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - E-commerçants vendant sur les marketplaces françaises et européennes
 - Marques et retailers multi-canaux qui veulent centraliser leur diffusion produit
@@ -51,9 +46,9 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 - Vendeurs Amazon, eBay, Cdiscount, Fnac-Darty, ManoMano, Rakuten
 - Tout e-commerçant avec un catalogue de plus de quelques centaines de produits
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Gestion de Flux Produits
+### Gestion de Flux Produits
 
 - **Import catalogue** — Import automatique de ton catalogue produits à fréquence personnalisable (formats XML, CSV, JSON)
 - **Mapping et catégorisation** — Adaptation des données produits aux exigences de chaque canal (titres, descriptions, catégories, attributs)
@@ -61,7 +56,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 - **Règles de distribution** — Filtrage et personnalisation des produits publiés par réseau
 - **Enrichissement des données** — Amélioration automatique des fiches produits pour maximiser la visibilité
 
-## Diffusion Multi-Canaux
+### Diffusion Multi-Canaux
 
 - **106+ marketplaces documentées** — Amazon V.2 (module avancé), Cdiscount, eBay, Fnac-Darty, Kaufland, ManoMano, Rakuten, La Redoute, Rue du Commerce, Zalando, Spartoo, FYNDIQ, JOOM, Kiabi, Brico Dépôt, Castorama, Leroy Merlin, Conforama, et 90+ autres
 - **Product Ads** — Google Shopping, Microsoft Advertising (Bing), Facebook Dynamic Ads, Instagram Shopping, Pinterest Shopping
@@ -69,33 +64,33 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 - **Retargeting** — Criteo et autres plateformes
 - **Affiliation** — Réseaux d'affiliation européens
 
-## Gestion des Commandes et Stocks
+### Gestion des Commandes et Stocks
 
 - **Centralisation des commandes** — Toutes les commandes marketplace remontent dans ta boutique en ligne
 - **Synchronisation bidirectionnelle** — Stocks et prix mis à jour en temps réel entre ta boutique et les marketplaces
 - **Gestion unifiée** — Un seul endroit pour traiter les commandes de tous tes canaux
 
-## Messagerie Marketplace ("Conversations")
+### Messagerie Marketplace ("Conversations")
 
 - **Centralisation des messages** — Tous les messages clients des marketplaces dans une seule interface
 - **Gestion multi-canaux** — Réponds aux clients Amazon, eBay, Cdiscount, etc. depuis un seul endroit
 
-## Analytics et Performance
+### Analytics et Performance
 
 - **Dashboard personnalisé** — KPIs en temps réel par canal
 - **Suivi par produit** — Performance individuelle de chaque référence
 - **ROI par réseau** — Mesure du retour sur investissement par canal de diffusion
 - **Comparaison multi-canaux** — Identifie les canaux les plus rentables
 
-## Cdiscount Ads Retail Solution
+### Cdiscount Ads Retail Solution
 
 - **Sponsored Products** — Publicité produit sponsorisé sur Cdiscount
 - **Sponsored Brands** — Visibilité de marque
 - **Premium Ads** — Emplacements premium
-- **Vidéo Offers** — Publicité vidéo
+- **Video Offers** — Publicité vidéo
 - **Smart Discount Vouchers** — Coupons intelligents
 
-# Prix
+## Prix
 
 | Plan | Mensuel (trimestriel) | Annuel (-10%) | Cible |
 |------|----------------------|---------------|-------|
@@ -114,9 +109,9 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 **Onboarding** : Dès 300€.
 **Marketplaces supplémentaires** : En option selon le plan.
 
-# Intégrations
+## Intégrations
 
-## Modules E-commerce Bidirectionnels
+### Modules E-commerce Bidirectionnels
 
 - **PrestaShop** — Module officiel BeezUP : synchronisation catalogue, commandes et stocks. Tracker statistiques pour comparateurs et affiliation
 - **WooCommerce** — Extension WordPress officielle : génération catalogue, sync commandes bidirectionnelle, tracker stats
@@ -124,7 +119,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 - **Magento** — Module d'intégration disponible
 - **Shopware** — Module disponible
 
-## API BeezUP Merchant
+### API BeezUP Merchant
 
 - **API REST** — Endpoints REST pour intégrations personnalisées
 - **OAuth** — Authentification sécurisée
@@ -133,7 +128,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 - **Multi-boutiques** — Gestion depuis un compte unique
 - **Formats supportés** — XML, CSV, JSON
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **2009** — Fondation par **Michel Racat** et **Charles Barat**, deux anciens e-commerçants. Ils développent BeezUP pour résoudre leur propre problème : gérer la diffusion de produits sur de multiples canaux d'acquisition. Autofinancée dès le premier jour (0€ de levée de fonds)
 - **2009-2017** — Croissance organique, développement du réseau de canaux européens, acquisition de clients comme Norauto, Lapeyre, Castorama
@@ -155,7 +150,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 - **Maxitoys** — Jouets
 - **Mobiliermoss** — Mobilier
 
-# Points Forts
+## Points Forts
 
 - 2000+ canaux de diffusion dans 40 pays — couverture massive
 - 25 millions de produits gérés par jour — robustesse technique prouvée
@@ -166,7 +161,7 @@ Lengow, ChannelAdvisor, Channable, DataFeedWatch, Feedonomics (BigCommerce), Sel
 - API REST complète et bien documentée
 - Clients de référence (Norauto, Lapeyre, Castorama, Intersport)
 
-# Points Faibles
+## Points Faibles
 
 - Prix élevé pour les petits e-commerçants (dès 224€/mois en annuel)
 - Pas d'offre gratuite ni d'essai gratuit mentionné

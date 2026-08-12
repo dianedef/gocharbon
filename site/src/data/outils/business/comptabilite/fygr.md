@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: indetermine
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.fygr.io/fr/legal/mentions-legales
-- https://www.fygr.io/
-notesQualification: Fygr est une SAS francaise basee a Louviers et immatriculee a l'ORIAS; la documentation publique est claire sur le siege mais laisse l'hebergement principal du produit assez flou, le site etant publie via Webflow.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Fygr
 author: Diane
 tags:

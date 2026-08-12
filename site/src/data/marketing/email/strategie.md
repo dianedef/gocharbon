@@ -1,61 +1,133 @@
 ---
 section: blog
-title: Stratégie email marketing
+title: Stratégie Email Marketing
 author: Diane
 tags:
 - Marketing
-description: Une stratégie email simple pour construire une liste saine, segmenter
-  intelligemment et convertir sans saturer.
+description: 'Stratégie email marketing claire : acquisition, segmentation, contenu,
+  mesure et plan d''action 30 jours.'
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Stratégie email marketing
+# Stratégie Email Marketing
 
-L'email reste un des canaux les plus rentables parce qu'il relie attention, relation et conversion. Mais il devient vite médiocre quand il sert juste à pousser des promos ou à remplir un calendrier.
+L'email reste un des canaux les plus rentables quand il est bien fait.
 
-Une bonne stratégie email cherche moins à envoyer plus qu'à envoyer mieux.
+Le but n'est pas d'envoyer "plus" d'emails. Le but est d'envoyer **le bon message, à la bonne personne, au bon moment**.
 
-## Les 4 bases d'une stratégie saine
+## Les 4 bases d'une stratégie solide
 
-### 1. Construire une liste propre
+## 1) Construire une liste saine
 
-Consentement clair, promesse claire, fréquence compréhensible. Pas d'achat de base, pas d'ambiguïté.
+Une bonne base email:
+- vient de consentements clairs,
+- est segmentée,
+- est nettoyée régulièrement.
 
-### 2. Segmenter sans usine à gaz
+À faire:
+- double opt-in,
+- formulaire clair (ce que la personne va recevoir),
+- nettoyage des inactifs tous les 60-90 jours.
 
-Tu n'as pas besoin de 24 segments au départ. Les plus utiles suffisent souvent :
+## 2) Segmenter intelligemment
 
-- nouveaux inscrits ;
-- prospects engagés ;
-- clients ;
-- inactifs.
+La segmentation évite d'envoyer le même email à tout le monde.
 
-### 3. Envoyer un contenu lisible
+Segments utiles pour commencer:
+- nouveaux inscrits,
+- prospects chauds,
+- clients actifs,
+- clients inactifs,
+- acheteurs récurrents.
 
-Chaque email devrait porter une seule idée principale et un seul appel à l'action.
+## 3) Créer un contenu utile
 
-### 4. Mesurer ce qui compte
+Une règle simple:
+- 70-80% valeur (conseils, cas, ressources),
+- 20-30% offre (vente, promo, appel).
 
-Ouvertures, clics, réponses, conversions, désabonnements. Pas juste les taux flatteurs.
+Structure d'email qui fonctionne:
+- objet clair,
+- ouverture courte,
+- une idée principale,
+- un CTA unique.
 
-## Une cadence réaliste
+## 4) Mesurer et améliorer
 
-- newsletter : 1 fois par semaine ou tous les 15 jours ;
-- séquence de bienvenue : 3 à 5 emails ;
-- relance d'inactifs : 1 campagne dédiée de temps en temps.
+Métriques clés:
+- **Taux d'ouverture** (qualité objet + réputation domaine),
+- **CTR** (taux de clic: clarté du message et du CTA),
+- **Taux de conversion** (ventes ou actions),
+- **Taux de désabonnement** (saturation ou mauvais ciblage).
 
-## Les erreurs à éviter
+## Cadence recommandée
 
-- objets trompeurs ;
-- trop de CTA ;
-- emails trop longs et mous ;
-- aucune segmentation ;
-- aucune hygiène de base.
+Pour débuter:
+- newsletter: 1 fois par semaine,
+- séquence de bienvenue: 3 à 5 emails,
+- relance inactifs: 1 campagne par mois.
 
-## Pour aller plus loin
+Mieux vaut une cadence stable que des "rafales" irrégulières.
 
-- [Automatisation email](/marketing/email/automation)
-- [Personnalisation email](/marketing/email/personnalisation)
+## Erreurs fréquentes
 
-L'email marketing fonctionne très bien quand la personne sent qu'on lui écrit avec une intention claire, pas parce qu'un logiciel avait une case à cocher.
+- acheter des listes,
+- écrire des objets trompeurs,
+- multiplier les CTA,
+- ignorer la mobile-first lecture,
+- ne jamais nettoyer la base.
+
+## Plan d'action 30 jours
+
+### Semaine 1
+- clarifier la promesse de la newsletter,
+- installer la collecte email,
+- préparer la séquence de bienvenue.
+
+### Semaine 2
+- créer 2 segments simples,
+- écrire 2 emails valeur,
+- écrire 1 email offre.
+
+### Semaine 3
+- lancer les envois,
+- analyser ouvertures + clics,
+- améliorer objets et CTA.
+
+### Semaine 4
+- nettoyer les inactifs,
+- ajuster la fréquence,
+- documenter la stratégie gagnante.
+
+## Outils utiles
+
+- plateforme email (Brevo, MailerLite, Klaviyo selon ton cas),
+- outil de capture (formulaire pop-up/inline),
+- suivi analytics (UTM + tableau simple).
+
+## Conclusion
+
+Une bonne stratégie email, c'est de la régularité + segmentation + messages utiles.
+
+Ensuite, tu peux passer à l'étape supérieure avec des scénarios automatiques:
+[Découvrir l'automatisation email →](/marketing/email/automation)
+
+## Ressources utiles pour continuer
+
+### Lectures liées
+
+- [Comment faire de l'automatisation marketing](/tutos/comment-faire-de-lautomatisation-marketing)
+- [Créer une liste email B2B pour la prospection](/tutos/comment-creer-une-liste-email-pour-de-la)
+
+### Outils et stratégies complémentaires
+
+- [Stratégie email: plan clair pour démarrer](/marketing/email/strategie)
+- [Automatisation email: scénarios essentiels](/marketing/email/automation)
+
+## Checklist express
+
+- [ ] Choisis un objectif unique pour cette étape.
+- [ ] Lance une première action test à petite échelle.
+- [ ] Mesure le résultat après 7 jours.
+- [ ] Ajuste avant de passer à l'échelle.

@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: hors-union-europeenne
-sourcesVerification:
-- https://www.dattak.io/fr/legal
-- https://www.dattak.io/fr/contact
-- https://www.dattak.io
-notesQualification: Dattak est une SAS francaise basee a Paris et immatriculee ORIAS; ses mentions legales indiquent un hebergement du site et des services chez Salesforce Inc., ce qui impose une lecture prudente sur la souverainete de l'infrastructure.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Dattak
 author: Diane
 tags:

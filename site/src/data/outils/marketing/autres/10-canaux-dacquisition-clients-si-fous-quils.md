@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: 10 Canaux D'Acquisition Clients Si Fous Qu'Ils Pourraient Être Illégaux
 author: Diane
-description: "10 Canaux D'Acquisition Clients Si Fous Qu'Ils Pourraient Être Illégaux."
+description: 'Découvre 10 Canaux D''Acquisition Clients Si Fous Qu''Ils Pourraient
+  Être Illégaux : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -47,7 +46,7 @@ Il s'agit du numéro 3 de cette série de 4 e-mails couvrant **Canaux d'acqui
 
 Le 30 octobre, Pieter Levels, fondateur de Nomad List et Remote OK, a tweeté :
 
-[https://ci5.googleusercontent.com/proxy/qij-C6MvueYCAub64blNgCLxgMg3nL07lxkmyzqs8GRhU_T20HGLYmEdyuSv7TGq0oNiNiaLaGyFxCwhq6SSkKmNGD8bRGQxXyfdxqhD81gAWk2VyeD_uk-CYOMZ_oLr2AkiqRU=s0-d-e1-ft#https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/ef2i8F6dTkFUMsax5WwNeQ/email](__MASK_6__)
+[https://ci5.googleusercontent.com/proxy/qij-C6MvueYCAub64blNgCLxgMg3nL07lxkmyzqs8GRhU_T20HGLYmEdyuSv7TGq0oNiNiaLaGyFxCwhq6SSkKmNGD8bRGQxXyfdxqhD81gAWk2VyeD_uk-CYOMZ_oLr2AkiqRU=s0-d-e1-ft#https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/ef2i8F6dTkFUMsax5WwNeQ/email](https://ci5.googleusercontent.com/proxy/qij-C6MvueYCAub64blNgCLxgMg3nL07lxkmyzqs8GRhU_T20HGLYmEdyuSv7TGq0oNiNiaLaGyFxCwhq6SSkKmNGD8bRGQxXyfdxqhD81gAWk2VyeD_uk-CYOMZ_oLr2AkiqRU=s0-d-e1-ft#https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/ef2i8F6dTkFUMsax5WwNeQ/email)
 
 Le tweet a immédiatement explosé et Pieter y a répondu avec un lien vers la startup sur laquelle il travaillait.
 
@@ -81,11 +80,11 @@ En seulement 24 heures, 35 000 personnes ont visité How to Say No, la collectio
 
 En moins de 2 semaines, 106 sites Web de haute autorité ont fourni un lien vers Kapwing, avec Cartoonify, leur outil gratuit alimenté par l'IA qui transforme les photos en dessins animés.
 
-[https://ci3.googleusercontent.com/proxy/Iu3R21-kC4rseW3YIggqjI_pMsYNJFQ_nT5gZHIpeCJoyG9ZhGhm_9jYNT5CK2f0zzHPtFU0NN83PD_ehDU-rkgSMYeWIcHU1Dgle326-pfBSVxFu8yPit_cpzWGJpA=s0-d-e1-ft#https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/xbmB8C4ioJMmmKRb9TQfb7](__MASK_10__)
+[https://ci3.googleusercontent.com/proxy/Iu3R21-kC4rseW3YIggqjI_pMsYNJFQ_nT5gZHIpeCJoyG9ZhGhm_9jYNT5CK2f0zzHPtFU0NN83PD_ehDU-rkgSMYeWIcHU1Dgle326-pfBSVxFu8yPit_cpzWGJpA=s0-d-e1-ft#https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/xbmB8C4ioJMmmKRb9TQfb7](https://ci3.googleusercontent.com/proxy/Iu3R21-kC4rseW3YIggqjI_pMsYNJFQ_nT5gZHIpeCJoyG9ZhGhm_9jYNT5CK2f0zzHPtFU0NN83PD_ehDU-rkgSMYeWIcHU1Dgle326-pfBSVxFu8yPit_cpzWGJpA=s0-d-e1-ft#https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/xbmB8C4ioJMmmKRb9TQfb7)
 
 Quel est le point commun entre ces chiffres ?
 
-Ils étaient tous les résultats d'une stratégie d'acquisition de clients appelée "Side Project Marketing" (également connue sous le nom de "Engineering as Marketing"). ** [Aujourd'hui, j'ai publié un guide de 3 000 mots à ce sujet.] ([https://click.convertkit-mail2.com/n4ulxmxqmxavh499r2h6/x0hph6hnx54p4ef5/aHR0cHM6Ly9mYWlsb3J5LmN](__MASK_11__)
+Ils étaient tous les résultats d'une stratégie d'acquisition de clients appelée "Side Project Marketing" (également connue sous le nom de "Engineering as Marketing"). ** [Aujourd'hui, j'ai publié un guide de 3 000 mots à ce sujet.] ([https://click.convertkit-mail2.com/n4ulxmxqmxavh499r2h6/x0hph6hnx54p4ef5/aHR0cHM6Ly9mYWlsb3J5LmN](https://click.convertkit-mail2.com/n4ulxmxqmxavh499r2h6/x0hph6hnx54p4ef5/aHR0cHM6Ly9mYWlsb3J5LmN)
 
 vbS9ibG9nL3NpZGUtcHJvamVjdC1tYXJrZXRpbmc=)**
 

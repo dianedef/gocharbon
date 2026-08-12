@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 _notes: null
 _priorité: normal
@@ -17,35 +17,25 @@ u_affiAdmin: null
 u_founder: null
 title: Kanbox
 author: Diane
-description: Kanbox aide à gérer la prospection LinkedIn avec une logique CRM légère, orientée suivi commercial et collaboration.
+description: 'Découvre Kanbox : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-# Kanbox
+# Contenu
+# Ressources
+Transformez votre Messagerie LINKEDIN en un CRM puissant pour ne plus jamais perdre de Prospect.
 
-## En bref
+Importez facilement des leads depuis LinkedIn et obtenez des données nettoyées. Refiltrez et segmentez vos listes de leads avec notre Gestionnaire de Leads. Trouvez des adresses e-mail professionnelles et vérifiées.
 
-Kanbox se situe au croisement de la prospection LinkedIn et du mini-CRM. L'intérêt n'est pas seulement d'automatiser des actions, mais de garder un suivi clair des conversations, des prospects et des relances dans un cadre plus lisible qu'un simple tableur.
+Automatisez votre Génération de Lead B2B Linkedin
 
-## Pour qui ?
 
-- Les commerciaux qui travaillent beaucoup depuis LinkedIn.
-- Les petites équipes qui veulent un pipeline de prospection simple.
-- Les agences ou freelances qui gèrent plusieurs flux de contact.
+Programmez le déclenchement automatique des visites de profil, des demandes de connexion, de l'envoi de messages et des relances sans effort.
 
-## Ce que l'outil fait bien
+Personnalisez vos messages avec des modèles et des variables.
 
-- Donner une vue plus structurée de la prospection.
-- Aider à suivre les échanges et prochaines actions.
-- Éviter la dispersion entre LinkedIn, notes, tableurs et rappels oubliés.
+Effectuez des tests A/B, mesurez et améliorez.
 
-## Ce qu'il faut garder en tête
-
-- Si ton besoin devient très CRM ou très automation, il faut vérifier jusqu'où le produit suit.
-- Un bon outil de suivi ne compense pas un mauvais ciblage.
-- Le danger classique est de confondre activité visible et vraie progression commerciale.
-
-## Verdict GoCharbon
-
-Kanbox semble intéressant pour les équipes qui veulent plus de rigueur dans leur prospection LinkedIn, sans basculer tout de suite dans un stack commercial plus lourd.
+Suivez vos campagnes en temps réel avec des pipelines CRM automatisés, déplaçant automatiquement vos leads de colonne en colonne.

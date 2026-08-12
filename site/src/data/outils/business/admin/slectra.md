@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-17'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://selectra.info/mentions-legales
-- https://selectra.info
-notesQualification: Selectra est une societe francaise, avec hebergement Google Cloud annonce en Belgique dans les mentions legales.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: slectra
 author: Diane
 tags:

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Pappers
 author: Diane
@@ -14,15 +14,15 @@ u_site: https://www.pappers.fr/
 
 # Pappers
 
-## INTELLIGENCE COMMERCIALE : LE WIKIPEDIA DES ENTREPRISES FRANÇAISES
+## INTELLIGENCE COMMERCIALE : LE WIKIPEDIA DES ENTREPRISES FRANCAISES
 
 ### tl;dr
 
-Pappers est une plateforme française qui donne un accès gratuit et illimité aux données légales, juridiques et financières de plus de 22 millions d'entreprises françaises. Fondée en 2020 par Pierre Fruchard, Romain Banchetti et Antoine Fruchard, la plateforme agrège 70 millions de documents officiels issus de l'INPI, de l'INSEE et du BODACC. Avec 3 millions d'utilisateurs mensuels et 1,16 million de recherches Google par mois sur le seul mot "Pappers", elle a pulvérisé le monopole d'Infogreffe et de Société.com en rendant gratuites des informations autrefois payantes (3,20 euros le simple Kbis sur Infogreffe). L'accès de base est entièrement gratuit, sans compte obligatoire. Les offres premium (API, surveillance, exports, scoring, enrichissement) sont payantes et constituent le modele economique de la plateforme. Pappers s'est aussi diversifiée avec Pappers Justice, Pappers Politique, Pappers Services et Pappers Immobilier.
+Pappers est une plateforme française qui donne un accès gratuit et illimité aux données légales, juridiques et financières de plus de 22 millions d'entreprises françaises. Fondée en 2020 par Pierre Fruchard, Romain Banchetti et Antoine Fruchard, la plateforme agrège 70 millions de documents officiels issus de l'INPI, de l'INSEE et du BODACC. Avec 3 millions d'utilisateurs mensuels et 1,16 million de recherches Google par mois sur le seul mot "Pappers", elle a pulvérisé le monopole d'Infogreffe et de Societe.com en rendant gratuites des informations autrefois payantes (3,20 euros le simple Kbis sur Infogreffe). L'accès de base est entièrement gratuit, sans compte obligatoire. Les offres premium (API, surveillance, exports, scoring, enrichissement) sont payantes et constituent le modele economique de la plateforme. Pappers s'est aussi diversifiée avec Pappers Justice, Pappers Politique, Pappers Services et Pappers Immobilier.
 
 ### Alternative à
 
-- **Société.com** -- L'acteur historique, mais modèle payant et interface vieillissante. Pappers offre gratuitement ce que Société.com facture
+- **Societe.com** -- L'acteur historique, mais modèle payant et interface vieillissante. Pappers offre gratuitement ce que Societe.com facture
 - **Infogreffe** -- Le site officiel des greffes, mais payant (3,20 euros/Kbis) et UX datée. Pappers a rendu son modèle obsolète
 - **Verif.com** -- Base de données d'entreprises avec fiches gratuites mais limitées
 - **BFM Verify / Manageo** -- Outils de vérification d'entreprises avec approche freemium
@@ -235,7 +235,7 @@ Les tarifs des offres premium (API, surveillance, exports, enrichissement, scori
 
 - Gratuité totale et illimitée sur les données essentielles -- un modèle unique en France
 - Base de données massive : 22 millions d'entreprises, 70 millions de documents
-- Interface moderne, rapide et intuitive, des années-lumière devant Infogreffe et Société.com
+- Interface moderne, rapide et intuitive, des années-lumière devant Infogreffe et Societe.com
 - Pas de compte obligatoire pour les recherches de base
 - API puissante et bien documentée pour les intégrations techniques
 - Écosystème complet : Entreprises, Justice, Politique, Services, Immobilier

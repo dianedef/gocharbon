@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -52,7 +52,7 @@ Do your work, then step back. Recharge, then repeat. If you do this a few years 
 
 That, my friend, is how you play the long game.
 
-Use analytics as a source of insight when you are making strategic décisions about your website and your portfolio as a whole.
+Use analytics as a source of insight when you are making strategic decisions about your website and your portfolio as a whole.
 
 Don’t use them as an excuse to slack off and distract yourself from the work that gets you ahead.
 

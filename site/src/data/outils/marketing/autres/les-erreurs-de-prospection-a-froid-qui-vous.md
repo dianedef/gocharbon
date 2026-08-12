@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Les Erreurs De Prospection À Froid Qui Vous Coûtent Des Millions
 author: Diane
-description: "Les Erreurs De Prospection À Froid Qui Vous Coûtent Des Millions."
+description: 'Découvre Les Erreurs De Prospection À Froid Qui Vous Coûtent Des Millions
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -24,4 +23,4 @@ Template :
 * Tu te treompes, tes énergies sont comme un boomerang, tu les lâche en pleine nature et elle te reviennent en pleine figure, avec la force de la puissance de leur élans dans les airs DONC
 * TROUVE COMMENT TU PEUX AIDER LE MONDE ET METS UN PRIX DESSUS. VENDS LE. DANS UN PRODUIT, une offre, ou en faisant un travail salarié
 ALLEZ VOUS TROUVER UN JOB DECENT
-NUMÉRO WHATSAPP SI TU VEUX TE FAIRE ENGUEULER : +33(ajoute ton num car j'ai pas à me taper tous les scammers de la terre même si ils viendront pas 🤣)
+NUMERO WHATSAPP SI TU VEUX TE FAIRE ENGUEULER : +33(ajoute ton num car j'ai pas à me taper tous les scammers de la terre même si ils viendront pas 🤣)

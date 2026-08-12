@@ -44,7 +44,7 @@ Vendre du conseil stratégique avec des actions concrètes qui font avancer le b
 - [Fiche profil Consulting](/biz/profils/consulting)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/conseil)
+- [Suivi du parcours](/parcours/consulting)
 - [Ressource utile 1](/performance/plan/analyse-marche)
 - [Ressource utile 2](/performance/plan/business-plan)
 - [Ressource utile 3](/marketing/client/experience-client)

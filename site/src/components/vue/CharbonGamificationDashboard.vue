@@ -210,40 +210,46 @@ onBeforeUnmount(() => {
 .dashboard {
   display: flex;
   flex-direction: column;
-  gap: var(--gamification-dashboard-gap);
-  max-width: var(--gamification-dashboard-max-width);
+  gap: 2rem;
+  max-width: 48rem;
   margin: 0 auto;
 }
 
 .dashboard-section {
-  padding: var(--gamification-dashboard-section-padding);
-  border: var(--gamification-dashboard-section-border);
-  border-radius: var(--gamification-dashboard-section-radius);
-  background: var(--gamification-dashboard-section-background);
-  box-shadow: var(--gamification-dashboard-section-shadow);
-  color: var(--gamification-dashboard-section-color, inherit);
+  padding: 1.5rem;
+  border: 3px solid var(--brand-black);
+  border-radius: 0.75rem;
+  background: var(--brand-cream);
+  box-shadow: 6px 6px 0 var(--brand-black);
+}
+
+:global(.dark) .dashboard-section {
+  background: var(--brand-ink);
+  border-color: var(--brand-cream);
+  box-shadow: 6px 6px 0 var(--brand-cream);
+  color: var(--brand-cream);
 }
 
 .section-title {
-  font-family: var(--gamification-dashboard-section-title-font-family);
-  font-size: var(--gamification-dashboard-section-title-size);
-  font-weight: var(--gamification-dashboard-section-title-weight);
-  margin-bottom: var(--gamification-dashboard-section-title-margin-bottom);
-  padding-bottom: var(--gamification-dashboard-section-title-padding-bottom);
-  border-bottom: var(--gamification-dashboard-section-title-border-bottom);
+  font-family: 'Sanchez', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid currentColor;
 }
 
 /* Streak */
 .streak-card {
   display: flex;
   align-items: center;
-  gap: var(--gamification-dashboard-streak-gap);
+  gap: 1rem;
 }
 
 .streak-fire {
-  font-size: var(--gamification-dashboard-streak-icon-size);
-  opacity: var(--gamification-dashboard-streak-icon-opacity);
-  transition: var(--gamification-dashboard-streak-transition);
+  font-size: 3rem;
+  opacity: 0.3;
+  transition: opacity 0.3s;
 }
 
 .streak-fire.active {
@@ -256,81 +262,86 @@ onBeforeUnmount(() => {
 }
 
 .streak-current {
-  font-size: var(--gamification-dashboard-streak-current-size);
-  font-weight: var(--gamification-dashboard-streak-current-weight);
-  font-family: var(--gamification-dashboard-streak-current-font-family);
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Sanchez', serif;
 }
 
 .streak-best {
-  font-size: var(--gamification-dashboard-streak-best-size);
-  opacity: var(--gamification-dashboard-streak-best-opacity);
+  font-size: 0.875rem;
+  opacity: 0.7;
 }
 
 /* Stats */
 .stats-grid {
   display: grid;
-  grid-template-columns: var(--gamification-dashboard-stats-grid-columns);
-  gap: var(--gamification-dashboard-stats-grid-gap);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .stat-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: var(--gamification-dashboard-stat-card-padding);
-  border: var(--gamification-dashboard-stat-card-border);
-  border-radius: var(--gamification-dashboard-stat-card-radius);
-  background: var(--gamification-dashboard-stat-card-background);
+  padding: 1rem;
+  border: 2px solid var(--brand-black);
+  border-radius: 0.5rem;
+  background: var(--brand-yellow);
+}
+
+:global(.dark) .stat-card {
+  background: var(--brand-anthracite);
+  border-color: var(--brand-cream);
 }
 
 .stat-value {
-  font-size: var(--gamification-dashboard-stat-value-size);
-  font-weight: var(--gamification-dashboard-stat-value-font-weight);
-  font-family: var(--gamification-dashboard-stat-value-font-family);
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Sanchez', serif;
 }
 
 .stat-label {
-  font-size: var(--gamification-dashboard-stat-label-size);
-  text-transform: var(--gamification-dashboard-stat-label-transform);
-  opacity: var(--gamification-dashboard-stat-label-opacity);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  opacity: 0.8;
 }
 
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .stats-grid {
-    grid-template-columns: var(--gamification-dashboard-stats-grid-columns-medium);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (width <= 580px) {
+@media (max-width: 580px) {
   .stats-grid {
-    grid-template-columns: var(--gamification-dashboard-stats-grid-columns-small);
+    grid-template-columns: 1fr;
   }
 }
 
 /* Badges */
 .badges-grid {
   display: grid;
-  grid-template-columns: var(--gamification-dashboard-badges-grid-columns);
-  gap: var(--gamification-dashboard-badges-grid-gap);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
 }
 
 /* Progress */
 .progress-list {
   display: flex;
   flex-direction: column;
-  gap: var(--gamification-dashboard-progress-list-gap);
+  gap: 0.75rem;
 }
 
 .progress-item {
   display: flex;
   flex-direction: column;
-  gap: var(--gamification-dashboard-progress-item-gap);
+  gap: 0.25rem;
 }
 
 .progress-label {
   display: flex;
   justify-content: space-between;
-  font-size: var(--gamification-dashboard-progress-label-size);
+  font-size: 0.875rem;
 }
 
 .progress-cat {
@@ -343,17 +354,22 @@ onBeforeUnmount(() => {
 }
 
 .progress-track {
-  height: var(--gamification-dashboard-progress-track-height);
-  background: var(--gamification-dashboard-progress-track-background);
-  border-radius: var(--gamification-dashboard-progress-track-radius);
-  border: var(--gamification-dashboard-progress-track-border);
+  height: 0.5rem;
+  background: var(--brand-cream-warm);
+  border-radius: 9999px;
+  border: 1px solid var(--brand-black);
   overflow: hidden;
 }
 
+:global(.dark) .progress-track {
+  background: var(--brand-soot);
+  border-color: var(--brand-cream);
+}
+
 .progress-fill {
-  height: var(--gamification-dashboard-progress-fill-height);
-  background: var(--gamification-dashboard-progress-fill-background);
-  border-radius: var(--gamification-dashboard-progress-track-radius);
-  transition: var(--gamification-dashboard-progress-fill-transition);
+  height: 100%;
+  background: var(--brand-orange);
+  border-radius: 9999px;
+  transition: width 0.5s ease;
 }
 </style>

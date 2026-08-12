@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,7 +8,9 @@ u_site: null
 title: 5 Idées De Business Ridiculement Faciles À Développer En Parallèle De Ton Activité
   Salariée
 author: Diane
-description: "5 Idées De Business Ridiculement Faciles À Développer En Parallèle De Ton Activité Salariée."
+description: 'Découvre 5 Idées De Business Ridiculement Faciles À Développer En Parallèle
+  De Ton Activité Salariée : outil français pour entrepreneurs, fonctionnalités et
+  avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: marketing-automation
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: erreurs-marketing
@@ -12,7 +10,8 @@ u_affi: null
 title: Les Erreurs Marketing Fatales Qui Ont Ruiné Des Empires Ne Les Reproduisez
   Pas
 author: Diane
-description: "Les Erreurs Marketing Fatales Qui Ont Ruiné Des Empires Ne Les Reproduisez Pas."
+description: 'Découvre Les Erreurs Marketing Fatales Qui Ont Ruiné Des Empires Ne
+  Les Reproduisez Pas : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: copywriting
 u_site: null
 title: Séduisez Votre Audience Comme Par Magie Les Techniques Secrètes Dévoilées
 author: Diane
-description: "Séduisez Votre Audience Comme Par Magie Les Techniques Secrètes Dévoilées."
+description: 'Découvre Séduisez Votre Audience Comme Par Magie Les Techniques Secrètes
+  Dévoilées : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

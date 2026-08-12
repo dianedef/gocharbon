@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 u_externe: null
 u_interne: null
@@ -19,26 +19,22 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Gorilla Llm
+# Contenu
+https://openai.com/index/function-calling-and-other-api-updates/
+[Introduction to Gorilla LLM](https://gorilla.cs.berkeley.edu/blogs/1_gorilla_intro.html)
+[Berkeley Function Calling Leaderboard V3 (aka Berkeley Tool Calling Leaderboard V3)](https://gorilla.cs.berkeley.edu/leaderboard.html)
+[ShishirPatil/gorilla: Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)](https://github.com/ShishirPatil/gorilla/tree/main)
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html
+https://gorilla.cs.berkeley.edu/blogs/12_bfcl_v2_live.html
+https://gorilla.cs.berkeley.edu/blogs/11_agent_marketplace.html
+https://gorilla.cs.berkeley.edu/blogs/10_gorilla_exec_engine.html
+https://gorilla.cs.berkeley.edu/blogs/9_raft.html
+https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
+https://gorilla.cs.berkeley.edu/blogs/6_api_zoo.html
+https://gorilla.cs.berkeley.edu/blogs/5_how_to_gorilla.html
+https://gorilla.cs.berkeley.edu/blogs/4_open_functions.html
+https://gorilla.cs.berkeley.edu/blogs/3_retriever_aware_training.html
+https://gorilla.cs.berkeley.edu/blogs/2_hallucination.html
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
-
-## Ressources de départ
-- [https://gorilla.cs.berkeley.edu/blogs/1_gorilla_intro.html](https://gorilla.cs.berkeley.edu/blogs/1_gorilla_intro.html)
-- [https://gorilla.cs.berkeley.edu/leaderboard.html](https://gorilla.cs.berkeley.edu/leaderboard.html)
-- [https://github.com/ShishirPatil/gorilla/tree/main](https://github.com/ShishirPatil/gorilla/tree/main)
-- [https://openai.com/index/function-calling-and-other-api-updates/](https://openai.com/index/function-calling-and-other-api-updates/)
-- [https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
-
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+# Ressource

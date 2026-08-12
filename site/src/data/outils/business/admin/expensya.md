@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-qualificationLocale: union-europeenne
-ancrageEconomique: faible
-niveauResponsabilite: partiel
-paysSiege: Suede
-hebergementDonnees: inconnu
-societeMere: Medius Sverige AB
-sourcesVerification:
-- https://www.expensya.com/fr/juridique/politique-de-confidentialite/
-- https://www.expensya.com/fr/contactez-nous/
-notesQualification: Expensya opere desormais sous Medius, groupe suedois; presence commerciale a Paris mais ancrage principal non francais dans les pages legales consultees.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Expensya
 author: Diane
 tags:

@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Manipulez Subtilement Vos Clients Avec Ces Astuces De Biais Cognitifs Choc
 author: Diane
-description: "Manipulez Subtilement Vos Clients Avec Ces Astuces De Biais Cognitifs Choc."
+description: 'Découvre Manipulez Subtilement Vos Clients Avec Ces Astuces De Biais
+  Cognitifs Choc : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -96,7 +95,7 @@ taffer son autorité branding régularité
         
         Le CRO consiste à mettre en place un faisceau de techniques et de dispositifs visant à optimiser le taux de conversion et donc la performance d’un site web ou d’une application mobile. Concrètement, comment procéder ? Voici quelques étapes clés :
         
-        Déterminer les objectifs du site web et de ses différentes pages : vendre un produit, diffuser de l’information, inciter à demander un devis… – Mesurer le taux de conversion et analyser les données pertinentes, notamment avec des outils de web analytics, des tests « live » auprès d’utilisateurs pour des retours concrets d’expérience… – Identifier les freins à la transformation, trouver des solutions et prioriser les tâches à mettre en œuvre : à quel moment un panier d’achat est abandonné et pour quelles raisons, pourquoi la landing page ne génère pas de trafic, dans quelle mesure le formulaire de contact est-il rempli, la demande de devis est-elle bien réceptionnée… – Procéder à l’optimisation et valider les hypothèses par des A/B Tests, des tests multivariés… – Récolter les questions récurrentes posées par les internautes afin de leur apporter l’information manquante.
+        Déterminer les objectifs du site web et de ses différentes pages : vendre un produit, diffuser de l’information, inciter à demander un devis… – Mesurer le taux de conversion et analyser les données pertinentes, notamment avec des outils de web analytics, des tests « live » auprès d’utilisateurs pour des retours concrets d’expérience… – Identifier les freins à la transformation, trouver des solutions et prioriser les taches à mettre en œuvre : à quel moment un panier d’achat est abandonné et pour quelles raisons, pourquoi la landing page ne génère pas de trafic, dans quelle mesure le formulaire de contact est-il rempli, la demande de devis est-elle bien réceptionnée… – Procéder à l’optimisation et valider les hypothèses par des A/B Tests, des tests multivariés… – Récolter les questions récurrentes posées par les internautes afin de leur apporter l’information manquante.
         
         ### Les principaux leviers du CRO
         

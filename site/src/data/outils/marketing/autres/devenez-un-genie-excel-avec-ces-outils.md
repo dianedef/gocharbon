@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Devenez Un Génie Excel Avec Ces Outils Extraordinaires
 author: Diane
-description: "Devenez Un Génie Excel Avec Ces Outils Extraordinaires."
+description: 'Découvre Devenez Un Génie Excel Avec Ces Outils Extraordinaires : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

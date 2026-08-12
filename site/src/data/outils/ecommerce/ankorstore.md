@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: marketplace
-toolFacets:
-  - b2b
-  - wholesale
+section: apps
 metadataEnrichedAt: null
 title: Ankorstore
 author: Diane
@@ -19,17 +14,17 @@ u_site: https://www.ankorstore.com
 
 # Ankorstore
 
-# MARKETPLACE B2B : LA CENTRALE D'ACHAT DIGITALE QUI PROPULSE LES COMMERCES INDÉPENDANTS
+## MARKETPLACE B2B : LA CENTRALE D'ACHAT DIGITALE QUI PROPULSE LES COMMERCES INDÉPENDANTS
 
-## tl;dr
+### tl;dr
 
 Ankorstore est la marketplace B2B européenne qui connecte les **marques indépendantes** aux **détaillants et boutiques de proximité**. Fondée en **2019** à Paris par **Pierre-Louis Lacoste**, **Nicolas d'Audiffret**, **Nicolas Cohen** et **Mathieu Alengrin** (anciens fondateurs d'A Little Market racheté par Etsy), Ankorstore a levé plus de **500 millions d'euros** au total (dont une Série D de 250M€ en 2022 à une valorisation de 1,75 milliard d'euros) et est devenue une licorne française. La plateforme regroupe plus de **30 000 marques** et plus de **300 000 détaillants** dans **9 pays européens** (France, Allemagne, Royaume-Uni, Pays-Bas, Belgique, Espagne, Italie, Autriche, Suède). Le concept : tu es commerçant, tu centralises tes achats auprès de dizaines de fournisseurs sur une seule plateforme, avec un minimum de commande de **100€** seulement (multi-marques), une livraison groupée pour réduire les frais de port, et un paiement différé à **60 jours**. Côté marques, Ankorstore prend **0% de commission** sur les ventes — le modèle économique repose sur les frais facturés aux détaillants. Comme l'explique Nicolas Pivot, gérant de Ma Boutique Alternative à Montpellier : "Ça centralise tout. On va choisir de 1 à 3 fournisseurs ou même plus et on va obtenir des délais de paiement qui sont centralisés. C'est beaucoup plus facile d'avoir juste une traite." Catégories phares : maison & déco, beauté, alimentation, mode, enfants, papeterie.
 
-## Alternative à
+### Alternative à
 
 Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricolage), Kompass, les salons professionnels physiques (Maison & Objet, Who's Next). Ankorstore se distingue par son **envergure européenne** (9 pays, 30 000 marques), le **paiement à 60 jours** pour les détaillants (trésorerie préservée), le **franco de port multi-marques** à partir de 300€, et la **zéro commission pour les marques**.
 
-# Bénéfices
+## Bénéfices
 
 **Centralise tous tes achats fournisseurs en un seul endroit** — Au lieu de passer commande marque par marque avec autant de factures, de livraisons et de conditions de paiement différentes, Ankorstore centralise tout. Tu commandes chez 5, 10 ou 50 fournisseurs différents et tu reçois une seule facture, un seul paiement, une seule livraison groupée. Pour un commerçant qui gère 50 fournisseurs comme Nicolas Pivot, c'est une révolution logistique et administrative.
 
@@ -41,7 +36,7 @@ Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricol
 
 **Zéro commission pour les marques** — Contrairement aux marketplaces classiques qui prélèvent 15 à 30% de commission, Ankorstore ne prend aucune commission sur les ventes des marques. Le prix que la marque fixe est le prix qu'elle touche. Ce modèle attire des marques de qualité qui conservent leurs marges.
 
-## Pour Qui ?
+### Pour Qui ?
 
 - **Boutiques indépendantes et concept stores** qui veulent diversifier leur offre sans multiplier les interlocuteurs fournisseurs
 - **Commerces écoresponsables** comme Ma Boutique Alternative à Montpellier, qui cherchent des produits durables et éthiques
@@ -51,7 +46,7 @@ Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricol
 - **Créateurs et designers** qui veulent se lancer dans le wholesale B2B sans la complexité logistique
 - **Fleuristes, salons de coiffure, instituts de beauté** qui veulent vendre des produits complémentaires
 
-# Comment Utiliser Ankorstore
+## Comment Utiliser Ankorstore
 
 1. **Inscris-toi comme détaillant ou comme marque** — L'inscription est gratuite. Fournis ton numéro SIRET (ou équivalent européen) et les informations de ta boutique
 2. **Explore le catalogue** — Parcours les 30 000+ marques par catégorie (maison, beauté, alimentation, mode, enfants, papeterie). Utilise les filtres par pays d'origine, prix, nouveautés
@@ -61,9 +56,9 @@ Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricol
 6. **Réceptionne ta livraison groupée** — Tous les produits commandés chez différentes marques arrivent dans un même envoi
 7. **Réapprovisionne facilement** — Les réassorts sont simplifiés avec un minimum de commande réduit après la première commande
 
-# Fonctionnalités
+## Fonctionnalités
 
-## Catalogue et Découverte
+### Catalogue et Découverte
 
 - **30 000+ marques** référencées dans 9 pays européens
 - **Catégories** : maison & déco, beauté & bien-être, alimentation & boissons, mode & accessoires, enfants & bébé, papeterie & bureau, jardin, animaux
@@ -72,7 +67,7 @@ Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricol
 - **Recommandations personnalisées** basées sur ton profil de boutique et tes achats précédents
 - **Collections saisonnières** et sélections thématiques curatées par l'équipe Ankorstore
 
-## Commandes et Paiements
+### Commandes et Paiements
 
 - **Minimum de commande de 100€** par marque (première commande) — réduit pour les réassorts
 - **Franco de port multi-marques** à partir de 300€ d'achats combinés
@@ -81,7 +76,7 @@ Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricol
 - **Livraison groupée** — tous les produits de marques différentes dans un seul envoi
 - **Suivi de commande** en temps réel depuis le tableau de bord
 
-## Outils pour les Marques
+### Outils pour les Marques
 
 - **Vitrine en ligne** personnalisable avec photos, descriptions, conditions wholesale
 - **Gestion des stocks** et des commandes depuis un back-office dédié
@@ -90,7 +85,7 @@ Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricol
 - **Zéro commission** sur les ventes — la marque fixe ses prix et garde 100% de sa marge
 - **Logistique simplifiée** : Ankorstore peut gérer l'expédition groupée
 
-## Outils pour les Détaillants
+### Outils pour les Détaillants
 
 - **Tableau de bord centralisé** pour suivre toutes les commandes et les livraisons
 - **Historique d'achats** et réassort en un clic
@@ -98,7 +93,7 @@ Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricol
 - **Chat intégré** pour communiquer avec les marques
 - **Factures centralisées** téléchargeables pour la comptabilité
 
-# Prix
+## Prix
 
 **Inscription gratuite** pour les détaillants et les marques.
 
@@ -113,7 +108,7 @@ Faire Mouche, Orderchamp, Tundra, Creoate, Abound, Mano Mano Pro (pour le bricol
 
 Le modèle économique d'Ankorstore repose sur les frais de service facturés aux détaillants, pas sur les commissions aux marques. Les marques conservent 100% de leur marge.
 
-# Intégrations
+## Intégrations
 
 - **CMS e-commerce** : Shopify, WooCommerce, PrestaShop (pour les marques qui vendent aussi en ligne)
 - **ERP** : intégration possible via API pour la gestion des stocks et commandes
@@ -121,7 +116,7 @@ Le modèle économique d'Ankorstore repose sur les frais de service facturés au
 - **Logistique** : Ankorstore gère la logistique groupée — pas besoin d'intégration transporteur côté détaillant
 - **API** : disponible pour les marques avec gros volumes
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **Fondée en 2019** à Paris par **Pierre-Louis Lacoste**, **Nicolas d'Audiffret**, **Nicolas Cohen** et **Mathieu Alengrin** — tous les quatre co-fondateurs d'**A Little Market**, la marketplace artisanale française rachetée par **Etsy** en 2014
 - **2020** : première levée de fonds (Série A), lancement de la plateforme en France
@@ -134,7 +129,7 @@ Le modèle économique d'Ankorstore repose sur les frais de service facturés au
 - **Plus de 500 employés** au pic (avant restructuration)
 - **Mentionné dans** : Les Echos, TechCrunch, France Bleu, BFM Business, Maddyness
 
-# Témoignages
+## Témoignages
 
 > "C'est une plateforme d'achat, une centrale d'achat qui va nous permettre de référencer des fournisseurs et ensuite de minimiser les frais de port. C'est vraiment le but premier et ça centralise aussi tout ce qui est moyen de paiement. Les délais de paiement aussi." — **Nicolas Pivot, Gérant de Ma Boutique Alternative, Montpellier** (France Bleu Hérault)
 
@@ -142,7 +137,7 @@ Le modèle économique d'Ankorstore repose sur les frais de service facturés au
 
 > "C'est gagnant pour Ankorstore. C'est gagnant pour les commerçants et c'est gagnant aussi pour les marques." — **Nicolas Pivot, sur le modèle multi-gagnant**
 
-# Cas d'Usage Concrets
+## Cas d'Usage Concrets
 
 - **La boutique écoresponsable** : comme Ma Boutique Alternative à Montpellier, tu vends des produits durables et éthiques (ustensiles de cuisine, cosmétiques, déco, jeux d'enfants). Au lieu de gérer 50 fournisseurs individuellement, tu commandes tout sur Ankorstore. Résultat : une seule facture, un paiement dans 60 jours, des frais de port mutualisés
 - **Le concept store qui se lance** : tu ouvres ta boutique et tu veux tester plein de marques différentes. Le minimum de 100€ par marque te permet de tester sans gros investissement, et le paiement à 60 jours te laisse le temps de voir ce qui se vend
@@ -150,7 +145,7 @@ Le modèle économique d'Ankorstore repose sur les frais de service facturés au
 - **La marque artisanale française** : tu fabriques des bougies ou des cosmétiques naturels. Au lieu de démarcher les boutiques une par une, tu crées ta vitrine sur Ankorstore et tu es visible auprès de 300 000 détaillants en Europe. Zéro commission sur tes ventes
 - **Le fleuriste ou le salon de beauté** : tu veux vendre des produits complémentaires (bougies, soins, accessoires). Ankorstore te permet de te fournir facilement avec des conditions wholesale
 
-# Points Forts
+## Points Forts
 
 - Plateforme B2B européenne leader avec 30 000+ marques et 300 000+ détaillants
 - Paiement à 60 jours pour les détaillants — préservation de la trésorerie
@@ -162,7 +157,7 @@ Le modèle économique d'Ankorstore repose sur les frais de service facturés au
 - Minimum de commande bas (100€) — permet de tester des marques sans risque
 - Catégories variées : déco, beauté, alimentation, mode, enfants, papeterie
 
-# Points Faibles
+## Points Faibles
 
 - **Restructuration en cours** — Après sa croissance explosive et sa valorisation licorne, Ankorstore a dû restructurer (réduction d'effectifs, focus rentabilité). La pérennité du modèle à long terme reste à prouver
 - **Minimum de 100€ par marque** pour la première commande — peut freiner les très petites boutiques qui veulent tester un seul produit

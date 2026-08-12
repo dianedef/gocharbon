@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
 imageNameKey: null
 u_site: null
 title: Transformez L'Interface De Wordpress En Machine De Guerre Du Seo
 author: Diane
-description: "Transformez L'Interface De Wordpress En Machine De Guerre Du Seo."
+description: 'Découvre Transformez L''Interface De Wordpress En Machine De Guerre
+  Du Seo : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

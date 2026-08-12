@@ -1,10 +1,9 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro";
-import { Home, ChevronRight } from "@lucide/astro";
-import { SITE } from "../../config/site";
-import { ROUTES } from "../../config/routes";
-import { isParcoursOnlyBuild } from "../../utils/build-scope";
-import { getResolvedBreadcrumbs } from "../../utils/internal-links";
+import { Breadcrumbs } from "astro-breadcrumbs";
+import "astro-breadcrumbs/breadcrumbs.css";
+import { Home, ChevronRight } from "lucide-astro";
+import { breadcrumbsConfig } from "../../config/breadcrumbs";
 import type {
 	BaseNavigationProps,
 	NavigationItem,
@@ -13,48 +12,42 @@ import type {
 
 type Props = BaseNavigationProps;
 
-const launchBuild = isParcoursOnlyBuild();
-const navigationItems: NavigationItem[] = launchBuild
-	? [{ name: "Parcours", url: ROUTES.parcours }]
-	: [
-		{ name: "Parcours", url: ROUTES.parcours },
-		{ name: "Outils", url: ROUTES.outils },
-		{ name: "Blog", url: ROUTES.blog },
-		{ name: "Tutos", url: ROUTES.tutos },
-		{ name: "Progression", url: ROUTES.progression },
-	];
+const navigationItems: NavigationItem[] = [
+	{ name: "Parcours", url: "/parcours" },
+	{ name: "Apps", url: "/apps" },
+	{ name: "Blog", url: "/blog" },
+	{ name: "Tutos", url: "/tutos" },
+	{ name: "Progression", url: "/progression" },
+];
 
 const socialIcons: SocialLink[] = [
 	{
 		name: "YouTube",
-		url: SITE.social.youtube,
+		url: "https://www.youtube.com/@charbon",
 		icon: "i-uil-youtube",
 	},
 	{
 		name: "Twitter",
-		url: SITE.social.x,
+		url: "https://x.com/charbon",
 		icon: "i-uil-twitter",
 	},
 	{
 		name: "Instagram",
-		url: SITE.social.instagram,
+		url: "https://www.instagram.com/charbon",
 		icon: "i-uil-instagram",
 	},
 	{
 		name: "LinkedIn",
-		url: SITE.social.linkedin,
+		url: "https://www.linkedin.com/company/charbon",
 		icon: "i-uil-linkedin",
 	},
 	{
 		name: "Facebook",
-		url: SITE.social.facebook,
+		url: "https://www.facebook.com/charbon",
 		icon: "i-uil-facebook",
 	},
+	{ name: "RSS", url: "/feed.xml", icon: "i-uil-rss" },
 ];
-
-if (!launchBuild) {
-	socialIcons.push({ name: "RSS", url: ROUTES.feed, icon: "i-uil-rss" });
-}
 
 const { pageTitle } = Astro.props;
 const worldIcons = {
@@ -62,20 +55,6 @@ const worldIcons = {
 	mine: "/world/mine.svg",
 	or: "/world/or.svg",
 };
-
-const breadcrumbLabels: Record<string, string> = {
-	tech: "Technologie",
-	business: "Business",
-	outils: "Outils",
-	methodologie: "Methodologie",
-	tutos: "Tutoriels",
-	parcours: "Parcours",
-	ia: "Intelligence Artificielle",
-	saas: "SaaS",
-	marketing: "Marketing",
-};
-
-const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels);
 ---
 
 <style define:vars={{ softWhite: 'var(--brand-cream)' }}>
@@ -84,7 +63,7 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 		background-color: var(--brand-cream);
 		position: sticky;
 		top: 0;
-		z-index: var(--sf-auto-global2-basenavigation-z-index-c9455e7c);
+		z-index: 40;
 	}
 
 	:global(.dark) header {
@@ -101,39 +80,30 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 		color: var(--softWhite);
 	}
 
-	.breadcrumbs {
+	:global(.breadcrumbs) {
 		display: flex;
 		align-items: center;
-		gap: var(--sf-auto-global2-basenavigation-gap-bce281e5);
-		font-size: var(--sf-auto-global2-basenavigation-font-size-e78a1369);
-		list-style: none;
-		margin: 0;
-		padding: 0;
+		gap: 0.5rem;
+		font-size: 0.9rem;
 	}
 
-	.breadcrumb-item {
-		display: flex;
-		align-items: center;
-		gap: var(--sf-auto-global2-basenavigation-gap-ed0bda6f);
-	}
-
-	.breadcrumb-link {
+	:global(.breadcrumbs a) {
 		display: flex;
 		align-items: center;
 		color: inherit;
 		text-decoration: none;
 	}
 
-	.breadcrumb-link:hover {
+	:global(.breadcrumbs a:hover) {
 		color: var(--accent-color);
 		text-decoration: underline;
 	}
 
 	.world-cues {
-		margin-left: var(--sf-auto-global2-basenavigation-margin-left-37f2d355);
+		margin-left: 0.35rem;
 	}
 
-	@media (width <= 767px) {
+	@media (max-width: 767px) {
 		.world-cues {
 			display: none;
 		}
@@ -146,35 +116,16 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 		<div class="flex items-center gap-4">
 			<a
 				href="/"
-				title="Retour à l'accueil"
-				aria-label="Retour à l'accueil"
+				title="Retour a l'accueil"
+				aria-label="Retour a l'accueil"
 				class="inline-block cursor-pointer z-10 relative"
 			>
-				<span class="righteous text-3xl md:text-5xl text-black dark:text-yellow-soft">{SITE.nameUpper}</span>
+				<span class="righteous text-3xl md:text-5xl text-black dark:text-yellow-soft">GOCHARBON</span>
 			</a>
-			<nav aria-label="Fil d'Ariane">
-				<ol class="breadcrumbs">
-					<li>
-						<a href="/" class="breadcrumb-link" aria-label="Accueil">
-							<Home class="w-5 h-5" />
-						</a>
-					</li>
-					{
-						breadcrumbs.map((crumb) => (
-							<li class="breadcrumb-item">
-								<ChevronRight class="w-4 h-4" aria-hidden="true" />
-								{crumb.isCurrent ? (
-									<span aria-current="page">{crumb.label}</span>
-								) : (
-									<a href={crumb.href} class="breadcrumb-link">
-										{crumb.label}
-									</a>
-								)}
-							</li>
-						))
-					}
-				</ol>
-			</nav>
+			<Breadcrumbs {...breadcrumbsConfig}>
+				<Home slot="home" class="w-5 h-5" />
+				<ChevronRight slot="separator" class="w-4 h-4" />
+			</Breadcrumbs>
 				<div class="mine-icon-belt world-cues" aria-label="Repères du monde GoCharbon">
 					<span class="mine-icon-chip">
 						<img src={worldIcons.charbon} alt="" aria-hidden="true" loading="lazy" />
@@ -212,7 +163,7 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 							<a
 								href={item.url}
 								target="_blank"
-								title={`Voir ${SITE.name} sur ${item.name}`}
+								title={`Voir GoCharbon sur ${item.name}`}
 							>
 								<div
 									class:list={[item.icon, "w-6 h-6 md:w-7 md:h-7"]}
@@ -282,7 +233,7 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 							href={item.url}
 							target="_blank"
 							rel="noopener noreferrer"
-							title={`Voir ${SITE.name} sur ${item.name}`}
+							title={`Voir GoCharbon sur ${item.name}`}
 							class="mobile-link"
 						>
 							<div class:list={[item.icon, "w-7 h-7"]} />

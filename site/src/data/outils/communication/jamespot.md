@@ -1,33 +1,15 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: Jamespot
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: collaboration
 description: Jamespot est la digital workplace souveraine française. RSE, intranet,
   bureautique collaborative. 400 000+ utilisateurs, hébergé OVH, 100+ apps modulables.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://jamespot.com/
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://jamespot.com/
-- https://jamespot.com/qui-sommes-nous/securite/
-- https://jamespot.com/politique-de-confidentialite/
-notesQualification: 'Jamespot est une société française basée à Montreuil. Les sources
-  officielles documentent une gouvernance locale, un hébergement souverain en France
-  via des partenaires français et une certification ISO/IEC 27001:2022, ce qui justifie
-  un niveau fort.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # Jamespot

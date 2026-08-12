@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: copywriting
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,31 +7,75 @@ imageNameKey: null
 u_site: null
 title: L'App De Rédaction Qui Va Faire De Vous Le Nouveau Victor Hugo Du Web
 author: Diane
-description: "L'App De Rédaction Qui Va Faire De Vous Le Nouveau Victor Hugo Du Web."
+description: 'Découvre L''App De Rédaction Qui Va Faire De Vous Le Nouveau Victor
+  Hugo Du Web : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-## Ce que c'est
+**Table des matières :**
 
-Les applications de rédaction assistée par IA aident à produire des brouillons, reformuler, résumer, structurer un article ou adapter un texte à un canal. Elles ne font pas de toi Victor Hugo. Elles peuvent simplement réduire la page blanche et accélérer la révision.
+---
 
-## Ce que ça change concrètement
+[Guide](https://guide.compose.ai/) composeai
 
-Pour un indépendant ou une petite équipe, l'outil peut servir à préparer une newsletter, améliorer une fiche produit, clarifier une page de vente, transformer des notes en plan ou décliner un message pour plusieurs formats. Le gain est réel quand la personne garde la direction éditoriale.
+[Magical | Text Expander & Autofill | Automation at your fingertips](https://www.getmagical.com/)
 
-## Limites et risques
+generate entire emails or replies based on a few keywords that you input (privacy-frendly)
 
-Le texte généré devient vite lisse, prévisible et trop sûr de lui. Il peut aussi inventer des faits ou reprendre des tournures vues partout. Si tu publies sans retravailler, tu obtiens du contenu propre mais oubliable.
+[ChatGPT Writer - Email writer for Gmail - Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/)
 
-## Comment l'utiliser sans se raconter d'histoires
+**Free Chrome extension that uses ChatGPT AI to generate entire emails or replies based on a few keywords that you input. Currently supported for Gmail. LinkedIn and Outlook coming soon.**
 
-Donne ton angle, ton lecteur, ton objectif et tes exemples. Demande plusieurs versions, puis coupe. Ajoute ce que l'IA ne peut pas deviner : expérience, point de vue, contraintes réelles, détails de terrain.
+[https://chatgptwriter.ai/videos/chatgpt_writer_small_demo_compressed.mp4](https://chatgptwriter.ai/videos/chatgpt_writer_small_demo_compressed.mp4)
 
-## Verdict GoCharbon
+## **How to use**
 
-Très bon assistant de brouillon. Mauvais auteur principal si tu veux une voix reconnaissable.
+### Install the [**ChatGPT Writer extension**](https://chrome.google.com/webstore/detail/chatgpt-writer-email-writ/pdnenlnelpdomajfejgapbdpmjkfpjkp/) from the Chrome Web Store.Go to Gmail, open an email, and reply to it.Click the **ChatGPT Writer extension** button in the Gmail reply box._(reload the Gmail tab once if it was already opened before installing the extension)_
 
-## Mise à jour (avril 2026)
+[https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgmail_button.d24d805f.jpg&w=3840&q=75](https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgmail_button.d24d805f.jpg&w=3840&q=75)
 
-Les modèles écrivent mieux, mais le web est saturé de textes corrects. La différence vient de l'édition humaine : précision, ton, choix, courage de supprimer.
+### Briefly enter what you want to reply to and hit **Generate reply** button._(If this is your first time, you need to create a free account on [**chat.openai.com**](https://chat.openai.com/))_
+
+[https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femail_composer.7efb1af3.jpg&w=3840&q=75](https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femail_composer.7efb1af3.jpg&w=3840&q=75)
+
+### Personalized email reply will be generated using AI.Hit the **Insert generated reply** button to insert it in Gmail's text box.
+
+[https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freply_generated_insert_reply.311bf883.jpg&w=3840&q=75](https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freply_generated_insert_reply.311bf883.jpg&w=3840&q=75)
+
+[https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finserted_generated_reply.3fa69b6c.jpg&w=3840&q=75](https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finserted_generated_reply.3fa69b6c.jpg&w=3840&q=75)
+
+## **Contact**
+
+Provide feedback, ask questions, and report bugs on [**Github**](https://github.com/GorvGoyl/ChatGPT-Writer/discussions).
+
+## **Troubleshoot issues**
+
+### **How to make it work on Brave browser**
+
+If you are using Brave browser, follow these steps to make it work:
+
+- Go to **brave://settings/shields**
+    
+- Disable _**Prevent sites from fingerprinting me based on my language preferences**_
+    
+    [https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbrave.9b8aa9e4.jpg&w=3840&q=75](https://chatgptwriter.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbrave.9b8aa9e4.jpg&w=3840&q=75)
+    
+
+## **Frequently asked questions**
+
+**Is it really 100% free?Does it access any sensitive email data?Which all languages does it support?**
+
+## **Privacy**
+
+The ChatGPT Writer Extension has no ads, analytics, trackers, or cookies. It does not collect any user data. The only information shared with the AI model ([chat.openai.com](http://chat.openai.com)) is the prompt and context you provide in order to generate a response.
+
+### Works in all Chromium-based browsers, such as Chrome, Brave, and Edge.
+
+### Tightly integrated with Gmail for best user experience
+
+### All languages are supported
+
+### Privacy friendly
+
+### 100% free

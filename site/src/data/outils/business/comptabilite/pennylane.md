@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://academy.pennylane.com/mentions-legales
-- https://www.pennylane.com/fr/securite
-- https://www.pennylane.com/fr/legal/trust-center
-notesQualification: Pennylane est une SAS francaise basee a Paris; le niveau de securite et de gouvernance est tres bien documente, avec un hebergement des donnees annonce chez AWS en Irlande et une certification ISO 27001.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Pennylane
 author: Diane
 tags:

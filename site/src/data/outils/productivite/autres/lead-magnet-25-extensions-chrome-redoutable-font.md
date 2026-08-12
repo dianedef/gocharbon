@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -16,22 +16,22 @@ imgUrl: ../../../../assets/astro.jpeg
 
 🔹✅💡🥊🛡️🔇🧠📣🎁🏆📚🛠💥🙌😱❌✂️
 
-# Vidéo Speed. Changer la vitesse de lecture d’une vidéo
-**Vidéo Speed** est une petite extension pour Chrome qui a le pouvoir de vous donner **un meilleur contrôle du lecteur vidéo utilisé par la plupart des plateformes d’hébergement vidéo en ligne**. Comme son nom l’indique elle permet entre autres de contrôler la vitesse de lecture d’une vidéo.
+# Video Speed. Changer la vitesse de lecture d’une vidéo
+**Video Speed** est une petite extension pour Chrome qui a le pouvoir de vous donner **un meilleur contrôle du lecteur vidéo utilisé par la plupart des plateformes d’hébergement vidéo en ligne**. Comme son nom l’indique elle permet entre autres de contrôler la vitesse de lecture d’une vidéo.
 
 C’est une très vieille extension mais elle peut encore, plusieurs années après son apparition, rendre de bons et loyaux services dans de nombreuses situations.
 
-Que vous soyez en rain d’apprendre une langue étrangère en regardant une vidéo en verion originale non sous-titrée ou que vous cherchiez à parcourir rapidement une longue vidéo, Vidéo Speed va vous permettre d’accéler ou de ralentir la vidéo diffusée en ligne. L’extension permet aussi grâce une série de raccourcis clavier de faire des sauts de puce de 5 secondes en arrière pour revoir ou réentendre un extrait de la vidéo que vous êtes en train de visionner.
+Que vous soyez en rain d’apprendre une langue étrangère en regardant une vidéo en verion originale non sous-titrée ou que vous cherchiez à parcourir rapidement une longue vidéo, Video Speed va vous permettre d’accéler ou de ralentir la vidéo diffusée en ligne. L’extension permet aussi grâce une série de raccourcis clavier de faire des sauts de puce de 5 secondes en arrière pour revoir ou réentendre un extrait de la vidéo que vous êtes en train de visionner.
 **L’installation et l’utilisation sont très simples.** Une fois l’extension en place sur votre navigateur vous pourrez utiliser une série de raccourcis clavier lorsque vous visionnez une vidéo sur YouTube, Vimeo, Facebook, etc.
 
 Cinq touches sur votre clavier pour revenir en arrière ou avancer de cinq secondes et pour accèlerer ou ralentir la vitesse de lecture. Simpe et pratique.
 
-**Si vous utilisez Firefox, une extension similaire existe pour le navigateur de Mozilla. Il s’agit de Vidéo Speed Controler.** Une fois installée, cet ajout de Firefox permet d’intervenir lui aussi sur la vitesse de lecture et faire des micros sauts de 10 secondes en avant et en arrière.
+**Si vous utilisez Firefox, une extension similaire existe pour le navigateur de Mozilla. Il s’agit de Video Speed Controler.** Une fois installée, cet ajout de Firefox permet d’intervenir lui aussi sur la vitesse de lecture et faire des micros sauts de 10 secondes en avant et en arrière.
 
 
-**Vidéo Speed et Vidéo Speed controler sont deux extensions gratuites et sans publicité.**
+**Video Speed et Video Speed controler sont deux extensions gratuites et sans publicité.**
 
-Liens: [**Vidéo Speed pour Chrome.**](https://chrome.google.com/webstore/detail/video-speed/fnjmlegmhldjolpmcfjhooibnchlafgg)  [**Vidéo Speed Controler pour Firefox.**](https://addons.mozilla.org/fr/firefox/addon/videospeed/)
+Liens: [**Video Speed pour Chrome.**](https://chrome.google.com/webstore/detail/video-speed/fnjmlegmhldjolpmcfjhooibnchlafgg)  [**Video Speed Controler pour Firefox.**](https://addons.mozilla.org/fr/firefox/addon/videospeed/)
 
 # 6 logiciels de gestion de tâches gratuits disponibles en français
 
@@ -416,7 +416,7 @@ Une fois satisfait du résultat, il ne vous reste plus qu’à récupérer l’i
 
 Lien : [**Redacted**](https://marky.space/redacted/ "Redacted")
 ## Select text
-[Selectext: Copy Text from Vidéos](https://chromewebstore.google.com/detail/selectext-copy-text-from/gkkdmjjodidppndkbkhhknakbeflbomf)
+[Selectext: Copy Text from Videos](https://chromewebstore.google.com/detail/selectext-copy-text-from/gkkdmjjodidppndkbkhhknakbeflbomf)
 - 🎥 Selectext est une extension de navigateur pour extraire du texte depuis une vidéo.
 - 📄 Cette extension permet de copier facilement du texte à partir d'une vidéo, y compris l'écriture manuscrite, du code et des liens.
 - 🌐 Selectext fonctionne sur divers sites vidéo, notamment YouTube, Udemy, Coursera, Skillshare, et les enregistrements de conférences universitaires.
@@ -444,7 +444,7 @@ Lien : [**Redacted**](https://marky.space/redacted/ "Redacted")
 - 💰 Cet outil est gratuit, et il propose également une version pour les concepteurs de sites et de blogs pour faciliter l'impression pour leurs lecteurs.
 - 🌱 Print Friendly est un moyen écologique d'imprimer des pages web, contribuant ainsi à la préservation de la planète.
 ## Bonus
-[360Converter - transcribe vidéo and transcribe audio in easy way](https://www.360converter.com/)
+[360Converter - transcribe video and transcribe audio in easy way](https://www.360converter.com/)
 - 🛠️ 360converter est un utilitaire en ligne gratuit pour transcrire en texte des fichiers multimédia.
 - 📹 Vous pouvez convertir des vidéos en texte, y compris des vidéos YouTube, avec la prise en charge de fichiers depuis votre ordinateur ou Internet.
 - 🎧 Vous avez la possibilité de transcrire des fichiers audio, y compris des fichiers mp3 locaux, en ligne ou depuis un service de sauvegarde.
@@ -463,7 +463,7 @@ Lien : [**Redacted**](https://marky.space/redacted/ "Redacted")
 
 Turn placeholder text into variables. (Now—with more magic!)
 
-[https://fonts.gstatic.com/s/e/notoemoji/14.0/2728/32.png](__MASK_60__)
+[https://fonts.gstatic.com/s/e/notoemoji/14.0/2728/32.png](https://fonts.gstatic.com/s/e/notoemoji/14.0/2728/32.png)
 
 Bye, bye placeholders! Now, shortcut text like [first name] or {company} will transform into variables like magic. This’ll save you mucho time because variables automatically fill with your recipient’s information.
 
@@ -474,29 +474,29 @@ Shared workspaces are here
 
 We're rolling out our shared company workspaces (in beta) where you can curate a shared library of your team's best shortcuts. [Email us](mailto:raffaello@heyautofill.com?subject=Request+to+Join+the+Magical+Teams+Beta+Program&body=I+would+like+to+join+the+Magical+Teams+Beta+Program.+My+company+is+%3Cyour+company%3E+and+my+team+has+%3Cnumber+of+people%3E.) to join the beta program.
 
-[https://ci6.googleusercontent.com/proxy/2L-vz8sUuKm3QF6v3wLX2dbd8N5ruGe-RsHPfTE_-nkCXGVD9o2q9QLKQD3x9SxH54j0T4yH7U3UpzusHOn-rKv5iIE_YimqieVlYeWc-6NR7T0bx3Dx1QPIhFfmJJRLiJCTU1Xh7WIYq9gkap2BDLW5sXHbTrpUSf56bxYktQea2-XDrg=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/9d689d03-9603-42e5-a5e1-77c4fe3b2948/820x820.png](__MASK_63__)
+[https://ci6.googleusercontent.com/proxy/2L-vz8sUuKm3QF6v3wLX2dbd8N5ruGe-RsHPfTE_-nkCXGVD9o2q9QLKQD3x9SxH54j0T4yH7U3UpzusHOn-rKv5iIE_YimqieVlYeWc-6NR7T0bx3Dx1QPIhFfmJJRLiJCTU1Xh7WIYq9gkap2BDLW5sXHbTrpUSf56bxYktQea2-XDrg=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/9d689d03-9603-42e5-a5e1-77c4fe3b2948/820x820.png](https://ci6.googleusercontent.com/proxy/2L-vz8sUuKm3QF6v3wLX2dbd8N5ruGe-RsHPfTE_-nkCXGVD9o2q9QLKQD3x9SxH54j0T4yH7U3UpzusHOn-rKv5iIE_YimqieVlYeWc-6NR7T0bx3Dx1QPIhFfmJJRLiJCTU1Xh7WIYq9gkap2BDLW5sXHbTrpUSf56bxYktQea2-XDrg=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/9d689d03-9603-42e5-a5e1-77c4fe3b2948/820x820.png)
 
 Hello, Google Docs support
 
-[https://fonts.gstatic.com/s/e/notoemoji/14.0/1f44b/32.png](__MASK_64__)
+[https://fonts.gstatic.com/s/e/notoemoji/14.0/1f44b/32.png](https://fonts.gstatic.com/s/e/notoemoji/14.0/1f44b/32.png)
 
 Shortcut expansions now work in Google Docs. Just type in your trigger on any page to get started. (That next report will practically write itself!) [Learn more](http://url8202.getmagical.com/ls/click?upn=4DI6aDciSpODcdlMhUwQcGHDO7SEWTXkGpY7eAsSIfgcWYc88WbL00EolJ4KpF0CapEkdmx-2FDmSceqA1ieoCq3m9B8FCOMImONgqwL56entNNmADoXKBYcsN8-2BXGFjN-2FywU0_UJWqrhniF-2FxOdx7HCGY1a7L1f819Cbnfy3Pk11ISc4EpY4HgJWHqW1J3cf1ee-2BgaKfvJ4-2FvcjuCrGT2uvFjoKVJuHCZihSw53VXDspUdP2dRX1CC-2BZ1j-2FPJ7lkCJCGdUw927jHcjH-2BhINy6w7-2BRuQPWtnG-2BfFQr3gAaCkXKTq-2Fx7EK6EbwWsT7EZeu6JCwHOcBr6GyEzWnOL78AbZTx1fBpkBO9pEbbxisk1HsWbFrkd3l5-2F3MRHBy6LQyX96rOYmsQusQ8ThUHDQcOqHHkOddy-2FPIVaaLQmB-2FiYKM0iysE2L6WNy5dK2PCyXAKw-2FGaNsyFsSYK0ZIRcko-2BGhaeRqa7X933Qog2lcbNxHdLOv0v2GpKQ-2B9qjdzFcXnZ-2FSJ-2Ft-2BY3dTtMtn3JqWfZxipOmLQ-3D-3D).
 
-[https://ci3.googleusercontent.com/proxy/qCsr9kNkdOLwDxdNKhrUO-alZT8YamM4UKc9bhVIvRMnb9bsV8c7AAljlQv1Fjvbbvc08EO_zsQh7qZjT5lPglCww6qblN30o-PJotlt8pQlR9sje-8a1UJGLH23Ch8jlDQGEh4d24PryWOiWaHYnsuRurPgDpWiKknHxVFwTiPgotYZQA=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/d4757655-474c-4776-a88d-135a6f85cbca/761x762.png](__MASK_66__)
+[https://ci3.googleusercontent.com/proxy/qCsr9kNkdOLwDxdNKhrUO-alZT8YamM4UKc9bhVIvRMnb9bsV8c7AAljlQv1Fjvbbvc08EO_zsQh7qZjT5lPglCww6qblN30o-PJotlt8pQlR9sje-8a1UJGLH23Ch8jlDQGEh4d24PryWOiWaHYnsuRurPgDpWiKknHxVFwTiPgotYZQA=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/d4757655-474c-4776-a88d-135a6f85cbca/761x762.png](https://ci3.googleusercontent.com/proxy/qCsr9kNkdOLwDxdNKhrUO-alZT8YamM4UKc9bhVIvRMnb9bsV8c7AAljlQv1Fjvbbvc08EO_zsQh7qZjT5lPglCww6qblN30o-PJotlt8pQlR9sje-8a1UJGLH23Ch8jlDQGEh4d24PryWOiWaHYnsuRurPgDpWiKknHxVFwTiPgotYZQA=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/d4757655-474c-4776-a88d-135a6f85cbca/761x762.png)
 
 New & improved dropdown
 
-[https://fonts.gstatic.com/s/e/notoemoji/14.0/1fa84/32.png](__MASK_67__)
+[https://fonts.gstatic.com/s/e/notoemoji/14.0/1fa84/32.png](https://fonts.gstatic.com/s/e/notoemoji/14.0/1fa84/32.png)
 
 Type // to see the new magic! The dropdown is supercharged with better usability and search functionality. [Learn more](http://url8202.getmagical.com/ls/click?upn=4DI6aDciSpODcdlMhUwQcGHDO7SEWTXkGpY7eAsSIfgcWYc88WbL00EolJ4KpF0CapEkdmx-2FDmSceqA1ieoCq3m9B8FCOMImONgqwL56entNNmADoXKBYcsN8-2BXGFjN-2Fd6s4_UJWqrhniF-2FxOdx7HCGY1a7L1f819Cbnfy3Pk11ISc4EpY4HgJWHqW1J3cf1ee-2BgaKfvJ4-2FvcjuCrGT2uvFjoKVJuHCZihSw53VXDspUdP2dRX1CC-2BZ1j-2FPJ7lkCJCGdUw927jHcjH-2BhINy6w7-2BRuQPWtnG-2BfFQr3gAaCkXKTq-2Fx7EK6EbwWsT7EZeu6JCwHOcBr6GyEzWnOL78AbZTx1fNXX1KG74JfhrtoBKyxcBtu-2BAEmY-2Bd0HZQnb2LTSnjwxjBqugo8SNKguIx5w-2FjKrCMThkJ1Nu1DQv8nRjC9xCT3LEwarlSJR0J6UiIT0hX3QWDJEEwhL1Wi6V-2FXHqfM-2FTTggIEzTNvWgfQ93ccvGMCu1L3hlxN3cbjg55mcKMrzoifxb2Wpi3Jcq8-2FX-2Bqn7OeA-3D-3D).
 
-[https://ci5.googleusercontent.com/proxy/bsmPhHE7Ct8QVhd0fu5pfF4-eafnRAMi-PJo8fLHpzq_i4AmDXACHYzp71ygC2F2WYe4vA3Ezd15oG75T0XPes38LjQ4AEojZ6YscZyk-0li1_8LDRjllX9Uc9obTDlzLYAjOknHHR4wZmA9UTNWJrAhxbYFs-F2qZUiQgPl0YqiJts_aA=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/74512beb-f4a5-4ee7-a58b-74963ae465f9/761x760.png](__MASK_69__)
+[https://ci5.googleusercontent.com/proxy/bsmPhHE7Ct8QVhd0fu5pfF4-eafnRAMi-PJo8fLHpzq_i4AmDXACHYzp71ygC2F2WYe4vA3Ezd15oG75T0XPes38LjQ4AEojZ6YscZyk-0li1_8LDRjllX9Uc9obTDlzLYAjOknHHR4wZmA9UTNWJrAhxbYFs-F2qZUiQgPl0YqiJts_aA=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/74512beb-f4a5-4ee7-a58b-74963ae465f9/761x760.png](https://ci5.googleusercontent.com/proxy/bsmPhHE7Ct8QVhd0fu5pfF4-eafnRAMi-PJo8fLHpzq_i4AmDXACHYzp71ygC2F2WYe4vA3Ezd15oG75T0XPes38LjQ4AEojZ6YscZyk-0li1_8LDRjllX9Uc9obTDlzLYAjOknHHR4wZmA9UTNWJrAhxbYFs-F2qZUiQgPl0YqiJts_aA=s0-d-e1-ft#http://cdn.mcauto-images-production.sendgrid.net/86700a6718d32908/74512beb-f4a5-4ee7-a58b-74963ae465f9/761x760.png)
 
 Faster & more responsive
 
-[https://fonts.gstatic.com/s/e/notoemoji/14.0/26a1/32.png](__MASK_70__)
+[https://fonts.gstatic.com/s/e/notoemoji/14.0/26a1/32.png](https://fonts.gstatic.com/s/e/notoemoji/14.0/26a1/32.png)
 
-57% faster on LinkedIn?! We’ve made significant performance improvements—update your Magical app to expérience the first of many speed boosts. [Learn more](http://url8202.getmagical.com/ls/click?upn=4DI6aDciSpODcdlMhUwQcGHDO7SEWTXkGpY7eAsSIfgcWYc88WbL00EolJ4KpF0CapEkdmx-2FDmSceqA1ieoCq3m9B8FCOMImONgqwL56entNNmADoXKBYcsN8-2BXGFjN-2FPglJ_UJWqrhniF-2FxOdx7HCGY1a7L1f819Cbnfy3Pk11ISc4EpY4HgJWHqW1J3cf1ee-2BgaKfvJ4-2FvcjuCrGT2uvFjoKVJuHCZihSw53VXDspUdP2dRX1CC-2BZ1j-2FPJ7lkCJCGdUw927jHcjH-2BhINy6w7-2BRuQPWtnG-2BfFQr3gAaCkXKTq-2Fx7EK6EbwWsT7EZeu6JCwHOcBr6GyEzWnOL78AbZTx1fJ3Q2nYiMw10ybFp0ak7llz3HfAWWORNCc1-2B8q6sd0bAUqvd6QdPilKJN1QRW8KSWGZDTntdNSTDa3W-2FtcMyzLweAx4n-2B5t4HSV0a-2FLyaSbEaBsfw86-2BgbEYJP89Sc7M5OoCKjBou9pexW0pfXu7SLOMaNig-2FPIKOkP0YmXJmreAMKwoMkmCEzdfozc8JXgvdw-3D-3D).
+57% faster on LinkedIn?! We’ve made significant performance improvements—update your Magical app to experience the first of many speed boosts. [Learn more](http://url8202.getmagical.com/ls/click?upn=4DI6aDciSpODcdlMhUwQcGHDO7SEWTXkGpY7eAsSIfgcWYc88WbL00EolJ4KpF0CapEkdmx-2FDmSceqA1ieoCq3m9B8FCOMImONgqwL56entNNmADoXKBYcsN8-2BXGFjN-2FPglJ_UJWqrhniF-2FxOdx7HCGY1a7L1f819Cbnfy3Pk11ISc4EpY4HgJWHqW1J3cf1ee-2BgaKfvJ4-2FvcjuCrGT2uvFjoKVJuHCZihSw53VXDspUdP2dRX1CC-2BZ1j-2FPJ7lkCJCGdUw927jHcjH-2BhINy6w7-2BRuQPWtnG-2BfFQr3gAaCkXKTq-2Fx7EK6EbwWsT7EZeu6JCwHOcBr6GyEzWnOL78AbZTx1fJ3Q2nYiMw10ybFp0ak7llz3HfAWWORNCc1-2B8q6sd0bAUqvd6QdPilKJN1QRW8KSWGZDTntdNSTDa3W-2FtcMyzLweAx4n-2B5t4HSV0a-2FLyaSbEaBsfw86-2BgbEYJP89Sc7M5OoCKjBou9pexW0pfXu7SLOMaNig-2FPIKOkP0YmXJmreAMKwoMkmCEzdfozc8JXgvdw-3D-3D).
 
 
 # Best AI-based Online Tools For Your Browser in Summer 2023
@@ -519,11 +519,11 @@ Though it sounds great and all, it’s a little questionable in matters of ethic
 
 The SciSpace Copilot is meticulously designed to assist and simplify the understanding of scientific literature in real time. Compatible with an impressive list of over 75 languages, it’s a boon for researchers and students navigating the sea of complex academic content online.
 
-This resourceful free AI tool is not limited to academic journals from prominent publishers such as Nature, Springer, or Elsevier, it also embraces research repositories like Google Scholar. Copilot steps up your reading expérience by decoding technical language, providing succinct jargon explanations, and demystifying complex paragraphs, mathematical expressions, and tables. The extension works by providing a sidebar in your browser where you can highlight text to get explanations, ask follow-up questions for further clarification, and even save notes for future reference.
+This resourceful free AI tool is not limited to academic journals from prominent publishers such as Nature, Springer, or Elsevier, it also embraces research repositories like Google Scholar. Copilot steps up your reading experience by decoding technical language, providing succinct jargon explanations, and demystifying complex paragraphs, mathematical expressions, and tables. The extension works by providing a sidebar in your browser where you can highlight text to get explanations, ask follow-up questions for further clarification, and even save notes for future reference.
 
 [Merlin](https://merlin.foyer.work/)
 
-This one leverages the capabilities of OpenAI’s ChatGPT to enhance expérience across various websites like Gmail, Twitter, LinkedIn, and more, too adding up to the free AI tools club. With this tool, you can effortlessly edit emails, compose Twitter replies, and even create complex Excel formulas. Merlin’s application extends to multiple platforms, enabling you to access ChatGPT’s functionalities seamlessly as they browse the web. It can help in mastering complex formulas, crafting professional emails, generating content ideas, solving coding problems, and obtaining quick answers. Plus you can save your most used prompts for automating the process.
+This one leverages the capabilities of OpenAI’s ChatGPT to enhance experience across various websites like Gmail, Twitter, LinkedIn, and more, too adding up to the free AI tools club. With this tool, you can effortlessly edit emails, compose Twitter replies, and even create complex Excel formulas. Merlin’s application extends to multiple platforms, enabling you to access ChatGPT’s functionalities seamlessly as they browse the web. It can help in mastering complex formulas, crafting professional emails, generating content ideas, solving coding problems, and obtaining quick answers. Plus you can save your most used prompts for automating the process.
 
 [Scri](https://scribehow.com/)[b](https://scribehow.com/)[e](https://scribehow.com/)
 
@@ -531,10 +531,10 @@ A versatile extension, AI-powered, and designed to streamline the process of cre
 
 [Wiseone](https://wiseone.io/)
 
-Aking to transform your online reading expérience? Wiseone tool deciphers intricate information, aids in mastering diverse topics, and offers straightforward access to factual data. Features like simplification of information, summarizing content for quicker reading, fact-checking, complex concept discovery, and article suggestions from varied sources enhance your understanding. The “Ask Anything” feature generates concise responses, and the search function offers definitions with additional information. Powered by deep neural networks and other sophisticated algorithms, Wiseone provides a top-notch reading expérience by summarizing articles, defining terms, and extracting key facts and topics from a multitude of sources.
+Aking to transform your online reading experience? Wiseone tool deciphers intricate information, aids in mastering diverse topics, and offers straightforward access to factual data. Features like simplification of information, summarizing content for quicker reading, fact-checking, complex concept discovery, and article suggestions from varied sources enhance your understanding. The “Ask Anything” feature generates concise responses, and the search function offers definitions with additional information. Powered by deep neural networks and other sophisticated algorithms, Wiseone provides a top-notch reading experience by summarizing articles, defining terms, and extracting key facts and topics from a multitude of sources.
 
 With easy installation, minimal system resource usage, and [GDPR-compliant](https://www.meetsidekick.com/what-is-the-future-of-internet-privacy/) data privacy (sic!), as user-friendly as it is effective.
 
 [Murf](https://murf.ai/text-to-speech)
 
-Finalizing our artificial intelligence tools list, Murf revolutionizes voiceover création with its AI-powered Google Slides add-on. This ingenious tool lets you simultaneously write, edit voiceovers, and design slides, eliminating the need for a separate recorder or extensive editing. Featuring an AI voice catalog, it adjusts slide timing to the voiceover length and allows for distinct voices per slide. It supports over 20 languages with various accents, offering advanced voice cloning, vidéo editing capabilities, and a voice changer. Its broad selection of lifelike voices caters to diverse needs such as branding, targeted advertising, and entertainment. With a myriad of import and export file formats, it’s a one-stop solution for generating top-notch, personalized voiceovers, making it a go-to for enterprises, SMBs, and content creators.
+Finalizing our artificial intelligence tools list, Murf revolutionizes voiceover creation with its AI-powered Google Slides add-on. This ingenious tool lets you simultaneously write, edit voiceovers, and design slides, eliminating the need for a separate recorder or extensive editing. Featuring an AI voice catalog, it adjusts slide timing to the voiceover length and allows for distinct voices per slide. It supports over 20 languages with various accents, offering advanced voice cloning, video editing capabilities, and a voice changer. Its broad selection of lifelike voices caters to diverse needs such as branding, targeted advertising, and entertainment. With a myriad of import and export file formats, it’s a one-stop solution for generating top-notch, personalized voiceovers, making it a go-to for enterprises, SMBs, and content creators.

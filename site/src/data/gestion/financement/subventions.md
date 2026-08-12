@@ -10,11 +10,11 @@ pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Subventions et Aides : Le Guide de l'Entrepreneur Français
+# Subventions et Aides : Le Guide de l'Entrepreneur Francais
 
-Il existe plus de 2 000 dispositifs d'aides publiques en France pour les entrepreneurs. Deux mille. Le problème, ce n'est pas le manque d'argent disponible -- c'est de savoir ou chercher, comment candidater et quand postuler.
+Il existe plus de 2 000 dispositifs d'aides publiques en France pour les entrepreneurs. Deux mille. Le probleme, ce n'est pas le manque d'argent disponible -- c'est de savoir ou chercher, comment candidater et quand postuler.
 
-En 2023, BPI France a distribue a elle seule plus de 30 milliards d'euros en aides, prêts et investissements aux entreprises françaises. Les regions, l'Europe et les ministeres ajoutent des milliards supplementaires. Cet argent est la pour toi. Encore faut-il le trouver et le decrocher.
+En 2023, BPI France a distribue a elle seule plus de 30 milliards d'euros en aides, prets et investissements aux entreprises francaises. Les regions, l'Europe et les ministeres ajoutent des milliards supplementaires. Cet argent est la pour toi. Encore faut-il le trouver et le decrocher.
 
 ## Les aides nationales : ton premier reflexe
 
@@ -24,32 +24,32 @@ L'ACRE est probablement l'aide la plus connue et la plus automatique.
 
 **Ce que tu obtiens :**
 - Exoneration partielle de charges sociales pendant 12 mois
-- Économies concretes : 1 500-5 000 euros la première annee selon ton statut
-- Applicable des la création de l'entreprise
+- Economies concretes : 1 500-5 000 euros la premiere annee selon ton statut
+- Applicable des la creation de l'entreprise
 
 **Conditions :**
-- Être demandeur d'emploi, bénéficiaire du RSA, ou avoir entre 18 et 26 ans
+- Etre demandeur d'emploi, beneficiaire du RSA, ou avoir entre 18 et 26 ans
 - Creer ou reprendre une entreprise
-- Ne pas avoir beneficie de l'ACRE dans les 3 années precedentes
+- Ne pas avoir beneficie de l'ACRE dans les 3 annees precedentes
 
-**Comment l'obtenir :** La demande se fait en même temps que la declaration de création d'entreprise, via le guichet unique de l'INPI. En micro-entreprise, l'ACRE est automatique si tu remplis les conditions.
+**Comment l'obtenir :** La demande se fait en meme temps que la declaration de creation d'entreprise, via le guichet unique de l'INPI. En micro-entreprise, l'ACRE est automatique si tu remplis les conditions.
 
-### ARCE (Aide a la Reprise ou Création d'Entreprise)
+### ARCE (Aide a la Reprise ou Creation d'Entreprise)
 
 Si tu es au chomage et que tu crees ton entreprise, l'ARCE te verse 60% de tes droits restants a l'allocation chomage en 2 versements.
 
 **Exemple concret :**
 - Tu as 20 000 euros de droits au chomage restants
 - L'ARCE te verse 12 000 euros (60%)
-- 1er versement (6 000 euros) a la création
-- 2e versement (6 000 euros) 6 mois après si l'entreprise existe toujours
+- 1er versement (6 000 euros) a la creation
+- 2e versement (6 000 euros) 6 mois apres si l'entreprise existe toujours
 
 **ARCE vs maintien ARE : le choix strategique**
 
 | Critere | ARCE (capital) | Maintien ARE (mensuel) |
 |---|---|---|
 | Versement | 60% en 2 fois | Allocation mensuelle |
-| Sécurité | Capital disponible | Filet de sécurité mensuel |
+| Securite | Capital disponible | Filet de securite mensuel |
 | Ideal si | Tu as besoin de cash pour investir | Tu veux un revenu stable le temps de demarrer |
 | Montant total | 60% des droits | 100% des droits (tant que tu n'atteins pas les plafonds) |
 
@@ -59,25 +59,25 @@ Si tu es au chomage et que tu crees ton entreprise, l'ARCE te verse 60% de tes d
 
 BPI France est le couteau suisse du financement public. Voici ses principaux dispositifs pour les entrepreneurs.
 
-**Prêt d'honneur (via les réseaux partenaires) :**
-- 0% d'intérêt, sans garantie personnelle
+**Pret d'honneur (via les reseaux partenaires) :**
+- 0% d'interet, sans garantie personnelle
 - Montant : 2 000 a 50 000 euros
-- Via Initiative France ou Réseau Entreprendre
-- Sert de levier pour obtenir un prêt bancaire (1 euro de prêt d'honneur = 7 euros de prêt bancaire en moyenne)
+- Via Initiative France ou Reseau Entreprendre
+- Sert de levier pour obtenir un pret bancaire (1 euro de pret d'honneur = 7 euros de pret bancaire en moyenne)
 
-**Garantie de prêt bancaire :**
-- BPI garantit 40-70% de ton prêt bancaire
+**Garantie de pret bancaire :**
+- BPI garantit 40-70% de ton pret bancaire
 - La banque prend moins de risque et accepte plus facilement
-- Coût : 0,5-1% du montant garanti
+- Cout : 0,5-1% du montant garanti
 
 **Aide a l'innovation :**
 - Subvention et avance remboursable pour les projets innovants
 - Montant : 30 000 a 3 millions d'euros
-- Couvre jusqu'a 45% des dépenses de R&D
-- Delai de réponse : 2-4 mois
+- Couvre jusqu'a 45% des depenses de R&D
+- Delai de reponse : 2-4 mois
 
-**Prêt d'amorcage :**
-- Pour les startups qui ont leve auprès de Business Angels
+**Pret d'amorcage :**
+- Pour les startups qui ont leve aupres de Business Angels
 - 50 000 a 300 000 euros
 - Taux 0%, remboursement sur 8 ans avec 3 ans de differe
 
@@ -107,11 +107,11 @@ France Num aide les TPE et PME a se digitaliser avec des dispositifs concrets.
 Le CIR est le dispositif fiscal le plus genereux pour les entreprises innovantes.
 
 **Ce que tu obtiens :**
-- Remboursement de 30% de tes dépenses de R&D (jusqu'a 100M euros)
+- Remboursement de 30% de tes depenses de R&D (jusqu'a 100M euros)
 - 5% au-dela de 100M euros
 - Pour les PME : remboursement immediat (pas besoin d'attendre de payer des impots)
 
-**Dépenses eligibles :**
+**Depenses eligibles :**
 - Salaires des chercheurs et ingenieurs
 - Amortissement du materiel de R&D
 - Sous-traitance a des laboratoires agrees
@@ -127,11 +127,11 @@ Le CIR est le dispositif fiscal le plus genereux pour les entreprises innovantes
 Le petit frere du CIR, reserve aux PME.
 
 **Ce que tu obtiens :**
-- 30% des dépenses d'innovation (plafonnes a 400 000 euros de dépenses)
+- 30% des depenses d'innovation (plafonnes a 400 000 euros de depenses)
 - Soit un credit d'impot maximum de 120 000 euros par an
 - Remboursable immediatement pour les PME
 
-**Dépenses eligibles :**
+**Depenses eligibles :**
 - Conception de prototypes
 - Installations pilotes de nouveaux produits
 - Design et propriete intellectuelle lies a l'innovation
@@ -150,12 +150,12 @@ Chaque region a ses propres dispositifs d'aide. C'est souvent la que se trouvent
 
 - **Ambition PME :** accompagnement + aide financiere pour les PME industrielles
 - **R&D Booster :** financement de projets de recherche collaborative
-- **Pass Création :** aide a la création d'entreprise, jusqu'a 10 000 euros
+- **Pass Creation :** aide a la creation d'entreprise, jusqu'a 10 000 euros
 
 ### Occitanie
 
 - **Pass Occitanie :** subvention de 2 000 a 10 000 euros pour tous les secteurs
-- **Contrat Innovation :** jusqu'a 50% des dépenses d'innovation
+- **Contrat Innovation :** jusqu'a 50% des depenses d'innovation
 - **Readynov :** aide aux projets collaboratifs de R&D
 
 ### Nouvelle-Aquitaine
@@ -164,7 +164,7 @@ Chaque region a ses propres dispositifs d'aide. C'est souvent la que se trouvent
 - **Innovation Collaborative :** projets R&D multi-partenaires
 - **Entreprise Numerique :** accompagnement a la transformation digitale
 
-**Comment trouver les aides de ta region ?** Consulte le site aides-entreprises.fr ou contacte directement ta CCI (Chambre de Commerce et d'Industrie) locale. Ils ont des conseillers dédiés aux aides publiques.
+**Comment trouver les aides de ta region ?** Consulte le site aides-entreprises.fr ou contacte directement ta CCI (Chambre de Commerce et d'Industrie) locale. Ils ont des conseillers dedies aux aides publiques.
 
 ## Les aides europeennes
 
@@ -178,7 +178,7 @@ Le programme de recherche et innovation de l'UE, avec un budget de 95,5 milliard
 - Subvention : jusqu'a 2,5 millions d'euros
 - Investissement en equity : jusqu'a 15 millions d'euros
 - Pour les startups deep tech a fort potentiel de disruption
-- Très selectif : taux de succès de 5-10%
+- Tres selectif : taux de succes de 5-10%
 
 ### FEDER (Fonds Europeen de Developpement Regional)
 
@@ -192,7 +192,7 @@ Le programme de recherche et innovation de l'UE, avec un budget de 95,5 milliard
 - Pas un financement direct, mais un echange
 - 1-6 mois chez un entrepreneur experimente dans un autre pays europeen
 - Indemnite mensuelle de 530-1 100 euros selon le pays
-- Réseau de contacts internationaux
+- Reseau de contacts internationaux
 
 ## Comment monter un dossier de subvention solide
 
@@ -206,38 +206,38 @@ Le programme de recherche et innovation de l'UE, avec un budget de 95,5 milliard
 - Pour quoi faire
 
 **2. La presentation du projet (5-10 pages)**
-- Le problème que tu resous
+- Le probleme que tu resous
 - Ta solution (technique et commerciale)
 - Le marche et la concurrence
 - Ton avantage competitif
 - Le plan de developpement sur 3 ans
 
 **3. Le budget previsionnel detaille**
-- Postes de dépenses ventiles (salaires, materiel, sous-traitance, marketing)
-- Plan de financement (qui met quoi : fonds propres, subvention, prêt)
+- Postes de depenses ventiles (salaires, materiel, sous-traitance, marketing)
+- Plan de financement (qui met quoi : fonds propres, subvention, pret)
 - Tresorerie previsionnelle mois par mois sur 12-24 mois
 - Hypotheses expliquees et justifiees
 
 **4. Les pieces justificatives**
 - Kbis ou statuts de l'entreprise
-- CV des fondateurs et de l'équipe clé
-- Comptes annuels (si l'entreprise existe déjà)
+- CV des fondateurs et de l'equipe cle
+- Comptes annuels (si l'entreprise existe deja)
 - Devis fournisseurs pour les investissements prevus
 - Lettres d'intention de clients ou partenaires
 
 **5. Les indicateurs de suivi**
 - KPIs que tu vas suivre
 - Jalons du projet (milestones)
-- Livrables concrets a chaque étape
+- Livrables concrets a chaque etape
 - Calendrier de realisation
 
 ### Les erreurs qui font retoquer un dossier
 
 **Erreur 1 : demander sans justifier.** "J'ai besoin de 50 000 euros" ne suffit pas. Il faut dire : "J'ai besoin de 50 000 euros ventiles ainsi : 30K de salaire pour un ingenieur sur 12 mois, 10K de materiel (devis en annexe), 10K de sous-traitance (devis en annexe)."
 
-**Erreur 2 : surestimer les revenus.** Un previsionnel qui montre 2M de CA la première annee pour une entreprise qui n'a pas encore de client, ca sonne faux. Sois ambitieux mais credible.
+**Erreur 2 : surestimer les revenus.** Un previsionnel qui montre 2M de CA la premiere annee pour une entreprise qui n'a pas encore de client, ca sonne faux. Sois ambitieux mais credible.
 
-**Erreur 3 : oublier le cofinancement.** La plupart des subventions ne couvrent que 30-50% des dépenses. Montre que tu finances le reste (fonds propres, prêt, [crowdfunding](/gestion/financement/crowdfunding), [levee de fonds](/gestion/financement/levee-de-fonds)).
+**Erreur 3 : oublier le cofinancement.** La plupart des subventions ne couvrent que 30-50% des depenses. Montre que tu finances le reste (fonds propres, pret, [crowdfunding](/gestion/financement/crowdfunding), [levee de fonds](/gestion/financement/levee-de-fonds)).
 
 **Erreur 4 : postuler trop tard.** Les appels a projets ont des dates limites strictes. Cree un calendrier des appels et prepare tes dossiers en avance.
 
@@ -245,11 +245,11 @@ Le programme de recherche et innovation de l'UE, avec un budget de 95,5 milliard
 
 ## Le calendrier des aides : quand postuler
 
-| Aide | Quand postuler | Delai de réponse |
+| Aide | Quand postuler | Delai de reponse |
 |---|---|---|
-| ACRE | A la création de l'entreprise | Automatique |
-| ARCE | Après inscription a France Travail | 1-2 semaines |
-| Prêt d'honneur (Initiative France) | Des que le projet est structure | 1-2 mois |
+| ACRE | A la creation de l'entreprise | Automatique |
+| ARCE | Apres inscription a France Travail | 1-2 semaines |
+| Pret d'honneur (Initiative France) | Des que le projet est structure | 1-2 mois |
 | Garantie BPI | Via ta banque | 2-4 semaines |
 | Aide a l'innovation BPI | Quand tu as un projet R&D structure | 2-4 mois |
 | CIR/CII | Declaration fiscale annuelle | Remboursement a la declaration |
@@ -257,20 +257,20 @@ Le programme de recherche et innovation de l'UE, avec un budget de 95,5 milliard
 | EIC Accelerator (Europe) | 3 fenntres de depot par an | 6-9 mois |
 | France Num | En continu | 1-2 semaines |
 
-## Combiner les aides : la stratégie optimale
+## Combiner les aides : la strategie optimale
 
-Bonne nouvelle : la plupart des aides sont cumulables. Voici une stratégie de financement complète pour un createur d'entreprise innovante.
+Bonne nouvelle : la plupart des aides sont cumulables. Voici une strategie de financement complete pour un createur d'entreprise innovante.
 
-**Phase 1 -- Création (0-6 mois) :**
-- ACRE (exoneration de charges) : économie de 3 000 euros
+**Phase 1 -- Creation (0-6 mois) :**
+- ACRE (exoneration de charges) : economie de 3 000 euros
 - ARCE (capital chomage) : 12 000 euros
-- Prêt d'honneur (Initiative France) : 15 000 euros
+- Pret d'honneur (Initiative France) : 15 000 euros
 - **Total : environ 30 000 euros**
 
 **Phase 2 -- Amorcage (6-18 mois) :**
 - Bourse French Tech : 20 000 euros
 - Aide regionale type PM'up ou Pass : 10-30 000 euros
-- Garantie BPI pour prêt bancaire de 50 000 euros
+- Garantie BPI pour pret bancaire de 50 000 euros
 - **Total cumule : 110 000-130 000 euros**
 
 **Phase 3 -- Croissance (18-36 mois) :**
@@ -281,17 +281,17 @@ Bonne nouvelle : la plupart des aides sont cumulables. Voici une stratégie de f
 
 Et tout ca sans diluer ton capital d'un seul pourcentage.
 
-## Les réseaux d'accompagnement a connaitre
+## Les reseaux d'accompagnement a connaitre
 
-**Initiative France :** 30 000 entrepreneurs accompagnes par an, prêts d'honneur, parrainage par des chefs d'entreprise.
+**Initiative France :** 30 000 entrepreneurs accompagnes par an, prets d'honneur, parrainage par des chefs d'entreprise.
 
-**Réseau Entreprendre :** prêts d'honneur de 15 000 a 50 000 euros + mentorat par des entrepreneurs experimentes.
+**Reseau Entreprendre :** prets d'honneur de 15 000 a 50 000 euros + mentorat par des entrepreneurs experimentes.
 
-**BGE (ex-Boutiques de Gestion) :** accompagnement gratuit a la création, etude de marche, business plan. Particulierement adapte aux premiers projets.
+**BGE (ex-Boutiques de Gestion) :** accompagnement gratuit a la creation, etude de marche, business plan. Particulierement adapte aux premiers projets.
 
 **CCI (Chambres de Commerce) :** information sur les aides, accompagnement, formation. Gratuit pour les ressortissants.
 
-**France Travail (ex-Pole Emploi) :** atelier création d'entreprise, Activ'Crea, suivi personnalise.
+**France Travail (ex-Pole Emploi) :** atelier creation d'entreprise, Activ'Crea, suivi personnalise.
 
 ## Pour aller plus loin
 
@@ -303,4 +303,4 @@ Et tout ca sans diluer ton capital d'un seul pourcentage.
 
 ---
 
-Les subventions et aides publiques, c'est de l'argent qui ne te coûte ni capital ni intérêts. En France, tu as acces a l'un des systèmes d'aides aux entrepreneurs les plus genereux d'Europe. Le prix a payer : du temps pour monter des dossiers et de la rigueur pour le suivi. Mais quand tu compares ca avec une dilution de 20% de ton capital ou un emprunt bancaire a rembourser avec intérêts, le calcul est vite fait. Commence par l'ACRE et le prêt d'honneur, puis monte en puissance avec BPI et les aides regionales.
+Les subventions et aides publiques, c'est de l'argent qui ne te coute ni capital ni interets. En France, tu as acces a l'un des systemes d'aides aux entrepreneurs les plus genereux d'Europe. Le prix a payer : du temps pour monter des dossiers et de la rigueur pour le suivi. Mais quand tu compares ca avec une dilution de 20% de ton capital ou un emprunt bancaire a rembourser avec interets, le calcul est vite fait. Commence par l'ACRE et le pret d'honneur, puis monte en puissance avec BPI et les aides regionales.

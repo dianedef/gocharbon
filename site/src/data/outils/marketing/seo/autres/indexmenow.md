@@ -1,8 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut: []
-type: outil
+type: Logiciel
 _priorité: normal
 tags:
 - Outils
@@ -316,7 +316,7 @@ Cependant, lors de vos contrôles, vous pouvez constater qu’une URL **n’est
 
 Dans ce cas, il peut y avoir **deux explications** : 
 
-- Dans la majorité des cas, c’est que **votre URL n’est pas encore indexée sur tous les datacenters Google**. Ces variations peuvent durer 48h en moyenne. Vous pouvez vérifier les résultats sur plusieurs datacenters sur le site [https://seo-hero.ninja](__MASK_9__).
+- Dans la majorité des cas, c’est que **votre URL n’est pas encore indexée sur tous les datacenters Google**. Ces variations peuvent durer 48h en moyenne. Vous pouvez vérifier les résultats sur plusieurs datacenters sur le site [https://seo-hero.ninja](https://seo-hero.ninja/).
 
 - Sinon, c’est plutôt rare, mais votre **URL a été désindexée par Google.** Les **raisons peuvent être diverses mais généralement c’est un manque de qualité.** Pour en savoir davantage sur les causes d’une désindexation, vous pouvez **vous rendre dans la** **FAQ 24**. 
 
@@ -328,7 +328,7 @@ Dans ce cas, il peut y avoir **deux explications** : 
 
 Chaque **URL non indexée après 10 jours** est automatiquement **remboursée** dans votre total de **crédits disponible sur votre compte** indexmenow.com. 
 
-Vous trouverez les justificatifs, les historiques ainsi que la balance comptable à cette adresse : [https://tool.indexmenow.com/project/checkhistory](__MASK_12__).
+Vous trouverez les justificatifs, les historiques ainsi que la balance comptable à cette adresse : [https://tool.indexmenow.com/project/checkhistory](https://tool.indexmenow.com/project/checkhistory).
 
 # 7. IndexMeNow peut-il forcer l’indexation d’une page déjà indexée pour une mise à jour ?
 
@@ -358,7 +358,7 @@ Vous ne payez que si l’**url a été détectée comme indexée** par notre sy
 
 L’ensemble des actions que vous réalisez sur l’outil en ligne peuvent être créées avec l’API. 
 
-**Votre clé API** ainsi que la **documentation complète** se trouvent à cette adresse : [https://tool.indexmenow.com/docapi](__MASK_15__)
+**Votre clé API** ainsi que la **documentation complète** se trouvent à cette adresse : [https://tool.indexmenow.com/docapi](https://tool.indexmenow.com/docapi)
 
 Vous trouverez par exemple les fonctions suivantes : 
 
@@ -453,7 +453,7 @@ Voici **2 raisons** qui peuvent expliquer **pourquoi votre URL n’a pas ét�
 - Attribut noindex dans une balise META, entête HTTP ou fichier robots.txt
 - Balise META canonical qui est différente de l’url que vous souhaitez indexer
 
-Pour vérifier rapidement si votre url est indexable et si google accède à votre page, vous pouvez tester l’outil Google ici : [https://search.google.com/test/mobile-friendly](__MASK_22__)
+Pour vérifier rapidement si votre url est indexable et si google accède à votre page, vous pouvez tester l’outil Google ici : [https://search.google.com/test/mobile-friendly](https://search.google.com/test/mobile-friendly?hl=FR)
 
 **2. Refus algorithmique de google** 
 
@@ -478,21 +478,21 @@ Vous n’avez qu’à **ajouter des URLs (pages ou backlinks) et indexmenow.com
 
 Oui, nous avons un programme d’affiliation. 
 
-Vous pouvez consulter le programme ainsi que les **conditions ici** : [https://indexmenow.com/affiliation/](__MASK_23__)
+Vous pouvez consulter le programme ainsi que les **conditions ici** : [https://indexmenow.com/affiliation/](https://indexmenow.com/affiliation/)
 
 # 22. Avez-vous un plugin Chrome ? Où le télécharger ?
 
 **Oui, nous avons un plugin Chrome** qui vous permet **en 2 clics** d’envoyer pour indexations des pages directement depuis le navigateur Chrome. 
 
-Le **plugin Chrome se trouve à cette adresse** : [https://chrome.google.com/webstore/detail/indexmenow/nfckflgabnpbmdefidjjhoefeackkgdl?hl=fr](__MASK_24__)
+Le **plugin Chrome se trouve à cette adresse** : [https://chrome.google.com/webstore/detail/indexmenow/nfckflgabnpbmdefidjjhoefeackkgdl?hl=fr](https://chrome.google.com/webstore/detail/indexmenow/nfckflgabnpbmdefidjjhoefeackkgdl?hl=fr)
 
-Il vous suffit simplement d’**ajouter votre clé API à la première installation** qui se trouve à cette adresse [https://tool.indexmenow.com/docapi](__MASK_25__) et d’envoyer ensuite vos URLs en indexation facilement.
+Il vous suffit simplement d’**ajouter votre clé API à la première installation** qui se trouve à cette adresse [https://tool.indexmenow.com/docapi](https://tool.indexmenow.com/docapi) et d’envoyer ensuite vos URLs en indexation facilement.
 
 Ce plugin vous permet ensuite, en deux clics, de **récupérer l’URL courante sur le navigateur Chrome ou une autre URL à copier** et de l’envoyer en indexation dans le projet avec le nom de votre choix.
 
 # 23. Avez-vous un plugin WordPress ? Où le télécharger ?
 
-**Oui,** nous avons un plugin WordPress. Ce plugin se trouve à l’adresse : [https://indexmenow.com/indexmenow-plugin-wordpress.zip](__MASK_26__)
+**Oui,** nous avons un plugin WordPress. Ce plugin se trouve à l’adresse : [https://indexmenow.com/indexmenow-plugin-wordpress.zip](https://indexmenow.com/indexmenow-plugin-wordpress.zip)
 
 Ce plugin vous permet de booster les indexations de votre site WordPress avec ces deux options : 
 

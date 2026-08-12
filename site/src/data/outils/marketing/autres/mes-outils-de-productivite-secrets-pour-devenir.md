@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Mes Outils De Productivité Secrets Pour Devenir Un Superhéros Du Business
 author: Diane
-description: "Mes Outils De Productivité Secrets Pour Devenir Un Superhéros Du Business."
+description: 'Découvre Mes Outils De Productivité Secrets Pour Devenir Un Superhéros
+  Du Business : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

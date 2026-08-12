@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Zimmwriter
 author: Diane
@@ -56,7 +56,7 @@ Here are some of its unique features:
 
 - ZimmWriter will crawl each URL, scrape it, summarize it, then write a blog post based on the article.
     
-- ZimmWriter can even write articles from YouTube vidéos and Amazon product pages (requires a ScrapeOwl API available via the options menu inside ZimmWriter).
+- ZimmWriter can even write articles from YouTube videos and Amazon product pages (requires a ScrapeOwl API available via the options menu inside ZimmWriter).
     
 - Includes website caching
     
@@ -80,7 +80,7 @@ Here are some of its unique features:
 
 - Windows 8, 10, 11, with Internet access and at least 1366x768 resolution
     
-    - Note: It is possible to run ZimmWriter on a Mac if you follow this [vidéo guide](https://www.youtube.com/watch?v=oEUEHf5DaKQ).
+    - Note: It is possible to run ZimmWriter on a Mac if you follow this [video guide](https://www.youtube.com/watch?v=oEUEHf5DaKQ).
         
 - Incompatible with Webroot
     

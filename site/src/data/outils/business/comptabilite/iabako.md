@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.iabako.com/fr/conditions-utilisation/
-- https://www.iabako.com/fr/politique-de-confidentialite-vie-privee/
-- https://www.iabako.com/fr/support-client-nous-contacter/
-notesQualification: IABAKO est une SAS francaise basee a Paris; la politique de confidentialite est propre et detaillee, mais la localisation publique de l'hebergement n'est pas suffisamment explicite pour aller plus loin.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: IABAKO
 author: Diane
 tags:

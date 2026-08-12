@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Attrape Tes Meilleurs Clients En Étant Généreux
 author: Diane
-description: "Attrape Tes Meilleurs Clients En Étant Généreux."
+description: 'Découvre Attrape Tes Meilleurs Clients En Étant Généreux : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

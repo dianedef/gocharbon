@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -38,7 +38,7 @@ Et maintenant, vous pouvez le forcer directement dans le projet pour l'ensemble 
 
 Voici une nouvelle fonctionnalité sur [**TextBulker**](https://a6zlu.r.ag.d.sendibm3.com/mk/cl/f/sh/1t6Af4OiGsDg0hAuAd3dp6ZlqzaqrV/dTp1g90bHGl7) et une explication vidéo : 
 
-[https://www.youtube.com/watch?v=vvQSEt0sTJE](__MASK_1__)
+[https://www.youtube.com/watch?v=vvQSEt0sTJE](https://a6zlu.r.ag.d.sendibm3.com/mk/cl/f/sh/1t6Af4OiGsE8LPNKYz9YzMdbEoZaZZ/E8beiIy8K7H8)
 
 ## Maillage interne sémantique & création backlink externe sémantique
 
@@ -76,7 +76,7 @@ Cela nous permet de déterminer les meilleures pages en utilisant la puissance e
 
 Exemple de prompts et d’utilisation des doubles crochets :
 
-**Alphabets [[[https://edu.academy/]][[https://edu.academy/](__MASK_3__)]]**
+**Alphabets [[[https://edu.academy/]][[https://edu.academy/](https://edu.academy/%5D%5D%5B%5Bhttps://edu.academy/)]]**
 
 **Cristiano Ronaldo [[[youtube.com](http://youtube.com/)]][[[fr.wikipedia.org](http://fr.wikipedia.org/)]]**
 

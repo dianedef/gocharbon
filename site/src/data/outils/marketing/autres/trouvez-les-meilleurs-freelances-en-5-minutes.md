@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
-toolCategoryPrimary: business
-toolSubcategoryPrimary: marketplace
 u_site: null
 title: Trouvez Les Meilleurs Freelances En 5 Minutes Avec Ces Outils Magiques
 author: Diane
-description: "Trouvez Les Meilleurs Freelances En 5 Minutes Avec Ces Outils Magiques."
+description: 'Découvre Trouvez Les Meilleurs Freelances En 5 Minutes Avec Ces Outils
+  Magiques : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

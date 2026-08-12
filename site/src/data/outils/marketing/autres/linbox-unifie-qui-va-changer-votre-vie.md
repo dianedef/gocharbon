@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: L'Inbox Unifié Qui Va Changer Votre Vie Productivité X10 Garantie
 author: Diane
-description: "L'Inbox Unifié Qui Va Changer Votre Vie Productivité X10 Garantie."
+description: 'Découvre L''Inbox Unifié Qui Va Changer Votre Vie Productivité X10 Garantie
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

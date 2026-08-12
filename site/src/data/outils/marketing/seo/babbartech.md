@@ -1,8 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut: null
-type: outil
+type: Logiciel
 _priorité: normal
 u_site: https://www.babbar.tech/fr
 tags:
@@ -24,7 +24,7 @@ imgUrl: ../../../../assets/astro.jpeg
 
 [Babbar : Analysez vos facteurs SEO, battez vos concurrents](https://www.babbar.tech/fr#pricing-area)
 
-[https://youtu.be/QuNp5p-ei-Y?t=155](__MASK_3__)
+[https://youtu.be/QuNp5p-ei-Y?t=155](https://youtu.be/QuNp5p-ei-Y?t=155)
 
 sur l'index le Fresh index chez préconise Babar très bonne idée oui parce que en fait c'est il y a déjà s'il y a vraiment un vrai problème de pollution de quoi enfin je dis que ça que le web à 90 % de la merde est-ce que c'est à peu près dans les clous officielle c'est 20% du spa mais vraiment le truc qui mérite vraiment même pas d'être en ligne après il y a 60% basse qualité et le reste c'est là haute qualité donc c'est 80%
 

@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: indetermine
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://gselect-assurances.fr/
-- https://www.orias.fr/home/showIntermediaire/904409554
-- https://www.pappers.fr/entreprise/g-select-assurances-904409554
-notesQualification: G Select Assurances est bien immatriculee en France et inscrite a l'ORIAS; en revanche, le dossier public ne documente pas clairement l'hebergement ni un dispositif de responsabilite plus detaille.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: gselect
 author: Diane
 tags:

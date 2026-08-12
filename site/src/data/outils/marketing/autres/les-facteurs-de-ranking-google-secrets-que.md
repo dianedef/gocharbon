@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Facteurs De Ranking Google Secrets Que Personne Ne Vous Dit
 author: Diane
-description: "Les Facteurs De Ranking Google Secrets Que Personne Ne Vous Dit."
+description: 'Découvre Les Facteurs De Ranking Google Secrets Que Personne Ne Vous
+  Dit : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

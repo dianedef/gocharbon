@@ -1,19 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: union-europeenne
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: Allemagne
-hebergementDonnees: inconnu
-societeMere: Allianz Direct Versicherungs-AG
-sourcesVerification:
-- https://www.fr.luko.eu/legal-mentions/
-- https://faq.luko.eu/fr/articles/6719984-comment-savoir-quel-type-de-contrat-vous-couvre
-- https://fr.luko.eu/assurance/assurance-habitation-pas-chere/
-notesQualification: Luko est desormais exploite sous la marque Allianz Direct via une entite de droit allemand disposant d'une succursale francaise; l'ancrage n'est donc plus strictement francais meme si la marque conserve une forte presence locale.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Luko
 author: Diane
 tags:

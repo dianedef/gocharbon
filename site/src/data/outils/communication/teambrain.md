@@ -1,35 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: teambrain
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: support-client
-toolFacets:
-  - ia
 description: 'TeamBrain **capitalise et répond automatiquement aux questions récurrentes**
   de vos visiteurs directement sur votre site ou vos collaborateurs dans votre entreprise.
   Economisez du '
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://teambrain.fr
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.teambrain.io/cgvu/
-- https://teambrain.fr/
-notesQualification: 'TeamBrain est une société française basée à Paris. Les CGVU
-  documentent un hébergement des contenus en France sur une infrastructure AWS et
-  une gouvernance locale claire ; le niveau de responsabilité reste partiel car la
-  documentation publique mobilisable reste essentiellement contractuelle et datée.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # teambrain

@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: facturation
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Facturation Électronique Arrive Préparez Vous Ou Disparaissez
 author: Diane
-description: "La Facturation Électronique Arrive Préparez Vous Ou Disparaissez."
+description: 'Découvre La Facturation Électronique Arrive Préparez Vous Ou Disparaissez
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

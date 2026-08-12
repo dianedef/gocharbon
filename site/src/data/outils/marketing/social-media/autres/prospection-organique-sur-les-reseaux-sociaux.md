@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -63,7 +63,7 @@ sur les Réseaux Sociaux
 
 VOICI  LES  3  ÉTAPES  !
 
- Étape # 1 : Faire vivre son réseau
+ Etape # 1 : Faire vivre son réseau
 
 C'est la clé !
 
@@ -89,14 +89,14 @@ c/ Sois récurrent
 
 Imagine quelqu'un qui commence à te parler et qui répond 5 jours après, pas génial non ?
 
- Étape # 2 : Discuter avec ces nouveaux contacts
+ Etape # 2 : Discuter avec ces nouveaux contacts
 a/ Se lancer
 
  Petits, on n'avait aucun problème pour aller parler à des inconnus et se faire de nouveaux copains, t'es d'accord ?!
 
 Et pourtant, tu vas voir que tu vas hésiter à parler à ces nouvelles personnes
 
-b/ Être sincère
+b/ Etre sincère
 
 T'as déjà parlé avec quelqu'un qui fait semblant ? C'est horrible, n'est-ce pas ?!
 La sincérité dans tes échanges, sans arrière pensée, va t'apporter des connexions extraordinaires avec ces nouveaux contacts
@@ -104,13 +104,13 @@ La sincérité dans tes échanges, sans arrière pensée, va t'apporter des conn
 Intéresse-toi sincèrement à leur situation et vois si tu peux les aider.
 C'est peut-être eux qui t'aideront d'ailleurs …
 
- c/ Être authentique
+ c/ Etre authentique
 
 Laisse-toi surprendre par la fraicheur d'une relation nouvelle qui démarre
 
 Sois toi-même pour polariser tes échanges
 
- Étape # 3 : Convertir
+ Etape # 3 : Convertir
 
 a/ Susciter l'intérêt
 

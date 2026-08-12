@@ -1,40 +1,53 @@
 ---
 section: tutos
 type: tuto
-imageNameKey: img
 tags:
 - Tutoriels
+imageNameKey: img
 u_site: null
-title: Comment creer un QR code
-author: Diane
-description: 'Tutoriel pratique pour creer un QR code : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
-imgUrl: ../../assets/astro.jpeg
 u_affi: null
+title: Comment Créer Un Qr Code
+author: Diane
+description: 'Découvre Comment Créer Un Qr Code : outil français pour entrepreneurs,
+  fonctionnalités et avis.'
+pubDate: '2024-03-25'
+imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment creer un QR code
+Les codes QR sont un type de code-barres qui peut stocker des informations telles que du texte, des URL ou d'autres données. Ils peuvent être scannés à l'aide d'un smartphone ou d'une tablette pour accéder aux informations stockées. Les codes QR sont de plus en plus populaires car ils constituent un moyen pratique de relier des objets physiques ou des documents imprimés à du contenu en ligne. Ils peuvent être imprimés sur différentes surfaces comme les cartes de visite, les prospectus, les affiches ou les emballages, ce qui permet aux utilisateurs d'accéder facilement à un site Web ou à d'autres ressources en ligne en scannant le code à l'aide de leur smartphone. Les codes QR ont un large éventail d'applications, notamment dans les domaines du marketing, de la publicité, de la billetterie et des paiements sans contact.
 
-Si tu veux creer un QR code, vise un tutoriel simple, exécutable et propre. L'idée n'est pas d'empiler les options, mais d'obtenir un résultat fiable sans bricolage inutile.
+Voici un tutoriel sur la façon de créer des codes QR à l'aide d'Unitag :
 
-## Ce qu'il faut préparer
+1. Crée un compte :
+   - Rends-toi sur le site Web d'Unitag.
+   - Entre ton adresse électronique et choisis un mot de passe.
+   - Colle le code de vérification reçu par courriel.
+   - Choisis entre un compte personnel ou professionnel (pour la version gratuite, un compte personnel suffit).
+   - Saisis ton prénom et ton nom, puis clique sur "Terminer".
 
-- un objectif clair
-- l'accès aux bons outils
-- un test final avant de considérer le sujet comme bouclé
+2. Génère un code QR :
+   - Une fois ton compte créé, tu seras redirigé vers la page d'accueil de l'application.
+   - Clique sur la section "Codes QR".
+   - Tu verras un tableau de bord où tous tes codes QR seront répertoriés. Clique sur "Créer un code QR".
 
-## La méthode simple
+3. Saisis l'URL souhaitée :
+   - Dans le champ "URL de destination", saisis l'URL que tu veux voir figurer dans le code QR.
+   - Clique sur "Envoyer" pour ajouter l'URL au code QR.
+   - Appuie sur "Enregistrer et publier" pour générer le code QR dans ton tableau de bord.
+   - Donne un nom à ton code QR et clique sur "Publier".
 
-1. Pose le résultat attendu noir sur blanc. Si tu ne sais pas exactement ce qui doit être livré, le tutoriel partira dans tous les sens.
-2. Prends le chemin le plus simple qui fonctionne. Un bon setup sobre bat presque toujours une usine à gaz que tu n'ouvriras plus dans deux semaines.
-3. Termine par un test concret. Ce n'est pas parce qu'un outil affiche 'succès' que l'expérience finale est réellement propre.
+4. Télécharger le code QR :
+   - Tu peux maintenant télécharger ton code QR.
+   - Si le code QR sera scanné à partir d'un écran, sélectionne l'option "Optimisé pour le Web". S'il sera scanné à partir d'un document imprimé, sélectionne l'option "Optimisé pour l'impression".
+   - Clique sur "Télécharger" pour enregistrer le code QR sur ton appareil.
 
-## Les erreurs à éviter
+5. Retourne au tableau de bord :
+   - Pour retourner à ton tableau de bord, clique sur "Panneau de contrôle des codes QR" en haut à gauche.
+   - Depuis le tableau de bord, tu peux modifier la couleur de ton QR Code, le télécharger à nouveau et accéder aux statistiques de consultation.
 
-- viser trop compliqué
-- ne pas documenter la procédure
-- considérer le sujet terminé avant une vraie vérification
+6. Suivre les statistiques de consultation :
+   - Si tu as un compte Unitag gratuit, tu peux voir un résumé des clics sur ton QR Code dans "Quick Analytics".
+   - Avec l'option payante, tu peux accéder à des statistiques de consultation plus détaillées, comme la géolocalisation, le type d'appareil, et plus encore.
+   - L'option payante offre également des fonctionnalités supplémentaires comme les bilans de santé et les filtres.
 
-## Commence comme ça
-
-Écris les étapes exactes, exécute-les une fois à froid, puis garde seulement ce qui est réellement utile pour obtenir le résultat.
+Voilà ! Tu as réussi à créer un code QR à l'aide d'Unitag

@@ -1,12 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Comment Nous Avons Gagné 82 700$ En 4 Semaines Avec Un Seul Cours Notre Méthode
   Secrète
 author: Diane
-description: "Comment Nous Avons Gagné 82 700$ En 4 Semaines Avec Un Seul Cours Notre Méthode Secrète."
+description: 'Découvre Comment Nous Avons Gagné 82 700$ En 4 Semaines Avec Un Seul
+  Cours Notre Méthode Secrète : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -139,4 +141,4 @@ J'ai inclus plusieurs autres conseils et leçons tirés du lancement du cours da
 
 [ ](https://contrarianthinking.co/how-to-launch-a-course-that-makes-82k-in-4-weeks/)
 
-[Comment lancer un cours et gagner 82 700 $ en 4 semaines ? - Pensée contrariante**Voler l'audience des autres pour développer la vôtre et pourquoi le contenu est roi aujourd'hui plus que jamais. Bienvenue aux milliers de nouveaux Contrariens qui nous ont rejoints](https://contrarianthinking.co/how-to-launch-a-course-that-makes-82k-in-4-weeks/)[https://contrarianthinking.co/how-to-launch-a-course-that-makes-82k-in-4-weeks/](__MASK_7__)
+[Comment lancer un cours et gagner 82 700 $ en 4 semaines ? - Pensée contrariante**Voler l'audience des autres pour développer la vôtre et pourquoi le contenu est roi aujourd'hui plus que jamais. Bienvenue aux milliers de nouveaux Contrariens qui nous ont rejoints](https://contrarianthinking.co/how-to-launch-a-course-that-makes-82k-in-4-weeks/)[https://contrarianthinking.co/how-to-launch-a-course-that-makes-82k-in-4-weeks/](https://contrarianthinking.co/how-to-launch-a-course-that-makes-82k-in-4-weeks/)

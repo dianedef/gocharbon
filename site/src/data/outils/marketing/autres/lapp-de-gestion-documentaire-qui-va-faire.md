@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'App De Gestion Documentaire Qui Va Faire Disparaître Vos Armoires
 author: Diane
-description: "L'App De Gestion Documentaire Qui Va Faire Disparaître Vos Armoires."
+description: 'Découvre L''App De Gestion Documentaire Qui Va Faire Disparaître Vos
+  Armoires : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Le Web Du Futur Va Vous Choquer Voici À Quoi Ressembleront Vos Réseaux Sociaux
 author: Diane
-description: "Le Web Du Futur Va Vous Choquer Voici À Quoi Ressembleront Vos Réseaux Sociaux."
+description: 'Découvre Le Web Du Futur Va Vous Choquer Voici À Quoi Ressembleront
+  Vos Réseaux Sociaux : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -34,7 +35,7 @@ There have been people talking about POSSE, and practicing it on their own sites
 
 In a POSSE world, everybody owns a domain name, and everybody has a blog
 
-In a POSSE world, everybody owns a domain name, and everybody has a blog. (I’m defining “blog” pretty loosely here — just as a place on the internet where you post your stuff and others consume it.) When you want to post something, you do it to your blog. Then, your long blog post might be broken into chunks and posted as a thread on X and Mastodon and Threads. The whole thing might go to your Medium page and your Tumblr and your LinkedIn profile, too. If you post a photo, it might go straight to Instagram, and a vertical vidéo would whoosh straight to TikTok, Reels, and Shorts. Your post appears natively on all of those platforms, typically with some kind of link back to your blog. And your blog becomes the hub for everything, your main home on the internet.
+In a POSSE world, everybody owns a domain name, and everybody has a blog. (I’m defining “blog” pretty loosely here — just as a place on the internet where you post your stuff and others consume it.) When you want to post something, you do it to your blog. Then, your long blog post might be broken into chunks and posted as a thread on X and Mastodon and Threads. The whole thing might go to your Medium page and your Tumblr and your LinkedIn profile, too. If you post a photo, it might go straight to Instagram, and a vertical video would whoosh straight to TikTok, Reels, and Shorts. Your post appears natively on all of those platforms, typically with some kind of link back to your blog. And your blog becomes the hub for everything, your main home on the internet.
 
 Done right, POSSE is the best of all posting worlds. “As someone publishing, I want as much interaction as possible,” says Matt Mullenweg, the CEO of Automattic and one of the most important people [working on WordPress](https://www.theverge.com/2022/3/15/22977857/wordpress-tumblr-simplenote-internet-automattic-matt-mullenweg-interview). (Automattic also [owns Tumblr](https://www.theverge.com/23506085/wordpress-twitter-tumblr-ceo-matt-mullenweg-elon-musk), another of the internet’s biggest posting platforms.) “So why are you making me choose which network it goes to? I should post it once, ideally to my domain, and then it goes to X and Threads and Tumblr and all the other networks that can have all their own interfaces and network effects and everything like that. But my thoughts should go to all those places.”
 

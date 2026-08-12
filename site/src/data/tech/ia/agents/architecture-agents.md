@@ -20,7 +20,7 @@ Ce guide decompose l'architecture d'un agent IA en ses composants fondamentaux. 
 
 ## ARCHITECTURE DE BASE : LES QUATRE PILIERS
 
-Tout agent IA, du plus simple chatbot au système multi-agents le plus complexe, repose sur quatre composants fondamentaux :
+Tout agent IA, du plus simple chatbot au systeme multi-agents le plus complexe, repose sur quatre composants fondamentaux :
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -46,37 +46,37 @@ La perception, c'est tout ce que l'agent "voit" de son environnement. Contrairem
 - **Input utilisateur** : le prompt, la question, l'instruction
 - **APIs** : donnees en temps reel (CRM, Google Analytics, base de donnees)
 - **Fichiers** : documents, images, code source, spreadsheets
-- **Événements** : webhooks, notifications, alertes système
+- **Evenements** : webhooks, notifications, alertes systeme
 - **Resultats de recherche** : web search, base de connaissances interne
 
-L'enjeu critique : la qualité de la perception determine la qualité de tout le reste. Un agent qui recoit des donnees incompletes ou erronees prendra de mauvaises décisions -- même avec le meilleur LLM du monde.
+L'enjeu critique : la qualite de la perception determine la qualite de tout le reste. Un agent qui recoit des donnees incompletes ou erronees prendra de mauvaises decisions -- meme avec le meilleur LLM du monde.
 
 ### 2. Raisonnement -- Le Cerveau
 
 Le raisonnement, c'est la ou le LLM entre en jeu. C'est le composant qui prend les inputs, les croise avec la memoire et decide quoi faire.
 
-Mais attention : le LLM n'est pas le seul moyen de raisonner. Selon la complexite du problème :
+Mais attention : le LLM n'est pas le seul moyen de raisonner. Selon la complexite du probleme :
 
 | Methode de raisonnement | Description | Quand l'utiliser |
 |------------------------|-------------|-----------------|
-| **Règles codees en dur** | if/else classique | Tâches simples et previsibles |
+| **Regles codees en dur** | if/else classique | Taches simples et previsibles |
 | **LLM simple** | un seul appel au modele | Questions directes |
-| **Chain-of-Thought** | le modele raisonne étape par étape | Problèmes multi-etapes |
-| **Tree-of-Thought** | explore plusieurs pistes en parallele | Problèmes ambigus |
-| **Multi-agents** | plusieurs LLMs qui debattent | Décisions critiques |
+| **Chain-of-Thought** | le modele raisonne etape par etape | Problemes multi-etapes |
+| **Tree-of-Thought** | explore plusieurs pistes en parallele | Problemes ambigus |
+| **Multi-agents** | plusieurs LLMs qui debattent | Decisions critiques |
 
 ### 3. Action -- Les Mains
 
-L'action, c'est la capacite de l'agent a **modifier le monde**. C'est ce qui differencie un agent d'un simple chatbot. Un chatbot génère du texte. Un agent *fait des choses* :
+L'action, c'est la capacite de l'agent a **modifier le monde**. C'est ce qui differencie un agent d'un simple chatbot. Un chatbot genere du texte. Un agent *fait des choses* :
 
 - Envoyer un email
 - Modifier un fichier
 - Appeler une API
 - Executer du code
-- Creer une tâche dans un outil de gestion
-- Publier un post sur les réseaux
+- Creer une tache dans un outil de gestion
+- Publier un post sur les reseaux
 
-Chaque action est implementee comme un **outil** (tool) que l'agent peut appeler. C'est un concept clé qu'on va detailler plus bas.
+Chaque action est implementee comme un **outil** (tool) que l'agent peut appeler. C'est un concept cle qu'on va detailler plus bas.
 
 ### 4. Memoire -- Le Disque Dur
 
@@ -89,11 +89,11 @@ La memoire permet a l'agent de retenir des informations entre les interactions. 
 Le Large Language Model est le moteur central de la plupart des agents modernes. Mais il ne faut pas le mythifier. Un LLM, c'est un **moteur de prediction de texte extremement puissant** qui :
 
 1. Recoit un texte d'entree (prompt + contexte + historique)
-2. Génère un texte de sortie (réponse, plan d'action, appel d'outil)
+2. Genere un texte de sortie (reponse, plan d'action, appel d'outil)
 
-### Le prompt système : l'ADN de l'agent
+### Le prompt systeme : l'ADN de l'agent
 
-C'est le prompt système qui transforme un LLM générique en agent specialise. Il definit :
+C'est le prompt systeme qui transforme un LLM generique en agent specialise. Il definit :
 
 ```python
 system_prompt = """
@@ -122,12 +122,12 @@ Reflechis etape par etape avant d'agir. Explique ton raisonnement.
 
 Tous les LLM ne se valent pas pour le role de "cerveau" :
 
-- **GPT-4o, Claude Sonnet** : bon rapport qualité/prix pour la plupart des agents
-- **Claude Opus, GPT-4** : raisonnement superieur pour les tâches complexes
-- **Modeles open source (Llama, Mistral)** : quand tu veux heberger toi-même ou reduire les coûts
-- **Modeles legers (GPT-4o-mini, Haiku)** : pour les tâches simples a haut volume
+- **GPT-4o, Claude Sonnet** : bon rapport qualite/prix pour la plupart des agents
+- **Claude Opus, GPT-4** : raisonnement superieur pour les taches complexes
+- **Modeles open source (Llama, Mistral)** : quand tu veux heberger toi-meme ou reduire les couts
+- **Modeles legers (GPT-4o-mini, Haiku)** : pour les taches simples a haut volume
 
-Règle de base : utilise le **modele le moins cher qui fait le travail correctement**. Ne mets pas Claude Opus sur un tri de spam.
+Regle de base : utilise le **modele le moins cher qui fait le travail correctement**. Ne mets pas Claude Opus sur un tri de spam.
 
 ---
 
@@ -151,7 +151,7 @@ outil = {
 }
 ```
 
-Le LLM lit la description de l'outil et decide quand l'utiliser. C'est pourquoi **la qualité de la description est cruciale**. Une description vague = un outil mal utilise.
+Le LLM lit la description de l'outil et decide quand l'utiliser. C'est pourquoi **la qualite de la description est cruciale**. Une description vague = un outil mal utilise.
 
 ### Categories d'outils courants
 
@@ -163,24 +163,24 @@ Le LLM lit la description de l'outil et decide quand l'utiliser. C'est pourquoi 
 
 **Actions sur le monde** :
 - Envoi d'emails, messages Slack
-- Création/modification de fichiers
+- Creation/modification de fichiers
 - Appels API (CRM, ERP, outils de gestion)
 - Execution de code
 
 **Outils internes** :
-- Calculatrice (pour les calculs précis)
+- Calculatrice (pour les calculs precis)
 - Generateur de code
-- Outil de reflexion (l'agent se parle a lui-même pour mieux raisonner)
+- Outil de reflexion (l'agent se parle a lui-meme pour mieux raisonner)
 
-### Sécurité des outils
+### Securite des outils
 
 C'est le point critique. Un outil mal securise, c'est un agent qui peut :
 - Supprimer des fichiers importants
 - Envoyer des emails a des clients avec du contenu hallucinant
 - Modifier des donnees de production
 
-**Règles de base** :
-- Principe du moindre privilege : ne donne que les permissions nécessaires
+**Regles de base** :
+- Principe du moindre privilege : ne donne que les permissions necessaires
 - Validation des parametres avant execution
 - Logs de chaque appel d'outil
 - Mode dry-run pour tester sans consequences
@@ -189,14 +189,14 @@ C'est le point critique. Un outil mal securise, c'est un agent qui peut :
 
 ## MEMOIRE : CE QUE L'AGENT RETIENT
 
-### Memoire court terme -- La fenêtre de contexte
+### Memoire court terme -- La fenetre de contexte
 
-C'est la "memoire de travail" de l'agent : tout ce qui tient dans le contexte du LLM lors d'un echange. Elle inclut le prompt système, l'historique de conversation et les resultats des outils.
+C'est la "memoire de travail" de l'agent : tout ce qui tient dans le contexte du LLM lors d'un echange. Elle inclut le prompt systeme, l'historique de conversation et les resultats des outils.
 
 **Limites** :
 - Taillee fixe (128K tokens pour GPT-4o, 200K pour Claude)
 - Plus le contexte est long, plus c'est couteux
-- Le LLM peut "oublier" des informations au milieu d'un long contexte (le problème du "lost in the middle")
+- Le LLM peut "oublier" des informations au milieu d'un long contexte (le probleme du "lost in the middle")
 
 ### Memoire long terme -- La base de connaissances
 
@@ -208,7 +208,7 @@ Pour retenir des informations entre les sessions, l'agent a besoin d'un stockage
 - C'est le coeur de l'architecture RAG (Retrieval-Augmented Generation)
 
 **Base relationnelle (PostgreSQL, SQLite)** :
-- Pour les donnees structurees : historique des actions, preferences utilisateur, métriques
+- Pour les donnees structurees : historique des actions, preferences utilisateur, metriques
 - Requetable de facon precise
 
 **Fichiers** :
@@ -246,7 +246,7 @@ Le planning, c'est la capacite de l'agent a transformer un objectif vague en une
 
 ### Chain-of-Thought (CoT) -- Penser a voix haute
 
-Le LLM verbalise son raisonnement étape par étape :
+Le LLM verbalise son raisonnement etape par etape :
 
 ```
 Objectif : "Prepare un rapport des ventes du mois"
@@ -277,7 +277,7 @@ Decision : Commencer par C (meilleur ratio impact/cout)
 
 ### Task Decomposition -- Diviser pour regner
 
-Pour les projets complexes, l'agent decompose en sous-tâches independantes :
+Pour les projets complexes, l'agent decompose en sous-taches independantes :
 
 ```python
 def planifier_campagne_email(brief):
@@ -294,7 +294,7 @@ def planifier_campagne_email(brief):
 
 ---
 
-## LA BOUCLE AGENT : LE COEUR DU SYSTÈME
+## LA BOUCLE AGENT : LE COEUR DU SYSTEME
 
 Tout converge dans la **boucle agent** (agent loop). C'est le cycle que l'agent repete jusqu'a atteindre son objectif :
 
@@ -345,7 +345,7 @@ Iteration 3:
 
 ### Les conditions d'arret
 
-Un agent sans condition d'arret, c'est une boucle infinie qui brule ton budget API. Trois mecanismes de sécurité :
+Un agent sans condition d'arret, c'est une boucle infinie qui brule ton budget API. Trois mecanismes de securite :
 
 1. **Objectif atteint** : l'agent juge qu'il a termine
 2. **Nombre max d'iterations** : generalement 5-15 etapes
@@ -384,7 +384,7 @@ Utilisateur → Orchestrateur → Agent Recherche
 
 ---
 
-## GARDE-FOUS : LA SÉCURITÉ D'ABORD
+## GARDE-FOUS : LA SECURITE D'ABORD
 
 Un agent mal securise peut faire des degats reels. Voici les garde-fous essentiels.
 
@@ -407,9 +407,9 @@ def executer_action(action, parametres):
 
 ### Sandboxing
 
-L'agent s'execute dans un environnement isole. Il ne peut pas acceder a tout le système, seulement aux ressources autorisees.
+L'agent s'execute dans un environnement isole. Il ne peut pas acceder a tout le systeme, seulement aux ressources autorisees.
 
-### Limites de tokens et de coût
+### Limites de tokens et de cout
 
 ```python
 config_agent = {
@@ -428,7 +428,7 @@ Chaque action de l'agent est loguee : ce qu'il a pense, ce qu'il a decide, ce qu
 
 ## ARCHITECTURE DE REFERENCE : TOUT ASSEMBLER
 
-Voici a quoi ressemble une architecture complète d'agent IA pour un cas d'usage business :
+Voici a quoi ressemble une architecture complete d'agent IA pour un cas d'usage business :
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -515,7 +515,7 @@ resultat = executor.invoke({
 })
 ```
 
-Ce code minimal contient déjà les quatre piliers : perception (input utilisateur), raisonnement (LLM), action (outils), et un garde-fou (max_iterations).
+Ce code minimal contient deja les quatre piliers : perception (input utilisateur), raisonnement (LLM), action (outils), et un garde-fou (max_iterations).
 
 ---
 

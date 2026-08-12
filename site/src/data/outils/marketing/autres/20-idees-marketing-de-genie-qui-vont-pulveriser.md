@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: 20 Idées Marketing De Génie Qui Vont Pulvériser Votre Concurrence
 author: Diane
-description: "20 Idées Marketing De Génie Qui Vont Pulvériser Votre Concurrence."
+description: 'Découvre 20 Idées Marketing De Génie Qui Vont Pulvériser Votre Concurrence
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -36,14 +37,14 @@ At the time all screen recorders walked the same and talked the same. No opinion
 
 Until, one day, Loom came up with a point of view:
 
-1. The way remote teams communicate sucks. 2. Meetings are boring. Calls drag on. Email lacks personality. 3. The solution? Async vidéo messaging.
+1. The way remote teams communicate sucks. 2. Meetings are boring. Calls drag on. Email lacks personality. 3. The solution? Async video messaging.
 
-And with that said a new category was created. Loom was no longer “just another screen recorder”. It was “vidéo messaging for work”.
+And with that said a new category was created. Loom was no longer “just another screen recorder”. It was “video messaging for work”.
 
 
 The wonderful thing about creating a new category is you haven't got any competitors. You make the rules. You own the language.
 
-“Send a vidéo message” quickly became “Send a Loom”.
+“Send a video message” quickly became “Send a Loom”.
 
 Today, Loom's valued at $1.5bn . More than all the other unopinionated screen recorders put together. That's the power of positioning.
 
@@ -106,7 +107,7 @@ I love the execution and seems like a great way to make your own rules and rewar
     - ## A
         
         - This guy has been the CEO of GitHub for 3 years, look at the resume the design is so impressive I love it, you designers should learn from such a master 
-        - [](https://l.facebook.com/l.php?u=https%3A%2F%2Fnat.org%2F%3Ffbclid%3DIwAR27Rr631ROmcKop39KcrlBKyfCxAXyoYmNxHopbB7AuaSdEgSQiHzFwWVg&h=AT2w0LBbf86wusj4CG8Sbp1mUDecNY4NnMx_4LrtkGBzcscICXRVS8TnNYfIGoDq6ll-WoEYjXccRFILQ9Wwxb9AbbaXI_2aes%3Ci%3Ek6F3gGRTn_YALDmEsPJf0NEKXUquLRrj&%3C/i%3Etn__=-UK-R&c%5B0%5D=AT08zbvvr37xHLbjkeHrodr7n2nGXPG1ZX8UTwpY7iPcoVXfW6xGE4iACQFPSVREgNsjptB1fff57zPG5BqM8FQBALIyUkWv3AMAWgpUj-Lamh-jIAkc2RzhoS7STvsfstJ0YN6PAvcqOQJZgA)[https://nat.org/](__MASK_8__)
+        - [](https://l.facebook.com/l.php?u=https%3A%2F%2Fnat.org%2F%3Ffbclid%3DIwAR27Rr631ROmcKop39KcrlBKyfCxAXyoYmNxHopbB7AuaSdEgSQiHzFwWVg&h=AT2w0LBbf86wusj4CG8Sbp1mUDecNY4NnMx_4LrtkGBzcscICXRVS8TnNYfIGoDq6ll-WoEYjXccRFILQ9Wwxb9AbbaXI_2aes%3Ci%3Ek6F3gGRTn_YALDmEsPJf0NEKXUquLRrj&%3C/i%3Etn__=-UK-R&c%5B0%5D=AT08zbvvr37xHLbjkeHrodr7n2nGXPG1ZX8UTwpY7iPcoVXfW6xGE4iACQFPSVREgNsjptB1fff57zPG5BqM8FQBALIyUkWv3AMAWgpUj-Lamh-jIAkc2RzhoS7STvsfstJ0YN6PAvcqOQJZgA)[https://nat.org/](https://nat.org/)
         - What he said that I liked (and understood, which I can't say for all what he said):
         - It's important to do things fast, you learn more per unit time because you make contact with reality more frequently
         - Many tech companies are 2-10x overstaffed
@@ -118,8 +119,8 @@ I love the execution and seems like a great way to make your own rules and rewar
 
 le mec de bref et ses cheveux
 
-[https://youtu.be/J403Rt7i-R0?t=467](__MASK_10__)
+[https://youtu.be/J403Rt7i-R0?t=467](https://youtu.be/J403Rt7i-R0?t=467)
 
-[https://youtu.be/bsN7nnF86Hs?t=633](__MASK_11__)
+[https://youtu.be/bsN7nnF86Hs?t=633](https://youtu.be/bsN7nnF86Hs?t=633)
 
-Le génie marketing de Kyan Khojandi [https://www.youtube.com/watch?v=REyEMbc-LJ4](__MASK_12__)
+Le génie marketing de Kyan Khojandi [https://www.youtube.com/watch?v=REyEMbc-LJ4](https://www.youtube.com/watch?v=REyEMbc-LJ4)

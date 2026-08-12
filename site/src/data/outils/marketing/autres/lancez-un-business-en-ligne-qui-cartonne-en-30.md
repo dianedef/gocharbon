@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Lancez Un Business En Ligne Qui Cartonne En 30 Jours La Méthode Infaillible
 author: Diane
-description: "Lancez Un Business En Ligne Qui Cartonne En 30 Jours La Méthode Infaillible."
+description: 'Découvre Lancez Un Business En Ligne Qui Cartonne En 30 Jours La Méthode
+  Infaillible : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -175,7 +176,7 @@ En créant des résultats tangibles, vous découvrez votre véritable passion et
 
 recette secrète sinon tout le monde tricherait
 
-type de contenu = story format : algo favorise dans l'ordre vidéo live, vidéo, image, lien, texte
+type de contenu = story format : algo favorise dans l'ordre video live, video, image, lien, texte
 
 engagement :
 
@@ -191,7 +192,7 @@ favoriser l'interaction : demander de liker de tagger des gens etc
 
 tenir compte du timing : post au bon moment les bons jours : regarder les statistituqes d'audiences des publications et publier 20 min avant le pic de présence
 
-être régulier
+etre régulier
 
 Marketing
 
@@ -209,7 +210,7 @@ Quelqu'un qui a juste le savoir faire est un "martyr" marketing : "je suis telle
 
 Quelqu'un qui n'a que de la gueule est un "charlatan", il lui manque la qualité du savoir faire0
 
-Les 2 schéma sont à fuir il faut être au milieu des deux
+Les 2 schéma sont à fuir il faut etre au milieu des deux
 
 Générer de l'intérêt
 

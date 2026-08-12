@@ -1,10 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Rumble studio
 author: Diane
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: audio
 tags:
 - Outils
 description: Rumble Studio est passé par le site d'Anthony Nevo, [Vie De Dingue](http://viededingue1.com/F6JPnB)
@@ -264,8 +262,8 @@ CEO
 🌍 We support users from all over the world. The UI and transcripts are in English for now, with more languages coming soon.
 
 🏃‍♀️
-Going in the wood is perfect for tranquility & having a beautiful background in your vidéo. Krisp.ai is a must too
-I can also suggest using Rumble Studio, which is an asynchronous podcast (& vidéo) recording tool, which can tremendously help on the podcasting part: You can record yourself & questions whenever (so night or early mornings when everything's quiet), send it to your guest & they will record answers whenever, then you can blend the whole thing with the app.
+Going in the wood is perfect for tranquility & having a beautiful background in your video. Krisp.ai is a must too
+I can also suggest using Rumble Studio, which is an asynchronous podcast (& video) recording tool, which can tremendously help on the podcasting part: You can record yourself & questions whenever (so night or early mornings when everything's quiet), send it to your guest & they will record answers whenever, then you can blend the whole thing with the app.
 No need to schedule a meeting ! ﻿🥳 ﻿
 I haven't tried it yet, but can't wait to!! :D You just send an email to your guest, and they'll be redirected to the platform where they can listen to your questions and record their answers!
 Rumble Studio - Produce audio content easily | AppSumo
@@ -277,7 +275,7 @@ https://www.rumble.studio/product
 
 https://www.rumble.studio/pricing
 
-🎬 Demo Vidéo (3 min)
+🎬 Demo Video (3 min)
 
 https://youtu.be/GlOzMExZp7k
 
@@ -324,13 +322,13 @@ https://help.rumble.studio/hc/kb-tickets/new
 support@rumble.studio
 https://www.rumble.studio/blog/the-advantages-of-asynchronous-audio-creation
 
-🪶 The Complète Podcasting Process
+🪶 The Complete Podcasting Process
 
 https://www.rumble.studio/blog/the-complete-podcasting-process
 
 🧑‍🎓 Zero to a Hundred - The fastest way to create your first 100 podcast episodes
 
-Workshop Vidéos
+Workshop Videos
 
 https://youtube.com/playlist?list=PLmzIF6RsCa\_dThNiHHUGN80rgme9f9pn6
 
@@ -345,7 +343,7 @@ FEATURES
 
 ✅ Interview templates
 
-✅ Audio, text, image and vidéo capture
+✅ Audio, text, image and video capture
 
 🎨 Customize
 
@@ -357,7 +355,7 @@ FEATURES
 
 ✅ Invite guests with a single link
 
-✅ Collaborative création & template sharing
+✅ Collaborative creation & template sharing
 
 ✅ Group access and permission controls
 
@@ -412,11 +410,11 @@ A branding kit is a set of visual and audio customisation settings used to perso
 
 You can select a branding kit, use the elements to customise one or more interviews, then later you can edit the branding kit elements and use it again for a different interview(s). It’s just a set of options to save you time.
 
-Vidéo:
+Video:
 
-We are adding functionality for creators and guests to record vidéo directly into Rumble Studio now. Vidéo will be made available on all plans, to all users regardless of when they signed up. The exact details of this feature on each plan are yet to be confirmed i.e. the input/output vidéo resolution, and hours of vidéo recorded/exported per month etc.
+We are adding functionality for creators and guests to record video directly into Rumble Studio now. Video will be made available on all plans, to all users regardless of when they signed up. The exact details of this feature on each plan are yet to be confirmed i.e. the input/output video resolution, and hours of video recorded/exported per month etc.
 
-We are primarily interested in helping creators produce audio content, and in the short/medium term, will only add vidéo features to support this objective. For example, we do not currently have plans to add vidéo editing or vidéo merging to our Mix feature. But audio tracks from vidéos will be available in the audio Mix feature.
+We are primarily interested in helping creators produce audio content, and in the short/medium term, will only add video features to support this objective. For example, we do not currently have plans to add video editing or video merging to our Mix feature. But audio tracks from videos will be available in the audio Mix feature.
 
 Please vote for it in our Feedback Forum to get notified when it’s out: https://feedback.rumble.studio/feature-requests/p/record-video-in-rumble-studio
 

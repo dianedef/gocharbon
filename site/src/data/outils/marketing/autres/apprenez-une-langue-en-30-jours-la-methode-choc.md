@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,12 +7,11 @@ imageNameKey: null
 u_site: null
 title: Apprenez Une Langue En 30 Jours La Méthode Choc Qui Affole Les Polyglottes
 author: Diane
-description: "Apprenez Une Langue En 30 Jours La Méthode Choc Qui Affole Les Polyglottes."
+description: 'Découvre Apprenez Une Langue En 30 Jours La Méthode Choc Qui Affole
+  Les Polyglottes : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-Voici une sélection utile autour de **Apprenez Une Langue En 30 Jours La Méthode Choc Qui Affole Les Polyglottes** :
-
-- [Ayni — Wiki des startups](https://wiki-startup.com/index.php?title=Ayni)
-- [Anglify - La formation qui va vous faire aimer l'anglais](https://www.anglify.com/)
+[Ayni — Wiki des startups](https://wiki-startup.com/index.php?title=Ayni)
+[Anglify - La formation qui va vous faire aimer l'anglais](https://www.anglify.com/)

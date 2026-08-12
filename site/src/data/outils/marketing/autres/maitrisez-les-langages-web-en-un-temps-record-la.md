@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Maîtrisez Les Langages Web En Un Temps Record La Méthode Choc
 author: Diane
-description: "Maîtrisez Les Langages Web En Un Temps Record La Méthode Choc."
+description: 'Découvre Maîtrisez Les Langages Web En Un Temps Record La Méthode Choc
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -127,9 +128,9 @@ The src attribute is present for browsers that don't understand srcset.
 ⁣A great tool to find all the elements with their descriptions in a single place.⁣  
 These can be very helpful and handy as who remembers all the tags.
 
-[https://htmlcheatsheet.com/](__MASK_58__)  
-[https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet](__MASK_59__)  
-[https://websitesetup.org/html5-periodical-table/](__MASK_60__)
+[https://htmlcheatsheet.com/](https://htmlcheatsheet.com/)  
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet](https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet)  
+[https://websitesetup.org/html5-periodical-table/](https://websitesetup.org/html5-periodical-table/)
 
 # [](https://dev.to/theindiancodinggrl/20-days-of-html-learn-20-amazing-things-about-html-part-1-2p99#day-9-all-about-quotations)**Day 9- All about Quotations**
 

@@ -21,10 +21,10 @@ Ce guide couvre les deux : les filtres techniques (hooks PHP) et les filtres vis
 
 Un hook, c'est un point d'ancrage dans le code de WooCommerce ou tu peux "accrocher" ta propre logique. Il en existe deux types :
 
-- **Actions** : executent du code a un moment précis (afficher un message, envoyer un email, creer un log)
-- **Filtres** : modifient une donnee avant qu'elle soit utilisée (changer un prix, reformater un texte, ajouter un champ)
+- **Actions** : executent du code a un moment precis (afficher un message, envoyer un email, creer un log)
+- **Filtres** : modifient une donnee avant qu'elle soit utilisee (changer un prix, reformater un texte, ajouter un champ)
 
-**Analogie :** imagine WooCommerce comme une chaîne de montage. Les actions te permettent d'ajouter un poste de travail a un endroit précis. Les filtres te permettent de modifier la piece qui passe sur le tapis roulant.
+**Analogie :** imagine WooCommerce comme une chaine de montage. Les actions te permettent d'ajouter un poste de travail a un endroit precis. Les filtres te permettent de modifier la piece qui passe sur le tapis roulant.
 
 **En chiffres :** WooCommerce contient plus de **750 hooks** (actions + filtres). Tu n'en utiliseras probablement que 20-30 pour un projet courant.
 
@@ -273,7 +273,7 @@ woocommerce/
     form-checkout.php
 ```
 
-### Priorités et Ordre d'Execution
+### Priorites et Ordre d'Execution
 
 Quand tu accroches une fonction a un hook, le troisieme parametre est la **priorite** :
 
@@ -284,10 +284,10 @@ add_action('woocommerce_single_product_summary', 'ma_fonction', 15);
 
 | Priorite | Execution |
 |----------|-----------|
-| 1-9 | Très tot (avant le contenu par defaut) |
+| 1-9 | Tres tot (avant le contenu par defaut) |
 | 10 | Par defaut (la plupart des fonctions WooCommerce) |
-| 11-20 | Après le defaut |
-| 50+ | Très tard (après presque tout) |
+| 11-20 | Apres le defaut |
+| 50+ | Tres tard (apres presque tout) |
 
 **Astuce :** pour savoir quel hook s'execute ou, installe le plugin "Query Monitor". Il affiche tous les hooks declenches sur chaque page.
 
@@ -298,7 +298,7 @@ add_action('woocommerce_single_product_summary', 'ma_fonction', 15);
 Si ta boutique a plus de 30 produits, tes clients ont besoin de filtres. Les chiffres parlent :
 
 - **76% des acheteurs** considerent le filtrage comme la fonctionnalite la plus importante d'un site e-commerce (etude Baymard Institute)
-- Un bon système de filtres augmente le **taux de conversion de 26%** en moyenne
+- Un bon systeme de filtres augmente le **taux de conversion de 26%** en moyenne
 - **42% des boutiques** en ligne n'ont pas de filtrage efficace (c'est une opportunite)
 
 ### Filtrage Natif WooCommerce (Widgets)
@@ -307,7 +307,7 @@ WooCommerce inclut des widgets de filtrage basiques :
 
 - **Filtrer par prix** : slider min/max
 - **Filtrer par attribut** : couleur, taille, etc. (type = select ou swatch)
-- **Filtrer par note** : étoiles
+- **Filtrer par note** : etoiles
 - **Filtrer par stock** : en stock / rupture
 
 **Limites :** pas d'AJAX (rechargement de page a chaque filtre), pas de combinaison fluide, UX datee.
@@ -336,7 +336,7 @@ Le Rolls-Royce du filtrage WooCommerce :
 
 **Points forts :**
 - Filtrage AJAX instantane (pas de rechargement de page)
-- Facettes combinables (prix + couleur + taille en même temps)
+- Facettes combinables (prix + couleur + taille en meme temps)
 - Compatible avec n'importe quel theme et n'importe quel page builder
 - Types de facettes : checkbox, dropdown, slider, range, search, proximity (geolocalisation)
 - Indexation intelligente (les filtres se mettent a jour en fonction des resultats disponibles)
@@ -355,7 +355,7 @@ echo facetwp_display('template', 'produits');
 
 #### AJAX Product Filter par BeRocket (Gratuit + Premium a 49 USD)
 
-Le meilleur rapport qualité/prix :
+Le meilleur rapport qualite/prix :
 
 **Points forts :**
 - Version gratuite fonctionnelle (filtrage AJAX de base)
@@ -386,23 +386,23 @@ Pour les utilisateurs d'Elementor/Gutenberg :
 - Indexation intelligente
 - Filtres visuels (swatches, images)
 
-**Limites :** necessite JetEngine pour les filtres avances, écosystème Crocoblock specifique.
+**Limites :** necessite JetEngine pour les filtres avances, ecosysteme Crocoblock specifique.
 
 ### Comparatif Rapide
 
 | Plugin | Prix | AJAX | Swatches | Difficulte | Ideal pour |
 |--------|------|------|----------|------------|------------|
 | **FacetWP** | 99 USD/an | Oui | Oui | Moyenne | Gros catalogues, sites custom |
-| **BeRocket** | Gratuit/49 USD | Oui | Oui | Facile | PME, bon rapport qualité/prix |
+| **BeRocket** | Gratuit/49 USD | Oui | Oui | Facile | PME, bon rapport qualite/prix |
 | **FLAVOR** | Gratuit | Non | Non | Facile | Petites boutiques |
 | **JetSmartFilters** | 79 USD/an | Oui | Oui | Moyenne | Utilisateurs Elementor |
-| **Widgets natifs** | Gratuit | Non | Non | Facile | Très petites boutiques |
+| **Widgets natifs** | Gratuit | Non | Non | Facile | Tres petites boutiques |
 
 ## UX des Filtres : Les Bonnes Pratiques
 
 ### 1. Placement
 
-Les filtres doivent être **visibles immediatement** sur la page catalogue :
+Les filtres doivent etre **visibles immediatement** sur la page catalogue :
 
 - **Desktop** : sidebar gauche (convention e-commerce) ou barre horizontale au-dessus des produits
 - **Mobile** : bouton "Filtrer" fixe en bas de l'ecran, qui ouvre un panneau en overlay
@@ -420,7 +420,7 @@ Les filtres doivent être **visibles immediatement** sur la page catalogue :
 
 ### 3. Filtres Dynamiques
 
-Les bons plugins masquent automatiquement les options qui ne retournent aucun resultat. Si tu n'as pas de "canape rouge", l'option "Rouge" disparait quand "Canape" est sélectionne. C'est ce qu'on appelle le **contextual filtering**.
+Les bons plugins masquent automatiquement les options qui ne retournent aucun resultat. Si tu n'as pas de "canape rouge", l'option "Rouge" disparait quand "Canape" est selectionne. C'est ce qu'on appelle le **contextual filtering**.
 
 ### 4. Compteurs de Resultats
 
@@ -442,7 +442,7 @@ Un bouton "Effacer tous les filtres" bien visible. Et la possibilite de retirer 
 
 ## Impact SEO des Filtres
 
-### Le Problème : Explosion d'URLs
+### Le Probleme : Explosion d'URLs
 
 Chaque combinaison de filtres cree potentiellement une URL unique :
 
@@ -503,7 +503,7 @@ Plutot que de compter sur les filtres pour le SEO, cree des **pages de categorie
 
 Les filtres AJAX ajoutent des requetes au serveur. Pour garder la performance :
 
-- **Cache les resultats** : FacetWP a un système d'indexation qui evite les requetes SQL a chaque filtre
+- **Cache les resultats** : FacetWP a un systeme d'indexation qui evite les requetes SQL a chaque filtre
 - **Lazy load les images** : ne charge les images produits qu'au scroll
 - **Limite les filtres affiches** : 4-6 filtres maximum sur une page. Au-dela, ca ralentit et ca surcharge visuellement
 
@@ -590,7 +590,7 @@ jQuery(document).ready(function($) {
 });
 ```
 
-**Attention :** ce code est un point de depart. En production, ajoute la validation, le nonce AJAX (sécurité), la gestion d'erreurs, et le debounce sur les inputs.
+**Attention :** ce code est un point de depart. En production, ajoute la validation, le nonce AJAX (securite), la gestion d'erreurs, et le debounce sur les inputs.
 
 ## Recapitulatif : Que Choisir ?
 
@@ -603,4 +603,4 @@ jQuery(document).ready(function($) {
 | Utilisateur Elementor | **JetSmartFilters** |
 | Besoin ultra-specifique | **Code custom** (AJAX + WP_Query) |
 
-**Le mot de la fin :** les hooks WooCommerce sont la clé pour personnaliser ta boutique sans risquer de perdre tes modifications a la prochaine mise a jour. Et les filtres de produits, c'est l'UX qui fait la difference entre une boutique ou on achete et une boutique ou on part. Investis du temps (ou de l'argent) la-dessus.
+**Le mot de la fin :** les hooks WooCommerce sont la cle pour personnaliser ta boutique sans risquer de perdre tes modifications a la prochaine mise a jour. Et les filtres de produits, c'est l'UX qui fait la difference entre une boutique ou on achete et une boutique ou on part. Investis du temps (ou de l'argent) la-dessus.

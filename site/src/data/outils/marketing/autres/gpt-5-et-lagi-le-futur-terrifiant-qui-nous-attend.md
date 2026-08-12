@@ -1,10 +1,5 @@
 ---
-draft: true
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-- ia
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -12,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Gpt 5 Et L'Agi Le Futur Terrifiant Qui Nous Attend… Êtes Vous Prêt
 author: Diane
-description: "Gpt 5 Et L'Agi Le Futur Terrifiant Qui Nous Attend… Êtes Vous Prêt."
+description: 'Découvre Gpt 5 Et L''Agi Le Futur Terrifiant Qui Nous Attend… Êtes Vous
+  Prêt : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

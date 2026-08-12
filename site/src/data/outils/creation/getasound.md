@@ -1,10 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Getasound
 author: Diane
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: audio
 tags:
 - Outils
 description: Getasound est la première marketplace française de communication sonore.

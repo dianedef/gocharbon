@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://idomyou.fr/mentions-legales
-- https://idomyou.fr/bcg-mobile-ca-politique-de-confidentialite
-notesQualification: SASU francaise domiciliee a Paris avec activite de domiciliation agregee; hebergeur mentionne comme 1 and 1 sans precision suffisante sur la localisation effective des donnees.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: I Dom You
 author: Diane
 tags:

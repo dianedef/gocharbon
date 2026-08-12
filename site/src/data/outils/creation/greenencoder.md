@@ -1,10 +1,6 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: video
-toolFacets:
-  - ia
 tags:
 - Outils
 imageNameKey: greenencoder

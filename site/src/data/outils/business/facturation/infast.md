@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: hors-union-europeenne
-sourcesVerification:
-- https://intia.fr/fr/mentions-legales/
-- https://intia.fr/fr/
-- https://intia.fr/fr/nous-contacter/
-notesQualification: INFast est edite par la SAS francaise INTIA a Brest; l'hebergement officiel combine Clever Cloud en France et Heroku aux Etats-Unis pour certaines briques applicatives, ce qui empêche une qualification souveraine plus forte.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: INFast
 author: Diane
 tags:

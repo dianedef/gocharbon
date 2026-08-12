@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: url-shortener
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'Outil De Gestion De Liens Qui Va Révolutionner Votre Navigation Web
 author: Diane
-description: "L'Outil De Gestion De Liens Qui Va Révolutionner Votre Navigation Web."
+description: 'Découvre L''Outil De Gestion De Liens Qui Va Révolutionner Votre Navigation
+  Web : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

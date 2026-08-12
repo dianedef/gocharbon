@@ -1,18 +1,18 @@
 ---
 section: parcours
 title: Dropshipping
-author: Diane GoCharbon
+author: Web Indé
 tags:
 - Business
-description: 'Le dropshipping reste possible, mais les marges, la qualité et la relation
-  client restent les vrais sujets.'
+description: 'Guide complet dropshipping : fournisseurs, boutique e-commerce et stratégies
+  marketing pour réussir en 2024.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Le dropshipping, c'est vendre des produits sans gérer directement le stock. Le modèle séduit parce qu'il réduit le ticket d'entrée, mais il concentre aussi plusieurs fragilités : faible contrôle, qualité variable, concurrence forte et marges souvent serrées.
+Le dropshipping, c'est vendre des produits en ligne SANS avoir de stock. Concrètement : tu crées une boutique en ligne, le client commande chez toi, et c'est ton fournisseur qui envoie directement le produit au client. Tu es l'intermédiaire qui gère le marketing et les ventes.
 
 L'avantage ? Tu démarres avec presque rien (pas de stock à acheter). L'inconvénient ? Les marges sont plus faibles et tu as moins de contrôle sur la qualité et les délais d'envoi.
 

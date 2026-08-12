@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: social-media
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -10,7 +8,8 @@ u_site: null
 title: Les Secrets Des Réseaux Sociaux Que Les Influenceurs Ne Veulent Pas Que Vous
   Sachiez
 author: Diane
-description: "Les Secrets Des Réseaux Sociaux Que Les Influenceurs Ne Veulent Pas Que Vous Sachiez."
+description: 'Découvre Les Secrets Des Réseaux Sociaux Que Les Influenceurs Ne Veulent
+  Pas Que Vous Sachiez : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

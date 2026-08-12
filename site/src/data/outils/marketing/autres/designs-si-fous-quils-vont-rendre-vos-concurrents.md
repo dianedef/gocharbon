@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: creation-contenu
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Designs Si Fous Qu'Ils Vont Rendre Vos Concurrents Fous De Jalousie
 author: Diane
-description: "Designs Si Fous Qu'Ils Vont Rendre Vos Concurrents Fous De Jalousie."
+description: 'Découvre Designs Si Fous Qu''Ils Vont Rendre Vos Concurrents Fous De
+  Jalousie : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

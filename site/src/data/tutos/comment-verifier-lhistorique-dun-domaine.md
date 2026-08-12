@@ -1,49 +1,23 @@
 ---
 section: tutos
+type: Tuto
+statut:
+- backlog
+_priorité: normal
 tags:
 - Tutoriels
-imageNameKey: null
-u_site: null
-title: Comment vérifier l’historique d’un domaine avant de l’acheter
+title: Comment Vérifier L'Historique D'Un Domaine
 author: Diane
-description: 'Comment vérifier l’historique d’un domaine avant de l’acheter : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Comment Vérifier L''Historique D''Un Domaine : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment vérifier l’historique d’un domaine avant de l’acheter ne consiste pas à empiler des astuces. Le plus rentable, c’est d’avoir une méthode simple, mesurable et alignée sur l’intention de recherche réelle.
+Avant d'acheter un domaine, il faut toujours en vérifier l'historique. Il se pourrait qu'il ait été impliqué par le passé dans des activités de scam, a été pénalisé, ou eu une mauvaise réputation auprès de ses utilsiateurs.
 
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
+Cela laisse des traces, des indicateurs très mauvais aux yeux de Google, ou d'autres structures comme les serveurs de mails... Ce qui pourrirait vos chances de faire réussir quelque chose en SEO ou ailleurs  avec ce nom de domaine
 
-## Ce que tu vas obtenir
-- une méthode utile à réappliquer
-- des priorités plus nettes
-- un suivi qui évite de travailler à l’aveugle
+Pour voir à quoi le site ressemblait avant et quel genre de contenu il proposait, utilisez Internet Archive Wayback machine pour regarder si le site était de qualité ou non
 
-## Méthode simple
-### 1. Clarifie l’intention de recherche
-Avant toute optimisation, vérifie ce que cherche vraiment la personne et quel type de page mérite d’être servi.
-
-### 2. Audite ce qui existe déjà
-Regarde les pages en place, les concurrents, les points de friction et les opportunités évidentes avant de réécrire tout le site.
-
-### 3. Optimise les éléments à fort impact
-Titre, angle, structure, liens internes, médias, preuves et appel à l’action comptent davantage que des micro astuces.
-
-### 4. Mesure avec des signaux simples
-Suis les impressions, clics, positions et conversions. Sans mesure, tu confonds vite agitation et progrès.
-
-### 5. Réitère sur les pages qui comptent
-Concentre-toi sur les URLs utiles au business au lieu de courir après toutes les requêtes possibles.
-
-## Pièges à éviter
-- viser un mot-clé avant de comprendre l’intention
-- sur-optimiser des détails et oublier la page
-- mesurer le trafic sans regarder l’impact business
-
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
-
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+Vous pouvez aussi utiliser le service who.is pour savoir qui était le propriétaire du domaine

@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.silvr.co/fr/legal
-- https://www.silvr.co/legal
-notesQualification: Silvr est une entreprise francaise basee a Neuilly-sur-Seine et immatriculee a l'ORIAS; la page legale met en avant une certification ISO 27001 et un cadre de conformite solide, sans detailler precisement l'hebergement.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Silvr
 author: Diane
 tags:

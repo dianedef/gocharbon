@@ -1,33 +1,15 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://botnation.ai/fr/contact.html
-- https://botnation.ai/fr/
-- https://botnation.ai/support/fr/politique-de-confidentialite-et-conditions-generales/
-- https://botnation.ai/support/fr/les-parametres-de-confidentialite-sur-botnation/
-notesQualification: Botnation affiche une implantation francaise claire a Paris avec un discours RGPD coherent. En revanche, les sources publiques consultees ne documentent pas assez precisement la localisation d'hebergement et la structure juridique complete pour aller au-dela d'une qualification partielle.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Botnation AI
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: chatbot
-toolFacets:
-  - ia
 description: Botnation AI est une plateforme française de création de chatbots no-code.
   Messenger, WhatsApp, web, WordPress. NLP + ChatGPT. Fondé 2016 à Paris. Dès 9€/mois.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://botnation.ai/fr/
-u_derniere_maj: '2026-03-20'
 ---
 
 # Botnation AI

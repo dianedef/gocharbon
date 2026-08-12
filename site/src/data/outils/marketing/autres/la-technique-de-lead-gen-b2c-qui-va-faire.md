@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Technique De Lead Gen B2C Qui Va Faire Pleuvoir Les Clients
 author: Diane
-description: "La Technique De Lead Gen B2C Qui Va Faire Pleuvoir Les Clients."
+description: 'Découvre La Technique De Lead Gen B2C Qui Va Faire Pleuvoir Les Clients
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -18,7 +17,7 @@ Idée de lead magnet: [Free Sales & Business Templates | Salescamp Resources](ht
 
 [Quelle différence entre un prospect et un lead ?](https://www.webconversion.fr/difference-lead-prospect/)
 
-[https://mrqz.to/6295396328e46e0027e83088](__MASK_2__)
+[https://mrqz.to/6295396328e46e0027e83088](https://mrqz.to/6295396328e46e0027e83088)
 
 [3 secrets experts succès - Avec Num](https://jeremy-kohlmann.com/3-secrets-experts-succes/?0=3&1=20&fbclid=IwAR3B-ys-8gjTZ1SLpQ09TZFlxsHSrUhoFqoC2fjIH08YTdcI-v3535vHUFs)
 
@@ -57,4 +56,4 @@ Modèle de réception du lead : De manière générale sur un premier test on va
 
 seo is nuanced
 
-the best way to make judgement call is by expérience
+the best way to make judgement call is by experience

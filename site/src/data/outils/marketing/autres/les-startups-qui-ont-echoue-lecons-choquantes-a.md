@@ -1,11 +1,12 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Les Startups Qui Ont Échoué Leçons Choquantes À Ne Pas Reproduire
 author: Diane
-description: "Les Startups Qui Ont Échoué Leçons Choquantes À Ne Pas Reproduire."
+description: 'Découvre Les Startups Qui Ont Échoué Leçons Choquantes À Ne Pas Reproduire
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -39,7 +40,7 @@ The TL;DR:
 
 The Product Hunt flywheel
 
-2. It was too broad. We should have narrowed focus to build the best expérience for a particular type of person and use case.
+2. It was too broad. We should have narrowed focus to build the best experience for a particular type of person and use case.
 
 3. We should have built mobile-first. Building for the web has many advantages but mobile is where consumers live.
 
@@ -61,9 +62,9 @@ Un exemple de ce qu'il ne faut pas faire en référencement naturel lorsque l'on
 
 Malheureusement, [une erreur dans la réponse de BARD](https://www.seomix.fr/?mailpoet_router&endpoint=track&action=click&data=WyIzNTY1IiwiNjU2MmE2ZDQ4YjM2NWM3ZTQ2YzZlODc5M2VlMjVlMWIiLCI1NiIsIjYzN2U3NTBkMTUxYyIsZmFsc2Vd) pendant la conférence de presse a fait perdre près de 100 milliards de dollars de valorisation à Google, preuve que les IA sont encore loin d'être prêtes pour une utilisation par un moteur de recherche ;
 
-[http://paulgraham.com/startupmistakes.html](__MASK_6__)
+[http://paulgraham.com/startupmistakes.html](http://paulgraham.com/startupmistakes.html)
 
-[https://www.businessinsider.com/how-airbnb-was-founded-a-visual-history-2016-2?IR=T#in-september-2019-airbnb-announced-its-plan-to-go-public-in-2020-29](__MASK_7__)
+[https://www.businessinsider.com/how-airbnb-was-founded-a-visual-history-2016-2?IR=T#in-september-2019-airbnb-announced-its-plan-to-go-public-in-2020-29](https://www.businessinsider.com/how-airbnb-was-founded-a-visual-history-2016-2?IR=T#in-september-2019-airbnb-announced-its-plan-to-go-public-in-2020-29)
 
 [**Why Pebble failed**](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fmedium.com%2F@ericmigi%2Fwhy-pebble-failed-d7be937c6232%3Futm_source=tldrnewsletter/1/0100018022756cf3-c7035603-6c3a-4b1c-93c6-60c122059a40-000000/RcvES9S4_dISsKCI8pis1Z8OLUePDDiOtkjTuP_WCsM=245)
 
@@ -78,13 +79,13 @@ Failed startup story: Bank North
 
 Bank North, a UK-based digital-only bank that focused on serving small and medium-sized enterprises (SMEs), ceased operations in October 2022. [According to CrunchBase](https://click.convertkit-mail2.com/xmurwen6eqa6hr769kgi5/owhkhqh4zv5og9av/aHR0cHM6Ly93d3cuY3J1bmNoYmFzZS5jb20vb3JnYW5pemF0aW9uL2Itbm9ydGgvY29tcGFueV9maW5hbmNpYWxz) , the company had raised over $40M.
 
-[https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/a2cc61RcWDeN7EgLb9fGmY/email](__MASK_11__)
+[https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/a2cc61RcWDeN7EgLb9fGmY/email](https://embed.filekitcdn.com/e/tgnWC3ezKp6EJzp3NNpGva/a2cc61RcWDeN7EgLb9fGmY/email)
 
 Bank North's core purpose was to challenge and transform the market for lending to small businesses. However, the company failed due to not being able to secure new funding to meet the Bank of England's regulatory licensing requirements.
 
 **In between the lines:**
 
-One thing that set Bank North apart was how quickly it made lending décisions, promising 24 hours for loan décisions and 14 days for the cash to arrive.
+One thing that set Bank North apart was how quickly it made lending decisions, promising 24 hours for loan decisions and 14 days for the cash to arrive.
 
 Bank North also set out to fill a void in the SME lending market by providing competitive interest rates that fell between digital-only banks and those of more established, traditional financial institutions.
 
@@ -197,7 +198,7 @@ I am building two projects simultaneously... but not alone.
 
 I will be sharing the waiting list soon.
 
-There is a project to generate hundreds of personalized vidéos (of you, not an avatar) in seconds. The ultimate tool for his prospecting.
+There is a project to generate hundreds of personalized videos (of you, not an avatar) in seconds. The ultimate tool for his prospecting.
 
 Another project to help podcasters make money from their podcast by turning their podcast into content for all platforms
 
@@ -315,7 +316,7 @@ AltspaceVR emerged in 2015 as one of the first social VR platforms alongside oth
 
 The company announced they're closing down through a [blog post](https://click.convertkit-mail2.com/v8uxwowqowsrhxd6vwmag/8ghqhohg8zmk7gsk/aHR0cHM6Ly9hbHR2ci5jb20vc3Vuc2V0Lw==). This news came just days after Microsoft revealed they'd be cutting 10,000 jobs.
 
-AltspaceVR's shutdown follows Microsoft's recent décision to scale back on its metaverse ambitions.
+AltspaceVR's shutdown follows Microsoft's recent decision to scale back on its metaverse ambitions.
 
 
 [Découvrez l'histoire de la startup Libertou | J'❤️ les startups](https://www.jaimelesstartups.fr/libertou-discuter-avec-un-psy/)
@@ -350,7 +351,7 @@ AltspaceVR's shutdown follows Microsoft's recent décision to scale back on its 
 [Découvrez l'histoire de la startup Take a Meal | J'❤️ les startups](https://www.jaimelesstartups.fr/take-a-meal-click-collect-restaurant/)
 [Découvrez l'histoire de la startup Take a Meal | J'❤️ les startups](https://www.jaimelesstartups.fr/take-a-meal-click-collect-restaurant/)
 [Découvrez l'histoire de la startup Workingoo | J'❤️ les startups](https://www.jaimelesstartups.fr/workingoo-site-emploi-saisonnier/)  
-[Vidéo | Facebook](https://www.facebook.com/watch/?v=3982286538490950)
+[Video | Facebook](https://www.facebook.com/watch/?v=3982286538490950)
 
 [Découvrez l'histoire de la startup OUPSMONTEL | J'❤️ les startups](https://www.jaimelesstartups.fr/oupsmontel-reparateur-smartphone/)
 [Découvrez l'histoire de la startup Coudrees | J'❤️ les startups](https://www.jaimelesstartups.fr/coudrees-plateforme-couturier-fashion-tech/)
@@ -375,4 +376,4 @@ AltspaceVR's shutdown follows Microsoft's recent décision to scale back on its 
 
 [Découvrez l'histoire de la startup Colis des îles | J'❤️ les startups](https://www.jaimelesstartups.fr/colis-des-iles-livraison-colis-dom-tom/)
 [Découvrez l'histoire de la startup Viteego | J'❤️ les startups](https://www.jaimelesstartups.fr/viteego-assistant-personnel-entrepreneur/)
-[Découvrez l'histoire de la startup Feel Français | J'❤️ les startups](https://www.jaimelesstartups.fr/feel-francais-demarche-instalation-etudiants-en-france/)
+[Découvrez l'histoire de la startup Feel Francais | J'❤️ les startups](https://www.jaimelesstartups.fr/feel-francais-demarche-instalation-etudiants-en-france/)

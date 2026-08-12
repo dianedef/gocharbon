@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-projet
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Outils D'Organisation Qui Vont Faire De Vous Un Superhéros De La Productivité
 author: Diane
-description: "Les Outils D'Organisation Qui Vont Faire De Vous Un Superhéros De La Productivité."
+description: 'Découvre Les Outils D''Organisation Qui Vont Faire De Vous Un Superhéros
+  De La Productivité : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -124,7 +123,7 @@ Feuille de route :
 
 - Pause : Reçois des idées rajeunissantes pour ta pause 🍃
 
-- AI Task Création : Dis ce que tu veux, l'IA fait le reste ! 🤖
+- AI Task Creation : Dis ce que tu veux, l'IA fait le reste ! 🤖
 
 
 .
@@ -165,7 +164,7 @@ Feuille de route :
 
 - Pause : Recevez des idées rajeunissantes pour votre pause 🍃
 
-- AI Task Création : Dites ce que vous voulez, l'IA fait le reste ! 🤖
+- AI Task Creation : Dites ce que vous voulez, l'IA fait le reste ! 🤖
 
 *** Traduit avec www.DeepL.com/Translator/?utm_medium=referral&utm_source=contentstudio.io (version gratuite) ***
 
@@ -193,7 +192,7 @@ Feuille de route :
 
 - Pause : Recevez des idées rajeunissantes pour votre pause 🍃
 
-- AI Task Création : Dites ce que vous voulez, l'IA fait le reste ! 🤖
+- AI Task Creation : Dites ce que vous voulez, l'IA fait le reste ! 🤖
 
 *** Traduit avec www.DeepL.com/Translator/?utm_medium=referral&utm_source=contentstudio.io (version gratuite) ***
 

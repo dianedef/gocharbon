@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -277,7 +277,7 @@ Conducting proper research ensures that you’re targeting the right audience, i
 
 ### Contact the right person
 
-After you find your target audience, identify the person you should contact. Consult with your buyer persona to find them. In short, you’re looking for the person who can benefit from your product or service and potentially has décision-making power in their company. Someone who can see the benefit of your offer, understand the value it represents, and make a purchase décision.
+After you find your target audience, identify the person you should contact. Consult with your buyer persona to find them. In short, you’re looking for the person who can benefit from your product or service and potentially has decision-making power in their company. Someone who can see the benefit of your offer, understand the value it represents, and make a purchase decision.
 
 ### Use their name
 
@@ -363,7 +363,7 @@ If you want to turn your subject line into a question, make sure that the questi
     - Is {{ company_name }} prepared for new challenges?
     - Are you ready to {{ simple value proposition }} in the very beginning of 2022?
     - Are you ready to kick start 2022 with the best {{ your solution }} for {{ company_name }}?
-    - {{ first_name }} is {{ your solution }} one of your key stratégies for creating success?
+    - {{ first_name }} is {{ your solution }} one of your key strategies for creating success?
 
 ### Make a business proposal
 
@@ -404,7 +404,7 @@ Giving your prospects value by providing them with free materials and resources,
 
 ### Send them a tailored offer
 
-Although the FOMO tactic is the usual bread and butter approach, when sales reps want to incentivize their prospects in making a décision quicker, there are other ways of creating a sense of urgency in your cold email subject lines.
+Although the FOMO tactic is the usual bread and butter approach, when sales reps want to incentivize their prospects in making a decision quicker, there are other ways of creating a sense of urgency in your cold email subject lines.
 
 If your email recipients feel like they can miss out on a special offer, or a good opportunity they will be more likely to take action and open your cold email. The key is to find a way to capture their interest.
 
@@ -1555,7 +1555,7 @@ Ensuite, envoyez à ces segments du contenu SUPER ciblé.
 
 Par exemple:
 
-Lorsque j'ai lancé pour la première fois notre nouveau programme de formation YouTube, [First Page Vidéos](https://translate.googleusercontent.com/translate_c?depth=1&rurl=translate.google.com&sl=auto&sp=nmt4&tl=fr&u=https://firstpagevideos.com/&usg=ALkJrhgCNO59lonnUL_fyy5jkBusZjqYWA) , nous l'avons annoncé à l'ensemble de la liste de diffusion Backlinko.
+Lorsque j'ai lancé pour la première fois notre nouveau programme de formation YouTube, [First Page Videos](https://translate.googleusercontent.com/translate_c?depth=1&rurl=translate.google.com&sl=auto&sp=nmt4&tl=fr&u=https://firstpagevideos.com/&usg=ALkJrhgCNO59lonnUL_fyy5jkBusZjqYWA) , nous l'avons annoncé à l'ensemble de la liste de diffusion Backlinko.
 
 !https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/05/first-page-videos-announcement-email-e1558097511408.png
 

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -18,5 +18,5 @@ part des exemples des autres et fait des tests. Tu peux copier un workflow trouv
  
 au début cest comme de la cuisine cest une galere puis tu as une recette que tu pourras utiliser encore et encore
 
-y’a 2 manière de faire : créer un système et lui obéir ou adapter un système à un fonctionnement déjà la.
+y’a 2 manière de faire : créer un systeme et lui obéir ou adapter un systeme à un fonctionnement déjà la.
 partir de l’organique et du réel, des tâches qu’on fait, pour en créer des systèmes (donc ça prend du temps). Les artistes font parfosis ça aussi : Navo et Kyan qui écrivent un spectacle en partant de l’existant et pas out of nowhere [05:56](https://www.youtube.com/watch?v=EEycObIzGSg&t=356#t=05:56.35)

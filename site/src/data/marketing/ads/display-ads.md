@@ -3,130 +3,209 @@ section: blog
 tags:
 - Marketing
 u_site: null
-title: 'Display Ads : formats, tailles et règles techniques utiles'
+title: Display Ads
 author: Diane
-description: Les formats display à connaître, les tailles vraiment utiles et les contraintes techniques à respecter pour diffuser sans te faire refuser.
-pubDate: '2026-04-19'
+description: 'Découvre Display Ads : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Display Ads : formats, tailles et règles techniques utiles
+# DISPLAY ADS : FORMATS, TAILLES ET SPECIFICATIONS TECHNIQUES
 
-Une bannière refusée, mal cadrée ou illisible, c’est du temps perdu et du budget gaspillé. Donc oui, les specs comptent. Mais elles ne servent pas à collectionner des tableaux. Elles servent à produire des créations diffusables et exploitables.
+Tu as ta strategie display en place. Maintenant, il faut creer des bannieres qui respectent les specs techniques de chaque plateforme. Parce qu'une banniere refusee ou mal dimensionnee, c'est du temps et de l'argent perdus.
 
-Ce guide te donne l’essentiel : les formats à prioriser, les tailles vraiment utiles et les règles à ne pas oublier.
+Ce guide est ta reference technique : tailles, poids, formats, specifications par reseau. Garde-le en favori.
 
-## Les tailles à ne pas négliger
+---
 
-Si tu dois rester simple, concentre-toi d’abord sur ces formats :
+## Les tailles IAB standard
 
-| Format | Usage principal |
-| --- | --- |
-| `300 x 250` | le plus polyvalent |
-| `728 x 90` | haut de page desktop |
-| `320 x 50` | mobile de base |
-| `300 x 600` | fort impact visuel |
-| `160 x 600` | sidebar / retargeting |
+L'IAB (Interactive Advertising Bureau) definit les standards de la publicite digitale. Voici les formats les plus utilises, classes par performance.
 
-Tu n’as pas besoin de produire `18` tailles dès le premier test. Tu as besoin de couvrir les emplacements qui comptent vraiment.
+### Formats desktop haute performance
 
-## Le format qui simplifie la vie : le responsive
+| Format | Taille (px) | Nom IAB | Ou il apparait | Performance |
+|--------|------------|---------|----------------|-------------|
+| 300x250 | 300 x 250 | Medium Rectangle | Dans le contenu, sidebar | Le plus polyvalent, CTR le plus eleve |
+| 728x90 | 728 x 90 | Leaderboard | Haut de page | Forte visibilite, ideal branding |
+| 300x600 | 300 x 600 | Half Page | Sidebar | Impact visuel maximum, +40% engagement |
+| 160x600 | 160 x 600 | Wide Skyscraper | Sidebar | Bon pour le retargeting produit |
+| 970x250 | 970 x 250 | Billboard | Haut de page premium | Reserve aux gros budgets, CPM eleve |
+| 336x280 | 336 x 280 | Large Rectangle | Dans le contenu | Version agrandie du 300x250 |
 
-Sur Google, les responsive display ads permettent d’assembler automatiquement images, titres et descriptions pour s’adapter aux emplacements.
+### Formats mobile
 
-C’est souvent le meilleur point de départ pour une petite équipe, parce que :
+| Format | Taille (px) | Nom IAB | Performance |
+|--------|------------|---------|-------------|
+| 320x50 | 320 x 50 | Mobile Leaderboard | Standard mobile, le plus courant |
+| 320x100 | 320 x 100 | Large Mobile Banner | Meilleur CTR que le 320x50 (+50%) |
+| 300x250 | 300 x 250 | Medium Rectangle | Fonctionne aussi en mobile |
+| 320x480 | 320 x 480 | Mobile Interstitial | Plein ecran, CTR tres eleve mais intrusif |
+| 300x50 | 300 x 50 | Mobile Banner | Format minimal, faible engagement |
 
-- tu crées moins de variantes manuellement
-- la diffusion couvre plus d’inventaire
-- Google peut tester plusieurs combinaisons
+### Conseil prioritaire
 
-Google précise toutefois des contraintes claires sur les responsive ads :
-- le texte ne doit pas couvrir plus de `20 %` de l’image
-- les GIF animés ne sont pas autorisés dans ce format
-- les assets restent soumis aux règles éditoriales et de qualité d’image  
-Source : [Responsive ad requirements](https://support.google.com/google-ads/answer/6363786?hl=en)
+Si tu ne peux creer que 3 tailles, choisis celles-ci :
+1. **300x250** -- couvre 40% de l'inventaire display mondial
+2. **728x90** (desktop) / **320x50** (mobile) -- couvre le haut de page
+3. **300x600** -- impact visuel maximal
 
-## Tailles d’assets utiles pour Google
+---
 
-En pratique, garde au minimum :
+## Specifications par plateforme
 
-- image paysage `1200 x 628`
-- image carrée `1200 x 1200`
-- logo lisible
+### Google Display Network (GDN)
 
-Et surtout : prépare des visuels propres, pas juste des captures exportées à moitié.
+**Images statiques :**
+- Formats acceptes : JPEG, PNG, GIF (non anime)
+- Poids maximum : 150 Ko par image
+- Tailles acceptees : toutes les tailles IAB standard + responsive
+- Resolution recommandee : 72 dpi minimum
 
-## Pour LinkedIn display et sponsored content
+**Responsive Display Ads (RDA)** -- le format recommande par Google :
+- Images paysage : 1200x628 px (ratio 1,91:1), min 600x314
+- Images carrees : 1200x1200 px (ratio 1:1), min 300x300
+- Logo paysage : 1200x300 px (ratio 4:1), min 512x128
+- Logo carre : 1200x1200 px, min 128x128
+- Titres : 30 caracteres max (jusqu'a 5 titres)
+- Titre long : 90 caracteres max
+- Descriptions : 90 caracteres max (jusqu'a 5)
+- Nom de l'entreprise : 25 caracteres max
+- Poids max par image : 5120 Ko
 
-LinkedIn recommande pour les single image ads :
+**Bannieres HTML5 :**
+- Taille du fichier ZIP : 150 Ko max
+- Doit inclure un fichier HTML comme point d'entree
+- Duree d'animation : 30 secondes max
+- Doit se figer sur le dernier frame apres la boucle
+- Pas de JavaScript externe (Google Web Designer recommande)
 
-- ratio `1.91:1` ou `1:1`
-- `1200 x 628` recommandé en horizontal
-- `1200 x 1200` recommandé en carré
-- fichiers `jpg`, `png` ou `gif`
-- poids max `5 MB`
+### Meta Audience Network
 
-Source : [LinkedIn Single Image Ads specs](https://business.linkedin.com/advertise/ads/sponsored-content/single-image-ads-specs)
+- Images : 1200x628 px minimum (ratio 1,91:1)
+- Ratio image : 9:16 a 16:9
+- Texte sur l'image : moins de 20% de la surface (recommandation, plus une regle stricte)
+- Poids max : 30 Mo
+- Formats : JPG, PNG, GIF, MP4 (video)
+- Video : 1 seconde a 241 minutes, mais 15 secondes recommandees
 
-## Meta : pense mobile d’abord
+### Criteo
 
-Sur Meta, la règle pratique est simple :
+- Bannieres generees dynamiquement a partir de ton flux produits
+- Necessite : flux produit au format XML/CSV avec images, prix, descriptions
+- Images produit recommandees : 400x400 px minimum, fond blanc
+- Criteo gere la creation des bannieres automatiquement via son moteur creatif
 
-- le visuel doit tenir en vertical ou carré
-- le message principal doit être visible tout de suite
-- le CTA ne doit pas dépendre d’un coin minuscule
+---
 
-Ce n’est pas le format “officiel” qui tue une pub sur Meta. C’est souvent le manque de lisibilité mobile.
+## Responsive Ads vs. bannieres fixes
 
-## Les erreurs de création les plus courantes
+### Responsive Ads (le choix par defaut en 2025)
 
-### Trop de texte
+Les plateformes (Google, Meta) assemblent automatiquement tes elements creatifs (images, titres, descriptions) en fonction de l'espace disponible. Avantages :
 
-Tu veux expliquer toute l’offre dans la bannière. Mauvaise idée.
+- **Couverture maximale** : s'adaptent a tous les emplacements sans creer 15 formats
+- **Optimisation automatique** : l'algorithme teste les combinaisons et pousse les meilleures
+- **Moins de travail** : fournis 5 images + 5 titres + 5 descriptions, la machine fait le reste
+- **Performance** : Google affirme que les RDA generent 10% de conversions en plus vs. les bannieres statiques classiques
 
-### Un visuel joli mais muet
+### Bannieres fixes (quand c'est encore pertinent)
 
-Si le visuel est propre mais que le bénéfice n’apparaît pas, tu auras une bannière “design” mais pas forcément utile.
+- **Controle total** sur le rendu visuel (luxe, mode, marques haut de gamme)
+- **Rich media** et animations complexes impossibles en responsive
+- **Campagnes sur des sites premium** ou tu choisis l'emplacement exact
+- **Tests creatifs** ou tu veux comparer des concepts visuels tres differents
 
-### Un CTA absent ou flou
+**La bonne approche** : utilise les responsive ads comme base (80% de ton budget display), et cree des bannieres fixes pour les campagnes premium ou le retargeting personalise.
 
-Le lecteur doit comprendre quoi faire ensuite.
+---
 
-### Une incohérence avec la landing page
+## Rich media et HTML5 : aller plus loin
 
-Même offre, même ton, même promesse. Sinon tu perds le clic après l’avoir payé.
+### Les formats rich media
 
-## Les outils pratiques
+Les rich media sont des publicites interactives qui vont au-dela de l'image statique ou animee. Ils offrent une experience immersive.
 
-- `Canva` pour aller vite sur les tailles standards
-- `Figma` si tu veux un contrôle plus fin
-- `Google Web Designer` si tu produis des formats HTML5
+**Expandable Ads** :
+- La banniere commence en taille standard (ex: 300x250)
+- Au clic ou survol, elle s'etend (ex: 600x500)
+- Taux d'interaction : 3 a 5% en moyenne (vs. 0,1% pour le display classique)
 
-L’outil importe moins que la discipline de production :
+**Floating Ads** :
+- La publicite "flotte" au-dessus du contenu de la page
+- Tres visible mais tres intrusif
+- A utiliser avec parcimonie (risque de degrader la marque)
 
-- nommage propre
-- variantes bien rangées
-- exports cohérents
-- contrôle mobile avant diffusion
+**In-banner Video** :
+- Une video joue directement dans l'espace banniere
+- Auto-play mute obligatoire (les navigateurs bloquent le son)
+- Taux d'engagement 5x superieur aux bannieres statiques
 
-## Checklist avant mise en ligne
+**Peel-back / Fold Ads** :
+- L'angle de la page se "decolle" pour reveler la publicite
+- Creatif et non intrusif
+- Bon pour les lancements de produits
 
-- [ ] les tailles prioritaires sont prêtes
-- [ ] le texte reste lisible en petit
-- [ ] le CTA est visible
-- [ ] le logo est présent mais pas envahissant
-- [ ] les fichiers respectent les contraintes de poids
-- [ ] la promesse correspond à la page d’arrivée
-- [ ] les URLs sont tracées
-- [ ] la version mobile a été vérifiée
+### Creer des bannieres HTML5
 
-## Le bon réflexe
+**Google Web Designer** (gratuit) :
+- L'outil officiel de Google pour creer des bannieres HTML5
+- Interface visuelle, pas besoin de coder
+- Export direct vers Google Ads
+- Templates disponibles pour les tailles standard
 
-Ne crée pas des bannières “pour cocher les specs”. Crée des bannières **qui méritent d’être diffusées**.
+**Autres outils** :
+- **Creatopy** : editeur drag-and-drop, bibliotheque de templates, export multi-format (a partir de 17 EUR/mois)
+- **BannerBoo** : specialise bannieres animees, interface simple (a partir de 12 EUR/mois)
+- **Adobe Animate** : pour les agences et designers, controle total (abonnement Creative Cloud)
 
-Les specs sont juste le ticket d’entrée. La clarté du message, la lisibilité et la cohérence avec le tunnel font le reste.
+---
 
-Pour la partie stratégie :
+## Dynamic Creative Optimization (DCO)
 
-- [Display](/marketing/ads/display)
-- [Google Ads](/marketing/ads/google)
+Le DCO, c'est la personnalisation des bannieres en temps reel en fonction de l'utilisateur. L'idee : au lieu de creer 50 variantes manuellement, tu fournis des elements (images, textes, prix, CTA) et l'algorithme assemble la combinaison optimale pour chaque impression.
+
+### Cas d'usage concrets
+
+- **E-commerce** : afficher le produit consulte par l'utilisateur avec son prix actuel
+- **Voyage** : afficher la destination recherchee avec le prix du vol depuis la ville de l'utilisateur
+- **Immobilier** : afficher les biens correspondant a la recherche de l'utilisateur
+- **Meteo** : adapter le visuel en fonction de la meteo locale ("Il pleut a Paris ? Decouvrez nos parapluies")
+- **Compte a rebours** : afficher le temps restant d'une promo en temps reel
+
+### Les outils DCO
+
+- **Google Ads** : DCO basique via les Responsive Display Ads
+- **Criteo** : DCO avancé, surtout pour l'e-commerce
+- **Abyssale** : generation de bannieres par lot avec personnalisation data-driven
+- **Celtra** : plateforme DCO enterprise, utilisee par les grandes marques
+
+---
+
+## Checklist technique avant lancement
+
+- [ ] Toutes les tailles creees (minimum : 300x250, 728x90, 320x50)
+- [ ] Poids des fichiers verifie (< 150 Ko pour GDN)
+- [ ] Texte lisible a 100% de zoom
+- [ ] CTA visible et contrastant
+- [ ] Logo present sur chaque banniere
+- [ ] Landing page coherente avec la banniere (meme promesse, memes visuels)
+- [ ] URL de destination testee (pas de 404)
+- [ ] Tracking UTM configure sur chaque URL
+- [ ] Version mobile testee sur smartphone reel
+- [ ] Bannieres validees par la plateforme (pas de refus en attente)
+
+---
+
+## Tendances display 2025
+
+**L'IA generative dans la creation** : Google et Meta proposent deja la generation automatique de visuels publicitaires par IA. En 2025, 30% des bannieres display seront creees ou assistees par l'IA (Forrester).
+
+**La disparition des cookies tiers** : Chrome a repousse, mais le cookieless arrive. Le ciblage contextuel (basé sur le contenu de la page plutot que l'historique de l'utilisateur) fait son grand retour.
+
+**Le DOOH (Digital Out-Of-Home)** : la convergence entre display digital et affichage physique. Les ecrans urbains deviennent programmatiques et ciblables.
+
+**Les formats immersifs** : les publicites en realite augmentee et les formats 3D interactifs sortent des labs pour entrer dans les plans media.
+
+Le display evolue vite. Ce qui ne change pas : une banniere bien concue, avec le bon message, devant la bonne personne, ca fonctionne. Les specs techniques sont juste le ticket d'entree.

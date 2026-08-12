@@ -53,7 +53,7 @@ YouTube bloque parce que trop d'extensions ?
 **Extensions problématiques :**
 
 - Adblockers (configuré de manière trop agressive)
-- Vidéo downloaders
+- Video downloaders
 - Privacy tools extrêmes
 
 ### 3. Change de navigateur

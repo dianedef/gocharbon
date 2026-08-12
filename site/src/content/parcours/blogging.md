@@ -12,7 +12,7 @@ Monter un site contenu orienté autorite + revenus diversifies.
 
 ## En clair (version simple)
 - Pour qui : Experts niches et créateurs long-form.
-- Où trouver les clients : SEO éditorial + distribution newsletter + social proof.
+- Où trouver les clients : SEO editorial + distribution newsletter + social proof.
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
 ## Idées d'offres à tester
@@ -22,7 +22,7 @@ Monter un site contenu orienté autorite + revenus diversifies.
 
 ## Ton plan simple sur 7 jours
 1. Jour 1 : rends "Plan topic cluster 90 jours" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
-2. Jours 2-4 : utilise ton canal principal (SEO éditorial + distribution newsletter + social proof.) pour proposer "Pack 10 articles SEO intention business" à tes premiers clients et noter leurs retours.
+2. Jours 2-4 : utilise ton canal principal (SEO editorial + distribution newsletter + social proof.) pour proposer "Pack 10 articles SEO intention business" à tes premiers clients et noter leurs retours.
 3. Jours 5-7 : continue avec "Monétisation blog (affiliation + newsletter)", puis suis sessions organiques qualifiées et taux inscription newsletter, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre
@@ -44,9 +44,9 @@ Monter un site contenu orienté autorite + revenus diversifies.
 - [Fiche profil Blogging](/biz/profils/blogging)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/blogueur)
+- [Suivi du parcours](/parcours/blogging)
 - [Ressource utile 1](/tutos/creer-un-blog-gratuitement)
-- [Ressource utile 2](/seo/contenu/cocon-semantique)
+- [Ressource utile 2](/tutos/comment-creer-un-topic-cluster)
 - [Ressource utile 3](/seo/fondamentaux/bases-seo)
 
 ## Idées de contenus pour aller plus loin

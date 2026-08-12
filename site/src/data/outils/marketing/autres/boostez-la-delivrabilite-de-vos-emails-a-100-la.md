@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: messagerie
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Boostez La Délivrabilité De Vos Emails À 100% La Technique Interdite
 author: Diane
-description: "Boostez La Délivrabilité De Vos Emails À 100% La Technique Interdite."
+description: 'Découvre Boostez La Délivrabilité De Vos Emails À 100% La Technique
+  Interdite : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

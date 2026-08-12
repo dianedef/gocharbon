@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Espionnez Légalement Vos Concurrents Avec Cette App Info Entreprises Révolutionnaire
 author: Diane
-description: "Espionnez Légalement Vos Concurrents Avec Cette App Info Entreprises Révolutionnaire."
+description: 'Découvre Espionnez Légalement Vos Concurrents Avec Cette App Info Entreprises
+  Révolutionnaire : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

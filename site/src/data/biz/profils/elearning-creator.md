@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Créateur de formations en ligne
-author: Diane GoCharbon
+title: E-learning Creator / Créateur de Formations en Ligne
+author: Web Indé
 tags:
 - Business
-description: 'Créer des formations utiles, vendables et pédagogiquement solides sans
-  tomber dans l''infoproduit paresseux.'
+description: 'Crée et vends des formations en ligne : plateformes, pédagogie et stratégies
+  de lancement pour formateurs.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Créateur de formations en ligne
+# E-learning Creator / Créateur de Formations en Ligne
 
 ## Description en une phrase
 
@@ -18,7 +18,7 @@ Tu crées des formations en ligne courtes et percutantes pour enseigner des comp
 
 ## C'est quoi exactement ?
 
-L'e-learning création, c'est **créer des formations en ligne** que les gens peuvent suivre à leur rythme. Contrairement aux formations longues et complètes, on parle ici de formations :
+L'e-learning creation, c'est **créer des formations en ligne** que les gens peuvent suivre à leur rythme. Contrairement aux formations longues et complètes, on parle ici de formations :
 
 - **Courtes** (2-10 heures de contenu)
 - **Spécifiques** (une compétence précise, pas un sujet large)
@@ -300,7 +300,7 @@ Mais si tu aimes enseigner et partager tes connaissances, **les e-learning peuve
 ### Outils
 
 - **Enregistrement** : OBS (gratuit), Camtasia (249$), Loom (gratuit limité)
-- **Montage** : DaVinci Resolve (gratuit), Première Pro (20$/mois)
+- **Montage** : DaVinci Resolve (gratuit), Premiere Pro (20$/mois)
 - **Plateformes** : Teachable (39$/mois), Podia (33$/mois), Udemy (gratuit mais faible commission)
 - **Microphone** : Blue Yeti (100€), Rode NT-USB (120€)
 
@@ -394,7 +394,7 @@ Si l'e-learning te plaît mais tu veux varier :
 
 ## En résumé
 
-L'**e-learning création** est l'un des business models les plus gratifiants : tu crées un produit qui enseigne des compétences utiles, qui se vend pendant des années, et qui aide des milliers de personnes.
+L'**e-learning creation** est l'un des business models les plus gratifiants : tu crées un produit qui enseigne des compétences utiles, qui se vend pendant des années, et qui aide des milliers de personnes.
 
 **C'est fait pour toi si** tu maîtrises une compétence, tu es pédagogue, tu veux créer un produit passif, et tu acceptes d'investir du temps upfront.
 

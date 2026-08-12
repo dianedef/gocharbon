@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: messagerie
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Devenez Invisible En Ligne La Méthode Secrète Pour Créer Des Alias Email
 author: Diane
-description: "Devenez Invisible En Ligne La Méthode Secrète Pour Créer Des Alias Email."
+description: 'Découvre Devenez Invisible En Ligne La Méthode Secrète Pour Créer Des
+  Alias Email : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

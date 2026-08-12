@@ -1,17 +1,7 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: indetermine
-paysSiege: France
-hebergementDonnees: hors-union-europeenne
-sourcesVerification:
-- https://www.olino.fr/mentions-legales
-- https://www.olino.fr/
-notesQualification: Olino est porte par Groupe Rouge, courtier francais base a Paris; le site public est heberge chez Webflow aux Etats-Unis, ce qui conduit a un ancrage economique partiel malgre un positionnement entrepreneurial francais.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
+type: app
 tags:
 - Outils
 imageNameKey: olino

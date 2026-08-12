@@ -1,34 +1,16 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-20'
+section: apps
+metadataEnrichedAt: null
 title: WEDO
 author: Diane
 tags:
 - Outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: reunions
 description: WEDO est la plateforme collaborative suisse de gestion de réunions et
   tâches. 700+ entreprises, ISO 27001, 4.7/5 Capterra. Dès 19,90€/mois/user. Essai
   14j.
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 u_site: https://wedo.com
-type: outil
-qualificationLocale: hors-union-europeenne
-ancrageEconomique: faible
-niveauResponsabilite: fort
-paysSiege: Suisse
-hebergementDonnees: hors-union-europeenne
-sourcesVerification:
-- https://wedo.com/contact
-- https://wedo.com/fr/security
-- https://wedo.com/fr
-notesQualification: 'WEDO SA est développée et hébergée exclusivement en Suisse,
-  avec une documentation officielle détaillée sur les certifications ISO 27001 et
-  SOC 2 Type II. L''ancrage économique est faible du point de vue français, mais le
-  niveau de responsabilité est fort.'
-methodologieVersion: gocharbon-v1
-u_derniere_maj: '2026-03-20'
 ---
 
 # WEDO

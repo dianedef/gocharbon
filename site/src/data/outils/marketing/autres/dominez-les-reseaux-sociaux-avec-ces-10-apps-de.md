@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Dominez Les Réseaux Sociaux Avec Ces 10 Apps De Pub Surpuissantes
 author: Diane
-description: "Dominez Les Réseaux Sociaux Avec Ces 10 Apps De Pub Surpuissantes."
+description: 'Découvre Dominez Les Réseaux Sociaux Avec Ces 10 Apps De Pub Surpuissantes
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

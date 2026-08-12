@@ -1,8 +1,7 @@
 ---
-section: outils
-metadataEnrichedAt: "2026-03-21"
+section: apps
+metadataEnrichedAt: null
 title: Ordalie
-type: outil
 author: Diane
 tags:
 - Outils
@@ -11,19 +10,6 @@ description: 'Ordalie : IA juridique française souveraine pour avocats et juris
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://ordalie.tech
-u_derniere_maj: '2026-03-21'
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: fort
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-  - https://ordalie.com/en
-  - https://ordalie.com/en/legal/privacy
-  - https://ordalie.com/en/legal/cgu
-  - https://www.pappers.fr/entreprise/ordalie-953262508
-notesQualification: "Ordalie est une SAS francaise basee a Paris, avec une politique de confidentialite et des CGU officielles qui documentent un hebergement chez Scaleway en France et une IA operee depuis la France. Le site affiche aussi des engagements de non-reutilisation des donnees pour l'entrainement et des certifications de securite, ce qui permet une qualification forte."
-methodologieVersion: "gocharbon-v1"
 ---
 
 # Ordalie

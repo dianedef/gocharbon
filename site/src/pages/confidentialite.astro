@@ -12,12 +12,24 @@ import Layout from "../layouts/Default.astro";
 
     <h2 class="poppins text-2xl font-bold mb-4 text-black dark:text-white">Données collectées</h2>
     <p class="poppins text-base mb-6 text-black dark:text-white">
-      GoCharbon utilise des outils d'analyse d'audience (onthe.io) pour comprendre comment le site est utilisé : pages visitées, durée de visite, provenance. Aucune donnée personnelle identifiable n'est collectée.
+      GoCharbon utilise des outils d'analyse d'audience (PostHog, onthe.io) pour comprendre comment le site est utilisé : pages visitées, durée de visite, provenance. Aucune donnée personnelle identifiable n'est collectée.
     </p>
+
+    <h2 class="poppins text-2xl font-bold mb-4 text-black dark:text-white">Tes préférences</h2>
+    <p class="poppins text-base mb-4 text-black dark:text-white">
+      Tu peux désactiver le suivi analytique à tout moment. Ce choix est sauvegardé dans ton navigateur.
+    </p>
+
+    <div id="analytics-opt-out-section" style="margin: 2rem 0; padding: 1.5rem; border: 2px solid currentColor; border-radius: 8px;">
+      <p id="analytics-status" class="poppins text-base text-black dark:text-white" style="margin: 0 0 1rem;">Chargement...</p>
+      <button id="analytics-toggle" class="poppins font-semibold" style="padding: 0.5rem 1.25rem; border-radius: 6px; cursor: pointer; font-size: 0.9rem; border: 2px solid currentColor;">
+        Chargement...
+      </button>
+    </div>
 
     <h2 class="poppins text-2xl font-bold mb-4 text-black dark:text-white">Cookies</h2>
     <p class="poppins text-base mb-6 text-black dark:text-white">
-      Les cookies sont limités à ceux nécessaires au fonctionnement du site.
+      Le seul cookie déposé est celui de ta préférence d'opt-out, s'il est activé.
     </p>
 
     <h2 class="poppins text-2xl font-bold mb-4 text-black dark:text-white">Contact</h2>
@@ -27,3 +39,35 @@ import Layout from "../layouts/Default.astro";
   </main>
 </Layout>
 
+<script is:inline>
+  function updateUI() {
+    var status = document.getElementById('analytics-status');
+    var btn = document.getElementById('analytics-toggle');
+    if (!status || !btn) return;
+
+    var optedOut = typeof posthog !== 'undefined' && posthog.has_opted_out_capturing();
+
+    if (optedOut) {
+      status.textContent = '🟢 Le suivi analytique est actuellement désactivé.';
+      btn.textContent = 'Réactiver les analytics';
+    } else {
+      status.textContent = '🔵 Le suivi analytique est actuellement activé.';
+      btn.textContent = 'Désactiver les analytics';
+    }
+  }
+
+  function toggleAnalytics() {
+    if (typeof posthog === 'undefined') return;
+    if (posthog.has_opted_out_capturing()) {
+      posthog.opt_in_capturing();
+    } else {
+      posthog.opt_out_capturing();
+    }
+    updateUI();
+  }
+
+  var btn = document.getElementById('analytics-toggle');
+  if (btn) btn.addEventListener('click', toggleAnalytics);
+  document.addEventListener('DOMContentLoaded', updateUI);
+  setTimeout(updateUI, 500);
+</script>

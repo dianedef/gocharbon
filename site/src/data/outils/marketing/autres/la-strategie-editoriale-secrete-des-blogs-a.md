@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Stratégie Éditoriale Secrète Des Blogs À Millions De Vues
 author: Diane
-description: "La Stratégie Éditoriale Secrète Des Blogs À Millions De Vues."
+description: 'Découvre La Stratégie Éditoriale Secrète Des Blogs À Millions De Vues
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -17,7 +18,7 @@ imgUrl: ../../../../assets/astro.jpeg
 - Que vous soyez blogueur Pro (ou même amateur), community manager, spécialiste en webmarketing, Youtuber… il est essentiel d’écrire une ligne éditoriale dès que vous produisez du contenu, même si votre ligne éditoriale ne fait que 4 lignes. Votre ligne éditoriale vous servira à matérialiser vos objectifs et comment les atteindre, ainsi qu qu’à cadrer vos actions pour éviter la production de contenus inutiles et la perte de temps.
 - cela m’a permis de me recentrer sur ce qui apporte de la valeur et me permet de “séduire” mes lecteurs, et ne plus écrire “pour moi”. Désormais j’ai un document Google Docs qui me sert de référence, et que j’actualise régulièrement (c’est un document qui vit avec le temps), et il fait désormais 5 pages.
 - le plus important c'est la confiance
-- [https://www.semrush.com/blog/how-to-define-your-tone-of-voice/?utm_source=ConfRecap&utm_medium=link&utm_campaign=CMplatform19](__MASK_0__)
+- [https://www.semrush.com/blog/how-to-define-your-tone-of-voice/?utm_source=ConfRecap&utm_medium=link&utm_campaign=CMplatform19](https://www.semrush.com/blog/how-to-define-your-tone-of-voice/?utm_source=ConfRecap&utm_medium=link&utm_campaign=CMplatform19)
 - ligne éditoriale================EnregistrerEnregistréSupprimé 0**1** Vues [**0**](http://avisappsumo.local/ligne-editoriale/#respond)The AppSumo Guide to Email Outreach – Defining Your Buyer PersonaQui est votre client de rêve?Ce qui les motive à sortir du lit le matin? – Tacos? Offres de logiciels? Offres de logiciels aromatisée Taco ?Connaître votre client idéal change la façon dont vous communiquez avec eux. Il change la langue, le ton et l’ approche que vous utilisez dans votre marketing . Malheureusement, de nombreuses entreprises ne disposent pas d’ une perspective claire de leur client idéal quand ils sont assis pour écrire un message de sensibilisation.Dans cet article, nous allons discuter de la création d’ un personnage de l’ acheteur spécifiquement pour la sensibilisation e – mail. Cet outil vous aidera à envoyer plus personnelle, conjonctifs, et la conversion des e – mails – même si vous avez froid d’écriture à quelqu’un que vous ne l’ avez jamais rencontré.J’ai parlé avec Guillaume Moubeche, co – fondateur et PDG de lemlist , pour en savoir plus sur la façon d’envoyer des e – mails puissants qui convertissent . Selon Guillaume, tout commence par la définition de votre client.Guillaume Moubeche CEO founder LemListGuillaume Moubeche – co-fondateur et PDG de lemlist. Et whoa..check sur ces travaux cubes futuristes en arrière-plan.Qu’est-ce qu’un personnage de l’acheteur? Definition: Your buyer persona is a detailed description of the person most likely to become an all-out fan and paying customer of your product. On a Net Promoter Score survey, they’d be a 10.This is the person your product was made for.The buyer persona can be a real-life person who’s purchased your product or a fictional character you manufactured in a lab with your team. (“It’s alivveeee!” – Dr. Frankenstein)The point is: When you create ads, blogs, marketing collateral — or outreach emails — your buyer persona is the subject you’ll write to. And you should think of them as the recipient of all your messaging.What are the benefits of customer profiling? When you try to write for everyone, you appeal to no one.On the other hand, specificity creates powerful marketing.“It’s all about conversion rate,” explains Guillaume. With a buyer persona, “You will get more signups, inbound leads, and sales. Emails will convert better. Ads will get more clicks.”Most marketing material — particularly cold emails — aren’t written to that level of specificity. You can stand out and convert more leads by investing a few minutes to learn more about who you’re writing to.What should be included in a buyer persona? Your buyer persona should be carefully detailed. This character will represent the motivations, desires, and worries of a much larger group of people we’ll call your ideal customers.Guillaume gave a handful of details you should make sure to include:First name Last name Photo Age Country/City Job title Employer Hobbies Typical day-in-the-life Goals and objectives How they learned about you How they will get to know your brand What is holding them back? What motivates or drives them? You can also include details about who you’re not selling to. To clarify certain characteristics, it can be helpful to apply some exclusive language that tells your team who your customers aren’t.Some of these are obvious. Demographic information like age or someone’s position in their company has clear advantages for your outreach. But what about things like hobbies, the struggles that hold them back personally, or how they discovered your brand?In a general sense, these details remind you that you’re speaking to a real human.But taken a step further, these details also hold specific benefits. For example:Hobbies can be used as icebreakers and connection opportunities. Learning what problems your ideal customer needs to solve enables you to position your offerings in a way that removes their barriers. (Fully addressing their “pain points.”) Knowing how they discovered your brand tells you where they likely spend their attention online. If you’d like a template for creating a buyer persona, Guillaume also offered some free templates.lemlist modèle persona clientCustomer persona templates like the one above can be found on [Lemist.com](http://lemist.com/)How do you create a buyer persona? To create the best-possible buyer persona, you’re going to throw all generalities out the window. A buyer persona should go into excruciating detail. The more specific you can be, the more powerful your [messaging.So](http://messaging.So) how do you get the right information? Here are a few tactics for gathering the right information for your buyer persona:Look through your customer data Your best customers can really help you define a near-perfect buyer persona. Look for the repeat customers, the ones with the highest order value, and the ones that are the most engaged with your business online (social media, comments, chats, and even email).Interview that soulmate customer If your buyer persona is based off an actual living and breathing homo sapien with a real phone number and family, then you should contact them. Get to know that person inside and out. Interview them. Buy them a taco and pick their brain about who they are, how they found your product, and how it solves their business problems. And obviously, the more people like that you can interview, the more refined your customer persona will be.Run ads to test assumptions If you haven’t met your soulmate customer yet, then run experiments based on your gut-assumptions. Create and test digital ads based on information you think is relevant to your ideal customer. As you run tests, keep a record of the details that perform best. These details will become the attributes of your buyer persona. Here are a few things you can test:Headlines – You can test different headlines with specific messaging that you think will resonate with your ideal persona. Geography – Determine which locations seem to jive with your offer the most. Geography is probably the most overlooked trait when it comes to building personas ;). Surveys – You can include an embedded survey on your landing page(s) to collect persona data (see the list above for data collection ideas). Who needs a buyer persona? Okay, okay, Guillaume has convinced you that your team needs a buyer persona — or several, depending on your business. But which members of your team actually need to reference it?According to Guillaume, most of them. Obviously, all your marketers and sales folks need to know who they’re selling to, so you’d better equip them with a copy.After that, it all comes down to the nature of your product. For example, if your ideal customer prioritizes great design, then your UX team should probably rely on your buyer persona as well.If your ideal customer wants a lean SaaS product — as opposed to one that sports all the bells and whistles — then your developers should be aware of the details in your buyer persona as well.The point is, share your buyer persona like we’re living in 2002 and this is your new favorite mixtape. Those tunes deserve to be shared.shoutout énorme à Guillaume de lemlist pour fournir des informations précieuses pour ce billet de blog. Gardez un œil sur: nous avons interrogé Guillaume pour tous ses secrets de sensibilisation email. Le reste sera publié dans les prochains articles. Restez à l’écoute!Ce qui est un détail insolite que vous connaissez votre client idéal (sans être bizarre)?—Consultez le post suivant dans cette série :Le Guide AppSumo à Envoyer Outreach – Étape 2: Trouver et validation des adresses e-mail Post navigation
 
 # créer votre marque etvotre ligne éditoriale
@@ -44,7 +45,7 @@ Tout comme leur nom simple dit, Personas acheteur sont des représentations semi
 
 # **Construire une solide stratégie de marque**
 
-[https://lh6.googleusercontent.com/Wuu8xSLQJ0uQkT_Yo1qXQhC-vq0ht_D99-KIsMHyxO3pyEznQEgHtraCTwe223PiCr-U2HAyg3OxlJ-nsbjU5GguQzEBXMqMT65o_wJT2jTFC1JmTEgp1HVCfI_KkeccypSErDph](__MASK_6__)
+[https://lh6.googleusercontent.com/Wuu8xSLQJ0uQkT_Yo1qXQhC-vq0ht_D99-KIsMHyxO3pyEznQEgHtraCTwe223PiCr-U2HAyg3OxlJ-nsbjU5GguQzEBXMqMT65o_wJT2jTFC1JmTEgp1HVCfI_KkeccypSErDph](https://lh6.googleusercontent.com/Wuu8xSLQJ0uQkT_Yo1qXQhC-vq0ht_D99-KIsMHyxO3pyEznQEgHtraCTwe223PiCr-U2HAyg3OxlJ-nsbjU5GguQzEBXMqMT65o_wJT2jTFC1JmTEgp1HVCfI_KkeccypSErDph)
 
 Maintenant que vous savez qui sont vos publics sont, il est temps de [construire une stratégie de marque globale](https://barkingdog.com.au/) . Il devrait aborder tous les aspects de votre contenu de site Web et la conception, vous aider à garder ces éléments cohérents que la croissance de votre marque.
 
@@ -63,7 +64,7 @@ Ils doivent inclure tous les aspects de votre présence en ligne, en particulier
 - votre logo - il doit refléter tout ce que votre marque représente. Choisissez dans le long terme et assurez-vous qu'il est appliqué de façon uniforme sur votre site Web. De nombreux sites Web populaires, tels que l'Institut de contenu marketing ou HubSpot, appliquent leur logo sur chaque contenu qu'ils produisent pour augmenter la connaissance de la marque.
 
 
-[https://lh5.googleusercontent.com/ycnRja5ihdGTMNOToHppFMPwhNTGVHsdOl2T6Pb832iEGUcBkegnleAxPvpQbb0fEt5_OrN371DkUads1cEkG1TfV94XXrztZALcvioLVM8OuI9PPHCmy6Zv3cxbvKWS1LWKbFCg](__MASK_9__)
+[https://lh5.googleusercontent.com/ycnRja5ihdGTMNOToHppFMPwhNTGVHsdOl2T6Pb832iEGUcBkegnleAxPvpQbb0fEt5_OrN371DkUads1cEkG1TfV94XXrztZALcvioLVM8OuI9PPHCmy6Zv3cxbvKWS1LWKbFCg](https://lh5.googleusercontent.com/ycnRja5ihdGTMNOToHppFMPwhNTGVHsdOl2T6Pb832iEGUcBkegnleAxPvpQbb0fEt5_OrN371DkUads1cEkG1TfV94XXrztZALcvioLVM8OuI9PPHCmy6Zv3cxbvKWS1LWKbFCg)
 
 Vos directives de style de la marque doivent être facilement accessibles à tous les membres de votre organisation afin qu'ils puissent appliquer ces règles de façon cohérente sur tous les canaux.
 
@@ -87,7 +88,7 @@ Troisièmement, considérer la forme de contenu variété. articles de blog son
 
 Vous devez construire votre plan 4-6 semaines à l'avance. Utiliser des outils de gestion de projet pour mettre en œuvre votre stratégie sans effort. Avec ces outils, vous pouvez suivre ce que les messages blog sont assignés à des écrivains, ceux qui passent par des modifications, celles qui sont prêtes à être publié et promu, etc. Assurez-vous que votre plan contenu est réalisable et que tous les membres de votre équipe de marketing de contenu , des écrivains aux designers et les éditeurs a assez de temps pour faire leurs recherches et accomplir leurs tâches.
 
-[https://lh5.googleusercontent.com/CRjMR8XQJgTiR26mW0jkvkHlUAHuzXLKg58_o3M1_CpudfJR1axZYLyttKUD2dM2jgPpQM5X0rfg35DHz8SRwNgoDkSRMxau_nOF3nXOHZvXVzNM_a2zLh1TBd0dO_0bBBznDnzA](__MASK_12__)
+[https://lh5.googleusercontent.com/CRjMR8XQJgTiR26mW0jkvkHlUAHuzXLKg58_o3M1_CpudfJR1axZYLyttKUD2dM2jgPpQM5X0rfg35DHz8SRwNgoDkSRMxau_nOF3nXOHZvXVzNM_a2zLh1TBd0dO_0bBBznDnzA](https://lh5.googleusercontent.com/CRjMR8XQJgTiR26mW0jkvkHlUAHuzXLKg58_o3M1_CpudfJR1axZYLyttKUD2dM2jgPpQM5X0rfg35DHz8SRwNgoDkSRMxau_nOF3nXOHZvXVzNM_a2zLh1TBd0dO_0bBBznDnzA)
 
 # **Faites attention spéciale aux clients Articles**
 
@@ -360,7 +361,7 @@ Or pour y arriver, je dois donc donner toutes les connaissances, mais aussi alle
 
 Ma ligne éditoriale comprend donc dans le processus de création une partie “recherche documentaire” afin de vérifier que je n’ai rien oublié d’essentiel.
 
-C’est ainsi que votre blog, votre chaîne youtube… va s’intégrer dans la stratégie globale d’inbound marketing de votre entreprise.
+C’est ainsi que votre blog, votre chaine youtube… va s’intégrer dans la stratégie globale d’inbound marketing de votre entreprise.
 
 Action : écrivez votre vision et mission, et comment votre ligne éditoriale doit vous aider à la mettre en application.
 
@@ -439,7 +440,7 @@ Il existe de nombreux outils qui peuvent vous aider à construire un calendrier 
 - [coschedule.com](http://coschedule.com) (payant)
 - [gathercontent.com](http://gathercontent.com) (payant pour les grandes entreprises)
 - [asana.com](http://asana.com), wrikecom, [monday.com](http://monday.com) (gestion de projets)
-- [loomly.com](http://loomly.com) (calendrier éditorial)
+- [loomly.com](http://loomly.com) (calendrier editorial)
 
 Action : définissez votre calendrier éditorial sur 2 mois, avec les contenus à créer.
 
@@ -525,7 +526,7 @@ Vous devez avoir une stratégie d’optimisation pour les moteurs de recherches.
 - **Description de la page :** La description permet aux gens de choisir plus facilement votre page dans les résultats de recherche. Une bonne description donne envie à l’internaute de cliquer sur votre lien. Avez-vous un ensemble de catégories ou de balises que vous devez identifier (généralement uniquement pour les entrées de blog.)
 - **Répétition** du mot clé dans le texte: il faut le mettre souvent… mais pas trop non plus !
 - **La pertinence de l’expression** (est ce qu’il offre un volume suffisant, est ce qu’il n’existe pas un synonyme plus recherché…). Vous pouvez utiliser SEMrush , Ahrefs…
-- **Validation de l’efficacité de l’optimisation SEO** avec un logiciel. Pour vous aider, vous pouvez utiliser des plugins WordPress comme Yoast SEO [https://fr.wordpress.org/plugins/wordpress-seo/](__MASK_30__) ou The SEO Framework [https://fr.wordpress.org/plugins/autodescription/](__MASK_31__) ou encore Rank Math SEO Rank Math SEO
+- **Validation de l’efficacité de l’optimisation SEO** avec un logiciel. Pour vous aider, vous pouvez utiliser des plugins WordPress comme Yoast SEO [https://fr.wordpress.org/plugins/wordpress-seo/](https://fr.wordpress.org/plugins/wordpress-seo/) ou The SEO Framework [https://fr.wordpress.org/plugins/autodescription/](https://fr.wordpress.org/plugins/autodescription/) ou encore Rank Math SEO Rank Math SEO
 
 **Rappelez aux rédacteurs de toujours créer des liens vers des contenus existants que vous souhaitez pousser et qui se trouvent déjà sur votre blog lorsque c’est possible.**
 

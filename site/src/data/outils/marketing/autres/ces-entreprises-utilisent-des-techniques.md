@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Ces Entreprises Utilisent Des Techniques Choquantes Pour Vous Forcer À Acheter
 author: Diane
-description: "Ces Entreprises Utilisent Des Techniques Choquantes Pour Vous Forcer À Acheter."
+description: 'Découvre Ces Entreprises Utilisent Des Techniques Choquantes Pour Vous
+  Forcer À Acheter : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

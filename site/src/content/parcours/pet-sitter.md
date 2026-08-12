@@ -44,7 +44,7 @@ Monétiser un service local de garde animale fiable et récurrent.
 - [Fiche profil Pet Sitter](/biz/profils/pet-sitter)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/garde-animaux)
+- [Suivi du parcours](/parcours/pet-sitter)
 - [Ressource utile 1](/marketing/fondamentaux)
 - [Ressource utile 2](/tutos/creer-sa-page-de-resa-google-calendar)
 - [Ressource utile 3](/tutos/recolter-les-avis-de-ses-clients-en-video)

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Site E Commerce Qui Va Faire De Vous Le Nouveau Jeff Bezos Mode D'Emploi
 author: Diane
-description: "Le Site E Commerce Qui Va Faire De Vous Le Nouveau Jeff Bezos Mode D'Emploi."
+description: 'Découvre Le Site E Commerce Qui Va Faire De Vous Le Nouveau Jeff Bezos
+  Mode D''Emploi : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

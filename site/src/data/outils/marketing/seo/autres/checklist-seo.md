@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -16,10 +16,10 @@ imgUrl: ../../../../../assets/astro.jpeg
 - 📝 Quality checking SEO content is crucial for sustainable website growth.
 - 📊 Analyzing competitors' content helps in creating optimized outlines.
 - 💡 SEO checklist ensures content aligns with search intent and readability.
-- 🔄 Reverse engineering competitor stratégies aids in content création.
-- 💻 Utilizing free AI tools like poe.com for SEO content création is viable.
+- 🔄 Reverse engineering competitor strategies aids in content creation.
+- 💻 Utilizing free AI tools like poe.com for SEO content creation is viable.
 - 🔍 Po.com's web search feature helps in scraping competitor data for free.
-- 🛠️ Breaking down prompts into separate steps enhances efficiency in content création.
+- 🛠️ Breaking down prompts into separate steps enhances efficiency in content creation.
 - 🛡️ AI detection tools help in filtering out AI-generated content for quality assurance.
 q
 
@@ -35,9 +35,9 @@ q
     - 8/ Write "time <city>" to see the time in a city.
     - 9/ Use "define: < keyword >" to get the definition of any word. I will write another thread on how I automate these basic searches using Alfred on Mac.
     - 10/ Search based on filetype. If you want to search for docs, ppts, CSV, or excel files on a specific search, use this.
-    - 11/ Find million of emails using these operators, for example: site:[http://linkedin.com/in](__MASK_1__) "software engineer" California "email:" -gmail -yahoo -outlook -msn (continued ![👇🏼]
-    - This will bring me thousands of emails from LinkedIn with matching titles as Software Engineer. Watch this vidéo to see how we do it at [@texauhq](https://twitter.com/texauhq)
-        - [https://youtube.com/watch?v=a81RuK-shpU](__MASK_3__)
+    - 11/ Find million of emails using these operators, for example: site:[http://linkedin.com/in](https://t.co/cIvohmbuPz) "software engineer" California "email:" -gmail -yahoo -outlook -msn (continued ![👇🏼]
+    - This will bring me thousands of emails from LinkedIn with matching titles as Software Engineer. Watch this video to see how we do it at [@texauhq](https://twitter.com/texauhq)
+        - [https://youtube.com/watch?v=a81RuK-shpU](https://t.co/65YF1Hdm3p)
     - That's all! Make sure to retweet and like this tweet if you found it useful. I talk about Sales, Automation, and Data, follow me at [@iamvikeshtiwari](https://twitter.com/iamvikeshtiwari)
         - to get one thread like this every week.
 
@@ -47,7 +47,7 @@ q
 - Assure-toi d'inclure le mot-clé dans la première phrase
 - Essaie de placer chaque phrase sur une nouvelle ligne :
 	- Cela facilite la lecture = Taux de rebond plus bas = Meilleur classement + plus de revenus.
-- Ajoute des images : Utilise [https://unsplash.com/](__MASK_5__) - n'utilise pas d'images protégées par des droits d'auteur. C'est pourquoi tu devrais utiliser Unsplash.
+- Ajoute des images : Utilise [https://unsplash.com/](https://unsplash.com/) - n'utilise pas d'images protégées par des droits d'auteur. C'est pourquoi tu devrais utiliser Unsplash.
 - Si tu le peux, incorpore quelques vidéos pertinentes de YouTube.
 - Formate joliment le texte :
 	- Ajoute des paragraphes, des interlignes, insère des liens, inclus les vidéos YouTube.

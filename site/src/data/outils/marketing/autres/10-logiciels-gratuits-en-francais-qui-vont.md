@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -8,7 +8,8 @@ u_site: null
 title: 10 Logiciels Gratuits En Français Qui Vont Propulser Votre Entreprise Sur La
   Lune
 author: Diane
-description: "10 Logiciels Gratuits En Français Qui Vont Propulser Votre Entreprise Sur La Lune."
+description: 'Découvre 10 Logiciels Gratuits En Français Qui Vont Propulser Votre
+  Entreprise Sur La Lune : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -45,7 +46,7 @@ Calendly 🇺🇸 ➝ Smart Agenda 🇫🇷
 
 Teachable 🇺🇸 ➝ SchoolMaker 🇫🇷
 
-Clickfunnels 🇺🇸 ➝ système io 🇫🇷
+Clickfunnels 🇺🇸 ➝ systeme io 🇫🇷
 
 VistaPrint 🇮🇪, Moo 🇬🇧 ➝ Spind 🇫🇷
 

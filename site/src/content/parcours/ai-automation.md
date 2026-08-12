@@ -5,14 +5,14 @@ description: "Plan d'action pour AI Automation Agency."
 category: "tech"
 level: "debutant"
 status: "active"
-updatedAt: "2026-03-25"
+updatedAt: "2026-03-01"
 ---
 ## Ton objectif
-Vendre des systèmes d automatisation IA qui réduisent le temps opérationnel client.
+Vendre des systemes d automatisation IA qui reduisent le temps opérationnel client.
 
 ## En clair (version simple)
 - Pour qui : Agences, ecommerces et équipes sales avec processuss repetitifs.
-- Où trouver les clients : Études de cas avant/après + demos loom + prospection directe LinkedIn.
+- Où trouver les clients : Études de cas avant/apres + demos loom + prospection directe LinkedIn.
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
 ## Idées d'offres à tester
@@ -44,7 +44,7 @@ Vendre des systèmes d automatisation IA qui réduisent le temps opérationnel c
 - [Fiche profil Ai Automation](/biz/profils/ai-automation)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/automatisation-ia)
+- [Suivi du parcours](/parcours/ai-automation)
 - [Ressource utile 1](/tutos/comment-faire-de-lautomatisation-marketing)
 - [Ressource utile 2](/tutos/comment-faire-de-lautomatisation-pour-grossir-son)
 - [Ressource utile 3](/tech/ia/guides)

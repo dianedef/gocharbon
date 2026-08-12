@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: indetermine
-paysSiege: France
-hebergementDonnees: inconnu
-societeMere: Silae
-sourcesVerification:
-- https://www.jenji.io/fr/mentions-legales
-- https://www.jenji.io/fr
-notesQualification: Jenji est exploite par SILAEXPERT SAS a Aix-en-Provence et fait partie du groupe Silae; les sources publiques confirment le siege, mais l'hebergement principal du produit reste trop peu detaille au-dela du site corporate.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Jenji
 author: Diane
 tags:

@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Formez Vous Comme Un Pro L'App D'Apprentissage Qui Rend Les Universités Obsolètes
 author: Diane
-description: "Formez Vous Comme Un Pro L'App D'Apprentissage Qui Rend Les Universités Obsolètes."
+description: 'Découvre Formez Vous Comme Un Pro L''App D''Apprentissage Qui Rend Les
+  Universités Obsolètes : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -44,7 +44,7 @@ Donner des cours en ligne structurés avec progression visible.
 - [Fiche profil Online Tutor](/biz/profils/online-tutor)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/tuteur-en-ligne)
+- [Suivi du parcours](/parcours/online-tutor)
 - [Ressource utile 1](/tutos/creer-une-formation-en-ligne)
 - [Ressource utile 2](/marketing/tunnel/atelier)
 - [Ressource utile 3](/tutos/comment-creer-un-quiz-qui-convertit)
@@ -52,4 +52,4 @@ Donner des cours en ligne structurés avec progression visible.
 ## Idées de contenus pour aller plus loin
 - [Guide à venir 1: cadre session efficace](/tutos/online-tutor/cadre-session-efficace)
 - [Guide à venir 2: plan evaluation apprenants](/tutos/online-tutor/plan-evaluation-apprenants)
-- [Guide à venir 3: système reservation paiement](/tutos/online-tutor/systeme-reservation-paiement)
+- [Guide à venir 3: systeme reservation paiement](/tutos/online-tutor/systeme-reservation-paiement)

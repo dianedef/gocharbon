@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Moteurs De Recherche Académiques Secrets Des Chercheurs De Génie
 author: Diane
-description: "Les Moteurs De Recherche Académiques Secrets Des Chercheurs De Génie."
+description: 'Découvre Les Moteurs De Recherche Académiques Secrets Des Chercheurs
+  De Génie : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

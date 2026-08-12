@@ -12,23 +12,23 @@ imgUrl: ../../../assets/astro.jpeg
 
 # Bases du SEO: faire simple et efficace
 
-Le SEO, c'est rendre ton site visible quand les gens cherchent déjà ce que tu proposes.
+Le SEO, c'est rendre ton site visible quand les gens cherchent deja ce que tu proposes.
 
 ## Ton objectif
 
-Obtenir des visites qualifiées et durables, sans dependre uniquement de la pub.
+Obtenir des visites qualifiees et durables, sans dependre uniquement de la pub.
 
 ## En clair (version simple)
 
 Le SEO repose sur 3 piliers:
 
-1. technique: ton site doit être lisible par Google
+1. technique: ton site doit etre lisible par Google
 2. contenu: tes pages doivent repondre a une intention de recherche
 3. autorite: d'autres sites doivent te citer
 
-## Étape 1 - Technique propre
+## Etape 1 - Technique propre
 
-Contrôle minimum:
+Controle minimum:
 
 - site accessible en mobile
 - chargement correct
@@ -39,7 +39,7 @@ Outils de base:
 - Google Search Console
 - PageSpeed Insights
 
-## Étape 2 - Contenu utile
+## Etape 2 - Contenu utile
 
 Pour chaque page:
 
@@ -49,7 +49,7 @@ Pour chaque page:
 - des exemples concrets
 - une conclusion actionnable
 
-## Étape 3 - Autorite progressive
+## Etape 3 - Autorite progressive
 
 Pas besoin de 1000 backlinks spam.
 Vise des liens utiles:
@@ -63,7 +63,7 @@ Vise des liens utiles:
 ### Semaine 1
 
 - audit technique rapide
-- liste de 20 mots-clés pertinents
+- liste de 20 mots-cles pertinents
 
 ### Semaine 2
 
@@ -77,7 +77,7 @@ Vise des liens utiles:
 
 ### Semaine 4
 
-- première passe netlinking propre
+- premiere passe netlinking propre
 - suivi des positions et ajustements
 
 ## KPI SEO utiles
@@ -90,7 +90,7 @@ Vise des liens utiles:
 
 ## Erreurs frequentes
 
-- viser des mots-clés trop competitifs trop tot
+- viser des mots-cles trop competitifs trop tot
 - ecrire pour Google au lieu d'ecrire pour l'humain
 - oublier les mises a jour de contenu
 - abandonner trop vite
@@ -98,7 +98,7 @@ Vise des liens utiles:
 ## Checklist
 
 - [ ] Search Console active
-- [ ] priorités mots-clés definies
+- [ ] priorites mots-cles definies
 - [ ] 2 contenus publies ce mois-ci
 - [ ] maillage interne renforce
 - [ ] suivi KPI hebdo
@@ -106,7 +106,7 @@ Vise des liens utiles:
 ## Ressources utiles
 
 - [Comment se classer en premier sur Google](/tutos/comment-se-classer-en-premier-sur-google)
-- [Comprendre le cocon semantique](/seo/contenu/cocon-semantique)
+- [Comment creer un topic cluster](/tutos/comment-creer-un-topic-cluster)
 - [KPIs marketing](/marketing/analytics/kpis)
 - [Fondamentaux marketing](/marketing/fondamentaux)
 

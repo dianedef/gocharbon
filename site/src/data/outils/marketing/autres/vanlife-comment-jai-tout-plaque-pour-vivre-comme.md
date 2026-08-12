@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Vanlife Comment J'Ai Tout Plaqué Pour Vivre Comme Un Roi Avec 500€ Par Mois
 author: Diane
-description: "Vanlife Comment J'Ai Tout Plaqué Pour Vivre Comme Un Roi Avec 500€ Par Mois."
+description: 'Découvre Vanlife Comment J''Ai Tout Plaqué Pour Vivre Comme Un Roi Avec
+  500€ Par Mois : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

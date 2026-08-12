@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Freelance
-author: Diane GoCharbon
+title: Freelance / Services en Ligne
+author: Web Indé
 tags:
 - Business
-description: 'Le modèle le plus direct pour générer du revenu en ligne, à condition
-  de savoir vendre et cadrer.'
+description: 'Guide du freelance : statuts, prospection, tarification et gestion pour
+  indépendants qui veulent réussir.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Le freelance, c'est vendre une compétence ou une expertise directement à des clients. C'est souvent le chemin le plus rapide vers du chiffre d'affaires, mais aussi un terrain qui oblige à apprendre vite la vente, le cadrage et la gestion de la relation client.
+Le freelancing, c'est vendre tes compétences en mode prestation de services. Tu travailles pour des clients (entreprises ou particuliers) sur des projets ou missions. Tu es payé pour ton temps ou à la mission. C'est comme être salarié, mais tu choisis tes clients, tes tarifs et ton emploi du temps.
 
 Les domaines les plus demandés : développement web, design, rédaction, marketing, montage vidéo, traduction, assistance virtuelle, comptabilité, etc. Le freelancing est le moyen le PLUS RAPIDE de générer des revenus en ligne.
 

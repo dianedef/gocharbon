@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: salad
 u_site: null
 title: Gagnez De L'Argent En Dormant Avec Salad L'Astuce Folle Qui Cartonne
 author: Diane
-description: "Gagnez De L'Argent En Dormant Avec Salad L'Astuce Folle Qui Cartonne."
+description: 'Découvre Gagnez De L''Argent En Dormant Avec Salad L''Astuce Folle Qui
+  Cartonne : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

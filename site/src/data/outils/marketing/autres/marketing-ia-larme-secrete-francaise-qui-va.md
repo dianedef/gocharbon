@@ -1,9 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-- ia
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -11,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Marketing Ia L'Arme Secrète Française Qui Va Pulvériser Vos Objectifs
 author: Diane
-description: "Marketing Ia L'Arme Secrète Française Qui Va Pulvériser Vos Objectifs."
+description: 'Découvre Marketing Ia L''Arme Secrète Française Qui Va Pulvériser Vos
+  Objectifs : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

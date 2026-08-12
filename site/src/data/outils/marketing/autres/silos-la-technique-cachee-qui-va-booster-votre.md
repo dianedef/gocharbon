@@ -1,14 +1,15 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut: en-attente
 _priorité: normal
 tags:
 - Outils
 title: Silos La Technique Cachée Qui Va Booster Votre Seo De 500%
 author: Diane
-description: "Silos La Technique Cachée Qui Va Booster Votre Seo De 500%."
+description: 'Découvre Silos La Technique Cachée Qui Va Booster Votre Seo De 500%
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

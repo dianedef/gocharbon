@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Spécialiste en génération de leads
-author: Diane GoCharbon
+title: Lead Generation Specialist / Spécialiste en Génération de Leads
+author: Web Indé
 tags:
 - Business
-description: 'Trouver des prospects utiles pour des entreprises, avec méthode, qualité
-  de données et cadre propre.'
+description: 'Maîtrise la génération de leads : stratégies, outils et techniques pour
+  vendre ce service aux entreprises.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Spécialiste en génération de leads
+# Lead Generation Specialist / Spécialiste en Génération de Leads
 
 ## Description en une phrase
 

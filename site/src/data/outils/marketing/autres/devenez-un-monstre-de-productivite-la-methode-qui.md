@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: gestion-documentaire
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Devenez Un Monstre De Productivité La Méthode Qui Affole Les Experts
 author: Diane
-description: "Devenez Un Monstre De Productivité La Méthode Qui Affole Les Experts."
+description: 'Découvre Devenez Un Monstre De Productivité La Méthode Qui Affole Les
+  Experts : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

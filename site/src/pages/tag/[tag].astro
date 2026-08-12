@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../../layouts/Default.astro";
 import FilterTags from "../../components/components/FilterTags.vue";
 import { toPostPreviews } from "../../utils/post-preview";
-import { MAIN_TAGS, extractPostMainTags, getMainTagLabel } from "../../utils/tag-groups";
+import { MAIN_TAGS, extractMainTags, getMainTagLabel } from "../../utils/tag-groups";
 import { filterBuildVisiblePosts } from "../../utils/build-posts";
 
 export async function getStaticPaths() {
@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 	for (const mainTag of MAIN_TAGS) {
 		const filteredPosts = allPosts
-			.filter((post) => extractPostMainTags({ id: post.id, data: post.data }).includes(mainTag))
+			.filter((post) => extractMainTags(post.data.tags).includes(mainTag))
 			.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 
 		if (!filteredPosts.length) continue;
@@ -30,16 +30,15 @@ export async function getStaticPaths() {
 }
 
 const { posts, tag } = Astro.props;
-const isToolTag = tag === "outils";
-const mainTags = isToolTag ? ["outils"] : MAIN_TAGS;
+const mainTags = MAIN_TAGS;
 const selectedTags = [tag];
 const tagLabel = getMainTagLabel(tag);
 ---
 
 <Layout
-	title={`Tag ${tagLabel} | GoCharbon`}
-	description={`Explore les contenus GoCharbon liés à ${tagLabel}.`}
-	pageTitle={`Tag ${tagLabel}`}
+	title={`Posts - ${tagLabel}`}
+	description={`GOCHARBON | Posts tagged with ${tagLabel}`}
+	pageTitle={`Posts - ${tagLabel}`}
 	metaRobots="index, follow"
 >
 	<main
@@ -50,7 +49,6 @@ const tagLabel = getMainTagLabel(tag);
 			mainTags={mainTags}
 			initialPosts={posts}
 			selectedTags={selectedTags}
-			scope={isToolTag ? "outils" : "all"}
 			client:visible
 		/>
 		{

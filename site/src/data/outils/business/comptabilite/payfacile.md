@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.payfacile.com/fr
-- https://fr.payfacile.com/politique-de-confidentialite/
-- https://aide.payfacile.com/fr/article/pays-dans-lesquels-payfacile-est-disponible-l74du8/
-notesQualification: PayFacile est exploite depuis Arcueil par une structure francaise et s'appuie sur des passerelles de paiement externes pour la conservation des donnees bancaires; l'ancrage local est clair mais pas la localisation complete de l'hebergement.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: PayFacile
 author: Diane
 tags:
@@ -36,7 +24,7 @@ PayFacile est une plateforme française no-code spécialisée dans la vente par 
 
 ### 📢 Alternative à
 
-Stripe Billing (plus simple), Chargebee, Recurly, système.io.
+Stripe Billing (plus simple), Chargebee, Recurly, systeme.io.
 
 ## ✔️ Bénéfices
 

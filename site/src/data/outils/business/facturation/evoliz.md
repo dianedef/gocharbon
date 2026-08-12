@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.evoliz.com
-- https://help.evoliz.com/hc/fr/articles/41945438133905-Comment-mettre-fin-%C3%A0-mon-abonnement
-- https://help.evoliz.com/hc/fr/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBEi%2FwvPJjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBHZvA7PJjoLbG9jYWxlSSIHZnIGOgZFVDoIdXJsSSIBey9oYy9mci9hcnRpY2xlcy80MjY3MDcwMTM1NTUzNy1Db21wcmVuZHJlLWxlcy1wbGF0ZWZvcm1lcy1hZ3IlQzMlQTklQzMlQTllcy1wb3VyLWxhLWZhY3R1cmF0aW9uLSVDMyVBOWxlY3Ryb25pcXVlLVBBLWV4LVBEUAY7CFQ6CXJhbmtpCQ%3D%3D--d89c1011d38f9e9c5d5d748f42bd4ef07094d118
-notesQualification: Evoliz se presente comme un logiciel francais pour TPE-PME et met en avant un hebergement en France dans sa communication produit; les pages consultees confirment aussi un positionnement conforme et fortement ancre dans l'ecosysteme francais.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Evoliz
 author: Diane
 tags:

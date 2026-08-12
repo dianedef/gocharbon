@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: formation
-toolSubcategoryPrimary: learning
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Learnyclub La Plateforme De Formation Qui Va Rendre Les Universités Obsolètes
 author: Diane
-description: "Learnyclub La Plateforme De Formation Qui Va Rendre Les Universités Obsolètes."
+description: 'Découvre Learnyclub La Plateforme De Formation Qui Va Rendre Les Universités
+  Obsolètes : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

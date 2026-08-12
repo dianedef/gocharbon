@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Which Music App
 author: Diane
@@ -11,25 +11,23 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Which Music App
+# Nuclear - Un player musical multi-source
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
+Le 27 novembre 2023par Korben -
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+1. [Outils-Services](https://korben.info/categories/outils-services/ "Voir tous les articles de la catégorie Outils-Services")
+2. [Logiciels-Utiles](https://korben.info/categories/outils-services/logiciels-utiles/ "Voir tous les articles de la sous-catégorie Logiciels-Utiles")
 
-## Ressources de départ
-- [https://korben.info/mps-ecoutez-musique-en-ligne-commande.html](https://korben.info/mps-ecoutez-musique-en-ligne-commande.html)
-- [https://nuclear.js.org/](https://nuclear.js.org/)
-- [https://korben.info/categories/outils-services/](https://korben.info/categories/outils-services/)
-- [https://korben.info/categories/outils-services/logiciels-utiles/](https://korben.info/categories/outils-services/logiciels-utiles/)
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+À cause de la guerre en Ukraine, de Bruno Le Maire et de l’inflation galopante, tout le monde, n’a malheureusement, pas les moyens de s’offrir un abonnement Spotify à 10,99 euros par mois. Mais plutôt que de se galérer avec des moyens illégaux pour télécharger de la musique, je vous propose de tester **Nuclear**.
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+
+Ce player au design proche de Spotify et similaire à [mps-youtube](https://korben.info/mps-ecoutez-musique-en-ligne-commande.html) vous permet de chercher des morceaux sur différentes sources telles que Bandcamp, Soundcloud, Youtube, de voir les pochettes des albums, d’écouter la musique, de faire des playlists et même de la télécharger dans certains cas (quand c’est sur Youtube surtout).
+
+
+Nuclear est dispo pour Linux, macOS et Windows, et propose également d’avoir les paroles des chansons, un égalisateur pour régler le son, et même un visualiseur pour se faire un petit moment psychédélique.
+
+
+Bref, c’est le feu parce qu’on y trouve tous les artistes, les albums, des plus connus aux plus obscurs. Nuclear propose également des playlists du moment (comme sur Spotify), des artistes similaires et même un mode “folie” pour se laisser surprendre par les musiques.
+
+
+[Vous pouvez le télécharger ici.](https://nuclear.js.org/)

@@ -1,24 +1,13 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-16'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://legal.qonto.com/fr
-- https://legal.qonto.com/fr/privacy
-notesQualification: Etablissement francais regule a Paris; la politique de confidentialite documente des transferts potentiels hors EEE sans detailler un hebergement principal.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Qonto
 author: Diane
 tags:
 - Outils
-description: Qonto est un compte pro orienté entreprises qui centralise banque, cartes,
-  facturation, dépenses d'équipe et connexions comptables dans une interface très
-  propre.
+description: Qonto est la néobanque pro n°1 en Europe avec 600 000+ clients. Compte
+  pro, cartes, facturation, comptabilité automatisée et gestion des dépenses d'équipe.
+  À partir de 9€/mois.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://qonto.com/fr
@@ -26,59 +15,102 @@ u_site: https://qonto.com/fr
 
 # Qonto
 
-## Le compte pro qu'on regarde quand on veut une couche finance plus carrée
+## NÉOBANQUE PRO : LA ROLLS DE LA GESTION FINANCIÈRE PME
 
 ### tl;dr
 
-Qonto est pertinent si tu veux sortir d'un compte pro minimaliste et centraliser davantage : cartes, dépenses d'équipe, facturation, exports comptables, validations et gestion financière du quotidien. Ce n'est pas juste une carte noire jolie dans une app propre. Le vrai intérêt est dans la structuration.
+Qonto c'est LE compte pro en ligne qui a conquis 600 000+ entreprises en Europe. Fondée en 2016 par Alexandre Prot et Steve Anavi, valorisée 5 milliards d'euros, la licorne française propose un écosystème complet : compte avec IBAN français, cartes physiques et virtuelles, facturation, comptabilité automatisée et gestion des dépenses d'équipe. Rentable depuis 2023, Qonto a déposé une demande de licence bancaire en juillet 2025. À partir de 9€/mois.
 
-### Alternative à
+### 📢 Alternative à
 
-Shine, Blank, Anytime, Revolut Business.
+Shine, Blank, N26 Business, Revolut Business, Anytime. Qonto domine par son écosystème d'intégrations (80+ outils comptables) et sa scalabilité.
 
-## Pourquoi on le retient
+## ✔️ Bénéfices
 
-- **L'expérience produit est solide** et pensée pour des équipes, pas seulement pour un indépendant solo.
-- **Le périmètre couvre plus que la banque** : dépenses, validation, factures, collaboration comptable.
-- **Le produit est crédible pour des PME** qui veulent mieux cadrer leurs flux sans déployer un ERP.
+✅ **Écosystème complet** — Compte pro, cartes, factures, comptabilité, dépenses d'équipe... tout est centralisé.
 
-## Pour qui ?
+✅ **80+ intégrations comptables** — Connecte directement ton expert-comptable et tes outils (Pennylane, Tiime, Sage, QuickBooks).
 
-- indépendants exigeants
-- TPE en croissance
-- PME avec plusieurs cartes, budgets ou collaborateurs
-- directions finance ou ops qui veulent plus de contrôle
+✅ **Gain de temps massif** — Collecte auto des justificatifs, matching factures/transactions, export comptable en un clic.
 
-## Fonctionnalités utiles
+✅ **Scalable** — Du freelance solo à l'entreprise de 250 personnes, les plans s'adaptent à ta croissance.
 
-- compte pro avec IBAN et cartes
-- gestion des dépenses d'équipe
-- cartes virtuelles et plafonds
-- facturation et suivi simple
-- exports comptables et connexions avec l'écosystème finance/compta
-- validation et traçabilité de certaines opérations
+### 🎯 Pour Qui ?
 
-## Prix
+- Freelances et auto-entrepreneurs qui veulent un compte pro propre
+- Startups et TPE en croissance
+- PME jusqu'à 250 collaborateurs
+- Associations et créateurs d'entreprise
 
-Le point à regarder n'est pas seulement le prix d'entrée. Il faut comparer le coût total avec le temps gagné, la clarté comptable, la réduction des frictions internes et le niveau de contrôle obtenu.
+## 🛠️ Fonctionnalités
 
-## Intégrations
+### Compte Pro & Cartes
+- IBAN français
+- Cartes physiques (Metal, Plus, X) et virtuelles instantanées
+- Virements SEPA instantanés
+- Apple Pay et Google Pay
+- Compte rémunéré jusqu'à 2% (sous conditions)
 
-Qonto devient plus fort quand il s'articule bien avec ton expert-comptable, ton outil de facturation ou ton stack financier. Si tu n'exploites pas ces connexions, tu utilises seulement une partie de la valeur.
+### Facturation
+- Création de devis et factures conformes
+- E-signatures illimitées avec suivi en temps réel (nouveau 2025)
+- Facturation incrémentale pour les projets en plusieurs phases
+- Relances automatiques
 
-## Ce qu'il faut savoir avant de choisir
+### Comptabilité & Reporting
+- Collecte automatique des justificatifs
+- Matching intelligent factures/transactions
+- Export comptable vers 80+ outils
+- Connexion directe avec ton expert-comptable
 
-Qonto est très fort sur la couche **gestion financière opérationnelle**. En revanche, ce n'est pas une baguette magique. Si ton process interne est confus, le produit rendra le bazar plus propre, mais il ne définira pas ta discipline à ta place.
+### Gestion des Dépenses d'Équipe
+- Cartes collaborateurs avec plafonds personnalisés
+- Validation des dépenses en temps réel
+- Notes de frais digitalisées
+- 14 intégrations RH pour le provisioning automatique (nouveau 2025)
 
-## Points forts
+## 💶 Prix
 
-- excellente lisibilité produit
-- bon fit pour les équipes et PME
-- forte sensation de contrôle et de propreté
-- écosystème utile autour de la compta et des dépenses
+| Plan | Prix/mois | Idéal pour |
+|------|-----------|------------|
+| Basic | 9€ | Freelance solo |
+| Smart | 19€ | Indépendant actif |
+| Premium | 39€ | TPE avec quelques collaborateurs |
+| Business | 99€ | PME en croissance |
+| Enterprise | 249€ | Structure établie |
 
-## Points faibles
+Tarifs HT. Remise sur engagement annuel. Membres d'équipe illimités et gratuits sur les plans Essential+.
 
-- coût qui grimpe si tu montes en gamme
-- moins pertinent si ton besoin est très basique
-- certains usages bancaires classiques restent moins riches qu'une banque traditionnelle
+## ⚙️ Intégrations
+
+- **Comptabilité** : 80+ outils (Pennylane, Tiime, Sage, Cegid, QuickBooks, Xero...)
+- **Automatisation** : Zapier, Make
+- **RH** : 14 intégrations pour la gestion d'équipe
+- **API** : Qonto Embed pour intégration white-label
+- **Google Sheets** : Sync quotidienne des transactions
+
+## 🎖️ L'équipe et l'Histoire
+
+- **Fondée en 2016** par Alexandre Prot (CEO) et Steve Anavi (Président)
+- Les deux fondateurs avaient créé Smokio, revendu à une entreprise du Fortune 500
+- **2 200 employés** à Paris, Berlin, Milan, Barcelone, Belgrade
+- **600 000+ clients** dans 8 pays européens
+- **717M$ levés** au total (Series D de 486M€ en 2022, valorisation 5Mds€)
+- **Rentable depuis 2023**
+- Acquisition de Penta (Allemagne, 2022) et Regate (compta, 2024)
+- Demande de **licence bancaire** déposée en juillet 2025
+
+## 👍 Points Forts
+
+✔️ Écosystème le plus complet du marché néobanque pro
+✔️ 80+ intégrations comptables — imbattable
+✔️ Interface UX parmi les meilleures du secteur
+✔️ Scalabilité du freelance à la PME de 250 personnes
+✔️ Entreprise rentable et solide financièrement
+
+## 👎 Points Faibles
+
+❌ Pas de support téléphonique sur les petits plans
+❌ Pas de chéquier ni d'encaissement d'espèces
+❌ Les fonctionnalités avancées nécessitent les plans Premium+
+❌ Pas encore une vraie banque (licence en cours)

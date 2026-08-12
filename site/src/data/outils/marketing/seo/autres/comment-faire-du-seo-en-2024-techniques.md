@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Guide
 statut: en-attente
 _priorité: important
 imageNameKey: guide-seo
@@ -45,9 +45,9 @@ La recherche vocale est devenue un aspect essentiel de notre interaction quotidi
 - 📝 Google's John Mueller advises not to rely on SEO tools for writing content.
 - 🧐 A user asked about using Vietnamese accents in content, and Mueller emphasized writing for the audience, not just following tool suggestions.
 - 🤔 Mueller suggests checking search engine results pages (SERPs) independently, as tools may not always reflect the actual rankings.
-- 🛠️ SEO tools are based on the creators' knowledge, which may become outdated, so it's crucial to use personal judgment in content création.
+- 🛠️ SEO tools are based on the creators' knowledge, which may become outdated, so it's crucial to use personal judgment in content creation.
 - 🚀 In SEO, there's rarely a universally agreed-upon rule, so relying solely on tools may not provide the best results.
-- 📚 Always conduct your own research and use your judgment as the final décision-maker in content writing.
+- 📚 Always conduct your own research and use your judgment as the final decision-maker in content writing.
 - 
 
 
@@ -72,37 +72,37 @@ All of this means that you no longer need to use exact terms that your competito
 
 Don't miss out on the [7 day free trial](https://contentaced.com/?utm_source=kenewsletter&utm_medium=newsletter&utm_campaign=kenewsletter) before it expires!
 
-[Optimizing Vidéo for the Web | Spotlightr Help Center](https://docs.spotlightr.com/en/articles/1748262-optimizing-video-for-the-web)
+[Optimizing Video for the Web | Spotlightr Help Center](https://docs.spotlightr.com/en/articles/1748262-optimizing-video-for-the-web)
 
-_**Large vidéos can**_ cause lots of issues in regards to playback and user expérience.
+_**Large videos can**_ cause lots of issues in regards to playback and user experience.
 
-They can _**increase page load times**_ which provide a negative user expérience, and they can also _**negatively impact your site’s SEO**_ as fast page load times are an important factor that Google and other search engines take into consideration.
+They can _**increase page load times**_ which provide a negative user experience, and they can also _**negatively impact your site’s SEO**_ as fast page load times are an important factor that Google and other search engines take into consideration.
 
-Large vidéos also _**take up more storage in your account**_ and can also _**cause issues with slow or stuttering playback**_.
+Large videos also _**take up more storage in your account**_ and can also _**cause issues with slow or stuttering playback**_.
 
-Therefore we would always recommend that you **compress vidéos before uploading and streaming from Spotlightr.**
+Therefore we would always recommend that you **compress videos before uploading and streaming from Spotlightr.**
 
-Even though [Spotlightr optimizes your uploaded files](https://docs.spotlightr.com/faqs/vooplayer-conversion-process) in many ways we would always recommend that you start with an optimized vidéo before uploading to Spotlightr.
+Even though [Spotlightr optimizes your uploaded files](https://docs.spotlightr.com/faqs/vooplayer-conversion-process) in many ways we would always recommend that you start with an optimized video before uploading to Spotlightr.
 
-**It is important to ensure vidéos get accepted by as many browsers and as many phones, tablets, laptops, and operating system combinations as possible.**
+**It is important to ensure videos get accepted by as many browsers and as many phones, tablets, laptops, and operating system combinations as possible.**
 
-Unfortunately to-date, there is no one format/vidéo codec/audio codec combination to rule them all.
+Unfortunately to-date, there is no one format/video codec/audio codec combination to rule them all.
 
-First and foremost, to ensure compatibility with most browsers and devices, our best recommendation is to **convert vidéos to MP4 and encode them with the H.264 codec**.
+First and foremost, to ensure compatibility with most browsers and devices, our best recommendation is to **convert videos to MP4 and encode them with the H.264 codec**.
 
-Vidéo Optimization
+Video Optimization
 
 ------------------
 
-Just like images, **vidéos should be optimized for the web**.  Depending on the program used and the export and render settings used, some vidéos may have streaming issues on playback.  Fortunately, there are plenty of programs that will reformat vidéos and rearranging file settings for faster playback and smooth streaming.
+Just like images, **videos should be optimized for the web**.  Depending on the program used and the export and render settings used, some videos may have streaming issues on playback.  Fortunately, there are plenty of programs that will reformat videos and rearranging file settings for faster playback and smooth streaming.
 
-Our best recommendation is a **free software program called** [Handbrake](http://handbrake.fr/), an open-source vidéo transcoder. 
+Our best recommendation is a **free software program called** [Handbrake](http://handbrake.fr/), an open-source video transcoder. 
 
-Handbrake is extremely easy to use.  These are the settings we recommend in general. Your particular use case may be different.  To optimize a vidéo for the web using Handbrake:
+Handbrake is extremely easy to use.  These are the settings we recommend in general. Your particular use case may be different.  To optimize a video for the web using Handbrake:
 
-Starting in the **Summary tab**, adjust the Presets field for resolution.  You should not attempt to encode at a resolution higher than the original vidéo.  If your resolution is 720 or higher we would always recommend that you choose the Preset for "Fast 720p30".  720 is more than sufficient for most use cases. 
+Starting in the **Summary tab**, adjust the Presets field for resolution.  You should not attempt to encode at a resolution higher than the original video.  If your resolution is 720 or higher we would always recommend that you choose the Preset for "Fast 720p30".  720 is more than sufficient for most use cases. 
 
-If your vidéo contains heavy text which should always be legible, you can also selec "Fast1080p30"
+If your video contains heavy text which should always be legible, you can also selec "Fast1080p30"
 
 Check the box labeled "Web Optimized"
 
@@ -110,7 +110,7 @@ Make sure MP4 is selected
 
 [
 
-Moving over to the **Vidéo tab**, adjust the framerate.  Although the Preset was set to 30, 20 or 25 is normally more than sufficient for most use cases.
+Moving over to the **Video tab**, adjust the framerate.  Although the Preset was set to 30, 20 or 25 is normally more than sufficient for most use cases.
 
 Ensure that the codec says H.264 (x264)
 
@@ -122,13 +122,13 @@ The default bitrate used does not usually need to be changed.
 
 [
 
-Recommended Settings for HD Vidéo
+Recommended Settings for HD Video
 
 ---------------------------------
 
-For those of you who just need the settings, regardless of the Handbrake options, here are **our basic recommendations** what to use when compressing HD vidéo (where the original is 1920 x 1080) **for upload to Spotlightr for web use**:
+For those of you who just need the settings, regardless of the Handbrake options, here are **our basic recommendations** what to use when compressing HD video (where the original is 1920 x 1080) **for upload to Spotlightr for web use**:
 
-Vidéo
+Video
 
 MP4 format
 
@@ -295,7 +295,7 @@ Now that we've explored the concept of consensus, let's see how to implement the
 
 First, identify the beaches that have reached a consensus among top websites. Highlight these beaches as the core of your article. But don't stop there; provide additional insights, tips, and valuable information to make your content stand out.
 
-To enhance your content création process, you can employ various tools like SEO Meta One Click to gather headers and Word Galaxy to generate relevant keywords. This ensures that your article aligns with the consensus while offering a comprehensive guide.
+To enhance your content creation process, you can employ various tools like SEO Meta One Click to gather headers and Word Galaxy to generate relevant keywords. This ensures that your article aligns with the consensus while offering a comprehensive guide.
 
 Remember, your goal is to agree with the consensus while simultaneously providing more value. This approach will eventually lead Google to favor your website over others in the long run.
 
@@ -303,7 +303,7 @@ Remember, your goal is to agree with the consensus while simultaneously providin
 
 Hybrid Consensus is a powerful SEO strategy that leverages the concept of consensus to boost your online presence. By understanding how consensus works and aligning with it, you can gradually become an authority in your niche and secure top rankings in search results.
 
-Consistently providing valuable content that adheres to consensus while offering additional insights is the key to SEO success. So, apply the hybrid consensus strategy to your content création process and watch your website climb the search engine rankings, ultimately becoming the consensus itself.
+Consistently providing valuable content that adheres to consensus while offering additional insights is the key to SEO success. So, apply the hybrid consensus strategy to your content creation process and watch your website climb the search engine rankings, ultimately becoming the consensus itself.
 
 
 ## Positioning cornerstone content on your site  
@@ -641,7 +641,7 @@ The first plugin is “All in One SEO”. It places two key boxes beneath each p
 10 Simple Tips To Optimize Your WordPress Website For Better Search Engine Ranking  
 What sense does it make to have a beautiful theme and a killer portfolio that isn’t search engine optimized?  Google, Bing, and Yahoo could care less about your pretty photos and web design.  They care about things like alt tags, file names, keywords, and hundreds of other really, really boring tech things.  Understanding those “boring tech things” might bring you new success.  Misunderstanding them could help to put you out of business.  
 What is Search engine optimization (SEO)?  
-SEO is the process of improving the volume or quality of traffic to your website from search engines like Google, Bing, Yahoo etc. via “natural” or un-paid (“organic” or “algorithmic”) search results in search engines. The theory is that the earlier (or higher) a site appears in the search results list, the more visitors it will receive from the search engine. SEO may target different kinds of search, including image search, local search, vidéo search and so on.  
+SEO is the process of improving the volume or quality of traffic to your website from search engines like Google, Bing, Yahoo etc. via “natural” or un-paid (“organic” or “algorithmic”) search results in search engines. The theory is that the earlier (or higher) a site appears in the search results list, the more visitors it will receive from the search engine. SEO may target different kinds of search, including image search, local search, video search and so on.  
 The following ten tips are those that we think are either often overlooked or common mistakes.  This is not a top ten list.  
 10 simple tips to get noticed by the world wide web:  
     • Content is the best optimization. Any type of optimization is effective only in combination with high quality and unique content. Ideally, the text contains keywords that highlights the overall theme of the post.  The content should be understandable and readable. Use your keywords wisely. Text should be written primarily for visitors, not for search engines.  
@@ -853,7 +853,7 @@ N'oubliez pas que les améliorations apportées par les propriétaires de sites 
 - 📝 Rédiger des méta-descriptions attractives peut augmenter le taux de clics (CTR) et améliorer le trafic.
 - 🧰 L'utilisation de balises d'en-tête appropriées (H1, H2, H3) aide Google à évaluer la pertinence du contenu.
 - 📏 La longueur du contenu n'est pas un facteur de classement, mais le contenu long peut couvrir de nombreux sous-thèmes et mots-clés à longue traîne.
-- 📚 Créer des pages clés, comme une page "À propos", renforce la crédibilité du site et s'aligne sur le concept E-A-T (Expérience, Expertise, Authoritativeness, and Trust) de Google.
+- 📚 Créer des pages clés, comme une page "À propos", renforce la crédibilité du site et s'aligne sur le concept E-A-T (Experience, Expertise, Authoritativeness, and Trust) de Google.
 
 1 / 10
 
@@ -1092,7 +1092,7 @@ That could be "entry points" and "navigation" for your ecommerce shopping pages.
 
 It could be expanding your Middle of Funnel _(MoFu)_ search opportunities, so when someone searches _"How do I shave my b***s"_, your beautifully _(hah!)_ positioned article comes up conveniently showcasing your best-selling product.
 
-Or a multitude of other stratégies, that's down to your SEO strategist to decide.
+Or a multitude of other strategies, that's down to your SEO strategist to decide.
 
 But hopefully you can see what it isn't…
 
@@ -1123,7 +1123,7 @@ Les liens internes font référence aux liens que vous créez entre les pages de
 En utilisant des liens internes de manière stratégique, vous améliorez la navigation sur votre site et aidez les moteurs de recherche à explorer et à indexer vos pages de manière plus efficace. Cela peut contribuer à améliorer votre classement dans les résultats de recherche et à fournir une meilleure expérience utilisateur à vos visiteurs.
 
 Offrez à votre client une opportunité exclusive : 30 minutes de consultation offertes avec un expert en référencement SEO pour discuter de son site.   
-[https://meet.dokey.io/meetings/dokey/meet](__MASK_37__)
+[https://meet.dokey.io/meetings/dokey/meet](https://email.dokey.io/e3t/Ctc/UB+113/d2YW1Y04/VWYqxj88_QJZV2-jTK8xzdvCW824bMN51fm2FN3JhCFN3lLB3V1-WJV7CgK6TW7l0T2f2Yy5ZwW5fPmg43mFSnHW8TFRsF7-NTq0W31mQDB6kRR7zMgwhqyrBKyRW1GVLvz75f5DCW6Bskrz5K9h6qW8ghXLf6VVHcsW71nr8X3mkP11W8Sfr5Q27Gy80W6fGRGM9hGKHBW679lBQ7QsTL3W5tVJ_V6RbPxxW6k3P1N6gyfRnW2XnTnG40JnJQW1-tB1v3dP67mW4BCB3N36Dtx3W4RJxTq3Hkb5HW4YYQV82RTWpKW1YN-rG1LN-Xm31Sg1)
 
 
 ## On va parler de la structure de votre site internet en 5 points.

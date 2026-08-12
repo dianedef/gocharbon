@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -15,22 +15,42 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../../assets/astro.jpeg
 ---
 
-# Stello
+Créé en 2019 par François-Xavier Combe  
+**Pays :** France 🇫🇷
 
-Cette fiche est présentée au format éditorial clair et sobre.
-Aucune promesse commerciale n’est avancée ici : l’objectif est de garder des informations vérifiables et actionnables.
 
-## Points clés
-- Fiche dédiée à la recherche, à l’évaluation et à la comparaison d’outils ou de pratiques autour de ce sujet.
-- Vérifie toujours les termes, la documentation officielle et les conditions d’usage avant de déployer une solution.
-- En cas de doute, privilégie les tests progressifs plutôt qu’un changement en une seule étape.
+**Description :** Stello, c’est la bonne étoile des entrepreneurs.
 
-## Ressources de départ
-- Aucune ressource externe n’a été détectée dans la fiche d’origine.
-- La fiche ne remplace pas un audit technique : elle sert de point de départ clair et vérifiable.
-- Reste concret: teste la source mentionnée, compare avec une alternative proche, puis décide selon ton contexte.
+Stello assure les entrepreneurs dans leur aventure.
 
-## À retenir
-- Objectif réel: gagner du temps sans perdre de contrôle sur la qualité du travail.
-- Garde une approche incrémentale: tester, mesurer, ajuster.
-- Documente tes choix pour éviter les faux positifs d’attente.
+Leur mission : protéger ceux qui ont choisi le chemin de la liberté. Avec des solutions de protection pour des milliers de professions, qu'ils soient auto-entrepreneur, indépendant ou dirigeant d'entreprise.
+
+**Notre avis :** Je dois l’avouer, Stello m’a sauvé la vie, le jour où j'ai failli tout perdre à cause d'un pépin de santé.
+
+J'étais tranquillement en train de bosser sur un gros projet client quand soudain, BAM, un mal de crâne d'une violence inouïe me terrasse. Impossible de me concentrer, la douleur devient intenable.
+
+Je décide de prendre sur moi et continue à travailler tant bien que mal. Sauf que le lendemain, rebelote : migraine de dingue qui m'oblige à rester au lit toute la journée, incapable du moindre effort intellectuel.
+
+Là je commence à flipper.
+
+J'ai des deadlines qui approchent, et je ne peux pas me permettre de prendre du retard.  
+Chaque journée improductive me coûte plusieurs centaines d'euros.
+
+Mais mon corps en a décidé autrement. Et le couperet tombe : Migraine ophtalmique (c’est héréditaire de mon côté, mais la paquet de clopes quotidien + le manque de sommeil + le stress n’a pas dû aider à l’époque !)
+
+Cette migraine infernale va me clouer au lit pendant 3 semaines.  
+3 put*ins de semaines à ne rien pouvoir faire d'autre que compter les mouches au plafond.
+
+**Résultat :** j'ai dû repousser des projets, perdu plusieurs milliers d'euros de CA, et frôlé la catastrophe avec certains clients.
+
+À l’époque j’avais mon assurance pro avec ma banque. La Classique.  
+Mais comme beaucoup d'entrepreneurs, je ne savais pas à quoi cela servait. Grave erreur.
+
+Aujourd’hui - et je t’en ai déjà parlé - j’ai noué un partenariat fort et solide avec Stello.  
+Ils d’ailleurs sorti un outil qui permet de simuler l'impact d'un arrêt maladie ou accident du travail sur tes revenus.
+
+Plus besoin de naviguer à l'aveuglette et de sous-estimer le risque.
+
+Stello nous ouvre les yeux sur notre vulnérabilité, pour qu'on puisse enfin se protéger correctement.
+
+Alors entrepreneurs, ne faites pas la même erreur que moi.

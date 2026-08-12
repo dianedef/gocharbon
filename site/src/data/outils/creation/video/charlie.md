@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: YourCharlie
 author: Diane
@@ -24,7 +24,7 @@ YourCharlie était un logiciel français tout-en-un qui automatisait la collecte
 
 ### Alternative à
 
-VideoAsk (par Typeform), Testimonial.to, Trustmary, Vocal Vidéo, StoryPrompt, Senja, Boast.io, Trustpilot (pour les avis texte). YourCharlie se distinguait par son approche 100% française, son modèle sans abonnement et son automatisation complète du processus de collecte vidéo — de l'invitation à la diffusion sur ton site.
+VideoAsk (par Typeform), Testimonial.to, Trustmary, Vocal Video, StoryPrompt, Senja, Boast.io, Trustpilot (pour les avis texte). YourCharlie se distinguait par son approche 100% française, son modèle sans abonnement et son automatisation complète du processus de collecte vidéo — de l'invitation à la diffusion sur ton site.
 
 ## Pourquoi les Témoignages Vidéo Sont Essentiels
 
@@ -45,7 +45,7 @@ Le problème ? Collecter et monter des témoignages vidéo est chronophage et te
 
 **Automatisation complète du processus** — Tu n'avais plus à courir après tes clients, à récupérer des fichiers lourds par WeTransfer, ni à passer des heures sur un logiciel de montage. YourCharlie prenait en charge tout le workflow, de l'invitation à la diffusion. Tu gagnais des heures chaque semaine.
 
-**Montage automatique en deux formats** — Les vidéos étaient automatiquement montées et livrées en format carré (pour les réseaux sociaux) et vertical (pour les stories/reels). Plus besoin de faire appel à un monteur ou de maîtriser Première Pro.
+**Montage automatique en deux formats** — Les vidéos étaient automatiquement montées et livrées en format carré (pour les réseaux sociaux) et vertical (pour les stories/reels). Plus besoin de faire appel à un monteur ou de maîtriser Premiere Pro.
 
 **Zéro friction pour le client** — Ton client recevait un lien, répondait question par question depuis son téléphone ou son ordinateur, et c'était terminé. Pas d'application à installer, pas de compte à créer. L'expérience était pensée pour maximiser le taux de réponse.
 
@@ -192,7 +192,7 @@ Puisque YourCharlie n'existe plus, voici les solutions qui reprennent le flambea
 - **Forces** : collecte multi-canal, import d'avis depuis Google/G2/Capterra, widgets personnalisables
 - **Idéal pour** : ceux qui veulent centraliser tous leurs avis (texte + vidéo) en un seul endroit
 
-### Vocal Vidéo
+### Vocal Video
 
 - **Site** : vocalvideo.com
 - **Prix** : à partir de 39$/mois

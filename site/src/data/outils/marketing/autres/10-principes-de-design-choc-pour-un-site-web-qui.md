@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: creation-contenu
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,14 +7,15 @@ imageNameKey: null
 u_site: null
 title: 10 Principes De Design Choc Pour Un Site Web Qui Rend Vos Concurrents Jaloux
 author: Diane
-description: "10 Principes De Design Choc Pour Un Site Web Qui Rend Vos Concurrents Jaloux."
+description: 'Découvre 10 Principes De Design Choc Pour Un Site Web Qui Rend Vos Concurrents
+  Jaloux : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # implement GWERN style principles
 
-Have a look at this site and see what elements might make sense to up the quality of the Heartbeat Setup: [https://www.gwern.net/Design#principles](__MASK_0__)
+Have a look at this site and see what elements might make sense to up the quality of the Heartbeat Setup: [https://www.gwern.net/Design#principles](https://www.gwern.net/Design#principles)
 
 Here are some oof the principles:
 

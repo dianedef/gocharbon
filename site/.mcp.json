@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "mcp-domain-availability": {
+      "type": "stdio",
+      "command": "/root/.local/bin/uvx",
+      "args": [
+        "--python=3.10",
+        "--from",
+        "git+https://github.com/imprvhub/mcp-domain-availability",
+        "mcp-domain-availability"
+      ],
+      "env": {}
+    },
+    "exa": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "exa-mcp-server"
+      ],
+      "env": {
+        "EXA_API_KEY": "f1dac107-1c99-45b8-bfb7-99d421bd88ec"
+      }
+    }
+  }
+}

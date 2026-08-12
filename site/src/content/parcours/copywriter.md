@@ -12,7 +12,7 @@ updatedAt: "2026-03-01"
 
 ## En clair (version simple)
 - Pour qui : SaaS, infoproduits, e-commerce et agences performance.
-- Où trouver les clients : Études de cas copy avant/après et audits publics.
+- Où trouver les clients : Études de cas copy avant/apres et audits publics.
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
 ## Idées d'offres à tester
@@ -22,7 +22,7 @@ updatedAt: "2026-03-01"
 
 ## Ton plan simple sur 7 jours
 1. Jour 1 : rends "Pack page de vente + séquence email" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
-2. Jours 2-4 : utilise ton canal principal (Études de cas copy avant/après et audits publics.) pour proposer "Refonte messaging marque" à tes premiers clients et noter leurs retours.
+2. Jours 2-4 : utilise ton canal principal (Études de cas copy avant/apres et audits publics.) pour proposer "Refonte messaging marque" à tes premiers clients et noter leurs retours.
 3. Jours 5-7 : continue avec "Optimisation continue des textes de vente", puis suis taux de conversion de la page de vente (CVR) et taux de clic (CTR) des emails, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre
@@ -44,7 +44,7 @@ updatedAt: "2026-03-01"
 - [Fiche profil Copywriter](/biz/profils/copywriter)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/redacteur-marketing)
+- [Suivi du parcours](/parcours/copywriter)
 - [Ressource utile 1](/marketing/email/strategie)
 - [Ressource utile 2](/marketing/content-marketing)
 - [Ressource utile 3](/tutos/comment-ecrire-un-script-youtube-captivant)

@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Créateur de chatbots no-code
-author: Diane GoCharbon
+title: Chatbot Developer (No-Code)
+author: Web Indé
 tags:
 - Business
-description: 'Concevoir des chatbots utiles pour support, vente et qualification,
-  sans masquer la complexité réelle du sujet.'
+description: 'Crée des chatbots pour entreprises : technologies, outils no-code et
+  stratégies pour vendre tes services.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Créateur de chatbots no-code
+# Chatbot Developer (No-Code)
 
 ## Description en une phrase
 

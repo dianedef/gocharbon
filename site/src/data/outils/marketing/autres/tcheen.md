@@ -1,17 +1,16 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: tcheen
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: evenements
 u_site: https://tcheen.com
 u_affi: null
 u_affiAdmin: null
 title: Tcheen
 author: Diane
-description: "Tcheen."
+description: 'Découvre Tcheen : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

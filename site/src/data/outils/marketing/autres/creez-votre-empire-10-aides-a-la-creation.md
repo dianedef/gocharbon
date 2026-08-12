@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Créez Votre Empire 10 Aides À La Création D'Entreprise Que L'État Vous Cache
 author: Diane
-description: "Créez Votre Empire 10 Aides À La Création D'Entreprise Que L'État Vous Cache."
+description: 'Découvre Créez Votre Empire 10 Aides À La Création D''Entreprise Que
+  L''État Vous Cache : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -2,88 +2,135 @@
 section: tutos
 tags:
 - Tutoriels
-title: Trouver les mots-clés de ses concurrents sans copier bêtement
+title: Trouver Les Mots Clefs De Ses Concurrents
 author: Diane
-description: Analyse les requêtes SEO de tes concurrents pour trouver des angles, des opportunités et des trous de contenu vraiment exploitables.
+description: 'Découvre Trouver Les Mots Clefs De Ses Concurrents : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Analyser les mots-clés de tes concurrents ne sert pas à faire du copier-coller stratégique. Ça sert à comprendre :
+[How to Find Keywords on Websites with WebSite Auditor - YouTube](https://youtu.be/hwTuYlXHrQw)
 
-- ce qui attire déjà du trafic dans ton marché ;
-- ce que Google semble attendre sur un sujet ;
-- les angles que les autres couvrent mal ;
-- les requêtes où tu peux entrer plus vite.
+### Débloquer la recherche de mots clés et espionner ses concurrents
 
-## Commence par choisir les bons concurrents
+L'outil de recherche de mots clés de Keyword Spy, également connu sous le nom de module de découverte de mots clés, fournit des informations complètes sur les mots clés cibles. Il va au-delà des bases qui consistent à fournir le volume de recherche et la concurrence. Avec Keyword Spy, tu peux analyser les mots-clés plus en profondeur, notamment leurs tendances, leurs niveaux de concurrence, et bien plus encore. Cette mine d'informations te permet de prendre des décisions éclairées sur les mots-clés à cibler.
 
-Ne regarde pas seulement les concurrents business. Regarde aussi les concurrents SEO.
+L'une des caractéristiques les plus remarquables de Keyword Spy est sa capacité à espionner tes concurrents. Il plonge profondément dans les SERP, offrant des informations provenant à la fois de RankBrain et de BERT, deux composants essentiels de l'algorithme de classement de Google. Ce niveau de transparence dans l'analyse des mots clés est une rareté dans les outils de référencement et peut être immensément bénéfique pour ta stratégie de contenu.
 
-Ce ne sont pas toujours les mêmes.
+En espionnant tes concurrents, tu peux mieux comprendre comment traiter des mots-clés spécifiques. Tu recevras des conseils sur la façon d'utiliser les bons mots dans le bon ordre, de choisir des images pertinentes, et bien plus encore. Cependant, il est essentiel de maintenir l'originalité en utilisant tes images et en élaborant un contenu unique. Bien que Keyword Spy propose également un éditeur pour aider à la création de contenu, il est conseillé d'utiliser cette fonction en conjonction avec d'autres outils d'optimisation de contenu pour obtenir les meilleurs résultats.
 
-Exemple :
 
-- ton concurrent business peut vendre le même service ;
-- ton concurrent SEO peut être un média, un comparateur ou un blog très bien positionné.
+## Conseil du mois de LowFruits : Extraire des idées de mots clés des concurrents
 
-## Méthode simple
+(Remarque : tu dois être abonné à LowFruits pour pouvoir extraire des mots-clés de tes concurrents et utiliser le filtre "Perfomers").
 
-### 1. Liste 5 à 10 domaines
+Sais-tu que tu peux [**utiliser LowFruits pour obtenir des idées de mots-clés de tes concurrents?**](https://blog.lowfruits.io/11-ways-to-get-to-know-your-competitors-in-the-competition-tab)
 
-Prends les sites qui reviennent souvent sur tes requêtes cibles.
+C'est l'une des fonctions de LowFruits que je préfère !
 
-### 2. Observe leurs pages visibles
+Lorsque tu es à court de... euh, de fruits, connecte-toi à LowFruits :
 
-Avec :
+- Ouvre un rapport sur les mots-clés.
+- Va dans l'onglet "Concurrence"
+- Trouve les sites Web qui se classent à côté de toi dans les SERP.
 
-- Search Console pour ton propre site ;
-- Google en navigation privée pour vérifier les SERP ;
-- des outils comme Ahrefs, Semrush, LowFruits ou SE Ranking si tu les as.
 
-### 3. Repère les motifs
+**Filtre par "Performers. "**
 
-Cherche :
+Tu obtiendras des sites web avec un Moz DA inférieur à 20 et un trafic important.
 
-- les sujets récurrents ;
-- les requêtes comparatives ;
-- les formats qui dominent ;
-- les expressions longues qui se répètent.
+Ensuite, [...]
 
-## Ce que tu dois récupérer
+- Ajoute les sites pertinents à une liste
 
-Pas juste une liste de mots-clés.
+- Va à l'outil "Extraire" dans la barre latérale gauche.
+- Lance une extraction
 
-Tu veux surtout récupérer :
+Lorsque tu auras terminé, tu auras tellement de nouvelles idées de mots clés que tu auras un nouveau problème : tu ne sauras pas pour quels mots clés écrire du contenu en premier !
 
-- des sujets ;
-- des angles ;
-- des formulations ;
-- des intentions de recherche ;
-- des opportunités de maillage ;
-- des pages faibles chez eux que tu peux dépasser.
+## Les mesures au fil du temps
 
-## Les bonnes questions à te poser
+P.S. Merci de m'avoir rappelé que j'avais oublié d'inclure les statistiques de la Google Search Console pour le mois !
 
-- est-ce que ce concurrent ranke grâce à l’autorité du domaine ou grâce à une page vraiment bonne ?
-- est-ce que la SERP favorise les guides, les comparatifs, les outils, les vidéos ou les fiches produit ?
-- est-ce que le mot-clé vaut quelque chose pour ton business ?
-- peux-tu faire plus clair, plus pratique, plus crédible ?
+Le site a obtenu 6,68k clics et 291k impressions en juin 2022. En hausse par rapport aux 3,15k clics et 162 impressions en mai 2022.
 
-## Ce qu’il ne faut pas faire
+#### Trafic
 
-- reproduire leur structure mot pour mot ;
-- viser cinquante variations quasi identiques ;
-- te laisser hypnotiser par le volume de recherche ;
-- écrire un article simplement parce qu’un concurrent en a un.
+**Période de temps**
 
-## Le bon résultat final
+Du 1er juin 2022 au 30 juin 2022
 
-À la fin de l’analyse, tu dois avoir :
+**Nombre de pages vues par mois
 
-1. une liste de requêtes prioritaires ;
-2. une liste de contenus à créer ;
-3. une liste de contenus à améliorer ;
-4. une liste de sujets à ignorer.
+11,000
 
-Si tu sors seulement avec un export CSV, tu n’as pas encore fait le vrai travail.
+**Durée moyenne d'engagement Temps d'engagement**
+
+0.48 s
+
+**Sessions engagées / Utilisateur**
+
+0.52
+
+**Pageviews / poste publié (PPP)**
+
+105.7
+
+**Source:** Google Analytics
+
+### Contenu
+
+
+### Classement
+
+**Date Checked**
+
+10 juin 2022
+
+**Avg. Position (Google, USA, Mobile)**
+
+7.15
+
+Position moyenne (Google, USA, Mobile)** 7,15 Position (Google, USA, Desktop)**
+
+6.56
+
+**Positions dans le Top 3 des SERPs**
+
+34 (+5 par rapport au mois précédent)
+
+**Positions dans les 4-10 sur les SERPs**
+
+19 (-6 Changement d'un mois sur l'autre)
+
+**Positions dans les 11-100 sur les SERPs**
+
+8 (-4 par rapport au mois précédent)
+
+**Source:** Ubersuggest
+
+**Heads-up:** Je n'ai plus assez de mots-clés dans mon abonnement à vie à Ubersuggest. À partir du mois prochain, je vais donc transférer le suivi des mots-clés sur [SERProbot](https://serprobot.com/), où je fais le suivi de mes autres sites depuis un certain temps déjà.
+
+#### Gains
+
+**Time Period**
+
+1er juin 2022 - 30 juin 2022
+
+**Revenu total depuis le début du site**
+
+$114.70
+
+**Revenu total depuis le début du site (2021)**
+
+$114.70
+
+**Revenu mensuel**
+
+$114.70
+Dont 114,70 $ provenant des publicités displayDont 0 $ provenant des commissions d'affiliation.
+
+**Revenu mensuel par article publié (MRPP)**
+
+$1.1

@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: scraping
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut:
 - en-cours
 _priorité: normal
@@ -12,7 +10,9 @@ tags:
 title: 9 Idées De Business Folles Utilisant Scrap.Io Qui Vont Vous Rendre Riche Du
   Jour Au Lendemain
 author: Diane
-description: "9 Idées De Business Folles Utilisant Scrap.Io Qui Vont Vous Rendre Riche Du Jour Au Lendemain."
+description: 'Découvre 9 Idées De Business Folles Utilisant Scrap.Io Qui Vont Vous
+  Rendre Riche Du Jour Au Lendemain : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

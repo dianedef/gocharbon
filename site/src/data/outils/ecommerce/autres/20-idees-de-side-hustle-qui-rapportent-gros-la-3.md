@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -14,14 +14,6 @@ imgUrl: ../../../../assets/astro.jpeg
 ---
 
 https://www.indiehackers.com/post/i-stopped-brainstorming-startup-ideas-this-worked-better-for-me-0a517e990a
-
-Avant d'enchaîner les idées, voici une histoire utile : Gary Dahl a prouvé qu'une idée simple peut devenir un vrai business quand le prix de vente et la distribution suivent une logique.
-
-On reprend ci-dessous 20 pistes de side hustle à fort potentiel, avec une logique simple :
-
-- résoudre une micro-problématique,
-- garder une exécution légère,
-- et tester vite avant d'investir gros.
 
 - Il fait 5M$ en vendant des cailloux
     

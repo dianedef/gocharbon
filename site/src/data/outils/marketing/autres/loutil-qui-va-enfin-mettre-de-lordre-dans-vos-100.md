@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: organiser-onglets-navigateur
 u_site: null
 title: L'Outil Qui Va Enfin Mettre De L'Ordre Dans Vos 100 Onglets Ouverts
 author: Diane
-description: "L'Outil Qui Va Enfin Mettre De L'Ordre Dans Vos 100 Onglets Ouverts."
+description: 'Découvre L''Outil Qui Va Enfin Mettre De L''Ordre Dans Vos 100 Onglets
+  Ouverts : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -133,13 +134,13 @@ Skeema helps you easily clip pieces of information on a webpage into your Clips 
 
 We re-designed the clips UI to be cleaner, more compact, and visually appealing. If you haven’t, please try out the clipping tool (here are [some tips](https://cmu.us1.list-manage.com/track/click?u=978818041f49d17108dd46d36&id=1b0d20b121&e=eccd6514fe) for how to use clipping). 
 
-[https://ci3.googleusercontent.com/proxy/Jp_iTusPT3_Uk2JV_CD4CZs1DdSG2It8nx04BqGl9_zi06dM4B-ul2fwHgg3VHqeDnbf0zq4ogTguIRNKt2UZcsF8oUnK_fP7BsTSr_6e0hzzdA0ZjObnIgjiiH1n5u7D8Qz2EnTENbp1Xv-nUP4ar63rrAF3w=s0-d-e1-ft#https://mcusercontent.com/978818041f49d17108dd46d36/images/24c7b664-1412-f9bf-8125-b999ae2f431c.png](__MASK_6__)
+[https://ci3.googleusercontent.com/proxy/Jp_iTusPT3_Uk2JV_CD4CZs1DdSG2It8nx04BqGl9_zi06dM4B-ul2fwHgg3VHqeDnbf0zq4ogTguIRNKt2UZcsF8oUnK_fP7BsTSr_6e0hzzdA0ZjObnIgjiiH1n5u7D8Qz2EnTENbp1Xv-nUP4ar63rrAF3w=s0-d-e1-ft#https://mcusercontent.com/978818041f49d17108dd46d36/images/24c7b664-1412-f9bf-8125-b999ae2f431c.png](https://ci3.googleusercontent.com/proxy/Jp_iTusPT3_Uk2JV_CD4CZs1DdSG2It8nx04BqGl9_zi06dM4B-ul2fwHgg3VHqeDnbf0zq4ogTguIRNKt2UZcsF8oUnK_fP7BsTSr_6e0hzzdA0ZjObnIgjiiH1n5u7D8Qz2EnTENbp1Xv-nUP4ar63rrAF3w=s0-d-e1-ft#https://mcusercontent.com/978818041f49d17108dd46d36/images/24c7b664-1412-f9bf-8125-b999ae2f431c.png)
 
 Disable the clipping button on specified pages
 
-The blue clipping button on the right of a page can be a quick way to help you capture what you need from a page, but can be distracting on some sites, e.g. when watching a YouTube vidéo. You can now disable the clipping button on specified pages in Settings on the left-side pane 
+The blue clipping button on the right of a page can be a quick way to help you capture what you need from a page, but can be distracting on some sites, e.g. when watching a YouTube video. You can now disable the clipping button on specified pages in Settings on the left-side pane 
 
-[https://ci4.googleusercontent.com/proxy/duoBjAm5Bc59ZJLBWPVYTivlwjaDy7YWzlL1iE2CsIjyJ3t4-QlX5OC3aWaaDRsh1nDQDIvUj45yB7mPCz0r-WQyXtIcUF-tvuAUsJHSUtF3JHiekS56tGBNg3-Jv6JF3kuh6BbEhwYgFV-1gUgnDEpVwsKuGw=s0-d-e1-ft#https://mcusercontent.com/978818041f49d17108dd46d36/images/5936ffa2-2312-ccad-6437-c657d83d7722.gif](__MASK_7__)
+[https://ci4.googleusercontent.com/proxy/duoBjAm5Bc59ZJLBWPVYTivlwjaDy7YWzlL1iE2CsIjyJ3t4-QlX5OC3aWaaDRsh1nDQDIvUj45yB7mPCz0r-WQyXtIcUF-tvuAUsJHSUtF3JHiekS56tGBNg3-Jv6JF3kuh6BbEhwYgFV-1gUgnDEpVwsKuGw=s0-d-e1-ft#https://mcusercontent.com/978818041f49d17108dd46d36/images/5936ffa2-2312-ccad-6437-c657d83d7722.gif](https://ci4.googleusercontent.com/proxy/duoBjAm5Bc59ZJLBWPVYTivlwjaDy7YWzlL1iE2CsIjyJ3t4-QlX5OC3aWaaDRsh1nDQDIvUj45yB7mPCz0r-WQyXtIcUF-tvuAUsJHSUtF3JHiekS56tGBNg3-Jv6JF3kuh6BbEhwYgFV-1gUgnDEpVwsKuGw=s0-d-e1-ft#https://mcusercontent.com/978818041f49d17108dd46d36/images/5936ffa2-2312-ccad-6437-c657d83d7722.gif)
 
 Search open tabs
 

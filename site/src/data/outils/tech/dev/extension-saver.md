@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 statut:
 - backlog
@@ -12,42 +12,26 @@ title: Extension Saver
 author: Diane
 tags:
 - Outils
-description: "Extension Saver sert à sauvegarder, retrouver ou réinstaller plus facilement une sélection d'extensions de navigateur."
+description: 'Découvre Extension Saver : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-# Extension Saver
+## Looper for YouTube
+ralenti le son et l'image de Youtube selon un range dans le loop, frame par frame
 
-Extension Saver répond à un problème très concret : quand tu changes de machine, de profil ou de navigateur, tu perds facilement la trace des extensions utiles que tu avais accumulées.
+écoute pour trouver les chords
 
-L'outil sert surtout à garder une mémoire propre de ton setup. Ce n'est pas révolutionnaire, mais c'est typiquement le genre de petite brique qui évite de perdre du temps bêtement.
 
-## Ce que fait l'outil
+## 
+ajouter la date de mise à jour, le contact, le site du dev, le code
+groupes
+les chiffres doivent pré render la note
+search bar en haut
+ajouter l'icone de chaque extension
 
-- Sauvegarder une liste d'extensions utiles.
-- Garder une trace de ton environnement de travail.
-- Faciliter une réinstallation ou une migration de navigateur.
-- Réduire le côté bricolage quand tu reconstruis un poste.
 
-## Pour qui ?
+le chrome store a généralisé l’utilisation de la V3 de leur manifest ce qui signifie que pas mal d’extension pas actualisée vont disparaitre du stsore comme l’une de mes préférée qui s’appelle auto copy et copie automatiquement tout texte sélectionné dans ton presse papier, tu peux le voir avec ce petit message que l’extension va disparaitre !
 
-- Freelances et makers qui changent souvent d'environnement.
-- Équipes qui standardisent un setup de travail.
-- Gens très dépendants de leur pile d'extensions.
-
-## Ce qu'on aime
-
-- Le besoin est modeste mais réel.
-- Utile pour documenter un setup sans faire une checklist à la main.
-- Bon petit outil de continuité personnelle ou d'équipe.
-
-## Limites à connaître
-
-- Valeur surtout pratique, pas stratégique.
-- L'intérêt baisse si tu utilises déjà la synchro native du navigateur.
-- Dépend beaucoup de la qualité d'import/export proposée.
-
-## Verdict GoCharbon
-
-Pas l'outil le plus sexy du monde, mais le problème qu'il traite est réel. Si ton navigateur est une vraie machine de travail, garder ton setup propre peut valoir bien plus que ce que ça a l'air.
+Pour parer à cela je te conseiller d’utiliser cette extension là [Extension Source Downloader - Chrome Web Store](https://chromewebstore.google.com/detail/extension-source-download/dlbdalfhhfecaekoakmanjflmdhmgpea) qui va permettre de télécharger auto copy en format Zip et de l’ajouter manuellement à notre navigateur lorsqu’elle aura disparu du store, attention ça comporte des risques évidemment d’utiliser des extensions dépréciées ! Pour ma part cette extension m’est bien trop utile pour que je m’en passe, et je n’ai pas trouvé d’alternative sur le store donc je vais faire ça !

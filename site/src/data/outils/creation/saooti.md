@@ -1,10 +1,8 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: saooti
 author: Diane
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: audio
 tags:
 - Outils
 description: Saooti - La Plateforme d'Hébergement de Podcast Tout-en-Un Si tu es un

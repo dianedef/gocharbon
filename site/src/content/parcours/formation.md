@@ -1,62 +1,55 @@
 ---
 profileId: "formation"
 title: "Parcours Formation en Ligne"
-description: "Comment transformer une expertise en formation vendable sans surproduire avant de valider la promesse."
+description: "Plan d'action pour Formation en Ligne."
 category: "formation"
 level: "debutant"
 status: "active"
-updatedAt: "2026-04-19"
+updatedAt: "2026-03-01"
 ---
 ## Ton objectif
-Vendre une première formation utile, courte et crédible avant de construire une cathédrale de vidéos que personne ne termine.
+Transformer une expertise en offre de formation vendable et scalable.
 
-## Ce qu’achète vraiment l’élève
-La plupart des gens n’achètent pas "12 modules" ou "37 vidéos". Ils achètent :
-- un résultat crédible ;
-- un chemin compréhensible ;
-- un format compatible avec leur vraie vie ;
-- et un minimum de confiance dans le fait qu’ils iront jusqu’au bout.
+## En clair (version simple)
+- Pour qui : Formateurs independants et organismes voulant digitaliser leur offre.
+- Où trouver les clients : Webinaire, contenu pédagogique et preuve résultats apprenants.
+- Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
-Le rapport [Voice of the Online Learner 2024](https://www.academicpartnerships.com/wp-content/uploads/2024/09/VOL-2024.pdf) le rappelle assez bien : 95 % des apprenants en ligne cherchent d’abord des résultats liés à leur carrière, et leurs critères principaux restent le coût, la crédibilité et le temps nécessaire pour arriver au bout. Même chez les acteurs premium, le sujet n’est pas seulement le contenu : [HBS Online](https://online.hbs.edu/why-hbs-online/about-our-courses-and-programs/policies) met en avant son apprentissage collaboratif en cohorte, pas une simple bibliothèque de vidéos. Ça dit quelque chose d’important : une bonne formation est une trajectoire, pas un entrepôt.
-
-## Pour qui ce parcours est vraiment fait
-- Experts, consultants et formateurs indépendants
-- Créateurs qui ont déjà une matière utile mais pas encore un produit pédagogique propre
-- Personnes prêtes à vendre une version bêta avant de polir chaque détail
-
-## Trois briques à construire d’abord
-1. Une promesse de transformation précise.
-2. Un plan de formation court qui mène vraiment quelque part.
-3. Une mécanique simple pour vendre une bêta ou un pilote.
+## Idées d'offres à tester
+1. Offre formation signature
+2. Tunnel de vente programme
+3. Accompagnement cohortes + support
 
 ## Ton plan simple sur 7 jours
-1. Jour 1 : définis pour qui est la formation, le point de départ, le résultat attendu et ce que tu ne promets pas.
-2. Jours 2 à 4 : dessine la structure, les exercices, le support et la première version du programme sans construire une cathédrale.
-3. Jours 5 à 7 : ouvre une liste d’attente, un webinaire ou quelques appels pour vendre les premières places avant de polir le reste.
+1. Jour 1 : rends "Offre formation signature" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
+2. Jours 2-4 : utilise ton canal principal (Webinaire, contenu pédagogique et preuve résultats apprenants.) pour proposer "Tunnel de vente programme" à tes premiers clients et noter leurs retours.
+3. Jours 5-7 : continue avec "Accompagnement cohortes + support", puis suis taux inscription et taux completion, puis ajuste petit à petit.
 
 ## Les chiffres utiles à suivre
-- Inscriptions en liste d’attente ou appels réservés
-- Taux de conversion vers la vente
-- Taux d’activation après achat
-- Participation active et complétion des premiers modules
+- Taux inscription
+- Taux completion
+- Upsell vers offre avancee
 
 ## Pièges à éviter
 - Catalogue trop large
-- Confondre quantité de contenu et valeur pédagogique
-- Laisser les apprenants seuls en appelant ça "scalable"
-- Promettre une transformation floue que tu ne peux ni cadrer ni mesurer
-
-## Commence ici ce soir
-- Écris cette phrase : "À la fin, tu sauras / tu auras / tu seras capable de..."
-- Coupe tout ce qui n’aide pas directement cette transformation.
-- Prépare une version courte vendable avant de rêver à la version premium.
+- Pas de differenciation pédagogique
+- Suivi apprenants insuffisant
 
 ## À la fin, tu dois avoir
-- Une promesse claire et une version bêta bien cadrée
-- Une mécanique de vente simple que tu peux répéter
-- Un système pour suivre les apprenants et récolter de vraies preuves
-- Assez de retours pour décider quoi approfondir, supprimer ou mieux accompagner
+- Programme pédagogique relie à un résultat concret
+- Mecanique de vente active (webinaire, calls, email)
+- Système suivi apprenants et preuve de progression
 
-## Si tu veux comparer
-- [Voir tous les parcours](/parcours)
-- [Construire d’abord l’audience qui nourrira la vente](/parcours/createur-contenu)
+## Liens utiles pour avancer
+- [Fiche profil Formation](/biz/profils/formation)
+- [Quiz rapide (orientation)](/quiz-rapide)
+- [Quiz avancé (validation)](/quiz-avance)
+- [Suivi du parcours](/parcours/formation)
+- [Ressource utile 1](/biz/profils/formation)
+- [Ressource utile 2](/tutos/creer-une-formation-en-ligne)
+- [Ressource utile 3](/marketing/tunnel/atelier)
+
+## Idées de contenus pour aller plus loin
+- [Guide à venir 1: cadre promesse pédagogique](/tutos/formation/cadre-promesse-pedagogique)
+- [Guide à venir 2: plan lancement cohorte](/tutos/formation/plan-lancement-cohorte)
+- [Guide à venir 3: systeme evaluation apprenants](/tutos/formation/systeme-evaluation-apprenants)

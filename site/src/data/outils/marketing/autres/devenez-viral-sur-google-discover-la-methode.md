@@ -1,9 +1,7 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: seo
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Blog
 statut:
 - backlog
 _priorité: normal
@@ -11,7 +9,8 @@ tags:
 - Outils
 title: Devenez Viral Sur Google Discover La Méthode Secrète Enfin Révélée
 author: Diane
-description: "Devenez Viral Sur Google Discover La Méthode Secrète Enfin Révélée."
+description: 'Découvre Devenez Viral Sur Google Discover La Méthode Secrète Enfin
+  Révélée : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Ghost Vs Wordpress Le Match Du Siècle Qui Va Bouleverser Le Web
 author: Diane
-description: "Ghost Vs Wordpress Le Match Du Siècle Qui Va Bouleverser Le Web."
+description: 'Découvre Ghost Vs Wordpress Le Match Du Siècle Qui Va Bouleverser Le
+  Web : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

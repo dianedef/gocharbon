@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://www.tiime.fr/mentions-legales
-- https://www.tiime.fr/contact
-- https://www.tiime.fr/reforme-facturation-electronique
-notesQualification: Tiime est une societe francaise basee a Paris; les mentions legales documentent un hebergement du site dans l'EEE et un cadre reglementaire francais via ses partenaires de paiement, sans plus de precision publique sur toute l'infrastructure produit.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: tiime
 author: Diane
 tags:

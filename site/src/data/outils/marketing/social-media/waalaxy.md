@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: app
 tags:
 - Outils
 imageNameKey: waalaxy
@@ -15,11 +15,11 @@ pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-[https://appsumo.com/products/waalaxy/#appsumo-plans](__MASK_0__)
+[https://appsumo.com/products/waalaxy/#appsumo-plans](https://appsumo.com/products/waalaxy/#appsumo-plans)
 
-[https://www.waalaxy.com/ambassador/](__MASK_1__)
+[https://www.waalaxy.com/ambassador/](https://www.waalaxy.com/ambassador/)
 
-[https://appsumo.com/products/waalaxy](__MASK_2__)
+[https://appsumo.com/products/waalaxy](https://appsumo.com/products/waalaxy)
 Je ne suis pas client Waalaxy mais l’expérience ProspectIn m’a un peu refroidi, surtout que d’un point de vue sécurité il serait intéressant qu’ils nous expliquent ce qu’ils font de mieux qu’avant. De mémoire ProspectIn (et sûrement Waalaxy) manipule le DOM (l’API de LinkedIn).
 
 Ils bloquent les endpoints suivants dans l’API LinkedIn :  

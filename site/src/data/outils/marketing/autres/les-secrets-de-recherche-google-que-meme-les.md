@@ -1,11 +1,12 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Les Secrets De Recherche Google Que Même Les Hackers Ignorent
 author: Diane
-description: "Les Secrets De Recherche Google Que Même Les Hackers Ignorent."
+description: 'Découvre Les Secrets De Recherche Google Que Même Les Hackers Ignorent
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -1028,8 +1029,8 @@ Voici quelques moyens de trouver des opportunités de postes sponsoris�
 
 La plupart des blogs se trouvent soit dans un [sous-répertoire, soit dans un sous-domaine](https://kinsta.com/fr/blog/sous-domaine-wordpress/#impact) :
 
-- **Sous-répertoire** **:** [https://kinsta.com/blog/](__MASK_131__)
-- **Sous-domaine** **:** [https://blog.hubspot.com/](__MASK_132__)
+- **Sous-répertoire** **:** [https://kinsta.com/blog/](https://kinsta.com/fr/blog/)
+- **Sous-domaine** **:** [https://blog.hubspot.com/](https://blog.hubspot.com/)
 
 Pour savoir à quelle fréquence un site web publie du contenu :
 

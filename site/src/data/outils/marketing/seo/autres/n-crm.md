@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -30,4 +30,4 @@ Vous pouvez en savoir plus sur n-crm en visitant leur page LinkedIn à l'adresse
 
 Automatically add leads to Notion CRM and manage it accross your pipe
 
-Are you tired of manually adding leads and managing your customer relationships? Well, say goodbye to tedious tasks and hello to automation with our tool. With N-CRM, you can easily and automatically add leads from LinkedIn directly into your Notion CRM. But that's not all - our tool also allows you to manage and optimize your customer relationships across your entire sales pipeline. So whether you're just starting out or an experienced pro, N-CRM has something for you. This is just the beginning, we are working around the extension to do something big with automation. Get ready to revolutionize your lead management with N-CRM. And if you have any questions or ideas for new features, don't hesitate to reach out. Our team is here to help you succeed and make the most of our tool. Plus, be sure to check out the vidéo tour we've created to help you become a pro in no time. Happy automating! PS: join us to build a powerfull CRM with LinkedIn and Notion: https://discord.gg/WecTMqkvze
+Are you tired of manually adding leads and managing your customer relationships? Well, say goodbye to tedious tasks and hello to automation with our tool. With N-CRM, you can easily and automatically add leads from LinkedIn directly into your Notion CRM. But that's not all - our tool also allows you to manage and optimize your customer relationships across your entire sales pipeline. So whether you're just starting out or an experienced pro, N-CRM has something for you. This is just the beginning, we are working around the extension to do something big with automation. Get ready to revolutionize your lead management with N-CRM. And if you have any questions or ideas for new features, don't hesitate to reach out. Our team is here to help you succeed and make the most of our tool. Plus, be sure to check out the video tour we've created to help you become a pro in no time. Happy automating! PS: join us to build a powerfull CRM with LinkedIn and Notion: https://discord.gg/WecTMqkvze

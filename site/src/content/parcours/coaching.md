@@ -52,4 +52,4 @@ Packager un coaching transformant avec promesse mesurable.
 ## Idées de contenus pour aller plus loin
 - [Guide à venir 1: modeliser promesse resultat](/tutos/coaching/modeliser-promesse-resultat)
 - [Guide à venir 2: plan session 8 semaines](/tutos/coaching/plan-session-8-semaines)
-- [Guide à venir 3: système suivi progression](/tutos/coaching/systeme-suivi-progression)
+- [Guide à venir 3: systeme suivi progression](/tutos/coaching/systeme-suivi-progression)

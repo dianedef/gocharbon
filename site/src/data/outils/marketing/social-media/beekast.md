@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -52,4 +52,4 @@ Fremium, Beekast est gratuit jusqu’à 3 participants
 
 ## Présence numérique
 
-- [https://www.beekast.com/fr/](__MASK_9__)
+- [https://www.beekast.com/fr/](https://www.beekast.com/fr/)

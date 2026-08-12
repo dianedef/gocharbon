@@ -8,7 +8,7 @@ status: "active"
 updatedAt: "2026-03-01"
 ---
 ## Ton objectif
-Constituer un portefeuille photo/vidéo stock qui génère ventes récurrentes.
+Constituer un portefeuille photo/vidéo stock qui genere ventes récurrentes.
 
 ## En clair (version simple)
 - Pour qui : Photographes, créateurs visuels et videastes stock-first.
@@ -44,7 +44,7 @@ Constituer un portefeuille photo/vidéo stock qui génère ventes récurrentes.
 - [Fiche profil Stock Photography](/biz/profils/stock-photography)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/photographie-de-stock)
+- [Suivi du parcours](/parcours/stock-photography)
 - [Ressource utile 1](/tutos/comment-generer-des-images-en-lots)
 - [Ressource utile 2](/tutos/comment-retirer-un-objet-ou-une-personne-dune)
 - [Ressource utile 3](/outils/creation)

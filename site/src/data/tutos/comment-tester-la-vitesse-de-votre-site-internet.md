@@ -4,47 +4,125 @@ tags:
 - Tutoriels
 imageNameKey: null
 u_site: null
-title: Comment tester la vitesse de ton site internet utilement
+title: Comment Tester La Vitesse De Votre Site Internet
 author: Diane
-description: 'Comment tester la vitesse de ton site internet utilement : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Comment Tester La Vitesse De Votre Site Internet : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment tester la vitesse de ton site internet utilement demande un peu plus de méthode que trois clics dans l’admin. Le vrai sujet, c’est d’éviter la casse en production, de garder une trace claire de ce qui a été fait et de rendre le process répétable.
+# VITESSE DE SITE : MESURE, COMPRENDS ET OPTIMISE
 
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
+Un site lent, c'est des visiteurs qui partent. Google le confirme : au-dela de 3 secondes de chargement, 53% des visiteurs mobiles quittent la page. Et depuis 2021, les Core Web Vitals sont un facteur de classement SEO. Voici comment tester la vitesse de ton site, comprendre les metriques, et savoir quoi optimiser en priorite.
 
-## Ce que tu vas obtenir
-- une procédure simple à répéter
-- moins de risque de casser la prod
-- des contrôles clairs après chaque action
+## Les outils de test (tous gratuits)
 
-## Méthode simple
-### 1. Commence par cadrer le périmètre
-Identifie exactement ce que tu touches : site, environnement, extensions concernées, sauvegardes disponibles et impact potentiel pour les utilisateurs.
+### 1. Google PageSpeed Insights -- Le standard
 
-### 2. Prépare un environnement sûr
-Fais la manipulation sur un site de test ou au minimum sur un créneau calme, avec une sauvegarde vérifiée et un plan de retour arrière.
+[PageSpeed Insights](https://pagespeed.web.dev/) est l'outil officiel de Google. C'est celui que tu dois utiliser en priorite parce que c'est sur ces metriques que Google juge ton site.
 
-### 3. Exécute la tâche proprement
-Applique le changement avec un seul objectif à la fois, note ce que tu modifies et évite les actions groupées sans contrôle.
+1. Va sur pagespeed.web.dev
+2. Entre l'URL de ta page
+3. Attends l'analyse (10-30 secondes)
+4. Tu obtiens un score de 0 a 100 pour mobile ET desktop
 
-### 4. Teste ce qui compte vraiment
-Vérifie le front, l’admin, les formulaires, les paiements, les performances et les logs. Ce qui ne se teste pas finit souvent en ticket support.
+**Ce que tu vois** :
+- **Donnees de terrain** (Field Data) : les vraies performances mesurees sur les visiteurs reels via Chrome UX Report
+- **Donnees de labo** (Lab Data) : un test simule dans des conditions controlees
 
-### 5. Documente pour la prochaine fois
-Garde un mini mode opératoire. Si tu dois refaire la même chose dans trois semaines, tu te remercieras.
+**Les scores** : 0-49 = rouge (mauvais), 50-89 = orange (a ameliorer), 90-100 = vert (bon).
 
-## Pièges à éviter
-- mettre à jour ou supprimer sans sauvegarde valide
-- faire dix changements d’un coup puis ne plus savoir d’où vient le bug
-- oublier de tester les parcours critiques après intervention
+### 2. GTmetrix -- L'analyse detaillee
 
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] sauvegarde ou retour arrière prêt
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
+[GTmetrix](https://gtmetrix.com/) va plus loin que PageSpeed avec un diagramme en cascade (waterfall) qui montre chaque ressource chargee.
 
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+1. Va sur gtmetrix.com et cree un compte gratuit
+2. Entre ton URL
+3. Choisis le serveur de test le plus proche de tes visiteurs (Seattle ou Londres disponibles en gratuit)
+4. Lance le test
+
+**Ce que GTmetrix ajoute** :
+- Le **waterfall chart** : tu vois exactement quelle ressource ralentit le chargement. Tu peux trier par taille, domaine ou temps de chargement
+- La **taille totale de la page** et le nombre de requetes HTTP
+- Un historique de tes tests pour suivre l'evolution (monitoring quotidien, hebdomadaire ou mensuel)
+- Les **donnees CrUX** (Chrome User Experience Report) pour les donnees de terrain
+- **Video playback** de ta page en train de charger
+- **Systeme d'alertes** : sois prevenu quand un score baisse
+
+**Prix (2025)** :
+- **Basic (gratuit)** : 5 tests/mois pendant 3 mois, 2 localisations (Seattle, Londres), dashboard, tags et filtres, monitoring et alertes
+- **PRO** : a partir de 12,50 USD/mois -- localisations supplementaires (Sao Paulo, Mumbai, Hong Kong, Sydney, Dallas), plus de tests, historique CrUX 6 mois, test de pages protegees par login
+
+### 3. WebPageTest -- Le test avance
+
+[WebPageTest](https://www.webpagetest.org/) est l'outil le plus complet. Tu peux tester depuis differentes localisations, differents navigateurs et differentes connexions (3G, 4G, fibre).
+
+1. Va sur webpagetest.org
+2. Entre ton URL
+3. Choisis : localisation (Paris, New York...), navigateur (Chrome, Firefox), connexion (Cable, 3G lente...)
+4. Lance le test -- ca prend 1-2 minutes
+
+**Point fort** : le test "repeat view" qui montre la difference entre un premier chargement et un chargement avec cache.
+
+### 4. SE Ranking -- Surveillance continue
+
+[SE Ranking](https://seranking.com/free-tools/website-speed-test.html) propose un test de vitesse gratuit integre a sa suite SEO. Pratique si tu utilises deja l'outil pour ton referencement.
+
+## Les metriques a comprendre
+
+### Core Web Vitals (les 3 essentiels)
+
+| Metrique | Ce qu'elle mesure | Bon | A ameliorer | Mauvais |
+|----------|-------------------|-----|-------------|---------|
+| **LCP** (Largest Contentful Paint) | Temps d'affichage du plus gros element visible | < 2.5s | 2.5-4s | > 4s |
+| **INP** (Interaction to Next Paint) | Reactivite aux clics/taps | < 200ms | 200-500ms | > 500ms |
+| **CLS** (Cumulative Layout Shift) | Stabilite visuelle (les elements bougent-ils ?) | < 0.1 | 0.1-0.25 | > 0.25 |
+
+### Autres metriques importantes
+
+- **TTFB** (Time to First Byte) : le temps que met le serveur a repondre. Si > 800ms, ton hebergement est trop lent
+- **FCP** (First Contentful Paint) : quand le premier element s'affiche. Objectif : < 1.8s
+- **Speed Index** : a quelle vitesse le contenu visible se remplit. Plus bas = mieux
+- **Total Blocking Time** : combien de temps le JavaScript bloque le thread principal
+
+## Comment interpreter les resultats
+
+### Si ton LCP est mauvais (> 2.5s)
+Les causes les plus frequentes :
+- Images trop lourdes (pas compressees, pas en WebP/AVIF)
+- Serveur lent (TTFB eleve)
+- CSS ou JS qui bloque le rendu
+- Pas de CDN
+
+### Si ton CLS est mauvais (> 0.1)
+- Images sans dimensions definies (width/height)
+- Polices web qui provoquent un saut de texte au chargement
+- Publicites ou embeds qui se chargent en retard et poussent le contenu
+
+### Si ton INP est mauvais (> 200ms)
+- Trop de JavaScript executee au clic
+- Scripts tiers lourds (chat widgets, analytics, pixels publicitaires)
+- Event handlers mal optimises
+
+## Les optimisations prioritaires (par impact)
+
+1. **Compresse tes images** -- passe en WebP ou AVIF, redimensionne a la taille d'affichage. Impact immediat sur le LCP
+2. **Active un CDN** -- Cloudflare (gratuit) distribue ton site depuis des serveurs proches de tes visiteurs
+3. **Minifie CSS et JS** -- supprime les espaces et commentaires. La plupart des frameworks le font automatiquement en production
+4. **Lazy load les images** -- les images sous la ligne de flottaison ne se chargent que quand l'utilisateur scrolle
+5. **Preconnecte les domaines tiers** -- ajoute `<link rel="preconnect">` pour Google Fonts, analytics, etc.
+6. **Reduis les scripts tiers** -- chaque widget (chat, analytics, pixel pub) ajoute 50-200ms. Gardes-en le minimum
+
+## Routine de test recommandee
+
+| Frequence | Action | Outil |
+|-----------|--------|-------|
+| A chaque mise en prod | Test rapide des pages modifiees | PageSpeed Insights |
+| 1x par semaine | Test complet des pages principales | GTmetrix |
+| 1x par mois | Test approfondi multi-localisation | WebPageTest |
+| En continu | Surveillance automatique | SE Ranking ou UptimeRobot |
+
+## Ce qu'il faut retenir
+
+Teste toujours en mobile d'abord (c'est la que les problemes apparaissent). Concentre-toi sur les Core Web Vitals : LCP < 2.5s, INP < 200ms, CLS < 0.1. Les images sont presque toujours la premiere chose a optimiser. Et un score PageSpeed de 100 n'est pas necessaire -- vise 80+ en mobile et assure-toi que l'experience utilisateur est fluide.

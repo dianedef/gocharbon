@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -28,7 +28,7 @@ imgUrl: ../../../../../assets/astro.jpeg
 [$14K/mo in 2 WEEKS with THIS LinkedIn Lead Generation Strategy (Real Example) - YouTube](https://www.youtube.com/watch?v=aKgYCUjoCQg)
 
 [Burnout, Faillite… Et il DOMINE LinkedIn w/Michel Khoury - YouTube](https://www.youtube.com/watch?v=OqGQ2CqP354&list=WL&index=62)
-[3 LinkedIn Stratégies that made $138,000. - YouTube](https://www.youtube.com/watch?v=PKnz2YrodFs)
+[3 LinkedIn Strategies that made $138,000. - YouTube](https://www.youtube.com/watch?v=PKnz2YrodFs)
 [10,000 LinkedIn Followers in LESS Than 6 Months 🤯 (learn how i did it) - YouTube](https://www.youtube.com/watch?v=WSf4d5ZuOb0)
 [Fake account Linkedin - Durcissement des mesures - Social Media - Growthhacking.fr | Communauté française de growth hacking](https://www.growthhacking.fr/t/fake-account-linkedin-durcissement-des-mesures/36114)
 
@@ -153,7 +153,7 @@ imgUrl: ../../../../../assets/astro.jpeg
     **Gérez facilement votre page LinkedIn aux côtés de vos autres réseaux sociaux à l'aide de Hootsuite. À partir d'une plateforme unique, vous pouvez planifier et partager du contenu, y compris des vidéos, engager votre réseau et booster le contenu le plus performant. Essayez-le aujourd'hui.**
     
 
-[https://youtu.be/dZvcQ3QtWfY](__MASK_22__)
+[https://youtu.be/dZvcQ3QtWfY](https://youtu.be/dZvcQ3QtWfY)
 
 [SalesQL - Linkedin Email Finder & Lead Generation App](https://salesql.com/)
 

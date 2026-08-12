@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 u_site: null
 title: Le Marketing C’Est Quoi, Ça Sert À Quoi Et Comment En Faire
 author: Diane
-description: "Le Marketing C’Est Quoi, Ça Sert À Quoi Et Comment En Faire."
+description: 'Découvre Le Marketing C’Est Quoi, Ça Sert À Quoi Et Comment En Faire
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -131,7 +132,7 @@ afin de présenter une belle offre, il faut :
 
 ### Leviers de Persuasion
 
-[https://marketingmania.fr/sitepersuasif](__MASK_9__)
+[https://marketingmania.fr/sitepersuasif](https://marketingmania.fr/sitepersuasif)
 
 **La majorité de vos visiteurs quittent votre site sans acheter** (et sans même vous laisser leur adresse email).
 
@@ -231,7 +232,7 @@ la réussite ne provient pas de la valeur de ce qu'on a à apporter mais de notr
 
 ex : l'histoire de Sixto Rodriguez, musicien extraordinaire à qui on a donné tous les moyens mais qui n'a rien réussit. Il ne devait pas correspondre aux attentes du public à ce moment, en termes musicaux ou marketing, pourtant on peut pas nier qu'il est un zikos extra
 
-[https://youtu.be/GXGrDUT_TV0](__MASK_10__)
+[https://youtu.be/GXGrDUT_TV0](https://youtu.be/GXGrDUT_TV0)
 
 ### Sinon Vendre des Trucs Inutiles c’est Ed la Manipulation Malveillante du Mensonge
 
@@ -574,7 +575,7 @@ comment je peux attraper l'autre personne dans mon équipe et nous faire collabo
 
 vous êtes en négocation partout tout le temps
 
-avoir un hhaut niveaux d'attention, être hyper vigilant présent
+avoir un hhaut niveaux d'attention, etre hyper vigilant présent
 
 on veut trouver le meilleur compromis possibe win/win le plus vite possible, s'il y en a un
 
@@ -602,7 +603,7 @@ Voici quelques-uns de nos conseils préférés tirés de l'article de Cole et no
 
 **\+ Faites vos devoirs - ce que vous ne savez pas pourrait vous tuer.** Assurez-vous de savoir tout ce qu'il y a à savoir sur un client ou un client avant de plonger tête la première dans le processus délicat des négociations.
 
-Il y a 14 autres conseils dans [l'article complet de Cole ici] ([http://cm.wtaff.co/t/j-l-akueik-itydbpkh-a/](__MASK_15__)), si vous voulez vérifier cela. Maintenant, sortez et profitez d'une négociation améliorée.
+Il y a 14 autres conseils dans [l'article complet de Cole ici] ([http://cm.wtaff.co/t/j-l-akueik-itydbpkh-a/](http://cm.wtaff.co/t/j-l-akueik-itydbpkh-a/)), si vous voulez vérifier cela. Maintenant, sortez et profitez d'une négociation améliorée.
 
 si y'a le mot "yes" ou "i want" vous etes dans une négociation
 
@@ -679,7 +680,7 @@ Il est rare qu’on soit vraiment accroché par un texte commercial. Qu’il s�
 
 Voici comment ne pas reproduire la même erreur. Et comment enchanter vos lecteurs.
 
-Formule magique : trouver une grande idée : permettre, réaliser qqchose. Ex : travailler en rotation de thème plutôt que par listes de tâches / il suffit d'avoir 35 clients abonnés à 37e/mois, pour gagner ta vie
+Formule magique : trouver une grande idée : permettre, réaliser qqchose. Ex : travailler en rotation de thème plutôt que par listes de taches / il suffit d'avoir 35 clients abonnés à 37e/mois, pour gagner ta vie
 
 Proposer un produit qui permet d'arriver à cette grande idée. Dans l'argumentaire de vente on ne parle jamais du produit au début, uniquement de la grande idée. Le produit intervient comme la façon d'appliquer cette grande idée, il répond au comment, mais ce qu'on vend c'est l'idée, tout l'effort de persuasion se fait sur l'idée (exemples, démonstration, risques encouru si on applique pas…), et dans la dernière partie on informe que ce produit a été créée pour savoir comment faire étape par étape comment appliquer cette idée
 
@@ -803,7 +804,7 @@ Quand on lutte autant pour obtenir un produit, on éprouve davantage de satisfac
 
 ### La Valeur de Ce qu’on Offre
 
-combien coûte une bouteille d'eau dans un supermarché ? Sur la plage ? Dans le désert ?..
+combien coute une bouteille d'eau dans un supermarché ? Sur la plage ? Dans le désert ?..
 
 Celui qui vend mille euros une bouteille d’eau dans le désert est il un gros FDP ?
 
@@ -864,7 +865,7 @@ Le site de l’ABES contient une liste de bases de données bibliographiques et 
 
 Ces études sont payantes et destinées à être utilisés principalement par des entreprises de taille importante. Elles représentent néanmoins une source d’informations générales très intéressantes sur un marché : tendances, consommation, principaux acteurs…
 
-Exemples : – [www.xerfi.fr](http://www.xerfi.fr/) – [www.lesechos-etudes.fr](http://www.lesechos-etudes.fr/) – [www.bipe.com](http://www.bipe.com/) – [www.marketresearch.com](http://www.marketresearch.com/) – [](https://www.creatests.com/)[https://www.creatests.com](__MASK_31__) (résultats partiels d’enquêtes établies via des questionnaires disponibles sur le site)
+Exemples : – [www.xerfi.fr](http://www.xerfi.fr/) – [www.lesechos-etudes.fr](http://www.lesechos-etudes.fr/) – [www.bipe.com](http://www.bipe.com/) – [www.marketresearch.com](http://www.marketresearch.com/) – [](https://www.creatests.com/)[https://www.creatests.com](https://www.creatests.com) (résultats partiels d’enquêtes établies via des questionnaires disponibles sur le site)
 
 NB : – certaines de ces études sont consultables gratuitement au Pôle Prisme de la BNF (voir plus bas), – les cabinets mettent parfois sur leur site des résumés ou des présentations de ces publications, fournissant quelques éléments d’information.
 
@@ -878,7 +879,7 @@ Il permet de consulter le Répertoire national des bibliothèques et des centres
 
 Les [Cités des métiers](http://www.cite-sciences.fr/fr/au-programme/lieux-ressources/cite-des-metiers/) à Paris ou en région disposent de nombreuses informations sur les différents secteurs d’activités.
 
-[https://bpifrance-creation.fr/encyclopedie/etapes-creation-dune-entreprise/realiser-son-etude-marche/trouver-informations-faire](__MASK_34__)
+[https://bpifrance-creation.fr/encyclopedie/etapes-creation-dune-entreprise/realiser-son-etude-marche/trouver-informations-faire](https://bpifrance-creation.fr/encyclopedie/etapes-creation-dune-entreprise/realiser-son-etude-marche/trouver-informations-faire)
 
 ## Cas Concrets
 
@@ -894,11 +895,11 @@ culture pub
 
 ## Métacognition et Marketing Relationnel : As-tu Déjà Réfléchi à Pourquo
 
-[https://www.jeanphi.com/single-post/2018/12/22/Metacognition-et-Marketing-Relationnel](__MASK_35__)
+[https://www.jeanphi.com/single-post/2018/12/22/Metacognition-et-Marketing-Relationnel](https://www.jeanphi.com/single-post/2018/12/22/Metacognition-et-Marketing-Relationnel)
 
 ## Comment Devenir Guérisseur – Marketing Naturel
 
-[https://www.marketingnaturel.com/comment-devenir-guerisseur/?fbclid=IwAR3JriLt_lRWVsZ_dvVAcuRLXczHLdFzuvC7isERqbvfkhbBGShsAUyGUiQ](__MASK_36__)
+[https://www.marketingnaturel.com/comment-devenir-guerisseur/?fbclid=IwAR3JriLt_lRWVsZ_dvVAcuRLXczHLdFzuvC7isERqbvfkhbBGShsAUyGUiQ](https://www.marketingnaturel.com/comment-devenir-guerisseur/?fbclid=IwAR3JriLt_lRWVsZ_dvVAcuRLXczHLdFzuvC7isERqbvfkhbBGShsAUyGUiQ)
 
 Vous vendez une formation pour apprendre à utiliser Excel ? Un guide sur la fiscalité d’entreprise ? Un cours d’allemand ou de référencement ?
 
@@ -1030,13 +1031,13 @@ Sur internet, vous pouvez par exemple afficher votre bannière publicitaire uniq
 
 Ce genre d'options de ciblage sera probablement possible avec la publicité imprimée dans les journaux papiers, à la radio, à la télévision, mais pas avec autant de précision dans la segmentation, et pas avec un retour d'information aussi rapide : Sur internet, même si le suivi des métriques peut être un peu casse-tête sur mobile, au moins il se fait en temps réel, et on peut directement mesure l'impact de nos campagnes et prendre des mesures correctrices si les résultats ne sont pas au rendez-vous, ou bien augmenter le budget si on rencontre un succès fou.
 
-### Étape 1 : Respecter les Fondamentaux du Marketing
+### Etape 1 : Respecter les Fondamentaux du Marketing
 
 Avant toute chose, si vous voulez réussir votre stratégie marketing, digitale ou pas, vous devrez impérativement obéir aux lois basiques du marketing et de l'économie de marché :
 
 * La qualité et le market-fit
 
-Sans un produit/service de qualité qui répond aux besoins des clients, peu d'espoir que le marketing réussisse. Compenser un mauvais produit par un marketing bourrin ne fonctionnera pas à long terme et cela déservira vos clients (et donc votre entreprise). La qualité des offres et l'adéquation aux besoins du marché sont la LOI NUMÉRO 1 pour faire décoller un business. Ca créer des expériences positives qui encourage la fidélisation et le bouche à oreille approbateur, et pour vous, c'est beaucoup plus gratifiant d'être fier de ce que l'on vend en sachant qu'on sert le monde dans le bon sens.
+Sans un produit/service de qualité qui répond aux besoins des clients, peu d'espoir que le marketing réussisse. Compenser un mauvais produit par un marketing bourrin ne fonctionnera pas à long terme et cela déservira vos clients (et donc votre entreprise). La qualité des offres et l'adéquation aux besoins du marché sont la LOI NUMERO 1 pour faire décoller un business. Ca créer des expériences positives qui encourage la fidélisation et le bouche à oreille approbateur, et pour vous, c'est beaucoup plus gratifiant d'être fier de ce que l'on vend en sachant qu'on sert le monde dans le bon sens.
 
 On ne peut pas se sentir bien avec soi-même quand on vend des produits ou un service médiocre, et ça affecte tous les domaines de vie alors autant pour nous, que pour notre business, que pour nos clients, faisons le choix de l'honnêteté et la qualité c'est le seul choix viable.
 
@@ -1192,7 +1193,7 @@ Parfois, les explications les plus simples sont aussi les meilleures, et l'Inbou
 
 Vos clients **ne veulent plus être dérangés ou interrompus constamment par des publicités envahissantes**, et si le marketing « traditionnel » n'est pas mort pour les entreprises ayant suffisamment de moyens pour **l'utiliser intelligemment**, l'inbound regroupe toutes les tactiques devant permettre à vos clients potentiels de **vous trouver lorsqu'ils ont besoin de vos produits/services**.
 
-Être présent à ce moment-là s'avère beaucoup plus efficace qu'un matraquage qui peut même, dans certains cas, se montrer contre-productif.
+Etre présent à ce moment-là s'avère beaucoup plus efficace qu'un matraquage qui peut même, dans certains cas, se montrer contre-productif.
 
 L'Inbound repose sur une approche systématique visant à **transformer des visiteurs anonymes** se renseignant sur votre domaine de compétences en leads, puis à [**les « faire grandir »**](https://www.inboundvalue.com/blog/lead-nurturing-definition) (le fameux « nurturing » dans la langue de Shakespeare) jusqu'à ce qu'ils deviennent vos clients, pour **finir par les fidéliser**.
 

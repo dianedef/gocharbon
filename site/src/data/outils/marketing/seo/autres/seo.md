@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -126,7 +126,7 @@ il fallait des années des générations pour en construire
 
 c'est du long terme (24 mois ex)
 
-quel est le plan éditorial
+quel est le plan editorial
 
 # partie 1 l'achat
 
@@ -336,7 +336,7 @@ Les serveurs : Ils se nomment ainsi car exactement comme au restaurant, vous leu
 
 En détails :
 
-Pour accéder à un site web, vous rentrez l’adresse d’un site web (dont le nom savant est URL pour Uniform Resource Locator) dans votre navigateur. Par exemple, vous êtes actuellement sur l'URL : [https://openclassrooms.com/fr/courses/5489551-creez-un-site-moderne-et-professionnel-avec-wordpress/5804091-initiez-vous-au-fonctionnement-d-un-site-web](__MASK_15__)
+Pour accéder à un site web, vous rentrez l’adresse d’un site web (dont le nom savant est URL pour Uniform Resource Locator) dans votre navigateur. Par exemple, vous êtes actuellement sur l'URL : [https://openclassrooms.com/fr/courses/5489551-creez-un-site-moderne-et-professionnel-avec-wordpress/5804091-initiez-vous-au-fonctionnement-d-un-site-web](https://openclassrooms.com/fr/courses/5489551-creez-un-site-moderne-et-professionnel-avec-wordpress/5804091-initiez-vous-au-fonctionnement-d-un-site-web)
 
 On peut décomposer l’URL en plusieurs parties : “HTTP”, c’est le nom du protocole de communication entre le client et le serveur, ici : Hypertext Transfer Protocol, c’est le protocole le plus utilisé permettant d’afficher des pages web (c’est-à-dire de l’hyper text : du texte et des liens vers d’autres pages web). Il en existe d’autres pour d’autres usages, comme FTP (pour File Transfer Protocol) que vous connaissez peut-être et servant lui à transférer… des fichiers bien sûr ! 
 

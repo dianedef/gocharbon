@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -7,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Logiciels De Growth Hacking Qui Vont Faire Exploser Votre Startup
 author: Diane
-description: "Les Logiciels De Growth Hacking Qui Vont Faire Exploser Votre Startup."
+description: 'Découvre Les Logiciels De Growth Hacking Qui Vont Faire Exploser Votre
+  Startup : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

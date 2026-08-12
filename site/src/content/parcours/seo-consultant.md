@@ -16,12 +16,12 @@ Piloter stratégie SEO orientée business (trafic qualifié + pipeline).
 - Ton plus : tu aides vraiment les gens à obtenir un résultat concret.
 
 ## Idées d'offres à tester
-1. Audit technique + éditorial
+1. Audit technique + editorial
 2. plan d'action SEO 90 jours
 3. Retainer exécution + reporting
 
 ## Ton plan simple sur 7 jours
-1. Jour 1 : rends "Audit technique + éditorial" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
+1. Jour 1 : rends "Audit technique + editorial" en offre claire (pour qui, ce que tu fais, et pourquoi on peut te faire confiance).
 2. Jours 2-4 : utilise ton canal principal (Audits mini gratuits + études de cas croissance organique.) pour proposer "plan d'action SEO 90 jours" à tes premiers clients et noter leurs retours.
 3. Jours 5-7 : continue avec "Retainer exécution + reporting", puis suis positions mots-clés business et sessions organiques qualifiées, puis ajuste petit à petit.
 
@@ -44,7 +44,7 @@ Piloter stratégie SEO orientée business (trafic qualifié + pipeline).
 - [Fiche profil Seo Consultant](/biz/profils/seo-consultant)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/consultant-seo)
+- [Suivi du parcours](/parcours/seo-consultant)
 - [Ressource utile 1](/seo/fondamentaux/bases-seo)
 - [Ressource utile 2](/tutos/comment-se-classer-en-premier-sur-google)
 - [Ressource utile 3](/tutos/trouver-les-mots-clefs-de-ses-concurrents)

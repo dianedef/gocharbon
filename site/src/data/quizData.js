@@ -17,7 +17,7 @@ export const quizData = {
         {
           text: "J'ai déjà vendu en ligne",
           icon: "💸",
-          points: { ecommerce: 3, service: 2, formation: 1 },
+          points: { ecommerce: 2, service: 2, livecommerce: 1, formation: 1 },
         },
         {
           text: "J'ai déjà un système qui tourne",
@@ -33,7 +33,7 @@ export const quizData = {
         {
           text: "Vente, persuasion, relation client",
           icon: "🤝",
-          points: { service: 4, ecommerce: 2, formation: 1 },
+          points: { service: 3, livecommerce: 2, ecommerce: 2, formation: 1 },
         },
         {
           text: "Code, no-code, automatisation",
@@ -43,7 +43,7 @@ export const quizData = {
         {
           text: "Création de contenu, storytelling",
           icon: "🎬",
-          points: { content: 4, formation: 1, ecommerce: 1 },
+          points: { content: 3, livecommerce: 1, formation: 1, ecommerce: 1 },
         },
         {
           text: "Pédagogie, structuration de savoir",
@@ -59,7 +59,7 @@ export const quizData = {
         {
           text: "Oui, une passion forte (musique, sport, cuisine, etc.)",
           icon: "🔥",
-          points: { content: 4, formation: 2, ecommerce: 1 },
+          points: { content: 3, formation: 2, livecommerce: 1, ecommerce: 1 },
         },
         {
           text: "Oui, un talent créatif (musique, dessin, vidéo, écriture)",
@@ -74,7 +74,7 @@ export const quizData = {
         {
           text: "Pas vraiment, je préfère partir d'une opportunité de marché",
           icon: "📊",
-          points: { ecommerce: 3, saas: 2, service: 1 },
+          points: { ecommerce: 2, saas: 2, livecommerce: 1, service: 1 },
         },
       ],
     },
@@ -100,7 +100,7 @@ export const quizData = {
         {
           text: "Non, je veux construire une compétence à partir de zéro",
           icon: "🌱",
-          points: { content: 2, saas: 1, ecommerce: 2, formation: 1 },
+          points: { content: 2, livecommerce: 1, saas: 1, ecommerce: 1, formation: 1 },
         },
       ],
     },
@@ -111,12 +111,12 @@ export const quizData = {
         {
           text: "0€ à 100€",
           icon: "🪙",
-          points: { content: 3, service: 2, formation: 1 },
+          points: { content: 2, service: 2, livecommerce: 2, formation: 1 },
         },
         {
           text: "100€ à 500€",
           icon: "💶",
-          points: { service: 2, formation: 2, ecommerce: 1, content: 1 },
+          points: { service: 2, formation: 2, livecommerce: 1, ecommerce: 1 },
         },
         {
           text: "500€ à 2 000€",
@@ -142,12 +142,12 @@ export const quizData = {
         {
           text: "10 à 15h",
           icon: "📅",
-          points: { service: 2, content: 3, formation: 1 },
+          points: { service: 2, content: 2, livecommerce: 1, formation: 1 },
         },
         {
           text: "20 à 30h",
           icon: "🚀",
-          points: { ecommerce: 3, service: 2, saas: 1 },
+          points: { ecommerce: 2, service: 2, livecommerce: 2, saas: 1 },
         },
         {
           text: "Temps plein",
@@ -163,7 +163,7 @@ export const quizData = {
         {
           text: "Débutant",
           icon: "🇫🇷",
-          points: { service: 2, formation: 2, ecommerce: 1 },
+          points: { service: 2, formation: 2, livecommerce: 1, ecommerce: 1 },
         },
         {
           text: "Intermédiaire",
@@ -194,7 +194,7 @@ export const quizData = {
         {
           text: "Mesuré, je teste petit puis j'accélère",
           icon: "📊",
-          points: { ecommerce: 2, content: 3, service: 1 },
+          points: { ecommerce: 2, content: 2, livecommerce: 1, service: 1 },
         },
         {
           text: "Agressif, je peux investir fort",
@@ -220,7 +220,7 @@ export const quizData = {
         {
           text: "Avec des clients en direct",
           icon: "👥",
-          points: { service: 4, formation: 1 },
+          points: { service: 3, livecommerce: 2, formation: 1 },
         },
         {
           text: "Autour d'un produit structuré",
@@ -230,7 +230,7 @@ export const quizData = {
         {
           text: "En construisant une audience",
           icon: "📣",
-          points: { content: 4, formation: 2 },
+          points: { content: 3, livecommerce: 1, formation: 2 },
         },
       ],
     },
@@ -241,12 +241,12 @@ export const quizData = {
         {
           text: "Moins de 3 mois",
           icon: "🏁",
-          points: { service: 4, ecommerce: 1 },
+          points: { service: 3, livecommerce: 2, ecommerce: 1 },
         },
         {
           text: "3 à 6 mois",
           icon: "📌",
-          points: { ecommerce: 2, service: 2, content: 1 },
+          points: { ecommerce: 2, service: 2, livecommerce: 1, content: 1 },
         },
         {
           text: "6 à 12 mois",
@@ -282,7 +282,7 @@ export const quizData = {
         {
           text: "Construire une marque visible",
           icon: "🔥",
-          points: { content: 4, ecommerce: 1, formation: 1 },
+          points: { content: 3, livecommerce: 2, ecommerce: 1, formation: 1 },
         },
       ],
     },
@@ -303,12 +303,12 @@ export const quizData = {
         {
           text: "Vente de produits (physiques ou digitaux)",
           icon: "🛍️",
-          points: { ecommerce: 4, formation: 1 },
+          points: { ecommerce: 3, livecommerce: 2, formation: 1 },
         },
         {
           text: "Revenus mixtes et diversifiés",
           icon: "🧩",
-          points: { content: 3, formation: 2, ecommerce: 1 },
+          points: { content: 2, formation: 2, livecommerce: 1, ecommerce: 1 },
         },
       ],
     },
@@ -319,12 +319,12 @@ export const quizData = {
         {
           text: "Faible, je veux du simple",
           icon: "🙂",
-          points: { service: 2, formation: 2, content: 2 },
+          points: { service: 2, formation: 2, livecommerce: 2, content: 1 },
         },
         {
           text: "Correct avec des outils no-code",
           icon: "🧰",
-          points: { ecommerce: 2, content: 3, formation: 1 },
+          points: { ecommerce: 2, content: 2, livecommerce: 1, formation: 1 },
         },
         {
           text: "Bon, je peux gérer des stacks complètes",
@@ -345,7 +345,7 @@ export const quizData = {
         {
           text: "Négocier et convaincre",
           icon: "🗣️",
-          points: { service: 4, ecommerce: 2 },
+          points: { service: 3, livecommerce: 2, ecommerce: 2 },
         },
         {
           text: "Créer des systèmes et optimiser",
@@ -355,7 +355,7 @@ export const quizData = {
         {
           text: "Publier, expliquer, raconter",
           icon: "🎥",
-          points: { content: 4, formation: 1 },
+          points: { content: 3, livecommerce: 2, formation: 1 },
         },
         {
           text: "Former et faire progresser les autres",
@@ -376,7 +376,7 @@ export const quizData = {
         {
           text: "Manque de budget",
           icon: "💳",
-          points: { service: 2, content: 3, formation: 1 },
+          points: { service: 2, content: 2, livecommerce: 1, formation: 1 },
         },
         {
           text: "Manque de clarté stratégique",
@@ -386,7 +386,7 @@ export const quizData = {
         {
           text: "Manque de compétences techniques",
           icon: "🔧",
-          points: { service: 2, formation: 2, content: 2 },
+          points: { service: 2, livecommerce: 1, formation: 2, content: 1 },
         },
       ],
     },
@@ -407,7 +407,7 @@ export const quizData = {
         {
           text: "Développer une marque personnelle forte",
           icon: "⭐",
-          points: { content: 4, formation: 2 },
+          points: { content: 3, livecommerce: 2, formation: 2 },
         },
         {
           text: "Construire une machine de vente",
@@ -450,7 +450,7 @@ export const quizData = {
         {
           text: "J'adore, je parle à tout le monde",
           icon: "🎉",
-          points: { service: 4, content: 1, formation: 1 },
+          points: { livecommerce: 3, service: 3, formation: 1 },
         },
         {
           text: "Je préfère les conversations profondes en petit comité",
@@ -476,12 +476,12 @@ export const quizData = {
         {
           text: "Ta capacité à convaincre et embarquer les gens",
           icon: "🎤",
-          points: { service: 4, ecommerce: 1, formation: 1 },
+          points: { livecommerce: 3, service: 3, formation: 1 },
         },
         {
           text: "Ta créativité et ton originalité",
           icon: "🎨",
-          points: { content: 4, ecommerce: 1 },
+          points: { content: 3, livecommerce: 1, ecommerce: 1 },
         },
         {
           text: "Ta rigueur et ton sens de l'organisation",
@@ -507,7 +507,7 @@ export const quizData = {
         {
           text: "Ne pas avoir assez de visibilité pour mes idées",
           icon: "👁️",
-          points: { content: 4, formation: 1 },
+          points: { content: 3, livecommerce: 1, formation: 1 },
         },
         {
           text: "Travailler sur des projets qui ne m'appartiennent pas",
@@ -528,22 +528,22 @@ export const quizData = {
         {
           text: "Je scrolle des vidéos / contenus inspirants",
           icon: "📱",
-          points: { content: 4, formation: 1 },
+          points: { content: 3, livecommerce: 1, formation: 1 },
         },
         {
-          text: "Je bidouille des outils, j'explore des outils",
+          text: "Je bidouille des outils, j'explore des apps",
           icon: "🔧",
           points: { saas: 3, ecommerce: 1 },
         },
         {
           text: "Je discute avec des gens, j'aide quelqu'un",
           icon: "☕",
-          points: { service: 4, formation: 2 },
+          points: { service: 3, livecommerce: 2, formation: 2 },
         },
         {
           text: "Je fais du shopping en ligne, je compare des produits",
           icon: "🛍️",
-          points: { ecommerce: 4, content: 1 },
+          points: { ecommerce: 3, livecommerce: 1, content: 1 },
         },
       ],
     },
@@ -559,7 +559,7 @@ export const quizData = {
         {
           text: "Créatif : tu as les idées et les angles",
           icon: "💡",
-          points: { content: 4, ecommerce: 1 },
+          points: { content: 3, livecommerce: 1, ecommerce: 1 },
         },
         {
           text: "Expert : on te consulte pour ton savoir",
@@ -585,12 +585,12 @@ export const quizData = {
         {
           text: "J'en parle autour de moi pour avoir des retours",
           icon: "🗣️",
-          points: { service: 2, formation: 2, content: 2 },
+          points: { service: 2, formation: 2, livecommerce: 1, content: 1 },
         },
         {
           text: "Je pivote vite vers autre chose",
           icon: "🔀",
-          points: { content: 2, ecommerce: 3, service: 1 },
+          points: { content: 2, ecommerce: 2, livecommerce: 1, service: 1 },
         },
         {
           text: "Je persévère, j'ai confiance dans ma vision long terme",
@@ -606,7 +606,7 @@ export const quizData = {
         {
           text: "Créer du contenu et raconter des histoires",
           icon: "🎬",
-          points: { content: 4, formation: 1 },
+          points: { content: 3, livecommerce: 1, formation: 1 },
         },
         {
           text: "Construire des systèmes et résoudre des problèmes",
@@ -621,7 +621,7 @@ export const quizData = {
         {
           text: "Monter des projets et lancer des trucs",
           icon: "🚀",
-          points: { ecommerce: 3, service: 2, saas: 1 },
+          points: { ecommerce: 2, service: 2, livecommerce: 1, saas: 1 },
         },
       ],
     },
@@ -647,7 +647,7 @@ export const quizData = {
         {
           text: "Être impatient, toujours vouloir avancer",
           icon: "⏩",
-          points: { ecommerce: 3, service: 2, saas: 1 },
+          points: { ecommerce: 2, livecommerce: 1, service: 2, saas: 1 },
         },
       ],
     },
@@ -696,14 +696,13 @@ export const quizData = {
       title: "Services en Ligne (Freelance / Agence)",
       icon: "🎯",
       description:
-        "Ton profil est orienté exécution et résultats rapides. Le service est le meilleur choix pour générer du cash-flow rapidement à partir de compétences existantes. Si tu veux une porte d'entrée plus légère, les tests utilisateurs rémunérés peuvent aussi être une bonne première marche.",
+        "Ton profil est orienté exécution et résultats rapides. Le service est le meilleur choix pour générer du cash-flow rapidement à partir de compétences existantes.",
       strengths: [
         "Monétisation rapide sans gros capital initial",
         "Validation directe de ton positionnement sur le marché",
         "Montée en gamme possible via offres premium",
         "Fort contrôle de ta relation client et de ton pricing",
         "Base solide pour évoluer ensuite vers formation ou produit",
-        "Alternative plus simple possible avec le crowdtesting si tu veux commencer petit",
       ],
     },
     formation: {
@@ -717,6 +716,20 @@ export const quizData = {
         "Possibilité de mixer formation, coaching et communauté",
         "Scalabilité progressive avec des formats digitaux",
         "Création d'un actif pédagogique durable",
+      ],
+    },
+    livecommerce: {
+      title: "Live Commerce / Vente en Direct",
+      icon: "🎬",
+      description:
+        "Tu as un profil de showman et de vendeur né. Le live commerce, c'est vendre face caméra en direct — enchères, présentations produit, interaction avec le chat. C'est le canal e-commerce qui explose le plus en France (+427% en un an) et qui convertit 3 à 5x mieux qu'une boutique classique.",
+      strengths: [
+        "Démarrage ultra-rapide : un smartphone, un stock, c'est parti (50-100€)",
+        "Taux de conversion 3 à 5x supérieurs au e-commerce classique",
+        "Ta personnalité sociale et ton énergie sont ton avantage compétitif",
+        "Communauté fidèle : tes fans reviennent à chaque live",
+        "Coût d'acquisition client quasi nul (organique, pas de pubs)",
+        "Marché en explosion : $22 Mds en Europe+NA, +888% de vendeurs en France",
       ],
     },
   },

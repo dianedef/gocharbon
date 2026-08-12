@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Inbound Vs Outbound La Stratégie D'Acquisition Clients Qui Va Vous Rendre Riche
 author: Diane
-description: "Inbound Vs Outbound La Stratégie D'Acquisition Clients Qui Va Vous Rendre Riche."
+description: 'Découvre Inbound Vs Outbound La Stratégie D''Acquisition Clients Qui
+  Va Vous Rendre Riche : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

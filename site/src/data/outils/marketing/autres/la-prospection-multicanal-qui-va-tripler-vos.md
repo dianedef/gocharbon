@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: La Prospection Multicanal Qui Va Tripler Vos Résultats La Méthode Secrète Dévoilée
 author: Diane
-description: "La Prospection Multicanal Qui Va Tripler Vos Résultats La Méthode Secrète Dévoilée."
+description: 'Découvre La Prospection Multicanal Qui Va Tripler Vos Résultats La Méthode
+  Secrète Dévoilée : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

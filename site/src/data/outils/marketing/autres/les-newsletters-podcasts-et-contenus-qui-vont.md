@@ -1,14 +1,13 @@
 ---
-section: outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: email
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Les Newsletters, Podcasts Et Contenus Qui Vont Faire De Vous Le Prochain Elon
   Musk
 author: Diane
-description: "Les Newsletters, Podcasts Et Contenus Qui Vont Faire De Vous Le Prochain Elon Musk."
+description: 'Découvre Les Newsletters, Podcasts Et Contenus Qui Vont Faire De Vous
+  Le Prochain Elon Musk : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

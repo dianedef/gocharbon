@@ -1,15 +1,14 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: no-code
 imageNameKey: null
 u_site: null
 title: No Code Créez Une App Qui Vaut Des Millions Sans Écrire Une Ligne De Code
 author: Diane
-description: "No Code Créez Une App Qui Vaut Des Millions Sans Écrire Une Ligne De Code."
+description: 'Découvre No Code Créez Une App Qui Vaut Des Millions Sans Écrire Une
+  Ligne De Code : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

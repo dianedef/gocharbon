@@ -15,7 +15,7 @@ Tu veux construire un site complexe, multi-langue, avec des permissions granulai
 
 ## C'est Quoi Drupal ?
 
-Drupal est un CMS (Content Management System) open source cree en 2001 par Dries Buytaert, un etudiant belge de l'université d'Anvers. A l'origine, c'etait un petit forum interne qui a evolue en l'un des CMS les plus robustes du marche.
+Drupal est un CMS (Content Management System) open source cree en 2001 par Dries Buytaert, un etudiant belge de l'universite d'Anvers. A l'origine, c'etait un petit forum interne qui a evolue en l'un des CMS les plus robustes du marche.
 
 **Les chiffres qui comptent :**
 
@@ -30,18 +30,18 @@ Drupal est un CMS (Content Management System) open source cree en 2001 par Dries
 
 ## L'Histoire de Drupal : De Dorm Room a Enterprise
 
-| Annee | Événement |
+| Annee | Evenement |
 |-------|-----------|
 | 2001 | Dries Buytaert lance Drupal 1.0 (le nom vient du neerlandais "druppel", goutte d'eau) |
-| 2003 | Drupal 4.0 : premier vrai système de taxonomie et de permissions |
+| 2003 | Drupal 4.0 : premier vrai systeme de taxonomie et de permissions |
 | 2007 | Drupal 5.0 : interface d'administration repensee, debut de l'adoption enterprise |
-| 2011 | Drupal 7 : version la plus adoptee de l'histoire, encore utilisée aujourd'hui |
+| 2011 | Drupal 7 : version la plus adoptee de l'histoire, encore utilisee aujourd'hui |
 | 2015 | Drupal 8 : revolution technique (Symfony, Twig, POO, configuration management) |
 | 2020 | Drupal 9 : evolution douce de D8, suppression du code deprecie |
 | 2023 | Drupal 10 : PHP 8.1+, Symfony 6, CKEditor 5, design admin modernise |
 | 2025 | Drupal 11 : PHP 8.3+, composants Recipes/Distributions, Drupal Starshot |
 
-**Le tournant Drupal 8 :** Avant 2015, Drupal avait son propre écosystème technique. Avec Drupal 8, le projet a integre des composants Symfony, le moteur de templates Twig, et l'injection de dependances. Ca a rendu Drupal plus standard (un dev PHP peut s'y retrouver), mais aussi plus exigeant techniquement.
+**Le tournant Drupal 8 :** Avant 2015, Drupal avait son propre ecosysteme technique. Avec Drupal 8, le projet a integre des composants Symfony, le moteur de templates Twig, et l'injection de dependances. Ca a rendu Drupal plus standard (un dev PHP peut s'y retrouver), mais aussi plus exigeant techniquement.
 
 ## Architecture : Comment Drupal Fonctionne
 
@@ -49,9 +49,9 @@ Drupal est un CMS (Content Management System) open source cree en 2001 par Dries
 
 Drupal fonctionne sur un noyau modulaire qui fournit les briques de base :
 
-- **Système de noeuds (Nodes)** : tout contenu est un "noeud" avec un type (article, page, produit...)
-- **Taxonomie** : système de classification ultra-flexible (vocabulaires + termes)
-- **Système de blocs** : zones de contenu reutilisables, positionnables dans des regions
+- **Systeme de noeuds (Nodes)** : tout contenu est un "noeud" avec un type (article, page, produit...)
+- **Taxonomie** : systeme de classification ultra-flexible (vocabulaires + termes)
+- **Systeme de blocs** : zones de contenu reutilisables, positionnables dans des regions
 - **Vues (Views)** : requetes visuelles pour afficher du contenu filtre et trie
 - **Champs (Fields API)** : tu ajoutes n'importe quel type de champ a n'importe quel type de contenu
 
@@ -60,8 +60,8 @@ Drupal fonctionne sur un noyau modulaire qui fournit les briques de base :
 C'est la vraie force de Drupal. Chaque fonctionnalite est un module independant :
 
 **Modules du noyau (Core)** - inclus de base :
-- **Views** : création de listes, tableaux, grilles de contenu sans code
-- **Media** : gestion centralisee des fichiers, images, vidéos
+- **Views** : creation de listes, tableaux, grilles de contenu sans code
+- **Media** : gestion centralisee des fichiers, images, videos
 - **Layout Builder** : editeur visuel de mise en page
 - **JSON:API** : API REST automatique pour du headless
 
@@ -75,7 +75,7 @@ C'est la vraie force de Drupal. Chaque fonctionnalite est un module independant 
 
 ### Les Themes
 
-Le système de theming Drupal repose sur **Twig** (moteur de templates Symfony) :
+Le systeme de theming Drupal repose sur **Twig** (moteur de templates Symfony) :
 
 ```twig
 {# templates/node--article.html.twig #}
@@ -96,9 +96,9 @@ Le système de theming Drupal repose sur **Twig** (moteur de templates Symfony) 
 - **Bootstrap** : integration du framework CSS Bootstrap
 - **Radix** : base theme pour des projets custom
 
-### Le Système de Hooks
+### Le Systeme de Hooks
 
-Les hooks sont le mecanisme central d'extensibilite de Drupal. Ils permettent a un module d'intervenir a des points précis du cycle de traitement :
+Les hooks sont le mecanisme central d'extensibilite de Drupal. Ils permettent a un module d'intervenir a des points precis du cycle de traitement :
 
 ```php
 // mon_module.module
@@ -130,11 +130,11 @@ function mon_module_node_insert($node) {
 | **Courbe d'apprentissage** | Raide | Douce | Moyenne |
 | **Flexibilite** | Extreme | Bonne (via plugins) | Bonne |
 | **Performance de base** | Moyenne | Moyenne | Moyenne |
-| **Sécurité** | Excellente | Correcte (cible No.1) | Bonne |
+| **Securite** | Excellente | Correcte (cible No.1) | Bonne |
 | **Multi-langue natif** | Oui (core) | Non (plugins) | Oui (core) |
 | **Permissions** | Granulaires | Basiques | Moyennes |
-| **Coût dev** | 80-200 EUR/h | 40-100 EUR/h | 50-120 EUR/h |
-| **Coût maintenance** | Eleve | Faible | Moyen |
+| **Cout dev** | 80-200 EUR/h | 40-100 EUR/h | 50-120 EUR/h |
+| **Cout maintenance** | Eleve | Faible | Moyen |
 | **Ideal pour** | Sites complexes, enterprise | Blogs, PME, vitrine | Sites communautaires |
 
 **Quand choisir Drupal plutot que WordPress :**
@@ -143,14 +143,14 @@ function mon_module_node_insert($node) {
 2. Tu geres du **contenu multi-langue** a grande echelle (10+ langues)
 3. Tu as des **permissions granulaires** (editeur qui ne voit que sa section, validateur, moderateur...)
 4. Tu construis une **plateforme** plus qu'un site (intranet, portail, marketplace de contenu)
-5. La **sécurité** est critique (santé, finance, gouvernement)
+5. La **securite** est critique (sante, finance, gouvernement)
 
 **Quand NE PAS choisir Drupal :**
 
 1. Tu veux un blog ou un site vitrine simple (WordPress fait ca 10x plus vite)
 2. Tu n'as pas de budget developpeur (Drupal sans dev = galere)
-3. Tu veux installer des plugins en 2 clics (l'écosystème est plus technique)
-4. Tu es seul a gerer le site (la maintenance Drupal demande des compétences)
+3. Tu veux installer des plugins en 2 clics (l'ecosysteme est plus technique)
+4. Tu es seul a gerer le site (la maintenance Drupal demande des competences)
 
 ## Cas d'Usage Concrets
 
@@ -158,27 +158,27 @@ function mon_module_node_insert($node) {
 
 Drupal est le CMS de reference pour le secteur public :
 
-- **whitehouse.gov** (ancienne version) : multi-langue, accessibilite WCAG, haute sécurité
-- **Commission Europeenne** : 24 langues, milliers de pages, workflow éditorial complexe
-- **Gouvernement français** : plusieurs sites ministeriels utilisent Drupal
+- **whitehouse.gov** (ancienne version) : multi-langue, accessibilite WCAG, haute securite
+- **Commission Europeenne** : 24 langues, milliers de pages, workflow editorial complexe
+- **Gouvernement francais** : plusieurs sites ministeriels utilisent Drupal
 - **NASA** : portail de donnees scientifiques ouvertes
 
-**Pourquoi ?** Les gouvernements ont des exigences strictes en accessibilite (RGAA/WCAG), sécurité (certifications), et multi-langue que Drupal gere nativement.
+**Pourquoi ?** Les gouvernements ont des exigences strictes en accessibilite (RGAA/WCAG), securite (certifications), et multi-langue que Drupal gere nativement.
 
 ### Universites et Education
 
 - **Harvard, MIT, Stanford** : portails etudiants, catalogues de cours, sites de recherche
-- **Oxford University** : réseau de sites departementaux interconnectes
+- **Oxford University** : reseau de sites departementaux interconnectes
 
-**Pourquoi ?** Les universites ont des dizaines de departements avec chacun leurs besoins, mais une identité visuelle commune. Drupal permet cette federation de contenus.
+**Pourquoi ?** Les universites ont des dizaines de departements avec chacun leurs besoins, mais une identite visuelle commune. Drupal permet cette federation de contenus.
 
 ### Medias et Edition
 
-- **The Economist** : site éditorial haute performance
+- **The Economist** : site editorial haute performance
 - **NBC, MTV** : gestion de contenus multimedias volumineux
 - **France 24** : multi-langue natif pour un media international
 
-**Pourquoi ?** Gestion de workflows éditoriaux complexes (brouillon -> relecture -> validation -> publication) et API headless pour distribuer le contenu sur plusieurs canaux.
+**Pourquoi ?** Gestion de workflows editoriaux complexes (brouillon -> relecture -> validation -> publication) et API headless pour distribuer le contenu sur plusieurs canaux.
 
 ### E-commerce (Drupal Commerce)
 
@@ -191,9 +191,9 @@ Drupal Commerce n'est pas WooCommerce. C'est une solution pour l'e-commerce sur 
 
 ## Les Avantages de Drupal
 
-**1. Sécurité de niveau enterprise**
+**1. Securite de niveau enterprise**
 
-Drupal a une équipe de sécurité dediee qui publie des correctifs rapidement. Le CMS a une reputation solide : moins de failles critiques que WordPress (qui est 30x plus cible). Chaque module contrib est revise par la communauté avant publication.
+Drupal a une equipe de securite dediee qui publie des correctifs rapidement. Le CMS a une reputation solide : moins de failles critiques que WordPress (qui est 30x plus cible). Chaque module contrib est revise par la communaute avant publication.
 
 **2. Multi-langue natif**
 
@@ -205,7 +205,7 @@ Pas besoin de plugin tiers. Drupal gere nativement :
 
 **3. Taxonomie ultra-flexible**
 
-Tu peux creer autant de vocabulaires que tu veux, les imbriquer, les referencer entre eux. C'est la base pour construire des architectures de contenu complexes (portails thématiques, knowledge bases, catalogues).
+Tu peux creer autant de vocabulaires que tu veux, les imbriquer, les referencer entre eux. C'est la base pour construire des architectures de contenu complexes (portails thematiques, knowledge bases, catalogues).
 
 **4. API-first**
 
@@ -219,15 +219,15 @@ Tu definis des roles (editeur, moderateur, administrateur, contributeur regional
 
 **1. Courbe d'apprentissage brutale**
 
-Drupal n'est pas intuitif. Un debutant va se noyer dans les concepts (noeuds, taxonomies, vues, blocs, regions, modules, permissions). Même pour un dev PHP, il faut 2-3 mois pour être productif.
+Drupal n'est pas intuitif. Un debutant va se noyer dans les concepts (noeuds, taxonomies, vues, blocs, regions, modules, permissions). Meme pour un dev PHP, il faut 2-3 mois pour etre productif.
 
-**2. Coût de developpement eleve**
+**2. Cout de developpement eleve**
 
-Un site Drupal coûte en moyenne **2x a 5x plus cher** qu'un site WordPress equivalent. Les developpeurs Drupal sont plus rares et plus chers (80-200 EUR/h contre 40-100 EUR pour WordPress).
+Un site Drupal coute en moyenne **2x a 5x plus cher** qu'un site WordPress equivalent. Les developpeurs Drupal sont plus rares et plus chers (80-200 EUR/h contre 40-100 EUR pour WordPress).
 
 **3. Mises a jour parfois penibles**
 
-Les montees de version majeures (7 -> 8 par exemple) etaient historiquement des migrations complètes. Depuis Drupal 9, c'est mieux (evolution continue), mais les mises a jour de modules contrib peuvent casser des choses.
+Les montees de version majeures (7 -> 8 par exemple) etaient historiquement des migrations completes. Depuis Drupal 9, c'est mieux (evolution continue), mais les mises a jour de modules contrib peuvent casser des choses.
 
 **4. Moins de themes et plugins**
 
@@ -253,17 +253,17 @@ Drupal consomme plus de ressources qu'un WordPress de base. Il faut un serveur a
 **Drupal 11** (sorti fin 2024) pousse encore plus loin :
 
 - **PHP 8.3+** minimum
-- **Recipes** : système de configuration pre-faite (comme des starters WordPress, mais plus puissants)
-- **Distributions** modernisees : installation en un clic de configurations complètes
-- **Expérience Builder** : editeur visuel WYSIWYG ambitieux (en cours de developpement)
+- **Recipes** : systeme de configuration pre-faite (comme des starters WordPress, mais plus puissants)
+- **Distributions** modernisees : installation en un clic de configurations completes
+- **Experience Builder** : editeur visuel WYSIWYG ambitieux (en cours de developpement)
 
-**Drupal Starshot** est l'initiative de Dries Buytaert pour rendre Drupal accessible aux non-developpeurs. L'idée : proposer un produit "prêt a l'emploi" au-dessus du framework Drupal, avec une interface d'administration simplifiee. C'est la réponse directe a la critique "Drupal est trop complique".
+**Drupal Starshot** est l'initiative de Dries Buytaert pour rendre Drupal accessible aux non-developpeurs. L'idee : proposer un produit "pret a l'emploi" au-dessus du framework Drupal, avec une interface d'administration simplifiee. C'est la reponse directe a la critique "Drupal est trop complique".
 
-## L'Écosystème Drupal
+## L'Ecosysteme Drupal
 
 ### Hebergement Specialise
 
-- **Acquia** (fonde par Dries Buytaert lui-même) : plateforme cloud dediee Drupal, CI/CD integre
+- **Acquia** (fonde par Dries Buytaert lui-meme) : plateforme cloud dediee Drupal, CI/CD integre
 - **Pantheon** : hebergement optimise Drupal et WordPress
 - **Platform.sh** : PaaS avec support Drupal natif
 - **Amazee.io / Lagoon** : hebergement open source base sur Kubernetes
@@ -275,7 +275,7 @@ Drupal consomme plus de ressources qu'un WordPress de base. Il faut un serveur a
 - **DDEV** : environnement de developpement local Docker
 - **Lando** : alternative DDEV populaire
 
-### La Communauté
+### La Communaute
 
 - **DrupalCon** : conference annuelle (Europe + Amerique du Nord), 2 000-3 000 participants
 - **Drupal.org** : plateforme centrale (issues, modules, documentation)
@@ -324,15 +324,15 @@ composer require drupal/admin_toolbar drupal/coffee drupal/gin
 
 **Choisis Drupal si :**
 - Tu construis un site avec **50+ types de contenu** et des relations complexes
-- Tu as une équipe de **developpeurs PHP** ou un budget pour en recruter
+- Tu as une equipe de **developpeurs PHP** ou un budget pour en recruter
 - Tu as des besoins **multi-langue** serieux (5+ langues)
-- La **sécurité** et les **permissions** sont des priorités absolues
+- La **securite** et les **permissions** sont des priorites absolues
 - Tu veux une **architecture API-first** (headless ou hybrid)
 
 **Ne choisis PAS Drupal si :**
 - Tu veux un blog ou un site vitrine (utilise WordPress ou Astro)
 - Tu n'as pas de budget technique (minimum 5 000-10 000 EUR pour un site Drupal)
-- Tu veux tout gerer toi-même sans connaissances techniques
+- Tu veux tout gerer toi-meme sans connaissances techniques
 - Tu as besoin de resultats rapides (un site Drupal prend 2-6 mois de dev)
 
 **Le mot de la fin :** Drupal est comme un couteau suisse professionnel. Il peut tout faire, mais il faut savoir l'utiliser. Si tes besoins justifient sa complexite, c'est un choix imbattable. Sinon, regarde ailleurs : WordPress pour la simplicite, Astro pour la performance pure, Shopify pour l'e-commerce rapide.

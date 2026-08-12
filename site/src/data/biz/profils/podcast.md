@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Podcast rentable
-author: Diane GoCharbon
+title: Podcast
+author: Web Indé
 tags:
 - Business
-description: 'Créer un podcast qui devient un vrai actif d''audience, pas juste un
-  hobby bien produit.'
+description: 'Lance un podcast rentable : équipement, distribution, monétisation et
+  stratégies de croissance.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Un podcast, c'est un média d'attention longue. Très bon pour construire une relation forte, beaucoup moins bon si tu espères des résultats rapides sans angle éditorial net ni régularité sérieuse.
+Un podcast, c'est créer du contenu audio régulier (interviews, solo, discussions) que les gens écoutent en faisant autre chose (trajet, sport, ménage). Tu construis une audience fidèle et tu monétises via sponsoring, affiliation, produits, ou services.
 
 L'énorme avantage du podcast : c'est le format le plus intime (les gens t'écoutent dans leurs oreilles pendant des heures), la production est simple (pas de vidéo = beaucoup moins de travail), et l'audience est ultra-engagée et qualifiée.
 

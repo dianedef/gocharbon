@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: OUTILS BUSINESS & GESTION FRANÇAIS
 author: Diane

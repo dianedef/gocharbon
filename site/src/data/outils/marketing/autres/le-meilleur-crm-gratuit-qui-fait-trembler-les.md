@@ -1,13 +1,12 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: prospection
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Le Meilleur Crm Gratuit Qui Fait Trembler Les Solutions Payantes
 author: Diane
-description: "Le Meilleur Crm Gratuit Qui Fait Trembler Les Solutions Payantes."
+description: 'Découvre Le Meilleur Crm Gratuit Qui Fait Trembler Les Solutions Payantes
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

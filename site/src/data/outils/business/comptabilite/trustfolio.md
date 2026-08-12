@@ -1,24 +1,13 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: union-europeenne
-sourcesVerification:
-- https://trustfolio.co/legal/mentions-legales
-- https://trustfolio.co
-notesQualification: Trustfolio est edite par une SAS francaise a Lyon et annonce un hebergement Azure en Europe de l'Ouest aux Pays-Bas; l'ancrage est francais mais l'infrastructure reste dependante d'un hyperscaler.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Trustfolio
 author: Diane
 tags:
 - Outils
-description: Trustfolio est une plateforme d'avis B2B vérifiés utile pour les prestataires
-  qui veulent crédibiliser leurs références et pour les acheteurs qui veulent trier
-  un peu mieux le bruit du marché.
+description: Trustfolio est une plateforme française d'avis B2B vérifiés. Recommandations
+  clients authentifiées, championnat de l'excellence client. 30 000+ prestataires.
+  Dès 49€/mois.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://trustfolio.co
@@ -26,56 +15,52 @@ u_site: https://trustfolio.co
 
 # Trustfolio
 
-## Une plateforme d'avis B2B qui essaie d'éviter le folklore des témoignages bricolés
+## AVIS B2B VÉRIFIÉS : LA PLATEFORME QUI AUTHENTIFIE LES RECOMMANDATIONS CLIENTS
 
 ### tl;dr
 
-Trustfolio sert à collecter, vérifier et mettre en valeur des avis clients dans un cadre B2B. Ce n'est pas de la compta à proprement parler, et la fiche est un peu mal rangée ici. En revanche, le sujet est utile pour les prestataires qui vivent aussi de leur réputation et de la preuve sociale.
+Trustfolio est une plateforme française 100% B2B de recommandations et avis clients vérifiés. Fondée par Thomas Nanterme et Edgar Roussille, elle couvre tout le cycle de recommandation B2B : satisfaction → avis vérifiés → recommandation → parrainage → ambassadeurs. Plus de 30 000 prestataires référencés. À partir de 49€/mois.
 
-### Alternative à
+**Note** : outil de réputation/avis B2B, pas un logiciel comptable. Mal catégorisé ici.
 
-Clutch, G2, Google Reviews sur certains usages, ou des références client gérées en direct.
+### 📢 Alternative à
 
-## Pourquoi on le retient
+Clutch, G2, UpCity, Google Reviews (pour le B2B).
 
-- **Le besoin est réel** : en B2B, les preuves de sérieux comptent énormément.
-- **La promesse de vérification a du sens** dans un marché rempli d'avis peu exploitables.
-- **Le produit peut aider autant la visibilité que la conversion**.
+## ✔️ Bénéfices
 
-## Pour qui ?
+- **Avis authentifiés** : vérification systématique des témoignages clients
+- **100% B2B** : contrairement aux plateformes grand public
+- **Championnat de l'excellence** : classement trimestriel des meilleurs prestataires
+- **Cycle complet** : de la collecte d'avis au programme ambassadeur
 
-- agences
-- consultants
-- ESN
-- prestataires B2B qui veulent mieux exploiter leurs références
+### 🎯 Pour Qui ?
 
-## Fonctionnalités utiles
+- Agences et prestataires de services B2B
+- Entreprises cherchant des partenaires fiables
+- Consultants et ESN qui veulent valoriser leurs références
 
-- collecte d'avis
-- vérification et mise en avant de références
-- profil public plus crédible
-- widgets ou diffusion de preuve sociale
+## 🛠️ Fonctionnalités
 
-## Prix
+- **Collecte d'avis** : envoi automatisé de demandes de témoignages
+- **Vérification** : authentification des avis et des entreprises
+- **Profil prestataire** : page de références, certifications, avis clients
+- **Recherche** : filtres par secteur, compétence, localisation
+- **Championnat** : classement trimestriel de l'excellence client
+- **Widget** : intégration des avis sur ton site web
 
-Le bon calcul est simple : si l'outil ne t'aide pas à rassurer plus vite ou à convertir mieux, il devient cosmétique. Si au contraire la recommandation client pèse fort dans ton acquisition, il peut devenir utile.
+## 💶 Prix
 
-## Intégrations
+Standard : 49€/mois. Pro, Enterprise et Premium : sur devis.
 
-Le sujet principal n'est pas la profondeur technique, mais la capacité à insérer la preuve sociale dans ton parcours commercial.
+## 🎖️ L'équipe et l'Histoire
 
-## Ce qu'il faut savoir avant de choisir
+Fondée par Thomas Nanterme et Edgar Roussille, Trustfolio est née du constat que les plateformes d'avis existantes étaient pensées pour le B2C et l'e-commerce. L'équipe a créé une plateforme dédiée au B2B, avec une vérification rigoureuse des avis pour restaurer la confiance dans les recommandations professionnelles.
 
-Trustfolio devient surtout intéressant si tu es dans une activité où les références clients font gagner du temps commercial. Si ta vente repose peu sur la réputation visible, la valeur baisse.
+## 👍 Points Forts
 
-## Points forts
+✔️ 100% B2B (pas de bruit B2C) | ✔️ Avis vérifiés et authentifiés | ✔️ 30 000+ prestataires | ✔️ Cycle complet de recommandation
 
-- angle B2B plus pertinent que des plateformes grand public
-- intérêt concret pour des prestataires de services
-- peut professionnaliser la preuve sociale
+## 👎 Points Faibles
 
-## Points faibles
-
-- fiche mal catégorisée ici
-- marché de niche
-- valeur très dépendante de ta façon de vendre
+❌ Mal catégorisé ici (avis B2B, pas compta) | ❌ Moins connu que Clutch ou G2 à l'international | ❌ Marché de niche

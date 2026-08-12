@@ -1,38 +1,30 @@
 ---
-import { SITE } from "../../config/site";
-import { ROUTES } from "../../config/routes";
-import { isParcoursOnlyBuild } from "../../utils/build-scope";
-
 export interface Props {
 	backToTop?: boolean;
 }
 
 const { backToTop = false } = Astro.props;
 
-const launchBuild = isParcoursOnlyBuild();
-const navigationLinks = launchBuild
-	? [{ name: "Parcours", url: ROUTES.parcours }]
-	: [
-		{ name: "Parcours", url: ROUTES.parcours },
-		{ name: "Outils", url: ROUTES.outils },
-		{ name: "Méthodologie", url: ROUTES.methodologie },
-		{ name: "Blog", url: ROUTES.blog },
-		{ name: "Tutos", url: ROUTES.tutos },
-		{ name: "Progression", url: ROUTES.progression },
-	];
+const navigationLinks = [
+	{ name: "Parcours", url: "/parcours" },
+	{ name: "Apps", url: "/apps" },
+	{ name: "Blog", url: "/blog" },
+	{ name: "Tutos", url: "/tutos" },
+	{ name: "Progression", url: "/progression" },
+];
 
 const legalLinks = [
-	{ name: "Politique de confidentialité", url: ROUTES.confidentialite },
-	{ name: "Mentions légales", url: ROUTES.mentionsLegales },
-	{ name: "CGU", url: ROUTES.cgu },
+	{ name: "Politique de confidentialité", url: "/confidentialite" },
+	{ name: "Mentions légales", url: "/mentions-legales" },
+	{ name: "CGU", url: "/cgu" },
 ];
 
 const socialLinks = [
-	{ name: "YouTube", url: SITE.social.youtube },
-	{ name: "X (Twitter)", url: SITE.social.x },
-	{ name: "Instagram", url: SITE.social.instagram },
-	{ name: "LinkedIn", url: SITE.social.linkedin },
-	{ name: "Facebook", url: SITE.social.facebook },
+	{ name: "YouTube", url: "https://www.youtube.com/@charbon" },
+	{ name: "X (Twitter)", url: "https://x.com/charbon" },
+	{ name: "Instagram", url: "https://www.instagram.com/charbon" },
+	{ name: "LinkedIn", url: "https://www.linkedin.com/company/charbon" },
+	{ name: "Facebook", url: "https://www.facebook.com/charbon" },
 ];
 
 const currentYear = new Date().getFullYear();
@@ -48,7 +40,7 @@ const worldIcons = {
 		<button
 			class:list={[
 				backToTop ? `backToTop` : null,
-				"back-to-top-button",
+				"transition-300 z-50 opacity-0 fixed flex bottom-[10px] right-[30px] w-10 h-10 bg-white dark:bg-black border-3 border-black dark:border-yellow-soft card-shadow items-center justify-center",
 			]}
 		>
 			<svg
@@ -77,9 +69,9 @@ const worldIcons = {
 		<div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
 			<!-- Brand -->
 			<div class="col-span-2">
-				<h2 class="righteous text-3xl mb-4 text-black dark:text-yellow-soft">{SITE.nameUpper}</h2>
+				<h2 class="righteous text-3xl mb-4 text-black dark:text-yellow-soft">GOCHARBON</h2>
 				<p class="poppins text-lg mb-4 text-black dark:text-white">
-					{SITE.descriptions.footer}
+					Le guide de survie digital pour entrepreneurs francophones qui refusent d'enrichir la Silicon Valley.
 				</p>
 				<div class="mine-icon-belt mb-4" aria-label="Repères du monde GoCharbon">
 					<span class="mine-icon-chip">
@@ -143,7 +135,7 @@ const worldIcons = {
 		<!-- Bottom section -->
 		<div class="flex flex-col md:flex-row justify-between items-center gap-4">
 			<p class="poppins text-sm text-black dark:text-white">
-				© {currentYear} {SITE.copyrightName}. Tous droits réservés.
+				© {currentYear} GoCharbon. Tous droits réservés.
 			</p>
 			<ul class="flex flex-wrap gap-4 justify-center">
 				{legalLinks.map((link) => (

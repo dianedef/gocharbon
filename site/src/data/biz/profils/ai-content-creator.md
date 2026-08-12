@@ -1,16 +1,16 @@
 ---
 section: parcours
-title: Créateur de contenu assisté par IA
-author: Diane GoCharbon
+title: AI Content Creator
+author: Web Indé
 tags:
 - Business
-description: 'Utilise l''IA pour produire plus vite sans transformer ton contenu en
-  bouillie générique.'
+description: 'Crée du contenu avec l''IA : outils, techniques et monétisation pour
+  les créateurs qui veulent scaler leur production.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Créateur de contenu assisté par IA
+# AI Content Creator
 
 ## Description en une phrase
 
@@ -29,7 +29,7 @@ Tu utilises des outils IA pour :
 
 ### Les différents modèles business
 
-**1. Freelance AI Content Création**
+**1. Freelance AI Content Creation**
 Tu vends tes services à des clients (entrepreneurs, agences, marques) :
 - Articles de blog optimisés SEO : 100-300€/article
 - Posts LinkedIn/Instagram (pack de 30) : 500-1500€/mois
@@ -116,7 +116,7 @@ Tu crées des designs, illustrations, musiques avec l'IA et tu les vends :
 
 **Bonus selon ta spécialité** :
 - **SEO** si tu fais du contenu web (bases Yoast, mots-clés)
-- **Montage vidéo** si tu fais de la vidéo (bases Première, CapCut)
+- **Montage vidéo** si tu fais de la vidéo (bases Premiere, CapCut)
 - **Design** si tu fais du visuel (bases Canva, Figma)
 
 ### Matériel
@@ -221,7 +221,7 @@ Tu crées des designs, illustrations, musiques avec l'IA et tu les vends :
 - Crée 5 vidéos test de 2-5 min
 
 **Ressources gratuites** :
-- YouTube : "AI content création", "Midjourney prompts", "ChatGPT for writing"
+- YouTube : "AI content creation", "Midjourney prompts", "ChatGPT for writing"
 - Subreddits : r/ChatGPT, r/midjourney, r/ArtificialIntelligence
 
 ### Semaine 3-4 : Portfolio
@@ -333,12 +333,12 @@ Tu crées des designs, illustrations, musiques avec l'IA et tu les vends :
 ### Formations
 
 **Gratuites** :
-- YouTube : "AI content création workflow"
+- YouTube : "AI content creation workflow"
 - Blogs : Liam Ottley, Matt Wolfe
 - Discord communities (Midjourney, ChatGPT)
 
 **Payantes (100-500€)** :
-- "AI Content Création Mastery" (Udemy, 50-100€)
+- "AI Content Creation Mastery" (Udemy, 50-100€)
 - Formations spécifiques (Midjourney, ChatGPT writing)
 
 ### Communautés
@@ -362,9 +362,9 @@ Tu crées des designs, illustrations, musiques avec l'IA et tu les vends :
 
 **Pour qui** : Designers chevronnés qui veulent garder un contrôle total.
 
-### Vidéo Editor classique
+### Video Editor classique
 
-**Différence** : Tu montes 100% manuellement sur Première/Final Cut.
+**Différence** : Tu montes 100% manuellement sur Premiere/Final Cut.
 
 **Pour qui** : Monteurs pro qui font des projets ultra complexes.
 

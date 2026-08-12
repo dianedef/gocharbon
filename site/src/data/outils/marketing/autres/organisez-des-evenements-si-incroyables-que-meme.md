@@ -1,16 +1,15 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: evenements
 imageNameKey: null
 u_site: null
 title: Organisez Des Événements Si Incroyables Que Même Les Célébrités Voudront Y
   Assister
 author: Diane
-description: "Organisez Des Événements Si Incroyables Que Même Les Célébrités Voudront Y Assister."
+description: 'Découvre Organisez Des Événements Si Incroyables Que Même Les Célébrités
+  Voudront Y Assister : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: cms
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Ajoutez Des Graphiques Époustouflants À Wordpress Avec Ces Outils Magiques
 author: Diane
-description: "Ajoutez Des Graphiques Époustouflants À Wordpress Avec Ces Outils Magiques."
+description: 'Découvre Ajoutez Des Graphiques Époustouflants À Wordpress Avec Ces
+  Outils Magiques : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

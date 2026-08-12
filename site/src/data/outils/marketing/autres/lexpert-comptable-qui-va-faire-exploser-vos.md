@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: business
-toolSubcategoryPrimary: facturation
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'Expert Comptable Qui Va Faire Exploser Vos Bénéfices Ses Secrets Enfin Révélés
 author: Diane
-description: "L'Expert Comptable Qui Va Faire Exploser Vos Bénéfices Ses Secrets Enfin Révélés."
+description: 'Découvre L''Expert Comptable Qui Va Faire Exploser Vos Bénéfices Ses
+  Secrets Enfin Révélés : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

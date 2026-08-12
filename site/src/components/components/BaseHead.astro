@@ -1,10 +1,6 @@
 ---
 import LocalFont from "./LocalFont.astro";
 import type { BaseProps } from "../../utils/types/props";
-import { SITE, formatDocumentTitle, getSiteUrl } from "../../config/site";
-import { ROUTES } from "../../config/routes";
-import { resolveMetaRobots } from "../../utils/indexation";
-import { isParcoursOnlyBuild } from "../../utils/build-scope";
 
 interface ArticleData {
 	author?: string;
@@ -33,13 +29,9 @@ const ogImagePath =
 // Construction de l'URL OG complète de manière sécurisée
 const fullOgImageUrl = Astro.site
 	? new URL(ogImagePath.replace(/^\//, ""), Astro.site)
-	: new URL(ogImagePath, SITE.url);
+	: new URL(ogImagePath, "https://gocharbon.com");
 
-const { title, description, article } = Astro.props;
-const metaRobots = resolveMetaRobots(Astro.url.pathname, Astro.props.metaRobots);
-const documentTitle = formatDocumentTitle(title);
-const feedUrl = getSiteUrl(ROUTES.feed);
-const launchBuild = isParcoursOnlyBuild();
+const { title, description, metaRobots = "index, follow", article } = Astro.props;
 
 // Génération du JSON-LD pour les articles de blog
 const isArticle = !!article;
@@ -54,12 +46,12 @@ const blogPostingSchema = isArticle
 			datePublished: article.pubDate?.toISOString(),
 			author: {
 				"@type": "Person",
-				name: article.author || SITE.nameUpper,
+				name: article.author || "GOCHARBON",
 			},
 			publisher: {
-				"@type": SITE.publisherType,
-				name: SITE.nameUpper,
-				url: SITE.url,
+				"@type": "Organization",
+				name: "GOCHARBON",
+				url: "https://gocharbon.com",
 			},
 			mainEntityOfPage: {
 				"@type": "WebPage",
@@ -75,7 +67,7 @@ const breadcrumbItems = [
 		"@type": "ListItem",
 		position: 1,
 		name: "Accueil",
-		item: SITE.url,
+		item: "https://gocharbon.com",
 	},
 ];
 
@@ -86,7 +78,7 @@ if (pathSegments.length > 0) {
 			"@type": "ListItem",
 			position: 2,
 			name: "Blog",
-			item: getSiteUrl(ROUTES.blog),
+			item: "https://gocharbon.com/blog",
 		});
 		breadcrumbItems.push({
 			"@type": "ListItem",
@@ -109,24 +101,6 @@ const breadcrumbSchema = {
 	"@type": "BreadcrumbList",
 	itemListElement: breadcrumbItems,
 };
-
-// Organisation / WebSite schema (homepage only)
-const isHomepage = Astro.url.pathname === "/" || Astro.url.pathname === "";
-const websiteSchema = isHomepage
-	? {
-			"@context": "https://schema.org",
-			"@type": "WebSite",
-			name: SITE.nameUpper,
-			url: SITE.url,
-			description: SITE.descriptions.default,
-			inLanguage: "fr",
-			publisher: {
-				"@type": SITE.publisherType,
-				name: SITE.nameUpper,
-				url: SITE.url,
-			},
-		}
-	: null;
 ---
 
 <LocalFont />
@@ -135,18 +109,16 @@ const websiteSchema = isHomepage
 <meta name="generator" content={Astro.generator} />
 <meta name="robots" content={metaRobots} />
 
-{!launchBuild && (
-	<link
-		rel="alternate"
-		href={feedUrl}
-		type="application/rss+xml"
-	/>
-)}
+<link
+	rel="alternate"
+	href="https://gocharbon.com/feed.xml"
+	type="application/rss+xml"
+/>
 
-<meta name="title" content={documentTitle} />
+<meta name="title" content={`GOCHARBON | ${title}`} />
 <meta name="description" content={description} />
 
-<meta property="og:type" content={isArticle ? "article" : "website"} />
+<meta property="og:type" content="website" />
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
@@ -161,7 +133,7 @@ const websiteSchema = isHomepage
 <link rel="canonical" href={canonicalURL} />
 <link rel="icon" type="image/svg" href="/favicon.svg" />
 
-<title>{documentTitle}</title>
+<title>GOCHARBON | {title}</title>
 
 <!-- JSON-LD Structured Data -->
 {breadcrumbItems.length > 1 && (
@@ -169,9 +141,6 @@ const websiteSchema = isHomepage
 )}
 {blogPostingSchema && (
 	<script type="application/ld+json" set:html={JSON.stringify(blogPostingSchema)} />
-)}
-{websiteSchema && (
-	<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 )}
 
 <slot />

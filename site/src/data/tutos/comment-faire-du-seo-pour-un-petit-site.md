@@ -1,39 +1,39 @@
 ---
 section: tutos
-type: tuto
-imageNameKey: null
 tags:
 - Tutoriels
+imageNameKey: null
 u_site: null
-title: Comment faire du SEO pour un petit site
+title: Comment Faire Du Seo Pour Un Petit Site
 author: Diane
-description: 'Tutoriel pratique pour faire du SEO pour un petit site : étapes propres, erreurs à éviter et mise en place sans blabla.'
-pubDate: 2026-04-19
+description: 'Découvre Comment Faire Du Seo Pour Un Petit Site : outil français pour
+  entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-# Comment faire du SEO pour un petit site
+faire maillage interne fastoche : [RÉUSSIR son SEO, avec 0€, en 2024. - YouTube](https://youtu.be/lVnuyGZmp_A?t=686)
 
-Si tu veux faire du SEO pour un petit site, oublie les hacks magiques. Le bon workflow SEO est plus ennuyeux que spectaculaire : diagnostic, priorités, exécution propre et suivi.
+[How to Do SEO for a Tiny Five Page Wordpress Website](https://neilpatel.com/blog/seo-wordpress-website/)
 
-## Ce qu'il faut préparer
+**3\. [SEO Squirrly](https://wordpress.org/plugins/squirrly-seo/)
 
-- les pages prioritaires
-- tes données Search Console ou analytics
-- un outil de crawl ou au minimum une checklist sérieuse
+**
 
-## La méthode simple
+----------------------------------------------------------------------
 
-1. Commence par la réalité du site : crawl, indexation, performance, structure interne, contenu existant et requêtes déjà visibles.
-2. Classe les chantiers par impact. Corriger 200 détails sans toucher aux pages qui portent le business est une manière élégante de perdre du temps.
-3. Reviens ensuite à la page. Un bon SEO ne s'arrête pas au crawler : il faut une promesse lisible, une structure claire et une vraie réponse à l'intention de recherche.
+In my own words, “Squirrly is more than an SEO tool––it’s a complete content marketing suite.”
 
-## Les erreurs à éviter
+I’m not trying to be egotistical by quoting myself, I promise. That’s [a testimonial I wrote years ago](https://wordpress.org/plugins/squirrly-seo/) for SEO Squirrly.
 
-- traiter toutes les pages comme si elles avaient la même importance
-- se focaliser sur des métriques vanity
-- confondre volume de mots-clés et opportunité business
+To this day, it remains one of the most comprehensive SEO plugins, free or paid.
 
-## Commence comme ça
 
-Prends les dix pages qui comptent vraiment pour ton acquisition ou ton chiffre d'affaires. C'est là que ton audit ou ton chantier doit commencer.
+I like plugins that don’t require me to have a ton of knowledge. Although I’ve built million-dollar businesses, I don’t know how to code!
+
+So plugins like Squirrly are perfect for me.
+
+This plugin does everything from analytics to keyword research.
+
+
+It’s extremely user-friendly, so you’ll be up and running with it in no time.

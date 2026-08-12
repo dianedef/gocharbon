@@ -25,7 +25,7 @@ from typing import Any
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path("/home/claude/GoCharbon")
 DATA_DIR = ROOT / "src" / "data" / "outils"
 OUT_JSON = ROOT / "scripts" / "outils_content_audit.json"
 OUT_MD = ROOT / "scripts" / "outils_content_audit.md"
@@ -134,9 +134,9 @@ def audit_file(file_path: Path) -> AuditResult:
         issues.append("pubDate invalide (format ISO attendu)")
 
     section = fm.get("section")
-    if section != "outils":
+    if section != "apps":
         score -= 5
-        warnings.append("section devrait être 'outils'")
+        warnings.append("section devrait être 'apps'")
 
     tags = fm.get("tags")
     normalized_tags: list[str] = []

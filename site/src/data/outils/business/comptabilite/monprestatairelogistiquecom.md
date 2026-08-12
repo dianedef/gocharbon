@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: faible
-niveauResponsabilite: indetermine
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.pappers.fr/entreprise/monprestatairelogistiquecom-921082004
-- https://www.monprestatairelogistique.com
-- https://www.aetl.eu/antennes/16-paris-nord/articles/24-technologie-innovation-transformation-numerique/2343/2023/07/06/monprestatairelogistiquecom-la-plateforme-pour-choisir-le-bon-partenaire.html
-notesQualification: Monprestatairelogistique.com est une initiative francaise lancee a Paris, mais le registre public indique une radiation fin 2024 et les sources accessibles ne permettent pas de documenter un hebergement ou une structure encore active. L'ancrage est donc classe faible.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: monprestatairelogistique
@@ -21,55 +9,82 @@ u_affi: null
 u_affiAdmin: null
 title: Monprestatairelogistique.Com
 author: Diane
-description: Fiche historique sur Monprestatairelogistique.com, une plateforme française
-  conçue pour mettre en relation entreprises et prestataires logistiques.
+description: 'Découvre Monprestatairelogistique.Com : outil français pour entrepreneurs,
+  fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
 
-# Monprestatairelogistique.Com
+🔹✅💡🥊🛡️🔇🧠📣🎁🏆📚🛠💥🙌😱❌✂️
+- 🚀 Monprestatairelogistique.com annonce fièrement le lancement imminent de sa plateforme entièrement dédiée à la logistique, marquant ainsi une étape significative dans le secteur. Fondée par Louis-Arnaud Nguyen, Samir Hlioui-Dibi et Benjamin Anceau, cette initiative promet de révolutionner la logistique.
+- 💡 Les objectifs ambitieux de Monprestatairelogistique.com, portée par ses trois fondateurs, s'articulent autour de la démocratisation de la logistique, en la rendant plus visible et accessible pour toutes les entreprises, grandes ou petites.
+- 🌍 Dans un contexte marqué par la crise du Covid et l'explosion du commerce en ligne, la logistique a acquis une importance cruciale au sein des stratégies commerciales des entreprises, devenant un facteur déterminant de leur succès.
+- 💼 La plateforme conçue par Monprestatairelogistique.com, avec ses fondateurs à la barre, vise à révolutionner le processus de recherche et de mise en relation entre les prestataires logistiques et les entreprises. Elle offre une solution sur mesure et innovante, permettant de trouver le partenaire logistique idéal en un simple clic, sans intermédiaire et en toute transparence.
+- 📊 En mettant à disposition des entreprises des outils adaptés, tels que des benchmarks, des cahiers des charges ou une messagerie intégrée, Monprestatairelogistique.com simplifie considérablement les demandes de devis et les échanges avec les prestataires logistiques, facilitant ainsi le processus de collaboration.
+- 📈 Par sa démarche, Monprestatairelogistique.com, initiée par ses trois fondateurs, s'engage activement dans la digitalisation du secteur logistique, contribuant ainsi à accroître la transparence et l'efficacité de ce domaine essentiel pour de nombreuses industries.
+- ## ❔ Monprestatairelogistique.com - Un Avis Complet
 
-## Une fiche historique sur une plateforme de sourcing logistique à lire avec prudence
+## ✔️ Bénéfices
+Monprestatairelogistique.com offre des avantages significatifs pour les entreprises à la recherche de prestataires logistiques. Grâce à cette plateforme, tu peux gagner du temps en comparant une variété de logisticiens, économiser de l'argent car aucune commission n'est prélevée sur la mise en relation, et améliorer ta visibilité en simplifiant tes démarches d'appels d'offres. De plus, la plateforme t'aide à optimiser ta chaîne logistique grâce à son réseau de partenaires stratégiques.
 
-### tl;dr
+## 🎯 Pour Qui ?
+Monprestatairelogistique.com est idéal pour les entreprises à la recherche de prestataires logistiques adaptés à leurs besoins. Que tu sois une entreprise cherchant un prestataire ou un prestataire logistique en quête de visibilité, cette plateforme simplifie la recherche et la mise en relation.
 
-Monprestatairelogistique.com visait un besoin très concret : aider des entreprises à trouver un prestataire logistique plus vite, sans repartir de zéro à chaque consultation. L'idée est bonne. En revanche, au vu des signaux publics disponibles, cette fiche doit être lue comme une archive utile, pas comme une recommandation active sans vérification.
+## 📢 Alternative
+Parmi les concurrents bien connus, on peut citer des plateformes similaires telles que Transportify et Shippeo. Cependant, Monprestatairelogistique.com se distingue par sa transparence totale et sa variété de fonctionnalités.
 
-### Alternative à
+## 🛠️ Fonctionnalités
+### Recherche Facilitée
+Monprestatairelogistique.com simplifie la recherche de prestataires logistiques en te permettant de comparer différentes options en fonction de critères tels que la localisation, le secteur et le type de prestations.
 
-La recherche directe de prestataires, les réseaux métier, ou d'autres plateformes encore actives dans le secteur logistique.
+### Économies
+La plateforme ne prend aucune commission sur la mise en relation, ce qui te permet d'économiser de l'argent.
 
-## Pourquoi la fiche reste utile
+### Amélioration de la Visibilité
+Elle facilite les démarches d'appels d'offres, augmentant ainsi ta visibilité.
 
-- parce que le besoin de sourcing logistique reste très réel
-- parce que la mise en relation et la comparaison de prestataires sont des sujets utiles
-- parce que l'angle éditorial reste pertinent pour GoCharbon
+### Mise en Relation Directe
+Monprestatairelogistique.com élimine les intermédiaires en permettant une mise en relation directe entre prestataires logistiques et entreprises.
 
-## Pour qui la plateforme visait surtout
+### Expertise
+Des experts dédiés sont disponibles pour t'accompagner, et la plateforme propose une messagerie pour optimiser tes demandes de devis.
 
-- e-commerçants
-- entreprises cherchant un prestataire logistique
-- acteurs supply qui voulaient comparer des options plus vite
+## 💶 Offres & Prix
+Monprestatairelogistique.com propose différents abonnements en fonction de ton profil, que tu sois une entreprise ou un prestataire logistique. Les abonnements commencent à 9€ HT par mois pour les entreprises, tandis que les prestataires logistiques paient à partir de 189€ HT par mois, en fonction des fonctionnalités souhaitées.
 
-## Fonctionnalités mises en avant
+## 🎖️ Équipe, Histoire Et Mission
+Fondée en 2022 à Paris, Monprestatairelogistique.com a pour ambition de devenir la référence incontournable en matière de logistique en France, en Europe et dans les pays francophones. L'équipe derrière la plateforme possède une expertise de plus de 10 ans dans la logistique et plus de 7 ans en solutions digitales. Ils ont créé cette plateforme pour répondre aux défis de l'explosion du e-commerce et offrir une expérience transparente, efficace et personnalisée.
 
-- recherche de prestataires
-- comparaison selon certains critères
-- mise en relation
-- accompagnement ou cadrage des échanges
+## 🚧 Feuille de Route Future
+La plateforme prévoit de continuer à évoluer en prenant en compte les retours des prestataires logistiques et les évolutions du secteur logistique. Bien que la feuille de route future ne soit pas explicitement mentionnée, des mises à jour fréquentes sont prévues pour améliorer la plateforme.
 
-## Ce qu'il faut savoir
+## ⛓️ Liens et Ressources
+- Site Web : [Monprestatairelogistique.com](https://www.monprestatairelogistique.com/)
+- Contact : [contact@monprestatairelogistique.com](mailto:contact@monprestatairelogistique.com)
 
-La lisibilité actuelle de la structure est faible. Avant de considérer l'outil comme une option vivante, il faut vérifier l'activité réelle, le service, et la capacité de la plateforme à encore délivrer ce qu'elle promettait.
+## 🤝 Programme de Parrainage
+Il n'est pas mentionné s'il y a un programme de parrainage ou d'affiliation disponible sur la plateforme.
 
-## Points forts
+## ⚙️ Intégrations
+Les informations sur les intégrations avec d'autres outils ou la disponibilité d'une API ne sont pas spécifiées sur la page.
 
-- besoin marché clair
-- idée produit utile
-- proposition de valeur simple à comprendre
+## 👀 Comment l’utiliser ?
+Pour utiliser Monprestatairelogistique.com au maximum de ses capacités, voici les étapes recommandées :
+1. Commence par créer un compte sur la plateforme, en sélectionnant le type de profil correspondant à ton entreprise.
+2. Explore les différentes options de recherche en utilisant les filtres disponibles, tels que la localisation, le secteur et le type de prestations.
+3. Compare les prestataires logistiques en fonction de tes critères et examine leurs profils.
+4. Utilise la messagerie intégrée pour optimiser tes demandes de devis et entrer en contact direct avec les prestataires.
+5. Profite de l'expertise de l'équipe de Monprestatairelogistique.com pour t'aider dans le processus.
 
-## Points faibles
+## 🤔 En Résumé ?
+Monprestatairelogistique.com fonctionne comme un moteur de recherche, mettant en relation les acteurs à la recherche de solutions logistiques. Les critères de recherche te permettent de comparer les prestataires logistiques, de créer des cahiers des charges et d'accéder aux contacts des entreprises logistiques directement via la messagerie intégrée.
 
-- activité actuelle incertaine
-- fiabilité opérationnelle à confirmer
-- à traiter davantage comme repère éditorial que comme recommandation immédiate
+## Mon Avis
+### 👎 Points Faibles
+- La feuille de route future n'est pas clairement détaillée sur la page.
+- L'existence d'un programme de parrainage ou d'affiliation n'est pas mentionnée.
+
+### 👍 Points Forts
+- Monprestatairelogistique.com offre une transparence totale et une variété de fonctionnalités pour simplifier la recherche de prestataires logistiques.
+- Les abonnements sont abordables pour les entreprises, avec des options adaptées aux besoins.
+- L'équipe possède une solide expertise dans la logistique et les solutions digitales, ce qui renforce la crédibilité de la plateforme.

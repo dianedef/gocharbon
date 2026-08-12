@@ -1,8 +1,7 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-21'
+section: apps
+metadataEnrichedAt: null
 title: Cashtrack
-type: outil
 author: Diane
 tags:
 - Outils
@@ -12,18 +11,6 @@ description: '- **Fondateurs :** Michaël Baron et Jonathan Jalouzot - **Nombre 
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://cashtrack.io
-u_derniere_maj: '2026-03-21'
-qualificationLocale: france
-ancrageEconomique: faible
-niveauResponsabilite: faible
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-  - https://www.pappers.fr/entreprise/cashtrack-891692519
-  - https://fr.linkedin.com/posts/baronmichael_cashtrack-logiciel-de-suivi-de-tr%C3%A9sorerie-activity-7199433547030437888-kFT-
-  - https://www.jaimelesstartups.fr/cashtrack-anticipez-facilement-les-problemes-de-tresorerie/amp/
-notesQualification: "Cashtrack est une SAS francaise immatriculee a Versailles puis radiée, et le fondateur indique publiquement avoir arrete le service en 2024. Je conserve qualificationLocale France car l'operateur est francais, mais j'abaisse l'ancrage economique et la responsabilite: le projet n'est plus en exploitation active et la documentation publique utile sur l'hebergement est trop faible."
-methodologieVersion: "gocharbon-v1"
 ---
 
 # Cashtrack

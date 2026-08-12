@@ -1,14 +1,12 @@
 ---
-draft: true
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: vente
 title: Social Selling La Méthode Choc Pour Vendre Sans Vendre
 author: Diane
-description: "Social Selling La Méthode Choc Pour Vendre Sans Vendre."
+description: 'Découvre Social Selling La Méthode Choc Pour Vendre Sans Vendre : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -2874,7 +2872,7 @@ Si vous utilisez une intégration, vous n'aurez pas à faire cette étape mais s
 
 _L'ajout d'une valeur de contrat et l'attribution d'une étiquette vous aideront à vous motiver dans votre pipeline de vente sociale_
 
-#### Étape 3 : prendre le temps de connecter son compte entreprise
+#### Etape 3 : prendre le temps de connecter son compte entreprise
 
 Dans la plupart des cas, vous n'aurez pas le **URL de l'entreprise** de votre prospect (LinkedIn one ou Twitter one) dans votre base de données. Vous devrez ajouter l'URL manuellement dans les champs de l'entreprise si vos prospects.
 

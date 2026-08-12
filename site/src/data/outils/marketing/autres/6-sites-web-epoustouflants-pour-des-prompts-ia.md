@@ -1,9 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: tech
-toolSubcategoryPrimary: ia
-toolFacets:
-- ia
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -11,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: 6 Sites Web Époustouflants Pour Des Prompts Ia Qui Vont Casser Internet
 author: Diane
-description: "6 Sites Web Époustouflants Pour Des Prompts Ia Qui Vont Casser Internet."
+description: 'Découvre 6 Sites Web Époustouflants Pour Des Prompts Ia Qui Vont Casser
+  Internet : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

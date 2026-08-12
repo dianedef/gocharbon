@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: productivite
-toolSubcategoryPrimary: calendrier
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: L'App Calendrier Secrète Utilisée Par Les Pdg Français Les Plus Performants
 author: Diane
-description: "L'App Calendrier Secrète Utilisée Par Les Pdg Français Les Plus Performants."
+description: 'Découvre L''App Calendrier Secrète Utilisée Par Les Pdg Français Les
+  Plus Performants : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

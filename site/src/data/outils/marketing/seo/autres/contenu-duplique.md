@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -97,7 +97,7 @@ There can be duplicate META titles across your pages. This will mean that multip
 
 With a report like Squirrly SPY, you’ll easily spot ALL the duplicate META content on your site or the site of your competitor.
 
-I’ve found many duplicate META problems on a lot of big sites [when I opened the reports from this vidéo](https://www.youtube.com/watch?v=vi-skDStXVM).
+I’ve found many duplicate META problems on a lot of big sites [when I opened the reports from this video](https://www.youtube.com/watch?v=vi-skDStXVM).
 
 There can also be Duplicate META Descriptions across multiple pages.
 

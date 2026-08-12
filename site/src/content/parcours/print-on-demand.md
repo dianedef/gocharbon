@@ -44,7 +44,7 @@ Creer des collections POD vendables avec tests visuels pubs et marge controlee.
 - [Fiche profil Print On Demand](/biz/profils/print-on-demand)
 - [Quiz rapide (orientation)](/quiz-rapide)
 - [Quiz avancé (validation)](/quiz-avance)
-- [Suivi du parcours](/parcours/impression-a-la-demande)
+- [Suivi du parcours](/parcours/print-on-demand)
 - [Ressource utile 1](/biz/e-commerce)
 - [Ressource utile 2](/tutos/comment-generer-automatiquement-les-images)
 - [Ressource utile 3](/marketing/ads/meta)

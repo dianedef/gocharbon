@@ -1,16 +1,15 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: smappen
-toolCategoryPrimary: marketing
-toolSubcategoryPrimary: analytics
 u_site: https://www.smappen.fr
 u_affi: null
 title: Smappen
 author: Diane
-description: "Smappen."
+description: 'Découvre Smappen : outil français pour entrepreneurs, fonctionnalités
+  et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

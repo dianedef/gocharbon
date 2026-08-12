@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.assurton.fr/
-- https://www.assurton.fr/nous-contacter/
-- https://www.assurton.fr/a-propos-assurton/nos-equipes/
-notesQualification: Assurton est operee depuis Angers par ATM Assurances avec plusieurs implantations en France et un discours produit explicitement centré sur des assurances francaises; l'hebergement technique n'est pas documente publiquement.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Assurton
 author: Diane
 tags:

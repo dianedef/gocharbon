@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 title: Metricool
 author: Diane
@@ -21,7 +21,7 @@ Hi Diane,Imagine if you can get a hold of a crystal ball that help qualify ident
 
 Well instead of a crystal ball, we give you our software, Ohmylead.
 
-This would not only allow you to easly qualify your leads, but also give you an invaluable insights on your campaigns performance metrics. Allowing you to fix targeting issues, increase the qualification rates before it's even noticed, and finaly develop new marketing stratégies.
+This would not only allow you to easly qualify your leads, but also give you an invaluable insights on your campaigns performance metrics. Allowing you to fix targeting issues, increase the qualification rates before it's even noticed, and finaly develop new marketing strategies.
 
 C'est une application web française pour la gestion de réseaux sociaux et l'analyse de données. Elle permet de gérer plusieurs comptes de réseaux sociaux en un seul endroit (plusieurs marques), mais aussi de planifier et de publier du contenu, d'analyser les données d'engagement, de suivre les performances et d'optimiser les campagnes publicitaires. On peut y gérer efficacement nos réseaux dans une app’ agréable visuellement et surtout toutes les statistiques des résultats des campagnes nous permettent d'améliorer les performances de nos contenus et nos publicités en ajustant nos stratégies en conséquence.
 

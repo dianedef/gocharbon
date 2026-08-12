@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: creation
-toolSubcategoryPrimary: video
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Les Plugins Davinci Resolve Secrets Des Pros Du Montage Enfin Révélés
 author: Diane
-description: "Les Plugins Davinci Resolve Secrets Des Pros Du Montage Enfin Révélés."
+description: 'Découvre Les Plugins Davinci Resolve Secrets Des Pros Du Montage Enfin
+  Révélés : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -74,13 +73,13 @@ New Save Settings Feature
 
 You asked for it, and we listened! Snap Captions now saves your preferences, making your workflow smoother.
 
-[https://ci3.googleusercontent.com/meips/ADKq_NZuPGZXi-9Dy3NIWVz_EktNuLmEWgv2nWpWR3yAJdwlZ2_exBV67rDI4CaFg6CsbwA0bp8zQnM87A9JkYMkxyn9m5uWzn84NtZDWG8f0LlcpXYkNiB6Dtsy_ZlTeh-3spBMAfLGy7MX=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/nxwcgAB7sCm2PdgkBg4g34/email](__MASK_3__)
+[https://ci3.googleusercontent.com/meips/ADKq_NZuPGZXi-9Dy3NIWVz_EktNuLmEWgv2nWpWR3yAJdwlZ2_exBV67rDI4CaFg6CsbwA0bp8zQnM87A9JkYMkxyn9m5uWzn84NtZDWG8f0LlcpXYkNiB6Dtsy_ZlTeh-3spBMAfLGy7MX=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/nxwcgAB7sCm2PdgkBg4g34/email](https://ci3.googleusercontent.com/meips/ADKq_NZuPGZXi-9Dy3NIWVz_EktNuLmEWgv2nWpWR3yAJdwlZ2_exBV67rDI4CaFg6CsbwA0bp8zQnM87A9JkYMkxyn9m5uWzn84NtZDWG8f0LlcpXYkNiB6Dtsy_ZlTeh-3spBMAfLGy7MX=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/nxwcgAB7sCm2PdgkBg4g34/email)
 
 Advanced Punctuation Removal
 
 Another popular request has been more advanced punctuation removal, such as keeping dashes but removing everything else. We’ve added this feature for more precise control.
 
-[https://ci3.googleusercontent.com/meips/ADKq_NbWU-mp08-NqV4OjHe-L3G74e7aONIUMTSM2Sred2HDg8nXMhw5IbVbAcYLdc4swtHaHOSTvbMK9wHHqURgS1omgoAErIumKd6IlptSEnfN1zylwtDlfyFNbA-vqOc3csmYmegODNwy=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/23JC14h5GreXWQLMRzorsn/email](__MASK_4__)
+[https://ci3.googleusercontent.com/meips/ADKq_NbWU-mp08-NqV4OjHe-L3G74e7aONIUMTSM2Sred2HDg8nXMhw5IbVbAcYLdc4swtHaHOSTvbMK9wHHqURgS1omgoAErIumKd6IlptSEnfN1zylwtDlfyFNbA-vqOc3csmYmegODNwy=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/23JC14h5GreXWQLMRzorsn/email](https://ci3.googleusercontent.com/meips/ADKq_NbWU-mp08-NqV4OjHe-L3G74e7aONIUMTSM2Sred2HDg8nXMhw5IbVbAcYLdc4swtHaHOSTvbMK9wHHqURgS1omgoAErIumKd6IlptSEnfN1zylwtDlfyFNbA-vqOc3csmYmegODNwy=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/23JC14h5GreXWQLMRzorsn/email)
 
 ​
 
@@ -88,7 +87,7 @@ In App Guides For Common Issues
 
 We recognize that Snap Captions isn’t the most user-friendly plugin, especially for new DaVinci Resolve users. Thanks to our amazing community, many have learned to use Snap Captions effectively. To value your time and help even more, we’ve introduced built-in guides. Now, if someone tries to use Snap Captions in an unintended way, they’ll be redirected to user-friendly tutorials. This is our first step toward making Snap Captions accessible for everyone.
 
-[https://ci3.googleusercontent.com/meips/ADKq_NYgKyJvj1MkwW3xv33HULdSBJgbzkN91U8qWChz7sNSa5TxFgaZplvkDojec3WyEqbtr7UzuYoWXIiitDMEGgHaH-Vw5eUMxc-PiAt_E5c6S2_XOc1IGtPg2TmPz7t1Be_0C4vHSFRc=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/9PLqa7GvQzFUG13Ze82ZxX/email](__MASK_5__)
+[https://ci3.googleusercontent.com/meips/ADKq_NYgKyJvj1MkwW3xv33HULdSBJgbzkN91U8qWChz7sNSa5TxFgaZplvkDojec3WyEqbtr7UzuYoWXIiitDMEGgHaH-Vw5eUMxc-PiAt_E5c6S2_XOc1IGtPg2TmPz7t1Be_0C4vHSFRc=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/9PLqa7GvQzFUG13Ze82ZxX/email](https://ci3.googleusercontent.com/meips/ADKq_NYgKyJvj1MkwW3xv33HULdSBJgbzkN91U8qWChz7sNSa5TxFgaZplvkDojec3WyEqbtr7UzuYoWXIiitDMEGgHaH-Vw5eUMxc-PiAt_E5c6S2_XOc1IGtPg2TmPz7t1Be_0C4vHSFRc=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/9PLqa7GvQzFUG13Ze82ZxX/email)
 
 DaVinci Resolve 19 Compatability!
 
@@ -98,7 +97,7 @@ INDUSTRY UPDATE: The World of Resolve Plugins is Evolving—And So Are We
 
 On August 24th, 2023, what started as a simple plugin to promote my YouTube channel has now evolved into something much bigger.
 
-We’ve heard your feedback: DaVinci Resolve editors like you need bigger and better plugins. This combined with DaVinci Resolve becoming the most searched professional vidéo editing software, the growing user base only increases the demand for powerful tools.
+We’ve heard your feedback: DaVinci Resolve editors like you need bigger and better plugins. This combined with DaVinci Resolve becoming the most searched professional video editing software, the growing user base only increases the demand for powerful tools.
 
 
 My progress on updating plugins has been slower than I’d like —especially on the big updates we’re all eagerly awaiting. The truth is, my time has been split between client projects, my personal YouTube channel, and plugin development. But that’s about to change, thanks to you!
@@ -107,10 +106,10 @@ My progress on updating plugins has been slower than I’d like —especially o
 
 Your collective support has been absolutely mind-blowing over the past year. We’ve had over 50,000 downloads of Snap Captions, and many of you have supported the development of Snap Pod. Your message is loud and clear: we need bigger and better plugins for DaVinci Resolve.
 
-[https://ci3.googleusercontent.com/meips/ADKq_NZrKt-jJ6XTihHII1oX79UqYJwFHDnzTIQp2DtrMR5by9SG-FhRBN-JnwPdYQa9AUqrEiA6uhhoaGzmMpm6ZSVPwiRIChSCySTIkHNIoqoC9ZW9h55aHMJgnRUGtqIf71peMSYUARYK=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/s4RVoJcAEPDThwFFc21qw7/email](__MASK_6__)
+[https://ci3.googleusercontent.com/meips/ADKq_NZrKt-jJ6XTihHII1oX79UqYJwFHDnzTIQp2DtrMR5by9SG-FhRBN-JnwPdYQa9AUqrEiA6uhhoaGzmMpm6ZSVPwiRIChSCySTIkHNIoqoC9ZW9h55aHMJgnRUGtqIf71peMSYUARYK=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/s4RVoJcAEPDThwFFc21qw7/email](https://ci3.googleusercontent.com/meips/ADKq_NZrKt-jJ6XTihHII1oX79UqYJwFHDnzTIQp2DtrMR5by9SG-FhRBN-JnwPdYQa9AUqrEiA6uhhoaGzmMpm6ZSVPwiRIChSCySTIkHNIoqoC9ZW9h55aHMJgnRUGtqIf71peMSYUARYK=s0-d-e1-ft#https://embed.filekitcdn.com/e/6AyF3kv3LNr4LvntjanpR2/s4RVoJcAEPDThwFFc21qw7/email)
 
-In response to this, I’m slowing down my vidéo production company and focusing it into a plugin development company for DaVinci Resolve users. We’re in the process of bringing in more developers whose sole job will be to build these bigger and better plugins for you. This new focus allows us to dedicate ourselves fully to creating the tools you’ve been asking for.
+In response to this, I’m slowing down my video production company and focusing it into a plugin development company for DaVinci Resolve users. We’re in the process of bringing in more developers whose sole job will be to build these bigger and better plugins for you. This new focus allows us to dedicate ourselves fully to creating the tools you’ve been asking for.
 
-A huge thank you goes out to you and the entire community! The growth and passion of DaVinci Resolve users have united us into a powerful force. Simply by choosing to edit with the best vidéo editor out there, we’re all contributing to something much bigger. Together, we’re making a real impact in the world of vidéo editing!
+A huge thank you goes out to you and the entire community! The growth and passion of DaVinci Resolve users have united us into a powerful force. Simply by choosing to edit with the best video editor out there, we’re all contributing to something much bigger. Together, we’re making a real impact in the world of video editing!
 
 ​

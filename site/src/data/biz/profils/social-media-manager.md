@@ -1,18 +1,18 @@
 ---
 section: parcours
-title: Social media manager
-author: Diane GoCharbon
+title: Social Media Manager
+author: Web Indé
 tags:
 - Business
-description: 'Gérer les réseaux sociaux de clients sans se noyer dans la production
-  vide et les vanity metrics.'
+description: 'Deviens social media manager : stratégies, outils et tarification pour
+  gérer les réseaux sociaux.'
 pubDate: '2024-01-01'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description
 
-Un social media manager gère la présence éditoriale de marques ou d'entrepreneurs sur les réseaux sociaux. Le métier peut bien tourner, mais il devient vite pénible si tu te contentes d'exécuter sans stratégie, sans cadrage et sans priorité claire.
+Un Social Media Manager (SMM) gère les réseaux sociaux pour des entreprises ou entrepreneurs : création de contenu, publication, engagement communauté, analyse des stats. Tu es payé en retainer mensuel (contrat récurrent) ou à la mission.
 
 L'avantage : compétence très demandée (toutes les entreprises ont besoin de réseaux sociaux), accessible rapidement (pas besoin de diplôme), et tu peux gérer plusieurs clients en parallèle. C'est aussi un métier qui évolue bien (stratégie, ads, direction créative).
 
@@ -56,7 +56,7 @@ L'avantage : compétence très demandée (toutes les entreprises ont besoin de r
 ### Compétences bonus
 
 - **Ads** - Meta Ads, TikTok Ads (facturer plus)
-- **Montage vidéo** - Reels, TikToks (CapCut, Première)
+- **Montage vidéo** - Reels, TikToks (CapCut, Premiere)
 - **Stratégie** - Pas juste exécution, conseil stratégique
 - **SEO** - Hashtags, mots-clés
 - **Graphic design** - Visuels pros (Photoshop, Figma)

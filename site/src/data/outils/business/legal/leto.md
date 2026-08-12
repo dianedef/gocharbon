@@ -1,8 +1,7 @@
 ---
-section: outils
-metadataEnrichedAt: "2026-03-21"
+section: apps
+metadataEnrichedAt: null
 title: leto
-type: outil
 author: Diane
 tags:
 - Outils
@@ -12,18 +11,6 @@ description: DashThis est un outil de reporting marketing automatisé qui offre 
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.leto.legal
-u_derniere_maj: "2026-03-21"
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: multi-region
-sourcesVerification:
-  - https://www.leto.legal/mentions-legales
-  - https://www.leto.legal/politique-de-confidentialite
-  - https://www.leto.legal/integrations/webflow
-notesQualification: "Leto est edite par Ragnar Soft SAS, societe francaise basee a Paris. La politique de confidentialite indique que les donnees sont stockees en priorite dans l'Union europeenne, mais la liste des prestataires et l'hebergement du site via Webflow introduisent des flux et des dependances hors France, dont les Etats-Unis. Je conserve donc une qualification locale francaise avec responsabilite partielle."
-methodologieVersion: "gocharbon-v1"
 ---
 
 # leto

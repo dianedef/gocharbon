@@ -1,17 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-17'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-sourcesVerification:
-- https://www.portail-autoentrepreneur.fr/mentions-legales.html
-- https://www.portail-autoentrepreneur.fr
-notesQualification: Le service est opéré par Legalstart, SAS francaise basee a Paris; les pages consultees ne documentent pas assez precisement l'hebergement pour aller au-dela de partiel.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Portail Auto-entrepreneur
 author: Diane
 tags:

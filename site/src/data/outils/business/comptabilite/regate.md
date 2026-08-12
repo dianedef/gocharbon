@@ -1,25 +1,13 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: partiel
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: inconnu
-societeMere: Qonto
-sourcesVerification:
-- https://www.regate.io/partenaires-categories/paiement
-- https://qonto.com/fr/accountants/regate-joins-qonto
-- https://support-regate-fr.qonto.com/hc/fr-fr/articles/36252984411537-Tout-ce-qu-il-faut-savoir-sur-la-migration-de-votre-compte-Treezor
-notesQualification: Regate reste un produit ne en France et base a Paris, mais il fait desormais partie de l'ecosysteme Qonto; les sources publiques confirment le cadre ACPR et les partenaires de paiement, sans exposer nettement l'hebergement principal.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: Regate by Qonto
 author: Diane
 tags:
 - Outils
-description: Regate by Qonto aide à automatiser factures, paiements, notes de frais
-  et coordination comptable pour des PME qui veulent une couche finance plus structurée.
+description: Regate by Qonto est une plateforme française d'automatisation financière
+  et comptable pour TPE/PME. Factures, notes de frais, paiements, reporting. Levée
+  27M€. 10 000+ clients.
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 u_site: https://www.regate.io
@@ -27,58 +15,57 @@ u_site: https://www.regate.io
 
 # Regate by Qonto
 
-## Une surcouche finance utile si ta compta avance, mais ton pilotage reste bancal
+## FINANCE AUTOMATION : LE COCKPIT FINANCIER QUI AUTOMATISE TA COMPTA
 
 ### tl;dr
 
-Regate sert à mieux gérer factures, paiements, notes de frais et collaboration comptable, surtout quand l'entreprise a déjà une base comptable mais manque encore d'un vrai cockpit opérationnel. L'idée n'est pas de remplacer toute la compta. C'est d'éviter qu'elle reste un angle mort.
+Regate est une plateforme SaaS française d'automatisation de la gestion financière et comptable, fondée en 2020 par Laura Pallier (ex-DAF Mailjet/KPMG) et Alexis Renard (ex-DG Mailjet/B-process). L'outil centralise factures fournisseurs/clients, notes de frais, paiements, cartes bancaires, budgets et reporting — en surcouche des logiciels comptables existants (Sage, Cegid, ACD, MyUnisoft). 10 000+ clients (Le Slip Français, ManoMano, Cityscoot), 80 collaborateurs, 27M€ levés. Rachetée par Qonto.
 
-### Alternative à
+### 📢 Alternative à
 
-Pennylane, Spendesk, Libeo, ou un empilement d'outils plus spécialisés.
+Pennylane, Spendesk, Libeo, Dext + logiciel comptable.
 
-## Pourquoi on le retient
+## ✔️ Bénéfices
 
-- **Le produit se place à un endroit utile** entre opérationnel, finance et comptabilité.
-- **La logique de surcouche est intéressante** si tu veux garder ton existant.
-- **Le sujet touche directement le temps, le cash et la discipline interne**.
+- **90% de temps gagné** sur le traitement des factures et paiements
+- **Surcouche intelligente** : se branche sur ton logiciel comptable existant
+- **Collaboration** : plateforme partagée entreprise ↔ expert-comptable
+- **Candidat PDP** : prêt pour la facturation électronique obligatoire
 
-## Pour qui ?
+### 🎯 Pour Qui ?
 
-- TPE et PME déjà un peu structurées
-- DAF ou responsables finance
-- cabinets comptables qui veulent collaborer plus proprement
-- entreprises qui commencent à saturer des circuits manuels
+- TPE/PME de 10 à 200 salariés
+- Startups en croissance
+- Experts-comptables et DAF
+- Cabinets comptables (offre Box dès 10€/mois/dossier)
 
-## Fonctionnalités utiles
+## 🛠️ Fonctionnalités
 
-- traitement des factures
-- paiements et circuits d'approbation
-- notes de frais
-- cartes et dépenses
-- reporting financier opérationnel
-- connexion aux outils comptables existants
+- **Factures fournisseurs** : OCR, catégorisation auto, circuit d'approbation, paiement en 1 clic
+- **Factures clients** : création devis/factures, relances, encaissements
+- **Notes de frais** : scan mobile, approbation, intégration paie
+- **Cartes bancaires** : virtuelles et physiques, plafonds personnalisés
+- **Budget et achats** : suivi budgétaire, demandes d'achat pré-approuvées
+- **Reporting** : tableaux de bord financiers en temps réel
+- **Rapprochement bancaire** : automatique, vue multi-banques
+- **App mobile** : soumission de factures et notes de frais par photo
 
-## Prix
+## 💶 Prix
 
-Le bon calcul n'est pas seulement le coût logiciel. Il faut regarder le temps économisé, la qualité du pilotage et la fluidité gagnée entre l'entreprise et la compta.
+Plan Basic : à partir de 110€/mois (selon nb d'utilisateurs et volume de factures). Plan Plus : à partir de 160€/mois (+ budgets et demandes d'achat). Offre cabinets : 10€ HT/mois/dossier (à partir de 30 dossiers). 500€ de frais de paramétrage.
 
-## Intégrations
+## ⚙️ Intégrations
 
-C'est précisément là que Regate devient intéressant : il n'oblige pas forcément à jeter l'existant, mais il faut vérifier la qualité réelle des connecteurs avec ta stack comptable.
+Sage, Cegid, ACD, MyUnisoft (synchronisation temps réel). Connecteurs bancaires multi-banques. Solutions de paiement sécurisées (SEPA). GED intégrée. API.
 
-## Ce qu'il faut savoir avant de choisir
+## 🎖️ L'équipe et l'Histoire
 
-Regate est plus pertinent si ton problème est la **coordination** et non l'absence totale d'outillage. Si tu pars de très loin, la question est peut-être d'abord de nettoyer les bases.
+Fondée en mars 2020 par Laura Pallier et Alexis Renard, anciens CFO et CEO de Mailjet. Seed de 7M€ en 2021 (360 Capital, La Financière St-James), Série A de 20M€ en 2023 (Valar Ventures, fonds de Peter Thiel). 80 collaborateurs, 10 000+ clients. Rachetée par Qonto, devenant "Regate by Qonto".
 
-## Points forts
+## 👍 Points Forts
 
-- bonne place dans le stack finance/compta
-- utile pour structurer les flux
-- intéressant pour la collaboration avec le cabinet comptable
+✔️ Se branche sur les logiciels comptables existants | ✔️ 10 000+ clients dont des marques connues | ✔️ Plateforme tout-en-un (factures + paiements + reporting) | ✔️ Prêt pour la facturation électronique (PDP)
 
-## Points faibles
+## 👎 Points Faibles
 
-- peut sembler cher pour une très petite structure
-- demande un process un minimum propre
-- l'évolution du produit reste à suivre dans l'écosystème Qonto
+❌ Prix élevé pour les TPE (110€+/mois) | ❌ Frais de paramétrage (500€) | ❌ Rachat par Qonto (incertitude sur l'évolution)

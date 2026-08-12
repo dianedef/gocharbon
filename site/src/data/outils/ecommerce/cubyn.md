@@ -1,10 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: ecommerce
-toolSubcategoryPrimary: logistique
-toolFacets:
-  - fulfillment
-  - ecommerce
+section: apps
 metadataEnrichedAt: null
 title: Cubyn
 author: Diane
@@ -19,19 +14,19 @@ u_site: https://www.cubyn.com/fr
 
 # Cubyn
 
-# LOGISTIQUE E-COMMERCE : LA LICORNE FRANÇAISE QUI N'A PAS SURVÉCU
+## LOGISTIQUE E-COMMERCE : LA LICORNE FRANÇAISE QUI N'A PAS SURVÉCU
 
-## tl;dr
+### tl;dr
 
 **⚠️ ATTENTION : Cubyn a été placée en liquidation judiciaire en octobre 2024.** Le service n'est plus opérationnel. Cette fiche est conservée à titre informatif et historique.
 
 Cubyn était une solution française de logistique externalisée (fulfillment) pour le e-commerce, qui promettait d'optimiser les processus de livraison et de satisfaire les clients en garantissant des expériences rapides et réussies. Fondée en **2015** à Paris par **Adrien Fernandez-Baca**, Cubyn proposait un service complet de stockage, préparation de commandes et expédition. L'entreprise faisait partie du programme **French Tech 120** (les 120 startups les plus prometteuses de France) et avait levé plus de **50 millions d'euros** auprès d'investisseurs comme **Bpifrance**, **Eurazeo** et **360 Capital Partners**. Au sommet de son activité, Cubyn gérait des entrepôts en France, opérait pour des centaines de marchands e-commerce, et affichait un score de **4.0/5 sur Trustpilot** avec **11 033 avis** — un volume d'avis considérable qui témoigne de l'ampleur de l'activité. La chute est survenue fin 2024, quand l'entreprise n'a pas réussi à atteindre la rentabilité malgré ses levées de fonds successives, et a été placée en liquidation judiciaire par le Tribunal de Commerce.
 
-## Alternative à
+### Alternative à
 
 ShipBob, Deliverr (racheté par Shopify), Easyship, Bigblue (français), HappyColis (français), Coliback, MondialRelay Fulfillment, Amazon FBA, Sendcloud. Cubyn se distinguait par son positionnement **100% français**, ses **intégrations natives** avec les CMS e-commerce majeurs, et sa **tarification tout compris** (transport + stockage + préparation). Depuis sa liquidation, les alternatives françaises les plus directes sont **Bigblue** et **HappyColis**.
 
-# Bénéfices (Historiques)
+## Bénéfices (Historiques)
 
 **Optimisation complète des livraisons** — En choisissant Cubyn, tu mettais en place un processus de livraison rapide et efficace, aligné sur les attentes de tes clients. La garantie de livraison du e-commerce offrait une assurance essentielle pour la satisfaction client, renforçant ainsi ta réputation et tes ventes.
 
@@ -41,13 +36,13 @@ ShipBob, Deliverr (racheté par Shopify), Easyship, Bigblue (français), HappyCo
 
 **Intégrations natives avec les CMS majeurs** — Cubyn s'intégrait nativement avec Shopify, PrestaShop, et les grandes marketplaces. Cette connexion facilitait la synchronisation des commandes et le suivi en temps réel.
 
-## Pour Qui ? (Historique)
+### Pour Qui ? (Historique)
 
 - Les entreprises e-commerce qui cherchaient à externaliser leur logistique
 - Les vendeurs marketplace (Amazon, Cdiscount, Fnac) qui voulaient un fulfillment centralisé
 - Les PME e-commerce françaises qui voulaient une solution locale plutôt qu'Amazon FBA
 
-# Comment Cubyn Fonctionnait
+## Comment Cubyn Fonctionnait
 
 1. **Inscription et connexion** — Tu créais un compte sur le site de Cubyn et tu connectais ta boutique en ligne ou tes annonces marketplace via les intégrations natives ou l'API
 2. **Envoi des stocks** — Tu envoyais tes produits aux entrepôts Cubyn en France
@@ -55,16 +50,16 @@ ShipBob, Deliverr (racheté par Shopify), Easyship, Bigblue (français), HappyCo
 4. **Suivi en temps réel** — Tu suivais en temps réel l'état de tes livraisons et tu pilotais tes inventaires
 5. **Gestion des retours** — Cubyn gérait les retours et les remises en stock
 
-# Fonctionnalités (Historiques)
+## Fonctionnalités (Historiques)
 
-## Expédition et Fulfillment
+### Expédition et Fulfillment
 
 - **Livraisons rapides et fiables** — alignées sur les standards des grandes marketplaces (livraison J+1 à J+3)
 - **Préparation des commandes** — picking, packing, étiquetage automatisé
 - **Multi-transporteurs** — Colissimo, Chronopost, DHL, UPS, Mondial Relay
 - **Gestion des retours** — traitement, contrôle qualité, remise en stock
 
-## Intégrations et Pilotage
+### Intégrations et Pilotage
 
 - **Intégrations natives** avec Shopify, PrestaShop, et les grandes marketplaces
 - **API ouverte** pour les intégrations personnalisées
@@ -72,13 +67,13 @@ ShipBob, Deliverr (racheté par Shopify), Easyship, Bigblue (français), HappyCo
 - **Pilotage centralisé des inventaires** — vue consolidée multi-canaux
 - **Synchronisation automatique** des commandes depuis tous les canaux de vente
 
-## Stockage et Inventaire
+### Stockage et Inventaire
 
 - **Entrepôts en France** — stockage sécurisé et optimisé
 - **Gestion des stocks en temps réel** — alertes de rupture, réapprovisionnement
 - **Tarification transparente** — stockage au m³, pas de frais cachés
 
-# Prix (Historiques)
+## Prix (Historiques)
 
 Cubyn proposait une tarification compétitive "tout compris" basée sur les besoins spécifiques de chaque entreprise. Les tarifs incluaient :
 
@@ -89,14 +84,14 @@ Cubyn proposait une tarification compétitive "tout compris" basée sur les beso
 
 Les prix exacts variaient selon le volume et étaient communiqués sur devis.
 
-# Intégrations (Historiques)
+## Intégrations (Historiques)
 
 - **CMS e-commerce** : Shopify, PrestaShop
 - **Marketplaces** : Amazon, Cdiscount, Fnac, eBay, Rakuten
 - **API** : API ouverte pour intégrations personnalisées
 - **Transporteurs** : Colissimo, Chronopost, DHL, UPS, Mondial Relay, GLS
 
-# L'équipe et l'Histoire
+## L'équipe et l'Histoire
 
 - **Fondée en 2015** à Paris par **Adrien Fernandez-Baca**
 - **Mission initiale** : démocratiser la logistique e-commerce en offrant aux PME les mêmes capacités qu'Amazon FBA
@@ -109,7 +104,7 @@ Les prix exacts variaient selon le volume et étaient communiqués sur devis.
 - **Octobre 2024** : **placement en liquidation judiciaire** par le Tribunal de Commerce — fin des opérations
 - **Profil LinkedIn** : Cubyn était basé à Paris avec des équipes tech, ops et commerciales
 
-# Leçons à Retenir
+## Leçons à Retenir
 
 La chute de Cubyn illustre plusieurs défis structurels du marché de la logistique e-commerce :
 
@@ -118,13 +113,13 @@ La chute de Cubyn illustre plusieurs défis structurels du marché de la logisti
 - **Lever des fonds ne garantit pas la rentabilité** — 50M€+ levés n'ont pas suffi à atteindre le point d'équilibre
 - **Le French Tech 120 n'est pas un gage de survie** — le label prestigieux ne protège pas des réalités économiques
 
-# Cas d'Usage (Historiques)
+## Cas d'Usage (Historiques)
 
 - **L'e-commerçant Shopify** : tu vendais sur Shopify et tu externalisais ta logistique chez Cubyn. Les commandes étaient préparées et expédiées automatiquement, tu te concentrais sur le marketing et les ventes
 - **Le vendeur marketplace** : tu vendais sur Amazon, Cdiscount et Fnac. Cubyn centralisait le fulfillment pour tous tes canaux avec un seul stock et un seul back-office
 - **La PME en croissance** : tu passais de 100 à 1000 commandes/mois. Au lieu d'embaucher du personnel logistique, tu déléguais tout à Cubyn
 
-# Points Forts (Historiques)
+## Points Forts (Historiques)
 
 - Solution française de fulfillment — proximité et support en français
 - Intégrations natives avec Shopify, PrestaShop et les marketplaces
@@ -134,7 +129,7 @@ La chute de Cubyn illustre plusieurs défis structurels du marché de la logisti
 - Suivi en temps réel des livraisons
 - Gestion multi-canaux centralisée
 
-# Points Faibles
+## Points Faibles
 
 - **⚠️ EN LIQUIDATION JUDICIAIRE DEPUIS OCTOBRE 2024** — le service n'est plus opérationnel. Les marchands qui dépendaient de Cubyn ont dû migrer en urgence vers d'autres solutions
 - Le modèle économique n'a jamais atteint la rentabilité malgré 50M€+ de levées de fonds
@@ -144,7 +139,7 @@ La chute de Cubyn illustre plusieurs défis structurels du marché de la logisti
 - Absence d'informations claires sur les plans de prix sur le site — il fallait contacter l'équipe commerciale
 - Manque de détails publics sur les fonctionnalités avancées
 
-# Que Faire Si Tu Étais Client Cubyn ?
+## Que Faire Si Tu Étais Client Cubyn ?
 
 Si tu étais client Cubyn et que tu cherches une alternative française de fulfillment e-commerce :
 

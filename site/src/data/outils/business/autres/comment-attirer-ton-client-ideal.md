@@ -1,7 +1,7 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-type: outil
+type: Guide
 statut: en-attente
 _priorité: normal
 tags:
@@ -75,7 +75,7 @@ Le One Place Funnel est une stratégie efficace pour se faire connaître en coac
 
 ## Créer une offre si bonne qu'ils te supplient pour devenir clients
 
-Je vous livrerai le plan détaillé et pas à pas pour créer des offres EXPÉRIENCE millionaire - capables de générer des sommes élevées pour votre activité avec des clients qui disent merci, ne trouvent jamais ça trop cher et surtout… sans syndrome de l'imposteur !
+Je vous livrerai le plan détaillé et pas à pas pour créer des offres EXPERIENCE millionaire - capables de générer des sommes élevées pour votre activité avec des clients qui disent merci, ne trouvent jamais ça trop cher et surtout… sans syndrome de l'imposteur !
 
 ## Attirer naturellement des inconnus et les transformer en clients convaincus
 
@@ -91,7 +91,7 @@ Guide ultime
 
 If you are on Facebook, you can access this course here [Build Audience & Brand Authority in any Niche with CrawlQ | Facebook](https://www.facebook.com/groups/crawlq/learning_content/?filter=276037827912454&post=612477676714055)
 
-What We’ll Cover… HOW to define your FRED in a way ATHENA can use it for content création WHY you want to express FRED to get super-specific niche content TOOLS to use to describe the Avatar quickly Lot’s of COOL insight
+What We’ll Cover… HOW to define your FRED in a way ATHENA can use it for content creation WHY you want to express FRED to get super-specific niche content TOOLS to use to describe the Avatar quickly Lot’s of COOL insight
 
 [How to do Niche Market Research?](https://crawlq.ai/blog/how-to-do-market-research-and-resonance/?fbclid=IwAR1jGVjxfUp6QXOIXQO3NLJgr_kBDDM6rQMOxUHCR4yEaOj1NYUInhRIUAY)
 
@@ -119,7 +119,7 @@ Check out our step-by-step Market Research Guide to understand the deep thinking
 
 With CrawlQ, you can get the benefits of hiring an expensive copywriter or McKinsey consultant at a fraction of the cost.
 
-Click here to learn more and take your content création to the next level.
+Click here to learn more and take your content creation to the next level.
 
 ## How to Use Language Options
 
@@ -141,12 +141,12 @@ Note:
 Language backend is designed with DeepL and Google translate API. The list of supported languages for each engine are:
 
 DeepL  
-[https://support.deepl.com/.../360019925219-Languages...](__MASK_5__)
+[https://support.deepl.com/.../360019925219-Languages...](https://l.facebook.com/l.php?u=https%3A%2F%2Fsupport.deepl.com%2Fhc%2Fen-us%2Farticles%2F360019925219-Languages-included-in-DeepL-Pro%3Ffbclid%3DIwAR1jAax_mmtg9XOmmYkjcJrwNbF8WTvr_vTiwJjj1iPjAPOJCLtEqW4OqGo&h=AT1tn12dtCXjwUFtZA5o5MRMJ1yInQZHrPx73rCQtXY7Achg76SfZHzySnChvtya91Y9KqxDHITDLvmPStCugh7lFtcwOYUHPsjYYWsZrVom2ACBkvlUYV903iFBtRDSxudS&__tn__=-UK*F&c[0]=AT0jd9tbAvUp_vhzwmv7V3_vZKlUucEHztYNzHt1NONg7sfqYnGcPharLMUbXy6WxUGt7e6YXCv739rSwoMAyARPgh_rgTBHGKPwd-qcmum-yS5de39hb56sjS-ynYDIzB8RFKZ2qxt9V7mvQX_CFvOmE9BVBEEWnRTeN8o)
 
 Google translate API  
-[https://cloud.google.com/translate/docs/languages](__MASK_6__)
+[https://cloud.google.com/translate/docs/languages](https://cloud.google.com/translate/docs/languages?fbclid=IwAR1prJ4IlkguL9hYCUH-yA1Ne2H3zfqRpAP_eMYVOrS63fb5Fw-jLfx_11g)
 
-It will cost one time 1000 credits for the language support (non-English only) as there is heavy use of API calls in the backend to support the unique content création.
+It will cost one time 1000 credits for the language support (non-English only) as there is heavy use of API calls in the backend to support the unique content creation.
 
 The outer layer is translated using client-side rendering but the backend is heavily designed based on the unique nature of the content research and Athena training.
 
@@ -193,7 +193,7 @@ Step 7: Now as normal you can expand on the initial draft content.
 
 You can also follow this long guide for the research steps and optimization.
 
-[https://crawlq.ai/.../5-steps-to-build-your-blog-with-ai.../](__MASK_7__)
+[https://crawlq.ai/.../5-steps-to-build-your-blog-with-ai.../](https://crawlq.ai/resource/5-steps-to-build-your-blog-with-ai-content-writer/?fbclid=IwAR0KZhoQCYL0IQ3aQ7IuTsTdAqzg3gDuTRbq0iXHjcmTpJb3aJsvBtXu22c)
 
 We have created a detailed step-by-step guide on how to create highly niche-specific blogs, social media posts, eBooks, courses, whitepapers, and consulting documents.
 
@@ -343,7 +343,7 @@ Or rewrite your arguments and just keep talking to Athena in simple short senten
 
 Athena can write paragraphs and paragraphs of content as you start navigating your content.
 
-Expérience the power of your writing assistant. Cut your research and writing time by 1/10th.
+Experience the power of your writing assistant. Cut your research and writing time by 1/10th.
 
 ## Step 3.7: Consume Competitor Content 100% Unique and Plagiarism-free
 
@@ -425,7 +425,7 @@ Feel free to reach out to us at support@quantamixsolutions.com if you have any q
 
 Check the detailed guide in one place here.
 
-[https://crawlq.ai/.../5-steps-to-build-your-blog-with-ai.../](__MASK_8__)
+[https://crawlq.ai/.../5-steps-to-build-your-blog-with-ai.../](https://l.facebook.com/l.php?u=https%3A%2F%2Fcrawlq.ai%2Fresource%2F5-steps-to-build-your-blog-with-ai-content-writer%2F%3Ffbclid%3DIwAR0KZhoQCYL0IQ3aQ7IuTsTdAqzg3gDuTRbq0iXHjcmTpJb3aJsvBtXu22c&h=AT1-ojLWp5Xn8YyeSmcF20f66VkLQvWLaeX84OYKGqOsKJqrlFDX9I8APNY33C7sRKyHHTUJsI-QsRH0kVXPRIHcGJqfDm1_hWmm23oO5cl-M5raIOfhlQc4DQL_tVt12mAb&__tn__=-UK-R&c[0]=AT2jR6KjLE4BZ9lSMVuJOSTq9bODXRPF1MKuIm-NUgio3qXt_XXusDJi7Xtui8YXy-8blHbFjM_CvWHSXLH9Bez9wyx1Ols5sdT7uaPfKysC0SECyPO_QM8zTErUUOS2ILDRF_m2kliOQ06CA-8PvbvN7UnDmBrVAnuh5Ks)
 
 # (Optional) Welcome to CrawlQ: Introduction and Expectation Settings
 
@@ -450,7 +450,7 @@ _“HOW TO_ _Know your target audiences like your mom-and-pop_ _WITHOUT never ta
 
 **Did you know that**
 
-Over 80% of B2B or even B2C businesses have a Content Strategy? Interestingly, they also create Buyer Persona. But only 11% of those teams consider their content marketing strategy and buyer persona accurate. Sadly, out of this 11%, few teams effectively use their buyer persona in their content création process and fall prey to SEO keywords tools.
+Over 80% of B2B or even B2C businesses have a Content Strategy? Interestingly, they also create Buyer Persona. But only 11% of those teams consider their content marketing strategy and buyer persona accurate. Sadly, out of this 11%, few teams effectively use their buyer persona in their content creation process and fall prey to SEO keywords tools.
 
 *Source: Content Marketing Institute Survey 2021
 
@@ -458,9 +458,9 @@ Content Marketing using AI is the hottest marketing trend because it is one of t
 
 The question is…But how do you create a strong content marketing program? And how do you measure its effectiveness?
 
-The answer is you need an extensive Buyer-Persona création AI tool and the ability to test the effectiveness of your Buyer-Persona.  
+The answer is you need an extensive Buyer-Persona creation AI tool and the ability to test the effectiveness of your Buyer-Persona.  
 
-The biggest problem is creating an effective Buyer-Persona, and the most significant challenge remains how to effectively use it in your content création process.  
+The biggest problem is creating an effective Buyer-Persona, and the most significant challenge remains how to effectively use it in your content creation process.  
   
 So if you’re a Product Design Engineer, Sales, and Marketing Technology Leader, or a seasoned blogger, coach, or copywriter and you are struggling to use content to generate more revenue, now is the time to fix it.
 ## How did my frustrations help to build CrawlQ?
@@ -469,19 +469,19 @@ So, for the last 10 years, I’ve been working on product development and have t
 
 Why is this so? This must change. So I decided to solve the problem on my own.
 
-First, I found a massive lack of understanding of who is the right person to target before starting the content création process. Even if it is done, any initial research is more focused on the keywords.
+First, I found a massive lack of understanding of who is the right person to target before starting the content creation process. Even if it is done, any initial research is more focused on the keywords.
 
 There is a lack of efficient processes for creating effective target audience research for managing and scaling content that sells and provides feedback to product development teams.
 
 Most content is only used for “top-of-the-funnel awareness” and not along the end-to-end customer journey.
 
-In addition, I also found that tech-oriented Product Design Engineers, Product Managers, or even content writers are not focused on solving specific problems for specific people with a particular desire. It is impossible to create any unique content without this end goal, let alone an exciting product. Content création and Product development without this clarity are meaningless.
+In addition, I also found that tech-oriented Product Design Engineers, Product Managers, or even content writers are not focused on solving specific problems for specific people with a particular desire. It is impossible to create any unique content without this end goal, let alone an exciting product. Content creation and Product development without this clarity are meaningless.
 
 Converting leads into a paying customer is a direct emotional marketing value that results from carefully curated sales-oriented content based on your target audience research and purchase journey.
 
 Finally, most entrepreneurs, marketers, and even content writers have not developed the necessary writing skills optimized for sales. As a result, the sales cycle is too long, the price is too low, and you are spending cash too quickly, relying on paid ads and expensive copywriters.
 
-And talking about options available in the market, most tools, even so-called established AI Content Création Tools, are too focused on SEO-related content, overly relying on keywords and search volumes. Some use Google data and AI spinners to spit out duplicate non-essential, non-unique, non-value-adding content competing for page # of Google. Imagine what differentiated sales and conversion goals you will achieve by ranking on Page #1 of Google if you can’t pull the trigger of emotions, fears, suspicions, desires, roadblocks, and what keeps them awake at night.
+And talking about options available in the market, most tools, even so-called established AI Content Creation Tools, are too focused on SEO-related content, overly relying on keywords and search volumes. Some use Google data and AI spinners to spit out duplicate non-essential, non-unique, non-value-adding content competing for page # of Google. Imagine what differentiated sales and conversion goals you will achieve by ranking on Page #1 of Google if you can’t pull the trigger of emotions, fears, suspicions, desires, roadblocks, and what keeps them awake at night.
 
 Where do you think delve.ai fits?
  I had a look at delve.ai. It has a persona module which is robust and based on data collection. This helps once you started building a list and then use the data to do the segmentation. This is very useful approach for segmenting customers and creating micro niches. Once you know that than you can use CrawlQ to feed that information and get tailored content for that specific segment as micro niche. CrawlQ Combines knowledge of persona and content in one place and can act as a complimentary tool.
@@ -491,7 +491,7 @@ Thank you. The tool is so helpful. It becomes slightly addictive as you tweak th
 
 ## What are the main benefits and outcomes of CrawlQ?
 
-To address this challenge, we put together an in-depth AI-assisted Market Research and Resonance Framework and business idea validation tool that explains how to turn your content création process into a predictable, data-driven, automated organic growth machine while being extremely capital efficient.
+To address this challenge, we put together an in-depth AI-assisted Market Research and Resonance Framework and business idea validation tool that explains how to turn your content creation process into a predictable, data-driven, automated organic growth machine while being extremely capital efficient.
 
 The focus here is on organic growth and highly capital-efficient use of the target audience research and turning that effectively into content that generates more conversions, sales, and ROI or even pre-sale your business or validate your product-market fit before you launch your product or service.
 
@@ -523,7 +523,7 @@ All reactions:
 
 ## How can CrawlQ help to be capital efficient?
 
-When you work with us, the most important thing is that you create a lab environment where you can run as many target audience tests as possible, from the end-to-end business idea validation to semantics, psychographic profiling of your target audience. Not only this, include your product’s emotional hook. You can generate blog posts, sales letters, emails, vidéo scripts, webinars, and landing page funnel contents.
+When you work with us, the most important thing is that you create a lab environment where you can run as many target audience tests as possible, from the end-to-end business idea validation to semantics, psychographic profiling of your target audience. Not only this, include your product’s emotional hook. You can generate blog posts, sales letters, emails, video scripts, webinars, and landing page funnel contents.
 
 Next, you will test if your published content resonates with your target audience, collect some engagement metrics like clicks, leads, revenue. Then you will reiterate your buyer persona and update your content based on the feedback you get from the data.
 
@@ -545,7 +545,7 @@ It will therefore be highly efficient in terms of capital.
 
 We have tried everything.
 
-Before starting to work on the CrawlQ, I tried everything out there in the market. Marketing and Sales tools from HubSpot to Semrush, Long-Tail Pro, ContentKing, BuzzSumo. Also, we have seen and tried a recent rise of SEO-driven AI Content Création Tools. And these are big names with boss modes to more sophisticated SEO-focused Content Creators.
+Before starting to work on the CrawlQ, I tried everything out there in the market. Marketing and Sales tools from HubSpot to Semrush, Long-Tail Pro, ContentKing, BuzzSumo. Also, we have seen and tried a recent rise of SEO-driven AI Content Creation Tools. And these are big names with boss modes to more sophisticated SEO-focused Content Creators.
 
 The fundamental problem I faced is that all these tools assume you have perfect product-market fit and perfect audience to target and assume already that your message is resonating.
 
@@ -560,7 +560,7 @@ None of the tools I tried works on connecting all the dots between target audien
 None of these tools focus on building content based on the buyer’s passion and pain points.
 ## How Buyer-Persona can add to bottom line revenue?
 
-How are the Buyer Persona, Content Création, and Sales Funnel approaches related to the revenue metrics in CrawlQ?
+How are the Buyer Persona, Content Creation, and Sales Funnel approaches related to the revenue metrics in CrawlQ?
 
 Great question.
 
@@ -570,22 +570,22 @@ Okay? That’s the point. Our NSM…north star metrics….a popular term coined 
 
 The term North Star metric—drawn from the common name for Polaris, the star that lies directly above the Earth’s Northern pole—is primarily rhetorical.
 
-Essentially, NSM is your customer's value in return for that price. And your revenue is a direct function of that price. Thus your NSM is revenue, the most critical metric maximized using CrawlQ. The critical link is that your AI-powered buyer persona will boost your content création, directly hitting the bottom line revenue.
+Essentially, NSM is your customer's value in return for that price. And your revenue is a direct function of that price. Thus your NSM is revenue, the most critical metric maximized using CrawlQ. The critical link is that your AI-powered buyer persona will boost your content creation, directly hitting the bottom line revenue.
 
-The main cost is your time and engagement while working with CrawlQ. The alternative is juggling many tools and not setting the right foundation for the long-term ROI and value création using content marketing and product development.
+The main cost is your time and engagement while working with CrawlQ. The alternative is juggling many tools and not setting the right foundation for the long-term ROI and value creation using content marketing and product development.
 
 So, what ROI can we expect using CrawlQ?
 
 So let’s set some expectations and go over some of the ROI.
 
-If you execute all steps in a proper sequence, the ATHENA, the internal AI of CrawlQ, will work automatically for you. The more you use the software in the market research and content création, the more you see that ATHENA works for you automatically in the background.
+If you execute all steps in a proper sequence, the ATHENA, the internal AI of CrawlQ, will work automatically for you. The more you use the software in the market research and content creation, the more you see that ATHENA works for you automatically in the background.
 
 So if you go through all steps correctly and do the work, the ROI is more than 10x in a short run of 5-6 months. You are investing in sustainable business growth over a long period. The ROI, it’s huge if you actually take this seriously and do all the work, and you get the results.
 ## What are the caveats and limitations of CrawlQ?
 
 Having said this about our North Star Metric and expectations, here are some essential things to remember.
 
-There is, of course, a little AI magic wand here, but everything is based on tried and tested formulas. These tactics and what we have built inside the Market Research, Copywriting, and AI Content Writer are drawn from the best references, texts, and hands-on practical expérience. ATHENA, our internal AI, is finetuned and pre-trained on authoritative books and case studies on sales and marketing.
+There is, of course, a little AI magic wand here, but everything is based on tried and tested formulas. These tactics and what we have built inside the Market Research, Copywriting, and AI Content Writer are drawn from the best references, texts, and hands-on practical experience. ATHENA, our internal AI, is finetuned and pre-trained on authoritative books and case studies on sales and marketing.
 
 You will learn how to use AI tools and techniques using CrawlQ to enhance your copywriting skills, create content for sale, map buyer persona and search intent to the content and the customer journey.
 
@@ -599,9 +599,9 @@ The most important thing to remember.
 
 So nothing is a failure; it’s just iteration.
 
-So if you can go through this iteration loop fast, it’ll eventually convert. And We are here to set up this laboratory to do rapid experiments on your content création.
+So if you can go through this iteration loop fast, it’ll eventually convert. And We are here to set up this laboratory to do rapid experiments on your content creation.
 
-So the faster you go through this iteration loop, the quicker you’re going to calibrate CrawlQ’s ATHENA to your benefit and build a profitable business unit case. The faster you’re going to be able to scale the content création process.
+So the faster you go through this iteration loop, the quicker you’re going to calibrate CrawlQ’s ATHENA to your benefit and build a profitable business unit case. The faster you’re going to be able to scale the content creation process.
 
 So remember, nothing is failing. It’s just an iteration.
 ## How to get help and support?
@@ -616,7 +616,7 @@ I will personally, or one of my core team members will answer your questions.
 
 Then you can book Webinars 3 times a week with us.
 
-[https://crawlq.ai/crawlq-webinar/](__MASK_10__)
+[https://crawlq.ai/crawlq-webinar/](https://l.facebook.com/l.php?u=https%3A%2F%2Fcrawlq.ai%2Fcrawlq-webinar%2F%3Ffbclid%3DIwAR1I-G5xr8gw8YdkWfPsGAmE1Zh6gu9i5GOWQjzwK01d11JslhyMpEs9vtc&h=AT1hUDYWrQZq8_22No4t5R0Qy96VQJgqVFDLosiN5jQa9bMP98uBGTAePHN2Cy4CIVaeJrvrk1EWTIcnwhQF-Q7YOQfoB-_3wfOoreBA75cnqEa2VS9OaJauMSmnIlgejRgj&__tn__=-UK-R&c[0]=AT2v2tAoH63Be0e9wIbhplBQrDuWC4aRUMy0f9Yv74JuZFxDm9xdNVQqM_xFXHpHLHGBFzMuywJqAUVow9atIaN008nmqdyGX73757A4p690xJDz31iZqMxAdNdLqnvauoJINVa9yK9FjGwTIYvW76wL-QqhB4re6-k2VJs)
 
 I will answer the questions, and also, we will do hands-on sessions, live sessions to get acquainted with the workflow, demo use cases, and functioning of the CrawlQ software.
 
@@ -637,7 +637,7 @@ You’re going to learn how to use AI to write and convey your message. The Mark
 
 Then we’re going to get into content automation.
 
-You will create different blog posts, sales letters, landing pages, webinars, vidéos, and email content based on the same copywriting formulas used by famous Copywriters who generate $1m sales funnels.
+You will create different blog posts, sales letters, landing pages, webinars, videos, and email content based on the same copywriting formulas used by famous Copywriters who generate $1m sales funnels.
 
 Okay?
 
@@ -647,7 +647,7 @@ CrawlQ Is an UNBELIEVABLE Bargain!
 
 Start your Free Trial Today with 20k words free to hit the ground running.
 
-[https://crawlq.ai/signup-free-trial/](__MASK_11__)
+[https://crawlq.ai/signup-free-trial/](https://l.facebook.com/l.php?u=https%3A%2F%2Fcrawlq.ai%2Fsignup-free-trial%2F%3Ffbclid%3DIwAR31-W8JpE4GNWQPFNZWuvWyhY565yDLFf-GeKjC_ME_ES2CCJ9jgw-We1c&h=AT3_M2eWhGtKhchfgyWqucVFPyG6MMUX4oVBrdzP3rpuKHWM-nhygoNz5g6krLbv8695mQp6c_9kQWPYd4k2v3NToHBSFH-b54PsGkFzh0YyfkX0Ol_SsWAszmkmGEz5LPQy&__tn__=-UK-R&c[0]=AT1W8tU27fw0U_ZEYNtSA6cW_pM6Tp0pb_Oa44U4vMWZtjvT0TmdoaT5c2blXpjMVzkH7Erse2QWyKmr1VoydKIVq0GiUeGRBOEMgbMfPXj_4Qs1JjQK_A1WloMwAJZ4XVIwTwRtXWJM_ZAdup8ScuFDq3TTWu32mYNxDyM)
 
 # AI is reaching many audiences better than the human mind ever could
 
@@ -749,16 +749,16 @@ Close.io is another popular lead generation tool that helps businesses track lea
 
 There are a number of project management tools available on the market, and it can be difficult to determine which one is right for your needs. Some popular options include Asana, Trello, and Basecamp. It's important to choose a tool that will fit into your workflow and help you manage your projects effectively.
 
-1.  Vidéo Marketing Tools
+1.  Video Marketing Tools
     
 
-There are a number of great vidéo marketing tools out there that can help you create and publish vidéos quickly and easily. Here are some of our favorites:
+There are a number of great video marketing tools out there that can help you create and publish videos quickly and easily. Here are some of our favorites:
 
-1.  Wistia - Wistia is a great tool for creating and publishing vidéos. It offers powerful analytics, HD vidéo hosting, and easy integration with other platforms.
+1.  Wistia - Wistia is a great tool for creating and publishing videos. It offers powerful analytics, HD video hosting, and easy integration with other platforms.
     
-2.  Animoto - Animoto is another great option for creating vidéos quickly and easily. It offers a wide range of templates and easy-to-use tools for adding text, music, and effects to your vidéos.
+2.  Animoto - Animoto is another great option for creating videos quickly and easily. It offers a wide range of templates and easy-to-use tools for adding text, music, and effects to your videos.
     
-3.  YouTube - YouTube is the most popular vidéo sharing site on the web. It offers a wide range of features and options for publishing and sharing your vidéos.
+3.  YouTube - YouTube is the most popular video sharing site on the web. It offers a wide range of features and options for publishing and sharing your videos.
     
 4.  Fundraising tools
     
@@ -773,7 +773,7 @@ Grant writing is another common way to raise money for projects or organizations
 
 Conclusion:
 
-To come to our décision about who the target audience of my article is, we went back to the overview. “By using AI to do market research and content strategy, we have all the benefits with very few drawbacks.” Many of the benefits of using AI are faster result time or more accurate results. If there's a downside to these two ways, it's the data. If the data is not reliable, your campaign may fail. There's a chance you'll have all the results, but if the data isn't accurate, it could hurt the campaign if they target the wrong people.
+To come to our decision about who the target audience of my article is, we went back to the overview. “By using AI to do market research and content strategy, we have all the benefits with very few drawbacks.” Many of the benefits of using AI are faster result time or more accurate results. If there's a downside to these two ways, it's the data. If the data is not reliable, your campaign may fail. There's a chance you'll have all the results, but if the data isn't accurate, it could hurt the campaign if they target the wrong people.
 
 AI is reaching many audiences better than the human mind ever could.
 
@@ -932,7 +932,7 @@ Parents are often their children's first and most important role models. When it
 
 3. Give Them Guidance: It's important that you provide your children with guidance as they pursue their passions. Offer them advice and help them navigate through the challenges they'll face.
 
-4. Let Them Take risks: As parents, we want to protect our children from harm at all costs. However, in order for them to truly expérience and grow from their passions, they need to be allowed to take risks. Let your kids make mistakes and learn from them.
+4. Let Them Take risks: As parents, we want to protect our children from harm at all costs. However, in order for them to truly experience and grow from their passions, they need to be allowed to take risks. Let your kids make mistakes and learn from them.
 
 5. Help Them Set Goals: When it comes to passions, it's important to set goals and work towards them.
 
@@ -1174,7 +1174,7 @@ La question clé est : "Est-ce que tu résous un problème de cheveux en feu ?".
 ## ==Fatigué de faire des pitchs à des startups avec zéro budget?==
 
 
-## avoir un système de lead gen en place
+## avoir un systeme de lead gen en place
 
 Working with 100+ businesses, Vineth Ellore realized most businesses [don't have a reliable lead gen system](https://www.linkedin.com/feed/update/urn:li:activity:6929675599649148928/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A6929675599649148928%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29)), their sales depend on the leap of faith for the sales to happen.  
   

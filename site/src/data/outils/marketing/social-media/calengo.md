@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 RS-&-RSS-suivi: null
 Ville: null

@@ -2,48 +2,30 @@
 section: tutos
 tags:
 - Tutoriels
-imageNameKey: null
-u_site: null
-title: Comment créer plusieurs adresses avec un seul Gmail
+title: Créer Plusieurs Adresses Avec Un Seul Gmail
 author: Diane
-description: 'Comment créer plusieurs adresses avec un seul Gmail : méthode claire, étapes utiles, erreurs à éviter et conseils pour passer du bricolage à un vrai process.'
-pubDate: '2026-04-19'
+description: 'Découvre Créer Plusieurs Adresses Avec Un Seul Gmail : outil français
+  pour entrepreneurs, fonctionnalités et avis.'
+pubDate: '2024-03-25'
 imgUrl: ../../assets/astro.jpeg
 ---
 
-Comment créer plusieurs adresses avec un seul Gmail devient beaucoup plus simple quand tu clarifies d’abord le flux, les données utiles et le niveau d’automatisation dont tu as vraiment besoin. L’objectif n’est pas de faire “plus compliqué”, mais de mieux piloter.
+f**Pour les mails**,
 
-Le bon réflexe ici, ce n’est pas de chercher la manip la plus courte. C’est de construire une méthode simple, fiable et suffisamment propre pour pouvoir la refaire sans stress.
+Tu le fais toi-même avec l’alias Gmail avec un ou plusieurs point « . » dans l’adresse et ça ira bien dans la même boite mail.
 
-## Ce que tu vas obtenir
-- un flux de travail plus lisible
-- des données mieux rangées
-- des automatisations qui servent vraiment
+Exemple : [yesouicom@gmail.com](mailto:yesouicom@gmail.com) = [y.e.souicom@gmail.com](mailto:y.e.souicom@gmail.com) = [yesoui.com@gmail.com](mailto:yesoui.com@gmail.com), etc, etc, etc
 
-## Méthode simple
-### 1. Cartographie le flux réel
-D’où vient l’information, où elle doit aller, qui agit dessus et à quel moment ? Sans ça, tu automatises du flou.
+Ou tu utilise ça : [https://www.emailnator.com/ 4](https://www.emailnator.com/)
 
-### 2. Réduis le nombre d’outils
-Chaque outil en plus ajoute de la friction. Garde seulement ceux qui apportent un vrai gain opérationnel.
 
-### 3. Structure les champs et les statuts
-Définis un minimum de règles : statuts, propriétaire, prochaine action, source du lead ou du paiement, niveau de priorité.
+Avec Gmail il y a plus simple et pratique : [les alias 1](https://wikiclic.com/creer-un-alias-gmail/) :
 
-### 4. Automatise après validation
-Ne branche pas tout d’un coup. Teste d’abord le process à la main, puis automatise ce qui revient vraiment.
+Exemple : [yesouicom@gmail.com](mailto:yesouicom@gmail.com) = [yesouicom+toto@gmail.com](mailto:yesouicom+toto@gmail.com) = [yesouicom+tata@gmail.com](mailto:yesouicom+tata@gmail.com) = [yesouicom+tutu@gmail.com](mailto:yesouicom+tutu@gmail.com) = [yesouicom+facebook@gmail.com](mailto:yesouicom+facebook@gmail.com) etc …
 
-### 5. Suis la qualité d’exécution
-Le bon système n’est pas celui qui a le plus de zaps, mais celui qui donne une vue claire et reste fiable dans le temps.
+En plus cela permet de repérer quel mail correspond à quel service et de créer des filtres/automatismes.
 
-## Pièges à éviter
-- brancher trop d’outils trop tôt
-- laisser des champs libres partout
-- automatiser un process qui n’est pas encore clair
 
-## Checklist rapide
-- [ ] objectif clarifié
-- [ ] premier test réalisé sur un petit périmètre
-- [ ] résultat vérifié avant généralisation
+Pour ma part je connaissais déjà 
 
-Si tu veux aller plus loin, documente ton process pendant que tu le mets en place. Un bon tuto ne sert pas seulement à réussir une fois, il sert à créer une routine fiable pour la prochaine fois.
+L’alias avec le « + » commence à être connu et flag par certains services, donc je n’ai pas pris le temps de le mentionner (déjà que mon message était long)

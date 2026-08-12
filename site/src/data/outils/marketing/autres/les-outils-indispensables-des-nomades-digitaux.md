@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 imageNameKey: null
 title: Les Outils Indispensables Des Nomades Digitaux Qui Cartonnent
 author: Diane
-description: "Les Outils Indispensables Des Nomades Digitaux Qui Cartonnent."
+description: 'Découvre Les Outils Indispensables Des Nomades Digitaux Qui Cartonnent
+  : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -54,7 +55,7 @@ slack
 
 Bien que l’e-mail soit un outil de communication fiable, il y a plusieurs avantages à disposer d’un espace de collaboration réservé à votre équipe, en particulier si plusieurs de ses membres travaillent à distance.
 
-Slack est l’une des solutions les plus populaires pour la communication d’équipe compte tenu de ses nombreuses fonctionnalités axées sur la collaboration. Vous pouvez créer des canaux de communication qui servent différentes fins ; [http://p.ex](__MASK_1__). un pour les tickets d’assistance (#service-client), ou un pour recueillir les mentions de votre marque qui ont récemment été publiées sur les réseaux sociaux (#mentions-sociales).
+Slack est l’une des solutions les plus populaires pour la communication d’équipe compte tenu de ses nombreuses fonctionnalités axées sur la collaboration. Vous pouvez créer des canaux de communication qui servent différentes fins ; [http://p.ex](http://p.ex). un pour les tickets d’assistance (#service-client), ou un pour recueillir les mentions de votre marque qui ont récemment été publiées sur les réseaux sociaux (#mentions-sociales).
 
 Avec son nombre croissant d’applications et d’intégrations connexes, Slack peut être personnalisé en fonction de vos propres flux de travail. Slack peut aussi être synchronisé avec plusieurs autres outils de cette liste de façon à vous permettre de configurer des notifications automatiques d’autres services.
 
@@ -192,7 +193,7 @@ Heureusement, en vous appuyant sur la technologie et les outils d’aujourd’hu
 
 - Quickly Figure Out What the Visa Requirements Are For Every Country With This Site
     
-    [https://lifehacker.com/quickly-figure-out-what-the-visa-requirements-are-for-e-1831123185?utm_source=lifehacker_newsletter&utm_medium=email&utm_campaign=2018-12-16](__MASK_2__)
+    [https://lifehacker.com/quickly-figure-out-what-the-visa-requirements-are-for-e-1831123185?utm_source=lifehacker_newsletter&utm_medium=email&utm_campaign=2018-12-16](https://lifehacker.com/quickly-figure-out-what-the-visa-requirements-are-for-e-1831123185?utm_source=lifehacker_newsletter&utm_medium=email&utm_campaign=2018-12-16)
     
     Image: Pexels
     

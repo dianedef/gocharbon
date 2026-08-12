@@ -1,54 +1,200 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
-title: "Outils marketing gratuits : lesquels valent vraiment le coup"
+title: Outils Marketing Gratuits
 author: Diane
 tags:
 - Marketing
-- Outils
-description: Une sélection d'outils marketing gratuits ou freemium vraiment utiles
-  pour analyser, produire, diffuser et suivre sans exploser le budget.
+description: Guide complet des meilleurs outils marketing gratuits
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Outils marketing gratuits : lesquels valent vraiment le coup
 
-Le gratuit n'est pas toujours une bonne affaire. Certains outils te font perdre du temps, d'autres couvrent très bien les besoins de départ et permettent de travailler proprement sans budget énorme.
 
-## Les catégories les plus utiles
+# Outils Marketing Gratuits
 
-### Mesure et SEO
+## Analytics & Data
 
-- Google Analytics ou alternative simple ;
-- Search Console ;
-- PageSpeed Insights ;
-- Google Trends.
+### Web Analytics
+1. **Google Analytics**
+   - Tracking visiteurs
+   - Comportement
+   - Conversions
+   - Rapports
 
-### Création de contenu
+2. **Alternatives**
+   - Matomo
+   - Plausible (version limitée)
+   - Open Web Analytics
+   - StatCounter
 
-- éditeur de texte propre ;
-- outil visuel simple ;
-- banque d'images correcte ;
-- prise de notes ou base de contenu.
+### SEO
+1. **Research**
+   - Google Keyword Planner
+   - Answer The Public
+   - Ubersuggest (limité)
+   - Google Trends
 
-### Diffusion
+2. **Technical**
+   - Google Search Console
+   - Bing Webmaster Tools
+   - Screaming Frog (limité)
+   - PageSpeed Insights
 
-- outil d'email avec palier gratuit ;
-- planificateur social si tu en as réellement besoin ;
-- suivi UTM ou dashboard léger.
+## Content Marketing
 
-### Organisation
+### Content Creation
+1. **Writing**
+   - Grammarly (base)
+   - Hemingway Editor
+   - Google Docs
+   - WordPress
 
-- outil de tâches ;
-- documentation ;
-- espace de stockage.
+2. **Visual**
+   - Canva
+   - GIMP
+   - Pixlr
+   - Unsplash
 
-## Comment choisir
+### Content Distribution
+1. **Social Media**
+   - Buffer (limité)
+   - Later (limité)
+   - TweetDeck
+   - Facebook Creator Studio
 
-- commence par le besoin, pas par la liste des fonctionnalités ;
-- vérifie les limites du plan gratuit ;
-- évite les doublons ;
-- garde un stack simple.
+2. **Email**
+   - Mailchimp (2000 contacts)
+   - SendinBlue (300 emails/jour)
+   - MailerLite (1000 contacts)
+   - HubSpot (2000 emails)
 
-Le bon outil gratuit est celui qui te permet de lancer, apprendre et structurer. Pas celui qui te donne l'impression de posséder une suite enterprise en miniature.
+## Social Media
+
+### Management
+1. **Scheduling**
+   - Buffer Free
+   - Hootsuite Free
+   - Later Free
+   - Facebook Business Suite
+
+2. **Analytics**
+   - Platform Analytics
+   - Socialblade
+   - Twitter Analytics
+   - LinkedIn Analytics
+
+### Design
+1. **Graphics**
+   - Canva
+   - Snapseed
+   - Pablo by Buffer
+   - Stencil Free
+
+2. **Video**
+   - OpenShot
+   - DaVinci Resolve
+   - Clipchamp
+   - Kapwing
+
+## Productivity
+
+### Project Management
+1. **Task Management**
+   - Trello
+   - Asana (limité)
+   - ClickUp Free
+   - Notion Personal
+
+2. **Collaboration**
+   - Slack Free
+   - Discord
+   - Google Meet
+   - Zoom (40min)
+
+### Documentation
+1. **Notes**
+   - Notion
+   - Evernote Basic
+   - OneNote
+   - Google Keep
+
+2. **Storage**
+   - Google Drive
+   - Dropbox Basic
+   - OneDrive
+   - MEGA
+
+## Marketing Tools
+
+### CRM
+1. **Basic CRM**
+   - HubSpot Free
+   - Freshworks CRM
+   - Zoho CRM Free
+   - Bitrix24
+
+2. **Lead Generation**
+   - Hunter.io (limité)
+   - FindThatLead
+   - Prospect.io
+   - Snov.io
+
+### Automation
+1. **Email**
+   - Mailchimp
+   - SendinBlue
+   - MailerLite
+   - HubSpot
+
+2. **Workflow**
+   - Zapier Free
+   - IFTTT
+   - Automate.io
+   - Make Free
+
+## Research & Analysis
+
+### Market Research
+1. **Trends**
+   - Google Trends
+   - Social Mention
+   - Answer The Public
+   - Exploding Topics
+
+2. **Competitor Analysis**
+   - SimilarWeb (limité)
+   - Alexa
+   - Built With
+   - Wappalyzer
+
+## Best Practices
+
+### Utilisation
+1. **Sélection**
+   - Besoins réels
+   - Limites gratuites
+   - Évolutivité
+   - Support
+
+2. **Integration**
+   - Compatibilité
+   - Workflow
+   - Formation
+   - Maintenance
+
+### Upgrade Strategy
+1. **Quand upgrader**
+   - Limites atteintes
+   - ROI positif
+   - Besoins avancés
+   - Scale-up
+
+2. **Transition**
+   - Data migration
+   - Formation équipe
+   - Documentation
+   - Support
+
+[Découvrir les Comparatifs d'Outils →](/marketing/outils/comparatifs) 

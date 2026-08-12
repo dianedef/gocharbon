@@ -1,7 +1,5 @@
 ---
-section: outils
-toolCategoryPrimary: communication
-toolSubcategoryPrimary: telephonie
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -9,7 +7,8 @@ imageNameKey: null
 u_site: null
 title: Le Logiciel Voip Français Qui Va Faire Trembler Skype
 author: Diane
-description: "Le Logiciel Voip Français Qui Va Faire Trembler Skype."
+description: 'Découvre Le Logiciel Voip Français Qui Va Faire Trembler Skype : outil
+  français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

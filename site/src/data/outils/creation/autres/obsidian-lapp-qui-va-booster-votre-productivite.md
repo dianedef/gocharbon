@@ -1,5 +1,5 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
@@ -19,14 +19,14 @@ imgUrl: ../../../../assets/astro.jpeg
 - 🚀 Introducción a los Generadores de Cursos AI
   - Presentación de los generadores de cursos AI,
   - Orientado a coaches, emprendedores y dueños de negocios,
-  - Propósito del vidéo: crear y vender cursos en línea rápidamente.
+  - Propósito del video: crear y vender cursos en línea rápidamente.
 - 📚 Shikan: Generador de Cursos con Contenido Existente
-  - Uso de contenido existente como vidéos de YouTube, podcasts y documentos para crear cursos,
+  - Uso de contenido existente como videos de YouTube, podcasts y documentos para crear cursos,
   - Registro en Shikan y selección del tipo de usuario "Creator",
   - Generación de cursos con preguntas interactivas y escenarios de juego de roles.
 - 02:25 📧 Notificaciones y Edición de Cursos en Shikan
   - Recepción de notificaciones cuando el curso está listo,
-  - Edición de lecciones generadas, agregando vidéos y ajustando el contenido,
+  - Edición de lecciones generadas, agregando videos y ajustando el contenido,
   - Posibilidad de fijar precios y vender cursos en el Marketplace de Shikan.
 - 💻 Corso: Microcursos y GPT-3.5
   - Creación de microcursos gratuitos con GPT-3.5,
@@ -42,7 +42,7 @@ imgUrl: ../../../../assets/astro.jpeg
   - Características como emails automatizados para los alumnos y configuración completa del curso.
 - 📱 Mini Course Generator: Cursos de Microaprendizaje
   - Generación de cursos de microaprendizaje en formato de reels o TikTok,
-  - Uso de avatares de síntesis para narrar vidéos,
+  - Uso de avatares de síntesis para narrar videos,
   - Registro gratuito con créditos limitados y opciones de análisis de los alumnos.
 - 🏆 Conclusión: Ventajas de los Generadores de Cursos AI
   - Ahorro de tiempo en la creación de cursos en línea,

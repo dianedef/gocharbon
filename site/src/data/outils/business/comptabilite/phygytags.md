@@ -1,18 +1,6 @@
 ---
-section: outils
-metadataEnrichedAt: '2026-03-18'
-type: outil
-qualificationLocale: france
-ancrageEconomique: fort
-niveauResponsabilite: partiel
-paysSiege: France
-hebergementDonnees: france
-sourcesVerification:
-- https://www.phygitags.com/en/legal-notice/
-- https://www.phygitags.com/fr/
-- https://www.phygitags.com/en/our-company/
-notesQualification: Phygitags est une SAS basee a Labege et hebergee chez OVH en France; l'ancrage local est solide, avec un positionnement de communication plus durable, mais la documentation publique reste modeste sur les engagements responsables au-dela du produit.
-methodologieVersion: gocharbon-v1
+section: apps
+metadataEnrichedAt: null
 title: PhygiTags
 author: Diane
 tags:

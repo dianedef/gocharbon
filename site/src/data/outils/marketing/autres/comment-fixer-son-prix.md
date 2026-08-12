@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 u_site: null
 title: Comment Fixer Son Prix
 author: Diane
-description: "Comment Fixer Son Prix."
+description: 'Découvre Comment Fixer Son Prix : outil français pour entrepreneurs,
+  fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---
@@ -15,7 +16,7 @@ Fixer un prix 1
 
 ### Fixer le prix et la valeur du produit
 
-[https://nicolasricher.fr/blog/prix-site-wordpress/](__MASK_0__)
+[https://nicolasricher.fr/blog/prix-site-wordpress/](https://nicolasricher.fr/blog/prix-site-wordpress/)
 
 Si vous avez déjà acheté des produits inutiles lors des soldes, uniquement parce que le rabais était important, alors vous avez déjà expérimenté le mécanisme des ancres.
 

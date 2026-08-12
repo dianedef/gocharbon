@@ -1,12 +1,13 @@
 ---
-section: outils
+section: apps
 metadataEnrichedAt: null
 tags:
 - Outils
 title: Les Analytics B2B Secrets Qui Vont Transformer Votre Business En Machine À
   Cash
 author: Diane
-description: "Les Analytics B2B Secrets Qui Vont Transformer Votre Business En Machine À Cash."
+description: 'Découvre Les Analytics B2B Secrets Qui Vont Transformer Votre Business
+  En Machine À Cash : outil français pour entrepreneurs, fonctionnalités et avis.'
 pubDate: '2024-03-25'
 imgUrl: ../../../../assets/astro.jpeg
 ---

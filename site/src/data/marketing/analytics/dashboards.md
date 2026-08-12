@@ -1,55 +1,132 @@
 ---
 section: blog
-title: "Tableaux de bord marketing : suivre l'essentiel sans noyer tout le monde"
+title: Tableaux de Bord Marketing
 author: Diane
 tags:
 - Marketing
-description: Construire des dashboards marketing lisibles, utiles et reliés aux vraies
-  décisions d'acquisition, de conversion et de rétention.
+description: Créez des dashboards marketing efficaces pour piloter votre performance
 pubDate: '2024-03-25'
 imgUrl: ../../../assets/astro.jpeg
 ---
 
-# Tableaux de bord marketing : suivre l'essentiel sans noyer tout le monde
 
-Un bon dashboard ne sert pas à montrer que tu as beaucoup de données. Il sert à voir rapidement ce qui va bien, ce qui se dégrade et ce qu'il faut corriger.
+# Tableaux de Bord Marketing
 
-Le meilleur tableau de bord pour une petite équipe est souvent plus court que ce qu'on imagine.
+## Fondamentaux des Dashboards
 
-## Ce qu'un bon dashboard doit faire
+### Objectifs
+- Visualisation données
+- Prise de décision
+- Suivi performance
+- Communication résultats
 
-- montrer les métriques reliées au business ;
-- rendre les écarts visibles ;
-- aider à décider ;
-- éviter les vanity metrics en première ligne.
+### Types de Dashboards
+1. **Stratégique**
+   - KPIs globaux
+   - Tendances long terme
+   - ROI marketing
+   - Objectifs business
 
-## Les trois vues les plus utiles
+2. **Tactique**
+   - Performance campagnes
+   - Métriques canal
+   - Optimisation court terme
+   - Tests en cours
 
-### Vue direction
+3. **Opérationnel**
+   - Métriques quotidiennes
+   - Alertes
+   - Actions immédiates
+   - Suivi budget
 
-Trafic qualifié, conversions, chiffre d'affaires, coût d'acquisition, rétention.
+## Construction Dashboard
 
-### Vue acquisition
+### Structure Efficace
+- Hiérarchie information
+- Visualisations adaptées
+- Interactivité
+- Mise à jour automatique
 
-Canaux, contenus, campagnes, coût, taux de conversion.
+### Éléments Essentiels
+1. **Métriques Clés**
+   - Acquisition
+   - Engagement
+   - Conversion
+   - Rétention
 
-### Vue conversion
+2. **Comparaisons**
+   - Périodes
+   - Objectifs
+   - Benchmarks
+   - Prévisions
 
-Étapes du tunnel, abandons, pages faibles, messages ou offres qui performent.
+3. **Segmentation**
+   - Canaux
+   - Audiences
+   - Géographie
+   - Devices
 
-## Les erreurs à éviter
+## Outils et Technologies
 
-- afficher 40 métriques sans hiérarchie ;
-- mélanger performance et curiosités ;
-- oublier les comparaisons temporelles ;
-- produire un dashboard que personne ne consulte.
+### Solutions Dashboard
+- Google Data Studio
+- Tableau
+- Power BI
+- Looker
 
-## La bonne méthode
+### Sources de Données
+- Analytics
+- CRM
+- Réseaux sociaux
+- Publicité
 
-1. Choisis 5 à 8 métriques maximum.
-2. Regroupe-les par objectif.
-3. Ajoute une comparaison simple.
-4. Documente les définitions.
-5. Associe chaque bloc à une action possible.
+## Best Practices
 
-Un dashboard utile ne donne pas seulement une vue. Il crée un rythme de décision.
+### Design
+- Clarté visuelle
+- Cohérence
+- Accessibilité
+- Mobile-first
+
+### Données
+- Qualité données
+- Actualisation
+- Granularité
+- Historique
+
+## Cas d'Usage
+
+### Marketing Digital
+1. **Acquisition**
+   - Traffic sources
+   - Campaign performance
+   - Cost metrics
+   - Conversion rates
+
+2. **Content**
+   - Page performance
+   - Engagement metrics
+   - SEO rankings
+   - Social metrics
+
+3. **E-commerce**
+   - Sales metrics
+   - Product performance
+   - Cart analysis
+   - Customer metrics
+
+## Optimisation Continue
+
+### Maintenance
+- Data cleaning
+- Update fréquence
+- Performance check
+- User feedback
+
+### Évolution
+- Nouveaux KPIs
+- Améliorations UX
+- Automatisation
+- Scalabilité
+
+[Découvrir l'AB Testing →](/marketing/optimisation/ab-testing) 
