@@ -3,37 +3,15 @@ import type { PostSummaryCardProps } from "../../utils/types/content";
 import Card from "./Card.astro";
 import Button from "./Button.astro";
 import Pill from "./Pill.astro";
-import EngagementBadge from "./EngagementBadge.astro";
 import { Image } from "astro:assets";
-import { extractMainTags, getMainTagLabel } from "../../utils/tag-groups";
-import { computeEngagementBadge } from "../../utils/tool-qualification";
-import { getToolDisplayChips } from "../../utils/tool-taxonomy";
+import colors from "../config/colors.json";
+import { normalizeTag } from "../../utils/tags";
 
 type Props = PostSummaryCardProps;
 
 const { post, index = 0 } = Astro.props;
 const { data } = post;
-const isInitialLoad = index < 2;
-const mainTags = extractMainTags(data.tags).slice(0, 2);
-const isToolPost = data.section === "outils";
-const toolDisplayChips = getToolDisplayChips({ id: post.id, data });
-const hasStringImage = typeof data.imgUrl === "string";
-const imageAlt = data.description || data.title;
-const engagementBadge = isToolPost
-	? computeEngagementBadge({
-		qualificationLocale: data.qualificationLocale,
-		ancrageEconomique: data.ancrageEconomique,
-		niveauResponsabilite: data.niveauResponsabilite,
-		paysSiege: data.paysSiege,
-		paysFiscal: data.paysFiscal,
-		paysFondateurs: data.paysFondateurs,
-		hebergementDonnees: data.hebergementDonnees,
-		societeMere: data.societeMere,
-		sourcesVerification: data.sourcesVerification,
-		notesQualification: data.notesQualification,
-		methodologieVersion: data.methodologieVersion,
-	  })
-	: null;
+const isInitialLoad = index < 15;
 /* 
 console.log("PostSummaryCard reçoit:", {
 	postId: post.id,
@@ -42,13 +20,15 @@ console.log("PostSummaryCard reçoit:", {
 	isInitialLoad,
 });
  */
-// Couleur fixe pour les boutons : violet clair (primaire)
-const buttonColor = 'var(--brand-copper)';
+const buttonLightColor =
+	colors.light[Math.floor(Math.random() * colors.light.length)];
+const buttonDarkColor =
+	colors.dark[Math.floor(Math.random() * colors.dark.length)];
 ---
 
-<style define:vars={{ softWhite: 'var(--brand-cream)' }}>
+<style define:vars={{ softWhite: '#FFD35AD9' }}>
 	.post-title {
-		color: var(--brand-black);
+		color: black;
 	}
 
 	:global(.dark) .post-title {
@@ -56,7 +36,7 @@ const buttonColor = 'var(--brand-copper)';
 	}
 
 	.post-description {
-		color: var(--brand-black);
+		color: rgb(31 41 55);
 	}
 
 	:global(.dark) .post-description {
@@ -64,7 +44,7 @@ const buttonColor = 'var(--brand-copper)';
 	}
 
 	.post-image-container {
-		border-color: var(--brand-black);
+		border-color: black;
 	}
 
 	:global(.dark) .post-image-container {
@@ -72,7 +52,7 @@ const buttonColor = 'var(--brand-copper)';
 	}
 
 	.draft-badge {
-		border-color: var(--brand-black);
+		border-color: black;
 	}
 
 	:global(.dark) .draft-badge {
@@ -81,55 +61,41 @@ const buttonColor = 'var(--brand-copper)';
 	}
 </style>
 
-<div>
-	<Card color="var(--brand-cream)">
+<div transition:name={`post-${post.id}`}>
+	<Card color="white">
 		<div class="p-4 rounded-lg transition-colors dark:bg-black">
 			<h3
-				class="post-title poppins text-3xl md:text-4xl font-bold"
+				class="post-title poppins text-lg md:text-xl"
+				transition:name={`title-${post.id}`}
 			>
 				{data.title}
 			</h3>
 			<div
 				class="post-image-container rounded-lg border-3 my-4 h-56 overflow-hidden"
 			>
-				{hasStringImage ? (
-					<img
-						src={data.imgUrl}
-						alt={imageAlt}
-						width="800"
-						height="400"
-						loading={isInitialLoad ? "eager" : "lazy"}
-						decoding={isInitialLoad ? "sync" : "async"}
-						class="rounded h-full w-full object-cover"
-					/>
-				) : (
-					<Image
-						src={data.imgUrl}
-						alt={imageAlt}
-						width={800}
-						height={400}
-						loading={isInitialLoad ? "eager" : "lazy"}
-						decoding={isInitialLoad ? "sync" : "async"}
-						class="rounded h-full w-full object-cover"
-					/>
-				)}
+				<Image
+					src={data.imgUrl}
+					alt={data.title}
+					width={800}
+					height={400}
+					loading={isInitialLoad ? "eager" : "lazy"}
+					decoding={isInitialLoad ? "sync" : "async"}
+					class="rounded h-full w-full object-cover"
+					transition:name={`image-${post.id}`}
+				/>
 			</div>
-			<p class="post-description poppins text-xl md:text-2xl leading-relaxed">
+			<p class="post-description poppins">
 				{data.description}
 			</p>
-			{engagementBadge && (
-				<div class="my-4">
-					<EngagementBadge badge={engagementBadge} compact />
-				</div>
-			)}
 
 			<div class="flex justify-end my-4">
 				<div
-					class="transition-colors hover:bg-white-soft dark:hover:bg-black rounded-lg"
+					class="transition-colors hover:bg-gray-100 dark:hover:bg-gray-900 rounded-lg"
 				>
 					<Button
 						href={`/${post.id}`}
-						color={buttonColor}
+						color={buttonLightColor}
+						darkColor={buttonDarkColor}
 					>
 						<span>Lire plus &rarr;</span>
 					</Button>
@@ -138,36 +104,25 @@ const buttonColor = 'var(--brand-copper)';
 
 			<div class="hidden sm:inline-block">
 				<div class="flex justify-between items-center">
-						<ul class="flex flex-wrap gap-4 mt-2">
-							{isToolPost
-								? toolDisplayChips.map((chip) => (
-									<li>
-										{chip.href ? (
-											<a
-												class="sanchez"
-												href={chip.href}
-											>
-												<Pill>{chip.label}</Pill>
-											</a>
-										) : (
-											<Pill>{chip.label}</Pill>
-										)}
-									</li>
-								))
-								: mainTags.map((mainTag) => (
-									<li>
-										<a
-											class="sanchez"
-											href={`/tag/${encodeURIComponent(mainTag)}`}
-										>
-											<Pill>{getMainTagLabel(mainTag)}</Pill>
-										</a>
-									</li>
-								))}
-						</ul>
+					<ul class="flex flex-wrap gap-4 mt-2">
+						{
+							data.tags.map((tag) => (
+								<li>
+									<a
+										class="sanchez"
+										href={`/tag/${encodeURIComponent(
+											normalizeTag(tag),
+										)}`}
+									>
+										<Pill>{tag}</Pill>
+									</a>
+								</li>
+							))
+						}
+					</ul>
 					{
 						data.draft && (
-							<span class="draft-badge bg-primary rounded-full border-2 py-1 px-4 text-sm card-shadow">
+							<span class="draft-badge bg-green rounded-full border-2 py-1 px-4 text-sm card-shadow">
 								Brouillon
 							</span>
 						)
@@ -177,3 +132,11 @@ const buttonColor = 'var(--brand-copper)';
 		</div>
 	</Card>
 </div>
+
+<style>
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation-duration: 0.3s;
+		animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+</style>

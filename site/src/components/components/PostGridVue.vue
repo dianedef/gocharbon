@@ -33,19 +33,19 @@ const props = withDefaults(defineProps<Props>(), {
 </template>
 
 <style scoped>
-  .loading-spinner {
-    width: var(--sf-auto-global2-postgridvue-width-d7bcf2f7);
-    height: var(--sf-auto-global2-postgridvue-height-8683df3f);
-    border: 5px solid var(--brand-cream);
-    border-top: 5px solid var(--brand-orange);
-    border-radius: var(--sf-auto-global2-postgridvue-border-radius-b1ef582f);
-    animation: var(--sf-auto-global2-postgridvue-animation-4850f29d);
-  }
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
 
-  :global(.dark) .loading-spinner {
-    border-color: var(--brand-coal);
-    border-top-color: var(--brand-yellow);
-  }
+:global(.dark) .loading-spinner {
+    border-color: #374151;
+    border-top-color: #60a5fa;
+}
 
 @keyframes spin {
     0% {

@@ -1,7 +1,7 @@
 ---
 title: "Plan En 5 Étapes Pour Créer Votre Stratégie De Marketing Digital"
 pubDate: 12/31/2022
-author: "Diane"
+author: "Diane Web'Indé"
 tags:
   - Marketing
   - Guide

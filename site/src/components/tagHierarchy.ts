@@ -63,9 +63,7 @@ export const tagHierarchy: TagHierarchy = {
           'Management': { label: 'Management' },
           'Ressources Humaines': { label: 'RH' },
           'Gestion': { label: 'Gestion' },
-          'Gestion de projet': { label: 'Gestion de projet' },
-          'Risques': { label: 'Risques' },
-          'Organisation': { label: 'Organisation' }
+          'Risques': { label: 'Risques' }
         }
       },
       ecommerce: {
@@ -92,9 +90,7 @@ export const tagHierarchy: TagHierarchy = {
           'Partenariats': { label: 'Partenariats' },
           'Concurrence': { label: 'Concurrence' },
           'RSE': { label: 'RSE' },
-          'Éthique': { label: 'Éthique' },
           'Innovation': { label: 'Innovation' },
-          'Développement Durable': { label: 'Développement Durable' }
         }
       }
     }
@@ -110,15 +106,6 @@ export const tagHierarchy: TagHierarchy = {
           'Acquisition': { label: 'Acquisition' }
         }
       },
-      copywriting: {
-        label: 'Copywriting',
-        subtags: {
-          'Frameworks': { label: 'Frameworks' },
-          'Persuasion': { label: 'Persuasion' },
-          'Email Copy': { label: 'Email Copy' },
-          'Direct Response': { label: 'Direct Response' }
-        }
-      },
       publicite: {
         label: 'Publicité',
         subtags: {
@@ -126,26 +113,6 @@ export const tagHierarchy: TagHierarchy = {
           'Facebook Ads': { label: 'Facebook Ads' },
           'Instagram Ads': { label: 'Instagram Ads' },
           'LinkedIn Ads': { label: 'LinkedIn Ads' }
-        }
-      },
-      contentmarketing: {
-        label: 'Content Marketing',
-        subtags: {
-          'Blog': { label: 'Blog' },
-          'Newsletter': { label: 'Newsletter' },
-          'Storytelling': { label: 'Storytelling' },
-          'Lead Magnet': { label: 'Lead Magnet' }
-        }
-      },
-      reseauxsociaux: {
-        label: 'Réseaux Sociaux',
-        subtags: {
-          'Instagram': { label: 'Instagram' },
-          'LinkedIn': { label: 'LinkedIn' },
-          'TikTok': { label: 'TikTok' },
-          'Twitter': { label: 'Twitter' },
-          'Facebook': { label: 'Facebook' },
-          'YouTube': { label: 'YouTube' }
         }
       },
       analytics: {
@@ -201,6 +168,7 @@ export const tagHierarchy: TagHierarchy = {
       outils: {
         label: 'Outils',
         subtags: {
+          'Apps': { label: 'Applications' },
           'IA': { label: 'Intelligence Artificielle' },
           'Scraping': { label: 'Scraping' },
           'Audio': { label: 'Audio' },
@@ -290,8 +258,7 @@ export const tagHierarchy: TagHierarchy = {
       objectifs: {
         label: 'Objectifs',
         subtags: {
-          'Objectifs': { label: 'Objectifs' },
-          'Planification': { label: 'Planification' }
+          'Objectifs': { label: 'Objectifs' }
         }
       },
       mental: {
@@ -299,8 +266,7 @@ export const tagHierarchy: TagHierarchy = {
         subtags: {
           'Mental': { label: 'Mental' },
           'Mindset': { label: 'Mindset' },
-          'Décision': { label: 'Décision' },
-          'Motivation': { label: 'Motivation' }
+          'Décision': { label: 'Décision' }
         }
       },
       connaissances: {
@@ -309,101 +275,6 @@ export const tagHierarchy: TagHierarchy = {
           'Connaissance': { label: 'Connaissance' },
           'Influence': { label: 'Influence' },
           'Rétention': { label: 'Retention' }
-        }
-      },
-      methodes: {
-        label: 'Méthodes',
-        subtags: {
-          'GTD': { label: 'GTD' },
-          'Pomodoro': { label: 'Pomodoro' },
-          'Time Blocking': { label: 'Time Blocking' }
-        }
-      }
-    }
-  },
-  tutoriels: {
-    label: 'Tutoriels',
-    subtags: {
-      guides: {
-        label: 'Guides Pratiques',
-        subtags: {
-          'Débutant': { label: 'Débutant' },
-          'Avancé': { label: 'Avancé' },
-          'Pas à Pas': { label: 'Pas à Pas' }
-        }
-      }
-    }
-  },
-  outils: {
-    label: 'Outils Français',
-    subtags: {
-      marketing: {
-        label: 'Marketing',
-        subtags: {
-          'Email': { label: 'Email Marketing' },
-          'Social Media': { label: 'Réseaux Sociaux' },
-          'SEO': { label: 'SEO' },
-          'Analytics': { label: 'Analytics' },
-          'Affiliation': { label: 'Affiliation' }
-        }
-      },
-      business: {
-        label: 'Business',
-        subtags: {
-          'CRM': { label: 'CRM' },
-          'Facturation': { label: 'Facturation' },
-          'Comptabilité': { label: 'Comptabilité' },
-          'Légal': { label: 'Légal' },
-          'RH': { label: 'Ressources Humaines' }
-        }
-      },
-      productivite: {
-        label: 'Productivité',
-        subtags: {
-          'Gestion Projet': { label: 'Gestion de Projet' },
-          'Collaboration': { label: 'Collaboration' },
-          'Automatisation': { label: 'Automatisation' },
-          'Bureautique': { label: 'Bureautique' }
-        }
-      },
-      creation: {
-        label: 'Création',
-        subtags: {
-          'Design': { label: 'Design' },
-          'Vidéo': { label: 'Vidéo' },
-          'Audio': { label: 'Audio' },
-          'Rédaction': { label: 'Rédaction' }
-        }
-      },
-      ecommerce: {
-        label: 'E-commerce',
-        subtags: {
-          'CMS': { label: 'CMS E-commerce' },
-          'Paiement': { label: 'Paiement' },
-          'Logistique': { label: 'Logistique' }
-        }
-      },
-      tech: {
-        label: 'Tech',
-        subtags: {
-          'Hébergement': { label: 'Hébergement' },
-          'IA': { label: 'Intelligence Artificielle' },
-          'Dev': { label: 'Développement' },
-          'Sécurité': { label: 'Sécurité' }
-        }
-      },
-      communication: {
-        label: 'Communication',
-        subtags: {
-          'Chatbot': { label: 'Chatbot' },
-          'Visio': { label: 'Visioconférence' }
-        }
-      },
-      formation: {
-        label: 'Formation',
-        subtags: {
-          'LMS': { label: 'LMS' },
-          'E-learning': { label: 'E-learning' }
         }
       }
     }

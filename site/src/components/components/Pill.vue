@@ -37,13 +37,7 @@ function handleClick() {
 
 <template>
     <span 
-        :class="[
-            isFilter ? 'brutal-filter-pill' : 'brutal-pill', 
-            { 
-                'bg-active-color': isSelected,
-                'pill-selected': isSelected
-            }
-        ]"
+        :class="[isFilter ? 'brutal-filter-pill' : 'brutal-pill', { 'bg-active-color': isSelected }]"
         :style="{ '--active-color': activeColor }"
         @click="handleClick"
     >
@@ -54,20 +48,20 @@ function handleClick() {
 <style>
 /* Variables globales */
 :root {
-    --softWhite: var(--brand-cream);
+    --softWhite: #FFD35AD9;
 }
 
 .vue-brutal-pill {
-    background-color: var(--background-color, var(--brand-cream));
-    border-radius: var(--sf-auto-global2-pill-border-radius-7b0b6131);
+    background-color: var(--background-color, white);
+    border-radius: 9999px;
     border: 2px solid currentColor;
-    padding: var(--sf-auto-global2-pill-padding-ec978417);
+    padding: 0.25rem 0.75rem;
     font-size: small;
-    color: var(--brand-black);
-    transition: var(--sf-auto-global2-pill-transition-699940c1);
+    color: black;
+    transition: all 0.2s ease-out;
     will-change: transform, background-color, color;
     user-select: none;
-    box-shadow: 3px 3px 0 var(--brand-black);
+    box-shadow: 3px 3px 0 rgb(0 0 0 / 1);
 }
 
 .vue-brutal-pill:hover {
@@ -79,7 +73,7 @@ function handleClick() {
 }
 
 :global(.dark) .vue-brutal-pill {
-    background-color: var(--background-color, var(--brand-ink));
+    background-color: var(--background-color, black);
     color: var(--softWhite);
     box-shadow: 3px 3px 0 var(--softWhite);
 }
@@ -99,23 +93,6 @@ function handleClick() {
 
 :global(.dark) .vue-brutal-pill:hover,
 :global(.dark) .vue-brutal-pill.is-selected {
-    background-color: var(--active-color) !important;
-}
-
-/* Animations pour brutal-filter-pill */
-.brutal-filter-pill:not(.pill-selected):hover {
-    transform: translateX(-10px) rotate(-5deg);
-}
-
-.brutal-filter-pill.pill-selected {
-    transform: translateX(-10px) translateY(-15px);
-}
-
-.brutal-filter-pill.pill-selected.bg-active-color {
-    background-color: var(--active-color) !important;
-}
-
-:global(.dark) .brutal-filter-pill.pill-selected.bg-active-color {
     background-color: var(--active-color) !important;
 }
 </style> 

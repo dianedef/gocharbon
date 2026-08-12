@@ -1,49 +1,25 @@
+import type { CollectionEntry } from "astro:content";
+
 export interface Post {
     id: string;
     data: {
         title: string;
         description: string;
+        pubDate: Date;
+        author: string;
         tags: string[];
-        imgUrl:
-            | string
-            | {
-                  src: string;
-                  width?: number;
-                  height?: number;
-                  format?: string;
-              };
+        imgUrl: {
+            src: string;
+            width: number;
+            height: number;
+            format: string;
+        };
         draft?: boolean;
-        pubDate?: Date | string;
-        author?: string;
-        section?: "blog" | "outils" | "tutos" | "parcours";
-        toolCategoryPrimary?: string;
-        toolSubcategoryPrimary?: string;
-        toolFacets?: string[];
-        qualificationLocale?:
-            | "france"
-            | "union-europeenne"
-            | "hors-union-europeenne"
-            | "indetermine";
-        ancrageEconomique?: "fort" | "partiel" | "faible" | "indetermine";
-        niveauResponsabilite?: "fort" | "partiel" | "faible" | "indetermine";
-        paysSiege?: string;
-        paysFiscal?: string;
-        paysFondateurs?: string[];
-        hebergementDonnees?:
-            | "france"
-            | "union-europeenne"
-            | "hors-union-europeenne"
-            | "multi-region"
-            | "inconnu";
-        societeMere?: string;
-        sourcesVerification?: string[];
-        notesQualification?: string;
-        methodologieVersion?: string;
     };
 }
 
 export interface PostGridProps {
-    posts: Post[];
+    posts: CollectionEntry<"posts">[];
     showLoadingSpinner?: boolean;
     currentPage?: number;
     totalPages?: number;
@@ -51,7 +27,7 @@ export interface PostGridProps {
 }
 
 export interface PostListProps {
-  posts: Post[];
+  posts: CollectionEntry<"posts">[];
 }
 
 export interface RecentPostsProps {
@@ -62,7 +38,6 @@ export interface FilterTagsProps {
   mainTags: string[];
   tagHierarchy: TagHierarchy;
   initialPosts: Post[];
-  scope?: "all" | "outils" | "blog" | "tutos" | "parcours";
 }
 
 export interface PostMetadata {

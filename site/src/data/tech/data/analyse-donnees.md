@@ -1,13 +1,14 @@
 ---
-section: blog
-title: 'L''Analyse de Données : Guide Complet du Traitement à l''Intelligence'
-author: Diane
+title: "L'Analyse de Données : Guide Complet du Traitement à l'Intelligence"
+description: "Découvrez comment transformer des données brutes en informations exploitables, de l'analyse syntaxique à l'intelligence artificielle"
+pubDate: "2024-03-25"
+heroImage: "/blog-placeholder-8.jpg"
+category: "Data"
+author: "Web'Indé"
+imgUrl: "../../../assets/astro.jpeg"
 tags:
-- Tech
-description: Découvrez comment transformer des données brutes en informations exploitables,
-  de l'analyse syntaxique à l'intelligence artificielle
-pubDate: '2024-03-25'
-imgUrl: ../../../assets/astro.jpeg
+  - Data
+  
 ---
 
 

@@ -1,7 +1,7 @@
 <template>
 	<div class="vue-theme-toggle">
 		<button
-			class="w-12 h-12 md:w-8 md:h-8 flex items-center justify-center text-black dark:text-yellow-soft hover:text-primary transition-colors duration-200"
+			class="w-12 h-12 md:w-8 md:h-8 flex items-center justify-center hover:text-green transition-colors duration-200"
 			style="-webkit-tap-highlight-color: transparent;"
 			aria-label="Basculer le thème"
 			@click="toggleTheme"

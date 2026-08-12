@@ -2,19 +2,11 @@
 import BaseNavigation from "../components/components/BaseNavigation.astro";
 import BaseFooter from "../components/components/BaseFooter.astro";
 import BaseHead from "../components/components/BaseHead.astro";
-import NewsletterSaaS from "../components/NewsletterSaaS.astro";
 import type { BaseProps } from "../utils/types/props";
+import { ViewTransitions } from "astro:transitions";
 import "../styles/global.css";
 
-interface ArticleData {
-	author?: string;
-	pubDate?: Date;
-	tags?: string[];
-}
-
-type Props = BaseProps & {
-	article?: ArticleData;
-};
+type Props = BaseProps;
 
 const {
 	title,
@@ -23,47 +15,70 @@ const {
 	pageTitle,
 	ogImage,
 	metaRobots = "index, follow",
-	article,
 } = Astro.props;
 ---
 
-<html lang="fr" class="h-full">
+<html lang="en" class="h-full">
 	<head>
 		<BaseHead
 			ogImage={ogImage}
 			title={title}
 			description={description}
 			metaRobots={metaRobots}
-			article={article}
 		/>
-			<script is:inline>
-				(function() {
-					var theme = localStorage.getItem("theme") ||
-						(window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-					document.documentElement.classList.remove("dark", "light");
-				document.documentElement.classList.add(theme);
-			})();
-			document.addEventListener("astro:after-swap", function() {
-				var theme = localStorage.getItem("theme") ||
-					(window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-					document.documentElement.classList.remove("dark", "light");
-					document.documentElement.classList.add(theme);
-				});
-			</script>
-		</head>
+		<ViewTransitions />
+	</head>
 
-	<body class:list={["charbon-world", classList]}>
+	<body class:list={[classList]}>
 		<BaseNavigation {pageTitle} />
-		<div class="page-background charbon-shell min-h-screen bg-white-soft dark:bg-black">
+		<div class="page-background min-h-screen" transition:persist>
 			<slot />
 		</div>
-		<NewsletterSaaS />
 		<BaseFooter />
 		{
 			import.meta.env.PROD && (
-				<script is:inline async src="https://cdn.onthe.io/io.js/YyAMWtaLLPUi" />
+				<script async src="https://cdn.onthe.io/io.js/YyAMWtaLLPUi" />
 			)
 		}
+		<script>
+			import { useRandomColor } from "../composables/useRandomColor";
+			const { getRandomColor } = useRandomColor();
+
+			function updateBackgroundColor() {
+				const isDark = document.documentElement.classList.contains("dark");
+				const color = getRandomColor(isDark);
+				const element = document.querySelector(
+					".page-background",
+				) as HTMLElement;
+				if (element) {
+					element.style.backgroundColor = color;
+				}
+			}
+
+			// Initialisation immédiate
+			updateBackgroundColor();
+
+			// Mettre à jour la couleur au changement de thème uniquement
+			window.addEventListener("theme-changed", updateBackgroundColor);
+
+			// Gestion des transitions
+			document.addEventListener("astro:before-preparation", () => {
+				// Capturer l'état du thème avant la transition
+				const isDark = document.documentElement.classList.contains("dark");
+				document.documentElement.dataset.previousTheme = isDark
+					? "dark"
+					: "light";
+			});
+
+			document.addEventListener("astro:before-swap", (event) => {
+				// Préserver le thème pendant la transition
+				const previousTheme =
+					document.documentElement.dataset.previousTheme;
+				if (previousTheme === "dark") {
+					event.newDocument.documentElement.classList.add("dark");
+				}
+			});
+		</script>
 		<style is:global>
 			/* Contrôle des transitions */
 			::view-transition-old(*),
@@ -74,8 +89,8 @@ const {
 			/* S'assurer que le fond reste noir en mode sombre pendant la transition */
 			.dark::view-transition-old(*),
 			.dark::view-transition-new(*) {
-				background-color: var(--sf-auto-global2-default-background-color-be50855f);
+				background-color: rgb(0, 0, 0);
 			}
 		</style>
-</body>
+	</body>
 </html>

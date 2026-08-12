@@ -22,24 +22,32 @@
   - Reactive state updates with Vue 3 Composition API
 -->
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue';
-import type { Post, PostsUpdateEvent } from '../../utils/types/content';
-import { tagHierarchy } from '../tagHierarchy';
+import { ref, onMounted, watch, nextTick } from 'vue';
+import type { TagHierarchy, TagCategory } from '../../utils/types/tags';
+import type { Post, FilterTagsProps, PostsUpdateEvent } from '../../utils/types/content';
+import { useRandomColor } from '../../composables/useRandomColor';
 import Pill from './Pill.vue';
+import colors from '../config/colors.json';
 import PostGridVue from './PostGridVue.vue';
 
 interface Props {
     mainTags: string[];           // Top-level tag categories
+    tagHierarchy: TagHierarchy;   // Complete tag structure with subtags
     initialPosts: Post[];         // Posts to show before any filtering
     selectedTags?: string[];      // Pre-selected tags (from URL)
-    scope?: 'all' | 'outils' | 'blog' | 'tutos' | 'parcours';
 }
 
 const props = withDefaults(defineProps<Props>(), {
     mainTags: () => [],
+    tagHierarchy: () => ({
+        // Minimal default structure (should never be used in practice)
+        default: {
+            label: '',
+            subtags: {}
+        }
+    }),
     initialPosts: () => [],
-    selectedTags: () => [],
-    scope: 'all'
+    selectedTags: () => []
 });
 
 // Reactive state for tag selections
@@ -107,7 +115,7 @@ function toggleMainTag(tag: string) {
     
     // Create new array reference (avoids Vue reactivity issues)
     const newSelectedMainTags = [...selectedMainTags.value];
-    const mainTagData = tagHierarchy[tag];
+    const mainTagData = props.tagHierarchy[tag];
     
     if (index === -1) {
         // Tag not selected → add it
@@ -139,8 +147,10 @@ function toggleMainTag(tag: string) {
     // Update state (single update to trigger reactivity once)
     selectedMainTags.value = newSelectedMainTags;
     
-    // Force immediate reactivity update
-    updateFilters();
+    // Wait for DOM to update, then trigger filter update
+    nextTick(() => {
+        updateFilters();
+    });
 }
 
 // Gestion des sous-tags
@@ -151,7 +161,7 @@ function toggleSubTag(mainTag: string, subtagKey: string) {
     } else {
         selectedSubTags.value = selectedSubTags.value.filter(t => t !== subtagKey);
         // Nettoyer les sous-sous-tags associés
-        const mainTagData = tagHierarchy[mainTag];
+        const mainTagData = props.tagHierarchy[mainTag];
         if (mainTagData?.subtags?.[subtagKey]) {
             const subtagData = mainTagData.subtags[subtagKey];
             if (subtagData.subtags) {
@@ -270,7 +280,6 @@ async function loadPosts() {
                 // ...selectedSubTags.value,
                 // ...selectedSubSubTags.value
             ];
-            const perPage = props.scope === 'outils' || props.scope === 'tutos' || props.scope === 'parcours' ? 60 : 15;
             
             if (allSelectedTags.length === 0) {
                 posts.value = props.initialPosts;
@@ -283,24 +292,15 @@ async function loadPosts() {
             // OPTIMIZATION: Single tag uses static API (faster)
             if (allSelectedTags.length === 1) {
                 const mainTag = allSelectedTags[0];
-                const params = new URLSearchParams();
-                if (props.scope !== 'all') {
-                    params.set('scope', props.scope);
-                }
-                params.set('perPage', String(perPage));
-
-                const endpoint = params.toString()
-                    ? `/api/tags/${mainTag}.json?${params}`
-                    : `/api/tags/${mainTag}.json`;
-
-                response = await fetch(endpoint);
+                response = await fetch(`/api/tags/${mainTag}.json`);
                 data = await response.json();
-
+                
                 if (response.ok) {
                     posts.value = data.posts;
-                    totalPages.value = Math.ceil(data.posts.length / perPage);
+                    totalPages.value = Math.ceil(data.posts.length / 15);
+                    console.log('Réponse depuis l\'API statique des tags principaux');
                 }
-            }
+            } 
             // Multiple tags use filter API (may be cached if common combo)
             else {
                 const params = new URLSearchParams();
@@ -308,17 +308,21 @@ async function loadPosts() {
                     params.append('tags', tag.toLowerCase());
                 });
                 params.set('page', currentPage.value.toString());
-                params.set('perPage', String(perPage));
-                if (props.scope !== 'all') {
-                    params.set('scope', props.scope);
-                }
+                params.set('perPage', '15');
 
                 response = await fetch(`/api/filter-posts.json?${params}`);
                 data = await response.json();
 
                 if (response.ok) {
                     posts.value = data.posts;
-                    totalPages.value = Math.ceil(data.posts.length / perPage);
+                    totalPages.value = Math.ceil(data.posts.length / 15);
+                    
+                    console.log('=== Détails de la réponse API ===');
+                    console.log('Tags sélectionnés:', allSelectedTags);
+                    console.log('Données reçues:', data);
+                    console.log('Nombre de posts:', data.posts.length);
+                    console.log('Titres des posts:', data.posts.map((p: Post) => p.data.title));
+                    console.log('================================');
                 }
             }
 
@@ -372,7 +376,7 @@ onMounted(() => {
             } else {
                 // Vérifier si c'est un sous-tag ou un sous-sous-tag
                 for (const mainTag of props.mainTags) {
-                    const mainTagData = tagHierarchy[mainTag];
+                    const mainTagData = props.tagHierarchy[mainTag];
                     if (mainTagData?.subtags && Object.keys(mainTagData.subtags).includes(tag)) {
                         selectedSubTags.value.push(tag);
                         return;
@@ -396,37 +400,31 @@ onMounted(() => {
 
 <template>
     <div>
-        <div class="tags-filter">
-            <div class="filters-shell">
-                <div class="filters-head">
-                    <p class="filters-title">Filtres</p>
-                    <div class="filters-actions">
-                        <span class="filters-count">
-                            {{ selectedMainTags.length }} actif<span v-if="selectedMainTags.length > 1">s</span>
-                        </span>
-                        <button
-                            v-if="selectedMainTags.length > 0"
-                            type="button"
-                            class="filters-reset"
-                            @click="resetFilters"
-                        >
-                            Réinitialiser
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Tags principaux -->
-                <ul class="tags-list">
+        <div class="tags-filter space-y-0.5 md:space-y-4 sticky top-[68px] md:top-[72px] z-[9999] py-2 md:py-3">
+            <!-- Tags principaux -->
+            <div>
+                <ul class="flex flex-wrap gap-1 md:gap-4 justify-center">
                     <li v-for="tag in mainTags" :key="tag">
-                        <label class="cursor-pointer mobile-pill-wrapper" @click.prevent="toggleMainTag(tag)">
-                            <Pill 
-                                :is-selected="selectedMainTags.includes(tag)" 
-                                :content="tagHierarchy[tag]?.label || tag" 
-                                :is-filter="true"
-                                class="mobile-pill"
-                            >
-                                {{ tagHierarchy[tag]?.label || tag }}
-                            </Pill>
+                        <label class="cursor-pointer mobile-pill-wrapper">
+                            <input
+                                type="checkbox"
+                                name="main-tag-filter"
+                                :value="tag"
+                                class="hidden main-tag-checkbox"
+                                :data-category="tag"
+                                :checked="selectedMainTags.includes(tag)"
+                                @change="toggleMainTag(tag)"
+                            />
+                            <a class="sanchez inline-flex items-center">
+                                <Pill 
+                                    :is-selected="selectedMainTags.includes(tag)" 
+                                    :content="tagHierarchy[tag]?.label || tag" 
+                                    :is-filter="true"
+                                    class="mobile-pill"
+                                >
+                                    {{ tagHierarchy[tag]?.label || tag }}
+                                </Pill>
+                            </a>
                         </label>
                     </li>
                 </ul>
@@ -514,3 +512,65 @@ onMounted(() => {
         </div>
     </div>
 </template>
+
+<style scoped>
+.tags-filter {
+    transition: opacity 0.3s ease-out;
+}
+
+.subtags-container,
+.subsubtags-container {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.subtags-container:not(.hidden),
+.subsubtags-container:not(.hidden) {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation pour le chargement */
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.infinite-hidden {
+    display: none;
+}
+
+/* Les styles des pills ont été migrés vers UnoCSS dans brutal-filter-pill */
+
+/* Ajustements pour mobile */
+@media (max-width: 640px) {
+    :deep(.mobile-pill) {
+        font-size: 0.5rem !important;
+        line-height: 0.625rem !important;
+        padding: 0.125rem 0.375rem !important;
+        transform: scale(0.5) !important;
+        transform-origin: center !important;
+    }
+
+    :deep(.mobile-pill-wrapper) {
+        transform: scale(0.75);
+        transform-origin: center;
+    }
+
+    :deep(.brutal-filter-pill),
+    :deep(.brutal-pill) {
+        font-size: 0.5rem !important;
+        padding: 0.125rem 0.375rem !important;
+    }
+}
+</style> 

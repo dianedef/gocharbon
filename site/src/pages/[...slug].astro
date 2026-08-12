@@ -1,10 +1,9 @@
 ---
 import { type CollectionEntry, render, getCollection } from "astro:content";
 import Layout from "@layouts/Post.astro";
-import { filterBuildVisiblePosts } from "../utils/build-posts";
 
 export async function getStaticPaths() {
-	const postEntries = filterBuildVisiblePosts(await getCollection("posts"));
+	const postEntries = await getCollection("posts");
 	return postEntries.map((post) => ({
 		params: { slug: post.id },
 		props: { post },
@@ -27,25 +26,6 @@ const { Content } = await render(post);
 	headings={post.rendered?.metadata?.headings}
 	id={post.id}
 	imgUrl={post.data.imgUrl}
-	tags={post.data.tags}
-	section={post.data.section}
-	toolCategoryPrimary={post.data.toolCategoryPrimary}
-	toolSubcategoryPrimary={post.data.toolSubcategoryPrimary}
-	toolFacets={post.data.toolFacets}
-	toolQualification={{
-		qualificationLocale: post.data.qualificationLocale,
-		ancrageEconomique: post.data.ancrageEconomique,
-		niveauResponsabilite: post.data.niveauResponsabilite,
-		paysSiege: post.data.paysSiege,
-		paysFiscal: post.data.paysFiscal,
-		paysFondateurs: post.data.paysFondateurs,
-		hebergementDonnees: post.data.hebergementDonnees,
-		societeMere: post.data.societeMere,
-		sourcesVerification: post.data.sourcesVerification,
-		notesQualification: post.data.notesQualification,
-		methodologieVersion: post.data.methodologieVersion,
-		metadataEnrichedAt: post.data.metadataEnrichedAt,
-	}}
 >
 	<Content />
 </Layout>

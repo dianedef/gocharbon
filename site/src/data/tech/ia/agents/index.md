@@ -1,13 +1,15 @@
 ---
-section: blog
-title: 'AGENTS IA : LES ASSISTANTS INTELLIGENTS DU FUTUR'
-author: Diane
+title: "AGENTS IA : LES ASSISTANTS INTELLIGENTS DU FUTUR"
+description: "Guide complet sur les agents IA : comprendre ce qu'ils sont, comment ils fonctionnent et comment les utiliser efficacement dans vos projets"
+pubDate: "2024-03-26"
+category: "Tech"
+author: "Web'Indé"
+imgUrl: "../../../../assets/astro.jpeg"
 tags:
-- Tech
-description: 'Guide complet sur les agents IA : comprendre ce qu''ils sont, comment
-  ils fonctionnent et comment les utiliser efficacement dans vos projets'
-pubDate: '2024-03-26'
-imgUrl: ../../../../assets/astro.jpeg
+  - IA
+  - Agents
+  - Automatisation
+  - Innovation
 ---
 
 # AGENTS IA : Les Assistants Intelligents qui Révolutionnent notre Façon de Travailler

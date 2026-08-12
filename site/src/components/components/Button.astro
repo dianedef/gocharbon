@@ -2,26 +2,47 @@
 import type { ButtonProps } from "../../utils/types/ui";
 import colors from "../config/colors.json";
 
-type Props = ButtonProps & { variant?: 'default' | 'hero' };
+type Props = ButtonProps;
 
 const {
 	href,
 	target = "_self",
 	color = colors.light[Math.floor(Math.random() * colors.light.length)],
 	darkColor = colors.dark[Math.floor(Math.random() * colors.dark.length)],
-	variant = 'default'
 } = Astro.props;
-
-const shadowColor = variant === 'hero' ? 'var(--brand-yellow)' : 'var(--brand-yellow)';
-const rel = target === "_blank" ? "noopener noreferrer" : undefined;
 ---
 
-<a
-	href={href}
-	target={target}
-	rel={rel}
-	class="brutal-btn brutal-btn-astro"
-	style={`--button-color: ${color}; --button-shadow-color: ${shadowColor};`}
->
+<style define:vars={{ color, darkColor, softWhite: '#FFD35AD9' }}>
+	a.brutal-btn {
+		filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+		background-color: white;
+		display: inline-block;
+		padding: 0.5rem 1rem;
+		border: 2px solid black;
+		transition: all;
+		transition-duration: 0.5s;
+		animation: ease-in-out;
+		font-family: "Sanchez", serif;
+	}
+	a.brutal-btn:hover {
+		filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
+		background-color: var(--color);
+	}
+
+	:global(.dark) a.brutal-btn {
+		filter: drop-shadow(5px 5px 0 var(--softWhite));
+		background-color: black;
+		border: 2px solid var(--softWhite);
+		color: var(--softWhite);
+	}
+
+	:global(.dark) a.brutal-btn:hover {
+		filter: drop-shadow(3px 3px 0 var(--softWhite));
+		background-color: var(--darkColor);
+		color: var(--softWhite);
+	}
+</style>
+
+<a href={href} target={target} class="brutal-btn">
 	<slot />
 </a>

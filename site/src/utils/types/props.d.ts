@@ -19,10 +19,6 @@ export interface PostProps {
 	title: string;
 	id: string;
 	imgUrl: ImageMetadata;
-	section?: "blog" | "outils" | "tutos" | "parcours";
-	toolCategoryPrimary?: string;
-	toolSubcategoryPrimary?: string;
-	toolFacets?: string[];
 }
 
 export interface PostCardProps {
@@ -35,17 +31,11 @@ export interface PostSideBarProps {
 }
 
 export interface PostContentProps {
-	postId: string;
 	pubDate: Date;
 	author: string;
-	section?: "blog" | "outils" | "tutos" | "parcours";
-	toolCategoryPrimary?: string;
-	toolSubcategoryPrimary?: string;
-	toolFacets?: string[];
 }
 
 export interface FilterTagsProps {
 	mainTags: string[];
 	selectedTags?: string[];
-	scope?: "all" | "outils" | "blog" | "tutos" | "parcours";
-}
+} 

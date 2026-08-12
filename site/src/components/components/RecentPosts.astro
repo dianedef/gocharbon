@@ -3,7 +3,6 @@ import { getCollection } from "astro:content";
 import PostList from "./PostList.astro";
 import Card from "./Card.astro";
 import Button from "./Button.astro";
-import { filterBuildVisiblePosts } from "../../utils/build-posts";
 
 interface Props {
 	count?: number;
@@ -12,8 +11,6 @@ interface Props {
 const { count } = Astro.props;
 
 const posts = await getCollection("posts").then((posts) =>
-	filterBuildVisiblePosts(posts)
-).then((posts) =>
 	posts.reverse().slice(0, count ?? 3),
 );
 ---
@@ -26,7 +23,7 @@ const posts = await getCollection("posts").then((posts) =>
 			<h2
 				class:list={[
 					"text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif",
-					"dark:text-yellow-soft",
+					"dark:text-[#FFD35AD9]",
 				]}
 			>
 				Publications Récentes

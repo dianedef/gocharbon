@@ -1,23 +1,12 @@
 ---
 import LocalFont from "./LocalFont.astro";
 import type { BaseProps } from "../../utils/types/props";
-import { SITE, formatDocumentTitle, getSiteUrl } from "../../config/site";
-import { ROUTES } from "../../config/routes";
-import { resolveMetaRobots } from "../../utils/indexation";
-import { isParcoursOnlyBuild } from "../../utils/build-scope";
-
-interface ArticleData {
-	author?: string;
-	pubDate?: Date;
-	tags?: string[];
-}
+import { ClientRouter } from "astro:transitions";
 
 type Props = Pick<
 	BaseProps,
 	"title" | "description" | "ogImage" | "metaRobots"
-> & {
-	article?: ArticleData;
-};
+>;
 
 const canonicalURL = Astro.site
 	? new URL(Astro.url.pathname, Astro.site)
@@ -33,145 +22,44 @@ const ogImagePath =
 // Construction de l'URL OG complète de manière sécurisée
 const fullOgImageUrl = Astro.site
 	? new URL(ogImagePath.replace(/^\//, ""), Astro.site)
-	: new URL(ogImagePath, SITE.url);
+	: new URL(ogImagePath, "https://webinde.fr");
 
-const { title, description, article } = Astro.props;
-const metaRobots = resolveMetaRobots(Astro.url.pathname, Astro.props.metaRobots);
-const documentTitle = formatDocumentTitle(title);
-const feedUrl = getSiteUrl(ROUTES.feed);
-const launchBuild = isParcoursOnlyBuild();
-
-// Génération du JSON-LD pour les articles de blog
-const isArticle = !!article;
-const blogPostingSchema = isArticle
-	? {
-			"@context": "https://schema.org",
-			"@type": "BlogPosting",
-			headline: title,
-			description: description,
-			image: fullOgImageUrl.toString(),
-			url: canonicalURL.toString(),
-			datePublished: article.pubDate?.toISOString(),
-			author: {
-				"@type": "Person",
-				name: article.author || SITE.nameUpper,
-			},
-			publisher: {
-				"@type": SITE.publisherType,
-				name: SITE.nameUpper,
-				url: SITE.url,
-			},
-			mainEntityOfPage: {
-				"@type": "WebPage",
-				"@id": canonicalURL.toString(),
-			},
-		}
-	: null;
-
-// Breadcrumbs JSON-LD
-const pathSegments = Astro.url.pathname.split("/").filter(Boolean);
-const breadcrumbItems = [
-	{
-		"@type": "ListItem",
-		position: 1,
-		name: "Accueil",
-		item: SITE.url,
-	},
-];
-
-if (pathSegments.length > 0) {
-	// Ajouter Blog comme niveau intermédiaire pour les articles
-	if (isArticle) {
-		breadcrumbItems.push({
-			"@type": "ListItem",
-			position: 2,
-			name: "Blog",
-			item: getSiteUrl(ROUTES.blog),
-		});
-		breadcrumbItems.push({
-			"@type": "ListItem",
-			position: 3,
-			name: title,
-			item: canonicalURL.toString(),
-		});
-	} else if (pathSegments[0] === "blog") {
-		breadcrumbItems.push({
-			"@type": "ListItem",
-			position: 2,
-			name: "Blog",
-			item: canonicalURL.toString(),
-		});
-	}
-}
-
-const breadcrumbSchema = {
-	"@context": "https://schema.org",
-	"@type": "BreadcrumbList",
-	itemListElement: breadcrumbItems,
-};
-
-// Organisation / WebSite schema (homepage only)
-const isHomepage = Astro.url.pathname === "/" || Astro.url.pathname === "";
-const websiteSchema = isHomepage
-	? {
-			"@context": "https://schema.org",
-			"@type": "WebSite",
-			name: SITE.nameUpper,
-			url: SITE.url,
-			description: SITE.descriptions.default,
-			inLanguage: "fr",
-			publisher: {
-				"@type": SITE.publisherType,
-				name: SITE.nameUpper,
-				url: SITE.url,
-			},
-		}
-	: null;
+const { title, description, metaRobots = "index, follow" } = Astro.props;
 ---
 
-<LocalFont />
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="generator" content={Astro.generator} />
-<meta name="robots" content={metaRobots} />
+<head>
+	<LocalFont />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="generator" content={Astro.generator} />
+	<meta name="robots" content={metaRobots} />
+	<ClientRouter />
 
-{!launchBuild && (
 	<link
 		rel="alternate"
-		href={feedUrl}
+		href="https://webinde.fr/feed.xml"
 		type="application/rss+xml"
 	/>
-)}
 
-<meta name="title" content={documentTitle} />
-<meta name="description" content={description} />
+	<meta name="title" content={`Web'Indé | ${title}`} />
+	<meta name="description" content={description} />
 
-<meta property="og:type" content={isArticle ? "article" : "website"} />
-<meta property="og:url" content={canonicalURL} />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
-<meta property="og:image" content={fullOgImageUrl} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={canonicalURL} />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:image" content={fullOgImageUrl} />
 
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={canonicalURL} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={fullOgImageUrl} />
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content={canonicalURL} />
+	<meta property="twitter:title" content={title} />
+	<meta property="twitter:description" content={description} />
+	<meta property="twitter:image" content={fullOgImageUrl} />
 
-<link rel="canonical" href={canonicalURL} />
-<link rel="icon" type="image/svg" href="/favicon.svg" />
+	<link rel="canonical" href={canonicalURL} />
+	<link rel="icon" type="image/svg" href="/favicon.svg" />
 
-<title>{documentTitle}</title>
+	<title>Web'Indé | {title}</title>
 
-<!-- JSON-LD Structured Data -->
-{breadcrumbItems.length > 1 && (
-	<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-)}
-{blogPostingSchema && (
-	<script type="application/ld+json" set:html={JSON.stringify(blogPostingSchema)} />
-)}
-{websiteSchema && (
-	<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
-)}
-
-<slot />
+	<slot />
+</head>

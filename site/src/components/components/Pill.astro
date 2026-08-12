@@ -12,52 +12,52 @@ const darkColorRandom =
 const { color = lightColor, darkColor = darkColorRandom } = Astro.props;
 ---
 
-<style define:vars={{ color, darkColor, shadowColor: 'var(--brand-yellow)' }}>
+<style define:vars={{ color, darkColor, softWhite: '#FFD35AD9' }}>
 	span.brutal-pill {
-		filter: var(--sf-auto-global2-pill-filter-cf0e3b17);
+		filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
 		user-select: none;
-		background-color: var(--background-color, var(--brand-cream));
-		border-radius: var(--sf-auto-global2-pill-border-radius-1afca461);
-		border: 2px solid var(--border-color, var(--brand-black));
-		padding: var(--sf-auto-global2-pill-padding-e9030e6c);
-		transition: var(--sf-auto-global2-pill-transition-9a52202a);
+		background-color: var(--background-color, white);
+		border-radius: 9999px;
+		border: 2px solid var(--border-color, black);
+		padding: 0.25rem 0.75rem;
+		transition: all 0.3s ease-in-out;
 		font-size: small;
-		color: var(--text-color, var(--brand-black));
+		color: var(--text-color, black);
 	}
 
 	span.brutal-pill:hover {
-		filter: var(--sf-auto-global2-pill-filter-b7c7e271);
+		filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
 		background-color: var(--color);
 		transform: translateY(-2px);
 	}
 
 	/* Mode sombre */
 	:global(.dark) span.brutal-pill {
-		--background-color: var(--brand-ink);
-		--border-color: var(--shadowColor);
-		--text-color: var(--shadowColor);
-		filter: drop-shadow(3px 3px 0 var(--shadowColor));
+		--background-color: black;
+		--border-color: var(--softWhite);
+		--text-color: var(--softWhite);
+		filter: drop-shadow(3px 3px 0 var(--softWhite));
 	}
 
 	:global(.dark) span.brutal-pill:hover {
-		filter: drop-shadow(5px 5px 0 var(--shadowColor));
+		filter: drop-shadow(5px 5px 0 var(--softWhite));
 		background-color: var(--darkColor);
-		color: var(--shadowColor);
+		color: var(--softWhite);
 	}
 
 	/* Style pour les pills sélectionnées - Mode clair */
 	:global(input:checked + a) span.brutal-pill {
-		background-color: var(--selected-color, var(--brand-black)) !important;
-		color: var(--brand-cream) !important;
-		border-color: var(--brand-black);
+		background-color: var(--selected-color, black) !important;
+		color: white !important;
+		border-color: black;
 	}
 
 	/* Style pour les pills sélectionnées - Mode sombre */
 	:global(.dark input:checked + a) span.brutal-pill {
-		background-color: var(--selected-color, var(--shadowColor)) !important;
-		color: var(--shadowColor) !important;
-		border-color: var(--shadowColor);
-		filter: drop-shadow(3px 3px 0 var(--shadowColor));
+		background-color: var(--selected-color, var(--softWhite)) !important;
+		color: var(--softWhite) !important;
+		border-color: var(--softWhite);
+		filter: drop-shadow(3px 3px 0 var(--softWhite));
 	}
 </style>
 

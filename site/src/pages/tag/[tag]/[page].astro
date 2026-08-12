@@ -3,40 +3,89 @@ import { getCollection } from "astro:content";
 import Layout from "../../../layouts/Default.astro";
 import FilterTags from "../../../components/components/FilterTags.vue";
 import PostGrid from "../../../components/components/PostGrid.astro";
-import { toPostPreviews } from "../../../utils/post-preview";
-import { MAIN_TAGS, getMainTagLabel } from "../../../utils/tag-groups";
+import { tagHierarchy } from "../../../components/tagHierarchy";
+import type { Post, PostsUpdateEvent } from "../../../utils/types/content";
+
+// Récupération des posts initiaux pour le SSG
+const allPosts = await getCollection("posts");
+const initialPosts = allPosts
+	.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+	.slice(0, 15);
+
+const mainTags = Object.keys(tagHierarchy);
+const totalPages = Math.ceil(allPosts.length / 15);
 
 export async function getStaticPaths() {
-	// Archive pagination is intentionally disabled to keep the tag surface focused.
-	// Canonical archive entrypoints are /tag/[tag] only.
-	return [];
+	const allPosts = await getCollection("posts");
+
+	// Collecter tous les tags uniques utilisés dans les posts
+	const allTags = new Set<string>();
+	allPosts.forEach((post) => {
+		post.data.tags.forEach((tag) => {
+			allTags.add(tag.toLowerCase());
+		});
+	});
+
+	const paths = [];
+
+	for (const tag of allTags) {
+		const safeTag = encodeURIComponent(tag.toLowerCase());
+		const filteredPosts = allPosts
+			.filter((post) =>
+				post.data.tags
+					.map((t) => t.toLowerCase())
+					.includes(tag.toLowerCase()),
+			)
+			.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+		// Calculer le nombre total de pages pour ce tag
+		const totalPages = Math.ceil(filteredPosts.length / 15);
+
+		// Générer un chemin pour chaque page
+		for (let page = 1; page <= totalPages; page++) {
+			const postsForPage = filteredPosts.slice((page - 1) * 15, page * 15);
+			paths.push({
+				params: {
+					tag: safeTag,
+					page: page.toString(),
+				},
+				props: {
+					posts: postsForPage,
+					tag,
+					currentPage: page,
+					totalPages,
+				},
+			});
+		}
+	}
+
+	return paths;
 }
 
-const { tag, posts } = Astro.props;
-const isToolTag = tag === "outils";
-const mainTags = isToolTag ? ["outils"] : MAIN_TAGS;
+const { tag: encodedTag, posts } = Astro.props;
+const tag = decodeURIComponent(encodedTag);
 const selectedTags = [tag];
-const clientPosts = toPostPreviews(posts);
-const tagLabel = getMainTagLabel(tag);
 ---
 
 <Layout
-	title={`Tag ${tagLabel} | GoCharbon`}
-	description={`Explore les contenus GoCharbon liés à ${tagLabel}.`}
-	pageTitle={`Tag ${tagLabel}`}
-	metaRobots="noindex, follow"
+	title={`Posts - ${tagHierarchy[tag]?.label || tag}`}
+	description={`Web'Indé | Posts tagged with ${
+		tagHierarchy[tag]?.label || tag
+	}`}
+	pageTitle={`Posts - ${tagHierarchy[tag]?.label || tag}`}
+	metaRobots="index, follow"
 >
 	<main
 		class="page-background bg-gray-2 dark:bg-gray-8 p-6"
 		transition:name="posts-container"
 	>
-			<FilterTags
-				mainTags={mainTags}
-				initialPosts={clientPosts}
-				selectedTags={selectedTags}
-				scope={isToolTag ? "outils" : "all"}
-				client:visible
-			/>
+		<FilterTags
+			mainTags={mainTags}
+			tagHierarchy={tagHierarchy}
+			initialPosts={posts}
+			selectedTags={selectedTags}
+			client:load
+		/>
 		{
 			posts.length > 0 ? (
 				<div>
@@ -49,9 +98,34 @@ const tagLabel = getMainTagLabel(tag);
 				</div>
 			) : (
 				<p class="text-center py-10">
-					Aucun post trouvé pour le tag {tagLabel}
+					Aucun post trouvé pour le tag {tagHierarchy[tag]?.label || tag}
 				</p>
 			)
 		}
 	</main>
 </Layout>
+
+<script>
+	import colors from "../../../components/config/colors.json";
+
+	function setRandomBackgroundColor() {
+		const isDark = document.documentElement.classList.contains("dark");
+		const colorArray = isDark ? colors.dark : colors.light;
+		const randomColor =
+			colorArray[Math.floor(Math.random() * colorArray.length)];
+		const element = document.querySelector(".page-background") as HTMLElement;
+		element?.style.setProperty("background-color", randomColor);
+	}
+
+	// Initialisation
+	document.addEventListener("astro:page-load", setRandomBackgroundColor);
+
+	// Gestion du changement de thème
+	document.addEventListener("theme-changed", setRandomBackgroundColor);
+</script>
+
+<style>
+	.page-background {
+		transition: background-color 0.3s ease;
+	}
+</style>

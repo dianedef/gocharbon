@@ -1,0 +1,7 @@
+.astro
+node_modules
+dist
+.env
+.env.production
+coucou/
+.aider*

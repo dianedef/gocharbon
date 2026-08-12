@@ -1,11 +1,11 @@
 ---
 title: "uTest La Plateforme Idéale Pour Gagner de l'Argent En Testant des Applications"
 pubDate: 11/09/2022
-author: "Diane"
+author: "Diane Web'Indé"
 tags:
   - Freelancing
   - Business en Ligne
-  - Outils
+  - Apps
 imgUrl: '../../../assets/astro.jpeg'
 description: "Découvre une plateforme pour gagner de l'argent sur le web"
 slug: utest-gagner-argent-tests-applications
@@ -58,7 +58,7 @@ Tu auras aussi des invitations directement sur ton tableau de bord pour les proj
 
 ### 4. Testes, Rapportes et Soies Rémunéré !
 
-Une fois accepté dans un projet, tu recevras des instructions détaillées. Tu exécuteras les tests conformément aux directives (trouver des bugs, faire des enregistrements audios ou vidéo, etc), et tu enverras le résultat de ton travail via le système de rapport de uTest. Après soumission, il sera examiné et tu seras payé pour chaque tâche approuvée.
+Une fois accepté dans un projet, tu recevras des instructions détaillées. Tu exécuteras les tests conformément aux directives (trouver des bugs, faire des enregistrements audios ou video, etc), et tu enverras le résultat de ton travail via le système de rapport de uTest. Après soumission, il sera examiné et tu seras payé pour chaque tâche approuvée.
 
 ### 5. Recevez Vos Paiements Rapidement : Gagnez de l'Argent En Un Clin d'Œil
 

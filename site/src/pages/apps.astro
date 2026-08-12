@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Default.astro";
+import FilterTags from "../components/components/FilterTags.vue";
+import { tagHierarchy } from "../components/tagHierarchy";
+import colors from "../components/config/colors.json";
+import type { TagHierarchy } from "../utils/types/tags";
+
+const posts = await getCollection("posts")
+	.then((collection) =>
+		collection.filter((post) =>
+			post.data.tags
+				.map((tag: string) => tag.toLowerCase())
+				.includes("apps"),
+		),
+	)
+	.then((filtered) => filtered.reverse());
+
+const mainTags = Object.keys(tagHierarchy);
+---
+
+<Layout title="Apps" description="Web'Indé | Apps" pageTitle="Apps'Indé">
+	<main class="px-2 md:px-6 py-6 max-w-7xl mx-auto">
+		<!-- Zone de contenu dynamique -->
+		<div id="dynamic-content">
+			<!-- Composant Vue pour le filtrage -->
+			<FilterTags
+				client:visible
+				mainTags={mainTags}
+				tagHierarchy={tagHierarchy}
+				initialPosts={posts}
+			/>
+		</div>
+	</main>
+</Layout>
+
+<style>
+	.page-background {
+		transition: background-color 0.3s ease;
+	}
+</style>

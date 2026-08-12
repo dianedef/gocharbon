@@ -19,8 +19,6 @@ import type { APIRoute } from 'astro';
 import { getTagPosts, isMainTag } from '../../../utils/static-responses';
 import { cacheConfig } from '../../../config/tags';
 import { tagHierarchy } from '../../../components/tagHierarchy';
-import { parseContentScope } from '../../../utils/content-section';
-import { toPostPreviews } from '../../../utils/post-preview';
 
 /**
  * Pre-generates routes for all main tags at build time
@@ -55,11 +53,9 @@ export async function getStaticPaths() {
  * @param {Object} context - Astro API context with params and props
  * @returns {Response} JSON response with posts or error
  */
-export const GET: APIRoute = async ({ params, props, url }) => {
+export const GET: APIRoute = async ({ params, props }) => {
     try {
         const tag = params.tag?.toLowerCase();
-        const scope = parseContentScope(url.searchParams.get('scope'));
-        const perPage = parseInt(url.searchParams.get('perPage') || '15');
         if (!tag) {
             return new Response(JSON.stringify({
                 error: 'Tag non spécifié'
@@ -72,14 +68,12 @@ export const GET: APIRoute = async ({ params, props, url }) => {
         }
 
         // Fetch posts for this tag (with date sorting)
-        const posts = await getTagPosts(tag, 1, scope, perPage);
-        const postPreviews = toPostPreviews(posts);
+        const posts = await getTagPosts(tag);
         const isStatic = props?.isMainTag || isMainTag(tag);
 
         return new Response(JSON.stringify({
             tag,
-            posts: postPreviews,
-            scope,
+            posts,
             isStatic
         }), {
             status: 200,

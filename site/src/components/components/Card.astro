@@ -9,18 +9,18 @@ const {
 } = Astro.props;
 ---
 
-<style define:vars={{ color, softWhite: 'var(--brand-cream)' }}>
+<style define:vars={{ color, softWhite: '#FFD35AD9' }}>
 	.brutal-card-astro {
 		background-color: var(--color);
-		border-radius: var(--sf-auto-global2-card-border-radius-bd133203);
-		border: 3px solid var(--brand-black);
-		filter: var(--sf-auto-global2-card-filter-dd6e7d04);
-		padding: var(--sf-auto-global2-card-padding-166f12be);
-		color: var(--brand-black);
+		border-radius: 0.5rem;
+		border: 3px solid black;
+		filter: drop-shadow(7px 7px 0 rgb(0 0 0 / 1));
+		padding: 1rem;
+		color: black;
 	}
 
 	:global(.dark) .brutal-card-astro {
-		background-color: var(--brand-ink);
+		background-color: black;
 		border: 3px solid var(--softWhite);
 		filter: drop-shadow(7px 7px 0 var(--softWhite));
 		color: var(--softWhite);

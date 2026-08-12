@@ -1,12 +1,13 @@
 ---
-section: blog
-title: 'Cycle de Vie des Données : De la Collecte à l''Archivage'
-author: Diane
+title: "Cycle de Vie des Données : De la Collecte à l'Archivage"
+description: "Guide complet sur la gestion du cycle de vie des données en entreprise"
+pubDate: "2024-03-25"
+category: "Tech"
+author: "Web'Indé"
+imgUrl: "../../../assets/astro.jpeg"
 tags:
-- Tech
-description: Guide complet sur la gestion du cycle de vie des données en entreprise
-pubDate: '2024-03-25'
-imgUrl: ../../../assets/astro.jpeg
+  - Data
+  
 ---
 
 

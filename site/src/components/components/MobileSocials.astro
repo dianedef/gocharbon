@@ -2,17 +2,17 @@
 const socials = [
   {
 		name: "YouTube",
-		url: "https://www.youtube.com/@charbon",
+		url: "https://www.youtube.com/@webindefr",
 		icon: "i-uil-youtube",
   },
   /*   {
     name: 'Twitter',
-    url: 'https://x.com/charbon',
+    url: 'https://x.com/webindefr',
     icon: 'i-uil-twitter',
   }, */
   {
 		name: "Instagram",
-		url: "https://www.instagram.com/charbon",
+		url: "https://www.instagram.com/webindefr",
 		icon: "i-uil-instagram",
   },
   /*   {
@@ -22,12 +22,12 @@ const socials = [
   }, */
   {
 		name: "LinkedIn",
-		url: "https://www.linkedin.com/company/charbon",
+		url: "https://www.linkedin.com/company/webindefr",
 		icon: "i-uil-linkedin",
   },
   {
 		name: "Facebook",
-		url: "https://www.facebook.com/charbon/",
+		url: "https://www.facebook.com/dianewebinde/",
 		icon: "i-uil-facebook",
 	},
   ];
@@ -38,7 +38,7 @@ const socials = [
 	<ul class="flex justify-between">
     {
       socials.map((item) => (
-				<li class="bg-white dark:bg-gray-blue px-4 py-2 text-primary dark:text-yellow-gold border-black dark:border-white border-2 rounded card-shadow">
+				<li class="bg-white dark:bg-gray-800 px-4 py-2 text-green dark:text-green-400 border-black dark:border-white border-2 rounded card-shadow">
 					<a href={item.url} target="_blank" title={`Go to ${item.name}`}>
 						<div class:list={[item.icon, "p-6 max-sm:p-4"]} />
           </a>

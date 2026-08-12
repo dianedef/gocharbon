@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/app
+      - /app/node_modules
+    networks:
+      - dokploy-network
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.webinde.rule=Host(`webinde.164-92-221-78.nip.io`)"
+      - "traefik.http.routers.webinde.entrypoints=web"
+      - "traefik.http.services.webinde.loadbalancer.server.port=4321"
+
+networks:
+  dokploy-network:
+    external: true

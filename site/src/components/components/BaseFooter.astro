@@ -1,46 +1,10 @@
 ---
-import { SITE } from "../../config/site";
-import { ROUTES } from "../../config/routes";
-import { isParcoursOnlyBuild } from "../../utils/build-scope";
-
 export interface Props {
 	backToTop?: boolean;
 }
 
 const { backToTop = false } = Astro.props;
-
-const launchBuild = isParcoursOnlyBuild();
-const navigationLinks = launchBuild
-	? [{ name: "Parcours", url: ROUTES.parcours }]
-	: [
-		{ name: "Parcours", url: ROUTES.parcours },
-		{ name: "Outils", url: ROUTES.outils },
-		{ name: "Méthodologie", url: ROUTES.methodologie },
-		{ name: "Blog", url: ROUTES.blog },
-		{ name: "Tutos", url: ROUTES.tutos },
-		{ name: "Progression", url: ROUTES.progression },
-	];
-
-const legalLinks = [
-	{ name: "Politique de confidentialité", url: ROUTES.confidentialite },
-	{ name: "Mentions légales", url: ROUTES.mentionsLegales },
-	{ name: "CGU", url: ROUTES.cgu },
-];
-
-const socialLinks = [
-	{ name: "YouTube", url: SITE.social.youtube },
-	{ name: "X (Twitter)", url: SITE.social.x },
-	{ name: "Instagram", url: SITE.social.instagram },
-	{ name: "LinkedIn", url: SITE.social.linkedin },
-	{ name: "Facebook", url: SITE.social.facebook },
-];
-
-const currentYear = new Date().getFullYear();
-const worldIcons = {
-	charbon: "/world/charbon.svg",
-	mine: "/world/mine.svg",
-	or: "/world/or.svg",
-};
+import colors from "../config/colors.json";
 ---
 
 {
@@ -48,18 +12,18 @@ const worldIcons = {
 		<button
 			class:list={[
 				backToTop ? `backToTop` : null,
-				"back-to-top-button",
+				"transition-300 z-50 opacity-0 fixed flex bottom-[10px] right-[30px] w-10 h-10 bg-white dark:bg-black border border-black dark:border-[--softWhite] card-shadow",
 			]}
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 24 24"
-				height="24"
-				width="24"
-				stroke-width="2"
+				height="100%"
+				width="100%"
+				stroke-width="1.5"
 				stroke="currentColor"
-				class="dark:text-yellow-soft"
+				class="dark:text-[--softWhite]"
 			>
 				<path
 					stroke-linecap="round"
@@ -71,104 +35,32 @@ const worldIcons = {
 	)
 }
 
-<footer class="bg-white dark:bg-black text-black dark:text-white border-t-4 border-black dark:border-yellow-soft">
-	<div class="max-w-6xl mx-auto px-6 py-12">
-		<!-- Top section -->
-		<div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
-			<!-- Brand -->
-			<div class="col-span-2">
-				<h2 class="righteous text-3xl mb-4 text-black dark:text-yellow-soft">{SITE.nameUpper}</h2>
-				<p class="poppins text-lg mb-4 text-black dark:text-white">
-					{SITE.descriptions.footer}
-				</p>
-				<div class="mine-icon-belt mb-4" aria-label="Repères du monde GoCharbon">
-					<span class="mine-icon-chip">
-						<img src={worldIcons.charbon} alt="" aria-hidden="true" loading="lazy" />
-						Charbon
-					</span>
-					<span class="mine-icon-chip mine">
-						<img src={worldIcons.mine} alt="" aria-hidden="true" loading="lazy" />
-						Mine
-					</span>
-					<span class="mine-icon-chip or">
-						<img src={worldIcons.or} alt="" aria-hidden="true" loading="lazy" />
-						Or
-					</span>
-				</div>
-				<p class="poppins text-sm text-black dark:text-white">
-					🇫🇷 Made in France avec ❤️
-				</p>
-			</div>
+<footer class="bg-black text-white dark:text-[--softWhite] p-6">
+	<h2 class="hidden">Footer</h2>
 
-			<!-- Navigation -->
-			<div>
-				<h3 class="poppins font-bold text-lg mb-4 text-black dark:text-yellow-soft">Navigation</h3>
-				<ul class="space-y-2">
-					{navigationLinks.map((link) => (
-						<li>
-							<a
-								href={link.url}
-								class="poppins text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
-							>
-								{link.name}
-							</a>
-						</li>
-					))}
-				</ul>
-			</div>
-
-			<!-- Social -->
-			<div>
-				<h3 class="poppins font-bold text-lg mb-4 text-black dark:text-yellow-soft">Suivez-nous</h3>
-				<ul class="space-y-2">
-					{socialLinks.map((link) => (
-						<li>
-							<a
-								href={link.url}
-								target="_blank"
-								rel="noopener noreferrer"
-								class="poppins text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
-							>
-								{link.name}
-							</a>
-						</li>
-					))}
-				</ul>
-			</div>
-		</div>
-
-		<!-- Divider -->
-		<div class="border-t border-black/20 dark:border-white/20 my-8"></div>
-
-		<!-- Bottom section -->
-		<div class="flex flex-col md:flex-row justify-between items-center gap-4">
-			<p class="poppins text-sm text-black dark:text-white">
-				© {currentYear} {SITE.copyrightName}. Tous droits réservés.
-			</p>
-			<ul class="flex flex-wrap gap-4 justify-center">
-				{legalLinks.map((link) => (
-					<li>
-						<a
-							href={link.url}
-							class="poppins text-sm text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
-						>
-							{link.name}
-						</a>
-					</li>
-				))}
-			</ul>
-		</div>
-	</div>
+	<p class="outfit">2025 Webinde Tous droits réservés</p>
+	<p class="outfit">
+		<a
+			href="/"
+			target="_blank"
+			class="text-blue hover:text-blue-400 transition-colors"
+			>Politique de confidentialité</a
+		>
+		<p class="outfit">
+			<a
+				href="/"
+				target="_blank"
+				class="text-blue hover:text-blue-400 transition-colors"
+			>
+				Suppression des données
+			</a>
+		</p>
+	</p>
 </footer>
 
-<style>
+<style define:vars={{ softWhite: '#FFD35AD9' }}>
 	.backToTop.active {
 		opacity: 1;
-		cursor: pointer;
-	}
-	
-	.backToTop:hover {
-		transform: translateY(-2px);
 	}
 </style>
 

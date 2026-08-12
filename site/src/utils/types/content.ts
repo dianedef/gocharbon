@@ -1,53 +1,12 @@
-export interface Post {
-  id: string;
-  data: {
-    title: string;
-    description: string;
-    tags: string[];
-    imgUrl:
-      | string
-      | {
-          src: string;
-          width?: number;
-          height?: number;
-          format?: string;
-        };
-    draft?: boolean;
-    pubDate?: Date | string;
-    author?: string;
-    section?: "blog" | "outils" | "tutos" | "parcours";
-    toolCategoryPrimary?: string;
-    toolSubcategoryPrimary?: string;
-    toolFacets?: string[];
-    qualificationLocale?:
-      | "france"
-      | "union-europeenne"
-      | "hors-union-europeenne"
-      | "indetermine";
-    ancrageEconomique?: "fort" | "partiel" | "faible" | "indetermine";
-    niveauResponsabilite?: "fort" | "partiel" | "faible" | "indetermine";
-    paysSiege?: string;
-    paysFiscal?: string;
-    paysFondateurs?: string[];
-    hebergementDonnees?:
-      | "france"
-      | "union-europeenne"
-      | "hors-union-europeenne"
-      | "multi-region"
-      | "inconnu";
-    societeMere?: string;
-    sourcesVerification?: string[];
-    notesQualification?: string;
-    methodologieVersion?: string;
-  };
-}
+import type { CollectionEntry } from "astro:content";
+
+export type Post = CollectionEntry<"posts">;
 
 export interface FilterTagsProps {
   mainTags: string[];
   tagHierarchy: Record<string, any>;
   initialPosts: Post[];
   selectedTags?: string[];
-  scope?: "all" | "outils" | "blog" | "tutos" | "parcours";
 }
 
 export interface PostGridProps {

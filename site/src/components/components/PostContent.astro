@@ -1,92 +1,45 @@
 ---
-import ToolQualificationCard from "./ToolQualificationCard.astro";
-import type { ToolQualification } from "../../utils/tool-qualification";
-import { getToolDisplayChips } from "../../utils/tool-taxonomy";
-import Pill from "./Pill.astro";
-
 interface Props {
-	postId: string;
 	pubDate: Date;
 	author: string;
-	section?: "blog" | "outils" | "tutos" | "parcours";
-	toolQualification?: ToolQualification;
-	toolCategoryPrimary?: string;
-	toolSubcategoryPrimary?: string;
-	toolFacets?: string[];
 }
 
-const {
-	postId,
-	pubDate,
-	author,
-	section,
-	toolQualification,
-	toolCategoryPrimary,
-	toolSubcategoryPrimary,
-	toolFacets,
-} = Astro.props;
-const worldIcons = {
-	charbon: "/world/charbon.svg",
-	mine: "/world/mine.svg",
-	or: "/world/or.svg",
-};
-const toolDisplayChips = getToolDisplayChips({
-	id: postId,
-	data: {
-		section,
-		toolCategoryPrimary,
-		toolSubcategoryPrimary,
-		toolFacets,
-	},
-});
+const { pubDate, author } = Astro.props;
+import colors from "../config/colors.json";
 ---
 
 <article
-	class="post-content prose prose-lg md:prose-xl prose-slate w-full max-w-full poppins dark:prose-dark"
+	class="prose prose-h2:text-lg md:prose-h2:text-2xl prose-h2:mt-2 md:prose-h2:mt-6 prose-h2:mb-2 md:prose-h2:mb-4 prose-slate w-sm md:w-prose poppins p-6 md:p-6 rounded-lg bg-white dark:bg-black dark:prose-dark"
 >
-	<a href="/" title="Retour" class="hover:text-primary dark:hover:text-yellow-gold"
+	<a href="/" title="Retour" class="hover:text-green dark:hover:text-green-400"
 		>&larr; Retour</a
 	>
-	<div class="mine-icon-belt post-world-cues" aria-label="Progression Charbon vers Or">
-		<span class="mine-icon-chip">
-			<img src={worldIcons.charbon} alt="" aria-hidden="true" loading="lazy" />
-			Repère
-		</span>
-		<span class="mine-icon-chip mine">
-			<img src={worldIcons.mine} alt="" aria-hidden="true" loading="lazy" />
-			Approfondir
-		</span>
-		<span class="mine-icon-chip or">
-			<img src={worldIcons.or} alt="" aria-hidden="true" loading="lazy" />
-			Passer à l'action
-		</span>
-	</div>
-	<p class="text-base md:text-lg">
+	<p class="text-xs md:text-base">
 		Publié le {pubDate} par {author}
 	</p>
-	{section === "outils" && toolDisplayChips.length > 0 && (
-		<ul class="tool-taxonomy-list">
-			{toolDisplayChips.map((chip) => (
-				<li>
-					{chip.href ? (
-						<a href={chip.href}>
-							<Pill>{chip.label}</Pill>
-						</a>
-					) : (
-						<Pill>{chip.label}</Pill>
-					)}
-				</li>
-			))}
-		</ul>
-	)}
-	{section === "outils" && <ToolQualificationCard metadata={toolQualification} />}
 	<div>
 		<slot />
 	</div>
 	<p>
 		Écrit par {author}
 	</p>
-	<a href="/" title="Retour" class="hover:text-primary dark:hover:text-yellow-gold"
+	<a href="/" title="Retour" class="hover:text-green dark:hover:text-green-400"
 		>&larr; Retour</a
 	>
 </article>
+
+<style>
+	article :global(h2) {
+		font-size: 1.25rem;
+		margin-top: 1rem;
+		margin-bottom: 0.5rem;
+	}
+
+	@media (min-width: 768px) {
+		article :global(h2) {
+			font-size: 1.5rem;
+			margin-top: 2rem;
+			margin-bottom: 1rem;
+		}
+	}
+</style>
