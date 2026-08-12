@@ -84,7 +84,7 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 		background-color: var(--brand-cream);
 		position: sticky;
 		top: 0;
-		z-index: var(--sf-auto-global2-basenavigation-z-index-c9455e7c);
+		z-index: 40;
 	}
 
 	:global(.dark) header {
@@ -104,8 +104,8 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 	.breadcrumbs {
 		display: flex;
 		align-items: center;
-		gap: var(--sf-auto-global2-basenavigation-gap-bce281e5);
-		font-size: var(--sf-auto-global2-basenavigation-font-size-e78a1369);
+		gap: var(--gc-primitive-space-2);
+		font-size: 0.9rem;
 		list-style: none;
 		margin: 0;
 		padding: 0;
@@ -114,7 +114,7 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 	.breadcrumb-item {
 		display: flex;
 		align-items: center;
-		gap: var(--sf-auto-global2-basenavigation-gap-ed0bda6f);
+		gap: var(--gc-primitive-space-2);
 	}
 
 	.breadcrumb-link {
@@ -130,7 +130,7 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 	}
 
 	.world-cues {
-		margin-left: var(--sf-auto-global2-basenavigation-margin-left-37f2d355);
+		margin-left: 0.35rem;
 	}
 
 	@media (width <= 767px) {

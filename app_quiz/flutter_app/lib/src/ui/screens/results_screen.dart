@@ -42,16 +42,13 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
   @override
   void initState() {
     super.initState();
-    _scaleCtrl = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 500),
+    _scaleCtrl = AnimationController(vsync: this, duration: GcMotion.slow);
+    _fadeCtrl = AnimationController(vsync: this, duration: GcMotion.slow);
+    _scale = CurvedAnimation(
+      parent: _scaleCtrl,
+      curve: GcMotion.emphasizedCurve,
     );
-    _fadeCtrl = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 500),
-    );
-    _scale = CurvedAnimation(parent: _scaleCtrl, curve: Curves.easeOutBack);
-    _fade = CurvedAnimation(parent: _fadeCtrl, curve: Curves.easeOut);
+    _fade = CurvedAnimation(parent: _fadeCtrl, curve: GcMotion.standardCurve);
     _load();
   }
 
@@ -108,7 +105,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
     _scoreTimer?.cancel();
     var c = 0.0;
     final inc = total / 25.0;
-    _scoreTimer = Timer.periodic(const Duration(milliseconds: 40), (t) {
+    _scoreTimer = Timer.periodic(GcMotion.scoreTick, (t) {
       c += inc;
       if (c >= total) {
         c = total.toDouble();
@@ -173,9 +170,9 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
     if (_loading) {
       return const SafeArea(
         child: Scaffold(
-          backgroundColor: AppColors.bg,
+          backgroundColor: GcAppColors.bg,
           body: Center(
-            child: CircularProgressIndicator(color: AppColors.primary),
+            child: CircularProgressIndicator(color: GcAppColors.primary),
           ),
         ),
       );
@@ -185,7 +182,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
     if (result == null) {
       return SafeArea(
         child: Scaffold(
-          backgroundColor: AppColors.bg,
+          backgroundColor: GcAppColors.bg,
           body: Center(
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -193,24 +190,30 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                 const Text(
                   "Résultats non disponibles",
                   style: TextStyle(
-                    fontSize: 16,
-                    color: AppColors.textSecondary,
-                    fontWeight: FontWeight.w600,
+                    fontSize: GcType.body,
+                    color: GcAppColors.textSecondary,
+                    fontWeight: GcType.bold,
                   ),
                 ),
-                const SizedBox(height: 12),
+                const SizedBox(height: GcSpace.x3),
                 DepthButton(
                   onPressed: _goHome,
-                  colors: const [AppColors.primary, AppColors.primaryShadow],
-                  shadowColor: AppColors.primaryShadow,
-                  borderRadius: BorderRadius.circular(14),
+                  colors: const [
+                    GcAppColors.primary,
+                    GcAppColors.primaryShadow,
+                  ],
+                  shadowColor: GcAppColors.primaryShadow,
+                  borderRadius: GcRadii.card,
                   child: const Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: GcSpace.x5,
+                      vertical: GcSpace.twoAndHalf,
+                    ),
                     child: Text(
                       "Accueil",
                       style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w800,
+                        color: GcAppColors.textPrimary,
+                        fontWeight: GcType.black,
                       ),
                     ),
                   ),
@@ -244,13 +247,13 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: AppColors.bg,
+        backgroundColor: GcAppColors.bg,
         body: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.symmetric(horizontal: GcSpace.x4),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              const SizedBox(height: 10),
+              const SizedBox(height: GcSpace.x3),
               AnimatedBuilder(
                 animation: Listenable.merge([_scaleCtrl, _fadeCtrl]),
                 builder: (context, _) {
@@ -260,32 +263,36 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                       scale: 0.5 + (_scale.value * 0.5),
                       child: Column(
                         children: [
-                          Image.asset(AppImages.trophy, width: 80, height: 80),
-                          const SizedBox(height: 8),
+                          Image.asset(
+                            AppImages.trophy,
+                            width: GcSizes.achievementHero,
+                            height: GcSizes.achievementHero,
+                          ),
+                          const SizedBox(height: GcSpace.x2),
                           Text(
                             scoreLabel,
                             style: const TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w800,
-                              color: AppColors.textSecondary,
-                              letterSpacing: 2,
+                              fontSize: GcType.caption,
+                              fontWeight: GcType.black,
+                              color: GcAppColors.textSecondary,
+                              letterSpacing: GcType.wideTracking,
                             ),
                           ),
                           Text(
                             formatNumber(_displayScore),
                             style: const TextStyle(
-                              fontSize: 52,
-                              fontWeight: FontWeight.w900,
-                              color: AppColors.textPrimary,
-                              height: 1.1,
+                              fontSize: GcType.displayLarge,
+                              fontWeight: GcType.black,
+                              color: GcAppColors.textPrimary,
+                              height: GcType.tightHeight,
                             ),
                           ),
                           const Text(
                             "points",
                             style: TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w700,
-                              color: AppColors.textSecondary,
+                              fontSize: GcType.caption,
+                              fontWeight: GcType.bold,
+                              color: GcAppColors.textSecondary,
                             ),
                           ),
                         ],
@@ -295,27 +302,31 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                 },
               ),
 
-              const SizedBox(height: 10),
+              const SizedBox(height: GcSpace.x3),
 
               Container(
                 decoration: BoxDecoration(
-                  color: AppColors.surfaceElevated,
-                  borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: AppColors.borderLight),
+                  color: GcAppColors.surfaceElevated,
+                  borderRadius: GcRadii.card,
+                  border: Border.all(color: GcAppColors.borderLight),
                 ),
-                padding: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(GcSpace.x3),
                 child: Row(
                   children: [
-                    Icon(MdiIcons.target, size: 18, color: AppColors.primary),
-                    const SizedBox(width: 8),
+                    Icon(
+                      MdiIcons.target,
+                      size: GcSizes.iconXSmall,
+                      color: GcAppColors.primary,
+                    ),
+                    const SizedBox(width: GcSpace.x2),
                     Expanded(
                       child: Text(
                         actionText,
                         style: const TextStyle(
-                          fontSize: 13,
-                          height: 1.35,
-                          fontWeight: FontWeight.w600,
-                          color: AppColors.textPrimary,
+                          fontSize: GcType.caption,
+                          height: GcType.bodyHeight,
+                          fontWeight: GcType.bold,
+                          color: GcAppColors.textPrimary,
                         ),
                       ),
                     ),
@@ -323,46 +334,52 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                 ),
               ),
 
-              const SizedBox(height: 10),
+              const SizedBox(height: GcSpace.x3),
 
               Wrap(
                 alignment: WrapAlignment.center,
-                spacing: 10,
-                runSpacing: 10,
+                spacing: GcSpace.twoAndHalf,
+                runSpacing: GcSpace.twoAndHalf,
                 children: [
                   _StatPill(
                     icon: MdiIcons.checkCircle,
-                    iconColor: AppColors.success,
+                    iconColor: GcAppColors.success,
                     value: "${result.correctCount}/${result.totalQuestions}",
-                    borderColor: AppColors.success.withValues(alpha: 0.18),
-                    valueColor: AppColors.success,
+                    borderColor: GcAppColors.success.withValues(
+                      alpha: GcOpacity.disabled,
+                    ),
+                    valueColor: GcAppColors.success,
                   ),
                   _StatPill(
                     icon: MdiIcons.fire,
-                    iconColor: AppColors.gold,
+                    iconColor: GcAppColors.gold,
                     value: "x$smStr",
-                    borderColor: AppColors.gold.withValues(alpha: 0.18),
-                    valueColor: AppColors.gold,
+                    borderColor: GcAppColors.gold.withValues(
+                      alpha: GcOpacity.disabled,
+                    ),
+                    valueColor: GcAppColors.gold,
                   ),
                   _StatPill(
                     icon: MdiIcons.star,
-                    iconColor: AppColors.secondary,
+                    iconColor: GcAppColors.secondary,
                     value: "+${formatNumber(result.xpGained)}",
-                    borderColor: AppColors.secondary.withValues(alpha: 0.18),
-                    valueColor: AppColors.secondary,
+                    borderColor: GcAppColors.secondary.withValues(
+                      alpha: GcOpacity.disabled,
+                    ),
+                    valueColor: GcAppColors.secondary,
                   ),
                 ],
               ),
 
-              const SizedBox(height: 12),
+              const SizedBox(height: GcSpace.x3),
 
               Container(
                 decoration: BoxDecoration(
-                  color: AppColors.surface,
-                  borderRadius: BorderRadius.circular(14),
-                  border: Border.all(color: AppColors.borderLight),
+                  color: GcAppColors.surface,
+                  borderRadius: GcRadii.card,
+                  border: Border.all(color: GcAppColors.borderLight),
                 ),
-                padding: const EdgeInsets.all(12),
+                padding: const EdgeInsets.all(GcSpace.x3),
                 child: Column(
                   children: [
                     _BreakdownRow(
@@ -373,52 +390,54 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                       _BreakdownRow(
                         label: "Bonus temps",
                         value: "+${formatNumber(result.timeBonus)}",
-                        valueColor: AppColors.secondary,
+                        valueColor: GcAppColors.secondary,
                       ),
                     if (result.streakBonus > 0)
                       _BreakdownRow(
                         label: "Bonus streak",
                         value: "+${formatNumber(result.streakBonus)}",
-                        valueColor: AppColors.gold,
+                        valueColor: GcAppColors.gold,
                       ),
                   ],
                 ),
               ),
 
-              const SizedBox(height: 8),
+              const SizedBox(height: GcSpace.x2),
 
               if (result.levelUp)
                 Container(
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        AppColors.gold.withValues(alpha: 0.2),
-                        AppColors.gold.withValues(alpha: 0.08),
+                        GcAppColors.gold.withValues(alpha: GcOpacity.disabled),
+                        GcAppColors.gold.withValues(alpha: GcOpacity.disabled),
                       ],
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                     ),
-                    borderRadius: BorderRadius.circular(14),
+                    borderRadius: GcRadii.card,
                     border: Border.all(
-                      color: AppColors.gold.withValues(alpha: 0.15),
+                      color: GcAppColors.gold.withValues(
+                        alpha: GcOpacity.disabled,
+                      ),
                     ),
                   ),
-                  padding: const EdgeInsets.all(12),
+                  padding: const EdgeInsets.all(GcSpace.x3),
                   child: Row(
                     children: [
                       Icon(
                         MdiIcons.arrowUpCircle,
-                        size: 24,
-                        color: AppColors.gold,
+                        size: GcSpace.x6,
+                        color: GcAppColors.gold,
                       ),
-                      const SizedBox(width: 10),
+                      const SizedBox(width: GcSpace.x3),
                       Expanded(
                         child: Text(
                           "Niveau ${result.newLevel} · ${result.newLevelName}",
                           style: const TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w800,
-                            color: AppColors.gold,
+                            fontSize: GcType.caption,
+                            fontWeight: GcType.black,
+                            color: GcAppColors.gold,
                           ),
                         ),
                       ),
@@ -426,12 +445,12 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                   ),
                 ),
 
-              if (result.levelUp) const SizedBox(height: 8),
+              if (result.levelUp) const SizedBox(height: GcSpace.x2),
 
               if (result.newBadges.isNotEmpty)
                 Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
+                  spacing: GcSpace.x2,
+                  runSpacing: GcSpace.x2,
                   children: result.newBadges
                       .take(2)
                       .map((b) {
@@ -439,33 +458,33 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                           decoration: BoxDecoration(
                             gradient: const LinearGradient(
                               colors: [
-                                AppColors.primary,
-                                AppColors.primaryShadow,
+                                GcAppColors.primary,
+                                GcAppColors.primaryShadow,
                               ],
                               begin: Alignment.topLeft,
                               end: Alignment.bottomRight,
                             ),
-                            borderRadius: BorderRadius.circular(10),
+                            borderRadius: GcRadii.card,
                           ),
                           padding: const EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 6,
+                            horizontal: GcSpace.x3,
+                            vertical: GcSpace.oneAndHalf,
                           ),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Icon(
                                 mdiFromName(b.icon),
-                                size: 14,
-                                color: Colors.white,
+                                size: GcType.caption,
+                                color: GcAppColors.textPrimary,
                               ),
-                              const SizedBox(width: 6),
+                              const SizedBox(width: GcSpace.x2),
                               Text(
                                 b.name,
                                 style: const TextStyle(
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.w700,
-                                  color: Colors.white,
+                                  fontSize: GcType.caption,
+                                  fontWeight: GcType.bold,
+                                  color: GcAppColors.textPrimary,
                                 ),
                               ),
                             ],
@@ -475,15 +494,16 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                       .toList(growable: false),
                 ),
 
-              if (result.newBadges.isNotEmpty) const SizedBox(height: 8),
+              if (result.newBadges.isNotEmpty)
+                const SizedBox(height: GcSpace.x2),
 
               Container(
                 decoration: BoxDecoration(
-                  color: AppColors.surface,
-                  borderRadius: BorderRadius.circular(14),
-                  border: Border.all(color: AppColors.borderLight),
+                  color: GcAppColors.surface,
+                  borderRadius: GcRadii.card,
+                  border: Border.all(color: GcAppColors.borderLight),
                 ),
-                padding: const EdgeInsets.all(14),
+                padding: const EdgeInsets.all(GcSpace.x4),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -497,23 +517,23 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                               const Text(
                                 "TON DIAGNOSTIC",
                                 style: TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w800,
-                                  color: AppColors.primary,
-                                  letterSpacing: 0.8,
+                                  fontSize: GcType.caption,
+                                  fontWeight: GcType.black,
+                                  color: GcAppColors.primary,
+                                  letterSpacing: GcType.wideTracking,
                                 ),
                               ),
-                              const SizedBox(height: 4),
+                              const SizedBox(height: GcSpace.x1),
                               Text(
                                 context?.title ??
                                     (good
                                         ? "Tu as déjà de bons réflexes en $categoryName."
                                         : "Les bases restent à consolider en $categoryName."),
                                 style: const TextStyle(
-                                  fontSize: 18,
-                                  height: 1.25,
-                                  fontWeight: FontWeight.w900,
-                                  color: AppColors.textPrimary,
+                                  fontSize: GcType.bodyLarge,
+                                  height: GcType.tightHeight,
+                                  fontWeight: GcType.black,
+                                  color: GcAppColors.textPrimary,
                                 ),
                               ),
                             ],
@@ -521,34 +541,34 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                         ),
                         Container(
                           decoration: BoxDecoration(
-                            color: AppColors.surfaceElevated,
-                            borderRadius: BorderRadius.circular(14),
+                            color: GcAppColors.surfaceElevated,
+                            borderRadius: GcRadii.card,
                             border: Border.all(
-                              color: AppColors.secondary.withValues(
-                                alpha: 0.22,
+                              color: GcAppColors.secondary.withValues(
+                                alpha: GcOpacity.disabled,
                               ),
                             ),
                           ),
                           padding: const EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 9,
+                            horizontal: GcSpace.x3,
+                            vertical: GcSpace.twoAndQuarter,
                           ),
                           child: Column(
                             children: [
                               Text(
                                 "$acc%",
                                 style: const TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w900,
-                                  color: AppColors.secondary,
+                                  fontSize: GcType.bodyLarge,
+                                  fontWeight: GcType.black,
+                                  color: GcAppColors.secondary,
                                 ),
                               ),
                               const Text(
                                 "juste",
                                 style: TextStyle(
-                                  fontSize: 11,
-                                  fontWeight: FontWeight.w700,
-                                  color: AppColors.textSecondary,
+                                  fontSize: GcType.caption,
+                                  fontWeight: GcType.bold,
+                                  color: GcAppColors.textSecondary,
                                 ),
                               ),
                             ],
@@ -556,28 +576,28 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                         ),
                       ],
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: GcSpace.x3),
                     Text(
                       context?.summary ??
                           "Ton score permet de cibler une suite utile sur GoCharbon.",
                       style: const TextStyle(
-                        fontSize: 14,
-                        height: 1.45,
-                        fontWeight: FontWeight.w600,
-                        color: AppColors.textSecondary,
+                        fontSize: GcType.caption,
+                        height: GcType.bodyHeight,
+                        fontWeight: GcType.bold,
+                        color: GcAppColors.textSecondary,
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: GcSpace.x3),
                     _DiagnosticRow(
                       icon: MdiIcons.checkDecagramOutline,
-                      iconColor: AppColors.secondary,
+                      iconColor: GcAppColors.secondary,
                       text:
                           "${result.correctCount}/${result.totalQuestions} bonnes réponses en $categoryName",
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: GcSpace.x2),
                     _DiagnosticRow(
                       icon: MdiIcons.flagCheckered,
-                      iconColor: AppColors.gold,
+                      iconColor: GcAppColors.gold,
                       text:
                           context?.focus ??
                           "Continue avec une ressource plus structurée.",
@@ -586,7 +606,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                 ),
               ),
 
-              const SizedBox(height: 10),
+              const SizedBox(height: GcSpace.x3),
 
               if (course != null)
                 Column(
@@ -594,25 +614,25 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                   children: [
                     InkWell(
                       onTap: () => _openCourse(course),
-                      borderRadius: BorderRadius.circular(14),
+                      borderRadius: GcRadii.card,
                       child: Container(
                         decoration: BoxDecoration(
-                          color: AppColors.surface,
-                          borderRadius: BorderRadius.circular(14),
-                          border: Border.all(color: AppColors.borderLight),
+                          color: GcAppColors.surface,
+                          borderRadius: GcRadii.card,
+                          border: Border.all(color: GcAppColors.borderLight),
                         ),
-                        padding: const EdgeInsets.all(12),
+                        padding: const EdgeInsets.all(GcSpace.x3),
                         child: Row(
                           children: [
                             Container(
-                              width: 4,
-                              height: 58,
+                              width: GcSizes.listAccentWidth,
+                              height: GcSizes.listAccentHeight,
                               decoration: BoxDecoration(
-                                color: AppColors.primary,
-                                borderRadius: BorderRadius.circular(8),
+                                color: GcAppColors.primary,
+                                borderRadius: GcRadii.card,
                               ),
                             ),
-                            const SizedBox(width: 10),
+                            const SizedBox(width: GcSpace.x3),
                             Expanded(
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -620,32 +640,32 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                                   const Text(
                                     "TA PROCHAINE ÉTAPE SUR GOCHARBON",
                                     style: TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w800,
-                                      color: AppColors.primary,
-                                      letterSpacing: 0.8,
+                                      fontSize: GcType.caption,
+                                      fontWeight: GcType.black,
+                                      color: GcAppColors.primary,
+                                      letterSpacing: GcType.wideTracking,
                                     ),
                                   ),
-                                  const SizedBox(height: 2),
+                                  const SizedBox(height: GcSpace.x1),
                                   Text(
                                     course.title,
                                     style: const TextStyle(
-                                      fontSize: 14,
-                                      fontWeight: FontWeight.w800,
-                                      color: AppColors.textPrimary,
+                                      fontSize: GcType.caption,
+                                      fontWeight: GcType.black,
+                                      color: GcAppColors.textPrimary,
                                     ),
                                   ),
                                   if (course.description.isNotEmpty) ...[
-                                    const SizedBox(height: 3),
+                                    const SizedBox(height: GcSpace.x1),
                                     Text(
                                       course.description,
                                       maxLines: 2,
                                       overflow: TextOverflow.ellipsis,
                                       style: const TextStyle(
-                                        fontSize: 13,
-                                        height: 1.35,
-                                        fontWeight: FontWeight.w600,
-                                        color: AppColors.textSecondary,
+                                        fontSize: GcType.caption,
+                                        height: GcType.bodyHeight,
+                                        fontWeight: GcType.bold,
+                                        color: GcAppColors.textSecondary,
                                       ),
                                     ),
                                   ],
@@ -653,50 +673,50 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                               ),
                             ),
                             Container(
-                              width: 32,
-                              height: 32,
+                              width: GcSizes.iconLarge,
+                              height: GcSizes.iconLarge,
                               decoration: BoxDecoration(
-                                color: AppColors.surfaceElevated,
-                                borderRadius: BorderRadius.circular(16),
+                                color: GcAppColors.surfaceElevated,
+                                borderRadius: GcRadii.card,
                               ),
                               child: Icon(
                                 MdiIcons.arrowTopRight,
-                                size: 18,
-                                color: AppColors.primary,
+                                size: GcSizes.iconXSmall,
+                                color: GcAppColors.primary,
                               ),
                             ),
                           ],
                         ),
                       ),
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: GcSpace.x2),
                     Container(
                       decoration: BoxDecoration(
-                        color: AppColors.surface,
-                        borderRadius: BorderRadius.circular(14),
-                        border: Border.all(color: AppColors.borderLight),
+                        color: GcAppColors.surface,
+                        borderRadius: GcRadii.card,
+                        border: Border.all(color: GcAppColors.borderLight),
                       ),
-                      padding: const EdgeInsets.all(12),
+                      padding: const EdgeInsets.all(GcSpace.x3),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
                             "Pourquoi cette ressource ?",
                             style: TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w900,
-                              color: AppColors.textPrimary,
+                              fontSize: GcType.caption,
+                              fontWeight: GcType.black,
+                              color: GcAppColors.textPrimary,
                             ),
                           ),
-                          const SizedBox(height: 4),
+                          const SizedBox(height: GcSpace.x1),
                           Text(
                             context?.reason ??
                                 "Cette recommandation est choisie à partir de tes réponses et de ton niveau.",
                             style: const TextStyle(
-                              fontSize: 13,
-                              height: 1.4,
-                              fontWeight: FontWeight.w600,
-                              color: AppColors.textSecondary,
+                              fontSize: GcType.caption,
+                              height: GcType.bodyHeight,
+                              fontWeight: GcType.bold,
+                              color: GcAppColors.textSecondary,
                             ),
                           ),
                         ],
@@ -705,35 +725,39 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                   ],
                 ),
 
-              const SizedBox(height: 16),
+              const SizedBox(height: GcSpace.x4),
 
               InkWell(
                 onTap: _shareScore,
-                borderRadius: BorderRadius.circular(14),
+                borderRadius: GcRadii.card,
                 child: Container(
                   decoration: BoxDecoration(
-                    color: AppColors.surface,
-                    borderRadius: BorderRadius.circular(14),
+                    color: GcAppColors.surface,
+                    borderRadius: GcRadii.card,
                     border: Border.all(
-                      color: AppColors.secondary.withValues(alpha: 0.18),
+                      color: GcAppColors.secondary.withValues(
+                        alpha: GcOpacity.disabled,
+                      ),
                     ),
                   ),
-                  padding: const EdgeInsets.symmetric(vertical: 14),
+                  padding: const EdgeInsets.symmetric(
+                    vertical: GcSpace.threeAndHalf,
+                  ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(
                         MdiIcons.shareVariant,
-                        size: 20,
-                        color: AppColors.secondary,
+                        size: GcSpace.x5,
+                        color: GcAppColors.secondary,
                       ),
-                      const SizedBox(width: 8),
+                      const SizedBox(width: GcSpace.x2),
                       const Text(
                         "Partager mon score",
                         style: TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w800,
-                          color: AppColors.secondary,
+                          fontSize: GcType.body,
+                          fontWeight: GcType.black,
+                          color: GcAppColors.secondary,
                         ),
                       ),
                     ],
@@ -741,7 +765,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                 ),
               ),
 
-              const SizedBox(height: 10),
+              const SizedBox(height: GcSpace.x3),
 
               Row(
                 children: [
@@ -749,25 +773,31 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                     child: DepthButton(
                       onPressed: _playAgain,
                       colors: const [
-                        AppColors.primary,
-                        AppColors.primaryShadow,
+                        GcAppColors.primary,
+                        GcAppColors.primaryShadow,
                       ],
-                      shadowColor: AppColors.primaryShadow,
-                      borderRadius: BorderRadius.circular(16),
+                      shadowColor: GcAppColors.primaryShadow,
+                      borderRadius: GcRadii.card,
                       child: Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        padding: const EdgeInsets.symmetric(
+                          vertical: GcSpace.threeAndHalf,
+                        ),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: const [
                             // Using Material icon here to keep this const.
-                            Icon(Icons.refresh, size: 20, color: Colors.white),
-                            SizedBox(width: 8),
+                            Icon(
+                              Icons.refresh,
+                              size: GcSpace.x5,
+                              color: GcAppColors.textPrimary,
+                            ),
+                            SizedBox(width: GcSpace.x2),
                             Text(
                               "Rejouer",
                               style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w800,
-                                color: Colors.white,
+                                fontSize: GcType.body,
+                                fontWeight: GcType.black,
+                                color: GcAppColors.textPrimary,
                               ),
                             ),
                           ],
@@ -775,33 +805,35 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                       ),
                     ),
                   ),
-                  const SizedBox(width: 10),
+                  const SizedBox(width: GcSpace.x3),
                   Expanded(
                     child: InkWell(
                       onTap: _goHome,
-                      borderRadius: BorderRadius.circular(16),
+                      borderRadius: GcRadii.card,
                       child: Container(
                         decoration: BoxDecoration(
-                          color: AppColors.surface,
-                          borderRadius: BorderRadius.circular(16),
-                          border: Border.all(color: AppColors.borderMedium),
+                          color: GcAppColors.surface,
+                          borderRadius: GcRadii.card,
+                          border: Border.all(color: GcAppColors.borderMedium),
                         ),
-                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        padding: const EdgeInsets.symmetric(
+                          vertical: GcSpace.threeAndHalf,
+                        ),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Icon(
                               MdiIcons.home,
-                              size: 20,
-                              color: AppColors.textPrimary,
+                              size: GcSpace.x5,
+                              color: GcAppColors.textPrimary,
                             ),
-                            const SizedBox(width: 8),
+                            const SizedBox(width: GcSpace.x2),
                             const Text(
                               "Accueil",
                               style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w800,
-                                color: AppColors.textPrimary,
+                                fontSize: GcType.body,
+                                fontWeight: GcType.black,
+                                color: GcAppColors.textPrimary,
                               ),
                             ),
                           ],
@@ -812,7 +844,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                 ],
               ),
 
-              const SizedBox(height: 16),
+              const SizedBox(height: GcSpace.x4),
             ],
           ),
         ),
@@ -839,23 +871,26 @@ class _StatPill extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      constraints: const BoxConstraints(minWidth: 94),
+      constraints: const BoxConstraints(minWidth: GcSizes.compactStatMinimum),
       decoration: BoxDecoration(
-        color: AppColors.surface,
-        borderRadius: BorderRadius.circular(14),
+        color: GcAppColors.surface,
+        borderRadius: GcRadii.card,
         border: Border.all(color: borderColor),
       ),
-      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      padding: const EdgeInsets.symmetric(
+        horizontal: GcSpace.threeAndHalf,
+        vertical: GcSpace.twoAndHalf,
+      ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, size: 18, color: iconColor),
-          const SizedBox(width: 6),
+          Icon(icon, size: GcSizes.iconXSmall, color: iconColor),
+          const SizedBox(width: GcSpace.x2),
           Text(
             value,
             style: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w900,
+              fontSize: GcType.body,
+              fontWeight: GcType.black,
               color: valueColor,
             ),
           ),
@@ -879,24 +914,24 @@ class _BreakdownRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 4),
+      padding: const EdgeInsets.symmetric(vertical: GcSpace.x1),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
             label,
             style: const TextStyle(
-              fontSize: 14,
-              color: AppColors.textSecondary,
-              fontWeight: FontWeight.w600,
+              fontSize: GcType.caption,
+              color: GcAppColors.textSecondary,
+              fontWeight: GcType.bold,
             ),
           ),
           Text(
             value,
             style: TextStyle(
-              fontSize: 14,
-              fontWeight: FontWeight.w800,
-              color: valueColor ?? AppColors.textPrimary,
+              fontSize: GcType.caption,
+              fontWeight: GcType.black,
+              color: valueColor ?? GcAppColors.textPrimary,
             ),
           ),
         ],
@@ -921,16 +956,16 @@ class _DiagnosticRow extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Icon(icon, size: 18, color: iconColor),
-        const SizedBox(width: 8),
+        Icon(icon, size: GcSizes.iconXSmall, color: iconColor),
+        const SizedBox(width: GcSpace.x2),
         Expanded(
           child: Text(
             text,
             style: const TextStyle(
-              fontSize: 13,
-              height: 1.35,
-              fontWeight: FontWeight.w600,
-              color: AppColors.textSecondary,
+              fontSize: GcType.caption,
+              height: GcType.bodyHeight,
+              fontWeight: GcType.bold,
+              color: GcAppColors.textSecondary,
             ),
           ),
         ),

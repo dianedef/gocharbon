@@ -6,12 +6,15 @@ class AppConfig {
 
   /// `convex` is deliberately opt-in until the Firebase and Convex projects
   /// have been configured and validated in each target environment.
-  static bool get useConvexRuntime => _runtimeRaw.trim().toLowerCase() == "convex";
+  static bool get useConvexRuntime =>
+      _runtimeRaw.trim().toLowerCase() == "convex";
 
   static const String apiBaseUrl = String.fromEnvironment(
     "API_BASE_URL",
-    defaultValue: "http://localhost:3001",
+    defaultValue: "",
   );
+
+  static bool get legacyApiConfigured => apiBaseUrl.trim().isNotEmpty;
 
   static const String supabaseUrl = String.fromEnvironment(
     "SUPABASE_URL",

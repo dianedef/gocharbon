@@ -1,15 +1,16 @@
 import "package:flutter/material.dart";
 
 import "../../theme/app_colors.dart";
+import "../../theme/generated/design_tokens.g.dart";
 
 class AppCard extends StatelessWidget {
   const AppCard({
     super.key,
     required this.child,
-    this.padding = const EdgeInsets.all(12),
-    this.borderRadius = const BorderRadius.all(Radius.circular(14)),
-    this.backgroundColor = AppColors.surface,
-    this.borderColor = AppColors.borderLight,
+    this.padding = const EdgeInsets.all(GcSpace.x3),
+    this.borderRadius = GcRadii.card,
+    this.backgroundColor = GcAppColors.surface,
+    this.borderColor = GcAppColors.borderLight,
   });
 
   final Widget child;
@@ -24,11 +25,13 @@ class AppCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: backgroundColor,
         borderRadius: borderRadius,
-        border: Border.all(color: borderColor),
+        border: Border.all(
+          color: borderColor,
+          width: GcDarkTokens.componentCardBorderWidth,
+        ),
       ),
       padding: padding,
       child: child,
     );
   }
 }
-

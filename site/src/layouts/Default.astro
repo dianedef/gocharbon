@@ -42,12 +42,14 @@ const {
 						(window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
 					document.documentElement.classList.remove("dark", "light");
 				document.documentElement.classList.add(theme);
+				document.documentElement.dataset.theme = theme;
 			})();
 			document.addEventListener("astro:after-swap", function() {
 				var theme = localStorage.getItem("theme") ||
 					(window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
 					document.documentElement.classList.remove("dark", "light");
 					document.documentElement.classList.add(theme);
+					document.documentElement.dataset.theme = theme;
 				});
 			</script>
 		</head>
@@ -74,7 +76,7 @@ const {
 			/* S'assurer que le fond reste noir en mode sombre pendant la transition */
 			.dark::view-transition-old(*),
 			.dark::view-transition-new(*) {
-				background-color: var(--sf-auto-global2-default-background-color-be50855f);
+				background-color: var(--gc-primitive-color-brand-ink);
 			}
 		</style>
 </body>

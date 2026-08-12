@@ -1,0 +1,224 @@
+{
+  "$schema": "./design-tokens.schema.json",
+  "schemaVersion": "1.0.0",
+  "brandVersion": "1.1.0",
+  "description": "Autorite design canonique cross-surface GoCharbon.",
+  "tokens": {
+    "primitive": {
+      "color": {
+        "brand": {
+          "yellow": { "$type": "color", "$value": "#f6c700", "$description": "Or GoCharbon; action primaire et accent fort." },
+          "orange": { "$type": "color", "$value": "#e2572d", "$description": "Accent secondaire et interaction." },
+          "black": { "$type": "color", "$value": "#1e1b16", "$description": "Texte et bordure du theme clair." },
+          "ink": { "$type": "color", "$value": "#0b0b0b", "$description": "Fond principal du theme sombre." },
+          "charcoal": { "$type": "color", "$value": "#2f2f2f", "$description": "Surface charbon secondaire." },
+          "cream": { "$type": "color", "$value": "#f5f5f2", "$description": "Fond creme et texte du theme sombre." }
+        },
+        "transparent": { "$type": "color", "$value": "transparent", "$description": "Transparence technique partagee." }
+      },
+      "opacity": {
+        "disabled": { "$type": "number", "$value": 0.48 },
+        "muted": { "$type": "number", "$value": 0.72 },
+        "overlay": { "$type": "number", "$value": 0.65 }
+      },
+      "space": {
+        "0": { "$type": "dimension", "$value": "0px" },
+        "half": { "$type": "dimension", "$value": "2px" },
+        "threeQuarter": { "$type": "dimension", "$value": "3px" },
+        "1": { "$type": "dimension", "$value": "4px" },
+        "oneAndQuarter": { "$type": "dimension", "$value": "5px" },
+        "oneAndHalf": { "$type": "dimension", "$value": "6px" },
+        "oneAndThreeQuarter": { "$type": "dimension", "$value": "7px" },
+        "2": { "$type": "dimension", "$value": "8px" },
+        "twoAndQuarter": { "$type": "dimension", "$value": "9px" },
+        "twoAndHalf": { "$type": "dimension", "$value": "10px" },
+        "3": { "$type": "dimension", "$value": "12px" },
+        "threeAndHalf": { "$type": "dimension", "$value": "14px" },
+        "threeAndThreeQuarter": { "$type": "dimension", "$value": "15px" },
+        "4": { "$type": "dimension", "$value": "16px" },
+        "5": { "$type": "dimension", "$value": "20px" },
+        "6": { "$type": "dimension", "$value": "24px" },
+        "8": { "$type": "dimension", "$value": "32px" },
+        "10": { "$type": "dimension", "$value": "40px" },
+        "12": { "$type": "dimension", "$value": "48px" },
+        "16": { "$type": "dimension", "$value": "64px" }
+      },
+      "size": {
+        "touchMinimum": { "$type": "dimension", "$value": "48px", "$description": "Cible tactile minimale Flutter." },
+        "iconXSmall": { "$type": "dimension", "$value": "18px" },
+        "iconSmall": { "$type": "dimension", "$value": "22px" },
+        "iconMedium": { "$type": "dimension", "$value": "28px" },
+        "iconLarge": { "$type": "dimension", "$value": "32px" },
+        "iconXLarge": { "$type": "dimension", "$value": "40px" },
+        "iconHero": { "$type": "dimension", "$value": "44px" },
+        "avatarSmall": { "$type": "dimension", "$value": "34px" },
+        "avatarMedium": { "$type": "dimension", "$value": "46px" },
+        "avatarLarge": { "$type": "dimension", "$value": "56px" },
+        "mediaThumbnail": { "$type": "dimension", "$value": "80px" },
+        "featurePanelMinimum": { "$type": "dimension", "$value": "140px" },
+        "contentNarrow": { "$type": "dimension", "$value": "768px" },
+        "contentWide": { "$type": "dimension", "$value": "1280px" }
+      },
+      "radius": {
+        "none": { "$type": "dimension", "$value": "0px" },
+        "small": { "$type": "dimension", "$value": "4px" },
+        "medium": { "$type": "dimension", "$value": "8px" },
+        "pill": { "$type": "dimension", "$value": "9999px" }
+      },
+      "border": {
+        "thin": { "$type": "dimension", "$value": "1px" },
+        "medium": { "$type": "dimension", "$value": "2px" },
+        "strong": { "$type": "dimension", "$value": "3px" }
+      },
+      "font": {
+        "family": {
+          "display": { "$type": "fontFamily", "$value": ["Righteous", "sans-serif"] },
+          "body": { "$type": "fontFamily", "$value": ["Poppins", "sans-serif"] },
+          "action": { "$type": "fontFamily", "$value": ["Sanchez", "serif"] }
+        },
+        "size": {
+          "caption": { "$type": "dimension", "$value": "14px" },
+          "body": { "$type": "dimension", "$value": "16px" },
+          "bodyLarge": { "$type": "dimension", "$value": "18px" },
+          "titleSmall": { "$type": "dimension", "$value": "20px" },
+          "title": { "$type": "dimension", "$value": "24px" },
+          "displaySmall": { "$type": "dimension", "$value": "36px" },
+          "displayLarge": { "$type": "dimension", "$value": "60px" }
+        },
+        "weight": {
+          "regular": { "$type": "fontWeight", "$value": 400 },
+          "medium": { "$type": "fontWeight", "$value": 500 },
+          "bold": { "$type": "fontWeight", "$value": 700 },
+          "black": { "$type": "fontWeight", "$value": 900 }
+        },
+        "lineHeight": {
+          "tight": { "$type": "number", "$value": 1.1 },
+          "body": { "$type": "number", "$value": 1.5 }
+        },
+        "letterSpacing": {
+          "normal": { "$type": "dimension", "$value": "0px" },
+          "wide": { "$type": "dimension", "$value": "0.04em" }
+        }
+      },
+      "duration": {
+        "instant": { "$type": "duration", "$value": "0ms" },
+        "fast": { "$type": "duration", "$value": "150ms" },
+        "standard": { "$type": "duration", "$value": "250ms" },
+        "slow": { "$type": "duration", "$value": "500ms" }
+      },
+      "easing": {
+        "linear": { "$type": "cubicBezier", "$value": [0, 0, 1, 1] },
+        "standard": { "$type": "cubicBezier", "$value": [0.2, 0, 0, 1] },
+        "emphasized": { "$type": "cubicBezier", "$value": [0.2, 0.8, 0.2, 1] }
+      },
+      "shadow": {
+        "brutalSmall": { "$type": "shadow", "$value": { "x": "2px", "y": "2px", "blur": "0px", "spread": "0px", "color": "{semantic.color.shadow}" } },
+        "brutalMedium": { "$type": "shadow", "$value": { "x": "5px", "y": "5px", "blur": "0px", "spread": "0px", "color": "{semantic.color.shadow}" } },
+        "brutalLarge": { "$type": "shadow", "$value": { "x": "7px", "y": "7px", "blur": "0px", "spread": "0px", "color": "{semantic.color.shadow}" } }
+      }
+    },
+    "semantic": {
+      "color": {
+        "background": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.ink}" }, "$description": "Fond principal." },
+        "surface": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.charcoal}" } },
+        "surfaceStrong": { "$type": "color", "$modes": { "light": "{primitive.color.brand.yellow}", "dark": "{primitive.color.brand.charcoal}" } },
+        "text": { "$type": "color", "$modes": { "light": "{primitive.color.brand.black}", "dark": "{primitive.color.brand.cream}" } },
+        "textOnAccent": { "$type": "color", "$value": "{primitive.color.brand.black}" },
+        "textMuted": { "$type": "color", "$modes": { "light": "{primitive.color.brand.charcoal}", "dark": "{primitive.color.brand.cream}" } },
+        "border": { "$type": "color", "$modes": { "light": "{primitive.color.brand.black}", "dark": "{primitive.color.brand.cream}" } },
+        "shadow": { "$type": "color", "$modes": { "light": "{primitive.color.brand.black}", "dark": "{primitive.color.brand.yellow}" } },
+        "actionPrimary": { "$type": "color", "$value": "{primitive.color.brand.yellow}" },
+        "actionSecondary": { "$type": "color", "$value": "{primitive.color.brand.orange}" },
+        "actionDisabled": { "$type": "color", "$value": "{primitive.color.brand.charcoal}" },
+        "link": { "$type": "color", "$modes": { "light": "{primitive.color.brand.black}", "dark": "{primitive.color.brand.orange}" } },
+        "linkHover": { "$type": "color", "$modes": { "light": "{primitive.color.brand.orange}", "dark": "{primitive.color.brand.yellow}" } },
+        "focus": { "$type": "color", "$value": "{primitive.color.brand.orange}" },
+        "feedbackSuccess": { "$type": "color", "$value": "{primitive.color.brand.yellow}", "$description": "Toujours accompagne d'une icone ou d'un libelle." },
+        "feedbackError": { "$type": "color", "$value": "{primitive.color.brand.orange}", "$description": "Toujours accompagne d'une icone ou d'un libelle." }
+      },
+      "type": {
+        "displayFamily": { "$type": "fontFamily", "$value": "{primitive.font.family.display}" },
+        "bodyFamily": { "$type": "fontFamily", "$value": "{primitive.font.family.body}" },
+        "actionFamily": { "$type": "fontFamily", "$value": "{primitive.font.family.action}" }
+      },
+      "motion": {
+        "linearEasing": { "$type": "cubicBezier", "$value": "{primitive.easing.linear}" },
+        "interactionDuration": { "$type": "duration", "$value": "{primitive.duration.standard}" },
+        "interactionEasing": { "$type": "cubicBezier", "$value": "{primitive.easing.standard}" },
+        "reducedDuration": { "$type": "duration", "$value": "{primitive.duration.instant}" }
+      },
+      "shape": {
+        "controlRadius": { "$type": "dimension", "$value": "{primitive.radius.small}" },
+        "cardRadius": { "$type": "dimension", "$value": "{primitive.radius.medium}" },
+        "borderWidth": { "$type": "dimension", "$value": "{primitive.border.strong}" },
+        "decorativeRailWidth": { "$type": "dimension", "$value": "{primitive.space.1}" }
+      }
+    },
+    "component": {
+      "button": {
+        "paddingInline": { "$type": "dimension", "$value": "{primitive.space.8}" },
+        "paddingBlock": { "$type": "dimension", "$value": "{primitive.space.4}" },
+        "minHeight": { "$type": "dimension", "$value": "{primitive.size.touchMinimum}" },
+        "borderWidth": { "$type": "dimension", "$value": "{semantic.shape.borderWidth}" },
+        "radius": { "$type": "dimension", "$value": "{semantic.shape.controlRadius}" },
+        "shadow": { "$type": "shadow", "$value": "{primitive.shadow.brutalMedium}" }
+      },
+      "card": {
+        "padding": { "$type": "dimension", "$value": "{primitive.space.6}" },
+        "borderWidth": { "$type": "dimension", "$value": "{semantic.shape.borderWidth}" },
+        "radius": { "$type": "dimension", "$value": "{semantic.shape.cardRadius}" },
+        "shadow": { "$type": "shadow", "$value": "{primitive.shadow.brutalLarge}" }
+      },
+      "pill": {
+        "paddingInline": { "$type": "dimension", "$value": "{primitive.space.6}" },
+        "paddingBlock": { "$type": "dimension", "$value": "{primitive.space.3}" },
+        "radius": { "$type": "dimension", "$value": "{primitive.radius.pill}" },
+        "borderWidth": { "$type": "dimension", "$value": "{primitive.border.thin}" }
+      },
+      "input": {
+        "minHeight": { "$type": "dimension", "$value": "{primitive.size.touchMinimum}" },
+        "paddingInline": { "$type": "dimension", "$value": "{primitive.space.4}" },
+        "borderWidth": { "$type": "dimension", "$value": "{semantic.shape.borderWidth}" }
+      },
+      "progress": {
+        "compactHeight": { "$type": "dimension", "$value": "{primitive.space.twoAndHalf}" },
+        "comfortableHeight": { "$type": "dimension", "$value": "{primitive.space.threeAndHalf}" },
+        "trackColor": { "$type": "color", "$value": "{semantic.color.surface}" },
+        "fillColor": { "$type": "color", "$value": "{primitive.color.brand.yellow}" },
+        "borderWidth": { "$type": "dimension", "$value": "{semantic.shape.borderWidth}" }
+      },
+      "achievementMedia": {
+        "compactSize": { "$type": "dimension", "$value": "70px" },
+        "heroSize": { "$type": "dimension", "$value": "{primitive.size.mediaThumbnail}" }
+      },
+      "categoryBadge": {
+        "size": { "$type": "dimension", "$value": "52px" }
+      },
+      "listAccent": {
+        "width": { "$type": "dimension", "$value": "{semantic.shape.decorativeRailWidth}" },
+        "height": { "$type": "dimension", "$value": "58px" }
+      }
+    },
+    "surface": {
+      "web": {
+        "breakpoint": {
+          "mobile": { "$type": "dimension", "$value": "480px" },
+          "tablet": { "$type": "dimension", "$value": "768px" },
+          "desktop": { "$type": "dimension", "$value": "1280px" }
+        },
+        "hoverOffset": { "$type": "dimension", "$value": "2px" }
+      },
+      "app": {
+        "touchTarget": { "$type": "dimension", "$value": "{primitive.size.touchMinimum}" },
+        "compactNavigationHeight": { "$type": "dimension", "$value": "64px" },
+        "comfortableNavigationHeight": { "$type": "dimension", "$value": "72px" }
+      }
+    },
+    "legacy": {
+      "aliases": {
+        "brandCopper": { "$type": "color", "$value": "{primitive.color.brand.orange}", "$deprecated": { "replacement": "primitive.color.brand.orange", "owner": "design-system", "removeAfter": "2026-12-31" } },
+        "brandSoot": { "$type": "color", "$value": "{primitive.color.brand.charcoal}", "$deprecated": { "replacement": "primitive.color.brand.charcoal", "owner": "design-system", "removeAfter": "2026-12-31" } }
+      }
+    }
+  }
+}

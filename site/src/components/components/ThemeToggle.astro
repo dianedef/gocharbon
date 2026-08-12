@@ -55,6 +55,7 @@
 		const newTheme = isDark ? "light" : "dark";
 		document.documentElement.classList.remove("dark", "light");
 		document.documentElement.classList.add(newTheme);
+		document.documentElement.dataset.theme = newTheme;
 		localStorage.setItem("theme", newTheme);
 		window.dispatchEvent(new CustomEvent("theme-changed", { detail: { isDark: newTheme === "dark" } }));
 		updateThemeIcons();

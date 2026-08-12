@@ -78,7 +78,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
       ..showSnackBar(
         SnackBar(
           content: Text(message),
-          backgroundColor: error ? AppColors.error : AppColors.primary,
+          backgroundColor: error ? GcAppColors.error : GcAppColors.primary,
         ),
       );
   }
@@ -109,9 +109,9 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
     if (_loading) {
       return const SafeArea(
         child: Scaffold(
-          backgroundColor: AppColors.bg,
+          backgroundColor: GcAppColors.bg,
           body: Center(
-            child: CircularProgressIndicator(color: AppColors.primary),
+            child: CircularProgressIndicator(color: GcAppColors.primary),
           ),
         ),
       );
@@ -120,10 +120,10 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
     if (_error != null) {
       return SafeArea(
         child: Scaffold(
-          backgroundColor: AppColors.bg,
+          backgroundColor: GcAppColors.bg,
           body: Center(
             child: Padding(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.all(GcSpace.x4),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -131,28 +131,31 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                     _error!,
                     textAlign: TextAlign.center,
                     style: const TextStyle(
-                      fontSize: 15,
-                      height: 1.4,
-                      color: AppColors.textSecondary,
-                      fontWeight: FontWeight.w600,
+                      fontSize: GcType.body,
+                      height: GcType.bodyHeight,
+                      color: GcAppColors.textSecondary,
+                      fontWeight: GcType.bold,
                     ),
                   ),
-                  const SizedBox(height: 14),
+                  const SizedBox(height: GcSpace.x4),
                   DepthButton(
                     onPressed: _fetch,
-                    colors: const [AppColors.primary, AppColors.primaryShadow],
-                    shadowColor: AppColors.primaryShadow,
-                    borderRadius: BorderRadius.circular(14),
+                    colors: const [
+                      GcAppColors.primary,
+                      GcAppColors.primaryShadow,
+                    ],
+                    shadowColor: GcAppColors.primaryShadow,
+                    borderRadius: GcRadii.card,
                     child: const Padding(
                       padding: EdgeInsets.symmetric(
-                        horizontal: 20,
-                        vertical: 12,
+                        horizontal: GcSpace.x5,
+                        vertical: GcSpace.x3,
                       ),
                       child: Text(
                         "Réessayer",
                         style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w800,
+                          color: GcAppColors.textPrimary,
+                          fontWeight: GcType.black,
                         ),
                       ),
                     ),
@@ -169,13 +172,13 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
     if (user == null) {
       return const SafeArea(
         child: Scaffold(
-          backgroundColor: AppColors.bg,
+          backgroundColor: GcAppColors.bg,
           body: Center(
             child: Text(
               "Profil indisponible.",
               style: TextStyle(
-                color: AppColors.textSecondary,
-                fontWeight: FontWeight.w600,
+                color: GcAppColors.textSecondary,
+                fontWeight: GcType.bold,
               ),
             ),
           ),
@@ -203,13 +206,13 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: AppColors.bg,
+        backgroundColor: GcAppColors.bg,
         body: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.symmetric(horizontal: GcSpace.x4),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              const SizedBox(height: 10),
+              const SizedBox(height: GcSpace.x3),
 
               // Header
               Row(
@@ -218,8 +221,10 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                     decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
-                          color: AppColors.gold.withValues(alpha: 0.5),
-                          blurRadius: 16,
+                          color: GcAppColors.gold.withValues(
+                            alpha: GcOpacity.disabled,
+                          ),
+                          blurRadius: GcSpace.x4,
                         ),
                       ],
                       shape: BoxShape.circle,
@@ -228,17 +233,17 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         gradient: LinearGradient(
-                          colors: [AppColors.gold, AppColors.primary],
+                          colors: [GcAppColors.gold, GcAppColors.primary],
                         ),
                       ),
                       child: Padding(
-                        padding: const EdgeInsets.all(4),
+                        padding: const EdgeInsets.all(GcSpace.x1),
                         child: Container(
-                          width: 56,
-                          height: 56,
+                          width: GcSizes.avatarLarge,
+                          height: GcSizes.avatarLarge,
                           decoration: const BoxDecoration(
                             shape: BoxShape.circle,
-                            color: AppColors.surface,
+                            color: GcAppColors.surface,
                           ),
                           child: Center(
                             child: Text(
@@ -246,9 +251,9 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                                   ? user.username[0].toUpperCase()
                                   : "P",
                               style: const TextStyle(
-                                fontSize: 24,
-                                fontWeight: FontWeight.w900,
-                                color: AppColors.textPrimary,
+                                fontSize: GcType.title,
+                                fontWeight: GcType.black,
+                                color: GcAppColors.textPrimary,
                               ),
                             ),
                           ),
@@ -256,7 +261,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                       ),
                     ),
                   ),
-                  const SizedBox(width: 14),
+                  const SizedBox(width: GcSpace.x4),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -266,26 +271,26 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w900,
-                            color: AppColors.textPrimary,
+                            fontSize: GcType.titleSmall,
+                            fontWeight: GcType.black,
+                            color: GcAppColors.textPrimary,
                           ),
                         ),
-                        const SizedBox(height: 4),
+                        const SizedBox(height: GcSpace.x1),
                         Row(
                           children: [
                             Icon(
                               MdiIcons.shieldStar,
-                              size: 14,
-                              color: AppColors.gold,
+                              size: GcType.caption,
+                              color: GcAppColors.gold,
                             ),
-                            const SizedBox(width: 4),
+                            const SizedBox(width: GcSpace.x1),
                             Text(
                               "Niv. $lv · ${user.levelName}",
                               style: const TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.w700,
-                                color: AppColors.gold,
+                                fontSize: GcType.caption,
+                                fontWeight: GcType.bold,
+                                color: GcAppColors.gold,
                               ),
                             ),
                           ],
@@ -293,20 +298,24 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                       ],
                     ),
                   ),
-                  Image.asset(AppImages.diamond, width: 44, height: 44),
+                  Image.asset(
+                    AppImages.diamond,
+                    width: GcSizes.iconHero,
+                    height: GcSizes.iconHero,
+                  ),
                 ],
               ),
 
-              const SizedBox(height: 14),
+              const SizedBox(height: GcSpace.x4),
 
               // XP Progress
               Container(
                 decoration: BoxDecoration(
-                  color: AppColors.surface,
-                  borderRadius: BorderRadius.circular(16),
-                  border: Border.all(color: AppColors.borderLight),
+                  color: GcAppColors.surface,
+                  borderRadius: GcRadii.card,
+                  border: Border.all(color: GcAppColors.borderLight),
                 ),
-                padding: const EdgeInsets.all(14),
+                padding: const EdgeInsets.all(GcSpace.x4),
                 child: Column(
                   children: [
                     Row(
@@ -315,27 +324,27 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                         const Text(
                           "XP",
                           style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w700,
-                            color: AppColors.textSecondary,
+                            fontSize: GcType.caption,
+                            fontWeight: GcType.bold,
+                            color: GcAppColors.textSecondary,
                           ),
                         ),
                         Text(
                           formatNumber(xp),
                           style: const TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w800,
-                            color: AppColors.gold,
+                            fontSize: GcType.caption,
+                            fontWeight: GcType.black,
+                            color: GcAppColors.gold,
                           ),
                         ),
                       ],
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: GcSpace.x2),
                     Container(
-                      height: 14,
+                      height: GcSizes.progressComfortable,
                       decoration: BoxDecoration(
-                        color: AppColors.surfaceElevated,
-                        borderRadius: BorderRadius.circular(7),
+                        color: GcAppColors.surfaceElevated,
+                        borderRadius: GcRadii.control,
                       ),
                       clipBehavior: Clip.antiAlias,
                       child: Align(
@@ -345,7 +354,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                           child: const DecoratedBox(
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
-                                colors: [AppColors.gold, AppColors.primary],
+                                colors: [GcAppColors.gold, GcAppColors.primary],
                               ),
                             ),
                           ),
@@ -356,73 +365,77 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                 ),
               ),
 
-              const SizedBox(height: 14),
+              const SizedBox(height: GcSpace.x4),
 
               // Stats
               LayoutBuilder(
                 builder: (context, constraints) {
-                  final w = (constraints.maxWidth - 8) / 2;
+                  final w = (constraints.maxWidth - GcSpace.x2) / 2;
                   final items = [
                     _StatDef(
                       icon: MdiIcons.gamepadVariant,
                       value: formatNumber(stats.totalQuizzes),
                       label: "Quiz",
-                      color: AppColors.primary,
+                      color: GcAppColors.primary,
                     ),
                     _StatDef(
                       icon: MdiIcons.checkCircle,
                       value: "$acc%",
                       label: "Précision",
-                      color: AppColors.success,
+                      color: GcAppColors.success,
                     ),
                     _StatDef(
                       icon: MdiIcons.fire,
                       value: formatNumber(stats.bestStreak),
                       label: "Streak",
-                      color: AppColors.gold,
+                      color: GcAppColors.gold,
                     ),
                     _StatDef(
                       icon: MdiIcons.star,
                       value: formatNumber(user.totalScore),
                       label: "Score",
-                      color: AppColors.secondary,
+                      color: GcAppColors.secondary,
                     ),
                   ];
 
                   return Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
+                    spacing: GcSpace.x2,
+                    runSpacing: GcSpace.x2,
                     children: items
                         .map(
                           (st) => SizedBox(
                             width: w,
                             child: Container(
                               decoration: BoxDecoration(
-                                color: AppColors.surface,
-                                borderRadius: BorderRadius.circular(14),
+                                color: GcAppColors.surface,
+                                borderRadius: GcRadii.card,
                                 border: Border.all(
-                                  color: AppColors.borderLight,
+                                  color: GcAppColors.borderLight,
                                 ),
                               ),
-                              padding: const EdgeInsets.all(10),
+                              padding: const EdgeInsets.all(GcSpace.x3),
                               child: Column(
                                 children: [
-                                  Icon(st.icon, size: 20, color: st.color),
-                                  const SizedBox(height: 4),
+                                  Icon(
+                                    st.icon,
+                                    size: GcSpace.x5,
+                                    color: st.color,
+                                  ),
+                                  const SizedBox(height: GcSpace.x1),
                                   Text(
                                     st.value,
                                     style: const TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.w900,
-                                      color: AppColors.textPrimary,
+                                      fontSize: GcType.bodyLarge,
+                                      fontWeight: GcType.black,
+                                      color: GcAppColors.textPrimary,
                                     ),
                                   ),
                                   Text(
                                     st.label,
                                     style: const TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w700,
-                                      color: AppColors.textSecondary,
+                                      fontSize: GcType.caption,
+                                      fontWeight: GcType.bold,
+                                      color: GcAppColors.textSecondary,
                                     ),
                                   ),
                                 ],
@@ -435,24 +448,24 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                 },
               ),
 
-              const SizedBox(height: 16),
+              const SizedBox(height: GcSpace.x4),
 
               // Badges
               Text(
                 "Badges (${unlocked.length}/${_badges.length})",
                 style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w800,
-                  color: AppColors.textPrimary,
+                  fontSize: GcType.body,
+                  fontWeight: GcType.black,
+                  color: GcAppColors.textPrimary,
                 ),
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: GcSpace.x3),
               LayoutBuilder(
                 builder: (context, constraints) {
-                  final itemW = (constraints.maxWidth - (8 * 3)) / 4;
+                  final itemW = (constraints.maxWidth - (GcSpace.x2 * 3)) / 4;
                   return Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
+                    spacing: GcSpace.x2,
+                    runSpacing: GcSpace.x2,
                     children: shownBadges
                         .map((k) {
                           final b = _badges[k];
@@ -461,39 +474,39 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                           final child = Column(
                             children: [
                               Container(
-                                width: 40,
-                                height: 40,
+                                width: GcSizes.iconXLarge,
+                                height: GcSizes.iconXLarge,
                                 decoration: BoxDecoration(
                                   color: on
-                                      ? AppColors.primary.withValues(
-                                          alpha: 0.18,
+                                      ? GcAppColors.primary.withValues(
+                                          alpha: GcOpacity.disabled,
                                         )
-                                      : AppColors.surfaceElevated,
-                                  borderRadius: BorderRadius.circular(14),
+                                      : GcAppColors.surfaceElevated,
+                                  borderRadius: GcRadii.card,
                                 ),
                                 child: Center(
                                   child: Icon(
                                     mdiFromName(b.icon),
-                                    size: 18,
+                                    size: GcSizes.iconXSmall,
                                     color: on
-                                        ? AppColors.primary
-                                        : AppColors.textTertiary,
+                                        ? GcAppColors.primary
+                                        : GcAppColors.textTertiary,
                                   ),
                                 ),
                               ),
-                              const SizedBox(height: 4),
+                              const SizedBox(height: GcSpace.x1),
                               Text(
                                 b.name,
                                 maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w700,
+                                  fontSize: GcType.caption,
+                                  fontWeight: GcType.bold,
                                   color: on
-                                      ? AppColors.textPrimary
-                                      : AppColors.textTertiary,
-                                  height: 1.2,
+                                      ? GcAppColors.textPrimary
+                                      : GcAppColors.textTertiary,
+                                  height: GcType.tightHeight,
                                 ),
                               ),
                             ],
@@ -512,45 +525,52 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                 },
               ),
 
-              const SizedBox(height: 16),
+              const SizedBox(height: GcSpace.x4),
 
               DepthButton(
                 onPressed: _linkWithGoogle,
                 colors: _linkingGoogle
-                    ? const [Color(0xFF455A64), Color(0xFF455A64)]
-                    : const [Color(0xFF4285F4), Color(0xFF0F5BD8)],
+                    ? const [GcAppColors.textTertiary, GcAppColors.textTertiary]
+                    : const [
+                        GcAppColors.secondary,
+                        GcAppColors.secondaryShadow,
+                      ],
                 shadowColor: _linkingGoogle
-                    ? AppColors.borderLight
-                    : const Color(0xFF0D47A1),
-                borderRadius: BorderRadius.circular(16),
+                    ? GcAppColors.borderLight
+                    : GcAppColors.secondaryShadow,
+                borderRadius: GcRadii.card,
                 child: Padding(
                   padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                    vertical: 14,
+                    horizontal: GcSpace.x4,
+                    vertical: GcSpace.threeAndHalf,
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       if (_linkingGoogle)
                         const SizedBox(
-                          width: 18,
-                          height: 18,
+                          width: GcSizes.iconXSmall,
+                          height: GcSizes.iconXSmall,
                           child: CircularProgressIndicator(
-                            strokeWidth: 2.2,
-                            color: Colors.white,
+                            strokeWidth: GcBorders.medium,
+                            color: GcAppColors.textPrimary,
                           ),
                         )
                       else
-                        Icon(MdiIcons.account, size: 20, color: Colors.white),
-                      const SizedBox(width: 10),
+                        Icon(
+                          MdiIcons.account,
+                          size: GcSpace.x5,
+                          color: GcAppColors.textPrimary,
+                        ),
+                      const SizedBox(width: GcSpace.x3),
                       Text(
                         _linkingGoogle
                             ? "Redirection OAuth..."
                             : "Lier mon compte Google",
                         style: const TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w800,
-                          color: Colors.white,
+                          fontSize: GcType.body,
+                          fontWeight: GcType.black,
+                          color: GcAppColors.textPrimary,
                         ),
                       ),
                     ],
@@ -559,61 +579,77 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
               ),
               if (!AppConfig.supabaseConfigured)
                 const Padding(
-                  padding: EdgeInsets.only(top: 8, left: 2, right: 2),
+                  padding: EdgeInsets.only(
+                    top: GcSpace.x2,
+                    left: GcSpace.half,
+                    right: GcSpace.half,
+                  ),
                   child: Text(
                     "OAuth web nécessite SUPABASE_URL et SUPABASE_PUBLISHABLE_KEY au build.",
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                      color: AppColors.textSecondary,
+                      fontSize: GcType.caption,
+                      fontWeight: GcType.bold,
+                      color: GcAppColors.textSecondary,
                     ),
                   ),
                 ),
 
-              const SizedBox(height: 16),
+              const SizedBox(height: GcSpace.x4),
 
               InkWell(
                 onTap: _openGoCharbon,
-                borderRadius: BorderRadius.circular(16),
+                borderRadius: GcRadii.card,
                 child: Container(
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
-                      colors: [AppColors.primary, AppColors.gold],
+                      colors: [GcAppColors.primary, GcAppColors.gold],
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                     ),
-                    borderRadius: BorderRadius.circular(16),
+                    borderRadius: GcRadii.card,
                     boxShadow: [
                       BoxShadow(
-                        color: AppColors.primary.withValues(alpha: 0.4),
-                        blurRadius: 12,
-                        offset: const Offset(0, 6),
+                        color: GcAppColors.primary.withValues(
+                          alpha: GcOpacity.disabled,
+                        ),
+                        blurRadius: GcSpace.x3,
+                        offset: const Offset(GcSpace.zero, GcSpace.oneAndHalf),
                       ),
                     ],
                   ),
-                  padding: const EdgeInsets.symmetric(vertical: 15),
+                  padding: const EdgeInsets.symmetric(
+                    vertical: GcSpace.threeAndThreeQuarter,
+                  ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(MdiIcons.school, size: 22, color: Colors.white),
-                      const SizedBox(width: 10),
+                      Icon(
+                        MdiIcons.school,
+                        size: GcSizes.iconSmall,
+                        color: GcAppColors.textPrimary,
+                      ),
+                      const SizedBox(width: GcSpace.x3),
                       const Text(
                         "Formations sur gocharbon.fr",
                         style: TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w800,
-                          color: Colors.white,
+                          fontSize: GcType.body,
+                          fontWeight: GcType.black,
+                          color: GcAppColors.textPrimary,
                         ),
                       ),
-                      const SizedBox(width: 10),
-                      Icon(MdiIcons.arrowRight, size: 20, color: Colors.white),
+                      const SizedBox(width: GcSpace.x3),
+                      Icon(
+                        MdiIcons.arrowRight,
+                        size: GcSpace.x5,
+                        color: GcAppColors.textPrimary,
+                      ),
                     ],
                   ),
                 ),
               ),
 
-              const SizedBox(height: 16),
+              const SizedBox(height: GcSpace.x4),
             ],
           ),
         ),

@@ -21,42 +21,42 @@ class CategoryConfig {
   static final finance = CategoryInfo(
     id: "finance",
     name: "Finance",
-    color: AppColors.catFinance,
+    color: GcAppColors.catFinance,
     icon: MdiIcons.cash,
   );
 
   static final marketing = CategoryInfo(
     id: "marketing",
     name: "Marketing",
-    color: AppColors.catMarketing,
+    color: GcAppColors.catMarketing,
     icon: MdiIcons.bullhorn,
   );
 
   static final management = CategoryInfo(
     id: "management",
     name: "Management",
-    color: AppColors.catManagement,
+    color: GcAppColors.catManagement,
     icon: MdiIcons.accountTie,
   );
 
   static final ecommerce = CategoryInfo(
     id: "ecommerce",
     name: "E-commerce",
-    color: AppColors.catEcommerce,
+    color: GcAppColors.catEcommerce,
     icon: MdiIcons.cart,
   );
 
   static final random = CategoryInfo(
     id: "random",
     name: "Business",
-    color: AppColors.primary,
+    color: GcAppColors.primary,
     icon: MdiIcons.shuffleVariant,
   );
 
   static final daily = CategoryInfo(
     id: "daily",
     name: "Défi du jour",
-    color: AppColors.gold,
+    color: GcAppColors.gold,
     icon: MdiIcons.fire,
   );
 

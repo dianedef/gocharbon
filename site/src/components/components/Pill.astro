@@ -1,32 +1,32 @@
 ---
 import type { PillProps } from "../../utils/types/ui";
-import colors from "../config/colors.json";
+import { designTokens } from "../../generated/design-tokens";
 
 type Props = PillProps;
 
 const lightColor =
-	colors.light[Math.floor(Math.random() * colors.light.length)];
+	designTokens.light['semantic.color.actionPrimary'];
 const darkColorRandom =
-	colors.dark[Math.floor(Math.random() * colors.dark.length)];
+	designTokens.dark['semantic.color.actionPrimary'];
 
 const { color = lightColor, darkColor = darkColorRandom } = Astro.props;
 ---
 
 <style define:vars={{ color, darkColor, shadowColor: 'var(--brand-yellow)' }}>
 	span.brutal-pill {
-		filter: var(--sf-auto-global2-pill-filter-cf0e3b17);
+		filter: drop-shadow(3px 3px 0 color-mix(in srgb, var(--gc-primitive-color-brand-ink) 100%, transparent));
 		user-select: none;
 		background-color: var(--background-color, var(--brand-cream));
-		border-radius: var(--sf-auto-global2-pill-border-radius-1afca461);
+		border-radius: var(--gc-primitive-radius-pill);
 		border: 2px solid var(--border-color, var(--brand-black));
-		padding: var(--sf-auto-global2-pill-padding-e9030e6c);
-		transition: var(--sf-auto-global2-pill-transition-9a52202a);
+		padding: 0.25rem 0.75rem;
+		transition: all 0.3s ease-in-out;
 		font-size: small;
 		color: var(--text-color, var(--brand-black));
 	}
 
 	span.brutal-pill:hover {
-		filter: var(--sf-auto-global2-pill-filter-b7c7e271);
+		filter: drop-shadow(5px 5px 0 color-mix(in srgb, var(--gc-primitive-color-brand-ink) 100%, transparent));
 		background-color: var(--color);
 		transform: translateY(-2px);
 	}
