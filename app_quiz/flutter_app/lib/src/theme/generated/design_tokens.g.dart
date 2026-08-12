@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 bf6c9df39df808a78128e8afd5fd0c614893a1a283309d9b92d0ac02cf4d71c3
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 15799a70e2fd6fc817f3bf486b3cad1ae34e0ea93986edadc0a382f051a26a62
 
 import "package:flutter/material.dart";
 
@@ -150,6 +150,9 @@ abstract final class GcLightTokens {
   static const surfaceWebHeroContentMaximum = 1120.0;
   static const surfaceWebHeroCopyMaximum = 620.0;
   static const surfaceWebHoverOffset = 2.0;
+  static const surfaceWebLandingDesktopMaximum = 1600.0;
+  static const surfaceWebLandingDesktopMinimumHeight = 760.0;
+  static const surfaceWebLandingPanelBorderWidth = 2.0;
   static const surfaceWebMineRailHeight = 96.0;
 }
 
@@ -301,6 +304,9 @@ abstract final class GcDarkTokens {
   static const surfaceWebHeroContentMaximum = 1120.0;
   static const surfaceWebHeroCopyMaximum = 620.0;
   static const surfaceWebHoverOffset = 2.0;
+  static const surfaceWebLandingDesktopMaximum = 1600.0;
+  static const surfaceWebLandingDesktopMinimumHeight = 760.0;
+  static const surfaceWebLandingPanelBorderWidth = 2.0;
   static const surfaceWebMineRailHeight = 96.0;
 }
 

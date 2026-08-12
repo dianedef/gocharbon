@@ -212,7 +212,10 @@
         "hoverOffset": { "$type": "dimension", "$value": "2px" },
         "heroContentMaximum": { "$type": "dimension", "$value": "1120px" },
         "heroCopyMaximum": { "$type": "dimension", "$value": "620px" },
-        "mineRailHeight": { "$type": "dimension", "$value": "96px" }
+        "mineRailHeight": { "$type": "dimension", "$value": "96px" },
+        "landingDesktopMaximum": { "$type": "dimension", "$value": "1600px", "$description": "Largeur maximale de la scene miniere desktop." },
+        "landingDesktopMinimumHeight": { "$type": "dimension", "$value": "760px", "$description": "Hauteur minimale de la landing dark desktop." },
+        "landingPanelBorderWidth": { "$type": "dimension", "$value": "2px", "$description": "Bordure technique des panneaux de la landing miniere." }
       },
       "app": {
         "touchTarget": { "$type": "dimension", "$value": "{primitive.size.touchMinimum}" },

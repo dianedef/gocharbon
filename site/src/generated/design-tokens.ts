@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 bf6c9df39df808a78128e8afd5fd0c614893a1a283309d9b92d0ac02cf4d71c3
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 15799a70e2fd6fc817f3bf486b3cad1ae34e0ea93986edadc0a382f051a26a62
 export const designTokens = {
   "light": {
     "component.achievementMedia.compactSize": "70px",
@@ -221,6 +221,9 @@ export const designTokens = {
     "surface.web.heroContentMaximum": "1120px",
     "surface.web.heroCopyMaximum": "620px",
     "surface.web.hoverOffset": "2px",
+    "surface.web.landingDesktopMaximum": "1600px",
+    "surface.web.landingDesktopMinimumHeight": "760px",
+    "surface.web.landingPanelBorderWidth": "2px",
     "surface.web.mineRailHeight": "96px"
   },
   "dark": {
@@ -444,6 +447,9 @@ export const designTokens = {
     "surface.web.heroContentMaximum": "1120px",
     "surface.web.heroCopyMaximum": "620px",
     "surface.web.hoverOffset": "2px",
+    "surface.web.landingDesktopMaximum": "1600px",
+    "surface.web.landingDesktopMinimumHeight": "760px",
+    "surface.web.landingPanelBorderWidth": "2px",
     "surface.web.mineRailHeight": "96px"
   }
 } as const;

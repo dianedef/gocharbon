@@ -1,4 +1,4 @@
-/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 bf6c9df39df808a78128e8afd5fd0c614893a1a283309d9b92d0ac02cf4d71c3 */
+/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 15799a70e2fd6fc817f3bf486b3cad1ae34e0ea93986edadc0a382f051a26a62 */
 :root, [data-theme="light"] {
   --gc-component-achievement-media-compact-size: 70px;
   --gc-component-achievement-media-hero-size: 80px;
@@ -147,6 +147,9 @@
   --gc-surface-web-hero-content-maximum: 1120px;
   --gc-surface-web-hero-copy-maximum: 620px;
   --gc-surface-web-hover-offset: 2px;
+  --gc-surface-web-landing-desktop-maximum: 1600px;
+  --gc-surface-web-landing-desktop-minimum-height: 760px;
+  --gc-surface-web-landing-panel-border-width: 2px;
   --gc-surface-web-mine-rail-height: 96px;
 }
 
