@@ -1,10 +1,10 @@
 ---
 artifact: technical_guidelines
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.1.0"
 project: "gocharbon"
 created: "2026-08-12"
-updated: "2026-08-12"
+updated: "2026-08-13"
 status: active
 source_skill: sg-design
 scope: cross-surface-design-system
@@ -20,8 +20,8 @@ linked_systems:
   - "app_quiz/flutter_app/lib/src/theme/generated/design_tokens.g.dart"
 depends_on:
   - "shipglows_data/branding/branding.md"
-next_review: "2026-09-12"
-next_step: "Brancher les sorties generees dans le site et l'application."
+next_review: "2026-09-13"
+next_step: "Appliquer la direction Pixel Mine documentee sans generaliser les choix experimentaux."
 ---
 
 # Design system cross-surface GoCharbon
@@ -33,9 +33,11 @@ pour les decisions visuelles partagees. Son schema valide la structure; les
 fichiers CSS, TypeScript et Dart sont des projections generees et ne doivent
 jamais etre modifies a la main.
 
-La direction officielle reste brutaliste: charbon, creme, or et orange;
+La direction officielle est Pixel Mine: charbon, creme, or et orange;
 Righteous pour l'impact, Poppins pour la lecture, Sanchez pour les actions;
-bordures franches et ombres dures sans flou.
+pixel coherent, bordures franches et ombres dures sans flou. Le neobrutalisme
+historique ne subsiste que dans les traits compatibles listes dans
+`shipglows_data/branding/branding.md`; il n'est plus une autorite autonome.
 
 ## Couches
 

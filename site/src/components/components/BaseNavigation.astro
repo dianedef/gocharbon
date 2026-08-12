@@ -76,6 +76,12 @@ const breadcrumbLabels: Record<string, string> = {
 };
 
 const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels);
+const isLanding = Astro.url.pathname === "/";
+const worldTabs = [
+	{ key: "charbon", label: "Charbon", icon: worldIcons.charbon },
+	{ key: "mine", label: "Mine", icon: worldIcons.mine },
+	{ key: "or", label: "Or", icon: worldIcons.or },
+];
 ---
 
 <style define:vars={{ softWhite: 'var(--brand-cream)' }}>
@@ -133,6 +139,107 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 		margin-left: 0.35rem;
 	}
 
+	.landing-navigation {
+		display: grid;
+		grid-template-columns: auto auto 1fr auto;
+		align-items: stretch;
+		min-height: var(--gc-surface-web-landing-navigation-height);
+		border: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-surface-web-landing-chrome-text) 12%, transparent);
+		background: var(--gc-surface-web-landing-chrome-background);
+		box-shadow: var(--gc-component-pixel-frame-shadow);
+	}
+
+	.landing-logo {
+		display: flex;
+		align-items: center;
+		padding-inline: var(--gc-primitive-space-6);
+		border-right: var(--gc-component-pixel-frame-edge-unit) solid color-mix(in srgb, var(--gc-surface-web-landing-chrome-text) 12%, transparent);
+		color: var(--gc-surface-web-landing-chrome-text);
+		text-decoration: none;
+	}
+
+	.landing-world-tabs,
+	.landing-primary-links {
+		display: flex;
+		align-items: stretch;
+	}
+
+	.landing-world-tab {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: var(--gc-primitive-space-3);
+		min-width: var(--gc-surface-web-landing-world-tab-minimum);
+		padding-inline: var(--gc-primitive-space-4);
+		border-right: var(--gc-component-pixel-frame-edge-unit) solid color-mix(in srgb, var(--gc-surface-web-landing-chrome-text) 12%, transparent);
+		color: color-mix(in srgb, var(--gc-surface-web-landing-chrome-text) 68%, transparent);
+		font-family: var(--gc-semantic-type-action-family);
+		font-size: var(--gc-primitive-font-size-caption);
+		font-weight: var(--gc-primitive-font-weight-bold);
+		letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	.landing-world-tab img {
+		width: var(--gc-primitive-size-icon-medium);
+		height: var(--gc-primitive-size-icon-medium);
+		image-rendering: pixelated;
+	}
+
+	.landing-world-tab.is-active {
+		background: color-mix(in srgb, var(--gc-semantic-color-mineral-value) 7%, var(--gc-surface-web-landing-panel-background));
+		box-shadow: inset 0 calc(var(--gc-component-pixel-frame-edge-unit) * -1) 0 var(--gc-semantic-color-mineral-value);
+		color: var(--gc-surface-web-landing-chrome-text);
+	}
+
+	.landing-primary-links {
+		justify-content: flex-end;
+		gap: var(--gc-primitive-space-8);
+		padding-inline: var(--gc-primitive-space-6);
+	}
+
+	.landing-primary-links a {
+		display: flex;
+		align-items: center;
+		color: color-mix(in srgb, var(--gc-surface-web-landing-chrome-text) 72%, transparent);
+		font-size: var(--gc-primitive-font-size-caption);
+		font-weight: var(--gc-primitive-font-weight-medium);
+		text-decoration: none;
+	}
+
+	.landing-primary-links a:hover,
+	.landing-world-tab:hover {
+		color: var(--gc-semantic-color-mineral-value);
+	}
+
+	.landing-account {
+		display: flex;
+		align-items: center;
+		gap: var(--gc-primitive-space-3);
+		margin: var(--gc-primitive-space-2);
+		padding-inline: var(--gc-primitive-space-4);
+		border: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-surface-web-landing-chrome-text) 55%, transparent);
+		color: var(--gc-surface-web-landing-chrome-text);
+		font-family: var(--gc-semantic-type-action-family);
+		text-decoration: none;
+	}
+
+	.landing-account span:last-child {
+		color: var(--gc-semantic-color-mineral-value);
+	}
+
+	@media (width < 1180px) {
+		.landing-primary-links {
+			gap: var(--gc-primitive-space-4);
+			padding-inline: var(--gc-primitive-space-4);
+		}
+
+		.landing-world-tab {
+			min-width: auto;
+		}
+	}
+
 	@media (width <= 767px) {
 		.world-cues {
 			display: none;
@@ -140,7 +247,32 @@ const breadcrumbs = getResolvedBreadcrumbs(Astro.url.pathname, breadcrumbLabels)
 	}
 </style>
 
-<header class="flex flex-col px-4 py-3 md:px-6 md:py-4">
+{isLanding && (
+	<header class="landing-header hidden md:block px-4 py-3">
+		{pageTitle && <h1 class="hidden">{pageTitle}</h1>}
+		<div class="landing-navigation">
+			<a class="landing-logo" href="/" aria-label="Retour à l'accueil">
+				<span class="righteous text-3xl">{SITE.nameUpper}</span>
+			</a>
+			<div class="landing-world-tabs" role="list" aria-label="Mondes GoCharbon">
+				{worldTabs.map((tab) => (
+					<span class:list={["landing-world-tab", tab.key === "mine" && "is-active"]} role="listitem">
+						<img src={tab.icon} alt="" aria-hidden="true" />
+						{tab.label}
+					</span>
+				))}
+			</div>
+			<nav class="landing-primary-links" aria-label="Navigation principale">
+				{navigationItems.map((item) => <a href={item.url}>{item.name}</a>)}
+			</nav>
+			<a class="landing-account" href={ROUTES.progression}>
+				<span>Mon espace</span><span aria-hidden="true">›</span>
+			</a>
+		</div>
+	</header>
+)}
+
+<header class:list={["flex flex-col px-4 py-3 md:px-6 md:py-4", isLanding && "md:hidden"]}>
 	<div class="flex justify-between items-center">
 		{pageTitle && <h1 class="hidden">{pageTitle}</h1>}
 		<div class="flex items-center gap-4">

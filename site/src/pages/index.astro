@@ -81,112 +81,97 @@ const homeDescription = launchBuild
   title={homeTitle}
   description={homeDescription}
   pageTitle="GOCHARBON"
+  classList="landing-dark-page"
 >
   <main class="home-shell min-h-screen">
-    <section class="hero-section bg-yellow-primary dark:bg-yellow-dark">
-      <div class="hero-grid px-6 py-12 md:py-18 max-w-6xl mx-auto">
-        <div class="hero-copy">
-          <p class="hero-kicker poppins">PAS UN ÉNIÈME BLOG BUSINESS</p>
-          <h1 class="hero-title poppins">
-            Trouve un modèle crédible.
-            <span>Reçois un parcours.</span>
-            <span>Coche chaque étape.</span>
+    <section class="mine-landing" aria-labelledby="mine-landing-title">
+      <div class="mine-landing-scene">
+        <div class="mine-copy">
+          <p class="mine-eyebrow">Lance ton expédition</p>
+          <span class="mine-eyebrow-mark" aria-hidden="true"></span>
+          <h1 id="mine-landing-title">
+            Creuse moins<br />au hasard.
+            <strong>Trouve le bon filon.</strong>
           </h1>
-          <p class="hero-intro">
-            {launchBuild
-              ? "GoCharbon part petit exprès : cinq parcours pilotes relus à la main, quatre portes d’entrée simples, et un seul objectif sérieux, te faire passer du flou à un premier signal terrain."
-              : "GoCharbon transforme la théorie en exécution : un quiz pour t'orienter, un parcours pour savoir quoi faire, puis une progression visible pour tenir dans la durée."}
-          </p>
-          <div class="hero-points">
-            <div class="hero-point">
-              <strong>{totalPaths} parcours</strong>
-              <span>{launchBuild ? "pilotes, assumés et relus avant d'ouvrir plus large" : "pour partir d'un profil réel, pas d'un fantasme de business"}</span>
-            </div>
-            <div class="hero-point">
-              <strong>{averageSteps} étapes en moyenne</strong>
-              <span>pour transformer "je me renseigne" en "j'avance vraiment"</span>
-            </div>
-            <div class="hero-point">
-              <strong>Progression sauvegardée</strong>
-              <span>{launchBuild ? "modules, checklists, XP, repères concrets" : "XP, badges, modules, repères concrets"}</span>
-            </div>
-          </div>
-          <div class="hero-actions">
-            <Button href={ROUTES.parcours} color="var(--brand-orange)" variant="hero">
-              Voir les parcours
-            </Button>
-            <Button href={launchBuild ? "#entry-points" : ROUTES.quiz} color="var(--brand-yellow)" variant="hero">
-              {launchBuild ? "Choisir une porte d’entrée" : "Faire le quiz"}
-            </Button>
-          </div>
-          <p class="hero-note">
-            {launchBuild
-              ? "Si tu pars de zéro, commence par une porte d’entrée. Si tu sais déjà quel modèle tu veux tester, ouvre directement le parcours correspondant."
-              : "Si tu pars de zéro : commence par le quiz. Si tu sais déjà ce que tu veux vendre : va directement sur les parcours."}
-          </p>
-        </div>
-
-        <div class="hero-product">
-          <div class="hero-panel hero-panel-quiz">
-            <div class="panel-header">
-              <p class="panel-kicker">Aperçu du système</p>
-              <h2>{launchBuild ? "Entre par une famille claire avant de t'éparpiller." : "Choisis une direction avant de t'épuiser."}</h2>
-            </div>
-            {launchBuild ? (
-              <>
-                <p class="panel-copy">
-                  Service, audience, produit ou revenu d’appoint : tu choisis une logique de départ, puis tu ouvres un parcours réellement travaillé. Le site démarre volontairement avec peu de pages, pour que chacune tienne debout.
-                </p>
-                <div class="hero-sentence-quiz">
-                  <p class="hero-launch-summary">
-                    4 entrées lisibles. {totalPaths} parcours pilotes. Une base plus petite, mais beaucoup plus nette.
-                  </p>
-                </div>
-              </>
-            ) : (
-              <>
-                <p class="panel-copy">
-                  Le quiz ne te donne pas une vague idée. Il t'envoie vers un type de business et un plan d'action utilisable.
-                </p>
-                <div class="hero-sentence-quiz">
-                  <SentenceQuiz client:visible />
-                </div>
-              </>
-            )}
-          </div>
-
-          <div class="hero-panel hero-panel-preview">
-            <div class="preview-topline">
-              <span class="preview-chip">Parcours recommandé</span>
-              <span class="preview-chip muted">Sauvegarde locale</span>
-            </div>
-            <h3>{productPreview.profile.profileTitle}</h3>
-            <p>{productPreview.profile.outcome}</p>
-            <div class="preview-progress">
-              <div class="preview-progress-label">
-                <span>Progression</span>
-                <strong>{productPreview.progressPercent}%</strong>
-              </div>
-              <div class="preview-track">
-                <div class="preview-fill" style={`width: ${productPreview.progressPercent}%`} />
-              </div>
-            </div>
-            <div class="preview-stats">
-              <div>
-                <strong>{productPreview.completedSteps}/{productPreview.totalSteps}</strong>
-                <span>étapes cochées</span>
-              </div>
-              <div>
-                <strong>+{productPreview.xp} XP</strong>
-                <span>cumulés</span>
-              </div>
-              <div>
-                <strong>{totalBadges} badges</strong>
-                <span>à débloquer</span>
-              </div>
-            </div>
+          <p class="mine-lead">Un parcours guidé pour transformer une envie de gagner de l’argent en activité solide.</p>
+          <div class="mine-actions">
+            <a class="mine-primary-action" href="#questionnaire-express">
+              <span aria-hidden="true">↗</span>
+              Trouver mon filon
+            </a>
+            <a class="mine-text-action" href={ROUTES.parcours}>Voir comment ça marche <span aria-hidden="true">›</span></a>
           </div>
         </div>
+
+        <img
+          class="mine-guide"
+          src="/images/landing/pixel-miner-guide-v2.png"
+          alt="Le mineur GoCharbon, guide de ton exploration"
+          width="122"
+          height="288"
+        />
+
+        <aside class="depth-panel" aria-label="Étapes de l’exploration">
+          <p>Profondeur</p>
+          <ol>
+            <li><span>Surface</span><small>Idée brute</small></li>
+            <li class="active"><span>Orientation</span><small>Choisir</small></li>
+            <li><span>Validation</span><small>Explorer</small></li>
+            <li><span>Construction</span><small>Structurer</small></li>
+            <li><span>Extraction</span><small>Gagner</small></li>
+          </ol>
+        </aside>
+
+        <section id="questionnaire-express" class="expedition-panel landing-quiz" aria-labelledby="questionnaire-title">
+          <div class="pixel-panel-heading">
+            <p>Questionnaire express</p>
+            <span><i aria-hidden="true"></i> 2 min</span>
+          </div>
+          <div class="expedition-intro">
+            <p>Orientation · Niveau 01</p>
+            <h2 id="questionnaire-title">Quel filon mérite vraiment ton énergie&nbsp;?</h2>
+            <p>Complète la phrase. On croise ton objectif, ton budget et ton niveau pour te donner une première direction crédible.</p>
+          </div>
+          <SentenceQuiz client:visible />
+          <div class="expedition-proof" aria-label="Garanties du questionnaire">
+            <span>Sans inscription</span>
+            <span>Résultat immédiat</span>
+            <span>Sauvegarde locale</span>
+          </div>
+        </section>
+
+        <aside class="analysis-stack" aria-label="Aperçu de l’analyse GoCharbon">
+          <section class="analysis-panel">
+            <p class="analysis-title">Console d’analyse</p>
+            <div class="analysis-console">
+              <p>&gt; objectif : revenu concret</p>
+              <p>&gt; budget : à préciser</p>
+              <p>&gt; niveau : à préciser</p>
+              <p>&gt; traitement des signaux...</p>
+              <p class="analysis-positive">&gt; recommandation : prête</p>
+              <p>&gt; _</p>
+            </div>
+          </section>
+          <section class="next-step-panel">
+            <p class="analysis-title">Après le diagnostic</p>
+            <strong>Un parcours concret, dans le bon ordre.</strong>
+            <a href={ROUTES.parcours}>Voir les parcours <span aria-hidden="true">›</span></a>
+          </section>
+          <section class="reward-panel">
+            <div>
+              <p class="analysis-title">Objectif</p>
+              <strong>Passer à l’action</strong>
+            </div>
+            <span class="pixel-gold" aria-hidden="true">◆</span>
+          </section>
+        </aside>
+      </div>
+
+      <div class="mine-feature-strip" aria-label="Les quatre piliers GoCharbon">
+        <a href={ROUTES.parcours}><span aria-hidden="true">▱</span><div><strong>Parcours guidés</strong><small>Des plans d’action pas à pas.</small></div></a>
+        <a href={ROUTES.outils}><span aria-hidden="true">▣</span><div><strong>Outils de terrain</strong><small>Templates et calculateurs.</small></div></a>
+        <a href={ROUTES.blog}><span aria-hidden="true">▥</span><div><strong>Signaux du marché</strong><small>Des repères pour décider.</small></div></a>
+        <a href={ROUTES.progression}><span aria-hidden="true">♜</span><div><strong>Progression</strong><small>Étapes, XP et badges.</small></div></a>
       </div>
     </section>
 
@@ -475,8 +460,10 @@ const homeDescription = launchBuild
   }
 
   .hero-grid {
-    align-items: stretch;
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    align-items: center;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    max-width: var(--gc-surface-web-hero-content-maximum);
+    min-height: min(760px, calc(100vh - 96px));
   }
 
   .hero-copy,
@@ -503,8 +490,10 @@ const homeDescription = launchBuild
   }
 
   .hero-title {
-    font-size: clamp(2.9rem, 6vw, 5.5rem);
-    max-width: 11ch;
+    font-family: var(--gc-semantic-type-display-family);
+    font-size: clamp(3rem, 6vw, var(--gc-primitive-font-size-display-large));
+    max-width: 12ch;
+    letter-spacing: -0.035em;
   }
 
   .hero-title span {
@@ -519,6 +508,24 @@ const homeDescription = launchBuild
     margin: 0;
     font-size: 1.1rem;
     line-height: 1.6;
+  }
+
+  .hero-intro {
+    max-width: var(--gc-surface-web-hero-copy-maximum);
+  }
+
+  .hero-proofline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gc-primitive-space-2) var(--gc-primitive-space-5);
+    padding-block: var(--gc-primitive-space-3);
+    border-block: var(--gc-primitive-border-medium) solid currentColor;
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-caption);
+  }
+
+  .hero-proofline strong {
+    font-size: var(--gc-primitive-font-size-title-small);
   }
 
   .hero-points {
@@ -579,8 +586,14 @@ const homeDescription = launchBuild
   }
 
   .hero-actions {
-    grid-template-columns: repeat(2, minmax(0, max-content));
+    grid-template-columns: max-content max-content;
     align-items: center;
+  }
+
+  .hero-secondary-link {
+    color: currentColor;
+    font-weight: var(--gc-primitive-font-weight-bold);
+    text-underline-offset: var(--gc-primitive-space-1);
   }
 
   .hero-note {
@@ -591,11 +604,94 @@ const homeDescription = launchBuild
 
   .hero-panel {
     padding: var(--home-surface-padding-sm);
-    border-radius: var(--home-surface-radius);
+    border-radius: var(--gc-semantic-shape-card-radius);
   }
 
   .hero-panel-quiz {
     background: var(--home-hero-panel-quiz-background);
+    position: relative;
+  }
+
+  .hero-panel-quiz::before {
+    content: "NIVEAU 01 · ORIENTATION";
+    display: block;
+    margin: calc(var(--home-surface-padding-sm) * -1) calc(var(--home-surface-padding-sm) * -1) var(--gc-primitive-space-4);
+    padding: var(--gc-primitive-space-2) var(--gc-primitive-space-3);
+    background: var(--gc-semantic-color-text);
+    color: var(--gc-semantic-color-background);
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-caption);
+    font-weight: var(--gc-primitive-font-weight-bold);
+    letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
+  }
+
+  .mine-rail {
+    position: relative;
+    height: var(--gc-surface-web-mine-rail-height);
+    overflow: hidden;
+    border-top: var(--gc-semantic-shape-border-width) solid var(--gc-semantic-color-border);
+    background: var(--gc-primitive-color-brand-rock);
+  }
+
+  .mine-rail-rocks {
+    position: absolute;
+    inset: 0;
+    opacity: var(--gc-primitive-opacity-muted);
+    background-image: linear-gradient(135deg, transparent 45%, var(--gc-primitive-color-brand-charcoal) 45% 55%, transparent 55%);
+    background-size: calc(var(--gc-semantic-shape-pixel-unit) * 8) calc(var(--gc-semantic-shape-pixel-unit) * 8);
+  }
+
+  .mine-track {
+    position: absolute;
+    inset: auto 0 var(--gc-primitive-space-3);
+    height: var(--gc-primitive-border-strong);
+    background: var(--gc-primitive-color-brand-cream);
+    box-shadow: 0 var(--gc-primitive-space-3) 0 var(--gc-primitive-color-brand-gold-deep);
+  }
+
+  .gold-vein {
+    position: absolute;
+    right: 8%;
+    top: var(--gc-primitive-space-3);
+    width: 22%;
+    height: var(--gc-primitive-space-2);
+    background: var(--gc-primitive-color-brand-yellow);
+    transform: skewX(-35deg);
+    box-shadow: calc(var(--gc-semantic-shape-pixel-unit) * -4) var(--gc-primitive-space-3) 0 var(--gc-primitive-color-brand-gold-deep);
+  }
+
+  .pixel-miner {
+    position: absolute;
+    z-index: 1;
+    left: 12%;
+    bottom: var(--gc-primitive-space-5);
+    width: var(--gc-primitive-space-8);
+    height: var(--gc-primitive-space-10);
+    background: var(--gc-primitive-color-brand-yellow);
+    border: var(--gc-semantic-shape-pixel-unit) solid var(--gc-primitive-color-brand-black);
+    box-shadow: calc(var(--gc-semantic-shape-pixel-unit) * -2) calc(var(--gc-semantic-shape-pixel-unit) * -2) 0 var(--gc-primitive-color-brand-orange);
+  }
+
+  .pixel-miner::before {
+    content: "";
+    position: absolute;
+    left: calc(var(--gc-semantic-shape-pixel-unit) * -2);
+    top: calc(var(--gc-semantic-shape-pixel-unit) * -3);
+    width: calc(100% + var(--gc-semantic-shape-pixel-unit) * 4);
+    height: var(--gc-primitive-space-2);
+    background: var(--gc-primitive-color-brand-cream);
+    border: var(--gc-semantic-shape-pixel-unit) solid var(--gc-primitive-color-brand-black);
+  }
+
+  .pixel-miner i {
+    position: absolute;
+    right: calc(var(--gc-semantic-shape-pixel-unit) * -4);
+    top: var(--gc-primitive-space-2);
+    width: var(--gc-primitive-space-4);
+    height: var(--gc-semantic-shape-pixel-unit);
+    background: var(--gc-primitive-color-brand-cream);
+    transform: rotate(-45deg);
+    transform-origin: left center;
   }
 
   .hero-panel-preview {
@@ -962,6 +1058,26 @@ const homeDescription = launchBuild
 
     .hero-title {
       max-width: none;
+      font-size: clamp(2.7rem, 15vw, 4.2rem);
+    }
+
+    .hero-grid {
+      min-height: auto;
+      padding-top: var(--gc-primitive-space-8);
+      padding-bottom: var(--gc-primitive-space-8);
+    }
+
+    .hero-product {
+      margin-top: var(--gc-primitive-space-4);
+    }
+
+    .hero-panel-preview {
+      display: none;
+    }
+
+    .signals-section,
+    .difference-section {
+      display: none;
     }
 
     .preview-stats {
@@ -974,6 +1090,11 @@ const homeDescription = launchBuild
       grid-template-columns: 1fr;
     }
 
+    .hero-proofline {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
     .hero-actions :global(a.brutal-btn),
     .showcase-footer :global(a.brutal-btn),
     .preview-topline,
@@ -984,6 +1105,492 @@ const homeDescription = launchBuild
 
     .dashboard-grid {
       grid-template-columns: 1fr;
+    }
+  }
+
+  /* Landing desktop — scene canonique « mine pixel » */
+  :global(body.landing-dark-page) {
+    background: var(--gc-primitive-color-brand-ink);
+    color: var(--gc-primitive-color-brand-cream);
+  }
+
+  :global(body.landing-dark-page header) {
+    position: relative;
+    border: 0;
+    border-bottom: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 12%, transparent);
+    background: var(--gc-primitive-color-brand-ink);
+    color: var(--gc-primitive-color-brand-cream);
+  }
+
+  :global(body.landing-dark-page header .righteous),
+  :global(body.landing-dark-page header a) {
+    color: var(--gc-primitive-color-brand-cream);
+  }
+
+  .mine-landing {
+    position: relative;
+    min-height: var(--gc-surface-web-landing-desktop-minimum-height);
+    overflow: hidden;
+    border-bottom: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 14%, transparent);
+    background-color: var(--gc-primitive-color-brand-ink);
+    background-image:
+      linear-gradient(to bottom, color-mix(in srgb, var(--gc-primitive-color-brand-ink) 18%, transparent), var(--gc-primitive-color-brand-ink)),
+      url("/images/landing/pixel-mine-hero-bg-v1.png");
+    background-position: center, center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--gc-primitive-color-brand-cream);
+  }
+
+  .mine-landing::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, var(--gc-primitive-color-brand-gold-deep) 0 var(--gc-semantic-shape-pixel-unit), transparent calc(var(--gc-semantic-shape-pixel-unit) + 1px));
+    background-size: calc(var(--gc-semantic-shape-pixel-unit) * 28) calc(var(--gc-semantic-shape-pixel-unit) * 23);
+    opacity: 0.12;
+  }
+
+  .mine-landing-scene {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(370px, 1.22fr) minmax(92px, 0.28fr) minmax(420px, 1.08fr) minmax(250px, 0.7fr);
+    gap: var(--gc-surface-web-landing-panel-gap);
+    align-items: center;
+    width: min(calc(100% - var(--gc-primitive-space-12)), var(--gc-surface-web-landing-desktop-maximum));
+    min-height: 650px;
+    margin-inline: auto;
+    padding-block: var(--gc-primitive-space-8) var(--gc-primitive-space-16);
+  }
+
+  .mine-copy {
+    align-self: center;
+    max-width: 590px;
+    padding-left: clamp(var(--gc-primitive-space-4), 2vw, var(--gc-primitive-space-8));
+  }
+
+  .mine-eyebrow,
+  .analysis-title,
+  .pixel-panel-heading,
+  .depth-panel > p {
+    margin: 0;
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-caption);
+    font-weight: var(--gc-primitive-font-weight-bold);
+    letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
+    text-transform: uppercase;
+  }
+
+  .mine-eyebrow {
+    color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 82%, var(--gc-primitive-color-brand-yellow));
+  }
+
+  .mine-eyebrow-mark {
+    display: block;
+    width: var(--gc-primitive-space-12);
+    height: var(--gc-semantic-shape-pixel-unit);
+    margin-block: var(--gc-primitive-space-4) var(--gc-primitive-space-6);
+    background: var(--gc-primitive-color-brand-yellow);
+    box-shadow: var(--gc-primitive-space-3) 0 0 var(--gc-primitive-color-brand-gold-deep);
+  }
+
+  .mine-copy h1 {
+    margin: 0;
+    color: var(--gc-primitive-color-brand-cream);
+    font-family: var(--gc-semantic-type-display-family);
+    font-size: clamp(3.25rem, 4.6vw, 5.35rem);
+    font-weight: var(--gc-primitive-font-weight-black);
+    letter-spacing: -0.045em;
+    line-height: 0.94;
+    text-shadow: var(--gc-semantic-shape-pixel-unit) var(--gc-semantic-shape-pixel-unit) 0 var(--gc-primitive-color-brand-charcoal);
+  }
+
+  .mine-copy h1 strong {
+    display: block;
+    margin-top: var(--gc-primitive-space-3);
+    color: var(--gc-primitive-color-brand-yellow);
+    font-size: 0.75em;
+    line-height: 1;
+  }
+
+  .mine-lead {
+    max-width: 42ch;
+    margin: var(--gc-primitive-space-6) 0 0;
+    color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 72%, transparent);
+    font-size: var(--gc-primitive-font-size-body-large);
+    line-height: var(--gc-primitive-font-line-height-body);
+  }
+
+  .mine-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--gc-primitive-space-6);
+    margin-top: var(--gc-primitive-space-8);
+  }
+
+  .mine-primary-action {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--gc-primitive-space-3);
+    min-height: var(--gc-primitive-size-touch-minimum);
+    padding: var(--gc-primitive-space-4) var(--gc-primitive-space-6);
+    border: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 70%, transparent);
+    background: var(--gc-primitive-color-brand-yellow);
+    box-shadow: var(--gc-primitive-space-1) var(--gc-primitive-space-1) 0 var(--gc-primitive-color-brand-gold-deep);
+    color: var(--gc-primitive-color-brand-black);
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-body-large);
+    font-weight: var(--gc-primitive-font-weight-bold);
+    text-decoration: none;
+  }
+
+  .mine-text-action {
+    border-bottom: var(--gc-semantic-shape-pixel-unit) dashed var(--gc-primitive-color-brand-gold-deep);
+    color: var(--gc-primitive-color-brand-cream);
+    font-size: var(--gc-primitive-font-size-caption);
+    text-decoration: none;
+  }
+
+  .mine-guide {
+    position: absolute;
+    z-index: 0;
+    left: 27%;
+    bottom: 72px;
+    width: clamp(122px, 10vw, 180px);
+    height: auto;
+    image-rendering: pixelated;
+    filter: drop-shadow(var(--gc-primitive-space-2) var(--gc-primitive-space-3) 0 color-mix(in srgb, var(--gc-primitive-color-brand-ink) 88%, transparent));
+    mix-blend-mode: screen;
+  }
+
+  .depth-panel,
+  .expedition-panel,
+  .analysis-panel,
+  .next-step-panel,
+  .reward-panel {
+    border: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 18%, transparent);
+    border-radius: var(--gc-component-pixel-frame-radius);
+    background: color-mix(in srgb, var(--gc-surface-web-landing-panel-background) 94%, transparent);
+    box-shadow: inset 0 0 0 var(--gc-component-pixel-frame-edge-unit) color-mix(in srgb, var(--gc-primitive-color-brand-black) 70%, transparent), var(--gc-component-pixel-frame-shadow);
+  }
+
+  .depth-panel {
+    align-self: stretch;
+    padding: var(--gc-primitive-space-5) var(--gc-primitive-space-3);
+  }
+
+  .depth-panel > p {
+    opacity: var(--gc-primitive-opacity-muted);
+  }
+
+  .depth-panel ol {
+    display: grid;
+    gap: 0;
+    margin: var(--gc-primitive-space-5) 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .depth-panel li {
+    position: relative;
+    display: grid;
+    gap: var(--gc-primitive-space-half);
+    min-height: 72px;
+    padding-left: var(--gc-primitive-space-8);
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-caption);
+  }
+
+  .depth-panel li::before {
+    content: "";
+    position: absolute;
+    left: var(--gc-primitive-space-2);
+    top: var(--gc-primitive-space-1);
+    width: var(--gc-primitive-space-3);
+    height: var(--gc-primitive-space-3);
+    border: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 65%, transparent);
+    transform: rotate(45deg);
+  }
+
+  .depth-panel li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: var(--gc-primitive-space-three-and-half);
+    top: var(--gc-primitive-space-4);
+    bottom: calc(var(--gc-primitive-space-1) * -1);
+    width: var(--gc-semantic-shape-pixel-unit);
+    background: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 52%, transparent);
+  }
+
+  .depth-panel li.active {
+    color: var(--gc-primitive-color-brand-yellow);
+  }
+
+  .depth-panel li.active::before {
+    border-color: var(--gc-primitive-color-brand-yellow);
+    box-shadow: 0 0 0 var(--gc-primitive-space-1) color-mix(in srgb, var(--gc-primitive-color-brand-yellow) 18%, transparent);
+  }
+
+  .depth-panel small {
+    opacity: var(--gc-primitive-opacity-muted);
+  }
+
+  .expedition-panel {
+    position: relative;
+    z-index: 2;
+    align-self: center;
+    min-width: 0;
+    overflow: visible;
+  }
+
+  .pixel-panel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gc-primitive-space-4);
+    padding: var(--gc-primitive-space-3) var(--gc-primitive-space-4);
+    border-bottom: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 14%, transparent);
+  }
+
+  .pixel-panel-heading span {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--gc-primitive-space-2);
+    padding: var(--gc-primitive-space-1) var(--gc-primitive-space-2);
+    border: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 12%, transparent);
+    font-size: 0.72rem;
+  }
+
+  .pixel-panel-heading i {
+    width: var(--gc-primitive-space-2);
+    height: var(--gc-primitive-space-2);
+    background: var(--gc-primitive-color-brand-yellow);
+    box-shadow: 0 0 var(--gc-primitive-space-2) var(--gc-primitive-color-brand-gold-deep);
+  }
+
+  .expedition-intro {
+    display: grid;
+    gap: var(--gc-primitive-space-2);
+    padding: var(--gc-primitive-space-5) var(--gc-primitive-space-5) var(--gc-primitive-space-3);
+  }
+
+  .expedition-intro p {
+    margin: 0;
+    color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 67%, transparent);
+    font-size: var(--gc-primitive-font-size-caption);
+    line-height: var(--gc-primitive-font-line-height-body);
+  }
+
+  .expedition-intro p:first-child {
+    color: var(--gc-primitive-color-brand-yellow);
+    font-family: var(--gc-semantic-type-action-family);
+    letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
+    text-transform: uppercase;
+  }
+
+  .expedition-intro h2 {
+    margin: 0;
+    font-family: var(--gc-semantic-type-display-family);
+    font-size: clamp(1.75rem, 2vw, 2.4rem);
+    line-height: var(--gc-primitive-font-line-height-tight);
+  }
+
+  .landing-quiz {
+    --sentence-quiz-color: var(--gc-primitive-color-brand-cream);
+    --sentence-quiz-trigger-border-color: var(--gc-primitive-color-brand-yellow);
+    --sentence-quiz-trigger-hover-border-color: var(--gc-primitive-color-brand-cream);
+    --sentence-quiz-trigger-hover-color: var(--gc-primitive-color-brand-yellow);
+    --sentence-quiz-trigger-filled-border-color: var(--gc-primitive-color-brand-yellow);
+    --sentence-quiz-trigger-filled-color: var(--gc-primitive-color-brand-black);
+    --sentence-quiz-trigger-filled-bg: var(--gc-primitive-color-brand-yellow);
+    --sentence-quiz-menu-background: var(--gc-primitive-color-brand-rock);
+    --sentence-quiz-menu-border: var(--gc-component-pixel-frame-border-width) solid var(--gc-primitive-color-brand-gold-deep);
+    --sentence-quiz-menu-shadow: var(--gc-primitive-space-1) var(--gc-primitive-space-1) 0 var(--gc-primitive-color-brand-black);
+  }
+
+  .landing-quiz > :global(.sq) {
+    padding: var(--gc-primitive-space-3) var(--gc-primitive-space-5) var(--gc-primitive-space-5);
+  }
+
+  .expedition-proof {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 12%, transparent);
+  }
+
+  .expedition-proof span {
+    padding: var(--gc-primitive-space-3) var(--gc-primitive-space-2);
+    color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 62%, transparent);
+    font-size: 0.7rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .expedition-proof span:not(:last-child) {
+    border-right: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 12%, transparent);
+  }
+
+  .analysis-stack {
+    display: grid;
+    gap: var(--gc-surface-web-landing-panel-gap);
+  }
+
+  .analysis-panel,
+  .next-step-panel,
+  .reward-panel {
+    padding: var(--gc-primitive-space-4);
+  }
+
+  .analysis-panel {
+    padding: 0;
+  }
+
+  .analysis-title {
+    margin-bottom: var(--gc-primitive-space-3);
+    color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 58%, transparent);
+    font-size: 0.75rem;
+  }
+
+  .analysis-panel > .analysis-title {
+    margin: 0;
+    padding: var(--gc-primitive-space-3) var(--gc-primitive-space-4);
+    border-bottom: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 14%, transparent);
+  }
+
+  .analysis-console {
+    margin: var(--gc-primitive-space-4);
+    padding: var(--gc-primitive-space-3);
+    border: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-black) 88%, transparent);
+    background: color-mix(in srgb, var(--gc-primitive-color-brand-ink) 76%, transparent);
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: 0.76rem;
+    line-height: 1.55;
+  }
+
+  .analysis-console p {
+    margin: 0;
+  }
+
+  .analysis-positive {
+    color: var(--gc-primitive-color-brand-yellow);
+  }
+
+  .next-step-panel strong {
+    display: block;
+    font-size: var(--gc-primitive-font-size-body);
+    line-height: 1.35;
+  }
+
+  .next-step-panel a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--gc-primitive-space-4);
+    padding: var(--gc-primitive-space-2) var(--gc-primitive-space-3);
+    border: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 24%, transparent);
+    color: var(--gc-primitive-color-brand-cream);
+    font-size: var(--gc-primitive-font-size-caption);
+    text-decoration: none;
+  }
+
+  .reward-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .reward-panel strong {
+    font-family: var(--gc-semantic-type-action-family);
+  }
+
+  .pixel-gold {
+    color: var(--gc-primitive-color-brand-yellow);
+    font-size: var(--gc-primitive-font-size-display-small);
+    text-shadow: var(--gc-semantic-shape-pixel-unit) var(--gc-semantic-shape-pixel-unit) 0 var(--gc-primitive-color-brand-gold-deep);
+  }
+
+  .mine-feature-strip {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: min(calc(100% - var(--gc-primitive-space-12)), var(--gc-surface-web-landing-desktop-maximum));
+    margin: calc(var(--gc-primitive-space-12) * -1) auto var(--gc-primitive-space-6);
+    border: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 18%, transparent);
+    background: color-mix(in srgb, var(--gc-surface-web-landing-panel-background) 94%, transparent);
+  }
+
+  .mine-feature-strip a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--gc-primitive-space-4);
+    align-items: center;
+    min-width: 0;
+    padding: var(--gc-primitive-space-4) var(--gc-primitive-space-5);
+    color: var(--gc-primitive-color-brand-cream);
+    text-decoration: none;
+  }
+
+  .mine-feature-strip a:not(:last-child) {
+    border-right: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 15%, transparent);
+  }
+
+  .mine-feature-strip a > span {
+    color: var(--gc-primitive-color-brand-yellow);
+    font-size: var(--gc-primitive-font-size-title);
+  }
+
+  .mine-feature-strip strong,
+  .mine-feature-strip small {
+    display: block;
+  }
+
+  .mine-feature-strip strong {
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-caption);
+    letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
+    text-transform: uppercase;
+  }
+
+  .mine-feature-strip small {
+    margin-top: var(--gc-primitive-space-1);
+    color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 62%, transparent);
+  }
+
+  @media (max-width: 1279px) {
+    .mine-landing-scene {
+      grid-template-columns: minmax(320px, 0.9fr) minmax(390px, 1.1fr) minmax(220px, 0.6fr);
+    }
+
+    .depth-panel {
+      display: none;
+    }
+
+    .mine-guide {
+      left: 26%;
+      opacity: 0.82;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .mine-landing-scene {
+      grid-template-columns: 1fr;
+      width: min(calc(100% - var(--gc-primitive-space-8)), 720px);
+    }
+
+    .mine-guide,
+    .analysis-stack {
+      display: none;
+    }
+
+    .mine-copy {
+      padding-left: 0;
+    }
+
+    .mine-feature-strip {
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 0;
     }
   }
 </style>

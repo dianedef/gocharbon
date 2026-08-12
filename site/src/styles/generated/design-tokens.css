@@ -1,4 +1,4 @@
-/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.1.0 | sha256 dbd3311a15ad6b0faa433ac61876ffbd235e5a4bf182d4186f16105c1120f611 */
+/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.3.0 | sha256 e9b9b2d22ff40e17a27e1d5173cbd3bd01e72f60e2ae23bd1bd300435a056ea9 */
 :root, [data-theme="light"] {
   --gc-component-achievement-media-compact-size: 70px;
   --gc-component-achievement-media-hero-size: 80px;
@@ -10,7 +10,7 @@
   --gc-component-button-shadow: 5px 5px 0px 0px #1e1b16;
   --gc-component-card-border-width: 3px;
   --gc-component-card-padding: 24px;
-  --gc-component-card-radius: 8px;
+  --gc-component-card-radius: 0px;
   --gc-component-card-shadow: 7px 7px 0px 0px #1e1b16;
   --gc-component-category-badge-size: 52px;
   --gc-component-input-border-width: 3px;
@@ -22,6 +22,10 @@
   --gc-component-pill-padding-block: 12px;
   --gc-component-pill-padding-inline: 24px;
   --gc-component-pill-radius: 9999px;
+  --gc-component-pixel-frame-border-width: 2px;
+  --gc-component-pixel-frame-edge-unit: 4px;
+  --gc-component-pixel-frame-radius: 0px;
+  --gc-component-pixel-frame-shadow: 2px 2px 0px 0px #1e1b16;
   --gc-component-progress-border-width: 3px;
   --gc-component-progress-comfortable-height: 14px;
   --gc-component-progress-compact-height: 10px;
@@ -35,8 +39,10 @@
   --gc-primitive-color-brand-black: #1e1b16;
   --gc-primitive-color-brand-charcoal: #2f2f2f;
   --gc-primitive-color-brand-cream: #f5f5f2;
+  --gc-primitive-color-brand-gold-deep: #b87a12;
   --gc-primitive-color-brand-ink: #0b0b0b;
   --gc-primitive-color-brand-orange: #e2572d;
+  --gc-primitive-color-brand-rock: #181714;
   --gc-primitive-color-brand-yellow: #f6c700;
   --gc-primitive-color-transparent: transparent;
   --gc-primitive-duration-fast: 150ms;
@@ -111,27 +117,32 @@
   --gc-semantic-color-action-disabled: #2f2f2f;
   --gc-semantic-color-action-primary: #f6c700;
   --gc-semantic-color-action-secondary: #e2572d;
-  --gc-semantic-color-background: #f5f5f2;
+  --gc-semantic-color-background: #f6c700;
   --gc-semantic-color-border: #1e1b16;
   --gc-semantic-color-feedback-error: #e2572d;
   --gc-semantic-color-feedback-success: #f6c700;
   --gc-semantic-color-focus: #e2572d;
   --gc-semantic-color-link: #1e1b16;
   --gc-semantic-color-link-hover: #e2572d;
+  --gc-semantic-color-mine-depth: #f5f5f2;
+  --gc-semantic-color-mine-panel: #f5f5f2;
+  --gc-semantic-color-mineral-value: #f6c700;
   --gc-semantic-color-shadow: #1e1b16;
   --gc-semantic-color-surface: #f5f5f2;
   --gc-semantic-color-surface-strong: #f6c700;
   --gc-semantic-color-text: #1e1b16;
   --gc-semantic-color-text-muted: #2f2f2f;
   --gc-semantic-color-text-on-accent: #1e1b16;
+  --gc-semantic-color-work-material: #2f2f2f;
   --gc-semantic-motion-interaction-duration: 250ms;
   --gc-semantic-motion-interaction-easing: 0.2, 0, 0, 1;
   --gc-semantic-motion-linear-easing: 0, 0, 1, 1;
   --gc-semantic-motion-reduced-duration: 0ms;
   --gc-semantic-shape-border-width: 3px;
-  --gc-semantic-shape-card-radius: 8px;
+  --gc-semantic-shape-card-radius: 0px;
   --gc-semantic-shape-control-radius: 4px;
   --gc-semantic-shape-decorative-rail-width: 4px;
+  --gc-semantic-shape-pixel-unit: 4px;
   --gc-semantic-type-action-family: Sanchez, serif;
   --gc-semantic-type-body-family: Poppins, sans-serif;
   --gc-semantic-type-display-family: Righteous, sans-serif;
@@ -141,7 +152,20 @@
   --gc-surface-web-breakpoint-desktop: 1280px;
   --gc-surface-web-breakpoint-mobile: 480px;
   --gc-surface-web-breakpoint-tablet: 768px;
+  --gc-surface-web-hero-content-maximum: 1120px;
+  --gc-surface-web-hero-copy-maximum: 620px;
   --gc-surface-web-hover-offset: 2px;
+  --gc-surface-web-landing-chrome-background: #0b0b0b;
+  --gc-surface-web-landing-chrome-text: #f5f5f2;
+  --gc-surface-web-landing-desktop-maximum: 1600px;
+  --gc-surface-web-landing-desktop-minimum-height: 760px;
+  --gc-surface-web-landing-navigation-height: 66px;
+  --gc-surface-web-landing-panel-background: #181714;
+  --gc-surface-web-landing-panel-border-width: 2px;
+  --gc-surface-web-landing-panel-gap: 16px;
+  --gc-surface-web-landing-world-tab-minimum: 132px;
+  --gc-surface-web-mascot-guide-maximum: 180px;
+  --gc-surface-web-mine-rail-height: 96px;
 }
 
 [data-theme="dark"] {
@@ -149,9 +173,11 @@
   --gc-semantic-color-border: #f5f5f2;
   --gc-semantic-color-link: #e2572d;
   --gc-semantic-color-link-hover: #f6c700;
+  --gc-semantic-color-mine-depth: #0b0b0b;
+  --gc-semantic-color-mine-panel: #181714;
   --gc-semantic-color-shadow: #f6c700;
   --gc-semantic-color-surface: #2f2f2f;
-  --gc-semantic-color-surface-strong: #2f2f2f;
+  --gc-semantic-color-surface-strong: #181714;
   --gc-semantic-color-text: #f5f5f2;
   --gc-semantic-color-text-muted: #f5f5f2;
 }

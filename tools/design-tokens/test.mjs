@@ -17,7 +17,10 @@ test("canonical document validates and resolves every mode", async () => {
   const { document, canonical } = await loadTokenDocument(source);
   const flat = flattenTokens(document.tokens);
   assert.ok(flat.size > 50);
-  assert.equal(resolveAll(flat, "light").get("semantic.color.background"), "#f5f5f2");
+  assert.equal(
+    resolveAll(flat, "light").get("semantic.color.background"),
+    resolveAll(flat, "light").get("primitive.color.brand.yellow"),
+  );
   assert.equal(resolveAll(flat, "dark").get("semantic.color.background"), "#0b0b0b");
   assert.match(sourceHash(canonical), /^[a-f0-9]{64}$/);
 });
