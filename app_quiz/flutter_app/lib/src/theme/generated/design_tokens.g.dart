@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 15799a70e2fd6fc817f3bf486b3cad1ae34e0ea93986edadc0a382f051a26a62
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.3.0 | sha256 bf59be83e37ca6c657f29523c575077b8554a98d16fedea0a3ddffb368d5d1b2
 
 import "package:flutter/material.dart";
 
@@ -25,6 +25,10 @@ abstract final class GcLightTokens {
   static const componentPillPaddingBlock = 12.0;
   static const componentPillPaddingInline = 24.0;
   static const componentPillRadius = 9999.0;
+  static const componentPixelFrameBorderWidth = 2.0;
+  static const componentPixelFrameEdgeUnit = 4.0;
+  static const componentPixelFrameRadius = 0.0;
+  static const componentPixelFrameShadow = "2px 2px 0px 0px #1e1b16";
   static const componentProgressBorderWidth = 3.0;
   static const componentProgressComfortableHeight = 14.0;
   static const componentProgressCompactHeight = 10.0;
@@ -123,12 +127,16 @@ abstract final class GcLightTokens {
   static const semanticColorFocus = Color(0xFFE2572D);
   static const semanticColorLink = Color(0xFF1E1B16);
   static const semanticColorLinkHover = Color(0xFFE2572D);
+  static const semanticColorMineDepth = Color(0xFFF5F5F2);
+  static const semanticColorMinePanel = Color(0xFFF5F5F2);
+  static const semanticColorMineralValue = Color(0xFFF6C700);
   static const semanticColorShadow = Color(0xFF1E1B16);
   static const semanticColorSurface = Color(0xFFF5F5F2);
   static const semanticColorSurfaceStrong = Color(0xFFF6C700);
   static const semanticColorText = Color(0xFF1E1B16);
   static const semanticColorTextMuted = Color(0xFF2F2F2F);
   static const semanticColorTextOnAccent = Color(0xFF1E1B16);
+  static const semanticColorWorkMaterial = Color(0xFF2F2F2F);
   static const semanticMotionInteractionDuration = Duration(milliseconds: 250);
   static const semanticMotionInteractionEasing = Cubic(0.2, 0, 0, 1);
   static const semanticMotionLinearEasing = Cubic(0, 0, 1, 1);
@@ -153,6 +161,7 @@ abstract final class GcLightTokens {
   static const surfaceWebLandingDesktopMaximum = 1600.0;
   static const surfaceWebLandingDesktopMinimumHeight = 760.0;
   static const surfaceWebLandingPanelBorderWidth = 2.0;
+  static const surfaceWebMascotGuideMaximum = 180.0;
   static const surfaceWebMineRailHeight = 96.0;
 }
 
@@ -179,6 +188,10 @@ abstract final class GcDarkTokens {
   static const componentPillPaddingBlock = 12.0;
   static const componentPillPaddingInline = 24.0;
   static const componentPillRadius = 9999.0;
+  static const componentPixelFrameBorderWidth = 2.0;
+  static const componentPixelFrameEdgeUnit = 4.0;
+  static const componentPixelFrameRadius = 0.0;
+  static const componentPixelFrameShadow = "2px 2px 0px 0px #f6c700";
   static const componentProgressBorderWidth = 3.0;
   static const componentProgressComfortableHeight = 14.0;
   static const componentProgressCompactHeight = 10.0;
@@ -277,12 +290,16 @@ abstract final class GcDarkTokens {
   static const semanticColorFocus = Color(0xFFE2572D);
   static const semanticColorLink = Color(0xFFE2572D);
   static const semanticColorLinkHover = Color(0xFFF6C700);
+  static const semanticColorMineDepth = Color(0xFF0B0B0B);
+  static const semanticColorMinePanel = Color(0xFF181714);
+  static const semanticColorMineralValue = Color(0xFFF6C700);
   static const semanticColorShadow = Color(0xFFF6C700);
   static const semanticColorSurface = Color(0xFF2F2F2F);
   static const semanticColorSurfaceStrong = Color(0xFF181714);
   static const semanticColorText = Color(0xFFF5F5F2);
   static const semanticColorTextMuted = Color(0xFFF5F5F2);
   static const semanticColorTextOnAccent = Color(0xFF1E1B16);
+  static const semanticColorWorkMaterial = Color(0xFF2F2F2F);
   static const semanticMotionInteractionDuration = Duration(milliseconds: 250);
   static const semanticMotionInteractionEasing = Cubic(0.2, 0, 0, 1);
   static const semanticMotionLinearEasing = Cubic(0, 0, 1, 1);
@@ -307,6 +324,7 @@ abstract final class GcDarkTokens {
   static const surfaceWebLandingDesktopMaximum = 1600.0;
   static const surfaceWebLandingDesktopMinimumHeight = 760.0;
   static const surfaceWebLandingPanelBorderWidth = 2.0;
+  static const surfaceWebMascotGuideMaximum = 180.0;
   static const surfaceWebMineRailHeight = 96.0;
 }
 

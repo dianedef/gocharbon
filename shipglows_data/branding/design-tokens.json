@@ -1,8 +1,8 @@
 {
   "$schema": "./design-tokens.schema.json",
   "schemaVersion": "1.0.0",
-  "brandVersion": "1.2.0",
-  "description": "Autorite design canonique cross-surface GoCharbon.",
+  "brandVersion": "1.3.0",
+  "description": "Autorite executable de la direction Pixel Mine cross-surface GoCharbon.",
   "tokens": {
     "primitive": {
       "color": {
@@ -121,9 +121,13 @@
     },
     "semantic": {
       "color": {
-        "background": { "$type": "color", "$modes": { "light": "{primitive.color.brand.yellow}", "dark": "{primitive.color.brand.ink}" }, "$description": "Entree solaire en light, profondeur miniere en dark." },
-        "surface": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.charcoal}" } },
-        "surfaceStrong": { "$type": "color", "$modes": { "light": "{primitive.color.brand.yellow}", "dark": "{primitive.color.brand.rock}" } },
+        "background": { "$type": "color", "$modes": { "light": "{primitive.color.brand.yellow}", "dark": "{primitive.color.brand.ink}" }, "$description": "Entree jaune en light, profondeur miniere en dark." },
+        "surface": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.charcoal}" }, "$description": "Surface de lecture commune aux composants fonctionnels." },
+        "surfaceStrong": { "$type": "color", "$modes": { "light": "{primitive.color.brand.yellow}", "dark": "{primitive.color.brand.rock}" }, "$description": "Surface de marque ou panneau profond a contraste renforce." },
+        "mineDepth": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.ink}" }, "$description": "Fond narratif de la mine; ne remplace jamais une surface de lecture requise." },
+        "minePanel": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.rock}" }, "$description": "Panneau fonctionnel integre a l'univers minier." },
+        "mineralValue": { "$type": "color", "$value": "{primitive.color.brand.yellow}", "$description": "Action, filon, preuve, jalon ou recompense de valeur." },
+        "workMaterial": { "$type": "color", "$value": "{primitive.color.brand.charcoal}", "$description": "Charbon et matiere de travail; ne porte pas seul une information." },
         "text": { "$type": "color", "$modes": { "light": "{primitive.color.brand.black}", "dark": "{primitive.color.brand.cream}" } },
         "textOnAccent": { "$type": "color", "$value": "{primitive.color.brand.black}" },
         "textMuted": { "$type": "color", "$modes": { "light": "{primitive.color.brand.charcoal}", "dark": "{primitive.color.brand.cream}" } },
@@ -172,6 +176,12 @@
         "radius": { "$type": "dimension", "$value": "{semantic.shape.cardRadius}" },
         "shadow": { "$type": "shadow", "$value": "{primitive.shadow.brutalLarge}" }
       },
+      "pixelFrame": {
+        "radius": { "$type": "dimension", "$value": "{primitive.radius.none}", "$description": "Angles francs confirmes pour les panneaux Pixel Mine." },
+        "borderWidth": { "$type": "dimension", "$value": "{primitive.border.medium}", "$description": "Contour technique sans effet de carte SaaS arrondie." },
+        "edgeUnit": { "$type": "dimension", "$value": "{semantic.shape.pixelUnit}", "$description": "Unite de crenelage, rail et micro-detail pixel." },
+        "shadow": { "$type": "shadow", "$value": "{primitive.shadow.brutalSmall}", "$description": "Ombre dure compatible avec la direction Pixel Mine." }
+      },
       "pill": {
         "paddingInline": { "$type": "dimension", "$value": "{primitive.space.6}" },
         "paddingBlock": { "$type": "dimension", "$value": "{primitive.space.3}" },
@@ -213,9 +223,10 @@
         "heroContentMaximum": { "$type": "dimension", "$value": "1120px" },
         "heroCopyMaximum": { "$type": "dimension", "$value": "620px" },
         "mineRailHeight": { "$type": "dimension", "$value": "96px" },
-        "landingDesktopMaximum": { "$type": "dimension", "$value": "1600px", "$description": "Largeur maximale de la scene miniere desktop." },
-        "landingDesktopMinimumHeight": { "$type": "dimension", "$value": "760px", "$description": "Hauteur minimale de la landing dark desktop." },
-        "landingPanelBorderWidth": { "$type": "dimension", "$value": "2px", "$description": "Bordure technique des panneaux de la landing miniere." }
+        "landingDesktopMaximum": { "$type": "dimension", "$value": "1600px", "$description": "Experimental: largeur maximale de la premiere scene miniere desktop." },
+        "landingDesktopMinimumHeight": { "$type": "dimension", "$value": "760px", "$description": "Experimental: hauteur minimale de la premiere landing dark desktop." },
+        "landingPanelBorderWidth": { "$type": "dimension", "$value": "2px", "$description": "Experimental: bordure technique des panneaux de la landing miniere." },
+        "mascotGuideMaximum": { "$type": "dimension", "$value": "180px", "$description": "Experimental: taille maximale du petit mineur guide dans la scene desktop actuelle." }
       },
       "app": {
         "touchTarget": { "$type": "dimension", "$value": "{primitive.size.touchMinimum}" },

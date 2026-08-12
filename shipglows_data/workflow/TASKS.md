@@ -14,7 +14,7 @@
   - status: todo
   - area: design
   - scope: website
-  - action: harden design rules so UI changes must use centralized tokens from `site/src/styles/global.css` and `shipglows_data/technical/site/design-system-authority.md`
+  - action: harden design rules so UI changes originate in `shipglows_data/branding/design-tokens.json`; `global.css` consumes the generated CSS carrier and all platform consumers are governed by `shipglows_data/technical/site/design-system-authority.md`
   - linked_specs:
     - shipglows_data/workflow/specs/gocharbon-design-system-authority-hardening.md
     - shipglows_data/workflow/verification/gocharbon-design-system-authority-hardening.md

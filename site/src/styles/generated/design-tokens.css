@@ -1,4 +1,4 @@
-/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 15799a70e2fd6fc817f3bf486b3cad1ae34e0ea93986edadc0a382f051a26a62 */
+/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.3.0 | sha256 bf59be83e37ca6c657f29523c575077b8554a98d16fedea0a3ddffb368d5d1b2 */
 :root, [data-theme="light"] {
   --gc-component-achievement-media-compact-size: 70px;
   --gc-component-achievement-media-hero-size: 80px;
@@ -22,6 +22,10 @@
   --gc-component-pill-padding-block: 12px;
   --gc-component-pill-padding-inline: 24px;
   --gc-component-pill-radius: 9999px;
+  --gc-component-pixel-frame-border-width: 2px;
+  --gc-component-pixel-frame-edge-unit: 4px;
+  --gc-component-pixel-frame-radius: 0px;
+  --gc-component-pixel-frame-shadow: 2px 2px 0px 0px #1e1b16;
   --gc-component-progress-border-width: 3px;
   --gc-component-progress-comfortable-height: 14px;
   --gc-component-progress-compact-height: 10px;
@@ -120,12 +124,16 @@
   --gc-semantic-color-focus: #e2572d;
   --gc-semantic-color-link: #1e1b16;
   --gc-semantic-color-link-hover: #e2572d;
+  --gc-semantic-color-mine-depth: #f5f5f2;
+  --gc-semantic-color-mine-panel: #f5f5f2;
+  --gc-semantic-color-mineral-value: #f6c700;
   --gc-semantic-color-shadow: #1e1b16;
   --gc-semantic-color-surface: #f5f5f2;
   --gc-semantic-color-surface-strong: #f6c700;
   --gc-semantic-color-text: #1e1b16;
   --gc-semantic-color-text-muted: #2f2f2f;
   --gc-semantic-color-text-on-accent: #1e1b16;
+  --gc-semantic-color-work-material: #2f2f2f;
   --gc-semantic-motion-interaction-duration: 250ms;
   --gc-semantic-motion-interaction-easing: 0.2, 0, 0, 1;
   --gc-semantic-motion-linear-easing: 0, 0, 1, 1;
@@ -150,6 +158,7 @@
   --gc-surface-web-landing-desktop-maximum: 1600px;
   --gc-surface-web-landing-desktop-minimum-height: 760px;
   --gc-surface-web-landing-panel-border-width: 2px;
+  --gc-surface-web-mascot-guide-maximum: 180px;
   --gc-surface-web-mine-rail-height: 96px;
 }
 
@@ -158,6 +167,8 @@
   --gc-semantic-color-border: #f5f5f2;
   --gc-semantic-color-link: #e2572d;
   --gc-semantic-color-link-hover: #f6c700;
+  --gc-semantic-color-mine-depth: #0b0b0b;
+  --gc-semantic-color-mine-panel: #181714;
   --gc-semantic-color-shadow: #f6c700;
   --gc-semantic-color-surface: #2f2f2f;
   --gc-semantic-color-surface-strong: #181714;

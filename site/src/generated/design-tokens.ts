@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.2.0 | sha256 15799a70e2fd6fc817f3bf486b3cad1ae34e0ea93986edadc0a382f051a26a62
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.3.0 | sha256 bf59be83e37ca6c657f29523c575077b8554a98d16fedea0a3ddffb368d5d1b2
 export const designTokens = {
   "light": {
     "component.achievementMedia.compactSize": "70px",
@@ -35,6 +35,16 @@ export const designTokens = {
     "component.pill.paddingBlock": "12px",
     "component.pill.paddingInline": "24px",
     "component.pill.radius": "9999px",
+    "component.pixelFrame.borderWidth": "2px",
+    "component.pixelFrame.edgeUnit": "4px",
+    "component.pixelFrame.radius": "0px",
+    "component.pixelFrame.shadow": {
+      "blur": "0px",
+      "color": "#1e1b16",
+      "spread": "0px",
+      "x": "2px",
+      "y": "2px"
+    },
     "component.progress.borderWidth": "3px",
     "component.progress.comfortableHeight": "14px",
     "component.progress.compactHeight": "10px",
@@ -175,12 +185,16 @@ export const designTokens = {
     "semantic.color.focus": "#e2572d",
     "semantic.color.link": "#1e1b16",
     "semantic.color.linkHover": "#e2572d",
+    "semantic.color.mineDepth": "#f5f5f2",
+    "semantic.color.minePanel": "#f5f5f2",
+    "semantic.color.mineralValue": "#f6c700",
     "semantic.color.shadow": "#1e1b16",
     "semantic.color.surface": "#f5f5f2",
     "semantic.color.surfaceStrong": "#f6c700",
     "semantic.color.text": "#1e1b16",
     "semantic.color.textMuted": "#2f2f2f",
     "semantic.color.textOnAccent": "#1e1b16",
+    "semantic.color.workMaterial": "#2f2f2f",
     "semantic.motion.interactionDuration": "250ms",
     "semantic.motion.interactionEasing": [
       0.2,
@@ -224,6 +238,7 @@ export const designTokens = {
     "surface.web.landingDesktopMaximum": "1600px",
     "surface.web.landingDesktopMinimumHeight": "760px",
     "surface.web.landingPanelBorderWidth": "2px",
+    "surface.web.mascotGuideMaximum": "180px",
     "surface.web.mineRailHeight": "96px"
   },
   "dark": {
@@ -261,6 +276,16 @@ export const designTokens = {
     "component.pill.paddingBlock": "12px",
     "component.pill.paddingInline": "24px",
     "component.pill.radius": "9999px",
+    "component.pixelFrame.borderWidth": "2px",
+    "component.pixelFrame.edgeUnit": "4px",
+    "component.pixelFrame.radius": "0px",
+    "component.pixelFrame.shadow": {
+      "blur": "0px",
+      "color": "#f6c700",
+      "spread": "0px",
+      "x": "2px",
+      "y": "2px"
+    },
     "component.progress.borderWidth": "3px",
     "component.progress.comfortableHeight": "14px",
     "component.progress.compactHeight": "10px",
@@ -401,12 +426,16 @@ export const designTokens = {
     "semantic.color.focus": "#e2572d",
     "semantic.color.link": "#e2572d",
     "semantic.color.linkHover": "#f6c700",
+    "semantic.color.mineDepth": "#0b0b0b",
+    "semantic.color.minePanel": "#181714",
+    "semantic.color.mineralValue": "#f6c700",
     "semantic.color.shadow": "#f6c700",
     "semantic.color.surface": "#2f2f2f",
     "semantic.color.surfaceStrong": "#181714",
     "semantic.color.text": "#f5f5f2",
     "semantic.color.textMuted": "#f5f5f2",
     "semantic.color.textOnAccent": "#1e1b16",
+    "semantic.color.workMaterial": "#2f2f2f",
     "semantic.motion.interactionDuration": "250ms",
     "semantic.motion.interactionEasing": [
       0.2,
@@ -450,6 +479,7 @@ export const designTokens = {
     "surface.web.landingDesktopMaximum": "1600px",
     "surface.web.landingDesktopMinimumHeight": "760px",
     "surface.web.landingPanelBorderWidth": "2px",
+    "surface.web.mascotGuideMaximum": "180px",
     "surface.web.mineRailHeight": "96px"
   }
 } as const;

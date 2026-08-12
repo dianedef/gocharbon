@@ -1,15 +1,15 @@
 ---
 artifact: brand_context
 metadata_schema_version: "1.0"
-artifact_version: "1.1.0"
+artifact_version: "1.2.0"
 project: gocharbon
 created: "2026-04-25"
-updated: "2026-08-12"
+updated: "2026-08-13"
 status: reviewed
 source_skill: sf-docs
 scope: brand
 owner: "Diane"
-confidence: medium
+confidence: high
 risk_level: medium
 security_impact: unknown
 docs_impact: yes
@@ -17,9 +17,13 @@ brand_voice: unknown
 trust_posture: unknown
 depends_on: []
 supersedes: []
-evidence: []
-next_review: "unknown"
-next_step: /sf-docs verify shipglows_data/branding/branding.md
+evidence:
+  - "Direction Pixel Mine retenue avec une landing desktop dark comme premiere reference visuelle."
+  - "Questionnaire express confirme comme point d'entree principal de la landing."
+  - "Petit mineur pixel fourni par Diane confirme comme guide de marque; variante realiste rejetee."
+  - "Architecture canonique cross-surface validee le 2026-08-12."
+next_review: "2026-09-13"
+next_step: "Valider visuellement la landing desktop dark, puis documenter uniquement les extensions approuvees."
 ---
 # 🎨 CHARBON - Brand Guidelines
 
@@ -277,143 +281,91 @@ On documente ici systematiquement :
 
 Toute nouvelle decision partagee est decrite ici, encodee dans le JSON canonique, puis generee pour le web et Flutter. Les sorties CSS, TypeScript et Dart ne sont jamais editees manuellement.
 
-### Design System : "Pixel Mine Neobrutalism"
+### Direction canonique : Pixel Mine
 
-**Philosophie :** Audacieux, direct, impossible à ignorer. Comme notre ton.
+GoCharbon est un produit business serieux dans un univers graphique minier pixelise. Le graphisme peut etre original, attachant et narratif; le contenu, les preuves et les appels a l'action restent adultes, directs et credibles. Le pixel n'est ni un filtre decoratif pose sur une interface SaaS, ni une permission d'infantiliser la promesse.
 
-La direction canonique combine une composition moderne, mobile-first, avec un langage pixel minier integral. Le pixel sert la structure (angles, rails, jauges, ombres, pictogrammes), pas un ton enfantin.
+Le neobrutalisme historique n'est conserve que lorsqu'il renforce cette direction : contours francs, angles marques, ombres dures sans flou et actions immediatement identifiables. Il ne constitue plus une direction autonome et ne justifie pas des rotations, surdimensionnements ou gestes arbitraires.
 
-- **Light par defaut :** entree jaune, claire et directe. Le questionnaire et le parcours dominent; le decor reste secondaire.
-- **Dark :** galerie graphite et charbon, filons d'or et profondeur. L'ambiance devient plus concentree sans changer la hierarchie.
-- **Mineur :** guide competent et discret. Il indique, eclaire et accompagne; ce n'est pas un personnage comique geant.
-- **Charbon et or :** le charbon represente le travail en cours; l'or represente une preuve, un jalon ou une recompense.
-- **Progression :** plus la personne avance, plus l'univers peut descendre dans la mine. Cette progression reste narrative et ne doit jamais masquer le contenu ou modifier le metier.
-- **Serieux :** pas de volumes 3D ronds, pas de grands visages joyeux, pas de vocabulaire infantilisant. La promesse reste l'argent, la clarte et l'execution realiste.
+### Invariants confirmes
 
-**⚠️ RÈGLE D'OR : utiliser uniquement les tokens définis dans `shipglows_data/branding/design-tokens.json`.** Les sorties CSS, TypeScript et Dart sont générées et ne constituent jamais une autorité concurrente.
+- **Univers :** mine, galerie, roche, charbon, filon et extraction forment le vocabulaire visuel et narratif.
+- **Pixel coherent :** les mascottes, pictogrammes, bordures, jauges, rails, ombres et micro-details doivent sembler appartenir au meme systeme. Une couche pixel isolee sur des cartes SaaS lisses n'est pas suffisante.
+- **Composition contemporaine :** la grille, l'espace, la hierarchie et la lisibilite restent celles d'un produit moderne. Le pixel ne doit pas reproduire la densite ou les limites d'un ancien jeu video.
+- **Serieux du produit :** la promesse porte sur l'argent, le choix d'un modele, la validation et l'execution. Le graphisme original ne change ni ce ton ni le niveau d'exigence.
+- **Couleur :** le graphite et l'encre portent la profondeur; le creme porte la lecture; le jaune/or signale l'action, la valeur, le filon ou la recompense. L'orange reste secondaire.
+- **Typographie :** Righteous porte l'impact et la marque, Poppins la lecture, Sanchez les actions et libelles. Le texte courant reste net; il n'est pas rendu illisible pour simuler le pixel.
+- **Formes :** angles nuls ou faibles, contours francs, ombres dures et unite pixel visible. Les valeurs viennent exclusivement du canon de tokens.
+- **Questionnaire :** le questionnaire express est le point d'entree principal de la landing. Il remplace le panneau fictif « expedition en cours » tant que la personne n'a pas encore de parcours.
+- **Mascotte :** le petit mineur pixel fourni et valide par Diane est le guide de marque. Il peut etre sympathique, mais reste calme, competent et secondaire par rapport au contenu.
+- **Charbon et or :** le charbon represente le travail et le potentiel brut; l'or represente un signal utile, une preuve, un jalon ou une recompense.
+- **Accessibilite :** aucune information, progression ou recommandation ne repose uniquement sur la couleur ou le decor.
 
-### Palette de Couleurs
+### Modes confirmes
 
-#### Palette de Couleurs Officielle (implémentée)
+- **Dark :** galerie en encre, roche et graphite, avec filons d'or. La landing desktop dark est la premiere reference visuelle de la direction.
+- **Light :** une version claire est requise et conserve le jaune GoCharbon comme entree de marque. Sa composition detaillee n'est pas encore validee et ne doit pas etre deduite de la version dark.
+- **Cross-surface :** le site et Flutter partagent primitives, roles semantiques, formes et composants communs. Les differences necessaires passent par `surface.web.*` et `surface.app.*`.
 
-**Source canonique :** `shipglows_data/branding/design-tokens.json`. Les variables CSS `--brand-*` historiques restent des aliases de migration jusqu'au branchement complet de la sortie générée.
+### Etat des decisions
 
-```
-🎨 COULEURS DE BASE
---brand-yellow    #f6c700  (CTA primaire, accent fort)
---brand-orange    #e2572d  (accent secondaire, hover CTA)
---brand-black     #1e1b16  (texte principal, bordures light)
---brand-ink       #0b0b0b  (fonds dark)
---brand-charcoal  #2f2f2f  (surfaces secondaires)
---brand-cream     #f5f5f2  (fonds light / cartes)
+#### Confirme
 
-🔁 ALIASES UTILISÉS DANS LE CODE
---brand-copper      -> --brand-orange
---brand-soot        -> --brand-charcoal
---brand-anthracite  -> --brand-charcoal
---brand-coal        -> --brand-charcoal
---brand-ash         -> --brand-charcoal
---brand-ash-light   -> --brand-charcoal
+- direction Pixel Mine;
+- landing desktop dark comme reference initiale;
+- questionnaire express dans le panneau central;
+- petit mineur pixel original comme guide;
+- palette charbon, creme, jaune/or et orange secondaire;
+- grille moderne, composants anguleux et ombres dures;
+- contenus et microcopies business serieux.
 
-🔗 LIENS
-Light  : --link-color = --brand-black
-Hover  : --link-hover-color = --brand-orange
-Dark   : --link-color = --brand-orange
-Hover  : --link-hover-color = --brand-yellow
-```
+#### Experimental, a ne pas generaliser
 
-**🎯 Règles d'utilisation :**
-- Primaires = `--brand-yellow`, `--brand-orange`, `--brand-black`
-- Surfaces = `--brand-cream` (light), `--brand-ink` + `--brand-charcoal` (dark)
-- Bordures = `--brand-black` en light, `--brand-cream` en dark
-- Interdit : couleurs en dur hors palette (pas de nouveaux hex inline)
+- composition exacte des sections sous le premier ecran de landing;
+- navigation detaillee `Charbon / Mine / Or`;
+- console d'analyse et colonne de profondeur comme composants reutilisables;
+- narration d'une descente progressive dans la mine au fil du scroll ou du parcours;
+- densite et placement exacts du decor minier;
+- declinaison light, landing mobile et transposition complete dans Flutter;
+- animations, etats supplementaires et autres poses du mineur.
 
-### Typographie
+Un element experimental peut etre prototype avec des tokens `surface.*`, mais ne devient un invariant de marque qu'apres validation explicite.
 
-#### Fonts Principales
-```
-Display/Titres      : Righteous (sans-serif, bold, impact)
-Body/Paragraphes    : Poppins (sans-serif, lisible, moderne)
-CTA/Labels          : Sanchez (serif, caractère, contraste)
-```
+#### Explicitement rejete
 
-#### Hiérarchie Typographique
-```
-H1 (Hero)           : 4xl (36px) / 6xl (60px) mobile/desktop
-H1 (Article)        : xl (20px) / 2xl (24px) 
-H2                  : 3xl (30px) / 5xl (48px)
-H3                  : 2xl (24px) / 3xl (30px)
-Body Large          : xl (20px) / 2xl (24px)
-Body                : lg (18px) / xl (20px)
-Body Small          : base (16px) / lg (18px)
-Caption             : sm (14px) / base (16px)
-```
+- mineur realiste ou semi-realiste;
+- mascotte 3D ronde, charbon joyeux geant ou grands visages enfantins;
+- pixel limite aux mascottes et icones sur une interface SaaS lisse sans coherence globale;
+- interface entierement rasterisee ou texte integre dans une image de fond;
+- esthetique jeu retro surchargee qui degrade la lisibilite;
+- gradients flous, glassmorphism et ombres diffuses comme langage principal;
+- recettes neobrutalistes gratuites : rotations fortes, pills agrandies a 200 %, translations decoratives excessives;
+- emojis comme systeme iconographique principal;
+- ajout de couleurs, tailles, ombres, rayons ou espacements directement dans l'UI.
 
-#### Utilisation des Fonts
-- **Righteous** : Logo, titres hero, éléments d'impact
-- **Poppins** : Tout le contenu éditorial (articles, descriptions, UI)
-- **Sanchez** : Boutons, pills/tags, éléments distinctifs
+### Autorite des valeurs
 
-### Composants Visuels
+`shipglows_data/branding/design-tokens.json` est l'unique autorite executable des valeurs visuelles. Les valeurs documentees ci-dessous ne doivent pas etre recopiees dans les composants :
 
-#### Brutal Cards
-```css
-border: 3px solid black
-border-radius: minimal ou 0 (priorité aux angles marqués)
-box-shadow: 6px 6px 0 var(--brand-black) (light)
-box-shadow: 6px 6px 0 var(--brand-cream) (dark)
-background: var(--brand-cream) (light)
-background: var(--brand-ink) (dark)
-```
+- `primitive.*` contient les matieres premieres approuvees;
+- `semantic.*` porte les roles et les modes light/dark;
+- `component.*` decrit les recettes partagees;
+- `surface.web.*` et `surface.app.*` portent les ecarts de plateforme;
+- `legacy.*` ne sert qu'a une migration bornee.
 
-#### Brutal Buttons
-```css
-padding: 1rem 2rem
-border: 3px solid black
-border-radius: minimal ou 0
-font-size: 1.25rem (20px)
-font-weight: 700
-font-family: Sanchez
-box-shadow: 5px 5px 0 rgba(0,0,0,1)
-hover: translate(2px,2px) + box-shadow: 3px 3px 0 rgba(0,0,0,1)
-transition: 0.2s à 0.5s
-```
+Les sorties `site/src/styles/generated/design-tokens.css`, `site/src/generated/design-tokens.ts` et `app_quiz/flutter_app/lib/src/theme/generated/design_tokens.g.dart` sont generees. `site/src/styles/global.css`, UnoCSS, `ThemeData` et les helpers `Gc*` consomment ces sorties; aucun n'est une autorite concurrente.
 
-#### Règles Quiz
-- La page `/quiz` doit suivre le style brutaliste du site (pas de style SaaS arrondi générique).
-- Boutons quiz : même logique visuelle que les CTA du site (jaune/orange, bordure épaisse, ombre dure).
-- Cartes quiz/résultats : fond `--brand-cream` light / `--brand-ink` dark, bordure 3px, ombre dure.
-- Progression : barre avec bordure et remplissage `--brand-yellow`.
+### Composants concernes
 
-#### Brutal Pills/Tags
-```css
-border-radius: 9999px (full)
-border: 1px solid black
-padding: 12px 24px
-font-size: 1.25rem (20px)
-transform: scale(2.0) (pour visibilité)
-box-shadow: 5px 5px 0 rgba(0,0,0,1)
-hover: translateX(-10px) rotate(-5deg)
-selected: translateX(-10px) translateY(-15px)
-```
+- navigation et onglets de monde;
+- hero et panneaux de landing;
+- questionnaire, reponses, resultats et progression;
+- cartes de parcours, modules et outils;
+- consoles, rails, jauges, badges et recompenses;
+- boutons, champs, pills et etats interactifs;
+- surfaces Flutter equivalentes via `ThemeData`, extensions et helpers `Gc*`.
 
-#### Espacement & Layout
-```
-Container max-width : 6xl (1280px)
-Section padding     : px-6 py-16 (mobile) / px-6 py-24 (desktop)
-Gap standard        : 4-8 (16-32px)
-Grid gap            : 6-8 (24-32px)
-```
-
-### Iconographie
-- **Style** : Lucide Icons (line icons, minimalistes)
-- **Taille** : 24px par défaut, 32px pour highlights
-- **Emojis** : Utilisés pour les titres de sections (🚀 🇫🇷 💡 etc.)
-
-### Images & Médias
-- **Style photos** : Authentiques, pas de stock photos trop léchées
-- **Screenshots** : Avec annotations en français, bordures brutal
-- **Illustrations** : Minimalistes, flat design, couleurs de la palette
+Un composant n'adopte le style Pixel Mine que lorsqu'il conserve sa fonction, son accessibilite et son comportement metier.
 
 ---
 
@@ -449,15 +401,7 @@ Grid gap            : 6-8 (24-32px)
 ### Pages Principales
 
 #### Landing Page (/)
-**Sections dans l'ordre :**
-1. Hero + 2 CTA (Quiz + Newsletter)
-2. Value Proposition (3 cartes)
-3. Topics (4 cartes cliquables vers blog filtré)
-4. Quiz CTA
-5. Newsletter CTA avec lead magnet
-6. Derniers articles blog
-7. Section SaaS Francophones (4 cartes arguments)
-8. Newsletter Veille Tech SaaS
+**Structure confirmee :** le premier ecran conduit au questionnaire express et presente la direction Pixel Mine. L'ordre, le nombre et la composition des sections suivantes restent experimentaux. Aucun agent ne doit restaurer cette ancienne liste comme contrat de landing sans validation explicite.
 
 #### Blog (/blog)
 - Filtres tags en sticky header (brutal pills animés)
@@ -681,12 +625,13 @@ Avant de publier un contenu, vérifier :
 - [ ] Pas de promesses irréalistes
 
 ### Design
-- [ ] Images en brutal style (bordures, ombres)
-- [ ] CTA en couleurs brand (palette officielle uniquement)
-- [ ] Emojis dans les titres de sections
-- [ ] Espacement cohérent
-- [ ] Lisible en dark mode
-- [ ] Aucune couleur hors de la palette des 19 couleurs
+- [ ] Direction Pixel Mine respectee sans couche pixel purement decorative
+- [ ] Valeurs visuelles issues du canon, puis des carriers generes
+- [ ] Contenu et texte fonctionnel conserves hors des images raster
+- [ ] Petit mineur utilise comme guide secondaire, jamais comme promesse principale
+- [ ] Espacement, hierarchie et focus accessibles
+- [ ] Lisible dans les modes effectivement implementes
+- [ ] Aucun choix experimental generalise sans validation explicite
 
 ---
 
