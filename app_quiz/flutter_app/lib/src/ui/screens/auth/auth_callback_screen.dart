@@ -18,7 +18,7 @@ class AuthCallbackScreen extends ConsumerStatefulWidget {
 }
 
 class _AuthCallbackScreenState extends ConsumerState<AuthCallbackScreen> {
-  static const _minimumVisibleDuration = Duration(milliseconds: 700);
+  static const _minimumVisibleDuration = GcMotion.slow;
   static const _authEventGracePeriod = Duration(seconds: 4);
 
   @override
@@ -96,33 +96,33 @@ class _AuthCallbackScreenState extends ConsumerState<AuthCallbackScreen> {
   Widget build(BuildContext context) {
     return const SafeArea(
       child: Scaffold(
-        backgroundColor: AppColors.bg,
+        backgroundColor: GcAppColors.bg,
         body: Center(
           child: Padding(
-            padding: EdgeInsets.all(24),
+            padding: EdgeInsets.all(GcSpace.x6),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                CircularProgressIndicator(color: AppColors.primary),
-                SizedBox(height: 20),
+                CircularProgressIndicator(color: GcAppColors.primary),
+                SizedBox(height: GcSpace.x5),
                 Text(
                   "Connexion en cours...",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: AppColors.textPrimary,
-                    fontSize: 22,
-                    fontWeight: FontWeight.w900,
+                    color: GcAppColors.textPrimary,
+                    fontSize: GcType.title,
+                    fontWeight: GcType.black,
                   ),
                 ),
-                SizedBox(height: 8),
+                SizedBox(height: GcSpace.x2),
                 Text(
                   "Finalisation sécurisée du retour OAuth.",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: AppColors.textSecondary,
-                    fontSize: 14,
-                    height: 1.35,
-                    fontWeight: FontWeight.w600,
+                    color: GcAppColors.textSecondary,
+                    fontSize: GcType.caption,
+                    height: GcType.bodyHeight,
+                    fontWeight: GcType.bold,
                   ),
                 ),
               ],

@@ -1,0 +1,151 @@
+name: Design tokens
+
+on:
+  pull_request:
+    paths:
+      - "shipglows_data/branding/design-token*"
+      - "shipglows_data/technical/design-system.md"
+      - "tools/design-tokens/**"
+      - "site/src/generated/**"
+      - "site/src/styles/generated/**"
+      - "site/src/components/**"
+      - "site/src/layouts/**"
+      - "site/src/pages/**"
+      - "site/uno.config.ts"
+      - "site/package.json"
+      - "site/pnpm-lock.yaml"
+      - "app_quiz/flutter_app/lib/src/theme/**"
+      - "app_quiz/flutter_app/lib/src/ui/**"
+      - "app_quiz/flutter_app/test/**"
+      - "app_quiz/flutter_app/pubspec.yaml"
+      - "app_quiz/flutter_app/pubspec.lock"
+      - ".github/workflows/design-tokens.yml"
+  push:
+    branches: [main]
+    paths:
+      - "shipglows_data/branding/design-token*"
+      - "shipglows_data/technical/design-system.md"
+      - "tools/design-tokens/**"
+      - "site/src/generated/**"
+      - "site/src/styles/generated/**"
+      - "site/src/components/**"
+      - "site/src/layouts/**"
+      - "site/src/pages/**"
+      - "site/uno.config.ts"
+      - "site/package.json"
+      - "site/pnpm-lock.yaml"
+      - "app_quiz/flutter_app/lib/src/theme/**"
+      - "app_quiz/flutter_app/lib/src/ui/**"
+      - "app_quiz/flutter_app/test/**"
+      - "app_quiz/flutter_app/pubspec.yaml"
+      - "app_quiz/flutter_app/pubspec.lock"
+      - ".github/workflows/design-tokens.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: design-tokens-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  changes:
+    name: Resolve affected surfaces
+    runs-on: ubuntu-latest
+    outputs:
+      site: ${{ steps.scope.outputs.site }}
+      flutter: ${{ steps.scope.outputs.flutter }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - id: scope
+        name: Classify changed paths
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "site=true" >> "$GITHUB_OUTPUT"
+            echo "flutter=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [[ "$EVENT_NAME" == "pull_request" ]]; then
+            base="$PR_BASE_SHA"
+          else
+            base="$PUSH_BEFORE_SHA"
+          fi
+          if [[ -z "$base" || "$base" == "0000000000000000000000000000000000000000" ]]; then
+            base="$(git rev-list --max-parents=0 HEAD)"
+          fi
+          changed="$(git diff --name-only "$base" "$GITHUB_SHA")"
+          shared='^(shipglows_data/branding/design-token|tools/design-tokens/|\.github/workflows/design-tokens\.yml)'
+          if grep -Eq "$shared|^site/" <<< "$changed"; then site=true; else site=false; fi
+          if grep -Eq "$shared|^app_quiz/flutter_app/" <<< "$changed"; then flutter=true; else flutter=false; fi
+          echo "site=$site" >> "$GITHUB_OUTPUT"
+          echo "flutter=$flutter" >> "$GITHUB_OUTPUT"
+
+  contract:
+    name: Canonical contract and drift
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Test generator and validators
+        run: node --test tools/design-tokens/test.mjs
+      - name: Check generated artifacts
+        run: node tools/design-tokens/generate.mjs --check
+      - name: Audit site literals
+        run: node tools/design-tokens/audit.mjs --path site/src
+      - name: Audit Flutter literals
+        run: node tools/design-tokens/audit.mjs --path app_quiz/flutter_app/lib
+
+  site:
+    name: Astro consumer
+    needs: [changes, contract]
+    if: needs.changes.outputs.site == 'true'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Enable pinned pnpm
+        run: corepack enable && corepack prepare pnpm@8.6.0 --activate
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build Astro consumer
+        run: pnpm build
+
+  flutter:
+    name: Flutter consumer and category guard
+    needs: [changes, contract]
+    if: needs.changes.outputs.flutter == 'true'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app_quiz/flutter_app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.41.6"
+          channel: stable
+          cache: true
+      - name: Resolve dependencies
+        run: flutter pub get
+      - name: Analyze token consumer
+        run: flutter analyze
+      - name: Test full Flutter suite including category mappings and drift guard
+        run: flutter test
+      - name: Build Flutter web consumer
+        run: flutter build web --release

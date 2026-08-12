@@ -1,7 +1,7 @@
-import colors from './colors.json';
+import { designTokens } from "../../generated/design-tokens";
 
 const Config = {
-  colors,
-}
+  designTokens,
+};
 
 export default Config;

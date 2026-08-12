@@ -1,0 +1,5 @@
+{
+  "$schema": "./design-token-exceptions.schema.json",
+  "version": "1.0.0",
+  "exceptions": []
+}

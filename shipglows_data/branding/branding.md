@@ -281,13 +281,13 @@ Toute nouvelle décision visuelle doit être ajoutée ici pour éviter les déri
 
 **Philosophie :** Audacieux, direct, impossible à ignorer. Comme notre ton.
 
-**⚠️ RÈGLE D'OR : utiliser uniquement les tokens définis dans `site/src/styles/global.css`.**
+**⚠️ RÈGLE D'OR : utiliser uniquement les tokens définis dans `shipglows_data/branding/design-tokens.json`.** Les sorties CSS, TypeScript et Dart sont générées et ne constituent jamais une autorité concurrente.
 
 ### Palette de Couleurs
 
 #### Palette de Couleurs Officielle (implémentée)
 
-**Source technique :** `site/src/styles/global.css` (variables CSS `--brand-*`).
+**Source canonique :** `shipglows_data/branding/design-tokens.json`. Les variables CSS `--brand-*` historiques restent des aliases de migration jusqu'au branchement complet de la sortie générée.
 
 ```
 🎨 COULEURS DE BASE

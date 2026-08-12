@@ -1,16 +1,21 @@
 <script setup lang="ts">
-import { computed, onMounted, onBeforeUnmount, ref } from 'vue';
-import type { LearningPath } from '../../data/parcoursData';
-import BrutalCheckbox from './BrutalCheckbox.vue';
-import { hydrateGamificationFromConvex } from '../../gamification/convexSync';
-import { GAMIFICATION_UPDATED_EVENT } from '../../gamification/storageKeys';
+import { computed, onMounted, onBeforeUnmount, ref } from "vue";
+import type { LearningPath } from "../../data/parcoursData";
+import BrutalCheckbox from "./BrutalCheckbox.vue";
+import { hydrateGamificationFromConvex } from "../../gamification/convexSync";
+import { GAMIFICATION_UPDATED_EVENT } from "../../gamification/storageKeys";
 import {
   createPathStepKey,
   getCompletedStepIds,
   setCompletedStepIds,
-} from '../../gamification/pathProgress';
-import { fireBadgeConfetti } from '@diane-winflowz/gamification';
-import { getXpState, setTaskCompleted, type TaskType, type XpState } from '../../gamification/xp';
+} from "../../gamification/pathProgress";
+import { fireBadgeConfetti } from "@diane-winflowz/gamification";
+import {
+  getXpState,
+  setTaskCompleted,
+  type TaskType,
+  type XpState,
+} from "../../gamification/xp";
 
 const props = defineProps<{
   pathData: LearningPath;
@@ -27,7 +32,7 @@ const xp = ref<XpState>({
 });
 
 const totalSteps = computed(() =>
-  props.pathData.modules.reduce((acc, module) => acc + module.steps.length, 0)
+  props.pathData.modules.reduce((acc, module) => acc + module.steps.length, 0),
 );
 
 const completedCount = computed(() => completedSteps.value.size);
@@ -49,35 +54,40 @@ function isCompleted(moduleId: string, stepId: string): boolean {
   return completedSteps.value.has(stepKey(moduleId, stepId));
 }
 
-function moduleProgress(moduleId: string, stepIds: string[]): { done: number; total: number } {
-  const done = stepIds.filter((id) => completedSteps.value.has(stepKey(moduleId, id))).length;
+function moduleProgress(
+  moduleId: string,
+  stepIds: string[],
+): { done: number; total: number } {
+  const done = stepIds.filter((id) =>
+    completedSteps.value.has(stepKey(moduleId, id)),
+  ).length;
   return { done, total: stepIds.length };
 }
 
 function stepTypeLabel(type: TaskType): string {
   switch (type) {
-    case 'quiz':
-      return 'Quiz';
-    case 'guide':
-      return 'Guide';
-    case 'tuto':
-      return 'Tuto';
-    case 'action':
-      return 'Action';
+    case "quiz":
+      return "Quiz";
+    case "guide":
+      return "Guide";
+    case "tuto":
+      return "Tuto";
+    case "action":
+      return "Action";
     default:
-      return 'Étape';
+      return "Étape";
   }
 }
 
 function stepXp(type: TaskType): number {
   switch (type) {
-    case 'quiz':
+    case "quiz":
       return 15;
-    case 'guide':
+    case "guide":
       return 25;
-    case 'tuto':
+    case "tuto":
       return 30;
-    case 'action':
+    case "action":
       return 40;
     default:
       return 20;
@@ -85,7 +95,7 @@ function stepXp(type: TaskType): number {
 }
 
 function isStepAvailable(href: string, availableInBuild?: boolean): boolean {
-  if (typeof availableInBuild === 'boolean') return availableInBuild;
+  if (typeof availableInBuild === "boolean") return availableInBuild;
   return !!href;
 }
 
@@ -95,7 +105,7 @@ function toggleStep(moduleId: string, stepId: string, checked: boolean): void {
   const next = new Set(completedSteps.value);
   const module = props.pathData.modules.find((item) => item.id === moduleId);
   const step = module?.steps.find((item) => item.id === stepId);
-  const stepType = step?.type ?? 'action';
+  const stepType = step?.type ?? "action";
 
   if (checked) next.add(key);
   else next.delete(key);
@@ -104,7 +114,11 @@ function toggleStep(moduleId: string, stepId: string, checked: boolean): void {
   setCompletedStepIds(props.pathData.id, Array.from(next));
   xp.value = setTaskCompleted(taskId, checked, stepType);
 
-  if (next.size === totalSteps.value && totalSteps.value > 0 && !celebrationShown.value) {
+  if (
+    next.size === totalSteps.value &&
+    totalSteps.value > 0 &&
+    !celebrationShown.value
+  ) {
     fireBadgeConfetti();
     celebrationShown.value = true;
   }
@@ -112,12 +126,12 @@ function toggleStep(moduleId: string, stepId: string, checked: boolean): void {
 
 onMounted(() => {
   void hydrateGamificationFromConvex().finally(refreshFromStorage);
-  window.addEventListener('storage', refreshFromStorage);
+  window.addEventListener("storage", refreshFromStorage);
   window.addEventListener(GAMIFICATION_UPDATED_EVENT, refreshFromStorage);
 });
 
 onBeforeUnmount(() => {
-  window.removeEventListener('storage', refreshFromStorage);
+  window.removeEventListener("storage", refreshFromStorage);
   window.removeEventListener(GAMIFICATION_UPDATED_EVENT, refreshFromStorage);
 });
 </script>
@@ -128,26 +142,51 @@ onBeforeUnmount(() => {
       <div class="progress-top">
         <div class="progress-title-wrap">
           <h2>Progression du parcours</h2>
-          <p class="progress-summary">{{ completedCount }} / {{ totalSteps }} étapes complétées</p>
+          <p class="progress-summary">
+            {{ completedCount }} / {{ totalSteps }} étapes complétées
+          </p>
         </div>
         <div class="progress-badges">
-          <span class="progress-badge progress-badge-percent">{{ progressPercent }}%</span>
-          <span class="progress-badge progress-badge-xp">⭐ {{ xp.taskXp }} XP</span>
+          <span class="progress-badge progress-badge-percent"
+            >{{ progressPercent }}%</span
+          >
+          <span class="progress-badge progress-badge-xp"
+            >⭐ {{ xp.taskXp }} XP</span
+          >
         </div>
       </div>
-      <div class="progress-track" role="progressbar" :aria-valuenow="progressPercent" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-fill" :style="{ width: progressPercent + '%' }"></div>
+      <div
+        class="progress-track"
+        role="progressbar"
+        :aria-valuenow="progressPercent"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <div
+          class="progress-fill"
+          :style="{ width: progressPercent + '%' }"
+        ></div>
       </div>
     </article>
 
     <div class="modules-list">
-      <article v-for="(module, moduleIndex) in pathData.modules" :key="module.id" class="module-card">
+      <article
+        v-for="(module, moduleIndex) in pathData.modules"
+        :key="module.id"
+        class="module-card"
+      >
         <div class="module-header">
           <div class="module-header-top">
             <span class="module-index-badge">Module {{ moduleIndex + 1 }}</span>
             <h3 class="module-title-center">{{ module.title }}</h3>
             <p class="module-stats">
-              {{ moduleProgress(module.id, module.steps.map((step) => step.id)).done }} / {{ module.steps.length }} étapes
+              {{
+                moduleProgress(
+                  module.id,
+                  module.steps.map((step) => step.id),
+                ).done
+              }}
+              / {{ module.steps.length }} étapes
             </p>
           </div>
           <p class="module-objective">{{ module.objective }}</p>
@@ -163,13 +202,19 @@ onBeforeUnmount(() => {
               <BrutalCheckbox
                 :model-value="isCompleted(module.id, step.id)"
                 :label="`Valider l'étape ${stepIndex + 1}: ${step.title}`"
-                @update:model-value="(checked: boolean) => toggleStep(module.id, step.id, checked)"
+                @update:model-value="
+                  (checked: boolean) => toggleStep(module.id, step.id, checked)
+                "
               />
               <div class="step-content">
                 <strong>Étape {{ stepIndex + 1 }}: {{ step.title }}</strong>
                 <span class="step-meta">
-                  <span class="step-type" :class="step.type">{{ stepTypeLabel(step.type as TaskType) }}</span>
-                  <span class="step-xp">+{{ stepXp(step.type as TaskType) }} XP</span>
+                  <span class="step-type" :class="step.type">{{
+                    stepTypeLabel(step.type as TaskType)
+                  }}</span>
+                  <span class="step-xp"
+                    >+{{ stepXp(step.type as TaskType) }} XP</span
+                  >
                 </span>
                 <p>{{ step.description }}</p>
               </div>
@@ -222,7 +267,7 @@ onBeforeUnmount(() => {
   padding: var(--progress-tracker-overview-padding) !important;
   position: sticky;
   top: var(--progress-tracker-overview-top);
-  z-index: var(--sf-auto-pathprogresstracker-z-index-33d6419f);
+  z-index: 35;
   overflow: visible;
   margin-bottom: var(--progress-tracker-module-margin-bottom);
   padding-bottom: var(--progress-tracker-module-padding-bottom) !important;
@@ -236,7 +281,8 @@ onBeforeUnmount(() => {
   bottom: var(--progress-tracker-overview-after-offset);
   height: var(--progress-tracker-overview-after-height);
   background-color: inherit;
-  border-bottom: var(--progress-tracker-overview-after-border-width) solid var(--pp-border);
+  border-bottom: var(--progress-tracker-overview-after-border-width) solid
+    var(--pp-border);
   clip-path: polygon(
     0 0,
     100% 0,
@@ -262,7 +308,7 @@ onBeforeUnmount(() => {
     0 0
   );
   pointer-events: none;
-  z-index: var(--sf-auto-pathprogresstracker-z-index-96cd7dc2);
+  z-index: 2;
 }
 
 .progress-top {
@@ -270,7 +316,7 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: space-between;
   gap: var(--progress-tracker-overview-gap);
-  margin-bottom: var(--sf-auto-pathprogresstracker-margin-bottom-56d323ef);
+  margin-bottom: var(--gc-primitive-space-2);
 }
 
 .progress-title-wrap {
@@ -279,21 +325,21 @@ onBeforeUnmount(() => {
 
 .progress-overview h2 {
   margin: 0;
-  font-size: var(--sf-auto-pathprogresstracker-font-size-754019a3);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-ea624fbd);
+  font-size: var(--gc-primitive-space-4);
+  line-height: 1.2;
 }
 
 .progress-summary {
-  margin: var(--sf-auto-pathprogresstracker-margin-c64b19bc);
-  font-size: var(--sf-auto-pathprogresstracker-font-size-0d49a72e);
+  margin: 0.12rem 0 0;
+  font-size: 0.88rem;
   opacity: 0.85;
-  line-height: var(--sf-auto-pathprogresstracker-line-height-b511f5dc);
+  line-height: 1.2;
 }
 
 .progress-badges {
   display: inline-flex;
   align-items: center;
-  gap: var(--sf-auto-pathprogresstracker-gap-a922c8b0);
+  gap: 0.4rem;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
@@ -306,7 +352,7 @@ onBeforeUnmount(() => {
   padding: var(--progress-tracker-badge-padding);
   font-size: var(--progress-tracker-badge-font-size);
   font-weight: 800;
-  line-height: var(--sf-auto-pathprogresstracker-line-height-8979aed8);
+  line-height: 1.15;
   white-space: nowrap;
 }
 
@@ -335,9 +381,9 @@ onBeforeUnmount(() => {
 }
 
 .progress-fill {
-  height: var(--sf-auto-pathprogresstracker-height-61e33e1c);
+  height: 100%;
   background: var(--pp-progress-fill);
-  transition: var(--sf-auto-pathprogresstracker-transition-4d6f3c1c);
+  transition: width 0.25s ease;
 }
 
 .modules-list {
@@ -367,7 +413,8 @@ onBeforeUnmount(() => {
   bottom: var(--progress-tracker-module-after-offset);
   height: var(--progress-tracker-module-after-height);
   background-color: inherit;
-  border-bottom: var(--progress-tracker-module-after-border-width) solid var(--pp-border);
+  border-bottom: var(--progress-tracker-module-after-border-width) solid
+    var(--pp-border);
   clip-path: polygon(
     0 0,
     100% 0,
@@ -393,7 +440,7 @@ onBeforeUnmount(() => {
     0 0
   );
   pointer-events: none;
-  z-index: var(--sf-auto-pathprogresstracker-z-index-c1e6785d);
+  z-index: 2;
 }
 
 .modules-list .module-card:last-child {
@@ -410,7 +457,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   gap: var(--progress-tracker-module-header-gap);
   padding: 0;
-  margin-bottom: var(--sf-auto-pathprogresstracker-margin-bottom-25ed0a7b);
+  margin-bottom: 0.65rem;
 }
 
 .module-header-top {
@@ -429,27 +476,27 @@ onBeforeUnmount(() => {
   color: var(--brand-black);
   font-size: var(--progress-tracker-module-index-font-size);
   font-weight: 800;
-  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-95e2c949);
+  letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
   text-transform: uppercase;
   white-space: nowrap;
   padding: var(--progress-tracker-module-index-padding);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-34192a71);
+  line-height: 1.2;
 }
 
 .module-title-center {
   margin: 0;
   font-size: var(--progress-tracker-module-title-size);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-06381467);
+  line-height: 1.25;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-fe635cb6);
+  letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
   text-align: center;
   min-width: 0;
 }
 
 .module-objective {
-  margin: var(--sf-auto-pathprogresstracker-margin-f9db4eaa);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-bc97f313);
+  margin: 0.24rem 0 0;
+  line-height: 1.35;
   font-size: var(--progress-tracker-module-objective-size);
 }
 
@@ -457,7 +504,8 @@ onBeforeUnmount(() => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: var(--progress-tracker-module-stats-border-width) solid var(--pp-module-stats-border);
+  border: var(--progress-tracker-module-stats-border-width) solid
+    var(--pp-module-stats-border);
   background: var(--pp-module-stats-bg);
   color: var(--pp-module-stats-text);
   font-size: var(--progress-tracker-module-stats-font-size);
@@ -465,11 +513,11 @@ onBeforeUnmount(() => {
   white-space: nowrap;
   margin: 0;
   padding: var(--progress-tracker-module-stats-padding);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-85c49ac5);
+  line-height: 1.2;
 }
 
 .module-card ol {
-  margin: var(--sf-auto-pathprogresstracker-margin-e566b09e);
+  margin: 0.6rem 0 0;
   padding: 0;
   list-style: none;
   display: flex;
@@ -485,7 +533,9 @@ onBeforeUnmount(() => {
   background: var(--pp-surface-muted);
   border: var(--progress-tracker-step-border-width) solid var(--pp-border);
   padding: var(--progress-tracker-step-padding);
-  transition: var(--sf-auto-pathprogresstracker-transition-70639100);
+  transition:
+    border-color 0.16s ease,
+    background-color 0.16s ease;
 }
 
 .module-card li:hover {
@@ -493,7 +543,11 @@ onBeforeUnmount(() => {
 }
 
 .module-card li.step-completed {
-  background: linear-gradient(120deg, var(--pp-surface-muted), rgb(255 255 255 / 0.75));
+  background: linear-gradient(
+    120deg,
+    var(--pp-surface-muted),
+    color-mix(in srgb, var(--gc-primitive-color-brand-cream) 75%, transparent)
+  );
 }
 
 .step-completed .step-content > strong {
@@ -504,21 +558,21 @@ onBeforeUnmount(() => {
 .step-check {
   display: flex;
   align-items: flex-start;
-  gap: var(--sf-auto-pathprogresstracker-gap-335f2e6c);
-  width: var(--sf-auto-pathprogresstracker-width-b863cba6);
+  gap: var(--gc-primitive-space-2);
+  width: 100%;
   min-width: 0;
 }
 
 .step-content {
   display: block;
-  width: var(--sf-auto-pathprogresstracker-width-b1bbef59);
+  width: 100%;
 }
 
 .step-meta {
   display: flex;
   align-items: center;
-  gap: var(--sf-auto-pathprogresstracker-gap-6508a947);
-  margin-top: var(--sf-auto-pathprogresstracker-margin-top-c100b580);
+  gap: 0.45rem;
+  margin-top: 0.2rem;
 }
 
 .step-type,
@@ -527,10 +581,10 @@ onBeforeUnmount(() => {
   font-size: var(--progress-tracker-step-type-font-size);
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: var(--sf-auto-pathprogresstracker-letter-spacing-615ed24d);
+  letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
   border: var(--progress-tracker-step-link-border-width) solid var(--pp-border);
   padding: var(--progress-tracker-step-type-padding);
-  line-height: var(--sf-auto-pathprogresstracker-line-height-207e7fcd);
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -575,8 +629,11 @@ onBeforeUnmount(() => {
   border: var(--progress-tracker-step-link-border-width) solid var(--pp-border);
   background: var(--pp-surface);
   text-decoration: none;
-  line-height: var(--sf-auto-pathprogresstracker-line-height-73a5bd5a);
-  transition: var(--sf-auto-pathprogresstracker-transition-04ffd4a0);
+  line-height: 1.2;
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease,
+    background-color 0.16s ease;
 }
 
 .step-open-link-disabled {
@@ -645,7 +702,7 @@ onBeforeUnmount(() => {
 @media (max-width: var(--progress-tracker-mobile-breakpoint)) {
   .module-stats {
     font-size: var(--progress-tracker-module-stats-font-size-mobile);
-    padding: var(--sf-auto-pathprogresstracker-padding-ab85bc1d);
+    padding: 0.18rem 0.45rem;
   }
 
   .module-title-center {
@@ -656,7 +713,6 @@ onBeforeUnmount(() => {
     font-size: var(--progress-tracker-module-objective-size-mobile);
   }
 }
-
 </style>
 
 <style>

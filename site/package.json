@@ -43,6 +43,8 @@
     "build:no-outils": "EXCLUDE_OUTILS_FROM_BUILD=1 astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "tokens:check": "node ../tools/design-tokens/generate.mjs --check",
+    "tokens:audit": "node ../tools/design-tokens/audit.mjs --path site/src",
     "audit:parcours": "node scripts/audit_parcours_content.mjs",
     "audit:outils": "python3 scripts/audit_outils_content.py",
     "audit:outils:qualification": "python3 scripts/audit_outils_qualification.py",

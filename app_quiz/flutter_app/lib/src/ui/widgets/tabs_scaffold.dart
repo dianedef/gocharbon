@@ -20,10 +20,10 @@ class TabsScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     final loc = location ?? "/";
     final index = _indexFromLocation(loc);
-    const guideSafeBottomOffset = 88.0;
+    const guideSafeBottomOffset = GcSizes.comfortableNavigation;
 
     return Scaffold(
-      backgroundColor: AppColors.bg,
+      backgroundColor: GcAppColors.bg,
       body: Padding(
         padding: const EdgeInsets.only(bottom: guideSafeBottomOffset),
         child: child,
@@ -32,7 +32,7 @@ class TabsScaffold extends StatelessWidget {
         top: false,
         child: Container(
           decoration: const BoxDecoration(
-            border: Border(top: BorderSide(color: AppColors.borderLight)),
+            border: Border(top: BorderSide(color: GcAppColors.borderLight)),
           ),
           child: BottomNavigationBar(
             currentIndex: index,
@@ -42,9 +42,18 @@ class TabsScaffold extends StatelessWidget {
               if (i == 2) context.go("/profile");
             },
             items: [
-              BottomNavigationBarItem(icon: Icon(MdiIcons.homeVariant), label: "Home"),
-              BottomNavigationBarItem(icon: Icon(MdiIcons.trophy), label: "Leaderboard"),
-              BottomNavigationBarItem(icon: Icon(MdiIcons.account), label: "Profile"),
+              BottomNavigationBarItem(
+                icon: Icon(MdiIcons.homeVariant),
+                label: "Home",
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(MdiIcons.trophy),
+                label: "Leaderboard",
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(MdiIcons.account),
+                label: "Profile",
+              ),
             ],
           ),
         ),

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gocharbon.fr/schemas/design-tokens.schema.json",
+  "title": "GoCharbon design tokens",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schemaVersion", "brandVersion", "description", "tokens"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "brandVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "description": { "type": "string", "minLength": 1 },
+    "tokens": { "$ref": "#/$defs/group" }
+  },
+  "$defs": {
+    "group": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "oneOf": [{ "$ref": "#/$defs/group" }, { "$ref": "#/$defs/token" }] }
+    },
+    "token": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["$type"],
+      "properties": {
+        "$type": { "enum": ["color", "number", "dimension", "duration", "fontFamily", "fontWeight", "cubicBezier", "shadow"] },
+        "$value": {},
+        "$modes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["light", "dark"],
+          "properties": { "light": {}, "dark": {} }
+        },
+        "$description": { "type": "string", "minLength": 1 },
+        "$deprecated": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["replacement", "owner", "removeAfter"],
+          "properties": {
+            "replacement": { "type": "string", "minLength": 1 },
+            "owner": { "type": "string", "minLength": 1 },
+            "removeAfter": { "type": "string", "format": "date" }
+          }
+        }
+      },
+      "oneOf": [
+        { "required": ["$value"], "not": { "required": ["$modes"] } },
+        { "required": ["$modes"], "not": { "required": ["$value"] } }
+      ]
+    }
+  }
+}

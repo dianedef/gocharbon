@@ -1,7 +1,7 @@
 import "dart:async";
 
-import "package:flutter/material.dart";
 import "package:flutter/foundation.dart";
+import "package:flutter/material.dart";
 import "package:flutter_riverpod/flutter_riverpod.dart";
 import "package:flutter_web_plugins/url_strategy.dart";
 
@@ -11,18 +11,26 @@ import "src/services/notifications/notifications.dart";
 import "src/theme/app_colors.dart";
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  if (kIsWeb) {
-    usePathUrlStrategy();
-  }
+  assert(() {
+    BindingBase.debugZoneErrorsAreFatal = true;
+    return true;
+  }());
 
-  _setupGlobalErrorHandling();
+  await runZonedGuarded(
+    () async {
+      WidgetsFlutterBinding.ensureInitialized();
+      if (kIsWeb) {
+        usePathUrlStrategy();
+      }
 
-  await NotificationsService.instance.init();
+      _setupGlobalErrorHandling();
 
-  runZonedGuarded(
-    () => runApp(const ProviderScope(child: App())),
-    (error, stack) => AppErrorStore.report(error, stack, context: "runZonedGuarded"),
+      await NotificationsService.instance.init();
+
+      runApp(const ProviderScope(child: App()));
+    },
+    (error, stack) =>
+        AppErrorStore.report(error, stack, context: "runZonedGuarded"),
   );
 }
 
@@ -35,14 +43,17 @@ void _setupGlobalErrorHandling() {
       context: details.context?.toString(),
     );
     return const ColoredBox(
-      color: AppColors.bg,
+      color: GcAppColors.bg,
       child: Center(
         child: Padding(
-          padding: EdgeInsets.all(16),
+          padding: EdgeInsets.all(GcSpace.x4),
           child: Text(
             "Une erreur est survenue.\nOuvre la console et copie l’erreur.",
             textAlign: TextAlign.center,
-            style: TextStyle(color: AppColors.textSecondary, fontWeight: FontWeight.w700),
+            style: TextStyle(
+              color: GcAppColors.textSecondary,
+              fontWeight: FontWeight.w700,
+            ),
           ),
         ),
       ),

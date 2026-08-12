@@ -1,5 +1,7 @@
 import "package:flutter/material.dart";
 
+import "../theme/app_colors.dart";
+
 Color colorFromHex(String hex) {
   final cleaned = hex.replaceAll("#", "").trim();
   if (cleaned.length == 6) {
@@ -8,6 +10,5 @@ Color colorFromHex(String hex) {
   if (cleaned.length == 8) {
     return Color(int.parse(cleaned, radix: 16));
   }
-  return Colors.white;
+  return GcAppColors.textPrimary;
 }
-

@@ -1,7 +1,7 @@
-import colors from '../components/config/colors.json';
+import { designTokens } from "../generated/design-tokens";
 
-declare module '@vue/runtime-core' {
-    interface ComponentCustomProperties {
-        $colors: typeof colors;
-    }
-} 
+declare module "@vue/runtime-core" {
+  interface ComponentCustomProperties {
+    $colors: typeof designTokens;
+  }
+}

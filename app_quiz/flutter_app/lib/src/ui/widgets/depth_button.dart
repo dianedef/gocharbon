@@ -1,5 +1,8 @@
 import "package:flutter/material.dart";
 
+import "../../theme/app_colors.dart";
+import "../../theme/generated/design_tokens.g.dart";
+
 class DepthButton extends StatelessWidget {
   const DepthButton({
     super.key,
@@ -7,8 +10,8 @@ class DepthButton extends StatelessWidget {
     required this.colors,
     required this.shadowColor,
     required this.child,
-    this.borderRadius = const BorderRadius.all(Radius.circular(16)),
-    this.paddingBottom = 5,
+    this.borderRadius = GcRadii.control,
+    this.paddingBottom = GcSpace.x1,
   });
 
   final VoidCallback onPressed;
@@ -21,13 +24,10 @@ class DepthButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        color: shadowColor,
-        borderRadius: borderRadius,
-      ),
+      decoration: BoxDecoration(color: shadowColor, borderRadius: borderRadius),
       padding: EdgeInsets.only(bottom: paddingBottom),
       child: Material(
-        color: Colors.transparent,
+        color: GcAppColors.transparent,
         child: InkWell(
           onTap: onPressed,
           borderRadius: borderRadius,
@@ -39,7 +39,10 @@ class DepthButton extends StatelessWidget {
                 end: Alignment.bottomRight,
               ),
               borderRadius: borderRadius,
-              border: Border.all(color: const Color(0x26FFFFFF)),
+              border: Border.all(
+                color: GcAppColors.borderMedium,
+                width: GcDarkTokens.componentButtonBorderWidth,
+              ),
             ),
             child: child,
           ),
@@ -48,4 +51,3 @@ class DepthButton extends StatelessWidget {
     );
   }
 }
-

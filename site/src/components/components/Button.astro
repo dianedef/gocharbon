@@ -1,14 +1,14 @@
 ---
 import type { ButtonProps } from "../../utils/types/ui";
-import colors from "../config/colors.json";
+import { designTokens } from "../../generated/design-tokens";
 
 type Props = ButtonProps & { variant?: 'default' | 'hero' };
 
 const {
 	href,
 	target = "_self",
-	color = colors.light[Math.floor(Math.random() * colors.light.length)],
-	darkColor = colors.dark[Math.floor(Math.random() * colors.dark.length)],
+	color = designTokens.light['semantic.color.actionPrimary'],
+	darkColor = designTokens.dark['semantic.color.actionPrimary'],
 	variant = 'default'
 } = Astro.props;
 

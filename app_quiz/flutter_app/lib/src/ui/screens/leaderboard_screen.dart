@@ -58,8 +58,10 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
     if (_loading) {
       return const SafeArea(
         child: Scaffold(
-          backgroundColor: AppColors.bg,
-          body: Center(child: CircularProgressIndicator(color: AppColors.primary)),
+          backgroundColor: GcAppColors.bg,
+          body: Center(
+            child: CircularProgressIndicator(color: GcAppColors.primary),
+          ),
         ),
       );
     }
@@ -67,27 +69,44 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
     if (_error != null) {
       return SafeArea(
         child: Scaffold(
-          backgroundColor: AppColors.bg,
+          backgroundColor: GcAppColors.bg,
           body: Center(
             child: Padding(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.all(GcSpace.x4),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
                     _error!,
                     textAlign: TextAlign.center,
-                    style: const TextStyle(fontSize: 15, height: 1.4, color: AppColors.textSecondary, fontWeight: FontWeight.w600),
+                    style: const TextStyle(
+                      fontSize: GcType.body,
+                      height: GcType.bodyHeight,
+                      color: GcAppColors.textSecondary,
+                      fontWeight: GcType.bold,
+                    ),
                   ),
-                  const SizedBox(height: 14),
+                  const SizedBox(height: GcSpace.x4),
                   DepthButton(
                     onPressed: _fetch,
-                    colors: const [AppColors.primary, AppColors.primaryShadow],
-                    shadowColor: AppColors.primaryShadow,
-                    borderRadius: BorderRadius.circular(14),
+                    colors: const [
+                      GcAppColors.primary,
+                      GcAppColors.primaryShadow,
+                    ],
+                    shadowColor: GcAppColors.primaryShadow,
+                    borderRadius: GcRadii.card,
                     child: const Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                      child: Text("Réessayer", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800)),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: GcSpace.x5,
+                        vertical: GcSpace.x3,
+                      ),
+                      child: Text(
+                        "Réessayer",
+                        style: TextStyle(
+                          color: GcAppColors.textPrimary,
+                          fontWeight: GcType.black,
+                        ),
+                      ),
                     ),
                   ),
                 ],
@@ -102,17 +121,25 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
     final rest = _lb.length > 3 ? _lb.sublist(3) : const <LeaderboardEntry>[];
 
     const order = [1, 0, 2];
-    const heights = [60.0, 84.0, 48.0];
-    const sizes = [46.0, 58.0, 46.0];
+    const heights = [
+      GcSizes.podiumMedium,
+      GcSizes.podiumHigh,
+      GcSizes.podiumLow,
+    ];
+    const sizes = [
+      GcSizes.avatarMedium,
+      GcSizes.listAccentHeight,
+      GcSizes.avatarMedium,
+    ];
     const medalColors = [
-      Color(0xFF94A3B8), // silver
-      AppColors.gold, // gold
-      Color(0xFFCD7F32), // bronze
+      GcAppColors.textSecondary, // silver
+      GcAppColors.gold, // gold
+      GcAppColors.primary, // bronze
     ];
     const gradients = [
-      [Color(0xFF94A3B8), Color(0xFF64748B)],
-      [AppColors.gold, AppColors.goldShadow],
-      [Color(0xFFCD7F32), Color(0xFFA0522D)],
+      [GcAppColors.textSecondary, GcAppColors.textTertiary],
+      [GcAppColors.gold, GcAppColors.goldShadow],
+      [GcAppColors.primary, GcAppColors.primaryShadow],
     ];
 
     final myRank = _myRank;
@@ -120,21 +147,32 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: AppColors.bg,
+        backgroundColor: GcAppColors.bg,
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.symmetric(horizontal: GcSpace.x4),
           child: Column(
             children: [
-              const SizedBox(height: 6),
+              const SizedBox(height: GcSpace.x2),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset(AppImages.podium, width: 32, height: 32),
-                  const SizedBox(width: 10),
-                  const Text("Classement", style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.textPrimary)),
+                  Image.asset(
+                    AppImages.podium,
+                    width: GcSizes.iconLarge,
+                    height: GcSizes.iconLarge,
+                  ),
+                  const SizedBox(width: GcSpace.x3),
+                  const Text(
+                    "Classement",
+                    style: TextStyle(
+                      fontSize: GcType.title,
+                      fontWeight: GcType.black,
+                      color: GcAppColors.textPrimary,
+                    ),
+                  ),
                 ],
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: GcSpace.x3),
 
               // Podium
               Row(
@@ -143,7 +181,9 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                   final idx = order[i];
                   final entry = (idx < top3.length) ? top3[idx] : null;
                   if (entry == null) {
-                    return const Expanded(child: SizedBox(height: 140));
+                    return const Expanded(
+                      child: SizedBox(height: GcSizes.featurePanelMinimum),
+                    );
                   }
 
                   final avatarBase = colorFromHex(entry.avatarColor);
@@ -162,9 +202,11 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                             shape: BoxShape.circle,
                             boxShadow: [
                               BoxShadow(
-                                color: medal.withValues(alpha: 0.6),
-                                blurRadius: 12,
-                                spreadRadius: 0,
+                                color: medal.withValues(
+                                  alpha: GcOpacity.overlay,
+                                ),
+                                blurRadius: GcSpace.x3,
+                                spreadRadius: GcSpace.zero,
                               ),
                             ],
                           ),
@@ -172,27 +214,58 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               gradient: LinearGradient(
-                                colors: [avatarBase, avatarBase.withValues(alpha: 0.5)],
+                                colors: [
+                                  avatarBase,
+                                  avatarBase.withValues(
+                                    alpha: GcOpacity.disabled,
+                                  ),
+                                ],
                                 begin: Alignment.topLeft,
                                 end: Alignment.bottomRight,
                               ),
-                              border: Border.all(color: isMe ? AppColors.secondary : const Color(0x26FFFFFF), width: isMe ? 3 : 2),
+                              border: Border.all(
+                                color: isMe
+                                    ? GcAppColors.secondary
+                                    : GcAppColors.borderMedium,
+                                width: isMe
+                                    ? GcBorders.strong
+                                    : GcBorders.medium,
+                              ),
                             ),
                             child: Center(
                               child: Text(
-                                entry.username.isNotEmpty ? entry.username[0].toUpperCase() : "P",
-                                style: TextStyle(fontWeight: FontWeight.w900, color: Colors.white, fontSize: sizes[i] * 0.36),
+                                entry.username.isNotEmpty
+                                    ? entry.username[0].toUpperCase()
+                                    : "P",
+                                style: TextStyle(
+                                  fontWeight: GcType.black,
+                                  color: GcAppColors.textPrimary,
+                                  fontSize: sizes[i] * 0.36,
+                                ),
                               ),
                             ),
                           ),
                         ),
                         Container(
-                          width: 22,
-                          height: 22,
-                          margin: const EdgeInsets.only(top: -8, bottom: 4),
-                          decoration: BoxDecoration(color: medal, shape: BoxShape.circle),
+                          width: GcSizes.iconSmall,
+                          height: GcSizes.iconSmall,
+                          margin: const EdgeInsets.only(
+                            top: -GcSpace.x2,
+                            bottom: GcSpace.x1,
+                          ),
+                          decoration: BoxDecoration(
+                            color: medal,
+                            shape: BoxShape.circle,
+                          ),
                           child: Center(
-                            child: Text("${idx + 1}", style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w900, color: Colors.white)),
+                            child: Text(
+                              "${idx + 1}",
+                              style: const TextStyle(
+                                fontSize: GcType.caption,
+                                fontWeight: GcType.black,
+                                color: GcAppColors.textPrimary,
+                              ),
+                            ),
                           ),
                         ),
                         Text(
@@ -200,20 +273,34 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.center,
-                          style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: AppColors.textPrimary),
+                          style: const TextStyle(
+                            fontSize: GcType.caption,
+                            fontWeight: GcType.bold,
+                            color: GcAppColors.textPrimary,
+                          ),
                         ),
                         Text(
                           formatNumber(entry.totalScore),
-                          style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.textSecondary),
+                          style: const TextStyle(
+                            fontSize: GcType.caption,
+                            fontWeight: GcType.bold,
+                            color: GcAppColors.textSecondary,
+                          ),
                         ),
-                        const SizedBox(height: 4),
+                        const SizedBox(height: GcSpace.x1),
                         Container(
                           height: heights[i],
                           width: double.infinity,
-                          margin: const EdgeInsets.symmetric(horizontal: 14),
+                          margin: const EdgeInsets.symmetric(
+                            horizontal: GcSpace.threeAndHalf,
+                          ),
                           decoration: BoxDecoration(
-                            gradient: LinearGradient(colors: barGradient, begin: Alignment.topCenter, end: Alignment.bottomCenter),
-                            borderRadius: BorderRadius.circular(8),
+                            gradient: LinearGradient(
+                              colors: barGradient,
+                              begin: Alignment.topCenter,
+                              end: Alignment.bottomCenter,
+                            ),
+                            borderRadius: GcRadii.card,
                           ),
                         ),
                       ],
@@ -222,7 +309,7 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                 }),
               ),
 
-              const SizedBox(height: 14),
+              const SizedBox(height: GcSpace.x4),
 
               Expanded(
                 child: ListView.builder(
@@ -232,35 +319,66 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                     final isMe = myId != null && item.userId == myId;
                     final avatarBase = colorFromHex(item.avatarColor);
                     return Container(
-                      margin: const EdgeInsets.only(bottom: 6),
-                      padding: const EdgeInsets.all(10),
+                      margin: const EdgeInsets.only(bottom: GcSpace.oneAndHalf),
+                      padding: const EdgeInsets.all(GcSpace.x3),
                       decoration: BoxDecoration(
-                        color: isMe ? AppColors.secondary.withValues(alpha: 0.07) : AppColors.surface,
-                        borderRadius: BorderRadius.circular(14),
-                        border: Border.all(color: isMe ? AppColors.secondary.withValues(alpha: 0.30) : AppColors.borderLight),
+                        color: isMe
+                            ? GcAppColors.secondary.withValues(
+                                alpha: GcOpacity.disabled,
+                              )
+                            : GcAppColors.surface,
+                        borderRadius: GcRadii.card,
+                        border: Border.all(
+                          color: isMe
+                              ? GcAppColors.secondary.withValues(
+                                  alpha: GcOpacity.disabled,
+                                )
+                              : GcAppColors.borderLight,
+                        ),
                       ),
                       child: Row(
                         children: [
                           SizedBox(
-                            width: 28,
+                            width: GcSizes.iconMedium,
                             child: Text(
                               item.rank.toString(),
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: isMe ? AppColors.secondary : AppColors.textTertiary),
+                              style: TextStyle(
+                                fontSize: GcType.caption,
+                                fontWeight: GcType.black,
+                                color: isMe
+                                    ? GcAppColors.secondary
+                                    : GcAppColors.textTertiary,
+                              ),
                             ),
                           ),
                           Container(
-                            width: 34,
-                            height: 34,
-                            margin: const EdgeInsets.only(right: 10),
+                            width: GcSizes.avatarSmall,
+                            height: GcSizes.avatarSmall,
+                            margin: const EdgeInsets.only(
+                              right: GcSpace.twoAndHalf,
+                            ),
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              gradient: LinearGradient(colors: [avatarBase, avatarBase.withValues(alpha: 0.38)]),
+                              gradient: LinearGradient(
+                                colors: [
+                                  avatarBase,
+                                  avatarBase.withValues(
+                                    alpha: GcOpacity.disabled,
+                                  ),
+                                ],
+                              ),
                             ),
                             child: Center(
                               child: Text(
-                                item.username.isNotEmpty ? item.username[0].toUpperCase() : "P",
-                                style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: Colors.white),
+                                item.username.isNotEmpty
+                                    ? item.username[0].toUpperCase()
+                                    : "P",
+                                style: const TextStyle(
+                                  fontSize: GcType.caption,
+                                  fontWeight: GcType.black,
+                                  color: GcAppColors.textPrimary,
+                                ),
                               ),
                             ),
                           ),
@@ -272,18 +390,34 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                                   item.username,
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: isMe ? AppColors.secondary : AppColors.textPrimary),
+                                  style: TextStyle(
+                                    fontSize: GcType.caption,
+                                    fontWeight: GcType.bold,
+                                    color: isMe
+                                        ? GcAppColors.secondary
+                                        : GcAppColors.textPrimary,
+                                  ),
                                 ),
                                 Text(
                                   item.levelName,
-                                  style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: AppColors.textSecondary),
+                                  style: const TextStyle(
+                                    fontSize: GcType.caption,
+                                    fontWeight: GcType.bold,
+                                    color: GcAppColors.textSecondary,
+                                  ),
                                 ),
                               ],
                             ),
                           ),
                           Text(
                             formatNumber(item.totalScore),
-                            style: TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: isMe ? AppColors.gold : AppColors.textSecondary),
+                            style: TextStyle(
+                              fontSize: GcType.caption,
+                              fontWeight: GcType.black,
+                              color: isMe
+                                  ? GcAppColors.gold
+                                  : GcAppColors.textSecondary,
+                            ),
                           ),
                         ],
                       ),
@@ -294,28 +428,61 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
 
               if (myRank != null && myRank.rank > 0)
                 Container(
-                  margin: const EdgeInsets.only(bottom: 10, top: 6),
-                  padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+                  margin: const EdgeInsets.only(
+                    bottom: GcSpace.twoAndHalf,
+                    top: GcSpace.oneAndHalf,
+                  ),
+                  padding: const EdgeInsets.symmetric(
+                    vertical: GcSpace.x3,
+                    horizontal: GcSpace.x4,
+                  ),
                   decoration: BoxDecoration(
-                    color: AppColors.surface,
-                    borderRadius: BorderRadius.circular(14),
-                    border: Border.all(color: AppColors.secondary.withValues(alpha: 0.18)),
+                    color: GcAppColors.surface,
+                    borderRadius: GcRadii.card,
+                    border: Border.all(
+                      color: GcAppColors.secondary.withValues(
+                        alpha: GcOpacity.disabled,
+                      ),
+                    ),
                   ),
                   child: Row(
                     children: [
-                      Icon(MdiIcons.accountCircle, size: 20, color: AppColors.secondary),
-                      const SizedBox(width: 8),
-                      const Text("Vous", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: AppColors.textPrimary)),
+                      Icon(
+                        MdiIcons.accountCircle,
+                        size: GcSpace.x5,
+                        color: GcAppColors.secondary,
+                      ),
+                      const SizedBox(width: GcSpace.x2),
+                      const Text(
+                        "Vous",
+                        style: TextStyle(
+                          fontSize: GcType.caption,
+                          fontWeight: GcType.bold,
+                          color: GcAppColors.textPrimary,
+                        ),
+                      ),
                       const Spacer(),
                       Container(
                         decoration: BoxDecoration(
-                          gradient: const LinearGradient(colors: [AppColors.secondary, AppColors.secondaryShadow]),
-                          borderRadius: BorderRadius.circular(10),
+                          gradient: const LinearGradient(
+                            colors: [
+                              GcAppColors.secondary,
+                              GcAppColors.secondaryShadow,
+                            ],
+                          ),
+                          borderRadius: GcRadii.card,
                         ),
-                        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 5),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: GcSpace.threeAndHalf,
+                          vertical: GcSpace.oneAndQuarter,
+                        ),
                         child: Text(
                           "#${myRank.rank}",
-                          style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w900, color: Colors.white),
+                          style: const TextStyle(
+                            fontSize: GcType.caption,
+                            fontWeight: GcType.black,
+                            color: GcAppColors.textPrimary,
+                          ),
                         ),
                       ),
                     ],

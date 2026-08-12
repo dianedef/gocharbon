@@ -25,14 +25,29 @@ class GoCharbonApi {
              )
            : null,
        _dio = Dio(
-        BaseOptions(
-          baseUrl: baseUrl,
-          connectTimeout: const Duration(seconds: 10),
-          receiveTimeout: const Duration(seconds: 20),
-          sendTimeout: const Duration(seconds: 20),
-          headers: const {"content-type": "application/json"},
+         BaseOptions(
+           baseUrl: baseUrl,
+           connectTimeout: const Duration(seconds: 10),
+           receiveTimeout: const Duration(seconds: 20),
+           sendTimeout: const Duration(seconds: 20),
+           headers: const {"content-type": "application/json"},
+         ),
+       ) {
+    if (baseUrl.trim().isEmpty && !AppConfig.useConvexRuntime) {
+      _dio.interceptors.add(
+        InterceptorsWrapper(
+          onRequest: (options, handler) => handler.reject(
+            DioException(
+              requestOptions: options,
+              type: DioExceptionType.connectionError,
+              message:
+                  "Backend non configuré : cette fonctionnalité nécessite une connexion serveur.",
+            ),
+          ),
         ),
       );
+    }
+  }
 
   final Dio _dio;
   final ConvexHttpClient? _convex;
@@ -86,7 +101,9 @@ class GoCharbonApi {
     int count = 10,
   }) async {
     final convex = _convex;
-    if (convex != null) return convex.getQuestions(category: category, count: count);
+    if (convex != null) {
+      return convex.getQuestions(category: category, count: count);
+    }
     final res = await _dio.get<List<dynamic>>(
       "/api/questions",
       queryParameters: {"category": category, "count": count},
@@ -113,7 +130,11 @@ class GoCharbonApi {
   }) async {
     final convex = _convex;
     if (convex != null) {
-      return convex.submitQuiz(category: category, mode: mode, answers: answers);
+      return convex.submitQuiz(
+        category: category,
+        mode: mode,
+        answers: answers,
+      );
     }
     if (_shouldUseSupabaseUserScopedData) {
       final client = _supabaseClientOrNull();
