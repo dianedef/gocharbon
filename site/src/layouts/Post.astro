@@ -4,8 +4,6 @@ import Layout from "./Default.astro";
 import Content from "@components/components/PostContent.astro";
 import SideBar from "@components/components/PostSideBar.astro";
 import RecentPosts from "@components/components/RecentPosts.astro";
-import { Image } from "astro:assets";
-import type { ImageMetadata } from "astro";
 
 interface Props {
 	author: string;
@@ -14,7 +12,7 @@ interface Props {
 	description: string;
 	title: string;
 	id: string;
-	imgUrl: ImageMetadata;
+	imgUrl: string;
 }
 
 const { author, pubDate, headings, description, title, id, imgUrl } =
@@ -36,11 +34,9 @@ const ogImage = new URL(`/v1/generate/og/${Astro.params.slug}.png`, Astro.url);
 				<div
 					class="rounded-lg border-3 border-black dark:border-white h-24 md:h-56"
 				>
-					<Image
-						src={imgUrl}
+					<img
+						src="/assets/astro.jpeg"
 						alt={title}
-						width={800}
-						height={400}
 						class="rounded h-full w-full object-cover"
 						transition:name={`image-${id}`}
 					/>

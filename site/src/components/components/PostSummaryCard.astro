@@ -3,7 +3,6 @@ import type { PostSummaryCardProps } from "../../utils/types/content";
 import Card from "./Card.astro";
 import Button from "./Button.astro";
 import Pill from "./Pill.astro";
-import { Image } from "astro:assets";
 import colors from "../config/colors.json";
 import { normalizeTag } from "../../utils/tags";
 
@@ -73,11 +72,9 @@ const buttonDarkColor =
 			<div
 				class="post-image-container rounded-lg border-3 my-4 h-56 overflow-hidden"
 			>
-				<Image
-					src={data.imgUrl}
+				<img
+					src="/assets/astro.jpeg"
 					alt={data.title}
-					width={800}
-					height={400}
 					loading={isInitialLoad ? "eager" : "lazy"}
 					decoding={isInitialLoad ? "sync" : "async"}
 					class="rounded h-full w-full object-cover"
