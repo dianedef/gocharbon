@@ -226,7 +226,13 @@
         "landingDesktopMaximum": { "$type": "dimension", "$value": "1600px", "$description": "Experimental: largeur maximale de la premiere scene miniere desktop." },
         "landingDesktopMinimumHeight": { "$type": "dimension", "$value": "760px", "$description": "Experimental: hauteur minimale de la premiere landing dark desktop." },
         "landingPanelBorderWidth": { "$type": "dimension", "$value": "2px", "$description": "Experimental: bordure technique des panneaux de la landing miniere." },
-        "mascotGuideMaximum": { "$type": "dimension", "$value": "180px", "$description": "Experimental: taille maximale du petit mineur guide dans la scene desktop actuelle." }
+        "mascotGuideMaximum": { "$type": "dimension", "$value": "180px", "$description": "Experimental: taille maximale du petit mineur guide dans la scene desktop actuelle." },
+        "landingNavigationHeight": { "$type": "dimension", "$value": "66px", "$description": "Experimental: hauteur de la navigation Pixel Mine sur la landing desktop." },
+        "landingWorldTabMinimum": { "$type": "dimension", "$value": "132px", "$description": "Experimental: largeur minimale des onglets Charbon, Mine et Or." },
+        "landingPanelGap": { "$type": "dimension", "$value": "16px", "$description": "Experimental: rythme horizontal entre les panneaux du premier ecran desktop." },
+        "landingChromeBackground": { "$type": "color", "$value": "{primitive.color.brand.ink}", "$description": "Experimental: fond fixe du chrome de la landing dark de reference." },
+        "landingChromeText": { "$type": "color", "$value": "{primitive.color.brand.cream}", "$description": "Experimental: texte du chrome de la landing dark de reference." },
+        "landingPanelBackground": { "$type": "color", "$value": "{primitive.color.brand.rock}", "$description": "Experimental: fond commun des panneaux du premier ecran dark." }
       },
       "app": {
         "touchTarget": { "$type": "dimension", "$value": "{primitive.size.touchMinimum}" },

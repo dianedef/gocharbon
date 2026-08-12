@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.3.0 | sha256 bf59be83e37ca6c657f29523c575077b8554a98d16fedea0a3ddffb368d5d1b2
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.3.0 | sha256 e9b9b2d22ff40e17a27e1d5173cbd3bd01e72f60e2ae23bd1bd300435a056ea9
 
 import "package:flutter/material.dart";
 
@@ -158,9 +158,15 @@ abstract final class GcLightTokens {
   static const surfaceWebHeroContentMaximum = 1120.0;
   static const surfaceWebHeroCopyMaximum = 620.0;
   static const surfaceWebHoverOffset = 2.0;
+  static const surfaceWebLandingChromeBackground = Color(0xFF0B0B0B);
+  static const surfaceWebLandingChromeText = Color(0xFFF5F5F2);
   static const surfaceWebLandingDesktopMaximum = 1600.0;
   static const surfaceWebLandingDesktopMinimumHeight = 760.0;
+  static const surfaceWebLandingNavigationHeight = 66.0;
+  static const surfaceWebLandingPanelBackground = Color(0xFF181714);
   static const surfaceWebLandingPanelBorderWidth = 2.0;
+  static const surfaceWebLandingPanelGap = 16.0;
+  static const surfaceWebLandingWorldTabMinimum = 132.0;
   static const surfaceWebMascotGuideMaximum = 180.0;
   static const surfaceWebMineRailHeight = 96.0;
 }
@@ -321,9 +327,15 @@ abstract final class GcDarkTokens {
   static const surfaceWebHeroContentMaximum = 1120.0;
   static const surfaceWebHeroCopyMaximum = 620.0;
   static const surfaceWebHoverOffset = 2.0;
+  static const surfaceWebLandingChromeBackground = Color(0xFF0B0B0B);
+  static const surfaceWebLandingChromeText = Color(0xFFF5F5F2);
   static const surfaceWebLandingDesktopMaximum = 1600.0;
   static const surfaceWebLandingDesktopMinimumHeight = 760.0;
+  static const surfaceWebLandingNavigationHeight = 66.0;
+  static const surfaceWebLandingPanelBackground = Color(0xFF181714);
   static const surfaceWebLandingPanelBorderWidth = 2.0;
+  static const surfaceWebLandingPanelGap = 16.0;
+  static const surfaceWebLandingWorldTabMinimum = 132.0;
   static const surfaceWebMascotGuideMaximum = 180.0;
   static const surfaceWebMineRailHeight = 96.0;
 }

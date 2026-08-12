@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.3.0 | sha256 bf59be83e37ca6c657f29523c575077b8554a98d16fedea0a3ddffb368d5d1b2
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.3.0 | sha256 e9b9b2d22ff40e17a27e1d5173cbd3bd01e72f60e2ae23bd1bd300435a056ea9
 export const designTokens = {
   "light": {
     "component.achievementMedia.compactSize": "70px",
@@ -235,9 +235,15 @@ export const designTokens = {
     "surface.web.heroContentMaximum": "1120px",
     "surface.web.heroCopyMaximum": "620px",
     "surface.web.hoverOffset": "2px",
+    "surface.web.landingChromeBackground": "#0b0b0b",
+    "surface.web.landingChromeText": "#f5f5f2",
     "surface.web.landingDesktopMaximum": "1600px",
     "surface.web.landingDesktopMinimumHeight": "760px",
+    "surface.web.landingNavigationHeight": "66px",
+    "surface.web.landingPanelBackground": "#181714",
     "surface.web.landingPanelBorderWidth": "2px",
+    "surface.web.landingPanelGap": "16px",
+    "surface.web.landingWorldTabMinimum": "132px",
     "surface.web.mascotGuideMaximum": "180px",
     "surface.web.mineRailHeight": "96px"
   },
@@ -476,9 +482,15 @@ export const designTokens = {
     "surface.web.heroContentMaximum": "1120px",
     "surface.web.heroCopyMaximum": "620px",
     "surface.web.hoverOffset": "2px",
+    "surface.web.landingChromeBackground": "#0b0b0b",
+    "surface.web.landingChromeText": "#f5f5f2",
     "surface.web.landingDesktopMaximum": "1600px",
     "surface.web.landingDesktopMinimumHeight": "760px",
+    "surface.web.landingNavigationHeight": "66px",
+    "surface.web.landingPanelBackground": "#181714",
     "surface.web.landingPanelBorderWidth": "2px",
+    "surface.web.landingPanelGap": "16px",
+    "surface.web.landingWorldTabMinimum": "132px",
     "surface.web.mascotGuideMaximum": "180px",
     "surface.web.mineRailHeight": "96px"
   }

@@ -1157,7 +1157,7 @@ const homeDescription = launchBuild
     z-index: 1;
     display: grid;
     grid-template-columns: minmax(370px, 1.22fr) minmax(92px, 0.28fr) minmax(420px, 1.08fr) minmax(250px, 0.7fr);
-    gap: clamp(var(--gc-primitive-space-3), 1.25vw, var(--gc-primitive-space-5));
+    gap: var(--gc-surface-web-landing-panel-gap);
     align-items: center;
     width: min(calc(100% - var(--gc-primitive-space-12)), var(--gc-surface-web-landing-desktop-maximum));
     min-height: 650px;
@@ -1256,7 +1256,7 @@ const homeDescription = launchBuild
   .mine-guide {
     position: absolute;
     z-index: 0;
-    left: 32.5%;
+    left: 27%;
     bottom: 72px;
     width: clamp(122px, 10vw, 180px);
     height: auto;
@@ -1270,10 +1270,10 @@ const homeDescription = launchBuild
   .analysis-panel,
   .next-step-panel,
   .reward-panel {
-    border: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 18%, transparent);
-    background: color-mix(in srgb, var(--gc-primitive-color-brand-rock) 88%, transparent);
-    box-shadow: inset 0 0 0 var(--gc-semantic-shape-pixel-unit) color-mix(in srgb, var(--gc-primitive-color-brand-black) 70%, transparent), var(--gc-primitive-space-1) var(--gc-primitive-space-1) 0 color-mix(in srgb, var(--gc-primitive-color-brand-black) 72%, transparent);
-    backdrop-filter: blur(var(--gc-semantic-shape-pixel-unit));
+    border: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 18%, transparent);
+    border-radius: var(--gc-component-pixel-frame-radius);
+    background: color-mix(in srgb, var(--gc-surface-web-landing-panel-background) 94%, transparent);
+    box-shadow: inset 0 0 0 var(--gc-component-pixel-frame-edge-unit) color-mix(in srgb, var(--gc-primitive-color-brand-black) 70%, transparent), var(--gc-component-pixel-frame-shadow);
   }
 
   .depth-panel {
@@ -1338,8 +1338,11 @@ const homeDescription = launchBuild
   }
 
   .expedition-panel {
+    position: relative;
+    z-index: 2;
     align-self: center;
     min-width: 0;
+    overflow: visible;
   }
 
   .pixel-panel-heading {
@@ -1348,7 +1351,7 @@ const homeDescription = launchBuild
     align-items: center;
     gap: var(--gc-primitive-space-4);
     padding: var(--gc-primitive-space-3) var(--gc-primitive-space-4);
-    border-bottom: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 14%, transparent);
+    border-bottom: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 14%, transparent);
   }
 
   .pixel-panel-heading span {
@@ -1403,7 +1406,7 @@ const homeDescription = launchBuild
     --sentence-quiz-trigger-filled-color: var(--gc-primitive-color-brand-black);
     --sentence-quiz-trigger-filled-bg: var(--gc-primitive-color-brand-yellow);
     --sentence-quiz-menu-background: var(--gc-primitive-color-brand-rock);
-    --sentence-quiz-menu-border: var(--gc-surface-web-landing-panel-border-width) solid var(--gc-primitive-color-brand-gold-deep);
+    --sentence-quiz-menu-border: var(--gc-component-pixel-frame-border-width) solid var(--gc-primitive-color-brand-gold-deep);
     --sentence-quiz-menu-shadow: var(--gc-primitive-space-1) var(--gc-primitive-space-1) 0 var(--gc-primitive-color-brand-black);
   }
 
@@ -1414,7 +1417,7 @@ const homeDescription = launchBuild
   .expedition-proof {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-top: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 12%, transparent);
+    border-top: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 12%, transparent);
   }
 
   .expedition-proof span {
@@ -1431,7 +1434,7 @@ const homeDescription = launchBuild
 
   .analysis-stack {
     display: grid;
-    gap: var(--gc-primitive-space-4);
+    gap: var(--gc-surface-web-landing-panel-gap);
   }
 
   .analysis-panel,
@@ -1440,13 +1443,24 @@ const homeDescription = launchBuild
     padding: var(--gc-primitive-space-4);
   }
 
+  .analysis-panel {
+    padding: 0;
+  }
+
   .analysis-title {
     margin-bottom: var(--gc-primitive-space-3);
     color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 58%, transparent);
     font-size: 0.75rem;
   }
 
+  .analysis-panel > .analysis-title {
+    margin: 0;
+    padding: var(--gc-primitive-space-3) var(--gc-primitive-space-4);
+    border-bottom: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 14%, transparent);
+  }
+
   .analysis-console {
+    margin: var(--gc-primitive-space-4);
     padding: var(--gc-primitive-space-3);
     border: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-black) 88%, transparent);
     background: color-mix(in srgb, var(--gc-primitive-color-brand-ink) 76%, transparent);
@@ -1503,8 +1517,8 @@ const homeDescription = launchBuild
     grid-template-columns: repeat(4, 1fr);
     width: min(calc(100% - var(--gc-primitive-space-12)), var(--gc-surface-web-landing-desktop-maximum));
     margin: calc(var(--gc-primitive-space-12) * -1) auto var(--gc-primitive-space-6);
-    border: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 18%, transparent);
-    background: color-mix(in srgb, var(--gc-primitive-color-brand-rock) 94%, transparent);
+    border: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 18%, transparent);
+    background: color-mix(in srgb, var(--gc-surface-web-landing-panel-background) 94%, transparent);
   }
 
   .mine-feature-strip a {
