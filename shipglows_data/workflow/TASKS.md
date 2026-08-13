@@ -10,11 +10,12 @@
 🟡 [gocharbon] task: defer gamification dependency provenance cleanup until later | status: todo | area: deps | id: gocharbon-deps-gamification-provenance | note: site is stable; keep pinned GitHub tarball for now and revisit GitHub Packages publication plus permissive license proof later
 🟢 [gocharbon] task: align Astro version docs and package metadata | status: done | area: deps | id: gocharbon-deps-astro-doc-drift
 🟢 [gocharbon] task: fix `.npmrc` compatibility warning around `minimum-release-age` | status: done | area: deps | id: gocharbon-deps-npmrc-warning
-- [ ] gocharbon: design-system authority hardening
-  - status: todo
+- [x] gocharbon: design-system authority hardening
+  - status: implemented-and-technically-verified
   - area: design
-  - scope: website
-  - action: harden design rules so UI changes originate in `shipglows_data/branding/design-tokens.json`; `global.css` consumes the generated CSS carrier and all platform consumers are governed by `shipglows_data/technical/site/design-system-authority.md`
+  - scope: website + Flutter quiz app
+  - action: shared component authority delivered in commit `185bd8c9`; technical checks pass
+  - remaining-proof: automated Browser evidence for light/dark, desktop/mobile and keyboard focus
   - linked_specs:
     - shipglows_data/workflow/specs/gocharbon-design-system-authority-hardening.md
     - shipglows_data/workflow/verification/gocharbon-design-system-authority-hardening.md
@@ -86,7 +87,7 @@ The following content was preserved from `/home/claude/shipglows_data/projects/g
 - [x] Amélioration des titres sur blog.astro, tutos.astro
 
 **Done (code-level — pass 2):**
-- [x] Preload polices Sanchez et Poppins (LocalFont.astro)
+- [x] Preload des polices gouvernees Chakra Petch, Oxanium et Sanchez (LocalFont.astro)
 - [x] Ajout schéma `SoftwareApplication` JSON-LD sur les fiches outils (Post.astro)
 - [x] Fix accents manquants sur parcours.astro (20+ corrections : catégorie, départ, spécialisation, débutant, etc.)
 - [x] Fix accents manquants sur outils.astro (catégorie, sous-catégorie, entrées)

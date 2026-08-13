@@ -1,10 +1,10 @@
 ---
 artifact: architecture_context
 metadata_schema_version: "1.0"
-artifact_version: "1.2.0"
+artifact_version: "1.3.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
-updated: "2026-08-11"
+updated: "2026-08-13"
 status: active
 source_skill: sg-docs
 scope: architecture
@@ -38,6 +38,7 @@ supersedes:
 evidence:
   - "Local Firebase Auth and Convex scaffold added 2026-08-11."
   - "Provider setup, hosted proof, and production cutover are not yet available."
+  - "Commit 185bd8c9 delivers shared Flutter component authority; analyze and 9 tests pass locally."
 next_review: "2026-08-25"
 next_step: "Provision Firebase and Convex, then execute hosted verification before enabling GOCHARBON_RUNTIME=convex in production."
 ---
@@ -65,6 +66,17 @@ Firebase and Convex have not been provisioned in this repository's environments.
 - `app_quiz/flutter_app/lib/src/services/api` : provider-neutral quiz API and Convex HTTP client.
 - `app_quiz/convex` : target schema, authenticated functions, scoring and recommendations.
 - `app_quiz/backend` and `app_quiz/supabase` : legacy rollback sources; no new product behavior belongs there.
+
+## Design-system authority
+
+Flutter consumes generated tokens through the theme and shared widgets
+`GcButton`, `GcIconButton`, `AppCard`, `GcNavigationCard`, `GcSelectableCard`,
+`GcStatusCard`, `GcStatusPill`, `GcQuizAnswerOption` and
+`GcSegmentedControl`. Screens may compose layout, avatars, gauges and other
+specialized content, but must not recreate button or card recipes with local
+decoration. Typography follows Chakra Petch, Oxanium and Sanchez through the
+generated theme. Commit `185bd8c9` is delivered; local analysis and nine tests
+pass, while automated Browser proof remains outstanding.
 
 ## Security contracts
 

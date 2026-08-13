@@ -1,7 +1,7 @@
 ---
 artifact: technical_guidelines
 metadata_schema_version: "1.0"
-artifact_version: "2.2.0"
+artifact_version: "2.3.0"
 project: "gocharbon"
 created: "2026-06-11"
 updated: "2026-08-13"
@@ -36,8 +36,9 @@ evidence:
   - "Le generateur deterministe produit les carriers CSS, TypeScript et Dart depuis le JSON canonique."
   - "Le mode --check detecte toute derive des sorties generees."
   - "L'audit refuse les litteraux visuels non autorises dans l'UI."
+  - "Commit 185bd8c9 closes component bypass APIs and delivers shared primitives."
 next_review: "2026-09-13"
-next_step: "Appliquer cette autorite aux prochains composants Pixel Mine sans modifier les comportements metier."
+next_step: "Collecter la preuve Browser automatisee sans sur-clore la verification visuelle."
 ---
 
 # Autorite du design system GoCharbon
@@ -62,7 +63,22 @@ En cas de contradiction, le JSON canonique gagne pour une valeur executable. Une
 
 Ces trois fichiers sont des projections. Ils ne doivent jamais etre modifies manuellement. Une modification directe est une derive, meme si le rendu obtenu semble correct.
 
-Les fichiers web de Pixelify Sans sont fournis localement par `@fontsource-variable/pixelify-sans`; ce paquet est le carrier technique de la famille nommee par le token `primitive.font.family.display`, pas une autorite typographique concurrente.
+La typographie gouvernee utilise Chakra Petch pour le display, Oxanium pour le corps et les libelles, et Sanchez pour les actions.
+
+## Primitives partagees obligatoires
+
+- Web: `Button.astro`, `Button.vue`, `Card.astro`, `Card.vue`, `gc-action`,
+  `gc-control`, `gc-card`, `gc-chip`, `gc-input`, `gc-field`, `gc-status` et
+  `gc-notice`.
+- Flutter: `GcButton`, `GcIconButton`, `AppCard`, `GcNavigationCard`,
+  `GcSelectableCard`, `GcStatusCard`, `GcStatusPill`, `GcQuizAnswerOption` et
+  `GcSegmentedControl`.
+
+Leurs API exposent uniquement des variantes semantiques et attributs
+fonctionnels bornes. Les props de couleur, style ou classe permettant de
+redessiner une primitive sont interdites. Les styles locaux restent limites au
+layout, a la typographie de contenu et aux sous-composants metier specialises.
+Le commit livre `185bd8c9`; la preuve Browser automatisee reste a collecter.
 
 ## Role exact de `global.css`, UnoCSS et Flutter
 
@@ -74,7 +90,10 @@ Les fichiers web de Pixelify Sans sont fournis localement par `@fontsource-varia
 
 ## Direction gouvernee
 
-La direction active est **Pixel Mine**. Le neobrutalisme historique n'est conserve que pour les traits compatibles deja prouves : contours francs, angles nuls ou faibles, ombres dures sans flou et actions lisibles. Il ne peut pas justifier une nouvelle rotation, un surdimensionnement, un mouvement decoratif ou une recette absente du canon.
+La direction active est **Pixel Mine** : contours francs, angles en paliers,
+ombres dures sans flou et actions lisibles. Elle ne permet pas une nouvelle
+rotation, un surdimensionnement, un mouvement decoratif ou une recette absente
+du canon.
 
 Les statuts de la direction sont portes par `branding.md` :
 

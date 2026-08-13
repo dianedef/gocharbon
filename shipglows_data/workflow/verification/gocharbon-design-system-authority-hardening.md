@@ -1,36 +1,36 @@
 ---
 artifact: verification_checklist
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.1.0"
 project: "gocharbon"
 created: "2026-06-11"
 created_at: "2026-06-11 00:00:00 UTC"
-updated: "2026-06-11"
-updated_at: "2026-06-11 00:00:00 UTC"
+updated: "2026-08-13"
+updated_at: "2026-08-13 17:55:00 UTC"
 status: active
-source_skill: 105-sf-check
+source_skill: sg-docs
 scope: "gocharbon-design-system-authority-hardening"
 owner: "Diane"
-confidence: medium
+confidence: high
 risk_level: medium
 security_impact: none
 docs_impact: yes
 linked_systems:
-  - "/home/claude/gocharbon/shipglows_data/technical/site/design-system-authority.md"
-  - "/home/claude/gocharbon/shipglows_data/workflow/specs/gocharbon-design-system-authority-hardening.md"
-  - "/home/claude/gocharbon/site/src/styles/global.css"
+  - "shipglows_data/technical/site/design-system-authority.md"
+  - "shipglows_data/workflow/specs/gocharbon-design-system-authority-hardening.md"
+  - "site/src/styles/global.css"
 depends_on:
-  - artifact: "/home/claude/gocharbon/shipglows_data/technical/site/design-system-authority.md"
-    artifact_version: "1.0.0"
-    required_status: draft
-  - artifact: "/home/claude/gocharbon/shipglows_data/workflow/specs/gocharbon-design-system-authority-hardening.md"
-    artifact_version: "1.0.0"
-    required_status: draft
+  - artifact: "shipglows_data/technical/site/design-system-authority.md"
+    artifact_version: "2.3.0"
+    required_status: active
+  - artifact: "shipglows_data/workflow/specs/gocharbon-design-system-authority-hardening.md"
+    artifact_version: "2.6.0"
+    required_status: ready
 supersedes: []
-next_review: "2026-07-11"
+next_review: "2026-09-13"
 evidence:
   - "Gating commands are defined and executable from the repo command stack."
-next_step: "/sf-verify gocharbon gocharbon design-system authority hardening"
+next_step: "Collect automated Browser evidence for light/dark, desktop/mobile and keyboard focus."
 ---
 
 # Verification: GoCharbon — Design-System Authority Hardening
@@ -48,8 +48,8 @@ next_step: "/sf-verify gocharbon gocharbon design-system authority hardening"
 ## Checks à exécuter
 
 ```bash
-python3 /home/claude/shipglowz/tools/design_system_drift_check.py --root /home/claude/gocharbon --changed --warn-only
-python3 /home/claude/shipglowz/tools/shipglowz_metadata_lint.py \
+python3 "${SHIPGLOWS_ROOT:-$HOME/.shipglows/runtime}/tools/design_system_drift_check.py" --root . --changed --warn-only
+python3 "${SHIPGLOWS_ROOT:-$HOME/.shipglows/runtime}/tools/shipglows_metadata_lint.py" \
   shipglows_data/technical/site/design-system-authority.md \
   shipglows_data/workflow/specs/gocharbon-design-system-authority-hardening.md \
   shipglows_data/workflow/verification/gocharbon-design-system-authority-hardening.md
@@ -59,7 +59,22 @@ rg -n "design_system_authority|design-system-authority|gocharbon-design-system-a
   shipglows_data/workflow/verification/gocharbon-design-system-authority-hardening.md
 ```
 
+## Verification technique 2026-08-13
+
+- Commit livre: `185bd8c9` sur `origin/main`.
+- Tokens check/audit: PASS, 0 litteral et 0 exception.
+- Build Astro: PASS, 23 pages.
+- Flutter analyze: PASS, aucune issue.
+- Flutter test: PASS, 9 tests.
+- Git diff check: PASS.
+- Browser automatise clair/sombre, desktop/mobile et clavier: PENDING.
+
+L'implementation et les checks techniques sont termines. La verification
+visuelle reste ouverte jusqu'a la collecte de cette preuve Browser.
+
 ## Notes
 
-- Cette itération crée la gouvernance et ne modifie pas encore le site.
-- Les prochaines PR UI devront référencer ce plan et le garder à jour si un nouveau token est introduit.
+- L'autorite des composants est implementee et livree; cette checklist reste
+  ouverte uniquement pour la preuve visuelle automatisee.
+- Les prochaines evolutions UI doivent garder ce plan a jour si un nouveau
+  token ou une nouvelle variante semantique est introduit.

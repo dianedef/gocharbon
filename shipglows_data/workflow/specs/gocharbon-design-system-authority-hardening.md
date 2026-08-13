@@ -1,7 +1,7 @@
 ---
 artifact: spec
 metadata_schema_version: "1.0"
-artifact_version: "2.5.0"
+artifact_version: "2.6.0"
 project: "gocharbon"
 created: "2026-06-11"
 updated: "2026-08-13"
@@ -25,10 +25,11 @@ depends_on:
     required_status: reviewed
 supersedes: []
 evidence:
-  - "Le site contient une autorité CSS centrale mais aussi des centaines de tokens auto-spécifiques et des littéraux résiduels."
-  - "L'application Flutter centralise surtout ses couleurs; typographie, espacements, rayons, ombres, motion et adaptatif restent majoritairement locaux."
-  - "Les palettes résolues du site et de l'application divergent actuellement."
-next_step: "Exécuter les lots A à F et collecter les preuves cross-surface."
+  - "Le diagnostic initial trouvait des tokens auto-spécifiques et des littéraux résiduels malgré l'autorité CSS centrale du site."
+  - "Le diagnostic initial trouvait dans Flutter une centralisation limitée surtout aux couleurs."
+  - "Le diagnostic initial constatait une divergence entre les palettes résolues du site et de l'application."
+  - "Le commit 185bd8c9 livre l'autorité des composants partagés web et Flutter; les audits et builds locaux passent."
+next_step: "Collecter la preuve Browser automatisée clair/sombre, desktop/mobile et clavier."
 ---
 
 # Spec: système de tokens design conjoint GoCharbon
@@ -39,7 +40,7 @@ Le site Astro/Vue et l'application Flutter consomment une seule autorité séman
 
 ## Identité préservée
 
-- Direction: brutal néobrutaliste, charbon, crème, or et orange.
+- Direction: Pixel Mine, charbon, crème minérale, or vieilli et orange secondaire.
 - Couleurs de marque: or `#e7ad18`, orange `#e2572d`, noir ardoise `#111820`, encre bleu-noir `#050b10`, charbon bleu profond `#182933`, creme mineral `#e7e0d2`, roche bleu petrole `#0d1a22`.
 - Typographies: Chakra Petch pour le display, Oxanium pour le corps et les libelles, Sanchez uniquement pour les CTA et actions interactives.
 - Profondeur: bordures franches et ombres dures; les adaptations tactiles Flutter conservent les mêmes rôles sans copier les contraintes web.
@@ -151,6 +152,7 @@ Les lots B/C et D/E peuvent s'exécuter en parallèle car leurs racines d'écrit
 | 2026-08-13 | sg-design | GPT-5 Codex | Lot D: unification cross-framework des CTA Astro/Vue et séparation des contrôles fonctionnels | verified_local | Collecter les captures light/dark desktop/mobile et les parcours clavier dès qu'un navigateur est disponible |
 
 | 2026-08-13 | sg-design | GPT-5 Codex | Autorite complete des composants web et Flutter validee par l'operatrice | verified_local | Connecter une instance Browser pour les captures light/dark desktop/mobile et la preuve clavier |
+| 2026-08-13 | sg-docs | GPT-5 Codex | Documentation canonique alignee sur les primitives livrees dans `185bd8c9` | documented_local | Collecter la preuve Browser automatisee avant cloture visuelle |
 
 ## Current Chantier Flow
 

@@ -1,12 +1,12 @@
 ---
 artifact: agent_context
 metadata_schema_version: "1.0"
-artifact_version: "1.1.0"
+artifact_version: "1.2.0"
 project: gocharbon
 created: "2026-04-26"
-updated: "2026-06-28"
+updated: "2026-08-13"
 status: reviewed
-source_skill: sf-docs
+source_skill: sg-docs
 scope: agent
 owner: Diane
 confidence: medium
@@ -15,9 +15,10 @@ security_impact: low
 docs_impact: yes
 depends_on: []
 supersedes: []
-evidence: []
-next_review: "2026-07-26"
-next_step: /sf-docs audit CLAUDE.md
+evidence:
+  - "Commit 185bd8c9 delivers shared web and Flutter component authority."
+next_review: "2026-09-13"
+next_step: "Collect automated Browser design-system evidence."
 ---
 # CLAUDE.md
 
@@ -54,8 +55,8 @@ When generating or rewriting editorial content for GoCharbon, keep this founder 
 
 ### Founder reference file
 
-For founder/about/team positioning, use [`site/src/data/_founder.md`](/home/claude/gocharbon/site/src/data/_founder.md) as the canonical content reference.
-For entrepreneurial vision content aimed at readers, keep using [`site/src/data/_vision.md`](/home/claude/gocharbon/site/src/data/_vision.md).
+For founder/about/team positioning, use `site/src/data/_founder.md` as the canonical content reference.
+For entrepreneurial vision content aimed at readers, keep using `site/src/data/_vision.md`.
 
 ## Commands
 
@@ -156,8 +157,18 @@ Suggested multi-agent split:
 - `site/src/layouts/Default.astro` — Base layout with nav/footer
 - `site/src/layouts/Post.astro` — Blog post layout (wraps Default, adds sidebar + ToC)
 
-### Styling
-UnoCSS shortcuts for the neobrutalist design system: `brutal-card`, `brutal-btn`, `brutal-pill`, `brutal-filter-pill`. Color palette defined in `site/uno.config.ts` with dark mode support. Primary font: Sanchez (serif).
+### Styling and component authority
+The active direction is Pixel Mine. Typography is Chakra Petch for display,
+Oxanium for body and labels, and Sanchez for actions. Visual values originate
+in `shipglows_data/branding/design-tokens.json`; generated carriers must not be
+edited manually.
+
+Web consumers use `Button.astro` / `Button.vue`, `Card.astro` / `Card.vue` and
+the global recipes `gc-action`, `gc-control`, `gc-card`, `gc-chip`, `gc-input`,
+`gc-field`, `gc-status` and `gc-notice`. Flutter uses `GcButton`, `GcIconButton`,
+`AppCard`, the `Gc*Card` variants, `GcQuizAnswerOption` and
+`GcSegmentedControl`. Local code may own layout and content structure, but must
+not redraw shared frames, surfaces, shadows or interaction states.
 
 ## Content Guidelines (from .cursorrules)
 

@@ -1,7 +1,7 @@
 ---
 artifact: technical_guidelines
 metadata_schema_version: "1.0"
-artifact_version: "1.3.0"
+artifact_version: "1.4.0"
 project: "gocharbon"
 created: "2026-08-12"
 updated: "2026-08-13"
@@ -20,8 +20,10 @@ linked_systems:
   - "app_quiz/flutter_app/lib/src/theme/generated/design_tokens.g.dart"
 depends_on:
   - "shipglows_data/branding/branding.md"
+evidence:
+  - "Commit 185bd8c9 delivers shared web and Flutter component authority."
 next_review: "2026-09-13"
-next_step: "Appliquer la direction Pixel Mine documentee sans generaliser les choix experimentaux."
+next_step: "Collecter la preuve Browser automatisee clair/sombre, desktop/mobile et clavier."
 ---
 
 # Design system cross-surface GoCharbon
@@ -35,10 +37,19 @@ jamais etre modifies a la main.
 
 La direction officielle est Pixel Mine: encre bleu-noir, charbon bleu profond,
 roche bleu petrole, creme mineral, or et orange secondaire;
-Pixelify Sans pour l'impact, Poppins pour la lecture, Sanchez pour les actions;
-pixel coherent, bordures franches et ombres dures sans flou. Le neobrutalisme
-historique ne subsiste que dans les traits compatibles listes dans
-`shipglows_data/branding/branding.md`; il n'est plus une autorite autonome.
+Chakra Petch pour le display, Oxanium pour le corps et les libelles, Sanchez pour les actions;
+pixel coherent, bordures franches et ombres dures sans flou.
+
+## Autorite des composants
+
+Le web consomme `Button.astro` / `Button.vue`, `Card.astro` / `Card.vue` et les
+recettes `gc-action`, `gc-control`, `gc-card`, `gc-chip`, `gc-input`,
+`gc-field`, `gc-status` et `gc-notice`. Flutter consomme `GcButton`,
+`GcIconButton`, `AppCard`, `GcNavigationCard`, `GcSelectableCard`,
+`GcStatusCard`, `GcQuizAnswerOption` et `GcSegmentedControl`. Une page ou un
+ecran peut definir le layout et les sous-elements metier, jamais une seconde
+recette de cadre, surface, ombre ou etat interactif. Cette autorite a ete livree
+par le commit `185bd8c9`.
 
 ## Couches
 
