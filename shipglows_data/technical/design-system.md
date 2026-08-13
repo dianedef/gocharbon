@@ -1,7 +1,7 @@
 ---
 artifact: technical_guidelines
 metadata_schema_version: "1.0"
-artifact_version: "1.1.0"
+artifact_version: "1.3.0"
 project: "gocharbon"
 created: "2026-08-12"
 updated: "2026-08-13"
@@ -33,8 +33,9 @@ pour les decisions visuelles partagees. Son schema valide la structure; les
 fichiers CSS, TypeScript et Dart sont des projections generees et ne doivent
 jamais etre modifies a la main.
 
-La direction officielle est Pixel Mine: charbon, creme, or et orange;
-Righteous pour l'impact, Poppins pour la lecture, Sanchez pour les actions;
+La direction officielle est Pixel Mine: encre bleu-noir, charbon bleu profond,
+roche bleu petrole, creme mineral, or et orange secondaire;
+Pixelify Sans pour l'impact, Poppins pour la lecture, Sanchez pour les actions;
 pixel coherent, bordures franches et ombres dures sans flou. Le neobrutalisme
 historique ne subsiste que dans les traits compatibles listes dans
 `shipglows_data/branding/branding.md`; il n'est plus une autorite autonome.

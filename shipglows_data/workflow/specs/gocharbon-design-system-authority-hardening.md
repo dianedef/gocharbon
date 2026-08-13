@@ -1,10 +1,10 @@
 ---
 artifact: spec
 metadata_schema_version: "1.0"
-artifact_version: "2.0.0"
+artifact_version: "2.2.0"
 project: "gocharbon"
 created: "2026-06-11"
-updated: "2026-08-12"
+updated: "2026-08-13"
 status: ready
 source_skill: sg-design
 source_model: "GPT-5 Codex"
@@ -40,8 +40,8 @@ Le site Astro/Vue et l'application Flutter consomment une seule autorité séman
 ## Identité préservée
 
 - Direction: brutal néobrutaliste, charbon, crème, or et orange.
-- Couleurs de marque: jaune `#f6c700`, orange `#e2572d`, noir `#1e1b16`, encre `#0b0b0b`, charbon `#2f2f2f`, crème `#f5f5f2`.
-- Typographies: Righteous pour le display, Poppins pour le corps, Sanchez pour les labels et actions.
+- Couleurs de marque: or `#e7ad18`, orange `#e2572d`, noir ardoise `#111820`, encre bleu-noir `#050b10`, charbon bleu profond `#182933`, creme mineral `#e7e0d2`, roche bleu petrole `#0d1a22`.
+- Typographies: Pixelify Sans pour le display, Poppins pour le corps, Sanchez pour les labels et actions.
 - Profondeur: bordures franches et ombres dures; les adaptations tactiles Flutter conservent les mêmes rôles sans copier les contraintes web.
 
 ## Autorité et génération

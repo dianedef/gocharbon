@@ -162,16 +162,16 @@ const homeDescription = launchBuild
               <p class="analysis-title">Objectif</p>
               <strong>Passer à l’action</strong>
             </div>
-            <span class="pixel-gold" aria-hidden="true">◆</span>
+            <img class="pixel-gold" src="/images/icons/pixel-mine-v1/gold-v1.png" alt="" aria-hidden="true" width="56" height="56" />
           </section>
         </aside>
       </div>
 
       <div class="mine-feature-strip" aria-label="Les quatre piliers GoCharbon">
-        <a href={ROUTES.parcours}><span aria-hidden="true">▱</span><div><strong>Parcours guidés</strong><small>Des plans d’action pas à pas.</small></div></a>
-        <a href={ROUTES.outils}><span aria-hidden="true">▣</span><div><strong>Outils de terrain</strong><small>Templates et calculateurs.</small></div></a>
-        <a href={ROUTES.blog}><span aria-hidden="true">▥</span><div><strong>Signaux du marché</strong><small>Des repères pour décider.</small></div></a>
-        <a href={ROUTES.progression}><span aria-hidden="true">♜</span><div><strong>Progression</strong><small>Étapes, XP et badges.</small></div></a>
+        <a href={ROUTES.parcours}><img src="/images/icons/pixel-mine-v1/map-v1.png" alt="" aria-hidden="true" width="48" height="48" /><div><strong>Parcours guidés</strong><small>Des plans d’action pas à pas.</small></div></a>
+        <a href={ROUTES.outils}><img src="/images/icons/pixel-mine-v1/toolbox-v1.png" alt="" aria-hidden="true" width="48" height="48" /><div><strong>Outils de terrain</strong><small>Templates et calculateurs.</small></div></a>
+        <a href={ROUTES.blog}><img src="/images/icons/pixel-mine-v1/market-chart-v1.png" alt="" aria-hidden="true" width="48" height="48" /><div><strong>Signaux du marché</strong><small>Des repères pour décider.</small></div></a>
+        <a href={ROUTES.progression}><img src="/images/icons/pixel-mine-v1/trophy-v1.png" alt="" aria-hidden="true" width="48" height="48" /><div><strong>Progression</strong><small>Étapes, XP et badges.</small></div></a>
       </div>
     </section>
 
@@ -985,7 +985,7 @@ const homeDescription = launchBuild
     border-radius: var(--gc-primitive-radius-pill);
     border: var(--home-founder-medallion-border-width) solid var(--brand-black);
     background: var(--home-founder-medallion-background);
-    font-family: "Righteous", sans-serif;
+    font-family: var(--gc-semantic-type-display-family);
     font-size: var(--home-founder-medallion-font-size);
     box-shadow: var(--home-founder-medallion-shadow);
   }
@@ -1133,10 +1133,8 @@ const homeDescription = launchBuild
     overflow: hidden;
     border-bottom: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 14%, transparent);
     background-color: var(--gc-primitive-color-brand-ink);
-    background-image:
-      linear-gradient(to bottom, color-mix(in srgb, var(--gc-primitive-color-brand-ink) 18%, transparent), var(--gc-primitive-color-brand-ink)),
-      url("/images/landing/pixel-mine-hero-bg-v1.png");
-    background-position: center, center bottom;
+    background-image: url("/images/landing/pixel-mine-hero-bg-v1.png");
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--gc-primitive-color-brand-cream);
@@ -1505,8 +1503,10 @@ const homeDescription = launchBuild
   }
 
   .pixel-gold {
-    color: var(--gc-primitive-color-brand-yellow);
-    font-size: var(--gc-primitive-font-size-display-small);
+    width: var(--gc-primitive-size-avatar-large);
+    height: var(--gc-primitive-size-avatar-large);
+    object-fit: contain;
+    image-rendering: pixelated;
     text-shadow: var(--gc-semantic-shape-pixel-unit) var(--gc-semantic-shape-pixel-unit) 0 var(--gc-primitive-color-brand-gold-deep);
   }
 
@@ -1536,9 +1536,11 @@ const homeDescription = launchBuild
     border-right: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 15%, transparent);
   }
 
-  .mine-feature-strip a > span {
-    color: var(--gc-primitive-color-brand-yellow);
-    font-size: var(--gc-primitive-font-size-title);
+  .mine-feature-strip a > img {
+    width: var(--gc-primitive-size-icon-hero);
+    height: var(--gc-primitive-size-icon-hero);
+    object-fit: contain;
+    image-rendering: pixelated;
   }
 
   .mine-feature-strip strong,

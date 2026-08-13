@@ -21,7 +21,7 @@ test("canonical document validates and resolves every mode", async () => {
     resolveAll(flat, "light").get("semantic.color.background"),
     resolveAll(flat, "light").get("primitive.color.brand.yellow"),
   );
-  assert.equal(resolveAll(flat, "dark").get("semantic.color.background"), "#0b0b0b");
+  assert.equal(resolveAll(flat, "dark").get("semantic.color.background"), "#050b10");
   assert.match(sourceHash(canonical), /^[a-f0-9]{64}$/);
 });
 
@@ -44,7 +44,7 @@ test("generation is deterministic and --check detects drift", async () => {
   const css = resolve(output, "site/src/styles/generated/design-tokens.css");
   const first = await readFile(css, "utf8");
   assert.match(first, /GENERATED FILE - DO NOT EDIT/);
-  assert.match(first, /--gc-primitive-color-brand-yellow: #f6c700/);
+  assert.match(first, /--gc-primitive-color-brand-yellow: #e7ad18/);
   assert.match(first, /\[data-theme="dark"\]/);
   await writeFile(css, `${first}/* drift */\n`);
   await assert.rejects(execFileAsync(process.execPath, [...command, "--check"]));

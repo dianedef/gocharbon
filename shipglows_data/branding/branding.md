@@ -1,7 +1,7 @@
 ---
 artifact: brand_context
 metadata_schema_version: "1.0"
-artifact_version: "1.2.0"
+artifact_version: "1.4.0"
 project: gocharbon
 created: "2026-04-25"
 updated: "2026-08-13"
@@ -293,11 +293,12 @@ Le neobrutalisme historique n'est conserve que lorsqu'il renforce cette directio
 - **Pixel coherent :** les mascottes, pictogrammes, bordures, jauges, rails, ombres et micro-details doivent sembler appartenir au meme systeme. Une couche pixel isolee sur des cartes SaaS lisses n'est pas suffisante.
 - **Composition contemporaine :** la grille, l'espace, la hierarchie et la lisibilite restent celles d'un produit moderne. Le pixel ne doit pas reproduire la densite ou les limites d'un ancien jeu video.
 - **Serieux du produit :** la promesse porte sur l'argent, le choix d'un modele, la validation et l'execution. Le graphisme original ne change ni ce ton ni le niveau d'exigence.
-- **Couleur :** le graphite et l'encre portent la profondeur; le creme porte la lecture; le jaune/or signale l'action, la valeur, le filon ou la recompense. L'orange reste secondaire.
-- **Typographie :** Righteous porte l'impact et la marque, Poppins la lecture, Sanchez les actions et libelles. Le texte courant reste net; il n'est pas rendu illisible pour simuler le pixel.
+- **Couleur :** l'encre bleu-noir, le charbon bleu profond et la roche bleu petrole portent la profondeur. Les neutres marron ou sepia sont exclus des grandes surfaces. Le creme mineral porte la lecture; l'or moins citronne signale l'action, la valeur, le filon ou la recompense. L'orange reste secondaire.
+- **Typographie :** Pixelify Sans porte l'impact, la marque et les grands titres. C'est l'equivalent reel confirme le plus proche du lettrage pixel de la maquette, dont les glyphes ne constituent pas une fonte source reproductible. Poppins porte la lecture et Sanchez les actions et libelles. Le texte courant reste net; il n'est pas rendu illisible pour simuler le pixel.
 - **Formes :** angles nuls ou faibles, contours francs, ombres dures et unite pixel visible. Les valeurs viennent exclusivement du canon de tokens.
 - **Questionnaire :** le questionnaire express est le point d'entree principal de la landing. Il remplace le panneau fictif « expedition en cours » tant que la personne n'a pas encore de parcours.
 - **Mascotte :** le petit mineur pixel fourni et valide par Diane est le guide de marque. Il peut etre sympathique, mais reste calme, competent et secondaire par rapport au contenu.
+- **Iconographie :** les pictogrammes illustres complexes sont des assets raster pixel transparents, coherents avec le mineur et le decor. Les controles fonctionnels simples restent natifs (SVG ou CSS) pour conserver nettete, etats et accessibilite.
 - **Charbon et or :** le charbon represente le travail et le potentiel brut; l'or represente un signal utile, une preuve, un jalon ou une recompense.
 - **Accessibilite :** aucune information, progression ou recommandation ne repose uniquement sur la couleur ou le decor.
 
@@ -386,7 +387,7 @@ Un composant n'adopte le style Pixel Mine que lorsqu'il conserve sa fonction, so
 ### Navigation
 
 #### Header
-- Logo "CHARBON" (Righteous, cliquable → home)
+- Logo "CHARBON" (Pixelify Sans, cliquable → home)
 - Breadcrumbs (pour pages internes)
 - Liens navigation (Apps uniquement)
 - Icônes socials (YouTube, X, Instagram, LinkedIn, Facebook, RSS)
