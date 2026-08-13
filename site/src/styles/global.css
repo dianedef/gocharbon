@@ -1,5 +1,10 @@
 @import "./generated/design-tokens.css";
 
+/* Legacy utility name kept while its value follows the canonical display token. */
+.righteous {
+  font-family: var(--gc-semantic-type-display-family);
+}
+
 :root {
   /* Auto-centralized remaining repo drift tokens. */
   /* Auto-centralized drift tokens: preserve visual values behind canonical variables. */
@@ -2685,7 +2690,7 @@ body {
 
 .filters-title {
   margin: 0;
-  font-family: "Righteous", sans-serif;
+  font-family: var(--gc-semantic-type-display-family);
   letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
   font-size: 1.15rem;
   line-height: 1;

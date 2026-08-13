@@ -1,7 +1,7 @@
 ---
 artifact: technical_guidelines
 metadata_schema_version: "1.0"
-artifact_version: "2.0.0"
+artifact_version: "2.2.0"
 project: "gocharbon"
 created: "2026-06-11"
 updated: "2026-08-13"
@@ -24,10 +24,10 @@ linked_systems:
   - "app_quiz/flutter_app/lib/src/theme/generated/design_tokens.g.dart"
 depends_on:
   - artifact: "shipglows_data/branding/branding.md"
-    artifact_version: "1.2.0"
+    artifact_version: "1.4.0"
     required_status: reviewed
   - artifact: "shipglows_data/branding/design-tokens.json"
-    artifact_version: "1.3.0"
+    artifact_version: "1.5.0"
     required_status: canonical
 supersedes:
   - artifact: "shipglows_data/technical/site/design-system-authority.md"
@@ -62,6 +62,8 @@ En cas de contradiction, le JSON canonique gagne pour une valeur executable. Une
 
 Ces trois fichiers sont des projections. Ils ne doivent jamais etre modifies manuellement. Une modification directe est une derive, meme si le rendu obtenu semble correct.
 
+Les fichiers web de Pixelify Sans sont fournis localement par `@fontsource-variable/pixelify-sans`; ce paquet est le carrier technique de la famille nommee par le token `primitive.font.family.display`, pas une autorite typographique concurrente.
+
 ## Role exact de `global.css`, UnoCSS et Flutter
 
 - `site/src/styles/global.css` est un consommateur et une couche d'assemblage CSS. Il peut definir des recettes et aliases qui referencent les variables `--gc-*`, mais ne peut pas introduire une nouvelle decision visuelle partagee.
@@ -86,6 +88,7 @@ Les statuts de la direction sont portes par `branding.md` :
 - `site/src/pages/index.astro` et les composants extraits de la landing;
 - `site/src/components/vue/SentenceQuiz.vue` et `Quiz.vue`;
 - cartes, boutons, champs, pills, jauges, rails, badges et recompenses;
+- pictogrammes raster Pixel Mine sous `site/public/images/icons/pixel-mine-v1/`, distincts des controles fonctionnels natifs;
 - parcours, progression et outils;
 - themes et widgets Flutter equivalents.
 
