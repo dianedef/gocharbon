@@ -90,10 +90,11 @@ const homeDescription = launchBuild
           <p class="mine-eyebrow">Lance ton expédition</p>
           <span class="mine-eyebrow-mark" aria-hidden="true"></span>
           <h1 id="mine-landing-title">
-            Creuse moins<br />au hasard.
-            <strong>Trouve le bon filon.</strong>
+            <span class="desktop-hero-title">Creuse moins<br />au hasard.<strong>Trouve le bon filon.</strong></span>
+            <span class="mobile-hero-title">Trouve ton filon.<strong>Va au charbon.</strong></span>
           </h1>
-          <p class="mine-lead">Un parcours guidé pour transformer une envie de gagner de l’argent en activité solide.</p>
+          <p class="mine-lead desktop-hero-lead">Un parcours guidé pour transformer une envie de gagner de l’argent en activité solide.</p>
+          <p class="mine-lead mobile-hero-lead">Un parcours clair pour transformer tes idées en activité concrète.</p>
           <div class="mine-actions">
             <a class="mine-primary-action" href="#questionnaire-express">
               <span aria-hidden="true">↗</span>
@@ -1213,6 +1214,11 @@ const homeDescription = launchBuild
     line-height: 1;
   }
 
+  .mobile-hero-title,
+  .mobile-hero-lead {
+    display: none;
+  }
+
   .mine-lead {
     max-width: 42ch;
     margin: var(--gc-primitive-space-6) 0 0;
@@ -1594,5 +1600,205 @@ const homeDescription = launchBuild
       grid-template-columns: repeat(2, 1fr);
       margin-top: 0;
     }
+  }
+
+  @media (max-width: 640px) {
+    .mine-landing {
+      min-height: 0;
+      background-position: 42% top;
+      background-size: auto 720px;
+    }
+
+    .mine-landing-scene {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      min-height: 0;
+      gap: var(--gc-primitive-space-5);
+      padding: var(--gc-primitive-space-6) var(--gc-primitive-space-3) var(--gc-primitive-space-5);
+    }
+
+    .mine-copy {
+      width: 100%;
+      padding-inline: var(--gc-primitive-space-2);
+    }
+
+    .mine-eyebrow,
+    .mine-eyebrow-mark,
+    .desktop-hero-title,
+    .desktop-hero-lead,
+    .mine-actions {
+      display: none;
+    }
+
+    .mobile-hero-title,
+    .mobile-hero-lead {
+      display: block;
+    }
+
+    .mine-copy h1 {
+      font-size: clamp(2.8rem, 14vw, 4rem);
+      letter-spacing: -0.025em;
+      line-height: 0.94;
+    }
+
+    .mine-copy h1 strong {
+      margin-top: var(--gc-primitive-space-2);
+      color: var(--gc-primitive-color-brand-cream);
+      font-size: 0.82em;
+    }
+
+    .mine-lead {
+      max-width: 31ch;
+      margin-top: var(--gc-primitive-space-4);
+      font-size: 0.95rem;
+    }
+
+    .mine-guide {
+      position: relative;
+      display: block;
+      left: auto;
+      bottom: auto;
+      align-self: center;
+      width: 112px;
+      margin: var(--gc-primitive-space-2) 0 var(--gc-primitive-space-1);
+      mix-blend-mode: normal;
+      opacity: 1;
+    }
+
+    .expedition-panel {
+      order: 3;
+      width: 100%;
+      border-color: var(--gc-primitive-color-brand-gold-deep);
+      box-shadow: inset 0 0 0 var(--gc-component-pixel-frame-edge-unit) var(--gc-primitive-color-brand-black), var(--gc-component-pixel-frame-shadow);
+    }
+
+    .pixel-panel-heading {
+      justify-content: center;
+      padding: var(--gc-primitive-space-4) var(--gc-primitive-space-3) var(--gc-primitive-space-2);
+      border-bottom: 0;
+      text-align: center;
+    }
+
+    .pixel-panel-heading p {
+      font-size: 1.05rem;
+    }
+
+    .pixel-panel-heading span,
+    .expedition-intro p:first-child,
+    .expedition-intro h2,
+    .expedition-proof {
+      display: none;
+    }
+
+    .expedition-intro {
+      padding: 0 var(--gc-primitive-space-4) var(--gc-primitive-space-2);
+      text-align: center;
+    }
+
+    .expedition-intro p:last-child {
+      color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 78%, transparent);
+      font-size: 0.78rem;
+    }
+
+    .landing-quiz > :global(.sq) {
+      padding: var(--gc-primitive-space-3);
+    }
+
+    .depth-panel {
+      order: 4;
+      display: block;
+      width: 100%;
+      padding: var(--gc-primitive-space-4);
+      border-color: var(--gc-primitive-color-brand-gold-deep);
+    }
+
+    .depth-panel > p::after {
+      content: " 6 m";
+      color: var(--gc-primitive-color-brand-yellow);
+    }
+
+    .depth-panel ol {
+      grid-template-columns: repeat(5, 1fr);
+      margin-top: var(--gc-primitive-space-4);
+    }
+
+    .depth-panel li {
+      min-height: 54px;
+      padding: 30px 2px 0;
+      font-size: 0.56rem;
+      text-align: center;
+    }
+
+    .depth-panel li::before {
+      left: 50%;
+      transform: translateX(-50%) rotate(45deg);
+    }
+
+    .depth-panel li:not(:last-child)::after {
+      top: 8px;
+      left: calc(50% + 10px);
+      right: calc(-50% + 10px);
+      bottom: auto;
+      width: auto;
+      height: var(--gc-semantic-shape-pixel-unit);
+    }
+
+    .depth-panel small {
+      display: none;
+    }
+
+    .analysis-stack {
+      order: 5;
+      display: block;
+      width: 100%;
+    }
+
+    .analysis-panel {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      padding: var(--gc-primitive-space-3) var(--gc-primitive-space-4);
+      border-color: var(--gc-primitive-color-brand-gold-deep);
+    }
+
+    .analysis-panel > .analysis-title {
+      padding: 0;
+      border: 0;
+      margin: 0;
+      color: var(--gc-primitive-color-brand-cream);
+    }
+
+    .analysis-console {
+      margin: 0;
+      padding: 0 0 0 var(--gc-primitive-space-4);
+      border: 0;
+      background: transparent;
+    }
+
+    .analysis-console p { display: none; }
+    .analysis-console p:nth-child(4) { display: block; color: var(--gc-primitive-color-brand-yellow); }
+    .next-step-panel,
+    .reward-panel { display: none; }
+
+    .mine-feature-strip {
+      grid-template-columns: repeat(2, 1fr);
+      width: calc(100% - var(--gc-primitive-space-6));
+      margin: 0 auto var(--gc-primitive-space-5);
+      border-color: var(--gc-primitive-color-brand-gold-deep);
+    }
+
+    .mine-feature-strip a {
+      grid-template-columns: 36px 1fr;
+      gap: var(--gc-primitive-space-2);
+      min-height: 84px;
+      padding: var(--gc-primitive-space-3);
+    }
+
+    .mine-feature-strip a:nth-child(2) { border-right: 0; }
+    .mine-feature-strip a:nth-child(-n + 2) { border-bottom: var(--gc-semantic-shape-pixel-unit) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 15%, transparent); }
+    .mine-feature-strip a > img { width: 36px; height: 36px; }
+    .mine-feature-strip strong { font-size: 0.68rem; }
+    .mine-feature-strip small { display: none; }
   }
 </style>

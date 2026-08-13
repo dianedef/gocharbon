@@ -1,7 +1,7 @@
 ---
 artifact: brand_context
 metadata_schema_version: "1.0"
-artifact_version: "1.5.0"
+artifact_version: "1.4.0"
 project: gocharbon
 created: "2026-04-25"
 updated: "2026-08-13"
@@ -18,13 +18,12 @@ trust_posture: unknown
 depends_on: []
 supersedes: []
 evidence:
-  - "shipglows_data/branding/references/pixel-mine-desktop-ultimate-v1.png — reference visuelle canonique desktop Pixel Mine validee par Diane le 2026-08-13."
-  - "Direction Pixel Mine retenue; les maquettes desktop dark anterieures sont conservees comme jalons historiques."
+  - "Direction Pixel Mine retenue avec une landing desktop dark comme premiere reference visuelle."
   - "Questionnaire express confirme comme point d'entree principal de la landing."
   - "Petit mineur pixel fourni par Diane confirme comme guide de marque; variante realiste rejetee."
   - "Architecture canonique cross-surface validee le 2026-08-12."
 next_review: "2026-09-13"
-next_step: "Aligner progressivement le premier ecran sur la reference desktop canonique sans recopier son contenu fictif ni modifier le comportement metier."
+next_step: "Valider visuellement la landing desktop dark, puis documenter uniquement les extensions approuvees."
 ---
 # 🎨 CHARBON - Brand Guidelines
 
@@ -288,24 +287,6 @@ GoCharbon est un produit business serieux dans un univers graphique minier pixel
 
 Le neobrutalisme historique n'est conserve que lorsqu'il renforce cette direction : contours francs, angles marques, ombres dures sans flou et actions immediatement identifiables. Il ne constitue plus une direction autonome et ne justifie pas des rotations, surdimensionnements ou gestes arbitraires.
 
-#### Reference visuelle canonique
-
-`shipglows_data/branding/references/pixel-mine-desktop-ultimate-v1.png` est la reference visuelle canonique du premier ecran desktop dark, validee par Diane le 2026-08-13 (SHA-256 `56d5f3f5a844bd00f1e8dc0064593c8c8d76efc8ef433bb3d284749870dda508`). Les maquettes precedentes restent des jalons historiques et ne doivent plus arbitrer une divergence avec cette image.
-
-Cette reference gouverne le langage visuel, la hierarchie et le niveau de finition. Elle ne constitue ni une capture d'interface fonctionnelle, ni une autorite de contenu : le questionnaire express confirme remplace toujours le panneau fictif « expedition en cours » pour une personne sans parcours. Les textes, donnees, etats et interactions doivent provenir du produit reel.
-
-Elle confirme notamment :
-
-- le verrou de marque en haut a gauche, compose d'une pioche pixel doree et du mot-symbole `GOCHARBON`;
-- la navigation de monde `Charbon / Mine / Or`, avec `Mine` actif dans cette composition;
-- les cadres rectangulaires pixel imbriques, aux angles crantés, soulignes par des filets or vieilli et creme mineral;
-- les panneaux bleu-noir denses, separes du decor mais integres a la meme matiere miniere;
-- les boutons pixel construits comme des objets d'interface, avec coins en escalier, double contour, ombre dure et chevron natif;
-- la repartition stricte de l'or : action, progression, selection, filon, recompense et detail de bordure, jamais grande surface neutre;
-- une iconographie raster pixel detaillee pour les objets miniers, cartes, outils, signaux et recompenses;
-- une console plus dense et monospaced, dont le vert est reserve a un signal positif explicite;
-- un decor de galerie lisible jusque dans les bords et le sol, sans voile opaque uniforme.
-
 ### Invariants confirmes
 
 - **Univers :** mine, galerie, roche, charbon, filon et extraction forment le vocabulaire visuel et narratif.
@@ -315,8 +296,6 @@ Elle confirme notamment :
 - **Couleur :** l'encre bleu-noir, le charbon bleu profond et la roche bleu petrole portent la profondeur. Les neutres marron ou sepia sont exclus des grandes surfaces. Le creme mineral porte la lecture; l'or moins citronne signale l'action, la valeur, le filon ou la recompense. L'orange reste secondaire.
 - **Typographie :** Pixelify Sans porte l'impact, la marque et les grands titres. C'est l'equivalent reel confirme le plus proche du lettrage pixel de la maquette, dont les glyphes ne constituent pas une fonte source reproductible. Poppins porte la lecture et Sanchez les actions et libelles. Le texte courant reste net; il n'est pas rendu illisible pour simuler le pixel.
 - **Formes :** angles nuls ou faibles, contours francs, ombres dures et unite pixel visible. Les valeurs viennent exclusivement du canon de tokens.
-- **Cadres :** les surfaces importantes emploient des cadres pixel imbriques et rectangulaires. Les filets or vieilli et creme mineral soulignent la structure; ils ne deviennent ni halo ni contour arrondi.
-- **Boutons :** les actions principales et secondaires conservent une silhouette pixel avec coins en escalier, contours francs et ombre dure. Les etats et cibles interactives restent en HTML/CSS accessibles, jamais figes dans une image.
 - **Questionnaire :** le questionnaire express est le point d'entree principal de la landing. Il remplace le panneau fictif « expedition en cours » tant que la personne n'a pas encore de parcours.
 - **Mascotte :** le petit mineur pixel fourni et valide par Diane est le guide de marque. Il peut etre sympathique, mais reste calme, competent et secondaire par rapport au contenu.
 - **Iconographie :** les pictogrammes illustres complexes sont des assets raster pixel transparents, coherents avec le mineur et le decor. Les controles fonctionnels simples restent natifs (SVG ou CSS) pour conserver nettete, etats et accessibilite.
@@ -325,7 +304,7 @@ Elle confirme notamment :
 
 ### Modes confirmes
 
-- **Dark :** galerie en encre, roche et graphite froid, avec filons d'or. La reference canonique est `references/pixel-mine-desktop-ultimate-v1.png`.
+- **Dark :** galerie en encre, roche et graphite, avec filons d'or. La landing desktop dark est la premiere reference visuelle de la direction.
 - **Light :** une version claire est requise et conserve le jaune GoCharbon comme entree de marque. Sa composition detaillee n'est pas encore validee et ne doit pas etre deduite de la version dark.
 - **Cross-surface :** le site et Flutter partagent primitives, roles semantiques, formes et composants communs. Les differences necessaires passent par `surface.web.*` et `surface.app.*`.
 
@@ -334,11 +313,7 @@ Elle confirme notamment :
 #### Confirme
 
 - direction Pixel Mine;
-- `pixel-mine-desktop-ultimate-v1.png` comme reference canonique du premier ecran desktop dark;
-- verrou logo pioche doree + `GOCHARBON`;
-- navigation visuelle `Charbon / Mine / Or`;
-- cadres pixel imbriques a filets or vieilli et creme mineral;
-- boutons a coins en escalier, double contour et ombre dure;
+- landing desktop dark comme reference initiale;
 - questionnaire express dans le panneau central;
 - petit mineur pixel original comme guide;
 - palette charbon, creme, jaune/or et orange secondaire;
@@ -348,7 +323,7 @@ Elle confirme notamment :
 #### Experimental, a ne pas generaliser
 
 - composition exacte des sections sous le premier ecran de landing;
-- destination, comportement et adaptation responsive des onglets `Charbon / Mine / Or`;
+- navigation detaillee `Charbon / Mine / Or`;
 - console d'analyse et colonne de profondeur comme composants reutilisables;
 - narration d'une descente progressive dans la mine au fil du scroll ou du parcours;
 - densite et placement exacts du decor minier;
@@ -363,7 +338,6 @@ Un element experimental peut etre prototype avec des tokens `surface.*`, mais ne
 - mascotte 3D ronde, charbon joyeux geant ou grands visages enfantins;
 - pixel limite aux mascottes et icones sur une interface SaaS lisse sans coherence globale;
 - interface entierement rasterisee ou texte integre dans une image de fond;
-- damiers de transparence simules ou fonds blancs incrustes dans les assets raster;
 - esthetique jeu retro surchargee qui degrade la lisibilite;
 - gradients flous, glassmorphism et ombres diffuses comme langage principal;
 - recettes neobrutalistes gratuites : rotations fortes, pills agrandies a 200 %, translations decoratives excessives;

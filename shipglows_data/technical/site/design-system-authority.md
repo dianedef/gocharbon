@@ -1,7 +1,7 @@
 ---
 artifact: technical_guidelines
 metadata_schema_version: "1.0"
-artifact_version: "2.3.0"
+artifact_version: "2.2.0"
 project: "gocharbon"
 created: "2026-06-11"
 updated: "2026-08-13"
@@ -15,7 +15,6 @@ security_impact: none
 docs_impact: yes
 linked_systems:
   - "shipglows_data/branding/branding.md"
-  - "shipglows_data/branding/references/pixel-mine-desktop-ultimate-v1.png"
   - "shipglows_data/branding/design-tokens.json"
   - "shipglows_data/branding/design-tokens.schema.json"
   - "tools/design-tokens/generate.mjs"
@@ -25,7 +24,7 @@ linked_systems:
   - "app_quiz/flutter_app/lib/src/theme/generated/design_tokens.g.dart"
 depends_on:
   - artifact: "shipglows_data/branding/branding.md"
-    artifact_version: "1.5.0"
+    artifact_version: "1.4.0"
     required_status: reviewed
   - artifact: "shipglows_data/branding/design-tokens.json"
     artifact_version: "1.5.0"
@@ -34,7 +33,6 @@ supersedes:
   - artifact: "shipglows_data/technical/site/design-system-authority.md"
     artifact_version: "1.0.0"
 evidence:
-  - "La reference pixel-mine-desktop-ultimate-v1.png est la preuve visuelle canonique du premier ecran desktop dark."
   - "Le generateur deterministe produit les carriers CSS, TypeScript et Dart depuis le JSON canonique."
   - "Le mode --check detecte toute derive des sorties generees."
   - "L'audit refuse les litteraux visuels non autorises dans l'UI."
@@ -78,8 +76,6 @@ Les fichiers web de Pixelify Sans sont fournis localement par `@fontsource-varia
 
 La direction active est **Pixel Mine**. Le neobrutalisme historique n'est conserve que pour les traits compatibles deja prouves : contours francs, angles nuls ou faibles, ombres dures sans flou et actions lisibles. Il ne peut pas justifier une nouvelle rotation, un surdimensionnement, un mouvement decoratif ou une recette absente du canon.
 
-La preuve visuelle primaire est `shipglows_data/branding/references/pixel-mine-desktop-ultimate-v1.png`. Elle arbitre la forme et le niveau de finition du desktop dark, tandis que `branding.md` arbitre son interpretation. Aucun agent ne doit recopier dans le produit les textes, donnees ou etats fictifs visibles dans la maquette.
-
 Les statuts de la direction sont portes par `branding.md` :
 
 - un choix **confirme** peut etre encode en primitive, role semantique ou recette partagee;
@@ -89,11 +85,9 @@ Les statuts de la direction sont portes par `branding.md` :
 ## Composants concernes
 
 - `site/src/components/components/BaseNavigation.astro` et les futurs onglets de monde;
-- le verrou logo pioche + `GOCHARBON`;
 - `site/src/pages/index.astro` et les composants extraits de la landing;
 - `site/src/components/vue/SentenceQuiz.vue` et `Quiz.vue`;
 - cartes, boutons, champs, pills, jauges, rails, badges et recompenses;
-- cadres imbriques, coins pixel en escalier et filets or/creme des panneaux et boutons;
 - pictogrammes raster Pixel Mine sous `site/public/images/icons/pixel-mine-v1/`, distincts des controles fonctionnels natifs;
 - parcours, progression et outils;
 - themes et widgets Flutter equivalents.
@@ -134,8 +128,6 @@ Les seules exceptions techniques admises sont documentees, bornees, possedees et
 6. Executer `node tools/design-tokens/audit.mjs --path site/src` et l'audit Flutter correspondant.
 7. Executer les builds et tests disponibles pour chaque surface touchee.
 8. Rechercher les anciennes regles contradictoires avant validation.
-
-Avant d'implementer une recette confirmee uniquement par la reference visuelle (cadre imbrique, coin en escalier, filet or, verrou logo), encoder ses valeurs dans `design-tokens.json` puis regenerer les carriers. L'image de reference ne dispense jamais de cette etape.
 
 ## Preuves minimales attendues
 
