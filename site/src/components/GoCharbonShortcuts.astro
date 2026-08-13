@@ -61,7 +61,7 @@ const shortcuts = [
     </div>
     <div class="shortcut-grid">
       {shortcuts.map((shortcut) => (
-        <article class="shortcut-card">
+        <article class="shortcut-card gc-card gc-card--informative">
           <div class="shortcut-card-head">
             <p class="shortcut-card-kicker">{shortcut.kicker}</p>
             <h3>{shortcut.title}</h3>
@@ -70,7 +70,7 @@ const shortcuts = [
 
           <div class="shortcut-preview-list">
             {shortcut.items.map((item) => (
-              <a href={`/${item.id}`} class="shortcut-preview-item no-link-style">
+              <a href={`/${item.id}`} class="shortcut-preview-item gc-card gc-card--interactive no-link-style">
                 <div class="shortcut-preview-main">
                   <div class="shortcut-preview-content">
                     <strong>{item.data.title}</strong>
@@ -96,7 +96,7 @@ const shortcuts = [
           </div>
 
           <div class="shortcut-card-footer">
-            <a href={shortcut.href} class="shortcut-cta no-link-style">
+            <a href={shortcut.href} class="gc-action gc-action--secondary no-link-style">
               {shortcut.cta} →
             </a>
           </div>

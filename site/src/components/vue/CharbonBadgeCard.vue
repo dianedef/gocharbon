@@ -1,14 +1,20 @@
 <script setup lang="ts">
-import type { Badge } from '@diane-winflowz/gamification'
+import type { Badge } from "@diane-winflowz/gamification";
 
 defineProps<{
-  badge: Badge
-  earned: boolean
-}>()
+  badge: Badge;
+  earned: boolean;
+}>();
 </script>
 
 <template>
-  <div class="charbon-badge-card" :class="{ earned, locked: !earned }">
+  <div
+    class="charbon-badge-card gc-card"
+    :class="[
+      earned ? 'gc-card--reward is-earned' : 'gc-card--informative is-locked',
+      { earned, locked: !earned },
+    ]"
+  >
     <div class="badge-icon-wrap">
       <span class="badge-icon">{{ badge.icon }}</span>
     </div>

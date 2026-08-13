@@ -16,7 +16,8 @@ import "../../state/providers.dart";
 import "../../theme/app_colors.dart";
 import "../../utils/format_utils.dart";
 import "../../utils/icon_utils.dart";
-import "../widgets/depth_button.dart";
+import "../widgets/gc_button.dart";
+import "../widgets/app_card.dart";
 
 class ProfileScreen extends ConsumerStatefulWidget {
   const ProfileScreen({super.key});
@@ -138,28 +139,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                     ),
                   ),
                   const SizedBox(height: GcSpace.x4),
-                  DepthButton(
-                    onPressed: _fetch,
-                    colors: const [
-                      GcAppColors.primary,
-                      GcAppColors.primaryShadow,
-                    ],
-                    shadowColor: GcAppColors.primaryShadow,
-                    borderRadius: GcRadii.card,
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: GcSpace.x5,
-                        vertical: GcSpace.x3,
-                      ),
-                      child: Text(
-                        "Réessayer",
-                        style: TextStyle(
-                          color: GcAppColors.textPrimary,
-                          fontWeight: GcType.black,
-                        ),
-                      ),
-                    ),
-                  ),
+                  GcButton.primary(onPressed: _fetch, label: "Réessayer"),
                 ],
               ),
             ),
@@ -309,12 +289,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
               const SizedBox(height: GcSpace.x4),
 
               // XP Progress
-              Container(
-                decoration: BoxDecoration(
-                  color: GcAppColors.surface,
-                  borderRadius: GcRadii.card,
-                  border: Border.all(color: GcAppColors.borderLight),
-                ),
+              AppCard(
                 padding: const EdgeInsets.all(GcSpace.x4),
                 child: Column(
                   children: [
@@ -405,15 +380,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                         .map(
                           (st) => SizedBox(
                             width: w,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                color: GcAppColors.surface,
-                                borderRadius: GcRadii.card,
-                                border: Border.all(
-                                  color: GcAppColors.borderLight,
-                                ),
-                              ),
-                              padding: const EdgeInsets.all(GcSpace.x3),
+                            child: AppCard.compact(
                               child: Column(
                                 children: [
                                   Icon(
@@ -527,55 +494,13 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
 
               const SizedBox(height: GcSpace.x4),
 
-              DepthButton(
-                onPressed: _linkWithGoogle,
-                colors: _linkingGoogle
-                    ? const [GcAppColors.textTertiary, GcAppColors.textTertiary]
-                    : const [
-                        GcAppColors.secondary,
-                        GcAppColors.secondaryShadow,
-                      ],
-                shadowColor: _linkingGoogle
-                    ? GcAppColors.borderLight
-                    : GcAppColors.secondaryShadow,
-                borderRadius: GcRadii.card,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: GcSpace.x4,
-                    vertical: GcSpace.threeAndHalf,
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      if (_linkingGoogle)
-                        const SizedBox(
-                          width: GcSizes.iconXSmall,
-                          height: GcSizes.iconXSmall,
-                          child: CircularProgressIndicator(
-                            strokeWidth: GcBorders.medium,
-                            color: GcAppColors.textPrimary,
-                          ),
-                        )
-                      else
-                        Icon(
-                          MdiIcons.account,
-                          size: GcSpace.x5,
-                          color: GcAppColors.textPrimary,
-                        ),
-                      const SizedBox(width: GcSpace.x3),
-                      Text(
-                        _linkingGoogle
-                            ? "Redirection OAuth..."
-                            : "Lier mon compte Google",
-                        style: const TextStyle(
-                          fontSize: GcType.body,
-                          fontWeight: GcType.black,
-                          color: GcAppColors.textPrimary,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
+              GcButton.primary(
+                onPressed: _linkingGoogle ? null : _linkWithGoogle,
+                label: _linkingGoogle
+                    ? "Redirection OAuth..."
+                    : "Lier mon compte Google",
+                icon: MdiIcons.account,
+                isLoading: _linkingGoogle,
               ),
               if (!AppConfig.supabaseConfigured)
                 const Padding(
@@ -597,9 +522,14 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
 
               const SizedBox(height: GcSpace.x4),
 
-              InkWell(
+              GcNavigationCard(
                 onTap: _openGoCharbon,
-                borderRadius: GcRadii.card,
+                label: "Formations sur GoCharbon",
+                backgroundColor: GcAppColors.primary,
+                borderColor: GcAppColors.gold,
+                padding: const EdgeInsets.symmetric(
+                  vertical: GcSpace.threeAndThreeQuarter,
+                ),
                 child: Container(
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
@@ -607,19 +537,6 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                     ),
-                    borderRadius: GcRadii.card,
-                    boxShadow: [
-                      BoxShadow(
-                        color: GcAppColors.primary.withValues(
-                          alpha: GcOpacity.disabled,
-                        ),
-                        blurRadius: GcSpace.x3,
-                        offset: const Offset(GcSpace.zero, GcSpace.oneAndHalf),
-                      ),
-                    ],
-                  ),
-                  padding: const EdgeInsets.symmetric(
-                    vertical: GcSpace.threeAndThreeQuarter,
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,

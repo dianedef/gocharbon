@@ -48,6 +48,8 @@ const worldIcons = {
 	backToTop && (
 		<button
 			class:list={[
+				"gc-control",
+				"gc-control--icon",
 				backToTop ? `backToTop` : null,
 				"back-to-top-button",
 			]}
@@ -159,8 +161,7 @@ const worldIcons = {
 				))}
 			</ul>
 			<div class="footer-theme-control">
-				<span class="poppins text-sm">Thème</span>
-				<ThemeToggle />
+				<ThemeToggle label="Thème" />
 			</div>
 		</div>
 	</div>
@@ -197,12 +198,7 @@ const worldIcons = {
 	}
 
 	.footer-theme-control {
-		display: flex;
-		align-items: center;
-		gap: var(--gc-primitive-space-2);
-		padding: var(--gc-primitive-space-1) var(--gc-primitive-space-2);
-		border: var(--gc-primitive-border-medium) solid var(--gc-semantic-color-border);
-		background: var(--gc-semantic-color-mine-panel);
+		display: inline-flex;
 	}
 
 	.footer-theme-control :global(button) {

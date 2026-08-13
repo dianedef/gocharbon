@@ -1,17 +1,12 @@
 export interface ButtonProps {
   href: string;
-  target?: '_blank' | '_self';
-  color?: string;
-  darkColor?: string;
+  target?: "_blank" | "_self";
+  variant?: "primary" | "secondary";
 }
 
 export interface CardProps {
-  color?: string;
-}
-
-export interface PillProps {
-  color?: string | undefined;
-  darkColor?: string | undefined;
+  as?: "article" | "aside" | "div" | "section";
+  variant?: "informative" | "interactive" | "selectable" | "reward";
 }
 
 export interface ThemeToggleProps {
@@ -45,14 +40,14 @@ export interface BaseFooterProps {
 
 export interface LocalFontConfig {
   name: string;
-  display: 'swap' | 'block' | 'fallback' | 'optional';
+  display: "swap" | "block" | "fallback" | "optional";
   selector: string;
   fallback: string;
   preload?: boolean;
-  style: 'normal' | 'italic';
+  style: "normal" | "italic";
   path: string;
 }
 
 export interface LocalFontProps {
   config: LocalFontConfig[];
-} 
+}

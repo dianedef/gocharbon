@@ -107,67 +107,67 @@ const result = computed(() => {
   <div class="sq">
     <p class="sq-sentence sq-sentence-desktop">
       Je veux
-      <span class="sq-dd" @click.stop="toggle('goal')">
-        <span class="sq-trigger" :class="{ filled: label('goal'), open: openKey === 'goal' }">
+      <span class="sq-dd">
+        <button type="button" class="sq-trigger gc-control" :class="{ filled: label('goal'), open: openKey === 'goal' }" :aria-expanded="openKey === 'goal'" @click.stop="toggle('goal')">
           {{ label('goal') || questions.goal.placeholder }}
           <svg class="sq-caret" width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
-        </span>
+        </button>
         <div v-if="openKey === 'goal'" class="sq-menu">
-          <div
+          <button type="button"
             v-for="(opt, i) in questions.goal.options"
             :key="i"
-            class="sq-option"
+            class="sq-option gc-control gc-card gc-card--selectable"
             :class="{ active: selections.goal === String(i) }"
             @click.stop="select('goal', i)"
-          >{{ opt.label }}</div>
+          >{{ opt.label }}</button>
         </div>
       </span>
       avec
-      <span class="sq-dd" @click.stop="toggle('budget')">
-        <span class="sq-trigger" :class="{ filled: label('budget'), open: openKey === 'budget' }">
+      <span class="sq-dd">
+        <button type="button" class="sq-trigger gc-control" :class="{ filled: label('budget'), open: openKey === 'budget' }" :aria-expanded="openKey === 'budget'" @click.stop="toggle('budget')">
           {{ label('budget') || questions.budget.placeholder }}
           <svg class="sq-caret" width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
-        </span>
+        </button>
         <div v-if="openKey === 'budget'" class="sq-menu">
-          <div
+          <button type="button"
             v-for="(opt, i) in questions.budget.options"
             :key="i"
-            class="sq-option"
+            class="sq-option gc-control gc-card gc-card--selectable"
             :class="{ active: selections.budget === String(i) }"
             @click.stop="select('budget', i)"
-          >{{ opt.label }}</div>
+          >{{ opt.label }}</button>
         </div>
       </span>
       de budget, bosser
-      <span class="sq-dd" @click.stop="toggle('mode')">
-        <span class="sq-trigger" :class="{ filled: label('mode'), open: openKey === 'mode' }">
+      <span class="sq-dd">
+        <button type="button" class="sq-trigger gc-control" :class="{ filled: label('mode'), open: openKey === 'mode' }" :aria-expanded="openKey === 'mode'" @click.stop="toggle('mode')">
           {{ label('mode') || questions.mode.placeholder }}
           <svg class="sq-caret" width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
-        </span>
+        </button>
         <div v-if="openKey === 'mode'" class="sq-menu">
-          <div
+          <button type="button"
             v-for="(opt, i) in questions.mode.options"
             :key="i"
-            class="sq-option"
+            class="sq-option gc-control gc-card gc-card--selectable"
             :class="{ active: selections.mode === String(i) }"
             @click.stop="select('mode', i)"
-          >{{ opt.label }}</div>
+          >{{ opt.label }}</button>
         </div>
       </span>
       et en technique je suis
-      <span class="sq-dd" @click.stop="toggle('tech')">
-        <span class="sq-trigger" :class="{ filled: label('tech'), open: openKey === 'tech' }">
+      <span class="sq-dd">
+        <button type="button" class="sq-trigger gc-control" :class="{ filled: label('tech'), open: openKey === 'tech' }" :aria-expanded="openKey === 'tech'" @click.stop="toggle('tech')">
           {{ label('tech') || questions.tech.placeholder }}
           <svg class="sq-caret" width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
-        </span>
+        </button>
         <div v-if="openKey === 'tech'" class="sq-menu">
-          <div
+          <button type="button"
             v-for="(opt, i) in questions.tech.options"
             :key="i"
-            class="sq-option"
+            class="sq-option gc-control gc-card gc-card--selectable"
             :class="{ active: selections.tech === String(i) }"
             @click.stop="select('tech', i)"
-          >{{ opt.label }}</div>
+          >{{ opt.label }}</button>
         </div>
       </span>.
     </p>
@@ -176,16 +176,16 @@ const result = computed(() => {
       <div v-for="(field, key) in questions" :key="key" class="sq-mobile-field">
         <span class="sq-mobile-label">{{ ({ goal: 'Tu en es où ?', budget: 'Ton objectif ?', mode: 'Ton rythme ?', tech: 'Ton expérience ?' })[key] }}</span>
         <span class="sq-dd" @click.stop="toggle(key)">
-          <button type="button" class="sq-trigger" :class="{ filled: label(key), open: openKey === key }" :aria-expanded="openKey === key">
+          <button type="button" class="sq-trigger gc-control" :class="{ filled: label(key), open: openKey === key }" :aria-expanded="openKey === key">
             {{ label(key) || 'Choisir une réponse' }}
             <svg class="sq-caret" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
           </button>
           <div v-if="openKey === key" class="sq-menu">
-            <button v-for="(opt, i) in field.options" :key="i" type="button" class="sq-option" :class="{ active: selections[key] === String(i) }" @click.stop="select(key, i)">{{ opt.label }}</button>
+            <button v-for="(opt, i) in field.options" :key="i" type="button" class="sq-option gc-control" :class="{ active: selections[key] === String(i) }" @click.stop="select(key, i)">{{ opt.label }}</button>
           </div>
         </span>
       </div>
-      <div class="sq-mobile-cta" :class="{ ready: allSelected }"><span aria-hidden="true">↗</span> TROUVER MON FILON <span aria-hidden="true">›</span></div>
+      <div class="sq-mobile-status" :class="{ ready: allSelected }"><span aria-hidden="true">↗</span> TROUVER MON FILON <span aria-hidden="true">›</span></div>
     </div>
 
     <transition name="sq-fade">
@@ -199,8 +199,8 @@ const result = computed(() => {
         </div>
         <p class="sq-result-desc">{{ result.description }}</p>
         <div class="sq-result-actions">
-          <a :href="result.urls.parcours" class="sq-btn sq-btn-primary">Voir le Parcours</a>
-          <a :href="ROUTES.quizRapide" class="sq-btn sq-btn-secondary">Affiner avec le Quiz (2 min)</a>
+          <a :href="result.urls.parcours" class="gc-action gc-action--primary">Voir le Parcours</a>
+          <a :href="ROUTES.quizRapide" class="gc-action gc-action--secondary">Affiner avec le Quiz (2 min)</a>
         </div>
       </div>
     </transition>
@@ -355,32 +355,6 @@ const result = computed(() => {
   gap: var(--sentence-quiz-result-actions-gap);
 }
 
-.sq-btn {
-  display: inline-block;
-  padding: var(--sentence-quiz-btn-padding);
-  font-size: var(--sentence-quiz-btn-font-size);
-  font-weight: 700;
-  font-family: var(--sentence-quiz-btn-font-family);
-  text-decoration: none;
-  border: var(--sentence-quiz-btn-border);
-  transition: var(--sentence-quiz-btn-transition);
-}
-
-.sq-btn:hover {
-  transform: var(--sentence-quiz-btn-hover-translate);
-  box-shadow: var(--sentence-quiz-btn-shadow-hover);
-}
-
-.sq-btn-primary {
-  background: var(--sentence-quiz-btn-primary-bg);
-  color: var(--sentence-quiz-btn-primary-color);
-}
-
-.sq-btn-secondary {
-  background: transparent;
-  color: var(--sentence-quiz-btn-secondary-color);
-}
-
 /* Transition */
 .sq-fade-enter-active { transition: var(--sentence-quiz-fade-enter-transition); }
 .sq-fade-leave-active { transition: var(--sentence-quiz-fade-leave-transition); }
@@ -450,23 +424,21 @@ const result = computed(() => {
     text-align: left;
   }
 
-  .sq-mobile-cta {
+  .sq-mobile-status {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 54px;
+    min-height: var(--gc-component-button-min-height);
     margin: 0.35rem auto 0;
-    padding: 0.75rem 1rem;
-    border: var(--gc-component-pixel-frame-border-width) solid var(--gc-primitive-color-brand-gold-deep);
-    background: color-mix(in srgb, var(--gc-primitive-color-brand-yellow) 72%, var(--gc-primitive-color-brand-gold-deep));
-    box-shadow: var(--gc-primitive-space-1) var(--gc-primitive-space-1) 0 var(--gc-primitive-color-brand-black);
-    color: var(--gc-primitive-color-brand-black);
+    padding: var(--gc-primitive-space-3) var(--gc-primitive-space-4);
+    border-top: var(--gc-primitive-border-thin) solid var(--gc-primitive-color-brand-gold-deep);
+    color: var(--gc-primitive-color-brand-cream);
     font-family: var(--gc-semantic-type-action-family);
-    font-weight: 800;
-    opacity: 0.72;
+    font-weight: var(--gc-primitive-font-weight-bold);
+    opacity: var(--gc-primitive-opacity-muted);
   }
 
-  .sq-mobile-cta.ready { opacity: 1; }
+  .sq-mobile-status.ready { opacity: 1; }
 
   .sq-sentence {
     font-size: var(--sentence-quiz-font-size-mobile);
@@ -477,9 +449,9 @@ const result = computed(() => {
     flex-direction: var(--sentence-quiz-result-actions-direction-mobile);
   }
 
-  .sq-btn {
+  .gc-action {
     text-align: center;
-    width: var(--sentence-quiz-btn-width-mobile);
+    width: var(--sentence-quiz-result-action-width-mobile);
   }
 }
 </style>

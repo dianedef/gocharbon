@@ -17,7 +17,8 @@ import "../../theme/app_colors.dart";
 import "../../theme/category_config.dart";
 import "../../utils/format_utils.dart";
 import "../../utils/icon_utils.dart";
-import "../widgets/depth_button.dart";
+import "../widgets/gc_button.dart";
+import "../widgets/app_card.dart";
 
 class ResultsScreen extends ConsumerStatefulWidget {
   const ResultsScreen({super.key});
@@ -196,28 +197,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                   ),
                 ),
                 const SizedBox(height: GcSpace.x3),
-                DepthButton(
-                  onPressed: _goHome,
-                  colors: const [
-                    GcAppColors.primary,
-                    GcAppColors.primaryShadow,
-                  ],
-                  shadowColor: GcAppColors.primaryShadow,
-                  borderRadius: GcRadii.card,
-                  child: const Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: GcSpace.x5,
-                      vertical: GcSpace.twoAndHalf,
-                    ),
-                    child: Text(
-                      "Accueil",
-                      style: TextStyle(
-                        color: GcAppColors.textPrimary,
-                        fontWeight: GcType.black,
-                      ),
-                    ),
-                  ),
-                ),
+                GcButton.primary(onPressed: _goHome, label: "Accueil"),
               ],
             ),
           ),
@@ -304,12 +284,9 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
 
               const SizedBox(height: GcSpace.x3),
 
-              Container(
-                decoration: BoxDecoration(
-                  color: GcAppColors.surfaceElevated,
-                  borderRadius: GcRadii.card,
-                  border: Border.all(color: GcAppColors.borderLight),
-                ),
+              AppCard.outlined(
+                backgroundColor: GcAppColors.surfaceElevated,
+                borderColor: GcAppColors.borderLight,
                 padding: const EdgeInsets.all(GcSpace.x3),
                 child: Row(
                   children: [
@@ -373,13 +350,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
 
               const SizedBox(height: GcSpace.x3),
 
-              Container(
-                decoration: BoxDecoration(
-                  color: GcAppColors.surface,
-                  borderRadius: GcRadii.card,
-                  border: Border.all(color: GcAppColors.borderLight),
-                ),
-                padding: const EdgeInsets.all(GcSpace.x3),
+              AppCard.compact(
                 child: Column(
                   children: [
                     _BreakdownRow(
@@ -405,23 +376,8 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
               const SizedBox(height: GcSpace.x2),
 
               if (result.levelUp)
-                Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [
-                        GcAppColors.gold.withValues(alpha: GcOpacity.disabled),
-                        GcAppColors.gold.withValues(alpha: GcOpacity.disabled),
-                      ],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    borderRadius: GcRadii.card,
-                    border: Border.all(
-                      color: GcAppColors.gold.withValues(
-                        alpha: GcOpacity.disabled,
-                      ),
-                    ),
-                  ),
+                GcStatusCard(
+                  variant: GcStatusCardVariant.reward,
                   padding: const EdgeInsets.all(GcSpace.x3),
                   child: Row(
                     children: [
@@ -454,41 +410,10 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                   children: result.newBadges
                       .take(2)
                       .map((b) {
-                        return Container(
-                          decoration: BoxDecoration(
-                            gradient: const LinearGradient(
-                              colors: [
-                                GcAppColors.primary,
-                                GcAppColors.primaryShadow,
-                              ],
-                              begin: Alignment.topLeft,
-                              end: Alignment.bottomRight,
-                            ),
-                            borderRadius: GcRadii.card,
-                          ),
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: GcSpace.x3,
-                            vertical: GcSpace.oneAndHalf,
-                          ),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Icon(
-                                mdiFromName(b.icon),
-                                size: GcType.caption,
-                                color: GcAppColors.textPrimary,
-                              ),
-                              const SizedBox(width: GcSpace.x2),
-                              Text(
-                                b.name,
-                                style: const TextStyle(
-                                  fontSize: GcType.caption,
-                                  fontWeight: GcType.bold,
-                                  color: GcAppColors.textPrimary,
-                                ),
-                              ),
-                            ],
-                          ),
+                        return GcStatusPill(
+                          icon: mdiFromName(b.icon),
+                          label: b.name,
+                          accent: GcAppColors.primary,
                         );
                       })
                       .toList(growable: false),
@@ -497,12 +422,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
               if (result.newBadges.isNotEmpty)
                 const SizedBox(height: GcSpace.x2),
 
-              Container(
-                decoration: BoxDecoration(
-                  color: GcAppColors.surface,
-                  borderRadius: GcRadii.card,
-                  border: Border.all(color: GcAppColors.borderLight),
-                ),
+              AppCard(
                 padding: const EdgeInsets.all(GcSpace.x4),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -612,16 +532,15 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    InkWell(
+                    GcNavigationCard(
                       onTap: () => _openCourse(course),
-                      borderRadius: GcRadii.card,
+                      label: course.title,
+                      padding: const EdgeInsets.all(GcSpace.x3),
                       child: Container(
                         decoration: BoxDecoration(
                           color: GcAppColors.surface,
-                          borderRadius: GcRadii.card,
                           border: Border.all(color: GcAppColors.borderLight),
                         ),
-                        padding: const EdgeInsets.all(GcSpace.x3),
                         child: Row(
                           children: [
                             Container(
@@ -690,13 +609,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                       ),
                     ),
                     const SizedBox(height: GcSpace.x2),
-                    Container(
-                      decoration: BoxDecoration(
-                        color: GcAppColors.surface,
-                        borderRadius: GcRadii.card,
-                        border: Border.all(color: GcAppColors.borderLight),
-                      ),
-                      padding: const EdgeInsets.all(GcSpace.x3),
+                    AppCard.compact(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -727,42 +640,10 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
 
               const SizedBox(height: GcSpace.x4),
 
-              InkWell(
-                onTap: _shareScore,
-                borderRadius: GcRadii.card,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: GcAppColors.surface,
-                    borderRadius: GcRadii.card,
-                    border: Border.all(
-                      color: GcAppColors.secondary.withValues(
-                        alpha: GcOpacity.disabled,
-                      ),
-                    ),
-                  ),
-                  padding: const EdgeInsets.symmetric(
-                    vertical: GcSpace.threeAndHalf,
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(
-                        MdiIcons.shareVariant,
-                        size: GcSpace.x5,
-                        color: GcAppColors.secondary,
-                      ),
-                      const SizedBox(width: GcSpace.x2),
-                      const Text(
-                        "Partager mon score",
-                        style: TextStyle(
-                          fontSize: GcType.body,
-                          fontWeight: GcType.black,
-                          color: GcAppColors.secondary,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
+              GcButton.secondary(
+                onPressed: _shareScore,
+                label: "Partager mon score",
+                icon: MdiIcons.shareVariant,
               ),
 
               const SizedBox(height: GcSpace.x3),
@@ -770,75 +651,18 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
               Row(
                 children: [
                   Expanded(
-                    child: DepthButton(
+                    child: GcButton.primary(
                       onPressed: _playAgain,
-                      colors: const [
-                        GcAppColors.primary,
-                        GcAppColors.primaryShadow,
-                      ],
-                      shadowColor: GcAppColors.primaryShadow,
-                      borderRadius: GcRadii.card,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                          vertical: GcSpace.threeAndHalf,
-                        ),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
-                            // Using Material icon here to keep this const.
-                            Icon(
-                              Icons.refresh,
-                              size: GcSpace.x5,
-                              color: GcAppColors.textPrimary,
-                            ),
-                            SizedBox(width: GcSpace.x2),
-                            Text(
-                              "Rejouer",
-                              style: TextStyle(
-                                fontSize: GcType.body,
-                                fontWeight: GcType.black,
-                                color: GcAppColors.textPrimary,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
+                      label: "Rejouer",
+                      icon: Icons.refresh,
                     ),
                   ),
                   const SizedBox(width: GcSpace.x3),
                   Expanded(
-                    child: InkWell(
-                      onTap: _goHome,
-                      borderRadius: GcRadii.card,
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: GcAppColors.surface,
-                          borderRadius: GcRadii.card,
-                          border: Border.all(color: GcAppColors.borderMedium),
-                        ),
-                        padding: const EdgeInsets.symmetric(
-                          vertical: GcSpace.threeAndHalf,
-                        ),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(
-                              MdiIcons.home,
-                              size: GcSpace.x5,
-                              color: GcAppColors.textPrimary,
-                            ),
-                            const SizedBox(width: GcSpace.x2),
-                            const Text(
-                              "Accueil",
-                              style: TextStyle(
-                                fontSize: GcType.body,
-                                fontWeight: GcType.black,
-                                color: GcAppColors.textPrimary,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
+                    child: GcButton.secondary(
+                      onPressed: _goHome,
+                      label: "Accueil",
+                      icon: MdiIcons.home,
                     ),
                   ),
                 ],
@@ -869,35 +693,10 @@ class _StatPill extends StatelessWidget {
   final Color valueColor;
 
   @override
-  Widget build(BuildContext context) {
-    return Container(
-      constraints: const BoxConstraints(minWidth: GcSizes.compactStatMinimum),
-      decoration: BoxDecoration(
-        color: GcAppColors.surface,
-        borderRadius: GcRadii.card,
-        border: Border.all(color: borderColor),
-      ),
-      padding: const EdgeInsets.symmetric(
-        horizontal: GcSpace.threeAndHalf,
-        vertical: GcSpace.twoAndHalf,
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: GcSizes.iconXSmall, color: iconColor),
-          const SizedBox(width: GcSpace.x2),
-          Text(
-            value,
-            style: TextStyle(
-              fontSize: GcType.body,
-              fontWeight: GcType.black,
-              color: valueColor,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
+  Widget build(BuildContext context) => ConstrainedBox(
+    constraints: const BoxConstraints(minWidth: GcSizes.compactStatMinimum),
+    child: GcStatusPill(icon: icon, label: value, accent: valueColor),
+  );
 }
 
 class _BreakdownRow extends StatelessWidget {

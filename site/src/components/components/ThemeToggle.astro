@@ -1,10 +1,19 @@
+---
+interface Props {
+	label?: string;
+}
+
+const { label } = Astro.props;
+---
+
 <button
 	type="button"
 	data-theme-toggle
-	class="w-12 h-12 md:w-8 md:h-8 flex items-center justify-center text-black dark:text-yellow-soft hover:text-primary transition-colors duration-200"
+	class:list={["gc-control", "flex", "items-center", "justify-center", label ? "theme-toggle-with-label" : "gc-control--icon"]}
 	style="-webkit-tap-highlight-color: transparent;"
-	aria-label="Basculer le thème"
+	aria-label={label ? undefined : "Basculer le thème"}
 >
+	{label && <span>{label}</span>}
 	<svg
 		class="theme-icon-sun hidden w-8 h-8 md:w-6 md:h-6"
 		viewBox="0 0 24 24"
@@ -38,6 +47,13 @@
 		<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
 	</svg>
 </button>
+
+<style>
+	.theme-toggle-with-label {
+		gap: var(--gc-primitive-space-2);
+		inline-size: 100%;
+	}
+</style>
 
 <script>
 	const updateThemeIcons = () => {

@@ -76,13 +76,13 @@ const metaRobots = posts.length >= 3 ? "index, follow" : "noindex, follow";
 				Sous-catégorie utile pour l'utilisateur. Elle reste indexable seulement quand le volume la justifie.
 			</p>
 			<div class="flex flex-wrap gap-3">
-				<Button href={getToolCategoryHref(category.slug)} color="var(--brand-copper)">
+				<Button href={getToolCategoryHref(category.slug)} variant="secondary">
 					Retour à {category.label}
 				</Button>
 				{category.subcategories.map((entry) => (
 					<Button
 						href={getToolSubcategoryHref(category.slug, entry.slug)}
-						color={entry.slug === subcategory.slug ? "var(--brand-orange)" : "var(--brand-yellow)"}
+						variant={entry.slug === subcategory.slug ? "secondary" : "primary"}
 					>
 						{entry.label} ({entry.count})
 					</Button>

@@ -120,7 +120,7 @@ const facts: QualificationFact[] = isQualified
   : [];
 ---
 
-<aside class="tool-qualification-card">
+<aside class="tool-qualification-card gc-card gc-card--informative">
   <div class="tool-qualification-topline">
     <span class:list={["status-chip", isQualified ? "status-chip--ready" : "status-chip--pending"]}>
       {isQualified ? "Qualification renseignée" : "Qualification en cours"}
@@ -144,7 +144,7 @@ const facts: QualificationFact[] = isQualified
         </p>
         <dl class="qualification-grid">
           {facts.map((fact) => (
-            <div class="fact-card">
+            <div class="fact-card gc-card gc-card--informative">
               <dt>{fact.label}</dt>
               <dd>{fact.value}</dd>
             </div>

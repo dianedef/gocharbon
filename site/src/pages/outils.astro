@@ -38,17 +38,17 @@ const featuredSubcategories = toolCategories
 			</p>
 			<div class="flex flex-wrap gap-3">
 				{toolCategories.map((category) => (
-					<Button href={getToolCategoryHref(category.slug)} color="var(--brand-copper)">
+					<Button href={getToolCategoryHref(category.slug)} variant="secondary">
 						{category.label} ({category.count})
 					</Button>
 				))}
-				<Button href={ROUTES.quiz} color="var(--brand-orange)">
+				<Button href={ROUTES.quiz} variant="secondary">
 					J'ai besoin d'orientation
 				</Button>
-				<Button href={ROUTES.parcours} color="var(--brand-yellow)">
+				<Button href={ROUTES.parcours}>
 					Recevoir un parcours d'action
 				</Button>
-				<Button href={ROUTES.methodologie} color="var(--brand-yellow)">
+				<Button href={ROUTES.methodologie}>
 					Notre méthodologie
 				</Button>
 			</div>
@@ -64,7 +64,6 @@ const featuredSubcategories = toolCategories
 					{featuredSubcategories.map((subcategory) => (
 						<Button
 							href={getToolSubcategoryHref(subcategory.category, subcategory.slug)}
-							color="var(--brand-yellow)"
 						>
 							{subcategory.label} ({subcategory.count})
 						</Button>

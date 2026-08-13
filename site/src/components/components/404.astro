@@ -1,18 +1,12 @@
 ---
-
+import Button from "./Button.astro";
 ---
 
 <section class="flex flex-col gap-8 justify-between">
 	<p class="text-9xl font-bold dm-serif dark:text-white">404</p>
-	<h2 class="text-4xl outfit dark:text-white">Page Non Trouvée</h2>
+	<h2 class="text-4xl outfit dark:text-white">Page non trouvée</h2>
 	<p class="text-xl sm:text-3xl sanchez dark:text-yellow-soft">
-    Désolé, nous n'avons pas trouvé la page que vous cherchez.
-  </p>
-  <a
-		href="/"
-		title="Retour à l"
-		accueil'
-		class="px-4 py-2 border-2 border-black dark:border-white dark:text-white hover:bg-yellow dark:hover:bg-yellow-dark transition-colors duration-150 ease-in-out w-48 text-center poppins"
-    >&larr; Accueil</a
-  >
+		Désolé, nous n'avons pas trouvé la page que vous cherchez.
+	</p>
+	<Button href="/" variant="secondary">&larr; Accueil</Button>
 </section>

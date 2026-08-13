@@ -1,30 +1,21 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import { useRandomColor, type ColorProps } from '../../composables/useRandomColor';
-
-interface Props extends ColorProps {
+interface Props {
     href: string;
     target?: string;
+    variant?: 'primary' | 'secondary';
 }
 
-const props = withDefaults(defineProps<Props>(), {
-    target: '_self'
+withDefaults(defineProps<Props>(), {
+    target: '_self',
+    variant: 'primary'
 });
-
-const { randomColor, randomDarkColor, isDarkTheme } = useRandomColor(props);
-
-// Calculer la couleur active en fonction du thème
-const activeColor = computed(() => isDarkTheme.value ? randomDarkColor.value : randomColor.value);
 </script>
 
 <template>
     <a 
         :href="href" 
         :target="target" 
-        class="brutal-btn bg-white dark:bg-black border-2 border-black dark:border-purple-bright px-4 py-2 font-sanchez text-black dark:text-purple-bright" 
-        :style="{ 
-            '--active-color': activeColor
-        } as any"
+        :class="['gc-action', `gc-action--${variant}`]"
     >
         <slot />
     </a>

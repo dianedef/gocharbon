@@ -407,7 +407,7 @@ onMounted(() => {
                         <button
                             v-if="selectedMainTags.length > 0"
                             type="button"
-                            class="filters-reset"
+                            class="filters-reset gc-control"
                             @click="resetFilters"
                         >
                             Réinitialiser
@@ -423,7 +423,6 @@ onMounted(() => {
                                 :is-selected="selectedMainTags.includes(tag)" 
                                 :content="tagHierarchy[tag]?.label || tag" 
                                 :is-filter="true"
-                                class="mobile-pill"
                             >
                                 {{ tagHierarchy[tag]?.label || tag }}
                             </Pill>

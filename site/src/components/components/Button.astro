@@ -1,18 +1,14 @@
 ---
 import type { ButtonProps } from "../../utils/types/ui";
-import { designTokens } from "../../generated/design-tokens";
 
-type Props = ButtonProps & { variant?: 'default' | 'hero' };
+type Props = ButtonProps;
 
 const {
 	href,
 	target = "_self",
-	color = designTokens.light['semantic.color.actionPrimary'],
-	darkColor = designTokens.dark['semantic.color.actionPrimary'],
-	variant = 'default'
+	variant = 'primary'
 } = Astro.props;
 
-const shadowColor = variant === 'hero' ? 'var(--brand-yellow)' : 'var(--brand-yellow)';
 const rel = target === "_blank" ? "noopener noreferrer" : undefined;
 ---
 
@@ -20,8 +16,7 @@ const rel = target === "_blank" ? "noopener noreferrer" : undefined;
 	href={href}
 	target={target}
 	rel={rel}
-	class="brutal-btn brutal-btn-astro"
-	style={`--button-color: ${color}; --button-shadow-color: ${shadowColor};`}
+	class:list={["gc-action", `gc-action--${variant}`]}
 >
 	<slot />
 </a>

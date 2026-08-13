@@ -688,7 +688,7 @@
   --parcours-hero-stats-template: 1fr;
   --parcours-stat-line-height: 1;
   --parcours-card-border-width: 3px;
-  --parcours-card-border-radius: 0.45rem;
+  --parcours-card-border-radius: var(--gc-component-pixel-frame-radius);
   --parcours-card-bg: color-mix(
     in srgb,
     var(--gc-primitive-color-brand-cream) 92%,
@@ -807,27 +807,7 @@
   --quiz-description-color: var(--brand-soot);
   --quiz-description-line-height: 1.6;
   --quiz-description-margin-bottom: 2rem;
-  --quiz-button-padding: 1rem 2rem;
-  --quiz-button-padding-back: 0.65rem 1rem;
-  --quiz-button-font-size: 1.125rem;
-  --quiz-button-font-size-back: 1rem;
-  --quiz-button-font-family: var(--gc-semantic-type-action-family);
-  --quiz-button-border: 3px solid var(--brand-black);
-  --quiz-button-shadow: 5px 5px 0 var(--brand-black);
-  --quiz-button-shadow-hover: 3px 3px 0 var(--brand-black);
-  --quiz-button-hover-translate: translate(2px, 2px);
-  --quiz-button-transition: all 0.2s ease-in-out;
-  --quiz-button-primary-bg: var(--brand-yellow);
-  --quiz-button-primary-bg-hover: var(--brand-orange);
-  --quiz-button-primary-color: var(--brand-black);
-  --quiz-button-secondary-bg: var(--brand-black);
-  --quiz-button-secondary-bg-hover: var(--brand-charcoal);
-  --quiz-button-secondary-color: var(--brand-cream);
-  --quiz-button-secondary-margin-right: 1rem;
-  --quiz-button-secondary-margin-bottom: 0;
-  --quiz-button-secondary-margin-bottom-mobile: 0.5rem;
-  --quiz-button-disabled-opacity: 0.5;
-  --quiz-button-disabled-shadow: 5px 5px 0 var(--brand-black);
+  --quiz-result-secondary-action-margin-bottom-mobile: 0.5rem;
   --quiz-nav-margin-bottom: 1rem;
   --quiz-progress-bar-width: 100%;
   --quiz-progress-height: 16px;
@@ -994,7 +974,9 @@
   );
   --sentence-quiz-result-label-letter-spacing: 0.05em;
   --sentence-quiz-result-title-size: 1.3rem;
-  --sentence-quiz-result-title-font-family: var(--gc-semantic-type-display-family);
+  --sentence-quiz-result-title-font-family: var(
+    --gc-semantic-type-display-family
+  );
   --sentence-quiz-result-title-color: var(--gc-primitive-color-brand-ink);
   --sentence-quiz-result-title-color-dark: var(
     --gc-primitive-color-brand-cream
@@ -1006,23 +988,7 @@
   --sentence-quiz-result-desc-margin: 0.4rem 0 1rem;
   --sentence-quiz-result-actions-gap: 0.6rem;
   --sentence-quiz-result-actions-direction-mobile: column;
-  --sentence-quiz-btn-padding: 0.5rem 1.2rem;
-  --sentence-quiz-btn-font-size: 0.95rem;
-  --sentence-quiz-btn-font-family: var(--gc-semantic-type-action-family);
-  --sentence-quiz-btn-border: 3px solid var(--gc-primitive-color-brand-ink);
-  --sentence-quiz-btn-border-dark: 3px solid var(--brand-yellow);
-  --sentence-quiz-btn-transition: all 0.15s ease;
-  --sentence-quiz-btn-shadow-hover: 4px 4px 0
-    var(--gc-primitive-color-brand-ink);
-  --sentence-quiz-btn-shadow-hover-dark: 4px 4px 0 var(--brand-yellow);
-  --sentence-quiz-btn-hover-translate: translate(-2px, -2px);
-  --sentence-quiz-btn-primary-bg: var(--brand-yellow);
-  --sentence-quiz-btn-primary-color: var(--gc-primitive-color-brand-ink);
-  --sentence-quiz-btn-secondary-color: var(--gc-primitive-color-brand-ink);
-  --sentence-quiz-btn-secondary-color-dark: var(
-    --gc-primitive-color-brand-cream
-  );
-  --sentence-quiz-btn-width-mobile: 100%;
+  --sentence-quiz-result-action-width-mobile: 100%;
   --sentence-quiz-fade-enter-transition: all 0.35s ease;
   --sentence-quiz-fade-leave-transition: all 0.15s ease;
 
@@ -1084,7 +1050,9 @@
   --gamification-bar-onboarding-background-dark: var(--brand-ink);
   --gamification-bar-onboarding-shadow: 4px 4px 0 var(--brand-black);
   --gamification-bar-onboarding-shadow-dark: 4px 4px 0 var(--brand-cream);
-  --gamification-bar-onboarding-font-family: var(--gc-semantic-type-body-family);
+  --gamification-bar-onboarding-font-family: var(
+    --gc-semantic-type-body-family
+  );
   --gamification-bar-onboarding-font-size: 0.85rem;
   --gamification-bar-onboarding-color: var(--brand-black);
   --gamification-bar-onboarding-color-dark: var(--brand-cream);
@@ -1096,7 +1064,9 @@
     var(--brand-cream);
   --gamification-bar-onboarding-dismiss-background: var(--brand-yellow);
   --gamification-bar-onboarding-dismiss-background-dark: var(--brand-charcoal);
-  --gamification-bar-onboarding-dismiss-font-family: var(--gc-semantic-type-action-family);
+  --gamification-bar-onboarding-dismiss-font-family: var(
+    --gc-semantic-type-action-family
+  );
   --gamification-bar-onboarding-dismiss-font-size: 0.8rem;
   --gamification-bar-onboarding-dismiss-hover-translate: translate(1px, 1px);
   --gamification-bar-onboarding-dismiss-color: var(--brand-black);
@@ -1116,7 +1086,9 @@
   --gamification-dashboard-section-shadow-dark: 6px 6px 0 var(--brand-cream);
   --gamification-dashboard-section-color: var(--brand-black);
   --gamification-dashboard-section-color-dark: var(--brand-cream);
-  --gamification-dashboard-section-title-font-family: var(--gc-semantic-type-display-family);
+  --gamification-dashboard-section-title-font-family: var(
+    --gc-semantic-type-display-family
+  );
   --gamification-dashboard-section-title-size: 1.25rem;
   --gamification-dashboard-section-title-weight: 700;
   --gamification-dashboard-section-title-margin-bottom: 1rem;
@@ -1128,7 +1100,9 @@
   --gamification-dashboard-streak-transition: opacity 0.3s;
   --gamification-dashboard-streak-current-size: 1.5rem;
   --gamification-dashboard-streak-current-weight: 700;
-  --gamification-dashboard-streak-current-font-family: var(--gc-semantic-type-display-family);
+  --gamification-dashboard-streak-current-font-family: var(
+    --gc-semantic-type-display-family
+  );
   --gamification-dashboard-streak-best-size: 0.875rem;
   --gamification-dashboard-streak-best-opacity: 0.7;
   --gamification-dashboard-stats-grid-gap: 1rem;
@@ -1142,7 +1116,9 @@
   --gamification-dashboard-stat-card-background: var(--brand-yellow);
   --gamification-dashboard-stat-card-background-dark: var(--brand-anthracite);
   --gamification-dashboard-stat-value-size: 1.5rem;
-  --gamification-dashboard-stat-value-font-family: var(--gc-semantic-type-display-family);
+  --gamification-dashboard-stat-value-font-family: var(
+    --gc-semantic-type-display-family
+  );
   --gamification-dashboard-stat-value-font-weight: 700;
   --gamification-dashboard-stat-label-size: 0.75rem;
   --gamification-dashboard-stat-label-transform: uppercase;
@@ -1374,16 +1350,6 @@
   --path-page-editorial-body-shadow-dark: 3px 3px 0 var(--brand-cream);
   --path-page-editorial-body-padding: 0.58rem 0.7rem;
   --path-page-editorial-body-margin: -0.2rem 0 0.95rem;
-  --path-page-btn-border-width: 3px;
-  --path-page-btn-shadow: 4px 4px 0 var(--brand-black);
-  --path-page-btn-shadow-hover: 2px 2px 0 var(--brand-black);
-  --path-page-btn-shadow-dark: 4px 4px 0 var(--brand-cream);
-  --path-page-btn-shadow-hover-dark: 2px 2px 0 var(--brand-cream);
-  --path-page-btn-padding: 0.75rem 1rem;
-  --path-page-btn-font-family: var(--gc-semantic-type-action-family);
-  --path-page-btn-transition:
-    transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
-  --path-page-btn-mobile-width: 100%;
   --path-page-mobile-breakpoint: 720px;
 
   /* Progress tracker */
@@ -1574,13 +1540,6 @@
   --quiz-panel-shadow: var(--quiz-panel-shadow-dark);
   --quiz-title-color: var(--brand-cream);
   --quiz-description-color: var(--brand-cream);
-  --quiz-button-border: 3px solid var(--brand-cream);
-  --quiz-button-shadow: 5px 5px 0 var(--brand-cream);
-  --quiz-button-shadow-hover: 3px 3px 0 var(--brand-cream);
-  --quiz-button-primary-color: var(--brand-black);
-  --quiz-button-secondary-bg: var(--brand-charcoal);
-  --quiz-button-secondary-color: var(--brand-cream);
-  --quiz-button-disabled-shadow: 5px 5px 0 var(--brand-cream);
   --quiz-progress-background: var(--brand-ink);
   --quiz-progress-border: 3px solid var(--brand-cream);
   --quiz-question-number-color: var(--brand-yellow);
@@ -1635,11 +1594,6 @@
   );
   --sentence-quiz-result-desc-color: var(
     --sentence-quiz-result-desc-color-dark
-  );
-  --sentence-quiz-btn-border: var(--sentence-quiz-btn-border-dark);
-  --sentence-quiz-btn-shadow-hover: var(--sentence-quiz-btn-shadow-hover-dark);
-  --sentence-quiz-btn-secondary-color: var(
-    --sentence-quiz-btn-secondary-color-dark
   );
 
   --gamification-bar-inner-border: var(--gamification-bar-inner-border-dark);
@@ -1708,16 +1662,6 @@
 .tool-qualification-card {
   margin: var(--tool-qualification-card-margin);
   padding: var(--tool-qualification-card-padding);
-  border: var(--tool-qualification-card-border-width) solid
-    var(--tool-qualification-card-border-color);
-  box-shadow: var(--tool-qualification-card-shadow);
-  background: var(--tool-qualification-card-background);
-}
-
-.dark .tool-qualification-card {
-  border-color: var(--tool-qualification-card-border-color-dark);
-  box-shadow: var(--tool-qualification-card-shadow-dark);
-  background: var(--tool-qualification-card-background-dark);
 }
 
 .tool-qualification-card .tool-qualification-topline {
@@ -1962,57 +1906,6 @@ header a:hover {
 
 .dark header a:hover {
   color: var(--brand-yellow) !important;
-}
-
-/* Brutal button styles for forms */
-.brutal-btn-form {
-  filter: drop-shadow(var(--ui-shadow-medium));
-  transition: all var(--ui-motion-transition);
-  cursor: pointer;
-}
-
-.brutal-btn-form:hover {
-  filter: drop-shadow(var(--ui-shadow-soft));
-  transform: translate(
-    var(--ui-transform-offset-sm),
-    var(--ui-transform-offset-sm)
-  );
-}
-
-.brutal-btn-form:active {
-  filter: drop-shadow(var(--ui-shadow-ink));
-  transform: translate(
-    var(--ui-transform-offset-lg),
-    var(--ui-transform-offset-lg)
-  );
-}
-
-.dark .brutal-btn-form {
-  filter: drop-shadow(var(--ui-shadow-medium-dark));
-}
-
-.dark .brutal-btn-form:hover {
-  filter: drop-shadow(var(--ui-shadow-soft-dark));
-}
-
-.dark .brutal-btn-form:active {
-  filter: drop-shadow(var(--ui-shadow-ink-dark));
-}
-
-/* Variante jaune pour Hero section */
-.brutal-btn-hero {
-  filter: drop-shadow(var(--ui-shadow-medium));
-  transition: all var(--ui-motion-transition);
-  cursor: pointer;
-}
-
-/* Ombres noires uniquement pour les boutons dans la section Hero en dark mode */
-.dark .hero-section .brutal-btn {
-  filter: drop-shadow(var(--ui-shadow-medium-ink)) !important;
-}
-
-.dark .hero-section .brutal-btn:hover {
-  filter: drop-shadow(var(--ui-shadow-soft-ink)) !important;
 }
 
 /* Typography classes */
@@ -2364,14 +2257,6 @@ body {
 
 .shortcut-card {
   padding: 1.2rem;
-  border: 3px solid var(--brand-black);
-  border-radius: var(--gc-semantic-shape-card-radius);
-  background: color-mix(
-    in srgb,
-    var(--gc-primitive-color-brand-cream) 92%,
-    transparent
-  );
-  box-shadow: 6px 6px 0 var(--brand-black);
   grid-template-rows: auto 1fr auto;
 }
 
@@ -2394,16 +2279,6 @@ body {
   display: grid;
   gap: 0.6rem;
   padding: 0.85rem 0.9rem;
-  border: 2px solid var(--brand-black);
-  border-radius: var(--gc-semantic-shape-card-radius);
-  background: color-mix(
-    in srgb,
-    var(--gc-primitive-color-brand-cream) 52%,
-    transparent
-  );
-  transition:
-    transform 0.15s ease,
-    background-color 0.15s ease;
 }
 
 .shortcut-preview-main {
@@ -2437,15 +2312,6 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-.shortcut-preview-item:hover {
-  transform: translate(1px, 1px);
-  background: color-mix(
-    in srgb,
-    var(--gc-primitive-color-brand-yellow) 16%,
-    transparent
-  );
 }
 
 .shortcut-preview-item strong {
@@ -2517,25 +2383,6 @@ body {
   color: white;
 }
 
-.dark .shortcut-card {
-  border-color: var(--brand-cream);
-  background: color-mix(
-    in srgb,
-    var(--gc-primitive-color-brand-ink) 90%,
-    transparent
-  );
-  box-shadow: 6px 6px 0 var(--brand-cream);
-}
-
-.dark .shortcut-preview-item {
-  border-color: var(--brand-cream);
-  background: color-mix(
-    in srgb,
-    var(--gc-primitive-color-brand-cream) 4%,
-    transparent
-  );
-}
-
 .dark .shortcut-preview-thumb,
 .dark .shortcut-preview-action-label,
 .dark .shortcut-preview-action-icon {
@@ -2543,14 +2390,6 @@ body {
   background: color-mix(
     in srgb,
     var(--gc-primitive-color-brand-cream) 4%,
-    transparent
-  );
-}
-
-.dark .shortcut-preview-item:hover {
-  background: color-mix(
-    in srgb,
-    var(--gc-primitive-color-brand-yellow) 12%,
     transparent
   );
 }
@@ -2848,7 +2687,9 @@ body {
   display: none;
 }
 
-a.brutal-btn-astro {
+.gc-action.gc-action {
+  --button-color: var(--gc-semantic-color-action-primary);
+  --button-text-color: var(--gc-primitive-color-brand-black);
   --pixel-frame-metal: var(--gc-component-pixel-frame-metal-color);
   clip-path: polygon(
     calc(2 * var(--gc-component-pixel-frame-edge-unit)) 0,
@@ -2889,11 +2730,15 @@ a.brutal-btn-astro {
       var(--gc-component-pixel-frame-edge-unit) 0
       var(--gc-component-pixel-frame-outer-color)
   );
-  background: var(--gc-component-pixel-frame-surface-color);
+  background: var(--button-color);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem 2rem;
+  gap: var(--gc-primitive-space-3);
+  text-decoration: none;
+  min-height: var(--gc-component-button-min-height);
+  padding: var(--gc-component-button-padding-block)
+    var(--gc-component-button-padding-inline);
   border: 0;
   border-radius: var(--gc-component-pixel-frame-radius);
   box-shadow:
@@ -2918,49 +2763,66 @@ a.brutal-btn-astro {
           var(--gc-primitive-border-thin)
       )
       var(--gc-component-pixel-frame-inner-color);
-  transition: all 0.5s ease-in-out;
+  transition:
+    color var(--gc-primitive-duration-fast)
+      cubic-bezier(var(--gc-primitive-easing-standard)),
+    background-color var(--gc-primitive-duration-fast)
+      cubic-bezier(var(--gc-primitive-easing-standard));
   font-family: var(--gc-semantic-type-action-family);
-  font-size: var(--gc-primitive-space-5);
-  font-weight: 700;
-  color: var(--brand-black);
+  font-size: var(--gc-primitive-font-size-body-large);
+  font-weight: var(--gc-primitive-font-weight-bold);
+  color: var(--button-text-color);
   cursor: pointer;
   position: relative;
   z-index: 3;
   pointer-events: auto;
 }
 
-a.brutal-btn-astro:hover,
-a.brutal-btn-astro:focus-visible {
-  --pixel-frame-metal: var(--gc-component-pixel-frame-metal-active-color);
+.gc-action.gc-action--secondary {
+  --button-color: var(--gc-component-pixel-frame-surface-color);
+  --button-text-color: var(--gc-semantic-color-action-primary);
 }
 
-a.brutal-btn-astro:hover {
+.gc-action.gc-action:hover,
+.gc-action.gc-action:focus-visible {
+  --pixel-frame-metal: var(--gc-component-pixel-frame-metal-active-color);
+  background-color: var(--gc-semantic-color-action-secondary);
+  color: var(--gc-primitive-color-brand-cream);
+}
+
+.gc-action.gc-action:focus-visible {
+  outline: var(--gc-component-pixel-frame-border-width) solid
+    var(--gc-primitive-color-brand-cream);
+  outline-offset: var(--gc-component-pixel-frame-edge-unit);
+}
+
+.gc-action.gc-action:hover {
+  filter: drop-shadow(
+    var(--gc-component-pixel-frame-edge-unit)
+      var(--gc-component-pixel-frame-edge-unit) 0
+      var(--gc-component-pixel-frame-outer-color)
+  );
+  background-color: var(--gc-semantic-color-action-secondary);
+  color: var(--gc-primitive-color-brand-cream) !important;
+}
+
+.dark .gc-action.gc-action {
   filter: drop-shadow(
     var(--gc-component-pixel-frame-edge-unit)
       var(--gc-component-pixel-frame-edge-unit) 0
       var(--gc-component-pixel-frame-outer-color)
   );
   background-color: var(--button-color);
-  color: var(--brand-black) !important;
-}
-
-.dark a.brutal-btn-astro {
-  filter: drop-shadow(
-    var(--gc-component-pixel-frame-edge-unit)
-      var(--gc-component-pixel-frame-edge-unit) 0
-      var(--gc-component-pixel-frame-outer-color)
-  );
-  background-color: var(--gc-component-pixel-frame-surface-color);
   border: 0;
-  color: var(--button-shadow-color);
+  color: var(--button-text-color);
 }
 
-.dark a.brutal-btn-astro:hover,
-.dark a.brutal-btn-astro:active,
-.dark a.brutal-btn-astro:focus,
-.dark a.brutal-btn-astro:focus-visible {
+.dark .gc-action.gc-action:hover,
+.dark .gc-action.gc-action:active,
+.dark .gc-action.gc-action:focus,
+.dark .gc-action.gc-action:focus-visible {
   --pixel-frame-metal: var(--gc-component-pixel-frame-metal-active-color);
-  background-color: var(--button-color);
+  background-color: var(--gc-semantic-color-action-secondary);
   color: var(--gc-primitive-color-brand-cream) !important;
   filter: drop-shadow(
     var(--gc-component-pixel-frame-edge-unit)
@@ -2969,9 +2831,234 @@ a.brutal-btn-astro:hover {
   );
 }
 
-a.brutal-btn-astro:disabled,
-a.brutal-btn-astro[aria-disabled="true"] {
+.gc-action.gc-action:disabled,
+.gc-action.gc-action[aria-disabled="true"] {
   --pixel-frame-metal: var(--gc-component-pixel-frame-disabled-metal-color);
+  cursor: not-allowed;
+  opacity: var(--gc-primitive-opacity-disabled);
+}
+
+.gc-control.gc-control {
+  min-height: var(--gc-component-button-min-height);
+  padding: var(--gc-primitive-space-2) var(--gc-primitive-space-4);
+  border: var(--gc-component-pixel-frame-border-width) solid
+    var(--gc-component-pixel-frame-outer-color);
+  border-radius: var(--gc-component-pixel-frame-radius);
+  background: var(--gc-component-pixel-frame-surface-color);
+  color: var(--gc-semantic-color-action-primary);
+  font-family: var(--gc-semantic-type-action-family);
+  font-weight: var(--gc-primitive-font-weight-bold);
+  cursor: pointer;
+}
+
+.dark .gc-control.gc-control {
+  border-color: var(--gc-component-pixel-frame-inner-color);
+  background: var(--gc-component-pixel-frame-surface-color);
+  color: var(--gc-semantic-color-action-primary);
+}
+
+.gc-control.gc-control:hover,
+.gc-control.gc-control:focus-visible,
+.gc-control.gc-control[aria-pressed="true"],
+.gc-control.gc-control[aria-selected="true"],
+.gc-control.gc-control.is-active {
+  border-color: var(--gc-component-pixel-frame-metal-active-color);
+  color: var(--gc-primitive-color-brand-cream);
+}
+
+.gc-control.gc-control:focus-visible {
+  outline: var(--gc-component-pixel-frame-border-width) solid
+    var(--gc-primitive-color-brand-cream);
+  outline-offset: var(--gc-component-pixel-frame-edge-unit);
+}
+
+.gc-control.gc-control:disabled,
+.gc-control.gc-control[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: var(--gc-primitive-opacity-disabled);
+}
+
+.gc-control.gc-control--icon {
+  inline-size: var(--gc-component-button-min-height);
+  padding: var(--gc-primitive-space-2);
+}
+
+.gc-field {
+  display: grid;
+  gap: var(--gc-primitive-space-2);
+  color: var(--gc-semantic-color-text);
+  font-family: var(--gc-semantic-type-body-family);
+  font-weight: var(--gc-primitive-font-weight-bold);
+}
+
+.gc-input.gc-input {
+  width: 100%;
+  min-height: var(--gc-component-input-min-height);
+  padding-inline: var(--gc-component-input-padding-inline);
+  border: var(--gc-component-input-border-width) solid var(--gc-component-pixel-frame-outer-color);
+  border-radius: var(--gc-component-pixel-frame-radius);
+  background: var(--gc-component-pixel-frame-surface-color);
+  color: var(--gc-semantic-color-text);
+  font: inherit;
+}
+
+.gc-input.gc-input:focus-visible {
+  outline: var(--gc-component-pixel-frame-border-width) solid var(--gc-semantic-color-focus);
+  outline-offset: var(--gc-component-pixel-frame-edge-unit);
+  border-color: var(--gc-component-pixel-frame-metal-active-color);
+}
+
+.gc-chip.gc-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--gc-component-button-min-height);
+  padding: var(--gc-primitive-space-1) var(--gc-primitive-space-3);
+  border: var(--gc-primitive-border-thin) solid var(--gc-component-pixel-frame-inner-color);
+  border-radius: var(--gc-component-pixel-frame-radius);
+  background: var(--gc-component-pixel-frame-surface-color);
+  color: var(--gc-semantic-color-text);
+  font-family: var(--gc-semantic-type-action-family);
+  text-decoration: none;
+}
+
+.gc-chip.gc-chip:hover,
+.gc-chip.gc-chip:focus-visible,
+.gc-chip.gc-chip[aria-pressed="true"],
+.gc-chip.gc-chip.is-active {
+  border-color: var(--gc-component-pixel-frame-metal-active-color);
+  color: var(--gc-semantic-color-action-primary);
+}
+
+.gc-chip.gc-chip:focus-visible {
+  outline: var(--gc-component-pixel-frame-border-width) solid var(--gc-semantic-color-focus);
+  outline-offset: var(--gc-component-pixel-frame-edge-unit);
+}
+
+.gc-status.gc-status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--gc-primitive-space-1);
+  padding: var(--gc-primitive-space-1) var(--gc-primitive-space-2);
+  border: var(--gc-primitive-border-thin) solid var(--gc-component-pixel-frame-inner-color);
+  border-radius: var(--gc-component-pixel-frame-radius);
+  background: var(--gc-component-pixel-frame-surface-color);
+  color: var(--gc-semantic-color-text);
+  font-family: var(--gc-semantic-type-body-family);
+  font-weight: var(--gc-primitive-font-weight-bold);
+}
+
+.gc-status.gc-status--reward,
+.gc-status.gc-status--success {
+  border-color: var(--gc-component-pixel-frame-metal-active-color);
+  color: var(--gc-semantic-color-action-primary);
+}
+
+.gc-status.gc-status--pending,
+.gc-status.gc-status--disabled {
+  border-color: var(--gc-component-pixel-frame-disabled-metal-color);
+  opacity: var(--gc-primitive-opacity-muted);
+}
+
+.gc-notice.gc-notice {
+  padding: var(--gc-primitive-space-4);
+  border: var(--gc-component-pixel-frame-border-width) solid var(--gc-component-pixel-frame-inner-color);
+  border-radius: var(--gc-component-pixel-frame-radius);
+  background: var(--gc-component-pixel-frame-surface-color);
+  color: var(--gc-semantic-color-text);
+  box-shadow: var(--gc-component-pixel-frame-shadow);
+}
+
+.gc-notice.gc-notice--reward {
+  border-color: var(--gc-component-pixel-frame-metal-active-color);
+}
+
+/* Shared Pixel Mine card frame. Component styles own layout; this owns the frame and states. */
+.gc-card.gc-card.gc-card {
+  --gc-card-metal: var(--gc-component-pixel-frame-metal-color);
+  --gc-card-surface: var(--gc-component-pixel-frame-surface-color);
+  --gc-card-step: var(--gc-component-pixel-frame-edge-unit);
+  position: relative;
+  border: 0;
+  border-radius: var(--gc-component-pixel-frame-radius);
+  background: var(--gc-card-surface);
+  clip-path: polygon(
+    calc(2 * var(--gc-card-step)) 0,
+    calc(100% - 2 * var(--gc-card-step)) 0,
+    calc(100% - 2 * var(--gc-card-step)) var(--gc-card-step),
+    calc(100% - var(--gc-card-step)) var(--gc-card-step),
+    calc(100% - var(--gc-card-step)) calc(2 * var(--gc-card-step)),
+    100% calc(2 * var(--gc-card-step)),
+    100% calc(100% - 2 * var(--gc-card-step)),
+    calc(100% - var(--gc-card-step)) calc(100% - 2 * var(--gc-card-step)),
+    calc(100% - var(--gc-card-step)) calc(100% - var(--gc-card-step)),
+    calc(100% - 2 * var(--gc-card-step)) calc(100% - var(--gc-card-step)),
+    calc(100% - 2 * var(--gc-card-step)) 100%,
+    calc(2 * var(--gc-card-step)) 100%,
+    calc(2 * var(--gc-card-step)) calc(100% - var(--gc-card-step)),
+    var(--gc-card-step) calc(100% - var(--gc-card-step)),
+    var(--gc-card-step) calc(100% - 2 * var(--gc-card-step)),
+    0 calc(100% - 2 * var(--gc-card-step)),
+    0 calc(2 * var(--gc-card-step)),
+    var(--gc-card-step) calc(2 * var(--gc-card-step)),
+    var(--gc-card-step) var(--gc-card-step),
+    calc(2 * var(--gc-card-step)) var(--gc-card-step)
+  );
+  box-shadow:
+    inset 0 0 0 var(--gc-component-pixel-frame-border-width)
+      var(--gc-component-pixel-frame-outer-color),
+    inset 0 0 0
+      calc(
+        var(--gc-component-pixel-frame-border-width) +
+          var(--gc-primitive-border-thin)
+      )
+      var(--gc-card-metal),
+    inset 0 0 0
+      calc(
+        var(--gc-component-pixel-frame-border-width) +
+          var(--gc-component-pixel-frame-edge-unit)
+      )
+      var(--gc-component-pixel-frame-separator-color),
+    inset 0 0 0
+      calc(
+        var(--gc-component-pixel-frame-border-width) +
+          var(--gc-component-pixel-frame-edge-unit) +
+          var(--gc-primitive-border-thin)
+      )
+      var(--gc-component-pixel-frame-inner-color);
+  filter: drop-shadow(
+    var(--gc-component-pixel-frame-edge-unit)
+      var(--gc-component-pixel-frame-edge-unit) 0
+      var(--gc-component-pixel-frame-outer-color)
+  );
+}
+
+.gc-card.gc-card--interactive,
+.gc-card.gc-card--selectable {
+  cursor: pointer;
+}
+
+.gc-card.gc-card--interactive:hover,
+.gc-card.gc-card--interactive:focus-visible,
+.gc-card.gc-card--selectable:hover,
+.gc-card.gc-card--selectable:focus-visible,
+.gc-card.gc-card--selectable[aria-pressed="true"],
+.gc-card.gc-card--selectable[aria-selected="true"],
+.gc-card.gc-card--selectable.is-active,
+.gc-card.gc-card--reward {
+  --gc-card-metal: var(--gc-component-pixel-frame-metal-active-color);
+}
+
+.gc-card.gc-card--interactive:focus-visible,
+.gc-card.gc-card--selectable:focus-visible {
+  outline: var(--gc-component-pixel-frame-border-width) solid
+    var(--gc-primitive-color-brand-cream);
+  outline-offset: var(--gc-component-pixel-frame-edge-unit);
+}
+
+.gc-card.gc-card[aria-disabled="true"],
+.gc-card.gc-card:disabled,
+.gc-card.gc-card.is-locked {
+  --gc-card-metal: var(--gc-component-pixel-frame-disabled-metal-color);
   cursor: not-allowed;
   opacity: var(--gc-primitive-opacity-disabled);
 }
@@ -2981,41 +3068,10 @@ a.brutal-btn-astro[aria-disabled="true"] {
   align-items: center;
   gap: var(--gc-primitive-space-3);
   padding: 0.75rem 1rem;
-  border: 3px solid var(--brand-black);
-  border-radius: var(--gc-primitive-space-2);
-  background: var(--brand-cream);
-  box-shadow: 4px 4px 0 var(--brand-black);
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
-}
-
-.charbon-badge-card:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--brand-black);
 }
 
 .dark .charbon-badge-card {
-  background: var(--brand-ink);
-  border-color: var(--brand-cream);
-  box-shadow: 4px 4px 0 var(--brand-cream);
   color: var(--brand-cream);
-}
-
-.dark .charbon-badge-card:hover {
-  box-shadow: 6px 6px 0 var(--brand-cream);
-}
-
-.charbon-badge-card.locked {
-  opacity: 0.5;
-}
-
-.charbon-badge-card.earned {
-  background: var(--brand-yellow);
-}
-
-.dark .charbon-badge-card.earned {
-  background: var(--brand-anthracite);
 }
 
 .charbon-badge-card .badge-icon-wrap {

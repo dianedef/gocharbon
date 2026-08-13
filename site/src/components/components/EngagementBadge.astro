@@ -9,7 +9,7 @@ interface Props {
 const { badge, compact = false } = Astro.props;
 ---
 
-<div class:list={["engagement-badge", `engagement-badge--${badge.tone}`, compact && "engagement-badge--compact"]}>
+<div class:list={["engagement-badge", "gc-status", badge.tone === "pending" ? "gc-status--pending" : "gc-status--reward", `engagement-badge--${badge.tone}`, compact && "engagement-badge--compact"]}>
   <span class="engagement-badge__eyebrow">Badge GoCharbon</span>
   <strong class="engagement-badge__title">{compact ? badge.shortLabel : badge.label}</strong>
   <span class="engagement-badge__score">Score {badge.score}/{badge.maxScore}</span>

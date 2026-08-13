@@ -96,11 +96,11 @@ const homeDescription = launchBuild
           <p class="mine-lead desktop-hero-lead">Un parcours guidé pour transformer une envie de gagner de l’argent en activité solide.</p>
           <p class="mine-lead mobile-hero-lead">Un parcours clair pour transformer tes idées en activité concrète.</p>
           <div class="mine-actions">
-            <a class="mine-primary-action" href="#questionnaire-express">
+            <Button href="#questionnaire-express">
               <span aria-hidden="true">↗</span>
               Trouver mon filon
-            </a>
-            <a class="mine-text-action" href={ROUTES.parcours}>Voir comment ça marche <span aria-hidden="true">›</span></a>
+            </Button>
+            <Button href={ROUTES.parcours} variant="secondary">Voir comment ça marche <span aria-hidden="true">›</span></Button>
           </div>
         </div>
 
@@ -112,7 +112,7 @@ const homeDescription = launchBuild
           height="288"
         />
 
-        <aside class="depth-panel" aria-label="Étapes de l’exploration">
+        <aside class="depth-panel gc-card gc-card--informative" aria-label="Étapes de l’exploration">
           <p>Profondeur</p>
           <ol>
             <li><span>Surface</span><small>Idée brute</small></li>
@@ -123,7 +123,7 @@ const homeDescription = launchBuild
           </ol>
         </aside>
 
-        <section id="questionnaire-express" class="expedition-panel landing-quiz" aria-labelledby="questionnaire-title">
+        <section id="questionnaire-express" class="expedition-panel landing-quiz gc-card gc-card--informative" aria-labelledby="questionnaire-title">
           <div class="pixel-panel-heading">
             <p>Questionnaire express</p>
             <span><i aria-hidden="true"></i> 2 min</span>
@@ -142,7 +142,7 @@ const homeDescription = launchBuild
         </section>
 
         <aside class="analysis-stack" aria-label="Aperçu de l’analyse GoCharbon">
-          <section class="analysis-panel">
+          <section class="analysis-panel gc-card gc-card--informative">
             <p class="analysis-title">Console d’analyse</p>
             <div class="analysis-console">
               <p>&gt; objectif : revenu concret</p>
@@ -153,12 +153,12 @@ const homeDescription = launchBuild
               <p>&gt; _</p>
             </div>
           </section>
-          <section class="next-step-panel">
+          <section class="next-step-panel gc-card gc-card--informative">
             <p class="analysis-title">Après le diagnostic</p>
             <strong>Un parcours concret, dans le bon ordre.</strong>
-            <a href={ROUTES.parcours}>Voir les parcours <span aria-hidden="true">›</span></a>
+            <Button href={ROUTES.parcours} variant="secondary">Voir les parcours <span aria-hidden="true">›</span></Button>
           </section>
-          <section class="reward-panel">
+          <section class="reward-panel gc-card gc-card--reward">
             <div>
               <p class="analysis-title">Objectif</p>
               <strong>Passer à l’action</strong>
@@ -168,7 +168,7 @@ const homeDescription = launchBuild
         </aside>
       </div>
 
-      <div class="mine-feature-strip" aria-label="Les quatre piliers GoCharbon">
+      <div class="mine-feature-strip gc-card gc-card--informative" aria-label="Les quatre piliers GoCharbon">
         <a href={ROUTES.parcours}><img src="/images/icons/pixel-mine-v1/map-v1.png" alt="" aria-hidden="true" width="48" height="48" /><div><strong>Parcours guidés</strong><small>Des plans d’action pas à pas.</small></div></a>
         <a href={ROUTES.outils}><img src="/images/icons/pixel-mine-v1/toolbox-v1.png" alt="" aria-hidden="true" width="48" height="48" /><div><strong>Outils de terrain</strong><small>Templates et calculateurs.</small></div></a>
         <a href={ROUTES.blog}><img src="/images/icons/pixel-mine-v1/market-chart-v1.png" alt="" aria-hidden="true" width="48" height="48" /><div><strong>Signaux du marché</strong><small>Des repères pour décider.</small></div></a>
@@ -186,19 +186,19 @@ const homeDescription = launchBuild
           </p>
         </div>
         <div class="proof-grid">
-          <article class="proof-card">
+          <article class="proof-card gc-card gc-card--informative">
             <strong>{totalPaths}</strong>
             <span>parcours reliés à des profils business clairs</span>
           </article>
-          <article class="proof-card">
+          <article class="proof-card gc-card gc-card--informative">
             <strong>{totalModules}</strong>
             <span>modules pour passer des bases à l'exécution terrain</span>
           </article>
-          <article class="proof-card">
+          <article class="proof-card gc-card gc-card--informative">
             <strong>{totalSteps}</strong>
             <span>étapes actionnables déjà structurées dans le système</span>
           </article>
-          <article class="proof-card">
+          <article class="proof-card gc-card gc-card--informative">
             <strong>{launchBuild ? "1 focus" : `${allPosts.length}+`}</strong>
             <span>{launchBuild ? "cinq parcours pilotes assumés avant d'élargir le reste du site" : "guides, tutos et contenus pour te débloquer sans tourner en rond"}</span>
           </article>
@@ -218,7 +218,7 @@ const homeDescription = launchBuild
           </div>
           <div class="entry-grid">
             {launchSignals.map((signal) => (
-              <article class="entry-card">
+              <article class="entry-card gc-card gc-card--informative">
                 <p class="entry-label">{signal.kicker}</p>
                 <h3>{signal.title}</h3>
                 <p>{signal.description}</p>
@@ -230,7 +230,7 @@ const homeDescription = launchBuild
                   ))}
                 </div>
                 <p class="entry-cta-row">
-                  <a href={getParcoursRoute(signal.pathId)}>Ouvrir ce parcours →</a>
+                  <Button href={getParcoursRoute(signal.pathId)} variant="secondary">Ouvrir ce parcours →</Button>
                 </p>
               </article>
             ))}
@@ -246,7 +246,7 @@ const homeDescription = launchBuild
           <h2 class="section-title poppins">Choisir, exécuter, tenir : dans cet ordre-là</h2>
         </div>
         <div class="difference-grid">
-          <article class="difference-card">
+          <article class="difference-card gc-card gc-card--informative">
             <p class="difference-number">01</p>
             <h3>Orientation</h3>
             <p>
@@ -255,14 +255,14 @@ const homeDescription = launchBuild
                 : "Tu commences par un quiz et des portes d'entrée concrètes. Moins de confusion, moins de dispersion, plus de décision."}
             </p>
           </article>
-          <article class="difference-card">
+          <article class="difference-card gc-card gc-card--informative">
             <p class="difference-number">02</p>
             <h3>Exécution</h3>
             <p>
               Chaque parcours relie bases, spécialisation et plan 7 jours. Tu vois l'ordre des actions au lieu d'empiler des lectures.
             </p>
           </article>
-          <article class="difference-card">
+          <article class="difference-card gc-card gc-card--informative">
             <p class="difference-number">03</p>
             <h3>Motivation visible</h3>
             <p>
@@ -284,13 +284,13 @@ const homeDescription = launchBuild
         </div>
         <div class="entry-grid">
           {entryPoints.map((entry) => (
-            <a href={entry.href} class="entry-card no-link-style">
+            <article class="entry-card gc-card gc-card--informative">
               <p class="entry-label">{entry.label}</p>
               <h3>{entry.title}</h3>
               <p>{entry.description}</p>
               <p class="entry-examples">{entry.examples}</p>
-              <span>Ouvrir ce parcours →</span>
-            </a>
+              <Button href={entry.href} variant="secondary">Ouvrir ce parcours →</Button>
+            </article>
           ))}
         </div>
       </div>
@@ -303,7 +303,7 @@ const homeDescription = launchBuild
           <h2 class="section-title poppins">Tu sais ce que tu vas trouver avant même de cliquer</h2>
         </div>
         <div class="showcase-grid">
-          <article class="showcase-card">
+          <article class="showcase-card gc-card gc-card--informative">
             <div class="showcase-card-head">
               <span class="showcase-chip">Parcours type</span>
               <strong>3 modules</strong>
@@ -322,31 +322,31 @@ const homeDescription = launchBuild
               ))}
             </ul>
             <div class="showcase-footer">
-              <Button href={getParcoursRoute(productPreview.profile.id)} color="var(--gc-semantic-color-action-primary)">
+              <Button href={getParcoursRoute(productPreview.profile.id)}>
                 Voir un vrai parcours
               </Button>
             </div>
           </article>
 
-          <article class="showcase-card dashboard-card">
+          <article class="showcase-card dashboard-card gc-card gc-card--informative">
             <div class="showcase-card-head">
               <span class="showcase-chip">Progression</span>
               <strong>Ce que tu gardes sous les yeux</strong>
             </div>
             <div class="dashboard-grid">
-              <div class="dashboard-stat">
+              <div class="dashboard-stat gc-card gc-card--informative">
                 <strong>180 XP</strong>
                 <span>momentum visible</span>
               </div>
-              <div class="dashboard-stat">
+              <div class="dashboard-stat gc-card gc-card--informative">
                 <strong>3 jours</strong>
                 <span>série de lecture</span>
               </div>
-              <div class="dashboard-stat">
+              <div class="dashboard-stat gc-card gc-card--informative">
                 <strong>2 badges</strong>
                 <span>premiers repères</span>
               </div>
-              <div class="dashboard-stat">
+              <div class="dashboard-stat gc-card gc-card--informative">
                 <strong>39%</strong>
                 <span>parcours en cours</span>
               </div>
@@ -362,19 +362,19 @@ const homeDescription = launchBuild
             <div class="showcase-footer dual">
               {launchBuild ? (
                 <>
-                  <Button href={ROUTES.parcours} color="var(--gc-semantic-color-action-secondary)">
+                  <Button href={ROUTES.parcours} variant="secondary">
                     Voir tous les parcours
                   </Button>
-                  <Button href="#entry-points" color="var(--gc-semantic-color-action-primary)">
+                  <Button href="#entry-points">
                     Revoir les portes d'entrée
                   </Button>
                 </>
               ) : (
                 <>
-                  <Button href={ROUTES.progression} color="var(--gc-semantic-color-action-secondary)">
+                  <Button href={ROUTES.progression} variant="secondary">
                     Voir la progression
                   </Button>
-                  <Button href={ROUTES.quizAvance} color="var(--gc-semantic-color-action-primary)">
+                  <Button href={ROUTES.quizAvance}>
                     Affiner le quiz
                   </Button>
                 </>
@@ -398,7 +398,7 @@ const homeDescription = launchBuild
         </div>
         <div class="popular-grid">
           {popularPaths.map((path) => (
-            <a href={getParcoursRoute(path.id)} class="popular-card no-link-style">
+            <article class="popular-card gc-card gc-card--informative">
               <p class="popular-category">{path.category}</p>
               <h3>{path.profileTitle}</h3>
               <p>{path.outcome}</p>
@@ -406,8 +406,8 @@ const homeDescription = launchBuild
                 <span>{path.modules.length} modules</span>
                 <span>{path.estimatedDuration}</span>
               </div>
-              <span class="popular-cta">Voir le parcours →</span>
-            </a>
+              <Button href={getParcoursRoute(path.id)} variant="secondary">Voir le parcours →</Button>
+            </article>
           ))}
         </div>
       </div>
@@ -549,17 +549,6 @@ const homeDescription = launchBuild
 
   .hero-point,
   .hero-panel,
-  .proof-card,
-  .difference-card,
-  .entry-card,
-  .showcase-card,
-  .popular-card {
-    border: var(--home-surface-border-width) solid var(--home-surface-border-color);
-    background: var(--home-surface-bg);
-    box-shadow: var(--home-surface-shadow);
-    transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
-  }
-
   .hero-point {
     display: grid;
     gap: 0.15rem;
@@ -568,15 +557,6 @@ const homeDescription = launchBuild
 
   .hero-point:hover,
   .hero-panel:hover,
-  .proof-card:hover,
-  .difference-card:hover,
-  .entry-card:hover,
-  .popular-card:hover,
-  .showcase-card:hover {
-    transform: translate(2px, 2px);
-    box-shadow: var(--home-surface-shadow-hover);
-  }
-
   .hero-point strong,
   .proof-card strong,
   .dashboard-stat strong,
@@ -618,7 +598,6 @@ const homeDescription = launchBuild
 
   .hero-panel {
     padding: var(--home-surface-padding-sm);
-    border-radius: var(--gc-semantic-shape-card-radius);
   }
 
   .hero-panel-quiz {
@@ -819,7 +798,6 @@ const homeDescription = launchBuild
   .popular-card,
   .showcase-card {
     padding: 1.2rem;
-    border-radius: var(--gc-semantic-shape-card-radius);
   }
 
   .proof-card strong {
@@ -883,13 +861,7 @@ const homeDescription = launchBuild
     margin: 0;
   }
 
-  .entry-cta-row a {
-    font-weight: 700;
-    color: inherit;
-  }
-
-  .entry-card span,
-  .popular-cta {
+  .entry-card span {
     font-weight: 700;
   }
 
@@ -940,8 +912,6 @@ const homeDescription = launchBuild
 
   .dashboard-stat {
     padding: 0.9rem;
-    border: var(--home-dashboard-stat-border-width) solid var(--home-dashboard-stat-border-color);
-    background: var(--home-dashboard-stat-bg);
   }
 
   .badge-row {
@@ -1013,24 +983,7 @@ const homeDescription = launchBuild
   .entry-card,
   .showcase-card,
   .popular-card {
-    border-color: var(--gc-semantic-color-border);
-    background: var(--gc-semantic-color-mine-panel);
     color: var(--gc-semantic-color-text);
-    box-shadow: var(--gc-primitive-space-2) var(--gc-primitive-space-2) 0 var(--gc-semantic-color-shadow);
-  }
-
-  .difference-card:hover,
-  .entry-card:hover,
-  .popular-card:hover,
-  .showcase-card:hover {
-    box-shadow: var(--gc-semantic-shape-pixel-unit) var(--gc-semantic-shape-pixel-unit) 0 var(--gc-semantic-color-shadow);
-  }
-
-  :global(a.brutal-btn):focus-visible,
-  :global(button.brutal-btn):focus-visible,
-  .path-btn:focus-visible {
-    outline: var(--gc-semantic-shape-border-width) solid var(--gc-semantic-color-focus);
-    outline-offset: var(--gc-surface-web-hover-offset);
   }
 
   .source-links a {
@@ -1039,11 +992,6 @@ const homeDescription = launchBuild
   }
 
   .preview-track {
-    border-color: var(--gc-semantic-color-border);
-    background: var(--gc-semantic-color-surface);
-  }
-
-  .dashboard-stat {
     border-color: var(--gc-semantic-color-border);
     background: var(--gc-semantic-color-surface);
   }
@@ -1102,8 +1050,8 @@ const homeDescription = launchBuild
       grid-template-columns: 1fr 1fr;
     }
 
-    .hero-actions :global(a.brutal-btn),
-    .showcase-footer :global(a.brutal-btn),
+    .hero-actions :global(.gc-action),
+    .showcase-footer :global(.gc-action),
     .preview-topline,
     .showcase-card-head {
       flex-direction: column;
@@ -1240,29 +1188,6 @@ const homeDescription = launchBuild
     margin-top: var(--gc-primitive-space-8);
   }
 
-  .mine-primary-action {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--gc-primitive-space-3);
-    min-height: var(--gc-primitive-size-touch-minimum);
-    padding: var(--gc-primitive-space-4) var(--gc-primitive-space-6);
-    border: var(--gc-surface-web-landing-panel-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 70%, transparent);
-    background: var(--gc-primitive-color-brand-yellow);
-    box-shadow: var(--gc-primitive-space-1) var(--gc-primitive-space-1) 0 var(--gc-primitive-color-brand-gold-deep);
-    color: var(--gc-primitive-color-brand-black);
-    font-family: var(--gc-semantic-type-action-family);
-    font-size: var(--gc-primitive-font-size-body-large);
-    font-weight: var(--gc-primitive-font-weight-bold);
-    text-decoration: none;
-  }
-
-  .mine-text-action {
-    border-bottom: var(--gc-semantic-shape-pixel-unit) dashed var(--gc-primitive-color-brand-gold-deep);
-    color: var(--gc-primitive-color-brand-cream);
-    font-size: var(--gc-primitive-font-size-caption);
-    text-decoration: none;
-  }
-
   .mine-guide {
     position: absolute;
     z-index: 0;
@@ -1280,10 +1205,6 @@ const homeDescription = launchBuild
   .analysis-panel,
   .next-step-panel,
   .reward-panel {
-    border: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 18%, transparent);
-    border-radius: var(--gc-component-pixel-frame-radius);
-    background: color-mix(in srgb, var(--gc-surface-web-landing-panel-background) 94%, transparent);
-    box-shadow: inset 0 0 0 var(--gc-component-pixel-frame-edge-unit) color-mix(in srgb, var(--gc-primitive-color-brand-black) 70%, transparent), var(--gc-component-pixel-frame-shadow);
   }
 
   .depth-panel {
@@ -1377,7 +1298,7 @@ const homeDescription = launchBuild
     width: var(--gc-primitive-space-2);
     height: var(--gc-primitive-space-2);
     background: var(--gc-primitive-color-brand-yellow);
-    box-shadow: 0 0 var(--gc-primitive-space-2) var(--gc-primitive-color-brand-gold-deep);
+    box-shadow: var(--gc-primitive-space-half) var(--gc-primitive-space-half) 0 var(--gc-primitive-color-brand-gold-deep);
   }
 
   .expedition-intro {
@@ -1529,8 +1450,6 @@ const homeDescription = launchBuild
     grid-template-columns: repeat(4, 1fr);
     width: min(calc(100% - var(--gc-primitive-space-12)), var(--gc-surface-web-landing-desktop-maximum));
     margin: calc(var(--gc-primitive-space-12) * -1) auto var(--gc-primitive-space-6);
-    border: var(--gc-component-pixel-frame-border-width) solid color-mix(in srgb, var(--gc-primitive-color-brand-cream) 18%, transparent);
-    background: color-mix(in srgb, var(--gc-surface-web-landing-panel-background) 94%, transparent);
   }
 
   .mine-feature-strip a {
@@ -1622,19 +1541,7 @@ const homeDescription = launchBuild
   .proof-section .proof-card {
     position: relative;
     overflow: hidden;
-    border: var(--gc-component-pixel-frame-border-width) solid var(--gc-semantic-color-border);
-    border-radius: var(--gc-component-pixel-frame-radius);
-    background: var(--gc-semantic-color-surface);
-    box-shadow: inset 0 0 0 var(--gc-component-pixel-frame-edge-unit) color-mix(in srgb, var(--gc-semantic-color-border) 12%, transparent), var(--gc-component-pixel-frame-edge-unit) var(--gc-component-pixel-frame-edge-unit) 0 var(--gc-semantic-color-shadow);
     color: var(--gc-semantic-color-text);
-  }
-
-  .proof-section .proof-card::before {
-    content: "";
-    position: absolute;
-    inset: 0 0 auto;
-    height: var(--gc-semantic-shape-pixel-unit);
-    background: var(--gc-semantic-color-mineral-value);
   }
 
   .proof-section .proof-card strong {
@@ -1647,17 +1554,8 @@ const homeDescription = launchBuild
     line-height: var(--gc-primitive-font-line-height-body);
   }
 
-  .proof-section .proof-card:hover {
-    border-color: var(--gc-semantic-color-mineral-value);
-    box-shadow: var(--gc-semantic-shape-pixel-unit) var(--gc-semantic-shape-pixel-unit) 0 var(--gc-semantic-color-shadow);
-  }
-
   :global([data-theme="dark"]) .proof-section {
     background: var(--gc-semantic-color-mine-depth);
-  }
-
-  :global([data-theme="dark"]) .proof-section .proof-card {
-    background: var(--gc-semantic-color-mine-panel);
   }
 
   @media (max-width: var(--home-mobile-breakpoint)) {
@@ -1775,8 +1673,6 @@ const homeDescription = launchBuild
     .expedition-panel {
       order: 3;
       width: 100%;
-      border-color: var(--gc-primitive-color-brand-gold-deep);
-      box-shadow: inset 0 0 0 var(--gc-component-pixel-frame-edge-unit) var(--gc-primitive-color-brand-black), var(--gc-component-pixel-frame-shadow);
     }
 
     .pixel-panel-heading {
@@ -1816,7 +1712,6 @@ const homeDescription = launchBuild
       display: block;
       width: 100%;
       padding: var(--gc-primitive-space-4);
-      border-color: var(--gc-primitive-color-brand-gold-deep);
     }
 
     .depth-panel > p::after {
@@ -1865,7 +1760,6 @@ const homeDescription = launchBuild
       grid-template-columns: auto 1fr;
       align-items: center;
       padding: var(--gc-primitive-space-3) var(--gc-primitive-space-4);
-      border-color: var(--gc-primitive-color-brand-gold-deep);
     }
 
     .analysis-panel > .analysis-title {
@@ -1891,7 +1785,6 @@ const homeDescription = launchBuild
       grid-template-columns: repeat(2, 1fr);
       width: calc(100% - var(--gc-primitive-space-6));
       margin: 0 auto var(--gc-primitive-space-5);
-      border-color: var(--gc-primitive-color-brand-gold-deep);
     }
 
     .mine-feature-strip a {
@@ -1907,4 +1800,5 @@ const homeDescription = launchBuild
     .mine-feature-strip strong { font-size: 0.68rem; }
     .mine-feature-strip small { display: none; }
   }
+
 </style>

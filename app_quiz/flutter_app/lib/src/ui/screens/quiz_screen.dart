@@ -14,7 +14,8 @@ import "../../state/providers.dart";
 import "../../theme/app_colors.dart";
 import "../../theme/category_config.dart";
 import "../widgets/app_card.dart";
-import "../widgets/depth_button.dart";
+import "../widgets/gc_button.dart";
+import "../widgets/gc_quiz_answer_option.dart";
 
 class QuizScreen extends ConsumerStatefulWidget {
   const QuizScreen({super.key, required this.category, required this.mode});
@@ -361,28 +362,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
                     ),
                   ),
                   const SizedBox(height: GcSpace.x4),
-                  DepthButton(
-                    onPressed: _load,
-                    colors: const [
-                      GcAppColors.primary,
-                      GcAppColors.primaryShadow,
-                    ],
-                    shadowColor: GcAppColors.primaryShadow,
-                    borderRadius: GcRadii.card,
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: GcSpace.x6,
-                        vertical: GcSpace.twoAndHalf,
-                      ),
-                      child: Text(
-                        "Réessayer",
-                        style: TextStyle(
-                          color: GcAppColors.textPrimary,
-                          fontWeight: GcType.bold,
-                        ),
-                      ),
-                    ),
-                  ),
+                  GcButton.primary(onPressed: _load, label: "Réessayer"),
                 ],
               ),
             ),
@@ -407,27 +387,9 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
                   ),
                 ),
                 const SizedBox(height: GcSpace.x3),
-                DepthButton(
+                GcButton.secondary(
                   onPressed: () => context.pop(),
-                  colors: const [
-                    GcAppColors.primary,
-                    GcAppColors.primaryShadow,
-                  ],
-                  shadowColor: GcAppColors.primaryShadow,
-                  borderRadius: GcRadii.card,
-                  child: const Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: GcSpace.x6,
-                      vertical: GcSpace.twoAndHalf,
-                    ),
-                    child: Text(
-                      "Retour",
-                      style: TextStyle(
-                        color: GcAppColors.textPrimary,
-                        fontWeight: GcType.bold,
-                      ),
-                    ),
-                  ),
+                  label: "Retour",
                 ),
               ],
             ),
@@ -487,22 +449,15 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
               // Top bar
               Row(
                 children: [
-                  SizedBox(
-                    width: GcSizes.iconHero,
-                    height: GcSizes.iconHero,
-                    child: IconButton(
-                      onPressed: () {
-                        _timer?.cancel();
-                        unawaited(Sounds.instance.click());
-                        if (!mounted) return;
-                        context.pop();
-                      },
-                      icon: Icon(
-                        MdiIcons.close,
-                        size: GcSizes.iconSmall,
-                        color: GcAppColors.textTertiary,
-                      ),
-                    ),
+                  GcIconButton(
+                    icon: MdiIcons.close,
+                    tooltip: "Quitter le quiz",
+                    onPressed: () {
+                      _timer?.cancel();
+                      unawaited(Sounds.instance.click());
+                      if (!mounted) return;
+                      context.pop();
+                    },
                   ),
                   Expanded(
                     child: Container(
@@ -553,7 +508,6 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
                       horizontal: GcSpace.x3,
                       vertical: GcSpace.twoAndHalf,
                     ),
-                    borderRadius: GcRadii.card,
                     child: Row(
                       children: [
                         Icon(
@@ -723,7 +677,6 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
               if (answered) ...[
                 AppCard(
                   padding: const EdgeInsets.all(GcSpace.x3),
-                  borderRadius: GcRadii.card,
                   borderColor: (_correct ?? false)
                       ? GcAppColors.success.withValues(
                           alpha: GcOpacity.disabled,
@@ -757,47 +710,14 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
                   ),
                 ),
                 const SizedBox(height: GcSpace.x3),
-                DepthButton(
+                GcButton.primary(
                   onPressed: _next,
-                  colors: _currentIndex == _questions.length - 1
-                      ? const [GcAppColors.gold, GcAppColors.goldShadow]
-                      : const [GcAppColors.primary, GcAppColors.primaryShadow],
-                  shadowColor: _currentIndex == _questions.length - 1
-                      ? GcAppColors.goldShadow
-                      : GcAppColors.primaryShadow,
-                  borderRadius: GcRadii.card,
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                      vertical: GcSpace.threeAndHalf,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(
-                          _currentIndex < _questions.length - 1
-                              ? "Question Suivante"
-                              : "Voir les résultats",
-                          style: TextStyle(
-                            fontSize: GcType.body,
-                            fontWeight: GcType.black,
-                            color: _currentIndex == _questions.length - 1
-                                ? GcAppColors.textOnAccent
-                                : GcAppColors.textPrimary,
-                          ),
-                        ),
-                        const SizedBox(width: GcSpace.x2),
-                        Icon(
-                          _currentIndex < _questions.length - 1
-                              ? MdiIcons.arrowRight
-                              : MdiIcons.trophy,
-                          size: GcSpace.x5,
-                          color: _currentIndex == _questions.length - 1
-                              ? GcAppColors.textOnAccent
-                              : GcAppColors.textPrimary,
-                        ),
-                      ],
-                    ),
-                  ),
+                  label: _currentIndex < _questions.length - 1
+                      ? "Question suivante"
+                      : "Voir les résultats",
+                  icon: _currentIndex < _questions.length - 1
+                      ? MdiIcons.arrowRight
+                      : MdiIcons.trophy,
                 ),
                 const SizedBox(height: GcSpace.x3),
               ],
@@ -811,88 +731,29 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
                       const SizedBox(height: GcSpace.x3),
                   itemBuilder: (context, i) {
                     final opt = q.options[i];
-                    return GestureDetector(
-                      onTap: answered ? null : () => _answer(i),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          borderRadius: GcRadii.card,
-                          border: Border.all(color: optBorder(i)),
-                        ),
-                        child: ClipRRect(
-                          borderRadius: GcRadii.card,
-                          child: DecoratedBox(
-                            decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                colors: optBg(i),
-                                begin: Alignment.topLeft,
-                                end: Alignment.bottomRight,
-                              ),
-                            ),
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: GcSpace.threeAndHalf,
-                                vertical: GcSpace.threeAndHalf,
-                              ),
-                              child: Row(
-                                children: [
-                                  if (!isTF) ...[
-                                    Container(
-                                      width: GcSizes.iconMedium,
-                                      height: GcSizes.iconMedium,
-                                      decoration: BoxDecoration(
-                                        color: GcAppColors.transparent,
-                                        borderRadius: GcRadii.card,
-                                        border: Border.all(
-                                          color: optTextColor(i).withValues(
-                                            alpha: GcOpacity.disabled,
-                                          ),
-                                        ),
-                                      ),
-                                      child: Center(
-                                        child: Text(
-                                          String.fromCharCode(65 + i),
-                                          style: TextStyle(
-                                            fontWeight: GcType.black,
-                                            color: optTextColor(i),
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                    const SizedBox(width: GcSpace.x3),
-                                  ],
-                                  Expanded(
-                                    child: Text(
-                                      opt,
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                      style: TextStyle(
-                                        fontSize: GcType.body,
-                                        fontWeight: GcType.bold,
-                                        color: optTextColor(i),
-                                        height: GcType.tightHeight,
-                                      ),
-                                    ),
-                                  ),
-                                  if (answered && i == q.correctAnswer)
-                                    Icon(
-                                      MdiIcons.checkCircle,
-                                      size: GcSpace.x5,
-                                      color: GcAppColors.success,
-                                    ),
-                                  if (answered &&
-                                      i == _selected &&
-                                      _correct == false)
-                                    Icon(
-                                      MdiIcons.closeCircle,
-                                      size: GcSpace.x5,
-                                      color: GcAppColors.error,
-                                    ),
-                                ],
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
+                    return GcQuizAnswerOption(
+                      label: String.fromCharCode(65 + i),
+                      text: opt,
+                      onTap: () => _answer(i),
+                      enabled: !answered,
+                      selected: i == _selected,
+                      showLeading: !isTF,
+                      borderColor: optBorder(i),
+                      background: optBg(i).first,
+                      foreground: optTextColor(i),
+                      trailing: answered && i == q.correctAnswer
+                          ? Icon(
+                              MdiIcons.checkCircle,
+                              size: GcSpace.x5,
+                              color: GcAppColors.success,
+                            )
+                          : answered && i == _selected && _correct == false
+                          ? Icon(
+                              MdiIcons.closeCircle,
+                              size: GcSpace.x5,
+                              color: GcAppColors.error,
+                            )
+                          : null,
                     );
                   },
                 ),

@@ -1,33 +1,36 @@
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount, computed } from 'vue'
-import { useGamification, fireBadgeConfetti } from '@diane-winflowz/gamification'
-import type { Badge } from '@diane-winflowz/gamification'
-import { createCharbonConfig } from '../../gamification/config'
-import CharbonBadgeCard from './CharbonBadgeCard.vue'
-import { learningPaths } from '../../data/parcoursData'
-import { hydrateGamificationFromConvex } from '../../gamification/convexSync'
-import { GAMIFICATION_UPDATED_EVENT } from '../../gamification/storageKeys'
+import { ref, onMounted, onBeforeUnmount, computed } from "vue";
+import {
+  useGamification,
+  fireBadgeConfetti,
+} from "@diane-winflowz/gamification";
+import type { Badge } from "@diane-winflowz/gamification";
+import { createCharbonConfig } from "../../gamification/config";
+import CharbonBadgeCard from "./CharbonBadgeCard.vue";
+import { learningPaths } from "../../data/parcoursData";
+import { hydrateGamificationFromConvex } from "../../gamification/convexSync";
+import { GAMIFICATION_UPDATED_EVENT } from "../../gamification/storageKeys";
 import {
   buildPathDescriptors,
   getPathBadges,
   getPathStats,
   type PathBadgeState,
   type PathStats,
-} from '../../gamification/pathProgress'
-import { getXpLevel, getXpState, type XpState } from '../../gamification/xp'
+} from "../../gamification/pathProgress";
+import { getXpLevel, getXpState, type XpState } from "../../gamification/xp";
 
-const mounted = ref(false)
-const toastBadge = ref<Badge | null>(null)
+const mounted = ref(false);
+const toastBadge = ref<Badge | null>(null);
 
-const config = createCharbonConfig()
+const config = createCharbonConfig();
 config.onBadgeEarned = (badge: Badge) => {
-  toastBadge.value = badge
-  fireBadgeConfetti()
-}
+  toastBadge.value = badge;
+  fireBadgeConfetti();
+};
 
-const { reader, streak, badges, progress } = useGamification(config)
+const { reader, streak, badges, progress } = useGamification(config);
 
-const pathDescriptors = buildPathDescriptors(learningPaths)
+const pathDescriptors = buildPathDescriptors(learningPaths);
 const pathStats = ref<PathStats>({
   activePaths: 0,
   completedPaths: 0,
@@ -35,23 +38,25 @@ const pathStats = ref<PathStats>({
   completedSteps: 0,
   totalSteps: pathDescriptors.reduce((acc, item) => acc + item.totalSteps, 0),
   percent: 0,
-})
+});
 
-const pathBadges = computed<PathBadgeState[]>(() => getPathBadges(pathStats.value))
+const pathBadges = computed<PathBadgeState[]>(() =>
+  getPathBadges(pathStats.value),
+);
 const xp = ref<XpState>({
   totalXp: 0,
   readXp: 0,
   taskXp: 0,
   readCount: 0,
   completedTaskCount: 0,
-})
-const xpLevel = computed(() => getXpLevel(xp.value.totalXp))
+});
+const xpLevel = computed(() => getXpLevel(xp.value.totalXp));
 
 const allBadgeCards = computed(() => {
   const readingBadges = [
     ...badges.earned.value.map((badge) => ({ badge, earned: true })),
     ...badges.unearned.value.map((badge) => ({ badge, earned: false })),
-  ]
+  ];
 
   const parcoursBadges = pathBadges.value.map((badge) => ({
     badge: {
@@ -62,39 +67,41 @@ const allBadgeCards = computed(() => {
       condition: () => false,
     } as Badge,
     earned: badge.earned,
-  }))
+  }));
 
-  return [...readingBadges, ...parcoursBadges]
-})
+  return [...readingBadges, ...parcoursBadges];
+});
 
-const totalEarnedBadges = computed(() => allBadgeCards.value.filter((item) => item.earned).length)
+const totalEarnedBadges = computed(
+  () => allBadgeCards.value.filter((item) => item.earned).length,
+);
 
 function refreshPathStats() {
-  pathStats.value = getPathStats(pathDescriptors)
+  pathStats.value = getPathStats(pathDescriptors);
 }
 
 function refreshXp() {
-  xp.value = getXpState()
+  xp.value = getXpState();
 }
 
 onMounted(() => {
   void hydrateGamificationFromConvex().finally(() => {
-    refreshPathStats()
-    refreshXp()
-  })
-  window.addEventListener('storage', refreshPathStats)
-  window.addEventListener('storage', refreshXp)
-  window.addEventListener(GAMIFICATION_UPDATED_EVENT, refreshPathStats)
-  window.addEventListener(GAMIFICATION_UPDATED_EVENT, refreshXp)
-  mounted.value = true
-})
+    refreshPathStats();
+    refreshXp();
+  });
+  window.addEventListener("storage", refreshPathStats);
+  window.addEventListener("storage", refreshXp);
+  window.addEventListener(GAMIFICATION_UPDATED_EVENT, refreshPathStats);
+  window.addEventListener(GAMIFICATION_UPDATED_EVENT, refreshXp);
+  mounted.value = true;
+});
 
 onBeforeUnmount(() => {
-  window.removeEventListener('storage', refreshPathStats)
-  window.removeEventListener('storage', refreshXp)
-  window.removeEventListener(GAMIFICATION_UPDATED_EVENT, refreshPathStats)
-  window.removeEventListener(GAMIFICATION_UPDATED_EVENT, refreshXp)
-})
+  window.removeEventListener("storage", refreshPathStats);
+  window.removeEventListener("storage", refreshXp);
+  window.removeEventListener(GAMIFICATION_UPDATED_EVENT, refreshPathStats);
+  window.removeEventListener(GAMIFICATION_UPDATED_EVENT, refreshXp);
+});
 </script>
 
 <template>
@@ -102,11 +109,21 @@ onBeforeUnmount(() => {
     <!-- Streak -->
     <section class="dashboard-section streak-section">
       <h2 class="section-title">Série de lecture</h2>
-      <div class="streak-card">
-        <span class="streak-fire" :class="{ active: streak.isActive.value }">🔥</span>
+      <div class="streak-card gc-card gc-card--informative">
+        <span class="streak-fire" :class="{ active: streak.isActive.value }"
+          >🔥</span
+        >
         <div class="streak-info">
-          <span class="streak-current">{{ streak.currentStreak.value }} jour{{ streak.currentStreak.value > 1 ? 's' : '' }}</span>
-          <span class="streak-best">Record : {{ streak.longestStreak.value }} jour{{ streak.longestStreak.value > 1 ? 's' : '' }}</span>
+          <span class="streak-current"
+            >{{ streak.currentStreak.value }} jour{{
+              streak.currentStreak.value > 1 ? "s" : ""
+            }}</span
+          >
+          <span class="streak-best"
+            >Record : {{ streak.longestStreak.value }} jour{{
+              streak.longestStreak.value > 1 ? "s" : ""
+            }}</span
+          >
         </div>
       </div>
     </section>
@@ -115,43 +132,43 @@ onBeforeUnmount(() => {
     <section class="dashboard-section stats-section">
       <h2 class="section-title">Statistiques</h2>
       <div class="stats-grid">
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ reader.totalRead.value }}</span>
           <span class="stat-label">Articles lus</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ badges.earned.value.length }}</span>
           <span class="stat-label">Badges</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ progress.overall.value.percent }}%</span>
           <span class="stat-label">Progression</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ pathStats.completedSteps }}</span>
           <span class="stat-label">Étapes parcours</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ pathStats.completedPaths }}</span>
           <span class="stat-label">Parcours terminés</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ pathStats.percent }}%</span>
           <span class="stat-label">Progression parcours</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ xp.totalXp }}</span>
           <span class="stat-label">XP total</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">N{{ xpLevel.level }}</span>
           <span class="stat-label">Niveau</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ xp.readXp }}</span>
           <span class="stat-label">XP lecture</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card gc-card gc-card--informative">
           <span class="stat-value">{{ xp.taskXp }}</span>
           <span class="stat-label">XP implémentation</span>
         </div>
@@ -162,10 +179,15 @@ onBeforeUnmount(() => {
       <h2 class="section-title">Progression XP</h2>
       <div class="progress-label">
         <span class="progress-cat">Niveau {{ xpLevel.level }}</span>
-        <span class="progress-pct">{{ xpLevel.currentLevelXp }} / {{ xpLevel.nextLevelXp }} XP</span>
+        <span class="progress-pct"
+          >{{ xpLevel.currentLevelXp }} / {{ xpLevel.nextLevelXp }} XP</span
+        >
       </div>
       <div class="progress-track">
-        <div class="progress-fill" :style="{ width: xpLevel.progressPercent + '%' }"></div>
+        <div
+          class="progress-fill"
+          :style="{ width: xpLevel.progressPercent + '%' }"
+        ></div>
       </div>
     </section>
 
@@ -185,7 +207,10 @@ onBeforeUnmount(() => {
     </section>
 
     <!-- Progress by category -->
-    <section v-if="Object.keys(progress.byCategory.value).length > 0" class="dashboard-section progress-section">
+    <section
+      v-if="Object.keys(progress.byCategory.value).length > 0"
+      class="dashboard-section progress-section"
+    >
       <h2 class="section-title">Progression par catégorie</h2>
       <div class="progress-list">
         <div
@@ -198,7 +223,10 @@ onBeforeUnmount(() => {
             <span class="progress-pct">{{ entry.read }}/{{ entry.total }}</span>
           </div>
           <div class="progress-track">
-            <div class="progress-fill" :style="{ width: entry.percent + '%' }"></div>
+            <div
+              class="progress-fill"
+              :style="{ width: entry.percent + '%' }"
+            ></div>
           </div>
         </div>
       </div>
@@ -218,7 +246,6 @@ onBeforeUnmount(() => {
 .dashboard-section {
   padding: var(--gamification-dashboard-section-padding);
   border: var(--gamification-dashboard-section-border);
-  border-radius: var(--gamification-dashboard-section-radius);
   background: var(--gamification-dashboard-section-background);
   box-shadow: var(--gamification-dashboard-section-shadow);
   color: var(--gamification-dashboard-section-color, inherit);
@@ -278,9 +305,6 @@ onBeforeUnmount(() => {
   flex-direction: column;
   align-items: center;
   padding: var(--gamification-dashboard-stat-card-padding);
-  border: var(--gamification-dashboard-stat-card-border);
-  border-radius: var(--gamification-dashboard-stat-card-radius);
-  background: var(--gamification-dashboard-stat-card-background);
 }
 
 .stat-value {
@@ -297,13 +321,17 @@ onBeforeUnmount(() => {
 
 @media (width <= 900px) {
   .stats-grid {
-    grid-template-columns: var(--gamification-dashboard-stats-grid-columns-medium);
+    grid-template-columns: var(
+      --gamification-dashboard-stats-grid-columns-medium
+    );
   }
 }
 
 @media (width <= 580px) {
   .stats-grid {
-    grid-template-columns: var(--gamification-dashboard-stats-grid-columns-small);
+    grid-template-columns: var(
+      --gamification-dashboard-stats-grid-columns-small
+    );
   }
 }
 
@@ -345,7 +373,7 @@ onBeforeUnmount(() => {
 .progress-track {
   height: var(--gamification-dashboard-progress-track-height);
   background: var(--gamification-dashboard-progress-track-background);
-  border-radius: var(--gamification-dashboard-progress-track-radius);
+  border-radius: var(--gc-component-pixel-frame-radius);
   border: var(--gamification-dashboard-progress-track-border);
   overflow: hidden;
 }
@@ -353,7 +381,7 @@ onBeforeUnmount(() => {
 .progress-fill {
   height: var(--gamification-dashboard-progress-fill-height);
   background: var(--gamification-dashboard-progress-fill-background);
-  border-radius: var(--gamification-dashboard-progress-track-radius);
+  border-radius: var(--gc-component-pixel-frame-radius);
   transition: var(--gamification-dashboard-progress-fill-transition);
 }
 </style>

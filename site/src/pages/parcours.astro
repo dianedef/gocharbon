@@ -9,6 +9,7 @@ import {
   getFeaturedProfilesForArchetype,
 } from "../data/profileTaxonomy";
 import { getParcoursRoute } from "../config/routes";
+import Button from "../components/components/Button.astro";
 
 const launchBuild = isParcoursOnlyBuild();
 const visiblePaths = launchBuild ? filterLaunchParcours(learningPaths) : learningPaths;
@@ -101,7 +102,7 @@ const spotlights = [
           </div>
           <div class="family-grid">
             {launchSignals.map((signal) => (
-              <article class="family-card">
+              <article class="family-card gc-card gc-card--informative">
                 <p class="family-label">{signal.kicker}</p>
                 <h3>{signal.title}</h3>
                 <p>{signal.description}</p>
@@ -113,7 +114,7 @@ const spotlights = [
                   ))}
                 </div>
                 <p class="family-cta-row">
-                  <a href={getParcoursRoute(signal.pathId)}>Ouvrir ce parcours →</a>
+                  <Button href={getParcoursRoute(signal.pathId)} variant="secondary">Ouvrir ce parcours →</Button>
                 </p>
               </article>
             ))}
@@ -131,12 +132,12 @@ const spotlights = [
         </div>
         <div class="spotlight-grid">
           {spotlights.map((entry) => (
-            <a href={getParcoursRoute(entry.path.id)} class="spotlight-card no-link-style">
+            <article class="spotlight-card gc-card gc-card--informative">
               <p class="spotlight-kicker">{entry.kicker}</p>
               <h3>{entry.path.profileTitle}</h3>
               <p>{entry.description}</p>
-              <span>Ouvrir ce parcours →</span>
-            </a>
+              <Button href={getParcoursRoute(entry.path.id)} variant="secondary">Ouvrir ce parcours →</Button>
+            </article>
           ))}
         </div>
       </section>
@@ -151,7 +152,7 @@ const spotlights = [
         </div>
         <div class="family-grid">
           {familyCards.map((family) => (
-            <a href={family.href} class="family-card no-link-style">
+            <a href={family.href} class="family-card gc-card gc-card--interactive no-link-style">
               <p class="family-label">{family.label}</p>
               <h3>{family.pivotTitle}</h3>
               <p>{family.description}</p>
@@ -171,19 +172,19 @@ const spotlights = [
           </p>
         </div>
         <div class="filters-toolbar">
-            <label class="filter-field">
+            <label class="filter-field gc-field">
               <span>Recherche</span>
               <input
-                class="w-full"
+                class="gc-input"
                 id="path-search"
                 type="search"
                 placeholder="freelance, e-commerce, SEO, contenu..."
                 autocomplete="off"
               />
             </label>
-            <label class="filter-field">
+            <label class="filter-field gc-field">
               <span>Niveau</span>
-              <select id="level-filter" class="w-full">
+              <select id="level-filter" class="gc-input">
                 <option value="all">Tous les niveaux</option>
                 <option value="debutant">Débutant</option>
                 <option value="intermediaire">Intermédiaire</option>
@@ -192,25 +193,24 @@ const spotlights = [
             </label>
         </div>
         <div class="category-row" aria-label="Filtrer par catégorie">
-          <button type="button" class="category-btn active" data-category-filter="all">Tout</button>
+          <button type="button" class="category-btn gc-control is-active" data-category-filter="all">Tout</button>
           {categories.map((category) => (
-            <button type="button" class="category-btn" data-category-filter={category}>
+            <button type="button" class="category-btn gc-control" data-category-filter={category}>
               {category}
             </button>
           ))}
         </div>
         <div class="results-meta flex flex-col md:flex-row items-start md:items-center">
           <p id="results-count">{sortedPaths.length} parcours affichés</p>
-          <button type="button" class="reset-btn" id="reset-filters">Réinitialiser</button>
+          <button type="button" class="reset-btn gc-control" id="reset-filters">Réinitialiser</button>
         </div>
       </section>
 
       <section class="paths-section bg-white-soft dark:bg-black">
         <div class="paths-grid" id="paths-grid">
           {sortedPaths.map((path) => (
-            <a
-              href={getParcoursRoute(path.id)}
-              class="path-card no-link-style"
+            <article
+              class="path-card gc-card gc-card--informative"
               data-path-card
               data-title={path.profileTitle}
               data-outcome={path.outcome}
@@ -225,8 +225,8 @@ const spotlights = [
                 <span>{path.estimatedDuration}</span>
                 <span>{path.level}</span>
               </div>
-              <span class="path-cta">Voir le parcours →</span>
-            </a>
+              <Button href={getParcoursRoute(path.id)} variant="secondary">Voir le parcours →</Button>
+            </article>
           ))}
         </div>
         <p id="no-results" class="no-results hidden">
@@ -296,10 +296,7 @@ const spotlights = [
   }
 
   .hero-stat,
-  .spotlight-card,
-  .family-card,
-  .filter-field,
-  .path-card {
+  .filter-field {
     border: var(--parcours-card-border-width) solid var(--parcours-card-border-color);
     border-radius: var(--parcours-card-border-radius);
     background: var(--parcours-card-bg);
@@ -335,21 +332,6 @@ const spotlights = [
     padding: var(--parcours-card-padding);
   }
 
-  .spotlight-card:hover,
-  .family-card:hover,
-  .path-card:hover,
-  .path-neighbor-card:hover {
-    transform: translate(var(--parcours-hover-offset), var(--parcours-hover-offset));
-    box-shadow: var(--parcours-shadow-color-muted);
-  }
-
-  .path-card:focus-visible,
-  .path-card:focus-within {
-    outline: var(--parcours-focus-outline-width) solid var(--brand-orange);
-    outline-offset: var(--parcours-focus-outline-width);
-    box-shadow: var(--parcours-shadow-color-muted);
-  }
-
   .filters-section {
     border: var(--parcours-filters-border);
     background: var(--parcours-filters-bg);
@@ -371,9 +353,7 @@ const spotlights = [
     line-height: var(--parcours-card-body-line-height);
   }
 
-  .spotlight-card span,
-  .family-card span,
-  .path-cta {
+  .family-card span {
     font-weight: 700;
   }
 
@@ -405,11 +385,6 @@ const spotlights = [
     margin: 0;
   }
 
-  .family-cta-row a {
-    font-weight: 700;
-    color: inherit;
-  }
-
   .filters-toolbar {
     grid-template-columns: var(--parcours-toolbar-template);
     margin-bottom: var(--parcours-toolbar-margin-bottom);
@@ -428,13 +403,8 @@ const spotlights = [
 
   .filter-field input,
   .filter-field select {
-    min-height: var(--parcours-input-min-height);
-    border: var(--parcours-input-border-width) solid var(--brand-black);
-    background: var(--parcours-input-bg);
-    padding: var(--parcours-input-padding);
     font-family: var(--parcours-font-family);
     font-size: var(--parcours-no-results-font-size);
-    color: var(--brand-black);
   }
 
   .category-row {
@@ -517,15 +487,6 @@ const spotlights = [
   }
 
   :global(.dark) .hero-stat,
-  :global(.dark) .spotlight-card,
-  :global(.dark) .family-card,
-  :global(.dark) .filter-field,
-  :global(.dark) .path-card {
-    border-color: var(--parcours-card-border-color);
-    background: var(--parcours-dark-card-bg);
-    box-shadow: var(--ui-shadow-strong);
-  }
-
   :global(.dark) .source-links a {
     border-color: var(--parcours-card-border-color);
     background: var(--parcours-dark-link-bg);
@@ -546,15 +507,6 @@ const spotlights = [
     background: var(--brand-yellow);
     color: var(--brand-black);
     box-shadow: var(--parcours-button-shadow-dark);
-  }
-
-  :global(.dark) .spotlight-card:hover,
-  :global(.dark) .family-card:hover,
-  :global(.dark) .path-card:hover,
-  :global(.dark) .path-neighbor-card:hover,
-  :global(.dark) .path-card:focus-visible,
-  :global(.dark) .path-card:focus-within {
-    box-shadow: var(--parcours-hover-shadow);
   }
 
 </style>
@@ -613,7 +565,11 @@ const spotlights = [
     categoryButtons.forEach((button) => {
       button.addEventListener("click", () => {
         activeCategory = button.dataset.categoryFilter || "all";
-        categoryButtons.forEach((item) => item.classList.toggle("active", item === button));
+        categoryButtons.forEach((item) => {
+          const isActive = item === button;
+          item.classList.toggle("active", isActive);
+          item.classList.toggle("is-active", isActive);
+        });
         applyFilters();
       });
     });

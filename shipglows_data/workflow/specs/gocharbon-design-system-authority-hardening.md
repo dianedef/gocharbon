@@ -1,7 +1,7 @@
 ---
 artifact: spec
 metadata_schema_version: "1.0"
-artifact_version: "2.3.0"
+artifact_version: "2.5.0"
 project: "gocharbon"
 created: "2026-06-11"
 updated: "2026-08-13"
@@ -145,10 +145,16 @@ Les lots B/C et D/E peuvent s'exécuter en parallèle car leurs racines d'écrit
 | 2026-08-12 | sg-design | GPT-5 Codex | Lot F: CI path-aware, audits et dossier de vérification durable | implemented_local | Collecter le run CI et les preuves visuelles/accessibilité avant clôture |
 | 2026-08-13 | sg-design | GPT-5 Codex | Lot D ciblé: migration Pixel Mine de la home et ajout du toggle de thème au footer global | implemented_local | Collecter la preuve visuelle light/dark desktop/mobile puis poursuivre les autres pages |
 | 2026-08-13 | sg-development | GPT-5 Codex | Migration typographique web: Chakra Petch display, Oxanium body, Sanchez CTA; suppression des familles CSS littérales et garde d'audit dédiée | verified_local | Collecter la preuve visuelle light/dark puis poursuivre la migration cross-surface |
+| 2026-08-13 | sg-design | GPT-5 Codex | Mise en place d'une recette de bordure Pixel Mine imbriquÃ©e (ombre dure, filon, séparation sombre, cadre intérieur) pour la landing | implemented_local | Ajouter le mapping des variantes visuelles par type de carte (hover/active/reward/disabled) puis valider visuellement |
+| 2026-08-13 | sg-design | GPT-5 Codex | Audit puis harmonisation des panneaux de la landing autour d'une recette Pixel Mine commune aux composants du hero et aux cartes des sections | implemented_local | Collecter les captures light/dark desktop/mobile dès qu'un navigateur est disponible |
+| 2026-08-13 | sg-design | GPT-5 Codex | Unification du composant Button autour d'une géométrie Pixel Mine et de deux variantes sémantiques | verified_local | Collecter les captures light/dark desktop/mobile dès qu'un navigateur est disponible |
+| 2026-08-13 | sg-design | GPT-5 Codex | Lot D: unification cross-framework des CTA Astro/Vue et séparation des contrôles fonctionnels | verified_local | Collecter les captures light/dark desktop/mobile et les parcours clavier dès qu'un navigateur est disponible |
+
+| 2026-08-13 | sg-design | GPT-5 Codex | Autorite complete des composants web et Flutter validee par l'operatrice | verified_local | Connecter une instance Browser pour les captures light/dark desktop/mobile et la preuve clavier |
 
 ## Current Chantier Flow
 
 - Spécification: ready
-- Implémentation: in progress (home web, footer et rôles typographiques web migrés localement)
-- Vérification: in progress (génération déterministe, tests, audit tokens et build Astro passés; preuve navigateur visuelle à collecter)
+- Implementation: complete (autorite fermee pour cartes, actions, controles, champs, chips, statuts, notices et composants metier web/Flutter; anciennes recettes concurrentes et API de contournement retirees)
+- Verification: in progress (generation deterministe, audit tokens 0/0, build Astro 23 pages, analyse Flutter et 9 tests, scan structurel et routes locales passes; preuve navigateur light/dark desktop/mobile et clavier a collecter faute d'instance connectee)
 - Clôture: pending

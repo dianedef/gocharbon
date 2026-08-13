@@ -2,6 +2,7 @@
 import { computed, onMounted, onBeforeUnmount, ref } from "vue";
 import type { LearningPath } from "../../data/parcoursData";
 import BrutalCheckbox from "./BrutalCheckbox.vue";
+import Button from "../components/Button.vue";
 import { hydrateGamificationFromConvex } from "../../gamification/convexSync";
 import { GAMIFICATION_UPDATED_EVENT } from "../../gamification/storageKeys";
 import {
@@ -173,7 +174,7 @@ onBeforeUnmount(() => {
       <article
         v-for="(module, moduleIndex) in pathData.modules"
         :key="module.id"
-        class="module-card"
+        class="module-card gc-card gc-card--informative"
       >
         <div class="module-header">
           <div class="module-header-top">
@@ -219,14 +220,13 @@ onBeforeUnmount(() => {
                 <p>{{ step.description }}</p>
               </div>
             </div>
-            <a
+            <Button
               v-if="isStepAvailable(step.href, step.availableInBuild)"
               :href="step.href"
-              class="step-open-link no-link-style"
-              data-astro-prefetch
+              variant="secondary"
             >
               Ouvrir
-            </a>
+            </Button>
             <span v-else class="step-open-link step-open-link-disabled">
               Bientôt
             </span>
@@ -393,10 +393,6 @@ onBeforeUnmount(() => {
 }
 
 .module-card {
-  background: var(--pp-surface);
-  border: var(--path-page-surface-border-width) solid var(--pp-border);
-  box-shadow: var(--progress-tracker-overview-shadow);
-  filter: var(--progress-tracker-module-shadow-filter);
   color: var(--pp-text);
   padding: var(--progress-tracker-module-padding);
   position: relative;

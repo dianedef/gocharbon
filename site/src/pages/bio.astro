@@ -2,6 +2,7 @@
 import { SITE, getSiteUrl } from "../config/site";
 import { ROUTES, getBlogTagRoute } from "../config/routes";
 import { resolveMetaRobots } from "../utils/indexation";
+import Button from "../components/components/Button.astro";
 import "../styles/global.css";
 
 const title = `${SITE.name} | Diane`
@@ -107,36 +108,8 @@ const metaRobots = resolveMetaRobots("/bio");
 			gap: var(--bio-page-links-gap);
 		}
 
-		.bio-link {
-			display: block;
+		.bio-links :global(.gc-action) {
 			width: var(--bio-page-link-width);
-			padding: var(--bio-page-link-padding);
-			text-align: center;
-			text-decoration: none;
-			font-family: var(--bio-page-heading-font);
-			font-weight: var(--bio-page-link-font-weight);
-			font-size: var(--bio-page-link-size);
-			color: var(--bio-page-link-color);
-			background: var(--bio-page-link-background);
-			border: var(--bio-page-link-border);
-			filter: drop-shadow(var(--bio-page-link-shadow));
-			transition: all var(--bio-page-link-transition);
-		}
-
-		.bio-link:hover {
-			filter: drop-shadow(var(--bio-page-link-shadow-hover));
-			transform: translate(var(--bio-page-link-transform), var(--bio-page-link-transform));
-		}
-
-		.bio-link.accent {
-			background: var(--bio-page-accent-background);
-			color: var(--bio-page-accent-color);
-			filter: drop-shadow(var(--bio-page-link-shadow-accent));
-		}
-
-		.bio-link.accent:hover {
-			filter: drop-shadow(var(--bio-page-link-shadow-accent-hover));
-			transform: translate(var(--bio-page-link-transform), var(--bio-page-link-transform));
 		}
 
 		.bio-socials {
@@ -185,13 +158,13 @@ const metaRobots = resolveMetaRobots("/bio");
 		</p>
 
 		<div class="bio-links">
-			<a href={getSiteUrl(ROUTES.parcours)} class="bio-link accent">Commencer par les parcours</a>
-			<a href={getSiteUrl(ROUTES.quiz)} class="bio-link">Faire le quiz business</a>
-			<a href={getSiteUrl(ROUTES.home)} class="bio-link">Accueil</a>
-			<a href={getSiteUrl(ROUTES.blog)} class="bio-link">Blog</a>
-			<a href={getSiteUrl(ROUTES.outils)} class="bio-link">Voir les outils</a>
-			<a href={getSiteUrl(getBlogTagRoute("productivite"))} class="bio-link">Productivité & exécution</a>
-			<a href={getSiteUrl("/#guide-outils-francais-gratuits")} class="bio-link">Recevoir le guide des outils français</a>
+			<Button href={getSiteUrl(ROUTES.parcours)}>Commencer par les parcours</Button>
+			<Button href={getSiteUrl(ROUTES.quiz)} variant="secondary">Faire le quiz business</Button>
+			<Button href={getSiteUrl(ROUTES.home)} variant="secondary">Accueil</Button>
+			<Button href={getSiteUrl(ROUTES.blog)} variant="secondary">Blog</Button>
+			<Button href={getSiteUrl(ROUTES.outils)} variant="secondary">Voir les outils</Button>
+			<Button href={getSiteUrl(getBlogTagRoute("productivite"))} variant="secondary">Productivité & exécution</Button>
+			<Button href={getSiteUrl("/#guide-outils-francais-gratuits")} variant="secondary">Recevoir le guide des outils français</Button>
 		</div>
 
 		<div class="bio-socials">

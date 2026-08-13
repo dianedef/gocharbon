@@ -18,6 +18,7 @@ import {
   type ProfileSlug,
 } from "../../data/profileTaxonomy";
 import PathProgressTracker from "../../components/vue/PathProgressTracker.vue";
+import Button from "../../components/components/Button.astro";
 
 function markLaunchStepAvailability(path: LearningPath): LearningPath {
   return {
@@ -127,7 +128,7 @@ const pathReferenceStages = [
               <div class="path-header-top">
                 <p class="path-tag">{launchVisiblePathData.category}</p>
                 {!launchBuild && (
-                  <a href={`/biz/profils/${launchVisiblePathData.profileSlug}`} class="path-profile-btn no-link-style">Voir le Business</a>
+                  <Button href={`/biz/profils/${launchVisiblePathData.profileSlug}`} variant="secondary">Voir le Business</Button>
                 )}
               </div>
               <h1>{launchVisiblePathData.profileTitle}</h1>
@@ -172,7 +173,7 @@ const pathReferenceStages = [
                     </li>
                   </ul>
                   <div class="path-editorial-cta">
-                    <a href="#path-steps" class="path-btn no-link-style">Commencer les étapes</a>
+                    <Button href="#path-steps">Commencer les étapes</Button>
                     <p class="path-editorial-cta-meta"><strong>REPÈRES :</strong> <em>CHARBON -> MINE -> OR</em></p>
                   </div>
                 </div>
@@ -184,7 +185,7 @@ const pathReferenceStages = [
               {launchVisiblePathData.modules.slice(0, 3).map((module, index) => {
                 const stage = pathReferenceStages[index] ?? pathReferenceStages[2];
                 return (
-                  <article class={`path-reference-card ${stage.key}`}>
+                  <article class={`path-reference-card gc-card gc-card--informative ${stage.key}`}>
                     <img src={stage.icon} alt="" class="path-reference-icon" loading="lazy" />
                     <p class="path-reference-stage">Module {index + 1} · {stage.label}</p>
                     <h2 class="path-reference-title">{module.title}</h2>
@@ -210,7 +211,7 @@ const pathReferenceStages = [
                 </div>
                 <div class="path-neighbors-grid">
                   {relatedPaths.map((relatedPath) => (
-                    <a href={getParcoursRoute(relatedPath.id)} class="path-neighbor-card no-link-style">
+                    <a href={getParcoursRoute(relatedPath.id)} class="path-neighbor-card gc-card gc-card--interactive no-link-style">
                       <p class="path-neighbor-category">{relatedPath.category}</p>
                       <h3>{relatedPath.profileTitle}</h3>
                       <p>{relatedPath.outcome}</p>
@@ -222,17 +223,17 @@ const pathReferenceStages = [
             )}
 
             <div class="path-actions">
-              <a href={launchBuild ? `${ROUTES.home}#entry-points` : ROUTES.quizAvance} class="path-btn no-link-style">
+              <Button href={launchBuild ? `${ROUTES.home}#entry-points` : ROUTES.quizAvance}>
                 {launchBuild ? "Voir les portes d'entrée" : "Refaire le quiz avancé"}
-              </a>
-              <a href={ROUTES.parcours} class="path-btn secondary no-link-style">Voir tous les parcours</a>
+              </Button>
+              <Button href={ROUTES.parcours} variant="secondary">Voir tous les parcours</Button>
             </div>
           </>
         ) : (
           <div class="path-not-found">
             <h1>Parcours introuvable</h1>
             <p>Le lien utilise probablement un identifiant invalide.</p>
-            <a href={ROUTES.parcours} class="path-btn no-link-style">Voir tous les parcours</a>
+            <Button href={ROUTES.parcours}>Voir tous les parcours</Button>
           </div>
         )}
       </div>
@@ -319,22 +320,6 @@ const pathReferenceStages = [
     margin: 0;
   }
 
-  .path-profile-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: var(--path-page-profile-btn-border-width) solid var(--brand-black);
-    background: var(--brand-yellow);
-    color: var(--brand-black);
-    font-family: var(--gc-semantic-type-action-family);
-    font-size: var(--path-page-profile-btn-font-size);
-    font-weight: 700;
-    padding: var(--path-page-profile-btn-padding);
-    box-shadow: var(--path-page-profile-btn-shadow);
-    transition: var(--path-page-profile-btn-transition);
-    flex-shrink: 0;
-  }
-
   .path-neighbors {
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
@@ -374,17 +359,7 @@ const pathReferenceStages = [
     display: grid;
     gap: var(--path-page-neighbor-card-gap);
     padding: var(--path-page-neighbor-card-padding);
-    border: var(--path-page-profile-btn-border-width) solid var(--brand-black);
-    background: var(--path-page-surface-bg);
     color: var(--brand-black);
-    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
-    box-shadow: var(--path-page-neighbor-card-shadow);
-  }
-
-  .path-neighbor-card:hover {
-    transform: translate(2px, 2px);
-    box-shadow: var(--path-page-neighbor-card-shadow-hover);
-    background: var(--brand-yellow);
   }
 
   .path-neighbor-card h3,
@@ -410,22 +385,11 @@ const pathReferenceStages = [
   }
 
   :global(.dark) .path-neighbor-card {
-    background: var(--brand-charcoal);
-    border-color: var(--brand-cream);
-    box-shadow: var(--path-page-neighbor-card-shadow-dark);
     color: var(--brand-cream);
   }
 
   :global(.dark) .path-neighbor-card:hover {
-    background: var(--brand-yellow);
-    box-shadow: var(--path-page-neighbor-card-shadow-hover-dark);
     color: var(--brand-black);
-  }
-
-  .path-profile-btn:hover {
-    transform: translate(1px, 1px);
-    box-shadow: var(--path-page-profile-btn-shadow-hover);
-    background: var(--brand-orange);
   }
 
   .path-header h1 {
@@ -509,9 +473,6 @@ const pathReferenceStages = [
   }
 
   .path-reference-card {
-    border: var(--path-page-surface-border-width) solid var(--brand-black);
-    background: var(--path-page-surface-bg);
-    box-shadow: var(--path-page-reference-card-shadow);
     padding: var(--path-page-reference-card-padding);
     display: grid;
     grid-template-columns: auto 1fr;
@@ -521,18 +482,6 @@ const pathReferenceStages = [
       "icon summary";
     gap: 0.26rem 0.58rem;
     align-items: center;
-  }
-
-  .path-reference-card.charbon {
-    background: linear-gradient(180deg, var(--gc-primitive-color-brand-cream) 0%, var(--gc-primitive-color-brand-cream) 100%);
-  }
-
-  .path-reference-card.mine {
-    background: linear-gradient(180deg, var(--gc-primitive-color-brand-cream) 0%, var(--gc-primitive-color-brand-cream) 100%);
-  }
-
-  .path-reference-card.or {
-    background: linear-gradient(180deg, var(--gc-primitive-color-brand-cream) 0%, var(--gc-primitive-color-brand-yellow) 100%);
   }
 
   .path-reference-icon {
@@ -578,11 +527,6 @@ const pathReferenceStages = [
       font-size: var(--path-page-title-size-mobile);
     }
 
-    .path-profile-btn {
-      font-size: var(--path-page-profile-btn-font-size-mobile);
-      padding: var(--path-page-profile-btn-padding-mobile);
-    }
-
     .path-header-meta {
       grid-template-columns: 1fr 1fr;
       gap: var(--gc-primitive-space-2);
@@ -592,9 +536,6 @@ const pathReferenceStages = [
       grid-template-columns: 1fr;
     }
 
-    .path-reference-card {
-      box-shadow: var(--path-page-reference-card-shadow-mobile);
-    }
   }
 
   .path-editorial {
@@ -808,28 +749,6 @@ const pathReferenceStages = [
     padding: var(--path-page-surface-padding);
   }
 
-  .path-btn {
-    display: inline-block;
-    text-decoration: none;
-    border: var(--path-page-btn-border-width) solid var(--brand-black);
-    box-shadow: var(--path-page-btn-shadow);
-    padding: var(--path-page-btn-padding);
-    font-family: var(--path-page-btn-font-family);
-    font-weight: 700;
-    background: var(--brand-yellow);
-    color: var(--brand-black);
-    transition: var(--path-page-btn-transition);
-  }
-
-  .path-btn:hover {
-    transform: translate(2px, 2px);
-    box-shadow: var(--path-page-btn-shadow-hover);
-  }
-
-  .path-btn.secondary {
-    background: var(--brand-cream);
-  }
-
   :global(.dark) .path-header {
     background: var(--path-page-surface-bg-dark);
     border-color: var(--brand-cream);
@@ -839,19 +758,6 @@ const pathReferenceStages = [
 
   :global(.dark) .path-tag {
     border-color: var(--brand-cream);
-  }
-
-  :global(.dark) .path-profile-btn {
-    border-color: var(--brand-cream);
-    box-shadow: var(--path-page-profile-btn-shadow-dark);
-    background: transparent;
-    color: var(--brand-yellow);
-  }
-
-  :global(.dark) .path-profile-btn:hover {
-    box-shadow: var(--path-page-profile-btn-shadow-hover-dark);
-    background: var(--brand-charcoal);
-    color: var(--brand-cream);
   }
 
   :global(.dark) .path-meta-card {
@@ -890,21 +796,7 @@ const pathReferenceStages = [
   }
 
   :global(.dark) .path-reference-card {
-    border-color: var(--brand-cream);
-    box-shadow: var(--path-page-reference-card-shadow-dark);
     color: var(--brand-cream);
-  }
-
-  :global(.dark) .path-reference-card.charbon {
-    background: linear-gradient(180deg, var(--gc-primitive-color-brand-charcoal) 0%, var(--gc-primitive-color-brand-black) 100%);
-  }
-
-  :global(.dark) .path-reference-card.mine {
-    background: linear-gradient(180deg, var(--gc-primitive-color-brand-charcoal) 0%, var(--gc-primitive-color-brand-charcoal) 100%);
-  }
-
-  :global(.dark) .path-reference-card.or {
-    background: linear-gradient(180deg, var(--gc-primitive-color-brand-charcoal) 0%, var(--gc-primitive-color-brand-charcoal) 100%);
   }
 
   :global(.dark) .path-reference-icon {
@@ -972,20 +864,6 @@ const pathReferenceStages = [
   :global(.dark) .path-editorial :global(ul li)::marker,
   :global(.dark) .path-editorial :global(ol li)::marker {
     color: var(--brand-yellow);
-  }
-
-  :global(.dark) .path-btn {
-    border-color: var(--brand-cream);
-    box-shadow: var(--path-page-btn-shadow-dark);
-  }
-
-  :global(.dark) .path-btn:hover {
-    box-shadow: var(--path-page-btn-shadow-hover-dark);
-  }
-
-  :global(.dark) .path-btn.secondary {
-    background: var(--brand-ink);
-    color: var(--brand-cream);
   }
 
   .path-editorial :global(h2.path-objective-heading) {
@@ -1385,7 +1263,7 @@ const pathReferenceStages = [
       grid-template-columns: 1fr;
     }
 
-    .path-editorial-cta .path-btn {
+    .path-editorial-cta :global(.gc-action) {
       width: 100%;
       text-align: center;
     }

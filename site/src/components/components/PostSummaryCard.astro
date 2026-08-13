@@ -42,8 +42,6 @@ console.log("PostSummaryCard reçoit:", {
 	isInitialLoad,
 });
  */
-// Couleur fixe pour les boutons : violet clair (primaire)
-const buttonColor = 'var(--brand-copper)';
 ---
 
 <style define:vars={{ softWhite: 'var(--brand-cream)' }}>
@@ -82,7 +80,7 @@ const buttonColor = 'var(--brand-copper)';
 </style>
 
 <div>
-	<Card color="var(--brand-cream)">
+	<Card>
 		<div class="p-4 rounded-lg transition-colors dark:bg-black">
 			<h3
 				class="post-title poppins text-3xl md:text-4xl font-bold"
@@ -129,7 +127,7 @@ const buttonColor = 'var(--brand-copper)';
 				>
 					<Button
 						href={`/${post.id}`}
-						color={buttonColor}
+						variant="secondary"
 					>
 						<span>Lire plus &rarr;</span>
 					</Button>

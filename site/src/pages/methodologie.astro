@@ -74,14 +74,14 @@ const badges = [
         d’ancrage économique.
       </p>
       <div class="flex flex-wrap gap-3 mt-6">
-        <Button href={ROUTES.outils} color="var(--brand-copper)">Voir les outils</Button>
-        <Button href={ROUTES.outils} color="var(--brand-yellow)">Explorer les catégories outils</Button>
+        <Button href={ROUTES.outils} variant="secondary">Voir les outils</Button>
+        <Button href={ROUTES.outils}>Explorer les catégories outils</Button>
       </div>
     </section>
 
     <section class="grid gap-4 md:grid-cols-2 mt-8">
       {rules.map((rule) => (
-        <article class="rule-card">
+        <article class="rule-card gc-card gc-card--informative">
           <h2 class="poppins text-2xl font-bold mb-2 text-black dark:text-yellow-soft">{rule.title}</h2>
           <p class="poppins text-base md:text-lg text-black dark:text-white">{rule.text}</p>
         </article>
@@ -105,7 +105,7 @@ const badges = [
       <h2 class="section-title">Nos trois couches de lecture</h2>
       <div class="grid gap-4 md:grid-cols-3">
         {badges.map((badge) => (
-          <article class="badge-card">
+          <article class="badge-card gc-card gc-card--reward">
             <h3 class="poppins text-xl font-bold mb-2 text-black dark:text-yellow-soft">{badge.title}</h3>
             <p class="poppins text-base text-black dark:text-white">{badge.text}</p>
           </article>
@@ -120,7 +120,7 @@ const badges = [
         synthétise. Le score reste volontairement conservateur, sur une échelle entière de 20 points.
       </p>
           <div class="criteria-grid md:grid-cols-2">
-        <article class="criteria-card">
+        <article class="criteria-card gc-card gc-card--informative">
           <h3>Ce qui pèse le plus</h3>
           <ul>
             <li>La qualification locale globale.</li>
@@ -128,7 +128,7 @@ const badges = [
             <li>Le niveau de responsabilité.</li>
           </ul>
         </article>
-        <article class="criteria-card">
+        <article class="criteria-card gc-card gc-card--informative">
           <h3>Ce qui affine le score</h3>
           <ul>
             <li>Le pays fiscal quand il est documenté.</li>
@@ -155,7 +155,7 @@ const badges = [
     <section class="method-section mt-10">
       <h2 class="section-title">Quand on écrit “outil français”</h2>
           <div class="criteria-grid md:grid-cols-2">
-        <article class="criteria-card">
+        <article class="criteria-card gc-card gc-card--informative">
           <h3>Critères forts</h3>
           <ul>
             <li>Siège social en France ou entité opérationnelle clairement domiciliée en France.</li>
@@ -164,7 +164,7 @@ const badges = [
             <li>Pas de contradiction manifeste entre la marque et la société mère.</li>
           </ul>
         </article>
-        <article class="criteria-card">
+        <article class="criteria-card gc-card gc-card--informative">
           <h3>Critères de prudence</h3>
           <ul>
             <li>Holding hors de France.</li>
@@ -211,10 +211,7 @@ const badges = [
 
 <style>
   .hero-panel,
-  .method-section,
-  .rule-card,
-  .badge-card,
-  .criteria-card {
+  .method-section {
     border: var(--method-panel-border-width) solid var(--method-panel-border-color);
     box-shadow: var(--method-panel-shadow);
   }
@@ -233,14 +230,10 @@ const badges = [
   .badge-card,
   .criteria-card {
     padding: var(--method-card-padding);
-    background: var(--method-card-bg);
   }
 
   :global(.dark) .hero-panel,
-  :global(.dark) .method-section,
-  :global(.dark) .rule-card,
-  :global(.dark) .badge-card,
-  :global(.dark) .criteria-card {
+  :global(.dark) .method-section {
     border-color: var(--brand-cream);
     box-shadow: var(--method-panel-shadow-dark);
     background: var(--method-section-bg-dark);

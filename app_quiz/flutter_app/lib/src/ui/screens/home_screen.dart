@@ -11,7 +11,9 @@ import "../../theme/app_colors.dart";
 import "../../theme/category_config.dart";
 import "../../utils/color_utils.dart";
 import "../../utils/format_utils.dart";
-import "../widgets/depth_button.dart";
+import "../widgets/gc_button.dart";
+import "../widgets/app_card.dart";
+import "../widgets/gc_segmented_control.dart";
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
@@ -101,29 +103,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     ),
                   ),
                   const SizedBox(height: GcSpace.x4),
-                  DepthButton(
-                    onPressed: _init,
-                    colors: const [
-                      GcAppColors.primary,
-                      GcAppColors.primaryShadow,
-                    ],
-                    shadowColor: GcAppColors.primaryShadow,
-                    borderRadius: GcRadii.card,
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: GcSpace.x5,
-                        vertical: GcSpace.x3,
-                      ),
-                      child: Text(
-                        "Réessayer",
-                        style: TextStyle(
-                          fontSize: GcType.body,
-                          fontWeight: GcType.black,
-                          color: GcAppColors.textPrimary,
-                        ),
-                      ),
-                    ),
-                  ),
+                  GcButton.primary(onPressed: _init, label: "Réessayer"),
                 ],
               ),
             ),
@@ -154,29 +134,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     ),
                   ),
                   const SizedBox(height: GcSpace.x4),
-                  DepthButton(
-                    onPressed: _init,
-                    colors: const [
-                      GcAppColors.primary,
-                      GcAppColors.primaryShadow,
-                    ],
-                    shadowColor: GcAppColors.primaryShadow,
-                    borderRadius: GcRadii.card,
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: GcSpace.x5,
-                        vertical: GcSpace.x3,
-                      ),
-                      child: Text(
-                        "Réessayer",
-                        style: TextStyle(
-                          fontSize: GcType.body,
-                          fontWeight: GcType.black,
-                          color: GcAppColors.textPrimary,
-                        ),
-                      ),
-                    ),
-                  ),
+                  GcButton.primary(onPressed: _init, label: "Réessayer"),
                 ],
               ),
             ),
@@ -198,15 +156,11 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               if (_offline) ...[
-                Container(
+                GcStatusCard(
+                  variant: GcStatusCardVariant.warning,
                   padding: const EdgeInsets.symmetric(
                     horizontal: GcSpace.x3,
                     vertical: GcSpace.x2,
-                  ),
-                  decoration: BoxDecoration(
-                    color: GcAppColors.surface,
-                    borderRadius: GcRadii.card,
-                    border: Border.all(color: GcAppColors.gold),
                   ),
                   child: const Text(
                     "Mode hors ligne · profil invité local",
@@ -335,8 +289,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               const SizedBox(height: GcSpace.x3),
 
               // Daily challenge
-              GestureDetector(
+              GcNavigationCard(
                 onTap: () => _go("daily"),
+                label: "Défi du jour",
+                backgroundColor: GcAppColors.primary,
+                borderColor: GcAppColors.gold,
+                padding: const EdgeInsets.all(GcSpace.x5),
                 child: Container(
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
@@ -344,16 +302,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                     ),
-                    borderRadius: GcRadii.card,
-                    boxShadow: const [
-                      BoxShadow(
-                        color: GcAppColors.primary,
-                        blurRadius: GcSpace.x5,
-                        offset: Offset(GcSpace.zero, GcSpace.x2),
-                      ),
-                    ],
                   ),
-                  padding: const EdgeInsets.all(GcSpace.x5),
                   child: Row(
                     children: [
                       Expanded(
@@ -424,33 +373,20 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               const SizedBox(height: GcSpace.x3),
 
               // Mode toggle
-              Container(
-                decoration: BoxDecoration(
-                  color: GcAppColors.surface,
-                  borderRadius: GcRadii.card,
-                  border: Border.all(color: GcAppColors.borderLight),
-                ),
-                padding: const EdgeInsets.all(GcSpace.threeQuarter),
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: _ModeButton(
-                        selected: _mode == "timed",
-                        icon: MdiIcons.timer,
-                        label: "Chrono",
-                        onTap: () => _toggleMode("timed"),
-                      ),
-                    ),
-                    Expanded(
-                      child: _ModeButton(
-                        selected: _mode == "relaxed",
-                        icon: MdiIcons.infinity,
-                        label: "Libre",
-                        onTap: () => _toggleMode("relaxed"),
-                      ),
-                    ),
-                  ],
-                ),
+              GcSegmentedControl(
+                selectedIndex: _mode == "timed" ? 0 : 1,
+                options: [
+                  GcSegmentOption(
+                    label: "Chrono",
+                    icon: MdiIcons.timer,
+                    onTap: () => _toggleMode("timed"),
+                  ),
+                  GcSegmentOption(
+                    label: "Libre",
+                    icon: MdiIcons.infinity,
+                    onTap: () => _toggleMode("relaxed"),
+                  ),
+                ],
               ),
 
               const SizedBox(height: GcSpace.x3),
@@ -495,87 +431,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               const SizedBox(height: GcSpace.x4),
 
               // Quick play
-              DepthButton(
+              GcButton.primary(
                 onPressed: () => _go("random"),
-                colors: const [GcAppColors.gold, GcAppColors.goldShadow],
-                shadowColor: GcAppColors.goldShadow,
-                borderRadius: GcRadii.card,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(vertical: GcSpace.x4),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(
-                        MdiIcons.shuffleVariant,
-                        size: GcSizes.iconSmall,
-                        color: GcAppColors.textOnAccent,
-                      ),
-                      const SizedBox(width: GcSpace.x3),
-                      const Text(
-                        "Quick Play",
-                        style: TextStyle(
-                          fontSize: GcType.bodyLarge,
-                          fontWeight: GcType.black,
-                          color: GcAppColors.textOnAccent,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
+                label: "Quick Play",
+                icon: MdiIcons.shuffleVariant,
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-}
-
-class _ModeButton extends StatelessWidget {
-  const _ModeButton({
-    required this.selected,
-    required this.icon,
-    required this.label,
-    required this.onTap,
-  });
-
-  final bool selected;
-  final IconData icon;
-  final String label;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.symmetric(vertical: GcSpace.twoAndHalf),
-        decoration: BoxDecoration(
-          color: selected ? GcAppColors.primary : GcAppColors.transparent,
-          borderRadius: GcRadii.card,
-        ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              icon,
-              size: GcSizes.iconXSmall,
-              color: selected
-                  ? GcAppColors.textPrimary
-                  : GcAppColors.textTertiary,
-            ),
-            const SizedBox(width: GcSpace.x2),
-            Text(
-              label,
-              style: TextStyle(
-                fontSize: GcType.caption,
-                fontWeight: GcType.bold,
-                color: selected
-                    ? GcAppColors.textPrimary
-                    : GcAppColors.textTertiary,
-              ),
-            ),
-          ],
         ),
       ),
     );
@@ -590,51 +452,33 @@ class _CategoryCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return GcSelectableCard(
       onTap: onTap,
-      child: Container(
-        decoration: BoxDecoration(
-          color: GcAppColors.surface,
-          borderRadius: GcRadii.card,
-          border: Border.all(
-            color: info.color.withValues(alpha: GcOpacity.disabled),
+      label: info.name,
+      accent: info.color,
+      padding: const EdgeInsets.all(GcSpace.x4),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            width: GcSizes.categoryBadge,
+            height: GcSizes.categoryBadge,
+            decoration: BoxDecoration(
+              color: info.color.withValues(alpha: GcOpacity.disabled),
+              borderRadius: GcRadii.card,
+            ),
+            child: Icon(info.icon, size: GcSizes.iconMedium, color: info.color),
           ),
-          boxShadow: const [
-            BoxShadow(
-              color: GcAppColors.primaryShadow,
-              blurRadius: GcSpace.x3,
-              offset: Offset(GcSpace.zero, GcSpace.oneAndHalf),
+          const SizedBox(height: GcSpace.x3),
+          Text(
+            info.name,
+            style: TextStyle(
+              fontSize: GcType.body,
+              fontWeight: GcType.black,
+              color: info.color,
             ),
-          ],
-        ),
-        padding: const EdgeInsets.all(GcSpace.x4),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              width: GcSizes.categoryBadge,
-              height: GcSizes.categoryBadge,
-              decoration: BoxDecoration(
-                color: info.color.withValues(alpha: GcOpacity.disabled),
-                borderRadius: GcRadii.card,
-              ),
-              child: Icon(
-                info.icon,
-                size: GcSizes.iconMedium,
-                color: info.color,
-              ),
-            ),
-            const SizedBox(height: GcSpace.x3),
-            Text(
-              info.name,
-              style: TextStyle(
-                fontSize: GcType.body,
-                fontWeight: GcType.black,
-                color: info.color,
-              ),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

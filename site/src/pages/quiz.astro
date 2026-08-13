@@ -25,14 +25,14 @@ import { ROUTES } from "../config/routes";
         </div>
 
         <div class="quiz-chooser-grid">
-          <a href={ROUTES.quizRapide} data-astro-prefetch class="quiz-choice-card">
+          <a href={ROUTES.quizRapide} data-astro-prefetch class="quiz-choice-card gc-card gc-card--interactive">
             <p class="choice-badge">2 minutes</p>
             <h2>Quiz Rapide</h2>
             <p>Tu repars avec un type de business et la première étape du parcours conseillé.</p>
             <span class="choice-cta">Lancer le quiz rapide et passer au premier pas →</span>
           </a>
 
-          <a href={ROUTES.quizAvance} data-astro-prefetch class="quiz-choice-card">
+          <a href={ROUTES.quizAvance} data-astro-prefetch class="quiz-choice-card gc-card gc-card--interactive">
             <p class="choice-badge">~15 minutes</p>
             <h2>Quiz Avancé</h2>
             <p>Tu obtiens une recommandation plus affinée, adaptée à ton profil, ta contrainte de temps et ton niveau réel.</p>
@@ -58,18 +58,8 @@ import { ROUTES } from "../config/routes";
   .quiz-choice-card {
     display: block;
     text-decoration: none;
-    background: var(--brand-cream);
-    border: 3px solid var(--brand-black);
-    box-shadow: 6px 6px 0 var(--brand-black);
     padding: var(--gc-primitive-space-6);
     color: var(--brand-black);
-    transition: all 0.2s ease-in-out;
-  }
-
-  .quiz-choice-card:hover {
-    transform: translate(2px, 2px);
-    box-shadow: 4px 4px 0 var(--brand-black);
-    background: var(--brand-yellow);
   }
 
   .choice-badge {
@@ -102,15 +92,7 @@ import { ROUTES } from "../config/routes";
   }
 
   :global(.dark) .quiz-choice-card {
-    background: var(--brand-ink);
-    border-color: var(--brand-cream);
-    box-shadow: 6px 6px 0 var(--brand-cream);
     color: var(--brand-cream);
-  }
-
-  :global(.dark) .quiz-choice-card:hover {
-    background: var(--brand-charcoal);
-    box-shadow: 4px 4px 0 var(--brand-cream);
   }
 
   :global(.dark) .choice-badge {

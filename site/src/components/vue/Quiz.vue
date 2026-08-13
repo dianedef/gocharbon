@@ -3,9 +3,10 @@
     <div v-if="!quizStarted" class="quiz-intro">
       <h2 class="quiz-title">Trouve ton Business en Ligne Idéal</h2>
       <p class="quiz-description">
-        Réponds à quelques questions pour découvrir le business model qui correspond le mieux à tes compétences et tes envies.
+        Réponds à quelques questions pour découvrir le business model qui
+        correspond le mieux à tes compétences et tes envies.
       </p>
-      <button @click="startQuiz" class="quiz-btn primary">
+      <button @click="startQuiz" class="gc-action gc-action--primary">
         Commencer le Quiz
       </button>
     </div>
@@ -14,7 +15,7 @@
       <div class="quiz-nav">
         <button
           type="button"
-          class="quiz-btn secondary back-btn"
+          class="gc-control"
           :disabled="!canGoBack"
           @click="goBack"
         >
@@ -29,20 +30,21 @@
         ></div>
       </div>
 
-      <Transition
-        mode="out-in"
-      >
+      <Transition mode="out-in">
         <div :key="currentIndex" class="question-wrapper">
-          <div class="question-card">
-            <span class="question-number">Question {{ currentIndex + 1 }} / {{ activeQuizData.questions.length }}</span>
+          <div class="question-card gc-card gc-card--informative">
+            <span class="question-number"
+              >Question {{ currentIndex + 1 }} /
+              {{ activeQuizData.questions.length }}</span
+            >
             <h3 class="question-text">{{ currentQuestion.text }}</h3>
-            
+
             <div class="answers-grid">
               <button
                 v-for="(option, index) in currentQuestion.options"
                 :key="index"
                 @click="submitAnswer(option, index)"
-                class="answer-btn"
+                class="answer-btn gc-control gc-card gc-card--selectable"
               >
                 <span class="answer-icon">{{ option.icon }}</span>
                 <span class="answer-text">{{ option.text }}</span>
@@ -55,32 +57,43 @@
 
     <div v-else class="quiz-results">
       <h2 class="results-title">Ton Business Idéal :</h2>
-      <div class="result-card">
+      <div class="result-card gc-card gc-card--reward">
         <div class="result-icon">{{ finalResultData.icon }}</div>
         <h3 class="result-name">{{ finalResultTitle }}</h3>
         <p class="result-description">{{ finalResultDescription }}</p>
 
         <div class="result-insights">
-          <p :class="['confidence-badge', confidenceLevel.level]">{{ confidenceLevel.label }}</p>
+          <p :class="['confidence-badge', confidenceLevel.level]">
+            {{ confidenceLevel.label }}
+          </p>
           <p class="confidence-text">{{ confidenceLevel.description }}</p>
         </div>
 
         <div v-if="secondResultData" class="top-two-wrapper">
           <h4 class="top-two-title">Top 2 profils recommandés</h4>
           <div class="top-two-grid">
-            <div class="top-two-card winner">
-              <span class="top-two-name">{{ finalResultData.icon }} {{ finalResultTitle }}</span>
+            <div class="top-two-card winner gc-card gc-card--reward">
+              <span class="top-two-name"
+                >{{ finalResultData.icon }} {{ finalResultTitle }}</span
+              >
               <span class="top-two-score">{{ topResult.score }} pts</span>
             </div>
-            <div class="top-two-card">
-              <span class="top-two-name">{{ secondResultData.icon }} {{ secondResultTitle }}</span>
-              <span class="top-two-score">{{ secondResult?.score ?? 0 }} pts</span>
+            <div class="top-two-card gc-card gc-card--informative">
+              <span class="top-two-name"
+                >{{ secondResultData.icon }} {{ secondResultTitle }}</span
+              >
+              <span class="top-two-score"
+                >{{ secondResult?.score ?? 0 }} pts</span
+              >
             </div>
           </div>
         </div>
 
         <ul class="result-strengths">
-          <li v-for="(strength, index) in finalResultData.strengths" :key="index">
+          <li
+            v-for="(strength, index) in finalResultData.strengths"
+            :key="index"
+          >
             ✓ {{ strength }}
           </li>
         </ul>
@@ -92,10 +105,14 @@
               v-for="profile in finalRelatedProfiles"
               :key="profile.slug"
               :href="profile.slug"
-              class="related-profile-card no-link-style"
+              class="related-profile-card gc-card gc-card--interactive no-link-style"
             >
               <span class="related-profile-name">{{ profile.title }}</span>
-              <span v-if="profile.description" class="related-profile-description">{{ profile.description }}</span>
+              <span
+                v-if="profile.description"
+                class="related-profile-description"
+                >{{ profile.description }}</span
+              >
             </a>
           </div>
         </div>
@@ -104,24 +121,31 @@
           <a
             v-if="finalBizProfile?.learningPathUrl"
             :href="finalBizProfile.learningPathUrl"
-            class="quiz-btn primary no-link-style"
+            class="gc-action gc-action--primary no-link-style"
             @click="startLearningPath"
           >
             Commencer le Parcours
           </a>
-          <a v-if="finalBizProfile" :href="finalBizProfile.slug" class="quiz-btn primary no-link-style">
+          <a
+            v-if="finalBizProfile"
+            :href="finalBizProfile.slug"
+            class="gc-action gc-action--primary no-link-style"
+          >
             Voir la Fiche
           </a>
-          <button @click="resetQuiz" class="quiz-btn secondary">
+          <button @click="resetQuiz" class="gc-action gc-action--secondary">
             Refaire le Quiz
           </button>
-          <a :href="ROUTES.outils" class="quiz-btn primary no-link-style">
+          <a
+            :href="ROUTES.outils"
+            class="gc-action gc-action--primary no-link-style"
+          >
             Voir les outils
           </a>
           <button
             v-if="mode === 'quick'"
             type="button"
-            class="quiz-btn primary"
+            class="gc-action gc-action--primary"
             @click="goToAdvancedQuiz"
           >
             Passer au Quiz Avancé
@@ -133,18 +157,18 @@
 </template>
 
 <script setup lang="ts">
-import { ref, reactive, computed, onMounted } from 'vue';
+import { ref, reactive, computed, onMounted } from "vue";
 import {
   createPathStepKey,
   getCompletedStepIds,
   setCompletedStepIds,
-} from '../../gamification/pathProgress';
-import { setTaskCompleted } from '../../gamification/xp';
+} from "../../gamification/pathProgress";
+import { setTaskCompleted } from "../../gamification/xp";
 import {
   CANONICAL_ARCHETYPES,
   type CanonicalArchetype,
-} from '../../data/profileTaxonomy';
-import { ROUTES } from '../../config/routes';
+} from "../../data/profileTaxonomy";
+import { ROUTES } from "../../config/routes";
 
 type ProfileKey = CanonicalArchetype;
 type ProfileScores = Record<ProfileKey, number>;
@@ -204,25 +228,35 @@ const props = withDefaults(
   defineProps<{
     bizProfiles?: Partial<Record<ProfileKey, BizProfileData | null>>;
     data?: QuizPayload | null;
-    mode?: 'quick' | 'advanced';
+    mode?: "quick" | "advanced";
     prefillAnswers?: PrefillAnswer[];
   }>(),
   {
     bizProfiles: () => ({}),
     data: null,
-    mode: 'advanced',
+    mode: "advanced",
     prefillAnswers: () => [],
-  }
+  },
 );
 
 const emptyQuizData: QuizPayload = {
   questions: [],
   results: {
-    ecommerce: { title: 'E-commerce', icon: '🛒', description: '', strengths: [] },
-    saas: { title: 'SaaS', icon: '⚙️', description: '', strengths: [] },
-    content: { title: 'Contenu', icon: '🎥', description: '', strengths: [] },
-    service: { title: 'Service', icon: '🤝', description: '', strengths: [] },
-    formation: { title: 'Formation', icon: '📚', description: '', strengths: [] },
+    ecommerce: {
+      title: "E-commerce",
+      icon: "🛒",
+      description: "",
+      strengths: [],
+    },
+    saas: { title: "SaaS", icon: "⚙️", description: "", strengths: [] },
+    content: { title: "Contenu", icon: "🎥", description: "", strengths: [] },
+    service: { title: "Service", icon: "🤝", description: "", strengths: [] },
+    formation: {
+      title: "Formation",
+      icon: "📚",
+      description: "",
+      strengths: [],
+    },
   },
 };
 
@@ -230,7 +264,9 @@ const quizStarted = ref(false);
 const isFinished = ref(false);
 const currentIndex = ref(0);
 const answerHistory = ref<Array<Partial<ProfileScores>>>([]);
-const selectedAnswers = ref<Array<{ questionId: number; optionIndex: number } | null>>([]);
+const selectedAnswers = ref<
+  Array<{ questionId: number; optionIndex: number } | null>
+>([]);
 const prefilledQuestionIndexes = ref<Set<number>>(new Set());
 const sessionPrefillAnswers = ref<PrefillAnswer[]>([]);
 
@@ -244,7 +280,9 @@ const scores = reactive({
 const profileKeys: ProfileKey[] = [...CANONICAL_ARCHETYPES];
 const activeQuizData = computed<QuizPayload>(() => props.data ?? emptyQuizData);
 
-const currentQuestion = computed(() => activeQuizData.value.questions[currentIndex.value]);
+const currentQuestion = computed(
+  () => activeQuizData.value.questions[currentIndex.value],
+);
 
 const sortedResults = computed(() =>
   profileKeys
@@ -252,36 +290,49 @@ const sortedResults = computed(() =>
       profile,
       score: scores[profile],
     }))
-    .sort((a, b) => b.score - a.score)
+    .sort((a, b) => b.score - a.score),
 );
 
 const topResult = computed(
-  () => sortedResults.value[0] ?? { profile: 'content' as ProfileKey, score: 0 }
+  () =>
+    sortedResults.value[0] ?? { profile: "content" as ProfileKey, score: 0 },
 );
 const secondResult = computed(() => sortedResults.value[1] ?? null);
 const finalResult = computed<ProfileKey>(() => topResult.value.profile);
 
-const finalResultData = computed(() => activeQuizData.value.results[finalResult.value]);
+const finalResultData = computed(
+  () => activeQuizData.value.results[finalResult.value],
+);
 const secondResultData = computed(() =>
-  secondResult.value ? activeQuizData.value.results[secondResult.value.profile] : null
+  secondResult.value
+    ? activeQuizData.value.results[secondResult.value.profile]
+    : null,
 );
-const finalBizProfile = computed(() => props.bizProfiles[finalResult.value] ?? null);
+const finalBizProfile = computed(
+  () => props.bizProfiles[finalResult.value] ?? null,
+);
 const secondBizProfile = computed(() =>
-  secondResult.value ? props.bizProfiles[secondResult.value.profile] ?? null : null
+  secondResult.value
+    ? (props.bizProfiles[secondResult.value.profile] ?? null)
+    : null,
 );
-const finalRelatedProfiles = computed(() => finalBizProfile.value?.relatedProfiles ?? []);
+const finalRelatedProfiles = computed(
+  () => finalBizProfile.value?.relatedProfiles ?? [],
+);
 
-const finalResultTitle = computed(() => finalBizProfile.value?.title ?? finalResultData.value.title);
+const finalResultTitle = computed(
+  () => finalBizProfile.value?.title ?? finalResultData.value.title,
+);
 const finalResultDescription = computed(
-  () => finalBizProfile.value?.description ?? finalResultData.value.description
+  () => finalBizProfile.value?.description ?? finalResultData.value.description,
 );
 
 const secondResultTitle = computed(() => {
   if (!secondResult.value) {
-    return '';
+    return "";
   }
 
-  return secondBizProfile.value?.title ?? secondResultData.value?.title ?? '';
+  return secondBizProfile.value?.title ?? secondResultData.value?.title ?? "";
 });
 const mode = computed(() => props.mode);
 
@@ -292,69 +343,88 @@ const confidenceLevel = computed(() => {
 
   if (diff >= 7) {
     return {
-      level: 'high',
-      label: 'Confiance forte',
-      description: "Ton profil est très net: une direction se démarque clairement.",
+      level: "high",
+      label: "Confiance forte",
+      description:
+        "Ton profil est très net: une direction se démarque clairement.",
     };
   }
 
   if (diff >= 4) {
     return {
-      level: 'medium',
-      label: 'Confiance moyenne',
-      description: 'Ton résultat principal est solide, avec une alternative crédible.',
+      level: "medium",
+      label: "Confiance moyenne",
+      description:
+        "Ton résultat principal est solide, avec une alternative crédible.",
     };
   }
 
   return {
-    level: 'low',
-    label: 'Confiance exploratoire',
-    description: 'Deux voies sont proches: teste rapidement les deux pour trancher.',
+    level: "low",
+    label: "Confiance exploratoire",
+    description:
+      "Deux voies sont proches: teste rapidement les deux pour trancher.",
   };
 });
 
-const answeredCount = computed(() =>
-  answerHistory.value.filter((answer) => answer && Object.keys(answer).length > 0).length
+const answeredCount = computed(
+  () =>
+    answerHistory.value.filter(
+      (answer) => answer && Object.keys(answer).length > 0,
+    ).length,
 );
 const progressPercent = computed(() => {
   const total = activeQuizData.value?.questions?.length ?? 0;
   if (!total) return 0;
   return Math.round((answeredCount.value / total) * 100);
 });
-const canGoBack = computed(() => previousAnswerableIndex(currentIndex.value - 1) >= 0);
+const canGoBack = computed(
+  () => previousAnswerableIndex(currentIndex.value - 1) >= 0,
+);
 
 const buildPrefillPayload = () =>
   selectedAnswers.value
-    .filter((item): item is { questionId: number; optionIndex: number } => item !== null)
+    .filter(
+      (item): item is { questionId: number; optionIndex: number } =>
+        item !== null,
+    )
     .map((item) => {
-      const question = activeQuizData.value.questions.find((q) => q.id === item.questionId);
+      const question = activeQuizData.value.questions.find(
+        (q) => q.id === item.questionId,
+      );
       const option = question?.options[item.optionIndex];
       return option?.prefill ?? null;
     })
-    .filter(
-      (item): item is { questionId: number; optionIndex: number } =>
-        Boolean(item && Number.isInteger(item.questionId) && Number.isInteger(item.optionIndex))
+    .filter((item): item is { questionId: number; optionIndex: number } =>
+      Boolean(
+        item &&
+        Number.isInteger(item.questionId) &&
+        Number.isInteger(item.optionIndex),
+      ),
     );
 
 const advancedPrefillUrl = computed(() => {
   const payload = buildPrefillPayload();
   if (payload.length === 0) {
-    return '';
+    return "";
   }
   return `${ROUTES.quizAvance}?prefill=${encodeURIComponent(JSON.stringify(payload))}`;
 });
 
 const goToAdvancedQuiz = () => {
   const payload = buildPrefillPayload();
-  if (typeof window === 'undefined') {
+  if (typeof window === "undefined") {
     return;
   }
 
   try {
     if (payload.length > 0) {
-      window.sessionStorage.setItem('quiz_prefill_answers', JSON.stringify(payload));
+      window.sessionStorage.setItem(
+        "quiz_prefill_answers",
+        JSON.stringify(payload),
+      );
     } else {
-      window.sessionStorage.removeItem('quiz_prefill_answers');
+      window.sessionStorage.removeItem("quiz_prefill_answers");
     }
   } catch {
     // Ignore storage errors, fallback to query string if available.
@@ -370,18 +440,19 @@ const goToAdvancedQuiz = () => {
 function markQuizStepAsCompleted(pathId: string): void {
   if (!pathId) return;
 
-  const stepId = mode.value === 'quick' ? 'orientation-rapide' : 'orientation-avance';
-  const stepKey = createPathStepKey('fondations', stepId);
+  const stepId =
+    mode.value === "quick" ? "orientation-rapide" : "orientation-avance";
+  const stepKey = createPathStepKey("fondations", stepId);
   const completed = new Set(getCompletedStepIds(pathId));
 
   completed.add(stepKey);
   setCompletedStepIds(pathId, Array.from(completed));
-  setTaskCompleted(`${pathId}::${stepKey}`, true, 'quiz');
+  setTaskCompleted(`${pathId}::${stepKey}`, true, "quiz");
 }
 
 function startLearningPath(event: MouseEvent): void {
   const href = finalBizProfile.value?.learningPathUrl;
-  if (!href || typeof window === 'undefined') {
+  if (!href || typeof window === "undefined") {
     return;
   }
 
@@ -425,7 +496,10 @@ const nextAnswerableIndex = (fromIndex: number) => {
 const previousAnswerableIndex = (fromIndex: number) => {
   let previousIndex = fromIndex;
 
-  while (previousIndex >= 0 && prefilledQuestionIndexes.value.has(previousIndex)) {
+  while (
+    previousIndex >= 0 &&
+    prefilledQuestionIndexes.value.has(previousIndex)
+  ) {
     previousIndex -= 1;
   }
 
@@ -438,9 +512,11 @@ const updateProgressBar = () => {
 
 const applyPrefillAnswers = () => {
   const rawPrefill =
-    props.prefillAnswers.length > 0 ? props.prefillAnswers : sessionPrefillAnswers.value;
+    props.prefillAnswers.length > 0
+      ? props.prefillAnswers
+      : sessionPrefillAnswers.value;
 
-  if (mode.value !== 'advanced' || rawPrefill.length === 0) {
+  if (mode.value !== "advanced" || rawPrefill.length === 0) {
     return;
   }
 
@@ -449,18 +525,23 @@ const applyPrefillAnswers = () => {
       (item) =>
         Number.isInteger(item.questionId) &&
         Number.isInteger(item.optionIndex) &&
-        item.optionIndex >= 0
+        item.optionIndex >= 0,
     )
     .slice(0, 12);
 
   parsed.forEach((prefill) => {
-    const questionIndex = activeQuizData.value.questions.findIndex((q) => q.id === prefill.questionId);
+    const questionIndex = activeQuizData.value.questions.findIndex(
+      (q) => q.id === prefill.questionId,
+    );
 
     if (questionIndex === -1) {
       return;
     }
 
-    const option = activeQuizData.value.questions[questionIndex]?.options?.[prefill.optionIndex];
+    const option =
+      activeQuizData.value.questions[questionIndex]?.options?.[
+        prefill.optionIndex
+      ];
 
     if (!option) {
       return;
@@ -477,12 +558,16 @@ const applyPrefillAnswers = () => {
 };
 
 onMounted(() => {
-  if (mode.value !== 'advanced' || props.prefillAnswers.length > 0 || typeof window === 'undefined') {
+  if (
+    mode.value !== "advanced" ||
+    props.prefillAnswers.length > 0 ||
+    typeof window === "undefined"
+  ) {
     return;
   }
 
   try {
-    const raw = window.sessionStorage.getItem('quiz_prefill_answers');
+    const raw = window.sessionStorage.getItem("quiz_prefill_answers");
     if (!raw) {
       return;
     }
@@ -494,11 +579,11 @@ onMounted(() => {
           item &&
           Number.isInteger(item.questionId) &&
           Number.isInteger(item.optionIndex) &&
-          item.optionIndex >= 0
+          item.optionIndex >= 0,
       );
     }
 
-    window.sessionStorage.removeItem('quiz_prefill_answers');
+    window.sessionStorage.removeItem("quiz_prefill_answers");
   } catch {
     sessionPrefillAnswers.value = [];
   }
@@ -564,11 +649,10 @@ const resetQuiz = () => {
   answerHistory.value = [];
   selectedAnswers.value = [];
   prefilledQuestionIndexes.value = new Set();
-  
+
   Object.keys(scores).forEach((key) => {
     scores[key as keyof typeof scores] = 0;
   });
-
 };
 </script>
 
@@ -602,58 +686,10 @@ const resetQuiz = () => {
   line-height: var(--quiz-description-line-height);
 }
 
-.quiz-btn {
-  padding: var(--quiz-button-padding);
-  font-size: var(--quiz-button-font-size);
-  font-weight: 700;
-  font-family: var(--quiz-button-font-family);
-  border: var(--quiz-button-border);
-  cursor: pointer;
-  transition: var(--quiz-button-transition);
-  text-decoration: none;
-  display: inline-block;
-  box-shadow: var(--quiz-button-shadow);
-}
-
-.quiz-btn.primary {
-  background-color: var(--quiz-button-primary-bg);
-  color: var(--quiz-button-primary-color);
-}
-
-.quiz-btn.primary:hover {
-  background-color: var(--quiz-button-primary-bg-hover);
-  transform: var(--quiz-button-hover-translate);
-  box-shadow: var(--quiz-button-shadow-hover);
-}
-
-.quiz-btn.secondary {
-  background-color: var(--quiz-button-secondary-bg);
-  color: var(--quiz-button-secondary-color);
-  margin-right: var(--quiz-button-secondary-margin-right);
-}
-
-.quiz-btn.secondary:hover {
-  background-color: var(--quiz-button-secondary-bg-hover);
-  transform: var(--quiz-button-hover-translate);
-  box-shadow: var(--quiz-button-shadow-hover);
-}
-
-.quiz-btn:disabled {
-  opacity: var(--quiz-button-disabled-opacity);
-  cursor: not-allowed;
-  transform: none;
-  box-shadow: var(--quiz-button-disabled-shadow);
-}
-
 .quiz-nav {
   display: flex;
   justify-content: flex-start;
   margin-bottom: var(--quiz-nav-margin-bottom);
-}
-
-.back-btn {
-  padding: var(--quiz-button-padding-back);
-  font-size: var(--quiz-button-font-size-back);
 }
 
 .progress-bar {
@@ -692,9 +728,6 @@ const resetQuiz = () => {
 }
 
 .question-card {
-  background: var(--quiz-panel-background);
-  border: var(--quiz-panel-border);
-  box-shadow: var(--quiz-panel-shadow);
   padding: var(--quiz-question-card-padding);
 }
 
@@ -717,7 +750,10 @@ const resetQuiz = () => {
 
 .answers-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--quiz-answers-grid-min-width), 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--quiz-answers-grid-min-width), 1fr)
+  );
   gap: var(--quiz-answers-grid-gap);
 }
 
@@ -728,18 +764,8 @@ const resetQuiz = () => {
   justify-content: flex-start;
   gap: var(--quiz-answer-gap);
   padding: var(--quiz-answer-padding);
-  background: var(--quiz-answer-bg);
-  border: var(--quiz-answer-border);
-  box-shadow: var(--quiz-answer-shadow);
   cursor: pointer;
-  transition: var(--quiz-answer-transition);
   text-align: left;
-}
-
-.answer-btn:hover {
-  background: var(--quiz-answer-bg-hover);
-  transform: var(--quiz-button-hover-translate);
-  box-shadow: var(--quiz-answer-shadow-hover);
 }
 
 .answer-icon {
@@ -760,9 +786,6 @@ const resetQuiz = () => {
 }
 
 .result-card {
-  background: var(--quiz-result-card-background);
-  border: var(--quiz-result-card-border);
-  box-shadow: var(--quiz-result-card-shadow);
   padding: var(--quiz-result-card-padding);
   text-align: left;
 }
@@ -841,13 +864,7 @@ const resetQuiz = () => {
   justify-content: space-between;
   align-items: center;
   gap: var(--quiz-top-two-grid-gap);
-  border: var(--quiz-top-two-card-border);
   padding: var(--quiz-top-two-card-padding);
-  background: var(--quiz-top-two-card-background);
-}
-
-.top-two-card.winner {
-  background: var(--quiz-top-two-card-winner-background);
 }
 
 .top-two-name {
@@ -886,7 +903,10 @@ const resetQuiz = () => {
 
 .related-profiles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--quiz-related-profiles-grid-min-width), 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--quiz-related-profiles-grid-min-width), 1fr)
+  );
   gap: var(--quiz-related-profiles-grid-gap);
 }
 
@@ -895,15 +915,7 @@ const resetQuiz = () => {
   flex-direction: column;
   gap: var(--quiz-related-profile-card-gap);
   padding: var(--quiz-related-profile-card-padding);
-  border: var(--quiz-related-profile-card-border);
-  background: var(--quiz-related-profile-card-background);
   color: var(--quiz-related-profile-card-color);
-  transition: var(--quiz-related-profile-card-transition);
-}
-
-.related-profile-card:hover {
-  transform: var(--quiz-related-profile-card-hover-translate);
-  background: var(--quiz-related-profile-card-hover-background);
 }
 
 .related-profile-name {
@@ -958,9 +970,8 @@ const resetQuiz = () => {
     flex-direction: var(--quiz-result-actions-direction-mobile);
   }
 
-  .quiz-btn.secondary {
-    margin-right: 0;
-    margin-bottom: var(--quiz-button-secondary-margin-bottom-mobile);
+  .gc-action--secondary {
+    margin-bottom: var(--quiz-result-secondary-action-margin-bottom-mobile);
   }
 }
 </style>

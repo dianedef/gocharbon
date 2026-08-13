@@ -5,7 +5,8 @@ import "package:flutter_material_design_icons/flutter_material_design_icons.dart
 import "../../error/app_error.dart";
 import "../../error/app_error_store.dart";
 import "../../theme/app_colors.dart";
-import "../widgets/depth_button.dart";
+import "../widgets/gc_button.dart";
+import "../widgets/app_card.dart";
 
 class AppErrorScreen extends StatelessWidget {
   const AppErrorScreen({super.key, required this.error});
@@ -53,16 +54,8 @@ class AppErrorScreen extends StatelessWidget {
               ),
               const SizedBox(height: GcSpace.x3),
               Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: GcAppColors.surface,
-                    borderRadius: GcRadii.card,
-                    border: Border.all(
-                      color: GcAppColors.error.withValues(
-                        alpha: GcOpacity.disabled,
-                      ),
-                    ),
-                  ),
+                child: GcStatusCard(
+                  variant: GcStatusCardVariant.error,
                   padding: const EdgeInsets.all(GcSpace.x3),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -93,45 +86,14 @@ class AppErrorScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: GcSpace.x3),
-              DepthButton(
+              GcButton.secondary(
                 onPressed: () => _copy(context),
-                colors: const [
-                  GcAppColors.secondary,
-                  GcAppColors.secondaryShadow,
-                ],
-                shadowColor: GcAppColors.secondaryShadow,
-                borderRadius: GcRadii.card,
-                child: const Padding(
-                  padding: EdgeInsets.symmetric(vertical: GcSpace.x3),
-                  child: Center(
-                    child: Text(
-                      "Copier",
-                      style: TextStyle(
-                        color: GcAppColors.textOnAccent,
-                        fontWeight: GcType.black,
-                      ),
-                    ),
-                  ),
-                ),
+                label: "Copier",
               ),
               const SizedBox(height: GcSpace.x3),
-              DepthButton(
+              GcButton.primary(
                 onPressed: AppErrorStore.clear,
-                colors: const [GcAppColors.primary, GcAppColors.primaryShadow],
-                shadowColor: GcAppColors.primaryShadow,
-                borderRadius: GcRadii.card,
-                child: const Padding(
-                  padding: EdgeInsets.symmetric(vertical: GcSpace.x3),
-                  child: Center(
-                    child: Text(
-                      "Revenir à l'app",
-                      style: TextStyle(
-                        color: GcAppColors.textPrimary,
-                        fontWeight: GcType.black,
-                      ),
-                    ),
-                  ),
-                ),
+                label: "Revenir à l'app",
               ),
               const SizedBox(height: GcSpace.x2),
               const Text(

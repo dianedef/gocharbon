@@ -157,15 +157,15 @@ watch(
       </div>
     </div>
 
-    <div v-if="showOnboarding" class="onboarding-tooltip">
+    <div v-if="showOnboarding" class="onboarding-tooltip gc-notice">
       <p>Tes stats de progression GoCharbon. Lis des articles, complete des parcours, debloque des badges !</p>
-      <button class="onboarding-dismiss" @click="dismissOnboarding">OK, compris</button>
+      <button class="onboarding-dismiss gc-control" @click="dismissOnboarding">OK, compris</button>
     </div>
 
     <Teleport to="body">
       <AchievementToast :badge="toastBadge" :duration="5000" class="toast-wrapper">
         <template #default="{ badge: b, dismiss }">
-          <div class="toast-content" @click="dismiss">
+          <div class="toast-content gc-notice gc-notice--reward" @click="dismiss">
             <span class="toast-icon">{{ b.icon }}</span>
             <div class="toast-text">
               <strong>Badge débloqué !</strong>
@@ -192,7 +192,7 @@ watch(
   gap: var(--gamification-bar-inner-gap);
   padding: var(--gamification-bar-inner-padding);
   border: var(--gamification-bar-inner-border);
-  border-radius: var(--gamification-bar-inner-radius);
+  border-radius: var(--gc-component-pixel-frame-radius);
   background: var(--gamification-bar-inner-background);
   box-shadow: var(--gamification-bar-inner-shadow);
   font-family: var(--gamification-bar-inner-font-family);
@@ -261,11 +261,6 @@ watch(
   display: flex;
   align-items: center;
   gap: var(--gamification-bar-toast-gap);
-  padding: var(--gamification-bar-toast-padding);
-  border: var(--gamification-bar-toast-border);
-  border-radius: var(--gamification-bar-toast-radius);
-  background: var(--gamification-bar-toast-background);
-  box-shadow: var(--gamification-bar-toast-shadow);
   cursor: pointer;
   animation: var(--gamification-bar-toast-animation);
   color: var(--gamification-bar-toast-color);
@@ -296,11 +291,6 @@ watch(
   bottom: var(--gamification-bar-onboarding-offset);
   right: 0;
   width: var(--gamification-bar-onboarding-width);
-  padding: var(--gamification-bar-onboarding-padding);
-  border: var(--gamification-bar-onboarding-border);
-  border-radius: var(--gamification-bar-onboarding-radius);
-  background: var(--gamification-bar-onboarding-background);
-  box-shadow: var(--gamification-bar-onboarding-shadow);
   font-family: var(--gamification-bar-onboarding-font-family);
   font-size: var(--gamification-bar-onboarding-font-size);
   color: var(--gamification-bar-onboarding-color);

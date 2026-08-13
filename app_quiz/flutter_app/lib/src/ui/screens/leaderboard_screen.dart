@@ -8,7 +8,8 @@ import "../../state/providers.dart";
 import "../../theme/app_colors.dart";
 import "../../utils/color_utils.dart";
 import "../../utils/format_utils.dart";
-import "../widgets/depth_button.dart";
+import "../widgets/gc_button.dart";
+import "../widgets/app_card.dart";
 
 class LeaderboardScreen extends ConsumerStatefulWidget {
   const LeaderboardScreen({super.key});
@@ -87,28 +88,7 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                     ),
                   ),
                   const SizedBox(height: GcSpace.x4),
-                  DepthButton(
-                    onPressed: _fetch,
-                    colors: const [
-                      GcAppColors.primary,
-                      GcAppColors.primaryShadow,
-                    ],
-                    shadowColor: GcAppColors.primaryShadow,
-                    borderRadius: GcRadii.card,
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: GcSpace.x5,
-                        vertical: GcSpace.x3,
-                      ),
-                      child: Text(
-                        "Réessayer",
-                        style: TextStyle(
-                          color: GcAppColors.textPrimary,
-                          fontWeight: GcType.black,
-                        ),
-                      ),
-                    ),
-                  ),
+                  GcButton.primary(onPressed: _fetch, label: "Réessayer"),
                 ],
               ),
             ),
@@ -318,24 +298,14 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                     final item = rest[index];
                     final isMe = myId != null && item.userId == myId;
                     final avatarBase = colorFromHex(item.avatarColor);
-                    return Container(
+                    return AppCard.compact(
                       margin: const EdgeInsets.only(bottom: GcSpace.oneAndHalf),
-                      padding: const EdgeInsets.all(GcSpace.x3),
-                      decoration: BoxDecoration(
-                        color: isMe
-                            ? GcAppColors.secondary.withValues(
-                                alpha: GcOpacity.disabled,
-                              )
-                            : GcAppColors.surface,
-                        borderRadius: GcRadii.card,
-                        border: Border.all(
-                          color: isMe
-                              ? GcAppColors.secondary.withValues(
-                                  alpha: GcOpacity.disabled,
-                                )
-                              : GcAppColors.borderLight,
-                        ),
-                      ),
+                      backgroundColor: isMe
+                          ? GcAppColors.surfaceElevated
+                          : GcAppColors.surface,
+                      borderColor: isMe
+                          ? GcAppColors.secondary
+                          : GcAppColors.borderLight,
                       child: Row(
                         children: [
                           SizedBox(
@@ -427,7 +397,8 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
               ),
 
               if (myRank != null && myRank.rank > 0)
-                Container(
+                GcStatusCard(
+                  variant: GcStatusCardVariant.info,
                   margin: const EdgeInsets.only(
                     bottom: GcSpace.twoAndHalf,
                     top: GcSpace.oneAndHalf,
@@ -435,15 +406,6 @@ class _LeaderboardScreenState extends ConsumerState<LeaderboardScreen> {
                   padding: const EdgeInsets.symmetric(
                     vertical: GcSpace.x3,
                     horizontal: GcSpace.x4,
-                  ),
-                  decoration: BoxDecoration(
-                    color: GcAppColors.surface,
-                    borderRadius: GcRadii.card,
-                    border: Border.all(
-                      color: GcAppColors.secondary.withValues(
-                        alpha: GcOpacity.disabled,
-                      ),
-                    ),
                   ),
                   child: Row(
                     children: [

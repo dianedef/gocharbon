@@ -49,11 +49,10 @@ const posts = allToolPosts.filter((post) => getToolTaxonomy(post)?.category === 
 				Une page catégorie indexable, avec les outils rangés par taxonomie canonique plutôt que par tags flous.
 			</p>
 			<div class="flex flex-wrap gap-3">
-				<Button href="/outils" color="var(--brand-copper)">Toutes les catégories</Button>
+				<Button href="/outils" variant="secondary">Toutes les catégories</Button>
 				{category.subcategories.map((subcategory) => (
 					<Button
 						href={getToolSubcategoryHref(category.slug, subcategory.slug)}
-						color="var(--brand-yellow)"
 					>
 						{subcategory.label} ({subcategory.count})
 					</Button>
