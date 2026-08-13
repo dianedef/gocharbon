@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 d0327bc13284e8d0a90a80140ba0fa1622e1737e25679ac0cf9d275136e81884
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 de1bd967fb6ff12b696d09702c5bd611201262ea06645b44654d50f6f7dfe43e
 export const designTokens = {
   "light": {
     "component.achievementMedia.compactSize": "70px",
@@ -36,8 +36,15 @@ export const designTokens = {
     "component.pill.paddingInline": "24px",
     "component.pill.radius": "9999px",
     "component.pixelFrame.borderWidth": "2px",
+    "component.pixelFrame.contentInset": "8px",
+    "component.pixelFrame.disabledMetalColor": "#182933",
     "component.pixelFrame.edgeUnit": "4px",
+    "component.pixelFrame.innerColor": "#182933",
+    "component.pixelFrame.metalActiveColor": "#e7ad18",
+    "component.pixelFrame.metalColor": "#9b6815",
+    "component.pixelFrame.outerColor": "#111820",
     "component.pixelFrame.radius": "0px",
+    "component.pixelFrame.separatorColor": "#050b10",
     "component.pixelFrame.shadow": {
       "blur": "0px",
       "color": "#111820",
@@ -45,6 +52,7 @@ export const designTokens = {
       "x": "2px",
       "y": "2px"
     },
+    "component.pixelFrame.surfaceColor": "#e7e0d2",
     "component.progress.borderWidth": "3px",
     "component.progress.comfortableHeight": "14px",
     "component.progress.compactHeight": "10px",
@@ -283,8 +291,15 @@ export const designTokens = {
     "component.pill.paddingInline": "24px",
     "component.pill.radius": "9999px",
     "component.pixelFrame.borderWidth": "2px",
+    "component.pixelFrame.contentInset": "8px",
+    "component.pixelFrame.disabledMetalColor": "#182933",
     "component.pixelFrame.edgeUnit": "4px",
+    "component.pixelFrame.innerColor": "#182933",
+    "component.pixelFrame.metalActiveColor": "#e7ad18",
+    "component.pixelFrame.metalColor": "#9b6815",
+    "component.pixelFrame.outerColor": "#111820",
     "component.pixelFrame.radius": "0px",
+    "component.pixelFrame.separatorColor": "#050b10",
     "component.pixelFrame.shadow": {
       "blur": "0px",
       "color": "#e7ad18",
@@ -292,6 +307,7 @@ export const designTokens = {
       "x": "2px",
       "y": "2px"
     },
+    "component.pixelFrame.surfaceColor": "#0d1a22",
     "component.progress.borderWidth": "3px",
     "component.progress.comfortableHeight": "14px",
     "component.progress.compactHeight": "10px",

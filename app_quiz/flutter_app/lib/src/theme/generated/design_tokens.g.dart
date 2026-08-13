@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 d0327bc13284e8d0a90a80140ba0fa1622e1737e25679ac0cf9d275136e81884
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 de1bd967fb6ff12b696d09702c5bd611201262ea06645b44654d50f6f7dfe43e
 
 import "package:flutter/material.dart";
 
@@ -26,9 +26,17 @@ abstract final class GcLightTokens {
   static const componentPillPaddingInline = 24.0;
   static const componentPillRadius = 9999.0;
   static const componentPixelFrameBorderWidth = 2.0;
+  static const componentPixelFrameContentInset = 8.0;
+  static const componentPixelFrameDisabledMetalColor = Color(0xFF182933);
   static const componentPixelFrameEdgeUnit = 4.0;
+  static const componentPixelFrameInnerColor = Color(0xFF182933);
+  static const componentPixelFrameMetalActiveColor = Color(0xFFE7AD18);
+  static const componentPixelFrameMetalColor = Color(0xFF9B6815);
+  static const componentPixelFrameOuterColor = Color(0xFF111820);
   static const componentPixelFrameRadius = 0.0;
+  static const componentPixelFrameSeparatorColor = Color(0xFF050B10);
   static const componentPixelFrameShadow = "2px 2px 0px 0px #111820";
+  static const componentPixelFrameSurfaceColor = Color(0xFFE7E0D2);
   static const componentProgressBorderWidth = 3.0;
   static const componentProgressComfortableHeight = 14.0;
   static const componentProgressCompactHeight = 10.0;
@@ -195,9 +203,17 @@ abstract final class GcDarkTokens {
   static const componentPillPaddingInline = 24.0;
   static const componentPillRadius = 9999.0;
   static const componentPixelFrameBorderWidth = 2.0;
+  static const componentPixelFrameContentInset = 8.0;
+  static const componentPixelFrameDisabledMetalColor = Color(0xFF182933);
   static const componentPixelFrameEdgeUnit = 4.0;
+  static const componentPixelFrameInnerColor = Color(0xFF182933);
+  static const componentPixelFrameMetalActiveColor = Color(0xFFE7AD18);
+  static const componentPixelFrameMetalColor = Color(0xFF9B6815);
+  static const componentPixelFrameOuterColor = Color(0xFF111820);
   static const componentPixelFrameRadius = 0.0;
+  static const componentPixelFrameSeparatorColor = Color(0xFF050B10);
   static const componentPixelFrameShadow = "2px 2px 0px 0px #e7ad18";
+  static const componentPixelFrameSurfaceColor = Color(0xFF0D1A22);
   static const componentProgressBorderWidth = 3.0;
   static const componentProgressComfortableHeight = 14.0;
   static const componentProgressCompactHeight = 10.0;

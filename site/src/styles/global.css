@@ -2849,16 +2849,75 @@ body {
 }
 
 a.brutal-btn-astro {
-  filter: drop-shadow(
-    5px 5px 0
-      color-mix(in srgb, var(--gc-primitive-color-brand-ink) 100%, transparent)
+  --pixel-frame-metal: var(--gc-component-pixel-frame-metal-color);
+  clip-path: polygon(
+    calc(2 * var(--gc-component-pixel-frame-edge-unit)) 0,
+    calc(100% - 2 * var(--gc-component-pixel-frame-edge-unit)) 0,
+    calc(100% - 2 * var(--gc-component-pixel-frame-edge-unit))
+      var(--gc-component-pixel-frame-edge-unit),
+    calc(100% - var(--gc-component-pixel-frame-edge-unit))
+      var(--gc-component-pixel-frame-edge-unit),
+    calc(100% - var(--gc-component-pixel-frame-edge-unit))
+      calc(2 * var(--gc-component-pixel-frame-edge-unit)),
+    100% calc(2 * var(--gc-component-pixel-frame-edge-unit)),
+    100% calc(100% - 2 * var(--gc-component-pixel-frame-edge-unit)),
+    calc(100% - var(--gc-component-pixel-frame-edge-unit))
+      calc(100% - 2 * var(--gc-component-pixel-frame-edge-unit)),
+    calc(100% - var(--gc-component-pixel-frame-edge-unit))
+      calc(100% - var(--gc-component-pixel-frame-edge-unit)),
+    calc(100% - 2 * var(--gc-component-pixel-frame-edge-unit))
+      calc(100% - var(--gc-component-pixel-frame-edge-unit)),
+    calc(100% - 2 * var(--gc-component-pixel-frame-edge-unit)) 100%,
+    calc(2 * var(--gc-component-pixel-frame-edge-unit)) 100%,
+    calc(2 * var(--gc-component-pixel-frame-edge-unit))
+      calc(100% - var(--gc-component-pixel-frame-edge-unit)),
+    var(--gc-component-pixel-frame-edge-unit)
+      calc(100% - var(--gc-component-pixel-frame-edge-unit)),
+    var(--gc-component-pixel-frame-edge-unit)
+      calc(100% - 2 * var(--gc-component-pixel-frame-edge-unit)),
+    0 calc(100% - 2 * var(--gc-component-pixel-frame-edge-unit)),
+    0 calc(2 * var(--gc-component-pixel-frame-edge-unit)),
+    var(--gc-component-pixel-frame-edge-unit)
+      calc(2 * var(--gc-component-pixel-frame-edge-unit)),
+    var(--gc-component-pixel-frame-edge-unit)
+      var(--gc-component-pixel-frame-edge-unit),
+    calc(2 * var(--gc-component-pixel-frame-edge-unit))
+      var(--gc-component-pixel-frame-edge-unit)
   );
-  background-color: var(--brand-cream);
+  filter: drop-shadow(
+    var(--gc-component-pixel-frame-edge-unit)
+      var(--gc-component-pixel-frame-edge-unit) 0
+      var(--gc-component-pixel-frame-outer-color)
+  );
+  background: var(--gc-component-pixel-frame-surface-color);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
-  border: 3px solid var(--brand-black);
+  border: 0;
+  border-radius: var(--gc-component-pixel-frame-radius);
+  box-shadow:
+    inset 0 0 0 var(--gc-component-pixel-frame-border-width)
+      var(--gc-component-pixel-frame-outer-color),
+    inset 0 0 0
+      calc(
+        var(--gc-component-pixel-frame-border-width) +
+          var(--gc-primitive-border-thin)
+      )
+      var(--pixel-frame-metal),
+    inset 0 0 0
+      calc(
+        var(--gc-component-pixel-frame-border-width) +
+          var(--gc-component-pixel-frame-edge-unit)
+      )
+      var(--gc-component-pixel-frame-separator-color),
+    inset 0 0 0
+      calc(
+        var(--gc-component-pixel-frame-border-width) +
+          var(--gc-component-pixel-frame-edge-unit) +
+          var(--gc-primitive-border-thin)
+      )
+      var(--gc-component-pixel-frame-inner-color);
   transition: all 0.5s ease-in-out;
   font-family: var(--gc-semantic-type-action-family);
   font-size: var(--gc-primitive-space-5);
@@ -2870,19 +2929,29 @@ a.brutal-btn-astro {
   pointer-events: auto;
 }
 
+a.brutal-btn-astro:hover,
+a.brutal-btn-astro:focus-visible {
+  --pixel-frame-metal: var(--gc-component-pixel-frame-metal-active-color);
+}
+
 a.brutal-btn-astro:hover {
   filter: drop-shadow(
-    3px 3px 0
-      color-mix(in srgb, var(--gc-primitive-color-brand-ink) 100%, transparent)
+    var(--gc-component-pixel-frame-edge-unit)
+      var(--gc-component-pixel-frame-edge-unit) 0
+      var(--gc-component-pixel-frame-outer-color)
   );
   background-color: var(--button-color);
   color: var(--brand-black) !important;
 }
 
 .dark a.brutal-btn-astro {
-  filter: drop-shadow(5px 5px 0 var(--button-shadow-color));
-  background-color: var(--brand-ink);
-  border: 3px solid var(--button-shadow-color);
+  filter: drop-shadow(
+    var(--gc-component-pixel-frame-edge-unit)
+      var(--gc-component-pixel-frame-edge-unit) 0
+      var(--gc-component-pixel-frame-outer-color)
+  );
+  background-color: var(--gc-component-pixel-frame-surface-color);
+  border: 0;
   color: var(--button-shadow-color);
 }
 
@@ -2890,10 +2959,21 @@ a.brutal-btn-astro:hover {
 .dark a.brutal-btn-astro:active,
 .dark a.brutal-btn-astro:focus,
 .dark a.brutal-btn-astro:focus-visible {
+  --pixel-frame-metal: var(--gc-component-pixel-frame-metal-active-color);
   background-color: var(--button-color);
   color: var(--gc-primitive-color-brand-cream) !important;
-  border-color: var(--gc-primitive-color-brand-cream);
-  filter: drop-shadow(3px 3px 0 var(--gc-primitive-color-brand-cream));
+  filter: drop-shadow(
+    var(--gc-component-pixel-frame-edge-unit)
+      var(--gc-component-pixel-frame-edge-unit) 0
+      var(--gc-component-pixel-frame-outer-color)
+  );
+}
+
+a.brutal-btn-astro:disabled,
+a.brutal-btn-astro[aria-disabled="true"] {
+  --pixel-frame-metal: var(--gc-component-pixel-frame-disabled-metal-color);
+  cursor: not-allowed;
+  opacity: var(--gc-primitive-opacity-disabled);
 }
 
 .charbon-badge-card {

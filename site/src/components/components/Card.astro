@@ -11,18 +11,22 @@ const {
 
 <style define:vars={{ color, softWhite: 'var(--brand-cream)' }}>
 	.brutal-card-astro {
+		--pixel-frame-metal: var(--gc-component-pixel-frame-metal-color);
 		background-color: var(--color);
-		border-radius: var(--gc-primitive-space-2);
-		border: 3px solid var(--brand-black);
-		filter: drop-shadow(7px 7px 0 color-mix(in srgb, var(--gc-primitive-color-brand-ink) 100%, transparent));
+		border-radius: var(--gc-component-pixel-frame-radius);
+		border: 0;
+		--pixel-frame-step: var(--gc-component-pixel-frame-edge-unit);
+		clip-path: polygon(calc(2 * var(--pixel-frame-step)) 0, calc(100% - 2 * var(--pixel-frame-step)) 0, calc(100% - 2 * var(--pixel-frame-step)) var(--pixel-frame-step), calc(100% - var(--pixel-frame-step)) var(--pixel-frame-step), calc(100% - var(--pixel-frame-step)) calc(2 * var(--pixel-frame-step)), 100% calc(2 * var(--pixel-frame-step)), 100% calc(100% - 2 * var(--pixel-frame-step)), calc(100% - var(--pixel-frame-step)) calc(100% - 2 * var(--pixel-frame-step)), calc(100% - var(--pixel-frame-step)) calc(100% - var(--pixel-frame-step)), calc(100% - 2 * var(--pixel-frame-step)) calc(100% - var(--pixel-frame-step)), calc(100% - 2 * var(--pixel-frame-step)) 100%, calc(2 * var(--pixel-frame-step)) 100%, calc(2 * var(--pixel-frame-step)) calc(100% - var(--pixel-frame-step)), var(--pixel-frame-step) calc(100% - var(--pixel-frame-step)), var(--pixel-frame-step) calc(100% - 2 * var(--pixel-frame-step)), 0 calc(100% - 2 * var(--pixel-frame-step)), 0 calc(2 * var(--pixel-frame-step)), var(--pixel-frame-step) calc(2 * var(--pixel-frame-step)), var(--pixel-frame-step) var(--pixel-frame-step), calc(2 * var(--pixel-frame-step)) var(--pixel-frame-step));
+		filter: drop-shadow(var(--gc-component-pixel-frame-edge-unit) var(--gc-component-pixel-frame-edge-unit) 0 var(--gc-component-pixel-frame-outer-color));
+		box-shadow: inset 0 0 0 var(--gc-component-pixel-frame-border-width) var(--gc-component-pixel-frame-outer-color), inset 0 0 0 calc(var(--gc-component-pixel-frame-border-width) + var(--gc-primitive-border-thin)) var(--pixel-frame-metal), inset 0 0 0 calc(var(--gc-component-pixel-frame-border-width) + var(--gc-component-pixel-frame-edge-unit)) var(--gc-component-pixel-frame-separator-color), inset 0 0 0 calc(var(--gc-component-pixel-frame-border-width) + var(--gc-component-pixel-frame-edge-unit) + var(--gc-primitive-border-thin)) var(--gc-component-pixel-frame-inner-color);
 		padding: var(--gc-primitive-space-4);
 		color: var(--brand-black);
 	}
 
 	:global(.dark) .brutal-card-astro {
-		background-color: var(--brand-ink);
-		border: 3px solid var(--softWhite);
-		filter: drop-shadow(7px 7px 0 var(--softWhite));
+		background-color: var(--gc-component-pixel-frame-surface-color);
+		border: 0;
+		filter: drop-shadow(var(--gc-component-pixel-frame-edge-unit) var(--gc-component-pixel-frame-edge-unit) 0 var(--gc-component-pixel-frame-outer-color));
 		color: var(--softWhite);
 	}
 </style>

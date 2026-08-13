@@ -1,4 +1,4 @@
-/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 d0327bc13284e8d0a90a80140ba0fa1622e1737e25679ac0cf9d275136e81884 */
+/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 de1bd967fb6ff12b696d09702c5bd611201262ea06645b44654d50f6f7dfe43e */
 :root, [data-theme="light"] {
   --gc-component-achievement-media-compact-size: 70px;
   --gc-component-achievement-media-hero-size: 80px;
@@ -23,9 +23,17 @@
   --gc-component-pill-padding-inline: 24px;
   --gc-component-pill-radius: 9999px;
   --gc-component-pixel-frame-border-width: 2px;
+  --gc-component-pixel-frame-content-inset: 8px;
+  --gc-component-pixel-frame-disabled-metal-color: #182933;
   --gc-component-pixel-frame-edge-unit: 4px;
+  --gc-component-pixel-frame-inner-color: #182933;
+  --gc-component-pixel-frame-metal-active-color: #e7ad18;
+  --gc-component-pixel-frame-metal-color: #9b6815;
+  --gc-component-pixel-frame-outer-color: #111820;
   --gc-component-pixel-frame-radius: 0px;
+  --gc-component-pixel-frame-separator-color: #050b10;
   --gc-component-pixel-frame-shadow: 2px 2px 0px 0px #111820;
+  --gc-component-pixel-frame-surface-color: #e7e0d2;
   --gc-component-progress-border-width: 3px;
   --gc-component-progress-comfortable-height: 14px;
   --gc-component-progress-compact-height: 10px;
@@ -169,6 +177,7 @@
 }
 
 [data-theme="dark"] {
+  --gc-component-pixel-frame-surface-color: #0d1a22;
   --gc-semantic-color-background: #050b10;
   --gc-semantic-color-border: #e7e0d2;
   --gc-semantic-color-link: #e2572d;

@@ -180,7 +180,15 @@
         "radius": { "$type": "dimension", "$value": "{primitive.radius.none}", "$description": "Angles francs confirmes pour les panneaux Pixel Mine." },
         "borderWidth": { "$type": "dimension", "$value": "{primitive.border.medium}", "$description": "Contour technique sans effet de carte SaaS arrondie." },
         "edgeUnit": { "$type": "dimension", "$value": "{semantic.shape.pixelUnit}", "$description": "Unite de crenelage, rail et micro-detail pixel." },
-        "shadow": { "$type": "shadow", "$value": "{primitive.shadow.brutalSmall}", "$description": "Ombre dure compatible avec la direction Pixel Mine." }
+        "shadow": { "$type": "shadow", "$value": "{primitive.shadow.brutalSmall}", "$description": "Ombre dure compatible avec la direction Pixel Mine." },
+        "outerColor": { "$type": "color", "$value": "{primitive.color.brand.black}", "$description": "Graphite froid du contour exterieur." },
+        "metalColor": { "$type": "color", "$value": "{primitive.color.brand.goldDeep}", "$description": "Filet mineral discret des cartes standard." },
+        "metalActiveColor": { "$type": "color", "$value": "{primitive.color.brand.yellow}", "$description": "Signal mineral renforce pour interaction, valeur ou progression." },
+        "separatorColor": { "$type": "color", "$value": "{primitive.color.brand.ink}", "$description": "Separation bleu-noir autour du filet mineral." },
+        "innerColor": { "$type": "color", "$value": "{primitive.color.brand.charcoal}", "$description": "Trait interieur ardoise du double panneau." },
+        "surfaceColor": { "$type": "color", "$modes": { "light": "{primitive.color.brand.cream}", "dark": "{primitive.color.brand.rock}" }, "$description": "Surface de contenu opaque du panneau." },
+        "disabledMetalColor": { "$type": "color", "$value": "{primitive.color.brand.charcoal}", "$description": "Filet graphite des panneaux desactives." },
+        "contentInset": { "$type": "dimension", "$value": "{primitive.space.2}", "$description": "Reserve interieure minimale des cinq traits imbriques." }
       },
       "pill": {
         "paddingInline": { "$type": "dimension", "$value": "{primitive.space.6}" },
