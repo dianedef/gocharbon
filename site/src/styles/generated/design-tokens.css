@@ -1,4 +1,4 @@
-/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 bdc5fe8c8588ff5066a323cb18b18ae501e96938b847fdfa2587fd4fbbf1918e */
+/* GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 d0327bc13284e8d0a90a80140ba0fa1622e1737e25679ac0cf9d275136e81884 */
 :root, [data-theme="light"] {
   --gc-component-achievement-media-compact-size: 70px;
   --gc-component-achievement-media-hero-size: 80px;
@@ -53,8 +53,8 @@
   --gc-primitive-easing-linear: 0, 0, 1, 1;
   --gc-primitive-easing-standard: 0.2, 0, 0, 1;
   --gc-primitive-font-family-action: Sanchez, serif;
-  --gc-primitive-font-family-body: Poppins, sans-serif;
-  --gc-primitive-font-family-display: Pixelify Sans Variable, Pixelify Sans, sans-serif;
+  --gc-primitive-font-family-body: Oxanium, sans-serif;
+  --gc-primitive-font-family-display: Chakra Petch, sans-serif;
   --gc-primitive-font-letter-spacing-normal: 0px;
   --gc-primitive-font-letter-spacing-wide: 0.04em;
   --gc-primitive-font-line-height-body: 1.5;
@@ -144,8 +144,8 @@
   --gc-semantic-shape-decorative-rail-width: 4px;
   --gc-semantic-shape-pixel-unit: 4px;
   --gc-semantic-type-action-family: Sanchez, serif;
-  --gc-semantic-type-body-family: Poppins, sans-serif;
-  --gc-semantic-type-display-family: Pixelify Sans Variable, Pixelify Sans, sans-serif;
+  --gc-semantic-type-body-family: Oxanium, sans-serif;
+  --gc-semantic-type-display-family: Chakra Petch, sans-serif;
   --gc-surface-app-comfortable-navigation-height: 72px;
   --gc-surface-app-compact-navigation-height: 64px;
   --gc-surface-app-touch-target: 48px;

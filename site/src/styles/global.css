@@ -5,6 +5,19 @@
   font-family: var(--gc-semantic-type-display-family);
 }
 
+/* Legacy class names remain as compatibility hooks, but their values are semantic. */
+.poppins {
+  font-family: var(--gc-semantic-type-body-family);
+}
+
+:is(h1, h2, h3, h4, h5, h6).poppins {
+  font-family: var(--gc-semantic-type-display-family);
+}
+
+.sanchez {
+  font-family: var(--gc-semantic-type-action-family);
+}
+
 :root {
   /* Auto-centralized remaining repo drift tokens. */
   /* Auto-centralized drift tokens: preserve visual values behind canonical variables. */
@@ -45,8 +58,8 @@
   --text-4xl: 2.25rem;
   --text-5xl: 3rem;
 
-  --bio-page-body-font: "Sanchez", serif;
-  --bio-page-heading-font: "Poppins", sans-serif;
+  --bio-page-body-font: var(--gc-semantic-type-body-family);
+  --bio-page-heading-font: var(--gc-semantic-type-display-family);
   --bio-page-background: var(--brand-ink);
   --bio-page-text: var(--gc-primitive-color-brand-cream);
   --bio-page-surface: var(--brand-charcoal);
@@ -174,7 +187,7 @@
       var(--gc-primitive-color-brand-black) 0%,
       var(--gc-primitive-color-brand-ink) 100%
     );
-  --tool-qualification-card-font-family: "Poppins", sans-serif;
+  --tool-qualification-card-font-family: var(--gc-semantic-type-body-family);
   --tool-qualification-card-topline-gap: 1rem;
   --tool-qualification-card-topline-wrap: wrap;
   --tool-qualification-card-badge-row-gap: 0.75rem;
@@ -297,7 +310,7 @@
     transparent
   );
   --method-card-title-spacing: 0.75rem;
-  --method-font-family: "Poppins", sans-serif;
+  --method-font-family: var(--gc-semantic-type-body-family);
   --method-letter-spacing: 0.06em;
   --method-eyebrow-gap: 1rem;
   --method-eyebrow-padding: 0.35rem 0.6rem;
@@ -662,7 +675,7 @@
   --parcours-grid-gap: 1rem;
   --parcours-template-main: repeat(auto-fit, minmax(20rem, 1fr));
   --parcours-medium-gap: 0.75rem;
-  --parcours-font-family: "Sanchez", serif;
+  --parcours-font-family: var(--gc-semantic-type-body-family);
   --parcours-kicker-font-size: 0.8rem;
   --parcours-kicker-font-weight: 800;
   --parcours-kicker-letter-spacing: 0.08em;
@@ -798,7 +811,7 @@
   --quiz-button-padding-back: 0.65rem 1rem;
   --quiz-button-font-size: 1.125rem;
   --quiz-button-font-size-back: 1rem;
-  --quiz-button-font-family: "Sanchez", serif;
+  --quiz-button-font-family: var(--gc-semantic-type-action-family);
   --quiz-button-border: 3px solid var(--brand-black);
   --quiz-button-shadow: 5px 5px 0 var(--brand-black);
   --quiz-button-shadow-hover: 3px 3px 0 var(--brand-black);
@@ -829,7 +842,7 @@
   --quiz-question-transition: opacity 0.2s ease, transform 0.2s ease;
   --quiz-question-card-padding: 2rem;
   --quiz-question-number-size: 0.95rem;
-  --quiz-question-number-family: "Sanchez", serif;
+  --quiz-question-number-family: var(--gc-semantic-type-body-family);
   --quiz-question-number-color: var(--brand-orange);
   --quiz-question-number-margin-bottom: 1rem;
   --quiz-question-text-size: 1.85rem;
@@ -871,7 +884,7 @@
   --quiz-confidence-badge-border: 2px solid var(--brand-black);
   --quiz-confidence-badge-padding: 0.35rem 0.75rem;
   --quiz-confidence-badge-margin-bottom: 0.5rem;
-  --quiz-confidence-badge-font-family: "Sanchez", serif;
+  --quiz-confidence-badge-font-family: var(--gc-semantic-type-body-family);
   --quiz-confidence-high-bg: var(--brand-yellow);
   --quiz-confidence-medium-bg: var(--gc-primitive-color-brand-cream);
   --quiz-confidence-low-bg: var(--gc-primitive-color-brand-cream);
@@ -981,7 +994,7 @@
   );
   --sentence-quiz-result-label-letter-spacing: 0.05em;
   --sentence-quiz-result-title-size: 1.3rem;
-  --sentence-quiz-result-title-font-family: "Poppins", sans-serif;
+  --sentence-quiz-result-title-font-family: var(--gc-semantic-type-display-family);
   --sentence-quiz-result-title-color: var(--gc-primitive-color-brand-ink);
   --sentence-quiz-result-title-color-dark: var(
     --gc-primitive-color-brand-cream
@@ -995,7 +1008,7 @@
   --sentence-quiz-result-actions-direction-mobile: column;
   --sentence-quiz-btn-padding: 0.5rem 1.2rem;
   --sentence-quiz-btn-font-size: 0.95rem;
-  --sentence-quiz-btn-font-family: "Poppins", sans-serif;
+  --sentence-quiz-btn-font-family: var(--gc-semantic-type-action-family);
   --sentence-quiz-btn-border: 3px solid var(--gc-primitive-color-brand-ink);
   --sentence-quiz-btn-border-dark: 3px solid var(--brand-yellow);
   --sentence-quiz-btn-transition: all 0.15s ease;
@@ -1025,7 +1038,7 @@
   --gamification-bar-inner-background-dark: var(--brand-ink);
   --gamification-bar-inner-shadow: 4px 4px 0 var(--brand-black);
   --gamification-bar-inner-shadow-dark: 4px 4px 0 var(--brand-cream);
-  --gamification-bar-inner-font-family: "Sanchez", serif;
+  --gamification-bar-inner-font-family: var(--gc-semantic-type-body-family);
   --gamification-bar-inner-font-size: 0.875rem;
   --gamification-bar-inner-font-weight: 600;
   --gamification-bar-inner-color: var(--brand-black);
@@ -1052,7 +1065,7 @@
   --gamification-bar-toast-background-dark: var(--brand-ink);
   --gamification-bar-toast-shadow: 6px 6px 0 var(--brand-black);
   --gamification-bar-toast-shadow-dark: 6px 6px 0 var(--brand-cream);
-  --gamification-bar-toast-font-family: "Sanchez", serif;
+  --gamification-bar-toast-font-family: var(--gc-semantic-type-body-family);
   --gamification-bar-toast-icon-size: 2rem;
   --gamification-bar-toast-text-strong-size: 0.875rem;
   --gamification-bar-toast-text-span-size: 1rem;
@@ -1071,7 +1084,7 @@
   --gamification-bar-onboarding-background-dark: var(--brand-ink);
   --gamification-bar-onboarding-shadow: 4px 4px 0 var(--brand-black);
   --gamification-bar-onboarding-shadow-dark: 4px 4px 0 var(--brand-cream);
-  --gamification-bar-onboarding-font-family: "Sanchez", serif;
+  --gamification-bar-onboarding-font-family: var(--gc-semantic-type-body-family);
   --gamification-bar-onboarding-font-size: 0.85rem;
   --gamification-bar-onboarding-color: var(--brand-black);
   --gamification-bar-onboarding-color-dark: var(--brand-cream);
@@ -1083,7 +1096,7 @@
     var(--brand-cream);
   --gamification-bar-onboarding-dismiss-background: var(--brand-yellow);
   --gamification-bar-onboarding-dismiss-background-dark: var(--brand-charcoal);
-  --gamification-bar-onboarding-dismiss-font-family: "Sanchez", serif;
+  --gamification-bar-onboarding-dismiss-font-family: var(--gc-semantic-type-action-family);
   --gamification-bar-onboarding-dismiss-font-size: 0.8rem;
   --gamification-bar-onboarding-dismiss-hover-translate: translate(1px, 1px);
   --gamification-bar-onboarding-dismiss-color: var(--brand-black);
@@ -1103,7 +1116,7 @@
   --gamification-dashboard-section-shadow-dark: 6px 6px 0 var(--brand-cream);
   --gamification-dashboard-section-color: var(--brand-black);
   --gamification-dashboard-section-color-dark: var(--brand-cream);
-  --gamification-dashboard-section-title-font-family: "Sanchez", serif;
+  --gamification-dashboard-section-title-font-family: var(--gc-semantic-type-display-family);
   --gamification-dashboard-section-title-size: 1.25rem;
   --gamification-dashboard-section-title-weight: 700;
   --gamification-dashboard-section-title-margin-bottom: 1rem;
@@ -1115,7 +1128,7 @@
   --gamification-dashboard-streak-transition: opacity 0.3s;
   --gamification-dashboard-streak-current-size: 1.5rem;
   --gamification-dashboard-streak-current-weight: 700;
-  --gamification-dashboard-streak-current-font-family: "Sanchez", serif;
+  --gamification-dashboard-streak-current-font-family: var(--gc-semantic-type-display-family);
   --gamification-dashboard-streak-best-size: 0.875rem;
   --gamification-dashboard-streak-best-opacity: 0.7;
   --gamification-dashboard-stats-grid-gap: 1rem;
@@ -1129,7 +1142,7 @@
   --gamification-dashboard-stat-card-background: var(--brand-yellow);
   --gamification-dashboard-stat-card-background-dark: var(--brand-anthracite);
   --gamification-dashboard-stat-value-size: 1.5rem;
-  --gamification-dashboard-stat-value-font-family: "Sanchez", serif;
+  --gamification-dashboard-stat-value-font-family: var(--gc-semantic-type-display-family);
   --gamification-dashboard-stat-value-font-weight: 700;
   --gamification-dashboard-stat-label-size: 0.75rem;
   --gamification-dashboard-stat-label-transform: uppercase;
@@ -1367,7 +1380,7 @@
   --path-page-btn-shadow-dark: 4px 4px 0 var(--brand-cream);
   --path-page-btn-shadow-hover-dark: 2px 2px 0 var(--brand-cream);
   --path-page-btn-padding: 0.75rem 1rem;
-  --path-page-btn-font-family: "Sanchez", serif;
+  --path-page-btn-font-family: var(--gc-semantic-type-action-family);
   --path-page-btn-transition:
     transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
   --path-page-btn-mobile-width: 100%;
@@ -2042,6 +2055,7 @@ html {
 body {
   background: var(--body-background-light);
   color: var(--body-text-color);
+  font-family: var(--gc-semantic-type-body-family);
   transition:
     background 0.35s ease,
     color var(--ui-motion-short);
@@ -2364,7 +2378,7 @@ body {
 .shortcut-card h3,
 .shortcut-preview-item strong {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--gc-semantic-type-display-family);
 }
 
 .shortcut-card h3 {
@@ -2486,7 +2500,7 @@ body {
   border: 3px solid var(--brand-black);
   background: var(--brand-yellow);
   box-shadow: 4px 4px 0 var(--brand-black);
-  font-family: "Sanchez", serif;
+  font-family: var(--gc-semantic-type-action-family);
   font-size: var(--gc-primitive-space-4);
   font-weight: 700;
   color: var(--brand-black);
@@ -2846,7 +2860,7 @@ a.brutal-btn-astro {
   padding: 1rem 2rem;
   border: 3px solid var(--brand-black);
   transition: all 0.5s ease-in-out;
-  font-family: "Sanchez", serif;
+  font-family: var(--gc-semantic-type-action-family);
   font-size: var(--gc-primitive-space-5);
   font-weight: 700;
   color: var(--brand-black);
@@ -2936,7 +2950,7 @@ a.brutal-btn-astro:hover {
 }
 
 .charbon-badge-card .badge-name {
-  font-family: "Sanchez", serif;
+  font-family: var(--gc-semantic-type-body-family);
   font-weight: 700;
   font-size: 0.9375rem;
 }
@@ -3037,7 +3051,7 @@ html.dark .brutal-checkbox.checked {
   padding: 0.45rem 0.65rem;
   border: 2px solid var(--brand-black);
   box-shadow: 3px 3px 0 var(--brand-black);
-  font-family: "Poppins", sans-serif;
+  font-family: var(--gc-semantic-type-body-family);
   color: var(--brand-black);
   background: var(--gc-primitive-color-brand-cream);
 }

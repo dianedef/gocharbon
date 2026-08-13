@@ -70,7 +70,7 @@ export default defineConfig({
       "link-hover": light["semantic.color.linkHover"],
     },
     fontFamily: {
-      sanchez: ["Sanchez", "serif"],
+      sanchez: light["semantic.type.action.family"],
     },
   },
   rules: [

@@ -20,6 +20,7 @@ for (const scanRoot of roots) {
     const patterns = patternsFor(file);
     for (const pattern of patterns) {
       for (const match of text.matchAll(pattern)) {
+        if (isTokenizedFontFamily(match[0])) continue;
         const line = text.slice(0, match.index).split("\n").length;
         matches.push({ file: rel, line, literal: match[0] });
       }
@@ -77,7 +78,19 @@ async function walk(path) {
 
 function patternsFor(file) {
   if (extname(file) === ".dart") return [/\bColor\(0x[0-9a-fA-F]{8}\)/g, /\bColors\.[a-zA-Z]+/g];
-  return [/#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})\b/g, /\brgba?\([^)]*\)/g, /\bhsla?\([^)]*\)/g];
+  return [
+    /#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})\b/g,
+    /\brgba?\([^)]*\)/g,
+    /\bhsla?\([^)]*\)/g,
+    /\bfont-family\s*:\s*[^;}\r\n]+/gi,
+    /\bfontFamily\s*:\s*(?:\[[^\]\r\n]*\]|["'][^"'\r\n]+["'])/g,
+  ];
+}
+
+function isTokenizedFontFamily(literal) {
+  if (!/^font-?family\s*:/i.test(literal)) return false;
+  const value = literal.slice(literal.indexOf(":") + 1).trim();
+  return /^var\s*\(/i.test(value);
 }
 
 function globMatches(path, glob) {

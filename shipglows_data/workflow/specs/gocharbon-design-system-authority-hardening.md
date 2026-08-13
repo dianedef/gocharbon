@@ -1,7 +1,7 @@
 ---
 artifact: spec
 metadata_schema_version: "1.0"
-artifact_version: "2.2.0"
+artifact_version: "2.3.0"
 project: "gocharbon"
 created: "2026-06-11"
 updated: "2026-08-13"
@@ -41,7 +41,7 @@ Le site Astro/Vue et l'application Flutter consomment une seule autorité séman
 
 - Direction: brutal néobrutaliste, charbon, crème, or et orange.
 - Couleurs de marque: or `#e7ad18`, orange `#e2572d`, noir ardoise `#111820`, encre bleu-noir `#050b10`, charbon bleu profond `#182933`, creme mineral `#e7e0d2`, roche bleu petrole `#0d1a22`.
-- Typographies: Pixelify Sans pour le display, Poppins pour le corps, Sanchez pour les labels et actions.
+- Typographies: Chakra Petch pour le display, Oxanium pour le corps et les libelles, Sanchez uniquement pour les CTA et actions interactives.
 - Profondeur: bordures franches et ombres dures; les adaptations tactiles Flutter conservent les mêmes rôles sans copier les contraintes web.
 
 ## Autorité et génération
@@ -143,10 +143,12 @@ Les lots B/C et D/E peuvent s'exécuter en parallèle car leurs racines d'écrit
 | 2026-08-12 | sg-design | GPT-5 Codex | Audit conjoint et formalisation | ready | Exécuter les lots A à F |
 | 2026-08-12 | sg-design | GPT-5 Codex | Lot A: autorité, schéma, génération, audit et contrat cross-surface | implemented | Brancher les lots B et C puis exécuter les preuves cross-surface |
 | 2026-08-12 | sg-design | GPT-5 Codex | Lot F: CI path-aware, audits et dossier de vérification durable | implemented_local | Collecter le run CI et les preuves visuelles/accessibilité avant clôture |
+| 2026-08-13 | sg-design | GPT-5 Codex | Lot D ciblé: migration Pixel Mine de la home et ajout du toggle de thème au footer global | implemented_local | Collecter la preuve visuelle light/dark desktop/mobile puis poursuivre les autres pages |
+| 2026-08-13 | sg-development | GPT-5 Codex | Migration typographique web: Chakra Petch display, Oxanium body, Sanchez CTA; suppression des familles CSS littérales et garde d'audit dédiée | verified_local | Collecter la preuve visuelle light/dark puis poursuivre la migration cross-surface |
 
 ## Current Chantier Flow
 
 - Spécification: ready
-- Implémentation: in progress
-- Vérification: in progress
+- Implémentation: in progress (home web, footer et rôles typographiques web migrés localement)
+- Vérification: in progress (génération déterministe, tests, audit tokens et build Astro passés; preuve navigateur visuelle à collecter)
 - Clôture: pending

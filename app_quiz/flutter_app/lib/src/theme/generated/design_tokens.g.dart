@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 bdc5fe8c8588ff5066a323cb18b18ae501e96938b847fdfa2587fd4fbbf1918e
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 d0327bc13284e8d0a90a80140ba0fa1622e1737e25679ac0cf9d275136e81884
 
 import "package:flutter/material.dart";
 
@@ -56,8 +56,8 @@ abstract final class GcLightTokens {
   static const primitiveEasingLinear = Cubic(0, 0, 1, 1);
   static const primitiveEasingStandard = Cubic(0.2, 0, 0, 1);
   static const primitiveFontFamilyAction = "Sanchez";
-  static const primitiveFontFamilyBody = "Poppins";
-  static const primitiveFontFamilyDisplay = "Pixelify Sans Variable";
+  static const primitiveFontFamilyBody = "Oxanium";
+  static const primitiveFontFamilyDisplay = "Chakra Petch";
   static const primitiveFontLetterSpacingNormal = 0.0;
   static const primitiveFontLetterSpacingWide = 0.64;
   static const primitiveFontLineHeightBody = 1.5;
@@ -147,8 +147,8 @@ abstract final class GcLightTokens {
   static const semanticShapeDecorativeRailWidth = 4.0;
   static const semanticShapePixelUnit = 4.0;
   static const semanticTypeActionFamily = "Sanchez";
-  static const semanticTypeBodyFamily = "Poppins";
-  static const semanticTypeDisplayFamily = "Pixelify Sans Variable";
+  static const semanticTypeBodyFamily = "Oxanium";
+  static const semanticTypeDisplayFamily = "Chakra Petch";
   static const surfaceAppComfortableNavigationHeight = 72.0;
   static const surfaceAppCompactNavigationHeight = 64.0;
   static const surfaceAppTouchTarget = 48.0;
@@ -225,8 +225,8 @@ abstract final class GcDarkTokens {
   static const primitiveEasingLinear = Cubic(0, 0, 1, 1);
   static const primitiveEasingStandard = Cubic(0.2, 0, 0, 1);
   static const primitiveFontFamilyAction = "Sanchez";
-  static const primitiveFontFamilyBody = "Poppins";
-  static const primitiveFontFamilyDisplay = "Pixelify Sans Variable";
+  static const primitiveFontFamilyBody = "Oxanium";
+  static const primitiveFontFamilyDisplay = "Chakra Petch";
   static const primitiveFontLetterSpacingNormal = 0.0;
   static const primitiveFontLetterSpacingWide = 0.64;
   static const primitiveFontLineHeightBody = 1.5;
@@ -316,8 +316,8 @@ abstract final class GcDarkTokens {
   static const semanticShapeDecorativeRailWidth = 4.0;
   static const semanticShapePixelUnit = 4.0;
   static const semanticTypeActionFamily = "Sanchez";
-  static const semanticTypeBodyFamily = "Poppins";
-  static const semanticTypeDisplayFamily = "Pixelify Sans Variable";
+  static const semanticTypeBodyFamily = "Oxanium";
+  static const semanticTypeDisplayFamily = "Chakra Petch";
   static const surfaceAppComfortableNavigationHeight = 72.0;
   static const surfaceAppCompactNavigationHeight = 64.0;
   static const surfaceAppTouchTarget = 48.0;

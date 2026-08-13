@@ -17,7 +17,7 @@ isolated batch, use `--out-root <temporary-directory>` so another batch's
 exclusive paths are not touched. `--check` compares every output byte for byte
 and exits non-zero when a file is missing or stale.
 
-The audit scans UI source for literal colors. An exception is valid only while
+The audit scans UI source for literal colors and non-tokenized font families. An exception is valid only while
 its bounded glob and regular expression match at least one literal. Expired,
 unused, duplicate or incomplete exceptions fail the run.
 

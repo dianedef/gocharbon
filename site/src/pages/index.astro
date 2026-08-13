@@ -176,11 +176,11 @@ const homeDescription = launchBuild
       </div>
     </section>
 
-    <section class="proof-section bg-white-soft dark:bg-black">
+    <section class="proof-section" aria-labelledby="proof-section-title">
       <div class="px-6 py-14 max-w-6xl mx-auto">
         <div class="section-heading centered">
           <p class="section-kicker">CE QU'IL Y A VRAIMENT DERRIÈRE</p>
-          <h2 class="section-title poppins">Un périmètre plus petit, mais des signaux beaucoup plus nets</h2>
+          <h2 id="proof-section-title" class="section-title poppins">Un périmètre plus petit, mais des signaux beaucoup plus nets</h2>
           <p class="section-copy">
             Le lancement couvre seulement ce qu’on peut défendre proprement : vendre un service, tester un revenu d’appoint, construire une audience, lancer un produit ou transformer une expertise en formation.
           </p>
@@ -207,7 +207,7 @@ const homeDescription = launchBuild
     </section>
 
     {launchBuild && (
-      <section class="signals-section bg-white-soft dark:bg-black">
+      <section class="signals-section pixel-mine-section">
         <div class="px-6 py-16 max-w-6xl mx-auto">
           <div class="section-heading">
             <p class="section-kicker">POURQUOI CES 5 LÀ D'ABORD</p>
@@ -239,7 +239,7 @@ const homeDescription = launchBuild
       </section>
     )}
 
-    <section class="difference-section bg-purple-light dark:bg-purple-dark">
+    <section class="difference-section pixel-mine-section pixel-mine-band">
       <div class="px-6 py-16 max-w-6xl mx-auto">
         <div class="section-heading">
           <p class="section-kicker">POURQUOI ÇA TIENT MIEUX DANS LE TEMPS</p>
@@ -273,7 +273,7 @@ const homeDescription = launchBuild
       </div>
     </section>
 
-    <section id="entry-points" class="entry-section bg-white-soft dark:bg-black">
+    <section id="entry-points" class="entry-section pixel-mine-section">
       <div class="px-6 py-16 max-w-6xl mx-auto">
         <div class="section-heading">
           <p class="section-kicker">CHOISIS TA PORTE D'ENTRÉE</p>
@@ -296,7 +296,7 @@ const homeDescription = launchBuild
       </div>
     </section>
 
-    <section class="showcase-section bg-yellow-soft dark:bg-purple-darker">
+    <section class="showcase-section pixel-mine-section pixel-mine-band">
       <div class="px-6 py-16 max-w-6xl mx-auto">
         <div class="section-heading">
           <p class="section-kicker">VOIS LE SYSTÈME AVANT D'ENTRER</p>
@@ -322,7 +322,7 @@ const homeDescription = launchBuild
               ))}
             </ul>
             <div class="showcase-footer">
-              <Button href={getParcoursRoute(productPreview.profile.id)} color="var(--brand-yellow)">
+              <Button href={getParcoursRoute(productPreview.profile.id)} color="var(--gc-semantic-color-action-primary)">
                 Voir un vrai parcours
               </Button>
             </div>
@@ -362,19 +362,19 @@ const homeDescription = launchBuild
             <div class="showcase-footer dual">
               {launchBuild ? (
                 <>
-                  <Button href={ROUTES.parcours} color="var(--brand-orange)">
+                  <Button href={ROUTES.parcours} color="var(--gc-semantic-color-action-secondary)">
                     Voir tous les parcours
                   </Button>
-                  <Button href="#entry-points" color="var(--brand-yellow)">
+                  <Button href="#entry-points" color="var(--gc-semantic-color-action-primary)">
                     Revoir les portes d'entrée
                   </Button>
                 </>
               ) : (
                 <>
-                  <Button href={ROUTES.progression} color="var(--brand-orange)">
+                  <Button href={ROUTES.progression} color="var(--gc-semantic-color-action-secondary)">
                     Voir la progression
                   </Button>
-                  <Button href={ROUTES.quizAvance} color="var(--brand-yellow)">
+                  <Button href={ROUTES.quizAvance} color="var(--gc-semantic-color-action-primary)">
                     Affiner le quiz
                   </Button>
                 </>
@@ -387,7 +387,7 @@ const homeDescription = launchBuild
 
     {!launchBuild && <GoCharbonShortcuts />}
 
-    <section class="popular-section bg-white-soft dark:bg-black">
+    <section class="popular-section pixel-mine-section">
       <div class="px-6 py-16 max-w-6xl mx-auto">
         <div class="section-heading">
           <p class="section-kicker">PARCOURS PILOTES</p>
@@ -413,7 +413,7 @@ const homeDescription = launchBuild
       </div>
     </section>
 
-    <section class="founder-section bg-yellow-gold dark:bg-yellow-dark">
+    <section class="founder-section pixel-mine-section founder-mine-section">
       <div class="px-6 py-16 max-w-6xl mx-auto founder-grid">
         <div class="founder-badge">
           <div class="founder-medallion">D</div>
@@ -452,6 +452,19 @@ const homeDescription = launchBuild
     background: radial-gradient(circle at 15% 10%, color-mix(in srgb, var(--gc-primitive-color-brand-cream) 35%, transparent) 0 28%, transparent 60%);
     opacity: 0.32;
     z-index: -1;
+  }
+
+  .pixel-mine-section {
+    background: var(--gc-semantic-color-mine-depth);
+    color: var(--gc-semantic-color-text);
+  }
+
+  .pixel-mine-section.pixel-mine-band {
+    background: var(--gc-semantic-color-surface);
+  }
+
+  .founder-mine-section {
+    background: var(--gc-semantic-color-surface-strong);
   }
 
   .hero-grid,
@@ -571,7 +584,7 @@ const homeDescription = launchBuild
   .module-item strong,
   .entry-card h3,
   .popular-card h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--gc-semantic-type-display-family);
   }
 
   .hero-actions,
@@ -766,7 +779,7 @@ const homeDescription = launchBuild
 
   .preview-track {
     height: var(--home-preview-track-height);
-    border: var(--home-preview-track-border-width) solid var(--brand-black);
+    border: var(--home-preview-track-border-width) solid var(--gc-semantic-color-border);
     background: var(--home-preview-track-bg);
   }
 
@@ -818,7 +831,7 @@ const homeDescription = launchBuild
   margin: 0 0 0.4rem;
     font-size: var(--home-difference-number-size);
     font-weight: 800;
-    color: var(--brand-orange);
+    color: var(--gc-semantic-color-action-secondary);
   }
 
   .difference-card h3,
@@ -858,8 +871,8 @@ const homeDescription = launchBuild
     align-items: center;
     min-height: var(--home-source-link-min-height);
     padding: var(--home-source-link-padding);
-    border: var(--home-chip-border-width) solid var(--brand-black);
-    background: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 75%, transparent);
+    border: var(--home-chip-border-width) solid var(--gc-semantic-color-border);
+    background: var(--gc-semantic-color-surface);
     color: inherit;
     font-size: var(--home-source-link-font-size);
     font-weight: 700;
@@ -917,7 +930,7 @@ const homeDescription = launchBuild
   }
 
   .module-item.done .module-mark {
-    background: var(--brand-yellow);
+    background: var(--gc-semantic-color-mineral-value);
   }
 
   .dashboard-grid {
@@ -984,11 +997,11 @@ const homeDescription = launchBuild
     width: var(--home-founder-medallion-size);
     height: var(--home-founder-medallion-size);
     border-radius: var(--gc-primitive-radius-pill);
-    border: var(--home-founder-medallion-border-width) solid var(--brand-black);
-    background: var(--home-founder-medallion-background);
+    border: var(--home-founder-medallion-border-width) solid var(--gc-semantic-color-border);
+    background: var(--gc-semantic-color-mineral-value);
     font-family: var(--gc-semantic-type-display-family);
     font-size: var(--home-founder-medallion-font-size);
-    box-shadow: var(--home-founder-medallion-shadow);
+    box-shadow: var(--gc-primitive-space-2) var(--gc-primitive-space-2) 0 var(--gc-semantic-color-shadow);
   }
 
   .founder-copy {
@@ -996,54 +1009,47 @@ const homeDescription = launchBuild
     gap: var(--gc-primitive-space-4);
   }
 
-  :global(.dark) .hero-point,
-  :global(.dark) .hero-panel,
-  :global(.dark) .proof-card,
-  :global(.dark) .difference-card,
-  :global(.dark) .entry-card,
-  :global(.dark) .showcase-card,
-  :global(.dark) .popular-card {
-    border-color: var(--brand-cream);
-    background: var(--home-surface-bg-dark);
-    box-shadow: var(--home-surface-shadow-dark);
+  .difference-card,
+  .entry-card,
+  .showcase-card,
+  .popular-card {
+    border-color: var(--gc-semantic-color-border);
+    background: var(--gc-semantic-color-mine-panel);
+    color: var(--gc-semantic-color-text);
+    box-shadow: var(--gc-primitive-space-2) var(--gc-primitive-space-2) 0 var(--gc-semantic-color-shadow);
   }
 
-  :global(.dark) .hero-point:hover,
-  :global(.dark) .hero-panel:hover,
-  :global(.dark) .proof-card:hover,
-  :global(.dark) .difference-card:hover,
-  :global(.dark) .entry-card:hover,
-  :global(.dark) .popular-card:hover,
-  :global(.dark) .showcase-card:hover {
-    box-shadow: var(--home-surface-shadow-hover-dark);
+  .difference-card:hover,
+  .entry-card:hover,
+  .popular-card:hover,
+  .showcase-card:hover {
+    box-shadow: var(--gc-semantic-shape-pixel-unit) var(--gc-semantic-shape-pixel-unit) 0 var(--gc-semantic-color-shadow);
   }
 
   :global(a.brutal-btn):focus-visible,
   :global(button.brutal-btn):focus-visible,
   .path-btn:focus-visible {
-    outline: 3px solid var(--brand-black);
-    outline-offset: 2px;
+    outline: var(--gc-semantic-shape-border-width) solid var(--gc-semantic-color-focus);
+    outline-offset: var(--gc-surface-web-hover-offset);
   }
 
-  :global(.dark) .source-links a {
-    border-color: var(--brand-cream);
-    background: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 4%, transparent);
+  .source-links a {
+    border-color: var(--gc-semantic-color-border);
+    background: var(--gc-semantic-color-surface);
   }
 
-  :global(.dark) .preview-track {
-    border-color: var(--brand-cream);
-    background: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 8%, transparent);
+  .preview-track {
+    border-color: var(--gc-semantic-color-border);
+    background: var(--gc-semantic-color-surface);
   }
 
-  :global(.dark) .dashboard-stat {
-    border-color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 16%, transparent);
-    background: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 3%, transparent);
+  .dashboard-stat {
+    border-color: var(--gc-semantic-color-border);
+    background: var(--gc-semantic-color-surface);
   }
 
-  :global(.dark) .founder-medallion {
-    border-color: var(--brand-cream);
-    box-shadow: 8px 8px 0 var(--brand-cream);
-    color: var(--brand-black);
+  .founder-medallion {
+    color: var(--gc-semantic-color-text-on-accent);
   }
 
   @media (max-width: var(--home-mobile-breakpoint)) {
@@ -1564,6 +1570,106 @@ const homeDescription = launchBuild
   .mine-feature-strip small {
     margin-top: var(--gc-primitive-space-1);
     color: color-mix(in srgb, var(--gc-primitive-color-brand-cream) 62%, transparent);
+  }
+
+  .proof-section {
+    position: relative;
+    border-bottom: var(--gc-component-pixel-frame-border-width) solid var(--gc-semantic-color-border);
+    background: var(--gc-semantic-color-surface);
+    color: var(--gc-semantic-color-text);
+  }
+
+  .proof-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--gc-semantic-color-mineral-value) 10%, transparent),
+      transparent var(--gc-primitive-space-16)
+    );
+  }
+
+  .proof-section > div {
+    position: relative;
+  }
+
+  .proof-section .section-heading {
+    max-width: var(--gc-primitive-size-content-narrow);
+    margin-inline: auto;
+  }
+
+  .proof-section .section-kicker {
+    color: var(--gc-semantic-color-mineral-value);
+    font-family: var(--gc-semantic-type-action-family);
+    opacity: 1;
+  }
+
+  .proof-section .section-title {
+    font-family: var(--gc-semantic-type-display-family);
+    line-height: var(--gc-primitive-font-line-height-tight);
+  }
+
+  .proof-section .section-copy {
+    color: var(--gc-semantic-color-text-muted);
+  }
+
+  .proof-section .proof-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .proof-section .proof-card {
+    position: relative;
+    overflow: hidden;
+    border: var(--gc-component-pixel-frame-border-width) solid var(--gc-semantic-color-border);
+    border-radius: var(--gc-component-pixel-frame-radius);
+    background: var(--gc-semantic-color-surface);
+    box-shadow: inset 0 0 0 var(--gc-component-pixel-frame-edge-unit) color-mix(in srgb, var(--gc-semantic-color-border) 12%, transparent), var(--gc-component-pixel-frame-edge-unit) var(--gc-component-pixel-frame-edge-unit) 0 var(--gc-semantic-color-shadow);
+    color: var(--gc-semantic-color-text);
+  }
+
+  .proof-section .proof-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: var(--gc-semantic-shape-pixel-unit);
+    background: var(--gc-semantic-color-mineral-value);
+  }
+
+  .proof-section .proof-card strong {
+    color: var(--gc-semantic-color-mineral-value);
+    font-family: var(--gc-semantic-type-display-family);
+  }
+
+  .proof-section .proof-card span {
+    color: var(--gc-semantic-color-text-muted);
+    line-height: var(--gc-primitive-font-line-height-body);
+  }
+
+  .proof-section .proof-card:hover {
+    border-color: var(--gc-semantic-color-mineral-value);
+    box-shadow: var(--gc-semantic-shape-pixel-unit) var(--gc-semantic-shape-pixel-unit) 0 var(--gc-semantic-color-shadow);
+  }
+
+  :global([data-theme="dark"]) .proof-section {
+    background: var(--gc-semantic-color-mine-depth);
+  }
+
+  :global([data-theme="dark"]) .proof-section .proof-card {
+    background: var(--gc-semantic-color-mine-panel);
+  }
+
+  @media (max-width: var(--home-mobile-breakpoint)) {
+    .proof-section .proof-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: var(--home-small-breakpoint)) {
+    .proof-section .proof-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   @media (max-width: 1279px) {

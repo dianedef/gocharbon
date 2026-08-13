@@ -74,9 +74,9 @@
       },
       "font": {
         "family": {
-          "display": { "$type": "fontFamily", "$value": ["Pixelify Sans Variable", "Pixelify Sans", "sans-serif"], "$description": "Fonte d'impact pixel lisible pour la marque et les titres; la variante variable locale couvre le francais." },
-          "body": { "$type": "fontFamily", "$value": ["Poppins", "sans-serif"] },
-          "action": { "$type": "fontFamily", "$value": ["Sanchez", "serif"] }
+          "display": { "$type": "fontFamily", "$value": ["Chakra Petch", "sans-serif"], "$description": "Fonte d'impact lisible pour les titres; style net et carré, cohérent Pixel Mine." },
+          "body": { "$type": "fontFamily", "$value": ["Oxanium", "sans-serif"] },
+          "action": { "$type": "fontFamily", "$value": ["Sanchez", "serif"], "$description": "Fonte serif distinctive reservee aux CTA et actions interactives." }
         },
         "size": {
           "caption": { "$type": "dimension", "$value": "14px" },

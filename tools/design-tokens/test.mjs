@@ -68,3 +68,18 @@ test("audit enforces explained, live and used exceptions", async () => {
   await writeFile(allowlist, JSON.stringify(exception));
   await assert.rejects(execFileAsync(process.execPath, command));
 });
+
+test("audit rejects literal font families and accepts semantic variables", async () => {
+  const fixture = await mkdtemp(resolve(tmpdir(), "gocharbon-token-font-audit-"));
+  await mkdir(resolve(fixture, "site/src"), { recursive: true });
+  const css = resolve(fixture, "site/src/example.css");
+  const allowlist = resolve(fixture, "allowlist.json");
+  await writeFile(allowlist, JSON.stringify({ version: "1.0.0", exceptions: [] }));
+  const command = [resolve(scriptDir, "audit.mjs"), "--root", fixture, "--allowlist", allowlist, "--path", "site/src"];
+
+  await writeFile(css, '.example { font-family: "Poppins", sans-serif; }\n');
+  await assert.rejects(execFileAsync(process.execPath, command));
+
+  await writeFile(css, ".example { font-family: var(--gc-semantic-type-body-family); }\n");
+  await execFileAsync(process.execPath, command);
+});

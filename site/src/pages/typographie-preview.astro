@@ -1,0 +1,239 @@
+---
+import Layout from "../layouts/Default.astro";
+
+const samples = [
+  {
+    name: "Chakra Petch",
+    status: "Titres",
+    className: "font-display",
+    note: "La voix d’impact Pixel Mine, carrée et lisible pour les titres.",
+  },
+  {
+    name: "Oxanium",
+    status: "Corps et libellés",
+    className: "font-body",
+    note: "La fonte de lecture, technique et nette sur les textes plus longs.",
+  },
+  {
+    name: "Sanchez",
+    status: "CTA et actions",
+    className: "font-action",
+    note: "L’accent serif réservé aux éléments interactifs qui appellent une action.",
+  },
+];
+---
+
+<Layout
+  title="Comparatif typographique Pixel Mine | GoCharbon"
+  description="Playground temporaire pour comparer trois polices sur le titre du hero GoCharbon."
+  pageTitle="TYPOGRAPHIE"
+  metaRobots="noindex, nofollow"
+  classList="typography-preview-page"
+>
+  <main class="preview-shell">
+    <header class="preview-intro">
+      <a class="back-link" href="/">← Retour à l’accueil</a>
+      <p class="eyebrow">Playground Pixel Mine</p>
+      <h1>Quelle police pour le hero&nbsp;?</h1>
+      <p>
+        Le même titre, dans les mêmes conditions. Change le thème depuis le footer pour comparer
+        les rendus en light et en dark.
+      </p>
+    </header>
+
+    <section class="comparison" aria-labelledby="comparison-title">
+      <h2 id="comparison-title" class="sr-only">Comparaison des polices du titre du hero</h2>
+      {
+        samples.map((sample) => (
+          <article class="font-card">
+            <div class="card-heading">
+              <div>
+                <p class="font-name">{sample.name}</p>
+                <p class="font-status">{sample.status}</p>
+              </div>
+              <span aria-hidden="true">Aa</span>
+            </div>
+            <p class:list={["hero-sample", sample.className]}>
+              Creuse moins<br />au hasard.<strong>Trouve le bon filon.</strong>
+            </p>
+            <p class="font-note">{sample.note}</p>
+          </article>
+        ))
+      }
+    </section>
+
+    <aside class="preview-note" aria-label="Limite de cette prévisualisation">
+      <strong>Système retenu&nbsp;:</strong> les trois usages passent par les rôles typographiques
+      canoniques. Cette page montre leur hiérarchie, pas des valeurs locales.
+    </aside>
+  </main>
+</Layout>
+
+<style>
+  .preview-shell {
+    min-height: 100vh;
+    padding: var(--gc-primitive-space-8) var(--gc-primitive-space-4);
+    color: var(--gc-semantic-color-text);
+    background: var(--gc-semantic-color-mine-depth);
+  }
+
+  .preview-intro,
+  .comparison,
+  .preview-note {
+    width: min(100%, var(--gc-surface-web-hero-content-maximum));
+    margin-inline: auto;
+  }
+
+  .preview-intro {
+    margin-bottom: var(--gc-primitive-space-8);
+  }
+
+  .back-link {
+    display: inline-flex;
+    margin-bottom: var(--gc-primitive-space-6);
+    color: var(--gc-semantic-color-text);
+    font-family: var(--gc-semantic-type-action-family);
+    font-weight: var(--gc-primitive-font-weight-bold);
+    text-decoration-thickness: var(--gc-semantic-shape-pixel-unit);
+    text-underline-offset: var(--gc-primitive-space-2);
+  }
+
+  .back-link:focus-visible {
+    outline: var(--gc-semantic-shape-pixel-unit) solid var(--gc-semantic-color-focus);
+    outline-offset: var(--gc-primitive-space-2);
+  }
+
+  .eyebrow,
+  .font-status {
+    margin: 0 0 var(--gc-primitive-space-2);
+    color: var(--gc-semantic-color-mineral-value);
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-caption);
+    font-weight: var(--gc-primitive-font-weight-bold);
+    letter-spacing: var(--gc-primitive-font-letter-spacing-wide);
+    text-transform: uppercase;
+  }
+
+  .preview-intro h1 {
+    max-width: var(--gc-surface-web-hero-copy-maximum);
+    margin: 0 0 var(--gc-primitive-space-4);
+    font-family: var(--gc-semantic-type-display-family);
+    font-size: clamp(var(--gc-primitive-font-size-display-small), 7vw, var(--gc-primitive-font-size-display-large));
+    line-height: var(--gc-primitive-font-line-height-tight);
+  }
+
+  .preview-intro > p:last-child {
+    max-width: var(--gc-surface-web-hero-copy-maximum);
+    margin: 0;
+    font-size: var(--gc-primitive-font-size-body-large);
+    line-height: var(--gc-primitive-font-line-height-body);
+  }
+
+  .comparison {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--gc-primitive-space-6);
+  }
+
+  .font-card,
+  .preview-note {
+    border: var(--gc-semantic-shape-pixel-unit) solid var(--gc-semantic-color-border);
+    background: var(--gc-semantic-color-mine-panel);
+    box-shadow: var(--gc-semantic-shape-pixel-unit) var(--gc-semantic-shape-pixel-unit) 0 var(--gc-semantic-color-shadow);
+  }
+
+  .font-card {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    padding: var(--gc-primitive-space-6);
+  }
+
+  .card-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gc-primitive-space-4);
+    padding-bottom: var(--gc-primitive-space-4);
+    border-bottom: var(--gc-semantic-shape-pixel-unit) solid var(--gc-semantic-color-border);
+  }
+
+  .card-heading span {
+    color: var(--gc-semantic-color-mineral-value);
+    font-family: var(--gc-semantic-type-display-family);
+    font-size: var(--gc-primitive-font-size-title);
+  }
+
+  .font-name {
+    margin: 0;
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: var(--gc-primitive-font-size-title-small);
+    font-weight: var(--gc-primitive-font-weight-bold);
+  }
+
+  .font-status {
+    margin: var(--gc-primitive-space-1) 0 0;
+  }
+
+  .hero-sample {
+    margin: var(--gc-primitive-space-8) 0;
+    font-size: clamp(var(--gc-primitive-font-size-title), 3vw, var(--gc-primitive-font-size-display-small));
+    font-weight: var(--gc-primitive-font-weight-bold);
+    line-height: var(--gc-primitive-font-line-height-tight);
+  }
+
+  .hero-sample strong {
+    display: block;
+    margin-top: var(--gc-primitive-space-3);
+    color: var(--gc-semantic-color-mineral-value);
+  }
+
+  .font-display {
+    font-family: var(--gc-semantic-type-display-family);
+  }
+
+  .font-body {
+    font-family: var(--gc-semantic-type-body-family);
+  }
+
+  .font-action {
+    font-family: var(--gc-semantic-type-action-family);
+  }
+
+  .font-note {
+    margin: auto 0 0;
+    padding-top: var(--gc-primitive-space-4);
+    border-top: var(--gc-semantic-shape-pixel-unit) solid var(--gc-semantic-color-border);
+    line-height: var(--gc-primitive-font-line-height-body);
+  }
+
+  .preview-note {
+    margin-top: var(--gc-primitive-space-8);
+    padding: var(--gc-primitive-space-5);
+    line-height: var(--gc-primitive-font-line-height-body);
+  }
+
+  .preview-note strong {
+    color: var(--gc-semantic-color-mineral-value);
+  }
+
+  @media (max-width: 64rem) {
+    .comparison {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-sample {
+      font-size: clamp(var(--gc-primitive-font-size-title), 7vw, var(--gc-primitive-font-size-display-small));
+    }
+  }
+
+  @media (max-width: 40rem) {
+    .preview-shell {
+      padding-block: var(--gc-primitive-space-6);
+    }
+
+    .font-card {
+      padding: var(--gc-primitive-space-4);
+    }
+  }
+</style>

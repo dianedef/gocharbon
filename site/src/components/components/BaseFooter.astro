@@ -2,6 +2,7 @@
 import { SITE } from "../../config/site";
 import { ROUTES } from "../../config/routes";
 import { isParcoursOnlyBuild } from "../../utils/build-scope";
+import ThemeToggle from "./ThemeToggle.astro";
 
 export interface Props {
 	backToTop?: boolean;
@@ -59,7 +60,7 @@ const worldIcons = {
 				width="24"
 				stroke-width="2"
 				stroke="currentColor"
-				class="dark:text-yellow-soft"
+				class="back-to-top-icon"
 			>
 				<path
 					stroke-linecap="round"
@@ -71,14 +72,14 @@ const worldIcons = {
 	)
 }
 
-<footer class="bg-white dark:bg-black text-black dark:text-white border-t-4 border-black dark:border-yellow-soft">
+<footer class="pixel-mine-footer">
 	<div class="max-w-6xl mx-auto px-6 py-12">
 		<!-- Top section -->
 		<div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
 			<!-- Brand -->
 			<div class="col-span-2">
-				<h2 class="righteous text-3xl mb-4 text-black dark:text-yellow-soft">{SITE.nameUpper}</h2>
-				<p class="poppins text-lg mb-4 text-black dark:text-white">
+				<h2 class="righteous text-3xl mb-4 footer-heading">{SITE.nameUpper}</h2>
+				<p class="poppins text-lg mb-4">
 					{SITE.descriptions.footer}
 				</p>
 				<div class="mine-icon-belt mb-4" aria-label="Repères du monde GoCharbon">
@@ -95,20 +96,20 @@ const worldIcons = {
 						Or
 					</span>
 				</div>
-				<p class="poppins text-sm text-black dark:text-white">
+				<p class="poppins text-sm">
 					🇫🇷 Made in France avec ❤️
 				</p>
 			</div>
 
 			<!-- Navigation -->
 			<div>
-				<h3 class="poppins font-bold text-lg mb-4 text-black dark:text-yellow-soft">Navigation</h3>
+				<h3 class="poppins font-bold text-lg mb-4 footer-heading">Navigation</h3>
 				<ul class="space-y-2">
 					{navigationLinks.map((link) => (
 						<li>
 							<a
 								href={link.url}
-								class="poppins text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
+								class="poppins footer-link transition-colors duration-200"
 							>
 								{link.name}
 							</a>
@@ -119,7 +120,7 @@ const worldIcons = {
 
 			<!-- Social -->
 			<div>
-				<h3 class="poppins font-bold text-lg mb-4 text-black dark:text-yellow-soft">Suivez-nous</h3>
+				<h3 class="poppins font-bold text-lg mb-4 footer-heading">Suivez-nous</h3>
 				<ul class="space-y-2">
 					{socialLinks.map((link) => (
 						<li>
@@ -127,7 +128,7 @@ const worldIcons = {
 								href={link.url}
 								target="_blank"
 								rel="noopener noreferrer"
-								class="poppins text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
+								class="poppins footer-link transition-colors duration-200"
 							>
 								{link.name}
 							</a>
@@ -138,11 +139,11 @@ const worldIcons = {
 		</div>
 
 		<!-- Divider -->
-		<div class="border-t border-black/20 dark:border-white/20 my-8"></div>
+		<div class="footer-divider my-8"></div>
 
 		<!-- Bottom section -->
 		<div class="flex flex-col md:flex-row justify-between items-center gap-4">
-			<p class="poppins text-sm text-black dark:text-white">
+			<p class="poppins text-sm">
 				© {currentYear} {SITE.copyrightName}. Tous droits réservés.
 			</p>
 			<ul class="flex flex-wrap gap-4 justify-center">
@@ -150,18 +151,64 @@ const worldIcons = {
 					<li>
 						<a
 							href={link.url}
-							class="poppins text-sm text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
+							class="poppins text-sm footer-link transition-colors duration-200"
 						>
 							{link.name}
 						</a>
 					</li>
 				))}
 			</ul>
+			<div class="footer-theme-control">
+				<span class="poppins text-sm">Thème</span>
+				<ThemeToggle />
+			</div>
 		</div>
 	</div>
 </footer>
 
 <style>
+	.pixel-mine-footer {
+		border-top: var(--gc-semantic-shape-pixel-unit) solid var(--gc-semantic-color-mineral-value);
+		background: var(--gc-semantic-color-mine-depth);
+		color: var(--gc-semantic-color-text);
+	}
+
+	.footer-heading,
+	.back-to-top-icon {
+		color: var(--gc-semantic-color-mineral-value);
+	}
+
+	.footer-link {
+		color: var(--gc-semantic-color-text);
+	}
+
+	.footer-link:hover {
+		color: var(--gc-semantic-color-link-hover);
+	}
+
+	.footer-link:focus-visible,
+	.footer-theme-control :global(button):focus-visible {
+		outline: var(--gc-semantic-shape-border-width) solid var(--gc-semantic-color-focus);
+		outline-offset: var(--gc-surface-web-hover-offset);
+	}
+
+	.footer-divider {
+		border-top: var(--gc-primitive-border-thin) solid var(--gc-semantic-color-border);
+	}
+
+	.footer-theme-control {
+		display: flex;
+		align-items: center;
+		gap: var(--gc-primitive-space-2);
+		padding: var(--gc-primitive-space-1) var(--gc-primitive-space-2);
+		border: var(--gc-primitive-border-medium) solid var(--gc-semantic-color-border);
+		background: var(--gc-semantic-color-mine-panel);
+	}
+
+	.footer-theme-control :global(button) {
+		color: var(--gc-semantic-color-mineral-value);
+	}
+
 	.backToTop.active {
 		opacity: 1;
 		cursor: pointer;

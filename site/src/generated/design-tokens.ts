@@ -1,4 +1,4 @@
-// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 bdc5fe8c8588ff5066a323cb18b18ae501e96938b847fdfa2587fd4fbbf1918e
+// GENERATED FILE - DO NOT EDIT. Source: shipglows_data/branding/design-tokens.json | brand 1.5.0 | sha256 d0327bc13284e8d0a90a80140ba0fa1622e1737e25679ac0cf9d275136e81884
 export const designTokens = {
   "light": {
     "component.achievementMedia.compactSize": "70px",
@@ -91,12 +91,11 @@ export const designTokens = {
       "serif"
     ],
     "primitive.font.family.body": [
-      "Poppins",
+      "Oxanium",
       "sans-serif"
     ],
     "primitive.font.family.display": [
-      "Pixelify Sans Variable",
-      "Pixelify Sans",
+      "Chakra Petch",
       "sans-serif"
     ],
     "primitive.font.letterSpacing.normal": "0px",
@@ -220,12 +219,11 @@ export const designTokens = {
       "serif"
     ],
     "semantic.type.bodyFamily": [
-      "Poppins",
+      "Oxanium",
       "sans-serif"
     ],
     "semantic.type.displayFamily": [
-      "Pixelify Sans Variable",
-      "Pixelify Sans",
+      "Chakra Petch",
       "sans-serif"
     ],
     "surface.app.comfortableNavigationHeight": "72px",
@@ -340,12 +338,11 @@ export const designTokens = {
       "serif"
     ],
     "primitive.font.family.body": [
-      "Poppins",
+      "Oxanium",
       "sans-serif"
     ],
     "primitive.font.family.display": [
-      "Pixelify Sans Variable",
-      "Pixelify Sans",
+      "Chakra Petch",
       "sans-serif"
     ],
     "primitive.font.letterSpacing.normal": "0px",
@@ -469,12 +466,11 @@ export const designTokens = {
       "serif"
     ],
     "semantic.type.bodyFamily": [
-      "Poppins",
+      "Oxanium",
       "sans-serif"
     ],
     "semantic.type.displayFamily": [
-      "Pixelify Sans Variable",
-      "Pixelify Sans",
+      "Chakra Petch",
       "sans-serif"
     ],
     "surface.app.comfortableNavigationHeight": "72px",
