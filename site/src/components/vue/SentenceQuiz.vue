@@ -105,7 +105,7 @@ const result = computed(() => {
 
 <template>
   <div class="sq">
-    <p class="sq-sentence">
+    <p class="sq-sentence sq-sentence-desktop">
       Je veux
       <span class="sq-dd" @click.stop="toggle('goal')">
         <span class="sq-trigger" :class="{ filled: label('goal'), open: openKey === 'goal' }">
@@ -172,6 +172,22 @@ const result = computed(() => {
       </span>.
     </p>
 
+    <div class="sq-mobile-fields">
+      <div v-for="(field, key) in questions" :key="key" class="sq-mobile-field">
+        <span class="sq-mobile-label">{{ ({ goal: 'Tu en es où ?', budget: 'Ton objectif ?', mode: 'Ton rythme ?', tech: 'Ton expérience ?' })[key] }}</span>
+        <span class="sq-dd" @click.stop="toggle(key)">
+          <button type="button" class="sq-trigger" :class="{ filled: label(key), open: openKey === key }" :aria-expanded="openKey === key">
+            {{ label(key) || 'Choisir une réponse' }}
+            <svg class="sq-caret" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div v-if="openKey === key" class="sq-menu">
+            <button v-for="(opt, i) in field.options" :key="i" type="button" class="sq-option" :class="{ active: selections[key] === String(i) }" @click.stop="select(key, i)">{{ opt.label }}</button>
+          </div>
+        </span>
+      </div>
+      <div class="sq-mobile-cta" :class="{ ready: allSelected }"><span aria-hidden="true">↗</span> TROUVER MON FILON <span aria-hidden="true">›</span></div>
+    </div>
+
     <transition name="sq-fade">
       <div v-if="result" class="sq-result">
         <div class="sq-result-header">
@@ -200,6 +216,8 @@ const result = computed(() => {
   margin: 0;
   text-align: left;
 }
+
+.sq-mobile-fields { display: none; }
 
 /* Dropdown wrapper */
 .sq-dd {
@@ -370,6 +388,86 @@ const result = computed(() => {
 .sq-fade-leave-to { opacity: 0; }
 
 @media (width <= 640px) {
+  .sq-sentence-desktop { display: none; }
+
+  .sq-mobile-fields {
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .sq-mobile-field {
+    position: relative;
+    display: grid;
+    gap: 0.25rem;
+    padding: 0.65rem 0.75rem;
+    border: var(--gc-semantic-shape-pixel-unit) solid var(--gc-primitive-color-brand-gold-deep);
+    background: color-mix(in srgb, var(--gc-primitive-color-brand-ink) 88%, transparent);
+  }
+
+  .sq-mobile-label {
+    color: var(--gc-primitive-color-brand-cream);
+    font-family: var(--gc-semantic-type-action-family);
+    font-size: 0.82rem;
+  }
+
+  .sq-mobile-field .sq-dd,
+  .sq-mobile-field .sq-trigger {
+    display: flex;
+    width: 100%;
+  }
+
+  .sq-mobile-field .sq-trigger {
+    justify-content: space-between;
+    min-height: 24px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--gc-primitive-color-brand-yellow);
+    font: inherit;
+    font-size: 0.72rem;
+    text-align: left;
+  }
+
+  .sq-mobile-field .sq-trigger.filled {
+    padding: 0;
+    background: transparent;
+    color: var(--gc-primitive-color-brand-yellow);
+  }
+
+  .sq-mobile-field .sq-menu {
+    top: calc(100% + 0.7rem);
+    left: -0.75rem;
+    width: calc(100% + 1.5rem);
+    min-width: 0;
+    max-width: none;
+  }
+
+  .sq-mobile-field .sq-option {
+    display: block;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    text-align: left;
+  }
+
+  .sq-mobile-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 54px;
+    margin: 0.35rem auto 0;
+    padding: 0.75rem 1rem;
+    border: var(--gc-component-pixel-frame-border-width) solid var(--gc-primitive-color-brand-gold-deep);
+    background: color-mix(in srgb, var(--gc-primitive-color-brand-yellow) 72%, var(--gc-primitive-color-brand-gold-deep));
+    box-shadow: var(--gc-primitive-space-1) var(--gc-primitive-space-1) 0 var(--gc-primitive-color-brand-black);
+    color: var(--gc-primitive-color-brand-black);
+    font-family: var(--gc-semantic-type-action-family);
+    font-weight: 800;
+    opacity: 0.72;
+  }
+
+  .sq-mobile-cta.ready { opacity: 1; }
+
   .sq-sentence {
     font-size: var(--sentence-quiz-font-size-mobile);
     line-height: var(--sentence-quiz-line-height-mobile);
