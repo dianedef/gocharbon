@@ -8,7 +8,7 @@ source_skill: sf-veille
 scope: "concurrents, outils et inspirations éditoriales pour GoCharbon"
 confidence: medium
 ---
-
+https://kinnow.io/
 # Concurrents et inspirations — GoCharbon
 
 ## Lecture projet

@@ -1,10 +1,10 @@
 ---
 artifact: brand_context
 metadata_schema_version: "1.0"
-artifact_version: "1.4.0"
+artifact_version: "1.5.0"
 project: gocharbon
 created: "2026-04-25"
-updated: "2026-08-13"
+updated: "2026-08-15"
 status: reviewed
 source_skill: sf-docs
 scope: brand
@@ -22,6 +22,7 @@ evidence:
   - "Questionnaire express confirme comme point d'entree principal de la landing."
   - "Petit mineur pixel fourni par Diane confirme comme guide de marque; variante realiste rejetee."
   - "Architecture canonique cross-surface validee le 2026-08-12."
+  - "Streamline Pixel conserve comme inspiration iconographique GoCharbon a evaluer, sans adoption implicite."
 next_review: "2026-09-13"
 next_step: "Valider visuellement la landing desktop dark, puis documenter uniquement les extensions approuvees."
 ---
@@ -286,6 +287,10 @@ Toute nouvelle decision partagee est decrite ici, encodee dans le JSON canonique
 GoCharbon est un produit business serieux dans un univers graphique minier pixelise. Le graphisme peut etre original, attachant et narratif; le contenu, les preuves et les appels a l'action restent adultes, directs et credibles. Le pixel n'est ni un filtre decoratif pose sur une interface SaaS, ni une permission d'infantiliser la promesse.
 
 Le neobrutalisme historique n'est conserve que lorsqu'il renforce cette direction : contours francs, angles marques, ombres dures sans flou et actions immediatement identifiables. Il ne constitue plus une direction autonome et ne justifie pas des rotations, surdimensionnements ou gestes arbitraires.
+
+### Reference iconographique a etudier
+
+- **[Streamline Pixel](https://www.streamlinehq.com/icons/pixel?ref=Awwwards&utm_source=awwwards-honors&utm_medium=partner&utm_campaign=pixel-yellow&tab=all) :** inspiration potentielle pour comprendre comment decliner un systeme d'icones pixel coherent avec la direction Pixel Mine. Cette reference peut nourrir les pictogrammes GoCharbon ou inspirer leur construction, mais elle ne constitue ni une bibliotheque approuvee ni une dependance choisie. Avant toute utilisation, verifier la licence, les formats disponibles, les possibilites de personnalisation, la nettete aux tailles cibles et la coherence avec les assets pixel existants.
 
 ### Invariants confirmes
 

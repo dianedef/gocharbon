@@ -1,6 +1,7 @@
 <!-- >>> ShipGlows development environment >>> -->
 ## ShipGlows development environment
 
+- Environment schema: `shipglows-project-environment/v1`
 - Server manager: `shipglows-devserver`
 - Assigned port: `3002`
 - Canonical local URL: `http://127.0.0.1:3002`
