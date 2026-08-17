@@ -6,8 +6,8 @@ class ApiQuestion {
     required this.category,
     required this.difficulty,
     required this.options,
-    required this.correctAnswer,
-    required this.explanation,
+    this.correctAnswer,
+    this.explanation,
   });
 
   final String id;
@@ -16,8 +16,8 @@ class ApiQuestion {
   final String category; // finance | marketing | management | ecommerce
   final String difficulty; // easy | medium | hard
   final List<String> options;
-  final int correctAnswer;
-  final String explanation;
+  final int? correctAnswer;
+  final String? explanation;
 
   bool get isTrueFalse => type == "truefalse";
 
@@ -29,8 +29,8 @@ class ApiQuestion {
       category: json["category"] as String,
       difficulty: json["difficulty"] as String,
       options: (json["options"] as List<dynamic>).cast<String>(),
-      correctAnswer: (json["correct_answer"] as num).toInt(),
-      explanation: json["explanation"] as String,
+      correctAnswer: (json["correct_answer"] as num?)?.toInt(),
+      explanation: json["explanation"] as String?,
     );
   }
 
@@ -42,9 +42,8 @@ class ApiQuestion {
       "category": category,
       "difficulty": difficulty,
       "options": options,
-      "correct_answer": correctAnswer,
-      "explanation": explanation,
+      if (correctAnswer != null) "correct_answer": correctAnswer,
+      if (explanation != null) "explanation": explanation,
     };
   }
 }
-

@@ -28,7 +28,7 @@ FIREBASE_MEASUREMENT_ID_VALUE="${FIREBASE_MEASUREMENT_ID:-}"
 RUN_CHECKS="${RUN_CHECKS:-}" # 1 = flutter analyze + flutter test before build
 ENABLE_SOURCE_MAPS="${ENABLE_SOURCE_MAPS:-}" # 1 = build web with --source-maps
 
-if [ -n "${VERCEL:-}" ]; then
+if [ -n "${VERCEL:-}" ] && [ "${GOCHARBON_RUNTIME_VALUE}" != "convex" ]; then
   # The published Flutter web app must target an explicitly configured API.
   if [ -z "${API_BASE_URL_OVERRIDE}" ]; then
     log "Missing API_BASE_URL for Vercel build."

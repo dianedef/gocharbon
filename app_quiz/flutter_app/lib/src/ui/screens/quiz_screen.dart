@@ -34,7 +34,6 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
   List<ApiQuestion> _questions = const [];
   int _currentIndex = 0;
   int? _selected;
-  bool? _correct;
   int _streak = 0;
   int _score = 0;
   List<QuizAnswer> _answers = [];
@@ -108,7 +107,6 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
       _submitting = false;
       _error = null;
       _selected = null;
-      _correct = null;
       _streak = 0;
       _score = 0;
       _answers = [];
@@ -161,7 +159,6 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
     final q = _questions[_currentIndex];
     setState(() {
       _selected = -1;
-      _correct = false;
       _streak = 0;
       _answers = [
         ..._answers,
@@ -187,43 +184,11 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
     final q = _questions[_currentIndex];
     final timeTaken =
         DateTime.now().difference(_questionStart).inMilliseconds / 1000.0;
-    final ok = index == q.correctAnswer;
-
-    if (ok) {
-      await Sounds.instance.correct();
-    } else {
-      await Sounds.instance.wrong();
-    }
+    await Sounds.instance.click();
 
     setState(() {
       _selected = index;
-      _correct = ok;
     });
-
-    if (ok) {
-      final newStreak = _streak + 1;
-      var points = 100;
-      if (_timed) {
-        points += ((max(0.0, _timerSeconds - timeTaken) * 50) / _timerSeconds)
-            .round();
-      }
-      if (newStreak >= 10) {
-        points += 100;
-      } else if (newStreak >= 5) {
-        points += 50;
-      }
-
-      setState(() {
-        _streak = newStreak;
-        _score += points;
-      });
-      if (newStreak == 5 || newStreak == 10) {
-        await Sounds.instance.streak();
-      }
-    } else {
-      setState(() => _streak = 0);
-      _shakeOnce();
-    }
 
     setState(() {
       _answers = [
@@ -244,7 +209,6 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
         setState(() {
           _currentIndex += 1;
           _selected = null;
-          _correct = null;
           _questionStart = DateTime.now();
         });
         _startTimer();
@@ -256,7 +220,6 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
       setState(() {
         _currentIndex += 1;
         _selected = null;
-        _correct = null;
         _questionStart = DateTime.now();
       });
       await _fadeCtrl.reverse(from: 1);
@@ -410,16 +373,10 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
 
     List<Color> optBg(int i) {
       if (!answered) return const [GcAppColors.surface, GcAppColors.surface];
-      if (i == q.correctAnswer) {
+      if (i == _selected) {
         return [
-          GcAppColors.success.withValues(alpha: GcOpacity.disabled),
-          GcAppColors.success.withValues(alpha: GcOpacity.disabled),
-        ];
-      }
-      if (i == _selected && _correct == false) {
-        return [
-          GcAppColors.error.withValues(alpha: GcOpacity.disabled),
-          GcAppColors.error.withValues(alpha: GcOpacity.disabled),
+          cc.withValues(alpha: GcOpacity.disabled),
+          cc.withValues(alpha: GcOpacity.disabled),
         ];
       }
       return const [GcAppColors.surface, GcAppColors.surface];
@@ -427,15 +384,13 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
 
     Color optBorder(int i) {
       if (!answered) return GcAppColors.borderMedium;
-      if (i == q.correctAnswer) return GcAppColors.success;
-      if (i == _selected && _correct == false) return GcAppColors.error;
+      if (i == _selected) return cc;
       return GcAppColors.borderLight;
     }
 
     Color optTextColor(int i) {
       if (!answered) return GcAppColors.textPrimary;
-      if (i == q.correctAnswer) return GcAppColors.success;
-      if (i == _selected && _correct == false) return GcAppColors.error;
+      if (i == _selected) return cc;
       return GcAppColors.textTertiary;
     }
 
@@ -677,28 +632,15 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
               if (answered) ...[
                 AppCard(
                   padding: const EdgeInsets.all(GcSpace.x3),
-                  borderColor: (_correct ?? false)
-                      ? GcAppColors.success.withValues(
-                          alpha: GcOpacity.disabled,
-                        )
-                      : GcAppColors.error.withValues(alpha: GcOpacity.disabled),
+                  borderColor: cc.withValues(alpha: GcOpacity.disabled),
                   child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Icon(
-                        (_correct ?? false)
-                            ? MdiIcons.checkCircle
-                            : MdiIcons.closeCircle,
-                        size: GcType.body,
-                        color: (_correct ?? false)
-                            ? GcAppColors.success
-                            : GcAppColors.error,
-                      ),
+                      Icon(MdiIcons.lockCheck, size: GcType.body, color: cc),
                       const SizedBox(width: GcSpace.x2),
-                      Expanded(
+                      const Expanded(
                         child: Text(
-                          q.explanation,
-                          style: const TextStyle(
+                          "Réponse enregistrée. Le score sera calculé à la fin du quiz.",
+                          style: TextStyle(
                             fontSize: GcType.caption,
                             fontWeight: GcType.bold,
                             color: GcAppColors.textSecondary,
@@ -741,17 +683,11 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
                       borderColor: optBorder(i),
                       background: optBg(i).first,
                       foreground: optTextColor(i),
-                      trailing: answered && i == q.correctAnswer
+                      trailing: answered && i == _selected
                           ? Icon(
                               MdiIcons.checkCircle,
                               size: GcSpace.x5,
-                              color: GcAppColors.success,
-                            )
-                          : answered && i == _selected && _correct == false
-                          ? Icon(
-                              MdiIcons.closeCircle,
-                              size: GcSpace.x5,
-                              color: GcAppColors.error,
+                              color: cc,
                             )
                           : null,
                     );

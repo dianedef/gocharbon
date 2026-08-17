@@ -51,13 +51,14 @@ export function publicQuestion(question: Doc<"questions">) {
 
 export function publicProfile(profile: Doc<"profiles">) {
   return {
+    userId: profile.firebaseUid,
     username: profile.username,
     avatarColor: profile.avatarColor,
     totalScore: profile.totalScore,
     xp: profile.xp,
     level: profile.level,
     levelName: profile.levelName,
-    badges: profile.badges.map((id) => ({ id, ...BADGES[id as keyof typeof BADGES] })),
+    badges: profile.badges,
     stats: {
       totalQuizzes: profile.totalQuizzes,
       correctAnswers: profile.correctAnswers,

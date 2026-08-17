@@ -27,6 +27,11 @@ Le produit sert de lead magnet interactif :
 - `flutter_app/` : application Flutter mobile + web
 - `backend/` : API FastAPI legacy pour questions, scoring, leaderboard et recommandations
 - `supabase/` : migrations Postgres/RLS pour les flux auth et données user-scoped
+- `convex/` : cible locale de migration, avec HTTP, schéma, scoring et recommandations serveur
+
+La cible Firebase Auth → Convex est activée uniquement avec
+`GOCHARBON_RUNTIME=convex`. Tant que les projets fournisseurs ne sont pas
+créés et validés, le runtime `legacy` reste le rollback par défaut.
 - `scripts/vercel_build_flutter.sh` : build web Flutter pour Vercel
 
 L'ancien client mobile a été archivé sur une branche dédiée.
@@ -57,7 +62,13 @@ Il lance `backend/` sur `http://localhost:3001` et Flutter web sur `http://local
 | `flutter_app/` | `SUPABASE_AUTH_REDIRECT_URL` | Callback OAuth/magic link |
 | `backend/` | `MONGO_URL` | Connexion MongoDB du backend FastAPI |
 | `backend/` | `DB_NAME` | Nom de la base MongoDB |
-| Build Vercel | `API_BASE_URL` | URL backend injectée au build Flutter web |
+| Build Vercel | `API_BASE_URL` | URL backend injectée au build Flutter web legacy |
+
+Pour la cible Convex, fournir aussi `CONVEX_HTTP_URL` et les cinq définitions
+Firebase publiques (`FIREBASE_API_KEY`, `FIREBASE_APP_ID`,
+`FIREBASE_MESSAGING_SENDER_ID`, `FIREBASE_PROJECT_ID`,
+`FIREBASE_AUTH_DOMAIN`). Le client ne reçoit jamais les clés de correction des
+questions ; le score est calculé par Convex lors de la soumission.
 
 Exemple backend : [backend/.env.example](backend/.env.example).
 Le modèle consolidé pour Flutter, Vercel et le backend est disponible dans [.env.example](.env.example).

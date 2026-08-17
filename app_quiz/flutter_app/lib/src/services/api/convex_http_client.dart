@@ -63,9 +63,16 @@ class ConvexHttpClient {
     final response = await _authorizedPost<Map<String, dynamic>>(
       "/quiz/submit",
       data: {
+        "attempt_token": _attemptToken(
+          category: category,
+          mode: mode,
+          answers: answers,
+        ),
         "category": category,
         "mode": mode,
-        "answers": answers.map((answer) => answer.toJson()).toList(growable: false),
+        "answers": answers
+            .map((answer) => answer.toJson())
+            .toList(growable: false),
       },
     );
     return QuizResult.fromJson(_expectMap(response.data));
@@ -77,19 +84,24 @@ class ConvexHttpClient {
       queryParameters: {"limit": limit},
     );
     return _expectList(response.data)
-        .map((value) => LeaderboardEntry.fromJson(value as Map<String, dynamic>))
+        .map(
+          (value) => LeaderboardEntry.fromJson(value as Map<String, dynamic>),
+        )
         .toList(growable: false);
   }
 
   Future<UserRank> getUserRank() async {
-    final response = await _authorizedGet<Map<String, dynamic>>("/leaderboard/me");
+    final response = await _authorizedGet<Map<String, dynamic>>(
+      "/leaderboard/me",
+    );
     return UserRank.fromJson(_expectMap(response.data));
   }
 
   Future<Map<String, BadgeDef>> getAllBadges() async {
     final response = await _dio.get<Map<String, dynamic>>("/badges");
     return _expectMap(response.data).map(
-      (key, value) => MapEntry(key, BadgeDef.fromJson(value as Map<String, dynamic>)),
+      (key, value) =>
+          MapEntry(key, BadgeDef.fromJson(value as Map<String, dynamic>)),
     );
   }
 
@@ -114,6 +126,33 @@ class ConvexHttpClient {
       throw StateError("Une session Firebase valide est requise.");
     }
     return Options(headers: {"authorization": "Bearer $token"});
+  }
+
+  String _attemptToken({
+    required String category,
+    required String mode,
+    required List<QuizAnswer> answers,
+  }) {
+    final input = StringBuffer("$category|$mode");
+    for (final answer in answers) {
+      input
+        ..write("|")
+        ..write(answer.questionId)
+        ..write(":")
+        ..write(answer.selectedAnswer)
+        ..write(":")
+        ..write(answer.timeTakenSeconds.toStringAsFixed(3));
+    }
+    final seeds = <int>[0x811c9dc5, 0x12345678, 0x9e3779b9, 0x7f4a7c15];
+    final chunks = seeds.map((seed) {
+      var hash = seed;
+      for (final unit in input.toString().codeUnits) {
+        hash ^= unit;
+        hash = (hash * 0x01000193) & 0xffffffff;
+      }
+      return hash.toRadixString(16).padLeft(8, "0");
+    }).join();
+    return chunks;
   }
 
   Map<String, dynamic> _expectMap(Map<String, dynamic>? data) {
