@@ -142,7 +142,6 @@ export interface StudioSelectedAnchor extends StudioReadyAnchor {
 export function studioAnchorAttributes(
   anchorId: HeroStudioAnchorId,
 ): Record<string, string> {
-  if (!import.meta.env.DEV) return {};
   return {
     "data-sg-studio-anchor": anchorId,
     "data-sg-studio-profile": STUDIO_PROFILE_ID,

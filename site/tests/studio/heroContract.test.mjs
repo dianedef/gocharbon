@@ -9,6 +9,7 @@ import {
   createStudioReadyMessage,
   isTrustedStudioOrigin,
   parseStudioHostMessage,
+  studioAnchorAttributes,
 } from "../../src/studio/heroContract.ts";
 
 const envelope = { version: STUDIO_BRIDGE_VERSION, channelId: "channel_1234" };
@@ -32,6 +33,16 @@ describe("GoCharbon Hero Studio contract", () => {
       assert.equal(anchor.source.path, "site/src/pages/index.astro");
       assert.equal(anchor.source.confidence, "exact");
     }
+    assert.equal(
+      page.match(
+        /import\.meta\.env\.DEV \? studioAnchorAttributes\("hero\.[a-z]+"\) : \{\}/g,
+      )?.length,
+      8,
+    );
+    assert.deepEqual(studioAnchorAttributes("hero.miner"), {
+      "data-sg-studio-anchor": "hero.miner",
+      "data-sg-studio-profile": STUDIO_PROFILE_ID,
+    });
     assert.doesNotMatch(page, /data-sg-studio-anchor=/);
   });
 

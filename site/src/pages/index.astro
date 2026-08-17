@@ -85,18 +85,18 @@ const homeDescription = launchBuild
   classList="landing-dark-page"
 >
   <main class="home-shell min-h-screen">
-    <section class="mine-landing" aria-labelledby="mine-landing-title" {...studioAnchorAttributes("hero.root")}>
+    <section class="mine-landing" aria-labelledby="mine-landing-title" {...(import.meta.env.DEV ? studioAnchorAttributes("hero.root") : {})}>
       <div class="mine-landing-scene">
-        <div class="mine-copy" {...studioAnchorAttributes("hero.copy")}>
-          <p class="mine-eyebrow" {...studioAnchorAttributes("hero.eyebrow")}>Lance ton expédition</p>
+        <div class="mine-copy" {...(import.meta.env.DEV ? studioAnchorAttributes("hero.copy") : {})}>
+          <p class="mine-eyebrow" {...(import.meta.env.DEV ? studioAnchorAttributes("hero.eyebrow") : {})}>Lance ton expédition</p>
           <span class="mine-eyebrow-mark" aria-hidden="true"></span>
-          <h1 id="mine-landing-title" {...studioAnchorAttributes("hero.title")}>
+          <h1 id="mine-landing-title" {...(import.meta.env.DEV ? studioAnchorAttributes("hero.title") : {})}>
             <span class="desktop-hero-title">Creuse moins<br />au hasard.<strong>Trouve le bon filon.</strong></span>
             <span class="mobile-hero-title">Trouve ton filon.<strong>Va au charbon.</strong></span>
           </h1>
-          <p class="mine-lead desktop-hero-lead" {...studioAnchorAttributes("hero.intro")}>Un parcours guidé pour transformer une envie de gagner de l’argent en activité solide.</p>
+          <p class="mine-lead desktop-hero-lead" {...(import.meta.env.DEV ? studioAnchorAttributes("hero.intro") : {})}>Un parcours guidé pour transformer une envie de gagner de l’argent en activité solide.</p>
           <p class="mine-lead mobile-hero-lead">Un parcours clair pour transformer tes idées en activité concrète.</p>
-          <div class="mine-actions" {...studioAnchorAttributes("hero.actions")}>
+          <div class="mine-actions" {...(import.meta.env.DEV ? studioAnchorAttributes("hero.actions") : {})}>
             <Button href="#questionnaire-express">
               <span aria-hidden="true">↗</span>
               Trouver mon filon
@@ -107,14 +107,14 @@ const homeDescription = launchBuild
 
         <img
           class="mine-guide"
-          {...studioAnchorAttributes("hero.miner")}
+          {...(import.meta.env.DEV ? studioAnchorAttributes("hero.miner") : {})}
           src="/images/landing/pixel-miner-guide-v2.png"
           alt="Le mineur GoCharbon, guide de ton exploration"
           width="122"
           height="288"
         />
 
-        <aside class="depth-panel gc-card gc-card--informative" aria-label="Étapes de l’exploration" {...studioAnchorAttributes("hero.depth")}>
+        <aside class="depth-panel gc-card gc-card--informative" aria-label="Étapes de l’exploration" {...(import.meta.env.DEV ? studioAnchorAttributes("hero.depth") : {})}>
           <p>Profondeur</p>
           <ol>
             <li><span>Surface</span><small>Idée brute</small></li>
