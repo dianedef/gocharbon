@@ -9,6 +9,7 @@ import "package:flutter_material_design_icons/flutter_material_design_icons.dart
 import "../../models/api_question.dart";
 import "../../models/quiz_answer.dart";
 import "../../models/quiz_result.dart";
+import "../../models/quiz_challenge.dart";
 import "../../services/sounds/sounds.dart";
 import "../../state/providers.dart";
 import "../../theme/app_colors.dart";
@@ -18,10 +19,16 @@ import "../widgets/gc_button.dart";
 import "../widgets/gc_quiz_answer_option.dart";
 
 class QuizScreen extends ConsumerStatefulWidget {
-  const QuizScreen({super.key, required this.category, required this.mode});
+  const QuizScreen({
+    super.key,
+    required this.category,
+    required this.mode,
+    this.challengeCode,
+  });
 
   final String category;
   final String mode; // timed | relaxed
+  final String? challengeCode;
 
   @override
   ConsumerState<QuizScreen> createState() => _QuizScreenState();
@@ -32,6 +39,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
   static const _timerSeconds = 15;
 
   List<ApiQuestion> _questions = const [];
+  QuizChallenge? _challenge;
   int _currentIndex = 0;
   int? _selected;
   int _streak = 0;
@@ -50,7 +58,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
   late final AnimationController _shakeCtrl;
   late final Animation<double> _shake;
 
-  bool get _timed => widget.mode == "timed";
+  bool get _timed => (_challenge?.mode ?? widget.mode) == "timed";
 
   @override
   void initState() {
@@ -115,14 +123,23 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
 
     try {
       final api = ref.read(apiProvider);
-      final questions = widget.category == "daily"
-          ? (await api.getDailyChallenge()).questions
-          : await api.getQuestions(
-              category: widget.category.isEmpty ? "random" : widget.category,
-              count: 10,
-            );
+      final challengeCode = widget.challengeCode;
+      final challenge = challengeCode == null
+          ? null
+          : await api.getChallenge(challengeCode);
+      final questions =
+          challenge?.questions ??
+          (widget.category == "daily"
+              ? (await api.getDailyChallenge()).questions.take(7).toList()
+              : await api.getQuestions(
+                  category: widget.category.isEmpty
+                      ? "random"
+                      : widget.category,
+                  count: 7,
+                ));
 
       setState(() {
+        _challenge = challenge;
         _questions = questions;
         _questionStart = DateTime.now();
       });
@@ -235,19 +252,31 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
     await Sounds.instance.complete();
     try {
       final session = await ref.read(sessionProvider.future);
+      final sourceCategory = _challenge?.category ?? widget.category;
       final effectiveCategory =
-          (widget.category == "daily" || widget.category == "random")
+          (sourceCategory == "daily" || sourceCategory == "random")
           ? "random"
-          : widget.category;
+          : sourceCategory;
+      final effectiveMode = _challenge?.mode ?? widget.mode;
       final result = await ref
           .read(apiProvider)
           .submitQuiz(
             userId: session.userId,
             userSecret: session.userSecret,
             category: effectiveCategory.isEmpty ? "random" : effectiveCategory,
-            mode: widget.mode,
+            mode: effectiveMode,
             answers: _answers,
           );
+
+      final challengeCode = widget.challengeCode;
+      if (challengeCode != null && result.attemptToken != null) {
+        await ref
+            .read(apiProvider)
+            .joinChallenge(
+              code: challengeCode,
+              attemptToken: result.attemptToken!,
+            );
+      }
 
       final stored = QuizResult(
         totalScore: result.totalScore,
@@ -264,8 +293,10 @@ class _QuizScreenState extends ConsumerState<QuizScreen>
         newLevel: result.newLevel,
         newLevelName: result.newLevelName,
         courseRecommendations: result.courseRecommendations,
+        attemptToken: result.attemptToken,
+        challengeCode: challengeCode,
         recommendationContext: result.recommendationContext,
-        categoryDisplay: widget.category.isEmpty ? "random" : widget.category,
+        categoryDisplay: sourceCategory.isEmpty ? "random" : sourceCategory,
       );
 
       await ref.read(storageProvider).setLastResult(stored);

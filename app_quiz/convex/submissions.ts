@@ -69,6 +69,7 @@ export const submit = mutation({
     const courses = await ctx.db.query("courses").collect();
     const recommendation = buildRecommendations({ category: args.category, answers: evaluated.map((item) => ({ category: item.question.category, difficulty: item.question.difficulty, isCorrect: item.isCorrect })), courses, accuracy: scoring.correctCount / evaluated.length });
     const result = {
+      attemptToken: args.attemptToken,
       totalScore: scoring.totalScore, baseScore: scoring.baseScore, timeBonus: scoring.timeBonus, streakBonus: scoring.streakBonus,
       xpGained: scoring.totalScore, correctCount: scoring.correctCount, totalQuestions: evaluated.length, bestStreak: scoring.bestStreak,
       streakMultiplier: scoring.streakMultiplier, newBadges: newBadges.map((id) => ({ id, ...BADGES[id as keyof typeof BADGES] })),

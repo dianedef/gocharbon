@@ -6,6 +6,7 @@ import "../../models/daily_challenge.dart";
 import "../../models/leaderboard_entry.dart";
 import "../../models/quiz_answer.dart";
 import "../../models/quiz_result.dart";
+import "../../models/quiz_challenge.dart";
 import "../../models/user_profile.dart";
 
 /// HTTP contract adapter for the Convex migration.
@@ -76,6 +77,33 @@ class ConvexHttpClient {
       },
     );
     return QuizResult.fromJson(_expectMap(response.data));
+  }
+
+  Future<CreatedChallenge> createChallenge(String attemptToken) async {
+    final response = await _authorizedPost<Map<String, dynamic>>(
+      "/challenges/create",
+      data: {"attempt_token": attemptToken},
+    );
+    return CreatedChallenge.fromJson(_expectMap(response.data));
+  }
+
+  Future<QuizChallenge> getChallenge(String code) async {
+    final response = await _dio.get<Map<String, dynamic>>(
+      "/challenges/get",
+      queryParameters: {"code": code},
+    );
+    return QuizChallenge.fromJson(_expectMap(response.data));
+  }
+
+  Future<QuizChallenge> joinChallenge({
+    required String code,
+    required String attemptToken,
+  }) async {
+    final response = await _authorizedPost<Map<String, dynamic>>(
+      "/challenges/join",
+      data: {"code": code, "attempt_token": attemptToken},
+    );
+    return QuizChallenge.fromJson(_expectMap(response.data));
   }
 
   Future<List<LeaderboardEntry>> getLeaderboard({required int limit}) async {

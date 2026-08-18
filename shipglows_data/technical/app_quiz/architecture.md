@@ -1,10 +1,10 @@
 ---
 artifact: architecture_context
 metadata_schema_version: "1.0"
-artifact_version: "1.3.0"
+artifact_version: "1.4.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
-updated: "2026-08-13"
+updated: "2026-08-18"
 status: active
 source_skill: sg-docs
 scope: architecture
@@ -83,5 +83,6 @@ pass, while automated Browser proof remains outstanding.
 - Convex receives only a validated Firebase identity from `ctx.auth`.
 - Question listing never returns correct answers.
 - Submission is server-authoritative, bounded, rate-limited and idempotent per player and attempt token.
+- Asynchronous challenges reference completed server attempts, reuse a fixed display-safe question set, expire after seven days and accept two distinct identities at most.
 - Public leaderboard data excludes email, Firebase UID and private progression details.
 - Firebase Admin credentials, OAuth secrets, Convex deploy keys and Supabase service-role keys never enter the Flutter bundle or repository.

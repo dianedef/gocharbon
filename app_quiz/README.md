@@ -1,9 +1,9 @@
 ---
 artifact: documentation
 metadata_schema_version: "1.0"
-artifact_version: "1.1.0"
+artifact_version: "1.2.0"
 project: "gocharbon_quiz"
-updated: "2026-04-27"
+updated: "2026-08-18"
 status: reviewed
 scope: readme
 linked_systems:
@@ -18,9 +18,10 @@ Quiz business mobile et web pour `gocharbon.fr`, construit en Flutter.
 
 Le produit sert de lead magnet interactif :
 
-- quiz courts par thème business
-- score, XP, badges, classement et recommandations
-- redirection vers la bonne suite éditoriale ou pédagogique sur GoCharbon
+- parties de sept questions par thème business
+- score, XP, badges, classement et événement quotidien
+- défis asynchrones partageables, comparaison et revanche
+- corrections courtes et redirection facultative vers GoCharbon
 
 ## Architecture
 
@@ -57,6 +58,7 @@ Il lance `backend/` sur `http://localhost:3001` et Flutter web sur `http://local
 | Portée | Variable | Usage |
 | --- | --- | --- |
 | `flutter_app/` | `API_BASE_URL` | URL de base des routes `/api/*` |
+| `flutter_app/` | `APP_PUBLIC_URL` | Origine HTTPS utilisée pour les liens de défi partageables |
 | `flutter_app/` | `SUPABASE_URL` | URL du projet Supabase |
 | `flutter_app/` | `SUPABASE_PUBLISHABLE_KEY` | Clé publique Supabase côté client |
 | `flutter_app/` | `SUPABASE_AUTH_REDIRECT_URL` | Callback OAuth/magic link |

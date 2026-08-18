@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-08-18
+
+### Added
+- **Boucle compétitive GoCharbon Quiz** — ajout des défis asynchrones partageables à partir d'une tentative serveur, avec lot fixe de sept questions, comparaison à deux joueurs, expiration et revanche.
+- **Contrat de défi Convex** — ajout des collections, routes HTTP et garde-fous empêchant score client, troisième participant, question différente ou tentative étrangère.
+
+### Changed
+- **Positionnement de l'application clarifié** — l'app devient d'abord un jeu de quiz business (« Joue. Défie. Progresse. »), tandis que les corrections et ressources GoCharbon restent facultatives.
+- **Parties compétitives raccourcies** — les parties et l'événement quotidien passent de dix à sept questions.
+
 ## 2026-04-27
 
 ### Added

@@ -56,6 +56,7 @@ legacy tant que leur politique de linking Firebase n'est pas spécifiée.
 - `SUPABASE_AUTH_REDIRECT_URL` : callback OAuth/magic link
 - `GOCHARBON_RUNTIME` : `legacy` (défaut) ou `convex`
 - `CONVEX_HTTP_URL` : origine des routes HTTP Convex, sans suffixe `/api`
+- `APP_PUBLIC_URL` : origine HTTPS ajoutée devant `/challenge/<code>` lors du partage
 - `FIREBASE_*` : configuration publique Firebase Web passée au build
 
 ## Validation

@@ -74,6 +74,30 @@ export default defineSchema({
     submittedAt: v.number(),
   }).index("by_user_attempt", ["firebaseUid", "attemptToken"]),
 
+  challenges: defineTable({
+    code: v.string(),
+    creatorUid: v.string(),
+    category: quizCategory,
+    mode,
+    questionIds: v.array(v.id("questions")),
+    expiresAt: v.number(),
+    createdAt: v.number(),
+  }).index("by_code", ["code"]),
+
+  challengeEntries: defineTable({
+    challengeId: v.id("challenges"),
+    attemptId: v.id("attempts"),
+    firebaseUid: v.string(),
+    username: v.string(),
+    totalScore: v.number(),
+    correctCount: v.number(),
+    totalQuestions: v.number(),
+    completedAt: v.number(),
+  })
+    .index("by_challenge", ["challengeId"])
+    .index("by_challenge_user", ["challengeId", "firebaseUid"])
+    .index("by_attempt", ["attemptId"]),
+
   answers: defineTable({
     attemptId: v.id("attempts"),
     firebaseUid: v.string(),

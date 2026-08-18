@@ -67,6 +67,7 @@ function toProfile(profile: any) {
 
 function toQuizResult(result: any) {
   return {
+    attempt_token: result.attemptToken,
     total_score: result.totalScore,
     base_score: result.baseScore,
     time_bonus: result.timeBonus,
@@ -91,6 +92,23 @@ function toQuizResult(result: any) {
         }
       : undefined,
     answers: result.answers,
+  };
+}
+
+function toChallenge(challenge: any) {
+  return {
+    code: challenge.code,
+    category: challenge.category,
+    mode: challenge.mode,
+    expires_at: challenge.expiresAt,
+    questions: challenge.questions?.map(toQuestion) ?? [],
+    entries: (challenge.entries ?? []).map((entry: any) => ({
+      username: entry.username,
+      total_score: entry.totalScore,
+      correct_count: entry.correctCount,
+      total_questions: entry.totalQuestions,
+      completed_at: entry.completedAt,
+    })),
   };
 }
 
@@ -224,6 +242,54 @@ http.route({
 });
 
 http.route({
+  path: "/challenges/create",
+  method: "POST",
+  handler: httpAction(async (ctx, request) => {
+    try {
+      const body = (await request.json()) as any;
+      const challenge = await (ctx as any).runMutation(anyApi.challenges.create, {
+        attemptToken: body.attempt_token,
+      });
+      return json({ code: challenge.code, expires_at: challenge.expiresAt });
+    } catch (error) {
+      return errorResponse(error);
+    }
+  }),
+});
+
+http.route({
+  path: "/challenges/get",
+  method: "GET",
+  handler: httpAction(async (ctx, request) => {
+    try {
+      const code = new URL(request.url).searchParams.get("code") ?? "";
+      const challenge = await (ctx as any).runQuery(anyApi.challenges.get, { code });
+      return json(toChallenge(challenge));
+    } catch (error) {
+      return errorResponse(error);
+    }
+  }),
+});
+
+http.route({
+  path: "/challenges/join",
+  method: "POST",
+  handler: httpAction(async (ctx, request) => {
+    try {
+      const body = (await request.json()) as any;
+      const challenge = await (ctx as any).runMutation(anyApi.challenges.join, {
+        code: body.code,
+        attemptToken: body.attempt_token,
+      });
+      const full = await (ctx as any).runQuery(anyApi.challenges.get, { code: challenge.code });
+      return json(toChallenge(full));
+    } catch (error) {
+      return errorResponse(error);
+    }
+  }),
+});
+
+http.route({
   path: "/health",
   method: "GET",
   handler: httpAction(async () => json({ service: "gocharbon-quiz-convex", status: "ready" })),
@@ -238,6 +304,9 @@ for (const path of [
   "/badges",
   "/notifications/leaderboard-check",
   "/quiz/submit",
+  "/challenges/create",
+  "/challenges/get",
+  "/challenges/join",
   "/health",
 ]) options(path);
 

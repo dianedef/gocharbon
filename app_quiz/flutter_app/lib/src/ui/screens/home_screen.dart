@@ -288,7 +288,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               ),
               const SizedBox(height: GcSpace.x3),
 
-              // Daily challenge
+              // Daily event
               GcNavigationCard(
                 onTap: () => _go("daily"),
                 label: "Défi du jour",
@@ -328,7 +328,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                                   ),
                                   const SizedBox(width: GcSpace.x1),
                                   const Text(
-                                    "DÉFI DU JOUR",
+                                    "ÉVÉNEMENT DU JOUR",
                                     style: TextStyle(
                                       fontSize: GcType.caption,
                                       fontWeight: GcType.black,
@@ -341,7 +341,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                             ),
                             const SizedBox(height: GcSpace.x2),
                             const Text(
-                              "Testez vos connaissances !",
+                              "Le filon est ouvert !",
                               style: TextStyle(
                                 fontSize: GcType.titleSmall,
                                 fontWeight: GcType.black,
@@ -350,7 +350,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                             ),
                             const SizedBox(height: GcSpace.x1),
                             const Text(
-                              "10 questions mix · Bonus XP x2",
+                              "7 questions mix · Bonus XP x2",
                               style: TextStyle(
                                 fontSize: GcType.caption,
                                 fontWeight: GcType.bold,

@@ -10,6 +10,7 @@ import "../../models/daily_challenge.dart";
 import "../../models/leaderboard_entry.dart";
 import "../../models/quiz_answer.dart";
 import "../../models/quiz_result.dart";
+import "../../models/quiz_challenge.dart";
 import "../../models/user_profile.dart";
 import "convex_http_client.dart";
 
@@ -165,6 +166,33 @@ class GoCharbonApi {
       },
     );
     return QuizResult.fromJson(_expectJsonMap(res.data));
+  }
+
+  Future<CreatedChallenge> createChallenge(String attemptToken) {
+    final convex = _convex;
+    if (convex == null) {
+      throw StateError("Les défis nécessitent le runtime compétitif.");
+    }
+    return convex.createChallenge(attemptToken);
+  }
+
+  Future<QuizChallenge> getChallenge(String code) {
+    final convex = _convex;
+    if (convex == null) {
+      throw StateError("Les défis nécessitent le runtime compétitif.");
+    }
+    return convex.getChallenge(code);
+  }
+
+  Future<QuizChallenge> joinChallenge({
+    required String code,
+    required String attemptToken,
+  }) {
+    final convex = _convex;
+    if (convex == null) {
+      throw StateError("Les défis nécessitent le runtime compétitif.");
+    }
+    return convex.joinChallenge(code: code, attemptToken: attemptToken);
   }
 
   Future<List<LeaderboardEntry>> getLeaderboard({int limit = 50}) async {

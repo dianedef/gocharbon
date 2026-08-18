@@ -97,6 +97,11 @@ class AppConfig {
     defaultValue: "",
   );
 
+  static const String publicAppUrl = String.fromEnvironment(
+    "APP_PUBLIC_URL",
+    defaultValue: "https://gocharbon-quiz.vercel.app",
+  );
+
   static bool get convexConfigured => convexHttpUrl.trim().isNotEmpty;
 
   static const String firebaseApiKey = String.fromEnvironment(

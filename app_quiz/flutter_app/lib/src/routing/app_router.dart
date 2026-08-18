@@ -49,6 +49,15 @@ final routerProvider = Provider<GoRouter>((ref) {
         },
       ),
       GoRoute(
+        path: "/challenge/:code",
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (context, state) => QuizScreen(
+          category: "random",
+          mode: "timed",
+          challengeCode: state.pathParameters["code"],
+        ),
+      ),
+      GoRoute(
         path: "/quiz/results",
         parentNavigatorKey: _rootNavigatorKey,
         builder: (context, state) => const ResultsScreen(),

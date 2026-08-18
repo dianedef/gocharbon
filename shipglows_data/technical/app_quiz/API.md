@@ -1,10 +1,10 @@
 ---
 artifact: documentation
 metadata_schema_version: "1.0"
-artifact_version: "1.2.0"
+artifact_version: "1.3.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
-updated: "2026-08-11"
+updated: "2026-08-18"
 status: active
 scope: api
 source_skill: sg-docs
@@ -51,6 +51,9 @@ The server derives the player identity exclusively from the validated token. A m
 | Daily challenge | authenticated player | Stable UTC-day challenge with display-safe questions. |
 | Profile and badges | authenticated player | Returns only the current player's private progression. |
 | Quiz submission | authenticated player | Accepts an issued attempt token and selected answers; the server validates, scores and writes atomically. |
+| Create challenge | authenticated player | Converts one owned completed attempt into a seven-day asynchronous challenge and returns an opaque share code. |
+| Read challenge | public by opaque code | Returns the fixed display-safe question set and public comparison entries; never answer keys or private identifiers. |
+| Join challenge | authenticated player | Attaches one owned attempt with the exact same rules and question set; a challenge accepts two distinct players. |
 | Leaderboard | public display data | Returns rank and presentation fields only, without UID or email. |
 | Recommendations | authenticated player | Returns GoCharbon recommendations derived from the server-calculated result. |
 | Rank notification | authenticated player | Checks only the caller's known rank. |
@@ -61,6 +64,15 @@ The server derives the player identity exclusively from the validated token. A m
 - A submission must reference the server-issued attempt and a unique attempt token.
 - Repeating the same token returns the prior result without adding progression a second time.
 - Invalid question IDs, duplicate answers, out-of-range selections and invalid durations fail before a partial write.
+
+## Asynchronous challenge invariants
+
+- The creator can only challenge from an attempt owned by the authenticated identity.
+- The share code is generated from cryptographic randomness, omits ambiguous characters and expires after seven days.
+- Both players receive exactly the same question IDs, category and mode.
+- Joining compares the server-owned attempt, never a score supplied by Flutter.
+- A challenge accepts no more than two distinct identities and one entry per identity.
+- Challenge payloads expose only display names, score totals and answer counts.
 
 ## Legacy boundary
 

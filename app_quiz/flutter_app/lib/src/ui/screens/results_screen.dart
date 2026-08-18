@@ -10,6 +10,8 @@ import "package:url_launcher/url_launcher.dart";
 import "../../assets/app_images.dart";
 import "../../models/course.dart";
 import "../../models/quiz_result.dart";
+import "../../models/quiz_challenge.dart";
+import "../../config/app_config.dart";
 import "../../services/notifications/notifications.dart";
 import "../../services/sounds/sounds.dart";
 import "../../state/providers.dart";
@@ -30,7 +32,9 @@ class ResultsScreen extends ConsumerStatefulWidget {
 class _ResultsScreenState extends ConsumerState<ResultsScreen>
     with TickerProviderStateMixin {
   QuizResult? _result;
+  QuizChallenge? _challenge;
   bool _loading = true;
+  bool _creatingChallenge = false;
   int _displayScore = 0;
   Timer? _scoreTimer;
   bool _started = false;
@@ -63,9 +67,17 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
 
   Future<void> _load() async {
     final result = await ref.read(storageProvider).getLastResult();
+    QuizChallenge? challenge;
+    final challengeCode = result?.challengeCode;
+    if (challengeCode != null) {
+      try {
+        challenge = await ref.read(apiProvider).getChallenge(challengeCode);
+      } catch (_) {}
+    }
     if (!mounted) return;
     setState(() {
       _result = result;
+      _challenge = challenge;
       _loading = false;
     });
   }
@@ -141,8 +153,17 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
 
   void _playAgain() {
     final cat = _result?.categoryDisplay ?? "random";
+    final mode = _challenge?.mode ?? "timed";
     unawaited(Sounds.instance.click());
-    context.go("/quiz/$cat?mode=timed");
+    context.go("/quiz/$cat?mode=$mode");
+  }
+
+  String _challengeStatus(QuizChallenge challenge) {
+    if (challenge.entries.length < 2) return "En attente de l'adversaire";
+    final first = challenge.entries[0];
+    final second = challenge.entries[1];
+    if (first.totalScore == second.totalScore) return "Égalité parfaite";
+    return "${first.username} prend la tête";
   }
 
   Future<void> _shareScore() async {
@@ -157,6 +178,38 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
     try {
       await SharePlus.instance.share(ShareParams(text: msg));
     } catch (_) {}
+  }
+
+  Future<void> _createAndShareChallenge() async {
+    final result = _result;
+    final attemptToken = result?.attemptToken;
+    if (result == null || attemptToken == null || _creatingChallenge) return;
+    setState(() => _creatingChallenge = true);
+    try {
+      final created = await ref.read(apiProvider).createChallenge(attemptToken);
+      final challenge = await ref.read(apiProvider).getChallenge(created.code);
+      if (!mounted) return;
+      setState(() => _challenge = challenge);
+      final link = "${AppConfig.publicAppUrl}/challenge/${created.code}";
+      final category = CategoryConfig.get(
+        result.categoryDisplay ?? "random",
+      ).name;
+      await SharePlus.instance.share(
+        ShareParams(
+          text:
+              "Je te défie sur $category : 7 questions, le même terrain pour nous deux. $link",
+        ),
+      );
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text("Impossible de créer le défi pour le moment."),
+        ),
+      );
+    } finally {
+      if (mounted) setState(() => _creatingChallenge = false);
+    }
   }
 
   Future<void> _openCourse(Course course) async {
@@ -528,6 +581,77 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
 
               const SizedBox(height: GcSpace.x3),
 
+              if (_challenge != null) ...[
+                AppCard.compact(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        "FACE-À-FACE",
+                        style: TextStyle(
+                          fontSize: GcType.caption,
+                          fontWeight: GcType.black,
+                          color: GcAppColors.gold,
+                          letterSpacing: GcType.wideTracking,
+                        ),
+                      ),
+                      const SizedBox(height: GcSpace.x2),
+                      Text(
+                        _challengeStatus(_challenge!),
+                        style: const TextStyle(
+                          fontSize: GcType.body,
+                          fontWeight: GcType.black,
+                          color: GcAppColors.textPrimary,
+                        ),
+                      ),
+                      const SizedBox(height: GcSpace.x2),
+                      ..._challenge!.entries.map(
+                        (entry) => Padding(
+                          padding: const EdgeInsets.symmetric(
+                            vertical: GcSpace.x1,
+                          ),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  entry.username,
+                                  style: const TextStyle(
+                                    fontSize: GcType.caption,
+                                    fontWeight: GcType.black,
+                                    color: GcAppColors.textPrimary,
+                                  ),
+                                ),
+                              ),
+                              Text(
+                                "${entry.correctCount}/${entry.totalQuestions} · ${formatNumber(entry.totalScore)} pts",
+                                style: const TextStyle(
+                                  fontSize: GcType.caption,
+                                  fontWeight: GcType.bold,
+                                  color: GcAppColors.secondary,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      if (_challenge!.entries.length == 1) ...[
+                        const SizedBox(height: GcSpace.x2),
+                        const Text(
+                          "Ton adversaire n'a pas encore terminé. Le filon reste ouvert.",
+                          style: TextStyle(
+                            fontSize: GcType.caption,
+                            height: GcType.bodyHeight,
+                            fontWeight: GcType.bold,
+                            color: GcAppColors.textSecondary,
+                          ),
+                        ),
+                      ],
+                    ],
+                  ),
+                ),
+                const SizedBox(height: GcSpace.x3),
+              ],
+
               if (course != null)
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -640,11 +764,22 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
 
               const SizedBox(height: GcSpace.x4),
 
-              GcButton.secondary(
-                onPressed: _shareScore,
-                label: "Partager mon score",
-                icon: MdiIcons.shareVariant,
-              ),
+              if (AppConfig.useConvexRuntime && result.attemptToken != null)
+                GcButton.primary(
+                  onPressed: _creatingChallenge
+                      ? null
+                      : _createAndShareChallenge,
+                  label: _creatingChallenge
+                      ? "Création du défi..."
+                      : "Défier un ami",
+                  icon: MdiIcons.swordCross,
+                )
+              else
+                GcButton.secondary(
+                  onPressed: _shareScore,
+                  label: "Partager mon score",
+                  icon: MdiIcons.shareVariant,
+                ),
 
               const SizedBox(height: GcSpace.x3),
 
@@ -653,7 +788,9 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                   Expanded(
                     child: GcButton.primary(
                       onPressed: _playAgain,
-                      label: "Rejouer",
+                      label: _challenge?.entries.length == 2
+                          ? "Prendre ma revanche"
+                          : "Rejouer",
                       icon: Icons.refresh,
                     ),
                   ),

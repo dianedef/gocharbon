@@ -17,6 +17,8 @@ class QuizResult {
     required this.newLevel,
     required this.newLevelName,
     required this.courseRecommendations,
+    this.attemptToken,
+    this.challengeCode,
     this.recommendationContext,
     this.categoryDisplay,
   });
@@ -35,6 +37,8 @@ class QuizResult {
   final int newLevel;
   final String newLevelName;
   final List<Course> courseRecommendations;
+  final String? attemptToken;
+  final String? challengeCode;
   final RecommendationContext? recommendationContext;
   final String? categoryDisplay;
 
@@ -59,6 +63,8 @@ class QuizResult {
           (json["course_recommendations"] as List<dynamic>? ?? [])
               .map((c) => Course.fromJson(c as Map<String, dynamic>))
               .toList(growable: false),
+      attemptToken: json["attempt_token"] as String?,
+      challengeCode: json["challenge_code"] as String?,
       recommendationContext:
           json["recommendation_context"] is Map<String, dynamic>
           ? RecommendationContext.fromJson(
@@ -96,6 +102,8 @@ class QuizResult {
       "course_recommendations": courseRecommendations
           .map((c) => c.toJson())
           .toList(growable: false),
+      if (attemptToken != null) "attempt_token": attemptToken,
+      if (challengeCode != null) "challenge_code": challengeCode,
       if (recommendationContext != null)
         "recommendation_context": recommendationContext!.toJson(),
       if (categoryDisplay != null) "category": categoryDisplay,
