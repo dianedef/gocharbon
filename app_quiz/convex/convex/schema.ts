@@ -124,5 +124,7 @@ export default defineSchema({
     description: v.string(),
     url: v.string(),
     isActive: v.boolean(),
-  }).index("by_category_active", ["category", "isActive"]),
+  })
+    .index("by_source_id", ["sourceId"])
+    .index("by_category_active", ["category", "isActive"]),
 });

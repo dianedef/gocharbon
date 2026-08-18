@@ -5,7 +5,7 @@ artifact_version: "1.0.0"
 project: "gocharbon_quiz"
 created: "2026-08-18"
 updated: "2026-08-18"
-status: implemented
+status: verified-preview
 source_skill: sg-development
 scope: "competitive-quiz-loop"
 owner: "Diane"
@@ -14,7 +14,7 @@ risk_level: medium
 security_impact: yes
 docs_impact: yes
 next_review: "2026-09-18"
-next_step: "Provision and deploy the Firebase/Convex target runtime, then run a two-device hosted challenge proof."
+next_step: "Observe https://gocharbon-quiz-preview.vercel.app; production promotion requires separate approval."
 ---
 
 # GoCharbon Quiz — boucle compétitive

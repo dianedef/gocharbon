@@ -1,7 +1,7 @@
 {
   "version": 2,
   "installCommand": "echo \"Skipping install (Flutter build)\"",
-  "buildCommand": "bash scripts/vercel_build_flutter.sh",
+  "buildCommand": "sed -i 's/\\r$//' scripts/vercel_build_flutter.sh && bash scripts/vercel_build_flutter.sh",
   "outputDirectory": "flutter_app/build/web",
   "routes": [
     { "handle": "filesystem" },

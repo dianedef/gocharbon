@@ -1,7 +1,7 @@
 ---
 artifact: architecture_context
 metadata_schema_version: "1.0"
-artifact_version: "1.4.0"
+artifact_version: "1.5.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
 updated: "2026-08-18"
@@ -37,10 +37,11 @@ supersedes:
   - "Supabase as target auth/data architecture"
 evidence:
   - "Local Firebase Auth and Convex scaffold added 2026-08-11."
-  - "Provider setup, hosted proof, and production cutover are not yet available."
+  - "Firebase anonymous auth, Convex data/functions, and the Vercel preview were activated and verified 2026-08-18."
+  - "Production cutover has not been authorized or performed."
   - "Commit 185bd8c9 delivers shared Flutter component authority; analyze and 9 tests pass locally."
 next_review: "2026-08-25"
-next_step: "Provision Firebase and Convex, then execute hosted verification before enabling GOCHARBON_RUNTIME=convex in production."
+next_step: "Observe the verified preview and request separate approval before enabling GOCHARBON_RUNTIME=convex in production."
 ---
 
 # Architecture
@@ -55,9 +56,9 @@ next_step: "Provision Firebase and Convex, then execute hosted verification befo
 
 ## Current transition state
 
-The local code is ready behind `GOCHARBON_RUNTIME=convex`. The default remains `legacy`, which preserves Supabase/FastAPI/Mongo only as a controlled rollback.
+The hosted preview runs behind `GOCHARBON_RUNTIME=convex` at `https://gocharbon-quiz-preview.vercel.app`. Production remains on its existing configuration, while `legacy` preserves Supabase/FastAPI/Mongo as a controlled rollback.
 
-Firebase and Convex have not been provisioned in this repository's environments. Consequently, no production path, OAuth redirect, token verification or hosted data migration is proven. The legacy runtime must not be removed until the migration spec acceptance criteria and observation window are complete.
+Firebase anonymous authentication and the Convex development deployment are provisioned. Hosted verification proved token validation, server-side quiz submission, a two-player challenge, rejection of a third identity, and answer-key non-disclosure. Google linking and native platform configuration remain follow-up work; the legacy runtime must not be removed until the observation window and a separately approved production cutover are complete.
 
 ## Surfaces
 

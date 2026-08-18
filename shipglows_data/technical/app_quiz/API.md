@@ -1,7 +1,7 @@
 ---
 artifact: documentation
 metadata_schema_version: "1.0"
-artifact_version: "1.3.0"
+artifact_version: "1.4.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
 updated: "2026-08-18"
@@ -23,13 +23,14 @@ supersedes:
   - "Legacy FastAPI and Supabase API contract as the target runtime"
 evidence:
   - "Convex HTTP client and local functions scaffold added 2026-08-11."
-  - "No deployed Convex URL or Firebase project is available in this phase."
-next_step: "Confirm deployed Convex function names and append hosted request/response proof."
+  - "Firebase anonymous authentication and the Convex development deployment were verified on 2026-08-18."
+  - "Hosted challenge proof accepted two identities, rejected a third, reused seven questions, and exposed no answer key."
+next_step: "Observe the preview before any separately approved production cutover."
 ---
 
 # API
 
-This document defines the target Firebase Auth plus Convex contract and the explicit rollback boundary. It is not evidence that a provider endpoint is deployed.
+This document defines the Firebase Auth plus Convex contract and the explicit rollback boundary. The hosted preview is available at `https://gocharbon-quiz-preview.vercel.app`; production remains unchanged.
 
 ## Runtime selection
 
