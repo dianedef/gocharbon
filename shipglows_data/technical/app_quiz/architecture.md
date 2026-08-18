@@ -1,7 +1,7 @@
 ---
 artifact: architecture_context
 metadata_schema_version: "1.0"
-artifact_version: "1.5.0"
+artifact_version: "1.6.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
 updated: "2026-08-18"
@@ -38,10 +38,10 @@ supersedes:
 evidence:
   - "Local Firebase Auth and Convex scaffold added 2026-08-11."
   - "Firebase anonymous auth, Convex data/functions, and the Vercel preview were activated and verified 2026-08-18."
-  - "Production cutover has not been authorized or performed."
+  - "Production cutover to https://quiz.gocharbon.fr was completed and verified 2026-08-19."
   - "Commit 185bd8c9 delivers shared Flutter component authority; analyze and 9 tests pass locally."
 next_review: "2026-08-25"
-next_step: "Observe the verified preview and request separate approval before enabling GOCHARBON_RUNTIME=convex in production."
+next_step: "Monitor production and retain the legacy rollback until the observation window closes."
 ---
 
 # Architecture
@@ -56,7 +56,7 @@ next_step: "Observe the verified preview and request separate approval before en
 
 ## Current transition state
 
-The hosted preview runs behind `GOCHARBON_RUNTIME=convex` at `https://gocharbon-quiz-preview.vercel.app`. Production remains on its existing configuration, while `legacy` preserves Supabase/FastAPI/Mongo as a controlled rollback.
+Production runs behind `GOCHARBON_RUNTIME=convex` at `https://quiz.gocharbon.fr`; the preview remains at `https://gocharbon-quiz-preview.vercel.app`. The `legacy` path preserves Supabase/FastAPI/Mongo as a controlled rollback.
 
 Firebase anonymous authentication and the Convex development deployment are provisioned. Hosted verification proved token validation, server-side quiz submission, a two-player challenge, rejection of a third identity, and answer-key non-disclosure. Google linking and native platform configuration remain follow-up work; the legacy runtime must not be removed until the observation window and a separately approved production cutover are complete.
 

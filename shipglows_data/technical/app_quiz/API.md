@@ -1,7 +1,7 @@
 ---
 artifact: documentation
 metadata_schema_version: "1.0"
-artifact_version: "1.4.0"
+artifact_version: "1.5.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
 updated: "2026-08-18"
@@ -25,12 +25,13 @@ evidence:
   - "Convex HTTP client and local functions scaffold added 2026-08-11."
   - "Firebase anonymous authentication and the Convex development deployment were verified on 2026-08-18."
   - "Hosted challenge proof accepted two identities, rejected a third, reused seven questions, and exposed no answer key."
-next_step: "Observe the preview before any separately approved production cutover."
+  - "Production cutover verified on https://quiz.gocharbon.fr on 2026-08-19."
+next_step: "Monitor the production release and retain the legacy rollback until the observation window closes."
 ---
 
 # API
 
-This document defines the Firebase Auth plus Convex contract and the explicit rollback boundary. The hosted preview is available at `https://gocharbon-quiz-preview.vercel.app`; production remains unchanged.
+This document defines the Firebase Auth plus Convex contract and the explicit rollback boundary. Production is available at `https://quiz.gocharbon.fr`; the hosted preview remains available at `https://gocharbon-quiz-preview.vercel.app`.
 
 ## Runtime selection
 
