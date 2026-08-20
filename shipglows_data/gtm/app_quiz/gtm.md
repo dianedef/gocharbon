@@ -1,10 +1,10 @@
 ---
 artifact: gtm_context
 metadata_schema_version: "1.0"
-artifact_version: "1.1.0"
+artifact_version: "1.2.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
-updated: "2026-04-27"
+updated: "2026-08-20"
 status: reviewed
 source_skill: manual
 scope: gtm
@@ -14,7 +14,7 @@ risk_level: medium
 security_impact: none
 docs_impact: yes
 target_segment: "débutants business francophones et visiteurs GoCharbon en phase de démarrage"
-offer: "un quiz mobile-first rapide qui transforme une curiosité floue en recommandation actionnable"
+offer: "un jeu mobile-first rapide qui transforme un score de connaissances en ressource d'approfondissement actionnable"
 channels: "site GoCharbon, newsletter, social, trafic direct vers le quiz"
 proof_points: "quiz court, score immédiat, recommandations vers le contenu parent, cohérence de branding GoCharbon"
 depends_on:
@@ -42,11 +42,13 @@ Le message et les regles de positionnement doivent rester coherents avec `shipgl
 
 **Teste ton niveau, passe à l'action.**
 
+Le message ne doit jamais présenter l'app comme le quiz « quel business est fait pour toi ». Cette promesse appartient au site. L'app promet un test de connaissances, un défi et une ressource adaptée au thème maîtrisé ou à renforcer.
+
 ## Canaux
 
 - contenus GoCharbon
 - newsletter
-- social avec angle mini-diagnostic
+- social avec angle défi ou test de connaissances
 - trafic direct vers le quiz
 
 ## Objections

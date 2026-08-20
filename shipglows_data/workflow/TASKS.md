@@ -1,5 +1,7 @@
 # GoCharbon — Tasks
 
+🔴 [gocharbon] task: Rendre canonique et mesurable le funnel orientation → parcours → première action | status: in_progress | area: cross-surface-activation | id: gocharbon-canonical-activation-funnel | spec: shipglows_data/workflow/specs/gocharbon-canonical-activation-funnel.md | priority_basis: bloque les investissements quiz, parcours et micro-apprentissage tant que les responsabilités, destinations publiques et signaux de valeur se contredisent | pilot: service-to-freelance | next: readiness-review
+
 - [x] sf-deps audit remediation run (2026-05-24)
   - status: done
   - area: deps

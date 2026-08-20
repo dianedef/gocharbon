@@ -1,10 +1,10 @@
 ---
 artifact: business_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.1.0"
 project: gocharbon
 created: "2026-04-25"
-updated: "2026-04-27"
+updated: "2026-08-20"
 status: reviewed
 source_skill: sf-docs
 scope: business
@@ -19,7 +19,9 @@ business_model: unknown
 market: unknown
 depends_on: []
 supersedes: []
-evidence: []
+evidence:
+  - "Le site porte l'orientation vers un modèle d'activité et un parcours court."
+  - "L'app quiz en production porte un jeu de connaissances business et des recommandations vers le site."
 next_review: "unknown"
 next_step: /sf-docs verify shipglows_data/business/business.md
 ---
@@ -184,7 +186,8 @@ Les francophones qui veulent lancer un business en ligne font face à 3 murs :
 - Newsletter à 2000+ abonnés
 - Trafic organique : 20K visites/mois
 - Premiers revenus d'affiliation significatifs (SaaS francophones, lifetime deal platforms)
-- Quiz finalisé et fonctionnel comme outil de lead generation (6 profils dont live commerce)
+- Orientation du site alignée sur 5 archétypes canoniques et reliée à des parcours publics mesurables
+- App quiz de connaissances reliée à des ressources GoCharbon publiées, sans inférence de profil métier
 - Page progression/gamification opérationnelle
 
 ### Moyen terme (12-18 mois)
@@ -242,7 +245,8 @@ CONSIDÉRATION (Comparatifs + Guides)
          |
          v
 ENGAGEMENT (Quiz + Parcours Courts + Gamification)
-   Quiz "Quel business en ligne est fait pour toi ?" (6 profils : e-commerce, SaaS, freelance, content creator, e-learning, live commerce)
+   Questionnaire et quiz d'orientation du site (5 archétypes : service, contenu, e-commerce, formation, SaaS)
+   App quiz de connaissances séparée (finance, marketing, management, e-commerce), sans inférence de modèle d'activité
    Parcours d'activation (quelques heures/jours max) + premiers livrables
    Page /progression avec suivi gamifié
          |

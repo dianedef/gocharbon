@@ -1,10 +1,10 @@
 ---
 artifact: product_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.1.0"
 project: "gocharbon"
 created: "2026-04-26"
-updated: "2026-04-27"
+updated: "2026-08-20"
 status: reviewed
 source_skill: sf-docs
 scope: product
@@ -22,6 +22,8 @@ evidence:
   - "shipglows_data/branding/branding.md fixe ton attendu de voix cash, anti-bullshit et actionnable"
   - "site/src/content/parcours contient 43 fichiers de contenu orientés parcours métiers et démarrage"
   - "site/src/pages/parcours.astro centralise la logique de découverte et de progression"
+  - "site/src/data/profileTaxonomy.ts fixe cinq archétypes d'orientation canoniques"
+  - "site/src/utils/build-scope.ts limite le lancement public à cinq parcours pilotes"
 linked_artifacts:
   - "shipglows_data/business/business.md"
   - "shipglows_data/branding/branding.md"
@@ -65,6 +67,15 @@ next_step: "/sf-docs verify shipglows_data/product/site/product.md"
 - Activation → guidance étape par étape avec actions immédiates → orientation vers expert, outil ou programme approprié.
 - Qualification continue du public via profil, progrès et intérêts réels.
 - Référencement pratique via pages `site/src/pages` + contenus métiers détaillés.
+
+## Responsabilité du quiz d'orientation
+
+- Le site est l'unique propriétaire de la question « quel modèle d'activité prioriser ? ».
+- Sa taxonomie canonique contient cinq archétypes : `service`, `content`, `ecommerce`, `formation` et `saas`.
+- Le `live` est une modalité transversale (créer, former, servir ou vendre en direct), pas un modèle d'activité ni un résultat d'orientation.
+- `livecommerce` désigne uniquement l'usage commercial du live : il reste un sous-profil de `ecommerce`, avec `content` comme influence secondaire, et ne peut pas être un résultat principal.
+- Une affinité pour le live ne suffit jamais à orienter vers `ecommerce`; elle peut s'exprimer dans `content`, `formation`, `service` ou `ecommerce` selon la manière de créer de la valeur.
+- L'app quiz mesure des connaissances business. Elle peut recommander une ressource publiée, mais ne remplace pas l'orientation du site et ne déduit pas un archétype d'activité depuis un score de connaissances.
 
 ## Portée incluse
 

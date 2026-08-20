@@ -1,10 +1,10 @@
 ---
 artifact: competitive_intelligence
 metadata_schema_version: "1.0"
-artifact_version: "0.2.0"
+artifact_version: "0.3.0"
 project: "gocharbon_quiz"
 created: "2026-08-10"
-updated: "2026-08-10"
+updated: "2026-08-20"
 status: draft
 source_skill: sg-marketing
 scope: project-competitors-and-inspirations
@@ -23,10 +23,10 @@ target_projects:
   - gocharbon_quiz
 depends_on:
   - artifact: "shipglows_data/product/app_quiz/product.md"
-    artifact_version: "1.1.0"
+    artifact_version: "1.3.0"
     required_status: reviewed
   - artifact: "shipglows_data/gtm/app_quiz/gtm.md"
-    artifact_version: "1.1.0"
+    artifact_version: "1.2.0"
     required_status: reviewed
 supersedes: []
 evidence:
@@ -39,13 +39,13 @@ next_step: "Transformer les opportunités P0 retenues en une spec produit mesura
 
 ## Décision produit à préserver
 
-GoCharbon Quiz n'a pas vocation à devenir un jeu de culture générale indépendant. Sa fonction est de qualifier rapidement un débutant business, lui donner un diagnostic crédible et l'envoyer vers le prochain contenu GoCharbon pertinent.
+GoCharbon Quiz n'a pas vocation à devenir un jeu de culture générale indépendant. Sa fonction est de tester rapidement la maîtrise de notions business, donner un retour crédible par catégorie et envoyer le joueur vers le prochain contenu GoCharbon pertinent. L'orientation vers un modèle d'activité reste la responsabilité du site.
 
 Les mécaniques concurrentes ne sont donc utiles que si elles améliorent au moins un de ces indicateurs :
 
 - taux de complétion du quiz ;
 - compréhension et mémorisation des réponses ;
-- pertinence perçue du diagnostic ;
+- pertinence perçue du retour par compétence ;
 - retour volontaire à court terme ;
 - clic qualifié vers `gocharbon.fr`.
 
@@ -100,8 +100,8 @@ Le produit possède déjà des fondations cohérentes avec ce benchmark : défi 
 ### P0 - confiance pédagogique et activation
 
 1. **Contrat de qualité des questions.** Ajouter à chaque question une source, une date de vérification, un niveau, un propriétaire éditorial et un mécanisme de signalement. Détecter doublons, réponses ambiguës et explications manquantes avant publication.
-2. **Correction utile après chaque réponse.** Afficher immédiatement la bonne réponse, une explication courte et une ressource GoCharbon facultative. Mesurer ouverture de l'explication et clic vers la ressource sans interrompre les dix questions.
-3. **Diagnostic par compétence.** Restituer forces, lacunes et prochain pas par catégorie business, avec une justification compréhensible de la recommandation.
+2. **Correction utile après chaque réponse.** Afficher immédiatement la bonne réponse, une explication courte et une ressource GoCharbon facultative. Mesurer ouverture de l'explication et clic vers la ressource sans interrompre les sept questions.
+3. **Retour par compétence.** Restituer forces, lacunes et prochain pas par catégorie business, avec une justification compréhensible de la recommandation, sans inférer un profil métier.
 4. **Entrée anonyme réellement fluide.** Maintenir le quiz accessible sans compte et proposer l'inscription seulement pour conserver progression, historique ou série.
 5. **Historique des erreurs.** Permettre de revoir les réponses incorrectes et de relancer un mini-quiz ciblé, sans construire un LMS complet.
 
@@ -132,14 +132,14 @@ Le produit possède déjà des fondations cohérentes avec ce benchmark : défi 
 ## Ordre recommandé
 
 1. Auditer la banque actuelle avec le contrat de qualité P0.
-2. Prouver que la correction et le diagnostic augmentent compréhension, complétion et clic qualifié.
+2. Prouver que la correction et le retour par compétence augmentent compréhension, complétion et clic qualifié.
 3. Ajouter historique et répétition ciblée.
 4. Tester la progression adaptative sur un petit segment.
 5. N'envisager le duel asynchrone qu'après stabilisation des contenus et mesure de la rétention.
 
 ## Mesures de décision
 
-- complétion d'une session de dix questions ;
+- complétion d'une session de sept questions ;
 - taux d'ouverture des explications ;
 - taux de relance d'un quiz ciblé après erreur ;
 - retour à 7 jours après un défi quotidien ;
