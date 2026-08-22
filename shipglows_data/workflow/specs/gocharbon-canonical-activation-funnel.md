@@ -304,6 +304,7 @@ Une seule décision opératrice reste ouverte pour la tranche différée de mesu
 | 2026-08-22 | sg-development / 101-sg-ready | GPT-5 Codex | Isolation de la tranche site et revue de readiness | ready_site_slice | Implémenter les tâches 1 à 3 sur `site/` |
 | 2026-08-22 | sg-development / 102-sg-start | GPT-5 Codex | Résolveur canonique, questionnaire express et fallback de build | implemented_site_slice | Vérification locale puis preuve navigateur quand Chromium est disponible |
 | 2026-08-22 | sg-development / 103-sg-verify | GPT-5 Codex | Tests, build réduit, scan de routes et tentative navigateur | partial | Installer/exposer Chromium puis rejouer desktop/mobile |
+| 2026-08-22 | 005-sg-ship | GPT-5 Codex | Commit et push bornés de la tranche site | shipped | Conserver le déploiement hors périmètre et compléter la preuve navigateur |
 
 ## Current Chantier Flow
 
@@ -314,4 +315,4 @@ Une seule décision opératrice reste ouverte pour la tranche différée de mesu
 | Implementation | implemented | Tranche site: scoring canonique, tie-break, destinations publiques et contexte du pilote | Vérifier et livrer la branche |
 | Verification | partial | Tests orientation 8/8 et build `parcours-only` passés; navigateur indisponible sans Chromium | Rejouer desktop/mobile sur un runtime navigateur |
 | Closure | pending | Non applicable | Après preuve complète |
-| Release | pending | Commit et push de branche autorisés; aucun déploiement | Après vérification locale |
+| Release | deferred | Branche livrée pour itération; aucun déploiement effectué | Après preuve complète et plan de déploiement explicite |
