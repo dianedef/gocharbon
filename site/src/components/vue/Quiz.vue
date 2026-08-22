@@ -1,10 +1,10 @@
 <template>
   <div class="quiz-container">
     <div v-if="!quizStarted" class="quiz-intro">
-      <h2 class="quiz-title">Trouve ton Business en Ligne Idéal</h2>
+      <h2 class="quiz-title">Trouve une direction business à tester</h2>
       <p class="quiz-description">
-        Réponds à quelques questions pour découvrir le business model qui
-        correspond le mieux à tes compétences et tes envies.
+        Réponds à quelques questions pour faire ressortir les modèles les plus
+        compatibles avec tes contraintes et tes envies du moment.
       </p>
       <button @click="startQuiz" class="gc-action gc-action--primary">
         Commencer le Quiz
@@ -56,7 +56,7 @@
     </div>
 
     <div v-else class="quiz-results">
-      <h2 class="results-title">Ton Business Idéal :</h2>
+      <h2 class="results-title">Ta direction à tester</h2>
       <div class="result-card gc-card gc-card--reward">
         <div class="result-icon">{{ finalResultData.icon }}</div>
         <h3 class="result-name">{{ finalResultTitle }}</h3>
@@ -76,14 +76,14 @@
               <span class="top-two-name"
                 >{{ finalResultData.icon }} {{ finalResultTitle }}</span
               >
-              <span class="top-two-score">{{ topResult.score }} pts</span>
+              <span class="top-two-score">{{ topResult.affinity }} %</span>
             </div>
             <div class="top-two-card gc-card gc-card--informative">
               <span class="top-two-name"
                 >{{ secondResultData.icon }} {{ secondResultTitle }}</span
               >
               <span class="top-two-score"
-                >{{ secondResult?.score ?? 0 }} pts</span
+                >{{ secondResult?.affinity ?? 0 }} %</span
               >
             </div>
           </div>
@@ -127,21 +127,15 @@
             Commencer le Parcours
           </a>
           <a
-            v-if="finalBizProfile"
+            v-if="finalBizProfile && !finalBizProfile.learningPathUrl"
             :href="finalBizProfile.slug"
-            class="gc-action gc-action--primary no-link-style"
+            class="gc-action gc-action--secondary no-link-style"
           >
             Voir la Fiche
           </a>
           <button @click="resetQuiz" class="gc-action gc-action--secondary">
             Refaire le Quiz
           </button>
-          <a
-            :href="ROUTES.outils"
-            class="gc-action gc-action--primary no-link-style"
-          >
-            Voir les outils
-          </a>
           <button
             v-if="mode === 'quick'"
             type="button"
@@ -164,11 +158,9 @@ import {
   setCompletedStepIds,
 } from "../../gamification/pathProgress";
 import { setTaskCompleted } from "../../gamification/xp";
-import {
-  CANONICAL_ARCHETYPES,
-  type CanonicalArchetype,
-} from "../../data/profileTaxonomy";
+import { type CanonicalArchetype } from "../../data/profileTaxonomy";
 import { ROUTES } from "../../config/routes";
+import { describeQuizSignal, rankQuizResults } from "../../utils/quizScoring";
 
 type ProfileKey = CanonicalArchetype;
 type ProfileScores = Record<ProfileKey, number>;
@@ -277,7 +269,6 @@ const scores = reactive({
   service: 0,
   formation: 0,
 });
-const profileKeys: ProfileKey[] = [...CANONICAL_ARCHETYPES];
 const activeQuizData = computed<QuizPayload>(() => props.data ?? emptyQuizData);
 
 const currentQuestion = computed(
@@ -285,17 +276,17 @@ const currentQuestion = computed(
 );
 
 const sortedResults = computed(() =>
-  profileKeys
-    .map((profile) => ({
-      profile,
-      score: scores[profile],
-    }))
-    .sort((a, b) => b.score - a.score),
+  rankQuizResults(scores, activeQuizData.value.questions),
 );
 
 const topResult = computed(
   () =>
-    sortedResults.value[0] ?? { profile: "content" as ProfileKey, score: 0 },
+    sortedResults.value[0] ?? {
+      profile: "content" as ProfileKey,
+      rawScore: 0,
+      maxScore: 0,
+      affinity: 0,
+    },
 );
 const secondResult = computed(() => sortedResults.value[1] ?? null);
 const finalResult = computed<ProfileKey>(() => topResult.value.profile);
@@ -311,20 +302,13 @@ const secondResultData = computed(() =>
 const finalBizProfile = computed(
   () => props.bizProfiles[finalResult.value] ?? null,
 );
-const secondBizProfile = computed(() =>
-  secondResult.value
-    ? (props.bizProfiles[secondResult.value.profile] ?? null)
-    : null,
-);
 const finalRelatedProfiles = computed(
   () => finalBizProfile.value?.relatedProfiles ?? [],
 );
 
-const finalResultTitle = computed(
-  () => finalBizProfile.value?.title ?? finalResultData.value.title,
-);
+const finalResultTitle = computed(() => finalResultData.value.title);
 const finalResultDescription = computed(
-  () => finalBizProfile.value?.description ?? finalResultData.value.description,
+  () => finalResultData.value.description,
 );
 
 const secondResultTitle = computed(() => {
@@ -332,39 +316,15 @@ const secondResultTitle = computed(() => {
     return "";
   }
 
-  return secondBizProfile.value?.title ?? secondResultData.value?.title ?? "";
+  return secondResultData.value?.title ?? "";
 });
 const mode = computed(() => props.mode);
 
 const confidenceLevel = computed(() => {
-  const topScore = topResult.value.score;
-  const secondScore = secondResult.value?.score ?? 0;
-  const diff = topScore - secondScore;
-
-  if (diff >= 7) {
-    return {
-      level: "high",
-      label: "Confiance forte",
-      description:
-        "Ton profil est très net: une direction se démarque clairement.",
-    };
-  }
-
-  if (diff >= 4) {
-    return {
-      level: "medium",
-      label: "Confiance moyenne",
-      description:
-        "Ton résultat principal est solide, avec une alternative crédible.",
-    };
-  }
-
-  return {
-    level: "low",
-    label: "Confiance exploratoire",
-    description:
-      "Deux voies sont proches: teste rapidement les deux pour trancher.",
-  };
+  return describeQuizSignal(
+    topResult.value.affinity,
+    secondResult.value?.affinity ?? 0,
+  );
 });
 
 const answeredCount = computed(

@@ -123,6 +123,7 @@ Gamification locale (localStorage + xp/pathProgress)
 - Les XML du sitemap sont filtrés pour conserver un index cohérent.
 - Astro résout le mode de build côté serveur et le transmet explicitement aux islands Vue; une variable serveur non exposée ne doit pas être relue depuis le bundle navigateur.
 - `orientationResolver.ts` est l'autorité pure du questionnaire express pour les cinq archétypes, le tie-break stable, l'attribution par URL et le fallback fail-closed vers `/parcours`.
+- `quizScoring.ts` est l'autorité pure des quiz rapide et avancé pour calculer les maxima accessibles par archétype, classer les affinités relatives et qualifier l'écart entre les deux premières pistes avec des seuils comparables entre formats.
 
 ### 4.2 Filtres tags
 - `site/src/components/tagHierarchy.ts` + `static-responses.ts` : logique hiérarchique et normalisation

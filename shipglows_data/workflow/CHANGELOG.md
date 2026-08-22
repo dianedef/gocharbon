@@ -1,5 +1,7 @@
 # Changelog
 
+- **Quiz d'orientation consolidés** — classement rapide/avancé normalisé par maximum accessible à chaque archétype, seuils relatifs comparables, tie-break canonique et restitution recentrée sur deux directions à tester plutôt que sur une certitude ou des scores bruts.
+
 ## 2026-08-18
 
 ### Added
