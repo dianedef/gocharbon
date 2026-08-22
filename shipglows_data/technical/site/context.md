@@ -1,10 +1,10 @@
 ---
 artifact: technical_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.2"
+artifact_version: "1.1.0"
 project: "gocharbon"
 created: "2026-04-26"
-updated: "2026-06-12"
+updated: "2026-08-22"
 status: reviewed
 source_skill: manual
 scope: technical
@@ -20,6 +20,7 @@ evidence:
   - "site/src/pages"
   - "site/src/components"
   - "site/src/utils"
+  - "site/src/utils/orientationResolver.ts"
   - "site/src/data"
   - "site/src/gamification"
   - "scripts"
@@ -72,6 +73,7 @@ Le repo est principalement un site marketing/SEO + contenu, avec génération st
 - `site/src/utils` centralise logique métier partagée:
   - sélection/tagging contenu
   - scopes de build et filtres publication
+  - scoring canonique d'orientation et résolution fail-closed des destinations publiques
   - taxonomy outil
   - pré-génération / cache de filtres
   - qualification metadata d'outils
@@ -98,12 +100,14 @@ Le repo est principalement un site marketing/SEO + contenu, avec génération st
 
 - La taxonomie de tags est hiérarchique (`site/src/components/tagHierarchy.ts`) et doit rester cohérente.
 - Les flux de build doivent respecter les modes `PARCOURS_ONLY_BUILD` / `EXCLUDE_OUTILS_FROM_BUILD`.
+- Le mode `PARCOURS_ONLY_BUILD` est résolu côté Astro puis transmis aux islands; le navigateur ne doit pas tenter de lire directement cette variable serveur.
 - `AGENTS.md` et `shipglows_data/technical/site/README.md` imposent un ton direct, anti-bullshit, en français.
 - Les décisions de qualification locale ne doivent pas être inférées par branding.
 
 ## Invariants à surveiller
 
 - Si la structure `site/src/content.config.ts` change, la logique de route/tags doit être réconciliée.
+- Le questionnaire express ne produit que les cinq archétypes de `profileTaxonomy.ts`; `orientationResolver.ts` gouverne le tie-break et le fallback vers une route publiée.
 - Les changements de metadata outils impactent l'affichage public (badges, classement).
 - Une route dynamique API doit rester compatible cache/static-generation actuelle pour ne pas casser le SEO.
 - `shipglows_data/technical/site/context-function-tree.md` doit être mis à jour pour tout hotspot fonctionnel nouveau.

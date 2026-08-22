@@ -1,10 +1,10 @@
 ---
 artifact: artifact_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.0"
+artifact_version: "1.1.0"
 project: "gocharbon"
 created: "2026-04-26"
-updated: "2026-04-27"
+updated: "2026-08-22"
 status: reviewed
 source_skill: manual
 scope: function_tree
@@ -21,6 +21,7 @@ evidence:
   - "site/src/pages/api/filter-posts.json.ts"
   - "site/src/utils/static-responses.ts"
   - "site/src/utils/build-scope.ts"
+  - "site/src/utils/orientationResolver.ts"
   - "site/src/content.config.ts"
   - "site/src/data/parcoursData.ts"
   - "site/src/gamification/pathProgress.ts"
@@ -84,7 +85,7 @@ next_step: /sf-docs audit shipglows_data/technical/site/context-function-tree.md
 
 ## `site/src/components/vue`
 
-- `SentenceQuiz.vue` → island pour quiz court
+- `SentenceQuiz.vue` → island pour quiz court; délègue scoring, tie-break et destination au résolveur canonique et reçoit le scope de build depuis Astro
 - `PathProgressTracker.vue` → suivi des étapes parcours + XP
 - `CharbonGamificationDashboard.vue` + `GamificationBar.vue`, `CharbonBadgeCard.vue`, `BrutalCheckbox.vue`
 - logique de progression + animation + persistance locale
@@ -101,6 +102,10 @@ next_step: /sf-docs audit shipglows_data/technical/site/context-function-tree.md
 
 - `build-scope.ts`
   - `isParcoursOnlyBuild()`, `isLaunchBuildPath()`, filtrage routes visibles
+- `orientationResolver.ts`
+  - score uniquement les cinq archétypes canoniques
+  - applique le tie-break stable de `profileTaxonomy.ts`
+  - conserve le contexte d'orientation et replie toute destination non publiée vers `/parcours`
 - `build-posts.ts`
   - visibilité build + exclusion `draft` / dates / outils
 - `static-responses.ts`

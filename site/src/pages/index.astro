@@ -135,7 +135,7 @@ const homeDescription = launchBuild
             <h2 id="questionnaire-title">Quel filon mérite vraiment ton énergie&nbsp;?</h2>
             <p>Complète la phrase. On croise ton objectif, ton budget et ton niveau pour te donner une première direction crédible.</p>
           </div>
-          <SentenceQuiz client:visible />
+          <SentenceQuiz parcoursOnlyBuild={launchBuild} client:visible />
           <div class="expedition-proof" aria-label="Garanties du questionnaire">
             <span>Sans inscription</span>
             <span>Résultat immédiat</span>

@@ -2,22 +2,35 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { quizData } from '../../data/quizData.js'
 import { ROUTES } from '../../config/routes'
+import { isLaunchBuildPath } from '../../utils/build-scope'
+import {
+  resolveOrientationDestination,
+  scoreOrientation,
+  selectOrientationArchetype,
+} from '../../utils/orientationResolver'
+
+const props = defineProps({
+  parcoursOnlyBuild: {
+    type: Boolean,
+    default: false,
+  },
+})
 
 const questions = {
   goal: {
     placeholder: '______',
     options: [
-      { label: 'générer du cash rapidement', points: { service: 3, livecommerce: 2, ecommerce: 1 } },
+      { label: 'générer du cash rapidement', points: { service: 3, ecommerce: 1 } },
       { label: 'construire un actif long terme', points: { saas: 3, content: 1 } },
       { label: 'monétiser mon expertise', points: { formation: 3, service: 2 } },
-      { label: 'créer une audience', points: { content: 3, livecommerce: 1, formation: 1 } },
+      { label: 'créer une audience', points: { content: 3, formation: 1 } },
     ],
   },
   budget: {
     placeholder: '______',
     options: [
-      { label: '0 à 100€', points: { service: 2, content: 2, livecommerce: 2, formation: 1 } },
-      { label: '100 à 500€', points: { service: 2, formation: 2, livecommerce: 1, ecommerce: 1 } },
+      { label: '0 à 100€', points: { service: 2, content: 2, formation: 1 } },
+      { label: '100 à 500€', points: { service: 2, formation: 2, ecommerce: 1 } },
       { label: '500 à 2 000€', points: { ecommerce: 3, saas: 1 } },
       { label: 'plus de 2 000€', points: { saas: 2, ecommerce: 2 } },
     ],
@@ -25,30 +38,21 @@ const questions = {
   mode: {
     placeholder: '______',
     options: [
-      { label: 'en direct avec des clients', points: { service: 3, livecommerce: 2, formation: 1 } },
+      { label: 'en direct avec des clients', points: { service: 3, formation: 1 } },
       { label: 'sur un produit scalable', points: { saas: 3, ecommerce: 2 } },
-      { label: 'en créant du contenu', points: { content: 3, livecommerce: 1, formation: 2 } },
+      { label: 'en créant du contenu', points: { content: 3, formation: 2 } },
       { label: 'de façon flexible', points: { service: 1, content: 1, ecommerce: 1, formation: 1, saas: 1 } },
     ],
   },
   tech: {
     placeholder: '______',
     options: [
-      { label: 'débutant', points: { service: 2, livecommerce: 2, formation: 2, content: 1 } },
-      { label: 'à l\'aise en no-code', points: { ecommerce: 2, content: 2, livecommerce: 1, service: 1 } },
+      { label: 'débutant', points: { service: 2, formation: 2, content: 1 } },
+      { label: 'à l\'aise en no-code', points: { ecommerce: 2, content: 2, service: 1 } },
       { label: 'plutôt bon', points: { saas: 3, service: 1 } },
       { label: 'très à l\'aise', points: { saas: 3, ecommerce: 1 } },
     ],
   },
-}
-
-const profileUrls = {
-  ecommerce: { profile: '/biz/profils/ecommerce', parcours: '/parcours/e-commerce' },
-  saas: { profile: '/biz/profils/saas', parcours: '/parcours/logiciel-saas' },
-  content: { profile: '/biz/profils/content-creator', parcours: '/parcours/createur-contenu' },
-  service: { profile: '/biz/profils/freelance', parcours: '/parcours/freelance' },
-  formation: { profile: '/biz/profils/formation', parcours: '/parcours/formation' },
-  livecommerce: { profile: '/biz/profils/livecommerce', parcours: '/parcours/live-commerce' },
 }
 
 const selections = ref({ goal: '', budget: '', mode: '', tech: '' })
@@ -84,21 +88,21 @@ const allSelected = computed(() =>
 
 const result = computed(() => {
   if (!allSelected.value) return null
-  const scores = { ecommerce: 0, saas: 0, content: 0, service: 0, formation: 0, livecommerce: 0 }
+  const pointSets = []
   for (const key of ['goal', 'budget', 'mode', 'tech']) {
     const idx = parseInt(selections.value[key])
     if (isNaN(idx)) return null
-    const points = questions[key].options[idx].points
-    for (const [profile, value] of Object.entries(points)) {
-      if (profile in scores) scores[profile] += value
-    }
+    pointSets.push(questions[key].options[idx].points)
   }
-  const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1])
-  const [topProfile] = sorted[0]
+  const scores = scoreOrientation(pointSets)
+  const topProfile = selectOrientationArchetype(scores)
   return {
     profile: topProfile,
     ...quizData.results[topProfile],
-    urls: profileUrls[topProfile],
+    destination: resolveOrientationDestination(topProfile, {
+      parcoursOnly: props.parcoursOnlyBuild,
+      isPublishedPath: isLaunchBuildPath,
+    }),
   }
 })
 </script>
@@ -198,9 +202,12 @@ const result = computed(() => {
           </div>
         </div>
         <p class="sq-result-desc">{{ result.description }}</p>
+        <p v-if="result.destination.fallbackMessage" class="sq-result-fallback gc-notice">
+          {{ result.destination.fallbackMessage }}
+        </p>
         <div class="sq-result-actions">
-          <a :href="result.urls.parcours" class="gc-action gc-action--primary">Voir le Parcours</a>
-          <a :href="ROUTES.quizRapide" class="gc-action gc-action--secondary">Affiner avec le Quiz (2 min)</a>
+          <a :href="result.destination.href" class="gc-action gc-action--primary">{{ result.destination.actionLabel }}</a>
+          <a v-if="!props.parcoursOnlyBuild" :href="ROUTES.quizRapide" class="gc-action gc-action--secondary">Affiner avec le Quiz (2 min)</a>
         </div>
       </div>
     </transition>

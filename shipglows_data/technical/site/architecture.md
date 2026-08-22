@@ -1,10 +1,10 @@
 ---
 artifact: architecture_context
 metadata_schema_version: "1.0"
-artifact_version: "1.0.1"
+artifact_version: "1.1.0"
 project: "gocharbon"
 created: "2026-04-26"
-updated: "2026-06-12"
+updated: "2026-08-22"
 status: reviewed
 source_skill: manual
 scope: architecture
@@ -25,6 +25,7 @@ evidence:
   - "site/src/components"
   - "site/src/data"
   - "site/src/utils"
+  - "site/src/utils/orientationResolver.ts"
 linked_systems:
   - "AGENT.md"
   - "shipglows_data/technical/site/context-function-tree.md"
@@ -120,6 +121,8 @@ Gamification locale (localStorage + xp/pathProgress)
 - Env var `PARCOURS_ONLY_BUILD=1` active le périmètre réduit.
 - Les routes non-prioritaires peuvent être supprimées ou désactivées côté HTML.
 - Les XML du sitemap sont filtrés pour conserver un index cohérent.
+- Astro résout le mode de build côté serveur et le transmet explicitement aux islands Vue; une variable serveur non exposée ne doit pas être relue depuis le bundle navigateur.
+- `orientationResolver.ts` est l'autorité pure du questionnaire express pour les cinq archétypes, le tie-break stable, l'attribution par URL et le fallback fail-closed vers `/parcours`.
 
 ### 4.2 Filtres tags
 - `site/src/components/tagHierarchy.ts` + `static-responses.ts` : logique hiérarchique et normalisation

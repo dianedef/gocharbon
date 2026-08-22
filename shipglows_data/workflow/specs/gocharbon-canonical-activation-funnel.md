@@ -1,13 +1,13 @@
 ---
 artifact: spec
 metadata_schema_version: "1.0"
-artifact_version: "0.1.0"
+artifact_version: "1.0.0"
 project: "gocharbon"
 created: "2026-08-20"
 created_at: "2026-08-20 07:59:15 UTC"
-updated: "2026-08-20"
-updated_at: "2026-08-20 07:59:15 UTC"
-status: draft
+updated: "2026-08-22"
+updated_at: "2026-08-22 00:19:32 UTC"
+status: ready
 source_skill: 100-sg-spec
 source_model: "GPT-5 Codex"
 scope: "cross-surface-activation-funnel"
@@ -49,12 +49,12 @@ evidence:
   - "https://docs.convex.dev/functions/http-actions documents public HTTP actions, explicit request validation responsibility and CORS handling."
   - "https://docs.convex.dev/scheduling/cron-jobs documents recurring cleanup jobs."
   - "https://docs.convex.dev/production/usage-limits documents deployment-level usage guardrails."
-next_step: "Resolve the anonymous measurement data-policy decision, then run readiness review."
+next_step: "Run desktop/mobile browser proof when Chromium is available, then ready the deferred app slice."
 ---
 
 # Spec: funnel d'activation canonique GoCharbon
 
-🔴 [gocharbon] spec: Funnel d'activation canonique GoCharbon | status: draft | path: shipglows_data/workflow/specs/gocharbon-canonical-activation-funnel.md | next: measurement-policy-decision | id: gocharbon-canonical-activation-funnel
+🔴 [gocharbon] spec: Funnel d'activation canonique GoCharbon | status: ready | path: shipglows_data/workflow/specs/gocharbon-canonical-activation-funnel.md | next: site-browser-proof | id: gocharbon-canonical-activation-funnel
 
 ## Title
 
@@ -62,7 +62,7 @@ Funnel d'activation canonique GoCharbon
 
 ## Status
 
-Draft décisionnel complet. L'architecture produit, le périmètre pilote et les contrats de comportement sont fixés. La readiness reste bloquée sur une décision explicite de collecte et de rétention des événements anonymes.
+Ready pour la tranche site `orientation → destination publique → première action locale`. Les tranches app et mesure hébergée restent explicitement différées; la décision de collecte et de rétention n'autorise ni ne bloque l'implémentation locale du pilote site.
 
 ## User Story
 
@@ -140,6 +140,10 @@ GoCharbon expose actuellement deux produits appelés « quiz » qui répondent �
 - Optimisation SEO ou éditoriale générale des cinq parcours pilotes.
 - Déploiement, modification de DNS ou suppression du runtime legacy.
 
+## Ready Delivery Slice
+
+La readiness du présent run couvre uniquement les tâches 1 à 3 sur la surface `site/` : contrat local de destination publique, alignement de `SentenceQuiz` sur cinq archétypes, fallback de build, contexte `service` et accès à la première action locale du parcours freelance. Les tâches 4 à 6 restent différées. Aucun code Flutter/Convex, événement hébergé, changement de confidentialité ou déploiement n'est autorisé par cette transition.
+
 ## Constraints
 
 - Le build production du site reste `parcours-only` tant qu'une décision de lancement distincte ne le change pas.
@@ -151,7 +155,7 @@ GoCharbon expose actuellement deux produits appelés « quiz » qui répondent �
 
 ## Test Contract
 
-Profiles: site statique desktop/mobile en build `parcours-only` et complet; Flutter Web sur `quiz.gocharbon.fr`; Convex HTTP uniquement si la collecte anonyme est approuvée. Proof order: tests unitaires de taxonomie/résolution → build site réduit et scan des liens → tests Flutter/Convex de recommandation → parcours navigateur du pilote → preuve de collecte/rejet des événements → QA manuelle du wording et du repli. La spécification peut être revue maintenant; la preuve de mesure hébergée reste interdite avant décision de politique de données.
+Profiles: tranche prête — site statique desktop/mobile en build `parcours-only` et complet. Proof order: tests unitaires de scoring/tie-break/résolution → build site réduit et scan des liens → parcours navigateur du pilote. Tranches différées — Flutter Web sur `quiz.gocharbon.fr` et Convex HTTP uniquement après leur readiness propre; la preuve de mesure hébergée reste interdite avant décision de politique de données.
 
 ## Dependencies
 
@@ -159,7 +163,7 @@ Profiles: site statique desktop/mobile en build `parcours-only` et complet; Flut
 - `build-scope.ts` reste l'autorité du périmètre public du lancement.
 - Les recommandations Convex restent l'autorité du choix de ressource après un quiz de connaissances.
 - Le parcours freelance et sa progression locale existent déjà.
-- La décision de collecte/rétention anonyme est la seule dépendance opératrice avant readiness.
+- La décision de collecte/rétention anonyme bloque uniquement la tranche de mesure hébergée; elle ne bloque pas la tranche site prête.
 
 ## Invariants
 
@@ -240,12 +244,12 @@ Recommandation soumise à autorité : ingestion first-party dans une table Conve
 
 ## Implementation Tasks
 
-1. **Créer le contrat de destination publique.** Target: données/résolveurs du site et contrat de recommandation app. Action: exposer pour chaque source le type de quiz, l'axe de résultat, la destination canonique et sa disponibilité dans le build courant. User-story link: évite les recommandations mortes. Dependency: décisions `GC-ACT-001..005`. Validation: tests de mapping exhaustifs et zéro destination absente dans le build réduit.
-2. **Aligner l'orientation du site.** Target: `SentenceQuiz`, quiz rapide/avancé et taxonomie. Action: supprimer le scoring primaire `livecommerce`, traiter le live comme une préférence transversale, consommer les cinq archétypes, définir le tie-break et appliquer le fallback public. User-story link: produit une orientation cohérente sans confondre format et modèle économique. Dependency: tâche 1. Validation: scénarios déterministes par archétype, préférence live avec et sans intention de vente, égalité et route absente.
-3. **Livrer le pilote service → freelance.** Target: homepage, résultat d'orientation, parcours freelance et progression locale. Action: préserver le contexte `service`, ouvrir le parcours public et émettre/marquer la première action sans compte. User-story link: atteint le premier résultat concret. Dependency: tâches 1–2. Validation: test navigateur mobile/desktop et rechargement local.
-4. **Aligner l'app sur son rôle de connaissances.** Target: résultats Flutter, recommandations Convex, profil et partages. Action: retirer le vocabulaire d'orientation métier, vérifier toutes les destinations publiées et conserver une attribution stable. User-story link: évite la confusion entre maîtrise et modèle d'activité. Dependency: tâche 1. Validation: tests Flutter/Convex et scan des URLs finales.
-5. **Implémenter la mesure autorisée.** Target: adaptateurs d'événements site/app et, après autorité, endpoint/table Convex dédiés. Action: appliquer l'allowlist, l'idempotence, les limites, la rétention avec suppression planifiée, l'agrégation sans identifiant et le fail-open produit. User-story link: mesure la valeur du funnel. Dependency: décision `GC-ACT-006` et tâches 1–4. Validation: événements success/fallback, rejet PII/payload, retry, agrégation et expiration.
-6. **Aligner la documentation et la confidentialité.** Target: docs canoniques techniques/API/confidentialité. Action: documenter le rôle des surfaces, le contrat d'événements réellement livré et les limites de claim. User-story link: maintient la confiance. Dependency: comportement final des tâches 1–5. Validation: revue de cohérence et absence de fournisseur ou collecte fantôme.
+1. **[IMPLEMENTED — site] Créer le contrat de destination publique.** Target: données/résolveurs du site. Action: exposer pour chaque archétype la destination canonique et sa disponibilité dans le build courant. User-story link: évite les recommandations mortes. Dependency: décisions `GC-ACT-001..005`. Validation: tests de mapping exhaustifs et zéro destination absente dans le build réduit.
+2. **[IMPLEMENTED — site] Aligner l'orientation du site.** Target: `SentenceQuiz` et taxonomie canonique déjà consommée par les autres quiz. Action: supprimer le scoring primaire `livecommerce`, traiter le live comme une préférence transversale, consommer les cinq archétypes, définir le tie-break et appliquer le fallback public. User-story link: produit une orientation cohérente sans confondre format et modèle économique. Dependency: tâche 1. Validation: scénarios déterministes par archétype, préférence live sans intention de vente, égalité et route absente.
+3. **[IMPLEMENTED — browser proof pending] Livrer le pilote service → freelance.** Target: homepage, résultat d'orientation, parcours freelance et progression locale existante. Action: préserver le contexte `service`, ouvrir le parcours public et laisser la première action marquable sans compte. User-story link: atteint le premier résultat concret. Dependency: tâches 1–2. Validation: test automatisé de destination et build réduit passés; preuve navigateur mobile/desktop en attente d'un runtime Chromium.
+4. **[DEFERRED] Aligner l'app sur son rôle de connaissances.** Target: résultats Flutter, recommandations Convex, profil et partages. Action: retirer le vocabulaire d'orientation métier, vérifier toutes les destinations publiées et conserver une attribution stable. User-story link: évite la confusion entre maîtrise et modèle d'activité. Dependency: contrat cross-surface prêt et readiness app. Validation: tests Flutter/Convex et scan des URLs finales.
+5. **[BLOCKED — operator authority] Implémenter la mesure autorisée.** Target: adaptateurs d'événements site/app et, après autorité, endpoint/table Convex dédiés. Action: appliquer l'allowlist, l'idempotence, les limites, la rétention avec suppression planifiée, l'agrégation sans identifiant et le fail-open produit. User-story link: mesure la valeur du funnel. Dependency: décision `GC-ACT-006` et tâches 1–4. Validation: événements success/fallback, rejet PII/payload, retry, agrégation et expiration.
+6. **[DEFERRED] Aligner la documentation et la confidentialité.** Target: docs canoniques techniques/API/confidentialité. Action: documenter le contrat app/mesure réellement livré et les limites de claim. User-story link: maintient la confiance. Dependency: comportement final des tâches 4–5. Validation: revue de cohérence et absence de fournisseur ou collecte fantôme.
 
 ## Acceptance Criteria
 
@@ -290,21 +294,24 @@ Premières lectures: `site/src/data/profileTaxonomy.ts`, `site/src/components/vu
 
 ## Open Questions
 
-Une seule décision opératrice reste ouverte : autoriser ou non la collecte first-party proposée — événements anonymes allowlistés, aucune réponse/identité, événements bruts 30 jours, agrégats sans identifiant conservés pour les tendances. Sans autorisation, le funnel reste instrumenté localement et attribuable par URL, mais aucune métrique agrégée de production n'est revendiquée.
+Une seule décision opératrice reste ouverte pour la tranche différée de mesure : autoriser ou non la collecte first-party proposée — événements anonymes allowlistés, aucune réponse/identité, événements bruts 30 jours, agrégats sans identifiant conservés pour les tendances. Cette question n'affecte pas le comportement ni la preuve locale de la tranche site prête. Sans autorisation, aucune métrique agrégée de production n'est revendiquée.
 
 ## Skill Run History
 
 | Date UTC | Skill | Model | Action | Result | Next step |
 | --- | --- | --- | --- | --- | --- |
 | 2026-08-20 | sg-planning / 100-sg-spec | GPT-5 Codex | Cartographie cross-surface, décisions produit et création du contrat P0 | draft_complete | Décider la politique de mesure, puis évaluer la readiness |
+| 2026-08-22 | sg-development / 101-sg-ready | GPT-5 Codex | Isolation de la tranche site et revue de readiness | ready_site_slice | Implémenter les tâches 1 à 3 sur `site/` |
+| 2026-08-22 | sg-development / 102-sg-start | GPT-5 Codex | Résolveur canonique, questionnaire express et fallback de build | implemented_site_slice | Vérification locale puis preuve navigateur quand Chromium est disponible |
+| 2026-08-22 | sg-development / 103-sg-verify | GPT-5 Codex | Tests, build réduit, scan de routes et tentative navigateur | partial | Installer/exposer Chromium puis rejouer desktop/mobile |
 
 ## Current Chantier Flow
 
 | Stage | Status | Evidence | Next action |
 | --- | --- | --- | --- |
-| Specification | completed | Rôles, pilote, invariants, tâches, critères, preuve et risques documentés | Résoudre la politique de mesure |
-| Readiness | blocked | Rétention et collecte anonymes non encore autorisées | Décision opératrice unique |
-| Implementation | pending | Aucun code produit modifié | Après readiness |
-| Verification | pending | Contrat de preuve défini | Après implémentation |
+| Specification | completed | Rôles, pilote, invariants, tâches, critères, preuve et risques documentés | Préserver les tranches différées |
+| Readiness | ready | Tranche site isolée; app et mesure hors périmètre du run | Implémenter les tâches 1 à 3 |
+| Implementation | implemented | Tranche site: scoring canonique, tie-break, destinations publiques et contexte du pilote | Vérifier et livrer la branche |
+| Verification | partial | Tests orientation 8/8 et build `parcours-only` passés; navigateur indisponible sans Chromium | Rejouer desktop/mobile sur un runtime navigateur |
 | Closure | pending | Non applicable | Après preuve complète |
-| Release | pending | Non autorisée dans ce lot | Après clôture et approbation séparée |
+| Release | pending | Commit et push de branche autorisés; aucun déploiement | Après vérification locale |
