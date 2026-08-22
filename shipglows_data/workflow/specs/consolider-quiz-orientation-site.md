@@ -28,7 +28,7 @@ evidence:
   - "Les quiz rapide et avance utilisent le meme composant et cinq archetypes canoniques."
   - "Les maxima de points accessibles different selon les archetypes et les formats."
   - "Le composant appliquait les memes seuils bruts de confiance aux formats 8 et 25 questions."
-next_step: "Rejouer les builds statiques complets jusqu'a leur terme, puis effectuer une preuve navigateur des deux quiz."
+next_step: "Effectuer une preuve navigateur des deux quiz sur un environnement equipe de Chromium."
 ---
 
 # Consolider les quiz d'orientation du site
@@ -86,6 +86,7 @@ Les quiz rapide et avancé conservent leurs questions, leur préremplissage et l
 | --- | --- | --- | --- | --- | --- |
 | 2026-08-22 | sg-development | GPT-5 Codex | Formalisation et implémentation de la consolidation scoring/restitution | implemented | Exécuter les preuves ciblées |
 | 2026-08-22 | sg-development | GPT-5 Codex | Tests unitaires et compilation du bundle quiz dans le build complet | verification_partial | Rejouer les builds statiques jusqu'au terme puis preuve navigateur |
+| 2026-08-22 | sg-development | GPT-5 Codex | Build de lancement, build complet, scan de l'artefact et tests ciblés | verification_automated_complete | Preuve navigateur différée faute de Chromium |
 
 ## Current Chantier Flow
 
@@ -94,6 +95,6 @@ Les quiz rapide et avancé conservent leurs questions, leur préremplissage et l
 | Specification | completed | Contrat, invariants et critères définis depuis l'audit de l'existant | Préserver le périmètre |
 | Readiness | ready | Architecture partagée et données existantes conservées | Vérifier l'implémentation |
 | Implementation | completed | Fonction de scoring, restitution et copy des deux formats intégrées | Préserver les invariants |
-| Verification | partial | 13/13 tests passent; compilation Vite et génération des routes quiz réussies; build complet interrompu pendant le long corpus statique | Rejouer les builds jusqu'au terme puis preuve navigateur |
-| Closure | pending | Non applicable | Après preuve |
-| Release | deferred | Aucun commit ou push demandé dans ce lot | Après validation opératrice |
+| Verification | completed_automated | 13/13 tests passent; build de lancement 23 pages; build complet 2404 pages et sitemap; bundle quiz conforme; Chromium indisponible | Effectuer la preuve navigateur sur un environnement équipé |
+| Closure | completed_with_deferred_browser_proof | Contrat, code, tests et documentation cohérents; aucune erreur de build | Conserver la limite de preuve visuelle |
+| Release | shipped_to_branch | Commit `9c3ad6d2` présent sur la branche distante | Aucun déploiement revendiqué |
