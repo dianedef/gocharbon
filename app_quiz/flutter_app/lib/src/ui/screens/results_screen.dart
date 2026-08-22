@@ -8,15 +8,16 @@ import "package:share_plus/share_plus.dart";
 import "package:url_launcher/url_launcher.dart";
 
 import "../../assets/app_images.dart";
-import "../../models/course.dart";
-import "../../models/quiz_result.dart";
-import "../../models/quiz_challenge.dart";
 import "../../config/app_config.dart";
+import "../../models/course.dart";
+import "../../models/quiz_challenge.dart";
+import "../../models/quiz_result.dart";
 import "../../services/notifications/notifications.dart";
 import "../../services/sounds/sounds.dart";
 import "../../state/providers.dart";
 import "../../theme/app_colors.dart";
 import "../../theme/category_config.dart";
+import "../../utils/cross_surface_links.dart";
 import "../../utils/format_utils.dart";
 import "../../utils/icon_utils.dart";
 import "../widgets/gc_button.dart";
@@ -174,7 +175,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
     final catName = CategoryConfig.get(res.categoryDisplay ?? "random").name;
     final prefix = (res.correctCount >= 7) ? "🏆" : "💪";
     final msg =
-        "$prefix J'ai obtenu ${res.totalScore} points sur GoCharbon Business Quizz ! ${res.correctCount}/${res.totalQuestions} en $catName. Teste-toi ➡️ gocharbon.fr";
+        "$prefix J'ai obtenu ${res.totalScore} points sur GoCharbon Business Quizz ! ${res.correctCount}/${res.totalQuestions} en $catName. Teste tes connaissances ➡️ ${quizShareUri(AppConfig.publicAppUrl)}";
     try {
       await SharePlus.instance.share(ShareParams(text: msg));
     } catch (_) {}
@@ -271,8 +272,8 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
         CategoryConfig.get(result.categoryDisplay ?? "random").name;
     final scoreLabel = context?.eyebrow ?? (good ? "BRAVO !" : "BON EFFORT !");
     final actionText = course != null
-        ? "Action recommandée : ouvrir ${course.title} pour poursuivre sur GoCharbon."
-        : "Action recommandée : refaire un quiz pour obtenir une recommandation plus ciblée.";
+        ? "À partir de tes connaissances en $categoryName : ${course.title}."
+        : "Refais un quiz pour mieux cibler le thème à approfondir.";
     final streakMultiplier = result.streakMultiplier;
     final smStr = (streakMultiplier == streakMultiplier.roundToDouble())
         ? streakMultiplier.toInt().toString()
@@ -488,7 +489,7 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen>
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               const Text(
-                                "TON DIAGNOSTIC",
+                                "TES CONNAISSANCES",
                                 style: TextStyle(
                                   fontSize: GcType.caption,
                                   fontWeight: GcType.black,

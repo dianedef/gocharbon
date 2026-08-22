@@ -1,7 +1,7 @@
 ---
 artifact: architecture_context
 metadata_schema_version: "1.0"
-artifact_version: "1.6.0"
+artifact_version: "1.7.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
 updated: "2026-08-18"
@@ -51,6 +51,7 @@ next_step: "Monitor production and retain the legacy rollback until the observat
 - Flutter remains the universal application surface.
 - Firebase Authentication is the sole target identity provider: anonymous first, then Google linking.
 - Convex is the target server authority for question selection, attempts, scoring, XP, badges, leaderboard and GoCharbon recommendations.
+- Convex is also the authority for cross-surface recommendation safety: only routes published by the reduced site build may be returned, otherwise the recommendation converges on the attributed `/parcours` hub with generic copy.
 - Flutter calls Convex through HTTP with a fresh Firebase ID token. The client never supplies a trusted UID, score, correct answer or durable `user_secret`.
 - Vercel serves the Flutter Web build; provider configuration is injected through build variables only.
 
@@ -87,3 +88,9 @@ pass, while automated Browser proof remains outstanding.
 - Asynchronous challenges reference completed server attempts, reuse a fixed display-safe question set, expire after seven days and accept two distinct identities at most.
 - Public leaderboard data excludes email, Firebase UID and private progression details.
 - Firebase Admin credentials, OAuth secrets, Convex deploy keys and Supabase service-role keys never enter the Flutter bundle or repository.
+
+## Product boundary
+
+- The app result describes knowledge mastery in `finance`, `marketing`, `management` or `ecommerce`; these categories never infer a business archetype.
+- Score sharing points back to the quiz app. Optional learning recommendations point to the published GoCharbon site with stable `knowledge_quiz` attribution.
+- A stored course URL outside the public route allowlist is treated as unavailable. Its specific title and description are not retained over a generic hub fallback, preventing a misleading promise even when historical seed data is stale.

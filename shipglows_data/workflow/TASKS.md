@@ -1,6 +1,6 @@
 # GoCharbon — Tasks
 
-🔴 [gocharbon] task: Rendre canonique et mesurable le funnel orientation → parcours → première action | status: in_progress | area: cross-surface-activation | id: gocharbon-canonical-activation-funnel | spec: shipglows_data/workflow/specs/gocharbon-canonical-activation-funnel.md | priority_basis: bloque les investissements quiz, parcours et micro-apprentissage tant que les responsabilités, destinations publiques et signaux de valeur se contredisent | pilot: service-to-freelance | site_slice: implemented-local | proof: orientation-tests-8/8-and-launch-build | browser: pending-runtime-chromium | next: app-readiness-and-measurement-decision
+🔴 [gocharbon] task: Rendre canonique et mesurable le funnel orientation → parcours → première action | status: in_progress | area: cross-surface-activation | id: gocharbon-canonical-activation-funnel | spec: shipglows_data/workflow/specs/gocharbon-canonical-activation-funnel.md | priority_basis: bloque les investissements quiz, parcours et micro-apprentissage tant que les responsabilités, destinations publiques et signaux de valeur se contredisent | pilot: service-to-freelance | site_slice: implemented-branch | app_slice: implemented-local | proof: site-tests-8/8-launch-build-and-convex-tests-4/4-typecheck | runtime_proof: pending-chromium-and-flutter-sdk | next: runtime-proof-and-measurement-decision
 
 - [x] sf-deps audit remediation run (2026-05-24)
   - status: done

@@ -140,11 +140,11 @@ class RecommendationContext {
       targetCategoryLabel:
           json["target_category_label"] as String? ?? "Business",
       targetLevel: json["target_level"] as String? ?? "beginner",
-      eyebrow: json["eyebrow"] as String? ?? "TON DIAGNOSTIC",
-      title: json["title"] as String? ?? "Ton quiz donne une piste claire.",
+      eyebrow: json["eyebrow"] as String? ?? "TES CONNAISSANCES",
+      title: json["title"] as String? ?? "Ton quiz situe ta maîtrise du thème.",
       summary:
           json["summary"] as String? ??
-          "Continue avec une ressource GoCharbon adaptée à ton niveau.",
+          "Ce résultat mesure tes connaissances, pas le type de business qui te correspond.",
       focus:
           json["focus"] as String? ??
           "Passe du quiz à une prochaine action concrète.",

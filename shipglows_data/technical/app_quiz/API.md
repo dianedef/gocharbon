@@ -1,7 +1,7 @@
 ---
 artifact: documentation
 metadata_schema_version: "1.0"
-artifact_version: "1.5.0"
+artifact_version: "1.6.0"
 project: "gocharbon_quiz"
 created: "2026-04-27"
 updated: "2026-08-18"
@@ -57,7 +57,7 @@ The server derives the player identity exclusively from the validated token. A m
 | Read challenge | public by opaque code | Returns the fixed display-safe question set and public comparison entries; never answer keys or private identifiers. |
 | Join challenge | authenticated player | Attaches one owned attempt with the exact same rules and question set; a challenge accepts two distinct players. |
 | Leaderboard | public display data | Returns rank and presentation fields only, without UID or email. |
-| Recommendations | authenticated player | Returns GoCharbon recommendations derived from the server-calculated result. |
+| Recommendations | authenticated player | Returns knowledge-level context plus GoCharbon recommendations derived from the server-calculated result. URLs are restricted to the published site route allowlist; unavailable, external or invalid destinations converge on the attributed `/parcours` hub with generic copy. |
 | Rank notification | authenticated player | Checks only the caller's known rank. |
 
 ## Submission invariants
@@ -66,6 +66,8 @@ The server derives the player identity exclusively from the validated token. A m
 - A submission must reference the server-issued attempt and a unique attempt token.
 - Repeating the same token returns the prior result without adding progression a second time.
 - Invalid question IDs, duplicate answers, out-of-range selections and invalid durations fail before a partial write.
+- `recommendation_context` describes thematic knowledge (`target_category`, `target_category_label`, `target_level`, `eyebrow`, `title`, `summary`, `focus`, `reason`, `cta_label`) and never returns a business archetype.
+- Recommendation URLs use `https://gocharbon.fr`, stable `knowledge_quiz` attribution and a bounded public-path allowlist. The server removes fragments and replaces a stale specific promise together with its stale destination.
 
 ## Asynchronous challenge invariants
 

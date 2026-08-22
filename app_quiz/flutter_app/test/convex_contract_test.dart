@@ -76,4 +76,38 @@ void main() {
       expect(result.toJson()["attempt_token"], "attempt-token");
     },
   );
+
+  test("recommendation context describes knowledge rather than a business", () {
+    final result = QuizResult.fromJson({
+      "total_score": 400,
+      "base_score": 400,
+      "time_bonus": 0,
+      "streak_bonus": 0,
+      "xp_gained": 400,
+      "correct_count": 4,
+      "total_questions": 7,
+      "best_streak": 2,
+      "streak_multiplier": 1,
+      "new_badges": [],
+      "level_up": false,
+      "new_level": 1,
+      "new_level_name": "Débutant",
+      "course_recommendations": [],
+      "recommendation_context": {
+        "target_category": "marketing",
+        "target_category_label": "Marketing",
+        "target_level": "beginner",
+        "eyebrow": "TES CONNAISSANCES",
+        "title": "Tes connaissances restent à consolider en Marketing.",
+        "summary":
+            "Ce résultat mesure ta maîtrise du thème joué, pas le type de business qui te correspond.",
+        "focus": "Revois les bases.",
+        "reason": "Choisi d'après tes réponses.",
+        "cta_label": "Continuer sur GoCharbon",
+      },
+    });
+
+    expect(result.recommendationContext?.eyebrow, "TES CONNAISSANCES");
+    expect(result.recommendationContext?.summary, contains("pas le type de business"));
+  });
 }

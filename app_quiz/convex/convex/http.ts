@@ -88,7 +88,12 @@ function toQuizResult(result: any) {
           target_category: result.recommendationContext.targetCategory,
           target_category_label: result.recommendationContext.targetCategoryLabel,
           target_level: result.recommendationContext.targetLevel,
+          eyebrow: result.recommendationContext.eyebrow,
+          title: result.recommendationContext.title,
+          summary: result.recommendationContext.summary,
           focus: result.recommendationContext.focus,
+          reason: result.recommendationContext.reason,
+          cta_label: result.recommendationContext.ctaLabel,
         }
       : undefined,
     answers: result.answers,

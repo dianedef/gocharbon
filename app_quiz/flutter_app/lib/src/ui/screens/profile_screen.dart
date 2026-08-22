@@ -14,6 +14,7 @@ import "../../services/auth/auth_service.dart";
 import "../../services/sounds/sounds.dart";
 import "../../state/providers.dart";
 import "../../theme/app_colors.dart";
+import "../../utils/cross_surface_links.dart";
 import "../../utils/format_utils.dart";
 import "../../utils/icon_utils.dart";
 import "../widgets/gc_button.dart";
@@ -67,7 +68,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
 
   Future<void> _openGoCharbon() async {
     unawaited(Sounds.instance.click());
-    final uri = Uri.parse("https://gocharbon.fr");
+    final uri = publicParcoursUri();
     await launchUrl(uri, mode: LaunchMode.externalApplication);
   }
 
@@ -524,7 +525,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
 
               GcNavigationCard(
                 onTap: _openGoCharbon,
-                label: "Formations sur GoCharbon",
+                label: "Parcours pratiques sur GoCharbon",
                 backgroundColor: GcAppColors.primary,
                 borderColor: GcAppColors.gold,
                 padding: const EdgeInsets.symmetric(
@@ -548,7 +549,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                       ),
                       const SizedBox(width: GcSpace.x3),
                       const Text(
-                        "Formations sur gocharbon.fr",
+                        "Parcours pratiques sur gocharbon.fr",
                         style: TextStyle(
                           fontSize: GcType.body,
                           fontWeight: GcType.black,
